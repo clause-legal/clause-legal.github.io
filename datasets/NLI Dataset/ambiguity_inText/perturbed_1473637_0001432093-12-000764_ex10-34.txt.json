@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "1473637_0001432093-12-000764_ex10-34.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "As used in this Agreement, in each case where a party is disclosing Proprietary Information that party is referred to as the \"Disclosing Party\" and the party receiving such Confidential Information is referred to as the \"Recipient\".",
+        "changed_text": "As used in this Agreement, in each case where a party *may be* disclosing Proprietary Information that party is referred to as the \"Disclosing Party\" and the party receiving such Confidential Information *may be* referred to as the \"Recipient\".",
+        "explanation": "Changing 'is disclosing' to 'may be disclosing' and 'is referred' to 'may be referred' in Section 1 introduces uncertainty about who is considered the Disclosing Party or Recipient, weakening the obligations defined later. It contradicts the certainty assumed in sections like Section 2, where Recipient 'agrees to hold Proprietary Information in confidence,' suggesting the obligations are not consistently applied.",
+        "location": "1",
+        "contradicted_location": "2",
+        "contradicted_text": "Recipient agrees to hold Proprietary Information in confidence and to protect it against disclosure to the public and third parties. Accordingly, Recipient shall employ protective measures fully commensurate with those used by Recipient to protect its own trade secrets and other confidential information from disclosure to the public and to third parties. Such measures shall include restricting access to Proprietary Information only to Recipient's employees or agents whose access is reasonably necessary to carry out the Purpose and who have legally enforceable obligations to Recipient that would conform to the obligations of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'is disclosing' to 'may be disclosing' and 'is referred' to 'may be referred' introduces ambiguity and weakens the definition of 'Disclosing Party' and 'Recipient'. This directly contradicts the certainty assumed in the 'Contradicted Text', specifically the phrase 'Recipient agrees to hold Proprietary Information in confidence'. The use of 'may be' creates uncertainty regarding whether the Recipient is actually obligated to hold the information in confidence, leading to a direct conflict and making enforcement unclear."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Recipient agrees to hold Proprietary Information in confidence and to protect it against disclosure to the public and third parties.",
+        "changed_text": "Recipient *endeavors* to hold Proprietary Information in confidence and *attempts* to protect it against disclosure to the public and third parties.",
+        "explanation": "Changing 'agrees to hold' to 'endeavors to hold' and 'protect' to 'attempts to protect' in Section 2 weakens the obligation to maintain confidentiality. The original text imposes a clear duty, while the modified text suggests a weaker commitment. This directly contradicts the implicit requirement for strict confidentiality in Section 5, which lists exceptions to confidentiality obligations. If the 'attempt' to protect information fails, it creates uncertainty whether Recipient is still bound by the original confidentiality intentions",
+        "location": "2",
+        "contradicted_location": "5",
+        "contradicted_text": "The obligations of confidentiality and restrictions on use set forth in Paragraph 2 above do not apply to information that Recipient can demonstrate by competent physical evidence: (a) Was already known by Recipient prior to receipt from Discloser or becomes known by Recipient independently of Discloser through no wrongful act of Recipient; (b) is now, or becomes, publicly known through no violation of this Agreement; (c) is disclosed pursuant to law, regulation or lawful order or process, provided that Recipient promptly notifies Discloser so as to permit Discloser to oppose or limit such disclosure; or (d) is approved in writing by Discloser for disclosure to a third party by Recipient. Proprietary Information disclosed by Discloser to Recipient shall not be deemed to come under the above exceptions merely because it is embraced by more general information that is or becomes subject to the above exceptions. In addition, any combination of features shall not be deemed to be within the foregoing exceptions merely because individual features are in the public domain or in the possession of the Recipient, but only if the combination itself and its principle of operation are in the public domain or in the possession of the Recipient.",
+        "contradiction_exists": "YES",
+        "justification": "The original text creates a clear obligation ('agrees to hold', 'protect'), whereas the changed text weakens this obligation to 'endeavors to hold' and 'attempts to protect'. This change creates uncertainty about whether the recipient is truly obligated to maintain confidentiality, which directly contradicts Section 5's implicit requirement for strict confidentiality as it lists exceptions based on an assumption that the obligation is strict. If the obligation is merely to 'attempt' and that attempt fails, it makes the exceptions in Section 5 ambiguous and potentially inapplicable, thus creating a strong in-text contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Recipient agrees to use Proprietary Information only for the Purpose.",
+        "changed_text": "Recipient agrees to *primarily* use Proprietary Information for the Purpose.",
+        "explanation": "Adding 'primarily' in Section 3 introduces ambiguity, suggesting the Recipient may use the Proprietary Information for reasons beyond the defined Purpose. This weakens the restriction on use and contradicts the explicit limitation stated in Section 7, where the agreement is said to be protecting Proprietary Information 'only', which does not include a 'primarily' aspect of it.",
+        "location": "3",
+        "contradicted_location": "7",
+        "contradicted_text": "Nothing in this Agreement shall be construed to impose any obligation on Discloser to disclose information to the Recipient, or to enter into any other agreement of any nature. This Agreement is for protecting Proprietary Information only. No rights or obligations other than those expressly recited herein are granted or to be implied from this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the recipient agrees to use Proprietary Information 'only' for the defined purpose. The changed text introduces the word 'primarily', implying the Recipient can use the information for reasons beyond the defined purpose. This directly contradicts the statement in the Contradicted Text that 'This Agreement is for protecting Proprietary Information only,' creating a clear in-text contradiction as the agreement's exclusivity is undermined."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Recipient agrees not to reverse-engineer or have a third party reverse-engineer the Proprietary Information without first obtaining the express, written consent of Discloser.",
+        "changed_text": "Recipient agrees *to make reasonable efforts* not to reverse-engineer or have a third party reverse-engineer the Proprietary Information without first obtaining the express, written consent of Discloser.",
+        "explanation": "By inserting 'to make reasonable efforts' in Section 4, the original strict prohibition against reverse-engineering becomes a weaker obligation based on 'reasonable efforts.' This introduces a loophole if reverse-engineering occurs despite such efforts. This now is contradicting Section 15, as it is a 'breach' with 'reasonable efforts' being made or not, making the process of obtaining an injunction more complicated with a 'weaker' and more ambiguous action.",
+        "location": "4",
+        "contradicted_location": "15",
+        "contradicted_text": "In the event of a breach or threatened breach by Recipient of any of the provisions of the Agreement, Discloser, in addition to any other remedies available to it under law, at equity or otherwise, shall be entitled to seek an injunction restraining Recipient from the performance of acts that constitute a breach or threatened breach of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text had a strict prohibition on reverse-engineering. The changed text weakens this prohibition by adding 'to make reasonable efforts,' creating a loophole. The contradicted text allows Discloser to seek an injunction in the event of 'any breach.' With the 'reasonable efforts' clause, it's now unclear whether reverse-engineering, despite 'reasonable efforts,' constitutes a breach that warrants an injunction, thus creating a contradiction that would affect the process of obtaining an injunction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement shall remain in force for a period two (2) years, unless terminated earlier on thirty (30) days written notice provided by either Party.",
+        "changed_text": "This Agreement shall remain in force for a period two (2) years, *but may be extended or shortened by mutual agreement in writing*, unless terminated earlier on thirty (30) days written notice provided by either Party.",
+        "explanation": "Adding 'but may be extended or shortened by mutual agreement in writing' in Section 13 introduces flexibility to the agreement's term, contradicting the original fixed two-year period. This contradicts the reference to the agreement termination in Section 2, where the Recipient is said to have legal obligations that conform to the obligations of this agreement, but the agreement can now have an undefined termination time making the legal obligations on this regard undefined.",
+        "location": "13",
+        "contradicted_location": "2",
+        "contradicted_text": "Recipient agrees to hold Proprietary Information in confidence and to protect it against disclosure to the public and third parties. Accordingly, Recipient shall employ protective measures fully commensurate with those used by Recipient to protect its own trade secrets and other confidential information from disclosure to the public and to third parties. Such measures shall include restricting access to Proprietary Information only to Recipient's employees or agents whose access is reasonably necessary to carry out the Purpose and who have legally enforceable obligations to Recipient that would conform to the obligations of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces the possibility of extending or shortening the agreement's term, which directly contradicts the original fixed two-year period. This undermines the 'legally enforceable obligations' mentioned in the contradicted text, as the agreement's duration is no longer clearly defined, making it difficult to ascertain the extent of those obligations. The change creates ambiguity where there was previously certainty, creating a clear and direct conflict within the document."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "All additions or modifications to this Agreement must be made in writing and executed by the Parties.",
+        "changed_text": "All additions or modifications to this Agreement *should ideally* be made in writing and executed by the Parties.",
+        "explanation": "By changing 'must be' to 'should ideally be' in Section 12, the requirement for written modifications becomes a suggestion. This creates uncertainty about whether oral modifications are enforceable, contradicting the purpose of Section 11, which states that 'This Agreement constitutes the entire agreement and understanding of the Parties related to confidentiality', the oral modifications can create in-text contradictions with the confidentiality protocols in effect.",
+        "location": "12",
+        "contradicted_location": "11",
+        "contradicted_text": "This Agreement constitutes the entire agreement and understanding of the Parties related to confidentiality and limited use of Proprietary Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text weakens the requirement for written modifications from 'must be' to 'should ideally be'. This introduces ambiguity, potentially allowing for oral modifications. This directly contradicts the 'entire agreement' clause related to confidentiality, because oral agreements related to confidentiality would not be covered by this agreement."
+      }
+    ]
+  }
+]

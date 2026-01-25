@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "118.3-Non-disclosure-agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Recipient undertakes not to use t he Confide ntial Information for any purpose except the Purpose, without first obtaining the written agreement of the Discloser.",
+        "changed_text": "The Recipient undertakes not to use t he Confide ntial Information for any purpose unless required to fulfill other legal obligations, without first obtaining the written agreement of the Discloser.",
+        "explanation": "By adding 'unless required to fulfill other legal obligations' to clause 2, the Recipient has an exception to the non-use restriction. This directly contradicts the spirit of the NDA, especially considering Clause 3, where, the **in-text contradiction**, undermines the primary purpose of the NDA, to protect the Discloser's information.",
+        "location": "2",
+        "contradicted_location": "3",
+        "contradicted_text": "The Recipient undertakes to keep the Confidential Information secure and not to disclose it to any third party .",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that the Recipient cannot use the Confidential Information for any purpose except the Purpose, without written agreement. The changed text adds an exception: 'unless required to fulfill other legal obligations'. This directly contradicts the contradicted text, which states 'The Recipient undertakes to keep the Confidential Information secure and not to disclose it to any third party.' The 'legal obligations' exception allows disclosure in certain circumstances, breaking the promise of non-disclosure, thus creating a strong in-text contradiction. This aligns with the 'Ambiguities - In Text Contradiction' perturbation type, where key obligations are defined inconsistently."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Recipient undertakes to keep the Confidential Information secure and not to disclose it to any third party .",
+        "changed_text": "The Recipient undertakes to keep the Confidential Information reasonably secure and not to intentionally disclose it to any third party.",
+        "explanation": "Changing 'secure' to 'reasonably secure' and 'not to disclose' to 'not to intentionally disclose' weakens the obligation to protect confidentiality. This alteration makes it easier for the Recipient to argue that a data breach or inadvertent disclosure was not a breach of contract. This **in-text contradiction** of a weaken obligation undermines the initial expectation of strict confidentiality established.",
+        "location": "3",
+        "contradicted_location": "8",
+        "contradicted_text": "The undertakings in clauses 2 and 3 will continue in force indefinitely.",
+        "contradiction_exists": "YES",
+        "justification": "The original text imposes a strict obligation to keep confidential information 'secure' and 'not to disclose' it. The changed text weakens this obligation by changing 'secure' to 'reasonably secure' and 'not to disclose' to 'not to intentionally disclose'. The contradicted text states that the confidentiality obligations in clauses 2 and 3 continue 'indefinitely'. By weakening the obligation, the changed text contradicts the original intent of indefinite and strict confidentiality, making it easier for the Recipient to argue non-compliance, which is a clear contradiction. This aligns with the definition of 'Ambiguities – In Text Contradiction' because the key obligation is now defined inconsistently, and its enforcement is unclear."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The undertakings in clauses 2 and 3 above apply to all of the information disclosed by the Discloser to the Recipient, regardless of the way or form in which it is disclosed or recorded but they do not apply to: a) any information which is or in future comes into the public domain (unless as a result of the breach of this Agreement); or b) any information which is already known to the Recipient and which was not subject to any obligation of confidence before it was disclosed to the Recipient by the Discloser.",
+        "changed_text": "The undertakings in clauses 2 and 3 above apply to all of the information disclosed by the Discloser to the Recipient, regardless of the way or form in which it is disclosed or recorded but they do not apply to: a) any information which is or in future comes into the public domain; or b) any information which is already known to the Recipient and which was not subject to any obligation of confidence before it was disclosed to the Recipient by the Discloser.",
+        "explanation": "Removing '(unless as a result of the breach of this Agreement)' from clause 4a creates a loophole. Now, if the Recipient breaches the agreement and the information enters the public domain *because* of that breach, the Recipient is no longer bound by clauses 2 and 3. The added phrase now contradicts the underlying intent of the original clause, which was to prevent escaping liability through a breach. The **in-text contradiction** lies between the agreement's overall purpose (protecting confidential information) and this exception that allows the breach to nullify obligations.",
+        "location": "4",
+        "contradicted_location": "8",
+        "contradicted_text": "The undertakings in clauses 2 and 3 will continue in force indefinitely.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the undertakings in clauses 2 and 3 do not apply to information that becomes public unless it's due to a breach. The changed text removes this exception, creating a loophole where if the Recipient breaches the agreement and the information enters the public domain because of that breach, clauses 2 and 3 no longer apply. This directly contradicts the contradicted text which states clauses 2 and 3 will continue indefinitely. By removing the phrase '(unless as a result of the breach of this Agreement)', the Recipient can escape liability due to their own breach, causing a direct conflict as the agreement should protect confidential information, yet this exception allows breaches to nullify obligations. This aligns with the definition of 'Omissions – In Text Contradiction' where essential language is removed, creating a contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The undertakings in clauses 2 and 3 will continue in force indefinitely.",
+        "changed_text": "The undertakings in clauses 2 and 3 will continue in force for 5 years from the date of this agreement.",
+        "explanation": "Changing 'indefinitely' to 'for 5 years from the date of this agreement' introduces a time limit on the confidentiality obligations. This directly contradicts the original intention of indefinite protection for the disclosed information. The **in-text contradiction** here lies in the expectation that the obligations will stop after a certain period, when the purpose of the agreement may imply that the information should remain confidential forever, as the information shared may be crucial for the future land use for the decommissioned play area, as established in clause 1.",
+        "location": "8",
+        "contradicted_location": "1",
+        "contradicted_text": "The Discloser intends to disclose info rmation (the Confidential Information) to the Recipient for the purpose of recommendation of future land use of the decommissione d play area on Ship Street (the Purpose).",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that the undertakings in clauses 2 and 3 would continue indefinitely. The changed text limits the duration of these undertakings to 5 years. The contradicted text states that the purpose of the agreement is for the 'recommendation of future land use of the decommissioned play area', which implies that the confidentiality of the disclosed information may be required indefinitely, contradicting the new 5-year limit. This is an example of 'Ambiguities – In Text Contradiction' where key obligations are defined inconsistently in different parts of the contract."
+      }
+    ]
+  }
+]

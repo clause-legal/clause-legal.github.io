@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "VertexEnergyInc_20200113_8-K_EX-10.1_11943624_EX-10.1_Marketing Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "A Business Day shall open at 8:00a.m. and close at 5:00p.m. Houston, Texas, time.",
+        "changed_text": "A Business Day shall open at 9:00a.m. and close at 4:00p.m. Houston, Texas, time.",
+        "explanation": "Changing the definition of 'Business Day' creates an ambiguity because other sections of the contract rely on this definition for deadlines and payment terms. This creates uncertainty regarding when obligations are due, especially those calculated based on 'Business Days'.",
+        "location": "1. Definitions",
+        "contradicted_location": "4.1",
+        "contradicted_text": "Payment by Bunker One for the Product, as defined in clause 2.1, will be made by wire transfer within three (3) Business Days after the date Vertex invoices Bunker One, to an account designated from time to time by Vertex.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the definition of 'Business Day' from 8:00a.m. to 5:00p.m. to 9:00a.m. to 4:00p.m. This directly contradicts the contradicted text, which specifies that payment will be made within three (3) Business Days. The altered time frame for a 'Business Day' creates uncertainty regarding when the payment deadline falls, thus creating an ambiguity within the contract, aligning with the definition of 'Ambiguities – In Text Contradiction'."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The JSMA Output is meant for blending into other products by Bunker One for the pur- pose of being transformed into bunker suitable fuel for a marine vessel's propulsion system and/or marketable wholesale products in various other markets for sale by Bunker One to cus- tomers in the Area. Bunker One will be solely responsible for the blending, marketing, sale and delivery of the Product in the Area. The JSMA Output may also be sold as is without any blending.",
+        "changed_text": "The JSMA Output should preferably be blended into other products by Bunker One for the pur- pose of being transformed into bunker suitable fuel for a marine vessel's propulsion system and/or marketable wholesale products in various other markets for sale by Bunker One to cus- tomers in the Area. While Bunker One is generally responsible for the blending, marketing, sale and delivery of the Product in the Area, Vertex may also directly engage in marketing and sales activities with prior notice to Bunker One. The JSMA Output may also be sold as is without any blending.",
+        "explanation": "Changing 'is meant for' to 'should preferably' and adding that 'Vertex may also directly engage in marketing and sales activities' introduces a contradiction with the initially stated responsibilities of Bunker One. This change can lead to confusion and disputes about the exclusivity of Bunker One's role and Vertex's potential involvement in areas previously designated to Bunker One.",
+        "location": "2.2. Blending",
+        "contradicted_location": "2.6",
+        "contradicted_text": "Exclusive co-operation: It is agreed that only Bunker One will be marketing this JSMA and the JSMA Output towards various customers, but if a Party receives a Nomination (being a written or oral request by/from a customer to a Party stating delivery place, delivery date and window etc.) or any other communication from a customer regarding the supply of Product (either spot or whole cargo) in the Area, the Party is obliged to forward the Nomination to Bunker One and refer the customer to Bunker One. During the Term, neither Vertex nor any affiliate of Vertex may sell any Product to any customers for their use as bunker fuel other than pursuant to the terms of this JSMA. All sales towards customers for bunker fuel will be carried out exclusively by Bunker One in accordance to the terms set forth herein. As such all communication with customers shall go via Bunker One unless otherwise is specific written agreed in advance.",
+        "contradiction_exists": "YES",
+        "justification": "The original text and contradicted text state that Bunker One is exclusively responsible for marketing and selling the JSMA Output. The changed text introduces the possibility that Vertex may also engage in these activities, directly contradicting the exclusivity clause in the contradicted text. This introduces ambiguity regarding each party's role and violates the initial agreement of exclusive co-operation, creating a direct and strong conflict."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "All hedging is to be done on a physical, not specula- tive, basis.",
+        "changed_text": "All hedging is to be done primarily on a physical basis, but Bunker One retains discretion to engage in speculative hedging activities to optimize financial outcomes, provided such activities are within reasonable risk parameters as determined by Bunker One.",
+        "explanation": "Changing the hedging basis from 'physical, not speculative' to allowing 'speculative hedging activities' contradicts the original intention and introduces ambiguity. This creates potential for disagreements over what constitutes 'reasonable risk parameters' and whether Bunker One is acting in the best interest of both parties.",
+        "location": "2.5. Risk management",
+        "contradicted_location": "3.1",
+        "contradicted_text": "The JSMA will generate either a profit or a loss which shall be distributed between the Parties as set out forth further below in this clause. VERTEX and Bunker One will act cooperatively in a commercially reasonable manner, to maximize profits and minimize losses and comply with all terms and conditions pursuant to the JSMA.",
+        "contradiction_exists": "YES",
+        "justification": "The original text strictly prohibited speculative hedging. The changed text permits speculative hedging, contradicting the original intent and creating ambiguity around 'reasonable risk parameters'. This directly conflicts with the contradicted text's requirement that \"VERTEX and Bunker One will act cooperatively in a commercially reasonable manner, to maximize profits and minimize losses\". The introduction of speculative hedging, even with limitations, creates a conflict of interest and introduces potentially unreasonable risk parameters that contradict the cooperative and commercially reasonable framework previously established. It also creates uncertainty in whether speculative activities are aligned with maximizing profits and minimizing losses for both parties."
+      }
+    ]
+  }
+]

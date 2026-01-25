@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "UnionDentalHoldingsInc_20050204_8-KA_EX-10_3345577_EX-10_Affiliate Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "A Confidential Information@ shall mean any and all information that a Party may reasonably expect to remain confidential and not shared with the general public at any time or that information that is protected by law.",
+        "changed_text": "A Confidential Information@ shall mean any and all information that a Party deems confidential, whether or not it is shared with the general public or protected by law.",
+        "explanation": "The original definition of 'Confidential Information' includes the expectation that it is not shared with the public and/or protected by law. The revised definition now includes any information a Party 'deems' confidential, regardless of its public nature or legal protection. This creates an in-text contradiction, as it allows a Party to classify publicly available information as confidential, conflicting with the reasonable expectation of confidentiality implied in the original definition and undermining the purpose of protecting sensitive information.",
+        "location": "Section 1",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "It is anticipated that the Business Affiliate will provide services both for clients of the Business Affiliate and UDC that involve the use and disclosure of Confidential Information (the \"Services\"). Except as otherwise specified herein, the Parties may make any and all uses of Confidential Information necessary to perform the Services. Additionally, the Parties may disclose Confidential Information for the purposes authorized by this Agreement only (a) to its employees, subcontractors and agents, in accordance with this Agreement, or (b) as directed by the other Party. The Parties expressly agree that any and all uses or disclosures of the Confidential Information by a Party will be done in accordance with the terms of this Agreement and the provisions of all applicable federal and state laws and regulations.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text significantly broadens the definition of 'Confidential Information' to include anything a party 'deems' confidential, even if publicly available. This directly contradicts the contradicted text, which anticipates that services will involve the use and disclosure of 'Confidential Information' and outlines specific authorized uses and disclosures. The changed definition undermines the purpose of protecting sensitive information as outlined in the contradicted section, because now a party can claim that ANY information is confidential. The original text had a more narrow and precise definition of confidential information."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement shall become effective on the Effective Date and shall continue in effect until either Party informs the other Party with thirty (30) day prior written notice of termination of this Agreement.",
+        "changed_text": "This Agreement shall become effective on the Effective Date and shall continue in effect until either Party informs the other Party with sixty (60) day prior written notice of termination of this Agreement.",
+        "explanation": "The change increases the notice period required for termination from thirty (30) days to sixty (60) days. This contradicts with section 5(b), which states that UDC may terminate the agreement immediately without notice in certain conditions, therefore, creating an in-text contradiction.",
+        "location": "Section 5(a)",
+        "contradicted_location": "Section 5(b)",
+        "contradicted_text": "Termination. UDC may immediately terminate this Agreement without notice and any related agreement if it determines that the Business Affiliate has breached a material provision of this Agreement or if the activities contemplated under this Agreement will result in a violation of any federal or state law or if such Services would, in the opinion of UDC and its counsel. Alternatively, UDC may choose to: (i) provide the Business Affiliate with ten (10) days written notice of the existence of an alleged material breach; and (ii) afford the Business Affiliate an opportunity to cure said alleged material breach upon mutually agreeable terms. Failure to cure in the manner set forth in this paragraph is grounds for the immediate termination of the Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The change from a 30-day to a 60-day notice period for termination directly contradicts the section that allows UDC to terminate the agreement immediately without notice under specific conditions (breach of contract, violation of law). The changed text imposes a 60-day waiting period, negating UDC's right to immediate termination, creating a clear in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Parties hereby covenant and agree to indemnify and hold harmless each other, it's agents and representatives from and against any and all losses, costs, expenses, liabilities, claims, demands, judgments and its settlements of every nature that are actually incurred by a Party, including without limitation reasonable attorney's fees for pre-trial, trial, appellate, judgment, post-judgment, execution, and alternative dispute resolution, which arise out of any use or disclosure of Confidential Information not specifically permitted by this Agreement or arise out of the services rendered by Business Affiliate.",
+        "changed_text": "The Parties hereby covenant and agree to indemnify and hold harmless each other, it's agents and representatives from and against any and all losses, costs, expenses, liabilities, claims, demands, judgments and its settlements of every nature that are actually incurred by a Party, excluding attorney's fees, which arise out of any use or disclosure of Confidential Information not specifically permitted by this Agreement or arise out of the services rendered by Business Affiliate.",
+        "explanation": "The original text explicitly includes reasonable attorney's fees as part of the indemnification. The modified text explicitly excludes attorney's fees, creating a direct contradiction. This impacts the allocation of financial responsibility in case of disputes and introduces ambiguity in the enforcement of the indemnification clause.",
+        "location": "Section 6",
+        "contradicted_location": "Section 6",
+        "contradicted_text": "The Parties hereby covenant and agree to indemnify and hold harmless each other, it's agents and representatives from and against any and all losses, costs, expenses, liabilities, claims, demands, judgments and its settlements of every nature that are actually incurred by a Party, excluding attorney's fees, which arise out of any use or disclosure of Confidential Information not specifically permitted by this Agreement or arise out of the services rendered by Business Affiliate. The provisions of this Paragraph 6 shall survive the termination of this Agreement for whatever reasons whatsoever.",
+        "contradiction_exists": "YES",
+        "justification": "The original text included attorney's fees in the indemnification. The changed text explicitly excludes attorney's fees. The contradicted text also excludes attorney's fees. The change makes the initial statement of including attorney's fees contradictory within the document, and because the changed text is the same as the contradicted text, it makes it explicitly clear that attorney's fees will not be included. This causes a strong contradiction because the original text states explicitly that they should be included, but the new text and contradicted text state they should not be."
+      }
+    ]
+  }
+]

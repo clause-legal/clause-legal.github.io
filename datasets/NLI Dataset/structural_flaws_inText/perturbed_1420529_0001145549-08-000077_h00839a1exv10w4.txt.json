@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "1420529_0001145549-08-000077_h00839a1exv10w4.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The parties acknowledge that monetary damages may not be a sufficient remedy for unauthorized disclosure of Confidential Information and that Disclosing Party shall be entitled, without waiving any other rights or remedies, to such injunctive or equitable relief as may be deemed proper by a court of competent jurisdiction.",
+        "changed_text": "The parties acknowledge that monetary damages are the sole and exclusive remedy for any unauthorized disclosure of Confidential Information. The Disclosing Party is not entitled to injunctive or equitable relief under any circumstances.",
+        "explanation": "Changing the text to state monetary damages are the *sole* remedy directly contradicts the original text, which allowed for injunctive or equitable relief in addition to monetary damages. This creates uncertainty about the remedies available to the Disclosing Party in case of a breach.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "3. Remedies The parties acknowledge that monetary damages are the sole and exclusive remedy for any unauthorized disclosure of Confidential Information. The Disclosing Party is not entitled to injunctive or equitable relief under any circumstances.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly states that monetary damages are the *sole and exclusive* remedy, and that injunctive or equitable relief is *not* available. This directly contradicts the contradicted text, which repeats this same statement. The change ensures that this contradiction exists by overwriting the original provision that allowed for other forms of relief. This alteration introduces a clear and direct conflict within the contract, making the remedies available in case of unauthorized disclosure uncertain. The original text permitted injunctive relief; the changed text does not, creating a direct incompatibility."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement constitutes the entire agreement between the parties with respect to the subject matter hereof. It shall not be modified except by a written agreement dated subsequent to the date of this Agreement and signed by both parties.",
+        "changed_text": "This Agreement constitutes the entire agreement between the parties with respect to the subject matter hereof. It can be modified orally if both parties agree to it, even without any record of the change.",
+        "explanation": "The modified text stating the agreement can be modified orally contradicts the original statement that modifications must be in writing and signed by both parties. This could lead to disputes about whether a modification is valid.",
+        "location": "4(e)",
+        "contradicted_location": "4(e)",
+        "contradicted_text": "(e) This Agreement constitutes the entire agreement between the parties with respect to the subject matter hereof. It can be modified orally if both parties agree to it, even without any record of the change. None of the provisions of this Agreement shall be deemed to have been waived by any act or acquiescence on the part of Disclosing Party, the Receiving Party, their agents, or employees, but only by an instrument in writing signed by an authorized employee of Disclosing Party and the Receiving Party. No waiver of any provision of this Agreement shall constitute a waiver of any other provision(s) or of the same provision on another occasion.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that modifications must be in writing. The changed text now allows for oral modifications, even without record. The contradicted text reiterates that the agreement can be modified orally, contradicting the clause that waivers must be in writing. This is a clear contradiction as one clause requires written modifications/waivers while another permits oral ones. The explanation correctly points out the conflict, and aligns with the Structural Flaws - In Text Contradiction definition where clauses placed in multiple locations have conflicting implications."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement shall be construed and controlled by the laws of the People's Republic of China, and the parties further consent to submit any disputation arising from and/or in connection with this Agreement to China International Economic & Trade Arbitration Commission (CIETAC) for arbitration in Beijing in accordance with the Commission's arbitration rules in effect at the time of applying for arbitration. The arbitral award is final and binding upon both parties.",
+        "changed_text": "This Agreement shall be construed and controlled by the laws of the State of Washington, USA, and the parties further consent to submit any disputation arising from and/or in connection with this Agreement to King County Superior Court. The court's decision is subject to appeal.",
+        "explanation": "Changing the governing law and dispute resolution venue from PRC law/CIETAC arbitration in Beijing to Washington State law/King County Superior Court directly contradicts the original agreement. It creates uncertainty about which jurisdiction and method will be used to resolve disputes.",
+        "location": "4(f)",
+        "contradicted_location": "4(f)",
+        "contradicted_text": "(f) If either Disclosing Party or the Receiving Party employs attorneys to enforce any rights arising out of or relating to this Agreement, the prevailing party shall be entitled to recover reasonable attorneys' fees and costs. This Agreement shall be construed and controlled by the laws of the State of Washington, USA, and the parties further consent to submit any disputation arising from and/or in connection with this Agreement to King County Superior Court. The court's decision is subject to appeal.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies PRC law and CIETAC arbitration, while the changed text replaces this with Washington State law and King County Superior Court. The contradicted text now aligns with the changed text (Washington State law and King County Superior Court), creating a direct conflict with the original agreement's designation of PRC law and CIETAC arbitration. This represents a clear in-text contradiction because the same agreement cannot be governed by both PRC law/CIETAC and Washington State law/King County Superior Court simultaneously."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "NDA-ONSemi_IndustryAnalystConf-2011.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Each party may retain one archival copy to be used only in resolving a dispute concerning this Agreement.",
+        "changed_text": "Each party may retain copies.",
+        "explanation": "By removing the clause that specifies the archival copy is 'to be used only in resolving a dispute concerning this Agreement,' the restriction on the use of the copy is removed. This creates an in-text contradiction with the overall intent of the NDA, which is to protect confidential information. The edited text now creates ambiguity on if the copy should be used in resolving a dispute or any possible activity which goes against the definition and the scope of the agreement.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "Upon termination of this Agreement, each party will, upon request of the Discloser, and within a reasonable period of time thereafter, return all C onfidential Information received from the Discloser and copies made thereof by the Recipient, or, if acceptable to the Disclos er, certify by written memorandum that all such Confidential Information has been destroyed. Each party may retain copies.",
+        "contradiction_exists": "YES",
+        "justification": "The original text restricted the use of archival copies to resolving disputes, which aligns with the NDA's confidentiality goals. The changed text removes this restriction, permitting the use of the retained copies for any purpose. The contradicted text states that 'upon termination...each party will...return all Confidential Information received...and copies made thereof.' By removing the restriction from the original text and making the copies available for any use, this directly contradicts the section that specifies that all copies should be returned, creating an in-text contradiction as defined by 'Omissions – In Text Contradiction'."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The party receiving Confidential Information shall be considered the \"Recipient.\"",
+        "changed_text": "The party receiving information shall be considered the \"Recipient.\"",
+        "explanation": "By changing \"Confidential Information\" to \"information\", this creates an in-text contradiction. The agreement is for Confidential information, but this removes the need for the inforamtion to be confidential. Now the Recipient, doesn't necessarily receive confidential information.",
+        "location": "Intro",
+        "contradicted_location": "2",
+        "contradicted_text": "Confidential Information disclosed during the ON Semiconductor Industry Analyst Conference to be held by invitation only on April 18-20, 2011 , in Scottsdale, Arizona, hereunder may only be used for the following purpose: For evaluation and discussion of market tr ends and data refinement in the areas of ON Semiconductor’s focus market segments. (hereinafter “Authorized Purpose”). Each Discloser represents that it has t he right to disclose Confidential Information to the Recipient for the Authorized Purpos e(s) stated above.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies \"Confidential Information\" to simply \"information.\" The explanation states that this change removes the requirement for the information to be confidential, thus creating a contradiction. The contradicted text explicitly refers to \"Confidential Information disclosed during the ON Semiconductor Industry Analyst Conference\", which aligns with the original text. By removing the 'Confidential' qualifier, the changed text introduces a scenario where the Recipient may not necessarily receive Confidential Information, directly conflicting with the intention and scope defined in the contradicted text. This constitutes an Omissions - In Text Contradiction, as the altered text removes a key element (confidentiality) that is essential for the contradicted section to be applicable and enforceable."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The prevailing party in any action to enforce this Agreement shall be entitled to recover reasonable attorneys fees and costs.",
+        "changed_text": "The prevailing party in any action shall be entitled to recover attorneys fees and costs.",
+        "explanation": "By removing the phrase \"to enforce this Agreement\", the clause now implies that attorneys' fees and costs can be recovered in *any* action, not just those related to enforcing the NDA. This directly contradicts the clearly stated purpose of the agreement (protecting confidential information) and could lead to disputes about which types of actions are covered by this clause. A section about Confidential Information is made vague.",
+        "location": "12",
+        "contradicted_location": "12",
+        "contradicted_text": "Applicable Law. The law of the state of New York, U.S.A. except for its choice of laws rules shall govern this Agreement. The prevailing party in any action shall be entitled to recover attorneys fees and costs. The Recipient agrees that, in addition to all other remedies, the Discloser shall be entitled to specific performance and injunctive or other equitable relief as a remedy for any breach or threatened breach of the obligations herein.",
+        "contradiction_exists": "YES",
+        "justification": "The original text limited attorney fee recovery to actions enforcing the agreement. The changed text broadens this to *any* action, directly contradicting the purpose clause focused on confidential information. The contradicted text is the same clause but in a different location. The change makes the scope of attorney fee recovery ambiguous and potentially unlimited, creating a strong in-text contradiction as it relates to the rest of the agreement."
+      }
+    ]
+  }
+]

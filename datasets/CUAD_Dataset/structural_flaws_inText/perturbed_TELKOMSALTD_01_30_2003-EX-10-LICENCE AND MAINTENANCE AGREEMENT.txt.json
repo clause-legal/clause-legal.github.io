@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "TELKOMSALTD_01_30_2003-EX-10-LICENCE AND MAINTENANCE AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "2. 3. 11. 7. \"USE\" means to load, execute, employ, utilise, access, store process information that results in TRANSACTION USE or display of the SOFTWARE within the TERRITORY. USE is deemed to occur where any such USE occurs by TELKOM, its AFFILIATES or their respective employees or BUSINESS THIRD PARTIES authorised by TELKOM in terms of formal arrangements, to USE the SOFTWARE and, for the purposes of this AGREEMENT, TELKOM shall permit the SOFTWARE to be USED only within the TERRITORY;",
+        "changed_text": "2. 3. 11. 7. \"USE\" means to load, execute, employ, utilise, access, store process information that results in TRANSACTION USE or display of the SOFTWARE within the TERRITORY. USE is deemed to occur where any such USE occurs by TELKOM, its AFFILIATES or their respective employees or BUSINESS THIRD PARTIES authorised by TELKOM in terms of formal arrangements, to USE the SOFTWARE and, for the purposes of this AGREEMENT, TELKOM shall permit the SOFTWARE to be USED globally, regardless of TERRITORY restrictions;",
+        "explanation": "The original definition of 'USE' restricts it to the 'TERRITORY', defined as countries in Africa. Modifying the definition to explicitly allow global USE regardless of TERRITORY restrictions introduces a direct contradiction, specifically in clause 3.1. This change creates uncertainty because it is unclear if the software license is restricted to the defined territory or permitted globally.",
+        "location": "2. 3. 11. 7",
+        "contradicted_location": "3. 1",
+        "contradicted_text": "3. 1. Subject to the provisions of this AGREEMENT, and with effect from the date when the party signing last in time appends its signature to this agreement (\"the effective date\"), and enduring in perpetuity unless terminated as provided for elsewhere in this AGREEMENT, SAP AFRICA grants, and TELKOM accepts a non-exclusive, non-transferable licence to USE the SOFTWARE, DOCUMENTATION and other SAP AFRICA PROPRIETARY INFORMATION at the specified DESIGNATED SITE within the TERRITORY.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines 'USE' within a specific 'TERRITORY'. The changed text expands the definition of 'USE' to be global, 'regardless of TERRITORY restrictions'. This directly contradicts clause 3.1, which grants a license to 'USE' the software 'within the TERRITORY'. The change creates a clear inconsistency regarding the geographical scope of the software license, making it unclear whether the license is restricted to the defined territory or permitted globally, thereby causing a strong contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "6. 1. Duration: The licence granted hereunder shall become effective upon execution of this AGREEMENT by both parties and shall endure indefinitely unless terminated under clause 6. 2.",
+        "changed_text": "6. 1. Duration: The licence granted hereunder shall become effective upon execution of this AGREEMENT by both parties and shall endure for a period of five years, unless terminated sooner under clause 6. 2.",
+        "explanation": "Changing the duration of the license from 'indefinitely' to 'for a period of five years' directly contradicts the later clauses related to termination. This creates significant uncertainty regarding the longevity of the agreement and when renewal or renegotiation would be required. Clause 6.1's original text specified that the agreement shall endure indefinitely, the pertubation in the provided text, specifies that it should only last for a duration of five years.",
+        "location": "6. 1",
+        "contradicted_location": "6. 2. 1",
+        "contradicted_text": "6. 2. 1. 30 (thirty) days after TELKOM gives SAP AFRICA written notice of TELKOM's wish to terminate this AGREEMENT for any reason. Any such termination shall be subject to accrued rights and obligations but only after payment of all Licence and Maintenance Fees then due and owing; or",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified the agreement would endure 'indefinitely'. The changed text limits the agreement to 'a period of five years'. This directly contradicts clause 6.2.1.30, which outlines termination procedures. If the agreement automatically ends after five years as specified by the change, the termination clause becomes largely irrelevant after this period. This creates a direct and impactful contradiction regarding the agreement's duration and termination rights."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "11. 4 Subject to, and without prejudice to the provisions of this clause 11. 1 and clause 10, SAP AFRICA'S liability for any loss or damages of whatever nature or however arising, that may be suffered by TELKOM or AFFILIATE from USE or license of the SOFTWARE and irrespective of the number of occurrences giving rise to such liability, shall be limited to the aggregate of all License Fees paid by TELKOM to SAP AFRICA in terms of this AGREEMENT, up until the date when such damages are determined or agreed.",
+        "changed_text": "11. 4 Subject to, and without prejudice to the provisions of this clause 11. 1 and clause 10, SAP AFRICA'S liability for any loss or damages of whatever nature or however arising, that may be suffered by TELKOM or AFFILIATE from USE or license of the SOFTWARE and irrespective of the number of occurrences giving rise to such liability, shall be unlimited.",
+        "explanation": "The original clause limits SAP Africa's liability to the sum of the License Fees paid by Telkom. The modified version removes this limitation, stating that liability shall be unlimited. This creates a direct in-text contradiction and greatly impacts risk assessment and enforcement. The contradiction appears since in the first text the liability is limited, while in the modification, that very clause that specifies the limit on the liability is deleted. This impacts all of clause 11's text.",
+        "location": "11. 4",
+        "contradicted_location": "11. 5",
+        "contradicted_text": "11. 5 Notwithstanding anything to the contrary contained in this AGREEMENT, a party hereto (the \"defaulting party\") shall not be liable for any consequential damage or loss of whatever nature and/or however caused, that may be suffered by the other party (the \"innocent party\") other than for consequential loss or damages suffered by the innocent party caused by the wilful or intentional acts or omissions of the - 31 - TELKOM CONTRACT No. 076C/01 defaulting party or any person or entity in respect of whom the defaulting party may be vicariously liable. However, it is recorded for the avoidance of doubt that if TELKOM should suffer a loss of revenue as a consequence of the SOFTWARE failing to conform or perform to its functional specifications, then SAP AFRICA's revenue share fee shall be decreased accordingly.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the limitation on SAP AFRICA's liability, stating it is now unlimited. This directly contradicts the contradicted text (11.5) which states 'Notwithstanding anything to the contrary contained in this AGREEMENT' implying limits exist elsewhere in the agreement. Specifically, the contradicted text is saying that a party is not liable for any consequential damage or loss 'other than for consequential loss or damages suffered by the innocent party caused by the wilful or intentional acts or omissions'. This means that there *are* limits to liability, however this changed text that removes the limitation, as was specified in the original section 11.4, creates a direct contradiction as to whether the liability is limited or unlimited."
+      }
+    ]
+  }
+]

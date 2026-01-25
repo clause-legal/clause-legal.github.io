@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "NDA_118.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Recipient shall protect the Confidential Information using the same degree of care that Recipient uses to protect its own confidential information of a similar nature to prevent the unauthorized use, reproduction or disclosure of the Confidential Information. Such care shall not be less than a reasonable degree of care.",
+        "changed_text": "Recipient shall protect the Confidential Information using a minimal degree of care, but this care does not need to be reasonable or aligned with industry standards.",
+        "explanation": "This change creates a contradiction by mandating a 'minimal' degree of care, explicitly stating this care need not be reasonable. This contrasts with the earlier, more stringent confidentiality obligations in Section 3.a and weakens the protection of the confidential information, creating ambiguity regarding the Recipient's true obligations. This in-text contradiction severely undermines the purpose of the agreement.",
+        "location": "3.b",
+        "contradicted_location": "3.b",
+        "contradicted_text": "Recipient shall protect the Confidential Information using a minimal degree of care, but this care does not need to be reasonable or aligned with industry standards. Recipient shall not disclose the Confidential Information to any employees, contractors, or third parties except to those employees, contractors or third parties who have a need to know the Confidential Information to fulfill the Purpose, provided that: (i) Recipient shall be vicariously liable for any act or omission of such employees, contractors or third parties respecting the Confidential Information, (ii) such employee, contractor or third party has been advised of the confidentiality obligations contained in this NDA and has either agreed in writing to be bound by the obligations of this NDA, or has entered into a binding written obligation of confidentiality with the Recipient that affords substantially similar protection of the Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces the requirement for a 'reasonable degree of care' with a 'minimal degree of care' that 'does not need to be reasonable'. This directly contradicts the confidentiality obligations elsewhere in the contract, especially given that the contradicted text also stipulates a minimal degree of care. By changing the requirement from reasonable to minimal, the modified text introduces an in-text contradiction that undermines the intended protection of confidential information."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This NDA shall not obligate either party to disclose any Confidential Information to the other party or enter into any further agreement or business arrangement with the other party.",
+        "changed_text": "This NDA shall obligate both parties to disclose *all* Confidential Information to the other party, unconditionally. It also mandates that both parties enter into a further agreement or business arrangement with the other party.",
+        "explanation": "The change in this section creates a complete reversal of its original intent and creates an explicit in-text contradiction. Previously, neither party was obligated to disclose information or enter into further agreements. Now, both are required to disclose all confidential information and must enter further agreements. This change undermines the voluntary nature of the NDA and creates forced obligations that contradict the premise of a mutual agreement.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "NO WARRANTY. This NDA shall obligate both parties to disclose *all* Confidential Information to the other party, unconditionally. It also mandates that both parties enter into a further agreement or business arrangement with the other party. ANY INFORMATION EXCHANGED UNDER THIS NDA IS PROVIDED \"AS IS\". Discloser makes no representation, warranty or guarantee whatsoever about the Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in the NDA section completely reverses the original intent. The original text stated that neither party was obligated to disclose information or enter into further agreements. The changed text mandates that both parties disclose all confidential information unconditionally and enter into further agreements. The contradicted text (also the changed text in this case) states that any information exchanged is provided \"AS IS\" without any warranty or guarantee. This creates a direct conflict because the changed text imposes mandatory obligations that did not exist before, and the \"AS IS\" provision of information exchanged could be seen as attempting to limit liability related to those obligations, a contradiction. The explanation specifies that this undermines the voluntary nature of the NDA and creates forced obligations, which align with the 'Inconsistencies - In Text Contradiction' perturbation type because it provides conflicting obligations and undermines enforceability."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "All additions or modifications to this NDA must be made in writing and must be signed by an officer of both parties.",
+        "changed_text": "All additions or modifications to this NDA can be made verbally and authorized by any employee of either party.",
+        "explanation": "This change directly contradicts the original clause. Originally, any modifications needed to be in writing and signed by officers. Now, modifications can be verbal and authorized by any employee. This creates confusion about the proper procedure for amending the agreement and undermines the enforceability of any changes.",
+        "location": "12.a",
+        "contradicted_location": "12.a",
+        "contradicted_text": "All additions or modifications to this NDA can be made verbally and authorized by any employee of either party. b. No waiver by either party of a breach or omission by the other party under this NDA shall be binding on the waiving party unless it is expressly made in writing and signed by an officer of the waiving party. Waiver by a party of an individual breach or omission by the other party shall not affect or impair the rights of the waiving party in respect of any subsequent breach or omission of the same or different kind.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that modifications can be made verbally and authorized by any employee. The contradicted text is identical: \"All additions or modifications to this NDA can be made verbally and authorized by any employee of either party.\" The original text stated modifications must be in writing and signed by an officer of both parties. Therefore, the change directly contradicts the original clause, and the changed text then matches the contradicted text, and this causes a clear in-text contradiction as described in the perturbation explanation, making it a YES."
+      }
+    ]
+  }
+]

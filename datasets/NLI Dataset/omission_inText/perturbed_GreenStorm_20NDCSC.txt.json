@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "GreenStorm%20NDCSC.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Confidential Information shall be defined as any information specifically identified as “Confide ntial” prior to disclosur e to the other Party. This identification shall be by way of formal correspondence (letter, fax or email) addressed to the other Party outlining the proposed information to be disclosed (without giving specific details), requesting the receiv ing Party to recognise this as Confide ntial Information and therefore being bound by this Agreem ent. The receiving Party has the right to accept the information under this Agreeme nt or to decline the in formation in which case it will not be provided.",
+        "changed_text": "Confidential Information shall be defined as information shared between the parties. The receiving Party has the right to accept the information under this Agreeme nt or to decline the in formation in which case it will not be provided.",
+        "explanation": "The perturbation removes the requirement for 'Confidential' designation prior to disclosure, contradicting later sections that assume information is explicitly identified as confidential. It leads to uncertainty and affects the enforceability of confidentiality obligations because there is not a process to determine which information must be treated as 'confidential'.",
+        "location": "2",
+        "contradicted_location": "3",
+        "contradicted_text": "The Parties agree that when receipt of any Confidential Information has occurred: 3a. The receiving Party shall not disclos e or communicate Confidential Information to any third party, except as herein provided. The receivi ng Party shall protect such information from disclosur e by reasonable means, includi ng but not limited to at least the same minimal level of security that the receiving Party uses for its most crucial proprietary and trade secret information. 3b. The receivi ng Party shall reasonably protect the Confidential Information with not less than the same degree of care exercised by its own personnel to protect its own, or publication of its own, most valuable confidential and proprietary information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires 'Confidential Information' to be specifically identified as such before disclosure. The changed text removes this requirement, defining Confidential Information simply as information shared between the parties. The contradicted text assumes that Confidential Information has been explicitly identified, outlining procedures for protecting 'any Confidential Information' after receipt. Because the Changed Text no longer requires that Confidential Information be labeled prior to disclosure, it creates a contradiction with the Contradicted Text by creating an uncertain scenario regarding whether shared information is actually required to be protected. This contradicts the assumption in the Contradicted Text that it is known whether information must be treated as 'confidential'."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Parties agree that they shall not use any advantages derivable from such information in its own business or affairs, unless the same is done pursuant to a new agreeme nt with all other signatories to this document.",
+        "changed_text": "The Parties agree that they shall not use any advantages derivable from such information in its own business or affairs.",
+        "explanation": "The perturbation removes the exception clause for using confidential information with a new agreement, contradicting the implication that confidential information can be used if all parties agree through a new document. The removal of the phrase restricts Parties' ability to use confidential information even with mutual consent, and creates an in-text contradiction since the new document with all other signatories to this document, gives an impression of a future agreement being made.",
+        "location": "1",
+        "contradicted_location": "4",
+        "contradicted_text": "The non-competition provision s of this Agreeme nt are an essential and material part of the total agreem ent, by which the Parties agree they shall not use any advantages derivable from such confidential information in their own business or affairs, unless the same is done pursuant to a new agreement executed by all signatories to this document.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed for using confidential information with a new agreement signed by all parties. The changed text removes this exception, creating a direct contradiction with the contradicted text, which explicitly states that using confidential information is permissible under such a new agreement. This creates a clear inconsistency regarding the conditions under which confidential information can be used."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "NON-CIRCUMVENTION The Parties hereby agree on behalf of themselves, their officers, directors, agents, associates and any related parties, that they will not, directly or indirectly, contact, deal with or otherwis e become involved with any entity or any other entitie s or parties introduced, directly or indirectly, by or through the other party, its officers, directors, agents or associates, for the purpose of avoiding the payment to the other Party of profits, fees or other amounts, without the specif ic written approv al of the other Party.",
+        "changed_text": "NON-CIRCUMVENTION The Parties hereby agree that they will not, directly or indirectly, contact, deal with or otherwis e become involved with any entity or any other entitie s or parties introduced, directly or indirectly, by or through the other party, for the purpose of avoiding the payment to the other Party of profits, fees or other amounts.",
+        "explanation": "The perturbation removes 'without the specif ic written approv al of the other Party' contradicts any possibility of circumvention even with written approval. There is an in-text contradiction, since the original text does allow for an approval with written permission, if removed. This is directly related to circumvention.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "The Parties hereby agree on behalf of themselves, their officers, directors, agents, associates and any related parties, that they will not, directly or indirectly, contact, deal with or otherwis e become involved with any entity or any other entitie s or parties introduced, directly or indirectly, by or through the other party, for the purpose of avoiding the payment to the other Party of profits, fees or other amounts.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the exception 'without the specif ic written approv al of the other Party' from the NON-CIRCUMVENTION clause. This creates a direct conflict with the contradicted text, as the original text allowed for circumvention with written approval. The changed text removes that possibility, creating an inconsistency according to the definition of Omissions - In Text Contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This Agreement shall, by mutual consent of the Parties, remain in force and effect for a period of seven years from the date signed and executed by all parties, with the effective date being the date on which the final signature is affix ed hereto.",
+        "changed_text": "This Agreement shall remain in force and effect for a period of seven years from the date signed and executed by all parties, with the effective date being the date on which the final signature is affix ed hereto.",
+        "explanation": "The perturbation removes 'by mutual consent of the Parties'. This contradicts later clauses that require mutual agreement for modifications, waivers, or termination of the agreement. There is an in-text contradiction, since the agreement does requires parties to agree to a term, and the modification removes that term. Without the parties agreeing in a mutual term, this removes a very important clause.",
+        "location": "7",
+        "contradicted_location": "9e",
+        "contradicted_text": "ANY and ALL additions, modifications, and waivers of this Agreement must be made in writing and signed by all Parties. However, the failure of a Party to insist on full compliance with any provisions of this Agreeme nt in a particular instance shall not preclude it from requiri ng full compliance thereafter.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the 'by mutual consent of the Parties' clause from the agreement's duration. This contradicts the 'Contradicted Text' which requires ANY modifications or waivers to be signed by all parties. The removal of 'mutual consent' creates a contradiction, as the contract now implies the agreement remains in effect for seven years regardless of mutual agreement, conflicting with the clause that mandates mutual agreement for modifications."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The proper venue for any action arising from or in connection with the interpretation or enforceme nt of this Agreeme nt shall be decided by the claiming Party.",
+        "changed_text": "The proper venue for any action arising from or in connection with the interpretation or enforceme nt of this Agreeme nt shall be in NSW, Australia.",
+        "explanation": "The perturbation establishes a fixed venue, NSW Australia, overriding the original clause that allowed the claiming Party to choose the venue. This contradicts section 8. Jurisdiction is global. This contradiction could affect where litigation could occur. There is an in-text contradiction, since the parties could technically follow the original section 8, however, this modification does establish a proper venue. Since the proper venue is contradicting section 8, then it affects where legal actions could arise.",
+        "location": "9f",
+        "contradicted_location": "8",
+        "contradicted_text": "The jurisdiction for this Agreem ent is global and worldwide. Should either Party assert that a violation has occurred; the asserting Party shall be entitled to take action to remedy the violation in the locale and/or legal jurisdiction in which the violation occurred, and/or in any other locale or jurisdiction(s) which is appropri ate, in the opinion of the asserting Party and their counsel.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed the claiming party to choose the venue, while the changed text fixes the venue to NSW, Australia. The contradicted text states the jurisdiction is global and allows the asserting party to take action in any appropriate locale. The changed text directly contradicts this by limiting the venue to NSW, thus creating a strong in-text contradiction that affects where legal actions can arise. This change breaks compatibility with the contradicted section as it removes the right to choose the jurisdiction based on the location of the violation."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Parties acknowledges that the other Party does not guarantee the results of any of its business actions, except as requir ed under the terms of this Agreem ent.",
+        "changed_text": "The Parties acknowledges that the other Party does not guarantee the results of any of its business actions.",
+        "explanation": "The perturbation removes the exception clause 'except as requir ed under the terms of this Agreem ent', this now directly contradicts any required guarantees of results in other sections of the contract. There is an in-text contradiction, since the agreement as a whole and especially under Legal/Penalty notice, holds all parties liable, by removing this exception, that is contradictory.",
+        "location": "12",
+        "contradicted_location": "13",
+        "contradicted_text": "LEGAL/PENALTY NOTICE By signi ng this agreeme nt the Parties agree that they/their companies and/or any of their related entitie s will be sought after immediately for injunctive relief for violating this agreeme nt. The signing parties can be held personally liable. By signing below this Agreement becomes full y binding and enforceable.",
+        "contradiction_exists": "YES",
+        "justification": "The original text contained an exception: 'except as requir ed under the terms of this Agreem ent.' This exception allowed for guarantees of results elsewhere in the agreement, such as in the LEGAL/PENALTY NOTICE, where parties can be held liable. The changed text removes this exception, stating that neither party guarantees results, contradicting the clause in the LEGAL/PENALTY NOTICE that holds parties liable, which implies a guarantee of certain actions or outcomes. Therefore, a strong contradiction exists."
+      }
+    ]
+  }
+]

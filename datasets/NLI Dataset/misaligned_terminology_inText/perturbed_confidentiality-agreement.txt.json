@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "confidentiality-agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Custom er and Minnesota Power m ay be individually referred to as the “Party” or collectively referred to as the “Parties”.",
+        "changed_text": "Customer and Minnesota Power may be individually referred to as the “Party” or collectively referred to as the “Vendors”.",
+        "explanation": "Changing 'Parties' to 'Vendors' introduces ambiguity. The contract initially defines 'Party' and 'Parties' to refer to the involved entities. However, changing 'Parties' to 'Vendors' in the same sentence creates uncertainty: are 'Vendors' and 'Parties' the same? This creates an in-text contradiction because the contract consistently refers to 'Parties' elsewhere, including enforcement and agreement clauses, which may not extend to 'Vendors'.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Paragraph 5",
+        "contradicted_text": "Custom er and Minnesota Power hereby acknowledge that unauthorized disclosure or use of the Inform ation m ay result in irreparable harm to Minnesota Power. Accordingly, Custom er agrees that Minnesota Power shall ha ve the right to obtain a tem porary restraining order enjoining disclosure or use of all Inform ation subject to this Agreem ent. Custom er agrees not to contest the granting of such tem porary restraining order. Such order shall becom e perm anent upon adequate showing of irreparable inju ry and ruling by a court of law. The Parties may participate in any contest relating to a perm anent injunction.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Parties' with 'Vendors' while the contradicted text uses 'Parties' when outlining the process for seeking a restraining order. This introduces a contradiction because it's unclear whether the rights and obligations afforded to 'Parties' also apply to 'Vendors'. The Misaligned Terminology creates ambiguity and leads to conflicting obligations, which is a strong in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Minnesota Power shall furnish to Custom er, by any m eans or m edium , the proprietary, non-public inform ation concerning Minnesota Power’s Paym ent Schedule.",
+        "changed_text": "Minnesota Power shall furnish to Customer, by any means or medium, the confidential, non-public information concerning Minnesota Power’s Rate Schedule.",
+        "explanation": "Changing 'Payment Schedule' to 'Rate Schedule' introduces a contradiction. The agreement is specifically about the 'Payment Schedule' as defined in the 'WHEREAS' clauses. By using 'Rate Schedule' in Paragraph 1 without defining it, we create uncertainty: Does this include the 'Payment Schedule'? Throughout the contract, 'Payment Schedule' is used, which now directly conflicts with 'Rate Schedule'. This alteration causes confusion regarding what information Minnesota Power is required to furnish, leading to potential disagreements on the scope of confidential information.",
+        "location": "Paragraph 1",
+        "contradicted_location": "WHEREAS",
+        "contradicted_text": "WHEREAS, Custom er desires to interconn ect a distributed generation system with Minnesota Power pursuant to the term s set f orth in the m odel Electric Service Agreem ent f or Distributed Generation Service adopted as part of Minnesota Power’s Rider for Distributed Generation Service; and WHEREAS, in connection with such Electri c Service Agreem ent, Custom er desires to receive Minnesota Power’s Distributed Gene ration Capacity and Energy Paym ent Schedule (“Paym ent Schedule”); and WHEREAS, Minnesota Power is willing to disclose such proprietary, non-public inform ation regarding its Paym ent Schedule; and WHEREAS, the Parties recognize the confiden tial nature of the inform ation and that disclosure or unauthorized use of such inform ation to or by third parties could result in dam age to Minnesota Power and its custom ers;",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'Payment Schedule,' which aligns with the 'WHEREAS' clauses defining the agreement's subject matter as Minnesota Power's Distributed Generation Capacity and Energy Payment Schedule ('Payment Schedule'). The changed text replaces 'Payment Schedule' with 'Rate Schedule,' introducing a different term without defining it. This directly contradicts the 'WHEREAS' clauses and creates ambiguity about what information Minnesota Power must furnish, leading to a clear conflict and potential for disputes over the scope of confidential information. This is a misalignment of terminology, which is one of the provided definitions of contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The inform ation, knowledge and m aterial exchanged pursuant to the preceding paragraph shall be referred to as the “Inform ation.”",
+        "changed_text": "The information, knowledge and material exchanged pursuant to the preceding paragraph shall be referred to as the “Data”.",
+        "explanation": "By changing “Information” to “Data”, the contract now uses two different terms (“Information” and “Data”) interchangeably for the same concept without defining them. This creates confusion about what exactly is covered under the confidentiality obligations. The rest of the document refers to the exchanged material as “Information”, thus creating an in-text contradiction, especially concerning the handling and protection of that material.",
+        "location": "Paragraph 2",
+        "contradicted_location": "Paragraph 3",
+        "contradicted_text": "It is agreed that the Inf ormation will be used by Custom er only f or the lim ited purpose of interconnecting a distributed generation system with Minnesota Power. W ithout the prior written consent of Minnesota Power, any disclosure or other unauthorized use of the Inform ation by Custom er is prohibited. This Ag reem ent shall not prohibit disclosure to third party consultants and professional advisors provided such third parties enter into and agree to be bound by this Agreem ent.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces \"Information\" with \"Data\". The contradicted text repeatedly uses the term \"Information\". The perturbation explanation states this creates confusion and an in-text contradiction because the contract now uses two different terms interchangeably for the same concept without defining them, leading to conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "It is agreed that the Inf ormation will be used by Custom er only f or the lim ited purpose of interconnecting a distributed generation system with Minnesota Power.",
+        "changed_text": "It is agreed that the Data will be used by Customer only for internal analysis related to potential interconnection.",
+        "explanation": "Changing the permitted use of the Information/Data (previously defined) from 'interconnecting a distributed generation system' to 'internal analysis related to potential interconnection' significantly alters the scope. Now 'Data' is only allowed for internal analysis, where as the remainder of the document refers to information to the 'interconnecting a distributed generation system with Minnesota Power'. This modification creates an internal inconsistency, making it unclear what the Customer can actually do with the Data/Information.",
+        "location": "Paragraph 3",
+        "contradicted_location": "Paragraph 7",
+        "contradicted_text": "Custom er agrees that, without the prior written consent of Minnesota Power, it will not m ake any statem ent to any com petitor, cust omer or other third party with respect to the Inform ation exchanged hereunder or regarding the Project itself. 2 3",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed the 'Information' to be used for 'interconnecting a distributed generation system with Minnesota Power'. The changed text restricts the use of 'Data' (previously 'Information') to 'internal analysis related to potential interconnection'. This creates a direct conflict because the contradicted text discusses the sharing of 'Information' relating to the 'Project itself' with third parties. If the 'Data/Information' is now only for internal analysis, it contradicts the idea that the customer can share this 'Information' regarding the project with third parties, as stated in the contradicted text, without written consent. The change in scope from interconnection to internal analysis directly clashes with the ability to openly communicate about the project, therefore a contradiction exists."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Custom er and Minnesota Power hereby acknowledge that unauthorized disclosure or use of the Inform ation m ay result in irreparable harm to Minnesota Power.",
+        "changed_text": "Customer and Minnesota Power hereby acknowledge that unauthorized disclosure or use of the Confidential Data may result in financial penalties.",
+        "explanation": "Changing 'Information' to 'Confidential Data' and 'irreparable harm' to 'financial penalties' introduces both inconsistent terminology and drastically changes the potential consequences of a breach. The document initially outlines 'irreparable harm,' allowing for injunctive relief. The change to 'financial penalties' implies monetary damages and excludes the possibility of injunctive relief, creating a contradiction. This leads to uncertainty about the remedies available to Minnesota Power.",
+        "location": "Paragraph 5",
+        "contradicted_location": "Paragraph 5",
+        "contradicted_text": "Custom er and Minnesota Power hereby acknowledge that unauthorized disclosure or use of the Confidential Data may result in financial penalties. Accordingly, Custom er agrees that Minnesota Power shall ha ve the right to obtain a tem porary restraining order enjoining disclosure or use of all Inform ation subject to this Agreem ent. Custom er agrees not to contest the granting of such tem porary restraining order. Such order shall becom e perm anent upon adequate showing of irreparable inju ry and ruling by a court of law. The Parties may participate in any contest relating to a perm anent injunction.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Information' with 'Confidential Data' and 'irreparable harm' with 'financial penalties.' The contradicted text acknowledges that 'unauthorized disclosure or use of the Confidential Data may result in financial penalties' and then states that Minnesota Power has the right to obtain a restraining order to enjoin disclosure of 'all Information,' which will become permanent upon showing 'irreparable injury.' The changed text, by changing 'irreparable harm' to 'financial penalties,' directly contradicts the basis for injunctive relief described in the contradicted text, specifically the 'irreparable injury' requirement for a permanent injunction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Upon the written request of Minnesota Power, the Custom er shall return to Minnesota Power all docum entation and electr onic m edia containing Inform ation and shall provide written certif ication that copies of all Inf ormation have been destroyed or returned.",
+        "changed_text": "Upon the written request of Minnesota Power, the Customer shall provide a list of systems where the Data resides and shall certify that all copies of the Data have been securely deleted.",
+        "explanation": "Changing the action upon request from 'returning all documentation and electronic media' to 'providing a list of systems and certifying secure deletion' fundamentally alters the process of information recovery. The initial paragraph implies physical return and destruction, while the altered version implies providing location and confirmation of deletion of electronic information. The altered text focuses on just the deletion of the electronic information, creating a contradiction on what is required from the customer when the agreement is terminated.",
+        "location": "Paragraph 6",
+        "contradicted_location": "Paragraph 9",
+        "contradicted_text": "This Agreement shall be effective for a term of ______ (__) years from the day first written above. Notwithstanding the Parties entering into any further agreement or arrangement, or any other event or occurrence, the provisions of this Agreement relating to nondisclosure (including the provisions relating to the breach of this Agreement) or use of the Information shall remain in full force and eff ect for ________ years or as long as the Information is confidential and non-public, whichever is less, unless otherwise agreed to in writing by the Parties hereto.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires physical return of all documentation and electronic media, while the changed text only requires a list of systems and certification of secure deletion of data. This change contradicts the 'Contradicted Text,' which stipulates that provisions relating to nondisclosure and use of information remain in full force for a specified period, implying that the information itself (not just its deletion) is subject to continued protection. If the information is deleted as per the Changed Text, the provisions of the Contradicted Text cannot be enforced, hence creating an in-text contradiction based on Misaligned Terminology - In Text Contradiction as the altered text fundamentally alters the process of information recovery."
+      }
+    ]
+  }
+]

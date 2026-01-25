@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "STARTECGLOBALCOMMUNICATIONSCORP_11_16_1998-EX-10.30-CONSTRUCTION AND MAINTENANCE AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "AFFILIATE A company in which not less than either ten percent (10%) or the highest percentage allowed by the local law, whichever is the lowest, of its voting capital is owned directly or indirectly by a Party or a company owning directly or indirectly not less than either ten (10%) or the highest percentage allowed by the local law, whichever is the lowest, of the voting capital of a Party.",
+        "changed_text": "AFFILIATE A company in which not less than either five percent (5%) or the highest percentage allowed by the local law, whichever is the lowest, of its voting capital is owned directly or indirectly by a Party or a company owning directly or indirectly not less than either ten (10%) or the highest percentage allowed by the local law, whichever is the lowest, of the voting capital of a Party.",
+        "explanation": "This change creates an in-text contradiction in the definition of 'Affiliate'. The first part of the definition states an affiliate is a company with at least 5% voting capital owned, while the second part keeps the original 10%. This creates uncertainty as to which percentage applies and to determine whether a company can be considered a affiliate under this agreement.",
+        "location": "1.1",
+        "contradicted_location": "1.1",
+        "contradicted_text": "1.1 Definition of Terms AFFILIATE A company in which not less than either five percent (5%) or the highest percentage allowed by the local law, whichever is the lowest, of its voting capital is owned directly or indirectly by a Party or a company owning directly or indirectly not less than either ten (10%) or the highest percentage allowed by the local law, whichever is the lowest, of the voting capital of a Party. AGENT An entity acting on behalf of a Party or a Purchaser for access to a Terminal Station which has an appropriate license to provide backhaul and access in the respective Country.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the definition of 'Affiliate' by changing the minimum ownership percentage from 10% to 5% in one part of the definition, while keeping the 10% requirement in another part. This directly contradicts the rest of the definition, causing ambiguity and creating a strong in-text contradiction. The contradicted text is in the definition of terms, where both 5% and 10% are referenced, causing immediate confusion as to which threshold applies. This follows the provided definition for 'Ambiguities - In Text Contradiction'."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "RING-MIU A nominal 2 Mbps bearer, and all the additional overhead bits per second recommended by ITU-T standards for multiplexing, in a Ring configuration with the capability of bi-directional operation.",
+        "changed_text": "RING-MIU A nominal 2 Mbps bearer, and all the additional overhead bits per second recommended by ITU-T standards for multiplexing, in a Ring configuration with the capability of uni-directional operation.",
+        "explanation": "This change directly contradicts the definition of 'Ring-MIU' by altering its operational capability from bi-directional to uni-directional. This contradicts other implicit points that can be made within the agreement as the ring is bi-directional to ensure stability, and would make it unclear whether the system can be bi-directional to maintain operations. It goes against 'RING An electrical and/or optical loop that provides two independent bi-directional paths between two points for the same traffic.' in the paragraph above",
+        "location": "1.1",
+        "contradicted_location": "1.1",
+        "contradicted_text": "RING An electrical and/or optical loop that provides two independent bi-directional paths between two points for the same traffic. RING-MIU A nominal 2 Mbps bearer, and all the additional overhead bits per second recommended by ITU-T standards for multiplexing, in a Ring configuration with the capability of uni-directional operation. SUBSIDIARY A company having at least the majority of its shares owned legally or beneficially, directly or indirectly by its parent company.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the definition of 'RING-MIU' by altering its operational capability from bi-directional to uni-directional. This directly contradicts the definition of 'RING' which explicitly states that it provides two independent bi-directional paths. This directly violates the definiton of ambiguities - in text contradiction by defining key terms inconsistently in different parts of a contract, making enforcement difficult or interpretation unclear."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Each Terminal Party agrees to grant a Cable Station Right of Use to TAT-14 Purchasers pursuant to the terms and conditions of the Purchase Contract.",
+        "changed_text": "Each Terminal Party may grant a Cable Station Right of Use to TAT-14 Purchasers pursuant to the terms and conditions of the Purchase Contract.",
+        "explanation": "By changing 'agrees to grant' to 'may grant', the obligation of the Terminal Parties to provide Cable Station Right of Use to Purchasers becomes discretionary. This creates an in-text contradiction with the intention of the agreement to facilitate access to TAT-14 capacity, where it was agreed that all purchasers have a right to access and not a possibility. Therefore, this change weakens the rights of Purchasers and creates uncertainty regarding access to the cable system. This change affects Paragraph 15 in regards to Transit facilities.",
+        "location": "18.12",
+        "contradicted_location": "15",
+        "contradicted_text": "15 TRANSIT FACILITIES TO EXTEND TAT-14 CAPACITY AND CONNECTION WITH INLAND SYSTEMS 15.1 The Terminal Parties shall use all reasonable efforts to furnish and maintain, or cause to be furnished and maintained, in working order for the other Parties and for the Purchasers in TAT-14, for the duration of this Agreement, the necessary facilities in their respective Countries as may be reasonably required for extending capacity in TAT-14 assigned to such Parties or Purchasers for the purpose of handling communications transiting the Country involved. No Party shall be required under this Agreement to furnish such transit facilities in its Country to other Parties or Purchasers of its own Country.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that each Terminal Party 'agrees to grant' a Cable Station Right of Use, which implies a mandatory obligation. The changed text replaces this with 'may grant', making the granting of this right discretionary. This directly contradicts paragraph 15.1, which requires Terminal Parties to use 'all reasonable efforts' to furnish and maintain facilities for Purchasers to extend capacity in TAT-14. The discretionary nature introduced by 'may grant' undermines the obligation in 15.1 to use 'all reasonable efforts', thus creating a strong in-text contradiction as defined by the 'Ambiguities – In Text Contradiction' definition because it makes obligations unclear and creates ambiguity where certainty was previously assumed."
+      }
+    ]
+  }
+]

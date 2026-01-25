@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "Confidentiality_Agreement_1.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "8. This agreement becomes effective with the signat ures of both parties and is valid for three years. It is tacitly extended by one year if it is not terminated three months before its expiration.",
+        "changed_text": "8. This agreement becomes effective with the signat ures of both parties and is valid for three years, unless otherwise negotiated. It is automatically extended indefinitely regardless of termination notices.",
+        "explanation": "The addition of 'unless otherwise negotiated' introduces ambiguity about the agreement's duration. The statement that it is 'automatically extended indefinitely regardless of termination notices' directly contradicts the original clause that specifies a one-year extension with a three-month termination notice. This change contradicts with the original agreed upon validity duration, which affects the enforcement of the legal venue for disputes arising from this agreement.",
+        "location": "8",
+        "contradicted_location": "11",
+        "contradicted_text": "11. The parties agree that for this agreement Germa n law applies excluding the United Nations Conventi on on Contracts for the International Sale of Goods. The legal venue for all disputes arising from this agre ement is the head office of the company Helukabel in Hemmingen.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in section 8, specifically the addition of 'unless otherwise negotiated' and 'automatically extended indefinitely regardless of termination notices', directly contradicts the original clause that specifies a three-year validity with a one-year extension contingent on a three-month termination notice. This indefinite extension impacts the legal venue specified in section 11, as the duration of the agreement, which is now uncertain, is directly tied to the applicability of German law and the specified court. Therefore, the change creates a strong in-text contradiction impacting the enforcement of section 11."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "9. At the end of the contract the receiving party s hall return the confidential information and any po ssibly extant copies after receipt of a written request, provided that this is technically feasible and does not vio late the retention obligations. As an alternative to that, the receivi ng party can also ensure in writing the destruction of the received documentation if that is technically feasible.",
+        "changed_text": "9. At the end of the contract, the receiving party may, at its discretion, retain or return the confidential information and any possibly extant copies without a written request. Destruction of documentation is optional and requires no written assurance.",
+        "explanation": "This change introduces several contradictions. Replacing 'shall return' with 'may, at its discretion, retain or return' makes the return of confidential information optional, conflicting with the implicit obligation of confidentiality. Removing the need for a written request and written assurance for destruction further weakens the obligation. The original clause that specifies the confidential information will be kept as the property of the disclosing contract party.",
+        "location": "9",
+        "contradicted_location": "5",
+        "contradicted_text": "5. All confidential information remains the propert y of the disclosing contract party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in section 9, which states the receiving party 'may, at its discretion, retain or return' confidential information, directly contradicts section 5, which stipulates that 'All confidential information remains the property of the disclosing contract party.' The change removes the obligation to return confidential information, implying the receiving party can now keep what belongs to the disclosing party. This creates a strong contradiction, and falls under 'Omissions - In Text Contradiction' as an essential language requiring return of documentation was removed."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "7. If the recipient is forced to expose the confide ntial information due to a legal regulation, a lega lly valid judgement or a non-disputable official decision or decree in part or in whole, it shall immediately inform the o wner of the confidential information in writing so that the own er can take measures to protect the confidential in formation.",
+        "changed_text": "7. If the recipient is forced to expose the confidential information due to a legal regulation, a legally valid judgement or a non-disputable official decision or decree in part or in whole, it is not obligated to inform the owner of the confidential information.",
+        "explanation": "Removing the obligation to inform the owner of the confidential information if forced to expose it due to legal reasons directly contradicts the original intent of protecting the confidential information. This creates uncertainty if the owner will even be aware that their confidential information has been exposed, limiting any actions that can be taken to protect the information, creating conflict with the original confidentiality agreement.",
+        "location": "7",
+        "contradicted_location": "5",
+        "contradicted_text": "5. All confidential information remains the propert y of the disclosing contract party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the obligation to inform the owner of confidential information if it's exposed due to legal reasons. This directly contradicts the contradicted text, which states that \"All confidential information remains the property of the disclosing contract party.\" By removing the obligation to inform, the owner may not be able to protect their property, thus creating a strong in-text contradiction and impacting the owner's ability to maintain ownership or control over their confidential information."
+      }
+    ]
+  }
+]

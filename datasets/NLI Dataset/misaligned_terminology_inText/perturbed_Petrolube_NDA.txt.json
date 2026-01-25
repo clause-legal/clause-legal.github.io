@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "Petrolube_NDA.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "1.4) \"Evaluation\" means an evaluation by the Receiving Party of the Disclosing Party's Samples for the purpose of testing against those methods as specified in the Disclosing Party's Purchase Order. All tests available reside in the Petro-Lube Testing Brochure or on the Petro-Lube web site or by quotation.",
+        "changed_text": "1.4) \"Evaluation\" means an assessment by the Receiving Party of the Disclosing Party's Samples for the purpose of testing against those methods as specified in the Disclosing Party's Purchase Order. All tests available reside in the Petro-Lube Testing Brochure or on the Petro-Lube web site or by quotation. For avoidance of doubt, this assessment can also include destructive analysis.",
+        "explanation": "The original definition of 'Evaluation' limits it to testing against specified methods. By adding 'For avoidance of doubt, this assessment can also include destructive analysis,' we expand the definition to potentially include destructive analysis, which wasn't initially implied. This introduces ambiguity. 'Evaluation', initially implying non-destructive testing, now could imply complete destruction, creating an in-text contradiction in clause 3.2.1 and 3.4 where Petro-Lube are requested not to analyze the Samples destructively and to return the samples.",
+        "location": "1.4",
+        "contradicted_location": "3.2.1",
+        "contradicted_text": "3.2.1) Not to analyze, or have analyzed, any Sample in order to determine its chemical structure or composition nor permit any third parties to do the same.",
+        "contradiction_exists": "YES",
+        "justification": "The original definition of 'Evaluation' implied testing against specified methods. The changed text expands this definition to include 'destructive analysis'. The contradicted text (3.2.1) explicitly prohibits analyzing any sample to determine its chemical structure or composition. Since destructive analysis could reasonably involve determining chemical structure or composition, the changed text directly contradicts 3.2.1, creating a strong in-text contradiction. Clause 3.2.1 asks Petro-Lube not to destructively test the samples, whereas the changed text in 1.4 opens the possibility to Petro-Lube destructively testing the samples."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "1.5) \"Party\" means (Your Company Name), or Petro-Lube, as the context so requires, and \"Parties\" means (Your Company Name), or Petro-Lube, as the context so requires and its Assigns.",
+        "changed_text": "1.5) \"Party\" means (Your Company Name), or Petro-Lube, as the context so requires, and \"Parties\" means (Your Company Name), or Petro-Lube, as the context so requires and its Affiliates.",
+        "explanation": "Changing 'Assigns' to 'Affiliates' alters the scope of who is considered a 'Party'. 'Assigns' refers to entities to whom rights or obligations have been transferred, while 'Affiliates' refers to related companies. This creates confusion. If 'Parties' include 'Affiliates', clause 6.5 could be interpreted to include all Affiliates to be responsible and shall indemnify the other Party. However, this is not true because Affiliates are not necessarily part of the NDA agreement",
+        "location": "1.5",
+        "contradicted_location": "6.5",
+        "contradicted_text": "6.5) To the fullest extent permitted by applicable law, each Party shall be responsible for, and shall indemnify and hold harmless the other Party from all claims, losses, damages, reasonable costs (including legal costs), reasonable expenses and liabilities in respect of:",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Assigns' to 'Affiliates' in the definition of 'Parties' creates a strong in-text contradiction. Clause 6.5 states that each 'Party' shall indemnify the other Party. By changing 'Assigns' to 'Affiliates', the definition of 'Parties' now includes all Affiliates. The perturbation explanation specifically states that it is not true that all Affiliates are responsible and shall indemnify the other Party, because Affiliates are not necessarily part of the NDA agreement. This creates a direct contradiction with clause 6.5, leading to uncertainty about the obligations and rights of each party because some Affiliates are now included as 'Parties' who are not actually part of the agreement. This aligns with the definition of Misaligned Terminology - In Text Contradiction, because the contract uses the term 'Parties' inconsistently after the change."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "2.1) (Your Company Name) shall supply, or arrange for supply, to Petro-Lube such Samples as are deemed necessary for the completion of the Evaluations. The nature, quantity and types of Samples to be supplied shall coincide with Petro-Lube's capabilities.",
+        "changed_text": "2.1) (Your Company Name) shall supply, or arrange for supply, to Petro-Lube such Items as are deemed necessary for the completion of the Evaluations. The nature, quantity and types of Items to be supplied shall coincide with Petro-Lube's capabilities.",
+        "explanation": "Changing 'Samples' to 'Items' broadens the scope of what (Your Company Name) is obligated to supply. 'Samples' implies materials for testing, while 'Items' is more general. This is an in-text contradiction because the definition of Sample in 1.8 states that 'Sample' means any sample for testing. Section 2.1 now contradict definition 1.8 because the parties doesn't know if the items being provided needs to be used for 'testing' as defined in section 1.8",
+        "location": "2.1",
+        "contradicted_location": "1.8",
+        "contradicted_text": "1.8) \"Sample\" means any sample for testing provided to Petro-Lube by or on behalf of (Your Company Name) under this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies 'Samples', which aligns with the definition in section 1.8, defining a 'Sample' as any sample for testing. By changing 'Samples' to 'Items', the modified text broadens the scope beyond materials intended for testing. This creates a contradiction because section 2.1 no longer necessarily aligns with the specific definition provided in section 1.8. The parties doesn't know if the items being provided needs to be used for 'testing' as defined in section 1.8"
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "3.4) At the conclusion of the Evaluation Petro-Lube shall either return promptly to (Your Company Name) or it's Assigns, or at (Your Company Name)'s option, destroy any remaining Sample in whatever form then in its possession or control and verify such to (Your Company Name).",
+        "changed_text": "3.4) At the conclusion of the Assessment Petro-Lube shall either return promptly to (Your Company Name) or it's Assigns, or at (Your Company Name)'s option, retain any remaining Sample in whatever form then in its possession or control without needing to verify such to (Your Company Name).",
+        "explanation": "By using 'Assessment' instead of 'Evaluation', and changing 'destroy' to 'retain' in section 3.4, we contradict the previously defined obligation to either return or destroy the sample, as well as removing the obligation to verify the destruction. This contradicts 1.4 because Assessment is also defined as Evaluations.",
+        "location": "3.4",
+        "contradicted_location": "1.4",
+        "contradicted_text": "1.4) \"Evaluation\" means an assessment by the Receiving Party of the Disclosing Party's Samples for the purpose of testing against those methods as specified in the Disclosing Party's Purchase Order. All tests available reside in the Petro-Lube Testing Brochure or on the Petro-Lube web site or by quotation. For avoidance of doubt, this assessment can also include destructive analysis.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Evaluation' with 'Assessment' and alters the action required for the sample from 'destroy' to 'retain', also removing the verification requirement. Section 1.4 defines 'Evaluation' as an assessment that can include destructive analysis and section 3.4, in the original text, states Petro-Lube shall either return or destroy any remaining Sample. The change introduces a contradiction because the changed text now allows Petro-Lube to retain the sample, which conflicts with the original requirement to return or destroy it, and removes the requirement to verify destruction, which introduces an inconsistency with the definition of evaluation."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "7.8) The existence, terms, and subject matter of this Agreement are confidential between the Parties and are not to be disclosed to any third parties.",
+        "changed_text": "7.8) The existence, terms, and contents of this Agreement are confidential between the Parties and are not to be disclosed to any third parties.",
+        "explanation": "Changing 'subject matter' to 'contents' alters the scope of what information is considered confidential. 'Subject matter' refers to the general topic or purpose of the agreement, while 'contents' encompasses all the specific details within the agreement. This leads to potential disputes over what is confidential. This alteration is important because earlier in section 4.1 the agreement says that if either party does disclose such data or information to the other Party, the other Party shall be entitled to regard such information as non-confidential.",
+        "location": "7.8",
+        "contradicted_location": "4.1",
+        "contradicted_text": "4.1) It shall not be necessary for either Party to disclose to the other Party any confidential technical or commercial data or information about its products, technology, processes, commercial activities or otherwise for the purposes of this Agreement. To the extent that either Party does disclose such data or information to the other Party, the other Party shall be entitled to regard such information as non-confidential in the absence of a written agreement between the Parties otherwise.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'subject matter' to 'contents' significantly broadens the scope of confidential information. Section 4.1 states that if a party discloses data, the receiving party can consider it non-confidential unless otherwise agreed in writing. By making the 'contents' confidential, it potentially contradicts section 4.1, as 'contents' would include the data mentioned in 4.1, thus creating a conflict regarding what information can be considered non-confidential if disclosed. This creates a strong in-text contradiction."
+      }
+    ]
+  }
+]

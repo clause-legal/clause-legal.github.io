@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "Annex 18 - Non-Disclosure Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "\"Purpose \" means discussions and negotiations between t he parties with respect to the [DESCRIPTION OF PURPOSE] ;",
+        "changed_text": "\"Purpose \" means the general intention of the parties to explore potential collaboration.",
+        "explanation": "The original definition of 'Purpose' was specific to the [DESCRIPTION OF PURPOSE]. By changing it to 'general intention,' the contract introduces ambiguity. This change introduces a perturbation because 'Purpose' is directly related to the application of Confidential Information. This change specifically contradicts clause 2.2 because the use of Confidential Information is limited to the purpose, which is now less defined.",
+        "location": "1.1",
+        "contradicted_location": "2.2",
+        "contradicted_text": "not to use the other party's Confidential Information except for the Purpose;",
+        "contradiction_exists": "YES",
+        "justification": "The original definition of 'Purpose' was specific. The changed text broadens the definition of 'Purpose' to a 'general intention.' The contradicted text limits the use of Confidential Information to the 'Purpose'. By making the definition of 'Purpose' less specific, the changed text introduces a contradiction because the limitation on using Confidential Information for a specific purpose becomes vague and less enforceable. This aligns with the Omissions - In Text Contradiction definition because essential language was altered in one section, creating a contradiction with obligations stated in other sections."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Prior to disclosure of the Confidential Information to a Recipient, the Receiving Party shall, except in case of disclosure under Clause 4.1.3 of this Agreement, ensure that the Recipient reads and understands this Agreement and shall ensure that the Recipient complies with the terms of this Agreement as if the Recipient were a party to this Agreement .",
+        "changed_text": "Prior to disclosure of the Confidential Information to a Recipient, the Receiving Party should make a good faith effort to inform the Recipient of the confidential nature of the information.",
+        "explanation": "The original clause required the Receiving Party to ensure Recipient compliance with the entire agreement. The modified clause weakens this to a 'good faith effort' to inform, creating ambiguity. This change means there is no guarantee of compliance from the recipient as if they were a party in the agreement and introduces a contradiction, against what is written in 4.3.",
+        "location": "4.3",
+        "contradicted_location": "4.3",
+        "contradicted_text": "Prior to disclosure of the Confidential Information to a Recipient, the Receiving Party should make a good faith effort to inform the Recipient of the confidential nature of the information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandated the Receiving Party to 'ensure' Recipient compliance, creating a definite obligation. The changed text weakens this to a 'good faith effort', introducing ambiguity and uncertainty about the Recipient's compliance. This contradicts the implied assumption in other sections that the Recipient is bound by the agreement's terms as if they were a party, because there is no longer an assurance of compliance, based solely on the changed text. The Changed Text contradicts the Contradicted Text. The explanation also says this change contradicts what is written in 4.3, but no text is given to reference that."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "FMO may be obliged to disclose through publication on its website, and other (social) media, certain details of the Project and FMO’s participation in a potential financing (no commercially sensitive or Confidential I nformation ), for a period of at least 30 days, in advance of contracting . FMO and the Company will enter into separate and more detailed arrangement on disclosure prior to contracting of such financing.",
+        "changed_text": "FMO may disclose details of the Project and FMO’s participation in a potential financing. FMO will consider the company's suggestion about disclosure prior to contracting of such financing.",
+        "explanation": "The original clause limited FMO's disclosure to non-confidential information and mandated separate arrangements. The modified clause omits the limitation on disclosure of Confidential Information, contradicting the core NDA principle. This change contradicts the purpose of the agreement, which is to keep certain info confidential.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "PUBLICATION OF INFOR MATION FMO may disclose details of the Project and FMO’s participation in a potential financing. FMO will consider the company's suggestion about disclosure prior to contracting of such financing.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly limited FMO's disclosure to non-commercially sensitive or Confidential Information, and mandated separate arrangements on disclosure, while the changed text removes the limitation on disclosing confidential information. This directly contradicts the confidentiality implicit in the purpose of the agreement and creates a strong in-text contradiction, since the contradicted text is the Changed Text. The Changed Text is not limited to non-confidential information anymore and is not consistent with the NDA principle."
+      }
+    ]
+  }
+]

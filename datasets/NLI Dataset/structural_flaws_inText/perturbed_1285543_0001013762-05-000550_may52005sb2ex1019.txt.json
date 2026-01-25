@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "1285543_0001013762-05-000550_may52005sb2ex1019.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "StrikeForce and Company are interested in disclosing to each other certain information relating to their respective business plans and proprietary technology (hereinafter \"Information\") for the purposes of evaluation and consultation.",
+        "changed_text": "StrikeForce and Company are interested in disclosing to each other certain information relating to their respective business plans and proprietary technology (hereinafter \"Information\") for the purposes of potential investment and acquisition.",
+        "explanation": "The original purpose of information disclosure is for 'evaluation and consultation'. Changing it to 'potential investment and acquisition' fundamentally alters the context and intended use of the disclosed information, potentially contradicting subsequent clauses that assume the original purpose.",
+        "location": "1",
+        "contradicted_location": "4",
+        "contradicted_text": "Nothing contained in this Agreement shall be construed by implication or otherwise, as an obligation to enter into any further agreement relating to the Information or as grant of a license to use the Information or any intellectual property rights therein other than for evaluation and consultation purposes. Disclosing Party retains any and all proprietary and ownership rights it has in and to the Information it discloses.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified that information disclosure was for 'evaluation and consultation.' The changed text alters this purpose to 'potential investment and acquisition.' This creates a direct contradiction with the contradicted text, which explicitly states that the agreement should not be construed as an obligation to enter into any further agreement or grant a license to use the information other than for 'evaluation and consultation purposes.' The changed text directly conflicts with this restriction, as investment and acquisition go beyond mere evaluation and consultation."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Recipient shall hold the Information in confidence, and shall use reasonable efforts to prevent any unauthorized use or disclosure of the Information.",
+        "changed_text": "The Recipient shall hold the Information in confidence, but may disclose the Information to affiliated entities for internal review and analysis.",
+        "explanation": "The original clause states that the recipient will prevent unauthorized disclosure of information. However, the modified clause now allows disclosure to affiliated entities. This contradicts the initial restriction and creates ambiguity about what constitutes 'unauthorized' disclosure, introducing uncertainty in enforcement.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "The Recipient shall hold the Information in confidence, but may disclose the Information to affiliated entities for internal review and analysis. Except as expressly provided in this Agreement, the Recipient shall not disclose or divulge the Information, in whole or in part, to any third party, including licensees or customers anywhere in the world. The Recipient may not use the Information for any purpose other than the aforesaid without the prior written consent of a duly authorized representative of Disclosing Party. The Recipient may disclose the Information only to its officers, employees and independent contractors who are necessary for the purpose of evaluating such Information, and Recipient shall be responsible for any disclosure by them in violation of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text required the Recipient to prevent unauthorized disclosure. The changed text allows disclosure to affiliated entities, which conflicts with the original restriction on unauthorized disclosure. This creates a contradiction with the contradicted text, which states 'Except as expressly provided in this Agreement, the Recipient shall not disclose or divulge the Information, in whole or in part, to any third party', because affiliated entities would be considered third parties. The change introduces ambiguity and inconsistency, aligning with the 'Structural Flaws - In Text Contradiction' definition."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "At Disclosing Party's request, the Recipient shall promptly return or destroy all Information disclosed by Disclosing Party and shall retain no copies.",
+        "changed_text": "At Disclosing Party's request, the Recipient shall archive all Information disclosed by Disclosing Party and provide access to the Disclosing Party upon request, while maintaining a secure copy for internal compliance purposes.",
+        "explanation": "The original clause clearly states that the Recipient should return or destroy all information. The new clause mandates archiving and maintaining a secure copy, which directly contradicts the instruction to destroy all copies.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "Upon completion of the aforesaid evaluation and in the absence of further agreement of the parties, the Recipient shall cease all use and make no further use of the Information. At Disclosing Party's request, the Recipient shall archive all Information disclosed by Disclosing Party and provide access to the Disclosing Party upon request, while maintaining a secure copy for internal compliance purposes.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the Recipient shall return or destroy all Information. The changed text mandates archiving and maintaining a secure copy, which directly contradicts the original instruction and therefore contradicts the contradicted text. The explanation provided confirms the contradiction, which follows the 'Structural Flaws - In Text Contradiction' perturbation definition."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement shall be governed by the law of the United States of America and the State of New Jersey without regard to conflicts of laws principles.",
+        "changed_text": "This Agreement shall be governed by the law of the United States of America and the State of Delaware with regard to conflicts of laws principles.",
+        "explanation": "The original clause states that New Jersey law applies without regard to conflict of laws. The modified clause now says Delaware law applies with regard to conflict of laws, thereby creating a direct contradiction regarding jurisdiction and conflict resolution.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "The parties hereby acknowledge and agree that in the event of any violation or a threatened violation of this Agreement by the Recipient, the Disclosing Party shall be authorized and entitled to seek from any court of competent jurisdiction preliminary and permanent injunctive relief. This Agreement shall be governed by the law of the United States of America and the State of Delaware with regard to conflicts of laws principles. Sections 3-7 shall survive any termination or expiration of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that the agreement is governed by the laws of New Jersey without regard to conflict of laws principles. The changed text modifies this to specify that the agreement is governed by the laws of Delaware with regard to conflict of laws principles. The contradicted text also states that the agreement is governed by Delaware law with regard to conflict of laws principles. Although the contradicted text now aligns with the changed text, the change itself introduces a contradiction in the document because one part of the document now says New Jersey law governs the agreement, while the changed and contradicted sections specify that Delaware law governs the agreement."
+      }
+    ]
+  }
+]

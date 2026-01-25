@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "1052303_0000950109-98-003654_document_16.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This document and appendices contain the entire agreement between the Parties and supersede any previous oral or written understandings, commitments or agreements pertaining to the subject matter hereof. This MNDA shall not be modified or changed in any manner except in a writing signed by both parties.",
+        "changed_text": "This document and appendices contain the entire agreement between the Parties and supersede any previous oral or written understandings, commitments or agreements pertaining to the subject matter hereof. This writing shall not be modified or changed in any manner except in a writing signed by both parties.",
+        "explanation": "Changing 'This MNDA' to 'This writing' creates confusion about what exactly cannot be modified. 'MNDA' clearly refers to the Mutual Nondisclosure Agreement. 'This writing' could refer to any individual amendment, the signature page, or a different document entirely, thus leading to conflicting interpretations of which parts of the agreement are unchangeable except by written consent. The contradiction takes place at the original 'original_text' location, because it mentions MNDA, and after being change, refers to the 'writing'.",
+        "location": "B. GENERAL 5",
+        "contradicted_location": "B. GENERAL 5",
+        "contradicted_text": "This document and appendices contain the entire agreement between the Parties and supersede any previous oral or written understandings, commitments or agreements pertaining to the subject matter hereof. This writing shall not be modified or changed in any manner except in a writing signed by both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text clearly states that the 'MNDA' cannot be modified except in writing. The changed text replaces 'MNDA' with 'writing,' which is ambiguous and could refer to various documents or parts thereof, including amendments, signature pages, or even a separate document. This introduces uncertainty and contradicts the original intent, creating a strong contradiction because the changed text conflicts with the original intention of only the MNDA to be unmodifiable except in writing, as defined by the Misaligned Terminology - In Text Contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Consistent with other provisions herein, each party assures that it will not knowingly, without obtaining prior authorization from the U.S. Dept. of Commerce Office of Export Administration, transmit directly or indirectly the technical data received pursuant hereto or the immediate product (including processes and services) produced directly by use of such technical data to Afghanistan, People's Republic of China, or any other Country Group Q, S, W, T, or Z country specified in Supplement No. I to Part 370 of U.S. Dept. of Commerce Export Administration Regulations.",
+        "changed_text": "Consistent with other provisions herein, each party assures that it will not knowingly, without obtaining prior authorization from the U.S. Dept. of Commerce Office of Export Administration, transmit directly or indirectly the Information received pursuant hereto or the immediate product (including processes and services) produced directly by use of such Information to Afghanistan, People's Republic of China, or any other Country Group Q, S, W, T, or Z country specified in Supplement No. I to Part 370 of U.S. Dept. of Commerce Export Administration Regulations.",
+        "explanation": "Changing 'technical data' to 'Information' creates a potential contradiction. While 'technical data' is a subset of 'Information,' the original text later refers to 'INFORMATION' (defined presumably elsewhere), possibly implying a broader set of data than just the technical data. This creates confusion on what the parties are restricted from exporting, as it could refer to all types of Information or to just technical data. The contradiction takes place at the original 'original_text' location, because it mentions technical data, which is more specific in comparison to 'Information', after being change.",
+        "location": "B. GENERAL 4",
+        "contradicted_location": "B. GENERAL 4",
+        "contradicted_text": "Consistent with other provisions herein, each party assures that it will not knowingly, without obtaining prior authorization from the U.S. Dept. of Commerce Office of Export Administration, transmit directly or indirectly the Information received pursuant hereto or the immediate product (including processes and services) produced directly by use of such Information to Afghanistan, People's Republic of China, or any other Country Group Q, S, W, T, or Z country specified in Supplement No. I to Part 370 of U.S. Dept. of Commerce Export Administration Regulations.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'technical data' to 'Information' introduces a strong in-text contradiction. The explanation states that 'technical data' is a subset of 'Information', and the contract later refers to 'INFORMATION', implying a broader set of data. This creates ambiguity and conflict on what the parties are restricted from exporting, as the contradicted text also mentions 'Information', but the change implies it's broader than 'technical data', therefore leading to a misaligned terminology in the document, thus creating a contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "IN WITNESS WHEREOF, the Parties have caused this MDNA to be executed as of this 9th day of December __, 1996.",
+        "changed_text": "IN WITNESS WHEREOF, the Parties have caused this Agreement to be executed as of this 9th day of December __, 1996.",
+        "explanation": "Similar to the first change, replacing 'MNDA' with 'Agreement' here creates inconsistency. The phrase 'caused this MNDA to be executed' specifically refers to signing the Mutual Nondisclosure Agreement. Using 'Agreement' here again brings back the ambiguity of whether other agreements are intended, confusing the reader and undermining the definitiveness of what the signatories intended to execute. The contradiction takes place at the original 'original_text' location, because it refers to MNDA, after being change, broadly mentions Agreement.",
+        "location": "IN WITNESS WHEREOF",
+        "contradicted_location": "IN WITNESS WHEREOF",
+        "contradicted_text": "IN WITNESS WHEREOF, the Parties have caused this Agreement to be executed as of this 9th day of December __, 1996.",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers specifically to the 'MNDA' being executed. The changed text broadens this to 'Agreement,' which could encompass other agreements. The contradicted text also refers to 'Agreement'. The change introduces ambiguity because the term 'Agreement' is vague. This contradicts the original intent, leading to uncertainty about which specific agreement the Parties caused to be executed, creating an in-text contradiction as per the explanation given."
+      }
+    ]
+  }
+]

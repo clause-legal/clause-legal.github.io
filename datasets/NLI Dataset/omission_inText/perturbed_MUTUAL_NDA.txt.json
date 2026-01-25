@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "MUTUAL_NDA.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Receiving Party understands and acknowledges that any disclosure or misappropriation of any of the Confidential Information in violation of this Agreement may cause the Disclosing Party irreparable harm, the amount of which may be difficult to ascertain and, therefore, agrees that the Disclosing Party shall have the right to apply to a court of competent jurisdiction for an order restraining any such further disclosure or misappropriation and for such other relief as the Disclosing Party shall deem appropriate, such right of the Disclosing Party to be in addition to the remedies otherwise available to the Disclosing Party at law or in equity.",
+        "changed_text": "The Receiving Party understands that the Disclosing Party can seek legal remedies for damages.",
+        "explanation": "By removing the Receiving Party's explicit acknowledgement that disclosure can cause 'irreparable harm' and the Disclosing Party's right to seek an injunction, the changed text weakens the protection offered in Section 5 and creates an in-text contradiction. The modified clause just acknowledges the right to seek legal remedies, but it removes the specific acknowledgement that is is hard to ascertain and the injunction, making Section 5 less enforceable.",
+        "location": "Section 5",
+        "contradicted_location": "Section 5",
+        "contradicted_text": "Injunctive Relief. The Receiving Party understands and acknowledges that any disclosure or misappropriation of any of the Confidential Information in violation of this Agreement may cause the Disclosing Party irreparable harm, the amount of which may be difficult to ascertain and, therefore, agrees that the Disclosing Party shall have the right to apply to a court of competent jurisdiction for an order restraining any such further disclosure or misappropriation and for such other relief as the Disclosing Party shall deem appropriate, such right of the Disclosing Party to be in addition to the remedies otherwise available to the Disclosing Party at law or in equity.",
+        "contradiction_exists": "YES",
+        "justification": "The original text acknowledges irreparable harm and the right to seek an injunction, while the changed text only acknowledges legal remedies, removing the explicit acknowledgement of irreparable harm and the right to seek an injunction. This directly contradicts the 'Injunctive Relief' clause, which relies on the acknowledgment of irreparable harm and explicitly states the right to seek an injunction. The change weakens the protection offered and introduces a strong inconsistency regarding the availability of injunctive relief, thus creating a strong in-text contradiction. The changed text fails to give the same directive as the contradicted text."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The term of this Agreement is two (2) years from the Effective Date, provided that the Receiving Party's duty to protect the Disclosing Party's Confidential Information shall survive expiration or termination of this Agreement and shall expire five (2) years from the date of disclosure.",
+        "changed_text": "This Agreement remains in effect as long as both parties are in agreement.",
+        "explanation": "By changing the term of the agreement from a fixed period to 'as long as both parties are in agreement', it creates an in-text contradiction because the five year survival clause for protecting confidential information doesn't make sense if there is no fixed expiry date.",
+        "location": "Section 4",
+        "contradicted_location": "Section 4",
+        "contradicted_text": "Term. The term of this Agreement is two (2) years from the Effective Date, provided that the Receiving Party's duty to protect the Disclosing Party's Confidential Information shall survive expiration or termination of this Agreement and shall expire five (2) years from the date of disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies a 2-year term with a 5-year survival clause for confidential information. The changed text modifies the agreement to last 'as long as both parties are in agreement', removing the fixed expiry date. This creates an in-text contradiction with the contradicted text, as the 5-year survival clause doesn't make sense without a defined term or expiry date. The change directly breaks compatibility between the sections, as a term without a fixed expiry date clashes with a clause contingent on expiration. The original text gives a fixed date, while the changed text turns it into an indefinite term, creating a strong contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This Agreement constitutes the sole understanding of the parties with respect to the subject matter hereof and may not be amended or modified except in writing signed by each of the parties hereto.",
+        "changed_text": "This Agreement represents the current understanding, subject to change based on business conditions.",
+        "explanation": "Removing the requirement for written and signed amendments and stating the agreement is 'subject to change' creates an in-text contradiction with the intent of having a sole and definitive understanding (the main and only agreement of both parties). This change now permits verbal, unsigned modifications, in contrast to the clear, formal modification requirement.",
+        "location": "Section 9",
+        "contradicted_location": "Section 9",
+        "contradicted_text": "Entire Agreement . This Agreement constitutes the sole understanding of the parties with respect to the subject matter hereof and may not be amended or modified except in writing signed by each of the parties hereto.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly states that amendments or modifications must be in writing and signed by all parties. The changed text removes this requirement and states that the agreement is 'subject to change based on business conditions,' implying that changes can be made without written consent. This directly contradicts the contradicted text, which requires all amendments to be in writing and signed, creating a strong contradiction regarding the method of modifying the contract. The change allows for potentially verbal or unsigned modifications, which are explicitly prohibited by the contradicted text."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "All Co nfidential Information and all intellectual property rights therein shall remain the property of the Disclosing Party and no license or other right to Confidential Information is granted or implied hereby .",
+        "changed_text": "The Disclosing Party retains rights to information designated as confidential.",
+        "explanation": "The modified text omits the phrase \"all intellectual property rights therein\" and removes the declaration that \"no license or other right to Confidential Information is granted or implied hereby.\" By softening the language, the Receiving Party is given more implied right to use the Confidential information, creating a contradiction against the original understanding of full and complete ownership and no implied rights.",
+        "location": "Section 3",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "Ownership of Confidential Information . All Co nfidential Information and all intellectual property rights therein shall remain the property of the Disclosing Party and no license or other right to Confidential Information is granted or implied hereby .",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly states 'no license or other right to Confidential Information is granted or implied hereby.' The changed text, 'The Disclosing Party retains rights to information designated as confidential,' omits this crucial clause. This omission contradicts the contradicted text which repeats the original text, because it implies that some rights *may* be granted or implied, creating a direct conflict with the explicit denial of such rights in the original and contradicted sections. By removing the phrase \"all intellectual property rights therein\" and removing the declaration that \"no license or other right to Confidential Information is granted or implied hereby,\" the receiving party is given more implied right to use the confidential information, creating a contradiction against the original understanding of full and complete ownership and no implied rights."
+      }
+    ]
+  }
+]

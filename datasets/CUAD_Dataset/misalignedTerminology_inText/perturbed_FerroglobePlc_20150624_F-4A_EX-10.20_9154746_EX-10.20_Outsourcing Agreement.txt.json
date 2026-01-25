@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "FerroglobePlc_20150624_F-4A_EX-10.20_9154746_EX-10.20_Outsourcing Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The specific services rendered by EIT according to this Agreement include the following: 3.1. NETWORK EIT is in charge of the remote Network, which connects each workstation of the Customer to the Central Server of EIT and to Internet (hereinafter \"WAN\"). The internal network of the factories (hereinafter \"LAN\") is excluded from this Agreement and the Customer is responsible for it.",
+        "changed_text": "The specific services rendered by EIT according to this Agreement include the following: 3.1. NETWORK EIT is in charge of the remote Network, which connects each workstation of the Customer to the Central Server of EIT and to Internet (hereinafter \"LAN\"). The internal network of the factories (hereinafter \"WAN\") is excluded from this Agreement and the Customer is responsible for it.",
+        "explanation": "In Section 3.1, the definition of \"WAN\" and \"LAN\" are switched. Originally, WAN refers to the external network connecting the customer to the Central Server and internet, while LAN refers to the internal network within the factories. By swapping the acronyms, the contract now contradicts itself regarding the scope of EIT's responsibility and the customer's responsibility for network management. This creates confusion about which network EIT manages and which network the customer is accountable for, potentially leading to disputes over service provision and costs.",
+        "location": "3.1",
+        "contradicted_location": "3.1",
+        "contradicted_text": "NETWORK EIT is in charge of the remote Network, which connects each workstation of the Customer to the Central Server of EIT and to Internet (hereinafter \"LAN\"). The internal network of the factories (hereinafter \"WAN\") is excluded from this Agreement and the Customer is responsible for it.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text swaps the definitions of 'WAN' and 'LAN' compared to both the original text and the contradicted text. This creates a direct conflict because the changed text now assigns responsibility for the internal network (factories) to EIT and the external network to the Customer, which is the opposite of what the contradicted text (and the original text) states. This misalignment constitutes a strong in-text contradiction because it directly affects the scope of services and responsibilities defined in the contract, making the agreement ambiguous and potentially unenforceable."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The supervision of the Agreement is assured by EIT, represented by its Chief Executive, and by the Customer, represented by its Headof Information Technology Department.",
+        "changed_text": "The supervision of the Agreement is assured by EIT, represented by its Project Manager, and by the Customer, represented by its Headof Information Technology Department.",
+        "explanation": "In section 2.4, EIT's representation for supervision is changed from the \"Chief Executive\" to the \"Project Manager.\" This creates an in-text contradiction because elsewhere in the document, specifically in the introductory section where parties are defined, EIT is explicitly represented by its Chief Executive. This contradiction introduces ambiguity as to who has the authority to supervise the agreement on behalf of EIT, potentially affecting the validity of supervisory actions or decisions.",
+        "location": "2.4",
+        "contradicted_location": "Parties to this agreement",
+        "contradicted_text": "Parties to this agreement SILICON SMELTERS << Pty >> Ltd, registration nr 1998/019036/07, VAT n\u00b0 4310178506, Registered office at Beyersnek Road, PO Box 657 Polokwane - South Africa, represented by Benoit Emile Norbert Ollivier, Managing Director, acting pursuant to the powers granted to him by the Board on the 22nd of May, 2008 (hereinafter referred to as \"the Customer\"), AND ESPACIO INFORMATION TECHNOLOGY, SA., a public limited company with place of business in P\u00b0 de la Castellana, N\u00b0 259, 28046, Madrid, SPAIN, and represented by Mr. Carlos Lafitte as Chief Executive, in virtue of his powers, currently in force, conferred to him the 23rd of January of 1996 (Protocol No. 134), before Mr. Jose Maria Lucena Conde, Notary Public in Madrid, (hereinafter referred to as \"EIT\").",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies section 2.4 to state that the Project Manager of EIT is responsible for supervising the agreement. The contradicted text explicitly states that Mr. Carlos Lafitte, as Chief Executive, represents EIT. This creates a direct conflict regarding who has the authority to supervise the agreement on behalf of EIT, resulting in ambiguity and a strong in-text contradiction, as defined by 'Misaligned Terminology - In Text Contradiction'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The parties will review annually by mutual agreement the contents and aims of the Service Level Agreement.",
+        "changed_text": "The parties will review annually unilaterally by the Customer the contents and aims of the Service Level Agreement.",
+        "explanation": "Section 6.3 originally states that the 'Service Level Agreement' will be reviewed 'annually by mutual agreement'. The modification changes this to 'annually unilaterally by the Customer'. This creates a direct contradiction. Later sections discussing the Service Level Agreement, and any clauses relying on mutual agreement (like modifications to service levels or pricing adjustments linked to service performance), are now rendered ambiguous. If the Customer can unilaterally change the terms, EIT's rights and obligations are unclear, leading to potential disputes regarding the enforceability of the agreement.",
+        "location": "6.3",
+        "contradicted_location": "6.2",
+        "contradicted_text": "The parties will analyse monthly these measurements in order to identify what can be improved.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the 'Service Level Agreement' will be reviewed 'annually by mutual agreement', which implies both parties must agree on any changes. The changed text modifies this to 'annually unilaterally by the Customer', meaning the Customer can make changes without the other party's agreement. The contradicted text states that 'The parties will analyse monthly these measurements in order to identify what can be improved.' This section assumes a continuous mutual agreement and collaboration which is contradicted by the modified text. If the customer can unilaterally make changes, this directly undermines the contradicted text, which discusses an ongoing analysis by both parties. Therefore, the change creates a direct contradiction."
+      }
+    ]
+  }
+]

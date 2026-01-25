@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "863895_0001144204-05-038795_v030731_ex10-2.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "4. All CONFIDENTIAL INFORMATION will remain the property of the disclosing Party and, upon request of the disclosing Party, the receiving Party shall promptly return to the disclosing Party all CONFIDENTIAL INFORMATION, or any part or reproduction thereof.",
+        "changed_text": "4. All CONFIDENTIAL INFORMATION will remain the property of the disclosing Party. However, if the receiving party integrates the Confidential Information into a patentable invention, they have the right to retain a copy of the confidential information used to develop such invention for archival purposes only. Upon request of the disclosing Party, the receiving Party shall return all remaining CONFIDENTIAL INFORMATION, or any part or reproduction thereof.",
+        "explanation": "The added clause contradicts the absolute return requirement. Now, the receiving party can retain a copy under certain conditions, creating ambiguity regarding the extent of the return obligation, resulting in an in-text contradiction.",
+        "location": "Section 4",
+        "contradicted_location": "Section 4",
+        "contradicted_text": "4. All CONFIDENTIAL INFORMATION will remain the property of the disclosing Party. However, if the receiving party integrates the Confidential Information into a patentable invention, they have the right to retain a copy of the confidential information used to develop such invention for archival purposes only. Upon request of the disclosing Party, the receiving Party shall return all remaining CONFIDENTIAL INFORMATION, or any part or reproduction thereof.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that all confidential information must be returned, but the changed text allows the receiving party to retain a copy under certain circumstances. This introduces a contradiction because the obligation to return *all* confidential information is no longer absolute. The contradicted text is identical to the changed text, which highlights that the change itself introduced the in-text contradiction. As a result, the change breaks compatibility with the contradicted section."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "5. The obligations of each and every Party, and each employee and officer of each Party Under this Agreement will expire five (5) years from the termination of the JRA.",
+        "changed_text": "5. The obligations of each and every Party, and each employee and officer of each Party Under this Agreement will expire five (5) years from the termination of the JRA, except for trade secrets, which shall remain protected indefinitely.",
+        "explanation": "The original text sets a clear expiration of 5 years for all obligations. This change introduces an exception for 'trade secrets,' which are now protected indefinitely. This creates a contradiction about the duration of confidentiality obligations. Is it 5 years for all confidential information, or indefinite for trade secrets within that information?",
+        "location": "Section 5",
+        "contradicted_location": "Section 5",
+        "contradicted_text": "5. The obligations of each and every Party, and each employee and officer of each Party Under this Agreement will expire five (5) years from the termination of the JRA, except for trade secrets, which shall remain protected indefinitely.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that all obligations expire after 5 years. The changed text modifies this to say that trade secrets are protected indefinitely. The contradicted text is the same as the changed text. This directly contradicts the original statement of a universal 5-year expiration for all obligations, by creating an exception where trade secrets are protected indefinitely. It introduces uncertainty about the duration of confidentiality obligations and creates a clear in-text contradiction."
+      }
+    ]
+  }
+]

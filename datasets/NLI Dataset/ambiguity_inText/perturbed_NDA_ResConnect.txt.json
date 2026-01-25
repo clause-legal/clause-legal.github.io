@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "NDA_ResConnect.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Either party agrees that it shall ensure that it and its associated companies and their respective officers and employees shall keep confidential, both during and after the duration of the agreement, all information which:",
+        "changed_text": "Either party agrees that it shall ensure that it and its associated companies and their respective officers and employees shall keep confidential, only during the duration of the agreement, all information which:",
+        "explanation": "The original text requires confidentiality 'both during and after' the agreement. The modified text limits it 'only during'. This creates a clear contradiction regarding the period during which confidentiality must be maintained, allowing for disputes over post-agreement disclosures. This creates an in-text contradiction because after the agreement, either party can now expose previously confidential iformation.",
+        "location": "2.1",
+        "contradicted_location": "2.1",
+        "contradicted_text": "Either party agrees that it shall ensure that it and its associated companies and their respective officers and employees shall keep confidential, both during and after the duration of the agreement, all information which:",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates confidentiality 'both during and after' the agreement's duration. The changed text narrows this obligation to 'only during' the agreement. The contradicted text repeats the original text's language requiring confidentiality 'both during and after the duration of the agreement.' Thus, the modified text directly contradicts the contradicted text, creating an in-text contradiction by limiting the duration of confidentiality, whereas another section requires it both during and after the agreement."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Any Business Partner shall maintain the material as confidential and shall not publish, disclose or distribute all or any portion of it (or any copies of it) to any other person or permit any other person access to it, save for employees, consultants or agents of the Business Partner for purposes specifically related to Mandarin’s use of the material.",
+        "changed_text": "Any Business Partner shall maintain the material as confidential, but may publish, disclose or distribute all or any portion of it (or any copies of it) to any other person or permit any other person access to it, when related to improving Business Partner's operational processes.",
+        "explanation": "The original text strictly prohibits disclosure of the material. The modified text permits disclosure for specific purposes related to improving the Business Partner's operational processes, creating a direct contradiction on whether the material can be shared or not. This creates an in-text contradiction if Mandarin's confidential information is used to benefit another company for operational process improvement.",
+        "location": "3.2",
+        "contradicted_location": "3.2",
+        "contradicted_text": "Any Business Partner shall maintain the material as confidential and shall not publish, disclose or distribute all or any portion of it (or any copies of it) to any other person or permit any other person access to it, save for employees, consultants or agents of the Business Partner for purposes specifically related to Mandarin’s use of the material.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly prohibits the Business Partner from disclosing the material. The changed text introduces an exception, allowing disclosure for purposes related to improving the Business Partner's operational processes. The contradicted text restates the original prohibition on disclosure. This creates a direct conflict, as the changed text now permits something (disclosure for specific purposes) that the contradicted text strictly forbids. This fits the definition of 'Ambiguities – In Text Contradiction' since it defines obligations inconsistently."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Business Partner agrees that access to ResRequest information will be used for the sole use of the Business Partner and no auxiliary distribution is permitted, unless agreed upon by both parties.",
+        "changed_text": "The Business Partner agrees that access to ResRequest information will be used for the sole use of the Business Partner and auxiliary distribution is permitted, as long as the original context of information is retained.",
+        "explanation": "The original text prohibits auxiliary distribution unless agreed upon. The modified text permits it as long as the original context is retained, creating a contradiction regarding whether auxiliary distribution is allowed. The condition about retaining 'original context' is vague and open to interpretation, further increasing ambiguity and creating in-text contradiction.",
+        "location": "4.1",
+        "contradicted_location": "4.1",
+        "contradicted_text": "The Business Partner agrees that access to ResRequest information will be used for the sole use of the Business Partner and no auxiliary distribution is permitted, unless agreed upon by both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states no auxiliary distribution is permitted unless agreed upon by both parties. The changed text permits auxiliary distribution as long as the original context is retained. This creates a direct contradiction. The contradicted text repeats the original condition of 'no auxiliary distribution' while the Changed Text permits it. Since one states it's not permitted unless agreed, and the other states it's permitted if the original context is retained, a contradiction exists."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Neither party shall be liable to the other for any special, indirect or consequential damages or loss.",
+        "changed_text": "Neither party shall be liable to the other for any special, indirect or consequential damages or loss, except in cases of gross negligence or willful misconduct.",
+        "explanation": "The original text provides a blanket limitation of liability. The modified text introduces an exception for gross negligence or willful misconduct, directly contradicting the initial blanket limitation. This exception could be interpreted differently by each party, leading to potential legal disputes regarding the extent of liability and in-text contradiction.",
+        "location": "5.1",
+        "contradicted_location": "5.1",
+        "contradicted_text": "Neither party shall be liable to the other for any special, indirect or consequential damages or loss.",
+        "contradiction_exists": "YES",
+        "justification": "The original text provides a blanket limitation of liability, preventing either party from being liable for special, indirect, or consequential damages. The changed text introduces an exception for cases of gross negligence or willful misconduct. The contradicted text states 'Neither party shall be liable to the other for any special, indirect or consequential damages or loss.' This directly contradicts the changed text which now allows for liability in specific circumstances, creating a strong in-text contradiction because it breaks the initial blanket limitation."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Any legal dispute arising from this agreement will be subject to the jurisdiction of South African law.",
+        "changed_text": "Any legal dispute arising from this agreement will be subject to the jurisdiction of South African law, unless the Business Partner is based outside of South Africa, in which case disputes will be resolved through binding arbitration in London.",
+        "explanation": "The original text states that all disputes are subject to South African law. The modified text introduces an exception for Business Partners based outside of South Africa, mandating arbitration in London, thus contradicting the original jurisdiction clause. This creates an in-text contradiction on what the actual jurisdiction of the legal dispute should be.",
+        "location": "6.1",
+        "contradicted_location": "6.1",
+        "contradicted_text": "Any legal dispute arising from this agreement will be subject to the jurisdiction of South African law.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that all disputes are subject to South African law. The changed text introduces an exception for Business Partners based outside of South Africa, mandating arbitration in London. This directly contradicts the original jurisdiction clause that any legal dispute will be subject to the jurisdiction of South African law. The contradicted text is exactly the same as the original text, so the change clearly causes the contradiction."
+      }
+    ]
+  }
+]

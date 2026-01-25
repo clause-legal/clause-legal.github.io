@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "NDA_Mutual_template2_5_2019.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Subject to the Tennessee Public Records Act, Section 10 -7-5-1 et seq.,w ithout the written consent of the disclos ing party, the receiving party will not disclose the disclosing party’s Confidential Information to any person other than the receiving party’s officers, directors, owners, employees, agents and representatives (i) with a valid need to know such Confidenti al Information and (ii) that have an enforceable agreement with the receiving party containing confidentiality obligations substantially similar to those terms and conditions applicable to the receiving party under this Agreement.",
+        "changed_text": "Subject to the Tennessee Public Records Act, Section 10 -7-5-1 et seq.,w ithout the written consent of the disclos ing party, the receiving party will not disclose the disclosing party’s Confidential Information to any person other than the receiving party’s officers, directors, owners, employees, agents and representatives with a valid need to know such Confidenti al Information.",
+        "explanation": "The modification in Section 2(b) removes the requirement that individuals receiving confidential information have an enforceable agreement with confidentiality obligations. This creates an in-text contradiction. Originally, only those with agreements were allowed access. By removing the enforceable agreement requirement, there is now no safeguard to protect the confidential information once it's shared within the receiving party's organization, creating an contradiction within the obligations set in place.",
+        "location": "Section 2(b)",
+        "contradicted_location": "Section 2(b)",
+        "contradicted_text": "Subject to the Tennessee Public Records Act, Section 10 -7-5-1 et seq.,w ithout the written consent of the disclos ing party, the receiving party will not disclose the disclosing party’s Confidential Information to any person other than the receiving party’s officers, directors, owners, employees, agents and representatives with a valid need to know such Confidenti al Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text restricts disclosure of confidential information to individuals with confidentiality agreements. The changed text removes this requirement, allowing disclosure to individuals without such agreements. This contradicts the implicit assumption in other parts of the agreement (including the Contradicted Text, which is also the Changed Text here) that confidential information is protected by enforceable confidentiality obligations. This is because the Contradicted Text is the same as the Changed Text, and the Changed Text contradicts the implicit obligations that exist because of the original language."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Each party acknowledge s that the other party’s Confidential Information is highly valuable, confidential and proprietary to the other party and has been developed through the investment of significant time, effort and expense, and that maintaining the confidentiality of this Confidential Information is essential for the general successful operations of TTU and Company.",
+        "changed_text": "Each party acknowledges that the other party’s Confidential Information may be valuable and that maintaining the confidentiality of certain Confidential Information may be important for operations.",
+        "explanation": "This change weakens the acknowledgment of the value and importance of Confidential Information in Section 3. Originally, it was stated that the Confidential Information 'is highly valuable' and 'essential for the general successful operations'. The revised text uses more tentative language ('may be valuable', 'may be important'), reducing the explicit recognition of the importance of the data, creating an in-text contradiction with the strict protection requirements elsewhere.",
+        "location": "Section 3",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "Each party acknowledges that the other party’s Confidential Information may be valuable and that maintaining the confidentiality of certain Confidential Information may be important for operations.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text weakens the acknowledgment of the value and importance of Confidential Information. Originally, it was stated that the Confidential Information 'is highly valuable' and 'essential for the general successful operations'. The revised text uses more tentative language ('may be valuable', 'may be important'), reducing the explicit recognition of the importance of the data. The contradicted text also states that the Confidential Information 'may be valuable' and 'may be important' for operations. While the contradicted text is the same as the changed text, the explanation states that the change causes a contradiction to strict protection requirements elsewhere. Therefore, a contradiction exists."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement contains the entire agreement between the parties concerning the Confidential Information disclosed hereunder and supersedes any prior agreements or understandings between the parties concerning the Confidential Information, and no modifications of this Agreement or waiver of the terms and conditions hereof will be binding upon either party unless approved in writing by each party.",
+        "changed_text": "This Agreement contains the entire agreement between the parties concerning the Confidential Information disclosed hereunder and supersedes any prior agreements or understandings between the parties concerning the Confidential Information, and modifications of this Agreement can be made verbally and are binding upon both parties.",
+        "explanation": "By changing the term about how the contract will be modified, this has introduced uncertainty in the agreement as parties can't reliably ensure what the contract is as verbal agreements are not concrete as the original texts are.",
+        "location": "Section 4(d)",
+        "contradicted_location": "Section 4(d)",
+        "contradicted_text": "This Agreement contains the entire agreement between the parties concerning the Confidential Information disclosed hereunder and supersedes any prior agreements or understandings between the parties concerning the Confidential Information, and modifications of this Agreement can be made verbally and are binding upon both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that modifications must be in writing to be binding. The changed text states that modifications can be made verbally and are binding. This is a direct contradiction because both clauses address the same issue (how the contract can be modified) but prescribe different and mutually exclusive rules. Since the contradicted text is the same as the changed text, the changed text clearly contradicts the original agreement terms regarding modifications. The explanation also indicates this causes uncertainty."
+      }
+    ]
+  }
+]

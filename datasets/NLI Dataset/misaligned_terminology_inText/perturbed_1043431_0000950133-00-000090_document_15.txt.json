@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "1043431_0000950133-00-000090_document_15.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "All Information related to the parties' business or technical discussions described in the Preamble to this Agreement that is disclosed by one Party (\"Disclosing Party\") to the other (\"Receiving Party\") shall be protected by the Receiving Party.",
+        "changed_text": "All Data related to the parties' business or technical discussions described in the Preamble to this Agreement that is disclosed by one Party (\"Disclosing Party\") to the other (\"Receiving Party\") shall be protected by the Receiving Party.",
+        "explanation": "Changing 'Information' to 'Data' without defining 'Data' creates uncertainty. The original agreement defines 'Information' comprehensively in section 1. Now, the document references 'Data' without any definition, leading to potential disputes about what 'Data' encompasses. This contradiction makes it unclear if all the types of information protected under the original 'Information' definition are now considered 'Data'. This introduces an in-text contradiction where the definition in section 1 refers to 'Information' while section 2 now refers to 'Data'.",
+        "location": "2",
+        "contradicted_location": "1",
+        "contradicted_text": "\"Information\" is defined as communications or data including, but not limited to, business information, marketing plans, technical or financial information, customer lists or proposals, sketches, models, samples, computer programs and documentation, drawings, specifications, whether conveyed in oral, written, graphic, or electromagnetic form or otherwise.",
+        "contradiction_exists": "YES",
+        "justification": "The original text uses 'Information,' which is defined elsewhere in the document. The changed text replaces 'Information' with 'Data,' which is not defined. This creates a contradiction because the definition provided in the 'Contradicted Text' section only applies to 'Information,' leaving the scope of 'Data' unclear and potentially narrower. This aligns with the definition of 'Misaligned Terminology' which results in in-text contradictions."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Information of the Disclosing Party shall remain the property of the Disclosing Party. The Receiving Party agrees to protect the Information of the Disclosing Party against unauthorized disclosure and warrants that it applies reasonable safeguards against the unauthorized disclosure Information.",
+        "changed_text": "Data of the Disclosing Party shall remain the property of the Disclosing Party. The Receiving Party agrees to protect the Information of the Disclosing Party against unauthorized disclosure and warrants that it applies reasonable safeguards against the unauthorized disclosure Information.",
+        "explanation": "The change of 'Information' to 'Data' only in the first sentence, while leaving the remaining text using 'Information', creates an in-text contradiction. It's now unclear if 'Data' and 'Information' are interchangeable. If they are not, the obligations to protect the 'Information' of the Disclosing Party may not extend to the 'Data' of the Disclosing Party, creating uncertainty in enforcement. The contradicted text in the same location now has an in-text contradiction of reffering to both 'Data' and 'Information'.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Data of the Disclosing Party shall remain the property of the Disclosing Party. The Receiving Party agrees to protect the Information of the Disclosing Party against unauthorized disclosure and warrants that it applies reasonable safeguards against the unauthorized disclosure Information.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Information' to 'Data' in the first sentence of both the changed text and contradicted text, while leaving the remaining text using 'Information', creates an in-text contradiction, as described in the perturbation explanation. The document now uses both 'Data' and 'Information' without defining whether they are interchangeable. This misaligned terminology creates uncertainty and contradicts the expectation that obligations pertaining to 'Information' definitively extend to 'Data'. As defined by 'Misaligned Terminology - In Text Contradiction', the changed text creates an in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Receiving Party agrees that: (i) the Information shall be used solely for the purpose described in the preamble to this Agreement; (ii) it will not use any Information disclosed hereunder for any other purpose; and (iii) it will not distribute, disclosure or disseminate Information to anyone except its employees and agents with a need to know and who, in",
+        "changed_text": "The Receiving Party agrees that: (i) the Data shall be used solely for the purpose described in the preamble to this Agreement; (ii) it will not use any Information disclosed hereunder for any other purpose; and (iii) it will not distribute, disclosure or disseminate Information to anyone except its employees and agents with a need to know and who, in",
+        "explanation": "Replacing 'Information' with 'Data' in only part (i) of this section creates a contradiction. The Receiving Party is restricted in the use of 'Data' but the restriction on 'Information' remains, but are they the same now? This confusion can lead to disputes about the extent of permitted use and disclosure of sensitive information shared between the parties.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "The Receiving Party agrees that: (i) the Data shall be used solely for the purpose described in the preamble to this Agreement; (ii) it will not use any Information disclosed hereunder for any other purpose; and (iii) it will not distribute, disclosure or disseminate Information to anyone except its employees and agents with a need to know and who, in 1 <PAGE> 2 each case, have been informed of the confidential nature of the Information and have agreed to be bound by the terms of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The change replaces 'Information' with 'Data' in clause (i), while clauses (ii) and (iii) retain the term 'Information'. The contradicted text also uses both 'Data' in (i) and 'Information' in clauses (ii) and (iii), just like the changed text. This creates a clear inconsistency as to whether 'Data' and 'Information' are interchangeable, or have different meanings and restrictions, which causes a strong in-text contradiction based on the definition of misaligned terminology and its implications in the explanation."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Information shall be treated as confidential and safeguarded hereunder by the Receiving Party for a period of two (2) years.",
+        "changed_text": "The Data shall be treated as confidential and safeguarded hereunder by the Receiving Party for a period of one (1) year.",
+        "explanation": "Here, the duration for which the receiving party needs to protect 'Data' and 'Information' are different. This is an in-text contradiction. The original term specifies two years, while the new term specifies one year. This can lead to confusion and disputes regarding how long the information needs to be protected.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "The Data shall be treated as confidential and safeguarded hereunder by the Receiving Party for a period of one (1) year.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that 'Information' should be safeguarded for two years. The changed text shortens the safeguarding period for 'Data' to one year. The contradicted text requires 'Data' to be safeguarded for one year. Because the original text defined a longer period, the change to one year for 'Data' creates a contradiction: some information (Data) should be safeguarded for one year while other information (not defined but implied) is safeguarded for two years, thus triggering Misaligned Terminology - In Text Contradiction since it creates conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Each Party acknowledges that in its examination of the Information it will be exposed to material nonpublic information concerning the business and financial condition of the Disclosing Party and consequently the Receiving Party agrees that prior to the date two (2) years from the date hereof, without the prior written approval of the Board of Directors of the Disclosing Party, the Receiving Party will not (and will insure that its affiliates (and any person acting on behalf of or in concern with the Receiving Party or any affiliate) will not) purchase or otherwise acquire (or enter into any agreement or",
+        "changed_text": "Each Party acknowledges that in its examination of the Data it will be exposed to material nonpublic information concerning the business and financial condition of the Disclosing Party and consequently the Receiving Party agrees that prior to the date two (2) years from the date hereof, without the prior written approval of the Board of Directors of the Disclosing Party, the Receiving Party will not (and will insure that its affiliates (and any person acting on behalf of or in concern with the Receiving Party or any affiliate) will not) purchase or otherwise acquire (or enter into any agreement or",
+        "explanation": "Switching 'Information' to 'Data' in this section creates a contradiction concerning insider trading. Now, it is not clear that the data falls under the same definition as information. What one considers 'Data' the other may not and that could affect the agreement.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "Each Party acknowledges that in its examination of the Data it will be exposed to material nonpublic information concerning the business and financial condition of the Disclosing Party and consequently the Receiving Party agrees that prior to the date two (2) years from the date hereof, without the prior written approval of the Board of Directors of the Disclosing Party, the Receiving Party will not (and will insure that its affiliates (and any person acting on behalf of or in concern with the Receiving Party or any affiliate) will not) purchase or otherwise acquire (or enter into any agreement or 2 <PAGE> 3 make any proposal to purchase or otherwise acquire) any securities of the Disclosing Party, any warrant or option to purchase such securities, any security convertible into any such securities or any other right to acquire such securities.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Information' to 'Data' introduces ambiguity as to whether 'Data' falls under the same definition as 'Information'. This is because the insider trading clause explicitly refers to 'Information', and the change creates uncertainty about whether the data constitutes information as it relates to insider trading, thus potentially creating a loophole that contradicts the original intent of the clause."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "BerkshireHillsBancorpInc_20120809_10-Q_EX-10.16_7708169_EX-10.16_Endorsement Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "b) \"SERVICES PERIOD\" means that period of time commencing upon the full execution of this Agreement by both Parties and terminating on May 31, 2014 unless sooner terminated under this Agreement.",
+        "changed_text": "b) \"SERVICES PERIOD\" means that period of time commencing upon the full execution of this Agreement by both Parties and terminating on May 31, 2016, unless sooner terminated under this Agreement.",
+        "explanation": "The original 'SERVICES PERIOD' is defined to end on May 31, 2014. By changing the termination date to May 31, 2016, we are creating a contradiction with the 'CONTRACT PERIOD' which is also defined to terminate on May 31, 2016. This creates uncertainty about whether the services Auriemma is supposed to provide run for the entire duration of the contract or stop two years early. This is contradicting on Section 2(a), which states that Auriemma will provide services to Berkshire during the service period.",
+        "location": "1. b)",
+        "contradicted_location": "2. a)",
+        "contradicted_text": "During the Contract Period: a) Subject to the terms of Paragraph 6 below, Auriemma will make the appearances and provide to Berkshire during the Services Period the services, initiatives and programs described in Schedule A attached hereto (the \"Endorsement Services\"); and",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined the 'SERVICES PERIOD' as ending on May 31, 2014. The changed text extends this period to May 31, 2016. The contradicted text (Section 2(a)) states that Auriemma will provide services to Berkshire 'during the Services Period'. By extending the 'SERVICES PERIOD' to May 31, 2016, the modified text directly contradicts the understanding that the services Auriemma provides are tied to a specific period, raising concerns about the overlap and relationship between the services period and the contract period. If the 'CONTRACT PERIOD' also ends on May 31, 2016, it may create confusion as to whether Auriemma is supposed to provide services for the entire duration of the contract period, or only until May 31, 2014, as originally defined. This is a direct conflict."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "c) The License Rights are exclusive to Berkshire and may not be assigned or in any way conveyed by Berkshire without Auriemma's express written consent, except in the event of a merger by Berkshire with another entity offering Banking Services.",
+        "changed_text": "c) The License Rights are exclusive to Berkshire and may be assigned or in any way conveyed by Berkshire with Auriemma's express written consent, in the event of a merger by Berkshire with another entity offering Banking Services.",
+        "explanation": "The original text states that the license rights MAY NOT be assigned without Auriemma's written consent, except in the event of a merger. The changed text states the license rights MAY be assigned WITH Auriemma's written consent in the event of a merger. This perturbation creates an in-text contradiction with Section 19(a)(iii), which warranties by Auriemma to Berkshire that Auriemma will not assign or transfer any of the License Rights described in Paragraph 2.",
+        "location": "2. c)",
+        "contradicted_location": "19. a)",
+        "contradicted_text": "a) Auriemma represents and warrants to Berkshire that: (i) Auriemma has full authority to enter into and perform under this Agreement subject only to approval by the University of Connecticut department of athletics and consulting office; (ii) by entering into and performing under this Agreement, Auriemma is not, and shall not be in conflict with any prior obligations to third parties; (iii) that Auriemma will not assign or transfer any of the License Rights described in Paragraph 2.",
+        "contradiction_exists": "YES",
+        "justification": "The original text prohibits Berkshire from assigning the license rights without Auriemma's written consent, except in a merger. The changed text allows Berkshire to assign the license rights WITH Auriemma's written consent in the event of a merger, creating a scenario where assignment is permissible with consent. However, Section 19(a)(iii) states that \"Auriemma will not assign or transfer any of the License Rights described in Paragraph 2.\" The change creates a contradiction because it suggests Auriemma's consent is sufficient for Berkshire's assignment, while Section 19(a)(iii) prohibits Auriemma from assigning or transferring the rights themselves, implying a conflicting obligation or warranty from Auriemma."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Past due cash payments (i.e., payments due more than thirty (30) days after Berkshire's receipt of the applicable invoice) shall bear interest at the rate of one (1%) percent per month.",
+        "changed_text": "Past due cash payments (i.e., payments due less than thirty (30) days after Berkshire's receipt of the applicable invoice) shall bear interest at the rate of one (1%) percent per month.",
+        "explanation": "The original text says payments are past due AFTER 30 days, therefore bearing interest only after. But the altered text says that payments are past due BEFORE 30 days, this makes it unclear exactly when payments begin accruing interest, potentially leading to disputes between the parties. This contrasts with the payment schedule outlined in Section 4(b) which defines when the cash payments should be made.",
+        "location": "5",
+        "contradicted_location": "4. b)",
+        "contradicted_text": "(b) Berkshire will make four (4) equal cash payments to Auriemma in the amount of Ninety Thousand and 00/100 Dollars ($90,000.00) on June 1, 2012, June 1, 2013, June 1, 2014, and June 1, 2015.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text redefines 'past due' payments as being due *less* than 30 days after receipt of the invoice, directly contradicting the implied understanding and potentially creating an obligation to pay interest before the payment deadlines specified in Section 4(b). This directly conflicts with the fixed payment schedule, as the change introduces ambiguity about when interest accrues."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "Generic-NDA-Pitch-Deck-Fire.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Recipient shall not make any copies of Disclosing Party’s Confidential Information except as needed for the Business Purp ose. At the request of Disclosing Party, Recipient shall return to Disclosing Party all Confidential Information of Disclosing Party (including any copies thereof) or certify the destruction thereof.",
+        "changed_text": "Recipient shall return to Disclosing Party all Confidential Information of Disclosing Party (including any copies thereof) or certify the destruction thereof.",
+        "explanation": "By removing the clause “Recipient shall not make any copies of Disclosing Party’s Confidential Information except as needed for the Business Purpose” it contradicts the purpose of the NDA and allows the recipient to make unnecesary copies of the confidential information that would cause uncertainty on the agreement.",
+        "location": "Section 2",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "All Confidential Information disclosed to the Recipient will be used solely for the Business Purpose and for no other purpose whatsoever. The Recipient ag rees to keep the Disclosing Party’s Confidential Information confidential and to protect the confidentiality of such Confidential Information with the same degree of care with which it protects the confidentiality of its own confidential information, but i n no event with less than a reasonable degree of care. Recipient may disclose Confidential Information only to its employees, agents, consultants and contractors on a need -to-know basis, and only if such employees, agents, consultants and contractors have executed appropriate written agreements with Recipient sufficient to enable Recipient to enforce all the provisions of this Agreement. Recipient shall return to Disclosing Party all Confidential Information of Disclosing Party (including any copies thereof) or certify the destruction thereof.",
+        "contradiction_exists": "YES",
+        "justification": "The original text restricted the recipient from making copies of confidential information, except when needed for business purposes. The changed text removes this restriction, which directly contradicts the contradicted text stating that \"All Confidential Information disclosed to the Recipient will be used solely for the Business Purpose and for no other purpose whatsoever.\" By allowing the recipient to make unnecessary copies, the change creates a contradiction as the copies could be used for purposes other than the defined Business Purpose, conflicting with the explicit restriction outlined in the contradicted text."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The obligations and limitations set forth herein regarding Confident ial Information shall not apply to information which is: (a) at any time in the public domain, other than by a breach on the part of the Recipient; or (b) at any time rightfully received from a third party which had the right to and transmits it to the Rec ipient without any obligation of confidentiality.",
+        "changed_text": "The obligations and limitations set forth herein regarding Confident ial Information shall not apply to information which is: (a) at any time in the public domain; or (b) at any time rightfully received from a third party which had the right to and transmits it to the Rec ipient without any obligation of confidentiality.",
+        "explanation": "By removing the phrase 'other than by a breach on the part of the Recipient', it now implies that even if confidential information enters the public domain due to the recipient's breach of contract, it is no longer protected under the NDA. This directly contradicts the purpose of the NDA and the recipient's obligation to protect confidentiality.",
+        "location": "Section 4",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "All Confidential Information disclosed to the Recipient will be used solely for the Business Purpose and for no other purpose whatsoever. The Recipient ag rees to keep the Disclosing Party’s Confidential Information confidential and to protect the confidentiality of such Confidential Information with the same degree of care with which it protects the confidentiality of its own confidential information, but i n no event with less than a reasonable degree of care. Recipient may disclose Confidential Information only to its employees, agents, consultants and contractors on a need -to-know basis, and only if such employees, agents, consultants and contractors have executed appropriate written agreements with Recipient sufficient to enable Recipient to enforce all the provisions of this Agreement. Recipient shall not make any copies of Disclosing Party’s Confidential Information except as needed for the Business Purp ose. At the request of Disclosing Party, Recipient shall return to Disclosing Party all Confidential Information of Disclosing Party (including any copies thereof) or certify the destruction thereof.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the phrase 'other than by a breach on the part of the Recipient' from the exception to confidentiality obligations. This creates a direct contradiction with the contradicted text, which requires the Recipient to protect the Disclosing Party's Confidential Information. The changed text now implies that if the recipient breaches the confidentiality agreement and the information enters the public domain as a result, the recipient is no longer liable for protecting that information. This undermines the core purpose of the NDA as described in the Contradicted Text."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This Agreement shall control in the event of a conflict with any other agreement betwee n the Parties with respect to the subject matter hereof.",
+        "changed_text": "",
+        "explanation": "By removing the phrase that determines this NDA is the document that dictates the subject matter in case of disagreement with other documents, it gives space for internal contradictions within the documents to not be resolved due to other conflicts.",
+        "location": "Section 6",
+        "contradicted_location": "Section 6",
+        "contradicted_text": "The validity, construction and enforceability of this Agreement shall be gover ned in all respects by the law of the state of Colorado . This Agreement may not be amended except in writing signed by a duly authorized representative of the respective Parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text established the agreement's precedence over other agreements regarding the subject matter. The changed text, by omitting this precedence clause, allows for potential conflicts between this agreement and other agreements without a clear resolution mechanism. This directly contradicts the contradicted text, which outlines the governing law and amendment procedures for 'this Agreement,' implying a clear and consistent framework that the omission undermines, creating uncertainty and potential unenforceability. The omission of the controlling clause creates a direct conflict as it no longer clarifies which agreement takes precedence, leading to a strong in-text contradiction, as per the Omissions – In Text Contradiction definition."
+      }
+    ]
+  }
+]

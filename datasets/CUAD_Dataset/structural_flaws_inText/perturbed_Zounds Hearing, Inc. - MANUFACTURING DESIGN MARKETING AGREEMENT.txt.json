@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "Zounds Hearing, Inc. - MANUFACTURING DESIGN MARKETING AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Subject to earlier termination as provided in this Agreement, the initial term of this Agreement shall be for a period beginning on the Effective Date and ending ten (10) years thereafter unless this Agreement is terminated earlier as provided herein. This Agreement will renew automatically thereafter for successive one-year terms unless and until one Party gives notification of termination with at least sixty (60) days written notice.",
+        "changed_text": "Subject to earlier termination as provided in this Agreement, the initial term of this Agreement shall be for a period beginning on the Effective Date and ending ten (10) years thereafter unless this Agreement is terminated earlier as provided herein. This Agreement will renew automatically thereafter for successive one-year terms only if both parties provide written consent at least sixty (60) days prior to the renewal date.",
+        "explanation": "The original text stated that the agreement renews automatically unless one party gives notice of termination. The modified text introduces a requirement that both parties must provide written consent for renewal, directly contradicting the automatic renewal clause. This introduces an in-text contradiction. This creates uncertainty about the contract renewal terms. Should one party fail to provide written consent, despite the contract stating it renews automatically, enforcement becomes ambiguous.",
+        "location": "Section 1",
+        "contradicted_location": "Section 1",
+        "contradicted_text": "Subject to earlier termination as provided in this Agreement, the initial term of this Agreement shall be for a period beginning on the Effective Date and ending ten (10) years thereafter unless this Agreement is terminated earlier as provided herein. This Agreement will renew automatically thereafter for successive one-year terms only if both parties provide written consent at least sixty (60) days prior to the renewal date. All orders placed under this Agreement must be placed prior to the expiration or termination of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the agreement renews automatically unless one party gives notice of termination. The modified text introduces a requirement that both parties must provide written consent for renewal, directly contradicting the automatic renewal clause. This introduces an in-text contradiction as per the Structural Flaws - In Text Contradiction definition: 'Structural flaws also cause in-text contradictions when a clause is placed in multiple locations with conflicting implications. When contract sections contradict each other based on placement, it creates uncertainty about the obligations and rights of each party.'"
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "All orders whether for Manufacturer's Products or components or inventory to be used in the manufacture of Manufacturer's Products are non-cancellable.",
+        "changed_text": "All orders whether for Manufacturer's Products or components or inventory to be used in the manufacture of Manufacturer's Products are non-cancellable, unless the manufacturer provides a 10% cancellation fee.",
+        "explanation": "The original text explicitly states that all orders are non-cancellable. The modified text introduces an exception, allowing cancellation with a 10% fee. This directly contradicts the initial statement and creates uncertainty regarding the order cancellation policy. This in-text contradiction can lead to disputes about cancellation rights and applicable charges, as the contract now contains conflicting clauses.",
+        "location": "Section 8.1",
+        "contradicted_location": "Section 8.1",
+        "contradicted_text": "Orders: All orders whether for Manufacturer's Products or components or inventory to be used in the manufacture of Manufacturer's Products are non-cancellable, unless the manufacturer provides a 10% cancellation fee.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that orders are 'non-cancellable'. The changed text allows cancellation with a 10% fee. This is a direct and clear contradiction because the 'non-cancellable' clause is explicitly negated by the modified clause. The contradicted text is the same as the changed text, so it serves as evidence of how the initial clause was modified to be in conflict with itself."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Each Party reserves the right to publish press releases and public announcements (collectively, the \"Publications\") pertaining to this Agreement; provided, however, no Publications will contain any Confidential Information of a Party without such Party's prior written consent.",
+        "changed_text": "Each Party reserves the right to publish press releases and public announcements (collectively, the \"Publications\") pertaining to this Agreement; furthermore each party is authorized to publish confidential information without prior written consent.",
+        "explanation": "The original text grants each party the right to publish press releases, but explicitly prohibits the inclusion of any confidential information without prior written consent. The modified text adds that each party is authorized to publish confidential information without written consent. This creates a direct in-text contradiction concerning the handling of confidential information in publications. This in-text contradiction could lead to disputes about breach of confidentiality and potential legal action.",
+        "location": "Section 11.2",
+        "contradicted_location": "Section 11.2",
+        "contradicted_text": "Public Announcements. Each Party reserves the right to publish press releases and public announcements (collectively, the \"Publications\") pertaining to this Agreement; furthermore each party is authorized to publish confidential information without prior written consent. The publishing Party shall indemnify and hold the non-publishing Party its, officers, agents, shareholders, and employees harmless against any and all claims, demands, damages, liabilities and costs which directly or indirectly result from, or arise in connection with, any negligent act or omission of the disclosing Party, its agents, or employees, pertaining to such disclosing Party's Publications under this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that 'each party is authorized to publish confidential information without prior written consent,' while the original text explicitly prohibited the inclusion of any Confidential Information of a Party without such Party's prior written consent. This directly contradicts the contradicted text, which should align with the original text. The contradictory clause could lead to disputes about breach of confidentiality and potential legal action, making it a strong in-text contradiction."
+      }
+    ]
+  }
+]

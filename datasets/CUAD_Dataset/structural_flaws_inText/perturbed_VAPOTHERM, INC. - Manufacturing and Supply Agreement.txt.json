@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "VAPOTHERM, INC. - Manufacturing and Supply Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "13.1 Term. The term of this Agreement is three years from and including the date of this Agreement (the \"Initial Term\"), with automatic renewal for additional successive one-year terms (each a \"Renewal Term\" and together wit the Initial Term, the \"Term\") unless no later than [* * *] days prior to the end of the Initial Term, or any Renewal Term either party notifies the other that it wishes to terminate this Agreement effective the end of the Initial Term or that Renewal Term, as applicable.",
+        "changed_text": "13.1 Term. The term of this Agreement is three years from and including the date of this Agreement (the \"Initial Term\"), with automatic renewal for additional successive one-year terms (each a \"Renewal Term\" and together wit the Initial Term, the \"Term\") unless no later than [* * *] days prior to the end of the Initial Term, or any Renewal Term Vapotherm notifies Medica that it wishes to terminate this Agreement effective the end of the Initial Term or that Renewal Term, as applicable. Medica is not able to terminate this Agreement effective the end of the Initial Term or that Renewal Term.",
+        "explanation": "This change introduces a contradiction regarding the termination rights. The original text states that either party can terminate the agreement at the end of the initial or renewal term. The modification restricts this right by explicitly removing Medica's ability to terminate at the end of the initial or renewal term, contradicting the initial statement that both parties can terminate and creating uncertainty about who is able to terminate the agreement and when.",
+        "location": "13.1",
+        "contradicted_location": "13.1",
+        "contradicted_text": "13.1 Term. The term of this Agreement is three years from and including the date of this Agreement (the \"Initial Term\"), with automatic renewal for additional successive one-year terms (each a \"Renewal Term\" and together wit the Initial Term, the \"Term\") unless no later than [* * *] days prior to the end of the Initial Term, or any Renewal Term Vapotherm notifies Medica that it wishes to terminate this Agreement effective the end of the Initial Term or that Renewal Term, as applicable. Medica is not able to terminate this Agreement effective the end of the Initial Term or that Renewal Term.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly restricts Medica's termination rights, while the original text (and contradicted text, which is the same) implies that both parties have the right to terminate. This creates a direct contradiction regarding the termination rights of the parties, making it unclear whether Medica can terminate the agreement at the end of the initial or renewal term, and therefore creates a strong in-text contradiction as defined by Structural Flaws - In Text Contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "3.7 Invoices and Payment Terms. On delivery by Medica of a shipment of Cartridges in accordance with Section 3.3, Medica shall issue to Vapotherm an invoice for that shipment stating a price consistent with the terms of this Agreement. Vapotherm shall pay each such invoice in full within [* * *] Calendar Days from the date of invoice, unless Vapotherm has rejected the shipment in question in accordance with Section 4.2.",
+        "changed_text": "3.7 Invoices and Payment Terms. On delivery by Medica of a shipment of Cartridges in accordance with Section 3.3, Medica shall issue to Vapotherm an invoice for that shipment stating a price consistent with the terms of this Agreement. Vapotherm shall pay each such invoice in full within [* * *] Calendar Days from the date of invoice, regardless of Vapotherm has rejected the shipment in question in accordance with Section 4.2.",
+        "explanation": "The original clause allows Vapotherm to withhold payment if the shipment is rejected per Section 4.2. The changed text removes this condition, forcing Vapotherm to pay even for rejected shipments. This creates an in-text contradiction because the modified version directly nullifies the condition set in Section 4.2, this modification creates uncertainty about the obligations to make payment, even if the cartridges are defective.",
+        "location": "3.7",
+        "contradicted_location": "3.7",
+        "contradicted_text": "3.7 Invoices and Payment Terms. On delivery by Medica of a shipment of Cartridges in accordance with Section 3.3, Medica shall issue to Vapotherm an invoice for that shipment stating a price consistent with the terms of this Agreement. Vapotherm shall pay each such invoice in full within [* * *] Calendar Days from the date of invoice, regardless of Vapotherm has rejected the shipment in question in accordance with Section 4.2.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 3.7 removes the condition that Vapotherm can withhold payment if the shipment is rejected according to Section 4.2. The phrase 'regardless of Vapotherm has rejected the shipment in question in accordance with Section 4.2' directly contradicts the implied ability to withhold payment under the original terms and creates an in-text contradiction. The contradicted text, which is the same as the changed text, highlights this conflict, because it forces payment even for rejected shipments, nullifying Section 4.2's provisions regarding rejection."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "12.3 No Liability for Consequential Damages. No party will be liable to any other for any indirect, consequential, or special damages or for loss of profits. This limitation does not, however, apply to any obligation of either party to indemnify the other in connection with any Indemnifiable Loss.",
+        "changed_text": "12.3 No Liability for Consequential Damages. No party will be liable to any other for any indirect, consequential, or special damages or for loss of profits. This limitation also applies to any obligation of either party to indemnify the other in connection with any Indemnifiable Loss.",
+        "explanation": "Here, the phrase \"This limitation does not, however, apply to any obligation of either party to indemnify the other in connection with any Indemnifiable Loss.\" is replaced with \"This limitation also applies to any obligation of either party to indemnify the other in connection with any Indemnifiable Loss.\". This contradiction directly affects the scope of indemnification, as it creates uncertainty about whether consequential damages can be claimed in indemnification cases, this modification can lead to disputes regarding the extent of liability under the agreement.",
+        "location": "12.3",
+        "contradicted_location": "12.3",
+        "contradicted_text": "12.3 No Liability for Consequential Damages. No party will be liable to any other for any indirect, consequential, or special damages or for loss of profits. This limitation also applies to any obligation of either party to indemnify the other in connection with any Indemnifiable Loss.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly excludes indemnification obligations from the limitation on consequential damages, while the changed text includes them. The contradicted text is the same as the changed text. This creates a direct conflict, as the initial version permits recovery of consequential damages in indemnification scenarios, whereas the changed version prohibits it, leading to an in-text contradiction and uncertainty about the scope of liability."
+      }
+    ]
+  }
+]

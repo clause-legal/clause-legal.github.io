@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "example-NDA-one-way-short-form-2012-1.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "1.1 In this agreement, Confidential Information mea ns confidential information disclosed by the Discloser to the Recipient, including informati on relating to its business, operations, products, customers or plans, but excluding any inf ormation that is or becomes generally available to the public, was already lawf ully in the possession of the Recipient, or is developed by the Recipient indepen dently of any disclosure by the Discloser.",
+        "changed_text": "1.1 In this agreement, Confidential Information mea ns confidential information disclosed by the Discloser to the Recipient, including informati on relating to its business, operations, products, customers or plans, but excluding information that becomes generally available to the public, was already lawf ully in the possession of the Recipient before the signing of this agreement, or is developed by the Recipient independently of any disclosure by the Discloser. For the purposes of clarity, information disclosed before the signing of the agreement will also be considered as Confidential Information.",
+        "explanation": "This change introduces an internal contradiction in the definition of 'Confidential Information'. Initially, information already lawfully in the Recipient's possession was excluded. The modified version first maintains this exclusion but then contradictory includes all information disclosed prior to signing as confidential, contradicting the previous exclusion and creating uncertainty about the status of pre-existing information. The original definition excludes this information, while the second contradictory includes it. This could create disputes about the information protected by the NDA.",
+        "location": "1.1",
+        "contradicted_location": "1.1",
+        "contradicted_text": "1.1 In this agreement, Confidential Information mea ns confidential information disclosed by the Discloser to the Recipient, including informati on relating to its business, operations, products, customers or plans, but excluding information that becomes generally available to the public, was already lawf ully in the possession of the Recipient before the signing of this agreement, or is developed by the Recipient independently of any disclosure by the Discloser. For the purposes of clarity, information disclosed before the signing of the agreement will also be considered as Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a contradiction because it initially excludes information already lawfully in the Recipient's possession before the signing of the agreement from the definition of 'Confidential Information'. However, it then adds a clause stating that information disclosed before the signing of the agreement will also be considered as Confidential Information. This directly contradicts the initial exclusion, creating an in-text contradiction because the two parts of the modified definition conflict with each other."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "2. T ERMINATION If either party decides not to become involved in the Purpose with the other party, it shall notify the other party in writing of its inte ntion to terminate this agreement. The obligations of each party shall continue for a peri od of [STATE NUMBER OF YEARS] year(s) from the termination of this agreement.",
+        "changed_text": "2. T ERMINATION If either party decides not to become involved in the Purpose with the other party, it may notify the other party in writing of its inte ntion to terminate this agreement. The obligations of each party shall continue unless otherwise agreed in writing by both parties.",
+        "explanation": "The original text states that if a party decides not to continue with the Purpose, they 'shall notify' the other party, creating a mandatory obligation. The modification changes this to 'may notify', making the notification optional. Additionally, the original agreement states the obligations of each party continue for the defined number of years but, the changed texts allows the parties to agree to remove the obligation contradicting the previous stated duration of the agreement. This contradicts the original mandatory requirement for notification and the fixed duration of obligations.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "2. T ERMINATION If either party decides not to become involved in the Purpose with the other party, it may notify the other party in writing of its inte ntion to terminate this agreement. The obligations of each party shall continue unless otherwise agreed in writing by both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 2 introduces a contradiction. The original text made notification of termination mandatory ('shall notify') and fixed the duration of obligations post-termination. The changed text makes notification optional ('may notify') and allows the parties to agree to remove the obligation contradicting the fixed duration of the agreement. The contradicted text is the same as the changed text, so the original agreement is in conflict with the changed agreement. This creates a strong contradiction regarding the notification requirement and the duration of obligations post-termination, which aligns with the 'Ambiguities - In Text Contradiction' definition, making enforcement unclear."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "3.2 No variation of this agreement shall be effecti ve unless it is in writing and signed by each of the parties.",
+        "changed_text": "3.2 No variation of this agreement shall be effecti ve unless it is confirmed via email communication between the parties.",
+        "explanation": "The original text requires variations to be 'in writing and signed by each of the parties'. The modification states that variations are effective if 'confirmed via email communication between the parties'. This introduces a contradiction by replacing a formal requirement (written and signed) with an informal one (email communication). Therefore, it becomes unsure the validity of the new variations since they do not match with the original agreement variation clause. The agreement states that variations must be signed in writing, but the change indicates that email confirmations are enough.",
+        "location": "3.2",
+        "contradicted_location": "3.2",
+        "contradicted_text": "3.2 No variation of this agreement shall be effecti ve unless it is confirmed via email communication between the parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires agreement variations to be in writing and signed. The changed text allows email confirmation, directly contradicting the signed writing requirement. The contradicted text repeats the changed text, cementing the contradiction between the initial requirement of a signed written agreement and the allowance of email confirmation for variations."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "4.2 The parties irrevocably agree that the courts o f England and Wales shall have exclusive jurisdiction to settle any dispute or cla im that arises out of or in connection with this agreement or its subject matter or format ion.",
+        "changed_text": "4.2 The parties agree that the courts o f England and Wales shall have jurisdiction to settle any dispute or cla im that arises out of or in connection with this agreement or its subject matter or format ion. However, both parties also agree that an arbiter can be used for resolutions.",
+        "explanation": "The original text states that the courts of England and Wales 'shall have exclusive jurisdiction' irrevocably. The modification removes 'irrevocably' and 'exclusive' and then adds that 'an arbiter can be used for resolutions', creating a contradiction. While the courts still have jurisdiction, the introduction of arbitration creates uncertainty about whether court action is mandatory, permitted, or only a last resort, as well as the exclusivity of the courts.",
+        "location": "4.2",
+        "contradicted_location": "4.2",
+        "contradicted_text": "4.2 The parties agree that the courts o f England and Wales shall have jurisdiction to settle any dispute or cla im that arises out of or in connection with this agreement or its subject matter or format ion. However, both parties also agree that an arbiter can be used for resolutions.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies 'exclusive jurisdiction' in the courts of England and Wales, solidifying the agreement that all disputes will be resolved by that court. The changed text removes 'exclusive' and introduces the possibility of using an 'arbiter', directly contradicting the previous exclusivity and introducing ambiguity about dispute resolution methods. The contradicted text is the same as the changed text; however, it clearly contradicts the original intent, therefore generating a contradiction within the document as per the explanation. The Perturbation type is Ambiguities - In Text Contradiction, which aligns with the observed changes causing uncertainty in interpretation."
+      }
+    ]
+  }
+]

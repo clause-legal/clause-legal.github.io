@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Sample%20NDA%202018.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "All Confidential Information shall remain the exclusive property of the disclosing Party. The disclosu re of Confidential Information by the disclosing Party shall not constitute an express or implied grant to the receiving Party, of any rights to or under the disclosing Party’s patents, copyrights, trade secrets, trademarks or any other intellectual proper ty rights.",
+        "changed_text": "All Confidential Information shall remain the exclusive property of the disclosing Party, except any portion of the Confidential Information which becomes integrated into the receiving Party's own intellectual property. The disclosu re of Confidential Information by the disclosing Party shall not constitute an express or implied grant to the receiving Party, of any rights to or under the disclosing Party’s patents, copyrights, trade secrets, trademarks or any other intellectual proper ty rights.",
+        "explanation": "This change introduces a contradiction. While stating that all confidential information remains the exclusive property of the disclosing party, it introduces an exception where the receiving party integrates confidential information into their intellectual property, implying that the receiving party may gain rights to that portion. This is contradictory, creating uncertainty over ownership. It contradicts the continued text in the same section.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "All Confidential Information shall remain the exclusive property of the disclosing Party, except any portion of the Confidential Information which becomes integrated into the receiving Party's own intellectual property. The disclosu re of Confidential Information by the disclosing Party shall not constitute an express or implied grant to the receiving Party, of any rights to or under the disclosing Party’s patents, copyrights, trade secrets, trademarks or any other intellectual proper ty rights.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an exception to the original statement that 'All Confidential Information shall remain the exclusive property of the disclosing Party.' This exception, 'except any portion of the Confidential Information which becomes integrated into the receiving Party's own intellectual property', directly contradicts the initial assertion. The contradiction arises because it implies that the receiving party can gain ownership rights over a portion of the confidential information under certain circumstances, conflicting with the original statement that it remains the exclusive property of the disclosing party. The changed text is the same as the contradicted text in this case but it directly created the contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Neither Party shall in a ny way or in any form distribute, disclose, publicize, issue press releases, or advertise in any manner, including, but not limited to, making representations in court pleadings (except as required under law), the discussions that gave rise to this Agreement or the discussions or negotiations covered by this Agreement or the information provided pursuant to this Agreement , or that any conversations or discussions are occurring or have occurred between the Parties, nor shall either Party use the other Party’ s trademarks, trade names or other proprietary marks in any manner, without first obtaining the prior written consent of such Party .",
+        "changed_text": "Neither Party shall in a ny way or in any form distribute, disclose, publicize, issue press releases, or advertise in any manner, including, but not limited to, making representations in court pleadings (except as required under law), the discussions that gave rise to this Agreement or the discussions or negotiations covered by this Agreement or the information provided pursuant to this Agreement , or that any conversations or discussions are occurring or have occurred between the Parties; however, both Parties are allowed to disclose the general nature of the agreement with the prior agreement of each other, nor shall either Party use the other Party’s trademarks, trade names or other proprietary marks in any manner, without first obtaining the prior written consent of such Party .",
+        "explanation": "The change creates an in-text contradiction. The original text prohibits any form of publicity related to the agreement's discussions or information. The added text, however, states that parties are allowed to disclose the general nature of the agreement with prior agreement. This contradicts the earlier strict prohibition, leading to uncertainty. This contradicts the original statment in the same section.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "Neither Party shall in a ny way or in any form distribute, disclose, publicize, issue press releases, or advertise in any manner, including, but not limited to, making representations in court pleadings (except as required under law), the discussions that gave rise to this Agreement or the discussions or negotiations covered by this Agreement or the information provided pursuant to this Agreement , or that any conversations or discussions are occurring or have occurred between the Parties; however, both Parties are allowed to disclose the general nature of the agreement with the prior agreement of each other, nor shall either Party use the other Party’s trademarks, trade names or other proprietary marks in any manner, without first obtaining the prior written consent of such Party .",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds 'however, both Parties are allowed to disclose the general nature of the agreement with the prior agreement of each other' to a section that initially prohibited any form of publicity related to the agreement's discussions or information. This addition directly contradicts the earlier strict prohibition, creating a clear inconsistency. Because the Contradicted text contains the Changed text, there is an explicit contradiction in the same section."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement contains the sole and entire agreement between the Parties related to the disclosure of Confidential Information with respect to the Purpose. This Agreement may only be modified in a writing executed by both Parties.",
+        "changed_text": "This Agreement contains the sole and entire agreement between the Parties related to the disclosure of Confidential Information with respect to the Purpose. This Agreement may be modified through email correspondence if both Parties acknowledge the modification within the email exchange.",
+        "explanation": "This change introduces an in-text contradiction to the text by saying that the document can be modified through email, while it previously could only be modified in writing signed by both parties. This creates uncertainty and dispute over the contractual obligations.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "This Agreement contains the sole and entire agreement between the Parties related to the disclosure of Confidential Information with respect to the Purpose. This Agreement may be modified through email correspondence if both Parties acknowledge the modification within the email exchange.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the original clause regarding how the agreement can be modified. Initially, it stated modifications could only be made in writing executed by both parties. The changed text now allows modifications through email correspondence if acknowledged by both parties. This directly contradicts the original clause and introduces an inconsistency regarding the acceptable methods for modifying the agreement. The contradicted text is the same as the changed text, indicating the contradiction exists within the clause itself."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The Parties agree to hold such Confidential Information in confidence, with the same care the receiving Party uses for its own Confidential Information, which, in no event shall be less than a reasonable standard of care .",
+        "changed_text": "The Parties agree to hold such Confidential Information in confidence, with the same care the receiving Party uses for its own Confidential Information, which, in no event shall be greater than a reasonable standard of care.",
+        "explanation": "The perturbation contradicts itself by limiting the standard of care to only greater than a reasonable amount, whereas before the limit was set only on the lower end. The in-text contradiction makes it difficult to interpret what the parties intended.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "The Parties agree to hold such Confidential Information in confidence, with the same care the receiving Party uses for its own Confidential Information, which, in no event shall be greater than a reasonable standard of care .",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the standard of care for confidential information, stating it should be 'greater than a reasonable standard of care', whereas the contradicted text states 'greater than a reasonable standard of care'. This creates an inconsistency, as the language is exactly the same, indicating a contradiction. This makes it difficult to determine the intended level of care, leading to a strong in-text contradiction as defined by the 'Inconsistencies - In Text Contradiction' perturbation type."
+      }
+    ]
+  }
+]

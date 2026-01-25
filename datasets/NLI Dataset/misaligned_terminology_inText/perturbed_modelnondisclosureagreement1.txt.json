@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "modelnondisclosureagreement1.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This agreement made by and between the Office for National Statistics (hereinafter the \"ONS\") supplier name (hereinafter the \"RECIPIENT\") of (hereinafter the \"Supplier”). WHEREAS, ONS wishes to disclose to the RECIPIENT information relating to information on requirement",
+        "changed_text": "This agreement made by and between the Office for National Statistics (hereinafter the \"ONS\") supplier name (hereinafter the \"CONTRACTOR\") of (hereinafter the \"Supplier”). WHEREAS, ONS wishes to disclose to the CONTRACTOR information relating to information on requirement",
+        "explanation": "The term 'RECIPIENT' is changed to 'CONTRACTOR'. This introduces confusion because the document later refers to the 'RECIPIENT's obligations', creating uncertainty about whether the 'CONTRACTOR' and 'RECIPIENT' are the same entity and, thus, whether the 'CONTRACTOR' is bound by those obligations. This contradiction specifically affects Section 1, where the obligations of the 'RECIPIENT' are outlined, leading to ambiguity about who is responsible.",
+        "location": "Page 1, Paragraph 1",
+        "contradicted_location": "Page 1, Paragraph 1",
+        "contradicted_text": "The RECIPIENT shall in consideration of the disclosure of the Information for the purpose specified above hold in confidence and prevent disclosure of such information to any third-party other than the Supplier detailed herein. The RECIPIENT shall not use the Information except for the permitted purpose.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'RECIPIENT' with 'CONTRACTOR' in the definition section. However, the contradicted text uses 'RECIPIENT' and outlines their obligations. This creates a direct contradiction because it's now unclear whether the 'CONTRACTOR' is bound by the obligations of the 'RECIPIENT' as stated in the contradicted text. This aligns with the 'Misaligned Terminology - In Text Contradiction' definition, where using multiple terms interchangeably without defining them leads to conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The RECIPIENT and Supplier will limit access to the Information to only those of its employees, agents, sub-contractors (and employees of same) who have an absolute need to know in order to fulfil the purposes for which the Information was disclosed and shall notify such employees, agents, sub- contractors (and employees of same) of the RECIPIENT'S obligations under this Agreement.",
+        "changed_text": "The CONTRACTOR and Supplier will limit access to the Information to only those of its personnel, agents, sub-contractors (and employees of same) who have an absolute need to know in order to fulfil the purposes for which the Information was disclosed and shall notify such personnel, agents, sub- contractors (and employees of same) of the RECIPIENT'S obligations under this Agreement.",
+        "explanation": "Changing 'employees' to 'personnel' for the CONTRACTOR introduces ambiguity. 'Personnel' is broader and could include consultants or other non-employee staff. However, the text still refers to the 'RECIPIENT'S obligations', creating a contradiction. It's unclear whether 'personnel' are bound by the same obligations as the original 'employees' of the 'RECIPIENT'.",
+        "location": "Page 1, Paragraph 2",
+        "contradicted_location": "Page 1, Paragraph 2",
+        "contradicted_text": "The CONTRACTOR and Supplier will limit access to the Information to only those of its personnel, agents, sub-contractors (and employees of same) who have an absolute need to know in order to fulfil the purposes for which the Information was disclosed and shall notify such personnel, agents, sub- contractors (and employees of same) of the RECIPIENT'S obligations under this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'employees' to 'personnel' introduces ambiguity regarding who is bound by the RECIPIENT'S obligations. While the original text clearly states 'employees' are bound, 'personnel' is broader. The contradicted text is the same as the changed text, further solidifying that this change introduces ambiguity and therefore a contradiction because it is unclear if the RECIPIENT'S obligations extend to all 'personnel', or just 'employees' within that group, which is contradictory based on the original intent of only employees having these obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The RECIPIENT shall have no obligation with respect to such Information if such Information: (a) is in the public domain at the time of disclosure or becomes publicly known through no wrongful act of the RECIPIENT; or",
+        "changed_text": "The CONTRACTOR shall have no obligation with respect to such Information if such Information: (a) is in the public domain at the time of disclosure or becomes publicly known through no wrongful act of the ASSOCIATE; or",
+        "explanation": "The term 'RECIPIENT' is changed to 'CONTRACTOR' and also 'RECIPIENT' is changed to 'ASSOCIATE' inside the text. If information becomes public knowledge through the wrongful act of the 'ASSOCIATE', the 'CONTRACTOR' is supposedly free from obligation. But the document only defines obligations for the 'RECIPIENT' in other paragraphs. This introduces uncertainty as to who is actually held responsible for the confidentiality of the information.",
+        "location": "Page 1, Paragraph 3",
+        "contradicted_location": "Page 1, Paragraph 3",
+        "contradicted_text": "The CONTRACTOR shall have no obligation with respect to such Information if such Information: (a) is in the public domain at the time of disclosure or becomes publicly known through no wrongful act of the ASSOCIATE; or (b) is known to the RECIPIENT at the time of disclosure and the RECIPIENT can prove such fact to ONS's reasonable satisfaction; or (c) is independently developed by the RECIPIENT, provided the RECIPIENT can show that such development was accomplished without reference to or use of the Information: or (d) becomes known to the RECIPIENT from a source other than ONS having the rights to disclose such Information to the RECIPIENT without breach of this Agreement by the RECIPIENT.",
+        "contradiction_exists": "YES",
+        "justification": "The change replaces 'RECIPIENT' with 'CONTRACTOR' and 'ASSOCIATE'. The original text defined obligations for the 'RECIPIENT', while the changed text shifts responsibility based on the actions of the 'ASSOCIATE', yet the 'CONTRACTOR' is the one supposedly free from obligations. The contradicted text repeats this modified language. Because the document primarily holds the RECIPIENT accountable elsewhere, this creates a contradiction about who is responsible for a breach of confidentiality, since ASSOCIATE's actions determine CONTRACTOR's obligations, but the CONTRACTOR is not necessarily the same as the RECIPIENT. The misaligned terminology creates uncertainty about obligations, leading to an in-text contradiction as per the definition."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "All tangible forms of the Information, such as written documentation, delivered by ONS to the RECIPIENT and all copies thereof made by the RECIPIENT pursuant to this Agreement shall be and remain the property of ONS, and all such tangible Information shall be promptly returned to ONS upon request.",
+        "changed_text": "All tangible forms of the Information, such as written documentation, delivered by ONS to the CONSULTANT and all copies thereof made by the DEVELOPER pursuant to this Agreement shall be and remain the property of ONS, and all such tangible Information shall be promptly returned to ONS upon request.",
+        "explanation": "Here, 'RECIPIENT' is changed to 'CONSULTANT' in one instance and to 'DEVELOPER' in another within the same sentence. This creates a direct contradiction about who is responsible for returning the tangible forms of information. Is it the 'CONSULTANT' or the 'DEVELOPER'? Section 4 is directly impacted because it defines the return obligation, creating uncertainty regarding enforcement.",
+        "location": "Page 2, Paragraph 4",
+        "contradicted_location": "Page 2, Paragraph 4",
+        "contradicted_text": "All tangible forms of the Information, such as written documentation, delivered by ONS to the CONSULTANT and all copies thereof made by the DEVELOPER pursuant to this Agreement shall be and remain the property of ONS, and all such tangible Information shall be promptly returned to ONS upon request.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'RECIPIENT' with 'CONSULTANT' in one place and 'DEVELOPER' in another within the same sentence. This creates a direct conflict about who is responsible for returning the tangible forms of information. The contradicted text mirrors the changed text which highlights the contradiction even further. The question arises: is it the 'CONSULTANT' or the 'DEVELOPER' that is responsible, creating uncertainty regarding enforcement, making it a strong in-text contradiction as per the definition of 'Misaligned Terminology - In Text Contradiction'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The RECIPIENT acknowledges that all Intellectual Property Rights (IPR) in and to the Information shall at all times remain vested in ONS. However, the RECIPIENT may make as many copies of the Information as are necessary for the permitted purpose.",
+        "changed_text": "The DESIGNER acknowledges that all Intellectual Property Rights (IPR) in and to the Information shall at all times remain vested in ONS. However, the IMPLEMENTER may make as many copies of the Information as are necessary for the permitted purpose.",
+        "explanation": "Changing 'RECIPIENT' to 'DESIGNER' in the first sentence and to 'IMPLEMENTER' in the second creates a contradiction. Who is allowed to make copies of the information? The 'DESIGNER' or the 'IMPLEMENTER'? This undermines the clarity of Section 6, which concerns Intellectual Property Rights and permissions.",
+        "location": "Page 2, Paragraph 6",
+        "contradicted_location": "Page 2, Paragraph 6",
+        "contradicted_text": "The DESIGNER acknowledges that all Intellectual Property Rights (IPR) in and to the Information shall at all times remain vested in ONS. However, the IMPLEMENTER may make as many copies of the Information as are necessary for the permitted purpose.",
+        "contradiction_exists": "YES",
+        "justification": "The change replaces 'RECIPIENT' with 'DESIGNER' in one sentence regarding Intellectual Property Rights, and 'RECIPIENT' with 'IMPLEMENTER' in a subsequent sentence regarding copying permissions. The 'Contradicted Text' is identical to the changed text, which means the contradiction lies within the Changed Text itself. This creates an in-text contradiction because it's unclear whether the DESIGNER or the IMPLEMENTER is authorized to make copies of the Information. This aligns with the 'Misaligned Terminology - In Text Contradiction' definition, where using multiple terms interchangeably without defining them leads to conflicting obligations."
+      }
+    ]
+  }
+]

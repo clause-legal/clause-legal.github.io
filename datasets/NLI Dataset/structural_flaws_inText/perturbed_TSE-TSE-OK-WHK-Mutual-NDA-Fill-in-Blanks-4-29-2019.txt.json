@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "TSE-TSE-OK-WHK-Mutual-NDA-Fill-in-Blanks-4-29-2019.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "A receiving party shall limit disclosure of Confidential Information to those directors, officers, employees, and agents of the party who need to know the Confidential Information in connection with the Discussions and have been advised of the confidential nature of the information.",
+        "changed_text": "A receiving party may disclose Confidential Information to any third party, regardless of their connection to the Discussions, provided they sign a simple confidentiality acknowledgment form.",
+        "explanation": "The original text mandates limiting disclosure to those with a 'need to know' for the Discussions. This change allows disclosure to *any* third party with only a 'simple confidentiality acknowledgment form'. This massively undermines the precautions to protect confidential information, conflicting with the original restrictions and the overall intent of the NDA, making it easier to leak or exploit confidential information.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Precautions . The party to whom disclosure of the Confidential Information has been made (the “receiving party”) shall treat such information as confidential and shall exercise reasonable care with respect to the Confidential Information, at least to the same degree of care as the party employs with respect to protecting its own proprietary and confidential information. A receiving party may disclose Confidential Information to any third party, regardless of their connection to the Discussions, provided they sign a simple confidentiality acknowledgment form.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the original intent and precautions outlined in the contradicted text. The original text in Precautions mandates a certain degree of care in disclosing confidential information ('reasonable care...at least to the same degree of care as the party employs with respect to protecting its own proprietary and confidential information'). The changed text permits disclosure to any third party with only a 'simple confidentiality acknowledgment form', irrespective of their need to know or the care they will exercise, making it significantly easier to leak or exploit confidential information. This directly conflicts with the intended level of precaution, leading to a strong in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "In the event the business relationship between the parties is not established or is terminated for any reason, either voluntarily or involuntarily, the parties shall, if either party so requests in writing, promptly return to the other party, or destroy, all written data and documents, including originals, copies, translations and reproductions thereof, whether on paper or in electronic form, embodying all or part of the Confidential Information dis closed by the other party, as directed by the disclosing party. Notwithstanding the foregoing, the receiving party may retain one copy of the Confidential Information received from the disclosing party for historical, compliance, warranty and/or legal pur poses, but the retained Confidential Information shall remain subject to the terms and provisions of this Agreement.",
+        "changed_text": "In the event the business relationship between the parties is not established or is terminated for any reason, either voluntarily or involuntarily, the parties may retain all written data and documents indefinitely, regardless of whether requested to return or destroy them. Confidential Information shall no longer be subject to this agreement after termination.",
+        "explanation": "The change allows parties to retain all confidential information indefinitely after termination and states the information is no longer subject to the terms of the agreement. It is contradictory with 'return of Confidential Information'. This directly contradicts the original requirement to return or destroy confidential information upon request and removes protections for retained information after termination.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "Return of Confidential Information . In the event the business relationship between the parties is not established or is terminated for any reason, either voluntarily or involuntarily, the parties may retain all written data and documents indefinitely, regardless of whether requested to return or destroy them. Confidential Information shall no longer be subject to this agreement after termination.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that parties may retain all written data and documents indefinitely and that confidential information shall no longer be subject to the agreement after termination. This directly contradicts the contradicted text which states 'Return of Confidential Information'. Since the changed text removes the obligation to return the confidential information, it creates a direct contradiction with the requirement implied in the contradicted text, fitting the definition of a structural flaw that causes an in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The parties shall continue to protect the secrecy of the Confidential Information for as long as the information remains confidential information or a trade secret, but for no less than five (5) years from the date the information to be kept confidential is received or the effective date of this Agreement, whichever is later.",
+        "changed_text": "The parties shall only be obligated to protect the secrecy of Confidential Information during active discussions. After the discussions conclude, this obligation automatically terminates.",
+        "explanation": "The original clause mandates a minimum protection period of five years. The modification limits protection to the duration of 'active discussions,' completely negating the minimum term and undermining long-term confidentiality. This conflicts with the original purpose of the NDA and makes enforcement difficult.",
+        "location": "12",
+        "contradicted_location": "12",
+        "contradicted_text": "Term . The parties shall only be obligated to protect the secrecy of Confidential Information during active discussions. After the discussions conclude, this obligation automatically terminates.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text limits the obligation to protect confidential information to only during 'active discussions,' while the contradicted text also limits the protection to the same period. However, this limitation introduced by the changed text directly contradicts the original text which mandated a minimum protection period of five years. The 'Perturbation Explanation' supports this and indicates that the change creates a contradiction. Therefore, the change introduces a clear and direct conflict within the document and makes enforcement difficult."
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "QSA_NDA.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Recipient agrees that Recipient s hall treat all Confidential Information of the Soci ety with at least the same degree of care as Recipient accords its own confidential information.",
+        "changed_text": "Recipient agrees that Recipient shall treat operational manuals, methods, computer software, works of art, drafts and designs, financial data, places of meetings, secrets and other proprietary information of the Society with at least the same degree of care as Recipient accords its own confidential information. Other confidential information of the Society will be afforded a reasonable level of care.",
+        "explanation": "This change introduces an ambiguity to the standard of care required for Confidential Information. Originally, all Confidential Information was to be treated with the same level of care as the Recipient's own. Now, a distinction is made, with only specific data getting the same level of care, while 'other confidential information' gets a 'reasonable level of care,' which isn't defined, creating an in-text contradiction in relation to the previous stated standard.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "Recipient will maintain in confidence and will no t disclose, disseminate or use any Confidential Infor mation belonging to and/or related to Society, whet her or not in written form. Recipient agrees that Recipient shall treat operational manuals, methods, computer software, works of art, drafts and designs, financial data, places of meetings, secrets and other proprietary information of the Society with at least the same degree of care as Recipient accords its own confidential information. Other confidential information of the Society will be afforded a reasonable level of care. Recipient furthe r represents that Recipient exercises at least reason able care to protect its own confidential informati on.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that all confidential information should be treated with the same degree of care as the Recipient's own confidential information. The changed text introduces a distinction, requiring a high level of care for specific types of data ('operational manuals, methods...') but only 'reasonable level of care' for 'other confidential information.' The contradicted text is the same as the Changed Text, but the fact that there is a new level of care introduced that is not specifically defined ('reasonable level of care'), goes against the initial, uniform standard, introducing ambiguity and therefore a contradiction as the standard is not consistent throughout the document."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement shall govern all communications b etween the parties. Recipient understands that its obligations under Paragraph 2 (\"Nondisclosure and Nonuse Obligations\") shall surv ive the termination of any other relationship between the p arties.",
+        "changed_text": "This Agreement shall govern all communications b etween the parties only with respect to operational data, computer code, design, and financial communications, unless it is documented in writing that other types of communications between the parties are not governed under this agreement.. Recipient understands that its obligations under Paragraph 2 (\"Nondisclosure and Nonuse Obligations\") shall surv ive the termination of any other relationship between the p arties.",
+        "explanation": "By stating the agreement governs communications only with respect to a limited set of subject matters, this change contradicts the original statement that the entire agreement governs *all* communications, creating an in-text contradiction. It is no longer certain whether the NDA applies to all exchanges or just a subset. This limitation on what the agreement covers could cause a legal challenge.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "This Agreement shall govern all communications b etween the parties only with respect to operational data, computer code, design, and financial communications, unless it is documented in writing that other types of communications between the parties are not governed under this agreement.. Recipient understands that its obligations under Paragraph 2 (\"Nondisclosure and Nonuse Obligations\") shall surv ive the termination of any other relationship between the p arties. Upon termination of any relationship betwe en the parties, Recipient will promptly deliver to the Soc iety, without retaining any copies, all documents a nd other materials furnished to Recipient by the Society.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the agreement governs 'all communications.' The changed text limits this to only certain types of communications (operational data, computer code, design, and financial communications) unless otherwise documented. This creates a direct conflict with the original intention that *all* communications were covered, leading to an in-text contradiction, as the NDA may not be applied to other exchanges."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Recipient will promptly deliver to the Soc iety, without retaining any copies, all documents a nd other materials furnished to Recipient by the Society.",
+        "changed_text": "Recipient will promptly deliver to the Soc iety, without retaining any copies, all documents a nd other materials furnished to Recipient by the Society, except those documents containing personal contact information.",
+        "explanation": "This alteration creates an exception to the requirement to return all documents. By allowing the recipient to retain documents containing personal contact information, it now contradicts the initial and unamended overall intention that all documents shall be returned, which now leads to legal uncertainty.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "This Agreement shall govern all communications b etween the parties only with respect to operational data, computer code, design, and financial communications, unless it is documented in writing that other types of communications between the parties are not governed under this agreement.. Recipient understands that its obligations under Paragraph 2 (\"Nondisclosure and Nonuse Obligations\") shall surv ive the termination of any other relationship between the p arties. Upon termination of any relationship betwe en the parties, Recipient will promptly deliver to the Soc iety, without retaining any copies, all documents a nd other materials furnished to Recipient by the Society, except those documents containing personal contact information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that the Recipient will deliver to the Society, without retaining any copies, all documents. The changed text now states that the Recipient will deliver all documents, except those containing personal contact information. The contradicted text repeats the changed text, which now contradicts the original intention in the original text that all documents should be returned, leading to uncertainty as the Recipient is now allowed to keep some documents."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement may only be changed by mutual agreement between the parties in writing.",
+        "changed_text": "This Agreement may only be changed by mutual agreement between the parties, whether in writing or expressly documented by email from a representative from the Society.",
+        "explanation": "This modification creates an ambiguity in how the agreement can be amended. The original agreement stipulates that any changes must be in writing. The revised version allows for changes documented via email from the Society. This conflicts with the initial requirement for all changes to be in writing and jointly agreed, as email is now an allowable method of amendment. It introduces risk that unilateral changes from the society can be considered valid.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "This Agreement constitutes the entire agreement with respect to the Confidential Information disclosed herein and super sedes all prior or contemporaneous oral or written agreements concerning such Confidential Information . This Agreement may only be changed by mutual agreement between the parties, whether in writing or expressly documented by email from a representative from the Society. IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first written below.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the clause specifying how the agreement can be changed. The original text states changes must be in writing. The changed text allows for changes to be documented via email from a Society representative. The contradicted text, which is actually the changed text, now allows for a change to the original clause in the agreement in a way that does not require mutual agreement in writing, creating a contradiction. The explanation given points out the unilateral changes from the society can be considered valid. This contradicts the initial requirement for all changes to be in writing and jointly agreed, as email is now an allowable method of amendment, thus making it a strong contradiction."
+      }
+    ]
+  }
+]

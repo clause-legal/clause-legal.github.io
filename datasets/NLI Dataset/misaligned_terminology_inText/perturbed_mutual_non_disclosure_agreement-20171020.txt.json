@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "mutual_non_disclosure_agreement-20171020.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Parties shall use the Confidential Information only for the purpose of evaluating a potential business, employment and/or investment relationship with the other party.",
+        "changed_text": "The Parties shall use the Data only for the purpose of evaluating a potential business, employment and/or investment relationship with the other party.",
+        "explanation": "Replacing 'Confidential Information' with 'Data' creates uncertainty about the scope of permitted use. This contradiction is created as the section 1.0 defines Confidential Information as 'technical and business information relating to proprietary ideas'. It is uncertain if the data refers to confidential information, or other form of data. The word Data here is undefined.",
+        "location": "2.0",
+        "contradicted_location": "2.0",
+        "contradicted_text": "The Parties shall use the Data only for the purpose of evaluating a potential business, employment and/or investment relationship with the other party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text references 'Confidential Information', which is a defined term. The changed text replaces 'Confidential Information' with 'Data', which is undefined in the contract. The contradicted text repeats the changed text, using the undefined term 'Data'. According to the explanation, section 1.0 defines 'Confidential Information', and by replacing it with 'Data' there is uncertainty whether 'Data' refers to confidential information or some other form of data. This creates a contradiction because the contract now uses a term that is not clearly defined in relation to the existing definition, thus fitting the definition of 'Misaligned Terminology - In Text Contradiction'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Parties shall limit disclosure of Confidential Information within its own organization to its directors, officers, partners, members and/or employees having a need to know Confidential Information and shall not disclose Confidential Information to any third party (whether an individual, corporation, or other entity) without the prior written consent of the other party, which consent shall not be unreasonably withheld.",
+        "changed_text": "The Parties shall limit disclosure of sensitive data within its own organization to its directors, officers, partners, members and/or employees having a need to know Confidential Information and shall not disclose Confidential Information to any third party (whether an individual, corporation, or other entity) without the prior written consent of the other party, which consent shall not be unreasonably withheld.",
+        "explanation": "Changing 'Confidential Information' to 'sensitive data' for internal disclosure creates ambiguity. It's unclear if 'sensitive data' is the same as 'Confidential Information' elsewhere, especially when the rest of the section still refers to 'Confidential Information'.",
+        "location": "3.0",
+        "contradicted_location": "3.0",
+        "contradicted_text": "The Parties shall limit disclosure of sensitive data within its own organization to its directors, officers, partners, members and/or employees having a need to know Confidential Information and shall not disclose Confidential Information to any third party (whether an individual, corporation, or other entity) without the prior written consent of the other party, which consent shall not be unreasonably withheld.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Confidential Information' with 'sensitive data' for internal disclosure. However, the section continues to refer to 'Confidential Information' in the context of third-party disclosure. The contradicted text also refers to both 'sensitive data' and 'Confidential Information', making it unclear if the two terms are interchangeable. This misalignment of terminology creates ambiguity, especially given the Perturbation Type: Misaligned Terminology - In Text Contradiction, which occurs when the contract uses multiple terms interchangeably without defining them, leading to conflicting obligations, satisfying the conditions for a 'YES'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement imposes no obligation upon the Parties with respect to any Confidential Information (a) that was possessed by the receiving party before receipt; (b) is, or becomes a matter of, public knowledge through no fault of the receiving party; (c) is rightfully received from a third party not owing a duty of confidentiality to the disclosing party; (d) is disclosed without a duty of confidentiality to a third party by, or with the authorization of, the disclosing party; or (e) is independently developed.",
+        "changed_text": "This Agreement imposes no obligation upon the Parties with respect to any Proprietary Data (a) that was possessed by the receiving party before receipt; (b) is, or becomes a matter of, public knowledge through no fault of the receiving party; (c) is rightfully received from a third party not owing a duty of confidentiality to the disclosing party; (d) is disclosed without a duty of confidentiality to a third party by, or with the authorization of, the disclosing party; or (e) is independently developed.",
+        "explanation": "Changing 'Confidential Information' to 'Proprietary Data' affects the exceptions to the NDA. If Proprietary Data is interpreted differently, exceptions might be unclear. In section 1, confidential Information is referred to as 'technical and business information relating to proprietary ideas, patentable ideas and/or trade secrets'. This creates uncertainty whether Proprietary Data reffers to what it's being discussed or something else. This is a contradiction in what data is being refered.",
+        "location": "4.0",
+        "contradicted_location": "4.0",
+        "contradicted_text": "This Agreement imposes no obligation upon the Parties with respect to any Proprietary Data (a) that was possessed by the receiving party before receipt; (b) is, or becomes a matter of, public knowledge through no fault of the receiving party; (c) is rightfully received from a third party not owing a duty of confidentiality to the disclosing party; (d) is disclosed without a duty of confidentiality to a third party by, or with the authorization of, the disclosing party; or (e) is independently developed.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Confidential Information' to 'Proprietary Data' creates an in-text contradiction. The explanation states that Proprietary Data might be interpreted differently than Confidential Information, especially given the definition of Confidential Information elsewhere in the document as 'technical and business information relating to proprietary ideas, patentable ideas and/or trade secrets'. Since the contradicted text defines the exceptions using the term 'Proprietary Data', this creates uncertainty about whether the exceptions apply to the originally intended Confidential Information, leading to a clear conflict and ambiguity about what is protected and what isn't."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement shall not be construed as creating, conveying, transferring, granting or conferring upon either party any rights, license or authority in or to the information exchanged, except the limited right to use Confidential Information specified in Section 2 above.",
+        "changed_text": "This Agreement shall not be construed as creating, conveying, transferring, granting or conferring upon either party any rights, license or authority in or to the Data exchanged, except the limited right to use Confidential Information specified in Section 2 above.",
+        "explanation": "Changing 'information exchanged' to 'Data exchanged' creates a contradiction. Section 2 refers to confidential information but now this section refers to Data. 'Data' is undefined, but it has to do with the information exchanged but it's uncertain if this includes 'Confidential Information'. This creates a contradictions between what 'information' is being referred to in contrast to confidential information",
+        "location": "6.0",
+        "contradicted_location": "6.0",
+        "contradicted_text": "This Agreement shall not be construed as creating, conveying, transferring, granting or conferring upon either party any rights, license or authority in or to the Data exchanged, except the limited right to use Confidential Information specified in Section 2 above.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'information exchanged' to 'Data exchanged' introduces a contradiction because 'Data' is undefined in the context of Section 2, which specifically references 'Confidential Information'. The altered text creates uncertainty as to whether 'Data' includes 'Confidential Information' which directly contradicts what information is being referred to in contrast to confidential information. This aligns with the 'Misaligned Terminology - In Text Contradiction' definition, which highlights contradictions arising from using terms interchangeably without defining them."
+      }
+    ]
+  }
+]

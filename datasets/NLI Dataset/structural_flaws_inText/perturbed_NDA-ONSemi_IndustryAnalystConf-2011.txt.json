@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "NDA-ONSemi_IndustryAnalystConf-2011.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Confidential Information disclosed hereunder is provided on a “ AS IS” basis, without any warranty, whether express, implied or otherwise, regarding its accuracy, usefulness or performance",
+        "changed_text": "Confidential Information disclosed hereunder is provided on a “ AS IS” basis, with a guarantee of accuracy and reliability in its application, whether express, implied or otherwise, regarding its accuracy, usefulness or performance",
+        "explanation": "The change from 'without any warranty' to 'with a guarantee of accuracy' in Section 8 directly contradicts the 'AS IS' provision. The original text explicitly disclaims any warranty, but the changed text provides a guarantee. This contradiction creates uncertainty about the Discloser's liability for the information's accuracy and puts it at conflict with the AS IS statement.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "No Obligation to Disclose or Warranty. Neither party has an obligation to suppl y Confidential Information hereunder. Confidential Information disclosed hereunder is provided on a “ AS IS” basis, with a guarantee of accuracy and reliability in its application, whether express, implied or otherwise, regarding its accuracy, usefulness or performance",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly disclaims any warranty ('without any warranty'), but the changed text provides a guarantee ('with a guarantee of accuracy'). This directly contradicts the 'AS IS' provision and creates a clear inconsistency within the contract itself, specifically when compared to the contradicted text which also contains both the 'AS IS' provision and the 'with a guarantee of accuracy' provision, resulting in an in-text contradiction that would cause uncertainty about the Discloser's liability."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement and the rights and obligations hereunder may not be transferred or assigned by one party without the prior written appr oval of the other party hereto.",
+        "changed_text": "This Agreement and the rights and obligations hereunder may be transferred or assigned by one party without the prior written appr oval of the other party hereto, unless the assigning party notifies the other party of the assignment.",
+        "explanation": "The addition of 'unless the assigning party notifies the other party of the assignment' to Section 10 introduces an exception that contradicts the initial restriction on transfer or assignment without prior written approval. The added clause creates ambiguity because, under certain conditions, the assignment may proceed without approval. This is contradictory to the first part of the sentence, because it creates an exception to the need of consent and generates uncertainty on how the transfer will be made.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "Assignment. This Agreement and the rights and obligations hereunder may not be transferred or assigned by one party without the prior written appr oval of the other party hereto, unless the assigning party notifies the other party of the assignment.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the agreement cannot be transferred or assigned without prior written approval. The changed text adds an exception, allowing transfer or assignment if the other party is notified, even without approval. This directly contradicts the initial requirement for prior written approval, creating a strong in-text contradiction. The contradicted text is the same as the changed text, which further illustrates the contradiction introduced by the change."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The law of the state of New York, U.S.A. except for its choice of laws rules shall govern this Agreement. The prevailing party in any action to enforce this Agreement shall be entitled to recover reasonable attorneys fees and costs. The Recipient agrees that, in addition to all other remedies, the Discloser shall be entitled to specific performance and injunctive or other equitable relief as a remedy for any breach or threatened breach of the obligations herein.",
+        "changed_text": "The law of the state of New York, U.S.A. except for its choice of laws rules shall govern this Agreement, except that the laws of Delaware shall govern disputes related to intellectual property. The prevailing party in any action to enforce this Agreement shall be entitled to recover reasonable attorneys fees and costs. The Recipient agrees that, in addition to all other remedies, the Discloser shall be entitled to specific performance and injunctive or other equitable relief as a remedy for any breach or threatened breach of the obligations herein.",
+        "explanation": "Adding 'except that the laws of Delaware shall govern disputes related to intellectual property' in Section 12 creates an exception that leads to contradictions. The first half of the sentence specifies New York law will govern the agreement; however, the added clause mandates Delaware law for IP disputes. This could lead to situations where New York law applies to contract interpretation in general while Delaware law covers specific issues, but is contradictory to first part of the original phrase, since there is no exception stated.",
+        "location": "12",
+        "contradicted_location": "12",
+        "contradicted_text": "Applicable Law. The law of the state of New York, U.S.A. except for its choice of laws rules shall govern this Agreement, except that the laws of Delaware shall govern disputes related to intellectual property. The prevailing party in any action to enforce this Agreement shall be entitled to recover reasonable attorneys fees and costs. The Recipient agrees that, in addition to all other remedies, the Discloser shall be entitled to specific performance and injunctive or other equitable relief as a remedy for any breach or threatened breach of the obligations herein.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text adds an exception to the governing law clause, stating that Delaware law governs disputes related to intellectual property, while the original text states that New York law governs the entire agreement. This creates a direct conflict as to which law applies to IP disputes, leading to uncertainty and potential unenforceability. The changed text introduces a structural flaw, as described in the prompt, creating a strong in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "No change, modification, alteration, or addition to any provision hereof shall be binding unless in writing and signed by au thorized representatives of both parties.",
+        "changed_text": "No change, modification, alteration, or addition to any provision hereof shall be binding unless in writing and signed by au thorized representatives of both parties, or communicated via email from an authorized representative.",
+        "explanation": "The clause added in Section 13 allows changes through email communication. This directly contradicts the first half of the statement, which requires any change, modification, alteration, or addition to be in writing and signed by authorized representatives. Email communication is not necessarily a 'signed writing', so this addition creates uncertainty. It's contradictory since it sets up an alternative mean to change the agreement different than the one initially specified.",
+        "location": "13",
+        "contradicted_location": "13",
+        "contradicted_text": "Binding Effect. This Agreement shall be binding upon each party, its affiliates, respective employees, agents, representatives, successors, and assigns. No change, modification, alteration, or addition to any provision hereof shall be binding unless in writing and signed by au thorized representatives of both parties, or communicated via email from an authorized representative.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that any modification must be in writing and signed by authorized representatives. The changed text adds 'or communicated via email from an authorized representative'. This addition introduces an alternative method for modification that does not necessarily involve a signed writing. Since email isn't inherently a signed document, this creates a direct contradiction with the first part of the clause, because it is an exception to the rule that changes must be in writing and signed. The contradicted text is at the same location and the change directly contradicts the need for changes to be in writing."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement contains the entir e understanding between the parties relative to the protection of Confidential Information and supersedes all prior and collateral communications, reports, and understandings between the parties in respect thereto.",
+        "changed_text": "This Agreement contains the entir e understanding between the parties relative to the protection of Confidential Information, except for any understandings reached orally between the parties prior to the signing of this agreement and supersedes all prior and collateral communications, reports, and understandings between the parties in respect thereto.",
+        "explanation": "The addition of 'except for any understandings reached orally between the parties prior to the signing of this agreement' creates an exception that contradicts the purpose of the entire agreement clause in Section 14. The original clause states that the agreement contains the *entire* understanding, but now prior oral agreements are explicitly excluded from this and can have a bearing on the contract, so the agreement might not contain the entire understanding of the contract as stated. It is contradictory in nature.",
+        "location": "14",
+        "contradicted_location": "14",
+        "contradicted_text": "Entire Agreement. This Agreement contains the entir e understanding between the parties relative to the protection of Confidential Information, except for any understandings reached orally between the parties prior to the signing of this agreement and supersedes all prior and collateral communications, reports, and understandings between the parties in respect thereto.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly introduces an exception for oral agreements, while the contradicted text (which is identical to the changed text) states that the agreement contains the *entire* understanding. This creates a direct contradiction as the agreement no longer contains the entire understanding between parties. The addition nullifies the 'entire agreement' clause, leading to uncertainty and a strong in-text contradiction, fitting under the 'Structural Flaws' definition where a clause is placed in multiple locations (in this case, within the same section) with conflicting implications."
+      }
+    ]
+  }
+]

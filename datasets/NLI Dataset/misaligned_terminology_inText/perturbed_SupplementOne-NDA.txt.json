@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "SupplementOne-NDA.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Recipient: (1) Shall not disclose Confide ntial Information to any employe e or subcontractor of Recipient un less such person needs access in order to facilitate the evaluation and preparation of a response to RFP CSP903918 and executes a nondisclosure agreement with the Recipient with terms no less restrictive tha n those of this Section 2)b)",
+        "changed_text": "Evaluator: (1) Shall not disclose Confidential Information to any employe e or subcontractor of Evaluator un less such person needs access in order to facilitate the internal review and executes a nondisclosure agreement with the Evaluator with terms no less restrictive tha n those of this Section 2)b)",
+        "explanation": "Changing all instances of Recipient to Evaluator in this section creates an in-text contradiction. With this pertubation we reinforce that we are working with two different subjects, the evaluator and the recipient, and they are not the same thing, increasing the ambiguity.",
+        "location": "Section 1)b)ii)",
+        "contradicted_location": "Section 1)b)ii)",
+        "contradicted_text": "Recipient: (2) Shall not disclose Confidential Information to any other third party without Discloser’s prior written consent ; and (3) Shall not reproduce Confidential Information in any form except as required to facilitate the evaluation and preparation of a response to RFP CSP903918 .",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'Recipient' while the changed text refers to 'Evaluator'. The explanation highlights that this change reinforces the idea of two distinct entities. The contradicted text only refers to 'Recipient'. This creates a direct conflict and ambiguity since the reader would not know if the obligations in the contradicted text apply to the 'Evaluator'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Recipient will be liable for disclosure of any Confidential Information.",
+        "changed_text": "The Evaluator will not be held liable for disclosure of any Confidential Information.",
+        "explanation": "Changing 'Recipient' to 'Evaluator' and negating the liability creates a direct conflict. The contract now states that the Recipient (defined elsewhere) is liable, but the Evaluator is not. With this change we increase the uncertanty of which of the two subjects are responsible.",
+        "location": "Section 1)c)",
+        "contradicted_location": "Section 1)c)",
+        "contradicted_text": "The Parties agree tha t the disclosure of Confidential Information of the Discloser may cause the Discloser irreparable damage for which remedies other than injunctive relief may be inadequate, and the Recipient agrees that in the event of a breach of the obligations hereunder, t he Discloser shall be entitled to temporary and permanent injunctive relief to enforce this provision without the necessity of proving actual damages. This provision shall not, however, diminish or alter any right to claim and recover damages.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that 'The Recipient will be liable for disclosure of any Confidential Information.' The changed text states 'The Evaluator will not be held liable for disclosure of any Confidential Information.' The contradicted text refers to the Recipient's liability for disclosing confidential information and the discloser's right to injunctive relief. Because the change makes one party liable and the other not liable it goes against the contradicted text, therefore there is a contradiction. The Perturbation Type is Misaligned Terminology - In Text Contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Upon request of Discloser or termination of this Agreement, Recipient shall return all Confidential Information , copies, extracts, or notes derived from Confidential Information to Discloser or certify, in writing, the destruc tion thereof.",
+        "changed_text": "Upon request of Discloser or termination of this Agreement, the Primary Contact shall return all Confidential Information , copies, extracts, or notes derived from Confidential Information to Discloser or certify, in writing, the destruc tion thereof.",
+        "explanation": "Replacing 'Recipient' with 'Primary Contact' without defining 'Primary Contact' creates ambiguity. Is the Primary Contact the same as the Recipient or Evaluator? Who is responsible for returning confidential information upon termination? Also this introduces a in-text contradiction, because there is no reference to the Primary Contact in the contract.",
+        "location": "Section 1)d)",
+        "contradicted_location": "Section 1)d)",
+        "contradicted_text": "The provisions of this Section 1)d) shall survive the termination of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Recipient' with 'Primary Contact'. The 'Contradicted Text' references Section 1)d) which describes obligations related to the original Recipient. Because 'Primary Contact' is undefined, it creates ambiguity about who is responsible for the obligations in Section 1)d), thus creating a direct in-text contradiction according to the provided definition of 'Misaligned Terminology - In Text Contradiction'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Recipient affirms that it sha ll not and shall not allow others to take the Discloser’s Confidential Information outside the United States without express written authorization from the Discloser.",
+        "changed_text": "The Reviewer affirms that it shall not and shall not allow others to take the Discloser’s Confidential Information outside the United States without express written authorization from the Discloser.",
+        "explanation": "Replace Recipient with Reviewer in just one single instance to creates confusion with which of the parts are being addressed, while also creates ambiguity about the difference between Reviewer, Evaluator and Recipient.",
+        "location": "Section 7",
+        "contradicted_location": "Section 8",
+        "contradicted_text": "The person whose signature appears below on behalf of the Recipient represents and warrants that he/she has authority to bind the Recipient and all employees and agents of the Recipient to the terms of this contract and has specific authority to sign thi s Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'Recipient,' and the contradicted text defines the 'Recipient' as the entity bound by the agreement. The changed text replaces 'Recipient' with 'Reviewer' in one instance. This creates ambiguity because it's unclear whether the 'Reviewer' and 'Recipient' are the same entity. It causes a Misaligned Terminology as defined because it introduces another term without defining what it means or if it is different than the Recipient and it creates ambiguity. The contradicted text requires a signature from the Recipient, making it unclear if the 'Reviewer' also has the authority to bind the Recipient. Therefore, it creates a strong in-text contradiction."
+      }
+    ]
+  }
+]

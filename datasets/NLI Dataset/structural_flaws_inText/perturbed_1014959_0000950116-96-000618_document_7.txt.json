@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "1014959_0000950116-96-000618_document_7.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "There is no charge to Recipient for testing of the Product. MS shall bear all transportation expenses relating to the shipment of the Product to Recipient's place of business and Recipient will pay any return transportation expenses.",
+        "changed_text": "The Recipient shall be charged a fee of $10,000 for testing the Product, payable upon receipt of the Product. The Recipient is also responsible for all transportation expenses related to the shipment of the Product, including return transportation.",
+        "explanation": "The original text stated that there's no charge for testing and MS bears the initial transportation costs. The modified text introduces a $10,000 fee and makes the Recipient responsible for all transportation costs. This creates a direct contradiction, especially given the statement in Section 4 that 'There is no charge'.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "COST OF TESTING. There is no charge to Recipient for testing of the Product. MS shall bear all transportation expenses relating to the shipment of the Product to Recipient's place of business and Recipient will pay any return transportation expenses.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. The original text and contradicted text state 'There is no charge to Recipient for testing of the Product' while the changed text states 'The Recipient shall be charged a fee of $10,000 for testing the Product'. This is a clear and direct conflict, indicating a strong in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "MS is not obligated to provide maintenance or updates to Recipient for the Product. However, any maintenance or updates provided by MS shall be covered by this Agreement.",
+        "changed_text": "MS is required to provide weekly maintenance and updates to the Recipient for the Product. Failure to provide maintenance and updates will be a breach of this Agreement.",
+        "explanation": "The original text states that MS has no obligation to provide maintenance, whereas the modified text imposes a strict requirement for weekly maintenance, with failure constituting a breach of the agreement. This creates a direct contradiction on whether maintenance is required.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "PRODUCT MAINTENANCE. MS is not obligated to provide maintenance or updates to Recipient for the Product. However, any maintenance or updates provided by MS shall be covered by this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text and the contradicted text state that MS is *not* obligated to provide maintenance or updates. The changed text directly contradicts this by stating MS *is required* to provide weekly maintenance and updates, and failure to do so will be a breach of the agreement. This creates a direct and clear contradiction regarding whether maintenance is required or not, fulfilling the definition of a Structural Flaw leading to In-Text Contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement will terminate without notice upon the commercial release of the Product.",
+        "changed_text": "This Agreement will continue indefinitely, even after the commercial release of the Product, unless both parties mutually agree to terminate it in writing.",
+        "explanation": "The original text states the agreement terminates automatically upon commercial release. The modified text states it continues indefinitely unless mutually terminated. This directly contradicts the termination condition, creating an in-text contradiction.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "TERM OF AGREEMENT. The term of this Agreement shall commence on the Effective Date and shall continue until terminated by MS in writing at any time, with or without cause. This Agreement will terminate without notice upon the commercial release of the Product. Upon the termination of this Agreement, Recipient shall promptly return to MS. or certify destruction of, all full or partial copies of the Product and related materials provided by MS. Section 6 shall survive termination or expiration of this Agreement with respect to any information that has not been made public by MS as of the commercial release of the Product.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that the agreement terminates upon the commercial release of the Product. The changed text explicitly states that the agreement continues indefinitely even after the commercial release, unless mutually terminated. The contradicted text, which includes 'This Agreement will terminate without notice upon the commercial release of the Product,' directly conflicts with the changed text. Therefore, the change introduces a strong in-text contradiction regarding the termination condition of the agreement."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "All bug reports, test results and other feedback made by Recipient shall be the property of MS and may be used by MS for any purpose.",
+        "changed_text": "All bug reports, test results, and other feedback made by the Recipient shall be the exclusive property of the Recipient and cannot be used by MS without the express written consent of the Recipient.",
+        "explanation": "The original text clearly states that all feedback becomes the property of MS, which they can use for any purpose. The changed text gives ownership of the feedback to the recipient and restricts MS's use of that feedback. This contradiction can be especially problematic, as it is unclear who has the rights to use and/or disseminate information discovered while testing.",
+        "location": "1(b)",
+        "contradicted_location": "1(b)",
+        "contradicted_text": "Recipient agrees to provide reasonable feedback to MS, including but not limited to beta reports, usability, bug reports and test results, with respect to the Product testing. Recipient will use reasonable efforts to review and comment on all documentation supplied. All bug reports, test results and other feedback made by Recipient shall be the property of MS and may be used by MS for any purpose. Due to the nature of the development work, MS is not certain as to when errors or discrepancies in the Products may be corrected.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that MS owns all feedback from the recipient and can use it for any purpose. The changed text makes the Recipient the exclusive owner of the feedback and restricts MS from using it without the Recipient's explicit consent. This directly contradicts the contradicted text, which reiterates that all feedback belongs to MS and can be used for any purpose. This creates a clear and direct conflict regarding the ownership and usage rights of the feedback, which is a structural flaw that causes an in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement may not be modified except in a writing duly signed by an authorized representative of MS and Recipient.",
+        "changed_text": "This Agreement can be modified at any time by MS without the need for written consent or signature from the Recipient.",
+        "explanation": "The original clause requires that modifications to the agreement can only be made in writing and with signatures from both parties. The modified clause states that MS can modify the agreement at will, even without consent of the recipient. This creates a contradiction by removing the conditions that the original clause places in order for the agreement to be changed, particularly regarding the process and who needs to be involved for that process to be followed.",
+        "location": "11",
+        "contradicted_location": "11",
+        "contradicted_text": "ENTIRE AGREEMENT. This Agreement constitutes the complete and exclusive agreement between MS and Recipient with respect to the subject matter hereof, and supersedes all prior oral or written understandings, communications or agreements not specifically incorporated herein. This Agreement may not be modified except in a writing duly signed by an authorized representative of MS and Recipient.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. The original clause states that modifications require written consent and signatures from both parties (MS and Recipient). The changed text allows MS to modify the agreement unilaterally, without the Recipient's consent. The contradicted text, which is the original text but placed in a different location, reinforces the initial requirement for mutual agreement. Therefore, the changed text introduces a clear contradiction."
+      }
+    ]
+  }
+]

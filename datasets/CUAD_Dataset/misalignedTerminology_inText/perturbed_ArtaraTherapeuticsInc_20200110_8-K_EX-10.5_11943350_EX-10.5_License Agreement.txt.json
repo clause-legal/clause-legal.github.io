@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "ArtaraTherapeuticsInc_20200110_8-K_EX-10.5_11943350_EX-10.5_License Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "1.2 \"CRO\" means a contract research organization selected by ArTara to assist in the Project as approved by the University and/or Principal Investigator, such approval not to be unreasonably delayed or withheld.",
+        "changed_text": "1.2 \"CRO\" means a contract research organization unilaterally selected by ArTara to assist in the Project, such approval can be reasonably delayed or withheld by the University and/or Principal Investigator.",
+        "explanation": "The original definition states that the CRO is selected by ArTara with approval from the University/Principal Investigator, and that approval cannot be unreasonably delayed or withheld. The modified definition contradicts this by stating the CRO is unilaterally selected by ArTara and the approval can be reasonably delayed or withheld by the University/Principal Investigator. This in-text contradiction impacts the project execution, because under Section 2.1, the university has to conduct the project together with ArTara and the CRO. If the CRO is selected unilaterally, creates conflict.",
+        "location": "1.2",
+        "contradicted_location": "2.1",
+        "contradicted_text": "2.1 Performance of Project. The University and/or Principal Investigator together with ArTara and the CRO will conduct the Project in accordance with the Project Plan and will use all reasonable endeavors consistent with their expertise to successfully complete the Project. It is the goal of the Project to use the Program Data as clinical support for Product Regulatory Filings and to gain approval to commercialize the Product for the Indication in the Territory.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text creates a direct contradiction with Section 2.1. Originally, the CRO selection required approval, and the University/Principal Investigator could not unreasonably delay or withhold approval. Now, the CRO is unilaterally selected, and approval can be reasonably delayed or withheld. This contradicts Section 2.1, which mandates the University, ArTara, and the CRO to jointly conduct the Project. Unilateral selection and the ability to reasonably delay/withhold approval directly impact the collaborative execution outlined in Section 2.1, creating a clear conflict regarding the CRO's selection process and the University's control over the project."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "4.2 License. University hereby grants to ArTara an exclusive license to use the Program Data solely for the Project and in Regulatory Filings in the Field in the Territory.",
+        "changed_text": "4.2 License. University hereby grants to ArTara a non-exclusive license to use the Program Data solely for the Project and in Regulatory Filings in the Field in the Territory.",
+        "explanation": "The original text grants ArTara an 'exclusive license', meaning only ArTara can use the Program Data for the stated purposes. The modified text changes this to a 'non-exclusive license', implying that the University or other parties could also be granted licenses to use the same Program Data. This creates a contradiction in terms of the rights granted to ArTara because the text implies that another party may be using this data to support Regulatory filings. This impacts Article 4.3 as another party can use the Program Regulatory Filings by University in support of the Product.",
+        "location": "4.2",
+        "contradicted_location": "4.3",
+        "contradicted_text": "4.3 Right of Reference and IND Assignment. University hereby grants to ArTara an exclusive Right of Reference to all Program Regulatory Filings by University in support of the Product. Upon written request of ArTara, University will assign the IND to ArTara.",
+        "contradiction_exists": "YES",
+        "justification": "The change from an 'exclusive license' to a 'non-exclusive license' in Section 4.2 directly contradicts the 'exclusive Right of Reference' granted to ArTara in Section 4.3. By granting a non-exclusive license, the University could grant other parties the right to use the Program Data, which would then allow them to potentially make Program Regulatory Filings, undermining ArTara's exclusive Right of Reference to the University's filings. This creates a clear and direct conflict as it creates doubt as to the ownership and control of the Program Regulatory Filings."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "8.2 Termination by Either Party. Either Party may terminate the Project and all commitments and obligations with respect thereto, subject to Section 8.3 herein, upon thirty (30) days written notice to the other Party. In the event of any termination of the Project by University, (a) University agrees to complete Phase I and II of the Project, and (b) ArTara will continue to provide annual funding until the completion of Phase II. Upon termination of the Project by ArTara this Agreement will terminate subject to Section 8.3 and ArTara will reassign to University the IND if assignment thereof previously occurred pursuant to Section 4.3.",
+        "changed_text": "8.2 Termination by Either Party. Either Party may terminate the Project and all commitments and obligations with respect thereto, subject to Section 8.3 herein, upon thirty (30) days written notice to the other Party. In the event of any termination of the Project by University, (a) University agrees to complete Phase I of the Project, and (b) ArTara will continue to provide annual funding until the completion of Phase II. Upon termination of the Project by ArTara this Agreement will terminate subject to Section 8.3 and ArTara will not reassign to University the IND if assignment thereof previously occurred pursuant to Section 4.3.",
+        "explanation": "The original text says if the Project is terminated by the University, they must complete Phase I and II. If the project is terminated by ArTara, they will reassign the IND to the University. The modified version now says if the project is terminated by University, they must complete Phase I. If the project is terminated by ArTara, they will not reassign the IND. This creates an internal contradiction as to the extent of the University's obligations upon termination and impacts who is holding the rights to the IND (Intellectual Property).",
+        "location": "8.2",
+        "contradicted_location": "4.3",
+        "contradicted_text": "4.3 Right of Reference and IND Assignment. University hereby grants to ArTara an exclusive Right of Reference to all Program Regulatory Filings by University in support of the Product. Upon written request of ArTara, University will assign the IND to ArTara.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a contradiction. Originally, if ArTara terminated the project, they *would* reassign the IND to the University, but the modified version states they *will not*. This directly contradicts the original agreement regarding the transfer of intellectual property rights (the IND) as described in Section 4.3. Section 4.3 states \"Upon written request of ArTara, University will assign the IND to ArTara.\". The modified text creates an in-text contradiction with respect to the conditions under which the IND will be reassigned, making it uncertain who controls the IND upon termination."
+      }
+    ]
+  }
+]

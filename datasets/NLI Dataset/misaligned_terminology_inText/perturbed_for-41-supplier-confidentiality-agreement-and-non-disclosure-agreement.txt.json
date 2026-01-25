@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "for-41-supplier-confidentiality-agreement-and-non-disclosure-agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The recipient agrees to hold all information provided by Manitoba Housing (“Confidential Information”) in trust and confidence and agrees that it shall be used only for the contemplated purposes, shall not be used for any other purpose or disclosed to any third part.",
+        "changed_text": "The recipient agrees to hold all information provided by Manitoba Housing (“Proprietary Data”) in trust and confidence and agrees that it shall be used only for the contemplated purposes, shall not be used for any other purpose or disclosed to any third part.",
+        "explanation": "The term 'Confidential Information' is changed to 'Proprietary Data.' This introduces a contradiction because 'Confidential Information' is used elsewhere in the agreement, while 'Proprietary Data' is now introduced but not consistently used. This creates uncertainty on the scope of the confidentiality obligations. This is especially contradicting in section 2.",
+        "location": "Section 1",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "2. Manitoba Housing grants no rights to the confidential informa tion. All confidential information shall remain the sole property of Manitoba Housing.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Confidential Information' to 'Proprietary Data' creates a contradiction because Section 2 refers specifically to 'confidential information.' By changing the defined term, the contract introduces uncertainty and a conflict regarding whether Section 2 applies to the information now labeled 'Proprietary Data.' This is a misaligned terminology issue as defined, leading to a strong in-text contradiction that affects the enforceability and scope of confidentiality obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Manitoba Housing grants no rights to the confidential informa tion. All confidential information shall remain the sole property of Manitoba Housing.",
+        "changed_text": "Manitoba Housing grants no rights to the confidential informa tion. All intellectual property shall remain the sole property of Manitoba Housing.",
+        "explanation": "The term 'confidential information' is changed to 'intellectual property' in the second sentence of section 2. This creates confusion. In the first sentence, the parties agree to protect Confidential Information and in the second sentence, suddenly it mentions Intellectual Property. It introduces an in-text contradiction regarding what type of information is protected under the agreement.",
+        "location": "Section 2",
+        "contradicted_location": "Section 1",
+        "contradicted_text": "1. The recipient agrees to hold all information provided by Manitoba Housing (“Confidential Information”) in trust and confidence and agrees that it shall be used only for the contemplated purposes, shall not be used for any other purpose or disclosed to any third part.",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'confidential information,' which aligns with the term 'Confidential Information' used in the contradicted text, specifically clause 1. The changed text replaces 'confidential information' with 'intellectual property,' creating a misalignment. The contradicted text defines obligations related to 'Confidential Information,' but the changed text now introduces 'intellectual property', without defining it, leading to an in-text contradiction as it's unclear if 'intellectual property' is the same as 'Confidential Information' and thus subject to the same obligations. This aligns with the definition of 'Misaligned Terminology - In Text Contradiction' because the contract uses the terms interchangeably without defining them, leading to conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "No copies will be made or retained of any written information without the permission of Manitoba Housing.",
+        "changed_text": "No reproductions will be made or retained of any written materials without the authorization of Manitoba Housing.",
+        "explanation": "The terms 'copies', 'written information', 'permission' are changed to 'reproductions', 'written materials', and 'authorization' respectively. Using these different terms for the same thing creates uncertainty in the interpretation. Are digital copies allowed? Is 'authorization' different from 'permission'? In section 4, the permission is reffered again, contradicting this definition.",
+        "location": "Section 3",
+        "contradicted_location": "Section 4",
+        "contradicted_text": "4. At the conclusion of any discussions or upon demand by Manitoba Housing, a ll confidential information or written notes taken shall be returned to Manitoba Housing.",
+        "contradiction_exists": "YES",
+        "justification": "The original text used 'copies', 'written information', and 'permission', which are standard terms. The changed text replaces these with 'reproductions', 'written materials', and 'authorization' respectively. The explanation argues that this introduces uncertainty. The contradicted text in section 4 uses the original term 'permission'. By switching to 'authorization' in the changed text, it creates a contradiction because it's unclear if 'permission' and 'authorization' mean the same thing, thus impacting the obligations outlined in section 4 regarding obtaining 'permission' from Manitoba Housing, as the definitions given defines Misaligned Terminology leading to In-Text Contradictions."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "At the conclusion of any discussions or upon demand by Manitoba Housing, a ll confidential information or written notes taken shall be returned to Manitoba Housing.",
+        "changed_text": "Upon termination of discussions or upon request by Manitoba Housing, a ll protected data and documented communications shall be surrendered to Manitoba Housing.",
+        "explanation": "The terms 'conclusion', 'discussions', 'demand', 'confidential information', 'written notes', and 'returned' are replaced with 'termination', 'request', 'protected data', 'documented communications', and 'surrendered' respectively. The use of different terms when the agreement used other terms to describe it, could create confusion and potential loopholes in the obligations, creating an in-text contradiction.",
+        "location": "Section 4",
+        "contradicted_location": "Section 1",
+        "contradicted_text": "1. The recipient agrees to hold all information provided by Manitoba Housing (“Confidential Information”) in trust and confidence and agrees that it shall be used only for the contemplated purposes, shall not be used for any other purpose or disclosed to any third part.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces specific terms like 'confidential information' with broader terms like 'protected data' and 'documented communications'. The contradicted text specifically refers to 'Confidential Information'. By using different terms for the same concept without clear definition, it creates an ambiguity and potential contradiction as to what information is actually covered by the confidentiality agreement. This aligns with the 'Misaligned Terminology' definition, leading to a potential contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Confidential information shall not be disclosed to any employee, consultant or third party unless they have executed and agreed to be bound by the terms of the Agreement, and have been approved by Manitoba Housing.",
+        "changed_text": "Sensitive data shall not be disclosed to any staff member, advisor or external entity unless they have signed and committed to the conditions of this Understanding, and have received consent from Manitoba Housing.",
+        "explanation": "Multiple terms are changed: 'Confidential information' to 'Sensitive data', 'employee' to 'staff member', 'consultant' to 'advisor', 'third party' to 'external entity', 'executed' to 'signed', 'agreed to be bound' to 'committed to the conditions', 'Agreement' to 'Understanding', and 'approved' to 'received consent'. This significantly undermines the clarity and enforceability of the confidentiality obligations. Are the terms Confidential information and Sensitive data, referring to the same data? The change also creates in-text contradictions, since the agreement is called, Agreement, and later called Understanding.",
+        "location": "Section 5",
+        "contradicted_location": "Section 6",
+        "contradicted_text": "6. This Agreement and its validity, construction and effect shall be governed by the laws of Manitoba.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Agreement' with 'Understanding'. The contradicted text explicitly refers to 'This Agreement' and states that its validity is governed by the laws of Manitoba. By renaming the agreement to 'Understanding' in the changed text, it creates a direct contradiction and ambiguity regarding which document the governing law applies to. The change directly contradicts the contradicted text's reference to 'This Agreement', leading to confusion and potential unenforceability. This falls under the definition of 'Misaligned Terminology - In Text Contradiction'."
+      }
+    ]
+  }
+]

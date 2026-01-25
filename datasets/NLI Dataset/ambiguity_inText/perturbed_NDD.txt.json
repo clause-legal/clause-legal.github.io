@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "NDD.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Applicant agrees that all information disclosed by the Agency to the Applicant by means of a document ‘ ’Technical Specifications for RRMs ’’, including its future amendments, and other documents relating to the RRM registration and data submission shall be considered as confidential (altogether the ‘ Confidential Information’).",
+        "changed_text": "The Applicant agrees that all information disclosed by the Agency to the Applicant by means of a document ‘ ’Technical Specifications for RRMs ’’, including its future amendments, and other documents relating to the RRM registration and data submission may be considered confidential, at the Agency's sole discretion (altogether the ‘ Confidential Information’).",
+        "explanation": "By changing 'shall be considered as confidential' to 'may be considered confidential, at the Agency's sole discretion,' the confidentiality of the information becomes uncertain. This introduces a contradiction because later clauses outline obligations based on the assumption that the information *is* confidential. This change introduces ambiguity, as it is not always clear what constitutes ‘Confidential Information’ anymore.",
+        "location": "Paragraph 3",
+        "contradicted_location": "Paragraph 4",
+        "contradicted_text": "The Confidential I nformation relates to (without limitation) the Agency’s technical data, actual and anticipated developments or products, know -how, software, hardware, processes, architectures, concepts, ideas, designs, drawings, personnel, financial information, computer programs, studies, work in progress, visual demonstrations, and other data, whether written, graphic, or electronic form.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated the information 'shall be considered as confidential,' creating a definitive obligation. The changed text modifies this to 'may be considered confidential, at the Agency's sole discretion,' introducing uncertainty. This directly contradicts the 'Contradicted Text,' which lists examples of 'Confidential Information' as if they are always confidential. This contradiction is strong because the change introduces ambiguity and undermines the assumption that the listed information is always considered confidential, impacting later obligations and creating a strong in-text contradiction, according to Ambiguities – In Text Contradiction definition."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "to use the Confidential I nformation solely for the purpose o f the RRM registration ;",
+        "changed_text": "to use the Confidential I nformation primarily for the purpose o f the RRM registration ;",
+        "explanation": "Changing 'solely' to 'primarily' opens the door for using the Confidential Information for other purposes as well, which contradicts the intent of a non-disclosure agreement. This contradicts any sections that assume exclusive use of the confidential information for RRM registration.",
+        "location": "Paragraph 5",
+        "contradicted_location": "Paragraph 5",
+        "contradicted_text": "The Applicant agrees moreover: • to use the Confidential I nformation primarily for the purpose o f the RRM registration ; • to use all possible means to maintain this Confidential Information in strict confidence and at least those measures that it employs for the protection of its own confidential information, but in any event not less than a reasonabl e degree of care; • to disclose this information only to the Applicant's employees or particular employees of subcontractors who are required to have the information for the p urpose of the Applicant’s registration as RRM , and have previously signed an agreem ent in content similar to the provisions thereof; 2 • to oblige all employees receiving access to the Confidential I nformation not to disclose it to anyone and not to make any copies of it; • to immediately notify in writing the Agency i n the event of any unauthorised use or disclosure of the Confidential I nformation.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that the Confidential Information was to be used 'solely' for RRM registration. The changed text modifies this to 'primarily,' which, as explained in the Perturbation Explanation, opens the door for other uses. The contradicted text repeats the 'primarily' language, but the core issue is that the original agreement in the original text was for exclusive use, and the introduction of 'primarily' weakens this, causing a contradiction as now the confidential information can be used for other things than RRM registration."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "to immediately notify in writing the Agency i n the event of any unauthorised use or disclosure of the Confidential I nformation.",
+        "changed_text": "to immediately notify in writing the Agency i n the event of any known unauthorised use or disclosure of the Confidential I nformation.",
+        "explanation": "Adding 'known' implies that unauthorized uses the Applicant is unaware of do not need to be reported. This creates a loophole and contradicts the overall intent to protect the confidential information thoroughly.",
+        "location": "Paragraph 5",
+        "contradicted_location": "Paragraph 5",
+        "contradicted_text": "The Applicant agrees moreover: • to use the Confidential I nformation primarily for the purpose o f the RRM registration ; • to use commercially reasonable means to maintain this Confidential Information in strict confidence and at least those measures that it employs for the protection of its own confidential information, but in any event not less than a reasonabl e degree of care; • to disclose this information only to the Applicant's employees or particular employees of subcontractors who are required to have the information for the p urpose of the Applicant’s registration as RRM , and have previously signed an agreem ent in content similar to the provisions thereof; 2 • to oblige all employees receiving access to the Confidential I nformation not to disclose it to anyone and not to make any copies of it; • to immediately notify in writing the Agency i n the event of any known unauthorised use or disclosure of the Confidential I nformation.",
+        "contradiction_exists": "YES",
+        "justification": "The original text required notification of *any* unauthorized use or disclosure. The changed text limits this to *known* unauthorized use or disclosure. The contradicted text includes the changed text and states that the Applicant agrees to immediately notify the Agency in writing in the event of any known unauthorized use or disclosure. The addition of \"known\" means the applicant is no longer obliged to report unauthorized uses they are unaware of, even if they should have been aware of them, as described in the Perturbation Explanation. This is a clear in-text contradiction because the broader obligation to use commercially reasonable means to maintain confidentiality and protect confidential information conflicts with the narrowed obligation to report only known breaches, creating a loophole and weakening the overall protection of confidential information. This aligns with the Ambiguities - In Text Contradiction definition."
+      }
+    ]
+  }
+]

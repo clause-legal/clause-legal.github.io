@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "NDA_eng.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "3.4. The Investor is obliged to keep, withhold, and hold any conﬁdential information, take measures, which are greater than or equal to measures which the Investor takes to protect his or her own conﬁdential information, to secure the Proprietary Information.",
+        "changed_text": "3.4. The Investor is encouraged, but not obliged, to take reasonable steps to protect the Proprietary Information. The level of protection is left to the Investor's discretion.",
+        "explanation": "This changes the firm obligation to protect Proprietary Information to a discretionary encouragement. This directly weakens the NDA's enforcement capabilities and contradicts section 6.1 which discusses liabilities of the parties and damages caused by the disclosure of missue of conﬁdential information.",
+        "location": "3.4",
+        "contradicted_location": "6.1",
+        "contradicted_text": "6.1. The party who fails to encompass its obligations under the Agreement is obliged to recoup the other party for damages caused by disclosure or misuse of the conﬁdential information. The damages shall be recouped according to Singapore legislation.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stipulated a firm obligation on the Investor to protect Proprietary Information. The changed text weakens this obligation to a mere encouragement, allowing the Investor discretion in the level of protection. This directly contradicts section 6.1, which holds the breaching party liable for damages resulting from disclosure or misuse of confidential information, implying a mandatory obligation, which is now undermined by the discretionary nature introduced in the changed text."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "5.1. All information disclosed to the Investor by the Company in any form shall be and remain the property of the Company. Documents and any copies of them, abstracts, memoranda, or other documentation shall be immediately returned to the Company or destroyed at the written request of the Company.",
+        "changed_text": "5.1. All information disclosed to the Investor by the Company in any form shall be considered jointly owned by the Company and the Investor. The Investor is not required to return or destroy documents at the Company's request.",
+        "explanation": "This fundamentally alters the ownership of the Proprietary Information, creating a contradiction. The original text clearly states the Company owns all information, but the modified text claims joint ownership, now section 5.2 contradicts with that and states that the company has the right to conduct the analysis of the conﬁdential information protection measures taken by the Investor.",
+        "location": "5.1",
+        "contradicted_location": "5.2",
+        "contradicted_text": "5.2. The Company reserves the right to conduct the analysis of the conﬁdential information protection measures taken by the Investor. Should the denial to provide the information about measures taken for the conﬁdential information protection, received by the Investor, or detection of insufﬁcient measures taken to protect the conﬁdential information, the company is authorized to deny entrusting the conﬁdential information or refuse to fulﬁll the obligations of any agreements concluded between the parties unilaterally, according to which the Investor shall procure or procured accesses to the conﬁdential information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in section 5.1 alters the ownership of the disclosed information from solely the Company's to jointly owned by the Company and the Investor. It also removes the requirement for the Investor to return or destroy documents at the Company's request. This contradicts section 5.2, which grants the Company the right to analyze the Investor's confidential information protection measures and potentially deny access to confidential information or refuse to fulfill obligations if insufficient measures are detected. With joint ownership and no obligation to return documents, the company's rights in 5.2 to ensure and control confidential information protection are significantly undermined and contradict the new terms of 5.1."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "7.1. The Agreement shall enter into force as soon as it has been accepted by the Investor and also shall be effective during 5 (ﬁve) years from the termination of the effective period of the Offer, so that the Investor shall fulﬁll its obligations of conﬁdentiality for 5 (ﬁve) years following the expiration of the Agreement or Offer.",
+        "changed_text": "7.1. The Agreement shall enter into force as soon as it has been accepted by the Investor and shall be effective for a period of 90 days, after which all obligations of confidentiality shall cease.",
+        "explanation": "This dramatically reduces the duration of the NDA from five years post-offer to a mere 90 days. This creates contradiction in section 3.1, as it states that the investor is authorized to grant access to the proprietary information to those parties who require access to the proprietary information in realizing the investors’ rights under the Offer, but if the NDA is only valid for 90 days, what happens with the investor's rights after that?",
+        "location": "7.1",
+        "contradicted_location": "3.1",
+        "contradicted_text": "3.1. The Investor is authorized to grant access to the proprietary information only to those parties who require access to the proprietary information in realizing the investors’ rights under the Offer in order to achieve the provision of the Proprietary Information, are obliged not to disclose the Proprietary Information and informed about the fact of the conclusion of the Agreement. The Investor is obliged to provide the list of Investor’s Agents who have received access to the Proprietary Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the confidentiality obligations last for 5 years following the expiration of the agreement, while the changed text limits the entire agreement's effectiveness, including confidentiality, to 90 days. This directly contradicts section 3.1, which authorizes the investor to grant access to proprietary information to parties realizing investor's rights under the offer, but the shortened confidentiality period raises concerns about the protection of that information after 90 days, rendering 3.1's provision unclear and unenforceable after that period."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "9.1. Disputes relating to the agreement between the parties should be subject to Singapore International Arbitration Centre’s review (SIAC).",
+        "changed_text": "9.1. Disputes relating to the agreement between the parties shall be resolved through mediation in a location chosen by the Investor. If mediation fails, the Investor has the sole discretion to choose the jurisdiction for legal proceedings.",
+        "explanation": "This change completely alters the dispute resolution mechanism, shifting power to the Investor and removing the requirement for SIAC arbitration. This creates a contradiction with the later part of section 9.3, which states that  Should there be any discrepancies between the English version of the text of the Agreement and any other version of the text translated into the required language, the text of the Agreement written originally in English shall govern; therefore the Investor has the right to translate to another language, and chose jurisdiction for legal proceedings.",
+        "location": "9.1",
+        "contradicted_location": "9.3",
+        "contradicted_text": "9.3. The Agreement is drawn up and published in the English language. In case of the necessity of translation into another language, the Investor agrees and undertakes to carry out the translation into a required language by using his or her own resources and at his or her own expense. Should there be any discrepancies between the English version of the text of the Agreement and any other version of the text translated into the required language, the text of the Agreement written originally in English shall govern.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies SIAC arbitration, while the changed text replaces it with mediation and investor-chosen jurisdiction. This directly contradicts the contradicted text in section 9.3, as the investor's right to 'translate to another language, and chose jurisdiction for legal proceedings' introduced by the new language grants the Investor rights not present in the original agreement. The change creates a direct conflict by altering the dispute resolution process, shifting it away from SIAC arbitration and giving the Investor control over jurisdiction, therefore there is a contradiction."
+      }
+    ]
+  }
+]

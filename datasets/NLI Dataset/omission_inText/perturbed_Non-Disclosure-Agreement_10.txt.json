@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "Non-Disclosure-Agreement_10.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Prospective Vendor agrees that the Company is and shall remain the exclusive owner of the Proprietary Information and all patent, copyright, trade secret, trademark and othe r intellectual property rights therein. No license or conveyance of any such rights to the Pro spective Vendor is granted or implied under this Agreement.",
+        "changed_text": "The Prospective Vendor agrees that the Company is and shall remain the exclusive owner of the Proprietary Information and all patent, copyright, trademark and othe r intellectual property rights therein. No license or conveyance of any such rights to the Pro spective Vendor is granted or implied under this Agreement.",
+        "explanation": "By removing 'trade secret' from the list of intellectual property rights owned by the Company regarding Proprietary Information, an in-text contradiction is created. Section 2 defines proprietary information as potentially including trade secrets. Removing 'trade secret' in section 5 implies the company doesn't retain ownership over the trade secret aspect of the proprietary information which contradicts the definition in Section 2. This creates uncertainty as to who owns trade secret rights within the disclosed information.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "Ownership of Proprietary Information . The Prospective Vendor agrees that the Company is and shall remain the exclusive owner of the Proprietary Information and all patent, copyright, trademark and othe r intellectual property rights therein. No license or conveyance of any such rights to the Pro spective Vendor is granted or implied under this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the Company owns 'trade secret' intellectual property rights. The changed text removes 'trade secret' from that list. According to the Perturbation Explanation, this removal contradicts the definition in Section 2 (though that section isn't provided), which includes trade secrets as part of proprietary information. Therefore, the changed text implies the company doesn't retain ownership over the trade secret aspect of the proprietary information, contradicting the initial broader claim of ownership over all intellectual property rights related to Proprietary Information. The Contradicted Text is the same as the Original Text and therefore the Changed Text strongly contradicts the Contradicted Text."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Prospective Vendor shall, upon the terminati on of this Agreement or at the request of the Company, promptl y destroy or return to the Company all drawings, documents and other tangible manifest ations of Proprietary Information received by the Prospective vendor pursuant to this Agreement (and all copies and reproductions thereof).",
+        "changed_text": "The Prospective Vendor shall, upon the terminati on of this Agreement or at the request of the Company, promptl y destroy or return to the Company all drawings, documents and other tangible manifest ations of Proprietary Information received by the Prospective vendor pursuant to this Agreement.",
+        "explanation": "By removing '(and all copies and reproductions thereof)' creates an in-text contradiction. The Prospective Vendor is obligated to return or destroy tangible manifestations of proprietary information, implying the existence and control of such copies are included. By removing this obligation, the company has no recourse if copies of that information is retained. Therefore, creates uncertainty on if all confidential information must be returned to the company or not.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "Return of Documents . The Prospective Vendor shall, upon the terminati on of this Agreement or at the request of the Company, promptl y destroy or return to the Company all drawings, documents and other tangible manifest ations of Proprietary Information received by the Prospective vendor pursuant to this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires the Prospective Vendor to return or destroy all drawings, documents, and other tangible manifestations of Proprietary Information, including all copies and reproductions. The changed text removes the phrase '(and all copies and reproductions thereof)'. The contradicted text also states that the vendor should return or destroy 'all drawings, documents and other tangible manifest ations of Proprietary Information'. By removing the phrase regarding copies, the changed text creates a contradiction because it is now unclear if the vendor is obligated to return/destroy copies, and the original intent of the contract, as reflected in the contradicted text is to protect the proprietary information."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This Agreement shall remain effective with respect to any Proprietary Information which is disclosed herein at any time with three (3) years f rom the date first dated above, except for the obligations of the parties hereto with respect to Proprietary Information received prior to such termination which shall survive such termin ation.",
+        "changed_text": "This Agreement shall remain effective with respect to any Proprietary Information which is disclosed herein at any time with three (3) years f rom the date first dated above, except for the obligations of the parties hereto which shall survive such termin ation.",
+        "explanation": "By removing 'with respect to Proprietary Information received prior to such termination' a contradiction is created. This clause originally clarifies that even after termination, certain obligations related to Proprietary Information disclosed *before* termination still apply. By removing this clarification, it now appears that *all* obligations, regardless of whether they pertain to information received before or after termination, survive. The original text specifies which Proprietary information obligation survives the agreement. This omission can result in confusion over what survives the agreement.",
+        "location": "7(d)",
+        "contradicted_location": "7(d)",
+        "contradicted_text": "This Agreement shall remain effective with respect to any Proprietary Information which is disclosed herein at any time with three (3) years f rom the date first dated above, except for the obligations of the parties hereto which shall survive such termin ation.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that the survival of obligations after termination pertains only to Proprietary Information received *prior* to termination. The changed text removes this qualifier, suggesting that *all* obligations survive termination, regardless of when the Proprietary Information was received. Since the changed text and contradicted text are the same, but the original text adds a necessary clarification, and the changed text creates confusion about what survives the agreement, a contradiction is created because the changed text no longer specifies what Proprietary Information obligation survives the agreement."
+      }
+    ]
+  }
+]

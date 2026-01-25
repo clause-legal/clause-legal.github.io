@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "36C25520Q0076-013.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "k. Upon completion or termination of the contract for any reason, the contractor will immediately deliver all VA records, data, copies of VA records and data, software and equipment, and information about VA data and systems recorded or documented by the contractor, in its possession or the possession of any subcontractors, to the VA official designated in the contract or pursuant to this agreement. The contractor will not retain any copies of any of these documents.",
+        "changed_text": "k. Upon completion or termination of the contract for any reason, the contractor will immediately deliver all VA records, data, copies of VA records and data, software and equipment, and information about VA data and systems recorded or documented by the contractor, in its possession or the possession of any subcontractors, to the VA official designated in the contract or pursuant to this agreement. The contractor *may* retain copies of these documents *if* approved by the contracting officer in writing.",
+        "explanation": "The original text explicitly prohibits the contractor from retaining any copies of VA documents upon contract termination. The modified version allows the contractor to retain copies if approved by the contracting officer, directly contradicting the original prohibition.",
+        "location": "3.k",
+        "contradicted_location": "3.k",
+        "contradicted_text": "k. Upon completion or termination of the contract for any reason, the contractor will immediately deliver all VA records, data, copies of VA records and data, software and equipment, and information about VA data and systems recorded or documented by the contractor, in its possession or the possession of any subcontractors, to the VA official designated in the contract or pursuant to this agreement. The contractor *may* retain copies of these documents *if* approved by the contracting officer in writing.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the contractor 'will not retain any copies' of VA documents. The changed text allows the contractor to retain copies 'if approved by the contracting officer in writing'. This directly contradicts the original absolute prohibition, and is thus a structural flaw and creates a strong in-text contradiction. The contradicted text is identical to the changed text, indicating the change itself caused the contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "4. SECURITY\na. Contractor personnel performing work under this contract shall satisfy all requirements for appropriate security eligibility in dealing with access to sensitive information and information systems belonging to or being used on behalf of VA. To satisfy VA requirements, procedures defined in VA Directive & Handbook 0710, Personnel Suitability and Security Program are required.",
+        "changed_text": "4. SECURITY\na. Contractor personnel performing work under this contract *are not required* to satisfy any requirements for appropriate security eligibility in dealing with access to sensitive information and information systems belonging to or being used on behalf of VA. To satisfy VA requirements, procedures defined in VA Directive & Handbook 0710, Personnel Suitability and Security Program are required.",
+        "explanation": "The original text mandates that contractor personnel satisfy security eligibility requirements. The modified version states that contractor personnel are not required to satisfy these requirements, directly contradicting the original statement. The sentence that follows implies that VA security requirements *do* matter, which is now an in-text contradiction.",
+        "location": "4.a",
+        "contradicted_location": "4.a",
+        "contradicted_text": "4. SECURITY\na. Contractor personnel performing work under this contract *are not required* to satisfy any requirements for appropriate security eligibility in dealing with access to sensitive information and information systems belonging to or being used on behalf of VA. To satisfy VA requirements, procedures defined in VA Directive & Handbook 0710, Personnel Suitability and Security Program are required.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that contractor personnel are *not required* to satisfy security eligibility requirements, while the original text states that they *are* required. Furthermore, the sentence following the changed text states 'To satisfy VA requirements, procedures defined in VA Directive & Handbook 0710... are required' which is a contradiction. The contradicted text is the same as the changed text, so it is a clear in-text contradiction based on the perturbation explanation."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "c. All costs associated with obtaining clearances for contractor provided personnel will be the responsibility of the contractor. Further, the contractor will be responsible for the actions of all individuals provided to work for VA under this contract. In the event that damages arise from work performed by contractor provided personnel, under the auspices of this contract, the contractor will be responsible for all resources necessary to remedy the incident.",
+        "changed_text": "c. All costs associated with obtaining clearances for contractor provided personnel will be the responsibility of the contractor. Further, the contractor will *not* be responsible for the actions of all individuals provided to work for VA under this contract. In the event that damages arise from work performed by contractor provided personnel, under the auspices of this contract, the contractor will be responsible for all resources necessary to remedy the incident.",
+        "explanation": "The original text states the contractor is responsible for the actions of their personnel. The modification removes this responsibility. While the contractor is responsible for covering resources, they are now not liable for the actions that caused them.",
+        "location": "4.c",
+        "contradicted_location": "4.c",
+        "contradicted_text": "c. All costs associated with obtaining clearances for contractor provided personnel will be the responsibility of the contractor. Further, the contractor will *not* be responsible for the actions of all individuals provided to work for VA under this contract. In the event that damages arise from work performed by contractor provided personnel, under the auspices of this contract, the contractor will be responsible for all resources necessary to remedy the incident.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that the contractor is 'not' responsible for the actions of their personnel, while a later statement indicates that 'the contractor will be responsible for all resources necessary to remedy the incident'. This is a direct contradiction, because while the contractor isn't liable for the actions, they are responsible for paying for the result of those actions. This creates an in-text contradiction, as described by the explanation."
+      }
+    ]
+  }
+]

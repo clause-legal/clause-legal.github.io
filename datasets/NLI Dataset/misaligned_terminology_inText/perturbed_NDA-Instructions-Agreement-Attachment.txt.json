@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "NDA-Instructions-Agreement-Attachment.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Confidential Information, SSI, and PCII shall be held and treated in the strictest confidence in a manner designed to prevent the unauthorized disclosure to third parties.",
+        "changed_text": "Protected Data, SSI, and PCII shall be held and treated in the strictest confidence in a manner designed to prevent the unauthorized disclosure to third parties.",
+        "explanation": "Changing 'Confidential Information' to 'Protected Data' introduces uncertainty because the contract defines 'Confidential Information' but not 'Protected Data.' This creates confusion as to what information is covered. It's contradicting the definition on Applicable Definitions on Section 1.a",
+        "location": "Page 2, Paragraph 2",
+        "contradicted_location": "Page 2, Paragraph 1.a",
+        "contradicted_text": "1. Applicable Definitions. a. Confidential Information. As used herein, the term “Confidential Information” includes (1) information that contains sensitive financial, commercial, or other proprietar y business information concerning or relating to the TJPA or the Project; (2) information that contains sensitive financial, commercial, or other proprietary business information received from third parties under Non -Disclosure and/or Confidentiality Agree ments; or (3) information that the TJPA has determined, in its sole discretion, to constitute confidential, privileged, sensitive, or proprietary information concerning the Project’s security, operations, or facilities.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Confidential Information' with 'Protected Data'. The 'Contradicted Text' provides a specific definition for 'Confidential Information'. Because 'Protected Data' is not defined within the contract, this change introduces ambiguity and directly contradicts the existing definition of 'Confidential Information', leading to uncertainty about what information is covered under the confidentiality clause. The Perturbation Explanation and Perturbation Type confirm that misaligned terminology causes an in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Confidential Information, SSI, or PCII may be used for the sole purpose of preparing and submitting a bid for a portion of the work at the Project and/or performing work at the Project.",
+        "changed_text": "Classified Data, SSI, or PCII may be used for the sole purpose of preparing and submitting a bid for a portion of the work at the Project and/or performing work at the Project.",
+        "explanation": "Replacing 'Confidential Information' with 'Classified Data' adds ambiguity, especially as 'Classified Data' isn't defined within the document. While 'Confidential Information' is defined in Section 1, 'Classified Data' is not, implying a potentially different scope or set of regulations. This contradicts the original intent of the NDA.",
+        "location": "Page 3, Paragraph 3",
+        "contradicted_location": "Page 2, Paragraph 1.a",
+        "contradicted_text": "1. Applicable Definitions. a. Confidential Information. As used herein, the term “Confidential Information” includes (1) information that contains sensitive financial, commercial, or other proprietar y business information concerning or relating to the TJPA or the Project; (2) information that contains sensitive financial, commercial, or other proprietary business information received from third parties under Non -Disclosure and/or Confidentiality Agree ments; or (3) information that the TJPA has determined, in its sole discretion, to constitute confidential, privileged, sensitive, or proprietary information concerning the Project’s security, operations, or facilities.",
+        "contradiction_exists": "YES",
+        "justification": "The original text uses 'Confidential Information', which is explicitly defined in the 'Contradicted Text' (Section 1). The changed text replaces 'Confidential Information' with 'Classified Data', which, as stated in the 'Perturbation Explanation', is not defined anywhere in the document. This creates a contradiction because the document now refers to a term with unclear meaning, while previously referring to a defined term, thus causing ambiguity to the NDA and contradicting the earlier definition in Section 1 of what information is covered."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Unauthorized Disclosure: If a Contractor or any Designated Individual knows or has a reasonable belief that documents subject to the Specification have been or may be disclosed to an unauthorized person(s), the Contractor and/or Designated Individual shall imme diately notify the TJPA.",
+        "changed_text": "Unauthorized Disclosure: If a Subcontractor or any Designated Individual knows or has a reasonable belief that documents subject to the Specification have been or may be disclosed to an unauthorized person(s), the Contractor and/or Designated Individual shall imme diately notify the TJPA.",
+        "explanation": "Changing 'Contractor' to 'Subcontractor' in this section creates ambiguity. While the NDA is for 'Bidders and Contractors', switching the term to 'Subcontractor' in the context of unauthorized disclosure makes it unclear who is responsible for reporting - the main contractor or just subcontractors. This affects how the enforcement of the clause will be applied, creating the in-text contradiction. The term 'Contractor' is the one referred to in the NDA title.",
+        "location": "Page 3, Paragraph 7",
+        "contradicted_location": "Page 1, NDA title",
+        "contradicted_text": "Bus Storage Facility October 31, 2016 NON- DISCLOSURE AGREEMENT FOR BIDDERS AND CONTRACTORS & INSTRUCTIONS Issued for Bid 01 35 70/AT1 - 1 SECTION 01 35 70/AT1 – NON -DISCLOSURE AGREEMENT FOR BIDDERS AND CONTRACTORS & INSTRUCTIONS Contract Docu ments and reference documents for the Bus Storage Project may contain protected information pertaining to sensitive, finan cial, commercial, or proprietary business information and/or the security of the Project.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Contractor' to 'Subcontractor' creates a strong in-text contradiction. The original text clearly states the NDA is for 'Bidders and Contractors'. By changing 'Contractor' to 'Subcontractor' in the Unauthorized Disclosure section, it introduces ambiguity and contradiction regarding who is responsible for reporting unauthorized disclosures, therefore creating a conflict with the NDA's stated scope for 'Bidders and Contractors'. This aligns with the 'Misaligned Terminology' definition where interchangeable use of terms without clear definition leads to conflicting obligations and contradictions."
+      }
+    ]
+  }
+]

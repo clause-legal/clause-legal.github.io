@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "SightLife Surgical, Inc. - STRATEGIC SALES _ MARKETING AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Surgical will provide sales representation services to Imprimis during the Term of this Agreement (Surgical and its sales representatives may be referred to collectively hereinafter as Surgical). The sales representation services (\"Services\") are set forth in the Statement of Work (\"SOW\") that is attached hereto as Appendix A and made a part hereof, as it may be amended from time to time by the parties hereto.",
+        "changed_text": "Surgical may, at its discretion, provide sales representation services to Imprimis during the Term of this Agreement (Surgical and its sales representatives may be referred to collectively hereinafter as Surgical). The sales representation services (\"Services\") are set forth in the Statement of Work (\"SOW\") that is attached hereto as Appendix A and made a part hereof, as it may be amended from time to time by the parties hereto.",
+        "explanation": "By changing \"will provide\" to \"may, at its discretion, provide\", we introduce uncertainty about Surgical's obligation to provide services. The original text creates a clear obligation, while the changed text makes it optional. This contradicts Section 1.2 which states \"Surgical represents and warrants to Imprimis that: (a) Surgical has the required skill, experience and qualifications to perform the Services, shall perform the Services in a professional and workmanlike manner in accordance with generally recognized industry standards for similar services and shall devote sufficient resources to ensure that the Services are performed in a timely and reliable manner\". Making the first clause about providing the services optional would make Surgical only provide services if it feels, as its discretion, making the obligation in section 1.2 no longer hold true because the services may or may not happen.",
+        "location": "1.1",
+        "contradicted_location": "1.2",
+        "contradicted_text": "Surgical represents and warrants to Imprimis that: (a) Surgical has the required skill, experience and qualifications to perform the Services, shall perform the Services in a professional and workmanlike manner in accordance with generally recognized industry standards for similar services and shall devote sufficient resources to ensure that the Services are performed in a timely and reliable manner; and (b) Surgical shall perform the Services in compliance with all applicable federal, state and local laws and regulations.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that Surgical 'will provide' sales representation services, creating a clear obligation. The changed text modifies this to 'may, at its discretion, provide', making the provision of services optional. This directly contradicts the subsequent clause, Section 1.2, which warrants that Surgical 'shall perform the Services' and 'shall devote sufficient resources'. The 'may' language removes the guarantee that Surgical will perform services, creating a direct conflict with the 'shall' obligation. If Surgical only *may* provide services, the warranties related to *shall* perform them become meaningless and unenforceable. Therefore, a contradiction exists."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Imprimis shall remit the total Sales Commission payments due for the sale of Product during such calendar quarter at the time such report is made.",
+        "changed_text": "Imprimis may, at its sole discretion, remit the total Sales Commission payments due for the sale of Product during such calendar quarter at any time after such report is made.",
+        "explanation": "By changing \"shall remit\" to \"may, at its sole discretion, remit at any time after such report is made\", we introduce uncertainty regarding the payment of sales commissions. Originally, Imprimis had a defined obligation and a strict deadline. The modified clause gives Imprimis the option not to pay, and removes the deadline. This directly contradicts Section 3, which states \"In consideration of the Services provided hereunder, Imprimis shall pay Surgical sales commissions (\"Sales Commissions\") as set forth in the SOW\". Section 3 stipulates that Imprimis will pay Surgical sales commissions, and the change in Section 4 creates in-text contradiction with section 3, because it would mean that those Sales commissions are optional and not guaranteed, and may not be paid as a result.",
+        "location": "4",
+        "contradicted_location": "3",
+        "contradicted_text": "In consideration of the Services provided hereunder, Imprimis shall pay Surgical sales commissions (\"Sales Commissions\") as set forth in the SOW. Surgical shall be responsible for all expenses incurred in association with performance of the Services.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated \"Imprimis shall remit\", which is a mandatory obligation. The changed text alters this to \"Imprimis may, at its sole discretion, remit at any time after such report is made\", making the payment optional and removing the deadline. This directly contradicts the statement in the Contradicted Text, \"Imprimis shall pay Surgical sales commissions\", because the changed text makes the payment of sales commissions optional, creating a strong in-text contradiction and impacting enforceability."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Either party shall have the right to terminate this Agreement at any time for any reason.",
+        "changed_text": "Either party shall have the right to terminate this Agreement at any time for any reason, provided that doing so does not materially harm the other party. If the termination causes material harm, then the termination is not valid.",
+        "explanation": "This modification adds a conditional aspect to the termination clause, stating that termination is not valid if it materially harms the other party. This creates an in-text contradiction with the original clause, which states that either party has the right to terminate at any time for any reason, without any qualifications. Now, one section allows for termination without restrictions, while the added condition effectively limits the scope of the original termination at any time for any reason. This could lead to disputes regarding what constitutes 'material harm' and whether a termination is valid. If the party terminating, terminates for no reason it could be argued that it causes material harm.",
+        "location": "Term & Termination: 2",
+        "contradicted_location": "Term & Termination: 2",
+        "contradicted_text": "Either party shall have the right to terminate this Agreement at any time for any reason. Expiration or termination of this Agreement shall not limit any obligations of a party that were incurred prior to such expiration or termination.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a condition ('provided that doing so does not materially harm the other party') to the termination clause. This directly contradicts the original and contradicted clause which states that either party can terminate 'at any time for any reason' without any qualifications. The addition of the condition creates a clear and direct conflict, leading to uncertainty about the validity of a termination if 'material harm' is caused, as per the explanation given. This is a Structural Flaw - In Text Contradiction because the placement of the conditional clause conflicts with the original unconditional clause."
+      }
+    ]
+  }
+]

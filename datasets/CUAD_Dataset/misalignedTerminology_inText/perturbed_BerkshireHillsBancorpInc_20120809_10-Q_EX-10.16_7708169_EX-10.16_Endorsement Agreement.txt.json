@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "BerkshireHillsBancorpInc_20120809_10-Q_EX-10.16_7708169_EX-10.16_Endorsement Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "a) \"CONTRACT PERIOD\" means that period of time commencing upon the full execution of this Agreement by both Parties and terminating on May 31, 2016 unless sooner terminated under this Agreement.",
+        "changed_text": "a) \"CONTRACT PERIOD\" means that period of time commencing upon the full execution of this Agreement by both Parties and terminating on May 31, 2015 unless sooner terminated under this Agreement.",
+        "explanation": "The 'CONTRACT PERIOD' is initially defined to end on May 31, 2016. Modifying this to May 31, 2015, creates a contradiction because later sections of the agreement assume the original end date, specifically affecting compensation and service provisions that extend into 2016, impacting the rights and obligations of the parties.",
+        "location": "1",
+        "contradicted_location": "4",
+        "contradicted_text": "(b) Berkshire will make four (4) equal cash payments to Auriemma in the amount of Ninety Thousand and 00/100 Dollars ($90,000.00) on June 1, 2012, June 1, 2013, June 1, 2014, and June 1, 2015. (c) Berkshire will cause to be issued to Auriemma on June 1, 2012, June 1, 2013, June 1, 2014, and June 1, 2015, (each an \"issuance date\") four (4) blocks of shares of unrestricted common stock of Berkshire's parent corporation, Berkshire Hills Bancorp, Inc. (BHLB), each of which as of its respective issuance date shall have a value of Thirty Thousand and 00/100 Dollars ($30,000.00), based upon the closing price of BHLB common shares at the end of the last trading day immediately preceding the issuance date.",
+        "contradiction_exists": "YES",
+        "justification": "The original contract period ended in 2016, which is relevant because later sections of the agreement assume the original end date, specifically affecting compensation and service provisions that extend into 2016. Changing the contract period to end in 2015 creates a contradiction because the contradicted text explicitly states that Berkshire will make four cash payments to Auriemma on June 1, 2012, June 1, 2013, June 1, 2014, and June 1, 2015. By changing the contract end date to 2015, any assumptions or implied agreements about obligations or services extending beyond that date become inconsistent, creating uncertainty about the obligations and rights of each party."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "b) \"SERVICES PERIOD\" means that period of time commencing upon the full execution of this Agreement by both Parties and terminating on May 31, 2014 unless sooner terminated under this Agreement.",
+        "changed_text": "b) \"SERVICES PERIOD\" means that period of time commencing upon the full execution of this Agreement by both Parties and terminating on December 31, 2013 unless sooner terminated under this Agreement.",
+        "explanation": "The 'SERVICES PERIOD' is initially defined to end on May 31, 2014. Modifying this to December 31, 2013, creates a conflict with Schedule A and Paragraph 2(a), which describe services Auriemma will provide through May 31, 2014. Changing the Services Period to end in December 2013 creates uncertainty about whether Berkshire is entitled to the full scope of services outlined in Schedule A and the original agreement.",
+        "location": "1",
+        "contradicted_location": "2",
+        "contradicted_text": "During the Contract Period: a) Subject to the terms of Paragraph 6 below, Auriemma will make the appearances and provide to Berkshire during the Services Period the services, initiatives and programs described in Schedule A attached hereto (the \"Endorsement Services\"); and b) Auriemma grants to Berkshire the exclusive right and license (the \"License Rights\") to use the Auriemma Identification during the Contract Period and throughout the Contract Territory solely in connection with the advertisement and promotion of Berkshire and the Financial Services; c) The License Rights are exclusive to Berkshire and may not be assigned or in any way conveyed by Berkshire without Auriemma's express written consent, except in the event of a merger by Berkshire with another entity offering Banking Services.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the 'SERVICES PERIOD' end date from May 31, 2014, to December 31, 2013. This directly contradicts the contradicted text, which states that Auriemma will provide services during the Services Period, specifically including until May 31, 2014, as detailed in Schedule A. The change creates a clear inconsistency and uncertainty about Berkshire's entitlement to the full scope of services originally agreed upon, hence creating a strong in-text contradiction according to the Misaligned Terminology definition."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "1. Auriemma will act as the spokesperson for Berkshire and its Affiliates.",
+        "changed_text": "1. Auriemma may act as the spokesperson for Berkshire and its Affiliates at his sole discretion.",
+        "explanation": "Initially, Auriemma 'will act' as the spokesperson, creating an obligation. Changing this to 'may act... at his sole discretion' makes the obligation optional. This conflicts with Paragraph 2(a), which states Auriemma 'will make the appearances and provide to Berkshire during the Services Period the services, initiatives and programs described in Schedule A attached hereto (the \"Endorsement Services\")'. Now, it's unclear if Auriemma must fulfill his spokesperson duties, because it is now optional for him, potentially voiding the agreement for Berkshire and Auriemma.",
+        "location": "SCHEDULE A",
+        "contradicted_location": "2",
+        "contradicted_text": "During the Contract Period: a) Subject to the terms of Paragraph 6 below, Auriemma will make the appearances and provide to Berkshire during the Services Period the services, initiatives and programs described in Schedule A attached hereto (the \"Endorsement Services\"); and b) Auriemma grants to Berkshire the exclusive right and license (the \"License Rights\") to use the Auriemma Identification during the Contract Period and throughout the Contract Territory solely in connection with the advertisement and promotion of Berkshire and the Financial Services; c) The License Rights are exclusive to Berkshire and may not be assigned or in any way conveyed by Berkshire without Auriemma's express written consent, except in the event of a merger by Berkshire with another entity offering Banking Services.",
+        "contradiction_exists": "YES",
+        "justification": "The original text obligated Auriemma to act as a spokesperson. The changed text makes this optional ('may act... at his sole discretion'). This directly contradicts the clause 'Auriemma will make the appearances and provide to Berkshire during the Services Period the services, initiatives and programs described in Schedule A attached hereto', creating a strong in-text contradiction because his spokesperson duties, which are described in Schedule A, are no longer mandatory, creating conflicting obligations."
+      }
+    ]
+  }
+]

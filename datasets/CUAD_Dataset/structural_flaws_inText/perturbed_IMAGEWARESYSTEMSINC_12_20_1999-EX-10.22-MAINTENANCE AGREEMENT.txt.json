@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "IMAGEWARESYSTEMSINC_12_20_1999-EX-10.22-MAINTENANCE AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "ERROR means any material failure to operate in accordance with the program specifications delivered from the specifications appended to the base agreement. Error includes malfunctions and defects.",
+        "changed_text": "ERROR means any failure to operate; materiality is not required for it to be considered an error. Error includes malfunctions and defects.",
+        "explanation": "The original definition of 'Error' required a 'material failure' to trigger maintenance obligations. The modified definition removes the materiality requirement, meaning XIMAGE is now responsible for fixing even minor, non-critical issues. This contradicts Section 3, which specifies XIMAGE will provide remedial maintenance service for any significant error, malfunction or defect (collectively in \"Error\"). By defining Error without the 'materiality' condition, it introduces an in-text contradiction.",
+        "location": "1. DEFINITIONS",
+        "contradicted_location": "3. SOFTWARE MAINTENANCE SERVICES",
+        "contradicted_text": "XIMAGE will provide to MORPHO during the term hereof \"Software Maintenance Services\" which shall include remedial maintenance service (i.e, error fixing and/or work arounds) for any significant error, malfunction or defect (collectively in \"Error\") in the Software so that the Software will operate in accordance with the specifications set forth in the related documentation.",
+        "contradiction_exists": "YES",
+        "justification": "The original definition of 'Error' included a 'material failure' requirement. The changed definition removes this materiality requirement. Section 3 specifies that XIMAGE provides maintenance for any 'significant error'. By removing 'materiality' from the definition of 'Error', the changed text broadens the scope of what constitutes an 'Error' beyond 'significant errors', thus contradicting Section 3."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "XIMAGE MAKES NO WARRANTY OF ANY KIND, WHETHER EXPRESS OR IMPLIED (INCLUDING WARRANTIES OR MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE) WITH RESPECT TO THE SERVICES, SOFTWARE OR DOCUMENTS PROVIDED (OR TO BE PROVIDED) HEREUNDER.",
+        "changed_text": "XIMAGE warrants that it will perform the maintenance services described herein with reasonable skill and care. XIMAGE MAKES NO OTHER WARRANTY OF ANY KIND, WHETHER EXPRESS OR IMPLIED (INCLUDING WARRANTIES OR MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE) WITH RESPECT TO THE SERVICES, SOFTWARE OR DOCUMENTS PROVIDED (OR TO BE PROVIDED) HEREUNDER.",
+        "explanation": "Section 14 originally disclaims all warranties. The modification introduces a warranty that the maintenance services will be performed with 'reasonable skill and care'. This creates an in-text contradiction because the text simultaneously provides a limited warranty and disclaims all warranties. This introduces an in-text contradiction, as it simultaneously provides a limited warranty and disclaims all warranties.",
+        "location": "14. DISCLAIMER OF WARRANTY",
+        "contradicted_location": "14. DISCLAIMER OF WARRANTY",
+        "contradicted_text": "XIMAGE warrants that it will perform the maintenance services described herein with reasonable skill and care. XIMAGE MAKES NO OTHER WARRANTY OF ANY KIND, WHETHER EXPRESS OR IMPLIED (INCLUDING WARRANTIES OR MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE) WITH RESPECT TO THE SERVICES, SOFTWARE OR DOCUMENTS PROVIDED (OR TO BE PROVIDED) HEREUNDER.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly disclaims all warranties. The changed text introduces a specific warranty regarding 'reasonable skill and care' in maintenance services while simultaneously disclaiming all other warranties. This directly contradicts the original disclaimer, creating an in-text contradiction as the document now both provides and denies a warranty regarding the same services. The changed and contradicted texts are the same, reinforcing the contradiction. The contradiction is that Section 14 disclaims all warranties, whereas, the change introduces a warranty that the maintenance services will be performed with 'reasonable skill and care'."
+      }
+    ]
+  }
+]

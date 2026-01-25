@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "AgapeAtpCorp_20191202_10-KA_EX-10.1_11911128_EX-10.1_Supply Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Manufacturer agrees to supply to the Customer, within a reasonable period of time, all documentation and information relating to the Products and their Manufacture as is required for the registration of the Products in the Territories as listed in Schedule C of this document. The party responsible for documentation fees and costs will be the Customer.",
+        "changed_text": "The Manufacturer may furnish to the Customer, within a reasonable timeframe, some documentation and data pertaining to the Products and their production, solely at the Manufacturer's discretion. The party responsible for documentation fees and costs will be the Customer.",
+        "explanation": "By changing 'agrees to supply' to 'may furnish... solely at the Manufacturer's discretion', the obligation to provide documentation becomes optional. This introduces uncertainty and potential conflict, because if the manufacturer doesn't consider it a good time to send over the data and documentation, the customer is not obligated to do anything about it. This contradicts section 13.1 where the manufacturer agrees to appoint the customer to be the sole and exclusive agent for distribution of product which requires documentation.",
+        "location": "2.1",
+        "contradicted_location": "13.1",
+        "contradicted_text": "The Manufacturer hereby appoints the Customer to be the sole and exclusive agent for the promotion, sales, marketing, distribution and administration of the products listed in schedule A of this agreement based on minimum annual product purchase requirements as listed in Schedule B of this agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the manufacturer's obligation to provide documentation from 'agrees to supply' to 'may furnish... solely at the Manufacturer's discretion.' This introduces uncertainty and makes the documentation provision optional. This contradicts the section stating 'The Manufacturer hereby appoints the Customer to be the sole and exclusive agent for the promotion, sales, marketing, distribution and administration of the products' as the customer needs documentation to fulfill their role as an exclusive agent. Therefore, the change creates a direct conflict, satisfying the 'Omissions \u2013 In Text Contradiction' definition because an essential obligation has been weakened, making it difficult for the customer to act as an exclusive agent."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Manufacturer covenants that it is willing and able to perform any and all of its obligations under this agreement.",
+        "changed_text": "The Manufacturer acknowledges that it is willing and able to perform some of its obligations under this agreement, at its own choosing.",
+        "explanation": "Changing 'any and all of its obligations' to 'some of its obligations, at its own choosing' weakens the commitment of the Manufacturer. This undermines the entire agreement as it allows the Manufacturer to selectively fulfill obligations. The manufacturer is no longer held accountable for all, but rather some of its obligations in the contract, which is contradicting the customers obligations under 4.2 Ability to Perform which states The Customer covenants that it is and will remain for the term of this agreement willing and able to perform any and all of its obligations under this agreement.",
+        "location": "3.4",
+        "contradicted_location": "4.2",
+        "contradicted_text": "The Customer covenants that it is and will remain for the term of this agreement willing and able to perform any and all of its obligations under this agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text weakens the Manufacturer's obligation from 'any and all' to 'some, at its own choosing'. This directly contradicts the Customer's obligation, which remains 'any and all'. This creates a clear inconsistency in the commitment expected from each party under the agreement, potentially rendering the agreement unenforceable as the obligations are no longer reciprocal. The explanation aligns with the provided definitions for in-text contradictions, as the manufacturer can perform its own choosing contradicting 4.2 Ability to Perform which states The Customer covenants that it is and will remain for the term of this agreement willing and able to perform any and all of its obligations under this agreement."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Products delivered pursuant to the terms of this Agreement shall be suitably packed for shipment in the Manufacturer's standard shipping cartons, marked for shipment to the destination specified in the Customer's Purchase Order, and delivered to the destination Ex Works. The Customer agrees to pay freight, insurance and any associated expenses.",
+        "changed_text": "Products delivered pursuant to the terms of this Agreement will be packed for shipment in any shipping containers available to the Manufacturer, without guaranteed suitability, marked for general shipment, and available for pickup at the Manufacturer's location. The Customer will cover freight, insurance and any associated expenses only if they desire it.",
+        "explanation": "The original text dictates the Manufacturer must suitably pack the products, however, changing it to 'any shipping containers available to the Manufacturer, without guaranteed suitability' weakens the Manufacturer's obligation to ensure safe shipment. This creates contradiction because The Manufacturer further guarantees that the Products, when shipped, are packaged in such a way as to be protected from any foreseeable damage during shipment.",
+        "location": "5.1",
+        "contradicted_location": "5.2",
+        "contradicted_text": "The Manufacturer further guarantees that the Products, when shipped, are packaged in such a way as to be protected from any foreseeable damage during shipment.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates suitable packing for shipment, aligning with the 'protected from any foreseeable damage' guarantee. The changed text, however, allows for 'any shipping containers available' without guaranteed suitability, directly contradicting the Manufacturer's guarantee regarding packaging for protection during shipment. This weakens the obligation to ensure safe shipment, thus creating a contradiction."
+      }
+    ]
+  }
+]

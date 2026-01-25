@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "Basic-Non-Disclosure-Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Receiving Party shall hold and maintain the Confidential Information in strictest confidence for the sole and exclusive benefit of the Disclosing Party.",
+        "changed_text": "Receiving Party shall hold and maintain the Confidential Information in reasonable confidence, taking into account the Receiving Party's existing security protocols.",
+        "explanation": "This change weakens the obligation of the Receiving Party in Section 3, changing 'strictest confidence' to 'reasonable confidence' based on existing security protocols. This introduces ambiguity and contradicts the original intention of absolute confidentiality. This creates an internal contradiction if another section of the contract assumes or refers to the original, stricter obligation, specifically on holding Confidential information in strictest confidence.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Obliga tions of Receiving Party . Receiving Party shall hold and maintain the Confidential Information in reasonable confidence, taking into account the Receiving Party's existing security protocols. Receiving Party shall carefully restrict access to Confidential Information to employees, contractors and third parties as is reasonably required and shall require those persons to sign nondisclosure restrictions at least as protective as those in this Agreement. Receiving Party shall not, without the prior written approval of Disclosing Party, use for Receiving Party's benefit, publish, copy, or otherwise disclose to others, or permit the use by others for their benefit or to the detriment of Disclosing Party, any Confidential Information. Receiving Party shall return to Disclosing Party any and all records, notes, and other written, printed, or tangible materials in its possession pertaining to Confidential Information immediately if Disclosing Party requests it in writing.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that the Receiving Party would hold the Confidential Information in 'strictest confidence.' The changed text weakens this obligation to 'reasonable confidence,' taking into account existing security protocols. The contradicted text, found elsewhere in the agreement, directly reflects this new standard of 'reasonable confidence'. While at first glance it might seem like there is no contradiction since they both align on 'reasonable confidence', the contradiction arises because the intention of the agreement was to hold the Confidential Information in strictest confidence as stated in the original text and explained in the Perturbation Explanation. The change weakens this original strict standard, and undermines other clauses that may have relied on that higher level of protection. The move from 'strictest' to 'reasonable' introduces a direct conflict with the implicit expectation that the Confidential Information should be treated with maximum security, creating a strong contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement expresses the complete understanding of the parties with respect to the subject matter and supersedes all prior proposals, agreements, representations, and understandings.",
+        "changed_text": "This Agreement expresses the general understanding of the parties with respect to the subject matter, but does not necessarily supersede all prior discussions or working arrangements unless explicitly stated in writing by both parties.",
+        "explanation": "This change in Section 7 weakens the integration clause. The original text states that the Agreement expresses the 'complete' understanding and supersedes all prior agreements. The modified text uses 'general' understanding and indicates that it does not necessarily supersede prior discussions unless explicitly stated. This creates an internal contradiction if another section or clause relies on the assumption that this Agreement constitutes the entire agreement between the parties. If another section says 'This is the full agreement,' this modification goes against that by saying that it is just a general understanding.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "Integration . This Agreement expresses the general understanding of the parties with respect to the subject matter, but does not necessarily supersede all prior discussions or working arrangements unless explicitly stated in writing by both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text weakens the integration clause by stating that the agreement expresses a 'general understanding' and does not necessarily supersede prior discussions unless explicitly stated. The contradicted text uses the same wording as the changed text, expressing the 'general understanding' instead of the 'complete understanding' as stated in the original text. This change creates a contradiction with the original intent of the agreement, which was to express the 'complete understanding' and supersede all prior agreements. Since the contradicted text repeats the changed text, a reasonable reader would immediately recognize the change in wording creates a contradiction."
+      }
+    ]
+  }
+]

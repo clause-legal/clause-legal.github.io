@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "C_TERMS_NDA_EN.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The DISCLOSEE agrees to keep any and all written, e lectronic and oral information and models conveyed or made available to it directly or indire ctly in the course of the collaboration strictly in confidence and not to disclose it or make it availa ble to any third party without the DISCLOSER's consent in writing.",
+        "changed_text": "The RECIPIENT agrees to keep any and all written, e lectronic and oral information and models conveyed or made available to it directly or indire ctly in the course of the collaboration strictly protected and not to disclose it or make it availa ble to any third party without the DISCLOSER's consent in writing.",
+        "explanation": "Changing 'in confidence' to 'strictly protected' without defining 'strictly protected', and renaming 'DISCLOSEE' to 'RECIPIENT' introduces ambiguity. The rest of the document still uses the term 'confidential information', and 'DISCLOSEE' while section 2 defines confidential information. It's creating an in-text contradiction in the document itself.",
+        "location": "Section 3",
+        "contradicted_location": "Section 5",
+        "contradicted_text": "The DISCLOSEE may not make confidential information available within its enterprise or organisation other than to staff who necessarily re quire it to perform their duties. Such persons must demonstrably be bound beforehand to keep the inform ation confidential to the same strict extent as agreed herein, including after their contractual re lationships are terminated insofar as the law allow s. The DISCLOSEE will be liable for any and all losses the DISCLOSER suffers.",
+        "contradiction_exists": "YES",
+        "justification": "The change replaces 'DISCLOSEE' with 'RECIPIENT' and 'in confidence' with 'strictly protected'. The contradicted text refers to 'DISCLOSEE' and 'confidential information'. The original text aligns with this contradicted text. The changed text, however, introduces the term 'RECIPIENT' which is not defined. More importantly, it replaces 'in confidence' with 'strictly protected' without defining what it means to be 'strictly protected', and because the contradicted text defines 'confidential information' a reasonable person would see that the changed text now contradicts the contradicted text. This introduces ambiguity and potential inconsistency, directly conflicting with the contradicted section's established terminology regarding 'DISCLOSEE' and 'confidential information'. Therefore, a strong in-text contradiction is created."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The supplier (supplier = contractor) assures that a ny and all necessary rights for the production and distribution of the furnished and delivered materia ls and products are available and holds Fronius harmless from all and any claims by third parties r esulting from an infringement of industrial and /or intellectual property rights/patents.",
+        "changed_text": "The vendor (supplier = contractor) assures that a ny and all necessary rights for the production and distribution of the furnished and delivered materia ls and products are available and holds Fronius harmless from all and any claims by third parties r esulting from an infringement of industrial and /or intellectual property rights/patents.",
+        "explanation": "Changing 'supplier' to 'vendor' introduces a risk. While 'supplier = contractor' is defined, 'vendor' is not defined. This could allow the other party to argue that vendor and supplier have different obligations, creating an in-text contradiction in the same section where the agreement clarifies it as supplier = contractor.",
+        "location": "Section 9",
+        "contradicted_location": "Section 9",
+        "contradicted_text": "The vendor (supplier = contractor) assures that a ny and all necessary rights for the production and distribution of the furnished and delivered materia ls and products are available and holds Fronius harmless from all and any claims by third parties r esulting from an infringement of industrial and /or intellectual property rights/patents.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'supplier' to 'vendor' introduces a potential contradiction. While 'supplier = contractor' is defined, 'vendor' is not explicitly defined in the changed text, despite its use in the contradicted text with the definition 'vendor (supplier = contractor)'. This creates an ambiguity and a risk that the other party can argue that 'vendor' and 'supplier' have different obligations, contradicting the intended meaning where they were meant to be the same. This aligns with the definition of Misaligned Terminology - In Text Contradiction, where the contract uses multiple terms interchangeably without defining them, leading to conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Any amendments or additions to this agreement mus t be in writing.",
+        "changed_text": "Any amendments or additions to this agreement mus t be in a tangible medium.",
+        "explanation": "Changing 'in writing' to 'in a tangible medium' creates ambiguity. While 'writing' is generally understood, 'tangible medium' could include audio or video recordings. However section 3 refers to writting. This is an in-text contradiction.",
+        "location": "Section 14",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "The DISCLOSEE agrees to keep any and all written, e lectronic and oral information and models conveyed or made available to it directly or indire ctly in the course of the collaboration strictly in confidence and not to disclose it or make it availa ble to any third party without the DISCLOSER's consent in writing.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified 'in writing' for amendments, aligning with the 'written' information mentioned in the contradicted section. The changed text broadens the acceptable medium to 'in a tangible medium', which could include non-written forms like audio or video recordings. This creates a contradiction because the contradicted section explicitly requires 'written' consent for certain actions, implying that non-written forms would not suffice. Therefore, the change introduces ambiguity and inconsistency, leading to a strong in-text contradiction."
+      }
+    ]
+  }
+]

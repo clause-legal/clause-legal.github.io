@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "BNCMORTGAGEINC_05_17_1999-EX-10.4-LICENSING AND WEB SITE HOSTING AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Client will comply in all material respects with applicable state and federal consumer credit reporting, privacy and similar laws in connection with its use of the Interface.",
+        "changed_text": "Client will comply in all material respects with applicable state and federal consumer credit reporting, privacy and similar laws in connection with its use of the Interface. However, TrueLink assumes no responsibility for Client's compliance with such laws.",
+        "explanation": "This change introduces an in-text contradiction by stating that the client is responsible for compliance with laws regarding the use of the interface but then adding that TrueLink assumes no responsibility for the client's compliance. This contradicts the earlier statement and creates uncertainty about who is ultimately accountable for ensuring compliance, the contradiction is in Section 8(a).",
+        "location": "8(a)",
+        "contradicted_location": "8(a)",
+        "contradicted_text": "Compliance with Laws. Client will comply in all material respects with applicable state and federal consumer credit reporting, privacy and similar laws in connection with its use of the Interface. However, TrueLink assumes no responsibility for Client's compliance with such laws.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a contradiction by stating that while the client is responsible for compliance, TrueLink assumes no responsibility for the client's compliance with those same laws, creating uncertainty and a conflict regarding accountability. The contradicted text is located in Compliance with Laws."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "TrueLink shall transmit such credit data to Client through the Interface as may be permitted under the Credit Repository Agreements and applicable law, each as in affect from time to tome, and in accordance with the certain Credit Bureau Agreement between TrueLink and Client dated of even date herewith. Subject to the foregoing, Client shall order TrueLink a credit report on each borrower for which an underwriting approval is requested through a System using the Interface.",
+        "changed_text": "TrueLink shall transmit such credit data to Client through the Interface as may be permitted under the Credit Repository Agreements and applicable law, each as in affect from time to tome, and in accordance with the certain Credit Bureau Agreement between TrueLink and Client dated of even date herewith. Client may or may not order TrueLink a credit report on each borrower for which an underwriting approval is requested through a System using the Interface.",
+        "explanation": "The change introduces a contradiction by replacing the 'shall' with a 'may or may not'. This causes in-text contradiction in Section 3(i). By changing this mandatory action, it creates uncertainty about the terms of the agreement.",
+        "location": "3(i)",
+        "contradicted_location": "3(i)",
+        "contradicted_text": "Credit Bureau Information. TrueLink shall transmit such credit data to Client through the Interface as may be permitted under the Credit Repository Agreements and applicable law, each as in affect from time to tome, and in accordance with the certain Credit Bureau Agreement between TrueLink and Client dated of even date herewith. Client may or may not order TrueLink a credit report on each borrower for which an underwriting approval is requested through a System using the Interface. TrueLink makes no representation or warranty, and shall have no liability for the truth or completeness of any data so transmitted.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'shall' to 'may or may not' in the changed text directly contradicts the original mandatory obligation for the Client to order a credit report. This introduces uncertainty and potential non-compliance with the terms initially agreed upon, creating a strong in-text contradiction as it alters a fundamental action previously required, aligning with the definition of 'Structural Flaws - In Text Contradiction'."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement shall renew automatically thereafter for successive one year periods until terminated pursuant to Section 12 herein or unless either Client or TrueLink deliver to the other written notice of intent not to renew no later than thirty (30) days prior to the end of said year.",
+        "changed_text": "This Agreement shall renew automatically thereafter for successive one year periods until terminated pursuant to Section 12 herein, regardless of any prior notices or agreements between Client or TrueLink.",
+        "explanation": "This change contradicts the provision for non-renewal through written notice, establishing an in-text contradiction in Section 13. This introduces ambiguity as the automatic renewal clause can't be opted out of despite the written notice.",
+        "location": "13",
+        "contradicted_location": "13",
+        "contradicted_text": "TERM OF AGREEMENT. This Agreement will take effect on the Effective Date and remain in effect for a period of 1 year; provided, that Sections 2 and 3 level shall terminate promptly upon (a) any action or omission by Client or any of its customers which constitutes a breach of or default by TrueLink under any System Agreement or Credit Repository Agreement, which breach or default has either not been cured or cannot be cured within the applicable cure period and the consequences of which is that TrueLink will lose material rights it had pursuant to said Agreements or (b) any violations or breach by Client of Sections 8a - 8c. This Agreement shall renew automatically thereafter for successive one year periods until terminated pursuant to Section 12 herein, regardless of any prior notices or agreements between Client or TrueLink. If Client decides to discontinue its Hosting Service, Client is responsible for arranging for a new name server within 30 days. In case of discontinued Service, Client shall retain full ownership of all domains associated with Client and Client Content. If Client decides to discontinue Hosting Service, Client is responsible for arranging for a new hosting environment within 60 days.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allows for non-renewal through written notice. The changed text eliminates this option, stating the agreement renews automatically 'regardless of any prior notices'. This directly contradicts the implied right to prevent automatic renewal present in the original clause and also directly conflicts with the terms stated in the Contradicted Text, thereby creating a strong in-text contradiction."
+      }
+    ]
+  }
+]

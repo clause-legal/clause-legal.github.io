@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement3.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Schedule (\"Schedule\") is made as of the effective date set forth above to that Software License, Customization, and Maintenance Agreement, by and between Cardlytics, Inc. (\"Supplier\") and Bank of America, N. A, (\"Bank of America\"), dated November 5, 2010, as amended (\"SLCMA\"). Each capitalized term used but not defined herein shall have the meaning assigned in the SLCMA.",
+        "changed_text": "This Schedule (\"Schedule\") is made as of the effective date set forth above to that Software License, Customization, and Maintenance Agreement, by and between Cardlytics, Inc. (\"Supplier\") and Bank of America, N. A, (\"Bank of America\"), dated November 5, 2010, as amended (\"SLCMA\"). Each capitalized term used but not defined herein shall have the meaning assigned in this Schedule.",
+        "explanation": "By changing \"SLCMA\" to \"this Schedule\" for undefined capitalized terms, we create an in-text contradiction. The contract initially states that undefined terms in the schedule inherit their meaning from the Software License, Customization, and Maintenance Agreement (SLCMA). This change implies that undefined capitalized terms are defined within the Schedule itself, which creates uncertainty because the schedule does not contain any definitions.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "This Schedule (\"Schedule\") is made as of the effective date set forth above to that Software License, Customization, and Maintenance Agreement, by and between Cardlytics, Inc. (\"Supplier\") and Bank of America, N. A, (\"Bank of America\"), dated November 5, 2010, as amended (\"SLCMA\"). Each capitalized term used but not defined herein shall have the meaning assigned in this Schedule.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text creates a contradiction. The original text defers to the Software License, Customization, and Maintenance Agreement (SLCMA) for definitions of capitalized terms not defined in the Schedule. The changed text states that undefined capitalized terms derive their meaning from 'this Schedule'. However, the Schedule contains no definitions, creating an inconsistency regarding how undefined capitalized terms should be interpreted. This constitutes a structural flaw leading to an in-text contradiction because it creates uncertainty, which makes the contract ambiguous."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "WHEREAS, Bank of America and Supplier entered into the SLCMA in order to set forth the terms and conditions pursuant to which Supplier provides certain Software to Bank of America, WHEREAS, the parties desire to add to the SLCMA the Supplier Offer Placement System Software;",
+        "changed_text": "WHEREAS, Bank of America and Supplier entered into the SLCMA for purposes that are now obsolete, WHEREAS, the parties desire to replace the SLCMA with the Supplier Offer Placement System Software;",
+        "explanation": "This perturbation changes the original agreement of entering into the SLCMA to provide 'certain Software' into replacing the SLCMA with the 'Supplier Offer Placement System Software'. This creates an internal contradiction because the document refers to the SLCMA which is defined previously, but it also states that the parties want to replace it, creating uncertainty and in-text contradiction in the enforcement of the SLCMA.",
+        "location": "Paragraph 2",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "This Schedule (\"Schedule\") is made as of the effective date set forth above to that Software License, Customization, and Maintenance Agreement, by and between Cardlytics, Inc. (\"Supplier\") and Bank of America, N. A, (\"Bank of America\"), dated November 5, 2010, as amended (\"SLCMA\"). Each capitalized term used but not defined herein shall have the meaning assigned in the SLCMA.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states the SLCMA is now obsolete and is being replaced, whereas the contradicted text explicitly references and relies upon the SLCMA for definitions and context ('Each capitalized term used but not defined herein shall have the meaning assigned in the SLCMA'). If the SLCMA is replaced, the contradicted text loses its definitional foundation, creating a clear contradiction and making the 'Schedule' potentially unenforceable due to undefined terms. This fits the 'Structural Flaws - In Text Contradiction' definition because the agreement now has conflicting implications regarding the SLCMA's existence and relevance."
+      }
+    ]
+  }
+]

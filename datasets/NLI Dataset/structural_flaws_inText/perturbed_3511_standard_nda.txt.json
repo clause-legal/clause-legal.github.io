@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "3511_standard_nda.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Recipient agrees that all C onfidential Information, including any copies thereof, shall be returned to NASDAQ OMX or destroyed within ten (10) days of the expiration or other termination of the Project.",
+        "changed_text": "The Recipient may retain copies of the Confidential Information after the expiration or termination of the Project, provided they are kept for archival purposes only.",
+        "explanation": "This alteration to Section 4 allows Recipient to retain Confidential Information post-termination, directly opposing the original requirement for return or destruction. This retention for 'archival purposes' contradicts the purpose of the NDA, outlined in sections 1, 2 and 3, as it increases the risk of unauthorized disclosure and use.",
+        "location": "4",
+        "contradicted_location": "2",
+        "contradicted_text": "Recipient acknowledges the sensitive and secret nature of the Confidential Information it will have access to during the term of this Agreement and agrees that it will treat such Confidential Information as strictly confidential and shall exercise the same degree of care in the protection of the Confidential Information as the Recipient exercises with respect to its own proprietary property and trade secrets, but in no event shall it be less than a r easonable degree of care given the nature of the Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandated the return or destruction of Confidential Information upon project termination. The changed text now allows the Recipient to retain copies for archival purposes. This directly contradicts the Contradicted Text, which states the Recipient must treat Confidential Information as strictly confidential and exercise a high degree of care in its protection, as the archival exception increases the risk of unauthorized disclosure and undermines the agreement's purpose. Therefore, a strong in-text contradiction exists."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Notes and other documents refe rencing or relating to Confidentia l Information may be made and kept by the Recipient, but shall continue to be gove rned by this Confidentiality Agreement until they are destroyed.",
+        "changed_text": "Notes and other documents referencing or relating to Confidential Information will be considered non-confidential five years after the termination of the project.",
+        "explanation": "Section 5 initially extends the agreement until destruction, which supports clause 10 by saying the agreement can last up to three years from the project completion. The amended section 5 states that all notes and other documents referencing or relating to Confidential Information are to be considered non-confidential five years after termination of the project, which creates an In-Text Contradiction with section 10, which states: The representations and obligations of the Reci pient relative to the Confidential Information shall survive the termination of this Confidentiality Agreem ent for a period up to three (3) years from the date of the completion or other termination of the Project.",
+        "location": "5",
+        "contradicted_location": "10",
+        "contradicted_text": "The representations and obligations of the Reci pient relative to the Confidential Information shall survive the termination of this Confidentiality Agreem ent for a period up to three (3) years from the date of the completion or other termination of the Project.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that notes related to confidential information are governed by the agreement until destroyed. The changed text states that such notes become non-confidential five years after project termination. The contradicted text states obligations survive termination for up to three years. The changed text therefore introduces a contradiction because it makes notes non-confidential after five years, conflicting with the clause that obligations regarding confidential information persist for only three years after termination, creating a direct conflict."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The obligation of non-disclosure shall not extend to: (1) information which is then already in the possession of the Recipient and not under a duty of non- disclosure; (2) information which is generally known or revealed to the public other than by breach of this Agreement; (3) information which is revealed to the Recipient by a third party--unless such party is under a duty of non-disclosure; or (4) information which the Recipient develops independently of the di sclosure as indicated by files existing at the time of initial disclosure.",
+        "changed_text": "The obligation of non-disclosure shall not extend to information which is then already in the possession of the Recipient, regardless of whether it was under a duty of non-disclosure.",
+        "explanation": "Section 7 initially lists exceptions to non-disclosure. However, the original stated in (1) information already in the possesion of the Recipient AND not under duty of non-disclosure. If both conditions are not met, the agreement still applies. However, the changed_text omits the second condition. It is not an exception even if it were under a duty of non-disclosure. The now is a contradictory in-text statment in regards to the original clause. Which creates an In-Text Contradiction with the spirit of this agreement, since it makes it easier for information already in the possesion of the recipient to be outside the non-disclosure",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "The obligation of non-disclosure shall not extend to information which is then already in the possession of the Recipient, regardless of whether it was under a duty of non-disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies an exception to the non-disclosure obligation. The original text stated that information already in the Recipient's possession was an exception only if it was 'not under a duty of non-disclosure'. The changed text removes this condition, stating the exception applies 'regardless of whether it was under a duty of non-disclosure'. This directly contradicts the original intent and creates a broader exception than initially defined. The contradicted text is literally the changed text, indicating a conflict in the exception itself."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Recipient acknowledges that NASDAQ OMX, b ecause of the nature of the Confidential Information, would suffer irreparable harm in the even t of a material breach of the provisions of this Confidentiality Agreement in that monetary damages would be inadequate to compensate NASDAQ OMX for such a breach, and that in the event of any material breach or threatened material breach by the Recipient of any such provisions, NASDAQ OMX shall be entitled, in addition to such other legal or equitable remedies which might be available, to inju nctive relief in any court of competent jurisdiction against the threatened material breach or continua tion of any such material breach without showing or proving any actual damages sustained by NASDAQ OMX. If NASDAQ OMX prevails in any action brought to enjoin a material breach or threatened breach of this Confidentiality Agreement, it shall be entitled to reasonable attorney's fees and costs in connection with such legal proceeding. This Confidentiality Agreement shall be governed by the laws of the State of New York, without regard to its principles of conflicts of laws.",
+        "changed_text": "Recipient acknowledges that NASDAQ OMX, would not suffer irreparable harm in the even t of a breach of the provisions of this Confidentiality Agreement and monetary damages would be adequate to compensate NASDAQ OMX for such a breach.",
+        "explanation": "Section 9 initially states that NASDAQ OMX would suffer irreparable harm in the event of a breach, and that monetary damages would be inadequate. Changed text introduces the opposite statement in regards to this harm that this breach of the NDA would provide. Which creates an In-Text Contradiction and makes NASDAQ OMX remedies less clear.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "Recipient acknowledges that NASDAQ OMX, would not suffer irreparable harm in the even t of a breach of the provisions of this Confidentiality Agreement and monetary damages would be adequate to compensate NASDAQ OMX for such a breach.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that NASDAQ OMX would suffer irreparable harm, while the changed text states that they would *not* suffer irreparable harm and that monetary damages would be adequate. This directly contradicts the initial statement, and therefore creates an in-text contradiction with the contradicted text, as both texts cannot be true at the same time."
+      }
+    ]
+  }
+]

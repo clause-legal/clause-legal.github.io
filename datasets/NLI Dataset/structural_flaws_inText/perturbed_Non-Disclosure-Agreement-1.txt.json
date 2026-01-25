@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "Non-Disclosure-Agreement-1.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "IV. The terms of this agreement shall continue without limitation of time.",
+        "changed_text": "IV. The terms of this agreement shall continue for a period of one year, unless terminated earlier by either party with 30 days written notice.",
+        "explanation": "This change directly contradicts the original statement that the agreement continues 'without limitation of time'. It introduces a specific term limit and termination clause, creating ambiguity about the duration of confidentiality. This contradiction occurs within Section 3. IV, as a clause for an agreement with out limitation of time, has now a time constraint.",
+        "location": "3. IV",
+        "contradicted_location": "3. IV",
+        "contradicted_text": "IV. The terms of this agreement shall continue for a period of one year, unless terminated earlier by either party with 30 days written notice.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that the agreement continues 'without limitation of time', while the changed text introduces a one-year term limit and a termination clause. The contradicted text is the same as the changed text which specifies a one-year duration, directly contradicting the original concept of unlimited duration. This change creates a structural flaw in text contradiction as the same clause is placed in the document with contradicting implications."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "I. This agreement is subject to Belgian law",
+        "changed_text": "I. This agreement is subject to Belgian law, except for disputes involving intellectual property, which shall be governed by the laws of the jurisdiction where the intellectual property is registered.",
+        "explanation": "This change introduces an exception to the governing law clause. While the original text specifies Belgian law for all disputes, the modification states that intellectual property disputes are governed by the laws of the jurisdiction where the IP is registered. This creates an in-text contradiction within section 5. The agreement should be under only one law according to the original agreement.",
+        "location": "5. I",
+        "contradicted_location": "5. I",
+        "contradicted_text": "I. This agreement is subject to Belgian law, except for disputes involving intellectual property, which shall be governed by the laws of the jurisdiction where the intellectual property is registered",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the agreement is subject to Belgian law. The changed text introduces an exception for disputes involving intellectual property, stating they are governed by the laws of the jurisdiction where the IP is registered. This creates a direct conflict (contradiction) because the agreement is now subject to multiple governing laws, which goes against the initial, all-encompassing declaration of Belgian law. The contradicted text is the same as the changed text which reinforces this contradiction, because it is explicitly allowing for multiple governing laws. This aligns with the 'Structural Flaws - In Text Contradiction' definition, where a clause is placed in multiple locations with conflicting implications, leading to uncertainty about the rights and obligations of each party."
+      }
+    ]
+  }
+]

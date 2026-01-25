@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "1017545_0001012870-97-001500_document_2.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Each party agrees that it will take all reasonable steps to protect the secrecy of and avoid disclosure or use of Confidential Information of the other party on order to prevent of unauthorized falling into the public domain or the possession of unauthorized persons.",
+        "changed_text": "Each party agrees that it will take commercially reasonable steps to protect the secrecy of and avoid disclosure or use of Confidential Information of the other party. However, it is understood that complete prevention is not guaranteed.",
+        "explanation": "This change replaces 'all reasonable steps' with 'commercially reasonable steps' and adds that 'complete prevention is not guaranteed.' This lowers the standard of care required to protect Confidential Information, directly contradicting the previous assurance of taking *all* reasonable steps. The contradiction can be seen in section 3's overall aim to fully avoid disclosure, which is now uncertain.",
+        "location": "Section 3",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "3. Non-Disclosure of Confidential Information. Each party agrees ------------------------------------------ to be able to freely use any Confidential Information disclosed to it by the other party for internal research and development purposes. However, any external use requires written consent from the disclosing party. Each party will not disclose the Confidential Information of the other party to third parties or to its employees except employees who are required to have the information in order to carry out the contemplated business. Each party will have employees to whom Confidential Information of the other party is disclosed sign a Non-Disclosure Agreement in content substantially similar to this agreement if such persons have not already signed such agreements obligating them to hold the Confidential Information in confidence. Each party agrees that it will take commercially reasonable steps to protect the secrecy of and avoid disclosure or use of Confidential Information of the other party. However, it is understood that complete prevention is not guaranteed. Each agrees to immediately notify the other party in writing of any misuse or misappropriation of such Confidential Information of the other party which may come to its attention.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'all reasonable steps' with 'commercially reasonable steps' and adds that 'complete prevention is not guaranteed.' This lowers the standard of care required to protect Confidential Information. This directly contradicts the original text's higher standard and introduces uncertainty about the level of protection required. The contradicted text's goal to fully avoid disclosure is undermined, leading to a strong in-text contradiction, as per the 'Ambiguities - In Text Contradiction' definition."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "5. Term. The term of this Agreement shall be five (5) years.",
+        "changed_text": "5. Term. The term of this Agreement shall be five (5) years, unless terminated earlier by either party with 30 days' written notice.",
+        "explanation": "This changes the fixed term of the agreement. Originally it was clearly stated as five years. By adding the clause allowing termination with 30 days' notice, the agreement's duration becomes uncertain, directly contradicting the stated five-year term. The contradiction will be apparent when the receiving party tries to hold the disclosing party liable for the full 5 years, but the disclosing party terminates it earlier with the 30 days' notice.",
+        "location": "Section 5",
+        "contradicted_location": "Section 5",
+        "contradicted_text": "5. Term. The term of this Agreement shall be five (5) years, unless terminated earlier by either party with 30 days' written notice. ---- -1- <PAGE> 6. General Provisions. This Agreement will be governed by the ------------------",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds a termination clause to a previously fixed five-year term. This directly contradicts the original term of the agreement, as the agreement can now be terminated before the five-year period ends, creating an in-text contradiction. The contradicted text is the same clause but in its modified form and it now contradicts itself."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "6. General Provisions. This Agreement will be governed by the ------------------ laws of the State of California. This Agreement will be binding upon the successors of each party, and will be for the benefit of each party, its successors, and its assigns.",
+        "changed_text": "6. General Provisions. This Agreement will be governed by the ------------------ laws of the State of Delaware. This Agreement will not be binding upon the successors of each party, and will be solely for the benefit of each party, and not its successors, or its assigns.",
+        "explanation": "This change introduces multiple contradictions within the same section. First, the governing law changes from California to Delaware. Second, the agreement's binding nature on successors is removed, and its benefit is limited to the original parties, negating the original terms that it would be binding and benefit successors and assigns. The contradiction takes place in the initial governing laws.",
+        "location": "Section 6",
+        "contradicted_location": "Section 6",
+        "contradicted_text": "6. General Provisions. This Agreement will be governed by the ------------------ laws of the State of Delaware. This Agreement will not be binding upon the successors of each party, and will be solely for the benefit of each party, and not its successors, or its assigns. Each party agrees that it would be difficult to measure the damage to such party from the breach of the other party's obligations hereunder, that injury to such party from any such breach would be impossible to calculate, and that monetary damages would therefor be an inadequate remedy; accordingly, each party agrees that the other party shall be entitled, in addition to all other remedies it might have, to injunctions or other appropriate orders to restrain any such breach without showing or proving any actual damage.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts itself, as explained in the perturbation explanation. The governing law is changed from California to Delaware, and the agreement's binding nature on successors is removed, directly contradicting the initial term. The contradicted text is the same as the Changed Text and includes the contradiction of Delaware Law being applied to the agreement. The original text stated California law would govern it, introducing a strong contradiction that cannot be easily reconciled."
+      }
+    ]
+  }
+]

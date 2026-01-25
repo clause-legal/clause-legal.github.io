@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "nda_3.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "(6) This Non-Disclosure Agreement contains the entire agreement relative to the protection of information to be provided to AR IN by the Applicant, and supersedes all prior or contemporaneous oral or written understandings or arguments regarding this issue. This Non-Disclosure Agreement shall not be modified or amended, except in a written instrument executed by the parties.",
+        "changed_text": "(6) This Non-Disclosure Agreement contains the entire agreement relative to the protection of information to be provided to AR IN by the Applicant, and supersedes all prior or contemporaneous oral or written understandings or arguments regarding this issue. This Non-Disclosure Agreement may be modified or amended by either a written instrument executed by the parties or by ARIN posting a revised version of this agreement on its website, with 30 days' notice to the Applicant.",
+        "explanation": "The original text states that the NDA can only be modified by a written instrument executed by both parties. The change adds an alternative method of modification: ARIN posting a revised version online with 30 days' notice. This creates an in-text contradiction, as it is now unclear whether mutual agreement is required for modifications. This change undermines the original clause requiring mutual written agreement, creating uncertainty.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "This Non-Disclosure Agreement contains the entire agreement relative to the protection of information to be provided to AR IN by the Applicant, and supersedes all prior or contemporaneous oral or written understandings or arguments regarding this issue. This Non-Disclosure Agreement may be modified or amended by either a written instrument executed by the parties or by ARIN posting a revised version of this agreement on its website, with 30 days' notice to the Applicant.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that the NDA can only be modified by a written instrument executed by both parties. The changed text introduces an alternative modification method: ARIN posting a revised version online with 30 days' notice. The contradicted text, which is the same as the changed text, now directly contradicts the original intent by providing two methods of modification, leading to an in-text contradiction as it is now unclear whether mutual agreement is required for modifications. This inconsistency in modification methods creates a strong contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "(9) This Non-Disclosure Agreement may not be assigned or otherwise transferred by either party in wh ole or in part without the express prior written consent of the other party, which consent shall not unreasonably be withheld. This consent requirement shall not apply in the event either party shall change its corporate name or merge with another corporation. This Non-Disclosure Agreement shall benefit and be binding upon the successors and assigns of the parties hereto.",
+        "changed_text": "(9) This Non-Disclosure Agreement may not be assigned or otherwise transferred by either party in wh ole or in part without the express prior written consent of the other party, which consent shall not unreasonably be withheld, unless the assignment or transfer is to a subsidiary. This consent requirement shall not apply in the event either party shall change its corporate name or merge with another corporation. This Non-Disclosure Agreement shall benefit and be binding upon the successors and assigns of the parties hereto.",
+        "explanation": "The inserted phrase 'unless the assignment or transfer is to a subsidiary' creates an in-text contradiction. The clause initially states that assignment requires 'express prior written consent', but then provides an exception for subsidiaries. The term 'subsidiary' is undefined in the agreement, leading to potential disputes over its meaning and scope. This exception undermines the original requirement for consent and causes in-text contradiction regarding assignment obligations.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "This Non-Disclosure Agreement may not be assigned or otherwise transferred by either party in wh ole or in part without the express prior written consent of the other party, which consent shall not unreasonably be withheld, unless the assignment or transfer is to a subsidiary. This consent requirement shall not apply in the event either party shall change its corporate name or merge with another corporation. This Non-Disclosure Agreement shall benefit and be binding upon the successors and assigns of the parties hereto.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds an exception to the original restriction on assignment, stating that consent is not required if the assignment is to a subsidiary. This directly contradicts the original clause in both the original and contradicted text, which states that no assignment is allowed without express prior written consent. The Perturbation Explanation highlights that the undefined term 'subsidiary' introduces ambiguity, creating an in-text contradiction regarding assignment obligations as defined in the Inconsistencies - In Text Contradiction definition."
+      }
+    ]
+  }
+]

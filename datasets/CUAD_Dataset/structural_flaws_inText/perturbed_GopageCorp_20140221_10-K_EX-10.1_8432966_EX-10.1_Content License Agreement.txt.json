@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "GopageCorp_20140221_10-K_EX-10.1_8432966_EX-10.1_Content License Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "\"Territory\" means Canada, United States and Mexico.",
+        "changed_text": "\"Territory\" means only the United States of America.",
+        "explanation": "The original definition of 'Territory' includes Canada, the United States, and Mexico. By changing the definition to include 'only the United States of America', it directly contradicts the license scope defined in Schedule 1 which states that the Licensed Content should be displayed to customers within Canada, the United States, or Mexico. This creates an in-text contradiction on if it is in the scope of the agreement.",
+        "location": "Section 1",
+        "contradicted_location": "Schedule 1",
+        "contradicted_text": "LICENSE SCOPE\nDisplay the Licensed Content on the Licensee Site to actual and prospective customers or End-Users located within Canada, the United States or Mexico engaged in any vertical market business except(i) the offer or brokering of vacation home rentals, and (ii) the offering or sale of any products or services using a Multi-level Marketing system.",
+        "contradiction_exists": "YES",
+        "justification": "The original definition of 'Territory' included Canada, the United States, and Mexico. The changed definition restricts 'Territory' to 'only the United States of America'. This directly contradicts the 'LICENSE SCOPE' clause which allows displaying the Licensed Content to customers within Canada, the United States or Mexico. Since the Territory is now defined as only the USA, this directly contradicts the license granted for Canada and Mexico, creating a strong in-text contradiction that affects the scope of the agreement."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The License Fees are non-cancellable and non-refundable.",
+        "changed_text": "The License Fees are cancellable and fully refundable under certain circumstances, as detailed in Schedule 5.",
+        "explanation": "The original text states that the license fees are non-cancellable and non-refundable. Changing this to indicate they are cancellable and refundable under circumstances in Schedule 5 creates an in-text contradiction within Section 5.1. The change makes it unclear under what conditions the fees can be canceled or refunded and the enforceability of original clause is now uncertain.",
+        "location": "Section 5.1",
+        "contradicted_location": "Section 5.1",
+        "contradicted_text": "5. Fees and Payment.\n5.1 License Fees. In consideration of the licenses granted and other undertakings by Licensor hereunder, Licensee shall pay Licensor a License Fee in the amount of two hundred thousand dollars (US$200,000) (\"License Fee\"). The License Fee shall be due and payable as follows:\n(a) US$50,000 upon signing the Memorandum of Understanding (\"MOU\") between the Parties (provided, however, that Licensor hereby acknowledges receipt of this portion of the License Fee);\n(b) US$50,000 upon signing of this Agreement; and\n(c) US$100,000 upon on or before March 28, 2014. The License Fees are cancellable and fully refundable under certain circumstances, as detailed in Schedule 5.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated the License Fees were non-cancellable and non-refundable. The changed text states that the fees are cancellable and fully refundable under certain circumstances, as detailed in Schedule 5. The contradicted text in section 5.1 includes the changed text stating \"The License Fees are cancellable and fully refundable under certain circumstances, as detailed in Schedule 5.\" This directly contradicts the original text, which stated they were non-cancellable and non-refundable. This creates an in-text contradiction because the same section of the contract now contains conflicting statements about the cancellability and refundability of the license fees. This satisfies the definition of 'Structural Flaws - In Text Contradiction' because the clause is placed in multiple locations (implicitly, with the original statement, and explicitly with the changed statement within Section 5.1) with conflicting implications."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Thereafter, this Agreement shall renew automatically for one (1) additional three (3) year period (the \"Renewal Term\" and collectively, together with the Initial Term, the \"Term\") unless either party provides the other with written notice of non-renewal at least ninety (90) days before the expiration of the Initial Term].",
+        "changed_text": "Thereafter, this Agreement shall renew automatically for one (1) additional three (3) year period (the \"Renewal Term\" and collectively, together with the Initial Term, the \"Term\") unless either party provides the other with written notice of non-renewal at least ninety (90) days before the expiration of the Initial Term]. Notwithstanding the previous sentence, renewal is contingent upon mutual written agreement between both parties, regardless of prior notice.",
+        "explanation": "The original text specifies automatic renewal unless a party provides a non-renewal notice. By adding a sentence stating that renewal requires mutual agreement, the text creates a contradiction. Now, it's uncertain whether the contract renews automatically (with just a lack of notice) or requires explicit agreement from both parties to continue. This could lead to legal disputes about the contract's validity beyond the initial term.",
+        "location": "Section 6.1",
+        "contradicted_location": "Section 6.1",
+        "contradicted_text": "6. Term and Termination.\n6.1 Term. The initial term of this Agreement commences as of the Effective Date and, unless terminated earlier pursuant to any express provision of this Agreement, shall continue until five (5) years following the Effective Date (the \"Initial Term\"). Thereafter, this Agreement shall renew automatically for one (1) additional three (3) year period (the \"Renewal Term\" and collectively, together with the Initial Term, the \"Term\") unless either party provides the other with written notice of non-renewal at least ninety (90) days before the expiration of the Initial Term]. Notwithstanding the previous sentence, renewal is contingent upon mutual written agreement between both parties, regardless of prior notice.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a direct contradiction regarding the renewal of the agreement. The original text states the agreement shall renew automatically unless a notice of non-renewal is provided. The changed text adds a sentence stating renewal is contingent upon mutual written agreement between both parties, regardless of prior notice, which directly conflicts with the automatic renewal provision. This conflict introduces ambiguity and uncertainty regarding the renewal process, making it unclear under what conditions the agreement will continue beyond the initial term, which constitutes a strong in-text contradiction."
+      }
+    ]
+  }
+]

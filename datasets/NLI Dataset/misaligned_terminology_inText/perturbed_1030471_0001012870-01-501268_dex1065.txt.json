@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "1030471_0001012870-01-501268_dex1065.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "THIS AGREEMENT IS ENTERED INTO BY AND BETWEEN COMPANY, INC., 1275 HARBOR BAY PARKWAY, SUITE 100, ALAMEDA, CA 94502 (\"Company\") AND TELECOMMUNICATIONS D'HAITI S.A.M. (\"BUYER\").",
+        "changed_text": "THIS AGREEMENT IS ENTERED INTO BY AND BETWEEN COMPANY, INC., 1275 HARBOR BAY PARKWAY, SUITE 100, ALAMEDA, CA 94502 (\"Company\") AND TELECOMMUNICATIONS D'HAITI S.A.M. (\"Client\").",
+        "explanation": "Changing 'BUYER' to 'Client' creates uncertainty. While both initially refer to TELECOMMUNICATIONS D'HAITI S.A.M., the contract later refers only to 'BUYER.' This introduces a contradiction: are the obligations meant for 'BUYER' also applicable to 'Client'? This in-text contradiction creates ambiguity throughout the document in the responsibilities.",
+        "location": "Preamble",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "Company and BUYER mutually agree to hold the other party's Confidential Information in strict confidence and not to disclose such Confidential Information to any third parties except after receiving prior consent by the disclosing party in writing. Company and BUYER shall use the same degree of care to avoid disclosure of such Confidential Information as each employs with respect to its own proprietary information of like importance or a greater degree if reasonable.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'BUYER' to 'Client' introduces a misaligned terminology contradiction. The original text consistently refers to 'BUYER' in the contradicted section, outlining specific responsibilities. By changing 'BUYER' to 'Client' in the modified text, it creates uncertainty as to whether those responsibilities still apply to TELECOMMUNICATIONS D'HAITI S.A.M., as the contract now uses two different terms ('BUYER' and 'Client') for the same entity without clarification. This ambiguity directly contradicts the clarity expected in the contradicted section and aligns with the definition of Misaligned Terminology - In Text Contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Company and BUYER mutually agree to hold the other party's Confidential Information in strict confidence and not to disclose such Confidential Information to any third parties except after receiving prior consent by the disclosing party in writing.",
+        "changed_text": "Company and Client mutually agree to hold the other party's Confidential Information in strict confidence and may disclose such Confidential Information to any third parties.",
+        "explanation": "The original text strictly prohibits disclosure to third parties without prior consent. The changed text, by using 'may disclose,' directly contradicts this prohibition. This introduces uncertainty about the confidentiality obligations of the 'Client'. This in-text contradiction creates confusion in enforcement of the confidentiality agreement.",
+        "location": "Section 2",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "Company and Client mutually agree to hold the other party's Confidential Information in strict confidence and may disclose such Confidential Information to any third parties. Company and BUYER shall use the same degree of care to avoid disclosure of such Confidential Information as each employs with respect to its own proprietary information of like importance or a greater degree if reasonable.",
+        "contradiction_exists": "YES",
+        "justification": "The original text prohibits disclosure to third parties without consent, while the changed text allows disclosure to third parties ('may disclose'). This creates a direct conflict with the contradicted text, which also states that the 'Client' 'may disclose' confidential information, which creates uncertainty about confidentiality obligations, directly creating an in-text contradiction. The change means the first statement in the contradicted text directly contradicts the second."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Company and BUYER shall use the same degree of care to avoid disclosure of such Confidential Information as each employs with respect to its own proprietary information of like importance or a greater degree if reasonable.",
+        "changed_text": "Company and Client are not responsible to avoid disclosure of such Confidential Information.",
+        "explanation": "Originally both 'Company' and 'BUYER' (now Client) had a duty of care. Changing it to 'Company and Client are not responsible to avoid disclosure of such Confidential Information' removes any obligation to protect the information. This contradicts the overall intent of a non-disclosure agreement, leading to a material contradiction regarding confidentiality responsibilities. This directly impacts enforceability.",
+        "location": "Section 2",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "Company and BUYER agree that they will not use the other party's Confidential Information for any purpose other than for the intended purposes, without the prior written permission of the other party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text placed a duty of care on both 'Company' and 'BUYER' regarding confidential information. The changed text removes this responsibility for 'Company' and renames 'BUYER' to 'Client', stating they are 'not responsible to avoid disclosure'. This directly contradicts the 'Contradicted Text' which states that both 'Company' and 'BUYER' agree not to use confidential information without permission. The modified text creates a strong conflict by negating the obligation to protect confidential information, making the agreement unenforceable and triggering a clear contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Company and BUYER agree that they will not use the other party's Confidential Information for any purpose other than for the intended purposes, without the prior written permission of the other party.",
+        "changed_text": "Company and BUYER can use the other party's Confidential Information for any purpose with the prior written permission of the other party.",
+        "explanation": "By changing 'will not use... other than for the intended purposes' to 'can use... for any purpose,' this section now says that Company and BUYER is allowed to use the other party's Confidential Information for any purpose if they have permission. This contradicts section 7 that says no rights are being granted by this agreement",
+        "location": "Section 3",
+        "contradicted_location": "Section 7",
+        "contradicted_text": "Company and BUYER recognize and agree that nothing contained in this Agreement shall be construed as granting any rights, by license or otherwise to any Confidential Information disclosed pursuant to this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the original text from 'will not use... other than for the intended purposes' to 'can use... for any purpose,' which now allows Company and BUYER to use the other party's Confidential Information for any purpose if they have permission. This directly contradicts the contradicted text, which states that 'nothing contained in this Agreement shall be construed as granting any rights, by license or otherwise to any Confidential Information disclosed pursuant to this Agreement.' The change creates a direct conflict by granting usage rights where previously none were granted."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The obligations undertaken by each party pursuant to this Agreement shall remain in effect for three years from the last date of disclosure of Confidential Information, and shall survive any termination or expiration hereof.",
+        "changed_text": "The obligations undertaken by each party pursuant to this Agreement shall not remain in effect for three years from the last date of disclosure of Confidential Information, and shall not survive any termination or expiration hereof.",
+        "explanation": "Changing 'shall remain in effect' to 'shall not remain in effect' and 'shall survive' to 'shall not survive' nullifies the duration of the confidentiality obligations. This makes the agreement essentially meaningless after termination, directly contradicting the purpose of having confidentiality provisions that typically extend beyond the active term of an agreement. The In-Text contradiction creates a major issue with the agreement terms and its enforceability.",
+        "location": "Section 9",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "Company and BUYER mutually agree to hold the other party's Confidential Information in strict confidence and not to disclose such Confidential Information to any third parties except after receiving prior consent by the disclosing party in writing. Company and BUYER shall use the same degree of care to avoid disclosure of such Confidential Information as each employs with respect to its own proprietary information of like importance or a greater degree if reasonable.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. The original text ensures confidentiality obligations survive termination, but the changed text explicitly states they do not, nullifying the confidentiality obligations. The contradicted text outlines the mutual agreement to hold confidential information in strict confidence, which is directly undermined by the change because now there is no duration of effect. This creates a direct and substantial conflict within the contract, leading to uncertainty and potential unenforceability as the parties agreed to keep information private but then agreed that they would not have to. This aligns with the definition of Misaligned Terminology - In Text Contradiction, creating a major issue with the agreement terms and its enforceability, and falls within the criteria for assigning 'YES'."
+      }
+    ]
+  }
+]

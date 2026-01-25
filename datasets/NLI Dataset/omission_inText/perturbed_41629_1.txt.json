@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "41629_1.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "That in the event of agreeing to purchase the Business and/or Property will pay to TBP a deposit as a sign of good faith amounting to 5% of the purchase price but subject to a minimum of £5,000.",
+        "changed_text": "That in the event of agreeing to purchase the Business and/or Property will pay to TBP a deposit as a sign of good faith. The deposit amount will be determined at the sole discretion of TBP.",
+        "explanation": "The original contract specifies a deposit amount of 5% with a £5,000 minimum. The modified version removes the specified amount and grants TBP sole discretion in determining the deposit. This omission causes a direct contradiction, as the parties have no fixed agreement on the deposit amount, making the 'good faith' clause unenforceable in its original intent. It contradicts the 'subject to contract' clause as there is no definition about the deposit that might be expected.",
+        "location": "Page 2 of 2, Paragraph starting with: Once TBPs NDA and Terms and Conditions have been signed",
+        "contradicted_location": "Page 2 of 2, Paragraph starting with: This deposit will be held by TBP in a Non-Interest Earning Client Account",
+        "contradicted_text": "This deposit will be held by TBP in a Non-Interest Earning Client Account, and will be applied to the purchase price at the time of completion. This deposit will be paid \"Subject to Contract\" and will be refundable (subject to clauses 2 and 3 below).",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies a deposit amount, whereas the changed text grants TBP sole discretion in determining the deposit amount. The contradicted text states that 'This deposit will be held by TBP...', implying a fixed amount. Since the changed text makes the deposit amount discretionary, it contradicts the contradicted text, because it is unclear how the deposit will be held, if the amount is not defined. The 'subject to contract' clause in the contradicted text is now also contradicted, as there is no defined deposit amount for agreement."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "In the event that you withdraw from the purchase without good reason and where such reason is not connected to the purchase of the business, then the deposit will be used to cover our Clients reasonable legal costs (up to a maximum of £2,500), such costs being subject to VAT, up to the point of withdrawal.",
+        "changed_text": "In the event that you withdraw from the purchase, the deposit will be used to cover our Clients legal costs.",
+        "explanation": "By removing the phrase 'without good reason and where such reason is not connected to the purchase of the business', the revised clause now implies that the deposit will be forfeited even if the withdrawal is due to a valid reason related to the business purchase. The clause implies that a forfeit is absolute, and this makes the clause, 'subject to contract', contradictory.",
+        "location": "Page 2 of 2, Paragraph starting with: Once TBPs NDA and Terms and Conditions have been signed",
+        "contradicted_location": "Page 2 of 2, Paragraph starting with: This deposit will be paid \"Subject to Contract\"",
+        "contradicted_text": "This deposit will be paid \"Subject to Contract\" and will be refundable (subject to clauses 2 and 3 below).",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that the deposit is only forfeited if the withdrawal is 'without good reason and where such reason is not connected to the purchase of the business.' The changed text removes this condition, making the forfeiture absolute. The contradicted text states the deposit is 'Subject to Contract' and 'refundable'. The changed text now contradicts this, as the deposit is no longer refundable under all circumstances, creating a direct conflict between the 'Subject to Contract' clause and the condition for refundability."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "All recipients the Sales Particulars and any other details irrevocably agree:- 1. To treat all information contained herein, and as may subsequently be supplied, with complete confidentiality.",
+        "changed_text": "All recipients the Sales Particulars and any other details agree:- 1. To treat all information contained herein, and as may subsequently be supplied, with confidentiality.",
+        "explanation": "Removing the word 'irrevocably' and 'complete' changes the standard of confidentiality from absolute to a less defined level of confidentiality. If information is only required to be treated with 'confidentiality,' a reasonable degree is expected and it may be permissible to disclose the confidential information to some people or entities if there is a legitimate need. Other sections depend on the idea that the confidentiality is irrevocable.",
+        "location": "Page 2 of 2, Paragraph starting with: TERMS AND CONDITIONS",
+        "contradicted_location": "Page 1 of 2, Paragraph starting with: I fully understand and agree that all information relating to any client",
+        "contradicted_text": "I fully understand and agree that all information relating to any client of The Business Partnership and supplied to me will be kept strictly confidential.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that all recipients irrevocably agree to treat all information with complete confidentiality. The changed text removes 'irrevocably' and 'complete', reducing the standard of confidentiality. The contradicted text states that all information will be kept 'strictly confidential'. The change from 'complete and irrevocable confidentiality' to just 'confidentiality' introduces a lower standard that contradicts the requirement to keep information 'strictly confidential'."
+      }
+    ]
+  }
+]

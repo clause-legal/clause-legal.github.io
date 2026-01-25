@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "1100182_0001107049-00-000014_document_23.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "12. This Agreement is a full recourse agreement concluded under the laws of Pennsylvania and said forum shall be applicable law covering the construction, interpretation, execution, validity, enforceability, performance, and any other such matters in respect to this Agreement, including any breach or claim of breach hereof.",
+        "changed_text": "12. This Agreement is a non-recourse agreement concluded under the laws of Pennsylvania and said forum shall be applicable law covering the construction, interpretation, execution, validity, enforceability, performance, and any other such matters in respect to this Agreement, including any breach or claim of breach hereof.",
+        "explanation": "By changing \"full recourse\" to \"non-recourse,\" we create a direct conflict. A full recourse agreement allows the lender to pursue all available assets of the borrower to recover debt, while a non-recourse agreement limits the lender's claim to specific collateral. This change creates uncertainty about the extent of liability and available remedies in case of breach.",
+        "location": "Section 12",
+        "contradicted_location": "Section 4",
+        "contradicted_text": "4. In the event of circumvention by the \"Parties\" involved in this transaction, either directly or indirectly, it is agreed and guaranteed that a monetary penalty will be paid by the person or persons engaged in or circumvention. This payment will additionally include all reasonable legal expenses incurred by the aggrieved party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the agreement from 'full recourse' to 'non-recourse.' This directly contradicts the contradicted text (Section 4), which states that in the event of circumvention, a monetary penalty will be paid, including all reasonable legal expenses incurred by the aggrieved party. A full recourse agreement allows the lender to pursue all available assets, aligning with the penalty clause, while a non-recourse agreement limits the lender's claim to specific collateral, conflicting with the broader penalty and expense recovery provision in Section 4."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "7. This Agreement shall be binding upon, and inure to the benefit of the heirs, legal representatives, successors, designees, and/or assigns of the Parties.",
+        "changed_text": "7. This Agreement shall only be binding upon the Parties signing this document, and not inure to the benefit of the heirs, legal representatives, successors, designees, and/or assigns of the Parties.",
+        "explanation": "By stating that the agreement does not inure to the benefit of heirs, legal representatives etc., it contradicts the standard legal principle of contracts being binding on successors. This creates an internal inconsistency about the agreement's transferability and long-term enforceability.",
+        "location": "Section 7",
+        "contradicted_location": "Section 7",
+        "contradicted_text": "7. This Agreement shall only be binding upon the Parties signing this document, and not inure to the benefit of the heirs, legal representatives, successors, designees, and/or assigns of the Parties. The executor, administrator, or personal representative of a deceased party shall execute and deliver any document(s) or legal instrument(s) necessary or desirable to carry out the provisions hereof.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that the agreement does not inure to the benefit of heirs, legal representatives, successors, designees, and/or assigns of the Parties. The contradicted text includes the sentence 'The executor, administrator, or personal representative of a deceased party shall execute and deliver any document(s) or legal instrument(s) necessary or desirable to carry out the provisions hereof,' which directly contradicts the changed text. By stating that the agreement does not inure to the benefit of heirs, it is impossible for them to execute and deliver any document(s) or legal instrument(s) necessary or desirable to carry out the provisions hereof, thus creating a strong contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "11. No party shall be considered or adjudged to be in violation of this Agreement when the violation is due to situations beyond the said party's control, such as acts of God, civil disturbances, theft, or said Party's connections having prior knowledge or possession of privileged information, contacts, or contacts without the disclosure, intervention or assistance of said party or aid Parties associates as defined herein. Essentially, the spirit behind this Agreement is one of mutual trust, confidence and reliance upon each party to do what is fair and equitable.",
+        "changed_text": "11. No party shall be considered or adjudged to be in violation of this Agreement under any circumstances. Essentially, the spirit behind this Agreement is one of mutual trust, confidence and reliance upon each party to do what is fair and equitable.",
+        "explanation": "Removing the 'force majeure' clause and replacing it with 'under any circumstances' contradicts the provision for remedies in case of circumvention and effectively nullifies the enforceability of the agreement. The original clause provided excuses for non-performance; the change provides a blanket exemption, making enforcement impossible.",
+        "location": "Section 11",
+        "contradicted_location": "Section 4",
+        "contradicted_text": "4. In the event of circumvention by the \"Parties\" involved in this transaction, either directly or indirectly, it is agreed and guaranteed that a monetary penalty will be paid by the person or persons engaged in or circumvention. This payment will additionally include all reasonable legal expenses incurred by the aggrieved party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the 'force majeure' clause, stating that no party shall be considered in violation 'under any circumstances.' This directly contradicts Section 4, which outlines a monetary penalty for circumvention by the parties involved. If no party can be considered in violation under any circumstances, then the penalty clause in Section 4 becomes unenforceable, creating a strong in-text contradiction. The original text provided excuses for non-performance, while the changed text provides a blanket exemption, making enforcement of Section 4 impossible."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "2. The Agreement is valid and effective for all purposes, business, communications, negotiations, disclosures and transactions of whatever nature between the Parties for a period of two (2) years from the effective date hereof.",
+        "changed_text": "2. The Agreement is valid and effective for all purposes, business, communications, negotiations, disclosures and transactions of whatever nature between the Parties for a period of ten (10) years from the effective date hereof, however, the parties may end this agreement whenever they want",
+        "explanation": "By changing the valid period from 'two (2) years' to 'ten (10) years', but adding 'however, the parties may end this agreement whenever they want',  contradicts the duration of the non-circumvention and non-disclosure obligations. This creates uncertainty about the real duration of the Agreement, is it going to last 10 years or less.",
+        "location": "Section 2",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "2. The Agreement is valid and effective for all purposes, business, communications, negotiations, disclosures and transactions of whatever nature between the Parties for a period of ten (10) years from the effective date hereof, however, the parties may end this agreement whenever they want. 3. Each Party represents, warrants and covenants that all information furnished by said party, or to be furnished by said Party, or to any other Party or Parties hereto is, or will be, true, complete, correct and accurate to best of said Party's knowledge, ability and belief. 4. In the event of circumvention by the \"Parties\" involved in this transaction, either directly or indirectly, it is agreed and guaranteed that a monetary penalty will be paid by the person or persons engaged in or circumvention. This payment will additionally include all reasonable legal expenses incurred by the aggrieved party. 5. This Agreement contains the entire and complete understanding existing between the Parties of the date of its execution regarding the subject matters contained herein, and all former representations, promises or covenants, whether written or verbal, are null and void.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the agreement's duration from a fixed 'two (2) years' to 'ten (10) years' but adds a clause allowing either party to terminate 'whenever they want.' This creates a direct contradiction in the agreement's lifespan, making it unclear whether the agreement is meant to last ten years or is subject to immediate termination. The contradictory nature of the duration undermines the other clauses listed in the contradicted text, specifically around the validity of the representations and the penalties of circumvention for a period of 10 years. This fulfills the definition of a structural flaw that causes an in-text contradiction."
+      }
+    ]
+  }
+]

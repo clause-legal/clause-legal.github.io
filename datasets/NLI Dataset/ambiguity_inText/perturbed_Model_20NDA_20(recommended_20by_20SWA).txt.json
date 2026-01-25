@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "Model%20NDA%20(recommended%20by%20SWA).txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Receiving Party shall hold and keep in strictest confidence any and all Confidential Information and shall treat the Confidential Information with at least the same degree of care and protection as it would treat its own Confidential information.",
+        "changed_text": "The Receiving Party shall endeavor to hold and keep in reasonable confidence any and all Confidential Information and shall treat the Confidential Information with a reasonable degree of care and protection.",
+        "explanation": "This change weakens the standard of care. The original text mandates 'strictest confidence' and treatment with 'at least the same degree of care' as the Receiving Party's own confidential information. The modified text uses 'endeavor,' 'reasonable confidence,' and 'reasonable degree of care,' making the obligation less stringent and introducing ambiguity about the required level of protection. The original text mandates strictest confidence, which introducing ambiguity about the required level of protection is a **in-text contradiction**.",
+        "location": "4",
+        "contradicted_location": "8",
+        "contradicted_text": "The Receiving party acknowledges that damages are not a sufficient remedy for the Disclosing Party for any breach of any of the Receiving Party’s undertakings herein provided and the Receiving Party further acknowledges that the Disclosing party is entitled to specific performance or injunctive relief (as appropriate) as a remedy for any breach or threatened breach of this Agreement and/or any undertakings hereunder by the Receiving Party, in addition to and without prejudice any other remedies available to the Disclosing Party in law or in equity.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires 'strictest confidence' and a degree of care equivalent to the Receiving Party's own confidential information. The changed text weakens this obligation by using 'endeavor,' 'reasonable confidence,' and 'reasonable degree of care.' This creates a contradiction with the 'Contradicted Text,' which states that 'damages are not a sufficient remedy' and the Disclosing Party is entitled to 'specific performance or injunctive relief' for any breach. The change to a 'reasonable' standard of care undermines the basis for specific performance or injunctive relief, as it's less clear what constitutes a breach under the weakened obligation. This introduces ambiguity where the contradicted text expects certainty, aligning with the Ambiguities - In Text Contradiction definition."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "All obligations respecting the Confidential information already provided hereunder shall survive in perpetuity after the date that the specific Confidential information was first disclosed.",
+        "changed_text": "All obligations respecting the Confidential information already provided hereunder shall survive for a period of five (5) years after the termination of this Agreement.",
+        "explanation": "The original clause states confidentiality obligations survive 'in perpetuity,' meaning forever. The modified text limits this to 'five (5) years after the termination of this Agreement.' This introduces a contradiction regarding the duration of confidentiality obligations. This change introduce an **in-text contradiction** since there are different survival clauses in the agreement now.",
+        "location": "19",
+        "contradicted_location": "11",
+        "contradicted_text": "No warranties of any kind are given with respect to the Confidential information and/or any other information disclosed under this Agreement or any use thereof, except as may be otherwise agreed to in writing. Neither party shall be liable to the other hereunder for amounts representing loss of profits, loss of business or indirect, consequential or punitive damages of the other party in connection with the provision or use of Confidential information hereunder except to the extent that such provision or use is caused by and constitutes a breach of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that confidentiality obligations survive 'in perpetuity,' meaning forever. The changed text limits this to 'five (5) years after the termination of this Agreement.' This directly contradicts the original agreement regarding the duration of confidentiality obligations, which now introduces an in-text contradiction according to the Ambiguities - In Text Contradiction definition. The contradicted text does not specify a time frame, thus causing a contradiction in enforceability, as it can be interpreted in multiple ways."
+      }
+    ]
+  }
+]

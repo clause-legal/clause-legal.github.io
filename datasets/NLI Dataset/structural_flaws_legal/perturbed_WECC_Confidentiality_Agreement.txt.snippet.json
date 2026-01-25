@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "WECC_Confidentiality_Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "Data Recipient agrees to comply with all applicable United States export laws and regulations.",
+        "changed_text": "This Agreement shall continue in effect until terminated. This Agreement may be terminated by WECC or Data Recipient at any time at their sole discretion. Data Recipient agrees to comply with all applicable United States export laws and regulations.",
+        "explanation": "Moving the export compliance statement to the termination section obscures its importance. Export regulations are a material part of the agreement and should not be buried.",
+        "contradicted_law": "Export Administration Regulations (EAR)",
+        "law_citation": "15 CFR \u00a7 732.1",
+        "law_url1": [
+          "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-732/section-732.1"
+        ],
+        "law_url2": [
+          "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSCODE-prelim-title50-chapter39&edition=prelim"
+        ],
+        "law_explanation": "15 CFR \u00a7 732.1(b) states that steps for determining export control requirements include examining the transaction to ensure compliance with all applicable export control laws. Placing the compliance statement within the termination clause obscures the ongoing responsibility for compliance throughout the agreement's active period.",
+        "location": "8. Miscellaneous Terms",
+        "desired_official_urls": 2,
+        "scraped_snippet_1": "eCFR :: 15 CFR 732.1 -- Steps overview. Site Feedback You are using an unsupported browser \u00d7 You are using an unsupported browser. This web site is designed for the current versions of Microsoft Edge, Google Chrome, Mozilla Firefox, or Safari. \u00d7 Site Feedback The Office of the Federal Register publishes documents on behalf of Federal agencies but does not have any authority over their programs. We recommend you directly contact the agency associated with the content in question. If you have comments or suggestions on how to improve the www.ecfr.gov website or have questions about using www.ecfr.gov, please choose the 'Website Feedback' button below. Website Feedback If you would like to comment on the current content, please use the 'Content Feedback' button below for instructions on contacting the issuing agency Content Feedback If you have questions for the Agency that issued the current document please contact the agency directly. \u00d7 Website Feedback * Your Name * Email Attachment * How can we help you? * I am requesting technical help or providing website feedback This contact form is only for website help or website suggestions. If you have questions or comments regarding a published document please contact the publishing agency. Comments or questions about document content can not be answered by OFR staff. Please do not provide confidential information or personal data. Browse Titles Agencies Incorporation by Reference Recent Updates Search Recent Changes Corrections Reader Aids Reader Aids Home Using the eCFR Point-in-Time System Understanding the eCFR Government Policy and OFR Procedures Developer Resources My eCFR My Subscriptions Sign Out Sign In / Sign Up Sign In / Sign Up Hi, Sign Out eCFR The Electronic Code of Federal Regulations Enhanced Content :: FR Reference Enhanced content is provided to the user to provide additional context. Enhanced Content :: FR Reference Title 15 This content is from the eCFR and is authoritative but unofficial. Displaying title 15, up to date a",
+        "scraped_snippet_2": "This page is better viewed with a JavaScript enabled browser. Document not Found Document not found The document you were looking for does not exist. Click here to close this window, or click here to go back.",
+        "scrape_success": 2,
+        "contradiction_exists": "YES",
+        "justification": "The original text ensures export compliance throughout the agreement. The changed text, by placing the export compliance statement within the termination section, creates a structural flaw that obscures the ongoing responsibility for compliance, making it difficult to locate and interpret. According to 15 CFR \u00a7 732.1(b), determining export control requirements includes ensuring compliance with all applicable export control laws. By obscuring the compliance statement, the modified text weakens the emphasis on continuous compliance, contradicting the intended legal obligation."
+      },
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "This Agreement shall be for the sole benefit of W ECC and any owner or submitter of the Non - Public Information. This Agreement shall be fully enforceable by WECC and any entity whose Non -Public Information is not treated in accordance with this Agreement.",
+        "changed_text": "This Agreement represents the entire understanding between WECC and Data Recipient related to the Non -Public Information and supersedes all previous communications between WECC and Data Recipient related to this subject. This Agreement can only be modified by written agreement executed by WECC and Data Recipient. Data Recipient may not delegate its duties or obligations under this Agreement without prior written consent from WECC. Any attempt to do so is void. This Agreement shall be for the sole benefit of W ECC and any owner or submitter of the Non - Public Information. This Agreement shall be fully enforceable by WECC and any entity whose Non -Public Information is not treated in accordance with this Agreement.",
+        "explanation": "Moving the 'sole benefit' and 'enforceability' clause, which protects third parties, into the middle of the 'entire agreement' section can mislead a reader into thinking that third parties' rights are somehow limited or conditional, contradicting its original intent.",
+        "contradicted_law": "Third-Party Beneficiary Law (Varies by Jurisdiction, Assuming US)",
+        "law_citation": "Restatement (Second) of Contracts \u00a7 304",
+        "law_url1": [
+          "https://law.cornell.edu/wex/third_party_beneficiary"
+        ],
+        "law_url2": [
+          "https://www.law.upenn.edu/live/files/759-304rechtm"
+        ],
+        "law_explanation": "Restatement (Second) of Contracts \u00a7 304 outlines third-party beneficiary rights. By embedding the clause that explicitly grants rights to third parties within the entire agreement section, it creates ambiguity about whether those rights are subject to the terms of the entire agreement, potentially diminishing their enforceability.",
+        "location": "8. Miscellaneous Terms",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": "third party beneficiary | Wex | US Law | LII / Legal Information Institute Please help us improve our site! \u00d7 No thank you third party beneficiary A third party beneficiary is a person benefiting from a contract made between two other parties, where the two contracting parties intended to benefit the third party beneficiary. The third party beneficiary is not a party to the contract, but has rights under the contract since it was made with an intent to benefit them. [Last reviewed in June of 2024 by the Wex Definitions Team ] Keywords contract law Wex COMMERCE business law contracts wex definitions business sectors commercial transactions Wex Toolbox",
+        "scraped_snippet_2": "Penn WebLogin Log in with your PennKey Username Password Log in Forgot username? Forgot password? Change my password Test my PennKey Privacy policy",
+        "scrape_success": 2,
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces ambiguity regarding the third-party beneficiary rights by embedding the clause that explicitly grants these rights within the 'entire agreement' section. This placement could be interpreted to mean that the third parties' rights are subject to the terms of the entire agreement, potentially diminishing their enforceability. Scraped Law Snippet 1 defines a third-party beneficiary as 'a person benefiting from a contract made between two other parties, where the two contracting parties intended to benefit the third party beneficiary... but has rights under the contract since it was made with an intent to benefit them.' By potentially weakening these rights through the structural placement of the clause, the contract contradicts the intent to benefit the third party, creating a legal contradiction according to the provided definition of 'Structural Flaws Legal Contradiction.'"
+      },
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "Neither WECC nor any owner or submitter of the Non -Public Information makes any representation or warranty as to the completeness, accuracy, relevance, or usability of the Non - Public Information. All Non -Public Information made available to Data Recipient is made available AS IS AND WITHOUT WARRANTY, EXPRESS OR IMPLIED.",
+        "changed_text": "If at any time during the term of this Agreement Data Recipient or an employee of Data Recipient ceases to be employed by his or her then current employer, Data Recipient agrees to notify WECC within five (5) business days of the change in employment. Neither WECC nor any owner or submitter of the Non -Public Information makes any representation or warranty as to the completeness, accuracy, relevance, or usability of the Non - Public Information. All Non -Public Information made available to Data Recipient is made available AS IS AND WITHOUT WARRANTY, EXPRESS OR IMPLIED.",
+        "explanation": "Moving the disclaimer of warranty to the section concerning changes in employment obscures its importance, implying it only applies if employment changes. Disclaimers of warranty should be clear and conspicuous.",
+        "contradicted_law": "Uniform Commercial Code (UCC) - Warranty Disclaimers",
+        "law_citation": "UCC \u00a7 2-316",
+        "law_url1": [
+          "https://www.law.cornell.edu/ucc/2/2-316"
+        ],
+        "law_url2": [
+          "https://uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=e54d4980-ff02-475b-9202-5ff8e02cf74c&forceDialog=0"
+        ],
+        "law_explanation": "UCC \u00a7 2-316 requires warranty disclaimers to be conspicuous. Placing it in the 'Changes in Employment' section reduces its visibility and clarity, making it less likely to be noticed by the data recipient and therefore less enforceable.",
+        "location": "5. Disclaimer and Limitations",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": "\u00a7 2-316. Exclusion or Modification of Warranties. | Uniform Commercial Code | US Law | LII / Legal Information Institute Please help us improve our site! \u00d7 No thank you \u00a7 2-316. Exclusion or Modification of Warranties. (1) Words or conduct relevant to the creation of an express warranty and words or conduct tending to negate or limit warranty shall be construed wherever reasonable as consistent with each other; but subject to the provisions of this Article on parol or extrinsic evidence (Section 2-202 ) negation or limitation is inoperative to the extent that such construction is unreasonable. (2)Subject to subsection (3), to exclude or modify the implied warranty of merchantability or any part of it the language must mention merchantability and in case of a writing must be conspicuous, and to exclude or modify any implied warranty of fitness the exclusion must be by a writing and conspicuous. Language to exclude all implied warranties of fitness is sufficient if it states, for example, that \"There are no warranties which extend beyond the description on the face hereof.\" (3)Notwithstanding subsection (2) (a) unless the circumstances indicate otherwise, all implied warranties are excluded by expressions like \"as is\", \"with all faults\" or other language which in common understanding calls the buyer's attention to the exclusion of warranties and makes plain that there is no implied warranty; and (b) when the buyer before entering into the contract has examined the goods or the sample or model as fully as he desired or has refused to examine the goods there is no implied warranty with regard to defects which an examination ought in the circumstances to have revealed to him; and (c) an implied warranty can also be excluded or modified by course of dealing or course of performance or usage of trade. (4) Remedies for breach of warranty can be limited in accordance with the provisions of this Article on liquidation or limitation of damages and on contractual modification of remed",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a structural flaw by embedding a crucial warranty disclaimer within a section addressing employment changes, contrary to the principle that such disclaimers should be conspicuous. UCC \u00a7 2-316, as highlighted in Scraped Law Snippet 1, mandates that to exclude or modify the implied warranty of merchantability, the language must be conspicuous. By placing the disclaimer in an unexpected section, its visibility is reduced, increasing the likelihood that it will be overlooked by the data recipient, and therefore deemed less enforceable. This aligns with the Structural Flaws Legal Contradiction definition: 'when a required legal disclosure is placed in an irrelevant or misleading section, making it difficult for parties to locate or interpret.'"
+      }
+    ]
+  }
+]

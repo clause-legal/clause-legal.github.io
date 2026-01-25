@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "NETGEAR,INC_04_21_2003-EX-10.16-DISTRIBUTOR AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "A. PRICES. Prices for Produce are those set out in NETGEAR's Price List, less the applicable discount specified in Exhibit 1. All Product prices are F.O.B. NETGEAR's point of shipment, except as specified in Section 5 D.",
+        "changed_text": "A. PRICES. Prices for Produce are those set out in NETGEAR's Price List, less the applicable discount specified in Exhibit 1. All Product prices are F.O.B. Distributor's point of shipment, except as specified in Section 5 D.",
+        "explanation": "This change introduces a contradiction regarding the F.O.B. (Free On Board) point. Originally, it was NETGEAR's point of shipment, meaning the distributor assumes responsibility from NETGEAR's location. Now it states it is from Distributor's point of shipment, implying NETGEAR is responsible until it reaches the distributor's location. This creates a direct contradiction with the original intent and affects risk of loss.",
+        "location": "Section 4",
+        "contradicted_location": "Section 5",
+        "contradicted_text": "D. TITLE, RISK OF LOSS, SECURITY INTEREST. For all shipments to locations within the United States, title to the Hardware passes to Distributor when presented by NETGEAR or its agent to the carrier, from which point Distributor is responsible for risk of all loss, damage to, or theft of all Products. For shipments to locations outside of the United States, (i) risk of loss of all Products passes from NETGEAR to Distributor upon arrival at the point of entry in the destination country specified in Distributor's order.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the F.O.B. point from NETGEAR's point of shipment to the Distributor's point of shipment. This directly contradicts section D (TITLE, RISK OF LOSS, SECURITY INTEREST), which states that for domestic shipments, the title and risk of loss pass to the Distributor when presented to the carrier by NETGEAR. By changing the F.O.B. point, the modified text implies that NETGEAR retains responsibility until the goods reach the Distributor, directly conflicting with the provision that transfers risk of loss upon presentation to the carrier."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "NETGEAR warrants to end-user that each item of Hardware will be free from defects in workmanship and materials for its respective warranty period which begins on the date of purchase by the end user. Should a Product fail within this warranty period, Distributor shall replace such defective Product from Distributor's inventory and accept return of the failed Product from Distributor's customer.",
+        "changed_text": "NETGEAR warrants to end-user that each item of Hardware will be free from defects in workmanship and materials for its respective warranty period which begins 30 days after the date of manufacture. Should a Product fail within this warranty period, end-user shall directly contact NETGEAR for assistance.",
+        "explanation": "This change introduces a contradiction regarding the warranty start date and the return process. Originally, the warranty started on the date of purchase and the Distributor was responsible for replacements. Now, the warranty starts 30 days after manufacture and the end-user contacts NETGEAR directly. This affects how warranty claims are handled, creating an in-text contradiction on whether the distributor is responsible for replacement or not.",
+        "location": "Section 7",
+        "contradicted_location": "Section 7",
+        "contradicted_text": "Should a Product fail within this warranty period, Distributor shall replace such defective Product from Distributor's inventory and accept return of the failed Product from Distributor's customer. At intervals to be mutually agreed upon between NETGEAR and Distributor. Distributor shall contact NETGEAR to receive a Return Material Authorization number for the collected failed Product. Upon receipt of the failed Product, NETGEAR shall issue a credit to Distributor for Distributor's purchase price of the replacement Product issued, less any prior credits or allowances. End-users' exclusive remedy is to receive replacement Product from reseller and NETGEAR's sole obligation and liability under this warranty is to issue an off-setting credit to reseller for Product returned by reseller on behalf of its end-user because of defects in workmanship or material.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the original agreement regarding warranty responsibility. The original text states the distributor handles replacements and returns, while the changed text shifts this responsibility to NETGEAR and alters the warranty start date. This directly conflicts with the contradicted text, which explicitly outlines the distributor's role in the replacement process and NETGEAR's crediting system for the distributor. The change introduces ambiguity and inconsistency in the warranty claim process, making it unclear whether the distributor or NETGEAR is responsible, creating a strong contradiction as per the definition of 'Ambiguities – In Text Contradiction'."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Distributor may not sell or license Products directly to end use customers without the express written consent of NETGEAR. Distributor agrees to use commercially reasonable efforts to maximize sales of NETGEAR Products.",
+        "changed_text": "Distributor may sell or license Products directly to end use customers without the express written consent of NETGEAR. Distributor agrees to use commercially reasonable efforts to maximize sales of NETGEAR Products.",
+        "explanation": "This change directly contradicts the original restriction on selling to end-users. Originally, direct sales to end-users were prohibited without NETGEAR's consent. This has now been removed. If other sections of the contract assume the distributor is only selling to resellers, it creates an internal contradiction concerning the scope of distribution allowed.",
+        "location": "Section 10",
+        "contradicted_location": "Section 10",
+        "contradicted_text": "A. PROMOTION AND SALE. Distributor shall sell or license Products only to resale customers which will in-turn resell or transfer the licenses to those Products to end use customers. Distributor may not sell or license Products directly to end use customers without the express written consent of NETGEAR. Distributor agrees to use commercially reasonable efforts to maximize sales of NETGEAR Products.",
+        "contradiction_exists": "YES",
+        "justification": "The original text prohibited the distributor from selling or licensing products directly to end-use customers without NETGEAR's express written consent. The changed text removes this restriction, allowing the distributor to sell directly to end-users without consent. The contradicted text explicitly states: 'Distributor may not sell or license Products directly to end use customers without the express written consent of NETGEAR.' This creates a direct and irreconcilable conflict within the document regarding the distributor's ability to sell to end-users."
+      }
+    ]
+  }
+]

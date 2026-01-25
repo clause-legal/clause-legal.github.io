@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "183.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "BROOKS, its directors, employees, agents and representatives shall not disclose, disseminate, publish, communicate or divulge any Confidential Information to anyone outside BROOKS, or to any employee of BROOKS not having reasonable need for access to such information, unless CLIENT expressly consents to such disclosure in writing.",
+        "changed_text": "BROOKS, its directors, employees, agents and representatives shall not disclose, disseminate, publish, communicate or divulge any Proprietary Information to anyone outside BROOKS, or to any employee of BROOKS not having reasonable need for access to such information, unless CLIENT expressly consents to such disclosure in writing.",
+        "explanation": "Replacing 'Confidential Information' with 'Proprietary Information' creates ambiguity because 'Confidential Information' is a defined term in section 1.1. This change leads to an in-text contradiction. The parties may then wonder whether 'Proprietary Information' refers to the same information as 'Confidential Information' or includes additional types of data, thus contradicting previous parts of the text where Confidential Information was supposed to be the key term to refer to.",
+        "location": "1.2",
+        "contradicted_location": "4",
+        "contradicted_text": "COMPELLED DISCLOSURE. If BROOKS is legally compelled (whether by regulatory request, deposition, interrogatory, request for documents, subpoena, civil investigation, demand or similar process) to disclose any Confidential Information, BROOKS shall immediately notify the CLIENT in writing of such requirements so that the CLIENT may seek a protective order or other appropriate remedy and/or waive compliance with the provisions hereof. BROOKS will use its best efforts, at Macintosh HD:Users:vibrant:Downloads:CONFIDENTIALITY AGREEMENT.doc the CLIENT’S expense, to obtain or assist CLIENT in obtaining any such protective order.",
+        "contradiction_exists": "YES",
+        "justification": "The original text uses the term 'Confidential Information,' which is a defined term (as stated in the explanation) and the contradicted text also uses 'Confidential Information'. The changed text replaces 'Confidential Information' with 'Proprietary Information'. This change introduces ambiguity (Misaligned Terminology) because it's unclear whether 'Proprietary Information' is synonymous with 'Confidential Information' or has a different scope. Since Section 1.1 defines 'Confidential Information', using 'Proprietary Information' creates ambiguity because it is undefined, thus creating an inconsistency about what information needs to be legally protected as mentioned in the contradicted text. Therefore, the modification introduces an in-text contradiction because it is unsure as to which definition applies in this scenario, creating uncertainty and potential dispute regarding the obligations under the contract."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Each of CLIENT and BROOKS represents and warrants that neither their discussions nor their anticipated business relationship do not and will not breach any agreement which either of them may have with any other party.",
+        "changed_text": "Each of CLIENT and BROOKS represents and warrants that neither their discussions nor their anticipated business engagement do not and will not breach any agreement which either of them may have with any other party.",
+        "explanation": "The change of the term 'business relationship' to 'business engagement' may lead to conflicting intrepretations, as the nature of a 'relationship' and a 'engagement' may differ, creating some uncertanties if the current agreement covers long term or shorter engagements. This creates an In-Text Contradiction, as the original intent of the clause may not hold if the Business engagement ends prematurely.",
+        "location": "2.1",
+        "contradicted_location": "7",
+        "contradicted_text": "Survival. This Agreement shall remain in full force and effect until the earliest of: (a) one (1) year after the termination of the business relationship between the Parties; or (b) any alternate termination date specified in a written amendment modifying or waiving the term of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'business relationship' to 'business engagement' introduces ambiguity. The contradicted text specifies that the agreement remains in effect for one year after the 'termination of the business relationship'. If the 'business engagement' is interpreted as a shorter-term project, it could end before the one-year period defined in the Survival clause. This creates a contradiction, as the duration of the agreement is now dependent on which term is used and how it's interpreted, leading to uncertainty in enforcement and impacting the 'Survival' clause."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "1101204_0001085037-00-000208_0015.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Subject to Article 3 hereof, each Party receiving Information under the Agreement shall hold Information in confidence in accordance with the terms of the Agreement for a period of two (2) years from the date of receipt thereof.",
+        "changed_text": "Subject to Article 3 hereof, each Party receiving Information under the Agreement shall hold Information in confidence in accordance with the terms of the Agreement indefinitely from the date of receipt thereof.",
+        "explanation": "The original text limits the confidentiality period to two years. The modified text changes the confidentiality period to indefinitely. This creates a direct contradiction in terms of how long the parties are bound by the agreement.",
+        "location": "4",
+        "contradicted_location": "6",
+        "contradicted_text": "This Agreement is effective until terminated in accordance with this Article. Either Party, upon two (2) days notice in writing to the other Party, may terminate the Agreement with respect to disclosures made thereafter. The rights and obligations of the Parties hereunder in respect of Information received under and subject to the Agreement shall survive such termination.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies a two-year confidentiality period. The changed text modifies this to an indefinite period. The contradicted text allows termination of the agreement with two days' notice, but states that obligations regarding information received under the agreement survive such termination. If the confidentiality period is indefinite (as per the changed text), then the obligations related to confidentiality survive termination indefinitely, contradicting the possibility of terminating the agreement with respect to disclosures made thereafter. This is a strong contradiction because it creates uncertainty about how long the confidentiality obligations persist after termination."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Because of the trade secret subject matter of Entera's business, Disclosee agrees that it will not solicit the services of any of the employees of Entera during the term of this Agreement and for ninety (90) days thereafter.",
+        "changed_text": "Because of the trade secret subject matter of Entera's business, Disclosee agrees that it may solicit the services of any of the employees of Entera during the term of this Agreement and for ninety (90) days thereafter.",
+        "explanation": "The original text prohibits Disclosee from soliciting Entera's employees during the term of the agreement + 90 days. The modified text states Disclosee *may* solicit those employees during the same period. This introduces a contradiction on whether solicitation is allowed or not.",
+        "location": "5",
+        "contradicted_location": "9",
+        "contradicted_text": "Each Party acknowledges that the unauthorized disclosure or use by the Receiving Party of the Disclosing Party's proprietary and confidential Information will cause irreparable harm and significant injury, the degree of which may be difficult to ascertain. Accordingly, each Party agrees that the Disclosing Party will have the right to obtain an immediate injunction enjoining any breach of this Agreement, as well as the right to pursue any and all other rights and remedies available at law or in equity for such a breach.",
+        "contradiction_exists": "YES",
+        "justification": "The original text prohibits Disclosee from soliciting Entera's employees for a specified period. The changed text explicitly allows Disclosee to solicit those employees during the same period. This directly contradicts the statement in the contradicted text that allows Entera to obtain an injunction for any breach of the agreement. Because the change actively permits an action that was previously prohibited, and the contradicted text states that unauthorized activity leads to legal ramifications, a strong contradiction is present. Thus the Changed Text is in direct conflict with the Contradicted text."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "No license, express or implied, in Information is granted to the Receiving Party other than to use Information in the manner and to the extent authorized by the Agreement.",
+        "changed_text": "A license, express or implied, in Information is granted to the Receiving Party to use Information in any manner and to any extent, regardless of authorization by the Agreement.",
+        "explanation": "The original text states that no license is granted, except as explicitly authorized by the agreement. The modified text grants a license to use information in any manner, even if unauthorized. This introduces a contradiction on whether there's any usage restriction on the information that is shared.",
+        "location": "7",
+        "contradicted_location": "2",
+        "contradicted_text": "The Receiving Party agrees: a. that with respect to Information, a confidential relationship is established between the Parties, and that Receiving Party shall use Information only for the purpose set forth above; b. to treat Information as confidential and to exercise no less care in its protection than Receiving Party uses in protecting its proprietary and confidential Information, or if Receiving Party has established no such standard of care, then Receiving Party shall exercise such care as the Disclosing Party observes to protect Information; <PAGE> c. to restrict dissemination of Information within its organization to employees having a need to know in connection with the purpose of the disclosure set forth above, and to ensure that such employees are informed of the proprietary and confidential nature thereof and that they agree to and observe the requirements of confidentiality set forth herein; d. not to disclose Information to any other party without the written authorization of Disclosing Party; e. not to duplicate Information without the express written permission of Disclosing Party; f. to return or destroy Information which is in written or physical form, together with any and all copies, negatives, or reproductions or derivative works in any media, promptly upon request of Disclosing Party or upon termination or completion of the Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text strictly limits the use of information to what is authorized by the agreement. The changed text grants a license to use information in any manner, regardless of authorization. This directly contradicts the contradicted text, which states that the receiving party must use the information only for a specific purpose, treat it as confidential, restrict its dissemination, and not disclose or duplicate it without permission. The changed text removes all usage restrictions, directly contradicting these obligations and creating a strong in-text contradiction."
+      }
+    ]
+  }
+]

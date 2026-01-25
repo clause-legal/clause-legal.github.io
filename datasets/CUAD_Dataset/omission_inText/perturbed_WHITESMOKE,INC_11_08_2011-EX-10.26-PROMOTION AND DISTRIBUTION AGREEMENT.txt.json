@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTION AND DISTRIBUTION AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "\"Install Completed\" occurs when an End User has completed the install process for a Bundle and the install completed screen is shown to the End User in accordance with Exhibit B.",
+        "changed_text": "\"Install Completed\" occurs when an End User begins the installation process for a Bundle.",
+        "explanation": "The original definition of \"Install Completed\" required the completion of the installation process and the display of the install completed screen as per Exhibit B. The modified definition states that the installation is complete when the user starts the process. This creates an in-text contradiction because the changed definition now contradicts the requirements outlined in Exhibit B which define the conditions under which install completion is measured and payment is triggered. Payments will be made regardless of install is completed or not",
+        "location": "1. DEFINITIONS",
+        "contradicted_location": "4. PAYMENT TERMS",
+        "contradicted_text": "Subject to Clause 4.2, during the Term on a [ * ] basis, Google shall pay to Distributor the applicable payment set out in Exhibit A for each [ * ] and each [ * ] that occurred during the previous [ * ]. Google shall determine the [ * ] in respect of which each [ * ] and [ * ] took [ * ] (using the relevant [ * ]). Notwithstanding the foregoing, in no event will the [ * ] of [ * ] by Google to Distributor for all [ * ] and all [ * ] in respect of [ * ] (as set out in Exhibit A) exceed [ * ] ([ * ]) of the [ * ] to Distributor for such [ * ].",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined \"Install Completed\" as requiring the completion of the installation process and the display of the install completed screen, aligning with Exhibit B. The changed text redefines \"Install Completed\" to occur when an End User begins the installation process. This contradicts the contradicted text, which states that Google shall pay to Distributor for each [ * ] and each [ * ] that occurred. Because payment is tied to installs, the changed text suggests payment will be made when the user only starts the installation process regardless of completion, directly contradicting the apparent payment structure detailed in the contradicted text."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Distributor shall begin distribution of Bundles in accordance with this Agreement (\"Launch\") within [ * ] days following the Effective Date (the date of such Launch, the \"Launch Date\"). Beginning on the Launch Date and continuing throughout the Term, Distributor shall ensure that [ * ]Distributor App distributed by or on behalf of Distributor is bundled with the Distribution Products as set out in this Agreement.",
+        "changed_text": "Distributor may begin distribution of Bundles in accordance with this Agreement (\"Launch\") at any time following the Effective Date (the date of such Launch, the \"Launch Date\").",
+        "explanation": "The original text mandates the start of Bundle distribution within a specified timeframe after the Effective Date. The modified text makes the launch discretionary, potentially conflicting with other sections like payment terms that might rely on a consistent and timely distribution schedule. This creates uncertainty around expected performance and payment timelines, especially those tied to \"Launch Date\" referenced in payment terms in Exhibit A.",
+        "location": "3. DISTRIBUTION AND OTHER OBLIGATIONS",
+        "contradicted_location": "EXHIBIT A",
+        "contradicted_text": "Payments *[ * ] ** [ * ]. *Confidential treatment requested Google Confidential [ * ]",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates the start of Bundle distribution within a specified timeframe after the Effective Date, which influences payment terms as seen in the contradicted text ('Payments *[ * ] ** [ * ].'). The modified text makes the launch discretionary ('Distributor may begin distribution of Bundles...at any time'), potentially conflicting with these payment terms tied to a 'Launch Date.' This creates uncertainty around expected performance and payment timelines, generating a direct contradiction that would likely result in confusion and potential legal issues."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Google may request that Distributor distribute the latest version of the Distribution Products. Distributor shall begin such distribution within [ * ] following Google's request.",
+        "changed_text": "Google may suggest that Distributor consider distributing newer versions of the Distribution Products.",
+        "explanation": "The original clause obligated the Distributor to distribute the latest version of the distribution products within a certain timeframe. The modified version changes 'request' to 'suggest' and removes the timeframe, making it optional for the distributor to distribute the newer version. This creates an internal contradiction within the text as there is no obligation to distribute the latest version of the distribution products. This omission will conflict with section 3.7 (Accurate Reproduction), since there is no obligation to provide the latest version for distributing the products.",
+        "location": "2. LICENSE GRANTS AND RESTRICTIONS",
+        "contradicted_location": "3. DISTRIBUTION AND OTHER OBLIGATIONS",
+        "contradicted_text": "Distributor agrees that in connection with its exercise of the right granted in Clause 2.1 (Products Licence Grant) it shall accurately reproduce the Distribution Products and shall not: (a) modify any Product (including modify the Chrome Browser or Google Toolbar configuration files or registry settings); or (b) insert into the Products any viruses, worms, date bombs, time bombs, or other code that is specifically designed to cause the Products to cease operating, or to damage, interrupt, or interfere with any Products or End User data.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandated distribution of the latest version within a specific timeframe, which aligns with the 'Accurate Reproduction' clause, as it ensured the distributor was providing the correct, up-to-date product. The changed text transforms this obligation into a suggestion, removing the timeframe. This directly contradicts the requirement in the 'Accurate Reproduction' clause that the Distributor 'accurately reproduce the Distribution Products'. If the distributor is only 'suggested' to distribute the latest version and is not obligated to, they may not be accurately reproducing the product as required by the contradicted text. Therefore, there is a direct contradiction."
+      }
+    ]
+  }
+]

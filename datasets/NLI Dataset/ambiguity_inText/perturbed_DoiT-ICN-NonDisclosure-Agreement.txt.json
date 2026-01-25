@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "DoiT-ICN-NonDisclosure-Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "All CONFIDENTIAL INFORMATION furnished hereunder shall be returned at the conclusion of each meeting between Vendor and the State.",
+        "changed_text": "All CONFIDENTIAL INFORMATION furnished hereunder should ideally be returned at the conclusion of each meeting between Vendor and the State, resources permitting.",
+        "explanation": "This change introduces ambiguity and weakens the requirement to return confidential information. Adding 'should ideally' and 'resources permitting' makes the return discretionary. This contradicts the initial intention of strict confidentiality and creates an in-text contradiction.",
+        "location": "3",
+        "contradicted_location": "5",
+        "contradicted_text": "The obligations of this Agreement with respect to the disclosure and use of CONFIDENTIAL INFORMATION shall survive for a period of three (3) years from the date of last disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that all confidential information 'shall be returned', indicating a mandatory requirement. The changed text weakens this requirement by stating that confidential information 'should ideally be returned, resources permitting', making the return discretionary. This contradicts the contradicted text, which states that the obligations regarding confidential information 'shall survive for a period of three (3) years'. The weakened return obligation in the changed text creates a conflict with the continued confidentiality obligation, making enforcement unclear and creating an in-text contradiction as the change introduces ambiguity where certainty existed."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement constitutes the entire understanding between the parties hereto as to the CONFIDENTIAL INFORMATION and merges all prior discussions between them relating thereto.",
+        "changed_text": "This Agreement represents a significant part of the understanding between the parties hereto as to the CONFIDENTIAL INFORMATION and reflects most prior discussions between them relating thereto.",
+        "explanation": "By changing 'constitutes the entire understanding' to 'represents a significant part of the understanding', the amendment implies that there may be other unwritten understandings or agreements not covered in the written contract. This contradicts the purpose of an 'entire agreement' clause. This creates an in-text contradiction because it implies that there may be understandings outside the scope of this document.",
+        "location": "7",
+        "contradicted_location": "8",
+        "contradicted_text": "No amendment of this Agreement shall be valid or binding on the parties unless made in writing and signed on behalf of each of the parties by their respective duly authorized representatives. IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first set forth above. State of Illinois Department of Innovation & Technology Services [Vendor] By: By: (Typed or printed name and Title) (Typed or printed name and Title)",
+        "contradiction_exists": "YES",
+        "justification": "The original text's 'entire understanding' clause was meant to prevent external agreements from influencing the contract. The changed text weakens this by stating it only 'represents a significant part,' thus allowing external understandings. The contradicted text specifies amendments must be in writing, but if the modified text allows for other unwritten understandings, the clause about written amendments becomes ineffective because not all terms are written. This creates a direct contradiction because the amended text opens the door to verbal agreements, which the contradicted text doesn't allow."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "No amendment of this Agreement shall be valid or binding on the parties unless made in writing and signed on behalf of each of the parties by their respective duly authorized representatives.",
+        "changed_text": "Amendments to this Agreement are encouraged to be made in writing and signed on behalf of each of the parties by their respective duly authorized representatives, although verbal agreements may be considered valid in certain circumstances.",
+        "explanation": "The original text mandates all amendments must be in writing to be valid. The modified version suggests verbal agreements may also be valid, creating a direct contradiction. If amendments are allowed without written confirmation, there is an in-text contradiction that creates a legal ambiguity about whether the written or verbal alterations are valid.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "Amendments to this Agreement are encouraged to be made in writing and signed on behalf of each of the parties by their respective duly authorized representatives, although verbal agreements may be considered valid in certain circumstances. IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first set forth above. State of Illinois Department of Innovation & Technology Services [Vendor] By: By: (Typed or printed name and Title) (Typed or printed name and Title)",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates that all amendments must be in writing to be valid, whereas the changed text states that while written amendments are encouraged, verbal agreements may also be considered valid in certain circumstances. This creates a direct conflict in the agreement regarding the validity of amendments. The contradicted text is identical to the changed text, which reinforces that the modification introducing the allowance of verbal agreements directly contradicts the original intention of only written amendments being valid, thus creating an in-text contradiction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "PrecheckHealthServicesInc_20200320_8-K_EX-99.2_12070169_EX-99.2_Distributor Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Principal appoints the Distributor as a non-exclusive distributor, to sell Principal's qPCR infectious disease kits, Logix Smart COVID-19 PCR diagnostic test and Co-Dx Box™ instrument (the \"Products\"). The Products are described on Exhibit A to this Agreement.",
+        "changed_text": "The Principal appoints the Distributor as a non-exclusive distributor, to sell Principal's qPCR infectious disease kits, Logix Smart COVID-19 PCR diagnostic test and Co-Dx Box™ instrument (the \"Products\").",
+        "explanation": "By omitting the phrase \"The Products are described on Exhibit A to this Agreement,\" we remove the explicit link to Exhibit A, which is supposed to list the Products. This creates an in-text contradiction because the contract still refers to \"the Products\" in other sections, but without Exhibit A, there is no clear or agreed-upon definition of what those products are, creating uncertainty in enforcement when it comes to disputes about which products the distributor is authorized to sell.",
+        "location": "1",
+        "contradicted_location": "5",
+        "contradicted_text": "The parties agree that the list of Products and/or prices may be amended from time to time. The Principal may unilaterally remove Products from the catalog or change prices. Additions to the Products shall be by mutual agreement. However, in the event the Distributor rejects a new product addition to the product list, the Principal shall then retain the right to market and distribute the new product that is rejected by the Distributor.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the explicit reference to Exhibit A, which defines \"the Products.\" The contradicted text references the \"list of Products,\" but without the original reference to Exhibit A, the contract lacks a clear definition of what constitutes \"the Products.\" This creates a strong in-text contradiction and enforcement uncertainty because the principal can change the products but there is no defined products to change from anymore. This aligns with the Omissions - In Text Contradiction definition."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Principal will grant Distributor a discount based on the Products and Prices. The proposed discount is expected to be ¨%. Discount may vary depending on product volume ordered or promotions.",
+        "changed_text": "Principal will grant Distributor a discount. Discount may vary depending on product volume ordered or promotions.",
+        "explanation": "By omitting the phrase \"based on the Products and Prices\" the section now lacks a clear mechanism for calculating the discount, which is a key element of the financial agreement. The removed text makes it ambiguous as to how the discount is actually calculated, because without the prices of the products, it creates uncertainty. This leads to an in-text contradiction because the Distributor is mentioned to be an \"independent contractor\" in section 13 of the document, but without this information, the discount could be arbitrary which could be seen as trying to bind them.",
+        "location": "9",
+        "contradicted_location": "13",
+        "contradicted_text": "The Distributor is an independent contractor and nothing contained in this agreement shall be deemed or interpreted to constitute the Distributor as a partner or employee of the Principal, nor shall either party have any authority to bind the other in any respect, it being understood and agreed that all orders submitted by the Distributor are subject to acceptance by Principal in its sole discretion.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the phrase \"based on the Products and Prices,\" leading to ambiguity in calculating the discount. This directly contradicts the \"independent contractor\" status defined in the contradicted text. Without a clear discount calculation mechanism tied to products and prices, the principal could arbitrarily set the discount, potentially binding the distributor in a way that violates their independence. This creates a significant conflict as the distributor's independence assumes some degree of control or predictability in the discount structure, which is removed by the omission."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "In the event of termination, the Distributor shall be entitled to receive all orders accepted by the Principal prior to the date of termination and may sell the ordered Products in the Territory. Payment to be made upon shipment.",
+        "changed_text": "In the event of termination, the Distributor shall be entitled to receive all orders accepted by the Principal prior to the date of termination and may sell the ordered Products in the Territory.",
+        "explanation": "By omitting \"Payment to be made upon shipment.\" this clause now lacks clear payment terms for orders accepted before termination. While the Distributor can sell Products post-termination, the absence of the payment term creates ambiguity and could lead to disputes. The in-text contradiction arises because section 13 describes the Distributor as an independent contractor. By removing the payment method, it causes a contradiction because section 13, is contradicting due to the lack of specific payment terms causes uncertainty in the 'independent contractor' clause.",
+        "location": "11",
+        "contradicted_location": "13",
+        "contradicted_text": "The Distributor is an independent contractor and nothing contained in this agreement shall be deemed or interpreted to constitute the Distributor as a partner or employee of the Principal, nor shall either party have any authority to bind the other in any respect, it being understood and agreed that all orders submitted by the Distributor are subject to acceptance by Principal in its sole discretion.",
+        "contradiction_exists": "YES",
+        "justification": "The omission of \"Payment to be made upon shipment\" creates a contradiction with the 'independent contractor' clause. The original text specifies a payment method, which helps define the commercial relationship. By removing the payment terms, the amended text introduces ambiguity regarding how the distributor is compensated, thus weakening the definition of 'independent contractor' in the contradicted section. The lack of specific payment terms now implies a different kind of relationship than initially defined, leading to potential disputes."
+      }
+    ]
+  }
+]

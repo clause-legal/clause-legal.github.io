@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "MelbourneDatathon2017NDA.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Confidant may only use Confidential Information disclosed to it under this deed for the sole purpose of the Datathon and must use Confidential Information strictly in accordance with NostraData ’s directions and otherwise in accordance with this deed .",
+        "changed_text": "The Confidant may use Confidential Information disclosed to it under this deed for the sole purpose of the Datathon. However, the Confidant has broad discretion to use insights derived from the Confidential Information for commercial purposes after the Datathon, unless NostraData explicitly objects in writing within 30 days of the Datathon's conclusion.",
+        "explanation": "The original clause strictly limits the use of Confidential Information to the Datathon's purpose, with no mention of commercial use after the Datathon. The inserted change allows for commercial use of derived insights, contradicting the initial restriction. This contradiction appears within the same section, as it allows for commercial usage even though it initially established using the data for the Datathon.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "2 Use of Confidential Information The Confidant may only use Confidential Information disclosed to it under this deed for the sole purpose of the Datathon and must use Confidential Information strictly in accordance with NostraData ’s directions and otherwise in accordance with this deed .",
+        "contradiction_exists": "YES",
+        "justification": "The original text and the contradicted text state that the Confidential Information may only be used for the Datathon. The changed text introduces an exception allowing commercial use of insights derived from the Confidential Information after the Datathon, unless NostraData objects. This directly contradicts the initial restriction that confines the data use solely to the Datathon's purpose, therefore there exists an in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Confidant must not disclose any Confidential Information to any third party without the express and prior written consent of NostraData .",
+        "changed_text": "The Confidant must not disclose any Confidential Information to any third party without the express and prior written consent of NostraData, except that high-level aggregated insights derived from the Confidential Information may be shared with potential investors for funding purposes.",
+        "explanation": "The original text forbids disclosure of Confidential Information to third parties without written consent. The modified text creates an exception for sharing aggregated insights with investors, directly contradicting the initial restriction. This introduces an in-text contradiction within the same section of the contract.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "3 Disclosure of Confidential Information The Confidant must not disclose any Confidential Information to any third party without the express and prior written consent of NostraData . The Confidant must take all reasonable precautions to avoid unauthorised disclosure and protect against unauthorised use o f the Confidential Information , such precautions to be at least as stringent as those used by the Confidant for the protection of the Confidant ’s own confidential information and always in accordance with the Privacy Act 1988 . The Confidant must not store the Confidential Information on a public web server. 2",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that 'The Confidant must not disclose any Confidential Information to any third party without the express and prior written consent of NostraData.' The changed text adds an exception: 'except that high-level aggregated insights derived from the Confidential Information may be shared with potential investors for funding purposes.' This creates a direct contradiction because the original text forbids any disclosure without consent, while the changed text allows disclosure to investors under specific circumstances, regardless of whether NostraData gives consent or not. This contradicts the contradicted text."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Following any request by NostraData , the Confidant must immediately provide to NostraData all Confidential Information and certify that no Confidential Information is retained by the Confidant . The obligation to return Confidential Information includ es the obligation to return any and all Confidential Information in physical, electronic or other tangible form.",
+        "changed_text": "Following any request by NostraData, the Confidant must return all Confidential Information, except that the Confidant may retain a copy of any derived analytical models developed during the Datathon, which may be retained indefinitely for internal research purposes, despite any other provision in this document.",
+        "explanation": "Originally, the Confidant had to return *all* Confidential Information upon request. Now, they are allowed to keep analytical models developed during the Datathon, contradicting the completeness of the return obligation previously established. This contradicts the section in question. by creating an exception when they have to return all confidnetial information.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "9 Return of Confidential Information Following any request by NostraData , the Confidant must immediately provide to NostraData all Confidential Information and certify that no Confidential Information is retained by the Confidant . The obligation to return Confidential Information includ es the obligation to return any and all Confidential Information in physical, electronic or other tangible form.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the Confidant must return *all* Confidential Information. The changed text allows the Confidant to retain a copy of analytical models developed during the Datathon. This directly contradicts the contradicted text which states that the Confidant must return all Confidential Information and certify that no Confidential Information is retained. The change introduces an exception to the 'return all' obligation, creating a clear in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "At the conclusion of the Datathon the Confi dant must permanently delete all data provided by NostraData . The data may be retained if NostraData makes specific requests for further demonstrations.",
+        "changed_text": "At the conclusion of the Datathon, the Confidant must permanently delete all raw data provided by NostraData unless the Confidant uses third party licensed libraries, in which it may be retained indefinitely for debugging purposes or reproducibility.",
+        "explanation": "The original text states that all data must be permanently deleted at the end of the Datathon, with an exception for further demonstrations explicitly requested by NostraData. The modified text introduces a new exception, where the data can be kept indefinitely for debugging purposes, specifically when third party libraries are used. This contradicts the initial requirement for complete deletion within the same section by creating an exception that was not present in the original agreement.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "10 Deletion of data at the conclusion of the Datathon At the conclusion of the Datathon the Confi dant must permanently delete all data provided by NostraData . The data may be retained if NostraData makes specific requests for further demonstrations.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds an exception that allows the Confidant to retain the data indefinitely for debugging purposes, even after the Datathon, contradicting the original requirement and the contradicted text, which mandates permanent deletion of all data at the Datathon's conclusion unless NostraData requests otherwise. The new exception directly conflicts with the original mandatory deletion, creating a strong in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Any source code developed by the Confidant for the purpose of the Datat hon will remain the intellec tual property of the Confidant. It is not required to submit source code to be eligible to participate in the Datathon. By making a submi ssion at the conclusion of the D atathon , consisting of a deck of slides presenting the Confidant's insights extracted from the Confidential Information, the Confidant grants the Datathon organisers and NostraData an irrevocable, non -exclusive, royalty -free and perpetual right to use, modify, di stribute to the public, and publicly display the content of the submission",
+        "changed_text": "Any source code developed by the Confidant for the purpose of the Datathon will remain the intellectual property of the Confidant, unless the submission receives an award, in which case it becomes the joint property of NostraData and the Confidant. By making a submission at the conclusion of the Datathon, consisting of a deck of slides presenting the Confidant's insights extracted from the Confidential Information, the Confidant grants the Datathon organisers and NostraData an irrevocable, non-exclusive, royalty-free and perpetual right to use, modify, distribute to the public, and publicly display the content of the submission.",
+        "explanation": "The clause originally grants full IP rights of any developed source code to the confidant. The change states that upon receiving an award, source code becomes joint property. This directly contradicts the prior statement of full ownership within the same section. This change allows NostraData to get intellectual property when previously they would not get this in this situation.",
+        "location": "11",
+        "contradicted_location": "11",
+        "contradicted_text": "11 Intellectual Property Any source code developed by the Confidant for the purpose of the Datat hon will remain the intellec tual property of the Confidant. It is not required to submit source code to be eligible to participate in the Datathon. By making a submi ssion at the conclusion of the D atathon , consisting of a deck of slides presenting the Confidant's insights extracted from the Confidential Information, the Confidant grants the Datathon organisers and NostraData an irrevocable, non -exclusive, royalty -free and perpetual right to use, modify, di stribute to the public, and publicly display the content of the submission",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the original text by stating that source code intellectual property shifts to joint ownership with NostraData upon receiving an award. This directly contradicts the contradicted text and original text which grants full intellectual property rights of any developed source code to the Confidant, thus creating a strong in-text contradiction. The original text states the Confidant retains all IP, whereas the changed text removes that right in some situations."
+      }
+    ]
+  }
+]

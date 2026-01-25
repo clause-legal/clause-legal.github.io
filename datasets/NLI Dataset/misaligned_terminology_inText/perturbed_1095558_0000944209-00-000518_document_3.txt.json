@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "1095558_0000944209-00-000518_document_3.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Amended and Restated Mutual Confidentiality and Non-Disclosure Agreement (\"Agreement\") is entered into as of March 1, 1998 between TWENTIETH CENTRUTY FOX HOME ENTERTAINMENT, INC. (\"Company\") (collectively, \"Parties\"). This Agreement amends and restates in its entirety the Mutual Confidentiality and Non- Disclosure Agreement previously entered into by the Parties.",
+        "changed_text": "This Amended and Restated Mutual Confidentiality and Non-Disclosure Agreement (\"Agreement\") is entered into as of March 1, 1998 between TWENTIETH CENTRUTY FOX HOME ENTERTAINMENT, INC. (\"Company\") (collectively, \"Entities\"). This Agreement amends and restates in its entirety the Mutual Confidentiality and Non- Disclosure Agreement previously entered into by the Parties.",
+        "explanation": "The term 'Parties' is replaced with 'Entities.' This introduces ambiguity. Throughout the document, the term 'Parties' is used to define responsibilities. By changing it to 'Entities,' it's unclear if all subsequent references to 'Parties' still apply, or if the responsibilities now fall on a broader set of entities.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "This Amended and Restated Mutual Confidentiality and Non-Disclosure Agreement (\"Agreement\") is entered into as of March 1, 1998 between TWENTIETH CENTRUTY FOX HOME ENTERTAINMENT, INC. (\"Company\") (collectively, \"Entities\"). This Agreement amends and restates in its entirety the Mutual Confidentiality and Non- Disclosure Agreement previously entered into by the Parties.",
+        "contradiction_exists": null,
+        "justification": "Gemini call failed"
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "As a condition of one of the Parties or its agents or its representatives furnishing Confidential Information (\"Furnishing Party\") to the other of the Parties or its agents or its representatives receiving Confidential Information (\"Receiving Party\"), the Receiving Party shall treat the Confidential Information confidentially as set forth below.",
+        "changed_text": "As a condition of one of the Parties or its agents or its representatives furnishing Confidential Information (\"Furnishing Source\") to the other of the Parties or its agents or its representatives receiving Confidential Information (\"Receiving Party\"), the Receiving Party shall treat the Confidential Information confidentially as set forth below.",
+        "explanation": "The term 'Furnishing Party' is replaced with 'Furnishing Source' within the same sentence where the term 'Receiving Party' is defined and used. This creates confusion. The contract later refers to 'Furnishing Party,' potentially leading to disputes about which entity is bound by those specific obligations.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "As a condition of one of the Parties or its agents or its representatives furnishing Confidential Information (\"Furnishing Source\") to the other of the Parties or its agents or its representatives receiving Confidential Information (\"Receiving Party\"), the Receiving Party shall treat the Confidential Information confidentially as set forth below.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines 'Furnishing Party'. The changed text replaces 'Furnishing Party' with 'Furnishing Source' in the same defining sentence. The contradicted text also uses 'Furnishing Source'. Because the original definition was altered by the change, it creates a misalignment in terminology. Since 'Furnishing Party' is not defined, it creates a contradiction between the Changed Text and the Contradicted text as they refer to different definitions for the Furnishing entity, per the Perturbation Explanation, and as it relates to the definition of Misaligned Terminology in the Perturbation Definitions."
+      }
+    ]
+  }
+]

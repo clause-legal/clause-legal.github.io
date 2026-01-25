@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "DRAGONSYSTEMSINC_01_08_1999-EX-10.17-OUTSOURCING AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Payments will be due in US dollars within 30 days after delivery, or when agreed after delivery of installments or the receipt of invoice by Dragon Systems, which ever is later.",
+        "changed_text": "Payments will be due in US dollars within 60 days after delivery, or when agreed after delivery of installments or the receipt of invoice by Dragon Systems, which ever is later.",
+        "explanation": "This change creates a contradiction. The original text specifies a 30-day payment term, while the modified version extends it to 60 days. This will create an in-text contradiction with section 4, 'ACCEPTANCE OF SERVICES Dragon Systems may reject the Services if they do not comply with the specification set out by Dragon \\s\\ JB. The Services are deemed to be accepted if MMI does not receive a notification within 60 days after delivery to Dragon Systems or its customers.' because now Payment is due in 60 days and the services are deemed to be accepted after 60 days of delivery.",
+        "location": "5",
+        "contradicted_location": "4",
+        "contradicted_text": "Dragon Systems may reject the Services if they do not comply with the specification set out by Dragon \\s\\ JB. The Services are deemed to be accepted if MMI does not receive a notification within 60 days after delivery to Dragon Systems or its customers.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the payment due date from 30 days to 60 days after delivery. The contradicted text states that services are deemed accepted if no notification is received within 60 days after delivery. The contradiction arises because, under the original text, MMI had 30 days to pay but Dragon Systems had 60 days to reject the services after delivery. Under the changed text, MMI has 60 days to pay and Dragon Systems has 60 days to reject the services. Even though both parties have 60 days, it is still a contradiction because now payment due date and deadline to reject services are aligned, creating potential conflicts and uncertainties, which did not previously exist."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "MMI shall invoice Dragon Systems indicating the performed services in US$ with reference to this Agreement. Dragon Systems shall be entitled to deduct from or set off against any sums which Dragon Systems may be liable to pay to MMI any amounts owed by MMI, its affiliated entities, subsidiaries or successors in interest.",
+        "changed_text": "MMI shall invoice Dragon Systems indicating the performed services in US$ with reference to this Agreement. Dragon Systems shall not be entitled to deduct from or set off against any sums which Dragon Systems may be liable to pay to MMI any amounts owed by MMI, its affiliated entities, subsidiaries or successors in interest.",
+        "explanation": "This change introduces a direct contradiction. The original text allows Dragon Systems to deduct amounts owed by MMI from payments, while the modified version explicitly prohibits it. This in-text contradiction creates an uncertainty in enforcement, because now it is unclear if Dragon Systems can deduct any amount owed from what Dragon Systems may be liable to pay to MMI, in contrast with the original text.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "PAYMENT AND PRICING Dragon Systems will compensate MMI for all Services rendered in accordance with the rates specified in the Annex \"Prices.\" Unless otherwise agreed, prices shall exclude transport, insurance, VAT and Import duties (outside EC countries) to Dragon Systems' designated delivery address. For all materials in stock, older than 90 days, MMI will charge Dragon Systems with an Inventory Carriage Charge of [**] of its value per month. MMI will invoice Dragon Systems based on actual shipments that have been performed. Payments will be due in US dollars within 30 days after delivery, or when agreed after delivery of installments or the receipt of invoice by Dragon Systems, which ever is later. MMI shall invoice Dragon Systems indicating the performed services in US$ with reference to this Agreement. Dragon Systems shall not be entitled to deduct from or set off against any sums which Dragon Systems may be liable to pay to MMI any amounts owed by MMI, its affiliated entities, subsidiaries or successors in interest.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly prohibits Dragon Systems from deducting amounts owed by MMI, while the contradicted text contains the original clause that allowed this deduction. This direct conflict within the same PAYMENT AND PRICING section introduces a strong in-text contradiction, as it is now unclear whether Dragon Systems can deduct any amount owed. This falls under the definition of 'Inconsistencies - In Text Contradiction' where different sections of a contract provide conflicting obligations."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Should MMI not supply the Services as agreed or should the Services become defective within 6 months from their delivery to Dragon Systems, Dragon Systems may at its option require MMI to complete or re-perform the Services within a reasonable period of time, rescind the contract or refuse payment of the compensation in part or in total, notwithstanding any damage claims.",
+        "changed_text": "Should MMI not supply the Services as agreed or should the Services become defective within 3 months from their delivery to Dragon Systems, Dragon Systems may at its option require MMI to complete or re-perform the Services within a reasonable period of time, rescind the contract or refuse payment of the compensation in part or in total, notwithstanding any damage claims.",
+        "explanation": "By changing '6 months' to '3 months', this creates an in-text contradiction within the section and in other section. The original warranty period is 6 months, and the modified warranty period is 3 months. This change introduce a contradiction of the the 6 month period, creating uncertainty to the agreement. In Section 4 the acceptance is in 60 days and the warranty is in 3 months, if the services are not accepted in 60 days, how can the warranty be effective.",
+        "location": "6",
+        "contradicted_location": "4",
+        "contradicted_text": "Dragon Systems may reject the Services if they do not comply with the specification set out by Dragon \\s\\ JB. The Services are deemed to be accepted if MMI does not receive a notification within 60 days after delivery to Dragon Systems or its customers.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the warranty period from 6 months to 3 months. The contradicted text states that services are deemed accepted if no notification is received within 60 days (2 months). If the warranty is only 3 months and acceptance is 2 months, it introduces an inconsistency in that the 3-month warranty period starts effectively one month after acceptance (2 months), directly contradicting the reasonable expectation of a 3 month warranty from the time of acceptance. This discrepancy creates a clear contradiction regarding the effective period of the warranty, causing confusion and potential unenforceability. Therefore, it's a direct conflict."
+      }
+    ]
+  }
+]

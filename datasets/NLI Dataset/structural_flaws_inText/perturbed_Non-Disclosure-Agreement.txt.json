@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "Non-Disclosure-Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "“Confidential Information” means any bus iness and/or personally identifiable information relating to Tompkins Cortland Community College 's students, employees or other parties contained in files or storage systems to which the Company will be provided access by Tompkins Cortland Community Colle ge.",
+        "changed_text": "“Confidential Information” means any business and/or personally identifiable information relating to Tompkins Cortland Community College's students, employees or other parties contained in files or storage systems to which the Company will be provided access by Tompkins Cortland Community College , except for student records.",
+        "explanation": "By adding \"except for student records\" to the definition of 'Confidential Information' in Section 2, we create a contradiction with Section 11 which states \"All laws governing the 'Confidential Information' of the College, including FERPA - Family Educational Rights and Privacy Act... will be strictly followed.\" FERPA is specifically designed to protect student records, and excluding them from the definition of 'Confidential Information' undermines the commitment to comply with FERPA stated in Section 11. It creates uncertainty about whether student records are actually protected under this agreement.",
+        "location": "2",
+        "contradicted_location": "11",
+        "contradicted_text": "All laws governing the \"Confidential Information\" of the College, including FERPA - Family Educational Rights and Privacy Act, HIPPA - Health Insurance Portability Act, Gramm -Leach -Bliley Act, New York State Information Security Breach and Notification Act, Sarbanes -Oxley Act and others that may apply will be strictly followed.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the definition of 'Confidential Information' to exclude student records. The contradicted text states that all laws governing the 'Confidential Information' of the College, including FERPA, will be strictly followed. Since FERPA specifically protects student records, excluding student records from the definition of 'Confidential Information' directly contradicts the commitment to comply with FERPA, creating a strong in-text contradiction. The modified text creates a direct conflict and inconsistency as the college is now stating student records may not be considered confidential, in contradiction of federal law that mandates they are."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "All Confidential Information shall remain the property of Tompkins Cortland Community College . No rights or license therein is granted except a limited right to use the Confidential Information solely for the Purpose.",
+        "changed_text": "All Confidential Information shall remain the property of Tompkins Cortland Community College . The Company is granted full ownership of all insights and derivative works created using the Confidential Information. No rights or license therein is granted except a limited right to use the Confidential Information solely for the Purpose.",
+        "explanation": "Section 4 states that all Confidential Information remains the property of Tompkins Cortland Community College. However, by adding that 'The Company is granted full ownership of all insights and derivative works created using the Confidential Information' directly contradicts the first sentence. This introduces confusion regarding the ownership of the data derived from the Confidential Information and creates uncertainty about property rights. The rights for the Company being added, generates a contradiction with the original sentence in Section 4.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "All Confidential Information shall remain the property of Tompkins Cortland Community College . The Company is granted full ownership of all insights and derivative works created using the Confidential Information. No rights or license therein is granted except a limited right to use the Confidential Information solely for the Purpose.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds 'The Company is granted full ownership of all insights and derivative works created using the Confidential Information' to a section that previously stated 'All Confidential Information shall remain the property of Tompkins Cortland Community College.' This directly contradicts the original statement by granting ownership of derivative works to 'The Company' while simultaneously stating that all Confidential Information remains the property of 'Tompkins Cortland Community College'. This creates a clear and strong contradiction regarding the ownership of insights and derivative works, making the contract unclear and potentially unenforceable."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Upon request of Tompkins Cortland Community College , the Company shall promptly return all copies of the Confidential Information, in whatever form or media, to Tompkins Cortland Community College , or certify the destruction of all such Confidential Information.",
+        "changed_text": "Upon request of Tompkins Cortland Community College , the Company may, at its discretion, return all copies of the Confidential Information, in whatever form or media, to Tompkins Cortland Community College , or certify the destruction of all such Confidential Information.",
+        "explanation": "Section 6 originally states the Company 'shall promptly return' all copies of Confidential Information upon request. By changing 'shall promptly return' to 'may, at its discretion, return,' the obligation of the Company to return the information becomes optional. This contradicts the mandatory return stated in the original sentence, creating uncertainty. If the return of the information is not mandatory, it undermines Tompkins Cortland Community College control over its Confidential Information, contradicting the purpose of the agreement.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "This Agreement shall be effective on the date of its full execution by the Parties. Upon request of Tompkins Cortland Community College , the Company may, at its discretion, return all copies of the Confidential Information, in whatever form or media, to Tompkins Cortland Community College , or certify the destruction of all such Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the company 'shall promptly return' confidential information, creating a mandatory obligation. The changed text modifies this to 'may, at its discretion, return,' making the return optional. This directly contradicts the original mandatory obligation. The contradicted text is identical to the changed text, meaning the contradiction exists because the changed text creates conflicting obligations within the same section, directly undermining the enforceability and intent of the confidentiality agreement by making the return of confidential information discretionary, which is a clear in-text contradiction according to the definition of structural flaws causing in-text contradictions."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Any waiver of a default in performance hereunder shall be deemed a waiver of the particular instance only and shall not be deemed consent to continuing default.",
+        "changed_text": "Any waiver of a default in performance hereunder may be deemed a waiver of all defaults, past and future.",
+        "explanation": "Section 8 states that any waiver of default is only for that particular instance, not a continuing default. However, changing 'shall be deemed a waiver of the particular instance only' to 'may be deemed a waiver of all defaults, past and future' directly contradicts this. This introduces uncertainty as to whether a waiver is limited or broad, undermining the clarity and enforceability of the contract's performance requirements and creates an in-text contradiction with the rest of the sentence of Section 8",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "If any of this Agre ement is held to be unenforceable, such unenforceable part shall be deemed modified or eliminated to the extent necessary to make the remaining parts enforceable. Any waiver of a default in performance hereunder may be deemed a waiver of all defaults, past and future. Any waiver of a default in performance hereunder shall be deemed a waiver of the particular instance only and shall not be deemed consent to continuing default.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated a waiver of default applies to that specific instance only. The changed text now allows a waiver to be deemed applicable to all defaults, past and future. This directly contradicts the initial limitation on waivers, creating a clear inconsistency within the contract regarding the scope of default waivers. The contradicted text is the same as the Changed text, but the explanation clearly shows the Change is what causes a contradiction based on Section 8."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Company agrees that there may not be an adequate remedy at law for any breach of the obligations hereunder and upon any such breach or any threat thereof by Company, Tompkins Cortland Com munity College shall be entitled to seek appropriate equitable relief without necessity of posting bond, in addition to whatever other remedies it might be entitled",
+        "changed_text": "Company agrees that there may not be an adequate remedy at law for any breach of the obligations hereunder and upon any such breach or any threat thereof by Company, Tompkins Cortland Community College shall be entitled to seek appropriate equitable relief, but will be required to post a bond, in addition to whatever other remedies it might be entitled",
+        "explanation": "Section 9 grants Tompkins Cortland Community College the right to seek equitable relief without posting a bond. The change alters this by stating they 'will be required to post a bond.' This is a direct contradiction, creating confusion about the conditions under which equitable relief can be sought and creating an in-text contradiction within Section 9",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "Company agrees that there may not be an adequate remedy at law for any breach of the obligations hereunder and upon any such breach or any threat thereof by Company, Tompkins Cortland Community College shall be entitled to seek appropriate equitable relief, but will be required to post a bond, in addition to whatever other remedies it might be entitled",
+        "contradiction_exists": "YES",
+        "justification": "The original text in Section 9 allows Tompkins Cortland Community College to seek equitable relief without posting a bond. The changed text amends this, now requiring them to post a bond in order to seek equitable relief. This directly contradicts the original provision, creating an in-text contradiction within Section 9 itself, as confirmed in the explanation."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Neither Party may assign its rights or delegate its duties or obligations under this Agreement without the other Party’s prior written consent. This Agreement constitutes the entire agreement of the Parties with respect to the subject matter and supersedes all prior agreements or understandings, written or oral, between the Parties with respect thereto.",
+        "changed_text": "Either Party may assign its rights or delegate its duties or obligations under this Agreement without the other Party’s prior written consent. This Agreement constitutes the entire agreement of the Parties with respect to the subject matter and supersedes all prior agreements or understandings, written or oral, between the Parties with respect thereto.",
+        "explanation": "In Section 10, changing 'Neither Party' to 'Either Party' creates a significant contradiction. The original clause clearly prohibits either party from assigning rights or delegating duties without written consent. The modified clause implies that *either* party *can* assign rights and delegate duties with written consent. This completely reverses the original intent of the clause, introduces uncertainty as to what would happen with assingment, and creates an in-text contradiction in Section 10.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "This Agreement shall be governed by and construed in accordance with the laws of the state of New York, without regard to its conflict of law provisions. Either Party may assign its rights or delegate its duties or obligations under this Agreement without the other Party’s prior written consent. This Agreement constitutes the entire agreement of the Parties with respect to the subject matter and supersedes all prior agreements or understandings, written or oral, between the Parties with respect thereto.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated 'Neither Party may assign...' implying a prohibition without consent. The changed text replaces 'Neither' with 'Either', stating 'Either Party may assign...', implying permission with consent. This directly contradicts the contradicted text which contains the same language as the changed text, thus creating a strong and irreconcilable in-text contradiction regarding assignment rights. The explanation provided explicitly states this reversal and uncertainty as the reason for contradiction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "1473637_0001432093-12-000764_ex10-34.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "As used in this Agreement, in each case where a party is disclosing Proprietary Information that party is referred to as the \"Disclosing Party\" and the party receiving such Confidential Information is referred to as the \"Recipient\".",
+        "changed_text": "As used in this Agreement, in each case where a party is disclosing Proprietary Information that party is referred to as the \"Disclosing Party\".",
+        "explanation": "By omitting the definition of 'Recipient', the agreement becomes unclear about the responsibilities of the party receiving the Proprietary Information. This creates an in-text contradiction in later sections where the term 'Recipient' is used without a clear definition, specifically in Section 2, which outlines the responsibilities of the Recipient.",
+        "location": "Section 1",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "Recipient agrees to hold Proprietary Information in confidence and to protect it against disclosure to the public and third parties. Accordingly, Recipient shall employ protective measures fully commensurate with those used by Recipient to protect its own trade secrets and other confidential information from disclosure to the public and to third parties. Such measures shall include restricting access to Proprietary Information only to Recipient's employees or agents whose access is reasonably necessary to carry out the Purpose and who have legally enforceable obligations to Recipient that would conform to the obligations of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the definition of 'Recipient', while the contradicted text outlines specific responsibilities and obligations of the 'Recipient'. Without a defined 'Recipient', the contradicted text becomes ambiguous and unenforceable, creating a clear in-text contradiction as the obligations of the receiving party are no longer clearly defined within the agreement, in accordance with the explanation provided and the 'Omissions - In Text Contradiction' definition."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Recipient agrees to use Proprietary Information only for the Purpose. Proprietary Information shall not be reproduced in any other form except as required to accomplish the Purpose",
+        "changed_text": "Recipient agrees to use Proprietary Information; all information can be reproduced without limitations.",
+        "explanation": "By changing the clause about Proprietary Information Usage, we introduce a direct in-text contradiction. The original clause in Section 3 restricted the use and reproduction of Proprietary Information. The altered text now removes any restrictions, permitting unrestricted use and reproduction. This change directly contradicts Section 2, where the Recipient is required to protect the Proprietary Information.",
+        "location": "Section 3",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "Recipient agrees to hold Proprietary Information in confidence and to protect it against disclosure to the public and third parties. Accordingly, Recipient shall employ protective measures fully commensurate with those used by Recipient to protect its own trade secrets and other confidential information from disclosure to the public and to third parties. Such measures shall include restricting access to Proprietary Information only to Recipient's employees or agents whose access is reasonably necessary to carry out the Purpose and who have legally enforceable obligations to Recipient that would conform to the obligations of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text restricts the use and reproduction of Proprietary Information, whereas the changed text removes these restrictions, allowing unrestricted use. This directly contradicts the contradicted text, which mandates the Recipient to hold Proprietary Information in confidence and protect it from disclosure."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Recipient agrees not to reverse-engineer or have a third party reverse-engineer the Proprietary Information without first obtaining the express, written consent of Discloser.",
+        "changed_text": "Recipient may reverse-engineer or have a third party reverse-engineer the Proprietary Information; express written consent is optional.",
+        "explanation": "By modifying Section 4, we introduce an in-text contradiction. The initial clause required explicit written consent from the Discloser before the Recipient could reverse-engineer or allow a third party to reverse-engineer the Proprietary Information. Now the changed clause makes the consent optional, conflicting with the purpose of the agreement which is to protect proprietary information, as stated in the preamble WHEREAS the Parties have concluded that it is in their mutual interest for them to disclose Proprietary Information",
+        "location": "Section 4",
+        "contradicted_location": "Preamble",
+        "contradicted_text": "WHEREAS each Party is considering disclosing certain technical, marketing, and business information, including ideas, discoveries, inventions, software code, prototypes, price information, future product plans, manufacturing methods, and other ideas of a technical or economic nature, which is considered to be confidential or proprietary (hereinafter \"Proprietary Information\") .",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. The original text required express written consent to reverse-engineer, while the changed text makes it optional. This directly conflicts with the 'WHEREAS' clause, which states the agreement's purpose is to protect proprietary information, as the optional consent weakens the protection of such information. This is a strong contradiction based on the Omissions - In Text Contradiction definition."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The obligations of confidentiality and restrictions on use set forth in Paragraph 2 above do not apply to information that Recipient can demonstrate by competent physical evidence: (a) Was already known by Recipient prior to receipt from Discloser or becomes known by Recipient independently of Discloser through no wrongful act of Recipient; (b) is now, or becomes, publicly known through no violation of this Agreement; (c) is disclosed pursuant to law, regulation or lawful order or process, provided that Recipient promptly notifies Discloser so as to permit Discloser to oppose or limit such disclosure; or (d) is approved in writing by Discloser for disclosure to a third party by Recipient. Proprietary Information disclosed by Discloser to Recipient shall not be deemed to come under the above exceptions merely because it is embraced by more general information that is or becomes subject to the above exceptions. In addition, any combination of features shall not be deemed to be within the foregoing exceptions merely because individual features are in the public domain or in the possession of the Recipient, but only if the combination itself and its principle of operation are in the public domain or in the possession of the Recipient.",
+        "changed_text": "The obligations of confidentiality and restrictions on use set forth in Paragraph 2 above do not apply to any information the Recipient obtains, regardless of the source or circumstances. All information is considered non-confidential.",
+        "explanation": "By changing the clause in Section 5, we create an in-text contradiction. The original clause provided specific exceptions to the confidentiality obligations outlined in Paragraph 2. The revised text eliminates all confidentiality obligations, stating that no information obtained by the Recipient is considered confidential. This directly contradicts Section 2, where Recipient has the duty to keep the information in confidence.",
+        "location": "Section 5",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "Recipient agrees to hold Proprietary Information in confidence and to protect it against disclosure to the public and third parties. Accordingly, Recipient shall employ protective measures fully commensurate with those used by Recipient to protect its own trade secrets and other confidential information from disclosure to the public and to third parties. Such measures shall include restricting access to Proprietary Information only to Recipient's employees or agents whose access is reasonably necessary to carry out the Purpose and who have legally enforceable obligations to Recipient that would conform to the obligations of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 5 eliminates all confidentiality obligations, stating that no information obtained by the Recipient is considered confidential. This directly contradicts Section 2, as indicated in the perturbation explanation, where the Recipient has a duty to hold Proprietary Information in confidence and protect it against disclosure. This constitutes a strong in-text contradiction because the two sections are logically incompatible."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Neither the execution of this Agreement, nor the disclosure of any Proprietary Information hereunder, shall be construed as granting Recipient any immunity or license to use Proprietary Information in any way { whether expressly, by implication, estoppel or otherwise), or any right to ownership, with respect to Proprietary Information or other intellectual property right(s) now or hereafter owned or controlled by Discloser.",
+        "changed_text": "The execution of this Agreement grants Recipient a full license to use Proprietary Information in any way, including rights of ownership and intellectual property, regardless of prior ownership by Discloser.",
+        "explanation": "By altering the clause in Section 6, we introduce an internal contradiction. The original clause explicitly stated that the agreement does not grant the Recipient any rights to use or own the Proprietary Information. The modified clause now grants the Recipient full rights to use and own the Proprietary Information, which contradicts the agreement's preamble stating that proprietary information is of the Discloser.",
+        "location": "Section 6",
+        "contradicted_location": "Preamble",
+        "contradicted_text": "WHEREAS each Party is considering disclosing certain technical, marketing, and business information, including ideas, discoveries, inventions, software code, prototypes, price information, future product plans, manufacturing methods, and other ideas of a technical or economic nature, which is considered to be confidential or proprietary (hereinafter \"Proprietary Information\") .",
+        "contradiction_exists": "YES",
+        "justification": "The original text in Section 6 explicitly denies the Recipient any rights to use or own the Proprietary Information. The changed text in Section 6 now grants the Recipient full rights to use and own the Proprietary Information, which directly contradicts the preamble (Contradicted Text) stating that the Proprietary Information belongs to the Discloser. This creates a clear and direct conflict within the document, falling under the definition of 'Omissions – In Text Contradiction'."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This Agreement shall remain in force for a period two (2) years, unless terminated earlier on thirty (30) days written notice provided by either Party. However, the obligations of confidentiality and limited use of Proprietary Information shall survive the termination of the Agreement.",
+        "changed_text": "This Agreement shall terminate immediately upon signature, with no surviving obligations for either Party.",
+        "explanation": "By modifying Section 13, we introduce an in-text contradiction. The original clause stated that the agreement would be in effect for two years, with confidentiality obligations surviving termination. The altered text states that the agreement terminates immediately, with no surviving obligations. This creates a contradiction because Sections 2, 3, and 4 define obligations during the agreement which now are not applicable if the contract terminates upon signature.",
+        "location": "Section 13",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "Recipient agrees to hold Proprietary Information in confidence and to protect it against disclosure to the public and third parties. Accordingly, Recipient shall employ protective measures fully commensurate with those used by Recipient to protect its own trade secrets and other confidential information from disclosure to the public and to third parties. Such measures shall include restricting access to Proprietary Information only to Recipient's employees or agents whose access is reasonably necessary to carry out the Purpose and who have legally enforceable obligations to Recipient that would conform to the obligations of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that the agreement terminates immediately upon signature with no surviving obligations. This directly contradicts the 'Contradicted Text', which outlines the recipient's obligations to hold proprietary information in confidence. The original text specified the agreement would last for two years, providing a timeframe for these obligations. The changed text eliminates this timeframe and the associated obligations, creating a clear contradiction."
+      }
+    ]
+  }
+]

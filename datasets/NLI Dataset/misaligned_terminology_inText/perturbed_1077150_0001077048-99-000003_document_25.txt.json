@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "1077150_0001077048-99-000003_document_25.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Proprietary Information may not be reproduced or copied, in part or in whole, without the prior written consent of the disclosing party.",
+        "changed_text": "Confidential Material may not be reproduced or copied, in part or in whole, without the prior written consent of the disclosing party.",
+        "explanation": "The change from 'Proprietary Information' to 'Confidential Material' introduces ambiguity, as the contract never defines 'Confidential Material', creating confusion on what is being protected, since Proprietary information is being reffered as the scope to protect data and information under the agreement. This contradicts with paragraph 1, which defines the scope of 'Information', and paragraph 2 which defines 'Proprietary Information'.",
+        "location": "5",
+        "contradicted_location": "2",
+        "contradicted_text": "\"Proprietary Information\" is defined as information of the disclosing party, not generally available to the public, which the disclosing party desires to protect against unrestricted disclosure or competitive use.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Proprietary Information' to 'Confidential Material' introduces a contradiction. The original text explicitly refers to 'Proprietary Information', which is a defined term elsewhere in the document. By replacing it with 'Confidential Material', which is not defined, the modified text creates ambiguity and conflicts with the section that defines 'Proprietary Information', rendering the scope of protection unclear, as explained in the perturbation explanation. The contradiction is present because the original definition of 'Proprietary Information' becomes irrelevant when 'Confidential Material' is used instead, which aligns with the definition of Misaligned Terminology leading to an in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "ADC and Polaroid agree to make full disclosure of any business dealings or arrangements with third parties, persons, or entities introduced by the other party in connection with such Confidential Information and/or projects.",
+        "changed_text": "ADC and Polaroid agree to make full disclosure of any business dealings or arrangements with third parties, persons, or entities introduced by the other party in connection with such Protected Data and/or projects.",
+        "explanation": "Changing 'Confidential Information' to 'Protected Data', where 'Protected Data' is never defined, creates confusion and contradiction. Section 9 refers back to 'Confidential Information', making it unclear if those are the same things.",
+        "location": "7",
+        "contradicted_location": "9",
+        "contradicted_text": "ADC and Polaroid hereby agree not to circumvent, or to attempt to circumvent, this Agreement in an effort to deprive the other party to this agreement of fees, commissions or other remuneration, in connection with the use of Confidential Information and/or in pursuit of the above listed purposes and projects, and both parties shall indemnify the other against any circumvention or attempt to circumvent by the offending party.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Confidential Information' to 'Protected Data', which is not defined, directly contradicts the section that refers to 'Confidential Information'. The contradicted section outlines obligations related to the use of 'Confidential Information', creating a direct conflict and ambiguity because it's unclear if those are the same, leading to potential issues of enforceability. This adheres to the 'Misaligned Terminology - In Text Contradiction' definition."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "ADC and Polaroid hereby agree not to circumvent, or to attempt to circumvent, this Agreement in an effort to deprive the other party to this agreement of fees, commissions or other remuneration, in connection with the use of Confidential Information and/or in pursuit of the above listed purposes and projects, and both parties shall indemnify the other against any circumvention or attempt to circumvent by the offending party.",
+        "changed_text": "ADC and Polaroid hereby agree not to circumvent, or to attempt to circumvent, this Agreement in an effort to deprive the other party to this agreement of fees, commissions or other remuneration, in connection with the use of Sensitive Information and/or in pursuit of the above listed purposes and projects, and both parties shall indemnify the other against any circumvention or attempt to circumvent by the offending party.",
+        "explanation": "Changing 'Confidential Information' to 'Sensitive Information' introduces ambiguity as 'Sensitive Information' is undefined, while other parts of the contract refer to 'Proprietary Information' and 'Information'. This creates uncertainty regarding the scope of protection and conflicts with the defined term 'Proprietary Information'.",
+        "location": "9",
+        "contradicted_location": "2",
+        "contradicted_text": "\"Proprietary Information\" is defined as information of the disclosing party, not generally available to the public, which the disclosing party desires to protect against unrestricted disclosure or competitive use.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Confidential Information' with 'Sensitive Information', which is undefined in the contract. The contradicted text defines 'Proprietary Information'. Since the contract now uses 'Sensitive Information' without defining it, while also defining 'Proprietary Information', it creates ambiguity and uncertainty regarding which type of information is protected, leading to an in-text contradiction as described in the 'Misaligned Terminology' definition."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The furnishing of Proprietary Information hereunder shall not obligate either party to enter into any further agreement or negotiation with the other or to refrain from entering into an agreement or negotiation with any other party.",
+        "changed_text": "The furnishing of ADC's Proprietary Data hereunder shall not obligate either party to enter into any further agreement or negotiation with the other or to refrain from entering into an agreement or negotiation with any other party.",
+        "explanation": "Changing 'Proprietary Information' to 'ADC's Proprietary Data' limits the scope to only ADC's data. However, the contract also discusses Polaroid's information; this creates a contradiction and ambiguity. Section 6 states all Proprietary Information shall remain the property of the disclosing party, this means it applies to both ADC and Polaroid, so this change creates the in-text contradiction.",
+        "location": "10",
+        "contradicted_location": "6",
+        "contradicted_text": "All Proprietary Information (including any reproductions and copies thereof) shall remain the property of the disclosing party and shall be returned by the receiving party to the disclosing party upon request. No disclosure of any Proprietary Information hereunder shall be construed a public disclosure of such Proprietary Information by either party for any purpose whatever. The obligations imposed upon either party herein shall not apply to Information whether or not designated as Proprietary Information which is disclosed pursuant to a valid order of a court or other governmental <PAGE> body or any political subdivision thereof; provided, however, that the recipient of the order shall first have given notice to the disclosing party and made a reasonable effort to obtain a protective order requiring that the Information and/or documents so disclosed to be used only for the purposes for which the order was issued.",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'Proprietary Information', which is a general term applicable to both parties (ADC and Polaroid). The changed text narrows the scope to 'ADC's Proprietary Data'. The contradicted text states that 'All Proprietary Information... shall remain the property of the disclosing party', indicating that the clause applies to both ADC and Polaroid. By limiting the scope to only ADC's data in the changed text, it contradicts the contradicted text, which explicitly states that proprietary information applies to both parties. The changed text creates an inconsistency because the contradicted text implies Proprietary information that belongs to both ADC and polaroid, but the changed text suggests only ADC has Proprietary Information."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "In the event either party discloses, disseminates or releases any Proprietary Information received from the other party or threatens to do so, except as authorized hereunder, such disclosure, dissemination or release will be deemed a material breach of this Agreement and the disclosing party may demand prompt return of all Proprietary Information previously provided to such party and obtain a preliminary and permanent injunction enjoining any such disclosure, dissemination or release.",
+        "changed_text": "In the event either party discloses, disseminates or releases any Company Secrets received from the other party or threatens to do so, except as authorized hereunder, such disclosure, dissemination or release will be deemed a material breach of this Agreement and the disclosing party may demand prompt return of all Company Secrets previously provided to such party and obtain a preliminary and permanent injunction enjoining any such disclosure, dissemination or release.",
+        "explanation": "Replacing 'Proprietary Information' with 'Company Secrets' is a contradiction because 'Company Secrets' is never defined. The contract previously defines 'Proprietary Information' in section 2, and uses this definition throughout the text. This change makes enforcement unclear. Section 1 defines 'Information' and the altered text doesnt specify if 'Company Secrets' falls into this definition, leading to an in-text contradiction.",
+        "location": "11",
+        "contradicted_location": "1",
+        "contradicted_text": "The term \"Information\", as used in this Agreement, means all specifications, drawings, sketches, models, samples, reports, plans, forecasts, current or historical data, computer programs or documentation and all other technical, financial or business data, as well as any trade secrets or other information concerning the business, customers, methods, operations and services of a party.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Proprietary Information' to 'Company Secrets' introduces a contradiction. 'Proprietary Information' is a defined term within the contract, while 'Company Secrets' is not. This creates a conflict because the original clause references a defined term, and the modified clause references an undefined term, creating ambiguity, as 'Company Secrets' is never explained, unlike 'Information' which is. This contradicts the section defining 'Information' as it is unclear whether the changed term 'Company Secrets' falls within this pre-existing definition."
+      }
+    ]
+  }
+]

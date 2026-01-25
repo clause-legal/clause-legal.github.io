@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "VerizonAbsLlc_20200123_8-K_EX-10.4_11952335_EX-10.4_Service Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Servicer will maintain perfection of the security interest of the Issuer and the Indenture Trustee in each Receivable.",
+        "changed_text": "The Servicer will endeavor to maintain perfection of the security interest of the Issuer and the Indenture Trustee in each Receivable.",
+        "explanation": "The original text states a definite obligation to 'maintain perfection'. Changing this to 'endeavor to maintain' introduces uncertainty as to whether the Servicer is actually obligated to perfect the security interest. This contradicts the explicit obligation stated elsewhere in the document.",
+        "location": "Section 3.2(c)",
+        "contradicted_location": "Section 2.4(a)(iii)",
+        "contradicted_text": "(iii) Security Interest in Depositor Transferred Property. (A) This Agreement creates a valid and continuing security interest (as defined in the applicable UCC) in the Depositor Transferred Property in favor of the Issuer, which is prior to any Lien, other than Permitted Liens, and is enforceable against all creditors of, purchasers from and transferees and absolute assignees of the Depositor. (B) All filings (including UCC filings) necessary in any jurisdiction to give the Depositor a first priority, validly perfected ownership and security interest in the Originator Transferred Property and the Master Trust Transferred Property, to give the Issuer a first priority, validly perfected ownership and security interest in the Depositor Transferred Property and to give the Indenture Trustee a first priority perfected security interest in the Collateral, will be made within ten (10) days after the Closing Date or the related Acquisition Date, as applicable. (C) All financing statements filed or to be filed against the Depositor in favor of the Issuer describing the Depositor Transferred Property transferred under this Agreement will contain a statement to the following effect: \"A purchase, absolute assignment or transfer of or security interest in any collateral described in this financing statement will violate the rights of the Secured Party/Assignee.\" (D) The Depositor has not authorized the filing of and is not aware of any financing statements against the Depositor that include a description of collateral covering any Depositor Transferred Property other than the financing statements relating to the security interest Granted to the Depositor under the Receivables Transfer Agreements, by the Depositor to the Issuer under this Agreement or by the Issuer to the Indenture Trustee under the Indenture, or that has been terminated.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states a definitive obligation ('will maintain'), while the changed text weakens this obligation to 'endeavor to maintain.' This introduces ambiguity as to whether the Servicer is actually required to ensure the security interest is perfected. This directly contradicts the contradicted text, which asserts that the agreement 'creates a valid and continuing security interest' and that 'all filings necessary' to perfect that interest 'will be made'. The change introduces uncertainty about whether the Servicer is actually obligated to make these filings, directly conflicting with the assertion that they will be made."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Depositor will pay all taxes levied or assessed on the Trust Property.",
+        "changed_text": "The Depositor is expected to pay all taxes levied or assessed on the Trust Property.",
+        "explanation": "By changing 'will pay' to 'is expected to pay,' the absolute obligation of the Depositor to pay taxes on the Trust Property becomes uncertain. This introduces ambiguity and potential for disputes about whether the Depositor is truly obligated to pay these taxes. It contradicts other sections stating clear obligations.",
+        "location": "Section 5.2(d)",
+        "contradicted_location": "Section 5.2(a)",
+        "contradicted_text": "(a) Liability for Specific Obligations. The Depositor will be liable under this Agreement only for its specific obligations under this Agreement. All other liability is expressly waived and released as a condition of, and consideration for, the execution of this Agreement by the Depositor and the issuance of the Notes. The Depositor will be liable for its willful misconduct, bad faith or gross negligence in performing its obligations under this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'will pay' to 'is expected to pay' weakens the obligation of the Depositor to pay taxes. The contradicted text explicitly states 'The Depositor will be liable under this Agreement only for its specific obligations under this Agreement,' creating a contradiction because the changed text introduces ambiguity about whether paying taxes is indeed a 'specific obligation.' The weakened language contradicts the clear liability outlined in the contradicted text, creating an in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Servicer will not resign as Servicer under this Agreement unless it determines it is legally unable to perform its obligations under this Agreement.",
+        "changed_text": "The Servicer may resign as Servicer under this Agreement if it determines it is commercially burdensome to perform its obligations under this Agreement.",
+        "explanation": "The original clause limits resignation to legal inability. The new clause introduces a 'commercially burdensome' reason. This directly contradicts the 'unless it determines it is legally unable' clause, creating uncertainty about resignation conditions.",
+        "location": "Section 7.1",
+        "contradicted_location": "Section 7.1",
+        "contradicted_text": "The Servicer will not resign as Servicer under this Agreement unless it determines it is legally unable to perform its obligations under this Agreement. The Servicer will notify the Issuer, the Parent Support Provider, the Owner Trustee and the Indenture Trustee of its resignation as soon as practicable after it determines it is required to resign, together with an Opinion of Counsel supporting its determination. The Issuer will 32 Source: VERIZON ABS LLC, 8-K, 1/23/2020 promptly notify the Rating Agencies of any resignation of the Servicer. Notwithstanding anything to the contrary in this Agreement or in any other Transaction Document, immediately upon the resignation of Cellco as Servicer pursuant to this Section 7.1, Cellco, in its individual capacity, will be required to assume the obligations of the Servicer to acquire Receivables as set forth in Sections 3.4 and 4.7 of the Master Trust Receivables Transfer Agreement and Sections 2.5 and 2.6 of this Agreement without further action.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the Servicer will not resign unless legally unable to perform. The changed text states the Servicer may resign if it is commercially burdensome to perform. This directly contradicts the original condition of legal inability and introduces a new, conflicting condition for resignation. The contradicted text repeats the original condition ('unless it determines it is legally unable'), which is now directly undermined by the changed text, thus creating a strong in-text contradiction."
+      }
+    ]
+  }
+]

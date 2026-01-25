@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "non-disclosure_201302814_english_.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "2.3 Return of Documents. The Proponent agrees that all originals, copies, records, notes and summaries (paper or electronic) of any nature provided by CMHC, including the Confidential Information, and all copies thereof, shall be surrendered or, at CMHC’s option, certified destroyed, to CMHC immediately upon request.",
+        "changed_text": "2.3 Return of Documents. The Proponent agrees that all originals, copies, records, notes and summaries (paper or electronic) of any nature provided by CMHC, including the Confidential Information, and all copies thereof, shall be surrendered or, at CMHC’s option, certified destroyed, to CMHC within thirty (30) days of a written request from CMHC.",
+        "explanation": "The modification changes 'immediately upon request' to 'within thirty (30) days of a written request'. This delay directly contradicts the urgency implied in the original agreement, potentially causing issues if immediate return is crucial. Furthermore, Section 4.8, continuing obligations, suggests that even after termination, the confidentiality is maintained. This change introduces a delay which could put CMHC at risk in the period it is waiting for the documents to be sent back.",
+        "location": "2.3",
+        "contradicted_location": "4.8",
+        "contradicted_text": "4.8 Continuing Obligations. The Confidential Information provided to the Proponent shall retain its confidential nature and the requirements of use and confidentiality shall survive termination of this Agreement and the return of any Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a delay of 'within thirty (30) days of a written request' for the return of confidential information. The original text states 'immediately upon request'. This contradicts section 4.8, which requires the confidential information to retain its confidential nature even after termination of the agreement. The 30-day delay introduces a period where the confidential information is at risk, directly conflicting with the continuing obligation of maintaining confidentiality."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "3.1 The Proponent agrees that a breach by it of any term or condition of this Agreement would result in serious and irreparable harm to CMHC which could not be completely compensated by monetary damages. The Proponent expressly agrees that CMHC shall be entitled to secure an appropriate legal remedy, including injunction or declaratory judgment, in the event of a breach or threatened breach of any term of this Agreement to enable CMHC to protect its rights hereunder.",
+        "changed_text": "3.1 The Proponent acknowledges that a material breach by it of any term or condition of this Agreement would result in serious and irreparable harm to CMHC which could not be completely compensated by monetary damages. The Proponent expressly agrees that CMHC shall be entitled to secure an appropriate legal remedy, including injunction or declaratory judgment, in the event of a material breach or threatened material breach of any term of this Agreement to enable CMHC to protect its rights hereunder.",
+        "explanation": "The change adds the word 'material' before 'breach', thereby implying that not all breaches will result in the stated remedies. This creates a contradiction with the original text, as now the remedies (injunction, declaratory judgment) are only applicable for material breaches, while the original text implied they applied to any breach. The entire section 3.3 now has an in-text contradiction as that section makes no mention of 'material' in its text.",
+        "location": "3.1",
+        "contradicted_location": "3.3",
+        "contradicted_text": "3.3 The Proponent agrees to indemnify and hold harmless CMHC from and against all losses, expenses, claims and liability arising out of any breach by the Proponent or its affiliates, or their respective officers, employees or representatives of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that 'any breach' would result in indemnification. The changed text specifies 'material breach'. This introduces a direct contradiction with section 3.3, which states 'any breach' triggers indemnification without qualification. The change narrows the scope of what constitutes a breach that triggers the remedy in 3.1, while 3.3 still references any breach, creating a contradiction. The change effectively creates a scenario where a non-material breach, while not triggering remedy under 3.1, would still trigger indemnification under 3.3, or vice versa, therefore triggering a contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "4.2 Amendment. Except as otherwise provided herein, this Agreement shall not be amended or modified, nor shall any waiver of any right hereunder be effective, unless set forth in a document executed by both parties.",
+        "changed_text": "4.2 Amendment. Except as otherwise provided herein, this Agreement may be amended or modified, and any waiver of any right hereunder shall be effective, through electronic mail correspondence between authorized representatives of both parties. A formal document executed by both parties is not required for minor modifications.",
+        "explanation": "The perturbation allows for amendments via email, directly contradicting the requirement for a 'document executed by both parties'. This could create disputes about the validity of changes made solely through email. This has an in-text contradiction within the same section itself due to the opposite meaning of what is being said.",
+        "location": "4.2",
+        "contradicted_location": "4.2",
+        "contradicted_text": "4.2 Amendment. Except as otherwise provided herein, this Agreement may be amended or modified, and any waiver of any right hereunder shall be effective, through electronic mail correspondence between authorized representatives of both parties. A formal document executed by both parties is not required for minor modifications.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires a 'document executed by both parties' for amendments. The changed text introduces the possibility of amendments via email and waives the formal document requirement for minor modifications. The contradicted text restates the changed text and therefore, contradicts the initial requirement for amendments. This is an in-text contradiction because it presents two conflicting methods for amending the agreement within the same section, aligning with the Ambiguities - In Text Contradiction definition."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "4.9 Assignment . This Agreement may not be assigned or transferred in whole or in part by the Proponent without CMHC’s prior written consent.",
+        "changed_text": "4.9 Assignment . This Agreement may be assigned or transferred in whole or in part by the Proponent to a subsidiary or affiliate without CMHC’s prior written consent, provided that the subsidiary or affiliate agrees in writing to be bound by the terms of this Agreement.",
+        "explanation": "This change now allows assignment to subsidiaries or affiliates without CMHC's consent, contradicting the initial restriction requiring consent for all assignments. This change could weaken CMHC's control over who has access to the confidential information. The original Section 4.4 specifies that the document is the entire agreement which indicates that there shouldn't be any possibility of assigning it to a subsidary, which now with this new change has altered the original meaning of this section.",
+        "location": "4.9",
+        "contradicted_location": "4.4",
+        "contradicted_text": "4.4 Entire Agreement. This Agreement constitutes the entire agreement with respect to the subject matter hereof and supersedes any other agreement or discussion, oral or written. This Agreement shall inure to the benefit of and be binding upon the parties and their respective permitted successors and assigns.",
+        "contradiction_exists": "YES",
+        "justification": "The original text of Section 4.9 prohibits assignment or transfer without CMHC's prior written consent. The changed text allows assignment to subsidiaries or affiliates without CMHC's consent, directly contradicting the original restriction. This conflicts with Section 4.4, which states the agreement constitutes the entire agreement and supersedes any other agreement. The new clause in 4.9 creates an exception to the 'entire agreement' clause, allowing for a possibility that the agreement is partially transferred without being the 'entire agreement' anymore, thus creating an in-text contradiction as defined by the prompt, namely Ambiguities – In Text Contradiction."
+      }
+    ]
+  }
+]

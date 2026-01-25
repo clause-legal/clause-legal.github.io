@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "Non-Disclosure-Agreement_6.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Proprietary information is any information transmitted from one party to the other with the excep tions: a. Information that is already known to the party receiving the information at the time the information is transmitted, or becomes known by the receiving party independently of the transmitting party through no wrongful act of said receiving party. b. Information that is explicitly approved for release by the party transmitting the information. c. Information disclosed in a product marketed by the party transmitting the information. d. Information that is known or available to the general public or becomes known or available to the general public through no wrongful act on the part of the receiving party.",
+        "changed_text": "Confidential data is any information shared between parties, excluding: a. Information already in the recipient's possession before transmission, or independently obtained without wrongdoing. b. Information approved for release by the originating party. c. Information in a product marketed by the originating party. d. Information known or available to the public through no fault of the recipient.",
+        "explanation": "The term 'Proprietary information' is changed to 'Confidential data' and the phrase 'party transmitting' is changed to 'originating party.' The original text defines proprietary information with specific exceptions. This change aims to create uncertainty as to whether 'proprietary information' and 'confidential data' are synonymous, potentially impacting the enforceability of clauses relying on the original definition. The contradiction lies in the fact that the original agreement relies on the term 'proprietary information' throughout, and now, the initial definition uses 'confidential data,' creating ambiguity.",
+        "location": "1",
+        "contradicted_location": "2",
+        "contradicted_text": "The parties agree not to use the proprietary information to the detriment of the transmitting party. The parties also agree to maintain any such proprietary in formation received from the other party in confidence and agree not to disclose any such information to persons not having a need to know the information consistent with the purpose of this agreement until information is publicly disclosed by the party tra nsmitting the information.",
+        "contradiction_exists": "YES",
+        "justification": "The change replaces 'Proprietary information' with 'Confidential data' in the definition while the 'Contradicted Text' relies heavily on the original term 'proprietary information.' This creates a strong contradiction because it is unclear whether the obligations and restrictions regarding 'proprietary information' now apply to 'confidential data.' This ambiguity directly impacts the enforceability of the agreement, as it is unclear which definition applies. This is a direct conflict and constitutes a Misaligned Terminology - In Text Contradiction as per the Perturbation Definitions."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "All materials transmitted from one party to the other and containing proprietary information shall remain the property of the transferor and shall be returned upon request, and receipt of such materials agrees not to reproduce sa id materials without written consent of the transferor of the materials.",
+        "changed_text": "All documents shared between entities and containing sensitive data shall remain the property of the originator and shall be returned only if the originator deems it necessary, and the recipient of said documents agrees not to replicate said documents without explicit permission from the originator.",
+        "explanation": "The terms 'materials,' 'proprietary information,' 'transferor,' 'request,' 'written consent' are changed to 'documents,' 'sensitive data,' 'originator,' 'deems it necessary,' 'explicit permission' respectively. Additionally, the 'returned upon request' is changed to 'shall be returned only if the originator deems it necessary'. This introduces an internal contradiction by changing the criteria for returning the materials to be the originator’s discretion instead of the original agreement of the request. It’s now unclear whether materials must be returned on request, or only if the originator 'deems it necessary'.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "All documents shared between entities and containing sensitive data shall remain the property of the originator and shall be returned only if the originator deems it necessary, and the recipient of said documents agrees not to replicate said documents without explicit permission from the originator.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states materials 'shall be returned upon request.' The changed text modifies this to say materials 'shall be returned only if the originator deems it necessary'. The contradicted text repeats the changed text. This introduces a direct conflict. The original obligation to return materials 'upon request' is replaced with a discretionary condition controlled by the originator, creating an in-text contradiction as it's unclear when the materials must be returned."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The parties agree to inform all personnel receiving the proprietary information of the terms of this agreement.",
+        "changed_text": "The participants shall notify all staff accessing the confidential data of the conditions of this contract.",
+        "explanation": "The terms 'parties,' 'personnel,' 'proprietary information,' 'terms of this agreement' are altered to 'participants,' 'staff,' 'confidential data,' and 'conditions of this contract.' This is contradictory because the agreement uses 'parties,' and 'proprietary information' previously in other sections of the contract. Changing those terms now will confuse those who have to comply with the agreement and the overall consistency of the agreement.",
+        "location": "5",
+        "contradicted_location": "2",
+        "contradicted_text": "The parties agree not to use the proprietary information to the detriment of the transmitting party. The parties also agree to maintain any such proprietary in formation received from the other party in confidence and agree not to disclose any such information to persons not having a need to know the information consistent with the purpose of this agreement until information is publicly disclosed by the party tra nsmitting the information.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'parties' to 'participants', 'personnel' to 'staff', 'proprietary information' to 'confidential data', and 'terms of this agreement' to 'conditions of this contract' creates a contradiction. The contradicted text uses 'parties' and 'proprietary information'. The changed text uses different terms for the same concepts. This misalignment of terminology, as defined in the 'Misaligned Terminology - In Text Contradiction' perturbation type, introduces ambiguity and conflicts, as the contract now refers to the same entities and information using different and potentially confusing terms, making enforcement and interpretation unclear. This directly contradicts the contradicted text by introducing inconsistencies in the key terms used throughout the agreement."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "WHEREAS, it may be necessary for the transmission of information proprietary to one of the parties to the other party during cooperation between parties; and WHEREAS, the parties desire to protect said transmitted proprietary inform ation while ensuring the free flow of information between the parties necessary for said cooperative effort:",
+        "changed_text": "WHEREAS, it might be required to convey classified details from one entity to another during collaborative interactions between entities; and WHEREAS, the entities aim to safeguard those sent classified details while guaranteeing the unhindered dissemination of details between the entities vital for that collaborative undertaking:",
+        "explanation": "The terms 'necessary,' 'information,' 'proprietary,' 'parties,' and 'cooperation' are changed to 'required,' 'details,' 'classified,' 'entities,' and 'collaborative interactions'. This creates a contradiction since 'proprietary' information was defined previously, but now it's being referred to as 'classified details', potentially creating ambiguity over which information the agreement intends to protect.",
+        "location": "WHEREAS",
+        "contradicted_location": "1",
+        "contradicted_text": "Confidential data is any information shared between parties, excluding: a. Information already in the recipient's possession before transmission, or independently obtained without wrongdoing. b. Information approved for release by the originating party. c. Information in a product marketed by the originating party. d. Information known or available to the public through no fault of the recipient.",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'proprietary information,' while the changed text refers to 'classified details.' The contradiction arises because the 'Contradicted Text' defines 'Confidential data' (synonymous with proprietary information in the original context), but the changed text now introduces 'classified details,' which may or may not fall under that definition. This misalignment in terminology, as per the 'Misaligned Terminology' definition, creates a strong contradiction because it's unclear whether the 'Contradicted Text' still applies to the 'classified details,' leading to potential ambiguity and conflicting obligations regarding the protection of information."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The parties agree not to use the proprietary information to the detriment of the transmitting party.",
+        "changed_text": "The participating sides pledge not to utilize the private data in a manner harmful to the disclosing side.",
+        "explanation": "The phrases ‘parties’ and ‘proprietary information’ and ‘transmitting party’ have been changed to ‘participating sides’ and ‘private data’ and ‘disclosing side’ respectively. This creates an internal contradiction as the initial term used was proprietary information. Now the document is using ‘private data’, leading to confusion about which data is actually being protected by this agreement.",
+        "location": "2",
+        "contradicted_location": "1",
+        "contradicted_text": "Confidential data is any information shared between parties, excluding: a. Information already in the recipient's possession before transmission, or independently obtained without wrongdoing. b. Information approved for release by the originating party. c. Information in a product marketed by the originating party. d. Information known or available to the public through no fault of the recipient.",
+        "contradiction_exists": "YES",
+        "justification": "The original text uses the term 'proprietary information', while the changed text uses 'private data'. The contradicted text defines 'confidential data', and the change explanation states that the interchangeable use of 'proprietary information' and 'private data' creates confusion about which data is being protected. Since the contract uses different terms for essentially the same concept without defining them, it leads to a misaligned terminology, resulting in a strong in-text contradiction with the 'Confidential data' definition in the contradicted text, making it unclear which definition applies, thus causing confusion. This fits the provided definition of 'Misaligned Terminology - In Text Contradiction'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Nothing herein shall be construed as granting one party a license under any patents, copyrights, or trademarks owned or controlled by the other party.",
+        "changed_text": "No provision in this document shall be interpreted as bestowing upon one entity permission to utilize any intellectual property rights, including patents, copyrights, or trademarks, possessed or managed by another entity.",
+        "explanation": "The phrases 'Nothing herein,' 'party,' and 'other party' have been changed to 'No provision in this document,' 'entity,' and 'another entity' respectively, and 'license under any patents, copyrights, or trademarks owned or controlled' to 'permission to utilize any intellectual property rights, including patents, copyrights, or trademarks, possessed or managed'. The agreement begins to shift from using ‘parties’ to ‘entities’. This subtle shift will lead to confusion on who needs to follow the contract, since this agreement begins with the terms “parties”.",
+        "location": "4",
+        "contradicted_location": "2",
+        "contradicted_text": "The parties agree not to use the proprietary information to the detriment of the transmitting party. The parties also agree to maintain any such proprietary in formation received from the other party in confidence and agree not to disclose any such information to persons not having a need to know the information consistent with the purpose of this agreement until information is publicly disclosed by the party tra nsmitting the information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text and contradicted text both use the term 'parties', while the changed text replaces 'parties' with 'entities'. This subtle shift creates a contradiction because the contradicted text refers to obligations of the 'parties' of the contract. By using 'entities' in the changed text, it is unclear whether the obligations to the 'parties' also apply to the 'entities' which undermines the contract and creates a contradiction. This aligns with the definition of 'Misaligned Terminology - In Text Contradiction' where using multiple terms interchangeably without defining them leads to conflicting obligations."
+      }
+    ]
+  }
+]

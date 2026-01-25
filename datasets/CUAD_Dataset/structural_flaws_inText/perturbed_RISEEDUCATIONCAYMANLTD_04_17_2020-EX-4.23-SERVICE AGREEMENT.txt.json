@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "RISEEDUCATIONCAYMANLTD_04_17_2020-EX-4.23-SERVICE AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement shall be renewed automatically for another five (5) years upon the expiration unless the Parties confirm, in writing, the termination of this Agreement.",
+        "changed_text": "This Agreement may be renewed for another five (5) years upon the expiration at the sole discretion of Service Provider, irrespective of any written confirmation of termination from the Parties.",
+        "explanation": "The original text in Section 13 states that the agreement auto-renews unless there's a written confirmation of termination. The changed text gives Service Provider the sole discretion to renew, even if both parties agree to terminate, creating a contradiction. This introduces uncertainty about the renewal process and undermines the Service Recipient's right to terminate.",
+        "location": "13",
+        "contradicted_location": "13",
+        "contradicted_text": "This Agreement shall be effective as of the date set forth above in this Agreement. The term of this Agreement shall be five (5) years. This Agreement may be renewed for another five (5) years upon the expiration at the sole discretion of Service Provider, irrespective of any written confirmation of termination from the Parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that the agreement renews automatically unless there is written termination from both parties. The changed text gives sole discretion to the Service Provider, regardless of the parties' desire to terminate, directly contradicting the implied right of both parties to terminate in the original agreement and the right to written termiantion, thus causing uncertainty about the termination and renewal process in the changed and contradicted text. Therefore it introduces a clear in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "All the legal rights in respect of the Services shall be owned by Service Provider. Service Recipient does not obtain any intellectual property rights in respect of the Services by entering into this Agreement. All the intellectual property rights created or derived from the provision of the Services, including but without limitation, copyrights, patents, patent applications, trademarks, trademark applications, software, know-how, technology data and commercial secrets, regardless of whether being developed or created by Service Provider or Service Recipient, shall be exclusively and solely owned by Service Provider.",
+        "changed_text": "All the legal rights in respect of the Services shall be jointly owned by Service Provider and Service Recipient. All the intellectual property rights created or derived from the provision of the Services, including but without limitation, copyrights, patents, patent applications, trademarks, trademark applications, software, know-how, technology data and commercial secrets, regardless of whether being developed or created by Service Provider or Service Recipient, shall be exclusively and solely owned by Service Provider.",
+        "explanation": "The original text in Section 6 clearly states that all legal and intellectual property rights are owned by Service Provider. However, the modified text states that the legal rights in respect of the Services shall be jointly owned. This directly contradicts the subsequent statement that all intellectual property rights shall be exclusively and solely owned by Service Provider, because now both the Service Provider and Service Recipient own the Legal Rights in respect of the services, which includes intellectual property rights.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "All the legal rights in respect of the Services shall be jointly owned by Service Provider and Service Recipient. All the intellectual property rights created or derived from the provision of the Services, including but without limitation, copyrights, patents, patent applications, trademarks, trademark applications, software, know-how, technology data and commercial secrets, regardless of whether being developed or created by Service Provider or Service Recipient, shall be exclusively and solely owned by Service Provider.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly states that the 'legal rights in respect of the Services shall be jointly owned by Service Provider and Service Recipient'. This directly contradicts the subsequent statement in the same changed text (and contradicted text) that 'all the intellectual property rights created or derived from the provision of the Services... shall be exclusively and solely owned by Service Provider'. Because legal rights include intellectual property rights, joint ownership of legal rights is incompatible with exclusive ownership of intellectual property rights."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Service Recipient shall pay Service Provider the [service fees]/ [commissions and service fees] ([collectively,] \"Service Fee\") (inclusive of all applicable taxes) in accordance with Schedule 1 for the Services provided by Service Provider. [To facilitate the operation of Service Recipient, in the event that Service Recipient incurs losses, Service Provider may agree to waive the obligations of Service Recipient to pay Service Fee to Service Provider.]",
+        "changed_text": "Service Recipient shall pay Service Provider the [service fees]/ [commissions and service fees] ([collectively,] \"Service Fee\") (inclusive of all applicable taxes) in accordance with Schedule 1 for the Services provided by Service Provider. To facilitate the operation of Service Recipient, in the event that Service Recipient incurs losses, Service Provider is obligated to waive the obligations of Service Recipient to pay Service Fee to Service Provider.",
+        "explanation": "The original text in Section 4 gives Service Provider the discretion to waive service fees in case of losses incurred by Service Recipient. The modified text changes 'may agree to waive' to 'is obligated to waive', making the waiver mandatory. This introduces a contradiction because the agreement initially frames Service Fee payments as mandatory based on Schedule 1. By mandating a waiver under certain circumstances, it creates uncertainty about the enforcement of the original payment terms outlined in Schedule 1.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "Service Recipient shall pay Service Provider the [service fees]/ [commissions and service fees] ([collectively,] \"Service Fee\") (inclusive of all applicable taxes) in accordance with Schedule 1 for the Services provided by Service Provider. To facilitate the operation of Service Recipient, in the event that Service Recipient incurs losses, Service Provider is obligated to waive the obligations of Service Recipient to pay Service Fee to Service Provider.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text changes 'Service Provider may agree to waive' to 'Service Provider is obligated to waive.' This directly contradicts the initial statement that the Service Recipient 'shall pay' the Service Fee, creating a strong contradiction. The mandatory waiver introduces uncertainty about the enforcement of the original payment terms. This aligns with the 'Structural Flaws - In Text Contradiction' definition as the clause now has conflicting implications related to payment obligations."
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Mutual%20Non%20Disclosure%20Agreement_0.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "All Information (including tangible copies and computerized or electronic versions thereof), shall remain the property of the furnishing party.",
+        "changed_text": "All Information (excluding analyses, compilations, comparisons, studies or other documents prepared by the receiving party or its representatives), shall remain the property of the furnishing party.",
+        "explanation": "This change introduces an in-text contradiction. Originally all information remains property of the furnishing party but after the change analysis are excluded. This contradicts the intent that originally made all the documents property of the furnishing party, creating legal uncertainty.",
+        "location": "8.0",
+        "contradicted_location": "8.0",
+        "contradicted_text": "No license to a party, under any trademark, patent, copyright, mask work protection right, or any other intellectual property right, is either grante d or implied by the conveying of Information to suc h party. All Information (excluding analyses, compilations, comparisons, studies or other documents prepared by the receiving party or its representatives), shall remain the property of the furnishing party. Within ten (10) days following the receipt of a written request referencing this Agreement and this paragraph from either party furnishing Information hereunder, the receiving party will del iver to the furnishing party all tangible materials containing or embodying the Information received fr om the furnishing party, except for materials containing Information which has been incorporated into analyses, compilations, comparisons, studies or other documents prepared by the receivin g party or its representatives, together with a certificate executed by the receiving party certify ing that all such materials in the receiving party' s 3 - Revised May 7, 2010 possession have been delivered to the furnishing pa rty or destroyed. That portion of the Information which has been incorporated into analyses, compilat ions, comparisons, studies or other documents prepared by the receiving party or its representati ves shall be held by the receiving party and kept confidential as provided above, or shall be destroy ed.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states \"All Information... shall remain the property of the furnishing party.\" The changed text modifies this to exclude analyses, compilations, comparisons, studies or other documents prepared by the receiving party. The contradicted text then reiterates this exclusion. This means that the receiving party doesn't need to return these analyses, etc. This creates a direct contradiction with the original intent of making all information the property of the furnishing party, causing a legal uncertainty."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Each party understands and agrees that money damage s would not be a sufficient remedy for any breach of this Agreement and that the other party s hall be entitled to seek injunctive or other equitable relief to remedy or forestall any such br each or threatened breach.",
+        "changed_text": "Each party understands and agrees that money damages shall be the primary remedy for any breach of this Agreement, and that the other party shall only be entitled to seek injunctive or other equitable relief if monetary damages are proven insufficient.",
+        "explanation": "This change creates an in-text contradiction by prioritizing money damages as the primary remedy for a breach, whereas originally money damages were not sufficient remedy. This conflicts directly with the original statement.",
+        "location": "9.0",
+        "contradicted_location": "9.0",
+        "contradicted_text": "Each party understands and agrees that money damages shall be the primary remedy for any breach of this Agreement, and that the other party s hall only be entitled to seek injunctive or other equitable relief if monetary damages are proven insufficient. Such remedy shall not be deemed to be the exclusive remedy for any breach of this Agreement, but shall be in addition to all other rights and remedies available at law or i n equity.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that monetary damages are insufficient, while the changed text prioritizes them as the primary remedy. The contradicted text repeats the changed text, creating a direct contradiction with the original intention that money damages are *not* sufficient, and only equitable relief is permitted. This aligns with the definition of 'Inconsistencies - In Text Contradiction', where different sections of a contract provide conflicting obligations."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "In any event, however, the obligations o f each party to maintain the confidentiality of the I nformation it has received under this Agreement shall continue for the later to occur of (i) a peri od of three (3) years after such termination, or (i i) if this Agreement is incorporated by reference into another agreement between the parties, the term, including extensions, of that agreement, plus three (3) years.",
+        "changed_text": "In any event, however, the obligations of each party to maintain the confidentiality of the Information it has received under this Agreement shall continue for the earlier to occur of (i) a period of one (1) year after such termination, or (ii) if this Agreement is incorporated by reference into another agreement between the parties, the term of that agreement, without extensions.",
+        "explanation": "This changes the clause about term and termination which causes an in-text contradiction by changing from 'later' to 'earlier' and reducing the time frame, thus creating uncertainty in enforcement. The original text had a period of three years, while the modified text a period of one year.",
+        "location": "11.0",
+        "contradicted_location": "11.0",
+        "contradicted_text": "Either party may terminate the exchange of Informat ion under this Agreement at any time by written notice to the other specifically referencing this A greement. In any event, however, the obligations of each party to maintain the confidentiality of the Information it has received under this Agreement shall continue for the earlier to occur of (i) a period of one (1) year after such termination, or (ii) if this Agreement is incorporated by reference into another agreement between the parties, the term of that agreement, without extensions.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that confidentiality obligations continue for the *later* of two periods (3 years after termination or the term of another agreement plus 3 years), while the changed text specifies the *earlier* of two periods (1 year after termination or the term of the other agreement without extensions). The contradicted text has the 'earlier' condition. This creates a direct and irreconcilable conflict, as the duration of confidentiality is determined by opposing criteria (later vs earlier), leading to ambiguity and uncertainty about the enforceable period. The change contradicts the contradicted text regarding the continuation of confidentiality obligations."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement may not be modified, supplemented, o r amended orally, but only by a writing signed by both parties hereto.",
+        "changed_text": "This Agreement may be modified, supplemented, or amended orally or by a writing signed by one party.",
+        "explanation": "This creates a direct in-text contradiction by stating that the agreement can be modified orally. This contradicts the original text which stated that this agreement cannot be modified, supplemented, or amended orally, but only by a writing signed by both parties hereto.",
+        "location": "13.0",
+        "contradicted_location": "13.0",
+        "contradicted_text": "This Agreement may be modified, supplemented, or amended orally or by a writing signed by one party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that the agreement can be modified orally or by a writing signed by one party. The contradicted text states the exact same thing. This is a contradiction because the original text stated that the agreement cannot be modified, supplemented, or amended orally, but only by a writing signed by both parties hereto. The changed text directly contradicts the initial condition of the agreement regarding modifications, creating a direct conflict, and thus, a strong in-text contradiction."
+      }
+    ]
+  }
+]

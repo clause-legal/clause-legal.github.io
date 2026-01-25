@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "1089029_0000950123-07-007908_y31303a1exv10w13.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Jag agrees that once Flow has disclosed the Identity of any Introduced Party to Jag, Jag, its officers, directors, shareholders, employees and agents shall not have any contacts with the Introduced Party other than through Flow, unless Flow grants permission in writing for such contacts.",
+        "changed_text": "Jag agrees that once Flow has disclosed the Identity of any Introduced Party to Company, Jag, its officers, directors, shareholders, employees and agents shall not have any contacts with the Introduced Party other than through Flow, unless Flow grants permission in writing for such contacts.",
+        "explanation": "Replacing 'Jag' with 'Company' in the phrase 'Introduced Party to Company' directly contradicts the continued use of 'Jag' later in the same sentence and throughout the document. This makes the obligations ambiguous, since its not clear the Introduced Party it introduced to whom.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "Jag agrees that once Flow has disclosed the Identity of any Introduced Party to Company, Jag, its officers, directors, shareholders, employees and agents shall not have any contacts with the Introduced Party other than through Flow, unless Flow grants permission in writing for such contacts. Specifically, Jag agrees not to circumvent, avoid or bypass Flow, either directly or indirectly, in order to avoid payment of fees or commissions; or otherwise benefit, either financially or otherwise, from any information supplied to it in the context of any transaction with an Introduced Party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Jag' with 'Company' in the phrase 'Introduced Party to Company', while the rest of the sentence and the contradicted text still refers to 'Jag'. This creates ambiguity and contradiction because it's unclear whether the obligations apply to Jag or the Company. It also changes a key term, specifically who the Introduced Party is introduced to, and this change directly conflicts with the continued use of 'Jag' later in the sentence and in the contradicted text which also uses 'Jag', creating an in-text contradiction as described in the explanation and adhering to the Misaligned Terminology definition."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Specifically, Jag agrees not to circumvent, avoid or bypass Flow, either directly or indirectly, in order to avoid payment of fees or commissions; or otherwise benefit, either financially or otherwise, from any information supplied to it in the context of any transaction with an Introduced Party.",
+        "changed_text": "Specifically, Company agrees not to circumvent, avoid or bypass Flow, either directly or indirectly, in order to avoid payment of fees or commissions; or otherwise benefit, either financially or otherwise, from any information supplied to it in the context of any transaction with an Introduced Party.",
+        "explanation": "Changing 'Jag agrees' to 'Company agrees' in this section creates a direct contradiction with earlier definitions and later references to 'Jag'. This raises a question of which entity is bound by the agreement's terms. The change makes the term no longer aligned to the text and contract.",
+        "location": "2",
+        "contradicted_location": "4",
+        "contradicted_text": "This Agreement shall inure to the benefit of, and is binding upon, the parties hereto and their respective principals, shareholders, heirs, officers, representatives, successors and assigns.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states 'Jag agrees', while the changed text states 'Company agrees'. The Perturbation Explanation states that this change creates a contradiction with earlier definitions and later references to 'Jag'. The Contradicted Text states 'This Agreement shall inure to the benefit of, and is binding upon, the parties hereto and their respective principals, shareholders, heirs, officers, representatives, successors and assigns', which sets the expectation that the parties are clearly defined. By changing 'Jag' to 'Company', it introduces ambiguity regarding which entity is bound, therefore creating a direct contradiction that makes the agreement confusing to interpret. The Perturbation Type, Misaligned Terminology - In Text Contradiction, explains how this type of change causes in-text contradictions when the contract uses multiple terms interchangeably without defining them, leading to conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement shall inure to the benefit of, and is binding upon, the parties hereto and their respective principals, shareholders, heirs, officers, representatives, successors and assigns.",
+        "changed_text": "This Agreement shall inure to the benefit of, and is binding upon, Company hereto and their respective principals, shareholders, heirs, officers, representatives, successors and assigns.",
+        "explanation": "By changing 'the parties' to 'Company' and failing to include 'Flow' into the same naming scheme, the obligation of this agreement is now one sided, and creating contradiction, where there is one party (Company), and the entire agreement is based on a binding relationship of two parties. This introduces a serious ambiguity, potentially rendering the agreement unenforceable.",
+        "location": "4",
+        "contradicted_location": "6",
+        "contradicted_text": "This is an agreement between separate legal entities and neither is the agent or employee of the other for any purpose whatsoever. The parties do not intend to create a partnership or joint venture between themselves. Neither party shall have the right to bind the other to any agreement with a third party or to inure any obligation or liabilities on behalf of the other party.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'parties' to 'Company' creates a one-sided obligation in the changed text, where only the 'Company' is explicitly bound by the agreement. This directly contradicts the 'Contradicted Text' which states, 'This is an agreement between separate legal entities and neither is the agent or employee of the other for any purpose whatsoever,' and 'Neither party shall have the right to bind the other'. By binding only the 'Company', the changed text undermines the mutual agreement structure described in the contradicted text, creating a clear and significant contradiction as well as fulfilling the Misaligned Terminology definition."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This is an agreement between separate legal entities and neither is the agent or employee of the other for any purpose whatsoever. The parties do not intend to create a partnership or joint venture between themselves. Neither party shall have the right to bind the other to any agreement with a third party or to inure any obligation or liabilities on behalf of the other party.",
+        "changed_text": "This is an agreement between one separate legal entity and neither is the agent or employee of the other for any purpose whatsoever. The one party do not intend to create a partnership or joint venture between themselves. Neither party shall have the right to bind the other to any agreement with a third party or to inure any obligation or liabilities on behalf of the other party.",
+        "explanation": "Modifying the term 'agreement between separate legal entities' to 'agreement between one separate legal entity', directly contradicts the premise of a contract requiring at least two parties. This change makes the entire agreement's validity questionable and introduces an internal contradiction regarding its purpose and the number of participants involved.",
+        "location": "6",
+        "contradicted_location": "8",
+        "contradicted_text": "Any modification or amendment of any provisions of this Agreement must be in writing, signed by the parties hereof and dated subsequent to the date hereof.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies 'agreement between separate legal entities' to 'agreement between one separate legal entity', which contradicts the fundamental requirement of a contract needing at least two parties. This is a strong contradiction because it directly undermines the agreement's validity. The contradicted text states that any modification must be signed by 'the parties', which implies at least two parties. If there is only one party as suggested in the Changed Text, the agreement cannot be validly modified according to the contradicted text."
+      }
+    ]
+  }
+]

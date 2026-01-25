@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Provider represents, warrants and agrees that the Services shall be provided in good faith, in accordance with applicable law and in a manner generally consistent with the historical provision of the Services and with the same standard of care as historically provided.",
+        "changed_text": "Provider will endeavor to provide the Services in good faith, and in a manner consistent with the historical provision of the Services. The standard of care will be commercially reasonable, but Provider does not warrant strict adherence to historical standards.",
+        "explanation": "This change weakens the obligation of the Provider. Originally, the provider 'represents, warrants, and agrees' ensuring a specific standard. The modified text changes 'shall be provided' to 'will endeavor to provide' and removes 'in accordance with applicable law' altogether, reducing the commitment to provide the service at a definite standard. This introduces ambiguity regarding the Provider’s responsibility if the services deviate from historical standards, directly contradicting later sections that assume a consistent level of service. Specifically, the modification creates a conflict in the interpretation of the Provider’s duty as initially defined, leading to uncertainty in enforcement regarding the specific standard expected and allowing for potential disputes over whether Provider met its obligation.",
+        "location": "1.2(a)",
+        "contradicted_location": "1.2(f)",
+        "contradicted_text": "(f) Provider shall at all times during the term of this Agreement maintain, or cause to be maintained, the computer software and computer hardware that is used in connection with the Services with substantially the same degree of care, skill and diligence with which Provider maintains, or causes to be maintained, as of the Effective Date, such computer software and computer hardware for itself, consistent with past practices, as of the Effective Date, including without limitation, with respect to type, quality and timeliness of such maintenance.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text weakens the provider's obligation from a warranty to an endeavor and removes the requirement to adhere to applicable law and strict historical standards. This directly contradicts the contradicted text, which requires the provider to maintain the computer software and hardware 'with substantially the same degree of care, skill and diligence' consistent with past practices. The changed text's allowance for deviation from historical standards and removal of legal adherence creates a conflict in defining the Provider's duty and standard of care, leading to uncertainty about the level of service expected and potential disputes over compliance, thus making enforcement unclear and logically inconsistent with the contradicted text."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Recipient may freely assign its rights under this Agreement to receive the Services to any of its affiliates.",
+        "changed_text": "Recipient may assign its rights under this Agreement to receive the Services to any of its affiliates, subject to Provider’s prior written consent, which shall not be unreasonably withheld.",
+        "explanation": "This change affects Recipient’s right to assign the rights of the agreement. The original definition provides no restriction, where as the modified version now restricts it by imposing requirement for the Provider’s approval. This directly contradicts the initial free-assignment allowance and creates uncertainty. Now Recipient need the approval of the Provider for assigning the rights to any of its affiliates which will lead to uncertainties",
+        "location": "1.1(b)",
+        "contradicted_location": "6.2",
+        "contradicted_text": "This Agreement shall be binding upon and inure to the benefit of the Parties named herein and their respective successors and permitted assigns. Provider may not assign, delegate or otherwise transfer either this Agreement or any of its rights, interests, or obligations hereunder without the prior written approval of Recipient.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed the Recipient to freely assign its rights to its affiliates. The changed text now requires the Provider's prior written consent, which shall not be unreasonably withheld. This directly contradicts the contradicted text, which states that the Provider needs the Recipient's consent to assign the agreement or its rights. The Provider now has power to reasonably reject Recipient's assignment where the original text didn't have this requirement, thus contradicting the implied freedom of assignment initially granted to Recipient and creating an in-text contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Provider shall allow the Recipient to use [ * * * ] at no cost, until December 31, 2021.",
+        "changed_text": "Provider shall allow the Recipient to use [ * * * ] at a cost to be determined, until December 31, 2021.",
+        "explanation": "This alteration directly contradicts the initial agreement of providing a service '[ * * * ]' for free. The original text clearly states '[ * * * ] at no cost', while the changed text introduces a 'cost to be determined'. This creates an internal contradiction in Section 2 regarding the payment terms for '[ * * * ]' which creates uncertainty during enforcement.",
+        "location": "2.2(c)",
+        "contradicted_location": "2.2(a)",
+        "contradicted_text": "(a) As consideration for provision of the Services following the Effective Date, Recipient shall pay Provider an amount equal to Provider's actual cost of providing the Services plus a 10% service fee. In addition to such amount, in the event that Provider incurs reasonable and documented out-of-pocket expenses in the provision of any Service, including, without limitation, license fees and payments to third-party service providers or subcontractors (such included expenses, collectively, \"Out-of-Pocket Costs\"), Recipient shall reimburse Provider for all such Out-of-Pocket Costs.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states '[ * * * ] at no cost', while the changed text introduces a 'cost to be determined'. This directly contradicts the contradicted text (a) which states 'Recipient shall pay Provider an amount equal to Provider's actual cost of providing the Services plus a 10% service fee.' The changed text introduces a cost where there was none, creating an ambiguity and direct conflict with the contradicted text regarding payment terms, as the new cost to be determined could conflict with the cost plus 10% agreement."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "one-way_nda_ji_form.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Upon demand by the Company or termination of this Agreement, all materials bearing or disclosing any of the Confidential Information shall be delivered or returned to the Company.",
+        "changed_text": "Upon demand by the Company or termination of this Agreement, materials bearing or disclosing Confidential Information shall be handled according to the Recipient's internal document destruction policies.",
+        "explanation": "By changing the requirement from 'delivered or returned to the Company' to 'handled according to the Recipient's internal document destruction policies,' the Company loses control over the disposition of its Confidential Information. This directly contradicts the intended purpose of a non-disclosure agreement, which is to protect the Company's information.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "The Confidential Information, regardless of whether it is in oral or written, or partial or complete, form, shall be and remain the property of the Company, whether provided to or copied by Recipient. Recipient shall not make or have made any partial or complete copies or derivative works, whether in hand copy or electronic form, of any of the Confidential Information without the express prior authorization of the Company, and any legends or notices used by the Company in the Confidential Information shall be reproduced in full in all copies. Upon demand by the Company or termination of this Agreement, materials bearing or disclosing Confidential Information shall be handled according to the Recipient's internal document destruction policies.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates that all confidential materials be returned to the Company, ensuring the Company retains control and ownership of its Confidential Information. The changed text allows the Recipient to handle these materials according to their own internal destruction policies. This directly contradicts the clause stating that the Confidential Information remains the property of the Company. The Company's ownership is undermined if the Recipient can destroy the information without the Company's explicit consent or knowledge. This creates a strong in-text contradiction, as the changed text permits actions that directly oppose the stipulated ownership rights in the contradicted text."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The obligations of this Agreement will remain in effect for as long as the Confidential Information remains confidential, proprietary or trade secret information of the Company.",
+        "changed_text": "The obligations of this Agreement will remain in effect for a period of one (1) year from the Effective Date.",
+        "explanation": "By limiting the duration to one year, the agreement now conflicts with the statement that obligations last 'as long as the Confidential Information remains confidential'. Some confidential information might remain confidential for longer than a year, and the modified text provides no protection for that period and creates uncertain on how to treat it.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "This Agreement applies to all Confidential Information that is disclosed by the Company to Recipient during the period that begins on the Effective Date. The obligations of this Agreement will remain in effect for a period of one (1) year from the Effective Date. Or, if the Parties enter into a subsequent agreement governing the disclosure of Confidential Information, this Agreement will terminate and that subsequent agreement shall control the use and disclosure of Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the agreement obligations last as long as the confidential information remains confidential. The changed text limits the duration to one year. The contradicted text re-iterates the one year limit. The change introduces a contradiction because some confidential information may remain confidential beyond the one-year limit, thereby creating a contradiction with the original intent that obligations last as long as confidentiality is maintained. The changed and contradicted text create an in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Recipient irrevocably consents and submits to the exclusive and mandatory jurisdiction of the state courts sitting in Skagit County, Washington or the U.S. District Court for the Western District of Washington, and agrees that any action, suit or proceeding in connection with this Agreement shall be brought only in such courts to the exclusion of all other courts, other than actions to enforce judgments or orders entered in said courts.",
+        "changed_text": "Recipient consents and submits to the jurisdiction of courts in the State of Washington.",
+        "explanation": "By removing the 'exclusive and mandatory jurisdiction' clause, the Recipient is no longer restricted to Skagit County courts or the Western District of Washington, allowing them to potentially litigate in other jurisdictions that might be more favorable. This creates an enforcement conflict if the Company wishes to sue in Skagit County but the Recipient chooses a different venue.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "This Agreement shall be governed and construed under the laws of the State of Washington. Recipient consents and submits to the jurisdiction of courts in the State of Washington.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandated exclusive jurisdiction in Skagit County or the Western District of Washington. The changed text removes this exclusivity, stating only that the Recipient submits to the jurisdiction of courts in the State of Washington. This creates a contradiction because the Recipient can now argue that they are not bound to litigate exclusively in Skagit County, contradicting the original intent and creating uncertainty around the venue. This meets the definition of 'Omissions - In Text Contradiction' as 'essential language is removed or altered in one section, creating a contradiction with obligations or constraints stated in other sections.'"
+      }
+    ]
+  }
+]

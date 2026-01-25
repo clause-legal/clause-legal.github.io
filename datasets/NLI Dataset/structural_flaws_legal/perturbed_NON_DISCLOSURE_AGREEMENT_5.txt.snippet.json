@@ -1,0 +1,95 @@
+[
+  {
+    "file_name": "NON_DISCLOSURE_AGREEMENT_5.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "This Agreement shall be governed and construed in accordance with the laws of India. The competent courts at [__] India shall have the sole and exclusive jurisdiction over any dispute that arises in relation to this Agreement.",
+        "changed_text": "This Agreement shall be governed and construed in accordance with the laws of India.",
+        "explanation": "Relocating the jurisdiction clause could create ambiguity about where disputes are to be resolved, especially if the agreement is used internationally or across different legal systems. The lack of a specified jurisdiction for dispute resolution could lead to legal challenges regarding enforceability. Moving the clause to another less obvious place might make it harder to find and enforce.",
+        "contradicted_law": "Section 20 of the Indian Contract Act, 1872",
+        "law_citation": "Section 20 of the Indian Contract Act, 1872",
+        "law_url1": [
+          "https://legislative.gov.in/sites/default/files/A1872-9.pdf"
+        ],
+        "law_url2": [
+          "https://indiankanoon.org/doc/1170147/"
+        ],
+        "law_explanation": "Section 20 of the Indian Contract Act, 1872 concerns agreements where both parties are mistaken about a matter of fact essential to the agreement. Removing the clause specifying jurisdiction introduces ambiguity and uncertainty, potentially creating a situation where parties could argue they were mistaken about where disputes would be resolved, undermining the contract's enforceability under Indian law. Without clear jurisdiction, the contract becomes vague on a fundamental aspect, and opens room to the invocation of Section 20.",
+        "location": "12",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The original text specified a clear jurisdiction, enhancing enforceability, while the changed text removes this specification. This omission creates ambiguity, as stated in the Perturbation Explanation, about where disputes are to be resolved, which can lead to legal challenges. This aligns with the definition of Structural Flaws Legal Contradiction, where the organization of a contract affects its enforceability due to a missing required element. Although there are no law snippets, the removal directly contradicts principles of contract law that require clarity on essential terms like jurisdiction to ensure enforceability."
+      },
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "The Receiving Party shall, upon the req uest of the Disclosing Party or upon the termination of this Agreement, return to the Disclosing Party all Confidential Information, including drawings, documents, reports and other tangible manifestations of Confidential Information received by the Receiv ing Party pursuant to this Agreement, together with all copies and reproductions thereof.",
+        "changed_text": "The Receiving Party shall, upon the termination of this Agreement, return to the Disclosing Party all Confidential Information, including drawings, documents, reports and other tangible manifestations of Confidential Information received by the Receiv ing Party pursuant to this Agreement, together with all copies and reproductions thereof.",
+        "explanation": "By removing the phrase \"upon the request of the Disclosing Party\", the clause becomes less enforceable. It implies that the return of confidential information is only triggered by the termination of the agreement. This weakens the Disclosing Party's rights to retrieve confidential information during the agreement's term if, for example, there is a breach of trust or misuse of the information. This makes it harder to enforce the confidentiality obligations throughout the life of the agreement.",
+        "contradicted_law": "Section 37 of the Indian Contract Act, 1872",
+        "law_citation": "Section 37 of the Indian Contract Act, 1872",
+        "law_url1": [
+          "https://legislative.gov.in/sites/default/files/A1872-9.pdf"
+        ],
+        "law_url2": [
+          "https://indiankanoon.org/doc/556583/"
+        ],
+        "law_explanation": "Section 37 of the Indian Contract Act, 1872 states that parties to a contract must either perform or offer to perform their respective promises, unless such performance is excused. By deleting the condition to return of confidential information on demand, the party that shares the confidential information is at a disadvantage, and the obligations are not clearly defined. This may impede that party to perform their duties in a reasonable manner.",
+        "location": "10",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The original text allows the Disclosing Party to request the return of Confidential Information at any time, whereas the changed text limits this return only to the termination of the agreement. The Law Explanation states that by deleting the condition to return of confidential information on demand, the obligations are not clearly defined, which may impede that party to perform their duties in a reasonable manner. Based on the Perturbation Explanation, this weakens the Disclosing Party's rights to retrieve confidential information during the agreement's term, making it harder to enforce the confidentiality obligations throughout the life of the agreement. Therefore, the modification results in a non-compliance, making it a clear contradiction."
+      },
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "This Agreement contains the full and complete understanding of the parties with respect to the subject matter hereof, and supersedes all prior representations and understandings, whether oral or written. This Agreemen t may be amended only in writing by mutual agreement of the Parties.",
+        "changed_text": "This Agreement contains the full and complete understanding of the parties with respect to the subject matter hereof, and supersedes all prior representations and understandings, whether oral or written.",
+        "explanation": "Removing the clause that requires amendments to be in writing undermines the integrity of the contract. It opens the door for parties to claim oral modifications, which are difficult to prove and can lead to disputes about the contract's actual terms. This makes the contract terms uncertain and increases the risk of enforceability issues.",
+        "contradicted_law": "Section 92 of the Indian Evidence Act, 1872",
+        "law_citation": "Section 92 of the Indian Evidence Act, 1872",
+        "law_url1": [
+          "https://legislative.gov.in/sites/default/files/A1872-1.pdf"
+        ],
+        "law_url2": [
+          "https://indiankanoon.org/doc/434636/"
+        ],
+        "law_explanation": "Section 92 of the Indian Evidence Act, 1872 generally bars oral evidence that contradicts, varies, adds to, or subtracts from the terms of a written contract. By removing the clause requiring written amendments, the contract seemingly allows for oral modifications. This omission directly contradicts the principle that the written agreement should be the final and complete expression of the parties' intentions, as protected by Section 92.",
+        "location": "17",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The original contract requires amendments to be in writing, which provides a clear and enforceable standard. The changed text removes this requirement, allowing for oral modifications. This omission contradicts the principle that written agreements should be the final and complete expression of the parties' intentions, as oral modifications are difficult to prove and can lead to disputes about the contract's actual terms, as explained in the 'Law Explanation' and 'Perturbation Explanation'. Although there are no law snippets, the removal of the clause requiring written amendments undermines the integrity of the contract and increases the risk of enforceability issues, as highlighted in the Perturbation Explanation, thus a contradiction exists."
+      },
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "The individuals executing this Agreement represent and warrant that they are empo wered an d duly authorized execute this Agreement on behalf of the parties they represent. Each Party represents and warrants to the other Party that it is authorised to execute this Agreement and is competent to discharge the obligations under this Agreement.",
+        "changed_text": "The individuals executing this Agreement represent and warrant that they are empo wered an d duly authorized execute this Agreement on behalf of the parties they represent.",
+        "explanation": "Removing the second sentence weakens the assurance that each party is fully authorized and competent to fulfill its obligations under the agreement. This creates uncertainty about each party's legal capacity to enter into the agreement. If one party lacks the competence to discharge its obligations, the agreement may be deemed void or unenforceable.",
+        "contradicted_law": "Section 11 of the Indian Contract Act, 1872",
+        "law_citation": "Section 11 of the Indian Contract Act, 1872",
+        "law_url1": [
+          "https://legislative.gov.in/sites/default/files/A1872-9.pdf"
+        ],
+        "law_url2": [
+          "https://indiankanoon.org/doc/113856/"
+        ],
+        "law_explanation": "Section 11 of the Indian Contract Act, 1872 specifies who is competent to contract, including that they must be of the age of majority, of sound mind, and not disqualified from contracting by any law. By removing the explicit warranty that each party is authorized and competent, the agreement weakens the guarantee that all parties meet the competency requirements of Section 11. It could be argued that a party was not competent, and the agreement is unenforceable.",
+        "location": "14",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The original contract text includes a warranty that each party is authorized and competent to discharge its obligations. The changed text removes this warranty. The Perturbation Explanation states this creates uncertainty about each party's legal capacity to enter into the agreement, potentially rendering it void or unenforceable. The Law Explanation cites Section 11 of the Indian Contract Act, 1872, requiring parties to be competent to contract. By removing the explicit warranty, the agreement weakens the assurance that parties meet these requirements, creating a potential legal contradiction under the definition provided for 'Structural Flaws - Legal Contradiction' as the change affects clarity and enforceability."
+      }
+    ]
+  }
+]

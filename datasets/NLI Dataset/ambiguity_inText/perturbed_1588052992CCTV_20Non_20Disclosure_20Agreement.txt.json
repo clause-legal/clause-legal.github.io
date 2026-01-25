@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "1588052992CCTV%20Non%20Disclosure%20Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Recipient agrees to use its best efforts to prevent and protect the Confidential Information, or any part thereof, from disclosure to any person(s) or entity (ies), even if authorized or directed under any law, without the express permission of the Discloser.",
+        "changed_text": "Recipient agrees to use its best efforts to prevent and protect the Confidential Information, or any part thereof, from disclosure to any person(s) or entity (ies), unless directed by a valid court order, in which case notification to the Discloser will suffice.",
+        "explanation": "The original text mandates express permission for any disclosure, regardless of legal directives. The changed text allows disclosure under court order with mere notification, creating an exception that contradicts the strict confidentiality previously established. This impacts Section 5, Breach, where unauthorized disclosure could result in injunctive relief: 'The Recipient acknowledges that disclosure or use of Confidential Information in violation of this Agreement could cause irreparable harm to Discloser including loss of lives and limbs of the persons and damage to the property, for which monetary damages may be difficult to ascertain or turn to be meaningless.'",
+        "location": "2.2",
+        "contradicted_location": "5",
+        "contradicted_text": "5. Breach. The Recipient acknowledges that disclosure or use of Confidential Information in violation of this Agreement could cause irreparable harm to Discloser including loss of lives and limbs of the persons and damage to the property, for which monetary damages may be difficult to ascertain or turn to be meaningless. The Recipient therefore agrees that Discloser will have the right, in addition to its other rights and remedies, to seek injunctive relief for violations of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text strictly prohibits disclosure without express permission, regardless of legal directives. The changed text introduces an exception, permitting disclosure under a court order with mere notification. This contradicts Section 5, which imposes strict liability and injunctive relief for *any* unauthorized disclosure of confidential information. This creates a direct conflict as disclosure under court order is now permitted when Section 5 states there should be no unauthorized disclosure. Therefore, there is a strong in-text contradiction as defined by the Ambiguities – In Text Contradiction perturbation type."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Recipient agrees that the layout plan of the structural design of the Premises, whether in in physical or electronic form, shall always be in the custody of the Discloser. However, the Recipient shall have the access to the layout plan for the purpose of carrying out the contract for installation of CCTV System.",
+        "changed_text": "Recipient agrees that the layout plan of the structural design of the Premises, whether in physical or electronic form, may be copied by the Recipient for internal use. The Recipient shall have the access to the layout plan for the purpose of carrying out the contract for installation of CCTV System.",
+        "explanation": "The original text clearly states the layout plan shall always be in the custody of the discloser, therefore only the discloser can make a copy. By changing the text to 'may be copied by the Recipient for internal use', the document becomes conflicting. This contradicts 2.3 Protection of Secrecy, where 'Recipient agrees to take all steps necessary to protect the secrecy of the Confidential Information, and to prevent the Confidential Information from failing into the public domain or into the possession of unauthorized person(s) and/or entity(ies).' Making a copy increases the risk of the layout plan ending in the wrong hands.",
+        "location": "2.4",
+        "contradicted_location": "2.3",
+        "contradicted_text": "2.3 Protection of Secrecy: Recipient agrees to take all steps necessary to protect the secrecy of the Confidential Information, and to prevent the Confidential Information from failing into the public domain or into the possession of unauthorized person(s) and/or entity(ies).",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the Recipient shall not have the right to copy the layout plan of the structural design of the Premises. However, the changed text grants the Recipient the right to copy the layout plan for internal use. This creates a direct conflict with section 2.3, which requires the Recipient to protect the secrecy of the Confidential Information and prevent it from falling into the possession of unauthorized persons. The changed text increases the risk of unauthorized access, thus contradicting 2.3."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The term of this Agreement shall commence on the Effective Date i.e. the date of signing the Agreement for the Purpose and continue for such a period until and unless the Discloser terminates the Agreement or the Premises is relocated or vacated or abandoned, whichever is earlier.",
+        "changed_text": "The term of this Agreement shall commence on the Effective Date i.e. the date of signing the Agreement and continue indefinitely, unless both parties mutually agree to terminate it, regardless of relocation, vacating, or abandonment of the Premises.",
+        "explanation": "The original termination clause includes specific events that trigger automatic termination. The modified clause eliminates these triggers and introduces a requirement for mutual agreement, contradicting the original terms. This change directly contradicts with the original text on Section 4, regarding 'Term and Termination'.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "The term of this Agreement shall commence on the Effective Date i.e. the date of signing the Agreement for the Purpose and continue for such a period until and unless the Discloser terminates the Agreement or the Premises is relocated or vacated or abandoned, whichever is earlier.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the termination clause, removing specific events that trigger automatic termination (relocation, vacating, or abandonment of the premises) and introducing a requirement for mutual agreement to terminate. This directly contradicts the contradicted text, which states that the agreement terminates when the Discloser terminates the agreement or the premises is relocated or vacated or abandoned, whichever is earlier. The modification creates a strong inconsistency regarding the conditions under which the agreement can be terminated, directly aligning with the 'Ambiguities - In Text Contradiction' definition."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Any dispute or difference arising out of or in connection with this Non- Discloser Agreement shall be setteled amicably by the Parties through mutual negotiations. Any unsettled dispute or difference shall be referred to Arbitration by a Sole Arbitrator.",
+        "changed_text": "Any dispute or difference arising out of or in connection with this Non- Discloser Agreement may be settled amicably by the Parties through mutual negotiations. Any unsettled dispute or difference shall be settled through litigation in the courts of [Jurisdiction] instead of arbitration.",
+        "explanation": "The original text mandates arbitration for unsettled disputes. The changed text replaces mandatory arbitration with litigation and changes 'shall' to 'may' making the process more flexible. This contradicts original text that guarantees the settlement of disputes to be referred to Arbitration by a Sole Arbitrator.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "Any dispute or difference arising out of or in connection with this Non- Discloser Agreement shall be setteled amicably by the Parties through mutual negotiations. Any unsettled dispute or difference shall be referred to Arbitration by a Sole Arbitrator.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces the mandatory arbitration clause in the original text with litigation in the courts and alters 'shall' to 'may' for dispute settlement. This directly contradicts the contradicted text, which mandates arbitration for unsettled disputes and uses 'shall,' creating a strong inconsistency regarding dispute resolution methods, meeting the definition of Ambiguities - In Text Contradiction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "Data Use Agreement New York City.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "A. Definition of Data. Data shall mean the data produced by DOHMH to Data Recipient pursuant to this Agreement and will include, without limitation, the specific description and data elements set forth in Attachment A to this Agreement.",
+        "changed_text": "A. Definition of Data. Data shall mean the data produced by DOHMH to Data Recipient pursuant to this Agreement.",
+        "explanation": "By omitting 'and will include, without limitation, the specific description and data elements set forth in Attachment A to this Agreement,' the definition of 'Data' becomes vague. Later sections referring to the specific data elements defined in Attachment A now lack a clear definition, creating an in-text contradiction, since Attachment A is still mentioned elsewhere.",
+        "location": "III",
+        "contradicted_location": "IV",
+        "contradicted_text": "A. Data Recipient agrees to use the Data solely for the purposes set forth in Attachment B to this Agreement, and for no other purposes.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined 'Data' as including specific data elements in Attachment A. The changed text removes this specification, making the definition of 'Data' vague. The contradicted text refers to 'Data' and its use with Attachment B, implying a specific set of data. By removing the explicit link to Attachment A in the definition of 'Data', the changed text creates a contradiction because it's unclear what 'Data' refers to, impacting the use of data as defined by Attachment B. This aligns with the Omissions-In Text Contradiction definition."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "B. Restrict Access to “Authorized Users”. 1. Only the Data Recipient ’s employees and/or consultants required to use the Data to perform the functions of this A greement that are set forth in Attachment B , and so designated by Data Recipient as “Authorized Users” in Attachment C to this Agreement, will be given access to the Data. 2. Such Authorized Users will be trained by Data Recipient as to the confidential nature of the Data, and its proper handli ng, and shall sign an agreement, in a form approved by DOHMH , to treat the Data as confidential and meet any appropriate security requirements (“Authorized User Agreement”) . 3. Data Recipient will provide DOHMH with a copy of each Authorized User Agreement that it has secured prior to the exchange of Data and prior to granting any user access to the Data . 4. Data Recipient will notify DOHMH of any changes to Attachment C within 5 days of any changes to the Authorized User list. In addition, Data Recipient will provide DOHMH with any newly entered Authorized User Agreement",
+        "changed_text": "B. Restrict Access to “Authorized Users”. 1. Only the Data Recipient ’s employees and/or consultants required to use the Data to perform the functions of this A greement that are set forth in Attachment B , will be given access to the Data. 2. Such Authorized Users will be trained by Data Recipient as to the confidential nature of the Data, and its proper handli ng, and shall sign an agreement, in a form approved by DOHMH , to treat the Data as confidential and meet any appropriate security requirements (“Authorized User Agreement”) . 3. Data Recipient will provide DOHMH with a copy of each Authorized User Agreement that it has secured prior to the exchange of Data and prior to granting any user access to the Data . 4. Data Recipient will notify DOHMH of any changes to the Authorized User list. In addition, Data Recipient will provide DOHMH with any newly entered Authorized User Agreement",
+        "explanation": "Removing 'and so designated by Data Recipient as “Authorized Users” in Attachment C to this Agreement' causes contradiction because Attachment C is no longer the source to determine who is an authoized user. This creates ambiguity, particularly when the definition of Data is also altered.",
+        "location": "V",
+        "contradicted_location": "V",
+        "contradicted_text": "5. Data Recipient shall immediately notify DOHMH if any Authorized User has failed to comply with the terms of this Agreement and has compromised the privacy and security of the Data. Such conduct will result in the immediate removal of t he user from the list of Authorized Users and the immediate termination of Data access to that specific user.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that 'Authorized Users' are designated in Attachment C. The changed text removes this designation, making the determination of who is an 'Authorized User' ambiguous. This contradicts the text stating 'Data Recipient shall immediately notify DOHMH if any Authorized User has failed to comply...' because it is no longer clear how an 'Authorized User' is defined, creating ambiguity and rendering the notification requirement unenforceable."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "DOHMH reserves the right to conduct tests of the Data Recipient’s internal data safekeeping and other control systems prior to transfer of Data, and periodically after the transfer of Data, to provide reasonable assurance to itself that the Data Recipient is receiving and safekeeping the Data in compliance with the provisions of this Agreement and applicable laws, rules, and regulations.",
+        "changed_text": "DOHMH reserves the right to conduct tests of the Data Recipient’s internal data safekeeping and other control systems prior to transfer of Data, to provide reasonable assurance to itself that the Data Recipient is receiving and safekeeping the Data in compliance with the provisions of this Agreement and applicable laws, rules, and regulations.",
+        "explanation": "By removing 'and periodically after the transfer of Data', it suggests audits occur only before the transfer, contradicting the implicit need to monitor data security continuously throughout the agreement's term. It creates an in-text contradiction because other sections assume continued compliance and monitoring, creating uncertainty in the enforcement of data protection measures after the initial transfer.",
+        "location": "V",
+        "contradicted_location": "V",
+        "contradicted_text": "C. Security and Confidentiality. When Data Recipient receives Data from the DOH MH in accordance with this Agreement, or creates and uses files deri ved from Data, Data Recipient shall maintain the security and confidentiality of Data as required by this Agreement and applicable laws, rules and regulations. Except as otherwise provided in this Agreement, Data Recipient shall not, at any time, directly or indirectly disclose, share, give, loan, sell, or otherwise grant access to the Data provided pursuant to this Agreemen t, in part or in whole, to any other pers on or organization.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed for periodic audits *after* data transfer, ensuring continued compliance. The changed text removes this, limiting audits to only *before* data transfer. This directly contradicts the Contradicted Text (Section C), which mandates continuous security and confidentiality 'at any time' after data is received. By eliminating post-transfer audits, the changed text undermines the enforcement of ongoing data protection obligations outlined in Section C, creating a clear contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Except as set forth in Section III, Data Recipient shall not re produce the Data in any form without the prior written consent of DOHMH.",
+        "changed_text": "Data Recipient shall not re produce the Data in any form without the prior written consent of DOHMH.",
+        "explanation": "By removing 'Except as set forth in Section III' , the clause creates a contradiction if Section III indeed permitted certain reproductions. Without the exception, any reproduction, even if previously allowed, now requires consent.",
+        "location": "V",
+        "contradicted_location": "III",
+        "contradicted_text": "C. Data Ownership. The Data Recipient hereby acknowledges that the DOHMH is the exclusive owner of the Data and all trade secrets and other rights therein. No license or conveyance of any such rights is granted or implied under this Agreement. Data Recipient shall not make, have made, use or sell for any purpose any product or other item using, incorporating or derived from Data , other than for the purpose stated in Attachment B for which the Data was provided under this Agreement . DOHMH may at any time request that the Data be promptly returned. Upon written request by DOHMH, Data Recipient shall promptly return to DOHMH Data, notes, and other tangible materials representing the Data and al l copies and reproduction thereof (in whole or in part) and shall delete or otherwise destroy any copies or reproductions of such Data that may resid e in Data Recipient’s possession, including but not limited to, on Data Recipient’s server, computer systems , or files .",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated \"Except as set forth in Section III, Data Recipient shall not reproduce the Data in any form without the prior written consent of DOHMH.\" The changed text removes this exception. The Contradicted Text in Section III states that \"Data Recipient shall not make, have made, use or sell for any purpose any product or other item using, incorporating or derived from Data , other than for the purpose stated in Attachment B for which the Data was provided under this Agreement.\" By removing the exception, the changed text creates a contradiction. The changed text now requires written consent for all reproductions, while the contradicted text allows for reproductions for the purpose stated in Attachment B without requiring explicit consent. This is a direct conflict, aligning with the definition of 'Omissions – In Text Contradiction'."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Subject to the terms of this Agreement, including without limitation, Attachment B to this Agreement, which describes the uses that the Data Recipient may make of the Data, the Data Recipient may publish or publicly present its work as described in Attachment B , which must not cont ain any individually identifiable information, of the use undertaken in accord with Attachment B . Prior to publication or public presentation of such work product, the Data Recipient will submit its final work product to the DOHMH for review and approval.",
+        "changed_text": "Subject to the terms of this Agreement, the Data Recipient may publish or publicly present its work , which must not cont ain any individually identifiable information. Prior to publication or public presentation of such work product, the Data Recipient will submit its final work product to the DOHMH for review and approval.",
+        "explanation": "Removing the references to Attachment B removes the specific scope of permitted publications. It creates a contradiction because without Attachment B defining the allowed uses, the clause requiring submission for review becomes vague and harder to enforce. It creates confusion about the extent of permissible publications and presentations.",
+        "location": "X",
+        "contradicted_location": "IV",
+        "contradicted_text": "A. Data Recipient agrees to use the Data solely for the purposes set forth in Attachment B to this Agreement, and for no other purposes.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly limited the Data Recipient's publication rights by referring to Attachment B, which defined permissible uses. The changed text removes this limitation, stating only that the publication 'must not contain any individually identifiable information'. This directly contradicts the 'Contradicted Text', which states that 'Data Recipient agrees to use the Data solely for the purposes set forth in Attachment B to this Agreement, and for no other purposes.' The removal of the reference to Attachment B creates a conflict because it broadens the scope of permissible publications beyond what Attachment B allows."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Exhibits hereto may be modified upon written agreement by the Parties without the need to amend this Agreement in its entirety.",
+        "changed_text": "This Agreement may be modified upon written agreement by the Parties.",
+        "explanation": "By removing 'The Exhibits hereto may be modified upon written agreement by the Parties without the need to amend this Agreement in its entirety.', it removes the possibility of modifying just the Exhibits. Now, the full agreement has to be amended. It creates a contradiction with the other clauses, specially with sections that refere to the Exhibits.",
+        "location": "XII",
+        "contradicted_location": "III",
+        "contradicted_text": "A. Definition of Data. Data shall mean the data produced by DOHMH to Data Recipient pursuant to this Agreement and will include, without limitation, the specific description and data elements set forth in Attachment A to this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed for the modification of Exhibits without amending the entire agreement. The changed text removes this exception, requiring the entire agreement to be amended for any modification, including those to exhibits. The contradicted text defines 'Data' with reference to 'Attachment A', an exhibit. By removing the ability to modify exhibits without amending the whole agreement, the changed text contradicts the contradicted text because any change to Attachment A would now require a full agreement amendment, which was not previously necessary. This is a direct conflict that makes the process of modifying exhibits and attachments much more cumbersome, thereby creating an in-text contradiction."
+      }
+    ]
+  }
+]

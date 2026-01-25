@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "REWALKROBOTICSLTD_07_10_2014-EX-10.2-STRATEGIC ALLIANCE AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The parties acknowledge that the purpose of this agreement shall be to seek and develop possibilities for collaboration in the following areas: (a) Marketing, distribution, and commercialization of ARGO's products by YEC, subject to the terms and conditions contained in thisAgreement and a separate Distribution Agreement being entered into concurrently with this Agreement (hereafter \"DA\").",
+        "changed_text": "The parties acknowledge that the purpose of this agreement shall be to seek and develop possibilities for collaboration in the following areas: (a) Marketing, distribution, and commercialization of ARGO's products by YEC, subject to the terms and conditions contained in this Agreement.",
+        "explanation": "By removing the explicit reference to the 'Distribution Agreement (DA),' but other clauses still referencing it, this creates ambiguity. For example, section 3 discusses distribution based on the DA. Without the DA, the rights and obligations are unclear, creating an in-text contradiction because section 3 references DA, but its existence or terms are not clear from the first section.",
+        "location": "1",
+        "contradicted_location": "3",
+        "contradicted_text": "As part of the implementation and performance of this Agreement, both parties are entering into the DA concurrently with this Agreement. Pursuant to the DA, and subject to its terms, ARGO agreed to appoint YEC as the exclusive distributor of its products in the Territory specified therein, and YEC agreed to market and distribute Argo's products in a professional manner. In case the DA is terminated in accordance with the terms and conditions of the DA, this provision shall be considered void.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the explicit reference to the 'Distribution Agreement (DA)' in the initial description of the agreement's purpose. The contradicted text, however, clearly states that both parties are entering into the DA concurrently and outlines specific obligations and rights related to that agreement, including ARGO appointing YEC as the exclusive distributor. By removing the DA reference, the changed text creates a contradiction because it omits a crucial element (the DA) upon which the contradicted text relies for its stipulations regarding distribution, causing ambiguity and impacting the enforceability of the distribution terms."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Subject to the DA being in effect, to review and share the progress of marketing and sales of ARGO Products by YEC and ARGOworldwide, as defined in the DA.",
+        "changed_text": "To review and share the progress of marketing and sales of ARGO Products by YEC and ARGO worldwide.",
+        "explanation": "Removing the phrase 'Subject to the DA being in effect, as defined in the DA' creates an issue because the original text made the sharing of progress dependent on the DA. This dependence no longer exists, yet the sharing is still mentioned as something that is expected, but removes the limitations as per the DA. This creates uncertainty whether the progress should still be discussed when DA is not in effect.",
+        "location": "4(a)",
+        "contradicted_location": "4(a)",
+        "contradicted_text": "Subject to the DA being in effect, to review and share the progress of marketing and sales of ARGO Products by YEC and ARGOworldwide, as defined in the DA.",
+        "contradiction_exists": "YES",
+        "justification": "The original text, and the contradicted text, both state that reviewing and sharing progress is 'Subject to the DA being in effect'. The changed text removes this condition, creating a contradiction. Now, the obligation to review and share progress exists regardless of whether the DA is in effect, directly conflicting with the conditionality stated in the contradicted text. This creates a strong in-text contradiction, as it changes the circumstances under which this obligation arises."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Unless otherwise agreed between the parties or stipulated in a separate related agreement such as the SPA or DA, each party confirms and agrees that any Intellectual Properties are hereby supplied to the other party on an \"as is\" basis.",
+        "changed_text": "Unless otherwise agreed between the parties or stipulated in a separate related agreement such as the SPA, each party confirms and agrees that any Intellectual Properties are hereby supplied to the other party on an \"as is\" basis.",
+        "explanation": "By removing the reference to the 'DA' in the context of intellectual property, but other clauses still referencing the DA, it introduces a contradiction. For instance, the DA may contain specific clauses about IP usage rights concerning distribution, marketing, and improvements of ARGO's products. Therefore, the DA having control over Intellectual Property, by omitting this from section 8 causes a confusion with what the agreement is referring too. In this context intellectual Properties would not be covered if the DA is not included.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "Unless otherwise agreed between the parties or stipulated in a separate related agreement such as the SPA or DA, each party confirms and agrees that any Intellectual Properties are hereby supplied to the other party on an \"as is\" basis.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text removes 'DA' from the list of agreements that might contain stipulations on intellectual property, while the contradicted text includes it. This creates a contradiction because the original text allows the DA to govern IP, but the modified version suggests it does not unless otherwise agreed. The Perturbation Explanation confirms that the DA contains IP usage rights, directly conflicting with the changed text. Therefore, by omitting this from section 8 causes a confusion with what the agreement is referring too. In this context intellectual Properties would not be covered if the DA is not included."
+      }
+    ]
+  }
+]

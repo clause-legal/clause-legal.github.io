@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "isca-nda.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "2.3 In the event that the Parties do not execute any a greement for the Services or upon demand by ISCA , the Vendor undertakes to forthwith: (1) return all Confidential Information (including all originals and copies) to ISCA ; or (2) where (1) is not possible, at ISCA’s option , destroy, erase, delete, or securely dispose of such Confidential Information, and to furnish ISCA with a written confirmation , certifying that no copies of the Confidential Information have been made, reproduced, retained , or distributed by itself, its employees , or any third parties , without prejudice to the obligations of confidentiality hereunder.",
+        "changed_text": "2.3 In the event that the Parties do not execute any agreement for the Services or upon demand by ISCA, the Vendor may retain one copy of Confidential Information solely for archival purposes. Otherwise, the Vendor undertakes to forthwith: (1) return all Confidential Information (excluding the archival copy) to ISCA; or (2) where (1) is not possible, at ISCA’s option, destroy, erase, delete, or securely dispose of such Confidential Information, and to furnish ISCA with a written confirmation, certifying that no copies of the Confidential Information have been made, reproduced, retained, or distributed by itself, its employees, or any third parties, without prejudice to the obligations of confidentiality hereunder.",
+        "explanation": "This perturbation introduces a contradiction to the text. The original text stated that, in the event the parties don't execute any agreement, the vendor is supposed to return ALL confidential information, or dispose of it. By introducing an exception to keep a copy of confidential information for archival purposes, contradicts that statement. This contradiction will affect the obligations of maintaining all confidential information as confidential.",
+        "location": "2.3",
+        "contradicted_location": "2.1",
+        "contradicted_text": "2.1 The Vendor hereby agrees to maintain as confiden tial and agrees not to use except for the Limited Purpose, any part or the whole of any Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies section 2.3 to allow the vendor to retain one copy of Confidential Information for archival purposes. This directly contradicts section 2.1, which states that the Vendor agrees to maintain as confidential and agrees not to use any part or the whole of any Confidential Information, without exception. The introduction of an exception creates a strong in-text contradiction because retaining a copy, even for archival purposes, directly conflicts with the obligation not to use any of the Confidential Information and maintain all of it as confidential."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "3. Employee Undertakings 3.1 The Vendor shall, before any permitted disclosures are made to any employees pursuant to Clause 2.2(1) , inform such employees of the Vendor ’s obligations under this Agreement and bind such employees to observe the terms of this Agreement. 3.2 For the avoidance of doubt, the Vendor shall be responsible for ensuring its employees’ strict compliance with the terms of this Agreement. Any non -compliance with the terms of this Agreement by an employee of the Vendor shall be deemed a breach of this Agreement by Vendor .",
+        "changed_text": "3. Employee Undertakings 3.1 The Vendor shall, before any permitted disclosures are made to any employees pursuant to Clause 2.2(1), inform such employees of the Vendor’s obligations under this Agreement. 3.2 For the avoidance of doubt, the Vendor shall make reasonable efforts to ensure its employees’ compliance with the terms of this Agreement, but will not be held liable for unintentional breaches by employees.",
+        "explanation": "The original Clause 3.1 and 3.2 places strict liability on the Vendor for employee breaches. The removal of the requirement to 'bind' employees and the addition of 'reasonable efforts' with a liability waiver for 'unintentional breaches' directly contradicts the original strict compliance and liability.",
+        "location": "3.2",
+        "contradicted_location": "3.2",
+        "contradicted_text": "3.2 For the avoidance of doubt, the Vendor shall make reasonable efforts to ensure its employees’ compliance with the terms of this Agreement, but will not be held liable for unintentional breaches by employees.",
+        "contradiction_exists": "YES",
+        "justification": "The original text placed strict liability on the Vendor for its employees' compliance, deeming any non-compliance a breach by the Vendor. The changed text modifies this by requiring only 'reasonable efforts' and absolving the Vendor of liability for 'unintentional breaches'. This directly contradicts the initial strict liability, creating an in-text contradiction because the contradicted text (which is actually the changed text itself) now conflicts with the original intent and creates uncertainty regarding the vendor's responsibility for employee actions."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "9. Equitable Relief The Parties agree that in the event of any breach or threatened breach of this Agreement by the Vendor , ISCA shall be entitled to obtain equitable relief, including without any limitation, an injunction and/or specific performance, in addition to any other remedies available at law or in equity.",
+        "changed_text": "9. Equitable Relief The Parties agree that in the event of any wilful breach of this Agreement by the Vendor , ISCA may be entitled to obtain equitable relief, only limited to a claim for monetary damages, and waives its rights to an injunction and/or specific performance or any other remedies available at law or in equity.",
+        "explanation": "The original text provides ISCA with 'equitable relief' including the possibility of 'an injunction and/or specific performance'. The modified version restricts equitable relief to only 'monetary damages', contradicting the original provision and significantly limiting ISCA's legal recourse.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "9. Equitable Relief The Parties agree that in the event of any wilful breach of this Agreement by the Vendor , ISCA may be entitled to obtain equitable relief, only limited to a claim for monetary damages, and waives its rights to an injunction and/or specific performance or any other remedies available at law or in equity.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text limits ISCA's equitable relief to only 'monetary damages' and waives rights to 'an injunction and/or specific performance', directly contradicting the original text's provision for equitable relief including 'an injunction and/or specific performance'. Since the contradicted text is the same as the changed text it still is a strong contradiction."
+      }
+    ]
+  }
+]

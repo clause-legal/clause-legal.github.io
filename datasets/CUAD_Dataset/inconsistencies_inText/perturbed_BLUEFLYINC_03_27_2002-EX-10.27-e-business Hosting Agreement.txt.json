@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "4.2 Payment IBM invoices will specify the amount due. Payment is due upon receipt and payable as specified in such invoice. Customer agrees to pay accordingly, including any late payment fees. Payment will be made in United States dollars.",
+        "changed_text": "4.2 Payment IBM invoices will specify the amount due. Payment is due upon receipt and payable as specified in such invoice. Customer agrees to pay accordingly, including any late payment fees. Payment will be made in United States dollars. **Payment is due within 30 days of the invoice date.**",
+        "explanation": "This change introduces an in-text contradiction by adding a specific payment deadline of 30 days to Section 4.2, while the original clause states that payment is due upon receipt, which implies immediate payment. This contradicts the additional 30 days payment deadline, causing uncertainty and potential dispute over when payment is actually due and when late fees should be applied.",
+        "location": "4.2",
+        "contradicted_location": "4.2",
+        "contradicted_text": "4.2 Payment IBM invoices will specify the amount due. Payment is due upon receipt and payable as specified in such invoice. Customer agrees to pay accordingly, including any late payment fees. Payment will be made in United States dollars. Payment is due within 30 days of the invoice date.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds 'Payment is due within 30 days of the invoice date' to Section 4.2, directly contradicting the original clause in the same section stating 'Payment is due upon receipt.' The phrase 'upon receipt' implies immediate payment, while 'within 30 days' allows for a delayed payment. This creates a clear inconsistency regarding when payment is actually due, thus fulfilling the condition for 'Inconsistencies - In Text Contradiction'."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "3.2 Renewal Each Service Option Attachment will renew automatically for an additional term equal in duration to the previous term of the applicable Service Option Attachment unless either party notifies the other party in writing at least ninety (90) days prior to the end of the then-current term for the applicable Service Option Attachment that it has elected to terminate such Service Option Attachment.",
+        "changed_text": "3.2 Renewal Each Service Option Attachment will renew automatically for an additional term equal in duration to the previous term of the applicable Service Option Attachment unless either party notifies the other party in writing at least ninety (90) days prior to the end of the then-current term for the applicable Service Option Attachment that it has elected to terminate such Service Option Attachment. **However, for the initial term only, notification must be given 120 days prior to the end of the term.**",
+        "explanation": "This change introduces an in-text contradiction by specifying different notification periods for termination depending on whether it's the initial term or a renewal term. The original clause stipulates a 90-day notice, while the added text demands a 120-day notice for the initial term. This creates confusion and uncertainty regarding the required notice period for terminating the agreement during its first term.",
+        "location": "3.2",
+        "contradicted_location": "3.2",
+        "contradicted_text": "3.2 Renewal Each Service Option Attachment will renew automatically for an additional term equal in duration to the previous term of the applicable Service Option Attachment unless either party notifies the other party in writing at least ninety (90) days prior to the end of the then-current term for the applicable Service Option Attachment that it has elected to terminate such Service Option Attachment. However, for the initial term only, notification must be given 120 days prior to the end of the term.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a specific notification period (120 days) for the initial term, while the original text and contradicted text specify a 90-day notification period for all Service Option Attachments. This creates a direct conflict and inconsistency regarding the required notice period for termination during the initial term, as the same section now prescribes two different notice periods depending on the term (initial vs. renewal). This fits the definition of 'Inconsistencies - In Text Contradiction' where different sections of a contract provide conflicting deadlines."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "14.10 Assignment Customer will not assign this Agreement or any of its rights hereunder without the prior written consent of IBM, such consent not to be unreasonably withheld. Notwithstanding the foregoing, Customer may assign this Agreement to a successor organization by merger, consolidation or acquisition. Any attempted assignment in violation of the foregoing will be void. In any permitted assignment, Customer will remain liable for its obligations hereunder.",
+        "changed_text": "14.10 Assignment Customer will not assign this Agreement or any of its rights hereunder without the prior written consent of IBM, such consent not to be unreasonably withheld. Notwithstanding the foregoing, Customer may assign this Agreement to a successor organization by merger, consolidation or acquisition. Any attempted assignment in violation of the foregoing will be void. **However, Customer will not remain liable for its obligations hereunder, as a condition for the consent being granted.** In any permitted assignment, Customer will remain liable for its obligations hereunder.",
+        "explanation": "This change introduces an in-text contradiction by stating that the Customer will not remain liable for its obligations if IBM consents to the assignment and that the Customer will remain liable for its obligations in any permitted assignment. This contradicts itself and creates confusion regarding Customer's liability after assigning the contract to a successor organization, undermining the enforceability of either provision.",
+        "location": "14.10",
+        "contradicted_location": "14.10",
+        "contradicted_text": "14.10 Assignment Customer will not assign this Agreement or any of its rights hereunder without the prior written consent of IBM, such consent not to be unreasonably withheld. Notwithstanding the foregoing, Customer may assign this Agreement to a successor organization by merger, consolidation or acquisition. Any attempted assignment in violation of the foregoing will be void. However, Customer will not remain liable for its obligations hereunder, as a condition for the consent being granted. In any permitted assignment, Customer will remain liable for its obligations hereunder.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts itself within section 14.10. It states that the Customer will *not* remain liable for obligations as a condition for consent, but *will* remain liable in any permitted assignment. This creates a clear and irreconcilable contradiction regarding the Customer's liability after assignment, making enforcement unclear. The changed text and contradicted text are in the same place, which allows the contradiction to be recognized."
+      }
+    ]
+  }
+]

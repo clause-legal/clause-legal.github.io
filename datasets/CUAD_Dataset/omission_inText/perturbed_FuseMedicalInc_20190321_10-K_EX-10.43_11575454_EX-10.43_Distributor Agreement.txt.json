@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "FuseMedicalInc_20190321_10-K_EX-10.43_11575454_EX-10.43_Distributor Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Inactive Territories means a country in which the Distributor has not sold or supplied the Product during the Initial Term.",
+        "changed_text": "Inactive Territories means a country in which the Distributor has not actively marketed the Product during the Term.",
+        "explanation": "The original definition of 'Inactive Territories' relies on actual sales or supply of the Product. The modified definition changes this to 'actively marketed,' which is much more subjective and open to interpretation. This creates a contradiction if, for example, Clause 2.2 refers to removing Inactive Territories based on a lack of sales (as originally intended), but the Distributor can argue they were actively marketing, even without sales. Thus, removing the Inactive Territories based on a lack of sales becomes unenforceable due to the modification of the definition to be based on 'actively marketed.'",
+        "location": "1.1",
+        "contradicted_location": "2.2",
+        "contradicted_text": "Following the expiry of the Initial Term, the Supplier may amend the Territory to remove any Inactive Territories.",
+        "contradiction_exists": "YES",
+        "justification": "The changed definition of 'Inactive Territories' from requiring a lack of sales/supply to requiring a lack of active marketing creates a direct conflict with the Supplier's right to remove Inactive Territories. The original definition (lack of sales) provides a clear, objective metric. The changed definition (lack of active marketing) is subjective and allows the Distributor to argue that they were actively marketing, even without sales, rendering the Supplier's right to remove Inactive Territories based on a lack of sales unenforceable. This conflicts with \"Following the expiry of the Initial Term, the Supplier may amend the Territory to remove any Inactive Territories.\""
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Distributor must pay the full amount invoiced to it by the Supplier in USD$'s within thirty (45) days of the date of invoice.",
+        "changed_text": "The Distributor must pay the amount invoiced to it by the Supplier in a timely manner.",
+        "explanation": "The original clause specifies a payment term of thirty (45) days, providing a concrete deadline. By changing it to 'timely manner,' the exact due date is no longer defined. This creates ambiguity and potential for dispute, especially if Clause 11.2(a) refers to failure to pay on the 'due date.' If there is no defined 'due date', then this creates an in-text contradiction, making it difficult to claim a breach of contract under that clause. Note that the (45) days was kept intentionally in the original clause for uncertainty",
+        "location": "5.3",
+        "contradicted_location": "11.2",
+        "contradicted_text": "Without affecting any other rights that it may be entitled to, either party may give notice in writing to the other terminating this agreement immediately if: (a) the other party fails to pay any amount due under this agreement on the due date for payment and remains in default not less than 14 days after being notified in writing to make such payment; or",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces a specific payment deadline (30 (45) days) with a vague 'timely manner'. This creates a direct contradiction with Clause 11.2(a), which requires payment by a 'due date'. The lack of a defined 'due date' in the changed text makes it impossible to determine when payment is due, thereby undermining the enforcement mechanism in Clause 11.2(a). This creates a strong in-text contradiction because the changed text removes a key condition (the due date) required for the contradicted clause to operate as intended."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Supplier shall add the distributor to their current insurance certificate.",
+        "changed_text": "The Supplier shall consider including the distributor on their insurance coverage.",
+        "explanation": "The original clause mandates adding the distributor to the supplier's insurance certificate. The modified clause makes it discretionary, stating the supplier will 'consider including' the distributor. This introduces an internal contradiction because Clause 10.1 starts by stating 'Subject to the Distributor fulfilling all the conditions in this clause 10, the Supplier shall indemnify the Distributor'. Now, with the changes, since there's no longer an obligation to add the distributor to the insurance, the Distributor indemnity will not be granted since the condition to add to the insurance certificate is not been met.",
+        "location": "10.1",
+        "contradicted_location": "10.1",
+        "contradicted_text": "Subject to the Distributor fulfilling all the conditions in this clause 10, the Supplier shall indemnify the Distributor, defend and hold harmless against any liability incurred by the Distributor in respect of damage to property, death or personal injury arising from any fault or defect in the design of the Products and any reasonable costs, claims, demands and expenses, including reasonable attorneys' fees, arising out of or in connection with that liability (Relevant Claim), except to the extent the liability arises as a result of the wilful misconduct of the Distributor.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandated that the Supplier add the distributor to their insurance certificate. The changed text alters this obligation to a discretionary action ('consider including'), creating a contradiction. The contradicted text, 'Subject to the Distributor fulfilling all the conditions in this clause 10, the Supplier shall indemnify the Distributor...', establishes that the distributor's indemnity is contingent on fulfilling all conditions in Clause 10, one of which was originally the mandatory addition to the supplier's insurance. By making this addition discretionary, the changed text undermines the condition upon which the indemnity is granted, creating a clear contradiction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "FerroglobePlc_20150624_F-4A_EX-10.20_9154746_EX-10.20_Outsourcing Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "2.2. The definitions that apply in the present Agreement are listed in Annex 1.",
+        "changed_text": "2.2. The definitions that apply in the present Agreement are listed throughout the agreement.",
+        "explanation": "By removing the explicit reference to 'Annex 1' as the sole source of definitions and stating definitions are listed 'throughout the agreement,' the contract now lacks a definitive, consolidated list of key terms. This omission creates an in-text contradiction because other sections (such as those detailing specific service level agreements or payment terms) rely on the definitions that were originally intended to be housed in Annex 1. This uncertainty undermines the contract's enforceability.",
+        "location": "2.2",
+        "contradicted_location": "3.1.4",
+        "contradicted_text": "EIT commits to assure a high availability (availability rate defined in Annex 2) and the proper performance (response timeand no saturation) of the Network during working hours in South Africa (established in Annex 2).",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that definitions are located in Annex 1. The changed text states that definitions are 'listed throughout the agreement,' removing the guarantee of a consolidated list in Annex 1. The contradicted text ('availability rate defined in Annex 2') relies on definitions being in Annex 2 (or, by implication from the original text, Annex 1 if it were related to general definitions relevant to all annexes). By removing the explicit link to Annex 1 and saying definitions are 'throughout the agreement', the location of the definition for 'availability rate' becomes unclear. This uncertainty creates an in-text contradiction because the contradicted text relies on a specific location of the definition, undermining clarity and enforceability. This aligns with the definition of Omissions – In Text Contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "6.1. EIT commits to provide monthly measurements to analyse the service level defined in Annex 2.",
+        "changed_text": "6.1. EIT may provide measurements periodically to analyse the service level.",
+        "explanation": "Changing 'commits to provide monthly measurements' to 'may provide measurements periodically' introduces ambiguity. By removing the mandatory commitment and defined frequency (monthly), the new phrasing creates uncertainty about how often service levels will be assessed. This directly contradicts the intent of maintaining consistent service levels. The altered text contradicts the overall intention of ensuring defined service qualities and consistent evaluation as initially intended, creating enforceability challenges.",
+        "location": "6.1",
+        "contradicted_location": "9.4.1",
+        "contradicted_text": "EIT guarantees that the services described in this Agreement will be rendered in accordance with the best practice, aquality level accepted by the Customer, and in accordance with the service levels defined in Annex 2.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandated monthly measurements for service level analysis. The changed text makes these measurements optional and changes the frequency to 'periodically'. This directly contradicts the 'EIT guarantees' clause, as the lack of mandatory, consistent measurement undermines the assurance of service levels defined in Annex 2. The change introduces uncertainty, which conflicts with the guarantee of service quality, thus creating a strong in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "7.1. TOTAL ANNUAL AMOUNT The total annual amount to be paid, excluding taxes, for the year 2009, for the total provision of the services described in Article 2 of this Agreement, as well as the supervision of these (establishment of measurements and supervision meetings) will be: TWO HUNDRED THOUSAND EUROS (200,000 €)\n7.1.1. This amount has been fixed for the two factories of Silicon Smelters: Polokwane and Rand Carbide, being the annualamount per factory A HUNDRED THOUSAND EUROS (100,000 €).\n7.1.2. If one of the factories closes down, the total amount due will be reduced pro rata for the rest of the annual period for thefactory's annual amount.",
+        "changed_text": "7.1. TOTAL ANNUAL AMOUNT The total annual amount to be paid, excluding taxes, for the year 2009, for the total provision of the services described in Article 2 of this Agreement, as well as the supervision of these will be determined at a later date.\n7.1.1. This amount has been fixed for the two factories of Silicon Smelters.\n7.1.2. If one of the factories closes down, the total amount due will be reduced pro rata for the rest of the annual period.",
+        "explanation": "By removing the exact Euro amount and the individual factory costs, the payment structure becomes uncertain. The annual amount and the value per factory are now unspecified. This affects clause 10.3, which is a liability clause that refers to this amount. This clause is now contradictory, since 7.1 specifies that an amount will be determined at a later date, while 10.3 makes reference to this amount already.",
+        "location": "7.1",
+        "contradicted_location": "10.3",
+        "contradicted_text": "The liability of EIT will be limited to a value equal to contractual value as per clause 7.1 and will not exceed this value.",
+        "contradiction_exists": "YES",
+        "justification": "The original text clearly defined the payment amount in clause 7.1, which was then referenced in clause 10.3 for liability limitations. The changed text removes the specific payment amount, stating it will be determined later. However, clause 10.3 still refers to clause 7.1 and its amount, which is now missing, creating a contradiction. The liability clause now references a non-existent value, making the liability limitation ambiguous and unenforceable, thus creating a strong contradiction as per the definition of Omissions - In Text Contradiction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "883905_0001095811-01-000469_f68556ex99-d12.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "GENERAL. (a) This Agreement is neither intended to nor shall it be construed as creating a joint venture, partnership or other form of business association between the parties, nor an obligation to buy or sell products using or incorporating the Confidential Information, nor as creating an implied or express license grant from either party to the other.",
+        "changed_text": "GENERAL. (a) This Agreement is intended to be construed as creating a joint venture, partnership or other form of business association between the parties, nor an obligation to buy or sell products using or incorporating the Confidential Information, nor as creating an implied or express license grant from either party to the other.",
+        "explanation": "The original text explicitly states that the agreement is *not* intended to create a joint venture or partnership. The modified text removes the 'neither' and 'nor shall it be' and replacing with *is* meaning the contract now implies that a joint venture/partnership *is* intended. This directly contradicts the original intent and could lead to disputes about the nature of the relationship between the parties. This contradicts with the other sections that explains the agreement, such as the period of confidentiality and termination.",
+        "location": "GENERAL",
+        "contradicted_location": "NO OBLIGATION OF DISCLOSURE",
+        "contradicted_text": "NO OBLIGATION OF DISCLOSURE. Neither party has any obligation to disclose Confidential Information to the other. Either party may, at any time, cease giving Confidential Information to the other party without any liability or request in writing the return of Confidential Information previously disclosed.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly states that the agreement is *not* intended to create a joint venture or partnership. The modified text implies that a joint venture/partnership *is* intended. This contradicts the contradicted text stating that 'Neither party has any obligation to disclose Confidential Information to the other. Either party may, at any time, cease giving Confidential Information to the other party without any liability...' as a joint venture/partnership will naturally have obligations to one another. This creates a direct conflict, triggering a strong in-text contradiction as per the Structural Flaws - In Text Contradiction definition."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Either party may, at any time, cease giving Confidential Information to the other party without any liability or request in writing the return of Confidential Information previously disclosed.",
+        "changed_text": "Either party may, at any time, cease giving Confidential Information to the other party with liability or request in writing the return of Confidential Information previously disclosed.",
+        "explanation": "By removing the word 'without' the text indicates that parties will be liable for ceasing to share confidential information, this directly contraditcs the previous clause that indicates there is no obligation to share information at any point.",
+        "location": "NO OBLIGATION OF DISCLOSURE",
+        "contradicted_location": "OBLIGATIONS OF RECEIVING PARTY",
+        "contradicted_text": "OBLIGATIONS OF RECEIVING PARTY. The receiving party shall not disclose Confidential Information to any third party without the prior written approval of the disclosing party. The receiving party shall maintain the Confidential Information with at least the same degree of care that the receiving party uses to protect its own similar categories of confidential and proprietary information, but no less than a reasonable degree of care under the circumstances. The receiving party shall not make any copies of Confidential Information received from the disclosing party except as necessary for its employees with a need to know. Any copies which are made shall be identified as belonging to the disclosing party and marked \"confidential,\" \"proprietary,\" or with a similar legend.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that either party could cease giving Confidential Information without liability. The changed text removes 'without,' making either party liable for ceasing to share confidential information. This directly contradicts the 'OBLIGATIONS OF RECEIVING PARTY' section, as it implies that the receiving party has an obligation to keep sharing confidential information, which conflicts with the receiving party's rights and creates an inconsistency regarding the obligation to share information."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "All Confidential Information received from the disclosing party shall be in tangible form.",
+        "changed_text": "All Confidential Information received from the disclosing party shall be in intangible form.",
+        "explanation": "By changing from tangible to intangible information, this contradicts the CITR section which is used to manage the confidential information, since it is designed for tangible information.",
+        "location": "CONFIDENTIAL INFORMATION TRANSMITTAL FORM",
+        "contradicted_location": "CONFIDENTIAL INFORMATION TRANSMITTAL FORM",
+        "contradicted_text": "The confidential, proprietary and trade secret information of the disclosing party (hereinafter \"Confidential Information\") provided hereunder, is that information described in the Confidential Information Transmittal Record (CITR) form executed from time to time hereafter. CITR's are subject to the terms of this Agreement and shall be executed by the parties prior to the disclosure of Confidential Information. All information described in a CITR and marked with a \"confidential,\" \"proprietary,\" or similar legend shall be deemed Confidential Information. All Confidential Information received from the disclosing party shall be in intangible form. The CITR shall set forth the disclosing party, a description of the Confidential Information disclosed, the names of the representatives of the parties and the date when the disclosure covered by the CITR commenced.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that all Confidential Information received from the disclosing party shall be in tangible form. The changed text modifies this to state that it must be in intangible form. The contradicted text refers to Confidential Information being described in the Confidential Information Transmittal Record (CITR). Since the CITR is designed for tangible information, changing the requirement to intangible form directly contradicts the purpose and function of the CITR, creating a strong in-text contradiction. The contradicted text also includes the sentence, \"All Confidential Information received from the disclosing party shall be in intangible form.\" This statement now contradicts the earlier part of the Contradicted Text section, which refers to using CITR, which is designed for tangible form."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement may not be amended except in writing signed by a duly authorized representative of the respective parties.",
+        "changed_text": "This Agreement may be amended verbally by any representative of the respective parties.",
+        "explanation": "The original text expressly prohibits verbal amendments. This modified version states that verbal amendments are allowed, directly contradicting the original clause. Verbal agreements could lead to legal disputes, and intext contradiction due to the difficulty in the court of law to make valid a verbal agreement, unless it's been recorded in written.",
+        "location": "GENERAL",
+        "contradicted_location": "GENERAL",
+        "contradicted_text": "This Agreement shall be governed by the laws of the State of California. (d) This Agreement, any accompanying CITR and CITRs executed from time to time hereafter which incorporate the terms of this Agreement constitute the entire agreement, written or verbal, between the parties with respect to the disclosure(s) of Confidential Information described in each CITR. This Agreement may be amended verbally by any representative of the respective parties. Any other agreements between the parties, including non-disclosure agreements, shall not be affected by this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that the agreement may be amended verbally by any representative, which directly contradicts the original text that only written amendments signed by authorized representatives are allowed. This contradiction is further reinforced by the inclusion of the changed text within the 'Contradicted Text' section, explicitly stating 'This Agreement may be amended verbally by any representative of the respective parties'. This creates a clear in-text contradiction about the proper procedure for amending the agreement."
+      }
+    ]
+  }
+]

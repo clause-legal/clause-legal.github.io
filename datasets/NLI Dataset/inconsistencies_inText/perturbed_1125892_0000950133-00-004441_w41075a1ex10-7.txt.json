@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "1125892_0000950133-00-004441_w41075a1ex10-7.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Receiving Party shall, at Disclosing Party's request, return all originals, copies, reproductions and summaries of Confidential Information and all other tangible materials and devices provided to the Receiving Party as Confidential Information, or at Disclosing Party's option, certify destruction of the same.",
+        "changed_text": "Receiving Party shall, at Disclosing Party's request, return all originals, copies, reproductions and summaries of Confidential Information and all other tangible materials and devices provided to the Receiving Party as Confidential Information; however, the Receiving party can retain a single archival copy indefinitely for legal compliance purposes, or at Disclosing Party's option, certify destruction of the same.",
+        "explanation": "This modification introduces a contradiction by allowing the Receiving Party to retain an archival copy of Confidential Information indefinitely, contradicting the original requirement to return or destroy all such information. This conflicts with Section 4(a) stating all Confidential Information remains the property of Disclosing Party, as the Receiving Party now retains a copy indefinitely.",
+        "location": "2.(e)",
+        "contradicted_location": "4.(a)",
+        "contradicted_text": "(a) All Confidential Information is and shall remain the property of Disclosing Party. By disclosing Confidential information to Receiving Party, Disclosing Party does not grant any express or implied right to Receiving Party to or under any patents, copyrights, trademarks, or trade secret information except as otherwise provided herein. Disclosing Party reserves without prejudice the ability to protect its rights under any such patents, copyrights, trademarks, or trade secrets except as otherwise provided herein.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text allows the Receiving Party to retain an archival copy of Confidential Information indefinitely. This directly contradicts the Contradicted Text, which states that 'All Confidential Information is and shall remain the property of Disclosing Party'. By retaining a copy, the Receiving Party possesses Confidential Information that should exclusively belong to the Disclosing Party, creating a clear and direct conflict within the document. This aligns with the definition of 'Inconsistencies - In Text Contradiction'."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The parties agree to comply with all applicable international and national laws that apply to (i) any Confidential Information, or (ii) any product (or any part thereof), process or service that is the direct product of the Confidential Information, including the U.S. Export Administration Regulations, as well as end-user, end-use and destination restrictions issued by U.S. and other governments.",
+        "changed_text": "The parties agree to comply with all applicable national laws that apply to (i) any Confidential Information. However, compliance with international laws is only required if explicitly stated in a separate written agreement.",
+        "explanation": "The change removes the mandatory compliance with international laws unless specified in a separate agreement, creating a direct conflict. This contradicts the intent of the agreement, which aims to protect confidential information comprehensively. Specifically, this contradicts Section 4(c) regarding adherence to U.S. Export Administration Regulations that are international in scope.",
+        "location": "4.(c)",
+        "contradicted_location": "4.(c)",
+        "contradicted_text": "(c) The parties agree to comply with all applicable international and national laws that apply to (i) any Confidential Information, or (ii) any product (or any part thereof), process or service that is the direct product of the Confidential Information, including the U.S. Export Administration Regulations, as well as end-user, end-use and destination restrictions issued by U.S. and other governments. For additional information on exporting Microsoft products, see http://www.microsoft.com/exporting/.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly removes the mandatory compliance with international laws, except when explicitly stated in another written agreement. This directly contradicts the contradicted text, which mandates compliance with all applicable international and national laws, including the U.S. Export Administration Regulations. The changed text introduces a clear inconsistency by creating an exception to a previously universally applied rule within the agreement, creating an in-text contradiction as defined in Inconsistencies - In Text Contradiction"
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement shall be binding upon and inure to the benefit of each party's respective successors and lawful assigns; provided, however, that neither party may assign this Agreement (whether by operation of law, sale of securities or assets, merger or otherwise), in whole or in part, without the prior written approval of the other party.",
+        "changed_text": "This Agreement shall be binding upon and inure to the benefit of each party's respective successors and lawful assigns; provided, however, that either party may assign this Agreement (whether by operation of law, sale of securities or assets, merger or otherwise), in whole or in part, without the prior written approval of the other party, except in the event of a change of control of the assigning party.",
+        "explanation": "The modified text adds an exception to the restriction on assigning the agreement. Now, a party can assign the agreement without approval in the event of a change of control. This directly contradicts the initial part of the sentence that explicitly requires prior written approval for any assignment, creating a conflict. It contradicts the initial clause about successors, since that clause implies ALL successors, yet the second modified clause creates a conditional where 'prior written approval' is not needed, thus contradicting the first half of the sentence",
+        "location": "4.(g)",
+        "contradicted_location": "4.(g)",
+        "contradicted_text": "(g) This Agreement shall be binding upon and inure to the benefit of each party's respective successors and lawful assigns; provided, however, that neither party may assign this Agreement (whether by operation of law, sale of securities or assets, merger or otherwise), in whole or in part, without the prior written approval of the other party. Any attempted assignment in violation of this Section shall be void.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an exception to the assignment restriction, allowing assignment without prior written approval in the event of a change of control. The contradicted text states that 'neither party may assign this Agreement... without the prior written approval of the other party' and that 'Any attempted assignment in violation of this Section shall be void.' The changed text directly contradicts this by creating a situation where assignment *is* allowed without approval, thus creating a strong in-text contradiction. The original text and contradicted text are essentially identical, so the change from 'neither' to 'either' with the added exception creates a direct conflict."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Either party may terminate this Agreement with or without cause upon ninety (90) days prior written notice to the other party.",
+        "changed_text": "Either party may terminate this Agreement with or without cause upon thirty (30) days prior written notice to the other party, unless the Disclosing Party has revealed Confidential Information in the last ninety (90) days, in which case ninety (90) days prior written notice is required.",
+        "explanation": "This change introduces a contradiction regarding the notice period required for termination. The base notice period is shortened to 30 days. However, if Confidential Information was disclosed recently (within 90 days), a 90-day notice period is required. This creates ambiguity, because Section 4(i) implies the 90 day notice is not conditional, thus is contradiction the original and the newly added conditional within the text.",
+        "location": "4.(i)",
+        "contradicted_location": "4.(i)",
+        "contradicted_text": "(i) Either party may terminate this Agreement with or without cause upon ninety (90) days prior written notice to the other party. All sections of this Agreement relating to the rights and obligations of the parties concerning Confidential Information disclosed during the term of the Agreement shall survive any such termination.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the original notice period of 90 days to 30 days, but introduces a conditional exception requiring 90 days' notice if Confidential Information was disclosed within the last 90 days. The contradicted text states \"Either party may terminate this Agreement with or without cause upon ninety (90) days prior written notice to the other party\", which does not have any conditions. Because of this, the changed text introduces a conditional, thus contradicting the previously established non-conditional ninety-day notice period stated in the contradicted text. This contradiction regarding termination notice period creates a strong inconsistency and leads to unenforceability."
+      }
+    ]
+  }
+]

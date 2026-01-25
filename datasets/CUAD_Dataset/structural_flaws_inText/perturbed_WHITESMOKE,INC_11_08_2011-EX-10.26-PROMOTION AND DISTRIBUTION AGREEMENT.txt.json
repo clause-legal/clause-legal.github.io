@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTION AND DISTRIBUTION AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "\"Install Completed\" occurs when an End User has completed the install process for a Bundle and the install completed screen is shown to the End User in accordance with Exhibit B.",
+        "changed_text": "\"Install Completed\" may occur even if an End User has not completed the install process for a Bundle, as long as the install completed screen is shown to the End User in accordance with Exhibit B.",
+        "explanation": "The original definition of \"Install Completed\" requires the End User to have completed the installation process. The modified definition allows for an \"Install Completed\" event to occur even if the installation isn't actually finished, as long as the screen is shown. This creates a contradiction because Google's payments are tied to Install Completed events. It is contradicting Clause 4.1 where Google makes payment based on 'Install Completed' which now becomes ambiguous.",
+        "location": "1. DEFINITIONS",
+        "contradicted_location": "4.1 Payments",
+        "contradicted_text": "Subject to Clause 4.2, during the Term on a [ * ] basis, Google shall pay to Distributor the applicable payment set out in Exhibit A for each [ * ] and each [ * ] that occurred during the previous [ * ]. Google shall determine the [ * ] in respect of which each [ * ] and [ * ] took [ * ] (using the relevant [ * ]). Notwithstanding the foregoing, in no event will the [ * ] of [ * ] by Google to Distributor for all [ * ] and all [ * ] in respect of [ * ] (as set out in Exhibit A) exceed [ * ] ([ * ]) of the [ * ] to Distributor for such [ * ].",
+        "contradiction_exists": "YES",
+        "justification": "The modification to the definition of \"Install Completed\" directly contradicts Clause 4.1. Originally, payments were based on actual completion of the install process. The change allows payments to be triggered even if the installation is not complete, as long as the install completed screen is shown, creating ambiguity and a direct conflict in how payments are calculated and authorized. This undermines the purpose of Clause 4.1, which intends to pay for genuine installations, not merely the appearance of one. This aligns with the structural flaw definition that the clause is placed in multiple locations with conflicting implications."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Distributor shall begin such distribution within [ * ] following Google's request.",
+        "changed_text": "Distributor may begin such distribution within [ * ] following Google's request.",
+        "explanation": "Changing \"shall\" to \"may\" in Clause 2.6 introduces ambiguity regarding the Distributor's obligation to distribute updated versions of the Distribution Products when requested by Google. The original text mandates that distribution must begin within a specified timeframe, while the revised text makes it optional. This directly contradicts the obligation of Distributor to distribute updated versions of Distribution Products, creating uncertainty about the distributor following Google's request, specifically Clause 3.1 which establishes that Google shall deliver the Distribution Products electronically to Distributor at a [ * ] following the Effective Date and prior to Launch.",
+        "location": "2.6 Updated Versions of Distribution Products",
+        "contradicted_location": "3.1 Delivery",
+        "contradicted_text": "Google shall deliver the Distribution Products electronically to Distributor at a [ * ] following the Effective Date and prior to Launch (as defined in Clause 3.4 (Launch)).",
+        "contradiction_exists": "YES",
+        "justification": "The change from \"shall\" to \"may\" in the changed text creates a contradiction because it transforms a mandatory action (distribution of updated versions of Distribution Products upon Google's request) into an optional one. This directly contradicts the original intent and creates uncertainty, especially when considering that Clause 3.1 states, \"Google shall deliver the Distribution Products electronically to Distributor...\", which implies the distributor has an obligation to distribute. Therefore, the modified text undermines the distributor's obligation to distribute the delivered products, thus introducing a direct and material contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "All notices of termination or breach must be in English, in writing, addressed to the other party's Legal Department and sent to Distributor's address set out at the head of this Agreement or to [ * ] (as applicable) or such other address as either party has notified the other in accordance with this Clause.",
+        "changed_text": "All notices of termination or breach can be verbal, and can be sent to anyone.",
+        "explanation": "The original text mandates that notices of termination or breach must be in English and in writing, and specifies the recipient and address. The modified version contradicts this by stating that such notices can be verbal and sent to anyone, removing the formal requirement for written communication to a specific recipient, making it contradictory with the Clause 5.2 and 5.5 where it says the termination needs to be on a written notice.",
+        "location": "11.2 Notices",
+        "contradicted_location": "5.2 Termination for breach",
+        "contradicted_text": "A party may suspend performance and/or terminate this Agreement, with immediate effect, if the other party: (a) is in material breach of this Agreement where the breach is incapable of remedy; or (b) is in material breach of this Agreement where the breach is capable of remedy and fails to remedy that breach within thirty (30) days after receiving written notice of such breach.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly contradicts the contradicted text. The original text stated that notices of termination or breach must be in English and in writing. The modified text states these notices 'can be verbal, and can be sent to anyone'. This directly conflicts with the contradicted text, which states that termination requires 'written notice' of a breach and a subsequent opportunity to remedy it. If verbal notice is acceptable per the changed text, the 'written notice' requirement becomes unenforceable, creating a strong contradiction and undermining the conditions under which termination can occur as outlined in the contradicted text."
+      }
+    ]
+  }
+]

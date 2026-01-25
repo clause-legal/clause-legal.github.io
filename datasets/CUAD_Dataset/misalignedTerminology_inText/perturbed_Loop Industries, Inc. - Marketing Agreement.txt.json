@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "Loop Industries, Inc. - Marketing Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "1.21 \"Products\" means recycled or upcycled PET resins.",
+        "changed_text": "1.21 \"Products\" means only upcycled PET resins.",
+        "explanation": "The original text defines 'Products' as both recycled and upcycled PET resins. The modified text narrows the definition to only upcycled PET resins. This creates a contradiction because the contract uses the term 'Products' in various sections expecting it to include both recycled and upcycled materials.",
+        "location": "Section 1.21",
+        "contradicted_location": "Section 2.1",
+        "contradicted_text": "2.1 Loop Sales Contracts. As between the Parties, subject to Section 2.7, Loop shall have the sole and exclusive right to enter into agreements for the sale of Loop-branded Products or any Products produced using Licensed Subject Matter, and the exclusive right to set the price and quantity to be supplied under each Loop Sales Contract and other terms and conditions as determined by Loop in its commercially reasonable discretion.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text changes the definition of 'Products' from including both recycled and upcycled PET resins to including only upcycled PET resins. Section 2.1 gives Loop the right to sell 'Products'. The original definition would allow Loop to sell both recycled and upcycled products, but the changed definition only allows Loop to sell upcycled products. This creates a contradiction because Section 2.1 is now restricted by the modified definition, creating a direct conflict by removing recycled products from the scope of Loop's sales rights."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "1.7 \"Authorized Customer\" means a Loop Party customer that is a party to a Transferred Contract, solely with respect to the Product quantities covered by the Transferred Contract.",
+        "changed_text": "1.7 \"Authorized Customer\" means any customer approved by Loop.",
+        "explanation": "The original text defines an 'Authorized Customer' as a Loop Party customer with a Transferred Contract. The modified version broadens the definition to any customer approved by Loop, regardless of having a Transferred Contract. This introduces a contradiction because sections dealing with Transferred Contracts rely on the original, narrower definition of 'Authorized Customer'.",
+        "location": "Section 1.7",
+        "contradicted_location": "Section 2.7",
+        "contradicted_text": "2.7 Exclusivity. Joint Venture Company shall not, and shall cause each SPV and each of their Affiliates not to, directly or indirectly, market or sell any Loop-branded Products or any Products produced using Licensed Subject Matter to any person or entity except to Authorized Customers pursuant to a Transferred Contract (the \"Marketing and Sale Restriction\"); provided that if at any time during the term of this Agreement, Loop has delivered Proposed Contract Notices that result in Transferred Contracts having binding purchase and supply obligations for less than [***] of the then existing actual production capacity of a Licensed Facility (taking into account Joint Venture Company's reasonable forecasts based on customer requirements, seasonal variations, and other factors) in the subsequent three months (the \"[***]\"), Joint Venture Company may market and solicit orders for Licensed Products produced in such Licensed Facility directly to customers and potential customers and enter into supply contracts for the sale of Loop-branded Products or any Products produced using Licensed Subject Matter produced in such Licensed Facility with customers without being restricted by the Marketing and Sale Restriction. If at any subsequent time during the term of this Agreement Loop gives Joint Venture Party written notice that Loop is then capable of meeting, and is prepared to meet, the [***] and provides reasonable supporting information and documentation to Joint Venture Party with such notice, then at a date selected by Joint Venture Company that is within ninety (90) days after Joint Venture Company receives such written notice, the Market and Sale Restriction and the other provisions of this Section 2.7 shall go back into force. Nothing in this Section 2.7 shall relieve Loop of any of its obligations under this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text narrowly defines 'Authorized Customer' as a Loop Party customer with a Transferred Contract. The changed text broadens the definition to any customer approved by Loop. This creates a contradiction because section 2.7 relies on the original, narrower definition for the Exclusivity clause. The change now allows Joint Venture Company to potentially market and sell to customers who are not subject to the Transferred Contract, violating the Marketing and Sale Restriction defined in section 2.7, as that section intended to limit marketing to only Authorized Customers pursuant to a Transferred Contract."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "1.16 \"Licensed Products\" has the meaning set forth in the License Agreement.",
+        "changed_text": "1.16 \"Licensed Products\" means any product manufactured in facilities owned or controlled by Joint Venture Company.",
+        "explanation": "The original text references the License Agreement for the definition of 'Licensed Products'. The modified text provides an independent definition based on the location of manufacture. This creates a contradiction, as the products deemed 'Licensed Products' under the License Agreement might differ from those manufactured solely in Joint Venture Company's facilities, impacting royalty obligations and sales restrictions.",
+        "location": "Section 1.16",
+        "contradicted_location": "Section 2.6",
+        "contradicted_text": "2.6 Product Branding. Joint Venture Company shall, and shall cause each SPV to, mark and brand all containers, packaging and related collateral for the Licensed Products in accordance with the License Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text deferred the definition of 'Licensed Products' to the License Agreement, ensuring consistency. The changed text provides a new, independent definition based on manufacturing location, potentially conflicting with the License Agreement's definition. This directly contradicts section 2.6, which requires product branding to be in accordance with the License Agreement, as the products now considered 'Licensed Products' under the modified definition might not align with those defined in the License Agreement, creating uncertainty and potential conflict."
+      }
+    ]
+  }
+]

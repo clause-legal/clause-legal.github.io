@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "VertexEnergyInc_20200113_8-K_EX-10.1_11943624_EX-10.1_Marketing Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "A Business Day shall open at 8:00a.m. and close at 5:00p.m. Houston, Texas, time.",
+        "changed_text": "A Business Day shall open at 9:00a.m. and close at 4:00p.m. Central European Time.",
+        "explanation": "The original definition of \"Business Day\" specified the hours of operation as 8:00 a.m. to 5:00 p.m. Houston, Texas time. This change modifies the hours to 9:00 a.m. to 4:00 p.m. Central European Time. This creates an in-text contradiction because later sections such as 4.1 Payment by Bunker One for the Product, as defined in clause 2.1, will be made by wire transfer within three (3) Business Days after the date Vertex invoices Bunker One, to an account designated from time to time by Vertex depend on the original definition of business day. With the perturbation of this section of the document it create an in-text contradiction with the payment and the number of days to wire transfer the payment.",
+        "location": "1. Definitions",
+        "contradicted_location": "4.1",
+        "contradicted_text": "Payment by Bunker One for the Product, as defined in clause 2.1, will be made by wire transfer within three (3) Business Days after the date Vertex invoices Bunker One, to an account designated from time to time by Vertex.",
+        "contradiction_exists": "YES",
+        "justification": "The change modifies the definition of \"Business Day\" by altering the hours of operation and the time zone. The contradicted text relies on the original definition of \"Business Day\" to determine the payment deadline. Changing the hours and time zone directly impacts the number of hours available for wire transfers within the specified timeframe, creating a direct contradiction and potentially impacting the payment terms."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The term of this JSMA shall commence on May 1, 2020 (the \"Commencement Date\") and ends at April 30, 2029 (the \"Term\"), with automatic renewals each for a period of five (5) years (a \"Renewal Term\") unless notice is given pursuant to 5.2.",
+        "changed_text": "The term of this JSMA shall commence on May 1, 2020 (the \"Commencement Date\") and ends at April 30, 2029 (the \"Term\"), without any renewals.",
+        "explanation": "The original text specifies a term ending April 30, 2029, with automatic five-year renewals unless a non-renewal notice is given. Modifying the text to remove renewals directly contradicts the automatic renewal clause, making the term fixed. This is an in-text contradiction because previously the document establish the existence of Renewal Term, therefore its is uncertain if the document allows or not renewal terms",
+        "location": "5.1",
+        "contradicted_location": "5.1",
+        "contradicted_text": "The term of this JSMA shall commence on May 1, 2020 (the \"Commencement Date\") and ends at April 30, 2029 (the \"Term\"), with automatic renewals each for a period of five (5) years (a \"Renewal Term\") unless notice is given pursuant to 5.2.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the automatic renewal clause from the term of the JSMA, directly contradicting the original text which specifies automatic renewals for five-year periods. This creates an in-text contradiction because the document now lacks a renewal term, making it uncertain if the document allows or not renewal terms, resulting in uncertainty about the duration of the agreement."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Each Party is responsible for payment and reporting of its federal, state, and local income taxes and state franchise, license, and similar taxes required for the maintenance of its business existence.",
+        "changed_text": "Bunker One is solely responsible for payment and reporting of all federal, state, and local income taxes, state franchise, license, and similar taxes required for the maintenance of both parties' business existence.",
+        "explanation": "The original clause states each party is responsible for its own taxes. The changed clause makes Bunker One responsible for all taxes of both parties. This creates an in-text contradiction in the document because in section 7.2 it establish a clause for any party failure, so this perturbation create an in-text contradiction in the document",
+        "location": "7.1",
+        "contradicted_location": "7.2",
+        "contradicted_text": "Should any unexpected taxes, fees, and/or other charges, including penalties and/ or interest, occur because of one Party's failure to pay and/or report, said Party shall bear all costs associated with such failure and shall indemnify the other Party from additional costs.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stipulates that each party is responsible for its own taxes. The changed text makes Bunker One solely responsible for the taxes of both parties. This directly contradicts the contradicted text, which outlines the consequences of 'one Party's failure to pay and/or report' taxes, assuming each party has its own responsibility. If Bunker One is responsible for all taxes, the clause regarding one party's failure becomes ambiguous and contradictory, as it is now unclear whose failure would trigger the indemnity clause. Therefore, a strong in-text contradiction exists."
+      }
+    ]
+  }
+]

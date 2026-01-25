@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Section%2013%20Non-Disclosure%20Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "2.1 All Confidential Information given by one party to th is Agreement (the “Disclosing Party”) to the other party (the “Receiving Party”) will be treated by the Receiving Party as secret and confidential and will not, without the Disclosing Pa rty’s written consent, directly or indirectly communicate or disclose (whether in writing or orally o r in any other manner) Confidential Information to any other person other than in accord ance with the terms of this Agreement.",
+        "changed_text": "2.1 All Confidential Information given by one party to th is Agreement (the “Disclosing Party”) to the other party (the “Receiving Party”) will be treated by the Receiving Party as secret and confidential and will not, without the Disclosing Pa rty’s written consent, directly or indirectly communicate or disclose (whether in writing or orally o r in any other manner) Confidential Information to any other person other than in accord ance with the terms of this Agreement. **However, the Receiving Party is permitted to disclose Confidential Information to its legal counsel without prior written consent from the Disclosing Party.**",
+        "explanation": "Clause 2.1 explicitly states that no disclosure of confidential information can occur without the Disclosing Party's written consent. The added sentence allows disclosure to legal counsel without such consent, creating a direct contradiction to the overarching rule stated at the beginning of the same clause. While 2.3 (a) considers this, its Agents and this addition goes beyond the scope of 2.3(a) and introduces contradiction",
+        "location": "2.1",
+        "contradicted_location": "2.1",
+        "contradicted_text": "2.1 All Confidential Information given by one party to th is Agreement (the “Disclosing Party”) to the other party (the “Receiving Party”) will be treated by the Receiving Party as secret and confidential and will not, without the Disclosing Pa rty’s written consent, directly or indirectly communicate or disclose (whether in writing or orally o r in any other manner) Confidential Information to any other person other than in accord ance with the terms of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original clause 2.1 states that all Confidential Information will not be disclosed without the Disclosing Party’s written consent. The changed text adds an exception permitting disclosure to legal counsel without prior written consent. This directly contradicts the initial blanket prohibition on disclosure without consent, as outlined in both the changed text and the contradicted text (which is identical to the original text), fitting the definition of a Structural Flaw - In Text Contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "3 RECORDS AND RETURN OF INFORMATION 3.1 The Receiving Party agrees to ensure proper and secure sto rage of all Information and any copies thereof. 3.2 The Receiving Party shall keep a written record, to be sup plied to the Disclosing Party upon request, of the Confidential Information provided and a ny copies made thereof and, so far as is reasonably practicable, of the location of such Confi dential Information and any copies thereof. 3.3 The Company shall, within 7 (seven) days of receipt of a written demand from Transnet: a) return all written Confidential Information (including all copies); and b) expunge or destroy any Confidential Information from an y computer, word processor or other device whatsoever into which it was copied, read o r programmed by the Company or on its behalf.",
+        "changed_text": "3 RECORDS AND RETURN OF INFORMATION 3.1 The Receiving Party agrees to ensure proper and secure sto rage of all Information and any copies thereof. 3.2 The Receiving Party shall keep a written record, to be sup plied to the Disclosing Party upon request, of the Confidential Information provided and a ny copies made thereof and, so far as is reasonably practicable, of the location of such Confi dential Information and any copies thereof. **Notwithstanding the forgoing, the Receiving party is not obligated to retain any of the disclosing party's information, whether written or unwritten, and can not be held liable for any failures to protect or retain this information.** 3.3 The Company shall, within 7 (seven) days of receipt of a written demand from Transnet: a) return all written Confidential Information (including all copies); and b) expunge or destroy any Confidential Information from an y computer, word processor or other device whatsoever into which it was copied, read o r programmed by the Company or on its behalf.",
+        "explanation": "Clauses 3.1 and 3.2 obligate the Receiving Party to securely store information and keep records of it. The added sentence relieves the Receiving Party of any obligation to retain or protect the Disclosing Party's information. This negates and contradicts the original storage and record-keeping requirements.",
+        "location": "3.2",
+        "contradicted_location": "3.1",
+        "contradicted_text": "3.1 The Receiving Party agrees to ensure proper and secure sto rage of all Information and any copies thereof.",
+        "contradiction_exists": "YES",
+        "justification": "The original text in clause 3.1 states that 'The Receiving Party agrees to ensure proper and secure storage of all Information and any copies thereof.' The changed text introduces a sentence stating 'Notwithstanding the forgoing, the Receiving party is not obligated to retain any of the disclosing party's information, whether written or unwritten, and can not be held liable for any failures to protect or retain this information.' This directly contradicts the obligation in clause 3.1 to ensure proper and secure storage, as the receiving party is now explicitly not obligated to retain or protect the information. The contradiction is clear and impactful."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "9.6 This Agreement will be governed by and construed in acco rdance with South African law and the parties irrevocably submit to the exclusive jurisdict ion of the South African courts.",
+        "changed_text": "9.6 This Agreement will be governed by and construed in acco rdance with South African law and the parties irrevocably submit to the exclusive jurisdict ion of the South African courts. **However, any disputes arising from this agreement will be subject to binding arbitration in Switzerland.**",
+        "explanation": "The original clause specifies that South African law and courts have exclusive jurisdiction over the agreement. The addition of binding arbitration in Switzerland directly contradicts this, as it removes the agreement from the jurisdiction of South African courts and places it under an entirely different dispute resolution mechanism and potentially different governing laws depending on the scope of the arbitration agreement itself.",
+        "location": "9.6",
+        "contradicted_location": "9.6",
+        "contradicted_text": "9.6 This Agreement will be governed by and construed in acco rdance with South African law and the parties irrevocably submit to the exclusive jurisdict ion of the South African courts.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces binding arbitration in Switzerland, directly contradicting the original clause (and the contradicted text, which is the same) that specifies exclusive jurisdiction of South African courts. This creates a strong in-text contradiction because the agreement is now subject to two conflicting dispute resolution mechanisms, rendering the jurisdiction clause unenforceable."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "4.1 Neither party will make or permit to be made any annou ncement or disclosure of its prospective interest in the Proposal without the prior written cons ent of the other party.",
+        "changed_text": "4.1 Neither party will make or permit to be made any annou ncement or disclosure of its prospective interest in the Proposal without the prior written cons ent of the other party. **Each party reserves the right to announce its prospective interest, as they see fit.**",
+        "explanation": "Clause 4.1 forbids announcing interest in the proposal without prior written consent. The added sentence gives each party the right to announce interest 'as they see fit,' thereby removing the requirement for prior consent and directly contradicting the first part of the clause. This create in-text contradiction on what to expect with annoucnements and diclosures.",
+        "location": "4.1",
+        "contradicted_location": "4.1",
+        "contradicted_text": "4.1 Neither party will make or permit to be made any annou ncement or disclosure of its prospective interest in the Proposal without the prior written cons ent of the other party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text of clause 4.1 requires prior written consent for any announcement or disclosure of prospective interest. The changed text adds a sentence that allows each party to announce its prospective interest 'as they see fit,' which removes the requirement for prior consent. This directly contradicts the original text of clause 4.1, creating a clear and strong in-text contradiction as defined in the perturbation explanation."
+      }
+    ]
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "NDA_17.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "1.2 Definitions The following definitions apply unless the context requires otherwise: \"Confidential Information \" means all information of whatever nature directly or indirectly concerning the System, or re lated to, the affairs, business, finances, assets, transactions or trade secrets of Room2Rent or any of its Related Companies (as defined in section 2(3) of the Companies Act 1993) which Room2Rent discloses to the Recipient or which the Recipient may acqui re from Room2Rent or any of its Related Companies including, without limitation: (a) Any intellectual property, including any opinion, projection, idea, concept, process, procedure, plan, design, programme, study, data, report, know -how, expertise or othe r such property; (b) Any document, data, statement, analysis, opinion, projection, forecast, report, note, notebook, drawing, manual, letter or such other material whether in a permanently visible form or not; and (c) Trade Secrets as defined in this Agreement ; (d) Any of the foregoing disclosed to the Recipient before the execution date of this Agreement . “Representative ” means any officer or employee of the Recipient, or any adviser engaged by the Recipient in connection with the Due Diligence and to whom the Recipient is permitted to disclose the Confidential Information under Clause 3.1. “Trade Secrets ” means any information held by Room2Rent that is or could be used industrially or commercially, is not generally available, has potential economic value, and is the subject of reasonable efforts by Room2Rent to preserve its secrecy .",
+        "changed_text": "1.2 Definitions The following definitions apply unless the context requires otherwise: “Representative ” means any officer or employee of the Recipient, or any adviser engaged by the Recipient in connection with the Due Diligence and to whom the Recipient is permitted to disclose information. “Trade Secrets ” means any information held by Room2Rent that is or could be used industrially or commercially, is not generally available, has potential economic value, and is the subject of reasonable efforts by Room2Rent to preserve its secrecy .",
+        "explanation": "By omitting the definition of 'Confidential Information', the contract creates an in-text contradiction. Clause 3.1 refers to disclosing 'Confidential Information,' but the definition of what constitutes 'Confidential Information' is now missing, creating ambiguity and uncertainty in enforcing the confidentiality obligations. The phrase 'to whom the Recipient is permitted to disclose the Confidential Information under Clause 3.1' creates uncertainty now, due to the omission of the definition of Confidential Information. This omission means no one knows what the term means anymore.",
+        "location": "1.2",
+        "contradicted_location": "3.1",
+        "contradicted_text": "3.1 The Recipient may disclose the Confidential Information to its Representatives if: (a) The disclosure is strictly necessary in the course of the Due Diligence; and (b) The Representatives are identified in writing to Room2Rent prior to any such disclosure and Room2Rent consents to the disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined 'Confidential Information'. The changed text omits this definition, which directly contradicts clause 3.1. Clause 3.1 references 'Confidential Information', but the changed text removes the definition for this term, making the reference ambiguous and unenforceable. This creates a strong in-text contradiction because the removal of the definition renders the clause concerning disclosure of confidential information unclear, breaking compatibility."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "“Trade Secrets ” means any information held by Room2Rent that is or could be used industrially or commercially, is not generally available, has potential economic value, and is the subject of reasonable efforts by Room2Rent to preserve its secrecy .",
+        "changed_text": "“Trade Secrets ” means commercially valuable information.",
+        "explanation": "By shortening the definition of 'Trade Secrets', the contract creates an in-text contradiction. Section 6.4 makes reference to theft of Trade Secrets being illegal. By shortening the definition and making it less precise, it becomes more difficult to prove whether Trade Secrets are being stolen as the definition has become more vague and generic.",
+        "location": "1.2",
+        "contradicted_location": "6.4",
+        "contradicted_text": "6.4 The Recipient acknowledges tha t it understands that theft of T rade Secrets is an offence under section 230 of the Crimes Ac t 1961, and can be punishable by a term of up to five years imprisonment.",
+        "contradiction_exists": "YES",
+        "justification": "The original text provides a detailed definition of 'Trade Secrets', outlining specific criteria. The changed text significantly shortens this definition to 'commercially valuable information', making it more vague. This creates an in-text contradiction with section 6.4, which refers to the theft of Trade Secrets being an offense. Because the new definition is vague, it would be difficult to determine whether Section 6.4 is violated. The original more concrete definition provided the backing to the statement in Section 6.4, and thus the Change Text contradicts this, leading to the 'YES' output."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "2.1 The Recipient will hold all Confidential Infor mation in strict confidence and will not disclose any Confidential Information to any person, ex cept in accordance with the explicit provisions of this Agreement or, in any other case, only on receiving the prior written consent of Room2Rent .",
+        "changed_text": "2.1 The Recipient will hold all information in strict confidence and will not disclose any information to any person, ex cept in accordance with the explicit provisions of this Agreement or, in any other case, only on receiving the prior written consent of Room2Rent .",
+        "explanation": "By removing 'Confidential' before 'Information', the scope of this clause becomes unclear, particularly in relation to Clause 4.1. What type of information must now be returned? All the information including public domain information? It creates an in-text contradiction with 4.1, by expanding the scope of information, it's unclear which information exactly needs to be returned.",
+        "location": "2.1",
+        "contradicted_location": "4.1",
+        "contradicted_text": "4.1 The Recipient will, immediately on demand by Room2Rent : (a) Return to Room2Rent all documents, reports, notes, memoranda, computer media and other material, which record, contain or relate in a ny way to Confidential Information (including all copies of the same).",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that Clause 4.1 pertains to 'Confidential Information'. However, the changed text broadens the scope of Clause 2.1 by removing the word 'Confidential' before 'Information'. This creates a contradiction because Clause 4.1, which previously only applied to confidential information, might now be interpreted as applying to all information, including non-confidential or public information. This discrepancy creates an in-text contradiction regarding the scope of information that needs to be returned, leading to uncertainty and potential disputes, as described in the provided explanation."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "5.3 The Recipient further agrees that breach of this Agreement shall give Room2Rent the right to cancel any existing or future agreements between the parties.",
+        "changed_text": "5.3 The Recipient further agrees that breach of confidentiality shall give Room2Rent the right to cancel any existing or future agreements between the parties.",
+        "explanation": "By specifying 'breach of confidentiality' rather than 'breach of this agreement', the clause becomes more restrictive. This introduces an in-text contradiction because other breaches of the agreement (e.g., failure to return information) would no longer necessarily trigger the right to cancel other agreements, creating a legal loophole. Because other clauses reference the overall agreemnent, while this only references a subset of the agreement. ",
+        "location": "5.3",
+        "contradicted_location": "5.1",
+        "contradicted_text": "5.1 The Recipient will indemnify and keep indemnified Room2Rent against any and all reasonable and foreseeable claims, demands, losses, damages and costs (including legal costs on an indemnity basis) that Room2Rent incurs as a result of a breach of the Recipient’s obligations under this Agreement .",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'breach of this Agreement', encompassing all aspects of the agreement. The changed text narrows this to 'breach of confidentiality'. Section 5.1 states indemnity is required for *any* breach of the agreement. By limiting 5.3 to 'breach of confidentiality', a breach of other obligations in the agreement would not give Room2Rent the right to cancel other agreements, creating a contradiction and a loophole in the agreement which means Room2Rent is not fully covered for any breach as 5.1 states."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "6.1 The Recipient acknowledges that any inventions, improvements, discoveries, programs or other form of intellectual property related to the System that are developed by the Recipient will be disclosed to, and become the exclusive property of, Room2Rent .",
+        "changed_text": "6.1 The Recipient acknowledges that any inventions, improvements, discoveries, programs or other form of intellectual property that are developed by the Recipient will be disclosed to, and become the exclusive property of, Room2Rent .",
+        "explanation": "By removing 'related to the System' it broadens the scope of inventions that become the property of Room2Rent. This now includes inventions completely unrelated to the system, creating an in-text contradiction in regard to the Background (A.) and the overall agreement. The background section refers to a specific system, but this clause makes it sound like anything becomes exclusive property regardless of association to the aforementioned system. ",
+        "location": "6.1",
+        "contradicted_location": "Background",
+        "contradicted_text": "Background: A. Room2Rent has developed a system for the construction and rental of portable cabins (“the System ”). B. Room2Rent has agreed to disclose Confidential I nformation about the System to the Recipient for the purposes of the Recipient undertaking an evaluati on as to whether it will become a franchisee of Room2Rent (“the Due Diligence ”). C. Room2Rent considers the Confidential Information to be valuable and, in consideration of receiving the Confidential Information for the Due Di ligence , the Recipient has agreed to enter into this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text limited the scope of intellectual property assigned to Room2Rent to only those related to 'the System'. The changed text removes this limitation, meaning that any invention by the Recipient, regardless of its relation to the System, becomes the property of Room2Rent. This contradicts the Background section, which explicitly states that Room2Rent is disclosing Confidential Information 'about the System', implying the agreement is focused on that specific System and not a blanket claim to all intellectual property created by the Recipient."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "7.1 Room2Rent may notify third parties about the existence and contents of this Agreement .",
+        "changed_text": "7.1 Room2Rent may notify third parties about the existence of this Agreement .",
+        "explanation": "By removing \"contents\", it creates an in-text contradiction. By only saying that the existence may be discussed, without the contents, this means the terms are still supposedly confidential. The very purpose of the agreement might be called into question, as now they can only confirm existence, but without reference to its contents. This contradicts Section 2.1 where it states the recipient will not disclose any information.",
+        "location": "7.1",
+        "contradicted_location": "2.1",
+        "contradicted_text": "2.1 The Recipient will hold all information in strict confidence and will not disclose any information to any person, ex cept in accordance with the explicit provisions of this Agreement or, in any other case, only on receiving the prior written consent of Room2Rent .",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies section 7.1, removing the explicit permission to disclose the 'contents' of the agreement, while the original section 2.1 states that all information should be held in strict confidence and not disclosed, except in accordance with the explicit provisions of the agreement. By removing 'contents' from section 7.1, this creates a contradiction as section 2.1 requires explicit permission to disclose, and section 7.1 now only grants explicit permission to notify third parties about the existence of the agreement, but not its contents. The agreement's contents are thus implicitly confidential, contradicting the ability to notify of the existence of the agreement, as defined in section 2.1."
+      }
+    ]
+  }
+]

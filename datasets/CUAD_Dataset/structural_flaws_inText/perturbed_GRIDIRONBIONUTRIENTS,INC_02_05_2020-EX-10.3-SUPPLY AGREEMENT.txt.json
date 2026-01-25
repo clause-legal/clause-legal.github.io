@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "GRIDIRONBIONUTRIENTS,INC_02_05_2020-EX-10.3-SUPPLY AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Both Parties agree that once the Parties have agreed to transaction which includes the purchase and sale of the Product that the Buyer will remit payment upon execution of this agreement.",
+        "changed_text": "Both Parties agree that the Buyer will remit payment within 30 days of execution of this agreement, subject to Gridiron's satisfaction with preliminary product samples.",
+        "explanation": "The original text states that payment will be remitted upon execution of the agreement, implying immediate payment. The modified text introduces a 30-day window and makes the payment contingent on Gridiron's satisfaction with product samples. This contradicts the immediate payment clause and adds uncertainty. This change directly contradicts the initial immediate payment requirement described in the text in Section 1.D.",
+        "location": "1.D",
+        "contradicted_location": "1.D",
+        "contradicted_text": "Payment. Both Parties agree that once the Parties have agreed to transaction which includes the purchase and sale of the Product that the Buyer will remit payment upon execution of this agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text and the contradicted text both state that 'payment will be remitted upon execution of this agreement,' implying immediate payment. The changed text introduces a 30-day window and makes the payment contingent on Gridiron's satisfaction with product samples. This directly contradicts the immediate payment requirement and adds uncertainty, fitting the 'Inconsistencies - In Text Contradiction' definition because different sections provide conflicting deadlines or obligations."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Either Party may terminate this Agreement at any time prior to delivery of the Product.",
+        "changed_text": "Either Party may terminate this Agreement at any time prior to delivery of the Product, provided that the terminating party provides written notice 60 days in advance. Gridiron may terminate the agreement within 30 days if the product doesn't meet their standards.",
+        "explanation": "The original clause allows termination at any time before delivery. The modified clause imposes a 60-day notice period, contradicting the 'at any time' aspect of the original. Additionally, Gridiron's ability to terminate within 30 days if the product doesn't meet its standards adds conditions that were not present in the original agreement, creating uncertainty regarding the termination process. This change introduce an in-text contradiction because on the first phrase of the perturbated text it contradicts the second phrase, because it mention termination can be done in 'any time', but the 'provided that the terminating party provides written notice 60 days in advance' is directly contradiciting the 'any time' mentioned before.",
+        "location": "2.A",
+        "contradicted_location": "2.A",
+        "contradicted_text": "Termination. Either Party may terminate this Agreement at any time prior to delivery of the Product.",
+        "contradiction_exists": "YES",
+        "justification": "The original and contradicted text state that either party may terminate the agreement 'at any time prior to delivery of the Product.' The changed text modifies this to include a 60-day written notice period, directly contradicting the 'at any time' aspect. This creates a strong in-text contradiction as the original right to terminate at any time is now restricted. Furthermore, Gridiron's ability to terminate within 30 days if the product doesn't meet its standards also adds conditions that were not present in the original agreement, creating uncertainty regarding the termination process, which strongly contradicts the original agreement of terminating at anytime. This adheres to the definition of 'Structural Flaws - In Text Contradiction' because the clause is placed in multiple locations with conflicting implications."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement may not be waived, amended or assigned without an agreed written and signed document, signed by both Parties.",
+        "changed_text": "This Agreement may not be waived, amended, or assigned without a written and signed document, signed by both Parties, except that Gridiron may unilaterally amend the agreement to reflect changes in market conditions, with notice to Shi Farms.",
+        "explanation": "The original clause requires mutual agreement for any amendments. The modified clause allows Gridiron to unilaterally amend the agreement under certain conditions. This contradicts the initial requirement for mutual agreement, creating uncertainty about the amendment process. This creates an In-Text contradiction because in the first part of the sentence mentions that it has to be signed for both parties, yet, at the end it says it can be signed unilaterally by Gridiron.",
+        "location": "5.A",
+        "contradicted_location": "5.A",
+        "contradicted_text": "Amendment, Waiver, Assignment. This Agreement may not be waived, amended or assigned without an agreed written and signed document, signed by both Parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original clause states that any amendments to the agreement require a written and signed document agreed upon by both parties. The modified clause introduces an exception allowing Gridiron to unilaterally amend the agreement under certain conditions. This directly contradicts the initial requirement for mutual agreement, creating a strong in-text contradiction as the Amendment, Waiver, Assignment clause states it needs to be signed by both parties, yet the changed text allows unilateral changes. This aligns with the Structural Flaws - In Text Contradiction definition where a clause is placed in multiple locations with conflicting implications, creating uncertainty about the obligations and rights of each party."
+      }
+    ]
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "file_name": "US-Non-Disclosure-Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - Omission Legal Contradiction",
+        "original_text": "This Agreement shall be governed by, construed and enforced in accordance with the laws of the State of New Hampshire.",
+        "changed_text": "This Agreement shall be governed by, construed and enforced in accordance with the laws of contract as generally applied.",
+        "explanation": "By removing the reference to New Hampshire law, the contract now lacks a specific choice of law, potentially contradicting New Hampshire's laws regarding contract enforcement and disputes arising within the state. This omission could lead to uncertainty and legal challenges, especially if the contract is later found to violate specific consumer protection laws in New Hampshire that would have been applicable under the original clause.",
+        "contradicted_law": "New Hampshire Revised Statutes \u00a7 508:1",
+        "law_citation": "\u00a7 508:1",
+        "law_url1": [
+          "https://www.law.cornell.edu/topn/administrative_procedure_act"
+        ],
+        "law_url2": [
+          "https://www.justice.gov/archives/jm/criminal-resource-manual-633-18-usc-1001-false-statements-matter-within-jurisdiction"
+        ],
+        "law_explanation": "N.H. Rev. Stat. \u00a7 508:1 establishes the statute of limitations for personal actions in New Hampshire. By not specifying New Hampshire law, the agreement becomes vague about which state's statute of limitations applies, potentially shortening or lengthening the time a party has to bring a claim, in contradiction to New Hampshire law if the action is based in NH.",
+        "location": "13",
+        "desired_official_urls": 2,
+        "scraped_snippet_1": "TOPN: Administrative Procedure Act | TOPN: Table of Popular Names | US Law | LII / Legal Information Institute Please help us improve our site! \u00d7 No thank you TOPN: Table of Popular Names 0-9 | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z Administrative Procedure Act 1946-06-11, ch. 324, , 60 Stat. 237 An act may refer to only a portion of a Public Law. The tables below are for the entire Public Law. Pub. L. Section Status USC Title USC Section Authorizes 1 Rev. T. 5 1001 nt 29 CFR 520 2-12 Rev. T. 5 1001-1011 TOPN: Table of Popular Names Toolbox",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies New Hampshire law, while the changed text refers to 'laws of contract as generally applied.' The Law Explanation states that N.H. Rev. Stat. \u00a7 508:1 establishes the statute of limitations for personal actions in New Hampshire and argues that the change creates ambiguity regarding which state's statute of limitations applies. Scraped Law Snippet 1 identifies Administrative Procedure Act, but does not contain applicable content. The omission of New Hampshire law introduces uncertainty regarding the applicable statute of limitations, potentially contradicting New Hampshire law, especially if the action is based in NH. Since the contract now lacks a specific choice of law, this omission can create a legal loophole as it removes essential information, potentially undermining consumer protection or the legally mandated actions within New Hampshire."
+      },
+      {
+        "type": "Omissions - Omission Legal Contradiction",
+        "original_text": "Each Party agrees not to use the Confidential I nformation in any fashion, form, or manner for any purpose other than the Purpose.",
+        "changed_text": "Each Party agrees not to use the Confidential I nformation in any fashion, form, or manner for any purpose other than the Purpose, unless required by legal process.",
+        "explanation": "While seemingly innocuous, adding 'unless required by legal process' without further clarification could be interpreted to allow disclosure of confidential information even without a valid court order or subpoena, potentially violating New Hampshire's trade secret protection laws which require specific conditions and legal oversight for such disclosures. This modification weakens the protection of confidential information beyond what New Hampshire law allows.",
+        "contradicted_law": "New Hampshire Revised Statutes \u00a7 350-B:2",
+        "law_citation": "\u00a7 350-B:2",
+        "law_url1": [
+          "https://www.gencourt.state.nh.us/rsa/html/nhtoc/nhtoc-xxxii-a-350-b.htm"
+        ],
+        "law_url2": [
+          "https://law.justia.com/codes/new-hampshire/2022/title-xxxii-a/chapter-350-b/section-350-b-2/"
+        ],
+        "law_explanation": "N.H. Rev. Stat. \u00a7 350-B:2 outlines the elements of misappropriation of trade secrets. The added clause creates an ambiguity allowing potential disclosure beyond legal requirements, possibly enabling misappropriation not explicitly sanctioned by a court order, thus contradicting the intent and protections offered by the statute.",
+        "location": "1",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": "The General Court of New Hampshire | 404 Sorry, we can't find the page you're looking for. Use the links above to quickly jump to common sections of our website. Or try heading to the General Court of New Hampshire home page to look again.",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The modification introduces 'unless required by legal process,' which, without further clarification, could allow disclosure of confidential information even without a valid court order or subpoena. The law explanation states that N.H. Rev. Stat. \u00a7 350-B:2 outlines the elements of misappropriation of trade secrets. The added clause creates an ambiguity allowing potential disclosure beyond legal requirements, possibly enabling misappropriation not explicitly sanctioned by a court order. The original contract protected the confidential information. The changed contract introduces an ambiguity. This falls under the Omission Legal Contradiction category, as it weakens the protection of confidential information. Though one snippet is unavailable, the other unavailable snippet and the law explanation sufficiently demonstrate a contradiction."
+      },
+      {
+        "type": "Omissions - Omission Legal Contradiction",
+        "original_text": "Each Party may reveal the Confidential Information only to its employees, agents, consultants and contractors who have a need to know such information for the purpose o f this Agreement and who have been duly informed of the confidential nature of the Confidential Information. Each Party agrees to take reasonable steps to prevent disclosure of the Confidential Information to any other person or entity.",
+        "changed_text": "Each Party may reveal the Confidential Information only to its employees, agents, consultants and contractors who have a need to know such information for the purpose o f this Agreement. Each Party agrees to take steps to prevent disclosure of the Confidential Information to any other person or entity.",
+        "explanation": "Removing the requirement that those with access to the confidential information have been 'duly informed of the confidential nature of the Confidential Information' weakens the safeguards against unauthorized disclosure. New Hampshire law implies a duty to inform individuals handling confidential information of its sensitive nature, and the removal of this clause introduces a contradiction by potentially allowing uninformed handling of trade secrets, leading to possible leaks and legal liability.",
+        "contradicted_law": "New Hampshire Revised Statutes \u00a7 350-B:1",
+        "law_citation": "\u00a7 350-B:1",
+        "law_url1": [
+          "https://www.gencourt.state.nh.us/rsa/html/XXX/350-B/350-B-1.htm"
+        ],
+        "law_url2": [
+          "https://definitions.uslegal.com/n/negligence/"
+        ],
+        "law_explanation": "N.H. Rev. Stat. \u00a7 350-B:1 defines 'trade secret' and implies reasonable efforts to maintain secrecy. By removing the requirement to inform recipients of the confidential nature, the contract weakens the 'reasonable efforts' to maintain secrecy, creating a possible legal contradiction if a trade secret is misappropriated due to uninformed handling.",
+        "location": "2",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": "The General Court of New Hampshire | 404 Sorry, we can't find the page you're looking for. Use the links above to quickly jump to common sections of our website. Or try heading to the General Court of New Hampshire home page to look again.",
+        "scraped_snippet_2": "ed. For instance, when a doctor leaves a sponge inside a patient, it is inherently negligent. In appropriate cases, affirmative defenses such as contributory negligence, etc., may also be raised by a defendant. After determining whether or not negligence exists, a trier of fact may decide whether there were any applicable defenses to negligence, such as assumption of the risk, etc. Courts often construe general indemnity provisions as granting protection to people only from damages caused by their \"passive negligence.\" Passive negligence is usually defined as mere failure to act, such as failing to discover a dangerous condition or to perform a duty imposed by law. \"Active negligence,\" however, occurs when someone has personally participated in an affirmative act of negligence, known about or complied in negligent acts, or failed to perform a precise duty which he/she agreed to perform. Legal Definition list Neglected Minor Neglected Child Neglect of Duty Neglect Hearing Neglect Negligence Negligence as a Matter of Law Negligence of Bailee Negligence Per Se Negligence Rule Negligent Death Related Legal Terms Active Negligence Calculus of Negligence Casual Negligence Common Law Actionable Negligence Comparative Negligence Concurrent Negligence Contributory Negligence Criminal Negligence Culpable Negligence Degrees of Negligence Attorney Help Legal Definitions Legal Q&A Online US Legal Forms Legal Topics Advanced Search Share: Legal Forms Last Will Power of Attorney Living Will Adoption Affidavits Real Estate Landlord Tenant Divorce Trusts \"You have an excellent service and I will be sure to pass the word.\" Legal Information Legal Topics Definitions Ask a Question Laws View All Products Personal Legal Forms Business Legal Forms Legal Forms FormsPass Subscriptions For Consumer Information Legal Forms Get Legal Help View All Services Last Will Power of Attorney Living Will Attorney Assistance Partner with us For Business Information Legal Forms Answers Customer Support 1-877-389-0141 Terms of Service Privacy Notice Why USLegal? Get Help My Account Our Sites US Legal Forms USLegal FormsPass pdfFiller signNow airSlate Work Flows \u00a9 Copyright 1997-2025 airSlate Legal Forms, Inc. d/b/a USLegal As seen in: Social Media",
+        "scrape_success": 2,
+        "contradiction_exists": "YES",
+        "justification": "The original contract mandated that parties who access confidential information are 'duly informed of the confidential nature of the Confidential Information.' The changed text removes this requirement. The Law Explanation states that this removal 'weakens the 'reasonable efforts' to maintain secrecy.' While Scraped Law Snippet 1 is a dead link, Scraped Law Snippet 2 defines negligence, including 'failure to perform a precise duty which he/she agreed to perform'. The original contract established the precise duty to inform those accessing confidential information, therefore its removal introduces a contradiction based on a failure to maintain reasonable secrecy, which can lead to negligence."
+      },
+      {
+        "type": "Omissions - Omission Legal Contradiction",
+        "original_text": "Notwithstanding the foregoing, this Agreement shall survive with respect to all Confidential Information that is disclosed before the termination.",
+        "changed_text": "Notwithstanding the foregoing, this Agreement shall survive with respect to Confidential Information at the company's discretion.",
+        "explanation": "By removing the guarantee that the NDA survives termination for all confidential information disclosed before termination and replacing it with 'at the company's discretion,' the agreement now contradicts the reasonable expectation and legal precedent for protecting trade secrets even after the formal agreement ends. New Hampshire law generally supports the ongoing protection of trade secrets, and this modification introduces ambiguity and potential unenforceability, creating a legal risk.",
+        "contradicted_law": "New Hampshire Revised Statutes \u00a7 350-B:3",
+        "law_citation": "\u00a7 350-B:3",
+        "law_url1": [
+          "https://www.gencourt.state.nh.us/rsa/html/XXXI/350-B/350-B-3.htm"
+        ],
+        "law_url2": [
+          "https://law.justia.com/codes/new-hampshire/2022/title-xxxi/chapter-350-b/section-350-b-3/"
+        ],
+        "law_explanation": "N.H. Rev. Stat. \u00a7 350-B:3 deals with injunctive relief for misappropriation. By making the survival of the agreement discretionary, it undermines the possibility of obtaining an injunction to protect trade secrets disclosed before termination, contradicting the spirit and enforceability intended by the statute.",
+        "location": "8",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": "Section 350-B:3 Damages. TITLE XXXI TRADE AND COMMERCE CHAPTER 350-B UNIFORM TRADE SECRETS ACT Section 350-B:3 350-B:3 Damages. \u2013 I. Except to the extent that a material and prejudicial change of position prior to acquiring knowledge or reason to know of misappropriation renders a monetary recovery inequitable, a complainant is entitled to recover damages for misappropriation. Damages can include both the actual loss caused by misappropriation and the unjust enrichment caused by misappropriation that is not taken into account in computing actual loss. In lieu of damages measured by any other methods, the damages caused by misappropriation may be measured by imposition of liability for a reasonable royalty for a misappropriator's unauthorized disclosure or use of a trade secret. II. If willful and malicious misappropriation exists, the court may award exemplary damages in an amount not exceeding twice any award made under paragraph I. Source. 1989, 220:1, eff. Jan. 1, 1990.",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The original contract guarantees the survival of the agreement regarding confidential information disclosed before termination. The changed text makes this survival discretionary ('at the company's discretion'). This directly contradicts the purpose of trade secret protection, as supported by N.H. Rev. Stat. \u00a7 350-B:3, which allows for injunctive relief and damages for misappropriation. By making the survival discretionary, the modified contract weakens the ability to obtain such relief, creating a legal loophole where the company can choose not to protect previously disclosed confidential information. Snippet 1 refers to damages for misappropriation, which indicates the importance of protecting trade secrets, and the modification undermines this protection."
+      }
+    ]
+  }
+]

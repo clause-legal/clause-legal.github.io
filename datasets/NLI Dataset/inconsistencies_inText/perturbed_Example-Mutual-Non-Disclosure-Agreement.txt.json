@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Example-Mutual-Non-Disclosure-Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "4. The Recipient undertakes to keep the Confidential Information disclosed by the other party secure and not to disclose it to any third party [except to its employees [and professional advisers] who need to know the same for the Purpose, who know they owe a duty of confidence to the other party and who are bound by obligations equivalent to those in clause 3 above and this clause 4.",
+        "changed_text": "4. The Recipient undertakes to keep the Confidential Information disclosed by the other party secure and not to disclose it to any third party under any circumstances.",
+        "explanation": "This change introduces a contradiction by stating that the Recipient cannot disclose confidential information to any third party under any circumstances. This directly contradicts the original clause, which allowed disclosure to employees and professional advisors under specific conditions. This creates uncertainty about whether disclosure to employees and advisors is permitted.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "4. The Recipient undertakes to keep the Confidential Information disclosed by the other party secure and not to disclose it to any third party under any circumstances.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that the Recipient cannot disclose confidential information to any third party under any circumstances. This directly contradicts the original clause, which allowed disclosure to employees and professional advisors under specific conditions. This creates uncertainty about whether disclosure to employees and advisors is permitted. The contradicted text is the same as the changed text, and because of the change from the original text, it now contradicts any clause that relies on the exception to the original clause allowing sharing with employees and professional advisors. This falls under the definition of 'Inconsistencies - In Text Contradiction'."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "3. The Recipient undertakes not to use the Confidential Information disclosed by the other party for any purpose except the Purpose, without first obtaining the written agreement of the other party.",
+        "changed_text": "3. The Recipient undertakes not to use the Confidential Information disclosed by the other party for any commercial purpose without first obtaining the written agreement of the other party.",
+        "explanation": "This change introduces a contradiction by limiting the restriction on use to only 'commercial purposes.' This contradicts the original text, which restricts use for *any* purpose other than the explicitly defined 'Purpose'. This creates uncertainty about whether the Recipient can use the information for non-commercial purposes that are still outside the scope of the agreed-upon 'Purpose,' potentially leading to misuse of confidential information. This is because section 1 defines 'Purpose' as '[insert details e.g. discussing the possibility of the parties entering into a joint venture]' which is being contradicted.",
+        "location": "3",
+        "contradicted_location": "1",
+        "contradicted_text": "1. Each of the parties to this Agreement intends to disclose information (the Confidential Information) to the other party for the purpose of [insert details e.g. discussing the possibility of the parties entering into a joint venture] (the Purpose).",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the recipient cannot use the Confidential Information for *any purpose* except the Purpose without written agreement. The changed text narrows this restriction to only *commercial purposes*. This directly contradicts the original intent and introduces ambiguity. Section 1 defines 'Purpose' as discussing a potential joint venture. Now, the recipient could potentially use the information for non-commercial reasons outside the scope of discussing a joint venture, thereby contradicting the intended restriction outlined in Section 1 and creating a strong in-text contradiction as defined by the 'Inconsistencies' perturbation type."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "9. The undertakings in clauses 3 and 4 will continue in force [indefinitely][for [insert number] years from the date of this Agreement].",
+        "changed_text": "9. The undertakings in clauses 3 and 4 will continue in force for 1 year from the date of this Agreement, unless terminated earlier as per the terms outlined in Section 11.",
+        "explanation": "This change introduces an in-text contradiction regarding the duration of the confidentiality obligations. The original clause allows for indefinite or a specific number of years, while the modified clause states a fixed term of 1 year. This creates direct conflict on how long confidentiality needs to be maintained. Furthermore, referring to Section 11 (which doesn't exist) is causing more confusion and further creating uncertainty.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "9. The undertakings in clauses 3 and 4 will continue in force for 1 year from the date of this Agreement, unless terminated earlier as per the terms outlined in Section 11.",
+        "contradiction_exists": "YES",
+        "justification": "The original clause 9 allows the confidentiality obligations to continue indefinitely or for a specific number of years. The changed text modifies this to a fixed term of 1 year from the date of the agreement unless terminated earlier, contradicting the possibility of indefinite or longer-term confidentiality described in the original text. Since the contradicted text is actually the same as the changed text, this means that the change itself is the creation of the contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "8. Neither this Agreement nor the supply of any information grants the Recipient any licence, interest or right in respect of any intellectual property rights of the other party except the right to copy the Confidential Information disclosed by the other party solely for the Purpose.",
+        "changed_text": "8. Neither this Agreement nor the supply of any information grants the Recipient any license, interest, or right in respect of any intellectual property rights of the other party, except the right to use the Confidential Information disclosed by the other party for internal research and development purposes.",
+        "explanation": "This change introduces an in-text contradiction by altering the permitted use of the Confidential Information. The original text allows copying solely for the 'Purpose' defined in Section 1. The modified text allows using the information for 'internal research and development purposes,' which might be broader than the original defined 'Purpose'. This creates uncertainty about the scope of permitted use, as 'internal research and development' can encompass activities beyond the initially intended 'Purpose'.",
+        "location": "8",
+        "contradicted_location": "1",
+        "contradicted_text": "1. Each of the parties to this Agreement intends to disclose information (the Confidential Information) to the other party for the purpose of [insert details e.g. discussing the possibility of the parties entering into a joint venture] (the Purpose).",
+        "contradiction_exists": "YES",
+        "justification": "The original text allows copying Confidential Information solely for the 'Purpose' defined in Section 1. The changed text broadens this by allowing the use of the information for 'internal research and development purposes,' which may extend beyond the original 'Purpose'. Since Section 1 defines 'Purpose' as '[insert details e.g. discussing the possibility of the parties entering into a joint venture],' using the Confidential Information for 'internal research and development purposes' may be a different use, thus creating a contradiction in the permitted use of the information. This falls under the 'Inconsistencies - In Text Contradiction' perturbation type."
+      }
+    ]
+  }
+]

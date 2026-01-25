@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "118.3-Non-disclosure-agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The undertakings in clauses 2 and 3 will continue in force indefinitely.",
+        "changed_text": "The undertakings in clauses 2 and 3 will continue in force for a period of two years from the date of this agreement.",
+        "explanation": "This change introduces a time limit for the confidentiality obligations, directly contradicting the original clause that stated the obligations would continue indefinitely. This creates uncertainty regarding the duration of the agreement, directly contradicting Clause 8.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "The undertakings in clauses 2 and 3 will continue in force indefinitely.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that clauses 2 and 3 would continue indefinitely. The changed text specifies that clauses 2 and 3 will only be in force for two years. This introduces a time limit where there was originally no limit, creating a direct contradiction with the contradicted text, which also states the clauses are in force indefinitely. The change creates a clear and direct conflict regarding the duration of obligations."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Recipient will, on request from the Discloser, return all copies and records of the Confidential Information to the Discloser and will not retain any copies or records of the Confidential Information.",
+        "changed_text": "The Recipient will, on request from the Discloser, return all copies and records of the Confidential Information to the Discloser but may retain one archival copy for legal compliance purposes.",
+        "explanation": "This change introduces an exception to the requirement to return all copies of confidential information, allowing the Recipient to retain one archival copy. This contradicts the original statement that the Recipient will not retain any copies, creating uncertainty about the completeness of the return obligation. The insertion of the phrase contradicts the latter part of Clause 6.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "The Recipient will, on request from the Discloser, return all copies and records of the Confidential Information to the Discloser and will not retain any copies or records of the Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that the Recipient would not retain any copies of confidential information. The changed text introduces an exception, allowing the Recipient to retain one archival copy. This directly contradicts the contradicted text, which explicitly prohibits retaining any copies. The change introduces a conflict regarding the Recipient's obligations concerning confidential information, fitting the definition of a structural flaw creating an in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Recipient undertakes not to use t he Confide ntial Information for any purpose except the Purpose, without first obtaining the written agreement of the Discloser.",
+        "changed_text": "The Recipient undertakes not to use the Confidential Information for any purpose except the Purpose, however, use of the confidential information is permitted for internal training purposes.",
+        "explanation": "Here, there is a contradiction in that the Recipient can only use the Confidential Information for the defined 'Purpose.' Then the clause states that using the confidential information is allowed for 'internal training purposes'. However these two purposes are separate. This contradiction occurs within Clause 2, as the second part of the modified clause directly contradicts the first part.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "The Recipient undertakes not to use t he Confide ntial Information for any purpose except the Purpose, without first obtaining the written agreement of the Discloser.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the Recipient can only use the Confidential Information for the defined 'Purpose.' The changed text introduces an exception, allowing the use of confidential information for 'internal training purposes,' which is stated to be separate from the defined 'Purpose.' This creates a direct contradiction, because the Recipient is now permitted to use the information for something other than the Purpose, violating the original restriction. The contradicted text restates the original restriction, therefore the changed text directly contradicts the contradicted text."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Neither this Agreement nor the supply of any information grants the Recipient any licence, interest or right in respect of any intellectual property rights of the Discloser except the right to copy the Confidential Information solely for the Purpose.",
+        "changed_text": "Neither this Agreement nor the supply of any information grants the Recipient any licence, interest or right in respect of any intellectual property rights of the Discloser, including the right to use, reproduce, and adapt the Confidential Information for the Purpose.",
+        "explanation": "The modified text seems to contradict itself. The original part of the clause states that the Recipient gets no interest or right in intellectual property rights of the Discloser but at the same time grants the rights to use, reproduce, and adapt the Confidential Information for the Purpose. This directly contradicts the intent of Clause 7",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "Neither this Agreement nor the supply of any information grants the Recipient any licence, interest or right in respect of any intellectual property rights of the Discloser except the right to copy the Confidential Information solely for the Purpose.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a contradiction. The original text explicitly denies the Recipient any rights in the Discloser's intellectual property except the right to copy. The changed text then grants the rights to use, reproduce, and adapt the Confidential Information, which directly conflicts with the initial denial of such rights, as well as the contradicted text, which is identical to the original text."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Nothing in this Agreement will prevent the Recipient from making any disclosure of the Confidential Information required by law or by any competent authority.",
+        "changed_text": "Nothing in this Agreement will prevent the Recipient from making any disclosure of the Confidential Information required by law or by any competent authority; however, the Recipient must first seek a protective order to limit the scope of the disclosure.",
+        "explanation": "This modification introduces a requirement for the Recipient to seek a protective order, which contradicts the initial statement that nothing will prevent the Recipient from making disclosures required by law. It creates uncertainty about the Recipient's obligations when disclosure is legally mandated. The contradiction arises within Clause 5 itself, where the 'however' clause introduces a condition not initially present. This change creates an in-text contradiction withing Clause 5",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "Nothing in this Agreement will prevent the Recipient from making any disclosure of the Confidential Information required by law or by any competent authority.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that 'Nothing in this Agreement will prevent the Recipient from making any disclosure of the Confidential Information required by law or by any competent authority.' The changed text adds a requirement that the Recipient must first seek a protective order, creating a direct contradiction. The original text suggests unimpeded disclosure, while the modified text introduces a mandatory step that could prevent or delay such disclosure, which is a structural flaw causing in-text contradiction. The contradicted text is the same as the original text."
+      }
+    ]
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "file_name": "118.3-Non-disclosure-agreement.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "The undertakings in clauses 2 and 3 will continue in force indefinitely.",
+        "changed_text": "The undertakings in clauses 2 and 3 will continue in force for a period of one year.",
+        "explanation": "The original agreement states confidentiality lasts indefinitely. Changing this to a one-year term could be problematic if the confidential information has a longer lifespan or is protected by intellectual property rights laws that extend beyond one year. This modification introduces a potential legal contradiction.",
+        "contradicted_law": "Trade Secrets (England)",
+        "law_citation": "s6(4) Trade Secrets (Enforcement, etc.) Regulations 2018",
+        "law_url1": [
+          "https://www.legislation.gov.uk/uksi/2018/597/regulation/6"
+        ],
+        "law_url2": [
+          "https://www.gov.uk/government/collections/trade-secrets"
+        ],
+        "law_explanation": "Under UK law, trade secrets must be protected for as long as they remain confidential and valuable. Limiting the NDA to one year may not be sufficient to protect trade secrets if their value extends beyond this period, thus potentially contradicting the legal protection afforded to trade secrets.",
+        "location": "Clause 8",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": "The Trade Secrets (Enforcement, etc.) Regulations 2018 Skip to main content Skip to navigation legislation.gov.uk http://www.nationalarchives.gov.uk Cymraeg Home Explore our collections Research tools Help and guidance What's new About us Search Legislation Search Legislation Title: (or keywords in the title) Year: Number: Type: All UK Legislation (excluding originating from the EU) -------------------------------------------- All Legislation (including originating from the EU) -------------------------------------------- All Primary Legislation UK Public General Acts UK Local Acts UK Private and Personal Acts Acts of the Scottish Parliament Acts of Senedd Cymru Acts of the National Assembly for Wales Measures of the National Assembly for Wales Church Measures Acts of the Northern Ireland Assembly Acts of the Old Scottish Parliament Acts of the English Parliament Acts of the Old Irish Parliament Acts of the Parliament of Great Britain Local Acts of the Parliament of Great Britain Private and Personal Acts of the Parliament of Great Britain Northern Ireland Orders in Council Measures of the Northern Ireland Assembly Acts of the Northern Ireland Parliament -------------------------------------------- All Secondary Legislation UK Statutory Instruments Wales Statutory Instruments Scottish Statutory Instruments Northern Ireland Statutory Rules Church Instruments UK Ministerial Directions UK Ministerial Orders UK Statutory Rules and Orders Northern Ireland Statutory Rules and Orders -------------------------------------------- All Legislation originating from the EU Regulations originating from the EU Decisions originating from the EU Directives originating from the EU European Union Treaties -------------------------------------------- All Draft Legislation UK Draft Statutory Instruments Scottish Draft Statutory Instruments Northern Ireland Draft Statutory Rules -------------------------------------------- All Impact Assessments UK Impact Assessments Search Advanced Search The Trade Secrets (Enforcement, etc.) Regulations 2",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The original contract states that the confidentiality clauses continue indefinitely, while the changed contract limits this to one year. The Law Explanation states that trade secrets must be protected for as long as they remain confidential and valuable. The Perturbation Explanation also mentions the potential conflict with intellectual property rights that may extend beyond one year. Although Scraped Law Snippet 2 is missing, Scraped Law Snippet 1 provides the title of the law: The Trade Secrets (Enforcement, etc.) Regulations 2018. Even though the snippet is short and incomplete, it points to the fact that trade secrets are legally protected. Therefore, limiting the protection to one year potentially contradicts the indefinite protection possibly required by law, particularly regarding trade secrets."
+      },
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "This Agree ment is governed by, and is to be construed in accordance with, English law. The English Courts will have non -exclusive jurisdiction to deal with any dispute which has arisen or may arise out of, or in connection with, this Agreement.",
+        "changed_text": "This Agreement is governed by, and is to be construed in accordance with, French law. The French Courts will have non-exclusive jurisdiction to deal with any dispute which has arisen or may arise out of, or in connection with, this Agreement.",
+        "explanation": "Changing the governing law to French law while the agreement is clearly drafted and intended for use within the UK may create a legal contradiction. English law might contain specific regulations and precedents applicable to NDAs within the UK legal system, and the introduction of French law may create inconsistencies.",
+        "contradicted_law": "Conflict of Laws (England)",
+        "law_citation": "Rome I Regulation (EC) No 593/2008",
+        "law_url1": [
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32008R0593"
+        ],
+        "law_url2": [
+          "https://www.bailii.org/eu/legis/consil_reg/2008/593.html"
+        ],
+        "law_explanation": "The Rome I Regulation dictates the rules for determining which law governs a contract in cross-border disputes within the EU. While parties can choose a governing law, the choice must be genuine and connected to the contract. If the contract's core elements (parties, location, subject matter) are predominantly linked to England, designating French law could be challenged as an artificial choice, creating legal uncertainty and potential conflict with established English contract law principles.",
+        "location": "Clause 9",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "[ Home ] [ Databases ] [ World Law ] [ Multidatabase Search ] [ Help ] [ Feedback ] [ DONATE ] Not found You are here: BAILII >> Not found URL: [ Help ] You selected a file which is not on our system. BAILII: Copyright Policy | Disclaimers | Privacy Policy | Feedback | Donate to BAILII URL:",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies English law, while the changed text specifies French law. The Law Explanation discusses the Rome I Regulation, which states that the choice of governing law must be 'genuine and connected to the contract.' If the contract's elements are predominantly linked to England, designating French law could be challenged, creating legal uncertainty and conflict. The Perturbation Explanation further supports this by stating that English law might contain specific regulations applicable to NDAs within the UK, and the introduction of French law may create inconsistencies. Changing the governing law from English to French creates a direct conflict, especially if the contract is related to the UK. Snippets 1 and 2 are both 'Not found,' so the contradiction is based on the provided explanation that specifies that the introduction of French law could be challenged and may create inconsistencies with established English contract law principles, leading to legal uncertainty."
+      },
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "The Recipient will, on request from the Discloser, return all copies and records of the Confidential Information to the Discloser and will not retain any copies or records of the Confidential Information.",
+        "changed_text": "The Recipient will destroy all copies and records of the Confidential Information upon termination of this agreement, regardless of whether the Discloser requests it.",
+        "explanation": "Modifying the clause to mandate destruction of confidential information upon termination, regardless of the Discloser's request, can contradict data retention requirements under UK law, especially if the data is needed for legal or regulatory compliance.",
+        "contradicted_law": "Data Protection Act 2018 (UK GDPR)",
+        "law_citation": "Article 17 UK GDPR",
+        "law_url1": [
+          "https://gdpr-info.eu/art-17-gdpr/"
+        ],
+        "law_url2": [
+          "https://ico.org.uk/for-organisations/right-to-erasure/"
+        ],
+        "law_explanation": "Article 17 of the UK GDPR outlines the 'right to erasure' (also known as the 'right to be forgotten').  However, this right is not absolute and is subject to exemptions where processing is necessary for compliance with a legal obligation. If the Discloser needs to retain the information for a specific legal reason, the mandatory destruction clause would conflict with their legal obligation to retain the data, thereby contradicting the UK GDPR.",
+        "location": "Clause 6",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": "Art. 17 GDPR \u2013 Right to erasure (\u2018right to be forgotten\u2019) - General Data Protection Regulation (GDPR) Search for: Skip to content Search for: Imprint | Privacy Policy | Liability The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: the personal data are no longer necessary in relation to the purposes for which they were collected or otherwise processed; the data subject withdraws consent on which the processing is based according to point (a) of Article 6 (1), or point (a) of Article 9 (2), and where there is no other legal ground for the processing; the data subject objects to the processing pursuant to Article 21 (1) and there are no overriding legitimate grounds for the processing, or the data subject objects to the processing pursuant to Article 21 (2); the personal data have been unlawfully processed; the personal data have to be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject; the personal data have been collected in relation to the offer of information society services referred to in Article 8 (1). Where the controller has made the personal data public and is obliged pursuant to paragraph 1 to erase the personal data, the controller, taking account of available technology and the cost of implementation, shall take reasonable steps, including technical measures, to inform controllers which are processing the personal data that the data subject has requested the erasure by such controllers of any links to, or copy or replication of, those personal data. Paragraphs 1 and 2 shall not apply to the extent that processing is necessary: for exercising the right of freedom of expression and information; for compliance with a legal obligation which requires processing by Union or Member State law to w",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The modified text mandates the destruction of confidential information upon termination of the agreement, regardless of the Discloser's request. This contradicts Article 17 of the UK GDPR, which outlines the 'right to erasure' but also acknowledges exemptions where processing is necessary for compliance with a legal obligation. Scraped Law Snippet 1 states that erasure is not absolute and does not apply if 'processing is necessary for compliance with a legal obligation which requires processing by Union or Member State law'. If the Discloser has a legal obligation to retain the data, the mandatory destruction clause directly conflicts with this obligation, thereby creating a legal contradiction."
+      },
+      {
+        "type": "Inconsencies - Legal Contradiction",
+        "original_text": "The Discloser intends to disclose info rmation (the Confidential Information) to the Recipient for the purpose of recommendation of future land use of the decommissione d play area on Ship Street (the Purpose).",
+        "changed_text": "The Discloser intends to disclose information (the Confidential Information) to the Recipient. The Recipient can use the confidential information for any purpose they see fit.",
+        "explanation": "The original text restricts the use of confidential information to a specific purpose. The modified text removes this restriction and allows the Recipient to use the information for any purpose. This contradicts the fundamental principle of NDAs, which is to protect the Discloser's confidential information by restricting its use.",
+        "contradicted_law": "Breach of Confidence (England)",
+        "law_citation": "Coco v A N Clark (Engineers) Ltd [1969] RPC 41",
+        "law_url1": [
+          "https://www.law.cornell.edu/wex/intellectual_property"
+        ],
+        "law_url2": [
+          "https://en.wikipedia.org/wiki/Coco_v_A_N_Clark_(Engineers)_Ltd"
+        ],
+        "law_explanation": "The case of Coco v A N Clark established the key elements for a claim of breach of confidence under English law.  One of these elements is that the information must have been imparted in circumstances importing an obligation of confidence. By allowing the Recipient to use the confidential information for any purpose, the modified text negates this obligation, making the NDA unenforceable and contradicting the legal principles protecting confidential information. vLex is used as a link to a verified and accurate legal database.",
+        "location": "Clause 1",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": "intellectual property | Wex | US Law | LII / Legal Information Institute Please help us improve our site! \u00d7 No thank you intellectual property Intellectual property (I.P. or IP) is a type of property encompassing the products of original human thought. Common examples of intellectual property include: the contents of a book, designs of an invention, computer software, company logos, and music. Intellectual property differs from other forms of property in that it is non-tangible, and non-rivalrous. Unlike other forms of property, intellectual property can be used by infinitely many people without depriving the original owner of the use of their property. This characteristic of intellectual property makes it particularly vulnerable to free rider problems, creating unique challenges for authors and inventors who wish to monetize their work. Intellectual property rights were created to ensure that authors and inventors are compensated for their efforts to incentivize the production of further works for the benefit of the public. They combat the free rider problem by giving intellectual property owners a near monopoly over the use of their creations for a set period of time. This allows intellectual property owners to license their intellectual property, and to recover monetarily from those who infringe on their intellectual property rights through piracy or wrongful use. However, intellectual property rights are not absolute, and are subject to a myriad of exceptions and affirmative defenses , such as the fair use doctrine. Within the broad category of intellectual property, there are four subcategories of intellectual property: patent , copyright , trademark , and trade secrets . In the United States, patents and copyright are regulated exclusively by federal law, as outlined in the Intellectual Property Clause . Trademarks are areas of shared jurisdiction between federal and state governments, with the federal government deriving their power to regulate trademarks through the Commerce Clause . Trade secrets are largely regulated by states through unfair competition laws. [Last reviewed in June of 2023 by the Wex Definitions Team ] Keywords property PROPERTY RIGHTS intellectual property U.S. CONSTITUTION constitutional law Wex CIVICS the Constitution COMMERCE commercial activities PROPERTY business law wex definitions business sectors commercial transactions constitutional law intellectual property copyright law patent law trade secrets law trademark law property law Wex Toolbox",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The modified text removes the restriction on the recipient's use of confidential information, allowing them to use it for any purpose. This directly contradicts the fundamental principle of NDAs, which is to protect confidential information by restricting its use. The law explanation highlights that a key element for a breach of confidence claim is that the information must be imparted under an obligation of confidence. By allowing the recipient to use the information for any purpose, this obligation is negated, creating a legal contradiction, as the original NDA's purpose is circumvented. Scraped Law Snippet 1 discusses intellectual property rights, but its discussion of patents, copyrights, trademarks, and trade secrets is only tangentially relevant and does not directly pertain to obligations of confidence in contract law. The change in the text directly contradicts the original NDA."
+      }
+    ]
+  }
+]

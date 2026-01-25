@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "MSCIINC_02_28_2008-EX-10.10-.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "1.1 Certain Definitions. As used in this Agreement: (a) \"Including\" and its derivatives, each whether or not capitalized in this Agreement, means \"including but not limited to\".",
+        "changed_text": "1.1 Certain Definitions. As used in this Agreement: (a) \"Including\" and its derivatives, each whether or not capitalized in this Agreement, means \"limited to\".",
+        "explanation": "The definition of \"Including\" is changed from \"including but not limited to\" to \"limited to\". This creates a contradiction because the original definition suggests an open-ended list, while the modified definition implies a closed, exhaustive list. This change impacts the interpretation of other sections where the term is used, such as defining Licensed Materials.",
+        "location": "1.1",
+        "contradicted_location": "1.1(c)",
+        "contradicted_text": "(c) \"MS Licensed Materials\" means collectively, to the extent owned by a member of the MS Provider Group, any hardware settings and configurations, generic software libraries and routines, and generic document templates not separately commercialized by the MS Provider Group (as defined below) and used by MSCI prior to the Trigger Date. For the avoidance of doubt, the MS Licensed Materials does not include (i) any patent, trademark or service mark of the MS Provider Group, or (ii) any infrastructure hardware or software (e.g., monitoring software and systems, customized operating systems (and components such as AFS, DNS, AD, etc.), and middleware). For the avoidance of doubt, the document templates do not include any references to members of the MS Provider Group or its personnel.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the definition of \"Including\" from an open-ended list to a closed list (\"limited to\"). The contradicted text uses \"MS Licensed Materials\" and then gives examples of what the materials include. By limiting the definition of \"including\", the changed text directly contradicts the original intent of the contradicted text, as it implies that the listed materials are exhaustive, when the original language implied they were examples. This creates a direct conflict and therefore an in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "2.  GRANT OF LICENSE 2.1 MS Grant. MS hereby grants (subject to any existing third party contractual obligations) to MSCI a non-exclusive, perpetual, irrevocable, world- wide, royalty-free license for MSCI to use, modify, copy, create derivative works of and sublicense, for any business purpose, the MS Licensed Materials.",
+        "changed_text": "2.  GRANT OF LICENSE 2.1 MS Grant. MS hereby grants (subject to any existing third party contractual obligations) to MSCI a non-exclusive, temporary, revocable, world- wide, royalty-bearing license for MSCI to use, modify, copy, create derivative works of and sublicense, for any business purpose, the MS Licensed Materials.",
+        "explanation": "The terms of the license are significantly altered from \"perpetual, irrevocable, royalty-free\" to \"temporary, revocable, royalty-bearing\". This creates a direct contradiction with the original intent of a lasting, unrestricted license, making the agreement's enforcement highly uncertain, specifically impacting clause 2.2 with different conditions.",
+        "location": "2.1",
+        "contradicted_location": "2.2",
+        "contradicted_text": "2.2 MSCI Grant. MSCI hereby grants (subject to any existing third party contractual obligations) to MS a non-exclusive, perpetual, irrevocable, world- wide, royalty-free license for MS to use, modify, copy, create derivative works of and sublicense, for any business purpose, the MSCI Licensed Materials.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies a \"perpetual, irrevocable, royalty-free\" license, while the changed text modifies this to a \"temporary, revocable, royalty-bearing\" license. This directly contradicts the 'perpetual, irrevocable, royalty-free' license granted to MS in section 2.2. The change introduces conflicting terms regarding the duration, revocability, and payment of royalties, thus creating a strong in-text contradiction as the terms are directly opposite, specifically impacting clause 2.2."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "6.1 Governing Law; Jurisdiction; Dispute Resolution. (a) This Agreement shall be construed in accordance with and governed by the substantive internal laws of the State of New York. MSCI Inc. is registered to do business in New York under the name NY MSCI.",
+        "changed_text": "6.1 Governing Law; Jurisdiction; Dispute Resolution. (a) This Agreement shall be construed in accordance with and governed by the substantive internal laws of the State of Delaware. MSCI Inc. is registered to do business in New York under the name NY MSCI.",
+        "explanation": "The governing law is changed from \"State of New York\" to \"State of Delaware.\" This creates a contradiction because the contract states that MSCI Inc. is registered to do business in New York, implying that New York law is more relevant and creates uncertainty when it comes to applying the correct jurisdiction. It creates uncertainty in determining what laws should govern the agreement and how disputes should be resolved.",
+        "location": "6.1(a)",
+        "contradicted_location": "6.1(a)",
+        "contradicted_text": "6.1 Governing Law; Jurisdiction; Dispute Resolution. (a) This Agreement shall be construed in accordance with and governed by the substantive internal laws of the State of Delaware. MSCI Inc. is registered to do business in New York under the name NY MSCI.",
+        "contradiction_exists": "NO",
+        "justification": "The provided text indicates the Changed Text and Contradicted Text are the exact same. The explanation highlights a potential conflict of laws since the contract states that MSCI Inc. is registered to do business in New York while changing the governing law to Delaware. Although this change may introduce ambiguity or preference of law, both texts are identical, and it doesn't create a direct, undeniable contradiction within the contract itself. It requires further external information or legal interpretations to determine which law takes precedence. As such, it doesn't meet the threshold for a strong, in-text contradiction. Therefore, according to the prompt instructions, it is a \"NO\"."
+      }
+    ]
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "file_name": "Non-disclosure-Agreement_7.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "The Company undertakes to return all such documentation at the request of the Client and, in any event, upon conclusion of the Company's need thereof.",
+        "changed_text": "The Company undertakes to return all such documentation only upon receiving a written request from the Client and is not obligated to do so after the conclusion of the Company's need thereof.",
+        "explanation": "This modification alters the obligation to return confidential information, making it conditional on the Client's request even after the company no longer needs it. This is not usually best practice and may impact liability in case of a data breach if the documents are retained for longer than necessary.",
+        "contradicted_law": "General Data Protection Regulation (GDPR) - Article 5(1)(e)",
+        "law_citation": "Article 5(1)(e) GDPR",
+        "law_url1": [
+          "https://gdpr-info.eu/art-5-gdpr/"
+        ],
+        "law_url2": [
+          "https://iapp.org/media/pdf/resource_center/art_5_1_a_e.pdf"
+        ],
+        "law_explanation": "Article 5(1)(e) of the GDPR states that personal data shall be kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed. The original text allows for the data to be destroyed when no longer needed; the changed text violates this by allowing the Company to retain documents indefinitely unless a request is made, potentially storing data longer than necessary. The GDPR applies because the document relates to a company in London, which is subject to GDPR.",
+        "location": "Section 1",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": "Art. 5 GDPR \u2013 Principles relating to processing of personal data - General Data Protection Regulation (GDPR) Search for: Skip to content Search for: Imprint | Privacy Policy | Liability Personal data shall be: processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes shall, in accordance with Article 89 (1), not be considered to be incompatible with the initial purposes (\u2018purpose limitation\u2019); adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed (\u2018data minimisation\u2019); accurate and, where necessary, kept up to date; every reasonable step must be taken to ensure that personal data that are inaccurate, having regard to the purposes for which they are processed, are erased or rectified without delay (\u2018accuracy\u2019); kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes in accordance with Article 89( 1) subject to implementation of the appropriate technical and organisational measures required by this Regulation in order to safeguard the rights and freedoms of the data subject (\u2018storage limitation\u2019); processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (\u2018integrity and confidentiality\u2019). ",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The changed text contradicts GDPR's storage limitation principle as outlined in Article 5(1)(e), by making the return of documentation conditional on a client request, even after the company no longer needs it. This could lead to the retention of personal data for longer than necessary, which directly violates the principle that personal data should be 'kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed,' as stated in Scraped Law Snippet 1."
+      },
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "Any Confidential Information shall at all times be stored securely and the Company shall take reasonable precautions to prevent any unauthorised disclosure.",
+        "changed_text": "Any Confidential Information shall be stored as the Company deems appropriate, and the Company's liability for any unauthorised disclosure is limited to \u00a3100.",
+        "explanation": "This change weakens the security obligation and introduces a liability cap. This conflicts with data protection laws that require appropriate security measures and adequate compensation for data breaches.",
+        "contradicted_law": "Data Protection Act 2018 (UK)",
+        "law_citation": "Section 168 of the Data Protection Act 2018",
+        "law_url1": [
+          "https://www.legislation.gov.uk/ukpga/2018/12/section/168"
+        ],
+        "law_url2": [
+          "https://ico.org.uk/for-organisations/data-protection-act-2018/"
+        ],
+        "law_explanation": "Section 168 of the Data Protection Act 2018 (UK) dictates the powers of the Information Commissioner to issue monetary penalties for breaches of data protection obligations. Limiting liability to \u00a3100 contradicts the potential for significantly higher fines under the Act for failing to adequately protect confidential information. The company's location in London makes it subject to this act.",
+        "location": "Section 1",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": "Data Protection Act 2018 Skip to main content Skip to navigation legislation.gov.uk http://www.nationalarchives.gov.uk Cymraeg Home Explore our collections Research tools Help and guidance What's new About us Search Legislation Search Legislation Title: (or keywords in the title) Year: Number: Type: All UK Legislation (excluding originating from the EU) -------------------------------------------- All Legislation (including originating from the EU) -------------------------------------------- All Primary Legislation UK Public General Acts UK Local Acts UK Private and Personal Acts Acts of the Scottish Parliament Acts of Senedd Cymru Acts of the National Assembly for Wales Measures of the National Assembly for Wales Church Measures Acts of the Northern Ireland Assembly Acts of the Old Scottish Parliament Acts of the English Parliament Acts of the Old Irish Parliament Acts of the Parliament of Great Britain Local Acts of the Parliament of Great Britain Private and Personal Acts of the Parliament of Great Britain Northern Ireland Orders in Council Measures of the Northern Ireland Assembly Acts of the Northern Ireland Parliament -------------------------------------------- All Secondary Legislation UK Statutory Instruments Wales Statutory Instruments Scottish Statutory Instruments Northern Ireland Statutory Rules Church Instruments UK Ministerial Directions UK Ministerial Orders UK Statutory Rules and Orders Northern Ireland Statutory Rules and Orders -------------------------------------------- All Legislation originating from the EU Regulations originating from the EU Decisions originating from the EU Directives originating from the EU European Union Treaties -------------------------------------------- All Draft Legislation UK Draft Statutory Instruments Scottish Draft Statutory Instruments Northern Ireland Draft Statutory Rules -------------------------------------------- All Impact Assessments UK Impact Assessments Search Advanced Search Data Protection Act 2018 You are here: UK Public Ge",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The modified text limits liability for unauthorized disclosure to \u00a3100, while the Data Protection Act 2018, as evidenced by Snippet 1 mentioning monetary penalties, allows for potentially much higher fines for data protection breaches. The change weakens the obligation to protect confidential information and sets a liability cap, directly conflicting with the Act's enforcement powers."
+      },
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "The Company acknowledges that damages may not adequately compensate for a breach of this Agreement, and that the Client may also seek such other remedies, including injunctions, as it desires.",
+        "changed_text": "The Company's liability for any breach of this Agreement is limited to direct financial loss suffered by the Client, not to exceed the total fees paid for the Services. The Client waives any right to seek injunctive relief.",
+        "explanation": "This modification limits the client's remedies to direct financial loss and waives their right to seek an injunction. This is an unreasonable limitation of liability that may not be enforceable, especially concerning breaches of confidentiality.",
+        "contradicted_law": "Unfair Contract Terms Act 1977 (UK)",
+        "law_citation": "Section 3 Unfair Contract Terms Act 1977",
+        "law_url1": [
+          "https://www.legislation.gov.uk/ukpga/1977/50/section/3"
+        ],
+        "law_url2": [
+          "https://www.rocketlawyer.com/gb/en/legal-library/unfair-contract-terms-act-1977"
+        ],
+        "law_explanation": "Section 3 of the Unfair Contract Terms Act 1977 prevents businesses from excluding or restricting liability for breach of contract, especially when dealing with consumers or on their written standard terms of business, unless the term satisfies the requirement of reasonableness. Waiving injunctive relief and limiting damages to fees paid may be deemed unreasonable, especially considering the potential value of the confidential information. The agreement is subject to English law.",
+        "location": "Section 6.2",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": "Unfair Contract Terms Act 1977 Skip to main content Skip to navigation legislation.gov.uk http://www.nationalarchives.gov.uk Cymraeg Home Explore our collections Research tools Help and guidance What's new About us Search Legislation Search Legislation Title: (or keywords in the title) Year: Number: Type: All UK Legislation (excluding originating from the EU) -------------------------------------------- All Legislation (including originating from the EU) -------------------------------------------- All Primary Legislation UK Public General Acts UK Local Acts UK Private and Personal Acts Acts of the Scottish Parliament Acts of Senedd Cymru Acts of the National Assembly for Wales Measures of the National Assembly for Wales Church Measures Acts of the Northern Ireland Assembly Acts of the Old Scottish Parliament Acts of the English Parliament Acts of the Old Irish Parliament Acts of the Parliament of Great Britain Local Acts of the Parliament of Great Britain Private and Personal Acts of the Parliament of Great Britain Northern Ireland Orders in Council Measures of the Northern Ireland Assembly Acts of the Northern Ireland Parliament -------------------------------------------- All Secondary Legislation UK Statutory Instruments Wales Statutory Instruments Scottish Statutory Instruments Northern Ireland Statutory Rules Church Instruments UK Ministerial Directions UK Ministerial Orders UK Statutory Rules and Orders Northern Ireland Statutory Rules and Orders -------------------------------------------- All Legislation originating from the EU Regulations originating from the EU Decisions originating from the EU Directives originating from the EU European Union Treaties -------------------------------------------- All Draft Legislation UK Draft Statutory Instruments Scottish Draft Statutory Instruments Northern Ireland Draft Statutory Rules -------------------------------------------- All Impact Assessments UK Impact Assessments Search Advanced Search Unfair Contract Terms Act 1977 You are here: UK Pub",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The changed text limits the client's remedies to direct financial loss and waives their right to seek an injunction, which directly contradicts the Unfair Contract Terms Act 1977. The Law Explanation states that waiving injunctive relief and limiting damages to fees paid may be deemed unreasonable, especially considering the potential value of the confidential information. The Perturbation Explanation also highlights that this modification is an unreasonable limitation of liability that may not be enforceable, especially concerning breaches of confidentiality. Scraped Law Snippet 1 provides context for the Unfair Contract Terms Act 1977, indicating its relevance to the agreement. The original text allowed the Client to seek injunctions, but that option was removed, creating the contradiction."
+      },
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "5.This agreement shall come into effect on the date of this Agreement and shall continue in full force and effect indefinitely or until replaced by a further agreement between the parties.",
+        "changed_text": "5. This agreement shall come into effect on the date of this Agreement and shall continue in full force and effect for a period of 6 months, after which it shall automatically terminate.",
+        "explanation": "Contracts that involve trade secrets or confidential information often require a longer period of protection. Changing the term to 6 months is too short and doesn't provide reasonable protection.",
+        "contradicted_law": "Trade Secrets (Enforcement, etc.) Regulations 2018 (UK)",
+        "law_citation": "Regulation 5 of the Trade Secrets (Enforcement, etc.) Regulations 2018",
+        "law_url1": [
+          "https://www.legislation.gov.uk/uksi/2018/597/regulation/5/made"
+        ],
+        "law_url2": [
+          "https://www.gov.uk/government/collections/trade-secrets"
+        ],
+        "law_explanation": "Regulation 5 (Remedies) requires that in the case of unlawful acquisition, use or disclosure of a trade secret, the courts must consider remedies such as prohibiting the use or disclosure of the trade secret for a reasonable period. A fixed six-month protection is unlikely to be considered sufficient for a trade secret, especially as the regulations contemplate a period being set according to how long the secret is likely to remain commercially valuable. This is not a direct contradiction, as it doesn't say 6 months is always sufficient, but renders the level of protection probably inadequate and could impede the remedies available in court. As the agreement is governed by English law, it must consider this.",
+        "location": "Section 5",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": "The Trade Secrets (Enforcement, etc.) Regulations 2018 Skip to main content Skip to navigation legislation.gov.uk http://www.nationalarchives.gov.uk Cymraeg Home Explore our collections Research tools Help and guidance What's new About us Search Legislation Search Legislation Title: (or keywords in the title) Year: Number: Type: All UK Legislation (excluding originating from the EU) -------------------------------------------- All Legislation (including originating from the EU) -------------------------------------------- All Primary Legislation UK Public General Acts UK Local Acts UK Private and Personal Acts Acts of the Scottish Parliament Acts of Senedd Cymru Acts of the National Assembly for Wales Measures of the National Assembly for Wales Church Measures Acts of the Northern Ireland Assembly Acts of the Old Scottish Parliament Acts of the English Parliament Acts of the Old Irish Parliament Acts of the Parliament of Great Britain Local Acts of the Parliament of Great Britain Private and Personal Acts of the Parliament of Great Britain Northern Ireland Orders in Council Measures of the Northern Ireland Assembly Acts of the Northern Ireland Parliament -------------------------------------------- All Secondary Legislation UK Statutory Instruments Wales Statutory Instruments Scottish Statutory Instruments Northern Ireland Statutory Rules Church Instruments UK Ministerial Directions UK Ministerial Orders UK Statutory Rules and Orders Northern Ireland Statutory Rules and Orders -------------------------------------------- All Legislation originating from the EU Regulations originating from the EU Decisions originating from the EU Directives originating from the EU European Union Treaties -------------------------------------------- All Draft Legislation UK Draft Statutory Instruments Scottish Draft Statutory Instruments Northern Ireland Draft Statutory Rules -------------------------------------------- All Impact Assessments UK Impact Assessments Search Advanced Search The Trade Secrets (Enforcement, etc.) Regulations 2",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The changed text limits the trade secret protection to 6 months, which contradicts the spirit of Regulation 5 (Remedies) as explained by the LLM, as it may be insufficient. The original text provided indefinite protection, or until replaced. The scraped snippet mentions \"The Trade Secrets (Enforcement, etc.) Regulations 2018\", supporting the claim that regulations exist regarding trade secret enforcement, and the change from indefinite protection to 6 months is therefore likely to be insufficient. The inconsistency in the time-sensitive obligation makes the contract unenforceable under the law."
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "BTS_NDA.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "6. No license, express or implied, in the information disclosed is granted to either party o ther than to use the information in the manner and to the extent authorized by the Agreement. Nothing herein shall be construed to create a joint venture, agency or partnership, or to authorize a party to act as agent or representative of the other party.",
+        "changed_text": "6. A limited license, solely for internal evaluation purposes, is granted to the receiving party to use the disclosed information. However, this license is revocable at any time by the disclosing party with no prior notice. Nothing in this agreement shall be construed to prohibit future business arrangements, including joint ventures or partnerships, between the parties.",
+        "explanation": "This change introduces a limited license for internal evaluation, which was not present in the original agreement, but allows it to be taken at anytime. Additionally, it states the agreement does not 'prohibit future business arrangements'. This change opens the door for potential future joint ventures or partnerships, which creates the Ambiguity for the party that receives the information. The change in 6 also is contradicting in the intro of the contract about what its purpose is.",
+        "location": "Section 6",
+        "contradicted_location": "Page 1",
+        "contradicted_text": "WHERE AS, BROOKSTECH has or may acquire certain information relating to design methods, procedures, components, structures, business, customers, sales, personnel, business planning, marketing, and manufacturing and desires to disclose such information to ____________ f or the purposes of evaluating the design of devices and ____________ is willing to accept such information and as limited herein. WHEREAS, ____________ has or may acquire certain information relating to design methods, procedures, components, structures, b usiness, customers, sales, personnel, business planning, marketing, and manufacturing and desires to disclose such information to BROOKSTECH for the purposes of evaluating the design of devices and BROOKSTECH is willing to accept such information and as limited herein.",
+        "contradiction_exists": "YES",
+        "justification": "The original text strictly prohibits any implied licenses, while the changed text introduces a 'limited license' for internal evaluation, revocable at any time. This directly contradicts the introductory 'WHEREAS' clause, which specifies the purpose of information disclosure is solely for 'evaluating the design of devices' and 'as limited herein.' The changed text broadens the potential use beyond the initially intended scope and limitations, and introduces a license where none existed, thereby causing a strong contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "7. No warranty, express or implied, in the information disclosed is granted by this Agreement. W ARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE EXPRESSLY DISCLAIMED .",
+        "changed_text": "7. No warranty, express or implied, in the information disclosed is granted by this Agreement. WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE EXPRESSLY DISCLAIMED. However, the disclosing party warrants that they have the legal right to disclose the information.",
+        "explanation": "While still disclaiming warranties on the information itself, this change introduces a new warranty regarding the disclosing party's right to disclose the information. This creates a potential contradiction, as the lack of warranty is the basis of the original statement, now there is some warranty. A legal dispute could arise concerning the extent of liability if the disclosing party lacks the necessary rights.",
+        "location": "Section 7",
+        "contradicted_location": "Section 7",
+        "contradicted_text": "7. No warranty, express or implied, in the information disclosed is granted by this Agreement. WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE EXPRESSLY DISCLAIMED. However, the disclosing party warrants that they have the legal right to disclose the information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly disclaims all warranties, both express and implied, regarding the disclosed information. The changed text introduces a new, express warranty concerning the disclosing party's legal right to disclose the information. This directly contradicts the initial statement that 'no warranty, express or implied, in the information disclosed is granted,' creating an in-text contradiction because it adds a warranty where previously there was none. Since the changed and contradicted text are in the same location, there is an obvious contradiction."
+      }
+    ]
+  }
+]

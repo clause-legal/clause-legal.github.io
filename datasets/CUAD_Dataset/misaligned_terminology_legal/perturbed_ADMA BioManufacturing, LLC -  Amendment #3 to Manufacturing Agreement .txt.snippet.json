@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement .txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - Legal Contradiction",
+        "original_text": "ADMA accepts and declares that the amount of the liquidated damages is a fair and equitable compensation, and not a penalty, for such failure in reaching the volume commitment within the timelines agreed herein and in regard to the value and use of the Source Plasma.",
+        "changed_text": "ADMA accepts and declares that the amount of the liquidated damages is a fair and equitable assessment, which may be considered a penalty, for such failure in reaching the volume commitment within the timelines agreed herein and in regard to the value and use of the Source Plasma.",
+        "explanation": "Changing 'compensation, and not a penalty' to 'assessment, which may be considered a penalty' creates uncertainty. Liquidated damages, under Florida law, are intended to be compensation, not a penalty. Implying it could be a penalty weakens enforceability.",
+        "contradicted_law": "Florida Statute § 672.718(1)",
+        "law_citation": "§ 672.718(1)",
+        "law_url1": [
+          "https://www.law.cornell.edu/ucc/2/718"
+        ],
+        "law_url2": [
+          "https://uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=ca8ae4f1-1180-41ab-b8b7-50f53f4e5767&forceDialog=0"
+        ],
+        "law_explanation": "Florida law states that damages for breach may be liquidated but only at an amount which is reasonable in the light of the anticipated or actual harm caused by the breach. If the term includes a large penalty, it is void. Changing the text to allow for a penalty goes against this law.",
+        "location": "Section 2",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly states that liquidated damages are 'not a penalty.' The changed text introduces the possibility that they 'may be considered a penalty.' The Law Explanation states that Florida law prohibits liquidated damages from being a penalty. By suggesting the damages *could* be a penalty, the changed text contradicts the legal principle that liquidated damages must represent fair compensation, not punishment. Since the snippets are unavailable, the Law Explanation and comparison of original and changed text are primary basis."
+      },
+      {
+        "type": "Misaligned Terminology - Legal Contradiction",
+        "original_text": "At such time that the Source Plasma is delivered to the ADMA loading dock located at 5800 Park of Commerce Blvd NW, Boca Raton, FL 33487, risk of loss for such delivered Source Plasma shall, as between Sanofi Pasteur and ADMA, transfer to ADMA.",
+        "changed_text": "At such time that the Source Plasma is available for pickup at the ADMA loading dock located at 5800 Park of Commerce Blvd NW, Boca Raton, FL 33487, risk of loss for such delivered Source Plasma shall, as between Sanofi Pasteur and ADMA, transfer to ADMA.",
+        "explanation": "Changing 'delivered' to 'available for pickup' shifts the responsibility of the plasma to ADMA as soon as it's available, regardless of whether it's physically delivered. This contradicts standard UCC rules about the transfer of risk of loss, which generally requires physical possession for the risk to transfer.",
+        "contradicted_law": "Florida Statute § 672.509",
+        "law_citation": "§ 672.509",
+        "law_url1": [
+          "https://www.law.cornell.edu/ucc/2/2-509"
+        ],
+        "law_url2": [
+          "https://uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=54307e65-4d22-359f-2a1b-f260b7b680a1&forceDialog=0"
+        ],
+        "law_explanation": "This modification contradicts Florida's adoption of the Uniform Commercial Code (UCC), specifically regarding risk of loss. The UCC states that the risk of loss generally transfers upon delivery or when the buyer takes physical possession. Changing 'delivered' to 'available for pickup' implies ADMA bears the risk even if it hasn't taken possession, which may violate the UCC's intended protection for buyers.",
+        "location": "Section 7",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": "§ 2-509. Risk of Loss in the Absence of Breach. | Uniform Commercial Code | US Law | LII / Legal Information Institute Please help us improve our site! × No thank you § 2-509. Risk of Loss in the Absence of Breach. (1) Where the contract requires or authorizes the seller to ship the goods by carrier (a) if it does not require him to deliver them at a particular destination, the risk of loss passes to the buyer when the goods are duly delivered to the carrier even though the shipment is under reservation (Section 2-505 ); but (b) if it does require him to deliver them at a particular destination and the goods are there duly tendered while in the possession of the carrier, the risk of loss passes to the buyer when the goods are there duly so tendered as to enable the buyer to take delivery. (2) Where the goods are held by a bailee to be delivered without being moved, the risk of loss passes to the buyer (a) on his receipt of a negotiable document of title covering the goods ; or (b) on acknowledgment by the bailee of the buyer's right to possession of the goods ; or (c) after his receipt of a non-negotiable document of title or other written direction to deliver, as provided in subsection (4)(b) of Section 2-503 . (3) In any case not within subsection (1) or (2), the risk of loss passes to the buyer on his receipt of the goods if the seller is a merchant ; otherwise the risk passes to the buyer on tender of delivery. (4) The provisions of this section are subject to contrary agreement of the parties and to the provisions of this Article on sale on approval (Section 2-327 ) and on effect of breach on risk of loss (Section 2-510 ). Uniform Commercial Code Toolbox About Uniform Laws State Uniform Commercial Codes",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The change from \"delivered\" to \"available for pickup\" alters when the risk of loss transfers. Scraped Law Snippet 1, referencing UCC § 2-509, states that risk of loss passes to the buyer when the goods are \"duly delivered\" under certain shipping conditions. The changed text shifts this risk to when the plasma is merely \"available for pickup,\" potentially before physical possession by ADMA, which contradicts the typical requirement of delivery or tender of delivery for the risk of loss to transfer, as described in the law explanation. This represents a Misaligned Terminology Legal Contradiction because the contractual language deviates from the legally recognized trigger for risk transfer under the UCC."
+      },
+      {
+        "type": "Misaligned Terminology - Legal Contradiction",
+        "original_text": "In no event shall either party be liable to the other party for incidental, indirect, special and consequential or punitive damages, including without limitation any claims for damages based upon lost profits or lost business opportunity.",
+        "changed_text": "In no event shall either party be liable to the other party for special damages exceeding $1000, including without limitation any claims for damages based upon lost profits or lost business opportunity.",
+        "explanation": "Removing 'incidental, indirect, consequential or punitive damages' and replacing them with a limitation on 'special damages' contradicts the standard interpretation of consequential damages. Limiting only special damages implies other types of damages are still recoverable, potentially against common law principles limiting damages.",
+        "contradicted_law": "Florida Statute § 672.715",
+        "law_citation": "§ 672.715",
+        "law_url1": [
+          "https://www.law.cornell.edu/ucc/2/715"
+        ],
+        "law_url2": [
+          "https://uniformlaws.org/ActSummary.aspx?title=Sales"
+        ],
+        "law_explanation": "By limiting only 'special damages' while removing the explicit exclusion of 'consequential' and 'incidental' damages, the modified text creates ambiguity and the possibility that consequential damages might be recoverable. This contradicts typical contract law practices, especially those related to commercial agreements that often seek to exclude such damages. Florida law allows for the exclusion or limitation of consequential damages, which this change undermines.",
+        "location": "Section 7",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "- Uniform Law Commission Skip to main content (Press Enter). Sign in Skip auxiliary navigation (Press Enter). Follow ULC Schedule of Events Better Laws. Stronger States. Skip main navigation (Press Enter). Page Not Found Sorry! The page you requested was not found. Contact Us (312) 450-6600 info@uniformlaws.org Uniform Law Commission 111 N. Wabash Avenue, Suite 1010 Chicago, Illinois 60602 Uniform Law Commission The Uniform Law Commission (ULC, also known as the National Conference of Commissioners on Uniform State Laws), established in 1892, provides states with non-partisan, well-conceived and well-drafted legislation that brings clarity and stability to critical areas of state statutory law. Acts Overview Current Acts Uniform Commercial Code Projects Overview Current Committees Meetings and Events Annual Meeting 2025 -- Session Resources Committee Meetings Meeting Calendar Request to Schedule a Web Meeting Grant Application News and Publications News Publications Reprint Request Search Documents Videos Webinar Series Legislation Legislative Activity About ULC About Us Leadership Delegations Staff FAQs Standing Committees Editorial Boards Constitution Policies Spotlight ULC Careers Copyright 2024 Connect. All rights reserved. Privacy Policy | Terms of Use | Accessibility | Contact Us | © 2025 The National Conference of Commissioners on Uniform State Laws. All Rights Reserved. Powered by Higher Logic",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The modification limits 'special damages' while removing the explicit exclusion of 'consequential' and 'incidental' damages. The Law Explanation states this creates ambiguity and the possibility that consequential damages might be recoverable, contradicting typical contract law practices. The Perturbation Explanation indicates this undermines common law principles limiting damages by implying other types of damages are recoverable. While the scraped snippets are unhelpful, the combined explanation indicates a potential shift away from excluding specific types of damages (consequential, incidental) towards limiting only 'special damages', potentially opening the door for claims that were previously excluded, creating a legal contradiction under the Misaligned Terminology definition because the contract now deviates from legally recognized risk allocation."
+      }
+    ]
+  }
+]

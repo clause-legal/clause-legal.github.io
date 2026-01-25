@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "Example-Mutual-Non-Disclosure-Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The undertakings in clauses 3 and 4 above apply to all of the information disclosed by each of the parties to the other, regardless of the way or form in which it is disclosed or recorded but they do not apply to: a) any information which is or in future comes into the public domain (unless as a result of the breach of this Agreement); or b) any information which is already known to the Recipient and which was not subject to any obligation of confidence before it was dis closed to the Recipient by the other party.",
+        "changed_text": "The undertakings in clauses 3 and 4 above apply to all of the information disclosed by each of the parties to the other, regardless of the way or form in which it is disclosed or recorded.",
+        "explanation": "By removing the exceptions (a and b) in clause 5, any information, even if publicly known or already known to the recipient, becomes subject to the confidentiality obligations. This creates an in-text contradiction as it's illogical and impractical to treat publicly available information as confidential. This makes the main statement of clause 5 contradictory, since it removes clauses where an exception can be made and goes against what the law would impose.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "The undertakings in clauses 3 and 4 above apply to all of the information disclosed by each of the parties to the other, regardless of the way or form in which it is disclosed or recorded.",
+        "contradiction_exists": "YES",
+        "justification": "The original text contains exceptions to the confidentiality obligations, specifying that information already public or known to the recipient is not subject to these obligations. The changed text removes these exceptions. The contradicted text is the same as the changed text, implying that all information disclosed is subject to confidentiality. This creates a strong contradiction because the changed text now treats all disclosed information as confidential, even if it's already public or known to the recipient, which contradicts the implicit understanding that publicly available information should not be subject to confidentiality agreements, as explained in the Perturbation Explanation."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Recipient will, on request from the other party, return all copies and records of the Confidential Information disclosed by the other party to the Recipient and will not retain any copies or records of the Confidential Information disclosed by the other party.",
+        "changed_text": "The Recipient will, on request from the other party, return all copies and records of the Confidential Information disclosed by the other party to the Recipient.",
+        "explanation": "By removing the phrase 'and will not retain any copies or records of the Confidential Information disclosed by the other party,' the clause now implies that the recipient is only obligated to *return* the information *to* themselves, defeating the purpose of the clause and the agreement itself. This now makes the statement meaningless and is contradictory to the intention of the clause, which is to return to the party who disclosed it. This contradiction raises doubts regarding the recipient's actual responsibility concerning the confidential data.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "The Recipient will, on request from the other party, return all copies and records of the Confidential Information disclosed by the other party to the Recipient.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text omits the phrase 'and will not retain any copies or records of the Confidential Information disclosed by the other party,' from the original text. The Perturbation Explanation states that this omission implies that the recipient is only obligated to *return* the information *to* themselves, defeating the purpose of the clause, contradicting the intention of the clause which is to return to the party who disclosed it. This is a strong contradiction because it alters the fundamental obligation of the recipient, creating uncertainty about their responsibility concerning the confidential data. The changed text is now in direct conflict with the intended purpose of the clause, and therefore a contradiction exists. The contradicted text is identical to the changed text in this scenario, but the change of the original text in turn causes a contradiction with the original intent and creates uncertainty."
+      }
+    ]
+  }
+]

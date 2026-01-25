@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "245490.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "WHEREAS, pursuant to the Demand and subject to the Stockholder executing this Agreement, the Company has agreed to allow the Stockholder to inspect the stockholder list (which, together with info rmation or analyses derived fr om information made available for inspection, is referred to as the “Confidential Material”);",
+        "changed_text": "WHEREAS, pursuant to the Demand and subject to the Stockholder executing this Agreement, the Company may allow the Stockholder to inspect the stockholder list (which, together with info rmation or analyses derived fr om information made available for inspection, is referred to as the “Confidential Material”);",
+        "explanation": "Changing \"has agreed to allow\" to \"may allow\" introduces uncertainty regarding the Stockholder's right to inspect the list. This contradicts the later sections where the agreement outlines procedures and restrictions on using the Confidential Material, implying access is guaranteed. This change could lead to dispute on whether access must be granted.",
+        "location": "Preamble",
+        "contradicted_location": "1",
+        "contradicted_text": "1. Stockholder agrees that the Confidential Material is being produced to them only for purposes reasonably related to Stockholder’ s interests as a stockholder of the Company and that Stockholder shall not utilize Conf idential Material, any other information produced by the Company or anything derive d from Confidential Material or derived from any other information produced by the Company for any other purpose.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'has agreed to allow' to 'may allow' introduces uncertainty about the stockholder's right to inspect the list. This contradicts the section that outlines procedures and restrictions on using the Confidential Material, as that section assumes the stockholder *will* have access to the Confidential Material. The change introduces ambiguity, creating a direct conflict and making enforcement of restrictions on the 'Confidential Material' unclear, as it is no longer guaranteed that the stockholder will have access to it, which falls under the definition of Structural Flaws - In Text Contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Stockholder will not disclose, publish, or communicate Confidential Material to any person or entity in any form (written, oral , electronic or through any other medium), either directly or indirectly, except as pr ovided in this Confidentiality Agreement to end; provided that in no event shall stockh older, directly or indirectly, publically disclose, publish or communicate names, addr esses, holdings of any other stockholder.",
+        "changed_text": "The Stockholder will disclose, publish, or communicate Confidential Material to any person or entity in any form (written, oral , electronic or through any other medium), either directly or indirectly, except as pr ovided in this Confidentiality Agreement to end; provided that in no event shall stockh older, directly or indirectly, publically disclose, publish or communicate names, addr esses, holdings of any other stockholder.",
+        "explanation": "By changing the provision to allow disclosure of confidential information, it directly contradicts the previous statement that prohibits such disclosure. This in-text contradiction creates confusion as to whether the confidential material must be kept confidential.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "2. The Stockholder will disclose, publish, or communicate Confidential Material to any person or entity in any form (written, oral , electronic or through any other medium), either directly or indirectly, except as pr ovided in this Confidentiality Agreement to end; provided that in no event shall stockh older, directly or indirectly, publically disclose, publish or communicate names, addr esses, holdings of any other stockholder.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the Stockholder 'will not disclose' Confidential Material, whereas the changed text states the Stockholder 'will disclose' Confidential Material. This directly contradicts the contradicted text, which is identical to the changed text, as it now permits disclosure when the original text forbade it, creating a direct and irreconcilable in-text contradiction. This aligns with the Structural Flaws - In Text Contradiction definition where the clause is placed in multiple locations with conflicting implications."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Each Party agrees that the Company does no t have an adequate remedy at law in the event of a breach of this Agreement by the Stockholder. The Parties further agree that, in the event of a breach of this Agreement by the Stockholder, the Company will suffer irreparable harm and will be entitled to specific performance and/or injunctive relief to enforce the terms of this Agreement. Such remedies shall not be deemed to be the exclusive remedies for any breach of this Agreement but shall be in addition to any other remedies to which the Company ma y be entitled at law or in equity.",
+        "changed_text": "Each Party agrees that the Company does have an adequate remedy at law in the event of a breach of this Agreement by the Stockholder. The Parties further agree that, in the event of a breach of this Agreement by the Stockholder, the Company will suffer irreparable harm and will be entitled to specific performance and/or injunctive relief to enforce the terms of this Agreement. Such remedies shall not be deemed to be the exclusive remedies for any breach of this Agreement but shall be in addition to any other remedies to which the Company ma y be entitled at law or in equity.",
+        "explanation": "By changing \"does not have an adequate remedy\" to \"does have an adequate remedy,\" a direct contradiction is created. The original text indicates the Company's need for equitable relief (specific performance/injunctive relief) because monetary damages are insufficient. The modified text implies monetary damages ARE sufficient. This in-text contradiction will cause issues in the enforcement of this agreement.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "5. Each Party agrees that the Company does have an adequate remedy at law in the event of a breach of this Agreement by the Stockholder. The Parties further agree that, in the event of a breach of this Agreement by the Stockholder, the Company will suffer irreparable harm and will be entitled to specific performance and/or injunctive relief to enforce the terms of this Agreement. Such remedies shall not be deemed to be the exclusive remedies for any breach of this Agreement but shall be in addition to any other remedies to which the Company ma y be entitled at law or in equity.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies \"does not have an adequate remedy at law\" to \"does have an adequate remedy at law.\" This directly contradicts the subsequent statement that the Company 'will suffer irreparable harm and will be entitled to specific performance and/or injunctive relief', because specific performance and injunctive relief are only granted when monetary damages are inadequate. Since the changed text exists in both excerpts, and the 'Perturbation Explanation' describes a contradiction that is generated by the change, then a contradiction exists."
+      }
+    ]
+  }
+]

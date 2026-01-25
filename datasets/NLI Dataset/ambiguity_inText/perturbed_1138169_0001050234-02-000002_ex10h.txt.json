@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "1138169_0001050234-02-000002_ex10h.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The receiving party shall protect all of the disclosing party's Proprietary Information as confidential information and, except with the prior written consent of the disclosing party or as otherwise specifically provided herein, shall. not disclose, copy or distribute such Proprietary Information to any other individual, corporation or entity for a period of three (3) years from the date of disclosure.",
+        "changed_text": "The receiving party shall protect all of the disclosing party's Proprietary Information, defined under section 1, as confidential information and, except with the prior written consent of the disclosing party or as otherwise specifically provided herein, shall not disclose, copy or distribute such Proprietary Information to any other individual, corporation or entity. The protection shall extend for a period of three (3) years from the date of disclosure unless the receiving party reasonably believes the information is no longer confidential. The belief will be determined by a notice, where they consider the information is no longer confidential to the disclosing party.",
+        "explanation": "This introduces ambiguity into the agreement regarding the duration of confidentiality. The original text specifies a clear three-year period. The modified text adds a clause allowing the receiving party to cease protecting the information if they 'reasonably believe' it is no longer confidential, as determined by the 'notice'. This subjective criterion contradicts the fixed three-year term, creating an internal contradiction. The use of the term 'notice' is not defined anywhere else.",
+        "location": "2.a",
+        "contradicted_location": "2.a",
+        "contradicted_text": "The receiving party shall protect all of the disclosing party's Proprietary Information, defined under section 1, as confidential information and, except with the prior written consent of the disclosing party or as otherwise specifically provided herein, shall not disclose, copy or distribute such Proprietary Information to any other individual, corporation or entity. The protection shall extend for a period of three (3) years from the date of disclosure unless the receiving party reasonably believes the information is no longer confidential. The belief will be determined by a notice, where they consider the information is no longer confidential to the disclosing party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a 'reasonable belief' exception to the three-year confidentiality period, contradicting the original text's fixed term. The modified text allows the receiving party to unilaterally decide the information is no longer confidential, undermining the certainty of the initial agreement. This creates a strong in-text contradiction under the Ambiguities definition, as the duration of confidentiality is now subject to interpretation and the undefined 'notice', making enforcement unclear."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Each party shall maintain the other party's Proprietary Information with at least the same degree of care each party uses to maintain its own proprietary information. Each party represents that such degree of care provides adequate protection for its own proprietary information.",
+        "changed_text": "Each party shall maintain the other party's Proprietary Information with at least the same degree of care each party uses to maintain its own publicly available information. Each party represents that such degree of care provides adequate protection for its own proprietary information.",
+        "explanation": "By changing \"its own proprietary information\" to \"its own publicly available information\", the level of care is significantly reduced. This is because a party is now only required to protect the other party's proprietary information with the same care they use to protect their own publicly available information, which is essentially no protection at all. This contradicts the underlying intention of the NDA, creating ambiguity.",
+        "location": "2.d",
+        "contradicted_location": "2.d",
+        "contradicted_text": "Each party shall maintain the other party's Proprietary Information with at least the same degree of care each party uses to maintain its own publicly available information. Each party represents that such degree of care provides adequate protection for its own proprietary information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the level of care required for the other party's proprietary information. By changing \"its own proprietary information\" to \"its own publicly available information,\" the required degree of care is reduced. The explanation states that publicly available information receives essentially no protection. This contradicts the intention of maintaining proprietary information. The Contradicted Text and Changed Text are the same, and by changing the original text to the Changed Text, there is now a contradiction within the document."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Any documents or materials that are furnished by or on behalf of the disclosing party, and all other Proprietary Information in whatever form, including documents, reports, memoranda, notes, files or analyses prepared by or on behalf of the receiving party, including all copies of such materials, shall be promptly returned by the receiving party to the disclosing party upon written request by the disclosing party for any reason.",
+        "changed_text": "Any documents or materials that are furnished by or on behalf of the disclosing party, and all other Proprietary Information in whatever form, including documents, reports, memoranda, notes, files or analyses prepared by or on behalf of the receiving party, including all copies of such materials, shall be returned by the receiving party to the disclosing party upon written request by the disclosing party for a valid legal reason or in cases of contract termination.",
+        "explanation": "This changes 'any reason' to 'valid legal reason or in cases of contract termination,' thus restricting the disclosing party's ability to reclaim their Proprietary Information. This is an in-text contradiction since the original agreement implies unrestricted return, while this modified portion now necessitates a 'valid legal reason,' introducing ambiguity and potentially conflicting with the disclosing party's implicit rights.",
+        "location": "2.f",
+        "contradicted_location": "2.f",
+        "contradicted_text": "Any documents or materials that are furnished by or on behalf of the disclosing party, and all other Proprietary Information in whatever form, including documents, reports, memoranda, notes, files or analyses prepared by or on behalf of the receiving party, including all copies of such materials, shall be returned by the receiving party to the disclosing party upon written request by the disclosing party for a valid legal reason or in cases of contract termination.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that Proprietary Information shall be returned 'upon written request by the disclosing party for any reason.' The changed text modifies this to 'upon written request by the disclosing party for a valid legal reason or in cases of contract termination.' This directly contradicts the original clause by restricting the reasons for which the information must be returned, creating a clear inconsistency and contradiction as described in the perturbation explanation and adhering to the definition of 'Ambiguities - In Text Contradiction.'"
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Each receiving party further acknowledges that damages would not be an adequate remedy for any breach of this Agreement by the receiving party or its Representatives and that the disclosing party may obtain injunctive or other equitable relief to remedy or prevent any breach or threatened breach of this Agreement by the receiving party or any of its Representatives.",
+        "changed_text": "Each receiving party further acknowledges that while damages might not always be an adequate remedy for any breach of this Agreement by the receiving party or its Representatives, the parties agree to first attempt mediation before seeking injunctive or other equitable relief to remedy or prevent any breach or threatened breach of this Agreement by the receiving party or any of its Representatives.",
+        "explanation": "The original text states that injunctive relief is available for a breach of agreement. The modified text introduces a mandatory mediation step before seeking injunctive relief. This contradicts the original text, which provided immediate access to injunctive relief. The term 'mediation' is not defined anywhere.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "Each receiving party further acknowledges that while damages might not always be an adequate remedy for any breach of this Agreement by the receiving party or its Representatives, the parties agree to first attempt mediation before seeking injunctive or other equitable relief to remedy or prevent any breach or threatened breach of this Agreement by the receiving party or any of its Representatives.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed for immediate injunctive relief. The changed text mandates mediation before seeking such relief. The contradicted text is the same as the changed text, but the change itself introduces a condition (mediation) that directly limits the previously available immediate access to injunctive relief, thus creating a contradiction. The explanation supports this by stating that the original text is contradicted by the change."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement may not be modified except by a writing signed by both parties.",
+        "changed_text": "This Agreement may not be modified except by a writing signed by both parties or via email correspondence between authorized representatives.",
+        "explanation": "This adds a contradiction to the section. The original text requires a signed written agreement for any modifications. The modified text allows for modification via email, which might not fulfill the requirements for written and signed agreement. This is an in-text contradiction.",
+        "location": "5.a",
+        "contradicted_location": "5.a",
+        "contradicted_text": "This Agreement contains the entire understanding between Cyberlux and ICT and supersedes all prior written and oral understandings relating to the subject hereof. This Agreement may not be modified except by a writing signed by both parties or via email correspondence between authorized representatives.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the agreement can only be modified by a signed writing by both parties. The changed text introduces an alternative method of modification: email correspondence between authorized representatives. The contradicted text is identical to the changed text but the altered language in the changed text creates a strong contradiction since an email might not fulfill the requirement of a 'writing signed by both parties.' Thus, an in-text contradiction now exists where previously there wasn't."
+      }
+    ]
+  }
+]

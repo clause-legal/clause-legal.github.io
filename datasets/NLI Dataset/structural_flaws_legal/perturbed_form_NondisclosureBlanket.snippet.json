@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "form_NondisclosureBlanket.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "This Agreement shall not be construed to grant to COMPANY any express or implied option, license or other right, title, or interest in or to the Confidential Information , or the patent rights corresponding to the Confidential Information, or obligate either party to enter in to any agreement granting any of the foregoing.",
+        "changed_text": "This Agreement represents the entire agreement of the parties relating to Confidential Information , and any corresponding patent rights, and any and all contemporaneous and prior oral and written understandings and agreements with respect thereto are superseded by this document. This Agreement shall not be construed to grant to COMPANY any express or implied option, license or other right, title, or interest in or to the Confidential Information , or the patent rights corresponding to the Confidential Information, or obligate either party to enter in to any agreement granting any of the foregoing.",
+        "explanation": "Moving the 'no grant of rights' clause (Section 7) into the 'entire agreement' section (Section 9) minimizes its prominence and potential impact. The 'no grant of rights' clause is crucial for preventing unintended transfers of intellectual property rights. Embedding it in a general boilerplate clause could lead to it being overlooked.",
+        "contradicted_law": "Bayh-Dole Act, 35 U.S.C. \u00a7 202(c)(7)",
+        "law_citation": "35 U.S.C. \u00a7 202(c)(7)",
+        "law_url1": [
+          "https://www.law.cornell.edu/topn/bayh_dole_act"
+        ],
+        "law_url2": [
+          "https://www.nist.gov/tpo/bayh-dole-act"
+        ],
+        "law_explanation": "The Bayh-Dole Act (35 U.S.C. \u00a7 202) governs the allocation of rights in inventions made with federal funding. Because the University of Rochester is often the recipient of federal grants, this law is relevant. Specifically, \u00a7 202(c)(7) requires clarity concerning the rights retained by the funding agency. If the agreement involves technology developed with federal funding, downplaying the 'no grant of rights' clause can obscure the allocation of rights between the university, the company, and the federal government, creating conflict. The agreement should clearly indicate that the federal government retains certain rights, which is hindered by hiding this disclaimer in boilerplate language.",
+        "location": "7",
+        "desired_official_urls": 2,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The perturbation explanation states that moving the 'no grant of rights' clause into the 'entire agreement' section minimizes its prominence and potential impact. The law explanation specifies that if the agreement involves technology developed with federal funding, downplaying the 'no grant of rights' clause can obscure the allocation of rights. Although there are no scraped law snippets available, the Law Explanation, perturbation explanation, and the specific shift of the 'no grant of rights' clause from a standalone section to a subsection within 'entire agreement' increases the risk that it will be overlooked or misinterpreted. This undermines clarity regarding rights retained by the funding agency (Bayh-Dole Act, 35 U.S.C. \u00a7 202(c)(7)). The structural flaw thus creates a significant legal contradiction as defined, making the legal obligation difficult to enforce."
+      }
+    ]
+  }
+]

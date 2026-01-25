@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "SupplementOne-NDA.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "i) “Confidential Informati on” refers to the following items Discloser discloses to the Recipient: (1) Any information that is in written, graphic, machine readable , or other tangible form, and that Discloser designates as “ Confidential, “specifically including, but not limited to , the BWC Information Systems Documentation containing file specifications and data definitions for files and reports which will be utilized under the contract to be awarded under RFP CSP903918 ;",
+        "changed_text": "i) “Confidential Informati on” refers to the following items Discloser discloses to the Recipient: (1) Any information that is in written, graphic, machine readable , or other tangible form, and that Discloser designates as “ Confidential, “specifically including, but not limited to , publicly available information or information already known to the Recipient; ",
+        "explanation": "By changing the definition of 'Confidential Information' in Section 1)a)i)(1) to include 'publicly available information or information already known to the Recipient,' it directly contradicts Section 1)a)(5)(a), which states that Confidential Information does not include information already in the Recipient’s possession before disclosure if it was received without an obligation of confidence. This creates an in-text contradiction, since information already in the Recipient's possesion, is not confidential. The change introduces uncertainty about what information the Recipient is actually obligated to protect.",
+        "location": "1)a)i)(1)",
+        "contradicted_location": "1)a)(5)(a)",
+        "contradicted_text": "(5) Notwithstanding the foregoing, Confidential Information does not include information that: (a) Was already in the Recipient’s possession before disclosure by the Discloser, and the information was received by the Recipient without the obligation of confidence;",
+        "contradiction_exists": "YES",
+        "justification": "The changed text redefines 'Confidential Information' to include 'publicly available information or information already known to the Recipient.' This directly contradicts the contradicted text, Section 1(a)(5)(a), which explicitly excludes information already in the Recipient's possession without an obligation of confidence from being considered Confidential Information. The change creates a clear and direct conflict, since the new definition would render Section 1(a)(5)(a) meaningless, thus creating an in-text contradiction as defined by Structural Flaws."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Recipient affirms that it sha ll not and shall not allow others to take the Discloser’s Confidential Information outside the United States without express written authorization from the Discloser.",
+        "changed_text": "Recipient affirms that it may allow others to take the Discloser’s Confidential Information outside the United States, with or without express written authorization from the Discloser.",
+        "explanation": "Section 7 originally prohibits taking Confidential Information outside the United States without authorization. By changing 'shall not' to 'may allow,' the altered text now permits the transfer of confidential information outside the U.S., even without authorization. This directly contradicts the original intent of Section 7, creating a critical ambiguity about data location restrictions and making it difficult to enforce the original prohibition.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "Recipient affirms that it may allow others to take the Discloser’s Confidential Information outside the United States, with or without express written authorization from the Discloser.",
+        "contradiction_exists": "YES",
+        "justification": "The original text prohibited taking Confidential Information outside the United States without express written authorization. The changed text permits taking Confidential Information outside the United States with or without express written authorization. This creates a direct contradiction with the original intent and meaning of the contract, allowing something that was originally prohibited, thereby creating an in-text contradiction. The contradicted text is identical to the Changed Text."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The failure of either Party at any time to demand strict performance by the other party of any of the terms of this Agreement will not be a waiver of those terms.",
+        "changed_text": "The failure of either Party at any time to demand strict performance by the other party of any of the terms of this Agreement will be considered a waiver of those terms, unless otherwise explicitly stated in writing.",
+        "explanation": "Section 5 originally states that failing to demand strict performance does not waive the right to demand it later. The modified text reverses this, stating that failure to demand strict performance *is* a waiver, unless stated otherwise in writing. This creates a direct contradiction regarding waiver of terms, creating uncertainty about how a party's inaction will be interpreted and affecting enforcement of the agreement.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "Amendm ents - Waiver. No change to any provision of this Agreement will be effective unless it is in writing and signed by both Parties. The failure of either Party at any time to demand strict performance by the other party of any of the terms of this Agreement will be considered a waiver of those terms, unless otherwise explicitly stated in writing. Waivers must be in writing to be effective, and either Party may at any later time demand strict performance.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that failure to demand strict performance is not a waiver. The changed text reverses this, stating it *is* a waiver unless stated otherwise in writing. The contradicted text is exactly the same as the changed text, and is being used to cause a contradiction. The change introduces a direct contradiction within the document, specifically regarding the waiver of terms, creating uncertainty about how a party's inaction will be interpreted."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement is the entire agr eement between the Parties with respect to its subject matter and supersedes any previous agreements, whether oral or written.",
+        "changed_text": "This Agreement is the entire agreement between the Parties with respect to its subject matter unless there are prior oral agreements, in which case those agreements will take precedence.",
+        "explanation": "Section 10 originally establishes that the written agreement is the *entire* agreement, superseding any prior agreements. The modified text directly contradicts this by stating that prior *oral* agreements can take precedence. This creates significant uncertainty about what constitutes the actual agreement and opens the door to disputes based on unwritten understandings.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "Entire Agreement. This Agreement is the entire agreement between the Parties with respect to its subject matter unless there are prior oral agreements, in which case those agreements will take precedence.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the agreement supersedes any previous agreements. The changed text introduces an exception, stating that prior oral agreements can take precedence. The contradicted text mirrors this change. This directly contradicts the original intent of the agreement being the 'entire' agreement, creating a strong contradiction. Based on the Structural Flaws definition, this also applies as the clause is placed in multiple locations with conflicting implications."
+      }
+    ]
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "NCDG_Non-disclosure-agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "‘Confidential Information’ means any information or sensitive data , which shall include but is not limited to, design, fabrication & assembly drawings, know-how, processes, product specifications, raw materials, trade secrets, market opportunities, or business or financial affairs of the Parties or their customers, product samples, inventions, concepts and Non-Disclosure Agreement 2any other technical and/or commercial information, disclosed directly or indirectly and in any form whatsoever (including, but not limited to, disclosure made in writing, oral or in the form of samples, models, computer programs, drawings or other instruments) furnished by the Disclosing Party to the Receiving Party under this Agreement.",
+        "changed_text": "‘Confidential Information’ means any information or sensitive data , which shall include but is not limited to, design, fabrication & assembly drawings, know-how, processes, product specifications, raw materials, trade secrets, market opportunities, or business or financial affairs of the Parties or their customers, product samples, inventions, concepts and Non-Disclosure Agreement 2any other technical and/or commercial information, disclosed directly or indirectly and in any form whatsoever (including, but not limited to, disclosure made in writing, oral or in the form of samples, models, computer programs, drawings or other instruments) furnished by the Disclosing Party to the Receiving Party under this Agreement. However, Confidential Information explicitly excludes any business or financial affairs of the Parties.",
+        "explanation": "This change introduces a contradiction within the definition of 'Confidential Information'. The original definition includes 'business or financial affairs of the Parties,' but the added sentence explicitly excludes them. This creates uncertainty as to whether business and financial information is protected under the agreement. The contradiction appears within the second definition itself.",
+        "location": "II. Definitions: 3",
+        "contradicted_location": "II. Definitions: 3",
+        "contradicted_text": "‘Confidential Information’ means any information or sensitive data , which shall include but is not limited to, design, fabrication & assembly drawings, know-how, processes, product specifications, raw materials, trade secrets, market opportunities, or business or financial affairs of the Parties or their customers, product samples, inventions, concepts and Non-Disclosure Agreement 2any other technical and/or commercial information, disclosed directly or indirectly and in any form whatsoever (including, but not limited to, disclosure made in writing, oral or in the form of samples, models, computer programs, drawings or other instruments) furnished by the Disclosing Party to the Receiving Party under this Agreement. However, Confidential Information explicitly excludes any business or financial affairs of the Parties.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text includes a sentence that explicitly excludes 'any business or financial affairs of the Parties' from the definition of 'Confidential Information', directly contradicting the earlier part of the same definition which includes 'business or financial affairs of the Parties'. The contradicted text and the changed text are located in the same area. Therefore, based on the Perturbation Explanation and the Perturbation Type 'Structural Flaws - In Text Contradiction' this introduces a strong in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement shall remain in force for five (5) years from the Effective Date, except to the extent this Agreement is superseded by stipulations of the Contemplated Agreement.",
+        "changed_text": "This Agreement shall remain in force for five (5) years from the Effective Date, except to the extent this Agreement is superseded by stipulations of the Contemplated Agreement. However, the agreement will only remain in force if both parties actively agree to do so every year.",
+        "explanation": "The original clause states the agreement is in force for five years, with an exception for a superseding agreement. The added clause introduces a condition that the agreement only stays in force yearly if both parties actively agree, which contradicts the initial 5-year term. This contradicts the first sentence of VII.2, which sets a 5-year term, by adding a condition that requires annual agreement. The contradiction is in VII.2, by adding the 'However' statement it makes an In-Text contradiction.",
+        "location": "VII. Term and Termination: 2",
+        "contradicted_location": "VII. Term and Termination: 2",
+        "contradicted_text": "This Agreement shall remain in force for five (5) years from the Effective Date, except to the extent this Agreement is superseded by stipulations of the Contemplated Agreement. However, the agreement will only remain in force if both parties actively agree to do so every year.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds a condition that the agreement only remains in force if both parties actively agree to do so every year, contradicting the initial statement that the agreement is in force for five years from the Effective Date. This aligns with the 'Structural Flaws - In Text Contradiction' definition, where a clause is placed in multiple locations with conflicting implications (the original 5-year term versus the new annual agreement requirement). The contradiction is direct and impacts the enforceability of the agreement's term."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Receiving Party is entitled to use the Confidential Information but only for the Purpose.",
+        "changed_text": "The Receiving Party is entitled to use the Confidential Information for any reason they see fit, without limitation, but only for the Purpose.",
+        "explanation": "The modification removes the restriction on usage of the confidential information for any reason. The original clause restricts the Receiving Party's use of Confidential Information to 'the Purpose', and the modified version claims it can be used for anything. This removes the Purpose limitation, contradicting the original intent. This directly contradicts Clause 9 in Section III.",
+        "location": "III. Non-Disclosure of Confidential Information: 9",
+        "contradicted_location": "III. Non-Disclosure of Confidential Information: 9",
+        "contradicted_text": "The Receiving Party is entitled to use the Confidential Information for any reason they see fit, without limitation, but only for the Purpose.",
+        "contradiction_exists": "YES",
+        "justification": "The original text restricts the use of confidential information to a specific 'Purpose'. The changed text, while superficially retaining 'the Purpose' at the end, adds that the information can be used 'for any reason they see fit, without limitation'. This introduction of unlimited use directly contradicts the initial restriction to 'the Purpose', rendering it meaningless. The contradicted text is identical to the changed text, further highlighting the contradiction, since it contains both restrictions, making this a structural flaw."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Receiving Party may disclose in confidence Confidential Information to any of its Affiliates and employees, in which event the Affiliate and employee shall be entitled to use the Confidential Information but only to the same extent the Receiving Party is permitted to do so under this Agreement. The Receiving Party agrees that such Affiliates or employees are subject to confidentiality obligations no less restrictive than those of this Agreement.",
+        "changed_text": "The Receiving Party may disclose Confidential Information to any of its Affiliates and employees, in which event the Affiliate and employee shall be entitled to use the Confidential Information but only to the same extent the Receiving Party is permitted to do so under this Agreement. The Receiving Party agrees that such Affiliates or employees are not subject to any confidentiality obligations. However, the Receiving party needs to inform when the information is being disclosed to them.",
+        "explanation": "The original clause states that Affiliates and employees are subject to confidentiality obligations. The added section directly contradicts this, stating they are not subject to any confidentiality obligations. The second sentence makes an In-Text Contradiction. This creates a direct conflict, as it's unclear whether affiliates and employees are bound by confidentiality. The contradiction occurs within Section IV.1 itself.",
+        "location": "IV. Permitted Disclosure of Confidential Information: 1",
+        "contradicted_location": "IV. Permitted Disclosure of Confidential Information: 1",
+        "contradicted_text": "The Receiving Party may disclose Confidential Information to any of its Affiliates and employees, in which event the Affiliate and employee shall be entitled to use the Confidential Information but only to the same extent the Receiving Party is permitted to do so under this Agreement. The Receiving Party agrees that such Affiliates or employees are not subject to any confidentiality obligations. However, the Receiving party needs to inform when the information is being disclosed to them.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section IV.1 directly contradicts itself. It initially states that affiliates and employees are entitled to use confidential information to the same extent as the Receiving Party but then asserts that they are 'not subject to any confidentiality obligations.' This creates a direct and irreconcilable conflict within the same section. The original text stated that affiliates/employees *were* subject to confidentiality obligations, which is now contradicted."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "All Confidential Information disclosed herein shall remain the sole property of the Disclosing Party and the Receiving Party shall obtain no right thereto of any kind by reason of this Agreement.",
+        "changed_text": "All Confidential Information disclosed herein shall remain the sole property of the Disclosing Party, unless the Receiving Party improves upon it; in such case, the Receiving Party shall gain ownership of the improved Confidential Information and the Receiving Party shall obtain no right thereto of any kind by reason of this Agreement.",
+        "explanation": "The original clause clearly states that all confidential information remains the property of the Disclosing Party. The modified text adds an exception: if the Receiving Party improves upon the confidential information, they gain ownership. This creates a direct contradiction regarding ownership, introducing ambiguity about who owns the information. The in-text contradiction is happening at VIII.",
+        "location": "VIII. Intellectual Property Rights:",
+        "contradicted_location": "VIII. Intellectual Property Rights:",
+        "contradicted_text": "All Confidential Information disclosed herein shall remain the sole property of the Disclosing Party, unless the Receiving Party improves upon it; in such case, the Receiving Party shall gain ownership of the improved Confidential Information and the Receiving Party shall obtain no right thereto of any kind by reason of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text introduces a contradiction by stating that the Receiving Party can gain ownership of improved Confidential Information, while the original text states that all Confidential Information remains the property of the Disclosing Party. This directly conflicts with the clause found in the Contradicted Text, creating a clear and impactful contradiction that would cause confusion."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Receiving Party shall disclose of any similar agreements explicit or otherwise, for similar purpose/application with in its own organization, or any other third party.",
+        "changed_text": "The Receiving Party shall disclose of any similar agreements explicit or otherwise, for similar purpose/application with in its own organization, or any other third party. The receiving party has no obligation to disclose any agreements.",
+        "explanation": "The original clause explicitly requires the Receiving Party to disclose any similar agreements. The added sentence directly contradicts this, stating the Receiving Party has no obligation to disclose any agreements. This creates direct in text contradiction within section XIII paragraph 3, which causes uncertainty of disclosing agreements.",
+        "location": "XIII. General: 3",
+        "contradicted_location": "XIII. General: 3",
+        "contradicted_text": "The Receiving Party shall disclose of any similar agreements explicit or otherwise, for similar purpose/application with in its own organization, or any other third party. The receiving party has no obligation to disclose any agreements.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds a sentence stating \"The receiving party has no obligation to disclose any agreements.\" This directly contradicts the preceding sentence, \"The Receiving Party shall disclose of any similar agreements explicit or otherwise, for similar purpose/application with in its own organization, or any other third party.\" which requires disclosure. This creates a direct conflict of obligation as to whether or not the receiving party must disclose agreements, creating an in-text contradiction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "Non-Disclosure%20Agreement_3.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement will be binding upon and inure to the benefit of the parties hereto and their respective successors and permitted assigns. The parties agree not to assign any rights or delegate any duties under this Agreement without the other party’s prior written consent, and any attempt to do so is void and has no effect.",
+        "changed_text": "This Agreement will be binding upon and inure to the benefit of the parties hereto; however, either party may assign this agreement to a subsidiary without prior written consent. The parties agree not to assign any rights or delegate any duties under this Agreement without the other party’s prior written consent, and any attempt to do so is void and has no effect.",
+        "explanation": "The alteration introduces an in-text contradiction concerning assignment rights. Initially, the clause prohibits any assignment without prior written consent from the other party. However, the modified text creates an exception, allowing either party to assign the agreement to a subsidiary without consent. This change generates an in-text contradiction by directly conflicting with the original restriction on assignment, causing confusion over when consent is actually required.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "SUCCESSORS AND ASSIGNS. This Agreement will be binding upon and inure to the benefit of the parties hereto; however, either party may assign this agreement to a subsidiary without prior written consent. The parties agree not to assign any rights or delegate any duties under this Agreement without the other party’s prior written consent, and any attempt to do so is void and has no effect.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a direct in-text contradiction by allowing assignment to a subsidiary without prior written consent, which conflicts with the original clause that prohibits any assignment without the other party's prior written consent. Both the changed text and contradicted text are identical, further confirming the presence of an in-text contradiction, as highlighted in the Perturbation Explanation."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "It is agreed that monetary damages may not be a sufficient remedy for breach of this Agreement. Discloser is entitled to seek injunctive relief without proof of actual damages. In addition, Discloser may seek other appropriate relief, including monetary damag es.",
+        "changed_text": "It is agreed that monetary damages may be a sufficient remedy for breach of this Agreement. Injunctive relief is not available. In addition, Discloser may seek other appropriate relief, including monetary damag es.",
+        "explanation": "The edited clause directly contradicts the original stance on remedies. Initially, the agreement posits that monetary damages might be inadequate and entitles the Discloser to seek injunctive relief without proving actual damages. The modification completely reverses this, asserting that monetary damages are sufficient and denying the availability of injunctive relief. This creates an explicit in-text contradiction regarding the remedies available for a breach of the agreement, thereby generating legal uncertainty.",
+        "location": "13",
+        "contradicted_location": "13",
+        "contradicted_text": "REMEDIES. It is agreed that monetary damages may be a sufficient remedy for breach of this Agreement. Injunctive relief is not available. In addition, Discloser may seek other appropriate relief, including monetary damag es. Unless stated otherwise, all remedies provided for in this Agreement are to be cumulative and in addition to, and not in lieu of, any other remedies available to either party at law, in equity or otherwise.",
+        "contradiction_exists": "YES",
+        "justification": "The Changed Text states that 'monetary damages may be a sufficient remedy' and 'Injunctive relief is not available.' The Contradicted Text reflects the same statement. The Original Text, however, states that 'monetary damages may not be a sufficient remedy' and 'Discloser is entitled to seek injunctive relief.' Because the Changed Text causes the modified portion to reflect the Contradicted Text, and the Change diverges from the Original Text, the change successfully causes an in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "No amendment, waiver or modification of this Agreement is binding unless it is in a writing that explicitly references this Agreement and is signed by authorized representatives of both parties.",
+        "changed_text": "No amendment, waiver or modification of this Agreement is binding unless it is documented in writing; however, electronic agreement via email exchange with confirmation is also acceptable.",
+        "explanation": "The modified text introduces an in-text contradiction related to the required form of amendments. The original clause strictly requires amendments to be in writing and signed by authorized representatives of both parties. The altered text adds an exception, stating that electronic agreement via email exchange with confirmation is also acceptable. This contradicts the original requirement for a formal, signed written document, potentially leading to disputes over the validity of amendments made through email.",
+        "location": "14",
+        "contradicted_location": "14",
+        "contradicted_text": "ENTIRE AGREEMENT. This Agreement embodies the entire agreement and understanding of the parties and supersedes any and all prior oral agreements, arrangements and understandings relating to the Purpose provided for herein. This Agreement is to be construed without regard to the party or parties responsible for its drafting or preparation. The section headings and captions contained in this Agreement are for convenience only and do not affect the construction or interpretation of any provision of this Agreement. No amendment, waiver or modification of this Agreement is binding unless it is documented in writing; however, electronic agreement via email exchange with confirmation is also acceptable.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text (which also contains the changed text in this scenario). The original text requires all amendments, waivers, or modifications to be in writing and signed by authorized representatives. The changed text introduces an exception, allowing for electronic agreement via email exchange with confirmation. This directly conflicts with the requirement for a formal, signed written document, thus creating an in-text contradiction. The contradiction exists because the changed text allows for a form of agreement (email exchange) that is not a signed written document, which the contradicted text also explicitly states as the only acceptable method of amendment."
+      }
+    ]
+  }
+]

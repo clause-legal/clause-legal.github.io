@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "PcquoteComInc_19990721_S-1A_EX-10.11_6377149_EX-10.11_Co-Branding Agreement1.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "SOFTWARE PC QUOTE 6.0-TM- for Windows on the Internet is a software application that displays market data information, provided via the digital Hyperfeed, in the form of quotes, charts, graphs, tables, board views, tickers and other analytical tools.",
+        "changed_text": "SOFTWARE PC QUOTE 6.0-TM- for Windows on the Internet is a software application that displays market data information, provided via the digital Hyperfeed, in the form of quotes, charts, graphs, tables, board views, tickers and other analytical tools. This software, once installed, becomes the sole property of ABW.",
+        "explanation": "By adding \"This software, once installed, becomes the sole property of ABW\" to the definition of SOFTWARE, it now contradicts Section 1.D, which states that PCQ and Townsend shall retain title and all copyrights or proprietary rights to the SOFTWARE and HYPERFEED provided to ABW and ABW's clients pursuant to the Agreement. This creates uncertainty about who owns the software after installation.",
+        "location": "Definitions",
+        "contradicted_location": "1.D",
+        "contradicted_text": "D. PCQ and Townsend shall retain title and all copyrights or proprietary rights to the SOFTWARE and HYPERFEED provided to ABW and ABW's clients pursuant to the Agreement. ABW will not provide any unauthorized access to the co-branded service, nor reproduce or redistribute the service in any way.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds a statement claiming that the software becomes the sole property of ABW upon installation. This directly contradicts section D, which explicitly states that PCQ and Townsend retain title and all copyrights to the software. This creates a direct and irreconcilable conflict regarding ownership, making it a strong in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "HYPERFEED The PC Quote proprietary digital data feed transmitted via satellite, land line, or Internet with advanced compression technology, containing financial market information obtained by PCQ from the institutions and exchanges listed in Section 5 of this Agreement. This market data includes stock quotes, futures and options trading, commodities, and other related information.",
+        "changed_text": "HYPERFEED The PC Quote proprietary digital data feed transmitted via satellite, land line, or Internet with advanced compression technology, containing financial market information obtained by PCQ from the institutions and exchanges listed in Section 5 of this Agreement. This market data includes stock quotes, futures and options trading, commodities, and other related information. PCQ makes no guarantees as to the continuous availability or integrity of the HYPERFEED data.",
+        "explanation": "By adding \"PCQ makes no guarantees as to the continuous availability or integrity of the HYPERFEED data,\" we introduce an in-text contradiction. While the original definition implies a reliable data feed, the addition creates uncertainty regarding the dependability of the HYPERFEED, contradicting the very nature of a 'proprietary digital data feed' which one would assume guarantees a continuous stream of data. It contradicts the implicit requirement for continuous feed as mentioned in section 1B.",
+        "location": "Definitions",
+        "contradicted_location": "1.B",
+        "contradicted_text": "B. PCQ will provide a continuous HYPERFEED to the ABW servers; however, PCQ will control the receipt of the HYPERFEED by ABW clients via a remote access server on PCQ's site that will authorize each new ABW account. ABW agrees to sign up all new subscribers to the co-branded service, including execution of all applicable service and exchange agreements, will send to PCQ the executed subscriber agreements before access to the quote servers will be provided to ABW clients by PCQ. PCQ shall have the sole ability to authorize access to the market data contained in the HYPERFEED by ABW clients.",
+        "contradiction_exists": "YES",
+        "justification": "The added sentence in the changed text, \"PCQ makes no guarantees as to the continuous availability or integrity of the HYPERFEED data,\" directly contradicts the statement in the contradicted text, \"PCQ will provide a continuous HYPERFEED to the ABW servers.\" The term \"continuous\" implies a guarantee of availability, which is negated by the disclaimer. This creates a strong in-text contradiction as it introduces uncertainty where the contract expects certainty regarding the data feed's continuity."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "PCQ shall not be subject to liability for truth, accuracy, or completeness of the information received by PCQ from the various exchanges and other sources and conveyed to ABW or for errors, mistakes or omissions therein or for any delays or interruptions of the HYPERFEED or SOFTWARE from whatever cause.",
+        "changed_text": "PCQ shall be fully liable for the accuracy of the information received by PCQ from the various exchanges and other sources and conveyed to ABW or for errors, mistakes or omissions therein or for any delays or interruptions of the HYPERFEED or SOFTWARE from whatever cause.",
+        "explanation": "By changing \"PCQ shall not be subject to liability\" to \"PCQ shall be fully liable\", it directly contradicts the original clause. This alteration creates a significant in-text contradiction regarding PCQ's liability for the HYPERFEED and SOFTWARE, making it unclear whether PCQ is responsible for any inaccuracies or interruptions.",
+        "location": "6.A",
+        "contradicted_location": "6.A",
+        "contradicted_text": "A. The information and data used in the HYPERFEED and SOFTWARE provided under this Agreement, including option prices, stock prices, commodity prices, dividends, dividend dates, volatilities, deltas and other variables, are obtained by PCQ from the various exchanges and other sources which are believed to be reliable and PCQ agrees to run reasonable control checks thereon to verify that the data transmitted by PCQ is the same as the data received from the various exchanges and other sources. However, PCQ shall be fully liable for the accuracy of the information received by PCQ from the various exchanges and other sources and conveyed to ABW or for errors, mistakes or omissions therein or for any delays or interruptions of the HYPERFEED or SOFTWARE from whatever cause. This agreement does not violate any agency requirements and PCQ has the right to enter into this agreement from its information providers.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that PCQ shall not be liable, but the changed text states that PCQ shall be fully liable. The contradicted text uses both of these clauses in the same section, which causes a direct contradiction within the contract. This falls under 'Structural Flaws - In Text Contradiction' and 'Inconsistencies - In Text Contradiction'."
+      }
+    ]
+  }
+]

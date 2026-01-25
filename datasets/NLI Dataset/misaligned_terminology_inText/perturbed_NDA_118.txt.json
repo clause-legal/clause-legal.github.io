@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "NDA_118.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This NDA shall commence upon the Effective Date and shall continue for a period of one (1) year unless sooner terminated in writing by either party. This NDA will automatically renew for subsequent one (1) year periods on the anniversary of the Effective Date, unless otherwise terminated in writing by either party.",
+        "changed_text": "This NDA shall commence upon the Effective Date and shall continue for a period of one (1) year unless sooner terminated in writing by Magnet Forensics. This NDA will automatically renew for subsequent one (1) year periods on the anniversary of the Effective Date, unless otherwise terminated in writing by Magnet Forensics.",
+        "explanation": "The original NDA duration allows either party to terminate the agreement. The modified NDA duration only allows Magnet Forensics to terminate the agreement, removing the Participant's ability to terminate it. This directly contradicts the principle of mutual agreement typically underpinning contracts, creating uncertainty about the Participant's obligations and rights.",
+        "location": "2.",
+        "contradicted_location": "11.",
+        "contradicted_text": "ENTIRE AGREEMENT. This NDA constitutes the entire agreement of the parties with respect to the subject matter of this NDA and cancels and supersedes any prior discussions, correspondence, understandings, agreements, or communications of any nature relating to the subject matter of this NDA.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allows either party to terminate the NDA, but the changed text restricts this right solely to Magnet Forensics. This contradicts the 'ENTIRE AGREEMENT' clause, as the altered termination clause effectively invalidates the initial mutual agreement by unilaterally altering the terms. The contradicted text states that this agreement supersedes any prior agreements, and if the termination clause is solely for Magnet Forensics, it creates a new obligation that did not exist before and is contradictory to the mutual agreement originally set in the original text, thus changing the ENTIRE AGREEMENT."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Recipient shall hold Confidential Information in confidence and use, reproduce and disclose the Confidential Information only to the extent reasonably required to facilitate a business relationship between the parties (the “Purpose”).",
+        "changed_text": "Recipient shall hold Confidential Information in confidence and use, reproduce and disclose the Confidential Information only to the extent required by Magnet Forensics.",
+        "explanation": "The original text states that the 'Recipient' should use the Confidential Information only for the purpose of 'business relationship between the parties'. With the new change, the 'Recipient' can use the Confidential Information based on whatever the Magnet Forensics requires. This can lead to uncertainty and contradiction because it is no longer dependent on the 'business relationship between the parties'.",
+        "location": "3. a.",
+        "contradicted_location": "7.",
+        "contradicted_text": "RIGHTS. All right, title and interest in and to the Confidential Information is and shall remain with the Discloser, and no rights to the Confidential Information are granted under this NDA other than the rights expressly granted in Section 3. Recipient shall not acquire any ownership right, interest or title in or to the Confidential Information or any intellectual property rights therein or the right to obtain or apply for such rights under this NDA.",
+        "contradiction_exists": "YES",
+        "justification": "The original text restricts the Recipient's use of Confidential Information to facilitate a business relationship between the parties. The changed text broadens this to allow use as required by 'Magnet Forensics,' which contradicts the Contradicted Text, which states that no rights to Confidential Information are granted other than those expressly granted in Section 3 and that the Recipient shall not acquire any right to the Confidential Information. This creates a contradiction because the changed text gives Magnet Forensics control over the Recipient's use of Confidential Information, potentially overriding the Discloser's rights and ownership stated in the Contradicted Text."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Recipient may not export any Confidential Information unless Recipient complies with all applicable export laws.",
+        "changed_text": "Participant may not export any Confidential Information unless Participant obtains express written consent from Magnet Forensics.",
+        "explanation": "The original clause allows the Recipient to export confidential information as long as they comply with export laws. The change prevents Participant from exporting the information, as it is now required to obtain express written consent from Magnet Forensics. This creates conflict within the NDA because the Participant no longer needs to comply with export laws but with the need of consent by Magnet Forensics.",
+        "location": "12. d.",
+        "contradicted_location": "4.",
+        "contradicted_text": "EXCLUSIONS. Information that Recipient can establish: (a) was lawfully in Recipient's possession before receipt from Discloser without any confidentiality obligation attached thereto; or (b) is or becomes a matter of public knowledge through no fault of Recipient; or (c) was independently developed or discovered by Recipient without use of any Confidential Information obtained from Discloser, shall not be considered Confidential Information under this NDA. Additionally, it shall not be considered a breach of this NDA if Recipient discloses Confidential Information if and only to the extent: (i) it is required to do so by law provided that Recipient gives Discloser sufficient notice to enable it to seek an order limiting or precluding such disclosure; or (ii) Discloser gives its prior written authorization to do so which is signed by an officer of the Discloser, provided that Recipient complies with the disclosure parameters set forth in such authorization.",
+        "contradiction_exists": "YES",
+        "justification": "The original clause allowed the Recipient to export confidential information as long as they complied with export laws. The changed text now requires the Participant to obtain express written consent from Magnet Forensics to export confidential information. This change directly contradicts the 'EXCLUSIONS' section, specifically point (i), which allows the Recipient to disclose Confidential Information if required to do so by law. The requirement for express written consent now overrides the ability to disclose based on legal requirements, creating a direct conflict. The Participant no longer needs to comply with export laws but with the need of consent by Magnet Forensics."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Participant may not assign this NDA without the express prior written authorization of Magnet Forensics. Subject to the foregoing, this NDA shall inure to the benefit of and be binding upon the parties, their successors and assigns.",
+        "changed_text": "This NDA is not assignable by either party.",
+        "explanation": "The original text says the Participant may not assign this NDA without the express prior written authorization of Magnet Forensics. The modified version says the NDA is not assignable by either party. This contradiction can cause uncertainty in enforcement, and creates a conflict within the NDA because the assignement of the NDA is now completely prevented for both parties, instead of just the participant as the original texts enforces.",
+        "location": "12. f.",
+        "contradicted_location": "2.",
+        "contradicted_text": "TERM AND PROTECTION PERIODS. This NDA shall commence upon the Effective Date and shall continue for a period of one (1) year unless sooner terminated in writing by either party. This NDA will automatically renew for subsequent one (1) year periods on the anniversary of the Effective Date, unless otherwise terminated in writing by either party. All obligations contained herein shall continue to bind the parties, their successors and permitted assigns and representatives, until the latter of (a) expiry or termination of this NDA or (b) three years from disclosure to Recipient.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed assignment of the NDA by the Participant with Magnet Forensics' authorization. The changed text prohibits assignment by either party. The contradicted text states that the NDA binds the parties, their successors, and permitted assigns. Since assignment is now prohibited by the changed text, this contradicts the contradicted text which anticipates permitted assigns, creating a direct conflict and uncertainty about the rights and obligations of successors or assigns."
+      }
+    ]
+  }
+]

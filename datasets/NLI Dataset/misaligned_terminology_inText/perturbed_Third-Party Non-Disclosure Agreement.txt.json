@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "Third-Party Non-Disclosure Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This agreement, made as of the last date set forth on the la st page hereof (the “Effective Date”), by and between Ball State University (hereafter “Ball State University”) and (hereafter “Vendor”), and sets forth the terms and conditions of the disclosure and receipt of certain confidential information between the parties.",
+        "changed_text": "This agreement, made as of the last date set forth on the la st page hereof (the “Effective Date”), by and between Ball State University (hereafter “Ball State University”) and (hereafter “Service Provider”), and sets forth the terms and conditions of the disclosure and receipt of certain confidential information between the parties.",
+        "explanation": "The term 'Vendor' is replaced with 'Service Provider'. While seemingly interchangeable, this could cause confusion later in the document if specific clauses refer to 'Vendor' with obligations not meant for all 'Service Providers'. This creates an in-text contradiction because other sections of the agreement continue to use 'Vendor,' creating ambiguity as to who is bound by those clauses.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Section k",
+        "contradicted_text": "Vendor acknowledges and agrees that Ba ll State University is a state agency su bject to the provisions of the Indiana Open Records law, I.C. 5-14-et seq., and that disclosure of so me or all of confidential information provided pursuant to this Agreement, and of the Agreement itself, may be compelle d pursuant to that law. In the event that Recipient is required by the Indiana Open Records Act, or any other law, to disclose Discloser’s Confidential Information, Recipient shall promptly notify Discloser, consult with Discloser re garding whether there are legitimate grounds to narrow or contest such disclosure, and only disclose that information that the University, in the opinion of legal counsel, is legally obligated to disclose.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines one party as 'Vendor', while the changed text replaces this with 'Service Provider'. The contradicted text then refers specifically to 'Vendor' and their obligations under the Indiana Open Records law. This creates an in-text contradiction because it is now unclear whether 'Service Provider' is also bound by these obligations, or if they only apply to entities specifically labeled as 'Vendor' elsewhere in the document, creating ambiguity and a Misaligned Terminology - In Text Contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The party disclosing Confidential Information, as herein defined, shall be referred to as the “Discloser” and the party receiving such “Confidential Information” shall be referred to as the “Recipient.” The term “Confidential Information” shall refer to the confidential information disclosed by any party to this Agreement.",
+        "changed_text": "The party disclosing Confidential Information, as herein defined, shall be referred to as the “Discloser” and the party receiving such “Confidential Information” shall be referred to as the “Receiver.” The term “Confidential Information” shall refer to the confidential information disclosed by any party to this Agreement.",
+        "explanation": "Changing 'Recipient' to 'Receiver' introduces ambiguity. While both can mean 'one who receives,' the contract does not define 'Receiver.' Subsequent references to 'Recipient' now create uncertainty as to whether they also apply to the 'Receiver.'",
+        "location": "Paragraph 1",
+        "contradicted_location": "Section c",
+        "contradicted_text": "Except as expressly permitted herein, for a period of thr ee years from the effective da te (Non-Disclosure Period), Recipient shall maintain in confidence and not disclose Conf idential Information. Upon termination of this Agreement, Recipient’s right to use Conf idential Information, shall immediately terminate.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Recipient' to 'Receiver' introduces ambiguity. The contradicted text refers to 'Recipient' and their obligations regarding Confidential Information. Since the contract now uses both terms without defining them as interchangeable, it creates uncertainty whether the obligations on the 'Recipient' also apply to the 'Receiver,' leading to a contradiction as to whom the obligations apply."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Tangible materials that disclose or embody Confidential In formation shall be marked by Discloser as “confidential,” “proprietary” or the substantial equivale nt thereof. Confidential Information disclosed orally or visually shall be identified by Discloser as confidential at the time of disclosure and promptly ther eafter identified as confidential in a written document provided to Recipient.",
+        "changed_text": "Tangible materials that disclose or embody Confidential In formation shall be marked by Discloser as “confidential,” “proprietary” or the substantial equivale nt thereof. Classified Information disclosed orally or visually shall be identified by Discloser as confidential at the time of disclosure and promptly ther eafter identified as confidential in a written document provided to Recipient.",
+        "explanation": "Changing 'Confidential Information' to 'Classified Information' in only one part of the agreement introduces a contradiction. The document now implies that there are two different types of information governed by the agreement, but only 'Confidential Information' is defined.",
+        "location": "Section b",
+        "contradicted_location": "Section a",
+        "contradicted_text": "Confidential Information may include information that is di sclosed to Recipient by Discloser in any manner, whether orally, visually or in tangible form (including without limi tation, documents, devices and computer readable media) and all copies thereof.",
+        "contradiction_exists": "YES",
+        "justification": "The change replaces 'Confidential Information' with 'Classified Information' in one part of the agreement, while the contradicted text defines 'Confidential Information' and makes no mention of 'Classified Information'. This creates a contradiction because the document implies the existence of two distinct types of information, but only one is defined, leading to ambiguity and potential conflict in interpretation and enforcement of the agreement, fitting the definition of misaligned terminology."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Except as expressly permitted herein, for a period of thr ee years from the effective da te (Non-Disclosure Period), Recipient shall maintain in confidence and not disclose Conf idential Information. Upon termination of this Agreement, Recipient’s right to use Conf idential Information, shall immediately terminate.",
+        "changed_text": "Except as expressly permitted herein, for a period of thr ee years from the effective da te (Protection Period), Receiver shall maintain in confidence and not disclose Conf idential Information. Upon termination of this Agreement, Receiver’s right to use Conf idential Information, shall immediately terminate.",
+        "explanation": "Changing 'Non-Disclosure Period' to 'Protection Period' without redefining it creates confusion. Does this change the length of the protection, or is it simply a new name for the same period? Subsequent references to 'Non-Disclosure Period' create in-text contradiction.",
+        "location": "Section c",
+        "contradicted_location": "Section s",
+        "contradicted_text": "Unless earlier terminated in accordance with the provisions hereof, this Agreement shall remain in full force and effect for the duration of the Non-Disclosure Period, whereupon it shall expire. Either party may terminate this Agreement at any time, without cause, effective imme diately upon written notice of termin ation; however, in the event this Agreement is terminated prior to expiration of the Non-Disc losure Period, its provisions shall survive and remain in effect for the remainder of the Non-Disclosure Period, with respect to Confidential Information disclosed prior to the effective date of termination.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Non-Disclosure Period' to 'Protection Period' without redefinition, as explained in the Perturbation Explanation, creates a direct conflict. The Contradicted Text refers specifically to 'Non-Disclosure Period' to define the term of the agreement and the survival of provisions after termination. Since the Changed Text now uses 'Protection Period', the subsequent references to 'Non-Disclosure Period' in the Contradicted Text create ambiguity and in-text contradiction as it is unclear to which period the contract is referring, thus it directly contradicts and is considered Misaligned Terminology, which per Perturbation Definitions leads to in-text contradictions."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Recipient shall have the right to use Confidential Informatio n solely for the purpose(s) specified within this agreement [“Permitted Purpose(s)”].",
+        "changed_text": "Receiver shall have the right to use Confidential Informatio n solely for the use(s) specified within this agreement [“Authorized Use(s)”].",
+        "explanation": "Changing 'Permitted Purpose(s)' to 'Authorized Use(s)' causes uncertainty. Does this alter the scope of allowed usage? The original term is still used elsewhere, leading to contradictory instructions regarding what is allowed.",
+        "location": "Section e",
+        "contradicted_location": "Section f",
+        "contradicted_text": "Recipient shall disclose Confidential Information only to those of its employees who have a need to know such information for the Permitted Purpose(s).",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Permitted Purpose(s)' to 'Authorized Use(s)' introduces misaligned terminology, as per the provided definition. While both phrases might seem similar, the contract elsewhere still refers to 'Permitted Purpose(s)'. This creates a direct conflict, as one section (the contradicted text) specifies that employees need to know information for the 'Permitted Purpose(s)', while the definition of what is allowed is now under the term 'Authorized Use(s)' in the changed text. This creates a strong in-text contradiction, because the contract uses multiple terms interchangeably without defining them, leading to conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Recipient agrees to accept the Confidential Information and to employ all reasonable efforts to maintain the Confidential Information as confidential, such efforts to be no less than the degree of care employed by Recipient to preserve and safeguard its own confidential information; prov ided however, that such efforts shall not be less than a reasonable degree of care.",
+        "changed_text": "Receiver agrees to accept the Confidential Information and to employ all reasonable efforts to maintain the Confidential Information as confidential, such efforts to be no less than the degree of care employed by Receiver to preserve and safeguard its own confidential information; prov ided however, that such efforts must be 100% effective.",
+        "explanation": "By changing “shall not be less than a reasonable degree of care” to “must be 100% effective”, this creates an unrealistic and contradictory standard of care. It imposes a strict liability standard, which conflicts with the earlier requirement of “reasonable efforts.",
+        "location": "Section i",
+        "contradicted_location": "Section i",
+        "contradicted_text": "Receiver agrees to accept the Confidential Information and to employ all reasonable efforts to maintain the Confidential Information as confidential, such efforts to be no less than the degree of care employed by Receiver to preserve and safeguard its own confidential information; prov ided however, that such efforts must be 100% effective.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the standard of care from \"reasonable efforts\" to \"must be 100% effective.\" This creates a contradiction because \"reasonable efforts\" implies a level of diligence, while \"100% effective\" imposes a strict liability standard. It is impossible to guarantee 100% effectiveness through reasonable efforts. The changed text's requirement of \"must be 100% effective\" directly contradicts the initial requirement of \"reasonable efforts,\" creating an in-text contradiction, as highlighted in the perturbation explanation."
+      }
+    ]
+  }
+]

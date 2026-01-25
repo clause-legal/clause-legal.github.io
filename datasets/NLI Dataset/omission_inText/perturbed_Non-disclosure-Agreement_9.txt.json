@@ -1,0 +1,18 @@
+[
+  {
+    "file_name": "Non-disclosure-Agreement_9.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "1. The Contract Partner receiving the Information ( „Recipient “) will not disclose the Information received to third parties or use the Information fo r own business purposes for any other purpose except the Purpose of Exchange, without first obtai ning the written agreement of the Discloser. This applies explicitly also to the use of Informat ion for the purpose of registering patents, brands, and other intellectual property. The Recipi ent will ensure that the Information is only disclosed to those employees who need to know the s ame for the Purpose of Exchange and who explicitly know they owe a duty of confidence t o the Discloser and who are bound by obligations equivalent to those in clauses 1 and 2. The Discloser may request from the Recipient a non-disclosure obligation of the employee at any time.",
+        "changed_text": "1. The Contract Partner receiving the Information ( „Recipient “) will not disclose the Information received to third parties or use the Information fo r own business purposes for any other purpose except the Purpose of Exchange, without first obtai ning the written agreement of the Discloser. The Recipi ent will ensure that the Information is only disclosed to those employees who need to know the s ame for the Purpose of Exchange and who explicitly know they owe a duty of confidence t o the Discloser and who are bound by obligations equivalent to those in clauses 1 and 2. The Discloser may request from the Recipient a non-disclosure obligation of the employee at any time.",
+        "explanation": "The clause 'This applies explicitly also to the use of Informat ion for the purpose of registering patents, brands, and other intellectual property.' has been removed. This creates an ambiguity in situations where the recipient uses the information for intellectual property registration. Later sections rely on the defined restrictions, making them unenforceable in intellectual property registration scenarios, which creates an in-text contradiction.",
+        "location": "Section 1",
+        "contradicted_location": "Section 1",
+        "contradicted_text": "1. The Contract Partner receiving the Information ( „Recipient “) will not disclose the Information received to third parties or use the Information fo r own business purposes for any other purpose except the Purpose of Exchange, without first obtai ning the written agreement of the Discloser. The Recipi ent will ensure that the Information is only disclosed to those employees who need to know the s ame for the Purpose of Exchange and who explicitly know they owe a duty of confidence t o the Discloser and who are bound by obligations equivalent to those in clauses 1 and 2. The Discloser may request from the Recipient a non-disclosure obligation of the employee at any time.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly prohibited the use of information for registering patents, brands, and other intellectual property. The changed text removes this explicit prohibition. The contradicted text, which is the same as the original text and applies the same rules, is now in direct contradiction with the modified text, since the new change creates an ambiguity where no prohibition exists for IP registration scenarios, making the terms in the contradicted text unenforceable. This ambiguity creates a direct conflict within the document, violating the definition of 'Omissions – In Text Contradiction'."
+      }
+    ]
+  }
+]

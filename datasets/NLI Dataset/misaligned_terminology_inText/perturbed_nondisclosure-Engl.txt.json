@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "nondisclosure-Engl.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "“Proprietary Information” means any information the provider states to be sensitive, confidential or for restricted use together with all Documentation marked “Proprietary Information”.",
+        "changed_text": "“Proprietary Information” means any information, regardless of whether the provider states it to be sensitive, confidential, or for restricted use, and regardless of documentation marking.",
+        "explanation": "The original definition of \"Proprietary Information\" requires the provider to designate the information as such. The modified definition includes *any* information, regardless of designation. This creates a contradiction because the NDA's protections are intended to apply only to designated \"Proprietary Information,\" but this change makes it apply to all information exchanged, which could include public knowledge. This makes section 2.1 contradictory, which refers to only disclosing proprietary information.",
+        "location": "1.1",
+        "contradicted_location": "2.1",
+        "contradicted_text": "2.1 In consideration for the Agency supplying Proprietary Information to the Contractor, the Contr actor shall a) only Disclose the Proprietary Information to Authorised Persons and to no other person; b) ensure that only Authorised Persons use, Disclose or copy (in hardcopy form or electronic form) the Proprietary Information to the extent strictly necessar y for the Authorised Purpose and for no other purpose.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines \"Proprietary Information\" as information the provider designates as such. The changed text broadens the definition to include *any* information, regardless of designation. This directly contradicts section 2.1, which restricts the contractor's obligations to only 'Proprietary Information' supplied by the agency. Since the change broadens the definition of proprietary information to mean 'any information', section 2.1 would now restrict the use and disclosure of *all* information passed to the contractor, which is a direct contradiction of the original intent of only restricting designated information. Therefore, the changed definition creates a strong in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "1.2 In the event of any conflict between this agreement and the Contract the terms and conditions of the Contract shall prevail.",
+        "changed_text": "1.2 In the event of any conflict between this agreement and the Contract, the terms and conditions of *this* agreement shall prevail.",
+        "explanation": "The original clause states that in case of conflict between the NDA and the Contract, the Contract prevails. The modified clause states the opposite: that the NDA prevails. This creates a direct contradiction regarding the governing document in case of disagreement. This introduces a contradiction within the entire legal text, but most directly impacts section 7.3, which refers to enforceability of obligations following completion of the contract.",
+        "location": "1.2",
+        "contradicted_location": "7.3",
+        "contradicted_text": "7.3 For the avoidance of doubt, all obligations in this agreement concerning the access, use, distribution, circulation and copying of Proprietary Information supplied by the Agency and the Contractor remain valid and enforceab le following completion of the Contract.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the original text regarding which agreement prevails in case of conflict. The original text states the Contract prevails, while the changed text states this agreement (NDA) prevails. This creates a strong contradiction with section 7.3, which assumes the obligations outlined in the agreement concerning proprietary information remain enforceable following the completion of the Contract. If the NDA prevails, the enforceability of these obligations becomes uncertain, creating a direct conflict and ambiguity."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "4.1 At the request of the supplier of the Proprietary Information the receiving party shall immediately return all Proprietary Information which the receiving party (or an Authorised Person/Agency Authorised Person) has in its possession, custody or control including all materials (in hardcopy or electronic form) that incorporate any part of the Proprietary Information and, if required, destroy any copies of such Proprietary Information and materials and certify in writing that such destruction has been completed.",
+        "changed_text": "4.1 At the request of the supplier of the Proprietary Information, the receiving party *may, at their discretion,* return all Proprietary Information which the receiving party (or an Authorised Person/Agency Authorised Person) has in its possession, custody or control including all materials (in hardcopy or electronic form) that incorporate any part of the Proprietary Information and, if required, destroy any copies of such Proprietary Information and materials and certify in writing that such destruction has been completed.",
+        "explanation": "The original clause mandates the return of Proprietary Information upon request. The modified clause makes the return discretionary. This creates a contradiction between the original intent of secure handling of proprietary information vs. the change that allows the receiving party to decide not to return the information. It directly impacts the assurances provided under section 4.",
+        "location": "4.1",
+        "contradicted_location": "4.2",
+        "contradicted_text": "4.2 Both the Agency and the Contractor shall promptly inform the other party if it is aware that any Proprietary Information supplied by the other party may have been accessed, used, distributed, circulated, supplied or copied in breach of this agreement and shall provide any assistance the other party may reasonably require to investigate 5such unauthorised access, use, distribution, circulation or copying and prevent further such unauthorised activities.",
+        "contradiction_exists": "YES",
+        "justification": "The original text in section 4.1 mandates the return of Proprietary Information upon request. The changed text makes the return discretionary ('may, at their discretion'). This directly contradicts section 4.2, which requires both parties to inform each other if Proprietary Information has been accessed, used, distributed, etc., in breach of the agreement and to provide assistance. If the receiving party has the discretion not to return the information as stated in the changed text of 4.1, it undermines the obligation to prevent unauthorized activities as outlined in 4.2. Because of the discretionary nature of the change it creates a contradiction with the mandatory nature of the notification in 4.2."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "8.1 The validity, construction and performance of this agreement shall be governed by the laws of [France].",
+        "changed_text": "8.1 The validity, construction and performance of this agreement shall be governed by the laws of [Mars].",
+        "explanation": "The original clause specifies that the agreement is governed by the laws of France. The modified clause changes the governing law to the laws of Mars, introducing contradiction and uncertainty in the legal system governing the contract, since there is no legal system present on the planet Mars. If the document is governed by an inexistent legal system (Mars), the contract is unenforceable. This creates conflict with the enforceability clauses.",
+        "location": "8.1",
+        "contradicted_location": "8.2",
+        "contradicted_text": "8.2 All disputes arising out of or in connection with this agreement shall be finally settled under the Rules of Arbitration of the International Chamber of Commerce by one or more arbitrators appoi nted in accordance with the said Rules.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces the governing law of the contract from France to Mars. As the perturbation explanation describes, the planet Mars does not have a legal system, making the agreement unenforceable. The contradicted text specifies that all disputes will be settled under the International Chamber of Commerce. If the agreement is under the laws of Mars, there is no legal system to enforce the agreement, therefore contradicting the contradicted text. Since the enforceability of the contract is uncertain, there is a contradiction."
+      }
+    ]
+  }
+]

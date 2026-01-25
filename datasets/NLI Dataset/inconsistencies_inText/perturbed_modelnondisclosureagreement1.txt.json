@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "modelnondisclosureagreement1.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The RECIPIENT shall in consideration of the disclosure of the Information for the purpose specified above hold in confidence and prevent disclosure of such information to any third-party other than the Supplier detailed herein. The RECIPIENT shall not use the Information except for the permitted purpose.",
+        "changed_text": "The RECIPIENT shall in consideration of the disclosure of the Information for the purpose specified above hold in confidence and prevent disclosure of such information to any third-party other than the Supplier detailed herein. The RECIPIENT may use the Information for any purpose, provided it benefits the ONS.",
+        "explanation": "This change introduces an in-text contradiction by stating the RECIPIENT 'shall not use the Information except for the permitted purpose' and then stating the RECIPIENT 'may use the Information for any purpose, provided it benefits the ONS.' This creates uncertainty regarding the allowable use of the information, as one sentence restricts it to a permitted purpose, while the other permits broader use if it benefits ONS.",
+        "location": "1",
+        "contradicted_location": "1",
+        "contradicted_text": "The RECIPIENT shall in consideration of the disclosure of the Information for the purpose specified above hold in confidence and prevent disclosure of such information to any third-party other than the Supplier detailed herein. The RECIPIENT may use the Information for any purpose, provided it benefits the ONS.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a direct in-text contradiction. The original text states 'The RECIPIENT shall not use the Information except for the permitted purpose.' The changed text then states 'The RECIPIENT may use the Information for any purpose, provided it benefits the ONS.' This creates a clear conflict regarding the permitted use of the information, as one clause restricts it while the other broadens it. The contradicted text is the same as the changed text, but this does not mean a contradiction has not occurred. It means the Change Text directly contradicts the Original Text."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The RECIPIENT and Supplier will limit access to the Information to only those of its employees, agents, sub-contractors (and employees of same) who have an absolute need to know in order to fulfil the purposes for which the Information was disclosed and shall notify such employees, agents, sub- contractors (and employees of same) of the RECIPIENT'S obligations under this Agreement.",
+        "changed_text": "The RECIPIENT and Supplier will limit access to the Information to only those of its employees, agents, sub-contractors (and employees of same) who have an absolute need to know in order to fulfil the purposes for which the Information was disclosed. The RECIPIENT is not required to notify such employees, agents, sub- contractors (and employees of same) of the RECIPIENT'S obligations under this Agreement.",
+        "explanation": "This change creates a contradiction by removing the requirement to notify employees, agents, and subcontractors of the RECIPIENT's obligations. Previously, the RECIPIENT had to limit access and inform those with access about the agreement. Now, the RECIPIENT still has to limit access, but does not have to notify those with access about their obligations. This could lead to breaches of the agreement due to ignorance, contradicting the intent of limiting access in the first place.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "The RECIPIENT and Supplier will limit access to the Information to only those of its employees, agents, sub-contractors (and employees of same) who have an absolute need to know in order to fulfil the purposes for which the Information was disclosed. The RECIPIENT is not required to notify such employees, agents, sub- contractors (and employees of same) of the RECIPIENT'S obligations under this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the requirement for the RECIPIENT to notify employees, agents, and subcontractors of the RECIPIENT's obligations under the Agreement. This creates a direct conflict with the original intent of limiting access to the information to only those with a need to know, as those with access may now be unaware of their obligations, leading to potential breaches. The contradicted text itself is a repeat of the Changed Text, but this emphasizes that the Change creates a conflict in the new context where it now exists. The modification introduces an inconsistency where limiting access is still mandatory, but informing those with access is not, which is an in-text contradiction as defined above."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "All tangible forms of the Information, such as written documentation, delivered by ONS to the RECIPIENT and all copies thereof made by the RECIPIENT pursuant to this Agreement shall be and remain the property of ONS, and all such tangible Information shall be promptly returned to ONS upon request.",
+        "changed_text": "All tangible forms of the Information, such as written documentation, delivered by ONS to the RECIPIENT and all copies thereof made by the RECIPIENT pursuant to this Agreement shall be and remain the property of the RECIPIENT, and all such tangible Information shall be retained by the RECIPIENT until the project's completion.",
+        "explanation": "This perturbation creates a direct in-text contradiction. The original text clearly states that all tangible information remains the property of the ONS and must be returned upon request. The changed text states the opposite: the information becomes the property of the RECIPIENT and is retained until the project is complete. This is a clear conflict regarding ownership and return obligations.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "All tangible forms of the Information, such as written documentation, delivered by ONS to the RECIPIENT and all copies thereof made by the RECIPIENT pursuant to this Agreement shall be and remain the property of the RECIPIENT, and all such tangible Information shall be retained by the RECIPIENT until the project's completion.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. The original text states ONS retains ownership and the information should be returned on request. The changed text indicates the RECIPIENT retains ownership and the information is held until project completion, thus contradicting the original and contradicted text on ownership and return of information. The Perturbation Explanation confirms this is an in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The RECIPIENT acknowledges that all Intellectual Property Rights (IPR) in and to the Information shall at all times remain vested in ONS. However, the RECIPIENT may make as many copies of the Information as are necessary for the permitted purpose.",
+        "changed_text": "The RECIPIENT acknowledges that all Intellectual Property Rights (IPR) in and to the Information shall transfer to the RECIPIENT after one year of the agreement. The RECIPIENT may make as many copies of the Information as are necessary for the permitted purpose.",
+        "explanation": "This introduces a contradiction regarding Intellectual Property Rights (IPR). The original text states that IPR remains vested in ONS at all times, while the modification states that IPR transfers to the RECIPIENT after one year. The statement about the number of copies that the RECIPIENT may make is maintained to reinforce the in-text contradiction; the RECIPIENT is granted permission, but who is granting that permission? Originally it's ONS, but with the change it is less clear, or possibly contradictory.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "The RECIPIENT acknowledges that all Intellectual Property Rights (IPR) in and to the Information shall transfer to the RECIPIENT after one year of the agreement. The RECIPIENT may make as many copies of the Information as are necessary for the permitted purpose.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the IPR remains vested in ONS, but the changed text states it transfers to the RECIPIENT after one year. This creates a direct and irreconcilable conflict regarding ownership of the IPR, as the contradictory text also claims that the IPR transfers to the RECIPIENT after one year. This falls under the definition of inconsistencies leading to in-text contradiction where different sections of a contract provide conflicting obligations."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement expresses the entire Agreement and understanding between the parties and supersedes any previous understandings, commitments or agreements, oral or written, pertaining to the subject matter of this Agreement.",
+        "changed_text": "This Agreement expresses a partial Agreement and understanding between the parties and does not supersedes any previous understandings, commitments or agreements, oral or written, pertaining to the subject matter of this Agreement.",
+        "explanation": "This change directly contradicts the original intent of the 'entire agreement' clause. The original text states that the agreement is the complete and final understanding, superseding all prior agreements. The modified text states that it's only a partial agreement and does not supersede previous agreements. This creates uncertainty about whether other agreements are also in effect, conflicting with the original clause.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "This Agreement expresses a partial Agreement and understanding between the parties and does not supersedes any previous understandings, commitments or agreements, oral or written, pertaining to the subject matter of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified that the agreement was the 'entire agreement' and superseded all previous agreements. The changed text states that the agreement is 'a partial Agreement' and does not supersede previous agreements. The 'Contradicted Text' is the same as the 'Changed Text'. Therefore, the change introduces a direct contradiction, undermining the finality and completeness of the agreement as initially defined. This creates a significant inconsistency as both sections are conflicting with each other. As specified in the Perturbation Definitions, this an inconsistency which leads to a in-text contradiction."
+      }
+    ]
+  }
+]

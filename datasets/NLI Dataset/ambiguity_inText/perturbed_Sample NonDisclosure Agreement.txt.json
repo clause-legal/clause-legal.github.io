@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Sample NonDisclosure Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Receiving Party undertakes to use Confidential Information only in direct connection with the Transaction.",
+        "changed_text": "The Receiving Party may use Confidential Information for any purpose they deem necessary, without restriction, including purposes unrelated to the Transaction.",
+        "explanation": "The original text explicitly restricts the use of Confidential Information to the Transaction. The modified text removes this restriction, allowing the Receiving Party to use the information for any purpose. This contradiction creates uncertainty about the intended use of the Confidential Information and clashes directly with Section 3.",
+        "location": "Section 2",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "3. The Receiving Party undertakes not to disclose Conf idential Information to other persons, except the employees of the Receiving Party listed in Anne x 1 to this Agreement that need to possess such information in order to achieve the purposes s pecified in Section 2 of this Agreement and who have signed confidentiality agreements or are o therwise obliged to maintain confidentiality in relation to the Confidential Information to the extent specified in this Agreement. The Receiving Party undertakes to keep Confidential Inf ormation separate from other information that belongs to the Receiving Party and/or third parties . The Receiving Party undertakes to take all possible measures that are necessary to prevent and avoid disclosure and/or loss of any Confidential Information. In any case, such measure s should comply with the measures that the Receiving Party would take for proper handling and protection of its own confidential information, and thus it must be the safety level t hat is not less than may reasonably be necessary. In the case of unauthorised disclosure and/or loss of Confidential Information, the Receiving Party must immediately inform the Receiving Party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text restricts the use of Confidential Information to the Transaction. The changed text allows the Receiving Party to use the information for any purpose. Section 3 of the contradicted text restricts the use of confidential information to only achieve purposes specified in Section 2, for employees who need it, and only to the extent specified in the agreement. Thus, the changed text directly contradicts Section 3 because it removes the restriction on the use of confidential information, which contradicts the limitations outlined in the contradicted text."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Receiving Party undertakes not to disclose Conf idential Information to other persons, except the employees of the Receiving Party listed in Anne x 1 to this Agreement that need to possess such information in order to achieve the purposes s pecified in Section 2 of this Agreement and who have signed confidentiality agreements or are o therwise obliged to maintain confidentiality in relation to the Confidential Information to the extent specified in this Agreement.",
+        "changed_text": "The Receiving Party may disclose Confidential Information to any third party without restriction, regardless of whether those parties have signed confidentiality agreements.",
+        "explanation": "The original text restricts disclosure to specific employees with confidentiality agreements. The modified text permits disclosure to anyone, regardless of confidentiality. This contradicts the original clause and undermines the core purpose of a non-disclosure agreement. This contradicts the obligation to keep confidentiality under the agreement.",
+        "location": "Section 3",
+        "contradicted_location": "Section 4",
+        "contradicted_text": "4. The Parties agree and acknowledge that the informat ion defined hereunder as Confidential Information is a commercial secret of the Disclosin g Party, as it has commercial value in view of it being unknown and not publicly accessible.",
+        "contradiction_exists": "YES",
+        "justification": "The original text restricts disclosure of confidential information to specific employees under confidentiality agreements. The changed text allows disclosure to any third party without restriction, directly contradicting the original clause and the definition of confidential information in section 4, which states it is a 'commercial secret' because it is 'unknown and not publicly accessible'. The changed text destroys this protection."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The obligations of the Receiving Party with respect to the preservation and nondisclosure of the Confidential Information under this Agreement shall remain in full force and effect without being limited in time, except for cases when the Disclosi ng Party provides its written consent as to any reduction of said term.",
+        "changed_text": "The obligations of the Receiving Party with respect to the preservation and nondisclosure of the Confidential Information under this Agreement shall expire automatically six (6) months from the date of execution, regardless of written consent from the Disclosing Party.",
+        "explanation": "The original text states the obligations are unlimited in time unless reduced by written consent. The modified text sets a fixed expiration date of six months, negating the possibility of perpetual confidentiality and contradicting the clause regarding written consent. This creates an in-text contradiction regarding the duration of confidentiality obligations, and undermines Section 6.",
+        "location": "Section 5",
+        "contradicted_location": "Section 6",
+        "contradicted_text": "6. This Agreement shall enter into effect upon its exe cution and shall remain effective for three (3) years, except for the obligations of the Receiving Party as to preservation and nondisclosure of the Confidential Information set forth in Section 5 hereof above which remain in force after termination (or expiration) of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a contradiction. The original text states that the confidentiality obligations remain in effect without being limited in time unless the Disclosing Party provides written consent to reduce the term. The changed text sets a fixed expiration date of six months, regardless of written consent, directly conflicting with the initial possibility of unlimited confidentiality and the potential for written consent to modify the term. This contradicts Section 6, which states the confidentiality obligations remain in force after the termination of the agreement, implying a potentially longer duration than six months. Therefore, the change creates a clear and direct conflict within the document regarding the duration of confidentiality obligations."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement and all legal relations arising from it shall be governed by the laws of [ specify the jurisdiction ].",
+        "changed_text": "This Agreement shall be governed by the laws of [another jurisdiction], except in cases of intellectual property disputes, which will be governed by the laws of [original jurisdiction].",
+        "explanation": "This creates conflicting guidance on which laws govern the contract, since the original jurisdiction will govern all the legal relations from it. By also including a different jurisdiction, it will lead to legal disputes when the contract has to be enforced.",
+        "location": "Section 15",
+        "contradicted_location": "Section 14",
+        "contradicted_text": "14. This Agreement contains the final, complete and exc lusive agreement of the Parties as to regulation of relations pertaining to the subject o f this Agreement, and supersedes all prior and existing arrangements and agreements relating to th e subject of this Agreement. The invalidity of one of the provisions of the Agreement does not ent ail the invalidity of the entire Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an exception to the governing law, creating ambiguity and contradicting the contradicted text which states the agreement contains the 'final, complete and exclusive agreement' regarding the subject matter. The introduction of a second jurisdiction for IP disputes directly conflicts with the exclusivity clause, creating a strong in-text contradiction."
+      }
+    ]
+  }
+]

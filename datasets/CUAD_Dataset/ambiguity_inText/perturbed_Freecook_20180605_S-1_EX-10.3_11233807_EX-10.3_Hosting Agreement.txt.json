@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "Freecook_20180605_S-1_EX-10.3_11233807_EX-10.3_Hosting Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "1. Website Design and Development. Client agrees to pay to Company the sum of $5,000 (the \"Contract Price\") to design and develop a website for Client (the \"Client Website\") in accordance with the accompanying Scope of Work, attached to this Agreement as Exhibit A.",
+        "changed_text": "1. Website Design and Development. Client agrees to pay to Company an estimated sum of $5,000 (the \"Contract Price\") to design and develop a website for Client (the \"Client Website\") in accordance with the accompanying Scope of Work, attached to this Agreement as Exhibit A.",
+        "explanation": "Changing 'the sum of $5,000' to 'an estimated sum of $5,000' introduces ambiguity. The original text defines a fixed price, while the modified version suggests the price might be subject to change. This contradicts the later statement in Section 2, where the payment terms are outlined with specific, non-negotiable amounts. This creates uncertainty about whether the Client is obligated to only pay $5,000.00.",
+        "location": "Section 1",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "2. Payment Terms. Upon the signing of this Agreement, Client agrees to pay to Company a total of $5,000. Client shall make a prepayment of $1,900 and pay the remaining $3,100 on completion of the Scope of Work.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified a fixed price of $5,000 for the website design and development. The changed text uses 'an estimated sum of $5,000,' making the price uncertain. This directly contradicts Section 2 ('Payment Terms') which states that the Client agrees to pay 'a total of $5,000.' The use of 'estimated' introduces ambiguity that creates uncertainty with the fixed amount agreed upon and specified later in the document."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Company will use its best efforts to deliver the Client Website in the time frame specified in the Scope of Work. Terms of the project: 12 weeks from February 8, 2018 to May 3, 2018.",
+        "changed_text": "Company will use its best efforts to deliver the Client Website in the time frame specified in the Scope of Work, but the timeline is subject to change due to unforeseen circumstances. Terms of the project: 12 weeks from February 8, 2018 to May 3, 2018.",
+        "explanation": "Adding 'but the timeline is subject to change due to unforeseen circumstances' introduces a contradiction. The original statement suggests a fixed project timeline of 12 weeks. The addition makes the timeline uncertain and non-binding, creating a conflict with the stated 'Terms of the project', which specified precise dates.",
+        "location": "Section 1(b)",
+        "contradicted_location": "Section 1(b)",
+        "contradicted_text": "Company will use its best efforts to deliver the Client Website in the time frame specified in the Scope of Work, but the timeline is subject to change due to unforeseen circumstances. Terms of the project: 12 weeks from February 8, 2018 to May 3, 2018. Client acknowledges and agrees that any due dates set forth in the Scope of Work are subject to delay if Company does not receive the required materials or documentation in a timely manner or in the required format or if approvals are delayed by Client or if the Scope of Work is changed by Client.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an element of uncertainty ('but the timeline is subject to change due to unforeseen circumstances') to a previously fixed timeline ('Terms of the project: 12 weeks from February 8, 2018 to May 3, 2018'). This creates a contradiction because the second part of the changed text implies a firm deadline, while the first part renders it potentially flexible, resulting in an in-text contradiction as described in the explanation."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Client shall make a prepayment of $1,900 and pay the remaining $3,100 on completion of the Scope of Work.",
+        "changed_text": "Client shall make a prepayment of approximately $1,900 and pay the remaining balance on completion of the Scope of Work.",
+        "explanation": "Changing '$1,900' to 'approximately $1,900' in Section 2 introduces ambiguity around the prepayment amount. While the original text specifies a fixed amount, the modified text allows for a range of possible prepayment amounts. This creates an in-text contradiction by contradicting the fact that is a total price, that should be paid, but there is now ambiguity in regards to how much is the client going to pay as prepayment for the services.",
+        "location": "Section 2",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "2. Payment Terms. Upon the signing of this Agreement, Client agrees to pay to Company a total of $5,000. Client shall make a prepayment of approximately $1,900 and pay the remaining balance on completion of the Scope of Work.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces ambiguity by stating 'approximately $1,900' for the prepayment amount, while the contradicted text relies on a more precise prepayment amount as part of the total payment of $5,000. This creates a direct conflict because the changed text allows for a range of prepayment amounts, contradicting the expectation of a fixed amount within the payment structure outlined in the contradicted section."
+      }
+    ]
+  }
+]

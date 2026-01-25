@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "Proctor_Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "You will not copy or attempt to make copies (written, photocopied, or otherwise) of any Exam Material, including, without limitation, any exam questions or answers;",
+        "changed_text": "You will not copy or attempt to make copies (written, photocopied, or otherwise) of any Exam Material, including, without limitation, any exam questions or answers, for commercial purposes;",
+        "explanation": "By adding 'for commercial purposes', the clause now implies that copying for non-commercial purposes might be permissible, which contradicts the broader intention of protecting The Open Group's intellectual property. This contradicts clause 2 which states that the questions and answers of the Exam are the exclusive and confidential property of The Open Group and are protected by The Open Group's intellectual property rights.",
+        "location": "5",
+        "contradicted_location": "2",
+        "contradicted_text": "The questions and answers of the Exam are the exclusive and confidential property of The Open Group and are protected by The Open Group's intellectual property rights;",
+        "contradiction_exists": "YES",
+        "justification": "The original text prohibited copying of exam material without exception. The changed text introduces an exception for non-commercial purposes. This directly contradicts the contradicted text, which states that the exam questions and answers are the exclusive and confidential property of The Open Group, protected by their intellectual property rights, regardless of the purpose of copying. The change introduces ambiguity and a potential loophole, making the contract inconsistent and potentially unenforceable, fitting the definition of 'Ambiguities – In Text Contradiction'."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "You will not sell, license, distribute, give away, or obtain from any other source other Open Group Exam materials, questions or answers;",
+        "changed_text": "You will not sell, license, distribute, give away, or obtain from any other source other Open Group Exam materials, questions or answers, except as part of authorized training programs;",
+        "explanation": "This adds an exception for authorized training programs, potentially conflicting with the overall restriction on distributing exam materials and creating in-text contradiction. This exception could create disputes over what constitutes an 'authorized' program and whether the proctor is authorized to provide the materials, also contradicts clause 1 which states the protection and confidentiality of the exam materials.",
+        "location": "6",
+        "contradicted_location": "1",
+        "contradicted_text": "The Open Group spends substantial sums of time and money in developing and administering its Exam Materials and carefully guards their integrity and confidentiality;",
+        "contradiction_exists": "YES",
+        "justification": "The original text strictly prohibits the distribution of exam materials. The changed text introduces an exception for 'authorized training programs.' This exception directly contradicts the contradicted text, which emphasizes the careful guarding of the integrity and confidentiality of the Exam Materials. The exception creates ambiguity and potential conflict, as it's unclear what constitutes an 'authorized' program and whether the proctor is authorized to provide the materials, thus creating a strong in-text contradiction as per the 'Ambiguities - In Text Contradiction' definition."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The terms and conditions set forth in the Agreement shall survive the termination of Your relationship with The Open Group;",
+        "changed_text": "The terms and conditions set forth in the Agreement shall survive the termination of Your relationship with The Open Group, except for clauses 4, 5 and 6;",
+        "explanation": "By stating that clauses 4, 5, and 6 do not survive termination, the agreement now implies that after termination, the proctor is no longer bound by the restrictions on disclosing, copying, or distributing exam materials, directly contradicting the purpose of the non-disclosure agreement. The original intention of surviving clauses was to protect the exam materials in perpetuity, with this it would affect clause 2 which protects The Open Group's intellectual property rights.",
+        "location": "9",
+        "contradicted_location": "2",
+        "contradicted_text": "The questions and answers of the Exam are the exclusive and confidential property of The Open Group and are protected by The Open Group's intellectual property rights;",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly excludes clauses 4, 5, and 6 from surviving the termination of the agreement. The explanation states that this exclusion implies the proctor is no longer bound by restrictions on disclosing, copying, or distributing exam materials after termination. This directly contradicts the contradicted text, which states that the exam questions and answers are the exclusive and confidential property of The Open Group and are protected by their intellectual property rights. By excluding clauses related to non-disclosure, the changed text creates a direct conflict with the clause protecting The Open Group's intellectual property, thus creating an in-text contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement shall be construed in accordance with the laws of England and Wales, without giving effect to any choice of law rule, and",
+        "changed_text": "This Agreement shall be construed in accordance with the laws of England and Wales, except where conflicts with international copyright law arise, in which case international copyright law will prevail, and",
+        "explanation": "The change introduces a conflict of law provision that could undermine the enforceability of the agreement in England and Wales. The agreement states that is should be construed in accordance with the laws of England and Wales, which could be affected by the laws of international copyright which have priority over local laws in certain cases. This could affect clause 7 where it states that any violations of this agreement will cause irreparable harm to The Open Group.",
+        "location": "10",
+        "contradicted_location": "7",
+        "contradicted_text": "Violation of any of these provisions will cause irreparable harm to The Open Group for which monetary remedies may be inadequate, and that The Open Group shall be entitled, without waiving any other rights or remedies, to take all appropriate actions to remedy or prevent such disclosure or misuse, including obtaining an immediate injunction;",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an exception to the governing law (England and Wales) by prioritizing international copyright law in cases of conflict. This directly contradicts the contradicted text, which grants The Open Group the right to seek remedies, including injunctions, for violations of the agreement. If international copyright law prevails, it could limit or negate The Open Group's ability to enforce its rights under the agreement as stated in the contradicted text, creating a strong in-text contradiction. This aligns with the definition of 'Ambiguities – In Text Contradiction' because the introduction of international copyright law creates uncertainty about which laws govern the agreement and how it will be enforced."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement represents the entire Agreement of the parties hereto pertaining to the subject matter of this Agreement, and supersedes any and all prior oral discussions and/or written correspondence or agreements between the parties with respect thereto.",
+        "changed_text": "This Agreement represents the entire Agreement of the parties hereto pertaining to the subject matter of this Agreement, except for any prior agreements related to proctor compensation, and supersedes any and all prior oral discussions and/or written correspondence or agreements between the parties with respect thereto.",
+        "explanation": "The change introduces an exception for prior agreements related to proctor compensation, potentially opening the door to disputes about what those agreements cover and whether they conflict with the current agreement. This conflicts with the original intention of having a complete and unambiguous agreement and undermines the intention of clause 8 which states this agreement may be modified or amended only in writing, signed by both parties.",
+        "location": "11",
+        "contradicted_location": "8",
+        "contradicted_text": "Neither this Agreement nor any right granted hereunder shall be assignable or otherwise transferable by You and that this Agreement may be modified or amended only in writing, signed by both parties;",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the agreement represents the entire agreement and supersedes all prior agreements. The changed text introduces an exception for prior agreements related to proctor compensation. This directly contradicts the clause stating that the agreement may only be modified or amended in writing, signed by both parties, as it allows for prior, potentially unwritten, agreements to be considered part of the overall agreement, creating an ambiguity and undermining the written modification requirement."
+      }
+    ]
+  }
+]

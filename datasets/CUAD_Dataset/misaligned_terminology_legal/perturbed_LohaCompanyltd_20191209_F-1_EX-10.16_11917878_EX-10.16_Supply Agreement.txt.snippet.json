@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - Legal Contradiction",
+        "original_text": "To be covered by the Seller for 110% invoice value against All Risks and War Risk.",
+        "changed_text": "To be covered by the Seller at their discretion against specified risks.",
+        "explanation": "This changes the term of 'All Risks and War Risk' to 'specified risks' and makes the coverage discretionary.  This introduces ambiguity and may not align with standard insurance practices and legal expectations for international trade.",
+        "contradicted_law": "United Nations Convention on Contracts for the International Sale of Goods (CISG), Article 36",
+        "law_citation": "CISG Article 36",
+        "law_url1": [
+          "https://www.law.cornell.edu/ucc/cisg/article36"
+        ],
+        "law_url2": [
+          "https://cisgw3.law.pace.edu/cisg/text/e-text-36.html"
+        ],
+        "law_explanation": "CISG Article 36 holds the seller liable for any lack of conformity existing at the time when the risk passes to the buyer, even if the lack of conformity becomes apparent only later. The modified text makes the coverage discretionary, possibly undermining the seller's liability for risks inherent at the time of transfer, which is not in conformity with Article 36.",
+        "location": "10",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The change from 'All Risks and War Risk' to 'specified risks' coupled with making the coverage 'discretionary' directly undermines the seller's responsibility for ensuring comprehensive coverage at the time the risk transfers to the buyer, potentially violating CISG Article 36, as the LLM Law Explanation suggests. This violates the definition of Misaligned Terminology Legal Contradiction, as contractual language deviates from legally recognized definitions, potentially making the contract unenforceable."
+      },
+      {
+        "type": "Misaligned Terminology - Legal Contradiction",
+        "original_text": "Under Letter of Credit or T/T: Under the Letter of Credit: The Buyer shall open an irrevocable letter of credit with the bank within 30 days after signing the contract, in favor of the Seller, for 100% value of the total contract value. The letter of credit should state that partial shipments are allowed.",
+        "changed_text": "Under Letter of Credit or T/T: Under the Letter of Credit: The Buyer shall open a revocable letter of credit with the bank at their convenience, in favor of the Seller, for an arbitrary amount of the contract value. The letter of credit should state that partial shipments are allowed.",
+        "explanation": "The term \"irrevocable letter of credit\" is modified to \"revocable letter of credit\" and \"within 30 days after signing the contract, for 100% value\" is changed to \"at their convenience, for an arbitrary amount\". This directly contradicts standard practice and the legal understanding of Letters of Credit, introducing risk and uncertainty.",
+        "contradicted_law": "Uniform Commercial Code, Article 5 (Letters of Credit)",
+        "law_citation": "UCC Article 5-104",
+        "law_url1": [
+          "https://www.law.cornell.edu/ucc/5/5-104"
+        ],
+        "law_url2": [
+          "https://uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=c8481223-860b-4ac8-b7a0-82d59844b90f&forceDialog=0"
+        ],
+        "law_explanation": "UCC Article 5 governs letters of credit.  Changing 'irrevocable' to 'revocable' and making the amount arbitrary directly opposes the fundamental nature of a letter of credit as a reliable payment mechanism.  UCC 5-104 requires a letter of credit to be in writing and conspicuously identified as such. It is expected to establish a defined obligation to pay a specific amount under certain conditions. The change introduces significant uncertainty, undermining the letter of credit's purpose.",
+        "location": "11",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": "§ 5-104. Formal Requirements. | Uniform Commercial Code | US Law | LII / Legal Information Institute Please help us improve our site! × No thank you § 5-104. Formal Requirements. A letter of credit , confirmation, advice, transfer, amendment, or cancellation may be issued in any form that is a record and is authenticated (i) by a signature or (ii) in accordance with the agreement of the parties or the standard practice referred to in Section 5-108(e) . Uniform Commercial Code Toolbox About Uniform Laws State Uniform Commercial Codes",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The change from \"irrevocable letter of credit\" to \"revocable letter of credit\" directly contradicts the function and purpose of a letter of credit, as explained in the Perturbation and Law explanations. Letters of credit are intended to be a reliable payment mechanism. The scraped law snippet 1, § 5-104, addresses the formal requirements of letters of credit. While it doesn't explicitly state that letters of credit must be irrevocable, the change to 'revocable' introduces uncertainty about payment, undermining the letter of credit's purpose, thereby contradicting established practices."
+      },
+      {
+        "type": "Misaligned Terminology - Legal Contradiction",
+        "original_text": "All disputes in connection with this Contract or the execution thereof shall be settled friendly through negotiations. In case no settlement can be reached, the case may then be submitted for arbitration to the Foreign Economic and Trade Arbitration Committee of the China Beijing Council for the Promotion of International Trade in accordance with its Provisional Rules of Procedures by the said Arbitration Committee. The Arbitration shall take place in Beijing and the decision of the Arbitration Committee shall be final and binding upon both parties; neither party shall seek recourse to a law court nor other authorities to appeal for revision of the decision. Arbitration fee shall be borne by the losing party.",
+        "changed_text": "All disputes in connection with this Contract or the execution thereof shall be settled through random selection of a dispute resolution method. The selection will be made by a third-party chosen at random. The decision of that third party is non-binding and can be appealed in any court of law within any jurisdiction.",
+        "explanation": "The change replaces arbitration with a vague \"random selection of a dispute resolution method\" and eliminates the binding nature of the decision, explicitly allowing appeals in any court. This undermines the purpose of arbitration clauses, which is to provide a final and binding resolution outside of traditional court systems.",
+        "contradicted_law": "Convention on the Recognition and Enforcement of Foreign Arbitral Awards (New York Convention)",
+        "law_citation": "New York Convention, Article II(3)",
+        "law_url1": [
+          "https://www.law.cornell.edu/treaties/recognition/II.3"
+        ],
+        "law_url2": [
+          "https://uncitral.un.org/en/texts/arbitration/conventions/foreign_arbitral_awards/nyaa"
+        ],
+        "law_explanation": "The New York Convention requires courts of contracting states to recognize and enforce agreements to arbitrate. By stipulating that the decision is non-binding and can be appealed in any court of law, the modification effectively nullifies the agreement to arbitrate, contradicting the fundamental principle of the New York Convention which promotes the enforcement of arbitral agreements.",
+        "location": "19",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The original contract specifies arbitration in Beijing with a final and binding decision. The changed text replaces this with a random dispute resolution method, whose decision is explicitly non-binding and appealable in any court. This directly contradicts the purpose of an arbitration agreement, which is to provide a binding resolution outside of traditional courts, thus creating a Misaligned Terminology Legal Contradiction. The Law Explanation highlights how this contradicts the New York Convention, which promotes the enforcement of arbitral agreements. Because both scraped law snippets are 'None', I am depending on the Law Explanation to strengthen my decision that a contradiction exists."
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "annex-iii---nda-agreement..txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This agreement is made between PricewaterhouseCoopers LLP, a limited liability partnership incorporated in England (number OC303525) whose registered office is at 1 Embankment Place, London WC2N 6RH (\"PwC\"); and whose registered office is at (“you”).",
+        "changed_text": "This agreement is made between PricewaterhouseCoopers LLP, a limited liability partnership incorporated in England (number OC303525) whose registered office is at 1 Embankment Place, London WC2N 6RH (\"PwC\"); and whose registered office is at (“the Client”).",
+        "explanation": "Changing 'you' to 'the Client' introduces ambiguity. While 'you' clearly refers to the other party signing the agreement, 'the Client' is undefined, potentially leading to confusion about who the agreement binds. This change contradicts the implicit understanding that 'you' refers to the signatory opposite PwC, and introduces a new, undefined entity 'the Client' that is not properly defined.",
+        "location": "Introduction",
+        "contradicted_location": "Introduction",
+        "contradicted_text": "This agreement is made between PricewaterhouseCoopers LLP, a limited liability partnership incorporated in England (number OC303525) whose registered office is at 1 Embankment Place, London WC2N 6RH (\"PwC\"); and whose registered office is at (“the Client”). Background In connection with our discussions relating to ‘[Insert project name]’ (the “purpose”) certain confidential information may be disclosed between us.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines 'you' as the other party. The changed text replaces 'you' with 'the Client,' which is undefined within the contract's first clause, yet defined within the Contradicted Text, creating a conflict. This is an example of misaligned terminology, where 'you' and 'the Client' are implicitly treated as the same, but the change introduces a discrepancy in their definition and usage, leading to potential ambiguity and contradiction and aligning with the Perturbation Explanation."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "“confidential information” means any information disclosed by one party to the other party in connection with the purpose, which is of a confidential nature irrespective of whether it is marked as such .",
+        "changed_text": "“confidential information” means any data disclosed by one party to the other party in connection with the purpose, which is of a confidential nature irrespective of whether it is marked as such .",
+        "explanation": "Changing the key word from 'information' to 'data', limits the scope to information that can be structured and quantified. This is more restricted, and it causes an in-text contradiction with other clauses that implicitly include all kinds of information such as verbal statements.",
+        "location": "1 Definitions",
+        "contradicted_location": "2.1",
+        "contradicted_text": "The receiving party agrees: (a) to keep the disclosing party’s confidential information, confidential; (b) not to use the disclosing party’s confidential information except in connection with the purpose; and (c) not to disclose the disclosing party’s confidential information to anyone else.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines confidential information as 'any information,' while the changed text narrows it to 'any data.' The contradicted text refers to 'confidential information' without specifying 'data' or 'information.' Therefore, changing 'information' to 'data' in the definition creates a contradiction because the receiving party's obligations now apply to a narrower set of items than initially intended, making it inconsistent and potentially unenforceable with respect to the broader concept of 'information' as used in the contradicted text. This aligns with the 'Misaligned Terminology' perturbation definition, as using 'data' instead of 'information' limits the scope."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "2.2 Each party agrees that it will keep the purpose and the existence of this agreement confidential.",
+        "changed_text": "2.2 Each party agrees that it will keep the project and the existence of this agreement confidential.",
+        "explanation": "Changing 'purpose' to 'project' creates a contradiction. 'Purpose' is defined in the introduction as '[Insert project name]', whereas 'project' is now used in section 2.2 without explicit definition, potentially broadening the scope of confidentiality beyond the originally intended specific project. The location where the contradiction occurs is section 2.2 itself because now it's refering to something that wasn't defined.",
+        "location": "2.2",
+        "contradicted_location": "2.2",
+        "contradicted_text": "2.2 Each party agrees that it will keep the project and the existence of this agreement confidential.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies \"purpose\" to \"project\". The explanation states that 'Purpose' is defined in the introduction as '[Insert project name]', but 'project' is used in section 2.2 without explicit definition, potentially broadening the scope of confidentiality. Because the term \"project\" is not clearly defined, it makes the section unclear, thereby creating a strong in-text contradiction with the contradicted text (which is the same section)."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "3.2 Following a written request from the disclosing party, the receiving party will, as soon as practicable, either de stroy or return all confidential information to the disclosing party or, in the case of electronic copies of confidential information, delete them or make them reasonably inaccessible. However, PwC may retain a copy of the confidential information for our internal purposes.",
+        "changed_text": "3.2 Following a written request from the disclosing party, the receiving party will, as soon as practicable, either de stroy or return all sensitive information to the disclosing party or, in the case of electronic copies of confidential information, delete them or make them reasonably inaccessible. However, PwC may retain a copy of the confidential information for our internal purposes.",
+        "explanation": "Changing 'confidential information' to 'sensitive information' in the first part of the sentence creates a contradiction. 'Confidential information' is defined in Section 1, but 'sensitive information' is not. This means that the receiving party is obligated to destroy or return 'sensitive information' which is undefined, while PwC can retain 'confidential information' which is defined, so this imposes two different rules. Section 3.2 is where the contradiction occurs due to imposing an undefined term and an already defined term in the same sentence.",
+        "location": "3.2",
+        "contradicted_location": "3.2",
+        "contradicted_text": "3.2 Following a written request from the disclosing party, the receiving party will, as soon as practicable, either de stroy or return all sensitive information to the disclosing party or, in the case of electronic copies of confidential information, delete them or make them reasonably inaccessible. However, PwC may retain a copy of the confidential information for our internal purposes.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'confidential information' to 'sensitive information' creates a contradiction. 'Confidential information' is defined in Section 1, while 'sensitive information' is not. This means the receiving party has an obligation towards 'sensitive information' without a clear definition, while PwC's retention rights are tied to the defined term 'confidential information'. This imposes two different rules and obligations, and because 'sensitive information' is undefined, this creates ambiguity and a direct conflict with the provision allowing PwC to retain 'confidential information'. This aligns with the Misaligned Terminology - In Text Contradiction definition."
+      }
+    ]
+  }
+]

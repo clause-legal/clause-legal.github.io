@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "NeoformaInc_19991202_S-1A_EX-10.26_5224521_EX-10.26_Co-Branding Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "1.1 ADVERTISING shall mean any paid advertisements, links, pointers, sponsorships, buttons, banners, navigation, or any other placements or promotions or similar services or rights on a Site, but excluding Advertising that is not paid for or which is part of an overall partnering or revenue sharing arrangement and any Product Listings.",
+        "changed_text": "1.1 ADVERTISING shall mean any advertisements, links, pointers, sponsorships, buttons, banners, navigation, or any other placements or promotions or similar services or rights on a Site, including Advertising that is not paid for or which is part of an overall partnering or revenue sharing arrangement and including any Product Listings.",
+        "explanation": "This perturbation introduces a contradictory definition of 'ADVERTISING'. Initially, 'ADVERTISING' explicitly excludes unpaid advertisements or those related to revenue sharing and Product Listings. By changing the definition to include them, it creates uncertainty as to what constitutes 'ADVERTISING' throughout the contract, especially when calculating Net Advertising Revenue. This in-text contradiction affects how revenue from partnering arrangements is treated, potentially leading to disputes on revenue sharing.",
+        "location": "1.1",
+        "contradicted_location": "1.36",
+        "contradicted_text": "1.36 NET ADVERTISING REVENUE shall mean the gross amount collected by a Party from a third party for the sale of Advertising, less any Deductibles.",
+        "contradiction_exists": "YES",
+        "justification": "The original text excludes unpaid advertising, revenue sharing arrangements, and Product Listings from the definition of 'ADVERTISING'. The changed text includes these items, contradicting the original definition. The contradicted text, defining 'NET ADVERTISING REVENUE' as revenue from the sale of Advertising, is now unclear because the definition of 'Advertising' now includes items previously excluded. This directly impacts the calculation of 'NET ADVERTISING REVENUE', as it is uncertain whether revenue from unpaid advertisements, revenue sharing, or Product Listings should be included, creating a strong in-text contradiction according to the definition provided."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "1.21 NEOFORMA COMPETITORS shall mean Medibuy.com, Promedix.com, Medicalbuyer.com and Medsite.com. During the Term, Neoforma may add to this defined term additional third parties whose primary purpose is the multi-vendor online sale of Medical Products.",
+        "changed_text": "1.21 NEOFORMA COMPETITORS shall mean Medibuy.com, Promedix.com, Medicalbuyer.com and Medsite.com. During the Term, VerticalNet may add to this defined term additional third parties whose primary purpose is the multi-vendor online sale of Medical Products.",
+        "explanation": "The perturbation changes who can add to the definition of 'NEOFOMA COMPETITORS'. Originally, Neoforma could add to this term, but now VerticalNet can. This creates a contradiction as it is not clarified whether they can *both* add, or if only VerticalNet now has this power. This uncertainty becomes an issue in section 7.1.4 [ADVERTISEMENTS ON THE NEOFORMA SITE], potentially leading to disputes over what constitutes a 'VerticalNet Competitor' and which advertisements Neoforma is prohibited from placing.",
+        "location": "1.21",
+        "contradicted_location": "7.1.4",
+        "contradicted_text": "7.1.4 During the Term, Neoforma shall not place any advertisements on a Neoforma Site for any VerticalNet Competitor.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters who can define 'NEOFOMA COMPETITORS' from Neoforma to VerticalNet. This directly contradicts section 7.1.4, which prohibits Neoforma from advertising for 'VerticalNet Competitors'. Because the power to define the term has shifted to VerticalNet, Neoforma's obligations under 7.1.4 become ambiguous and potentially unenforceable. The contradiction exists because it's unclear whether Neoforma still has any control over which companies are considered 'VerticalNet Competitors' and therefore which advertisements they are prohibited from placing. The language is directly conflicting."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "1.28 NEOFORMA MARK shall mean any trademark, service mark, trade name, domain name, design or logo of Neoforma.",
+        "changed_text": "1.28 NEOFORMA MARK shall mean any trademark, service mark, trade name, domain name, design or logo of VerticalNet.",
+        "explanation": "By changing the definition, any occurrance of the term Neoforma Mark is now referencing the VerticalNet Mark. Now, Neoforma grants VerticalNet a non-exclusive, non-transferable, royalty-free, right and license to link to the Neoforma Sites through a Neoforma Link. But the 'Neoforma Link' is now referencing the VerticalNet mark and it's products, creating confusion",
+        "location": "1.28",
+        "contradicted_location": "9.4",
+        "contradicted_text": "9.4 Neoforma hereby grants VerticalNet a non-exclusive, non-transferable, royalty-free, right and license to link to the Neoforma Sites through a Neoforma Link. Neoforma shall furnish VerticalNet with a full color representation of each Neoforma Link at least two days prior to its scheduled placement on the Co-Branded Sites or a VerticalNet Medical Online Community. If Neoforma subsequently modifies any Neoforma Link or the URL associated with such Neoforma Link, it shall furnish a representation of same to VerticalNet, which VerticalNet shall substitute for the prior version within two days after receipt thereof. Neoforma shall have final approval over all Neoforma Links on the Co-Branded Sites or a VerticalNet Medical Online Community.",
+        "contradiction_exists": "YES",
+        "justification": "The change directly contradicts the original intent and creates a logical inconsistency. The original text defines \"NEOFORMA MARK\" as belonging to Neoforma. However, the modified text redefines it as belonging to VerticalNet. This change clashes directly with section 9.4 where \"Neoforma grants VerticalNet a non-exclusive, non-transferable, royalty-free, right and license to link to the Neoforma Sites through a Neoforma Link.\" Because the definition of \"NEOFORMA MARK\" and \"Neoforma Link\" have been changed, now Neoforma is granting rights to something it no longer owns, thus creating a contradiction."
+      }
+    ]
+  }
+]

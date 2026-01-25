@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "Data_Use_and_Non_Disclosure_Data_Disclosed_to_MDCH_Trauma_Registry_Final_465518_7.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreeme nt may be terminated upon sixty days (60 ) written notice of the non - terminating party by the terminating party.",
+        "changed_text": "This Agreement may be terminated upon thirty days (30) written notice of the non-terminating party by the terminating party, unless it involves a data breach, in which case immediate termination is permitted.",
+        "explanation": "This modification introduces a conflict regarding the termination clause. The original text specifies a 60-day written notice for termination. The altered text introduces a new condition where immediate termination is allowed in the event of a data breach. This creates ambiguity and an in-text contradiction: does the 60-day notice always apply, or can the agreement be terminated immediately under certain circumstances?",
+        "location": "Paragraph After Point 9",
+        "contradicted_location": "Paragraph After Point 9",
+        "contradicted_text": "This Agreeme nt may be terminated upon sixty days (60 ) written notice of the non - terminating party by the terminating party. This Agreement may be amended in a writing that is signed by each party’s authorized representative. The parties acknowledge and agree that the unauthorized use or disclosure of confidential information is punishable by imprisonment or fine or both under applicable state and federal laws specific to the data rel eased . The parties have read and understand the above conditions and acknowledge that by their authorized representative’s signature below they agree to the terms and conditions above. Each party acknowledges that its authorized represen tative has the authority to execute this agreement its behalf.",
+        "contradiction_exists": "YES",
+        "justification": "The original text and the contradicted text state that the agreement can be terminated with a 60-day written notice. The changed text introduces an exception by stating that immediate termination is permitted in the event of a data breach. This contradicts the original 60-day notice requirement specified in the contradicted text, creating a strong in-text contradiction. This aligns with the 'Inconsistencies - In Text Contradiction' perturbation type."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Use and disclose the data only in accordance with this A greement, or as otherwise authorized by law;",
+        "changed_text": "Use and disclose the data only in accordance with this Agreement, or as directed by the MDHHS Director, irrespective of any conflicting laws or regulations.",
+        "explanation": "This change introduces an in-text contradiction by granting the MDHHS Director the authority to override legal restrictions on data use and disclosure. The original clause states data use should comply with the agreement and the law. Now, the director's directive supersedes all other considerations, thus directly contradicting the original legal compliance requirement and creating ambiguity and potential conflict of laws.",
+        "location": "Point 1",
+        "contradicted_location": "Point 1",
+        "contradicted_text": "With regard to the data disclosed to MDHHS under this Agreement, the MDHHS agrees to: 1. Use and disclose the data only in accordance with this A greement, or as otherwise authorized by law; 2. Notify Reporting Entity within a reasonable time prior to disclosing data that is required by law so that Reporting Entity may have an opportunity to object to such disclosure if necessary; 3. Limit access to these data only to those MDHHS employees whose job responsibilities require access to the information; 4. Use appropriate safeguards to prevent the use or disclosure of the information other than as provided by this A greement; 5. Report to the Reporting Entity within five (5) business days of discovery any actual or suspected inappropriate use, disclosure , or breach of information from the Michigan Trauma Registry that involves data submitted under this Agreement ; 6. Make no attempt to identify or contact the individuals or entities within the data provided unless permitted in Part 209 of the Public Health Code or the Michigan Administrative Code R 325.125 through 325.138; 7-9-2015 Final Page 1 of 2 7. Destroy all originals and copies of potentially identifiable information , in any format , in accordance with industry standards when no longer needed.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text allows the MDHHS Director to override laws regarding data use and disclosure, directly contradicting the contradicted text, which explicitly states that MDHHS agrees to use and disclose data only in accordance with the agreement or as authorized by law. This creates a clear conflict in obligations, as the director's directive now supersedes legal compliance requirements mentioned in multiple clauses within the contradicted text, such as point 1 and 2."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Notify Reporting Entity within a reasonable time prior to disclosing data that is required by law so that Reporting Entity may have an opportunity to object to such disclosure if necessary;",
+        "changed_text": "Notify Reporting Entity within 24 hours prior to disclosing data that is required; however, no opportunity to object to such disclosure will be provided.",
+        "explanation": "The changed text now sets a 24-hour notification period (instead of reasonable time) and explicitly denies the Reporting Entity the opportunity to object. This creates an in-text contradiction, because previously, a reasonable time was granted for an objection. This is a contradiction on what a reasonable time is. Also taking away any chance to object now is contradictory to any expected process that the Reporting Entity could take when notifying the disclousure of data.",
+        "location": "Point 2",
+        "contradicted_location": "Point 2",
+        "contradicted_text": "Notify Reporting Entity within a reasonable time prior to disclosing data that is required by law so that Reporting Entity may have an opportunity to object to such disclosure if necessary;",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the original text by setting a specific 24-hour notification period and explicitly denying the Reporting Entity the opportunity to object. This directly contradicts the contradicted text, which states that the Reporting Entity will be notified within a reasonable time and provided with an opportunity to object. By removing the opportunity to object, the changed text creates an in-text contradiction with the contradicted text, as it removes a previously granted right."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Limit access to these data only to those MDHHS employees whose job responsibilities require access to the information;",
+        "changed_text": "Limit access to these data only to those MDHHS employees and contractors whose job responsibilities include data analysis and quality improvement, or to anyone authorized by the MDHHS Director.",
+        "explanation": "The modified text expands the scope of data access to include contractors and anyone authorized by the MDHHS Director. This creates an in-text contradiction by broadening the access permissions beyond MDHHS employees with direct job responsibilities, thereby contradicting the original limitation and creating uncertainty about the extent of data access control.",
+        "location": "Point 3",
+        "contradicted_location": "Point 3",
+        "contradicted_text": "Limit access to these data only to those MDHHS employees whose job responsibilities require access to the information;",
+        "contradiction_exists": "YES",
+        "justification": "The original text limits data access to MDHHS employees with job responsibilities requiring access. The changed text expands this to include contractors and anyone authorized by the MDHHS Director. This directly contradicts the contradicted text, which states the limitation to only MDHHS employees. The change broadens the scope, creating a strong in-text contradiction as it violates the original limitation, making the terms incompatible."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Make no attempt to identify or contact the individuals or entities within the data provided unless permitted in Part 209 of the Public Health Code or the Michigan Administrative Code R 325.125 through 325.138;",
+        "changed_text": "Make no attempt to identify or contact the individuals or entities within the data provided unless required for data validation or quality assurance purposes, as determined by MDHHS, or unless permitted in Part 209 of the Public Health Code or the Michigan Administrative Code R 325.125 through 325.138;",
+        "explanation": "This modification introduces a condition that allows MDHHS to contact individuals or entities for data validation or quality assurance, thereby contradicting the original restriction against identifying or contacting individuals except when explicitly permitted by the Public Health Code or the Michigan Administrative Code. This new exception, determined solely by MDHHS, undermines the initial protection against identification and contact.",
+        "location": "Point 6",
+        "contradicted_location": "Point 6",
+        "contradicted_text": "Make no attempt to identify or contact the individuals or entities within the data provided unless permitted in Part 209 of the Public Health Code or the Michigan Administrative Code R 325.125 through 325.138;",
+        "contradiction_exists": "YES",
+        "justification": "The original text strictly prohibits identifying or contacting individuals unless explicitly permitted by specific codes. The changed text introduces a new exception, allowing MDHHS to contact individuals for data validation or quality assurance purposes. This contradicts the initial restriction outlined in the contradicted text because MDHHS can contact individuals/entities outside of the pre-defined conditions outlined in the Public Health Code or the Michigan Administrative Code. The contradicted text states: \"Make no attempt to identify or contact the individuals or entities within the data provided unless permitted in Part 209 of the Public Health Code or the Michigan Administrative Code R 325.125 through 325.138;\""
+      }
+    ]
+  }
+]

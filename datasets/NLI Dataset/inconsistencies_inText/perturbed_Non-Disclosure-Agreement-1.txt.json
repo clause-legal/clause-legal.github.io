@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Non-Disclosure-Agreement-1.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Any additions or modifications to the agreement are only binding if made in writing and signed on beh alf of both parties.",
+        "changed_text": "Any additions or modifications to the agreement are binding if communicated via email from an authorized representative of Vedrova. No signature is required.",
+        "explanation": "This introduces a contradiction regarding how the agreement can be modified. The original clause requires written modifications signed by both parties. The modified clause allows modifications via email without signatures, directly contradicting the original requirement and creating uncertainty about which method of modification is valid.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "3. General terms I. Any additions or modifications to the agreement are binding if communicated via email from an authorized representative of Vedrova. No signature is required. II. Any notices given by either party under this agreement shall be addressed to the individuals who sign this agreement, or other individuals agreed in writing by the parties. III. This agreement contains the entire understanding between the parties regarding the use and disclosure of confidential information. IV. The terms of this agreement shall continue without limitation of time. V. The parties agree that damages may not be an adequate remedy for any breach of this agreement by supplier. Supplier shall indemnify Vedrova against any claim, loss, damage or cost arising out of any breach of this agreement or other mis -use or unlawful dis closure of any confidential information. Vedrova is entitled to equitable or injunction relief.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that modifications to the agreement are binding if communicated via email from an authorized representative of Vedrova, without requiring a signature. The contradicted text states that 'Any additions or modifications to the agreement are binding if communicated via email from an authorized representative of Vedrova. No signature is required.' This directly contradicts the original text which required written modifications signed by both parties. Even though it is in the same location, it still is a contradiction since the original text states that a signature from both parties are needed for additions or modifications. This qualifies as an in-text contradiction under the 'Inconsistencies' definition, where different sections of a contract provide conflicting obligations."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The terms of this agreement shall continue without limitation of time.",
+        "changed_text": "The terms of this agreement shall continue for a period of 5 years, after which it will automatically terminate.",
+        "explanation": "This change directly contradicts the original statement that the agreement has unlimited duration. The modified text imposes a 5-year limit on the agreement's duration, creating a clear conflict about the agreement's lifespan. This creates uncertainty about how long the agreement is in effect.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "3. General terms I. Any additions or modifications to the agreement are only binding if made in writing and signed on beh alf of both parties. II. Any notices given by either party under this agreement shall be addressed to the individuals who sign this agreement, or other individuals agreed in writing by the parties. III. This agreement contains the entire understanding between the parties regarding the use and disclosure of confidential information. IV. The terms of this agreement shall continue for a period of 5 years, after which it will automatically terminate. V. The parties agree that damages may not be an adequate remedy for any breach of this agreement by supplier. Supplier shall indemnify Vedrova against any claim, loss, damage or cost arising out of any breach of this agreement or other mis -use or unlawful dis closure of any confidential information. Vedrova is entitled to equitable or injunction relief.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the agreement has unlimited duration. The changed text limits the agreement to 5 years. The contradicted text is the same as the changed text (clause IV), which now conflicts with the modified clause that imposes a 5-year limit on the agreement's duration. This creates a direct in-text contradiction about the agreement's lifespan, fitting the definition of 'Inconsistencies - In Text Contradiction'."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Supplier shall indemnify Vedrova against any claim, loss, damage or cost arising out of any breach of this agreement or other mis -use or unlawful dis closure of any confidential information.",
+        "changed_text": "Supplier shall indemnify Vedrova against any claim, loss, damage or cost arising out of any gross negligence or willful misconduct that directly results in a breach of this agreement or other mis-use or unlawful disclosure of any confidential information, but in no event shall supplier's liability exceed $1000.",
+        "explanation": "This change introduces a contradiction regarding the extent of the supplier's indemnification obligations. The original text states that the supplier shall indemnify Vedrova for 'any' claim, loss, damage, or cost arising from a breach. However, the changed text limits the indemnification obligation to cases of 'gross negligence or willful misconduct', and caps the liability to $1000. This directly contradicts the previous 'any' obligation, causing uncertainty about the extent of liability.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "3. General terms I. Any additions or modifications to the agreement are only binding if made in writing and signed on beh alf of both parties. II. Any notices given by either party under this agreement shall be addressed to the individuals who sign this agreement, or other individuals agreed in writing by the parties. III. This agreement contains the entire understanding between the parties regarding the use and disclosure of confidential information. IV. The terms of this agreement shall continue without limitation of time. V. The parties agree that damages may not be an adequate remedy for any breach of this agreement by supplier. Supplier shall indemnify Vedrova against any claim, loss, damage or cost arising out of any gross negligence or willful misconduct that directly results in a breach of this agreement or other mis-use or unlawful disclosure of any confidential information, but in no event shall supplier's liability exceed $1000. Vedrova is entitled to equitable or injunction relief.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text limits the supplier's indemnification obligation to cases of 'gross negligence or willful misconduct' and caps the liability to $1000. The contradicted text, which includes the changed text, originally stated that 'Supplier shall indemnify Vedrova against any claim, loss, damage or cost arising out of any breach of this agreement'. Therefore, by limiting the indemnity and capping the liability, a direct contradiction exists within the agreement, because the original clause stating 'any' is no longer applicable after the change."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The parties shall attempt, in an amicable manner, to settle any dispute which may arise under this agreement. If any such dispute cannot be resolved by negotiation, it sh all as far as legally permissible and in compliance with statutory provisions, referred to the exclusive jurisdiction of the court in Antwerp.",
+        "changed_text": "The parties shall attempt, in an amicable manner, to settle any dispute which may arise under this agreement. If any such dispute cannot be resolved by negotiation, it shall be subject to binding arbitration in London under the rules of the London Court of International Arbitration.",
+        "explanation": "This change contradicts the dispute resolution mechanism. The original text states that any unresolved disputes should be referred to the exclusive jurisdiction of the court in Antwerp. The altered text dictates that any unresolved disputes must be subject to binding arbitration in London. This presents an irreconcilable difference in how disputes will be resolved, creating significant in-text uncertainty.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "5. Governing law and dispute resolution I. This agreement is subject to Belgian law II. The parties shall attempt, in an amicable manner, to settle any dispute which may arise under this agreement. If any such dispute cannot be resolved by negotiation, it shall be subject to binding arbitration in London under the rules of the London Court of International Arbitration.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that disputes would be resolved in the court of Antwerp. The changed text explicitly states that disputes will be subject to binding arbitration in London. The Contradicted text contains both the arbitration language and language saying the agreement is subject to Belgian Law, which creates an in-text contradiction. The change from Antwerp court to London arbitration is a direct conflict in dispute resolution mechanisms within the contract."
+      }
+    ]
+  }
+]

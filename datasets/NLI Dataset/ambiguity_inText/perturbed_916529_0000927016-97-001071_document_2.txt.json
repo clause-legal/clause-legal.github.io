@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "916529_0000927016-97-001071_document_2.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Parties shall each secure 1 <PAGE> in writing a similar non-disclosure agreement from each of its employees prior to any disclosure of PROPRIETARY INFORMATION to that person.",
+        "changed_text": "The Parties shall each secure 1 <PAGE> in writing a similar non-disclosure agreement from each of its senior management prior to any disclosure of PROPRIETARY INFORMATION to that person.",
+        "explanation": "Originally, the contract mandated securing non-disclosure agreements from *all* employees before disclosing proprietary information. The modified contract limits this requirement to *senior management* only. This creates a contradiction because it leaves the disclosure of proprietary information to regular employees without NDAs ambiguous and unenforced. The earlier text suggests broad protection while the new text explicitly focuses only on senior management.",
+        "location": "NONDISCLOSURE OF PROPRIETARY INFORMATION",
+        "contradicted_location": "NONDISCLOSURE OF PROPRIETARY INFORMATION",
+        "contradicted_text": "The Parties shall each secure 1 <PAGE> in writing a similar non-disclosure agreement from each of its senior management prior to any disclosure of PROPRIETARY INFORMATION to that person. IEC shall employ in general the same standard of care as it employs with respect to its own proprietary or confidential information of like kind and character.",
+        "contradiction_exists": "YES",
+        "justification": "The original text required NDAs from all employees, while the changed text only requires them from senior management. The contradicted text requires NDAs from senior management. The change limits the scope of the NDA requirement which creates a strong contradiction because the original text covered all employees whereas the changed text only covers senior management. It implies that other employees do not require NDAs, which would not have been the case prior to the change. This leads to a clear inconsistency, which breaks compatibility and means that the protection granted by the original text has been fundamentally undermined by the modified text. This falls under Ambiguities - In Text Contradiction, since the term 'employee' is now ambiguous."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "IEC shall employ in general the same standard of care as it employs with respect to its own proprietary or confidential information of like kind and character.",
+        "changed_text": "IEC shall employ a reasonable standard of care as it employs with respect to its own proprietary or confidential information of like kind and character.",
+        "explanation": "The change from 'in general the same standard of care' to 'a reasonable standard of care' introduces subjectivity. The original provides a measurable benchmark (IEC's own practices), the modified term offers no specific level. This affects the clause regarding Non-Disclosure of Proprietary information because it weakens the obligation of IEC to protect EFL's proprietary information, if IEC applies a 'reasonable' standard of care, that might be lower than the original standard, creating uncertainty and contradicting the purpose of protecting proprietary information.",
+        "location": "NONDISCLOSURE OF PROPRIETARY INFORMATION",
+        "contradicted_location": "NONDISCLOSURE OF PROPRIETARY INFORMATION",
+        "contradicted_text": "The Parties shall each secure 1 <PAGE> in writing a similar non-disclosure agreement from each of its employees prior to any disclosure of PROPRIETARY INFORMATION to that person. IEC shall employ a reasonable standard of care as it employs with respect to its own proprietary or confidential information of like kind and character.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies 'in general the same standard of care', providing a benchmark based on IEC's own practices. The changed text uses 'a reasonable standard of care', which is subjective and potentially lower than IEC's own practices. This introduces ambiguity and weakens the obligation to protect proprietary information, directly contradicting the Contradicted Text, which assumes a specific and measurable standard of care, and thus impacting the enforceability of the non-disclosure agreement. The change creates ambiguity where clarity previously existed, creating the condition for in-text contradiction as defined under Ambiguities - In Text Contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Following the expiration of the PROGRAM, or a termination of the PROGRAM as provided for above, the rights and obligations respecting NONDISCLOSURE OF PROPRIETARY INFORMATION set forth in this Agreement will survive and remain in effect for a period of five years.",
+        "changed_text": "Following the expiration of the PROGRAM, or a termination of the PROGRAM as provided for above, the rights and obligations respecting NONDISCLOSURE OF PROPRIETARY INFORMATION set forth in this Agreement will survive and remain in effect for a period of one year.",
+        "explanation": "The change modifies the survival period for non-disclosure obligations from five years to one year post-termination/expiration. This weakens the protection afforded to proprietary information and directly contradicts the original intention of ensuring a long-term commitment to confidentiality. The survival period of 1 year after termination directly conflicts with the intention to secure long term confidentiality as intended by the agreement in its original form.",
+        "location": "TERM",
+        "contradicted_location": "TERM",
+        "contradicted_text": "Following the expiration of the PROGRAM, or a termination of the PROGRAM as provided for above, the rights and obligations respecting NONDISCLOSURE OF PROPRIETARY INFORMATION set forth in this Agreement will survive and remain in effect for a period of one year.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the survival period for non-disclosure obligations from five years to one year. This directly contradicts the stated intention of ensuring long-term confidentiality within the agreement. Since the Contradicted Text also has a duration of 1 year, it seems redundant. However, the Changed Text does contradict the Original Text by shortening the duration from 5 years to 1 year, thus creating a contradiction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "INKTOMICORP_06_08_1998-EX-10.14-SOFTWARE HOSTING AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "1.11 \"Term\" means the period of time commencing on the Effective Date and continuing thereafter indefinitely until this Agreement is terminated pursuant to Section 10 below.",
+        "changed_text": "1.11 \"Term\" means the period of time commencing on the Effective Date and continuing thereafter for a fixed duration of five (5) years, unless terminated earlier pursuant to Section 10 below. After the initial five-year term, this agreement will automatically renew for successive one-year periods.",
+        "explanation": "Changing the definition of 'Term' from indefinite to a fixed 5-year term with automatic renewal creates an in-text contradiction with Section 10.1, which allows Inktomi to terminate the agreement without cause after the second anniversary of the Launch Date. Now, the agreement implies a mandatory 5-year term, but Inktomi can terminate it much earlier, causing an in-text contradiction and uncertainty.",
+        "location": "Section 1.11",
+        "contradicted_location": "Section 10.1",
+        "contradicted_text": "10.1 Inktomi may terminate this Agreement without cause upon one year's prior written notice, provided that such notice may not be given prior to the second anniversary of the Launch Date.",
+        "contradiction_exists": "YES",
+        "justification": "The changed definition of 'Term' introduces a contradiction. The original text defined 'Term' as indefinite, while the changed text defines it as a fixed 5-year term with automatic renewal. This directly conflicts with Section 10.1, which allows Inktomi to terminate the agreement without cause after the second anniversary of the Launch Date. The changed text implies a mandatory 5-year term, but Inktomi retains the right to terminate it much earlier under Section 10.1, creating a clear inconsistency and uncertainty regarding the agreement's duration."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "3.1 Inktomi shall own all new Hosting Servers purchased by Inktomi pursuant to Microsoft's request hereunder.",
+        "changed_text": "3.1 Inktomi shall lease all new Hosting Servers purchased by Inktomi pursuant to Microsoft's request hereunder. The ownership of all Hosting Servers will be transferred to Microsoft upon the agreement's termination, subject to any outstanding payments due.",
+        "explanation": "Modifying Section 3.1 to state that Inktomi only leases the Hosting Servers and ownership transfers to Microsoft at termination contradicts Section 3.3, which grants Microsoft limited access to the Hosting Servers and emphasizes Inktomi's obligations to Exodus. Now it is uncertain when will have access and which rights to Hosting Servers Microsoft will have during this 'leasing' period. This creates uncertainty about Inktomi's rights and responsibilities regarding the servers during the term of the agreement.",
+        "location": "Section 3.1",
+        "contradicted_location": "Section 3.3",
+        "contradicted_text": "3.3 Subject to Microsoft's rights under Section 2.6.2 above and/or the Security Agreement between Inktomi and Microsoft of even date herewith, executed in accordance with the Loan Agreement, Microsoft shall not have any access to the Hosting Servers, except as follows: (i) Microsoft will have electronic read-only access to \"real time\" system data on the status of the usage, accessibility and performance of the Microsoft Search Engine (via software developed by Inktomi in consultation with Microsoft), and (ii) Microsoft will have the right, upon reasonable notice and during normal business hours, to have representatives escorted by Inktomi employees tour the premises where the Hosting Servers are located as necessary to ensure Microsoft's satisfaction with the operation of the physical plant and equipment. Microsoft agrees to comply with the Security Measures at all times when accessing the Hosting Servers as permitted hereunder.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 3.1 states that Inktomi leases the Hosting Servers to Microsoft, and ownership will be transferred to Microsoft upon termination. This directly contradicts Section 3.3, which grants Microsoft limited access to the Hosting Servers subject to specific conditions and emphasizes Inktomi's obligations to Exodus. The contradiction arises because if Microsoft owns the servers upon termination per 3.1, their access and Inktomi's obligations outlined in 3.3 become unclear and potentially unenforceable during the lease period. Specifically, if Inktomi owns the servers during the contract period, it makes sense that Microsoft only has limited access. However, under the new changes, it is unclear who is responsible for the servers during this 'leasing' period."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "4.1 As full and complete compensation for the Services, Microsoft shall pay to Inktomi the following monthly fees:",
+        "changed_text": "4.1 As full and complete compensation for the Services, Microsoft shall pay to Inktomi the following fees: Payment terms are subject to change at any time, dependent on Microsoft's discretion and financial performance. Further specifics will be provided 30 days in advance of fee changes.",
+        "explanation": "Adding 'Payment terms are subject to change at any time, dependent on Microsoft's discretion and financial performance' creates uncertainty about the fees listed in Section 4.1(a-f). Originally, the fees were explicitly defined, but now Microsoft can arbitrarily change them, contradicting the initial payment structure. This impacts all sub-clauses of Section 4.1 because the payment is no longer fixed. It creates uncertainty and impacts all the sections.",
+        "location": "Section 4.1",
+        "contradicted_location": "Section 4.1(a)",
+        "contradicted_text": "4.1 As full and complete compensation for the Services, Microsoft shall pay to Inktomi the following monthly fees: (a) beginning with the Launch Date, the sum of [*] [*] Dollars ($[*]) (attributable to the use during the Term of the Hosting Servers owned by Inktomi as of the Effective Date), provided that in no event will Microsoft be obligated to make more than [*] ([*]) monthly payments pursuant to this clause (a), and if the Term extends beyond [*] years after the Launch Date, this clause (a) will be deemed deleted from this Agreement effective on the [*] anniversary of the Launch Date notwithstanding anything to the contrary contained herein;",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces the possibility of altering the payment terms at Microsoft's discretion, which directly contradicts the fixed monthly fees outlined in section 4.1(a). The original clause states specific dollar amounts for compensation, while the changed text allows for those amounts to be changed at any time, creating a fundamental inconsistency and making the initial payment terms unenforceable. This is a Structural Flaw - In Text Contradiction."
+      }
+    ]
+  }
+]

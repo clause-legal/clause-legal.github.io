@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "NDA_6.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Unless a business agreement, contract, or other business arrangement is entered into, each Party agrees to return or destroy, with written confirmation, all Confidential Information in any form upon conclusion of the evaluation of entering into the transaction or other business arrangement or upon the specific request of the Disclosing Party.",
+        "changed_text": "Each Party is required to return or destroy Confidential Information only if explicitly requested in writing by the Disclosing Party.",
+        "explanation": "The original clause mandates the return or destruction of Confidential Information upon completion of the evaluation or at the request of the Disclosing Party. The revised clause makes the return/destruction solely contingent on a specific written request, removing the obligation upon conclusion of the evaluation period. This creates an in-text contradiction with the original statement in the contract that the Confidential information, deemed valuable and obtained through significant time and effort, would not be possible but for the relationship of the Parties hereunder. ",
+        "location": "7",
+        "contradicted_location": "1",
+        "contradicted_text": "Definition of Confidential Information. For purposes of this Agreement, “Confidential Information” shall only include printed and digital documents explicitly marked as “Confidential” by the Disclosing Party at the time of disclosure. Such information shall include documents, and files provided by the Disclosing party. The Parties acknowledge that the Confidential Information may be written, oral, graphic, pictorial, recorded, or stored and transmitted in digital form or any digital format; and such information is deemed valuable, special or unique assets of the Disclosing Party that were developed or obtained through investment of significant time, efforts and expense, and that access to such information would not be possible but for the relationship of the Parties hereunder.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates return/destruction of Confidential Information upon evaluation completion or Disclosing Party's request. The changed text makes it contingent solely on written request, removing the obligation upon evaluation completion. This contradicts the contradicted text's assertion that the Confidential Information is a 'valuable' and 'unique asset' of the Disclosing Party, which implies a higher level of protection and return than the changed text provides."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Parties agree that this Agreement constitutes the entire Agreement and the understanding of the Parties concerning subject matter hereof and this Agreement supersedes all previous communications, proposals, representations and agreements, whether oral or written, relating thereto, among these parties. This Agreement may not be amended except in a writing signed by both Parties.",
+        "changed_text": "The Parties agree that this Agreement may be amended orally, provided that both Parties acknowledge the amendment.",
+        "explanation": "The original agreement enforces that the agreement may not be amended except in a writing signed by both Parties. The new amendment allows an oral agreement, which creates an in-text contradiction. Making the contract and understanding of the Parties concerning subject matter hereof and this Agreement and superseding all previous communications, proposals, representations and agreements, whether oral or written, relating thereto, among these parties, now open for oral agreements and no longer the full agreement, since it can be orally changed.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "Integration. The Parties agree that this Agreement constitutes the entire Agreement and the understanding of the Parties concerning subject matter hereof and this Agreement supersedes all previous communications, proposals, representations and agreements, whether oral or written, relating thereto, among these parties. This Agreement may be amended orally, provided that both Parties acknowledge the amendment.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the agreement can only be amended in writing signed by both parties. The changed text allows for oral amendments with acknowledgement. The contradicted text is identical to the changed text. This creates a direct conflict because it allows for oral changes, contradicting the original requirement for written amendments, and therefore contradicting the contradicted text which now allows for oral amendments. This aligns with the Ambiguities - In Text Contradiction definition, as the agreement now has conflicting conditions for amendments."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "All matters affecting the interpretation of this Agreement and the rights of the parties hereto shall be governed by the laws of the United States and the State of California, without reference to rules governing choice of laws.",
+        "changed_text": "All matters affecting the interpretation of this Agreement shall be governed by the laws of the state where the Receiving Party is located.",
+        "explanation": "This change alters the governing law from California law to the law of the Receiving Party's location. This change creates a contradiction as the other parts of the agreement that were written under California law may not be valid or can be interpreted differently under the laws of another state. This is contradicting the initial statement of the agreement, by altering what the interpretation of this agreement and the rights of the parties hereto shall be governed.",
+        "location": "12",
+        "contradicted_location": "12",
+        "contradicted_text": "Governing Law. All matters affecting the interpretation of this Agreement shall be governed by the laws of the state where the Receiving Party is located.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the governing law from the laws of the United States and the State of California to the law of the state where the Receiving Party is located. The contradicted text states the same thing as the changed text: \"All matters affecting the interpretation of this Agreement shall be governed by the laws of the state where the Receiving Party is located.\" While they are the same, this creates a contradiction because the original text states that the laws of the United States and the State of California govern the interpretation of the agreement. Therefore, the changed text contradicts the original text, leading to a contradiction in the document."
+      }
+    ]
+  }
+]

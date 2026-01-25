@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "ENTERPRISEPRODUCTSPARTNERSLP_07_08_1998-EX-10.3-TRANSPORTATION CONTRACT.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "THIS CONTRACT is entered into by and between ENTERPRISE TRANSPORTATION COMPANY, a division of Enterprise Products Company, (\"Carrier\"), and ENTERPRISE PRODUCTS OPERATING L.P., a Delaware limited partnership - ------------------------------------------------------------------------------ P.O. Box 4324 Houston, TX 77210 (\"Shipper\").",
+        "changed_text": "THIS CONTRACT is entered into by and between ENTERPRISE TRANSPORTATION COMPANY, a division of Enterprise Products Company, (\"Transporter\"), and ENTERPRISE PRODUCTS OPERATING L.P., a Delaware limited partnership - ------------------------------------------------------------------------------ P.O. Box 4324 Houston, TX 77210 (\"Customer\").",
+        "explanation": "The terms \"Carrier\" and \"Shipper\" are changed to \"Transporter\" and \"Customer\" respectively. This introduces confusion because later sections of the contract still refer to \"Carrier\" and \"Shipper\", creating ambiguity as to which entity those terms refer to. It specifically contradicts the text in section 1, where it is talking about the Shipper tendering commodities to Carrier. This creates an in-text contradiction due to the usage of different terms for the same concept.",
+        "location": "Preamble",
+        "contradicted_location": "1",
+        "contradicted_text": "1. Shipper shall tender commodities to Carrier for transportation by Carrier in a specialized service designed to meet the distinct needs of Shipper in interstate or foreign commerce between points in the United States.",
+        "contradiction_exists": "YES",
+        "justification": "The change from \"Carrier\" and \"Shipper\" to \"Transporter\" and \"Customer\" directly contradicts the contradicted text, which states \"Shipper shall tender commodities to Carrier\". The modified text introduces new terms that are not consistent with the terms used in the contradicted text, leading to ambiguity about who is responsible for tendering commodities and who is responsible for transportation. This aligns with the definition of Misaligned Terminology - In Text Contradiction, creating a strong in-text contradiction because the contract uses multiple terms interchangeably without defining them."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "3. As compensation for the services provided by Carrier under this contract, Shipper shall pay Carrier in accordance with 1) Rate Appendices making reference to this contract which shall from time to time be agreed to between the parties and 2) Carrier's Contract Carriage Rules and Regulations attached as Exhibit A, which are incorporated in this contract by this reference for all purposes (collectively, the \"Schedule\").",
+        "changed_text": "3. As compensation for the services provided by Transporter under this contract, Customer shall remit payment to Transporter in accordance with 1) Rate Appendices making reference to this contract which shall from time to time be agreed to between the parties and 2) Carrier's Contract Carriage Rules and Regulations attached as Exhibit A, which are incorporated in this contract by this reference for all purposes (collectively, the \"Schedule\").",
+        "explanation": "While \"Transporter\" and \"Customer\" were already introduced as replacements, this edit refers to payment being made according to the 'Carriers Contract Carriage Rules' (which now implies different entity), creating an in-text contradiction. The term 'remit payment' is also being used instead of 'pay Carrier', which is also referring to the different usage of terms for the same concept.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "3. As compensation for the services provided by Transporter under this contract, Customer shall remit payment to Transporter in accordance with 1) Rate Appendices making reference to this contract which shall from time to time be agreed to between the parties and 2) Carrier's Contract Carriage Rules and Regulations attached as Exhibit A, which are incorporated in this contract by this reference for all purposes (collectively, the \"Schedule\").",
+        "contradiction_exists": "YES",
+        "justification": "The Changed Text replaces 'Carrier' with 'Transporter' and 'Shipper' with 'Customer'. Furthermore, 'pay Carrier' is replaced with 'remit payment to Transporter'. While this change is consistent within the changed text itself and the contradicted text is identical to it, it creates an in-text contradiction due to the reference to 'Carrier's Contract Carriage Rules', which implies that the rules of a different entity (Carrier, not Transporter) are being used. This creates a clear and direct conflict regarding whose rules apply, especially in conjunction with the changed terminology. Therefore, the edit creates a strong contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "3. (a) Carrier shall perform services under this contract as an independent contractor and shall have exclusive control and direction of its employees and exclusive responsibility to Shipper for any of Carrier's owner-operator contractors engaged in the performance of this contract. Carrier shall pay all wages, local, state, and federal payroll taxes or contributions or taxes for unemployment insurance, worker's compensation, pensions, social security and related protection with respect to its employees.",
+        "changed_text": "3. (a) Transporter shall perform services under this contract as an independent contractor and shall have exclusive control and direction of its employees and exclusive responsibility to Customer for any of Carrier's owner-operator contractors engaged in the performance of this contract. Transporter shall pay all wages, local, state, and federal payroll taxes or contributions or taxes for unemployment insurance, worker's compensation, pensions, social security and related protection with respect to its employees.",
+        "explanation": "Here Transporter and Customer terms are being used along with the Carrier terms which creates an internal conflict due to in-text contradictions.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "3. (a) Transporter shall perform services under this contract as an independent contractor and shall have exclusive control and direction of its employees and exclusive responsibility to Customer for any of Carrier's owner-operator contractors engaged in the performance of this contract. Transporter shall pay all wages, local, state, and federal payroll taxes or contributions or taxes for unemployment insurance, worker's compensation, pensions, social security and related protection with respect to its employees.",
+        "contradiction_exists": "YES",
+        "justification": "The original text uses 'Carrier' consistently. The changed text introduces 'Transporter' and 'Customer' while maintaining references to 'Carrier'. The contradicted text further uses 'Transporter' and 'Customer' which creates an internal contradiction by using multiple terms ('Carrier', 'Transporter', and 'Customer') interchangeably without clear definition, leading to conflicting obligations. The explanation provided further solidifies this conclusion. This aligns with the 'Misaligned Terminology - In Text Contradiction' definition."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "1108244_0001012870-00-001650_document_32.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "1. \"Confidential Information\" is that confidential, proprietary, and trade secret information being disclosed by the disclosing party pursuant to this Agreement.",
+        "changed_text": "1. \"Confidential Information\" is information disclosed by a party.",
+        "explanation": "By removing the attributes \"confidential, proprietary, and trade secret\", the definition of 'Confidential Information' is broadened. This weakens the protections afforded to the disclosing party, contradicting the intent to protect valuable secrets, as stated in other sections that refer to 'Confidential Information' as something valuable that should be protected, and therefore creating an in-text contradiction.",
+        "location": "Section 1",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "Each of the parties agrees that it will not make use of, disseminate, or in any way disclose any Confidential Information of the other party to any person, firm or business, except to the extent necessary for negotiations, discussions, and consultations with personnel or authorized representatives of the other party and any purpose the other party may hereafter authorize in writing. Each of the parties agrees that it shall disclose Confidential Information of the other party only to those of its employees, consultants, advisors and investors who need to know such information and who have previously agreed, either as a condition to employment or in order to obtain the Confidential Information, to be bound by terms and conditions substantially similar to those of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined 'Confidential Information' as 'confidential, proprietary, and trade secret information.' The changed text broadens the definition to simply 'information disclosed by a party.' This removal of specific attributes creates a contradiction. The 'Contradicted Text' section emphasizes the need to protect 'Confidential Information' and restrict its disclosure. By broadening the definition, the changed text weakens this protection, as any information disclosed, even non-confidential information, would fall under the umbrella of 'Confidential Information,' making the protection clause in the 'Contradicted Text' less effective and creating a contradiction of intent within the agreement. According to the perturbation explanation, that states that it weakens protections, and therefore creates an in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "2. Except as set forth in this Section 2, all Confidential Information shall be in tangible form and shall be marked as Confidential or proprietary information of the disclosing party. If the Confidential Information is disclosed orally or visually, it shall be identified as such at the time of disclosure and confirmed in a writing to the recipient within thirty (30) days of such disclosure.",
+        "changed_text": "2. All Confidential Information shall be confirmed in a writing to the recipient.",
+        "explanation": "By removing the tangible form and marking requirements, there's no clear method for distinguishing 'Confidential Information'. This creates an in-text contradiction with Section 5 which describes using care to protect confidential information, as the type of information being disclosed has now been modified.",
+        "location": "Section 2",
+        "contradicted_location": "Section 5",
+        "contradicted_text": "Each of the parties agrees that it shall treat all Confidential Information of the other party with the same degree of care as it accords to its own Confidential Information, and each of the parties represents that it exercises reasonable care to protect its own Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified that Confidential Information must be in tangible form and marked accordingly, or if disclosed orally, confirmed in writing within 30 days. The changed text removes the tangible form and marking requirements, only requiring confirmation in writing. This creates a contradiction with the Contradicted Text, which requires parties to treat 'Confidential Information' with the same degree of care they give their own, because the changed text no longer clearly defines or identifies what constitutes 'Confidential Information,' making it difficult to determine what needs to be protected. As such, the definition of Confidential Information has been removed and therefore directly impacts the ability to uphold the confidentiality clause. This matches the definition of Omissions - In Text Contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "8. This Agreement shall govern all communications between the parties that are made during the period from the effective date of this Agreement to the date on which either party receives from the other written notice that subsequent communications shall not be so governed, provided, however, that each party's obligations under Sections 2 and 3 with respect to Confidential Information of the other party which it has previously received shall continue unless and until such Confidential Information falls within Section 4. Neither party shall communicate any information to the other in violation of the proprietary rights of any third party. Neither party acquires any licenses under any intellectual property rights of the other party under this Agreement.",
+        "changed_text": "8. This Agreement governs communications between parties. Neither party shall communicate information violating third-party rights.",
+        "explanation": "By removing the survival clause (obligations under Sections 2 and 3), the protections for Confidential Information cease upon termination notice. This creates an in-text contradiction by negating the long-term protection initially intended for 'Confidential Information'. Also, the Confidential Information designation is no longer of significance.",
+        "location": "Section 8",
+        "contradicted_location": "Section 8",
+        "contradicted_text": "This Agreement governs communications between parties. Neither party shall communicate information violating third-party rights.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies the agreement governs communications until written notice is received, with an exception for confidential information under Sections 2 and 3, which survive unless they fall under Section 4. The changed text removes this survival clause. The contradicted text is identical to the changed text. Since the changed text removes the survival clause for confidential information, it directly contradicts the implied long-term protection for 'Confidential Information' that was initially intended. The removal of the survival clause creates a strong in-text contradiction by negating the long-term protection and diminishing the importance of the Confidential Information designation. The contradiction is that the original text specifies the agreement governs communications until written notice is received, with an exception for confidential information under Sections 2 and 3, which survive unless they fall under Section 4, while the changed text removes this survival clause."
+      }
+    ]
+  }
+]

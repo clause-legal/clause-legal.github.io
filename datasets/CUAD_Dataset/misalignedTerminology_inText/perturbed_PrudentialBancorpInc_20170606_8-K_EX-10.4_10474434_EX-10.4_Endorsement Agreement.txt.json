@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "PrudentialBancorpInc_20170606_8-K_EX-10.4_10474434_EX-10.4_Endorsement Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "\"Base Salary\" means the Employee's total base salary as of each January 1st exclusive of special payments such as bonuses or commissions, but including any salary reductions made in accordance with Section 125 or 401(k) of the Code.",
+        "changed_text": "\"Base Salary\" means the Employee's total compensation as of each January 1st inclusive of special payments such as bonuses or commissions, and including any salary reductions made in accordance with Section 125 or 401(k) of the Code.",
+        "explanation": "The definition of 'Base Salary' is changed to include bonuses and commissions which contradicts how 'Base Salary' is used to calculate the death benefit in Article IV. This creates uncertainty regarding how the death benefit is to be calculated.",
+        "location": "ARTICLE I",
+        "contradicted_location": "ARTICLE IV",
+        "contradicted_text": "Upon the death of the Employee while this Agreement is in force, the Employee's beneficiary as named in the Beneficiary Designation Form on page 6 (or as it may be amended according to the terms set forth on page 6) for this Agreement will be entitled to receive from the Policy proceeds an amount equal to the lesser of: (a) (two (2) times the Employee's annualized base salary at the time of death as provided by the Employer's payroll department) plus $100,000, reduced by any amount payable under the Employer's group term life insurance plan, or (b) the Net Amount At Risk.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the definition of 'Base Salary' to include bonuses and commissions, whereas the contradicted text relies on the original definition of 'Base Salary' (excluding bonuses and commissions) to calculate the death benefit. This creates a direct conflict because the amount calculated in the contradicted text is now based on a different, broader definition, directly impacting the amount the beneficiary is entitled to, thus creating a material contradiction. This is an example of misaligned terminology creating in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Employer will have and may exercise, except as limited hereinafter, all ownership rights in the Policies.",
+        "changed_text": "The Employer will have and may exercise all ownership rights in the Policies, including those rights limited hereinafter.",
+        "explanation": "This change removes the exception regarding limited ownership rights, potentially contradicting the provisions in the Beneficiary Designation regarding the Employee's rights to designate beneficiaries and elect settlement options. This in turn could cause confusion with Article IV which touches on the beneficary's rights",
+        "location": "ARTICLE III",
+        "contradicted_location": "Beneficiary Designation",
+        "contradicted_text": "Pursuant to the terms of the Prudential Bank Split Dollar Agreement dated as of June 1st, 2017, the undersigned Owner requests that the Policies referenced in the Agreement and issued by the Insurer provide for the following beneficiary designation and limited contract ownership rights to the Employee: 1. Upon the death of the Employee, proceeds shall be paid in one sum to the Owner, its successors or assigns, to the extent of its interest in the Policy as described in the Agreement. It is hereby provided that the Insurer may rely solely upon a statement from the Owner as to the amount of proceeds it is entitled to receive under this paragraph. 2. Any proceeds at the death of the Employee in excess of the amount paid under the provisions of the preceding paragraph shall be paid in one sum to the following beneficiaries designated by the Employee: Primary Beneficiary, Relationship, Address Contingent Beneficiary, Relationship, Address The Contingent Beneficiary shall receive the benefit only if the Primary Beneficiary does not survive the Employee. The exclusive right to change the beneficiary for the proceeds payable under this section 2, to elect any optional method of settlement for the proceeds paid under this section 2 that are available under the terms of the policy, and to assign all rights and interests granted under this section 2 are hereby granted to the Employee. The sole signature of the Employee shall be sufficient to exercise said rights. The Owner retains all contract rights not granted to the Employee under this section 2.",
+        "contradiction_exists": "YES",
+        "justification": "The original text acknowledges limitations on the Employer's ownership rights in the Policies, while the changed text removes this exception, stating that the Employer has all ownership rights without limitation. This directly contradicts the Contradicted Text, which explicitly grants certain rights, such as beneficiary designation and settlement options, to the Employee. The change creates a clear conflict regarding who has the right to exercise specific ownership rights related to the policy proceeds, creating an in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement may be altered, amended or modified, including the addition of any extra policy provisions, by a written instrument signed by the Employer and the Employee.",
+        "changed_text": "This Agreement may be altered, amended or modified by the Employer unilaterally without the need for written consent or signature from the Employee, including the addition of any extra policy provisions.",
+        "explanation": "The original clause requires mutual agreement for amendments. This modified version allows the Employer to unilaterally alter the agreement, including any extra policy provisions, contradicting the spirit of a mutual agreement and potentially harming the Employee's established rights. Specifically it contradicts Article IV, because if the employer changes the policy, the death benefits may change.",
+        "location": "ARTICLE X",
+        "contradicted_location": "ARTICLE IV",
+        "contradicted_text": "Upon the death of the Employee while this Agreement is in force, the Employee's beneficiary as named in the Beneficiary Designation Form on page 6 (or as it may be amended according to the terms set forth on page 6) for this Agreement will be entitled to receive from the Policy proceeds an amount equal to the lesser of: (a) (two (2) times the Employee's annualized base salary at the time of death as provided by the Employer's payroll department) plus $100,000, reduced by any amount payable under the Employer's group term life insurance plan, or (b) the Net Amount At Risk.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text allows the Employer to unilaterally modify the agreement, which directly contradicts the process of how the beneficiary designation form can be amended as stated in the contradicted text. Specifically, the contradicted text states that the Employee's beneficiary will be entitled to receive the stated death benefits 'as it may be amended according to the terms set forth on page 6'. This implies that the Employee must have a say in any modifications of the death benefits. However, the changed text allows the Employer to make such changes unilaterally, contradicting the implicit agreement for the employee to amend the agreement set forth in the contradicted text."
+      }
+    ]
+  }
+]

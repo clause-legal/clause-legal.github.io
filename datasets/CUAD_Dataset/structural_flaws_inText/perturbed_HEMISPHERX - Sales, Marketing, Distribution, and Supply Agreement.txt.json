@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "HEMISPHERX - Sales, Marketing, Distribution, and Supply Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Term will be 3 years from Effective Date with an automatic 2 year term extensions unless otherwise advised by one of the Parties.",
+        "changed_text": "The Term will be 3 years from Effective Date with an automatic 2 year term extensions. Either party can terminate this agreement at any time, with or without cause, by providing thirty (30) days written notice to the other party.",
+        "explanation": "The original text states the term will automatically extend for 2 years unless one of the parties advises otherwise. The added sentence allows for termination at any time with 30 days' notice, regardless of the initial term or extension. This introduces a contradiction regarding the agreement's duration, as it is now unclear whether the automatic extension is valid or if the agreement can be terminated prematurely.",
+        "location": "VI.A",
+        "contradicted_location": "VI.A",
+        "contradicted_text": "The Term will be 3 years from Effective Date with an automatic 2 year term extensions. Either party can terminate this agreement at any time, with or without cause, by providing thirty (30) days written notice to the other party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies an automatic 2-year extension unless otherwise advised, implying a commitment to at least 3 years. The changed text adds a termination clause allowing either party to terminate the agreement at any time with 30 days' notice. This directly contradicts the expectation of a guaranteed 3-year term (plus potential extension), as the agreement can now be terminated before the initial term or extension period concludes. The contradicted text and changed text are in the same place, but the new sentence creates a clear contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "SCIEN shall pay HEMISPHERX for each order of Product within 75 days after receipt of the goods except for the for first purchase order which will be for 50 vials of Interferon alfa-n3 (human leukocyte derived) (\"First Order\") and paid once the MOH approves the use for Interferon alfa-n3 (human leukocyte derived) on 5 MERS patients. All purchase orders are final.",
+        "changed_text": "SCIEN shall pay HEMISPHERX for each order of Product within 75 days after receipt of the goods except for the for first purchase order which will be for 50 vials of Interferon alfa-n3 (human leukocyte derived) (\"First Order\") and paid once the MOH approves the use for Interferon alfa-n3 (human leukocyte derived) on 5 MERS patients. SCIEN has the right to cancel any purchase order at any time before shipment, without penalty. All other purchase orders are final.",
+        "explanation": "The original text states that 'All purchase orders are final'. However, the injected text grants SCIEN the right to cancel any purchase order before shipment. This contradiction introduces uncertainty about the binding nature of purchase orders and creates ambiguity regarding the obligations of SCIEN to accept and pay for ordered products.",
+        "location": "IV.C",
+        "contradicted_location": "IV.C",
+        "contradicted_text": "SCIEN shall pay HEMISPHERX for each order of Product within 75 days after receipt of the goods except for the for first purchase order which will be for 50 vials of Interferon alfa-n3 (human leukocyte derived) (\"First Order\") and paid once the MOH approves the use for Interferon alfa-n3 (human leukocyte derived) on 5 MERS patients. SCIEN has the right to cancel any purchase order at any time before shipment, without penalty. All other purchase orders are final.",
+        "contradiction_exists": "YES",
+        "justification": "The original text and contradicted text both state that 'All purchase orders are final'. However, the changed text introduces a new clause granting SCIEN the right to cancel any purchase order at any time before shipment. This directly contradicts the previous statement that all purchase orders are final, creating a structural flaw-based in-text contradiction as defined in the instructions."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "A. SCIEN and HEMISPHERX agree to keep secret and confidential all confidential, proprietary or non-public information (\"Confidential Information\") of the other Party .This provision shall survive termination or expiration of this Agreement.\nB. Such Confidential Information will be kept confidential until 5 years after the expiration of termination of this Agreement.",
+        "changed_text": "A. SCIEN and HEMISPHERX agree to keep secret and confidential all confidential, proprietary or non-public information (\"Confidential Information\") of the other Party .This provision shall survive termination or expiration of this Agreement.\nB. Such Confidential Information will be kept confidential until 5 years after the expiration of termination of this Agreement. Notwithstanding this clause, either party may disclose Confidential Information if they deem it beneficial for their business interests.",
+        "explanation": "The original clause states that Confidential Information will be kept confidential for 5 years after termination. The added sentence allows either party to disclose confidential information if they deem it beneficial, creating a direct contradiction. This introduces uncertainty regarding the confidentiality obligations, as it is now unclear when Confidential Information is truly protected.",
+        "location": "XI.B",
+        "contradicted_location": "XI.B",
+        "contradicted_text": "Such Confidential Information will be kept confidential until 5 years after the expiration of termination of this Agreement. Notwithstanding this clause, either party may disclose Confidential Information if they deem it beneficial for their business interests.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified that Confidential Information would be kept confidential for 5 years after termination or expiration of the agreement. The changed text adds a clause allowing either party to disclose confidential information if they deem it beneficial, which directly contradicts the original confidentiality obligation. This creates a structural flaw in the contract, as the contradictory clauses create uncertainty about the confidentiality obligations and when confidential information is truly protected. The changed clause directly breaks compatibility with the contradicted section."
+      }
+    ]
+  }
+]

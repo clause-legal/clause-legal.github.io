@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "nda_pine__en.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "4.1 THE PARTIES may not disclose or communicate in any form or way data and information of a confidential nature to unauthorized subjects.",
+        "changed_text": "4.1 THE PARTIES may disclose or communicate in any form or way data and information of a confidential nature to unauthorized subjects, provided such disclosure is deemed necessary for internal operations or compliance purposes. The disclosing party assumes full responsibility for any consequences arising from such disclosure.",
+        "explanation": "This change directly contradicts the original prohibition of disclosing confidential information. Now, disclosure is permitted under vaguely defined conditions (internal operations or compliance purposes). This creates an in-text contradiction with the original clause that stated the parties may not disclose or communicate in any way shape or form any confidential information to any unauthorised subjects. This creates significant uncertainty regarding the handling of confidential data and could void the agreement.",
+        "location": "4.1",
+        "contradicted_location": "4.2",
+        "contradicted_text": "4.2 Such data and information will have to be used appr opriately and adequately for the carrying out of the activities specifically envisaged by the PROJECT and contained in the contract mentioned in the Premises, in such a way that their confidential nature is not compromised and no damage is caused in any other way.",
+        "contradiction_exists": "YES",
+        "justification": "The original text prohibits disclosure of confidential information, while the changed text permits disclosure under specific, vaguely defined conditions. This creates a direct conflict with clause 4.2, which mandates that confidential data must be used appropriately to not compromise its confidentiality. The introduction of permissible disclosure, even under specific circumstances, directly contradicts the requirement in clause 4.2 that the data's confidential nature is not compromised. This establishes a strong in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "5.1 Each Party shall appoint within its organization a person responsible for the treatment of confidential information and data, who shall have a ll persons in charge of carrying out PROJECT activities sign a declaration, whereby they take it upon themselves to comply with confidentiality obligations as described and regulated in the prese nt AGREEMENT .",
+        "changed_text": "5.1 Each Party may, at its discretion, appoint within its organization a person responsible for the treatment of confidential information and data. Signing a declaration of compliance with confidentiality obligations is optional and at the discretion of each employee involved in PROJECT activities.",
+        "explanation": "The original text mandates the appointment of a responsible person and requires all relevant employees to sign a confidentiality declaration. The modified version makes both actions optional. This creates an in-text contradiction regarding whether a responsible person must be appointed and whether employees must sign a declaration. Section 6.1 now doesn't know if it's supposed to take security measures as mentioned in this section, since it's not mandatory anymore.",
+        "location": "5.1",
+        "contradicted_location": "6.1",
+        "contradicted_text": "6.1 THE PARTIES commit to adopt all security measures as necessary to protect data and information of a confidential nature and guarantee that their confidentiality is not compromised in any way .",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandated both the appointment of a responsible person and the signing of confidentiality agreements. The changed text makes both optional. This directly contradicts section 6.1, which commits the parties to adopting all necessary security measures. If appointing a responsible person and having employees sign confidentiality agreements are optional, it undermines the commitment to 'adopt all security measures,' creating a clear inconsistency regarding the parties' obligations to protect confidential data."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "6.1 THE PARTIES commit to adopt all security measures as necessary to protect data and information of a confidential nature and guarantee that their confidentiality is not compromised in any way .",
+        "changed_text": "6.1 THE PARTIES will endeavor to adopt security measures to protect data and information of a confidential nature, but cannot guarantee that their confidentiality will not be compromised in any way. The specific measures implemented will depend on available resources and prevailing circumstances.",
+        "explanation": "The original text commits the parties to guaranteeing confidentiality. The modified text states that confidentiality cannot be guaranteed. This change directly contradicts the initial commitment, creating significant uncertainty about the level of security to be provided. It creates doubt on wheter there needs to be full comitment as per the original clause to adopting all security measures as necessary. It also contradicts 6.2 in the file.",
+        "location": "6.1",
+        "contradicted_location": "6.2",
+        "contradicted_text": "6.2 The treatment of all sensitive and personal data sh all be compliant to the relevant national legislation in place, particularly in relation to law….",
+        "contradiction_exists": "YES",
+        "justification": "The original text in 6.1 commits the parties to guaranteeing confidentiality, while the changed text explicitly states that they cannot guarantee it. This directly contradicts the commitment implied in 6.2, which states that sensitive and personal data shall be compliant with relevant national legislation. If confidentiality cannot be guaranteed as per the changed text, the compliance stated in 6.2 becomes questionable, thus creating a strong contradiction and falling under the 'Structural Flaws - In Text Contradiction' definition."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "8. Duration Confidentiality obligations are intended to last fr om the signing of the present AGREEMENT up to five years after completion of the PROJECT , currently envisaged for March 16, 2015, except any further extensions of the validity period of this AGREEMENT to be agreed upon by THE PARTIES and before the aforementioned deadline. In case THE PARTIES decide to extend the validity period for a longer period of time or unlimitedly, confide ntiality obligations are extended from the signing of the AGREEMENT for the entire duration as agreed upon, which shal l be inserted in the AGREMENT .",
+        "changed_text": "8. Duration Confidentiality obligations will last for a period determined by mutual agreement between the parties, but not exceeding one year from the signing of the present AGREEMENT. Any extensions to this period must be documented in writing and signed by both parties.",
+        "explanation": "The original text specifies a five-year duration (with potential extensions). The modified text limits the duration to one year, directly contradicting the longer initial term. This creates an in-text contradiction about the agreement's duration, and how long the project should maintain confidentiality. Since its a Non-Disclosure agreement, a shorter period, than originally stated, is an immediate point of contention between both parts.",
+        "location": "8",
+        "contradicted_location": "3.1",
+        "contradicted_text": "3.1 For the purpose of this AGREEMENT, all data and information, regardless of whether explicitly declared confidential, will be considered confidential. This includes data provided, delivered, or otherwise made accessible between the Parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies a five-year confidentiality obligation (with possible extensions), while the changed text limits it to one year, creating a direct conflict in duration. This contradiction impacts section 3.1, which assumes all data exchanged during the agreement is confidential. Since the duration of the confidentiality is now shorter, data exchanged after one year might not be considered confidential, creating an in-text contradiction. This falls under Structural Flaws - In Text Contradiction as the same clause exists in different locations with conflicting implications."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "9. Applicable law and settlement of controversies 9.1 The present AGREEMENT is regulated under …. …. Law. 9.2 In case of any controversy among THE PARTIES in relation to the execution and interpretation of the present AGREEMENT, which cannot be settled a micably, the competent court shall be the Court of …. …..",
+        "changed_text": "9. Applicable law and settlement of controversies 9.1 The present AGREEMENT shall be governed by principles of fairness and mutual understanding. 9.2 In case of any controversy among THE PARTIES, all matters will be resolved through binding arbitration, as needed.",
+        "explanation": "By removing reference to a specific law, it creates ambiguity about how the contract's articles will be interpreted. By removing a competent court, it makes it difficult to have a legal recourse for parties involved. Parties may dispute applicable standards and venues to arbitrate or interpret disagreements.",
+        "location": "9",
+        "contradicted_location": "4.1",
+        "contradicted_text": "4.1 THE PARTIES may disclose or communicate in any form or way data and information of a confidential nature to unauthorized subjects, provided such disclosure is deemed necessary for internal operations or compliance purposes. The disclosing party assumes full responsibility for any consequences arising from such disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies resolution via a court of law, while the changed text mandates binding arbitration. This shift directly contradicts the contradicted text (4.1) by introducing uncertainty about which dispute resolution process applies if confidential data disclosure becomes a point of contention. Parties may dispute applicable standards and venues to arbitrate or interpret disagreements. Without a specific court defined, the responsibility assumed in 4.1 becomes unclear and unenforceable, therefore leading to contradiction."
+      }
+    ]
+  }
+]

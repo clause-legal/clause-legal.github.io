@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "Non-Disclosure-Agreement_ALL_englisch.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This agreement shall take effect as soon as it has been signed by both parties and shall be valid for the duration of the collaboration or until this agreement is replaced by another agreement. The obligation to confidentiality shall apply for a period of two years beyond the end of the collaboration.",
+        "changed_text": "This agreement shall take effect as soon as it has been signed by both parties and shall be valid for the duration of the collaboration or until this agreement is replaced by another agreement.",
+        "explanation": "The clause specifying the two-year confidentiality obligation beyond the collaboration's end has been removed. This conflicts with the initial intention of ensuring confidentiality 'on both sides'. The missing clause introduces an element of legal risk for Bomatec, as it removes the post-collaboration confidentiality requirement, even though earlier clauses imply a continued duty.",
+        "location": "6",
+        "contradicted_location": "1",
+        "contradicted_text": "The contractual partners undertake to treat confidentially any information they obtain, to use it only for the intended purpose of the particular assignment or project and not to make it di rectly or indirectly accessible to third parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified a two-year confidentiality obligation beyond the collaboration's end. The changed text removes this clause. The contradicted text states that 'The contractual partners undertake to treat confidentially any information they obtain...'. By removing the two-year obligation, the changed text creates a contradiction because it implies there is no continuing confidentiality obligation, thus conflicting with the prior undertaking for confidentiality. This aligns with the definition of Omissions - In Text Contradiction, where essential language is removed creating a contradiction with obligations stated in other sections."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Business Partner and any sub -contractors may only mention to third parties the Bomatec company name (including illustrated material in connection with Bomatec ) as well as activities Non-Disclosure Agreement_ALL_englisch.docx Date issued: 2016- 10-03 Page 3 of 4 carried out during the collaboration with Bomatec after the prior written approval of Bomatec ’s Executive Board. This also applies to publications in information journals, company presentations, entries in Internet documents, etc. Approval only applies to the current assignment or project and should be sought from Bomatec by the Business Partner on every occasion that collaboration is repeated.",
+        "changed_text": "The Business Partner and any sub -contractors may only mention to third parties the Bomatec company name as well as activities carried out during the collaboration with Bomatec after the prior written approval of Bomatec ’s Executive Board.",
+        "explanation": "The removal of the phrase '(including illustrated material in connection with Bomatec ) as well as activities Non-Disclosure Agreement_ALL_englisch.docx Date issued: 2016- 10-03 Page 3 of 4 carried out during the collaboration with Bomatec' creates ambiguity. While it says 'activities carried out during collaboration with Bomatec', it contradicts with, since it removes the full text from the page, making it incomplete. This leaves the scope of restricted mentions unclear and unenforceable. Does it still include written entries? entries in internet documents etc...?",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "The Business Partner and any sub -contractors may only mention to third parties the Bomatec company name as well as activities carried out during the collaboration with Bomatec after the prior written approval of Bomatec ’s Executive Board.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly includes 'illustrated material' and 'entries in Internet documents' within the scope of materials requiring prior approval for mention. The changed text removes this explicit list, creating ambiguity about whether these items still require approval. This contradicts the contradicted text, which is essentially the same as the changed text, because the removal of the clarified scope leaves the parties uncertain about what is covered. Since the 'Omissions - In Text Contradiction' definition says 'Omissions occur when essential language is removed or altered in one section, creating a contradiction with obligations or constraints stated in other sections' then this is a 'YES'."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "In the event that one or more of the clauses of this Agreement should prove to be ineffective or should this Agreement contain a disparity, the legal effectiveness of the other provisions shall not thereby be affected. A valid provision that comes closest to the intended purpose of the ineffective provision shall be agreed to replace it.",
+        "changed_text": "In the event that one or more of the clauses of this Agreement should prove to be ineffective or should this Agreement contain a disparity, the legal effectiveness of the other provisions shall not thereby be affected.",
+        "explanation": "By removing 'A valid provision that comes closest to the intended purpose of the ineffective provision shall be agreed to replace it.' creates a contradiction within the severability clause itself. While the first sentence saves the rest of the agreement, the missing sentence provides the procedure for handling the ineffective part. The contradiction causes uncertainty in how the agreement should be interpreted if any clause is invalid.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "In the event that one or more of the clauses of this Agreement should prove to be ineffective or should this Agreement contain a disparity, the legal effectiveness of the other provisions shall not thereby be affected.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the procedure for replacing an ineffective provision, which creates a direct conflict with the purpose of the severability clause. Although the severability clause states that the invalidity of one provision does not affect the validity of other provisions, the removal of 'A valid provision that comes closest to the intended purpose of the ineffective provision shall be agreed to replace it' causes uncertainty in how the agreement should be interpreted if any clause is invalid, thereby contradicting the intention of the clause to allow the other clauses to be effective. This creates a strong in-text contradiction because it makes the enforcement of the clause itself unclear and inconsistent."
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "nda_11.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Receiving Party shall: (a) take the same care in protecting the Disclosing Party's Information as it takes in protecting its own confidential information and in any event not less than that which a reasonable person or business would take in protecting its own confidential information;",
+        "changed_text": "The Receiving Party shall: (a) take commercially reasonable steps in protecting the Disclosing Party's Information as it takes in protecting its own confidential information and in any event not less than that which a reasonable person or business would take in protecting its own confidential information;",
+        "explanation": "The original text states 'take the same care' suggesting a very high standard of protection. By changing it to 'take commercially reasonable steps' this lowers the standard considerably, creating ambiguity as to what level of care is actually required. This change contradicts the intent of maintaining strict confidentiality outlined in earlier clauses.",
+        "location": "Clause 3(a)",
+        "contradicted_location": "Clause 2",
+        "contradicted_text": "The Receiving Party shall keep confidential the Information for [five (5)] years from the date of disclosure, and shall not disclose the Information to any other person or company without the Disclosing Party's prior written consent, and shall not itself make any use of such Information for any purpose other than the purpose of supply of logistics services (\"the Authorised Purpose\").",
+        "contradiction_exists": "YES",
+        "justification": "The original text required the Receiving Party to take 'the same care' in protecting the Disclosing Party's information as it does its own, implying a high level of protection. The changed text weakens this obligation to 'commercially reasonable steps'. This alteration introduces ambiguity, because 'commercially reasonable steps' can be interpreted in various ways. The contradicted text states 'The Receiving Party shall keep confidential the Information', which suggests a higher and more consistent standard of confidentiality than 'commercially reasonable steps' might provide. Therefore, the change creates a contradiction as the required level of confidentiality is weakened and becomes ambiguous, thus making the enforceability of maintaining strict confidentiality unclear."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement will not be assignable or transferable by either party.",
+        "changed_text": "This Agreement will not be assignable or transferable by Secure Transportation Limited, however, the Company may assign or transfer this agreement to an affiliate company.",
+        "explanation": "This change introduces a clear contradiction. The original clause states that the agreement is not assignable or transferable by either party. The modified version allows the Company to assign or transfer the agreement to an affiliate, directly contradicting the initial restriction. This creates uncertainty in enforcement as one party is now granted a right the other is explicitly denied. This is a clear violation of the terms and equal footing of the contract.",
+        "location": "Clause 6",
+        "contradicted_location": "Clause 6",
+        "contradicted_text": "This Agreement does not create any agency or partnership relationship. This Agreement will not be assignable or transferable by either party. All additions or modifications to this Agreement must be made in writing and must be signed by both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated \"This Agreement will not be assignable or transferable by either party.\" The changed text modifies this to allow Secure Transportation Limited to assign or transfer the agreement to an affiliate company, directly contradicting the original restriction. This is a clear contradiction with the contradicted text \"This Agreement will not be assignable or transferable by either party.\""
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "All additions or modifications to this Agreement must be made in writing and must be signed by both parties.",
+        "changed_text": "All additions or modifications to this Agreement must be made in writing; an email confirmation from both parties will suffice for signature.",
+        "explanation": "This change creates a contradiction by loosening the requirements for modifications. Initially, it required a written document signed by both parties. The modification now allows for email confirmation to substitute for a formal signature, contradicting the initial stringent requirement. This makes enforcement more difficult because email authentication can be less secure than traditional signatures.",
+        "location": "Clause 6",
+        "contradicted_location": "Clause 6",
+        "contradicted_text": "This Agreement does not create any agency or partnership relationship. This Agreement will not be assignable or transferable by either party. All additions or modifications to this Agreement must be made in writing and must be signed by both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text and contradicted text state, 'All additions or modifications to this Agreement must be made in writing and must be signed by both parties.' The changed text modifies this to allow 'an email confirmation from both parties' to 'suffice for signature.' This creates a direct contradiction because email confirmation is not the same as a written and signed modification, making the modified text inconsistent with the requirement of a signed written modification in the contradicted text. This aligns with the definition of Ambiguities - In Text Contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Notices shall be delivered personally, or by prepaid first class mail, or transmitted by email to the parties at such address or number as the parties shall specify from time to time.",
+        "changed_text": "Notices shall be delivered by first class mail only to the parties at such address or number as the parties shall specify from time to time.",
+        "explanation": "This change restricts the methods by which notices can be delivered. Originally, notices could be delivered personally, by prepaid first class mail, or by email. The modified version limits delivery to first class mail only. This creates a contradiction because the parties might rely on the original terms allowing email notices, and those notices would now be considered invalid under the modified clause. This could affect important deadlines or obligations under the agreement.",
+        "location": "Clause 7",
+        "contradicted_location": "Clause 7",
+        "contradicted_text": "Notices shall be delivered personally, or by prepaid first class mail, or transmitted by email to the parties at such address or number as the parties shall specify from time to time.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text restricts the methods of delivering notices to 'first class mail only'. The contradicted text explicitly allows for delivery by 'personally, or by prepaid first class mail, or transmitted by email'. This creates a direct conflict, making the original methods outlined in the contradicted text invalid under the modified clause, hence a strong in-text contradiction. This adheres to the Ambiguities - In Text Contradiction definition."
+      }
+    ]
+  }
+]

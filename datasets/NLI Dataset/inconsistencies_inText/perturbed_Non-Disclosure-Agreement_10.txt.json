@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "Non-Disclosure-Agreement_10.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The Prospective Vendor agrees that the Company is and shall remain the exclusive owner of the Proprietary Information and all patent, copyright, trade secret, trademark and othe r intellectual property rights therein. No license or conveyance of any such rights to the Pro spective Vendor is granted or implied under this Agreement.",
+        "changed_text": "The Prospective Vendor agrees that the Company is and shall remain the exclusive owner of the Proprietary Information and all patent, copyright, trade secret, trademark and other intellectual property rights therein, except for any improvements or modifications made to the Proprietary Information by the Prospective Vendor, which shall be jointly owned by both parties. No license or conveyance of any such rights to the Prospective Vendor is granted or implied under this Agreement.",
+        "explanation": "This modifies the ownership clause, creating an in-text contradiction by asserting that any improvements or modifications made by the Prospective Vendor will be jointly owned. This directly contradicts the initial statement that the Company is the exclusive owner of all Proprietary Information, leading to uncertainty about ownership rights, especially for derived works.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "Ownership of Proprietary Information . The Prospective Vendor agrees that the Company is and shall remain the exclusive owner of the Proprietary Information and all patent, copyright, trade secret, trademark and other intellectual property rights therein, except for any improvements or modifications made to the Proprietary Information by the Prospective Vendor, which shall be jointly owned by both parties. No license or conveyance of any such rights to the Pro spective Vendor is granted or implied under this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a direct contradiction. The original text states that the Company remains the exclusive owner of all intellectual property rights, including any improvements or modifications. The changed text then carves out an exception, stating that any improvements or modifications made by the Prospective Vendor will be jointly owned. This creates a direct conflict in ownership claims, leading to an in-text contradiction, as the company is no longer the exclusive owner. Since the Change directly break compatibility with the contradicted section, the answer is YES."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The Prospective Vendor shall, upon the terminati on of this Agreement or at the request of the Company, promptl y destroy or return to the Company all drawings, documents and other tangible manifest ations of Proprietary Information received by the Prospective vendor pursuant to this Agreement (and all copies and reproductions thereof).",
+        "changed_text": "The Prospective Vendor shall, upon the termination of this Agreement or at the request of the Company, promptly destroy or return to the Company all drawings, documents and other tangible manifestations of Proprietary Information received by the Prospective vendor pursuant to this Agreement (and all copies and reproductions thereof), unless the Prospective Vendor has incorporated the Proprietary Information into its own products or services.",
+        "explanation": "The added clause creates a direct conflict with the original requirement to return or destroy all proprietary information. The exception undermines the original intent of securing confidentiality by allowing the Prospective Vendor to retain and use Proprietary Information that has been incorporated into their own offerings.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "Return of Documents . The Prospective Vendor shall, upon the terminati on of this Agreement or at the request of the Company, promptl y destroy or return to the Company all drawings, documents and other tangible manifest ations of Proprietary Information received by the Prospective vendor pursuant to this Agreement (and all copies and reproductions thereof), unless the Prospective Vendor has incorporated the Proprietary Information into its own products or services.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an exception to the requirement to return or destroy proprietary information, allowing the Prospective Vendor to retain and use it if incorporated into their products or services. This directly contradicts the contradicted text, which mandates the return or destruction of all proprietary information without exception. The addition of the exception creates a direct conflict, undermining the original intent and creating an inconsistency related to what should happen to the Proprietary Information upon termination of the agreement."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement shall remain effective with respect to any Proprietary Information which is disclosed herein at any time with three (3) years f rom the date first dated above, except for the obligations of the parties hereto with respect to Proprietary Information received prior to such termination which shall survive such termin ation.",
+        "changed_text": "This Agreement shall remain effective with respect to any Proprietary Information which is disclosed herein at any time with three (3) years from the date first dated above, except for the obligations of the parties hereto with respect to Proprietary Information received prior to such termination which shall not survive such termination.",
+        "explanation": "This modification reverses the original clause regarding the survival of obligations related to Proprietary Information after the termination of the agreement. Previously, these obligations survived termination, but now they do not, creating a direct contradiction and altering the long-term protections afforded to the Proprietary Information.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "(d) The provisions of this Agreement are necessary for the protection of the business and goodwill of the Company and are consid ered by the Prospective Vendor to be reasonable for such purpos e. The Prospective Vendor agrees that any breach of this Agreement wil l cause the Company substantial and irreparable damages and, therefore, in the event of any such breach, in addition to other remedies which may be available, the Company shall have the right to seek specific performance a nd other injunctive and equitable relief. This Agreement shall remain effective with respect to any Proprietary Information which is disclosed herein at any time with three (3) years from the date first dated above, except for the obligations of the parties hereto with respect to Proprietary Information received prior to such termination which shall not survive such termination.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that obligations related to Proprietary Information received prior to termination would survive the termination. The changed text explicitly states that these obligations will not survive termination. The contradicted text includes this very clause, and so the change directly contradicts the original provision regarding the survival of obligations, creating a strong in-text contradiction. The definition of Inconsistencies - In Text Contradiction applies, since the altered section conflicts with the stated obligation in the contradicted section."
+      }
+    ]
+  }
+]

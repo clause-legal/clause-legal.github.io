@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Example-Mutual-Non-Disclosure-Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Recipient undertakes to keep the Confidential Information disclosed by the other party secure and not to disclose it to any third party [except to its employees [and professional advisers] who need to know the same for the Purpose, who know they owe a duty of confidence to the other party and who are bound by obligations equivalent to those in clause 3 above and this clause 4.",
+        "changed_text": "The Recipient may disclose the Confidential Information to any third party, without any restrictions. The Recipient has the discretion to decide whether to keep the Confidential Information secure.",
+        "explanation": "The original clause mandates the Recipient to keep the information secure and restricts disclosure to third parties. The changed clause allows unrestricted disclosure and gives discretion on maintaining security. This creates a direct contradiction regarding confidentiality obligations.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "The Recipient may disclose the Confidential Information to any third party, without any restrictions. The Recipient has the discretion to decide whether to keep the Confidential Information secure.",
+        "contradiction_exists": "YES",
+        "justification": "The original text restricts disclosure of Confidential Information, while the changed text allows unrestricted disclosure. The contradicted text is identical to the changed text, meaning the changed text directly contradicts the original intent and previous restrictions on disclosing confidential information. This creates a clear and significant in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Recipient will, on request from the other party, return all copies and records of the Confidential Information disclosed by the other party to the Recipient and will not retain any copies or records of the Confidential Information disclosed by the other party.",
+        "changed_text": "The Recipient is not obligated to return any copies or records of the Confidential Information disclosed by the other party and may retain any copies or records at its discretion.",
+        "explanation": "The original clause requires the Recipient to return all copies and records of the Confidential Information upon request. This change removes the return obligation and allows the Recipient to retain copies. This contradicts the original clause about what should happen with the records.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "The Recipient is not obligated to return any copies or records of the Confidential Information disclosed by the other party and may retain any copies or records at its discretion.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires the Recipient to return all copies of Confidential Information upon request. The changed text states that the Recipient is 'not obligated' to return copies and 'may retain' them. This creates a direct conflict with the original clause about what should happen with the records. The contradicted text is the same as the changed text. Therefore, the changed text introduces a contradiction with the original intent regarding the handling of confidential information."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Neither this Agreement nor the supply of any information grants the Recipient any licence, interest or right in respect of any intellectual property rights of the other party except the right to copy the Confidential Information disclosed by the other party solely for the Purpose.",
+        "changed_text": "This Agreement grants the Recipient an unlimited and unrestricted license to use any intellectual property rights associated with the Confidential Information, without any limitations related to the Purpose.",
+        "explanation": "The original text specifically states that the agreement does NOT grant any rights to intellectual property, except for copying the confidential information for the agreed Purpose. The changed text grants an unlimited license, directly contradicting the original restriction. This creates a conflict regarding the recipient's right to the information.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "This Agreement grants the Recipient an unlimited and unrestricted license to use any intellectual property rights associated with the Confidential Information, without any limitations related to the Purpose.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly denies the granting of any intellectual property rights except for copying confidential information for the specified Purpose. The changed text grants an unlimited license to use any intellectual property rights associated with the Confidential Information, without limitations related to the Purpose. This creates a direct conflict, as the changed text grants rights that the original text explicitly denies. The contradicted text is identical to the changed text, indicating that the changed text indeed contradicts the previously established limitations, therefore there is a contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The undertakings in clauses 3 and 4 will continue in force [indefinitely][for [insert number] years from the date of this Agreement].",
+        "changed_text": "The undertakings in clauses 3 and 4 will automatically terminate 30 days from the date of this Agreement, regardless of the nature or sensitivity of the Confidential Information.",
+        "explanation": "The original clause specifies that the undertakings will continue indefinitely or for a set number of years. This change makes the undertakings automatically terminate within 30 days, regardless of the information involved, completely contradicting the original time frames. This creates uncertainty about the actual period the contract is effective and what obligation should prevail.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "The undertakings in clauses 3 and 4 will automatically terminate 30 days from the date of this Agreement, regardless of the nature or sensitivity of the Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the undertakings in clauses 3 and 4 will continue indefinitely or for a set number of years. The changed text specifies that these undertakings will automatically terminate 30 days from the date of the agreement, regardless of the nature of the information. This directly contradicts the original agreement because it replaces an indefinite or multi-year commitment with a 30-day term. The 'Contradicted Text' is the same as the 'Changed Text' demonstrating the in-text contradiction. This aligns with the 'Structural Flaws - In Text Contradiction' definition, as a clause is placed in multiple locations with conflicting implications."
+      }
+    ]
+  }
+]

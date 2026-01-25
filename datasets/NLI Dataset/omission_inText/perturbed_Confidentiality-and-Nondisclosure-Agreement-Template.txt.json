@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Confidentiality-and-Nondisclosure-Agreement-Template.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "VENDOR’S disclosure of Confidential Information to third parties without UNIVERSITY’S authorization, or VENDOR’S failure to return or destroy Confidential Information per Provision 4, above may result in the UNIVERSITY or the U.S. Department of Education denying VENDOR access to Confidential Information for a period of at least five years.",
+        "changed_text": "VENDOR’S disclosure of Confidential Information to third parties without UNIVERSITY’S authorization, or VENDOR’S failure to return or destroy Confidential Information per Provision 4, above may result in consequences determined by the UNIVERSITY.",
+        "explanation": "By omitting \"denying VENDOR access to Confidential Information for a period of at least five years,\" the specific consequence of unauthorized disclosure or failure to return/destroy information is removed. This introduces ambiguity and contradiction because while the provision still states there will be consequences, the nature and severity are left undefined. This contradicts any expectation of a fixed penalty for such violations.",
+        "location": "Section 5",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "VENDOR, its employees, agents, contractors, and subcontractors shall use the Confidential Information solely in connection with performance by VENDOR of the services provided to UNIVERSITY and for no other purpose. Neither VENDOR nor any of its employees, agents, contractors, or subcontractors shall sell, release, transfer, reprint, duplicate, recreate, disclose or permit the disclosure to any other person or entity of any of the Confidential Information or of any files, compilation, study, report, or analysis or data base containing, based on, or derived from the Confidential Information without the express written consent of UNIVERSITY and in full compliance with applicable state and federal privacy laws.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified a consequence for unauthorized disclosure or failure to return/destroy confidential information: denial of access for at least five years. The changed text removes this specific consequence, replacing it with 'consequences determined by the UNIVERSITY.' This introduces ambiguity regarding the penalty. The contradicted text emphasizes the strict requirements for handling confidential information, and expects there is a fixed penalty for violation of the rules. By removing the fixed penalty, the change makes it unclear what happens if the VENDOR violates the confidentiality clause, thus creating a strong contradiction between the obligation of strict compliance in the contradicted text and the undefined consequence in the changed text."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "VENDOR shall give UNIVERSITY immediate notice of any unauthorized use or disclosure of the Confidential Information, or of any breach or threatened breach by VENDOR, or its employees, agents, contractors, or subcontractors of their obligations under this Agreement, upon learning of same.",
+        "changed_text": "VENDOR shall give UNIVERSITY notice of any unauthorized use or disclosure of the Confidential Information, or of any breach or threatened breach by VENDOR, or its employees, agents, contractors, or subcontractors of their obligations under this Agreement.",
+        "explanation": "By removing the word 'immediate,' the urgency requirement for VENDOR to notify UNIVERSITY is weakened. While notice is still required, the lack of a specified timeframe creates a contradiction in the implied expectations. This now creates an in-text contradiction with the overall emphasis of strict confidentiality and prompt action stated in other parts of the agreement, such as section 2 and section 5.",
+        "location": "Section 6",
+        "contradicted_location": "Section 5",
+        "contradicted_text": "VENDOR’S disclosure of Confidential Information to third parties without UNIVERSITY’S authorization, or VENDOR’S failure to return or destroy Confidential Information per Provision 4, above may result in consequences determined by the UNIVERSITY.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires 'immediate notice' of a breach. The changed text removes 'immediate,' weakening the urgency. The contradicted text discusses consequences for failure to disclose confidential information. By removing 'immediate,' the VENDOR's action could be seen as compliant if reported eventually, even if the delay caused harm, thus contradicting the intended consequence of immediate reporting described in the original text and its impact on the enforcement outlined in the contradicted text."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This Agreement may be amended, modified or supplemented only by a written agreement signed by VENDOR and UNIVERSITY. Any waiver of the terms and conditions of this Agreement must be in writing signed by the party granting such waiver and shall not operate as a waiver of, or estoppel with respect to, any subsequent or other failure to perform.",
+        "changed_text": "This Agreement may be amended, modified or supplemented only by a written agreement signed by VENDOR and UNIVERSITY. Any waiver of the terms and conditions of this Agreement must be in writing signed by the party granting such waiver.",
+        "explanation": "By removing 'and shall not operate as a waiver of, or estoppel with respect to, any subsequent or other failure to perform', the contract introduces the possibility that a single waiver could be interpreted as a blanket waiver for future similar failures. This contradicts the intention of having strict and continuous compliance, creating a conflict between the possibility of a broad waiver and the overall purpose of the agreement. It creates an in-text contradiction because it makes the agreement less strict, now the 'strict confidentiality' and 'prompt action' can be interpreted differently depending on a wavier.",
+        "location": "Section 10",
+        "contradicted_location": "Section 1",
+        "contradicted_text": "VENDOR acknowledges that in the course of providing services to UNIVERSITY, VENDOR will be given or have access to confidential student and/or employee information (“Confidential Information”) protected from disclosure by privacy laws. VENDOR, its employees, agents, contractors and subcontractors s h a l l , i n a d d i t i o n t o t h e i r r e s p e c t i v e o b l i g a t i o n s hereunder, use best efforts at all times to adopt and follow procedures and practices to protect the confidentiality of the Confidential Information and prevent its disclosure to others without the express written consent of UNIVERSITY.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly stated that a waiver of terms would not apply to subsequent failures. The changed text removes this protection, creating the possibility that a single waiver could be interpreted as a blanket waiver for future similar failures. This contradicts the contradicted text which emphasizes the VENDOR's obligation to 'use best efforts at all times to adopt and follow procedures and practices to protect the confidentiality'. The removal of the 'no estoppel' clause weakens the UNIVERSITY's ability to enforce strict confidentiality, as a prior waiver might be used to excuse a future breach of confidentiality, creating a strong in-text contradiction according to the definition of Omissions."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Both parties consent to venue and personal jurisdiction in the appropriate forum in the State of Arkansas.",
+        "changed_text": "Both parties consent to venue in the State of Arkansas.",
+        "explanation": "By removing 'and personal jurisdiction,' the contract now only addresses venue. This creates an in-text contradiction because, while the parties agree to a location (venue) for legal actions, the agreement no longer explicitly ensures that both parties submit to the court's authority (personal jurisdiction). This omission could allow a party to challenge the court's jurisdiction, undermining the purpose of the forum selection clause. This now makes a party possibly be able to bypass the legal procedures in the Arkansas court because of jurisdiction disputes.",
+        "location": "Section 7",
+        "contradicted_location": "Section 7",
+        "contradicted_text": "VENDOR and UNIVERSITY agree that this Agreement is entered into in the State of Arkansas and that the legal forums located in the State of Arkansas are the appropriate forums in the event any 3 party seeks legal action or injunctive relief under this Agreement. Both parties consent to venue in the State of Arkansas.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text omits 'and personal jurisdiction,' from the original text. This omission directly conflicts with the contradicted text, where both venue and personal jurisdiction were agreed to. By removing personal jurisdiction from the Changed Text, a party might challenge the Arkansas court's authority, contradicting the initial agreement in the original text and the contradicted text. Since the omission of personal jurisdiction alters the agreement in a way that breaks compatibility with the contradicted section and the explanation clarifies this creates a clear and direct conflict, 'YES' is assigned."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "HerImports_20161018_8-KA_EX-10.14_9765707_EX-10.14_Maintenance Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "WHEREAS, EZJR currently owns a Customer Relationship Management (\"CRM\") software program as developed by LEADER; and WHEREAS, upon the purchase of the software EZJR entered into an agreement for LEADER to maintain the software for a period of two years after which LEADER was be paid by EZJR to service and maintain the software; and WHEREAS, this previous agreement expired on May 28, 2016;",
+        "changed_text": "WHEREAS, EZJR currently owns a Customer Tracking and Management (\"CTM\") software program as developed by LEADER; and WHEREAS, upon the purchase of the system EZJR entered into an agreement for LEADER to maintain the software for a period of two years after which LEADER was be paid by EZJR to service and maintain the software; and WHEREAS, this previous agreement expired on May 28, 2016;",
+        "explanation": "The term 'Customer Relationship Management (CRM)' is changed to 'Customer Tracking and Management (CTM)'. Later in Exhibit A, the document references 'Customer Relationship Management (\"CRM\") system', creating an in-text contradiction as to whether the agreement covers the CRM or a different CTM. It creates uncertantity and conflicting definition, especially considering they have different abrivations",
+        "location": "Preamble",
+        "contradicted_location": "Exhibit A",
+        "contradicted_text": "Exhibit A Customer Relationship Management System Description The Customer Relationship Management (\"CRM\") system entails all aspects of interaction that a company has with its customer, whether it is sales or service-related. It also provides a greater understanding of the customer and helps manage customer data and all interaction with the customer. Advantages and features of the CRM are as following: \u25cf Enhanced customer relationship management including retention tools and fraud prevention. \u25cf Recurring billing feature that allows for fully automated billing and tools to determine approval and decline rates and automated retries of declines. \u25cf Profit management tools including affiliate commission tracking, price point testing and indemnification of revenue loss causes. \u25cf Gateway integration and merchant account load balancing. \u25cf Improved affiliate management and affiliate fraud detection. \u25cf Better reporting and performance tracking.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Customer Relationship Management (CRM)' to 'Customer Tracking and Management (CTM)' creates a contradiction with Exhibit A, which explicitly refers to the 'Customer Relationship Management (\"CRM\") system'. This misaligned terminology, where the contract uses different terms without clarification, introduces uncertainty about the system covered by the agreement. This uncertainty undermines the clarity and enforceability of the contract, especially concerning the specific features and advantages outlined in Exhibit A that are associated with the CRM system."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Subject to all other terms and conditions set forth herein, as of the date of this agreement, LEADER maintain the software for an additional five years.",
+        "changed_text": "Subject to all other terms and conditions set forth herein, as of the date of this agreement, LEADER maintain the application for an additional five years.",
+        "explanation": "The term 'software' is changed to 'application'. The agreement refers to maintaining 'software' throughout the document (e.g., in the preamble). This creates ambiguity and a contradiction as to whether 'application' is part of the covered software or is another, seperate term. It creates uncertantity and conflicting definition, on what is being maintained.",
+        "location": "Section 1",
+        "contradicted_location": "Preamble",
+        "contradicted_text": "WHEREAS, EZJR currently owns a Customer Relationship Management (\"CRM\") software program as developed by LEADER; and WHEREAS, upon the purchase of the system EZJR entered into an agreement for LEADER to maintain the software for a period of two years after which LEADER was be paid by EZJR to service and maintain the software; and WHEREAS, this previous agreement expired on May 28, 2016;",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'software' with 'application'. The contradicted text refers specifically to maintaining 'software'. This creates a strong contradiction because it is now unclear whether the agreement covers only 'software,' only 'application,' or both, which directly impacts the scope of maintenance obligations. This misalignment of terminology leads to uncertainty about what LEADER is contracted to maintain, thus creating a contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement contains the entire agreement among the parties, and supersedes all prior agreements, representations and understandings of the parties, relating to the subject matter of this Agreement.",
+        "changed_text": "This Contract contains the entire agreement among the parties, and supersedes all prior agreements, representations and understandings of the parties, relating to the subject matter of this Contract.",
+        "explanation": "The term 'Agreement' is changed to 'Contract'. Throughout the rest of the document, the term 'Agreement' is still used, creating contradiction. This introduces uncertainty as to the governing document, thus contradicting all sections referring to the 'Agreement' and potentially affecting their enforceability.",
+        "location": "Section 5",
+        "contradicted_location": "Section 7",
+        "contradicted_text": "No supplement to or amendment of this Agreement will be binding unless executed in writing by LEADER and EZJR.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Agreement' with 'Contract'. The contradicted text refers to 'this Agreement'. This creates a direct contradiction and ambiguity as to which document the supplement or amendment applies to, therefore impacting the enforceability of the contradicted section. The term 'Agreement' is no longer consistently defined, thus contradicting all sections referring to the 'Agreement' and potentially affecting their enforceability, as described in Misaligned Terminology."
+      }
+    ]
+  }
+]

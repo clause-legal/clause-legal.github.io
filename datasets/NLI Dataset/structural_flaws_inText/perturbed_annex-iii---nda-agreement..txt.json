@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "annex-iii---nda-agreement..txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Following a written request from the disclosing party, the receiving party will, as soon as practicable, either de stroy or return all confidential information to the disclosing party or, in the case of electronic copies of confidential information, delete them or make them reasonably inaccessible. However, PwC may retain a copy of the confidential information for our internal purposes.",
+        "changed_text": "Following a written request from the disclosing party, the receiving party may, at their sole discretion, either de stroy or return all confidential information to the disclosing party or, in the case of electronic copies of confidential information, delete them or make them reasonably inaccessible. However, PwC may retain a copy of the confidential information for our internal purposes.",
+        "explanation": "The original text states that the receiving party *will* destroy or return confidential information. This perturbation changes it to *may*, granting the receiving party discretion. This directly contradicts the original mandatory obligation.",
+        "location": "3.2",
+        "contradicted_location": "2.1",
+        "contradicted_text": "2.1 The receiving party agrees: (a) to keep the disclosing party’s confidential information, confidential; (b) not to use the disclosing party’s confidential information except in connection with the purpose; and (c) not to disclose the disclosing party’s confidential information to anyone else.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates the receiving party to destroy or return confidential information upon request. The changed text alters 'will' to 'may', granting discretion to the receiving party. This directly conflicts with section 2.1, which states the receiving party 'agrees' to keep the disclosing party's information confidential, and not to disclose it, establishing a mandatory obligation. The 'may' in the changed text creates an inconsistency because the receiving party may choose not to comply with that mandatory requirement, directly contradicting the original agreement to keep the information confidential."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This agreement forms the entire agreement between the parties relating to confidential information disclosed in connection with the purpose. It replaces any earlier agreements, representations or discussions. Neither party excludes liability for any fraud.",
+        "changed_text": "This agreement forms the entire agreement between the parties relating to confidential information disclosed in connection with the purpose, except for any verbal agreements made prior to the signature date. It replaces any earlier written agreements, representations or discussions. Neither party excludes liability for any fraud.",
+        "explanation": "The original clause states that this agreement is the entire agreement. Adding 'except for any verbal agreements made prior to the signature date' directly contradicts this, creating uncertainty about what agreements are legally binding, as the agreement says all other agreements are replaced, in contrast to the exception added.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "This agreement forms the entire agreement between the parties relating to confidential information disclosed in connection with the purpose, except for any verbal agreements made prior to the signature date. It replaces any earlier written agreements, representations or discussions. Neither party excludes liability for any fraud.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds an exception for verbal agreements to the 'entire agreement' clause. The contradicted text also includes that exception. This means that the contract states it is the entire agreement, but then immediately contradicts itself by saying it is not if there are prior verbal agreements. This directly contradicts the meaning of 'entire agreement', and creates a strong in-text contradiction as per the definition of 'Structural Flaws - In Text Contradiction', since the placement of the exception immediately negates the initial statement."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This agreement and any dispute arising from it, whether contractual or non - contractual, will be governed by English law and be subject to the exclusive jurisdiction of the English courts.",
+        "changed_text": "This agreement and any dispute arising from it, whether contractual or non - contractual, will be governed by English law, except for disputes involving sums less than £1000, which will be governed by the laws of [Your Country] and be subject to binding arbitration in [Your City].",
+        "explanation": "The original clause mandates English law and jurisdiction for all disputes. The added exception introduces a separate jurisdiction and legal framework for smaller disputes, directly contradicting the original exclusivity.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "This agreement and any dispute arising from it, whether contractual or non - contractual, will be governed by English law, except for disputes involving sums less than £1000, which will be governed by the laws of [Your Country] and be subject to binding arbitration in [Your City].",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that all disputes will be governed by English law and subject to the exclusive jurisdiction of English courts. The changed text introduces an exception: disputes involving sums less than £1000 will be governed by the laws of [Your Country] and be subject to binding arbitration in [Your City]. This directly contradicts the original exclusivity, as it now establishes a separate legal framework and jurisdiction for specific disputes, creating a strong in-text contradiction. The Contradicted Text is identical to the Changed Text, re-iterating that the contradiction is a real and present issue in the contract based on the explanation given. The Structural Flaws - In Text Contradiction definition directly applies here, as the same or similar clause is placed in multiple locations with conflicting implications."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "2.4 Nothing i n this agreement will prevent the receiving party from disclosing confidential information: (a) if the disclosing party has given its prior written consent; or (b) to its lawyers; or (c) if the disclosure is required by law, regulation or professional requirements; or (d) in the case of PwC, to other PwC firms or relevant subcontractors. 2.5 The receiving party will ensure that anyone who receives confidential information under clause 2.4 (b) is bound by confidentiality obligations before the confidential information is di sclosed.",
+        "changed_text": "2.4 Nothing i n this agreement will prevent the receiving party from disclosing confidential information: (a) if the disclosing party has given its prior verbal consent; or (b) to its lawyers; or (c) if the disclosure is required by law, regulation or professional requirements; or (d) in the case of PwC, to other PwC firms or relevant subcontractors. 2.5 The receiving party will ensure that anyone who receives confidential information under clause 2.4 (b) is NOT bound by confidentiality obligations before the confidential information is di sclosed.",
+        "explanation": "The original allows disclosure with prior *written* consent. Changing it to *verbal* consent contradicts the need for documented agreement. Also the original text states: 2.5 The receiving party will ensure that anyone who receives confidential information under clause 2.4 (b) is bound by confidentiality obligations before the confidential information is di sclosed. The modified text is the opposite: 2.5 The receiving party will ensure that anyone who receives confidential information under clause 2.4 (b) is NOT bound by confidentiality obligations before the confidential information is di sclosed.",
+        "location": "2.4",
+        "contradicted_location": "2.4",
+        "contradicted_text": "2.4 Nothing i n this agreement will prevent the receiving party from disclosing confidential information: (a) if the disclosing party has given its prior verbal consent; or (b) to its lawyers; or (c) if the disclosure is required by law, regulation or professional requirements; or (d) in the case of PwC, to other PwC firms or relevant subcontractors. 2.5 The receiving party will ensure that anyone who receives confidential information under clause 2.4 (b) is NOT bound by confidentiality obligations before the confidential information is di sclosed.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies clause 2.4(a) from requiring *written* consent to allow *verbal* consent for disclosing confidential information. This directly contradicts the original expectation of documented consent. Furthermore, the modified clause 2.5 now states that recipients of confidential information under 2.4(b) (lawyers) are *NOT* bound by confidentiality obligations, which is the opposite of what the original text states. The Contradicted Text section is in the same location as the Change Text, but it confirms the contradiction that was introduced in Clause 2.4(a) regarding the verbal consent, and also explicitly contradicts the original text stating the lawyers are not bound by confidentiality obligations, which should be."
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "lti-two-way-cda-template.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "20. Force Majeure\nNeither party shall be liable for any failure to perform its obligations under this Agreement if such failure is caused by an event beyond its reasonable control, including, without limitation, acts of God, war, terrorism, civil unrest, labor disputes, or governmental regulations.",
+        "changed_text": "7. Payment Terms\nPayment shall be made within thirty (30) days of the date of invoice, unless otherwise agreed in writing. Late payments shall be subject to a late fee of one and a half percent (1.5%) per month, or the highest rate permitted by law, whichever is lower. Neither party shall be liable for any failure to perform its obligations under this Agreement if such failure is caused by an event beyond its reasonable control, including, without limitation, acts of God, war, terrorism, civil unrest, labor disputes, or governmental regulations.",
+        "explanation": "The force majeure clause, which typically resides in a general provisions section, has been relocated to the 'Payment Terms' section. This is an unusual placement that obscures its broader applicability to all obligations within the agreement, suggesting incorrectly that it only applies to payment failures.",
+        "contradicted_law": "Restatement (Second) of Contracts \u00a7 261",
+        "law_citation": "Restatement (Second) of Contracts \u00a7 261",
+        "law_url1": [
+          "https://law.resource.org/restatement/contracts/section_261.htm"
+        ],
+        "law_url2": [
+          "https://www.law.cornell.edu/wex/impracticability"
+        ],
+        "law_explanation": "Restatement (Second) of Contracts \u00a7 261 outlines the doctrine of impracticability of performance (similar to Force Majeure). By placing the Force Majeure clause solely within the payment terms, the contract suggests that only payment obligations are subject to this exception. This limits the application of the doctrine of impracticability, contradicting the general principle that unforeseen events can excuse performance of *any* contractual obligation, not just payment.",
+        "location": "Section 20",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The relocation of the force majeure clause to the 'Payment Terms' section creates a structural flaw that limits its applicability, thus contradicting the principle that unforeseen events can excuse performance of *any* contractual obligation, not just payment. The absence of law snippets does not change this assessment as the LLM explanation clearly states the contradiction, and the original to changed text comparison supports this."
+      },
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "21. Notices\nAll notices and other communications hereunder shall be in writing and shall be deemed to have been duly given when delivered in person, upon the first business day following deposit with a nationally recognized overnight courier service, or upon the third business day following deposit in the United States mail, postage prepaid, certified or registered, return receipt requested, addressed as set forth below.",
+        "changed_text": "11. Term and Termination\nThis Agreement shall commence on the Effective Date and shall continue for a term of one (1) year, unless earlier terminated as provided herein. All notices and other communications hereunder shall be in writing and shall be deemed to have been duly given when delivered in person, upon the first business day following deposit with a nationally recognized overnight courier service, or upon the third business day following deposit in the United States mail, postage prepaid, certified or registered, return receipt requested, addressed as set forth below.",
+        "explanation": "The notice clause is crucial for ensuring legally binding communications. Moving it to the 'Term and Termination' section diminishes its visibility and general applicability, especially for routine communications not directly related to termination.",
+        "contradicted_law": "E-SIGN Act, 15 U.S.C. \u00a7 7001(c)(1)",
+        "law_citation": "15 U.S.C. \u00a7 7001(c)(1)",
+        "law_url1": [
+          "https://www.govinfo.gov/app/details/STATUTE-114/STATUTE-114-Pg464"
+        ],
+        "law_url2": [
+          "https://www.law.cornell.edu/topn/electronic_signatures_in_global_and_national_commerce_act"
+        ],
+        "law_explanation": "While the E-SIGN Act generally allows for electronic signatures and notices, 15 U.S.C. \u00a7 7001(c)(1) requires that consumers affirmatively consent to receiving information electronically. By burying the notice provision within the Term and Termination section, the contract makes it less likely that the consumer will be fully aware of and consent to the method of communication, potentially violating the E-SIGN Act's consumer protection provisions regarding clear and conspicuous disclosure of electronic communication protocols.",
+        "location": "Section 21",
+        "desired_official_urls": 2,
+        "scraped_snippet_1": "GovInfo",
+        "scraped_snippet_2": "TOPN: Electronic Signatures in Global and National Commerce Act | TOPN: Table of Popular Names | US Law | LII / Legal Information Institute Please help us improve our site! \u00d7 No thank you TOPN: Table of Popular Names 0-9 | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z Electronic Signatures in Global and National Commerce Act 106-229 , , 2000-06-30, 114 Stat. 464 ( 15 U.S.C. 7001 note) An act may refer to only a portion of a Public Law. The tables below are for the entire Public Law. Pub. L. Section Status USC Title USC Section Authorizes 1 15 7001 nt 12 CFR 749 101 15 7001 12 CFR 749 102 15 7002 103 15 7003 104 15 7004 12 CFR 1006 105 15 7005 106 15 7006 107 15 7001 nt 12 CFR 749 201 15 7021 202 15 7021 nt 301 15 7031 401 Elim. 47 231 nt TOPN: Table of Popular Names Toolbox",
+        "scrape_success": 2,
+        "contradiction_exists": "YES",
+        "justification": "The original contract has a notice clause in section 21, which is normal. The modified contract moves the notice clause to section 11, which is titled 'Term and Termination'. The Perturbation explanation notes that moving the notice clause diminishes its visibility and general applicability. The Law Explanation states that by burying the notice provision, the contract makes it less likely that the consumer will be fully aware of and consent to the method of communication, potentially violating the E-SIGN Act's consumer protection provisions regarding clear and conspicuous disclosure of electronic communication protocols. This falls under structural flaws, in that the location of the notice makes it unclear, especially in relation to legally binding communications. The law snippet mentions 15 U.S.C. 7001, which is related to the E-Sign Act, lending additional credibility to the Law Explanation."
+      }
+    ]
+  }
+]

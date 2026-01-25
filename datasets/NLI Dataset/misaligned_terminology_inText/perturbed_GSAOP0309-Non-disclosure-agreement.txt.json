@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "GSAOP0309-Non-disclosure-agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "\"Purpose\" shall refer to the Recipient's participation in procurement procedure No. GSA/OP/03/09.",
+        "changed_text": "\"Purpose\" might refer to the Recipient's participation in procurement procedure No. GSA/OP/03/09, or any related future endeavors as determined by the GSA.",
+        "explanation": "By altering the definition of 'Purpose' to include 'any related future endeavors as determined by the GSA,' the agreement creates ambiguity. The Recipient's obligations, initially tied to a specific procurement procedure, are now potentially extended indefinitely. This contradicts limitations outlined in Article 3, which restricts the use of confidential information to the original purpose.",
+        "location": "Article 1 – Definitions",
+        "contradicted_location": "Article 3 – Confidentiality and conditions of access to and use of the Confidential Information",
+        "contradicted_text": "The Recipient undertakes t o e n s u r e that the access to, use, distribution, disclosure and protection o f s u c h i n f o r m a t i o n w i l l c o m p l y w i t h f o l l o w i n g conditions:",
+        "contradiction_exists": "YES",
+        "justification": "The changed text broadens the definition of 'Purpose' to include 'any related future endeavors as determined by the GSA,' which contradicts the Recipient's obligation in the Contradicted Text, which specifies conditions for the access, use, distribution, disclosure, and protection of information related to a previously well defined, limited purpose (procurement procedure No. GSA/OP/03/09). The changed text removes the constraint on that purpose, which affects the recipient's stated obligations regarding that information."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Recipient shall not copy, reproduce, duplicate, distribute, communicate or otherwise make available the Confidential Information, either in whole or in part, to persons or parties who are not Authorised Third Parties, unless the GSA gives its p r i o r w r i tten authorisation.",
+        "changed_text": "The Recipient may, at its discretion, share the Confidential Information with subcontractors under Non-Disclosure Agreements without the GSA's prior written authorization.",
+        "explanation": "This change directly contradicts the original clause requiring GSA authorization before sharing Confidential Information with unauthorized third parties. Now the Recipient can share information with subcontractors without GSA approval. The contradicted location is the same section where the perturbation was made.",
+        "location": "Article 3 – Confidentiality and conditions of access to and use of the Confidential Information",
+        "contradicted_location": "Article 3 – Confidentiality and conditions of access to and use of the Confidential Information",
+        "contradicted_text": "The Recipient shall not copy, reproduce, duplicate, distribute, communicate or otherwise make available the Confidential Information, either in whole or in part, to persons or parties who are not Authorised Third Parties, unless the GSA gives its p r i o r w r i tten authorisation.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. The original text states that the Recipient shall not share confidential information with unauthorized third parties without GSA's written authorization. The changed text allows the Recipient to share Confidential Information with subcontractors under Non-Disclosure Agreements without the GSA's prior written authorization. This is a direct conflict, making the agreement unclear and potentially unenforceable. The contradicted location is the same section where the perturbation was made."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement shall enter into force on the date of the last signature by the Parties and shall remain in effect until the Completion of the Purpose.",
+        "changed_text": "This Agreement will be valid indefinitely unless either party wishes to terminate it, in which case, a 30-day written notice is required.",
+        "explanation": "This perturbation changes the original term of the agreement, which was tied to 'Completion of the Purpose', to an indefinite term subject to a 30-day termination notice. This contradicts the original definition of 'Completion of the Purpose' in Article 1 and Article 7 itself, as the agreement no longer ends automatically upon the completion of the project, and instead can be valid indefinitely if none of the parties gives a notice to terminate.",
+        "location": "Article 7 – Duration of this Agreement and protection of the Confidential Information",
+        "contradicted_location": "Article 1 – Definitions",
+        "contradicted_text": "\"Completion of the Purpose\" shall mean two months following publication of the award notice regarding call No. GSA/OP/03/09.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the agreement's term from 'Completion of the Purpose' to an indefinite term with a 30-day termination notice. This directly contradicts the 'Contradicted Text' which defines 'Completion of the Purpose' as a specific date (two months following publication of the award notice). The change means the agreement no longer automatically ends upon completion of the purpose, creating a clear conflict and rendering the original definition of 'Completion of the Purpose' irrelevant. This aligns with the 'Misaligned Terminology - In Text Contradiction' definition because the meaning of 'Completion of the Purpose' is fundamentally changed, leading to conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Confidential Information is provided \"as is\" and the GSA disclaims all warranties of any kind relating to the Confidential Information, whether expressed or implied, including but not limited to, any implied warranty against infringement of third party property rights or as to merchantability or fitness for a particular purpose.",
+        "changed_text": "The GSA warrants that the Confidential Information is accurate and fit for the Purpose, but not guarantees its completeness. The GSA disclaims all other warranties.",
+        "explanation": "The GSA initially disclaims all warranties regarding the Confidential Information. The modified text introduces a warranty of accuracy and fitness for the Purpose, which directly contradicts the disclaimer. This impacts Article 9 by creating confusion over the GSA's liability regarding the information. If the information is inaccurate, does the 'as is' disclaimer apply, or does the new warranty hold?",
+        "location": "Article 9 – Waiver, disclaimer and liability",
+        "contradicted_location": "Article 9 – Waiver, disclaimer and liability",
+        "contradicted_text": "The Confidential Information is provided \"as is\" and the GSA disclaims all warranties of any kind relating to the Confidential Information, whether expressed or implied, including but not limited to, any implied warranty against infringement of third party property rights or as to merchantability or fitness for a particular purpose.",
+        "contradiction_exists": "YES",
+        "justification": "The original text and contradicted text state that the 'Confidential Information is provided \"as is\" and the GSA disclaims all warranties'. The changed text states 'The GSA warrants that the Confidential Information is accurate and fit for the Purpose'. This introduces a direct warranty of accuracy and fitness, which directly conflicts with the original disclaimer of all warranties. This creates a clear in-text contradiction because the GSA cannot simultaneously disclaim all warranties and warrant accuracy and fitness."
+      }
+    ]
+  }
+]

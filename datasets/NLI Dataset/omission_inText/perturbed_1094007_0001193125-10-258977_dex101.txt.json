@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "1094007_0001193125-10-258977_dex101.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Confidential Information. a . What is included. “Confidential Information” is non-public information, know-how and trade secrets in any form that: • Are designated as “confidential”; or • A reasonable person knows or reasonably should understand to be confidential.",
+        "changed_text": "Confidential Information. a . What is included. “Confidential Information” is information that the disclosing party considers valuable.",
+        "explanation": "The original text defines confidential information based on designation or reasonable understanding. The modified text relies solely on the disclosing party's subjective valuation. This creates an internal contradiction. The original definition provided objective criteria, while the revised definition allows a party to arbitrarily designate any information as 'Confidential'. This omission/change makes enforcement difficult.",
+        "location": "Section 2.a",
+        "contradicted_location": "Section 3.b",
+        "contradicted_text": "Security precautions. Each of us agrees: • To take reasonable steps to protect the other’s confidential information. These steps must be at least as protective as those we take to protect our own confidential information; • To notify the other promptly upon discovery of any unauthorized use or disclosure of confidential information; and • To cooperate with the other to help regain control of the confidential information and prevent further unauthorized use or disclosure of it.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined 'Confidential Information' using objective criteria ('designated as confidential' or 'a reasonable person knows...'). The changed text relies solely on the disclosing party's subjective valuation ('information that the disclosing party considers valuable'). This contradicts the 'Security precautions' section, which requires 'reasonable steps' to protect confidential information. If 'Confidential Information' is solely determined by the disclosing party's subjective valuation, then the 'reasonable steps' become arbitrary and unenforceable, creating a strong contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Is received from another source who can disclose it lawfully and without an obligation to keep it confidential;",
+        "changed_text": "Is received from another source;",
+        "explanation": "By removing 'who can disclose it lawfully and without an obligation to keep it confidential,' the contract no longer clarifies the conditions under which information received from another source is *not* considered confidential. This creates an in-text contradiction because it broadens the exception, potentially including information that should still be protected under the agreement. This contradicts the overall intent of protecting confidential information.",
+        "location": "Section 2.b",
+        "contradicted_location": "Section 3.a",
+        "contradicted_text": "In general. Subject to the other terms of this agreement, each of us agrees: • We will not disclose the other’s confidential information to third parties; and • We will use and disclose the other’s confidential information only for purposes of our business relationship with each other.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that information received from another source is not considered confidential only if the source can lawfully disclose it without any obligation to keep it confidential. The changed text removes the condition that the source must be able to disclose the information lawfully and without obligation. This broadens the exception for confidential information. The contradicted text states that 'We will not disclose the other’s confidential information to third parties.' By broadening the exception to include potentially confidential information received from another source, the changed text directly contradicts the contradicted text, as it permits disclosure of information that should still be considered confidential under the original agreement. This creates a clear and impactful contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Before doing so, each of us must: • ensure that affiliates and representatives are required to protect the confidential information on terms consistent with this agreement; and • accept responsibility for each representative’s use of confidential information.",
+        "changed_text": "Before doing so, each of us must: • ensure that affiliates and representatives are required to protect the confidential information; and",
+        "explanation": "Removing the phrase 'on terms consistent with this agreement' weakens the requirement for protecting confidential information. It's now unclear what terms the affiliates and representatives must adhere to, creating uncertainty in enforcement and potentially contradicting the overall intent of the agreement. Because the reference to 'on terms consistent with this agreement' is no longer present, this directly contradicts section 3.a.",
+        "location": "Section 3.c",
+        "contradicted_location": "Section 3.a",
+        "contradicted_text": "In general. Subject to the other terms of this agreement, each of us agrees: • We will not disclose the other’s confidential information to third parties; and • We will use and disclose the other’s confidential information only for purposes of our business relationship with each other.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that affiliates and representatives must protect confidential information 'on terms consistent with this agreement.' The changed text removes this qualification, weakening the protection requirement and creating uncertainty about the applicable terms. This directly contradicts the contradicted text, which states that each party agrees not to disclose confidential information and to use it only for the business relationship, implying adherence to specific terms outlined in the agreement, which are no longer ensured due to the omission in the changed text."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Each of us agrees that the other may seek court orders to stop confidential information from becoming public in breach of this agreement.",
+        "changed_text": "Each of us agrees that the other may seek remedies in breach of this agreement.",
+        "explanation": "The original clause specifically allows court orders to prevent confidential information from becoming public. By removing this specific right to seek court orders, the modified clause only broadly refers to 'remedies'. The definition of remedies will be interpreted by the courts now and money may be sufficient. This contradicts section 5.d that states that money damages insufficient.",
+        "location": "Section 5.d",
+        "contradicted_location": "Section 5.d",
+        "contradicted_text": "Money damages insufficient. Each of us acknowledges that money damages may not be sufficient compensation for a breach of this agreement. Each of us agrees that the other may seek court orders to stop confidential information from becoming public in breach of this agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified the right to seek 'court orders' to prevent confidential information disclosure. The changed text broadens this to 'remedies', which could include monetary damages. The contradicted text explicitly states 'money damages insufficient'. This creates a direct contradiction because the changed text allows for a remedy that the contradicted text deems insufficient, thus impacting enforcement."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Even if no revision is possible, the rest of this agreement will remain in place.",
+        "changed_text": "The remaining of this agreement will remain in place.",
+        "explanation": "By removing 'Even if no revision is possible,' the severability clause now implies that a court *must* always revise an unenforceable provision, which is not always legally possible or practical. The removal contradicts the intended purpose of the severability clause, which is to preserve the agreement even if a revision is not possible. This omission conflicts the purpose of the agreement.",
+        "location": "Section 5.g",
+        "contradicted_location": "Section 5.g",
+        "contradicted_text": "Enforceability. If any provision of this agreement is unenforceable, the parties (or, if we cannot agree, a court) will revise it so that it can be enforced. Even if no revision is possible, the rest of this agreement will remain in place.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states 'Even if no revision is possible, the rest of this agreement will remain in place.' The changed text removes the 'Even if no revision is possible' clause, which creates a direct contradiction with the contradicted text which contains the full statement: 'Even if no revision is possible, the rest of this agreement will remain in place.' The removal of this phrase from the changed text now implies the court *must* revise an unenforceable provision, which is not always legally possible. This directly conflicts with the original intent and the explicitly stated exception, therefore a strong contradiction exists."
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "NDA-editable.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "MARIPOSA shall not disclose any of the Confidential Information other than as reasonably necessary to acco mplish these purposes.",
+        "changed_text": "MARIPOSA shall disclose Confidential Information as they deem necessary.",
+        "explanation": "The original text limits disclosure to what is 'reasonably necessary'. The modified text gives Mariposa full discretion over disclosure, contradicting the core principle of the NDA. Section 2.1 defines confidential information, and the change in 2.2 gives MARIPOSA free reign to disregard the confidentiality requirements of said information, creating an in-text contradiction.",
+        "location": "Section 2.2",
+        "contradicted_location": "Section 2.1",
+        "contradicted_text": "2. CONFIDENTIALITY 2.1 Definition of Confidentiality Information. “Confidential Information” shall mean the formulas and related information supplied t o MARIPOSA by the Company but only to the extent that: (a) Such information is maintained as confidential by the Company, and; (b) Marked or otherwise identified as confidential when disclosed to MARIPOSA. Information that is not marked or otherwise identified a s confidential at the time of disclosure to MARIPOSA shall be treated as Confidential Information if it is identified as confidential in a written document received by MARIPOSA within thirty (30) days after initial disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The original text restricts MARIPOSA's disclosure of Confidential Information to only what is 'reasonably necessary'. The changed text grants MARIPOSA complete discretion to disclose Confidential Information as they 'deem necessary', essentially removing the original constraint. This directly contradicts section 2.1, which defines Confidential Information and implies limitations on its disclosure, thereby creating a significant in-text contradiction. The change effectively undermines the confidentiality obligations established elsewhere in the contract."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Subject to any express provisions in this Agreement regarding restrictions on transfers or assignments, this Agreement shall be binding upon and inure to the benefit of the parties and their respective successors, assigns, heirs, and personal representatives.",
+        "changed_text": "This Agreement is freely assignable by either party without the need for consent.",
+        "explanation": "The original text implies potential restrictions on assignment. The modified text allows free assignment, creating an in-text contradiction. The successions and assigns clause of 3.3 is now in contradiction with itself.",
+        "location": "Section 3.3",
+        "contradicted_location": "Section 3.3",
+        "contradicted_text": "3.3 Successors and Assigns. Subject to any express provisions in this Agreement regarding restrictions on transfers or assignments, this Agreement shall be binding upon and inure to the benefit of the parties and their respective successors, assigns, heirs, and personal representatives.",
+        "contradiction_exists": "YES",
+        "justification": "The original text in 3.3 allows for restrictions on assignments via express provisions elsewhere in the agreement. The Changed Text explicitly states that the agreement is freely assignable without consent, directly contradicting the provision in 3.3 that contemplates possible restrictions on such assignments. The Perturbation Explanation correctly identifies the contradiction between the succession and assigns clause of 3.3 and the revised assignment provision. This is a clear and direct conflict, fitting the definition of Ambiguities - In Text Contradiction, as it introduces inconsistent terms related to assignment rights."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Time is of the essence with respect to the obligations to be performed under this Agreement.",
+        "changed_text": "Time is not of the essence with respect to the obligations to be performed under this Agreement.",
+        "explanation": "This creates a direct contradiction to the original statement. In section 3.2 the phrase 'Time is of the essence', holds the obligation to preform under the agreement. Thus, contradicting itself with the new phrase that time is not of the essence.",
+        "location": "Section 3.2",
+        "contradicted_location": "Section 3.2",
+        "contradicted_text": "3.2 Time of the Essence. Time is of the essence with respect to the obligations to be performed under this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states 'Time is of the essence with respect to the obligations to be performed under this Agreement.' The changed text modifies this to 'Time is not of the essence with respect to the obligations to be performed under this Agreement.' The contradicted text (3.2) also states 'Time is of the essence with respect to the obligations to be performed under this Agreement.' This creates a direct and strong contradiction within the document, as the changed text directly negates the statement in section 3.2, leading to uncertainty about whether timely performance is a critical aspect of the agreement."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The parties agree that the courts of Idaho shall have exclusive jurisdiction and agree that Ada County is the proper venue.",
+        "changed_text": "The parties agree that any court the plaintiff chooses shall have jurisdiction, and the venue shall be determined at the plaintiff's sole discretion.",
+        "explanation": "The original text specifies exclusive jurisdiction and venue. The modified text gives the plaintiff unilateral control over jurisdiction and venue, directly contradicting the original agreement. Section 3.1 regarding Governing Law, Jurisdiction, and Venue is now directly contradicted.",
+        "location": "Section 3.1",
+        "contradicted_location": "Section 3.1",
+        "contradicted_text": "3.1 Governing Law, Jurisdiction, and Venue. This Agreement shall be construed and interpreted in accordance with the laws of the State of Idaho. The parties agree that the courts of Idaho shall have exclusive jurisdiction and agree that Ada County is the proper venue.",
+        "contradiction_exists": "YES",
+        "justification": "The original text and contradicted text both state that the courts of Idaho have exclusive jurisdiction and Ada County is the proper venue. The changed text directly contradicts this by stating that any court the plaintiff chooses shall have jurisdiction and the venue shall be determined at the plaintiff's sole discretion. This creates a direct conflict, as the changed text gives the plaintiff unilateral control, overriding the previously agreed-upon exclusive jurisdiction and venue."
+      }
+    ]
+  }
+]

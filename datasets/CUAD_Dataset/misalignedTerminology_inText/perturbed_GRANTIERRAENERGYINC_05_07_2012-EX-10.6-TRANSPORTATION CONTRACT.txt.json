@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "GRANTIERRAENERGYINC_05_07_2012-EX-10.6-TRANSPORTATION CONTRACT.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "PARTIES: The Parties of the Contract shall be: ECOPETROL S A, hereinafter ECOPETROL, a company of mixed economy, authorized by law 1118 of 2006, attached to the Ministry of Mines and Energy, acting pursuant to its by-laws with its main domicile in Bogot\u00e1 D C with Tax ID 899.999.068- 1, represented by whoever subscribes the Specific Conditions of the Contract and the SENDER, identified as indicated in the Specific Conditions, who is obliged subject to the conditions and terms set forth herein. ECOPETROL and the SENDER may also be called in this Shipment Contract or \"Contract\", individually as the \"Party\" or jointly as the \"Parties\".",
+        "changed_text": "PARTIES: The Parties of the Contract shall be: ECOPETROL S A, hereinafter ECOPETROL, a company of mixed economy, authorized by law 1118 of 2006, attached to the Ministry of Mines and Energy, acting pursuant to its by-laws with its main domicile in Bogot\u00e1 D C with Tax ID 899.999.068- 1, represented by whoever subscribes the Specific Conditions of the Contract and the SENDER, identified as indicated in the Specific Conditions, who is obliged subject to the conditions and terms set forth herein. ECOPETROL and the SENDER may also be called in this Shipment Contract or \"Contract\", individually as the \"Contracting Entity\" or jointly as the \"Parties\".",
+        "explanation": "The change from 'Party' to 'Contracting Entity' creates a contradiction. Throughout the document, 'Party' is used to refer to both ECOPETROL and the SENDER. This change introduces a new term for the same concept without clear definition, creating ambiguity about whether all instances of 'Party' also apply to 'Contracting Entity'. The introduction of the new term 'Contracting Entity' is creating an in-text contradiction, as the definition specifies that ECOPETROL and the SENDER may also be called 'Contracting Entity', implying that in some instances 'Party' should now be read as 'Contracting Entity.'",
+        "location": "2",
+        "contradicted_location": "11",
+        "contradicted_text": "CLAUSE ELEVENTH RISKS AND RESPONSIBILITY 11.1 Each Party shall be responsible for any damage caused to the other Party as a result of failing to fulfill its obligations under the Contract hereof, in the terms set out in the clause hereof.",
+        "contradiction_exists": "YES",
+        "justification": "The original text consistently refers to ECOPETROL and the SENDER as 'Party' or 'Parties'. The changed text introduces 'Contracting Entity' as an alternative, implying that 'Party' and 'Contracting Entity' are not perfectly interchangeable. This creates ambiguity. Clause 11.1 states 'Each Party shall be responsible...' If 'Party' can now sometimes mean 'Contracting Entity', it is unclear whether Clause 11.1 applies to 'Contracting Entity' as well or only to instances where 'Party' is explicitly used. This directly contradicts the original intent and creates uncertainty regarding responsibility, fitting the definition of 'Misaligned Terminology - In Text Contradiction'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "2.1.1. Transportation Agreement or Transportation Contract: means the agreement between the Transporter and a Sender whose purpose is the Transportation of Crude Oil through the Pipeline.",
+        "changed_text": "2.1.1. Transportation Agreement or Transportation Contract: means the agreement between the Transporter and a Shipper whose purpose is the Transportation of Crude Oil through the Pipeline.",
+        "explanation": "This change introduces 'Shipper' where previously it was 'Sender'. This creates a contradiction, as many other parts of the document use the term 'Sender'. Replacing 'Sender' with 'Shipper' without clarifying if they are interchangeable creates uncertainty about which entity the obligations and rights apply to. This creates an in-text contradiction, as there isn't a clear definition of the term 'Shipper', it will create ambiguity, as 'Shipper' and 'Sender' where intended to be the same within the definition. ",
+        "location": "ANNEX 1: CLAUSE 2",
+        "contradicted_location": "ANNEX 1: CLAUSE 4",
+        "contradicted_text": "CLAUSE 4 OBLIGATIONS OF THE PARTIES 4.1 Obligations of the Senders: The following are obligations of the Sender: 4.1.1 Enter into Transportation Contracts with the Transporter.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Sender' with 'Shipper' in the definition of 'Transportation Agreement or Transportation Contract'. The contradicted text refers to 'Obligations of the Senders'. Since 'Sender' and 'Shipper' are used to define the same term, the changed text creates a contradiction because the document then refers to 'Senders', creating ambiguity as to who is subject to the 'Obligations of the Senders' (i.e., are the obligations of the Shippers and/or the Senders). This fits the definition of 'Misaligned Terminology - In Text Contradiction' where the contract 'uses multiple terms interchangeably without defining them, leading to conflicting obligations'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "3.3.2 Modalities in which payments can be made Payment commitments with ECOPETROL can be based on: ECOPETROL MANAGEMENT GUIDELINES FOR RECEIVABLES SERVICES ECP-UTE-G-008 \u00b7 Any client applying for a line of credit must be subject to a preapproval from the Business Unit providing the service or the division of ECOPETROL in charge of conducting the credit analysis.",
+        "changed_text": "3.3.2 Modalities in which payments can be made Payment commitments with ECOPETROL can be based on: ECOPETROL MANAGEMENT GUIDELINES FOR RECEIVABLES SERVICES ECP-UTE-G-008 \u00b7 Any Customer applying for a line of credit must be subject to a preapproval from the Business Unit providing the service or the division of ECOPETROL in charge of conducting the credit analysis.",
+        "explanation": "Here, changing 'client' to 'Customer' creates a contradiction because, throughout the document, the established term to denote the purchaser is 'client'. If this term is replaced for 'Customer', it isn't explicit that all other places in the document where it mentions 'client' is to be interpreted for 'Customer', this creates an in-text contradiction. This confusion might impact financial and legal obligations.",
+        "location": "ANNEX 2: 3.3.2",
+        "contradicted_location": "ANNEX 2: 3.2",
+        "contradicted_text": "3.2 Analysis of Credit Quality of the Client \u00b7 Who is the client? \u00b7 What reputation does it have in the market? \u00b7 What has been its history with ECOPETROL? \u00b7 What type of Business does it make? \u00b7 Does it have capacity to meet its commitments?",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces \"client\" with \"Customer\". The contradicted text uses the term \"client\" when referring to who the purchaser is. This directly leads to misaligned terminology, creating an in-text contradiction as defined by the Misaligned Terminology perturbation type."
+      }
+    ]
+  }
+]

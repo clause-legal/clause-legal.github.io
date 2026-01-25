@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "NDA_5.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "If Confidential Information is required to be produced by law, court order, or governmental authority, Participant must immediately notify Google of that obligation.",
+        "changed_text": "If Confidential Information is required to be produced by law, court order, or governmental authority, Participant should notify Google.",
+        "explanation": "Changing 'must' to 'should' weakens Participant's obligation to notify Google about legally required disclosures. This creates uncertainty and contradiction in the agreement, as it now becomes discretionary, contradicting the initial intent of protecting the confidential information. Google might find out too late to take action.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "If Confidential Information is required to be produced by law, court order, or governmental authority, Participant should notify Google of that obligation.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that the Participant 'must' notify Google, creating a clear obligation. The changed text weakens this obligation to 'should', making it discretionary. The contradicted text repeats the changed text ('should' notify Google). Even though the contradicted text is the same as the changed text, the modification from 'must' to 'should' weakens the obligation, directly contradicting the initial intent and creating a logical inconsistency within the agreement, especially given the Perturbation Explanation which states that 'Google might find out too late to take action', which causes a contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This Agreement shall remain in effect until such time as all Confidential Information of Google disclosed hereunder becomes publicly known and made generally available through no action or inaction of Participant.",
+        "changed_text": "This Agreement shall remain in effect for one year.",
+        "explanation": "By replacing the original duration clause with 'This Agreement shall remain in effect for one year,' it introduces a contradiction regarding the confidentiality's lifespan. The original text ties the agreement's duration to the confidentiality of the information. The new text sets a fixed one-year term. This contradicts the purpose of an NDA, which is to protect secrets for as long as they remain secret, irrespective of a fixed term. If confidential information becomes publicly available *before* the one-year mark, the confidentiality obligations should technically cease, but the fixed-term clause suggests otherwise. Conversely, if the information *remains* confidential beyond the one-year term, the obligations should arguably continue, which the fixed-term clause doesn't allow. The one year limit contradicts the initial goal.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "This Agreement shall remain in effect for one year.",
+        "contradiction_exists": "YES",
+        "justification": "The original text ties the agreement's duration to the confidentiality of the information, while the changed text sets a fixed one-year term. The contradicted text restates the one-year term. Therefore, the change from a condition-based duration to a fixed duration creates a direct conflict and contradiction because the duration can no longer be tied to confidentiality as specified in the original agreement's intent, leading to uncertainty and potential unenforceability if confidential information remains so beyond the one-year term."
+      }
+    ]
+  }
+]

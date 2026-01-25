@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "nistmodelndareceiptofproprietaryinformationv20162fillableforwebsitedoc003pdf.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement may be terminated immediately by either party upon delivery of written notice of termination to the other party. Such termination shall not affect NIST ’s duties with respect to Proprietary Information disclosed prior to termination.",
+        "changed_text": "This Agreement may be terminated immediately by either party upon delivery of written notice of termination to the other party. Such termination shall immediately affect NIST’s duties with respect to Proprietary Information disclosed prior to termination, absolving NIST of all confidentiality obligations from the moment of termination.",
+        "explanation": "Changing 'shall not affect' to 'shall immediately affect' introduces a contradiction. Paragraph 7 now states that termination both does and does not affect NIST's duties regarding Proprietary Information disclosed prior to termination, creating ambiguity about whether confidentiality obligations survive termination.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "This Agreement may be terminated immediately by either party upon delivery of written notice of termination to the other party. Such termination shall immediately affect NIST’s duties with respect to Proprietary Information disclosed prior to termination, absolving NIST of all confidentiality obligations from the moment of termination.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts itself. Paragraph 7 originally stated that termination 'shall not affect NIST’s duties', while the changed version states that termination 'shall immediately affect NIST’s duties'. The contradicted text is the same as the changed text, further illustrating that the changes created a self-contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "NIST shall keep the information confidential and shall use the Proprietary Information only for internal experimental purposes or evaluation of the Proprietary Information. NIST shall not make any copies of the Proprietary Information except as necessary for its employees who are entitled to review it under Section 1 above. Any copies which are made shall be identified as belonging to Discloser and marked as “confidential .”",
+        "changed_text": "NIST shall keep the information confidential unless directed otherwise by a valid court order and shall use the Proprietary Information only for internal experimental purposes or evaluation of the Proprietary Information. NIST shall make any copies of the Proprietary Information as it sees fit, even if it's not necessary for its employees who are entitled to review it under Section 1 above. Any copies which are made do not need to be identified as belonging to Discloser or marked as “confidential.”",
+        "explanation": "The altered text allows NIST to disregard confidentiality under court order and makes copying unrestricted, even if unnecessary. It also removes the requirement to mark copies as confidential or belonging to the Discloser. This contradicts the initial promise to 'keep the information confidential' and weakens the protection of the Discloser's proprietary rights.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "NIST shall keep the information confidential unless directed otherwise by a valid court order and shall use the Proprietary Information only for internal experimental purposes or evaluation of the Proprietary Information. NIST shall make any copies of the Proprietary Information as it sees fit, even if it's not necessary for its employees who are entitled to review it under Section 1 above. Any copies which are made do not need to be identified as belonging to Discloser or marked as “confidential.”",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the original intent of maintaining confidentiality. The original text strictly limits copies and requires marking them as confidential. The changed text removes these restrictions, allowing unrestricted copying and removal of confidentiality markings. The contradicted text is the same as the Changed Text. The Change text creates a contradiction because it goes against the initial promise to 'keep the information confidential' and weakens the protection of the Discloser's proprietary rights."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement imposes no obligation upon NIST with respect to information which (a) was in NIST ’s possession before receipt from Discloser; (b) is or becomes a matter of public knowledge through no fault of NIST; (c) is received by NIST from a third party without a duty of confidentiality; (d) is disclosed by Discloser to a third party without a duty of confidentiality on the third party; (e) is disclosed by NIST with Discloser ’s prior written approval or (f) is developed by NIST wit hout reference to the Proprietary Information disclosed hereunder.",
+        "changed_text": "This Agreement imposes obligations upon NIST with respect to information which (a) was in NIST’s possession before receipt from Discloser; (b) is or becomes a matter of public knowledge through no fault of NIST; (c) is received by NIST from a third party without a duty of confidentiality; (d) is disclosed by Discloser to a third party without a duty of confidentiality on the third party; (e) is disclosed by NIST with Discloser’s prior written approval or (f) is developed by NIST without reference to the Proprietary Information disclosed hereunder.",
+        "explanation": "Changing \"no obligation\" to \"obligation\" in the introductory phrase creates a direct contradiction. It now states that the listed situations DO impose an obligation when the original text said they did not. This creates uncertainty about the exclusions of NIST's obligations.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "This Agreement imposes obligations upon NIST with respect to information which (a) was in NIST’s possession before receipt from Discloser; (b) is or becomes a matter of public knowledge through no fault of NIST; (c) is received by NIST from a third party without a duty of confidentiality; (d) is disclosed by Discloser to a third party without a duty of confidentiality on the third party; (e) is disclosed by NIST with Discloser’s prior written approval or (f) is developed by NIST without reference to the Proprietary Information disclosed hereunder.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the agreement imposes 'no obligation' on NIST under certain conditions. The changed text alters this to impose 'obligations'. The contradicted text mirrors the changed text, imposing obligations where the original text did not. This creates a direct and strong in-text contradiction by reversing the core obligation, making the agreement internally inconsistent and potentially unenforceable."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "NIST shall not disclose the Proprietary Information to any of its employees other than those who have a need to review it and which employees are legally obligated to honor the confidentiality provisions herein.",
+        "changed_text": "NIST may disclose the Proprietary Information to any of its employees, regardless of whether they have a need to review it or are legally obligated to honor the confidentiality provisions herein.",
+        "explanation": "This change directly contradicts the original clause by allowing NIST to disclose proprietary information to any employee, removing the requirement for a 'need to review' and legal obligation to confidentiality. This creates a significant risk of unauthorized disclosure and undermines the entire purpose of the NDA.",
+        "location": "1",
+        "contradicted_location": "1",
+        "contradicted_text": "NIST may disclose the Proprietary Information to any of its employees, regardless of whether they have a need to review it or are legally obligated to honor the confidentiality provisions herein.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text allows NIST to disclose proprietary information to any employee without requiring a 'need to review' or a legal obligation to maintain confidentiality. The contradicted text is identical to the changed text, meaning that the change makes it so that NIST can disclose proprietary information regardless of an employee's need or legal obligation, contradicting the original clause that required a 'need to review' and a legal obligation to confidentiality. This constitutes a strong, direct contradiction, fitting the definition of 'Structural Flaws - In Text Contradiction' because the clause is placed in multiple locations with conflicting implications."
+      }
+    ]
+  }
+]

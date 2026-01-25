@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "contrato_ingles_corporativo_mal.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "It is agreed that “INTERMEDI ARY” or “PRODUCER” will not contact in any way or manner any Party introduced by the other party to the Agreement without the prior written agreement of the other Party. The clients, companies, opportunities.. that will be introduced for each part for the other will be collected on the part AI of this NDCA.",
+        "changed_text": "It is agreed that “INTERMEDI ARY” or “PRODUCER” will not contact in any way or manner any Party introduced by the other party to the Agreement without the prior written agreement of the other Party.",
+        "explanation": "Removing the sentence 'The clients, companies, opportunities.. that will be introduced for each part for the other will be collected on the part AI of this NDCA' creates an in-text contradiction with the Appendix A.I. This is due to A.I reffering to something missing in the text.",
+        "location": "WHEREAS clause",
+        "contradicted_location": "A.I CLIENTS / COMPANIES / OPPORTUNITIES",
+        "contradicted_text": "A.I CLIENTS / COMPANIES / OPPORTUNITIES",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that clients, companies, and opportunities will be collected on 'part AI' of the NDCA. The changed text removes this sentence. Consequently, 'A.I CLIENTS / COMPANIES / OPPORTUNITIES', which appears in the 'Contradicted Text' section, now refers to something undefined and missing from the contract. This is a strong in-text contradiction because Appendix A.I is referencing something that no longer exists in the agreement, rendering A.I meaningless and creating a direct conflict."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "NOW THEREFORE , in consideration of the foregoing the Parties hereby agree as follows: 1. For purposes hereunder, \"Confidential Information\" is defined as and includes the following: all inventions, know -how, discoveries and improvements, whether or not patentable, computer programmes, designs, drawings, specifications, reports, manuals, documents, memoranda, coordination sheets, and all other information of a technical nature, as well as business, planning, marketing and financial information relative to the Project, which are the property of the Transmitter, as hereinafter defined, who decide to disclose the proper and Documento: Non Circumvention and Non -Disclosure Agreement 2 adequate Confidential Information and so indicates by an appropriate legend, marking, stam p or other positive written identification as hereinafter set forth.",
+        "changed_text": "NOW THEREFORE , in consideration of the foregoing the Parties hereby agree as follows: 1. For purposes hereunder, \"Confidential Information\" includes information of a technical nature, as well as business, planning, marketing and financial information relative to the Project.",
+        "explanation": "By severely reducing the definition of \"Confidential Information,\" the contract introduces an internal contradiction. This is because several clauses (e.g., clause 7 regarding marking documents as 'Confidential Information') now lack sufficient context. Specifically, by removing inventions, know-how, discoveries and improvements, whether or not patentable, computer programmes, designs, drawings, specifications, reports, manuals, documents, memoranda, coordination sheets, the criteria by which information is disclosed can now be heavily argued due to the lack of specificity. This has the highest impact on clause 7.",
+        "location": "Section 1",
+        "contradicted_location": "Section 7",
+        "contradicted_text": "Any document containing Co nfidential Information disclosed by the Transmitter to the Recipient shall be so identified with the following notice by means of a rubber stamp and/or written or printed indication appropriately and apparently placed on the document: \"Confidential Informa tion\" or “Confidential”.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text significantly reduces the definition of 'Confidential Information' by omitting several key items such as 'inventions, know -how, discoveries and improvements, whether or not patentable, computer programmes, designs, drawings, specifications, reports, manuals, documents, memoranda, coordination sheets'. This creates a contradiction with the contradicted text, which states that any document containing Confidential Information disclosed by the Transmitter to the Recipient shall be identified with a 'Confidential Information' stamp. Because the definition is narrowed, it's now unclear what qualifies for stamping, and the act of defining what is confidential becomes more subjective and open to interpretation, which directly conflicts with the original intent and creates a strong in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "2. Each Party hereby agrees that he or she will not make any c ontract with or otherwise be involved in any transaction(s) relating to the Project with any Purchaser, Lender, and Developer, Technology or other party, introduced by INTERMEDIARY or PRODUCER without specific and agreed permission of the latter.",
+        "changed_text": "2. Each Party hereby agrees that he or she will not make any c ontract with or otherwise be involved in any transaction(s) relating to the Project with any party, introduced by INTERMEDIARY or PRODUCER without specific permission.",
+        "explanation": "By removing the description of the 'Purchaser, Lender, and Developer, Technology or other party', now the 'any party' lacks context. As the contract states that without 'specific permission' parties introduced by INTERMEDIARY or PRODUCER cannot be reached out to, there is now a loop hole, on what is to be understood of 'party'.",
+        "location": "Section 2",
+        "contradicted_location": "Section 5",
+        "contradicted_text": "5. The Parties agree that absolutely no effort shall be made to circumvent the Agreement in any way or manner to gain fees, commissions, remuneration(s) or other such considerations to the benefit of a Party of the Agreement and/or the Purchaser except mutually and previously agreed by the Parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified 'Purchaser, Lender, and Developer, Technology or other party', providing a clear scope. The changed text removes this specific list, replacing it with 'any party,' which introduces ambiguity. This broader, less defined scope of 'any party' creates a loophole regarding what constitutes a prohibited contact, which now contradicts section 5. Section 5 aims to prevent circumventing the agreement to gain fees, but the revised section 2 weakens this protection by making it less clear who is covered by the restriction on contacting parties introduced by INTERMEDIARY or PRODUCER. This contradicts section 5, which expects a clear definition of parties that are not to be contacted. The missing context creates uncertainty, thereby contradicting the intention of section 5."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "12. The Agreement shall be governed by and interpreted in accordance with Spanish laws (including those relative to exportation and re -exportation of Confidential Information).",
+        "changed_text": "12. The Agreement shall be governed by and interpreted in accordance with laws.",
+        "explanation": "By removing the specific reference to 'Spanish laws (including those relative to exportation and re -exportation of Confidential Information)', the governing law becomes undefined. This creates an in-text contradiction with Section 13, which specifies the arbitration location as Madrid, Spain, implying Spanish law.",
+        "location": "Section 12",
+        "contradicted_location": "Section 13",
+        "contradicted_text": "13. Any dispute in any way arising out of or in connection with the i nterpretation or performance of the Agreement, which cannot be settled within a reasonable period of time by exercising the reasonable best efforts and good faith of the Parties, shall be finally settled under the Rules of Conciliation and Arbitration of the International Chamber of Commerce by one or more arbitrators, provided they are in odd number, appointed in accordance with the said Rules. The arbitration shall be located at Madrid, Spain.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified that Spanish laws govern the agreement, including exportation and re-exportation of Confidential Information. The changed text removes the specific reference to 'Spanish laws,' making the governing law undefined. This creates a contradiction with Section 13, which states that the arbitration shall be located at Madrid, Spain, implying Spanish law as the governing law. The undefined governing law in the changed text of Section 12 now contradicts the implicitly defined governing law in Section 13."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "All Parties duly endorsed on this Agreement agree and acknowledge that a financial penalty may be imposed on any one Party up to Fiv e Million USD Dollars for any or all violations of this NON CIRCUMVENTION & NON DISCLOSURE AGREEMENT.",
+        "changed_text": "All Parties duly endorsed on this Agreement agree and acknowledge that a financial penalty may be imposed on any one Party for any or all violations of this NON CIRCUMVENTION & NON DISCLOSURE AGREEMENT.",
+        "explanation": "By removing the phrase \"up to Five Million USD Dollars\", the financial penalty for violations becomes undefined. This omission creates an in-text contradiction because while the clause states a penalty *may* be imposed, the lack of a specified maximum amount makes the enforceability of the penalty uncertain and potentially unenforceable. The actual financial penalty may be subject to interpretation or challenge in court, creating uncertainty regarding the remedy for a breach of the agreement.",
+        "location": "Last Paragraph",
+        "contradicted_location": "Last Paragraph",
+        "contradicted_text": "All Parties duly endorsed on this Agreement agree and acknowledge that a financial penalty may be imposed on any one Party for any or all violations of this NON CIRCUMVENTION & NON DISCLOSURE AGREEMENT. The Agreement is effective as of June 1, 2013 Documento: Non Circumvention and Non -Disclosure Agreement 4 IN WITNESS WHEREOF, each Party hereto has executed the Agreement as of day and year first above written.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies a maximum penalty of Five Million USD Dollars. The changed text removes this limit, making the financial penalty undefined. The contradicted text repeats the same clause as the changed text, so the contradiction exists within the same section. By removing the upper limit, the enforcement becomes uncertain, as there is no specified amount, creating an in-text contradiction according to the definition of 'Omissions - In Text Contradiction'. Therefore, the changed text creates a contradiction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "PlayboyEnterprisesInc_20090220_10-QA_EX-10.2_4091580_EX-10.2_Content License Agreement_ Marketing Agreement_ Sales-Purchase Agreement2.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "By execution of this Supplier/Subcontractor Contract (\"Contract\"), _______________ (\"Supplier\") agrees and acknowledges that: (i) all images and/or trademarks, including, but not limited to PLAYBOY, (the \"Playboy Properties\") applied at the request of _______________ (\"Purchaser\") to merchandise covered by this Contract are owned by Playboy Enterprises International, Inc. (\"Playboy\"), and when used upon merchandise means that such merchandise is sponsored, approved, recommended or sold by Playboy or its licensees",
+        "changed_text": "By execution of this Vendor/Subcontractor Contract (\"Contract\"), _______________ (\"Supplier\") agrees and acknowledges that: (i) all images and/or trademarks, including, but not limited to PLAYBOY, (the \"Playboy Properties\") applied at the request of _______________ (\"Client\") to merchandise covered by this Contract are owned by Playboy Enterprises International, Inc. (\"Playboy\"), and when used upon merchandise means that such merchandise is sponsored, approved, recommended or sold by Playboy or its licensees",
+        "explanation": "Replacing 'Purchaser' with 'Client' and 'Supplier' with 'Vendor' creates uncertainty. Throughout the document, the original terms Purchaser and Supplier are used to define responsibilities and obligations. Changing these to Client and Vendor respectively, without defining them as interchangeable, generates confusion about which entity is bound by the contract terms. This in-text contradiction could lead to disputes over who bears responsibility for specific obligations, such as ordering and payment.",
+        "location": "1",
+        "contradicted_location": "2",
+        "contradicted_text": "Supplier further agrees that it will not produce, cause to be produced or assist in the production of more units than are specified by Purchaser nor will Supplier produce, cause to be produced or assist in the production of any product or item not specifically requested by Purchaser using any or all of the Playboy Properties or any trademark, copyright, designations, names, phrases, designs or symbols similar to any or all of the Playboy Properties during or at any time after the completion of merchandise requested by this Contract.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces 'Vendor' and 'Client' in place of 'Supplier' and 'Purchaser' respectively. The contradicted text refers specifically to 'Supplier' and 'Purchaser' defining their obligations. The change creates ambiguity because it is unclear whether 'Vendor' and 'Client' have the same obligations as 'Supplier' and 'Purchaser'. The contradiction arises because the contract now lacks clarity on who is responsible for the actions outlined in the contradicted text, particularly regarding production limits and requests. This ambiguity creates a strong in-text contradiction as defined by 'Misaligned Terminology - In Text Contradiction'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Supplier will, upon request from Purchaser or Playboy, deliver to Purchaser or will destroy in the presence of Purchaser or its representative(s), all molds, designs or any other elements used in reproducing any or all of the Playboy Properties.",
+        "changed_text": "Vendor will, upon request from Client or Playboy, deliver to Purchaser or will destroy in the presence of Purchaser or its representative(s), all molds, designs or any other elements used in reproducing any or all of the Playboy Properties.",
+        "explanation": "By changing Supplier to Vendor and Purchaser to Client only in this section, there's now direct conflict. If Client requests, Vendor must deliver to Purchaser, but Vendor and Purchaser were orignally Supplier and therefore the same, it is now uncertain who fulfills the duty of delivery or destruction and to whom the delivery should be made. This creates an in-text contradiction that could prevent enforceability.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Vendor will, upon request from Client or Playboy, deliver to Purchaser or will destroy in the presence of Purchaser or its representative(s), all molds, designs or any other elements used in reproducing any or all of the Playboy Properties.",
+        "contradiction_exists": "YES",
+        "justification": "The change introduces misaligned terminology by altering 'Supplier' to 'Vendor' and 'Purchaser' to 'Client' in one section of the contract but not in the contradicted section, which is essentially the same clause, creating uncertainty as to who is obligated to deliver or destroy the materials and to whom they should be delivered. This is a direct conflict and falls under the definition of 'Misaligned Terminology - In Text Contradiction' as it uses multiple terms interchangeably without consistent definitions, leading to conflicting obligations. The original clause had the same terms and obligations throughout the contract initially, but the change has caused them to not align."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Contract, when attached to a purchase order, shall consist of the entire agreement between the parties and shall supersede any conflicting or contrary terms and conditions of any purchase order or other order form whether supplied by Purchaser or Supplier.",
+        "changed_text": "This Contract, when attached to a purchase order, shall consist of the entire agreement between the parties and shall supersede any conflicting or contrary terms and conditions of any purchase order or other order form whether supplied by Customer or Contractor.",
+        "explanation": "Replacing 'Purchaser' with 'Customer' and 'Supplier' with 'Contractor' only in this section introduces misaligned terminology. Section 1 defined Purchaser as 'Client' and Supplier as 'Vendor', so now with this change, there is a misaligment by which it's impossible to know with the document in hand, if Customer == Client and Contractor == Vendor, therfore there is a risk of creating a conflict that creates uncertanity.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "This Contract, when attached to a purchase order, shall consist of the entire agreement between the parties and shall supersede any conflicting or contrary terms and conditions of any purchase order or other order form whether supplied by Customer or Contractor.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text replaces 'Purchaser' with 'Customer' and 'Supplier' with 'Contractor' in a section designed to supersede conflicting terms. The 'Contradicted Text' is actually the same section but it's there to point out the contradiction that will happen elsewhere in the document. The 'Perturbation Explanation' makes it clear that the new terms, 'Customer' and 'Contractor', are not defined as 'Client' and 'Vendor' respectively (as the original 'Purchaser' and 'Supplier' were) which will cause a misaligment by which it's impossible to know with the document in hand, if Customer == Client and Contractor == Vendor, therfore there is a risk of creating a conflict that creates uncertanity. Since the contract uses terminology in a misaligned way, and that leads to potentially conflicting obligations in other sections as referenced by the given explanation. This aligns with the Misaligned Terminology definition causing in-text contradictions. Therefore there is a contradiction in the document."
+      }
+    ]
+  }
+]

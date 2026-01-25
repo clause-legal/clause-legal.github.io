@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "vmw-certification-conduct-policy.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Recipient agrees to comply with all United States export controls with respect to the Confidential Information.",
+        "changed_text": "Recipient agrees to comply with applicable export controls.",
+        "explanation": "Removing the specific reference to 'United States' export controls broadens the scope but also creates uncertainty. While it could be interpreted to include US export controls, it might also be argued that it only refers to other countries' export laws, creating a potential contradiction if the Recipient only complies with non-US laws when the agreement originated in the US.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Paragraph 2",
+        "contradicted_text": "This Agreem ent shall be governed by and construed and enforced in accordance with the laws of the State of California as they apply to contracts entered into and wholly to be performed in the State of California. The federal and state courts within the State of Calif ornia shall have exclusive jurisdiction to adjudicate any dispute arising out of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies compliance with 'United States export controls,' while the changed text broadens this to 'applicable export controls.' This creates a potential contradiction because the contradicted text specifies that California law governs the agreement and that jurisdiction lies within California. If the 'applicable export controls' in the changed text are interpreted as solely non-US laws, it would contradict the intention that US laws, including US export controls, should govern the agreement and potential disputes within the California jurisdiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Recipient hereby acknowledges that unauthorized disclosure or use of Confidential Information could cause irreparable harm an d significant injury which may be difficult to ascertain. Accordingly, Recipient agrees that the Company shall have the right to seek and obtain immediate injunctive relief from breaches of this Agreement, in addition to any other rights and remedies it may have.",
+        "changed_text": "Recipient agrees that the Company may seek remedies for breaches of this Agreement.",
+        "explanation": "Removing the acknowledgment of 'irreparable harm' and 'difficult to ascertain' damage significantly weakens the Company's case for injunctive relief. It removes the factual basis upon which the right to seek immediate injunctive relief is built, contradicting the implicit assumption that injunctive relief is readily available. The original text emphasizes potential harm, whilst the new text makes no assumptions to the level or extent of the harm.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "Recipient agrees that the Company may seek remedies for breaches of this Agreement. This Agreem ent shall be governed by and construed and enforced in accordance with the laws of the State of California as they apply to contracts entered into and wholly to be performed in the State of California.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly acknowledges 'irreparable harm' and 'difficult to ascertain' damage, which supports the right to seek immediate injunctive relief. The changed text removes this acknowledgment, weakening the legal basis for injunctive relief as stated in the explanation. This omission creates a contradiction with the implicit assumption that injunctive relief is readily available, which is now undermined by the lack of acknowledgment of potential harm. Therefore, the change contradicts the contradicted text."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Prior to taking YOUR exam, you will be required to accept the terms and conditions of the VMware NONDISCLOSURE AGREEMENT (NDA). You will view the agreement on screen before the exam starts.",
+        "changed_text": "Prior to taking YOUR exam, you will be required to accept the terms.",
+        "explanation": "The removal of 'and conditions of the VMware NONDISCLOSURE AGREEMENT (NDA). You will view the agreement on screen before the exam starts.' creates uncertainty as to what terms the user is agreeing to. In the following sentence 'If you choose NOT to agree to the NONDISCLOSURE AGREEMENT (NDA) after you select Begin Exam, your exam will be immediately cancelled and you will forfeit your e xam fee.', there is a contradiction because the user is not explicitly agreeing to the terms of the VMware NONDISCLOSURE AGREEMENT (NDA).",
+        "location": "Paragraph 3",
+        "contradicted_location": "Paragraph 3",
+        "contradicted_text": "If you choose NOT to agree to the NONDISCLOSURE AGREEMENT (NDA) after you select Begin Exam, your exam will be immediately cancelled and you will forfeit your e xam fee. BY CLICKING THE “YES, I AGREE” BUTTON ON THE EXAM ENTRY SCREEN, YOU STATE THAT YOU HAVE READ AND UNDERSTAND THIS AGREEMENT AND THAT YOU AGREE TO BE BOUND BY ITS TERMS AND C ONDITIONS. IF YOU SELECT THE \"NO, I DO NOT AGREE\" BUTTON, YOU WILL BE EXITED FROM THE EXAM.",
+        "contradiction_exists": "YES",
+        "justification": "The original text clearly states the user will agree to the 'VMware NONDISCLOSURE AGREEMENT (NDA)'. The changed text removes this specific reference, only requiring agreement to 'terms'. The contradicted text refers specifically to agreeing to the 'NONDISCLOSURE AGREEMENT (NDA)'. The change introduces a contradiction because the user may now be agreeing to unspecified terms rather than the specific NDA mentioned in the contradicted text, creating ambiguity about what agreement is being referenced and potentially making the agreement unenforceable as it's unclear what the user agreed to."
+      }
+    ]
+  }
+]

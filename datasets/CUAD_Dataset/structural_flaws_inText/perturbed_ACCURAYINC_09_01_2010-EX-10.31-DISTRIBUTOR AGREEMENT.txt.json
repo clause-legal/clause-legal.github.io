@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "1. DEFINITIONS. Capitalized terms used, but not defined herein, shall have the meaning provided in the Strategic Alliance Agreement. The following terms, as used herein, have the following meaning: 1.1. \"Accuray Regions\" means Accuray's sales regions (as of the Effective Date) of the Americas (North America and South America), APAC (Asia Pacific, including Australia and other than India and Japan), EIMEA (Europe, India, Middle East, and Africa), and Japan.",
+        "changed_text": "1. DEFINITIONS. Capitalized terms used, but not defined herein, shall have the meaning provided in the Strategic Alliance Agreement. The following terms, as used herein, have the following meaning: 1.1. \"Accuray Regions\" means Accuray's sales regions (as of the Effective Date) of the Americas (North America only), APAC (Asia Pacific, including Australia and other than India and Japan), EIMEA (Europe, India, Middle East, and Africa), and Japan.",
+        "explanation": "The definition of \"Accuray Regions\" in Section 1.1 originally included both North and South America within the 'Americas' region. The modification restricts it to only North America. This creates a contradiction later in the contract if South America is explicitly referenced in the context of 'Accuray Regions', for example in section 2.3.1 which mentions 'the Accuray Region in which the Customer is located'. If the customer is located in South America it is unclear what Accuray region they belong to, as it has been excluded from the Americas region in the modified definition.",
+        "location": "1.1",
+        "contradicted_location": "2.3.1",
+        "contradicted_text": "2.3.1. Opportunity. Once Distributor has identified a Customer opportunity in connection with a Multiple LINAC or Multi-Modality Purchase, it shall request a Quote from Accuray based on the Product configuration and Services requested by the Customer and the Accuray Region in which the Customer is located, and shall include such other information regarding the Customer and the proposed opportunity as Accuray may reasonably request.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the definition of 'Accuray Regions' to exclude South America from the 'Americas' region. The contradicted text, Section 2.3.1, refers to 'the Accuray Region in which the Customer is located.' If a customer is located in South America, the modified definition creates a contradiction because South America is no longer explicitly part of any defined 'Accuray Region' within 'Americas' after the change, causing uncertainty about which region the customer belongs to. This directly impacts the determination of the relevant quote from Accuray, as the Accuray Region is a factor in determining this quote, creating a direct conflict between the definition and the referenced section."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "5. COMPENSATION AND PAYMENT 5.1. Orders. Distributor shall make an offer to a Customer based on the Quote provided by Accuray pursuant to the process set forth in Section 2.3. Submission and acceptance of an order shall be completed pursuant to Section 2.3.3.",
+        "changed_text": "5. COMPENSATION AND PAYMENT 5.1. Orders. Distributor shall make an offer to a Customer based on the Quote provided by Accuray pursuant to the process set forth in Section 2.3. Submission and acceptance of an order shall be completed pursuant to Section 2.3.3, except for orders originating from customers within the EIMEA region, where orders are finalized upon Distributor's internal approval, regardless of Accuray's Quote.",
+        "explanation": "The modification in Section 5.1 adds an exception that for the EIMEA region, the distributor's internal approval is sufficient for finalizing orders, regardless of Accuray's quote. This directly contradicts the initial statement that orders are based on Accuray's Quote and section 2.3 which outlines a process that requires Accuray's approval, therefore creating an in-text contradiction. The new condition bypasses section 2.3.",
+        "location": "5.1",
+        "contradicted_location": "2.3",
+        "contradicted_text": "2.3. Quote and Purchase Process. Distributor acknowledges and agrees that Accuray will determine the appropriate quote process to be observed by the parties under this Agreement and may amend this process (other than the approval rights set forth in Section 2.3.2) as notified to the Distributor reasonably in advance. In addition, Distributor acknowledges that each proposed sale of a Product or Service under this Agreement is subject to the approval rights of Accuray set forth in Section 2.3.2. Accuray and Distributor will comply with the following process for making sales of Products and Services in connection with Multiple LINAC or Multi-Modality Purchases:",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 5.1 introduces an exception for EIMEA region orders, allowing them to be finalized based solely on the distributor's internal approval, bypassing Accuray's quote and approval process outlined in Section 2.3. This directly contradicts Section 2.3, which states that all sales are subject to Accuray's approval rights. The addition creates an in-text contradiction as the distributor can bypass the previously established approval rights of Accuray."
+      }
+    ]
+  }
+]

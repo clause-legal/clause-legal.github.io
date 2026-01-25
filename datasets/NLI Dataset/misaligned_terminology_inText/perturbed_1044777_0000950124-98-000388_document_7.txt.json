@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "1044777_0000950124-98-000388_document_7.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "If no satisfactory arrangement is concluded between the parties, or if otherwise requested by VASCO, HUCOM agrees to return to VASCO any written disclosure of CONFIDENTIAL INFORMATION provided by VASCO plus any copies, notes, summaries or other materials derived from the CONFIDENTIAL INFORMATION.",
+        "changed_text": "If no satisfactory arrangement is concluded between the parties, or if otherwise requested by VASCO, HUCOM agrees to return to VASCO any written disclosure of SECURE DATA provided by VASCO plus any copies, notes, summaries or other materials derived from the SECURE DATA.",
+        "explanation": "The use of 'SECURE DATA' instead of 'CONFIDENTIAL INFORMATION' creates a direct contradiction. HUCOM is expected to return 'SECURE DATA', but the agreement focuses on 'CONFIDENTIAL INFORMATION'. Without a clear definition, enforcement is uncertain.",
+        "location": "Paragraph 3",
+        "contradicted_location": "Paragraph 3",
+        "contradicted_text": "If no satisfactory arrangement is concluded between the parties, or if otherwise requested by VASCO, HUCOM agrees to return to VASCO any written disclosure of SECURE DATA provided by VASCO plus any copies, notes, summaries or other materials derived from the SECURE DATA.",
+        "contradiction_exists": "YES",
+        "justification": "The original text uses 'CONFIDENTIAL INFORMATION'. The changed text replaces this with 'SECURE DATA'. The contradicted text then repeats the 'SECURE DATA'. The explanation notes that this replacement creates a contradiction because the agreement focuses on 'CONFIDENTIAL INFORMATION', so now there is conflict over which term applies. Therefore, based on the Perturbation Explanation given, the change creates a clear in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "VASCO DATA SECURITY, INC. HUCOM, INC.",
+        "changed_text": "VASCO INFORMATION SECURITY, INC. HUCOM, INC.",
+        "explanation": "Changing 'VASCO DATA SECURITY, INC.' to 'VASCO INFORMATION SECURITY, INC.' introduces a potential contradiction. The document refers to a specific legal entity, 'VASCO DATA SECURITY, INC.' Changing the name implies a different entity, potentially invalidating the agreement if the incorrect entity is listed, or creating a contradiction on which entity is actually signing the agreement. The change generates uncertainty about which company is bound by the terms.",
+        "location": "Signature Block",
+        "contradicted_location": "Signature Block",
+        "contradicted_text": "VASCO INFORMATION SECURITY, INC. HUCOM, INC.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'VASCO DATA SECURITY, INC.' to 'VASCO INFORMATION SECURITY, INC.' directly contradicts the contradicted text, which states 'VASCO INFORMATION SECURITY, INC.'. While the original text identified one legal entity, the changed text creates an inconsistency about which company is bound by the contract. The explanation provided underscores that changing the name implies a different legal entity. This falls under 'Misaligned Terminology - In Text Contradiction' where the change creates uncertainty and potential invalidation of the agreement."
+      }
+    ]
+  }
+]

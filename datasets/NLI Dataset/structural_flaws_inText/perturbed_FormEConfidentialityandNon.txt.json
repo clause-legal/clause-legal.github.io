@@ -1,0 +1,18 @@
+[
+  {
+    "file_name": "FormEConfidentialityandNon.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "5. No Warranty . Neither PHCS nor its Representatives make any representations or warranties as to the accuracy or completeness of the Confidential Information. Each Recipient agree s that neither PHCS nor any of its Representatives shall have any liability to the Recipient or its Representatives resulting from the use of the Confidential Information supplied by PHCS or any of its Repres entatives.",
+        "changed_text": "5. No Warranty. Neither PHCS nor its Representatives make any representations or warranties as to the accuracy or completeness of the Confidential Information, except for assurances that the information, to the best of their knowledge, does not infringe upon any third-party patents or copyrights. Each Recipient agrees that neither PHCS nor any of its Representatives shall have any liability to the Recipient or its Representatives resulting from the use of the Confidential Information supplied by PHCS or any of its Representatives.",
+        "explanation": "This change modifies the 'No Warranty' clause to introduce an exception: PHCS warrants that the confidential information does not infringe on third-party patents or copyrights. This contradicts the initial general disclaimer of all warranties, creating confusion about the extent of PHCS's liability. This inturn, contradicts what falls under Confidential Information",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "No Warranty. Neither PHCS nor its Representatives make any representations or warranties as to the accuracy or completeness of the Confidential Information, except for assurances that the information, to the best of their knowledge, does not infringe upon any third-party patents or copyrights. Each Recipient agrees that neither PHCS nor any of its Representatives shall have any liability to the Recipient or its Representatives resulting from the use of the Confidential Information supplied by PHCS or any of its Representatives.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states 'Neither PHCS nor its Representatives make any representations or warranties as to the accuracy or completeness of the Confidential Information'. The changed text modifies this by adding 'except for assurances that the information, to the best of their knowledge, does not infringe upon any third-party patents or copyrights.' This creates a contradiction because it introduces a specific warranty (non-infringement) where previously there were no warranties at all. This is a structural flaw that causes an in-text contradiction, as a clause is placed in multiple locations (the original clause and the modified clause) with conflicting implications. The contradicted text is the same as the changed text, which demonstrates the contradiction since the changed text alters the original meaning and creates an exception to the 'No Warranty' clause, which is contradictory in itself."
+      }
+    ]
+  }
+]

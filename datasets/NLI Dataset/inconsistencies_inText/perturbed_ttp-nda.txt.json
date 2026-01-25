@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "ttp-nda.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Recipient shall promptly return or destroy all documents and tangible items in its possession which contain any part of the Confidential Information of Discloser.",
+        "changed_text": "Recipient shall promptly return or destroy all documents and tangible items in its possession which contain any part of the Confidential Information of Discloser, unless otherwise agreed upon in writing by both parties.",
+        "explanation": "This change adds an exception to the requirement to return or destroy Confidential Information upon termination, allowing the parties to agree otherwise in writing. This introduces a contradiction with Section 5, which states that all Confidential Information remains the property of the Discloser. By potentially allowing the Recipient to retain the information, this weakens the Discloser's ownership rights and creates an inconsistency. If the information isn't returned/destroyed, but stays with the Recipient, that implies the ownership of the confidential information might have shifted, thus contradicting section 5.",
+        "location": "7",
+        "contradicted_location": "5",
+        "contradicted_text": "All Confidential Information remains th e property of the Discloser and/or its licensors.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an exception to the requirement to return or destroy Confidential Information, stating 'unless otherwise agreed upon in writing by both parties.' This directly contradicts the contradicted text, which states 'All Confidential Information remains the property of the Discloser.' Allowing the Recipient to retain the information by written agreement fundamentally undermines the Discloser's ownership rights as stated in the contradicted text, because even though the information remains the property of the discloser, the recipient still has it. This creates a clear inconsistency regarding control and ownership of the Confidential Information, aligning with the 'Inconsistencies - In Text Contradiction' perturbation type because different sections of a contract provide conflicting obligations."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "All Confidential Information is provided AS IS, WITHOUT WARRANTY OF ANY KIND, WHETHER EXPRESS OR IMPLIED.",
+        "changed_text": "All Confidential Information is provided AS IS, WITHOUT WARRANTY OF ANY KIND, WHETHER EXPRESS OR IMPLIED, unless such information is deliberately misleading.",
+        "explanation": "This change introduces an exception to the disclaimer of warranty. By stating that the 'AS IS' warranty doesn't apply if the information is deliberately misleading, it opens the door for claims against the Discloser. This contradicts the intention of Section 9 (Limitation of Liability) which aims to limit the Discloser's liability for the recipient's use, or inability to use confidential information. Now with the added exception, discloser can be liable for the confidential information, if proven deliberately misleading, which creates an in-text contradiction with section 9.",
+        "location": "8",
+        "contradicted_location": "9",
+        "contradicted_text": "IN NO EVENT SHALL DISCLOSER BE LIABLE FOR ANY DAMAGES WHATSOEVER (INCLUDING WITHOUT LIMITATION DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, OR OT HER PECUNIARY LOSS) ARISING OU T OF RECIPIENT'S USE OF OR INABILITY TO USE THE CONFIDENTIAL INFORMATION.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds an exception to the 'AS IS' warranty for deliberately misleading information. The original text provides that all Confidential Information is provided AS IS, WITHOUT WARRANTY OF ANY KIND, WHETHER EXPRESS OR IMPLIED. The modified text adds 'unless such information is deliberately misleading'. This directly contradicts the Contradicted Text: 'IN NO EVENT SHALL DISCLOSER BE LIABLE FOR ANY DAMAGES WHATSOEVER (INCLUDING WITHOUT LIMITATION DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, OR OT HER PECUNIARY LOSS) ARISING OU T OF RECIPIENT'S USE OF OR INABILITY TO USE THE CONFIDENTIAL INFORMATION.' The exception to the warranty creates a scenario where the Discloser *can* be liable, which directly conflicts with the 'IN NO EVENT' clause. This introduces an in-text contradiction as per the 'Inconsistencies - In Text Contradiction' definition where different sections of a contract provide conflicting obligations."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "In any legal proceeding arising out of this Agreement, the prevailing party shall be entitled to an award of its costs and reasonabl e attorneys' fees.",
+        "changed_text": "In any legal proceeding arising out of this Agreement concerning Confidential Information, the prevailing party shall be entitled to an award of its costs and reasonabl e attorneys' fees. However, if the Recipient is found to have disclosed Confidential Information unintentionally, each party shall bear its own costs.",
+        "explanation": "This change adds an exception to the prevailing party clause. While the original states the prevailing party receives costs and fees, this amendment introduces a situation where, if the Recipient's disclosure was unintentional, they don't have to pay the Discloser's fees even if they lose. This now contradicts the original statement that unconditionally awards fees and costs to the prevailing party, and introduces a contradiction with the existing blanket rule that the prevailing party would receive cost, and fee payment regardless of intention.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "a. This Agreement shall be governed and construed in ac cordance with the laws of Utah (without regard to conflicts of laws provisions). In any legal proceeding arising out of this Agreement concerning Confidential Information, the prevailing party shall be entitled to an award of its costs and reasonabl e attorneys' fees. However, if the Recipient is found to have disclosed Confidential Information unintentionally, each party shall bear its own costs. The parties agree that Utah state and federal courts shall have jurisd iction and venue in any such proceeding.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stipulates that the prevailing party in any legal proceeding arising from the agreement is entitled to costs and attorneys' fees. The changed text introduces an exception: if the Recipient unintentionally discloses Confidential Information, each party bears its own costs, even if the Discloser prevails. This exception directly contradicts the original blanket statement. The contradicted text contains both the general rule and the exception, creating a direct in-text inconsistency as the two provisions are in the same location and conflict."
+      }
+    ]
+  }
+]

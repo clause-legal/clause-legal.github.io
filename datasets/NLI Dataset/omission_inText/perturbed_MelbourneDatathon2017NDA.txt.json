@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "MelbourneDatathon2017NDA.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "In this deed , the term Confidential Information means any and all information disclosed by Nostra Data to the Confidant in any form (including verbally, electronically, visually, in writing or in any other tangible form , and all copies of any such information ), which is identified as, notified as being, or which would be reasonably expected to be, confidential or proprietary to NostraData . Confidential Information includes any data, software, software documentation, source code , documentation for functional specific ations, development guidelines , inventions, training materials, third party confidential information , and any information about NostraData which is disclosed to the Confidant in connection with the Datathon .",
+        "changed_text": "In this deed, the term Confidential Information means any and all information disclosed by Nostra Data to the Confidant in any form (including verbally, electronically, visually, in writing or in any other tangible form, and all copies of any such information), which is identified as, notified as being confidential or proprietary to NostraData.",
+        "explanation": "By removing the explicit list of what 'Confidential Information includes', such as 'data, software, source code' the text creates uncertainty in enforcement. While the 'identified as' clause remains, it's no longer clear if the parties agree on the *types* of information covered. This directly contradicts the later clause specifying obligations related to 'data' at the conclusion of Datathon, since it is no longer explicitly clear this is Confidential Information. This creates uncertainty about the required data deletion at the conclusion of the Datathon.",
+        "location": "1",
+        "contradicted_location": "10",
+        "contradicted_text": "At the conclusion of the Datathon the Confi dant must permanently delete all data provided by NostraData . The data may be retained if NostraData makes specific requests for further demonstrations.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly includes 'data' as part of Confidential Information. The changed text removes this explicit inclusion, making it unclear whether the 'data' mentioned in the contradicted text ('At the conclusion of the Datathon the Confi dant must permanently delete all data provided by NostraData') is considered Confidential Information. This creates a contradiction because it is no longer unequivocally established that the deletion obligation applies, potentially hindering enforcement."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Confidant must take all reasonable precautions to avoid unauthorised disclosure and protect against unauthorised use o f the Confidential Information , such precautions to be at least as stringent as those used by the Confidant for the protection of the Confidant ’s own confidential information and always in accordance with the Privacy Act 1988 . The Confidant must not store the Confidential Information on a public web server.",
+        "changed_text": "The Confidant must take all reasonable precautions to avoid unauthorised disclosure and protect against unauthorised use o f the Confidential Information , such precautions to be at least as stringent as those used by the Confidant for the protection of the Confidant ’s own confidential information. The Confidant must not store the Confidential Information on a public web server.",
+        "explanation": "By removing 'and always in accordance with the Privacy Act 1988', the modified text creates uncertainty. While the Confidant must still take 'reasonable precautions', the specific requirement to comply with the Privacy Act 1988 is gone. This could lead to a situation where the Confidant takes precautions that *don't* meet the standards of the Privacy Act, arguably violating the spirit of the NDA. This contradicts the indemnity clause, as a failure to comply with the Privacy Act could lead to claims/losses that NostraData would seek to be indemnified for, but now the requirement to comply with the act is not explicitly stated.",
+        "location": "3",
+        "contradicted_location": "6",
+        "contradicted_text": "As the disclosure of the Confidential Information may cause irreparable harm to the business of NostraData , the Confidant hereby undertakes to indemnify, and to keep indemnified, NostraData against all claims, losses or liabilities (including in particular damages, reasonable legal and professional costs, penalties and expenses) which may be suffered or incurred by NostraData arising out of or in connection with a breach of this deed by the Confidant .",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly required compliance with the Privacy Act 1988. The changed text removes this explicit requirement. The contradicted text includes an indemnity clause where the Confidant indemnifies NostraData against losses arising from a breach of the deed. By removing the explicit Privacy Act compliance requirement, the changed text creates a scenario where the Confidant's actions, while potentially adhering to 'reasonable precautions,' might still violate the Privacy Act, leading to NostraData incurring losses. The indemnity clause would then be triggered, creating a contradiction since the basis for indemnity (Privacy Act breach) is no longer explicitly mandated in the updated text. This aligns with the definition of Omissions - In Text Contradiction, where essential language is removed, creating a contradiction with obligations stated elsewhere."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Following any request by NostraData , the Confidant must immediately provide to NostraData all Confidential Information and certify that no Confidential Information is retained by the Confidant . The obligation to return Confidential Information includ es the obligation to return any and all Confidential Information in physical, electronic or other tangible form.",
+        "changed_text": "Following any request by NostraData, the Confidant must immediately provide to NostraData all Confidential Information. The obligation to return Confidential Information includ es the obligation to return any and all Confidential Information in physical, electronic or other tangible form.",
+        "explanation": "By removing 'and certify that no Confidential Information is retained by the Confidant', the Confidant is no longer required to provide certification that they have returned all confidential information. This undermines the clause regarding data deletion at the Datathon's conclusion, as there is no longer an enforced way to ensure that all the data was removed, since there is no need to certify. The absence of this certification makes it hard to enforce that the data was truly deleted as required by the Data Deletion clause.",
+        "location": "9",
+        "contradicted_location": "10",
+        "contradicted_text": "At the conclusion of the Datathon the Confi dant must permanently delete all data provided by NostraData . The data may be retained if NostraData makes specific requests for further demonstrations.",
+        "contradiction_exists": "YES",
+        "justification": "The original text required the Confidant to both return Confidential Information and certify that no Confidential Information was retained. The changed text removes the certification requirement. The contradicted text states that the Confidant must permanently delete all data at the conclusion of the Datathon. Without the certification requirement, there is no longer a guaranteed way to verify that the Confidant actually deleted all the data, creating a conflict between the obligation to delete and the lack of verification of data deletion. This undermines the clause regarding data deletion and makes enforcement difficult, therefore leading to a contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This deed constitutes the entire agreement between the parties and supersedes all prior understandings and agreements concerning its subject matter .",
+        "changed_text": "This deed constitutes the entire agreement between the parties.",
+        "explanation": "By removing 'and supersedes all prior understandings and agreements concerning its subject matter', previous agreements can now be considered valid. This can create a contradiction if those prior agreements differ from this NDA's conditions. For example, if a prior agreement allowed for broader use of the data, this omission would contradict the strict usage limitations set forth in Section 2.",
+        "location": "12(b)",
+        "contradicted_location": "2",
+        "contradicted_text": "The Confidant may only use Confidential Information disclosed to it under this deed for the sole purpose of the Datathon and must use Confidential Information strictly in accordance with NostraData ’s directions and otherwise in accordance with this deed .",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly superseded all prior agreements. The changed text removes this clause, thereby allowing prior agreements to potentially be valid. The contradicted text states that the Confidant may only use Confidential Information disclosed under 'this deed' for the Datathon. If prior agreements are now valid, and they allow for broader use of the data, this directly contradicts the strict limitations outlined in the contradicted section, as those prior agreements would also govern the use of confidential information. This constitutes a strong in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The data may be retained if NostraData makes specific requests for further demonstrations.",
+        "changed_text": "The data may be retained for internal training purposes.",
+        "explanation": "This creates a contradiction because, in the absence of explicit permission from NostraData, retaining the data for purposes other than the Datathon is a misuse of Confidential Information, which contradicts section 2. This creates uncertainty about permissible data usage after the Datathon.",
+        "location": "10",
+        "contradicted_location": "2",
+        "contradicted_text": "The Confidant may only use Confidential Information disclosed to it under this deed for the sole purpose of the Datathon and must use Confidential Information strictly in accordance with NostraData ’s directions and otherwise in accordance with this deed .",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed data retention for NostraData's specific requests. The changed text broadens the scope to 'internal training purposes.' This contradicts the contradicted text, which states that Confidential Information can only be used for the 'sole purpose of the Datathon' and in accordance with NostraData's directions. Using the data for internal training, without NostraData's specific request, directly violates this restriction, creating a strong in-text contradiction as defined by Omissions - In Text Contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Nostra Data intends to provide the Confidant with transactional d ata for the purpose s of th e 2017 Melbourne D atathon to be held between April 13th and June 2nd 2017 (Datathon ).",
+        "changed_text": "Nostra Data intends to provide the Confidant with data for the purpose s of th e 2017 Melbourne D atathon.",
+        "explanation": "By removing 'transactional', the definition of the type of data being shared is no longer clear. This directly contradicts the requirement to delete all 'data' provided by NostraData after the Datathon. If the Confidant also received non-transactional data under a different agreement, they might argue they only need to delete the transactional data, since the definition is not mentioned on the first line.",
+        "location": "Background",
+        "contradicted_location": "10",
+        "contradicted_text": "At the conclusion of the Datathon the Confi dant must permanently delete all data provided by NostraData . The data may be retained if NostraData makes specific requests for further demonstrations.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the word 'transactional' from the definition of the data provided. The contradicted text requires the Confi dant to delete *all* data provided by NostraData after the Datathon. Because the changed text no longer specifies that only transactional data is being shared, the Confi dant could argue that they are only obligated to delete transactional data, if they receive other data from NostraData under a separate agreement, creating a direct conflict with the requirement to delete *all* data."
+      }
+    ]
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "Annex 18 - Non-Disclosure Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "\"Confidential Information \" means any information of a confidential nature relating to the Disclosing Party or a member of its Group disclosed (whether before or after the date of this Agreement and whether in writing, verbally or by any other means and whether directly or indirectly) by the Disclosing Party or by another person on behalf of the Disclosing Party to the Receiving Party or to another person on behal f of the Receiving Party including, without limitation, any information relating to the Purpose or to the Disclosing Party's products, operations, processes, plans or intentions, product information, know how, design rights, trade secrets, market opportuni ties and business affairs;",
+        "changed_text": "\"Confidential Information \" means any information of a confidential nature relating to the Disclosing Party or a member of its Group disclosed (whether before or after the date of this Agreement and whether in writing, verbally or by any other means and whether directly or indirectly) by the Disclosing Party or by another person on behalf of the Disclosing Party to the Receiving Party or to another person on behal f of the Receiving Party including, without limitation, any information relating to the Purpose or to the Disclosing Party's products, operations, processes, plans or intentions, *only financial reports, budgets, and investment strategies*;",
+        "explanation": "The definition of 'Confidential Information' is narrowed to include 'only financial reports, budgets, and investment strategies.' This contradicts the rest of the NDA, which treats 'Confidential Information' as encompassing a broader range of data. This will cause a contradiction in section 4.1.2, where it is stipulated to disclose the Confidential Information to potential underwriters or sub contractors to the extent that disclosure is necessary or desirable for the Purpose; given that the definition has changed and now only financial data is included in the Confidential Information definition, it creates a conflict and lack of clarity in the agreement.",
+        "location": "1.1",
+        "contradicted_location": "4.1.2",
+        "contradicted_text": "Each party may disclose the Confidential Information of the other party: \n4.1.1 with the prior written consent of the other party; \n4.1.2 to its employees, professional advisors, authorised representatives , potential underwriters or sub contractors to the extent that disclosure is necessary or desirable for the Purpose;",
+        "contradiction_exists": "YES",
+        "justification": "The changed text narrows the definition of 'Confidential Information' to 'only financial reports, budgets, and investment strategies.' The original text defines it more broadly. Section 4.1.2 allows disclosure of 'Confidential Information' to underwriters or subcontractors. Because the definition has been narrowed, this creates a contradiction. Underwriters and subcontractors may require more than just financial information, but the changed text would prohibit disclosing other types of information under the umbrella of 'Confidential Information', which directly conflicts with the original intention of 4.1.2 and creates an in-text contradiction. This is due to misaligned terminology, where the term 'Confidential Information' now has two different meanings, one broad and one limited, based on the change."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "\"Disclosing Party \" means the party to this Agreement disclosing the Confidential Information;",
+        "changed_text": "\"Disclosing Party \" means the party to this Agreement disclosing the Confidential Information, *specifically excluding FMO*;",
+        "explanation": "By excluding FMO from being a 'Disclosing Party', FMO cannot claim the protection of the NDA as a party disclosing confidential information. This is contradictory because the introductory paragraphs state that both FMO and the Company are owners of Confidential Information and are disclosing it to each other. The change creates an in-text contradiction in 4.2 because FMO cannot disclose information as it isn't contemplated as Disclosing party",
+        "location": "1.1",
+        "contradicted_location": "4.2",
+        "contradicted_text": "FMO may disclose the Confidential Information to any person that: 4.2.1 considers taking, or is taking, a Transaction Interest and/or; 4.2.2 considers making, or is making, any other contribution to the financing of the Project, if the person to whom the Confidential Information is to be given pursuant to this Clause 4.2 is subject to confid entiality obligations deriving from statute, professional regulations, codes of ethics or of conduct or from contractual undertakings, substantially equivalent to those set forth under this Agreement",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the definition of 'Disclosing Party' to exclude FMO. The contradicted text states that 'FMO may disclose Confidential Information'. This creates a direct contradiction because if FMO is not a 'Disclosing Party' as defined, it cannot 'disclose Confidential Information' under section 4.2."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "\"Receiving Party \" means the party to this Agreement to whom the Confidential Information is disclosed.",
+        "changed_text": "\"Receiving Party \" means the party to this Agreement to whom the Confidential Information is disclosed, *unless they are a subsidiary of the Disclosing Party.*",
+        "explanation": "This change means a subsidiary of the Disclosing Party isn't considered a 'Receiving Party'. Clause 2.3, where it says 'not to disclose the other party's Confidential Information to another person', means the Disclosing party could then disclose to its own subsidiary, since the subsidiary is not the Receiving Party which it is supposed to protect, and would contradict the entire agreement and purpose of the agreement since the idea is to protect the Confidential Information.",
+        "location": "1.1",
+        "contradicted_location": "2.3",
+        "contradicted_text": "not to disclose the other party's Confidential Information to another person and to use all reasonable efforts to prevent any such disclosure exc ept as permitted under Clause 4 and Clause 7.",
+        "contradiction_exists": "YES",
+        "justification": "The change to the definition of 'Receiving Party' introduces a direct contradiction with the clause that prohibits disclosing Confidential Information to 'another person'. By excluding subsidiaries of the Disclosing Party from being considered a 'Receiving Party', the Disclosing Party can now disclose Confidential Information to its own subsidiaries without violating the agreement. This is a strong contradiction because it undermines the core purpose of the confidentiality agreement, making the terms inconsistent and unclear about obligations, as the explanation states. This directly breaks compatibility and makes the contract unenforceable."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "\"Purpose \" means discussions and negotiations between t he parties with respect to the [DESCRIPTION OF PURPOSE] ;",
+        "changed_text": "\"Purpose \" means *initial* discussions and negotiations between t he parties with respect to the [DESCRIPTION OF PURPOSE] ;",
+        "explanation": "By limiting the Purpose to 'initial' discussions, it creates ambiguity. If the parties proceed beyond initial discussions, is the Confidential Information still protected? Clause 2.2 states not to use the other party's Confidential Information except for the Purpose; by limiting the purpose, it will be contradicting as the parties proceed and it is not clear if the Confidential information is still subject to the original conditions as the 'Purpose' has been redefined",
+        "location": "1.1",
+        "contradicted_location": "2.2",
+        "contradicted_text": "not to use the other party's Confidential Information except for the Purpose;",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines 'Purpose' broadly as discussions and negotiations. The changed text narrows this definition to *initial* discussions and negotiations. The contradicted text states that Confidential Information should not be used except for the 'Purpose'. By limiting the 'Purpose' to initial discussions, the change creates a contradiction because it's unclear whether the restriction on using Confidential Information continues to apply beyond the initial discussions. This aligns with the 'Misaligned Terminology - In Text Contradiction' definition, as redefining a key term like 'Purpose' creates a conflicting obligation as the parties proceed."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Each party shall in relation to the Confidential Information of the other party exercise no lesser security measures and degree of care than those which it applies to its own confidential information and which it warrants as providing adequate protection against any unauthorised disclosure, copying or use.",
+        "changed_text": "Each party shall in relation to the Confidential Information of the other party exercise no lesser security measures and degree of care than those which it applies to its own confidential information and which it warrants as providing adequate protection against any unauthorised disclosure, copying or use, *unless the Receiving Party is compelled by court order to disclose the information*.",
+        "explanation": "Adding 'unless the Receiving Party is compelled by court order' directly contradicts the existing obligation to protect confidential information. Clause 4.1.3 provides a specific mechanism for disclosure required by law. This change undermines that provision and creates uncertainty and contradicting, and makes the provision in 4.1.3 useless.",
+        "location": "3",
+        "contradicted_location": "4.1.3",
+        "contradicted_text": "where disclosure is required by law, by a court of competent jurisdictio n or by another appropriate regulatory body provided that the Receiving Party shall give to the Disclosing Party not less than two business days’ notice of such disclosure; or",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an exception to the obligation to protect confidential information ('unless the Receiving Party is compelled by court order to disclose the information'). This directly contradicts the contradicted text, which provides a specific procedure for legally required disclosures, including a notice period. The added exception bypasses this procedure and creates a direct conflict in how legally compelled disclosures should be handled, therefore creating a strong in-text contradiction. The explanation provided further emphasizes this point, stating that the change undermines the existing provision and makes it useless."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement shall come into effect (i) until parties sign the underlying documentation in relation to the Project, or (ii) in the event parties do not sign any such documentation , on the date of this Agreement and shall continue to be in full force and effect for a period of 2 years.",
+        "changed_text": "This Agreement shall come into effect (i) until parties sign the underlying documentation in relation to the Project, or (ii) in the event parties do not sign any such documentation , on the date of this Agreement and shall continue to be in full force and effect for a period of 2 years, *unless earlier terminated by either party with 30 days' notice for any reason*.",
+        "explanation": "The added clause allowing termination for any reason with 30 days' notice contradicts the original clause specifying a two-year term. This inconsistency creates uncertainty about the agreement's duration. This impacts Clause 8.2 where it mentions the receival of a written request of the other party to return all documents that contain Confidential Information, because since the agreement can be terminated earlier, that section is not as solid and the agreement could be earlier terminated than it would be if it had to be fully enforced, thus contradicting its purpose",
+        "location": "8.1",
+        "contradicted_location": "8.2",
+        "contradicted_text": "Each party undertakes within 14 days of receipt of a wri tten request of the other party: 8.2.1 subject to Clause 8.3, to return to the other party all documents and other material in its possession, custody or control that contain any part of the other party's Confidential Information; or 8.2.2 subject to Clause 8.3, to de stroy by shredding or incineration all documents and other material in its possession, custody or control which reflect or have - 4 - been generated from any part of the other party's Confidential Information and to certify to the other party that this has been done.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds a clause allowing termination for any reason with 30 days' notice. This directly contradicts the original clause that specifies a two-year term. The contradicted text outlines obligations (returning confidential information) tied to the assumption of the agreement's full term. The changed text introduces the possibility of early termination, which directly conflicts with and undermines the expectation of a fixed two-year duration, making the contradicted section less solid. Therefore, a strong in-text contradiction exists."
+      }
+    ]
+  }
+]

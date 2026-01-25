@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "Freecook_20180605_S-1_EX-10.3_11233807_EX-10.3_Hosting Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Client agrees to pay to Company the sum of $5,000 (the \"Contract Price\") to design and develop a website for Client (the \"Client Website\") in accordance with the accompanying Scope of Work, attached to this Agreement as Exhibit A. (a) Change Orders. Any changes to the Scope of Work following the execution of this Agreement requiring Additional Work must be submitted to and accepted by Company in writing as a \"Change Order\". The costs of any such changes shall be added to the Contract Price.",
+        "changed_text": "Client agrees to pay to Company the sum of $5,000 (the \"Contract Price\") to design and develop a website for Client (the \"Client Website\"). (a) Change Orders. Any changes to the Scope of Work following the execution of this Agreement requiring Additional Work must be submitted to and accepted by Company in writing as a \"Change Order\". The costs of any such changes shall be added to the Contract Price.",
+        "explanation": "By removing \"in accordance with the accompanying Scope of Work, attached to this Agreement as Exhibit A.\" we create an in-text contradiction. The contract still references the 'Scope of Work' in the Change Orders subsection, implying it exists, but the initial link to Exhibit A is removed, creating uncertainty about what the Scope of Work actually includes. This is further compounded as the contract price is linked to the scope of work, but now it is not clear what defines it.",
+        "location": "1",
+        "contradicted_location": "1(a)",
+        "contradicted_text": "(a) Change Orders. Any changes to the Scope of Work following the execution of this Agreement requiring Additional Work must be submitted to and accepted by Company in writing as a \"Change Order\". The costs of any such changes shall be added to the Contract Price.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the explicit reference to Exhibit A as defining the 'Scope of Work'. The contradicted text, which is the same as part of the changed text, refers to changes to the 'Scope of Work'. Without Exhibit A being explicitly linked as defining the scope of work, it's unclear what the 'Scope of Work' encompasses, creating a contradiction. The contract price is tied to this now undefined scope of work. This aligns with the Omissions – In Text Contradiction definition: 'Omissions occur when essential language is removed or altered in one section, creating a contradiction with obligations or constraints stated in other sections.'"
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Terms of the project: 12 weeks from February 8, 2018 to May 3, 2018. Client acknowledges and agrees that any due dates set forth in the Scope of Work are subject to delay if Company does not receive the required materials or documentation in a timely manner or in the required format or if approvals are delayed by Client or if the Scope of Work is changed by Client.",
+        "changed_text": "Client acknowledges and agrees that any due dates are subject to delay if Company does not receive the required materials or documentation in a timely manner or in the required format or if approvals are delayed by Client.",
+        "explanation": "By removing \"Terms of the project: 12 weeks from February 8, 2018 to May 3, 2018. Client acknowledges and agrees that any due dates set forth in the Scope of Work are subject to delay if Company does not receive the required materials or documentation in a timely manner or in the required format or if approvals are delayed by Client or if the Scope of Work is changed by Client.\", this change introduces an internal contradiction. It removes a clear specification of the project's timeframe, which can create confusion and uncertainty about the project's duration and deadlines. Also it removes the part that makes changes to the scope of work a potential delay, which directly is a contradiction as there is no specific Scope of Work defined as shown in the perturbation above.",
+        "location": "1(b)",
+        "contradicted_location": "1(a)",
+        "contradicted_text": "(a) Change Orders. Any changes to the Scope of Work following the execution of this Agreement requiring Additional Work must be submitted to and accepted by Company in writing as a \"Change Order\". The costs of any such changes shall be added to the Contract Price.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified a project timeframe and acknowledged that scope of work changes could cause delays. The changed text removes the specific timeframe and the acknowledgement of scope of work changes causing delays. This omission directly contradicts the 'Change Orders' section, which outlines the procedure for changes to the Scope of Work. By removing the explicit acknowledgment that changes to the Scope of Work can impact deadlines, and removing the timeframe, the changed text creates a conflict with the section detailing how such changes are handled and adding costs to the Contract Price, causing uncertainty and a contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Client shall make a prepayment of $1,900 and pay the remaining $3,100 on completion of the Scope of Work.",
+        "changed_text": "Client shall make a prepayment of $1,900 and pay the remaining $3,100.",
+        "explanation": "By removing \"on completion of the Scope of Work\" from the payment terms, the contract creates an in-text contradiction. It specifies the prepayment amount but becomes vague about when the final payment is due, especially since the definition and explicit attachment of the Scope of Work was removed in a previous perturbation. This contradicts the understanding that the final payment is tied to a defined deliverable.",
+        "location": "2",
+        "contradicted_location": "1",
+        "contradicted_text": "Client agrees to pay to Company the sum of $5,000 (the \"Contract Price\") to design and develop a website for Client (the \"Client Website\"). (a) Change Orders. Any changes to the Scope of Work following the execution of this Agreement requiring Additional Work must be submitted to and accepted by Company in writing as a \"Change Order\". The costs of any such changes shall be added to the Contract Price.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the condition \"on completion of the Scope of Work\" for the final payment. The contradicted text explicitly states that the 'Contract Price' of $5,000 is 'to design and develop a website for Client'. The removal of the completion trigger introduces ambiguity about when the final payment is due, directly contradicting the understanding in the original document that payment is tied to deliverables. Since the final payment is now untethered from the completion of the scope of work, it weakens the 'Contract Price' section which assumes the scope of work is being delivered for the payment being requested."
+      }
+    ]
+  }
+]

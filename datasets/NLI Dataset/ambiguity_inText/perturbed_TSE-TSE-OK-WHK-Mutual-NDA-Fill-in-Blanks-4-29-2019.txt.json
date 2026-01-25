@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "TSE-TSE-OK-WHK-Mutual-NDA-Fill-in-Blanks-4-29-2019.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The party to whom disclosure of the Confidential Information has been made (the “receiving party”) shall treat such information as confidential and shall exercise reasonable care with respect to the Confidential Information, at least to the same degree of care as the party employs with respect to protecting its own proprietary and confidential information.",
+        "changed_text": "The party to whom disclosure of the Confidential Information has been made (the “receiving party”) shall treat such information as confidential and shall exercise reasonable care with respect to the Confidential Information, however, the receiving party is not liable for accidental exposure of information due to external cybersecurity incidents.",
+        "explanation": "This change introduces a liability waiver for 'accidental exposure' due to cybersecurity incidents. This directly **contradicts** the requirement to exercise 'reasonable care' and creates uncertainty regarding the receiving party's responsibility for data security. The original text implies a duty to protect the data; this change erodes that duty.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Precautions . The party to whom disclosure of the Confidential Information has been made (the “receiving party”) shall treat such information as confidential and shall exercise reasonable care with respect to the Confidential Information, however, the receiving party is not liable for accidental exposure of information due to external cybersecurity incidents. A receiving party shall limit disclosure of Confidential Information to those directors, officers, employees, and agents of the party who need to know the Confidential Information in connection with the Discussions and have been advised of the confidential nature of the information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a liability waiver for accidental exposure due to cybersecurity incidents. This directly contradicts the requirement to exercise 'reasonable care' and creates uncertainty regarding the receiving party's responsibility for data security, as stated in the Perturbation Explanation. The original text implies a duty to protect the data; this change erodes that duty, creating a contradiction within the contract. The Contradicted Text also includes that the receiving party isn't liable for accidental exposure of information due to external cybersecurity incidents, which contradicts the 'exercise reasonable care' portion of the clause."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The parties shall continue to protect the secrecy of the Confidential Information for as long as the information remains confidential information or a trade secret, but for no less than five (5) years from the date the information to be kept confidential is received or the effective date of this Agreement, whichever is later.",
+        "changed_text": "The parties shall continue to protect the secrecy of the Confidential Information for as long as the information remains confidential information or a trade secret, unless the information becomes generally known in the relevant industry, but for no less than five (5) years from the date the information to be kept confidential is received or the effective date of this Agreement, whichever is later.",
+        "explanation": "This adds a significant qualifier. While 'generally known in the relevant industry' seems reasonable, its interpretation is subjective. It introduces a **contradiction** because the original text sets a fixed 5-year minimum, regardless of public knowledge. This change allows a party to argue confidentiality ended *before* 5 years if the information became widely known, creating uncertainty and potential disputes.",
+        "location": "12",
+        "contradicted_location": "12",
+        "contradicted_text": "Term . The parties shall continue to protect the secrecy of the Confidential Information for as long as the information remains confidential information or a trade secret, unless the information becomes generally known in the relevant industry, but for no less than five (5) years from the date the information to be kept confidential is received or the effective date of this Agreement, whichever is later.",
+        "contradiction_exists": "YES",
+        "justification": "The original text sets a fixed 5-year minimum for protecting confidential information. The changed text introduces an exception: if the information becomes 'generally known in the relevant industry,' the confidentiality obligation might end before the 5-year minimum. This contradicts the implied certainty of the original 5-year term, creating a strong in-text contradiction as the contradicted text is the changed text itself, and the change adds conflicting implications."
+      }
+    ]
+  }
+]

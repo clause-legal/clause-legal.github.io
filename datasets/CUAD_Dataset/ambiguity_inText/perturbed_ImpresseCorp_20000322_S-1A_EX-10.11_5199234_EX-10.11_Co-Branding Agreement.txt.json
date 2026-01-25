@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "ImpresseCorp_20000322_S-1A_EX-10.11_5199234_EX-10.11_Co-Branding Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "1.22. USER shall mean a single person who accesses and views a Site whether directly from a web browser or through a Link.",
+        "changed_text": "1.22. USER shall mean a registered person who accesses and views a Site whether directly from a web browser or through a Link.",
+        "explanation": "This change to the definition of 'USER' introduces ambiguity. The original definition includes anyone who accesses the site. The modified definition limits it to only 'registered' users. This creates a contradiction because other sections may assume 'USER' refers to all visitors, leading to disagreements on who is covered under the terms of the agreement.",
+        "location": "Section 1.22",
+        "contradicted_location": "Section 2.5",
+        "contradicted_text": "2.5. Impresse hereby grants to VerticalNet a non-exclusive, non-transferable, royalty-free, right and license to link to the Impresse Area of the Co-Branded Site. Impresse shall permit Users who access the Co-Branded Site to access and use Co-Branded Content from the Co-Branded Site for the personal use of such Users in accordance with the then-current terms of Impresse's standard license agreement governing the use of such Co-Branded Content.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined 'USER' as anyone accessing the site, while the changed text restricts it to 'registered' users. Section 2.5 grants rights to 'Users who access the Co-Branded Site.' The change creates a direct contradiction because under the modified definition, unregistered users accessing the site would not be covered by the rights granted in Section 2.5. This ambiguity could lead to disputes over who qualifies as a 'User' and what rights they possess, creating an in-text contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "4.1. DEVELOPMENT FEES. For the design, development and integration of the V-Solutions Area and the VerticalNet Area of the Co-Branded Site, Impresse shall pay to VerticalNet a one-time, nonrefundable development fee in the amount of [*] payable on the Effective Date.",
+        "changed_text": "4.1. DEVELOPMENT FEES. For the design, development and integration of the V-Solutions Area and the VerticalNet Area of the Co-Branded Site, Impresse *may* pay to VerticalNet a one-time, nonrefundable development fee in the amount of [*] payable on the Effective Date.",
+        "explanation": "Changing 'shall' to 'may' in the DEVELOPMENT FEES clause introduces a significant ambiguity regarding Impresse's payment obligation. 'Shall' indicates a mandatory action, whereas 'may' suggests a discretionary one. This contradicts the intent of the agreement which stipulates Impresse to pay VerticalNet. This is inconsistent with Section 4.5 [PAYMENT TERMS] which is designed to ensure payment happens.",
+        "location": "Section 4.1",
+        "contradicted_location": "Section 4.5",
+        "contradicted_text": "4.5. PAYMENT TERMS. Impresse shall pay the fees set forth in Sections 4.2 [SLOTTING FEES], 4.3 [BANNER/NEWSLETTER PURCHASE COMMITMENT] and 4.4 [HOSTING FEE] as an aggregate, totaling $[*] payable in four equal quarterly installments of $[*] beginning on May 31, 2000 and thereafter on August 31, 2000 November 30, 2000 and February 28, 2001, respectively.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that Impresse 'shall' pay, indicating a mandatory obligation. The changed text replaces 'shall' with 'may', indicating a discretionary action. Section 4.5 uses 'shall' and sets a strict payment schedule which implies required payment. Thus, the changed text introduces a significant ambiguity regarding Impresse's payment obligation, directly contradicting the clear and mandatory payment terms outlined in Section 4.5, thereby creating a strong in-text contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "5.2. Either party may terminate this Agreement immediately upon written notice to the other party in the event of any material breach of a term of this Agreement by such other party that remains uncured 30 days after written notice of such breach was received by such other party or, if the breach is not reasonably capable of cure within 30 days, such longer period, not to exceed 60 days, so long as the cure is commenced within the 30-day period and thereafter is diligently prosecuted to completion as soon as possible and in any event within 60 days.",
+        "changed_text": "5.2. Either party may terminate this Agreement immediately upon written notice to the other party in the event of any material breach of a term of this Agreement by such other party. The breaching party will have reasonable time to fix the breach or any actions to fix the breach.",
+        "explanation": "This change introduces uncertainty on when the Agreement can be terminated, thus a In-Text contradiction with the original terms of the agreement. The original text specifies a clear 30-60 day cure period, whereas the modified version uses the vague phrase 'reasonable time.' This is inconsistent with Section 5.3 [TERMINATION AND RENEWAL] as it gives no clear path for the termination.",
+        "location": "Section 5.2",
+        "contradicted_location": "Section 5.3",
+        "contradicted_text": "5.3. Upon termination or expiration of this Agreement, (i) Impresse shall no longer have the right to use any VerticalNet Mark, (ii) VerticalNet shall no longer have the right to use any Impresse Mark; (iii) Impresse may no longer make any Co-Branded Content available for access and use through the Co-Branded Site; (iv) VerticalNet shall cease framing the Window in the Co-Branded Site; (v) VerticalNet shall remove the V-Solutions Link from the V-Solutions Area; and (vi) VerticalNet shall cease displaying or transmitting all Banners and Newsletters of Impresse.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text replaces a specific 30-60 day cure period for breaches with the vague phrase 'reasonable time.' This directly contradicts Section 5.3, which outlines specific actions to be taken 'Upon termination or expiration of this Agreement.' The original text provides a clear timeframe for potential termination, allowing the actions in Section 5.3 to be triggered. The changed text introduces ambiguity, making it unclear when termination is permissible and thereby causing a strong inconsistency that creates unenforceability issues."
+      }
+    ]
+  }
+]

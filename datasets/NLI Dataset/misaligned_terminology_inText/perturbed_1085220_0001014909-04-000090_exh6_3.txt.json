@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "1085220_0001014909-04-000090_exh6_3.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Receiving Party shall to use all reasonable care, but in no event less than the same degree of care that it uses to protect its own confidential information of similar importance, to prevent the unauthorized use, disclosure, publication or dissemination of the other Party's Other Confidential Information (and any concepts, inventions or other information derived there from). Each party shall restrict access to the other party's other confidential information (and any concepts, invention or other information derived there from) to only those of its employees, representatives or advisors to whom such access is reasonably necessary or appropriate for carrying out the permitted use of such other confidential information. Each party shall to obtain Non-Disclosure Agreements containing appropriate restrictions on the persons signing the same prior to disclosing other confidential information (or any concepts, inventions or other information derived there from) to such persons.",
+        "changed_text": "The Recipient must use commercially reasonable efforts, but in no event is required to use the same degree of care that it uses to protect its own confidential information, to prevent the unauthorized use, disclosure, publication or dissemination of the Provider's Other Confidential Information. No party is required to restrict access to the Provider's other confidential information. No party is required to obtain Non-Disclosure Agreements.",
+        "explanation": "The change from 'Receiving Party' to 'Recipient' and 'other Party' to 'Provider' perpetuates the misaligned terminology. By changing 'shall to use all reasonable care' to 'must use commercially reasonable efforts, but in no event is required to use the same degree of care that it uses to protect its own confidential information,' the degree of care is weakened. The obligation to restrict access and obtain NDAs is removed completely creating an in-text contradiction with the original text.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Restriction on Access. The Recipient must use commercially reasonable efforts, but in no event is required to use the same degree of care that it uses to protect its own confidential information, to prevent the unauthorized use, disclosure, publication or dissemination of the Provider's Other Confidential Information. No party is required to restrict access to the Provider's other confidential information. No party is required to obtain Non-Disclosure Agreements.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the obligation for the Recipient to restrict access to the Provider's confidential information and to obtain Non-Disclosure Agreements. The contradicted text contains the exact same language, where no party is required to restrict access to the Provider's other confidential information, and where no party is required to obtain Non-Disclosure Agreements. The original text imposes these requirements, but the changed text removes them which creates a contradiction and makes the terms unenforceable."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Other Confidential Information (and all concepts, inventions and other information derived there from) shall be deemed, as between the parties hereto, to be the property of the Disclosing party and the Receiving Party will, upon receipt of a written request from the Disclosing Party, return to the Disclosing Party all such other Confidential Information (and any concepts, inventions or other information derived there from) that is maintained in tangible form and destroy all such information maintained in electronic or other intangible media together with all copies or extracts thereof.",
+        "changed_text": "Other Confidential Information will not be deemed the property of the Provider, and the Recipient has no obligation to return any information.",
+        "explanation": "The terms 'Disclosing party' and 'Receiving Party' are impliedly contradicted by 'Provider' and 'Recipient'. The text now states explicitly the opposite of what the original text said about the ownership of the information and the obligation to return it, thus creating an in-text contradiction.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "Return of Other Confidential Information. Other Confidential Information will not be deemed the property of the Provider, and the Recipient has no obligation to return any information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that 'Other Confidential Information will not be deemed the property of the Provider, and the Recipient has no obligation to return any information.' The contradicted text is the same as the Changed Text. However, according to the Perturbation Explanation, the terms 'Disclosing party' and 'Receiving Party' in the original text are impliedly contradicted by 'Provider' and 'Recipient' in the Changed Text. The text now states explicitly the opposite of what the original text said about the ownership of the information and the obligation to return it, thus creating an in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Each of parties mutually acknowledge that the Disclosing Party makes no representation or Warranty as to the reliability, accuracy or completeness of Confidentiality Information and that any representation or warranty that may be requested or given shall be set forth in a separate writing signed by the party making that representation or warranty.",
+        "changed_text": "Each party acknowledges that the Provider makes warranty as to the reliability, accuracy and completeness of Confidential Information and that any representation or warranty that may be requested or given shall be not required in a separate writing signed by the party making that representation or warranty.",
+        "explanation": "The change from 'Disclosing Party' to 'Provider' could cause confusion, but the major change is the assertion that the Provider *does* make a warranty. Also there isn't a requirement for it to be in writing. This is a direct contradiction of the original clause creating an in-text contradiction.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "No Warranty. Each party acknowledges that the Provider makes warranty as to the reliability, accuracy and completeness of Confidential Information and that any representation or warranty that may be requested or given shall be not required in a separate writing signed by the party making that representation or warranty.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the Disclosing Party makes no warranty, whereas the changed text states that the Provider makes a warranty. The contradicted text is identical to the changed text, affirming that the Provider makes a warranty. This directly conflicts with the original clause, creating a strong in-text contradiction. The change directly breaks compatibility with the original intent by reversing the warranty status."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The parties acknowledge that the breach of threatened breach of this Agreement may result in irreparable injury to the Disclosing Party and that, in addition to its other remedies, the Disclosing Party shall be entitled to injunctive relief to restrain any threatened or continued breach of this Agreement. The parties hereby waive any requirement for the posting of a 2 <PAGE> bond or other security in connection with the granting to the Disclosing Party of such injunctive relief.",
+        "changed_text": "The parties acknowledge that the breach of this Agreement will not result in irreparable injury to the Provider, and the Provider shall not be entitled to injunctive relief. The parties do not waive any requirement for the posting of a bond.",
+        "explanation": "Changing 'Disclosing Party' to 'Provider' and then stating the opposite about irreparable injury, injunctive relief, and waiving the bond requirement, creates a direct in-text contradiction. The original text states the Disclosing Party is entitled to injunctive relief while the modified text says the Provider is not.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "Injunctive Relief. The parties acknowledge that the breach of this Agreement will not result in irreparable injury to the Provider, and the Provider shall not be entitled to injunctive relief. The parties do not waive any requirement for the posting of a bond.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. Both sections discuss injunctive relief for the Provider, but the changed text states the Provider is not entitled to it and does not waive the bond requirement, whereas the original text implies the opposite for the Disclosing Party. Given the explanation that 'Disclosing Party' was changed to 'Provider', this creates a direct in-text contradiction."
+      }
+    ]
+  }
+]

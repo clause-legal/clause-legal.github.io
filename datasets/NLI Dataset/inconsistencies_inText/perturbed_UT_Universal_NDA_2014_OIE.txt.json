@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "UT_Universal_NDA_2014_OIE.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Agreement Term From the Effective Date until the first to occur of (a) the first anniversary of the Effective Date, or (b) written notice of termination from any Party.",
+        "changed_text": "Agreement Term From the Effective Date until the first to occur of (a) the first anniversary of the Effective Date, or (b) written notice of termination from the University.",
+        "explanation": "The modification restricts the ability to terminate the agreement to only the University, while the original allowed any party to terminate. This creates an in-text contradiction since other sections still imply both parties can terminate, leading to uncertainty.",
+        "location": "3",
+        "contradicted_location": "8",
+        "contradicted_text": "Term Disclosures of Confidential Information pursuant to the Agreement are to be made only during the Agreement Term as defined in Section 3 of the NDA; provided, however, the obligations of the Agreement will survive until the end of the Confidentiality Term.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the original text such that only the University can terminate the agreement, whereas the original text allowed any party to terminate. The contradicted text refers to 'Disclosures of Confidential Information pursuant to the Agreement are to be made only during the Agreement Term', implying that more than one party can make disclosures, and thus can terminate the agreement. The changed text limits this, creating an in-text contradiction as it conflicts with the contradicted text that assumes more than one party can enforce the agreement and obligations during the 'Agreement Term'."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Confidentiality Term From the Effective Date until the third anniversary of the Effective Date.",
+        "changed_text": "Confidentiality Term From the Effective Date until the second anniversary of the Effective Date, unless otherwise extended by mutual written agreement.",
+        "explanation": "Changing the confidentiality term and adding a clause for extension introduces a contradiction. The original states a fixed third-anniversary end date. The modified text allows for a variable end date, contradicted in other sections relying on a fixed term. The added clause introduces uncertainty about the duration of confidentiality obligations.",
+        "location": "3",
+        "contradicted_location": "6",
+        "contradicted_text": "Continuing Obligations Each Receiving Party’s obligations under the Agreement will survive termination of the Agreement and will continue until the end of the Confidentiality Term.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified a fixed 'third anniversary' end date for confidentiality. The changed text modifies this to a 'second anniversary' but introduces the possibility of extension by mutual agreement. This directly contradicts the 'Continuing Obligations' section, which relies on a fixed 'Confidentiality Term' to determine the duration of obligations. The added extension clause creates uncertainty and conflict regarding the end date, thus fulfilling the definition of 'Inconsistencies - In Text Contradiction'."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Confidential Information will be transmitted in writing and clearly marked “Confidential,” “Proprietary,” or similarly, or if disclosed orally will be reduced to writing by Disclosing Party, clearly marked “Confidential,” “Proprietary,” or similarly, and transmitted to the Contact Person of Receiving Party within thirty (30) days after oral disclosure.",
+        "changed_text": "Confidential Information will be transmitted in writing and clearly marked “Confidential,” “Proprietary,” or similarly. Oral disclosures are not covered under this agreement.",
+        "explanation": "The change removes the provision for oral disclosures being reduced to writing and included as Confidential Information. This contradicts other sections that assume oral disclosures, when documented, are protected, creating ambiguity about the status of such information.",
+        "location": "2",
+        "contradicted_location": "3",
+        "contradicted_text": "Non-Disclosure Receiving Party will not disclose the Confidential Information of the Disclosing Party, except as is expressly authorized by the Agreement. Each Receiving Party may disclose the Confidential Information of Disclosing Party to its own employees assisting in making an evaluation of the Confidential Information; provided, however, that such employees are advised of the confidentiality and non-use obligations hereunder and are legally obligated by written agreement or otherwise to maintain the confidentiality and non-use of the Confidential Information. In no event will a Receiving Party disclose Confidential Information to third parties unless it obtains the prior written consent of Disclosing Party; provided, that prior to any such disclosure, Receiving Party shall first obtain a written non-disclosure agreement from such third party containing terms and conditions substantially similar to those set forth herein. If requested, a copy of such executed agreement will be provided to Disclosing Party. In addition, if there are three or more parties to the Agreement, then Confidential Information may be shared among multiple Receiving Parties, unless Disclosing Party provides a written notice restricting such sharing of information. If a Receiving Party is legally required by court order, law, or other governmental regulation or authority to disclose certain Confidential Information received from a Disclosing Party, such disclosure may be made only after giving written notice to Disclosing Party of such legal requirement so that Disclosing Party may object to such disclosure and seek a protective order; and in any event, the disclosure shall be limited to only that portion of the Confidential Information which is legally required to be disclosed.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly excludes oral disclosures from being considered Confidential Information. The contradicted text assumes that oral disclosures, when appropriately documented, are included as Confidential Information and are subject to the non-disclosure obligations. This creates a direct conflict because the changed text removes a category of information that the contradicted text still treats as protected, leading to uncertainty about the status of oral disclosures that are later documented."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Within thirty (30) days after the written request from Disclosing Party or termination of discussions relating to the Purpose, each Receiving Party will deliver all copies or records of Confidential Information in its possession or control to the appropriate Disclosing Party’s Contact Person, or will certify in writing to Disclosing Party that the Confidential Information of such Disclosing Party has been destroyed.",
+        "changed_text": "Upon termination of this agreement the Receiving Party will keep all copies of the confidential information and certify in writing that the Disclosing party that it will not be disclosed",
+        "explanation": "This change directly contradicts the original obligation to return or destroy confidential information upon termination. Now, the Receiving Party must keep the information and certify non-disclosure. This creates an in-text contradiction with sections discussing rights upon termination and expected behavior regarding confidential data, leading to legal uncertainty.",
+        "location": "5",
+        "contradicted_location": "6",
+        "contradicted_text": "Continuing Obligations Each Receiving Party’s obligations under the Agreement will survive termination of the Agreement and will continue until the end of the Confidentiality Term.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates the return or destruction of confidential information upon termination, while the changed text requires the Receiving Party to keep all copies and certify non-disclosure. This directly contradicts the 'Continuing Obligations' section, which states obligations survive termination, creating an inconsistency regarding the handling of confidential information post-termination. The change fundamentally alters the expected behavior and rights related to confidential information, leading to a strong in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The Agreement will be governed by the laws of the State of Texas, without regard to choice of law principles.",
+        "changed_text": "The Agreement will be governed by the laws of the State of Delaware, without regard to choice of law principles.",
+        "explanation": "Switching the governing law creates a clear conflict. Other clauses may implicitly rely on Texas law (e.g., interpretations of intellectual property, contract enforcement), so changing the governing law mid-contract generates an in-text contradiction and uncertainty about legal interpretation.",
+        "location": "12",
+        "contradicted_location": "10",
+        "contradicted_text": "Compliance with Laws; U.S. Export Compliance The Parties acknowledge that performance of the Agreement is subject to compliance with applicable United States laws, regulations, or orders including those that may relate to the export of technical data and equipment, such as International Traffic in Arms Regulations (“ITAR”) and/or Export Administration Act/Regulations (“EAR”), as may be amended, and agree to comply with all such laws, regulations or orders. No Party will export, directly or indirectly, any Confidential Information without first obtaining any required export license or government approval and, in the case of Confidential Information disclosed by University, without first obtaining permission from University’s Office of Sponsored Projects. In the event any Confidential Information is export-controlled, the Disclosing Party shall provide Receiving Party with written notice containing the nature of the export-controlled information, prior to any exchange of export-controlled Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the governing law from Texas to Delaware. The contradicted text refers to compliance with United States laws, regulations, or orders including ITAR and EAR, implying a reliance on US laws interpreted within a specific legal framework. While both Texas and Delaware are within the United States, their legal interpretations and precedents can differ. This creates a potential contradiction because the export compliance clause and others are likely drafted with a specific legal system in mind, and changing the governing law introduces uncertainty and potential conflict as explained in the perturbation explanation. The type of perturbation is Inconsistencies - In Text Contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Any delay by a Party to enforce any right under the Agreement shall not act as a waiver of that right, nor as a waiver of the Party’s ability to later assert that right relative to any particular factual situation.",
+        "changed_text": "Any delay by a Party to enforce any right under the Agreement shall act as a waiver of that right, also acting as a waiver of the Party’s ability to later assert that right relative to any particular factual situation.",
+        "explanation": "Reversing the 'no waiver' clause to a 'waiver' clause creates a direct contradiction. The original protects rights despite delays in enforcement. The change means delays forfeit those rights. This contradicts the overall intent of preserving contractual obligations. In-Text contradiction in the sense that its not clear when a failure to enforce a right, would lead to the waiver of that right, due to the insertion of this perturbation, creating an enforcement issue.",
+        "location": "12",
+        "contradicted_location": "9",
+        "contradicted_text": "Injunction The Parties agree that, in the event of breach or threatened breach or intended breach of the Agreement, each Party, in addition to any other rights and remedies available to it at law or in equity, may seek injunctive or equitable relief without the necessity of posting bond or proving that it has no adequate remedy at law.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text reverses the original 'no waiver' clause to a 'waiver' clause, stating that a delay in enforcing a right now acts as a waiver. This directly contradicts the contradicted text, which states that a party may seek injunctive or equitable relief in the event of a breach, regardless of whether they have an adequate remedy at law. By potentially waiving rights due to delay, the changed text undermines the ability to seek injunctive relief, creating a direct conflict and impacting the enforceability of the agreement."
+      }
+    ]
+  }
+]

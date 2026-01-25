@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "pp%2011%20-%20non-disclosure%20agreement%20mutual.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "³Personnel in Charge´ means the employees, officers, directors, workers and/or authorised person of each Party as set out in Appendix I and Appendix II respectively;",
+        "changed_text": "³Personnel in Charge´ means the employees, officers, directors, workers and/or authorised person of each Party;",
+        "explanation": "By removing 'as set out in Appendix I and Appendix II respectively,' the contract now lacks a definitive list of who constitutes 'Personnel in Charge'. This creates ambiguity because while the term is used throughout the agreement, the appendices which should be defining who exactly are the Personnel in Charge is not being reffered to. This impacts the effectiveness of clauses relying on the actions or knowledge of specific, identified individuals.",
+        "location": "1",
+        "contradicted_location": "3.1(d)",
+        "contradicted_text": "(d) to refrain from disclosing the Confidential Information whether to its employees (other than the Personnel in Charge) or third parties except to such of it s employees (other then the Personnel in Charge) or third parties who have a need to know or whose services are appropriately required in connection with the Purpose but subject to the prior written consent of the Disclosing Party and the provision of clau se 3.2 herein below;",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined 'Personnel in Charge' with reference to specific appendices (I and II). The changed text removes this reference, making the definition ambiguous. The contradicted text relies on a clear distinction between 'Personnel in Charge' and other employees for confidentiality obligations. Because the changed text removes the defined list, it is no longer clear who the 'Personnel in Charge' are, thus creating a contradiction that impacts obligations and enforcement. This directly contradicts the clause that relies on the defined Personnel in Charge, thus requiring a \"YES\"."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "³Purpose´ means the execution of a legally binding agreement between the Parties and/or the Related Companies regarding a potential business arrangement or joint research in relation to the Technology (as hereinafter defined), within the NDA period ;",
+        "changed_text": "³Purpose´ means exploring collaboration between the Parties and/or the Related Companies;",
+        "explanation": "The original definition of 'Purpose' involves the execution of a legally binding agreement within the NDA period, which is now replaced with the vaguer and less committal 'exploring collaboration'. This directly contradicts the spirit and intent implied in sections discussing the legal protection of confidential information and the termination of the agreement should no agreement be reached within the NDA period. The changed definition of `Purpose` does not consider a legally binding agreement within the NDA period and this creates an in-text contradiction in the section 7.2.",
+        "location": "1",
+        "contradicted_location": "7.2",
+        "contradicted_text": "In the event that the Parties fail to execute a legally binding agre ement within the NDA Period in completion of the Purpose, this NDA shall forthwith be terminated at the end of the NDA Period.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines 'Purpose' as executing a legally binding agreement within the NDA period. The changed text redefines 'Purpose' as merely 'exploring collaboration'. This contradicts the contradicted text, which states the NDA terminates if a legally binding agreement is not executed within the NDA period. The changed definition removes the requirement of a legally binding agreement, creating a direct conflict with the termination clause."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "6.2.1 The Receiving Party agrees that no mon etary damages shall be sufficient to avoid or compensate the unauthorized use or disclosure of the Confidential I nformation and that injunctive relief would be appropriate to prevent any actual or threatened use or disclosure of such Confidential Information.",
+        "changed_text": "6.2.1 The Receiving Party agrees that in case of unauthorized disclosure of confidential information, the party at fault must return all confidential documents",
+        "explanation": "The original clause states monetary damages are insufficient, explicitly favoring injunctive relief, while the new clause removes this preference and replaces it with the instruction of returning all confidential documents. This removes the Injunctive Relief and therefore contradicts the part of 'appropriate to prevent any actual or threatened use or disclosure of such Confidential Information' since there is no compensation anymore for such unauthorized use.",
+        "location": "6.2.1",
+        "contradicted_location": "6.2.1",
+        "contradicted_text": "The Receiving Party agrees that in case of unauthorized disclosure of confidential information, the party at fault must return all confidential documents",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that monetary damages were insufficient and injunctive relief was appropriate. The changed text replaces this with a requirement to return confidential documents in case of unauthorized disclosure. The contradicted text, which is the same as the changed text, now contradicts the original intent and preference for injunctive relief to prevent actual or threatened use or disclosure of confidential information, as there is no compensation mentioned in the changed text. This falls under the definition of Omissions – In Text Contradiction because essential language (monetary damages are insufficient and injunctive relief would be appropriate) is removed, creating a contradiction with the implied obligation to prevent unauthorized use or disclosure through injunctive relief."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "APPENDIX III (LETTER OF UND ERTAKING) Vice-Chancellor UNIVERSITI SAINS MALAYSIA 11800 USM Pulau Pinang Malaysia. And [ the second party ] Letter of Undertaking I/We .......................................................... have read the Non -Disclosure Agreement between USM a nd «««««««.. dated«««................. (³NDA´) and understand the purpose, effect and consequences of the NDA and the obligations created by it. In consideration of [name of Disclosing Party ] agreeing that [name of Receiving Party ] may disclose the Confi dential Information to me /us, I/we hereby agree to be bound by the terms and conditions of the NDA as if I /we were the Receiving Party and/or recipient named in the NDA . Dated this day o f 2012 Signed by: Witness ed by: .................................................. ................................................. Name : Name : Designation : Designation : c.c. Innovations & Commercialisation Office Universiti Sains Malaysia 111800 USM Pulau P inang Malaysia.",
+        "changed_text": "APPENDIX III (SAMPLE LETTER OF ACKNOWLEDGMENT) To Whom It May Concern: I/We acknowledge that I/We may receive confidential information related to discussions between USM and another party. I/We agree to handle such information responsibly.",
+        "explanation": "The original Appendix III provided a specific 'Letter of Undertaking' to bind third parties to the NDA's terms. The modified version replaces this with a vague 'SAMPLE LETTER OF ACKNOWLEDGMENT', weakening the legal obligation on third parties. This contradicts clause 3.2, which requires the Receiving Party to ensure that any third party receiving Confidential Information executes an undertaking in the format set out in Appendix III. It is not an 'Undertaking' anymore.",
+        "location": "APPENDIX III",
+        "contradicted_location": "3.2",
+        "contradicted_text": "In the event disclosure of the Confidential Information is made by the Receiving Party to any third party, the Receiving Party shall ensure that the third party undertakes to comply strictly to the conditions and the non -disclosure obligations of the Parties under this NDA and for the aforesaid purpose, the Receiving Party shall cause the third party to execute an undertaking in the format set out in Appendix III hereto.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies a 'Letter of Undertaking' in Appendix III. This is then replaced with a 'SAMPLE LETTER OF ACKNOWLEDGMENT' in the changed text. This change directly contradicts the contradicted text, which mandates that the Receiving Party ensures any third party executes an undertaking in the format set out in Appendix III. The change weakens the legal obligation and no longer fulfills the requirement of an 'undertaking,' thus creating a strong in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "9.5 Entire Agreement This NDA, together with the Appendices, constitute the entire agreement between the Parties hereto with respect to the Purpose and supersedes a ll prior or contemporaneous representations, agreements and promises, written or oral, between the Parties with respect to the Purpose.",
+        "changed_text": "9.5 Entire Agreement This NDA constitutes the core understanding between the Parties with respect to Confidential Information, but may be supplemented by mutually agreed-upon working arrangements.",
+        "explanation": "The original clause explicitly states that the NDA, together with the Appendices, constitutes the *entire* agreement, superseding all prior agreements. The modified version removes this exclusivity, suggesting that other 'mutually agreed-upon working arrangements' can supplement the NDA. This contradicts other sections of the agreement that assume and reinforce the NDA as the sole governing document for confidentiality, particularly clauses addressing amendments, governing law, and termination. The addition of 'supplemented by mutually agreed-upon working arrangements' contradicts the idea that it contains 'entire agreement'.",
+        "location": "9.5",
+        "contradicted_location": "9.6",
+        "contradicted_text": "This NDA shall not be amended, altered, changed or otherwise modified without the mutual consent of the Parties hereto and such amendments, alterations, changes or modifications shall be made in writing and signed by the Parties hereto.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the NDA, with appendices, is the entire agreement. The changed text allows for supplementation by 'mutually agreed-upon working arrangements.' This directly contradicts the 'Contradicted Text' which states the NDA can only be modified by written amendments signed by both parties, creating a contradiction. The change breaks the NDA's exclusivity and its amendment procedure, creating an in-text contradiction, as adding 'mutually agreed-upon working arrangements' allows the contract to be amended outside of the expressed amendment procedure, which is contradictory."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "2.1 Use All Confidential Information disclosed by the Disclosing Party shall be used, consumed, utilised and acted in whatever ways by the Rec eiving Party solely and strictly for the Purpose, and each disclosure of Confidential Information may be recorded by the Personnel in Charge of each Party. The Receiving Party undertakes not to use the Confidential Information for further research, technic al analysis, reverse engineering and/or exploit for the purpose of any commercial gains in any manner whatsoever.",
+        "changed_text": "2.1 Use All Confidential Information disclosed by the Disclosing Party shall be used by the Receiving Party for the Purpose. The Receiving Party undertakes not to use the Confidential Information for direct commercial exploitation.",
+        "explanation": "By omitting 'consumed, utilised and acted in whatever ways' and 'further research, technical analysis, reverse engineering and/or exploit for the purpose of any commercial gains in any manner whatsoever' and simplifying 'for direct commercial exploitation', this clause provides ambiguity around what exactly constitutes permissible use. This weakens the protection of the Confidential Information, potentially conflicting with the initial definition of 'Confidential Information' and the overall intent of the NDA to safeguard sensitive data.",
+        "location": "2.1",
+        "contradicted_location": "3.1(b)",
+        "contradicted_text": "(b) to use the Confidential Information solely for the Purpose only and for no other purpose;",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly prohibited using the Confidential Information for 'further research, technical analysis, reverse engineering and/or exploit for the purpose of any commercial gains in any manner whatsoever.' The changed text removes this explicit prohibition, stating only that the Receiving Party undertakes not to use the Confidential Information for direct commercial exploitation. This introduces ambiguity and weakens the protection, potentially allowing uses previously forbidden. This directly contradicts the Contradicted Text, which states the Confidential Information can be used 'solely for the Purpose only and for no other purpose.' The omission allows for potential uses beyond the specified 'Purpose,' creating a direct conflict and thus a strong in-text contradiction according to the definition of 'Omissions – In Text Contradiction.'"
+      }
+    ]
+  }
+]

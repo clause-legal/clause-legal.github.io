@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "InnerscopeHearingTechnologiesInc_20181109_8-K_EX-10.6_11419704_EX-10.6_Distributor Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The price for the Products shall be as designated in Schedule A. Erchonia may revise its prices from time to time and deliver a written 90 day notice of the reasonable price revision to Distributor; provided that Erchonia agrees that the prices listed in Exhibit A shall not be increased during the first 90 days of this agreement.",
+        "changed_text": "The price for the Products shall be determined at Erchonia's discretion. Erchonia may revise its prices from time to time with immediate effect.",
+        "explanation": "This change removes the reference to 'Schedule A' and the 90-day notice period for price revisions. This creates a contradiction because Schedule A is still referenced elsewhere as defining product details, but the price is no longer tied to it. This will create an in-text contradiction with Exhibit A - Products and Pricing, which is expecting that the prices can't be modified for the first 90 days.",
+        "location": "4.a",
+        "contradicted_location": "Exhibit A",
+        "contradicted_text": "SCHEDULE A ERCHONIA CORPORATION Products and Pricing Erchonia 3LT Laser - Hearing Products Version (product may be renamed) All prices are per unit sold excluding freight, duty, and taxes. Prices will remain in effect for the period of the initial 5 year term. Wholesale Price Item To Be determined when successful research project is complete. The parties agree to cooperate in developing a private label version of the above products on the terms the parties may agree. The private label products shall be versions of the above products labeled and packaged to bear the Distributor's name or the Distributor's trade name. In addition, customized packaging for the private label products may also be developed on the terms agreed to by the parties. Pricing for the private labeled products may be modified due to any increased costs of production or packaging for the private labeled products. In addition, Erchonia may require reasonable minimum purchasing requirements for each run of private labeled products.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the reference to 'Schedule A' and the 90-day notice period for price revisions. This creates a direct contradiction with Schedule A - Products and Pricing, which states that prices will remain in effect for the initial 5-year term. The changed text allows for price revisions at Erchonia's discretion with immediate effect, directly conflicting with the guaranteed pricing in Schedule A. This falls under Omissions - In Text Contradiction as essential language about pricing constraints has been removed, creating a contradiction with the pricing terms outlined in Schedule A."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Distributor agrees that during the term of this agreement it meet the minimum performance goals set forth in Exhibit C to this agreement. Failure to meet these minimum performance goals for any period, shall, at Erchonia's option (i) be considered a breach of this agreement for which Erchonia shall have all the rights and remedies provided for herein upon a breach of this agreement, including termination of this agreement, or (ii) shall give Erchonia to terminate or limit the exclusivity provisions of this agreement",
+        "changed_text": "Distributor is expected to make commercially reasonable efforts to promote the products. Erchonia may terminate or limit the exclusivity provisions of this agreement if not satisfied with distributor performance.",
+        "explanation": "The original text refers to Exhibit C which defines minimum performance goals. The modified text removes this reference and introduces a vague concept of 'commercially reasonable efforts.' This creates a contradiction since exhibit C is expecting for a performance goal to be set, but the text references nothig about it. If Erchonia terminates the agreement based on 'not satisfied with distributor performance,' it will be difficult to enforce due to the ambiguity. This contradicts the intent of Exhibit C, which outlines specific, measurable performance goals.",
+        "location": "2.b",
+        "contradicted_location": "Exhibit C",
+        "contradicted_text": "Exhibit C Minimum Performance Goals Minimum Performance won't be determined until FDA 50k market clearance is obtained. At that time parties will operate in good faith to set performance goals. Note: Performance goals to begin 120 days after receipt of FDA market clearance.",
+        "contradiction_exists": "YES",
+        "justification": "The original text and Exhibit C established a framework for setting and enforcing minimum performance goals tied to FDA 50k market clearance. The changed text replaces this with a vague 'commercially reasonable efforts' standard. This creates a contradiction because Exhibit C anticipates specific, measurable performance goals related to FDA clearance, while the changed text allows Erchonia to terminate or limit exclusivity based on a subjective assessment of distributor performance. This undermines the objective criteria intended by Exhibit C, leading to a strong in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Erchonia shall indemnify, defend and hold Distributor harmless from any claims, demands, liabilities or expenses, including reasonable attorneys' fees, incurred by Distributor as a result of any claim or proceeding against Distributor arising out of or based upon: (i) a claim that the Products infringe upon any U.S. patent, trademark, copyright or other intellectual property rights of any third party, (ii) the products fail to comply with applicable federal law or regulation.",
+        "changed_text": "Erchonia may provide assistance to Distributor in defending against claims. Any assistance is at Erchonia's sole discretion.",
+        "explanation": "This changes the obligatory 'shall indemnify, defend and hold harmless' to a discretionary 'may provide assistance.' This omission creates an in-text contradiction with the following sections (b and c) within the indemnification clause, which outlines the procedure to follow on case of indemnity that erchonia must pay, because those sections assume Erchonia has the obligation to indemnify but that responsibility no longer exist.",
+        "location": "11.a",
+        "contradicted_location": "11.b",
+        "contradicted_text": "Distributor shall promptly notify Erchonia of any suit or claim by a third party relating to the Products or use of the Products and Distributor shall promptly furnished Erchonia with a copy of each communication, notice or other action relating to said claim. Erchonia shall have the right to assume sole authority to conduct the trial or settlement of such claim or any negotiations related to any claim for which Erchonia is obligated to indemnify Distributor at Erchonia expense; and Distributor shall provide reasonable information and assistance requested by Erchonia in connection with such claim or suit.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates Erchonia's indemnification and defense of the Distributor. The changed text makes any assistance discretionary. This directly contradicts the 'Contradicted Text', which assumes Erchonia has an obligation to indemnify and outlines the procedures Erchonia must follow when it is obligated to indemnify. The changed text removes the obligation that makes the procedure laid out in the contradicted text possible."
+      }
+    ]
+  }
+]

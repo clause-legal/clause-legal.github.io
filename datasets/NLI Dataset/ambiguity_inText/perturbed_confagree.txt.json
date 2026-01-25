@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "confagree.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "2.5 This agreement shall expire two years from the date of execution.",
+        "changed_text": "2.5 This agreement shall expire two years from the date of execution, except the confidentiality obligations outlined in section 1, which shall survive indefinitely.",
+        "explanation": "This adds a phrase which creates a direct contradiction concerning the duration of the agreement. The initial statement indicates a two-year expiration. However, it follows with 'except the confidentiality obligations outlined in section 1, which shall survive indefinitely', which specifies some terms last indefinitely. This creates an in-text contradiction about the agreement's duration and the scope of its applicability.",
+        "location": "2.5",
+        "contradicted_location": "2.5",
+        "contradicted_text": "2.5 This agreement shall expire two years from the date of execution, except the confidentiality obligations outlined in section 1, which shall survive indefinitely. Any agreement created by acceptance of this Co nfidential Information shall be governed by and construed in accordance with the laws of (Enter State) and you hereby submit to the exclusive jurisdiction of the Courts of (Enter State) in relation thereto. If the party to this agreement is a company th e person signing this agreement on behalf of the company hereby agrees in consideration of the information being provided to the company at their request to personally guaran tee the performance of the company of its obligations hereunder which guarantee shall be a primary obligation. Please indicate your acceptance of the above by signing in the space provided below.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text and contradicted text are identical, indicating the change happened on the same section of the contract. The original text specifies that 'This agreement shall expire two years from the date of execution'. However, the changed text adds an exception: 'except the confidentiality obligations outlined in section 1, which shall survive indefinitely'. This creates an in-text contradiction because the agreement is initially stated to expire in two years, but then some obligations are said to continue indefinitely, creating a contradiction about the agreement's actual duration and scope, and causing confusion and uncertainty."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Mergers & Acquisitions CONFIDENTIALITY AGREEMENT",
+        "changed_text": "Mergers & Acquisitions CONFIDENTIALITY AGREEMENT. This agreement is non-binding and is intended for discussion purposes only.",
+        "explanation": "This statement creates a direct contradiction within the introduction of the agreement. The original title suggests a legally binding confidentiality agreement. But by adding 'This agreement is non-binding and is intended for discussion purposes only,' the agreement is now asserted to be non-binding. This generates an in-text contradiction because the title and the added statement conflict on whether the agreement creates enforceable obligations.",
+        "location": "CONFIDENTIALITY AGREEMENT",
+        "contradicted_location": "CONFIDENTIALITY AGREEMENT",
+        "contradicted_text": "Mergers & Acquisitions CONFIDENTIALITY AGREEMENT. This agreement is non-binding and is intended for discussion purposes only. Re: (Enter Business Name) (“the Business”) and (Enter Recipients name) (“the Recipient”) 1. UNDERTAKING In consideration of our Agreement to supply to you certain written or oral information relating to the Business and entering into discussions relating to the sale of the Business to you (howsoever structured), you the Recipient hereby undertake to us, the Vendor for our benefit and that of the Busine ss, except to the extent that we have given prior written consent, whether or not negoti ations for the sale of the Business proceed, that you:",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds a statement that the agreement is 'non-binding and is intended for discussion purposes only.' This directly contradicts the original title and the undertaking in the contradicted text, which assumes a legally binding agreement with enforceable obligations. The contradicted text states, 'you the Recipient hereby undertake to us, the Vendor for our benefit,' which implies a legal obligation. The addition of the non-binding clause fundamentally undermines this obligation, creating a clear and direct contradiction within the document."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Please indicate your acceptance of the above by signing in the space provided below.",
+        "changed_text": "Please indicate your acceptance of the above by signing in the space provided below. However, signing this document does not constitute an admission of legal obligation.",
+        "explanation": "The addition of 'However, signing this document does not constitute an admission of legal obligation' creates an in-text contradiction with the implicit understanding that signing signifies acceptance of the obligations outlined in the agreement. This phrase undermines the purpose of signing by suggesting that the signature does not create any legal obligations. This creates a contradiction within the document, and the enforecement of the document.",
+        "location": "SIGNING BLOCK",
+        "contradicted_location": "SIGNING BLOCK",
+        "contradicted_text": "Please indicate your acceptance of the above by signing in the space provided below. However, signing this document does not constitute an admission of legal obligation. SIGNED FOR AND ON BEHALF OF THE VENDOR: Name: Signed: Date: SIGNED FOR AND ON BEHALF OF THE RECIPIENT: Name: Signed Witness: _____________________ Title: Name: Signed Witness: Title: Company: Address: Date:",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds 'However, signing this document does not constitute an admission of legal obligation' to the original text, which directly contradicts the purpose of having signatures 'SIGNED FOR AND ON BEHALF OF THE VENDOR' and 'SIGNED FOR AND ON BEHALF OF THE RECIPIENT'. The contradicted text clearly shows that signing signifies agreement and legal commitment, but the changed text explicitly states that signing does not constitute legal obligation. This creates a strong in-text contradiction because it undermines the binding nature of the agreement, fitting the definition of Ambiguities – In Text Contradiction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "Confidentiality-and-Nondisclosure-Agreement-Template.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "VENDOR shall maintain the privacy of protected personal information and shall be financially responsible, if and to the extent that any security breach relating to protected personal information results from acts or omissions of VENDOR, or its personnel, for any notifications to affected persons (after prompt consultation with UNIVERSITY), and to the extent requested by UNIVERSITY, administratively responsible for such notification.",
+        "changed_text": "VENDOR shall maintain the privacy of protected personal information. VENDOR shall be financially responsible, if and to the extent that any security breach relating to protected personal information results from acts or omissions of VENDOR, or its personnel, for any notifications to affected persons (after prompt consultation with UNIVERSITY). To the extent requested by UNIVERSITY, VENDOR will be administratively responsible for such notification. However, VENDOR will not be held responsible or liable for any losses, damages or harm caused in the event of a security breach, regardless of source or origin.",
+        "explanation": "The added sentence absolves the vendor of responsibility for losses or damages in the event of a security breach, which directly contradicts the previous sentence that holds them financially responsible for notifications to affected parties. This creates a contradiction regarding liability in the event of a data breach.",
+        "contradicted_law": "Arkansas Personal Information Protection Act",
+        "law_citation": "Ark. Code Ann. \u00a7 4-110-104",
+        "law_url1": [
+          "https://law.justia.com/codes/arkansas/2023/title-4/subtitle-3/chapter-110/subchapter-1/4-110-104/"
+        ],
+        "law_url2": [
+          "https://www.natlawreview.com/article/arkansas-amends-personal-information-protection-act"
+        ],
+        "law_explanation": "This modification contradicts the Arkansas Personal Information Protection Act, specifically Ark. Code Ann. \u00a7 4-110-104, which mandates reasonable security procedures and practices. By adding a clause that absolves the vendor of responsibility for losses due to security breaches, the agreement undermines the requirement for reasonable security measures, as there's no clear incentive to maintain them if they aren't liable for the resulting harm, thus contradicting the statute's implied requirement for vendor accountability.",
+        "location": "Section 2",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The modified text introduces a clause that absolves the vendor of responsibility for losses or damages resulting from a security breach. This directly contradicts the original text, which held the vendor financially responsible for notifications to affected parties in the event of a security breach. The Perturbation Explanation highlights this contradiction by noting that the added sentence conflicts with the previous sentence regarding liability. The Law Explanation states this undermines reasonable security measures. Since the modified contract now explicitly states the vendor will not be held liable for losses or damages regardless of the breach's origin, it creates a clear contradiction regarding the vendor's responsibility in the event of a data breach. The absence of law snippets does not change this analysis."
+      },
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "VENDOR shall give UNIVERSITY immediate notice of any unauthorized use or disclosure of the Confidential Information, or of any breach or threatened breach by VENDOR, or its employees, agents, contractors, or subcontractors of their obligations under this Agreement, upon learning of same.",
+        "changed_text": "VENDOR shall give UNIVERSITY notice of any unauthorized use or disclosure of the Confidential Information, or of any breach or threatened breach by VENDOR, or its employees, agents, contractors, or subcontractors of their obligations under this Agreement, upon learning of same, within a reasonable timeframe as determined solely by VENDOR.",
+        "explanation": "Replacing 'immediate notice' with 'within a reasonable timeframe as determined solely by VENDOR' gives the vendor complete discretion over the timing of breach notification. This undermines the University's ability to respond promptly to security incidents and potentially mitigate damages.",
+        "contradicted_law": "Arkansas Data Security Breach Notification Act",
+        "law_citation": "Ark. Code Ann. \u00a7 4-110-103",
+        "law_url1": [
+          "https://law.justia.com/codes/arkansas/2023/title-4/subtitle-3/chapter-110/subchapter-1/4-110-103/"
+        ],
+        "law_url2": [
+          "https://www.jdsupra.com/legalnews/arkansas-adopts-revised-data-breach-law-7453468/"
+        ],
+        "law_explanation": "This change contradicts the Arkansas Data Security Breach Notification Act (Ark. Code Ann. \u00a7 4-110-103), which requires notification 'without unreasonable delay.' Granting the vendor sole discretion over what constitutes a 'reasonable timeframe' allows them to potentially delay notification indefinitely, violating the spirit and intent of the law's requirement for timely notification to affected parties and regulatory bodies.",
+        "location": "Section 6",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The original contract mandates 'immediate notice' of a security breach. The changed text replaces this with 'within a reasonable timeframe as determined solely by VENDOR,' granting the vendor complete discretion over the notification timeline. The Law Explanation states this potentially violates the Arkansas Data Security Breach Notification Act (Ark. Code Ann. \u00a7 4-110-103), which requires notification 'without unreasonable delay.' While no law snippets were provided, the Perturbation and Law Explanations both indicate that the vendor's sole discretion over the timeframe contradicts the legal requirement for timely notification, thus undermining the University's ability to respond promptly."
+      },
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "All of the provisions of this agreement are severable. If any provision of this Agreement is rendered invalid or unenforceable by State or Federal statute or regulations or declared null and void by any court of competent jurisdiction, the remaining provisions of this Agreement will remain in full force and effect.",
+        "changed_text": "All of the provisions of this agreement are severable. If any provision of this Agreement is rendered invalid or unenforceable by State or Federal statute or regulations or declared null and void by any court of competent jurisdiction, the remaining provisions of this Agreement will remain in full force and effect, unless UNIVERSITY decides otherwise.",
+        "explanation": "Adding 'unless UNIVERSITY decides otherwise' introduces ambiguity and potential unenforceability to the severability clause. It grants the University arbitrary power to negate the severability of provisions, potentially undermining the vendor's expectations regarding the agreement's terms.",
+        "contradicted_law": "General Contract Law Principles",
+        "law_citation": "Restatement (Second) of Contracts \u00a7 184",
+        "law_url1": [
+          "https://law.resource.org/rest/legal/us/restatements/contracts/contracts.2d/sections.html#s184"
+        ],
+        "law_url2": [
+          "https://www.law.cornell.edu/wex/contract"
+        ],
+        "law_explanation": "This modification can be seen as contradicting general contract law principles, specifically regarding the enforceability of contracts. While severability clauses are generally upheld, adding an arbitrary condition like 'unless UNIVERSITY decides otherwise' introduces an element of option for one party which threatens the mutual intention of the parties and would undermine the stability and predictability that the severability clause is designed to provide. The Restatement (Second) of Contracts \u00a7 184 discusses the concept of enforceability and if a contract becomes vague and open to interpretation, its enforceability is jeopardized. ",
+        "location": "Section 9",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "contract | Wex | US Law | LII / Legal Information Institute Please help us improve our site! \u00d7 No thank you contract A contract is an agreement between parties , creating mutual obligations that are enforceable by law . The basic elements required for the agreement to be a legally enforceable contract are: mutual assent , expressed by a valid offer and acceptance ; adequate consideration ; capacity ; and legality . In some states , elements of consideration can be satisfied by a valid substitute. Possible remedies for breach of contract include general damages , consequential damages , reliance damages , and specific performance . Background : Contracts are promises that the law will enforce. Contract law is generally governed by state common law , and while general overall contract law is common throughout the country, some specific court interpretations of a particular element of the contract may vary between the states. If a promise is breached, the law provides remedies to the harmed party, often in the form of monetary damages, or in limited circumstances, in the form of specific performance of the promise made. Elements -- Consideration and Mutual Assent Contracts arise when a duty comes into existence, because of a promise made by one of the parties. To be legally binding as a contract, a promise must be exchanged for adequate consideration. There are two different theories or definitions of consideration: Bargain Theory of Consideration and Benefit-Detriment theory of consideration. Benefit-Detriment Under the b enefit-detriment theory, an adequate consideration exists only when a promise made to the benefit of the promisor or to the detriment of the promisee, which reasonably and fairly induces the promisor to make a promise for something else for the promisee. For example, promises that are purely gifts are not considered enforceable because the personal satisfaction the grantor of the promise may receive from the act of generosity is normally not considered sufficient detriment to constitute adequate consideration. Bargain-for-Exchange Under Bargain-for-Exchange theory of consideration, adequate consideration exists when a promisor makes a promise in return for something else. Here, the essential condition is that the promisor was given something specifically to induce the promise being made. In other words, the bargain for exchange theory is different from the detriment-benefit theory in that the focus in bargain for exchange theory seems to be the parties\u2019 motive for making the promises and the parties\u2019 subjective mutual assent, while in detriment benefit theory, the focus seems to be an objective legal detriment or benefit to the parties. Governing Laws Contracts are mainly governed by state statutory and common (judge-made) law and private law (i.e. the private agreement). Private law principally includes the terms of the agreement between the parties who are exchanging promises. This private law may override many of the rules otherwise established by state law. Statutory law, such as the Statute of Fraud , may require some kinds of contracts be put in writing and executed with particular formalities, for the contract to be enforceable. Otherwise, the parties may enter into a binding agreement without signing a formal written document. For example, Virginia Supreme Court has held in Lucy v. Zehmer that even an agreement made on a piece of napkin can be considered a valid contract, if the parties were both sane, and showed mutual assent and consideration. Most of the principles of the common law of contracts are outlined in the Restatement of Law, Second Contracts published by the American Law Institute. The Uniform Commercial Code , whose original articles have been adopted in nearly every state, represents a body of statutory law that governs important categories of contracts. The main articles that deal with the law of contracts are Article 1 (General Provisions) and Article 2 (Sales) . Sections of Article 9 (",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The added phrase 'unless UNIVERSITY decides otherwise' directly contradicts the established principle of severability within contract law. The original text ensures that if any part of the agreement is deemed invalid, the rest remains enforceable. The added phrase gives the University the unilateral power to negate this severability, making the enforceability of the remaining provisions uncertain and dependent on the University's discretion. This introduces an element of option for one party which threatens the mutual intention of the parties and would undermine the stability and predictability that the severability clause is designed to provide. The second snippet states that a contract is an agreement creating 'mutual obligations that are enforceable by law,' and this change undermines that enforceability."
+      }
+    ]
+  }
+]

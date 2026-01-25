@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "nda_pine__en.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "4.1 THE PARTIES may not disclose or communicate in any form or way data and information of a confidential nature to unauthorized subjects.",
+        "changed_text": "4.1 THE PARTIES may not disclose or communicate in any form or way data and information of a confidential nature to unauthorized subjects, unless the disclosure is in the best interest of the PROJECT, as determined by ACRONYM OF THE PINE PROJECT PARTNER.",
+        "explanation": "This perturbation adds an exception to the non-disclosure obligation in Section 4.1, stating that disclosure is permitted if it's in the best interest of the PROJECT, as determined by ACRONYM OF THE PINE PROJECT PARTNER. This creates an internal contradiction with the strict confidentiality obligations outlined in the other subsections of Section 4, creating ambiguity around the boundaries of authorized disclosure.",
+        "location": "4.1",
+        "contradicted_location": "4.2",
+        "contradicted_text": "4.2 Such data and information will have to be used appr opriately and adequately for the carrying out of the activities specifically envisaged by the PROJECT and contained in the contract mentioned in the Premises, in such a way that their confidential nature is not compromised and no damage is caused in any other way.",
+        "contradiction_exists": "YES",
+        "justification": "The original text in Section 4.1 strictly prohibits disclosure of confidential information to unauthorized subjects. The changed text introduces an exception allowing disclosure if it is in the best interest of the PROJECT, as determined by ACRONYM OF THE PINE PROJECT PARTNER. This directly contradicts Section 4.2, which requires that data and information be used in such a way that their confidential nature is not compromised. The addition of the exception in 4.1 directly allows for situations where confidentiality *is* compromised, creating a clear in-text contradiction. The change alters the nature of confidentiality from absolute to conditional, conflicting with the requirement that confidentiality be maintained to avoid damage."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "4.4 The information and data of a confidential nature will be forwarded by ACRONYM OF THE PINE PROJECT PARTNER to the financing institution of the PROJECT (EACI, the Executive Agency for Competitiveness and Innovation of the Eu ropean Commission), or to other bodies designated to monitoring or control, compliant to t he envisaged management procedures, in an anonymous or in an aggregated form and however without providing information that may allow the association of the provided data with the COMPANY .",
+        "changed_text": "4.4 The information and data of a confidential nature may be forwarded by ACRONYM OF THE PINE PROJECT PARTNER to the financing institution of the PROJECT (EACI, the Executive Agency for Competitiveness and Innovation of the Eu ropean Commission), or to other bodies designated to monitoring or control, compliant to t he envisaged management procedures, potentially including information that may allow the association of the provided data with the COMPANY, if deemed strictly necessary for auditing purposes.",
+        "explanation": "This perturbation modifies Section 4.4 to allow for the potential disclosure of information that could identify the COMPANY, contradicting the original restriction against such disclosure. This directly conflicts with the stated purpose of maintaining anonymity and creates an in-text contradiction. This affect the COMPANY by exposing the company's info.",
+        "location": "4.4",
+        "contradicted_location": "4.5",
+        "contradicted_text": "4.5 The information and data of a confidential nature may be forwarded by ACRONYM OF THE PINE PROJECT PARTNER to other PROJECT partners and/or third parties appointed to carry o ut analyses on them. In this case too, the forwarding will take place in an anonymous or in an aggregated form and however without providing infor mation that may allow the association of the provided data with the COMPANY .",
+        "contradiction_exists": "YES",
+        "justification": "The original text in Section 4.4 prohibits providing information that may allow the association of provided data with the company. The changed text in Section 4.4 allows for potentially including information that may allow the association of provided data with the company, if deemed strictly necessary for auditing purposes. This directly contradicts the restriction in the original Section 4.4 and Section 4.5 which states that forwarding will take place 'without providing information that may allow the association of the provided data with the COMPANY'. This is a clear in-text contradiction according to the definition of 'Ambiguities – In Text Contradiction' because the changed text introduces a condition where identifiable data *can* be shared, which conflicts with the original clause that explicitly forbids it."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "5.1 Each Party shall appoint within its organization a person responsible for the treatment of confidential information and data, who shall have a ll persons in charge of carrying out PROJECT activities sign a declaration, whereby they take it upon themselves to comply with confidentiality obligations as described and regulated in the prese nt AGREEMENT .",
+        "changed_text": "5.1 Each Party may appoint within its organization a person responsible for the treatment of confidential information and data, if they deem it necessary. If a person is appointed, they shall have all persons in charge of carrying out PROJECT activities sign a declaration, whereby they take it upon themselves to comply with confidentiality obligations as described and regulated in the prese nt AGREEMENT .",
+        "explanation": "This changes the requirement in Section 5.1 from 'shall appoint' to 'may appoint,' making the appointment of a responsible person optional. This introduces an in-text contradiction because, without a designated person, it becomes unclear how confidentiality obligations are enforced, conflicting with the intent of ensuring compliance described in the subsequent clause. It can have implications for legal liability and compliance.",
+        "location": "5.1",
+        "contradicted_location": "5.2",
+        "contradicted_text": "5.2 The persons responsible for the abovementioned conf idential data treatment are: - for ACRONYM OF THE PINE PROJECT PARTNER …………….……………………………….. - for the COMPANY…………………………………………………………………………………. ",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates the appointment of a person responsible for confidential information. The changed text makes this appointment optional ('may appoint'). Section 5.2 refers to 'the persons responsible for the abovementioned confidential data treatment', implying that such persons exist. By making the appointment optional, the changed text creates a contradiction with Section 5.2 because it is no longer guaranteed that there will be persons responsible, as stated in section 5.2. This ambiguity directly contradicts the assumption that responsible persons exist as described in 5.2, creating an in-text contradiction as defined by the 'Ambiguities – In Text Contradiction' type."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "6.1 THE PARTIES commit to adopt all security measures as necessary to protect data and information of a confidential nature and guarantee that their confidentiality is not compromised in any way .",
+        "changed_text": "6.1 THE PARTIES commit to adopt reasonable security measures to protect data and information of a confidential nature. The specific measures will depend on the resources available to each party at the time and are subject to change.",
+        "explanation": "This perturbation weakens the security obligations in Section 6.1 by changing 'all security measures as necessary' to 'reasonable security measures' and introducing a condition that depends on available resources. This contradicts the guarantee that confidentiality is not compromised in any way, creating ambiguity regarding the level of protection required and leading to potential disputes.",
+        "location": "6.1",
+        "contradicted_location": "6.2",
+        "contradicted_text": "6.2 The treatment of all sensitive and personal data sh all be compliant to the relevant national legislation in place, particularly in relation to law….",
+        "contradiction_exists": "YES",
+        "justification": "The original text in Section 6.1 guaranteed that the confidentiality of data and information would not be compromised in any way. The changed text weakens this guarantee by stating that the security measures will be 'reasonable' and depend on 'resources available', making the guarantee unenforceable and creating an ambiguity. This directly contradicts Section 6.2, which states that all sensitive and personal data shall be treated in compliance with relevant national legislation, implying a definite standard of protection that the revised Section 6.1 undermines."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "8. Duration Confidentiality obligations are intended to last fr om the signing of the present AGREEMENT up to five years after completion of the PROJECT , currently envisaged for March 16, 2015, except any further extensions of the validity period of this AGREEMENT to be agreed upon by THE PARTIES and before the aforementioned deadline. In case THE PARTIES decide to extend the validity period for a longer period of time or unlimitedly, confide ntiality obligations are extended from the signing of the AGREEMENT for the entire duration as agreed upon, which shal l be inserted in the AGREMENT .",
+        "changed_text": "8. Duration Confidentiality obligations are intended to last from the signing of the present AGREEMENT until either five years after completion of the PROJECT, currently envisaged for March 16, 2015, or until either party terminates the agreement with 30 days' notice, whichever is shorter, except any further extensions of the validity period of this AGREEMENT to be agreed upon by THE PARTIES and before the aforementioned deadline. In case THE PARTIES decide to extend the validity period for a longer period of time or unlimitedly, confide ntiality obligations are extended from the signing of the AGREEMENT for the entire duration as agreed upon, which shal l be inserted in the AGREMENT .",
+        "explanation": "This adds a clause in Section 8 allowing either party to terminate the confidentiality obligations with 30 days' notice, creating an in-text contradiction with the original fixed duration of five years. This introduces uncertainty about the actual duration of confidentiality and potentially undermines the protection of confidential information. The end date of agreement is contradicted.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "8. Duration Confidentiality obligations are intended to last fr om the signing of the present AGREEMENT up to five years after completion of the PROJECT , currently envisaged for March 16, 2015, except any further extensions of the validity period of this AGREEMENT to be agreed upon by THE PARTIES and before the aforementioned deadline. In case THE PARTIES decide to extend the validity period for a longer period of time or unlimitedly, confide ntiality obligations are extended from the signing of the AGREEMENT for the entire duration as agreed upon, which shal l be inserted in the AGREMENT .",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds a clause allowing termination with 30 days' notice, contradicting the original clause's fixed five-year duration and extensions. This introduces uncertainty about the confidentiality duration, creating a direct conflict within section 8 as it now contains two different clauses that contradict each other."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "NEXSTARFINANCEHOLDINGSINC_03_27_2002-EX-10.26-OUTSOURCING AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "During the Term, notwithstanding the Services rendered by Nexstar, WYZZ shall retain exclusive authority, power and control over WYZZ-TV's programming, personnel, and finances.",
+        "changed_text": "During the Term, notwithstanding the Services rendered by Nexstar, WYZZ shall retain advisory authority, while Nexstar will maintain day to day operational authority, power and control over WYZZ-TV's programming, personnel, and finances.",
+        "explanation": "The original text grants WYZZ exclusive control over programming, personnel, and finances, but the modified version shifts day-to-day operational authority to Nexstar, contradicting the initial exclusivity. This could lead to disputes regarding decision-making power and liability.",
+        "location": "Section 6.a.(i)",
+        "contradicted_location": "Section 6.a.(i)",
+        "contradicted_text": "During the Term, notwithstanding the Services rendered by Nexstar, WYZZ shall retain advisory authority, while Nexstar will maintain day to day operational authority, power and control over WYZZ-TV's programming, personnel, and finances.",
+        "contradiction_exists": "YES",
+        "justification": "The original text unequivocally grants WYZZ 'exclusive authority, power and control' over critical operational aspects (programming, personnel, finances). The changed text explicitly transfers 'day to day operational authority, power and control' to Nexstar, directly contradicting the original exclusive control. This creates a clear in-text contradiction, as both entities cannot simultaneously possess exclusive and day-to-day operational control over the same domains, thus the answer should be yes, as the definition of Structural Flaws - In Text Contradiction fits."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "WYZZ shall maintain good and marketable title to all of the assets and properties used and useful prior to the date hereof (together with replacements, thereof) in the operation of WYZZ-TV.",
+        "changed_text": "WYZZ shall maintain good and marketable title to some of the assets and properties used and useful prior to the date hereof (together with replacements, thereof) in the operation of WYZZ-TV.",
+        "explanation": "The original text states that WYZZ maintains title to all assets and properties used in WYZZ-TV's operation. The modified text changes this to \"some\" of the assets and properties, making it unclear which assets WYZZ actually owns and potentially conflicting with other sections that assume WYZZ owns all necessary assets. This contradicts section 8.e and can create uncertainty about ownership and responsibility for maintenance.",
+        "location": "Section 8.e",
+        "contradicted_location": "Section 8.e",
+        "contradicted_text": "WYZZ shall maintain good and marketable title to some of the assets and properties used and useful prior to the date hereof (together with replacements, thereof) in the operation of WYZZ-TV.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that WYZZ maintains title to 'all' assets and properties, whereas the changed text modifies this to 'some'. This directly contradicts the requirement to maintain title to all assets, as now WYZZ only maintains title to 'some'. This creates uncertainty about ownership and responsibility for maintenance, triggering a direct and strong contradiction, regardless of the location of the changed text, it's the contradiction within the text itself that matters."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Each of the parties shall during and after the Term continue to be bound by the provisions of the Confidentiality Letter Agreement dated as of July 31, 2001.",
+        "changed_text": "Each of the parties shall during only the Term continue to be bound by the provisions of the Confidentiality Letter Agreement dated as of July 31, 2001.",
+        "explanation": "The original states confidentiality extends after termination, while the modified one implies it ends with the contract, creating contradiction. This introduces uncertainty regarding the duration of confidentiality obligations.",
+        "location": "Section 11.c",
+        "contradicted_location": "Section 11.c",
+        "contradicted_text": "Each of the parties shall during only the Term continue to be bound by the provisions of the Confidentiality Letter Agreement dated as of July 31, 2001.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that confidentiality extends 'during and after the Term', whereas the changed text restricts this to 'during only the Term'. The contradicted text then repeats the changed text, stating that the confidentiality extends 'during only the Term'. This directly contradicts the original intention of extending confidentiality beyond the contract term, creating a clear in-text contradiction and uncertainty about the duration of the obligation."
+      }
+    ]
+  }
+]

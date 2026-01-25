@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "InnerscopeHearingTechnologiesInc_20181109_8-K_EX-10.6_11419704_EX-10.6_Distributor Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Distributor shall pay half (1/2) of the purchase price prior to shipment and the remaining balance 30 days after shipment of the Products. Payments received after the 30 day calendar period will be subject to a late fee of 1.5% of the invoice amount. All payments shall be made in U.S. Dollars.",
+        "changed_text": "Distributor shall pay half (1/2) of the purchase price prior to shipment and the remaining balance 60 days after shipment of the Products. Payments received after the 30 day calendar period will be subject to a late fee of 1.5% of the invoice amount. All payments shall be made in U.S. Dollars.",
+        "explanation": "The original text states the remaining balance is due 30 days after shipment, but a late fee applies to payments received after 30 days, effectively creating a contradiction with the new due date of 60 days after shipment. This creates ambiguity around when late fees actually apply, because the text indicates the balance is due in 60 days in one section and then applies the 30 days condition to late fees.",
+        "location": "4.b",
+        "contradicted_location": "4.b",
+        "contradicted_text": "Erchonia shall submit invoices to Distributor after or concurrent with shipment of Products to Distributor at the delivery address. Distributor shall pay half (1/2) of the purchase price prior to shipment and the remaining balance 60 days after shipment of the Products. Payments received after the 30 day calendar period will be subject to a late fee of 1.5% of the invoice amount. All payments shall be made in U.S. Dollars.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the payment term from 30 days to 60 days after shipment while retaining the clause about late fees applying after 30 days. This creates a direct contradiction because the document states the balance is due in 60 days, yet applies a late fee as if it were due in 30 days. This inconsistency creates an in-text contradiction regarding when late fees should be applied, thus resulting in ambiguity and unenforceability, which is an example of 'Inconsistencies - In Text Contradiction'."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This agreement shall automatically renew for a period of three (3) years and upon the parties mutual agreement on new minimum performance goals for the renewal period.",
+        "changed_text": "This agreement shall automatically renew for a period of three (3) years, irrespective of the parties' mutual agreement on new minimum performance goals for the renewal period.",
+        "explanation": "The original text clearly states that renewal is contingent on mutual agreement on new minimum performance goals. The modified text removes this condition, implying that the agreement renews automatically regardless of any agreement on performance goals. This creates an internal contradiction as it is not clear if a mutual agreement is needed, and causes in-text contradiction in section 6.a.",
+        "location": "6.a",
+        "contradicted_location": "6.a",
+        "contradicted_text": "Unless terminated earlier as provided in this agreement, this Agreement shall have an initial term of three (3) years. This agreement shall automatically renew for a period of three (3) years, irrespective of the parties' mutual agreement on new minimum performance goals for the renewal period.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the condition that renewal is contingent on mutual agreement, directly contradicting the implication in the contradicted text that such agreement is a prerequisite for renewal. This aligns with the 'Structural Flaws - In Text Contradiction' definition, creating an inconsistency about the conditions for renewal, and uncertainty about the parties obligations."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Distributor may not assign to any person any duties or obligations arising under this Agreement without Erchonia's prior written consent (which consent may be withheld in Erchonia's sole discretion).",
+        "changed_text": "Distributor may assign to any person any duties or obligations arising under this Agreement with Erchonia's prior written consent (which consent must be granted if the assignee meets reasonable financial criteria).",
+        "explanation": "The original text gives Erchonia the sole discretion to withhold consent for assignment. The changed text still requires consent but mandates that it must be granted if the assignee meets reasonable financial criteria. This contradicts the initial statement that Erchonia can withhold consent at its sole discretion, by imposing condition of meeting financial criteria for approval creating conflict.",
+        "location": "12.a",
+        "contradicted_location": "12.a",
+        "contradicted_text": "Assignment. Distributor may assign to any person any duties or obligations arising under this Agreement with Erchonia's prior written consent (which consent must be granted if the assignee meets reasonable financial criteria). Notwithstanding the foregoing, the Distributor may engage individuals, at the sole expense and responsibility of the Distributor, to assist the Distributor in performing any of the Distributor's duties or obligations arising under this Agreement. Erchonia may not assign any duties or obligations arising under this Agreement, except to a successor who acquires substantially all of the assets of Erchonia.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a direct contradiction. The original text allows Erchonia to withhold consent for assignment at its sole discretion. The changed text, however, mandates that consent must be granted if the assignee meets reasonable financial criteria. This creates a conflict, because it limits Erchonia's previously unlimited discretion. This limitation directly conflicts with the idea of 'sole discretion,' leading to uncertainty about the extent of Erchonia's control over assignments."
+      }
+    ]
+  }
+]

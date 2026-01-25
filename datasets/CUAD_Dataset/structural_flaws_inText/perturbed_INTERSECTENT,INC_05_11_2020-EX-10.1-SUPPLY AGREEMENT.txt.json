@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "INTERSECTENT,INC_05_11_2020-EX-10.1-SUPPLY AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "1. Definitions 1.1. \"Active Pharmaceutical Ingredient\" or \"API\" shall have the meaning given such term in the preamble hereof.",
+        "changed_text": "1. Definitions 1.1. \"Active Pharmaceutical Ingredient\" or \"API\" shall have the meaning given such term in the preamble hereof, unless otherwise specified in writing by INTERSECT. INTERSECT retains the right to unilaterally redefine the scope of API at any time.",
+        "explanation": "This change introduces a contradiction by stating that the definition of \"API\" is as defined in the preamble, but then allows INTERSECT to unilaterally redefine it. This contradicts the stability and mutual agreement implied in contract definitions, creating uncertainty about the actual scope of API. This change could directly contradict Section 2.2, Product Specifications, which refers back to Exhibit B which defines the product specifications; the new addition allows INTERSECT to redefine the API regardless of the Product Specifications.",
+        "location": "Section 1.1",
+        "contradicted_location": "Section 2.2",
+        "contradicted_text": "2.2. Product Specifications. The specifications of the API as set out in in Exhibit B to this Agreement (the \"Product Specifications\"); as such Exhibit may be amended according to the terms of the quality agreement between the parties.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text allows INTERSECT to unilaterally redefine 'API', which directly contradicts Section 2.2 stating that the API specifications are 'as set out in Exhibit B'. The change introduces uncertainty and allows deviation from the agreed-upon product specifications, thus creating a strong in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "4.4. Payment Terms. HOVIONE shall invoice INTERSECT upon dispatch of the API. INTERSECT shall pay the price to HOVIONE for API within thirty (30) calendar days of the date of invoice of such API. Payments shall be made to HOVIONE by wire transfer.",
+        "changed_text": "4.4. Payment Terms. HOVIONE shall invoice INTERSECT upon dispatch of the API. INTERSECT shall pay the price to HOVIONE for API within thirty (30) calendar days of the date of invoice of such API, unless INTERSECT determines, in its sole discretion, that a longer payment period is warranted due to market conditions. Payments shall be made to HOVIONE by wire transfer.",
+        "explanation": "This alteration adds ambiguity to the payment terms. While the original clause specifies payment within thirty days, the addition gives INTERSECT the discretion to extend the payment period based on 'market conditions'. This directly contradicts the defined 30-day term, creating uncertainty about when payment is actually due. This contradiction can be viewed in Section 10.2 (a)(i), since failure to comply to the payment terms in Section 4.4 allows the termination of this contract, but now with the additional change to the Payment Terms, makes the breach of the 30 days from Section 4.4, and allows INTERSECT to avoid breaching the contract. ",
+        "location": "Section 4.4",
+        "contradicted_location": "Section 10.2",
+        "contradicted_text": "10.2. Grounds for Termination. (a) Either party shall have the right to terminate this Agreement upon the occurrence of any of the following events: (i) the failure of the other party to comply with any of the terms of this Agreement or otherwise discharge its duties hereunder in any material respect, or the breach by the other party of any of its representations or warranties herein in any material respect, if such failure or breach is not cured within ninety (90) days of such breaching party's receipt of written notice specifying the nature of such failure or breach with particularity; or (ii) the making by the other party of an assignment for the benefit of its creditors, or the filing by or against such other party of any petition under any federal, state or local bankruptcy, insolvency or similar laws, if such filing has not been stayed or dismissed within sixty (60) days after the date thereof.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 4.4 introduces a discretionary clause allowing INTERSECT to extend the payment period based on 'market conditions,' directly contradicting the original fixed 30-day payment term. This contradicts Section 10.2(a)(i) because the ambiguity introduced into Section 4.4 undermines the grounds for termination based on failure to comply with payment terms. Previously, a late payment would clearly trigger Section 10.2(a)(i). Now, INTERSECT could argue that the extended payment period was justified by market conditions, making it unclear whether a breach has occurred and weakening HOVIONE's ability to terminate the agreement for non-compliance of payment terms. Therefore, a strong in-text contradiction exists."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "10.1. Term. Unless terminated in accordance with the provisions of Section 10.2 below, the term of this Agreement shall commence on the Effective Date and shall continue in effect for a FIVE (5) year period.",
+        "changed_text": "10.1. Term. Unless terminated in accordance with the provisions of Section 10.2 below, the term of this Agreement shall commence on the Effective Date and shall continue in effect for a FIVE (5) year period, unless INTERSECT decides to extend it with no further approval from HOVIONE.",
+        "explanation": "This introduces a contradiction regarding the term of the agreement. Originally, it was a fixed five-year period unless terminated under specific conditions. The added clause allows INTERSECT to unilaterally extend the agreement beyond five years, contradicting the initial defined term. The original text states the term is five years, which has now been perturbed by INTERSECT's ability to continue it. Section 6.1 can be affected by this since the API must be manufactured and delivered in strict compliance, this new clause can affect the strict compliance since HOVIONE will be at risk with the INTERSECT's ability to continue it.",
+        "location": "Section 10.1",
+        "contradicted_location": "Section 6.1",
+        "contradicted_text": "6.1. HOVIONE's Warranties. HOVIONE represents and warrants to INTERSECT that: (a) It has full right and power to enter into this Agreement and perform its obligations hereunder in accordance with its terms; (b) The API and all components and ingredients thereof shall be manufactured and delivered in strict compliance with: (i) the Product Specifications; (ii) the methods processes and procedures, including the site manufacture, set forth in the DMF, together with all applicable regulatory requirements relating to the manufacture of the API 4 (c) the plant(s) for manufacture of the API is and shall be in compliance with all applicable cGMPs and that such plant(s) is and shall continue to be available for inspection if and when the Regulatory Authorities so requests;",
+        "contradiction_exists": "YES",
+        "justification": "The original text establishes a fixed five-year term, while the changed text allows INTERSECT to unilaterally extend the agreement beyond this fixed term without HOVIONE's approval. This directly contradicts the initial five-year term. The contradicted text (6.1) states that HOVIONE warrants the API and components will be manufactured and delivered in strict compliance with the agreement's terms. Because the extension allows INTERSECT to extend the agreement without the approval of HOVIONE, the clause creates risk regarding HOVIONE's obligation to provide API under the terms of a potentially extended (and possibly unwanted) agreement. This constitutes a strong contradiction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "41629_1.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Businesses or area of interest ……………………………….……………………………………………………………..",
+        "changed_text": "Businesses or area of interest Exclusive of any competitors to The Business Partnership. ……………………………….……………………………………………………………..",
+        "explanation": "This modification introduces a conflict related to the scope of business interests. Initially, the agreement does not restrict business interests. However, by including \"Exclusive of any competitors to The Business Partnership\", it imposes a restriction, contradicting the original implicitly open scope. This contradiction affects other parts of the agreement, which do not account for this newly imposed exclusivity, specifically in the paragraph dealing with non-disclosure of information, and the use of it.",
+        "location": "Page 1 of 2, Your Details section",
+        "contradicted_location": "Page 1 of 2, Paragraph 8",
+        "contradicted_text": "I agree that in respect of the Confidential Information received from The Business Partnership I will: Treat it as confidential and make no copies thereof not disclose it to any third party without the prior written consent of The Business Partnership and use it solely for the purpose as agreed between parties",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed for an unrestricted scope of business interests. The changed text introduces an exclusivity clause ('Exclusive of any competitors to The Business Partnership'), which restricts the use of confidential information solely for the purpose agreed upon between parties, as stated in the contradicted text. This creates a contradiction because the non-disclosure agreement now applies in a context where the individual is potentially restricted from engaging with competitors, which wasn't the case initially. The explanation explicitly states that this change affects the non-disclosure agreement, making the contradiction strong."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The Sales Particulars you will receive, and any subsequent commercial information relating to this business, are supplied on the strict understanding that it should be kept confidential and must not be copied or supplied to a third party without the consent of The Business Partnership (TBP).",
+        "changed_text": "The Sales Particulars you will receive, and any subsequent commercial information relating to this business, are supplied on the strict understanding that it should be kept confidential unless compelled by law to disclose it and must not be copied or supplied to a third party without the consent of The Business Partnership (TBP).",
+        "explanation": "This creates an in-text contradiction by adding a 'compelled by law' exception to the confidentiality clause. This new exception weakens the initial strict confidentiality agreement, which conflicts with subsequent clauses that assume complete confidentiality without exceptions. This creates uncertainty about what constitutes a breach of contract. The primary conflict is related to the non-disclosure agreement as confidentiality is at risk due to the 'compelled by law' exception.",
+        "location": "Page 1 of 2, TERMS AND CONDITIONS",
+        "contradicted_location": "Page 1 of 2, Paragraph 8",
+        "contradicted_text": "I agree that in respect of the Confidential Information received from The Business Partnership I will: Treat it as confidential and make no copies thereof not disclose it to any third party without the prior written consent of The Business Partnership and use it solely for the purpose as agreed between parties",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an exception ('unless compelled by law to disclose it') to the confidentiality clause that was not present in the original text. This directly contradicts the contradicted text ('make no copies thereof not disclose it to any third party without the prior written consent of The Business Partnership'), as the latter does not allow for any exceptions to the confidentiality agreement. The introduction of the 'compelled by law' exception creates a strong inconsistency because it allows for disclosure under certain circumstances, whereas the contradicted text demands absolute non-disclosure without exception. This makes the contract internally inconsistent and ambiguous, leading to a strong in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "To make no approach directly to the Owner or the Business and or Property either personally, by telephone, or in writing without the consent of TBP.",
+        "changed_text": "To make no approach directly to the Owner or the Business and or Property either personally, by telephone, or in writing without the consent of TBP, except for informal inquiries.",
+        "explanation": "This introduces a contradiction by allowing 'informal inquiries' to the Owner, Business or Property, which directly conflicts with the original prohibition of any direct approach. This creates uncertainty about the scope of permissible contact. It could affect the paragraph pertaining to seeking commercial advantage where the other party could get one through 'informal inquiries'",
+        "location": "Page 1 of 2, TERMS AND CONDITIONS, Point 2",
+        "contradicted_location": "Page 1 of 2, Paragraph 10",
+        "contradicted_text": "I will not use the confidential information to seek to obtain any commercial advantage over any client of The Business Partnership.",
+        "contradiction_exists": "YES",
+        "justification": "The original text prohibits any direct approach to the Owner, Business, or Property. The changed text introduces an exception for 'informal inquiries.' This exception directly contradicts the original prohibition, creating an inconsistency as described in the explanation: 'This introduces a contradiction by allowing 'informal inquiries' to the Owner, Business or Property, which directly conflicts with the original prohibition of any direct approach.' The contradicted text regarding obtaining commercial advantage is also affected, as the inquiries could lead to an unfair advantage."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Once TBPs NDA and Terms and Conditions have been signed, further negotiations are subject to you agreeing:- 1. That in the event of agreeing to purchase the Business and/or Property will pay to TBP a deposit as a sign of good faith amounting to 5% of the purchase price but subject to a minimum of £5,000.",
+        "changed_text": "Once TBPs NDA and Terms and Conditions have been signed, further negotiations are subject to you agreeing:- 1. That in the event of agreeing to purchase the Business and/or Property will pay to TBP a deposit as a sign of good faith amounting to 5% of the purchase price or a flat fee of £2,500, whichever is lower.",
+        "explanation": "The text is contradicting by providing two different values for the deposit with different calculations, with no information about which calculation to consider. This affects clause 3 relating to withdrawals and agents fees, as the value that is to be returned is now unclear and creates uncertainty with respect to that value.",
+        "location": "Page 2 of 2, TERMS AND CONDITIONS",
+        "contradicted_location": "Page 2 of 2, TERMS AND CONDITIONS, Point 3",
+        "contradicted_text": "That if you withdraw for any reason once Heads of Terms or Memorandum of Sale has been prepared and issued you will be charged an Agents Fee of £695.00 plus VAT. The balance of the deposit shall be returned to you forthwith.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an alternative calculation for the deposit amount ('5% of the purchase price or a flat fee of £2,500, whichever is lower') which directly contradicts the original specification of '5% of the purchase price but subject to a minimum of £5,000'. This creates ambiguity regarding the exact deposit amount. The contradicted text refers to 'the balance of the deposit shall be returned to you forthwith.' Because the changed text provides two different ways of calculating the deposit with two possible outcomes, the balance to be returned is no longer clear, creating an inconsistency."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This deposit will be paid \"Subject to Contract\" and will be refundable (subject to clauses 2 and 3 below).",
+        "changed_text": "This deposit will be paid \"Subject to Contract\" and will be non-refundable under any circumstances.",
+        "explanation": "This is a conflicting statement as initially the deposit is refundable based on clauses 2 and 3, but now it is non-refundable under any circumstance. This affects the return of deposit monies clause. Now, due to this in-text contradiction, it is impossible to follow which statement is valid.",
+        "location": "Page 2 of 2, TERMS AND CONDITIONS, Point 1",
+        "contradicted_location": "Page 2 of 2, TERMS AND CONDITIONS, Point 3",
+        "contradicted_text": "Should the sale of the business be withdrawn by the Vendor for any reason, the deposit monies will be returned to you in full.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the deposit is refundable subject to clauses 2 and 3. The changed text makes the deposit non-refundable under any circumstances. The contradicted text states the deposit monies will be returned to you in full if the sale is withdrawn by the Vendor. The change creates a direct contradiction because the changed text negates the condition in the contradicted text, making the refund impossible. This is a strong contradiction affecting the return of deposit monies, making it impossible to determine which statement is valid."
+      }
+    ]
+  }
+]

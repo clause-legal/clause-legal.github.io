@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "HOLIDAYRVSUPERSTORESINC_04_15_2002-EX-10.13-ENDORSEMENT AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "In the event that the Company desires to terminate the Agreement prior to the Termination Date, it shall provide AGI with at least 60 days prior written notice of its intention to terminate this Agreement and this Agreement shall so terminate following the expiration of this 60-day period, without any further responsibility by either Party except as provided in Section 5.",
+        "changed_text": "In the event that the Company desires to terminate the Agreement prior to the Termination Date, it shall provide AGI with at least 30 days prior written notice of its intention to terminate this Agreement and this Agreement shall so terminate following the expiration of this 30-day period, without any further responsibility by either Party except as provided in Section 5.",
+        "explanation": "This change introduces an in-text contradiction by modifying the required notice period for early termination from 60 days to 30 days in Section 3.A. This contradicts the understanding of the original agreement, creating uncertainty about the actual notice period required. The specific contradiction arises because other sections might rely on the initial 60-day period for planning or financial considerations.",
+        "location": "3.A",
+        "contradicted_location": "3.A",
+        "contradicted_text": "Unless otherwise provided for in this Agreement, the term of this Agreement shall be three years, commencing on the date of this Agreement and expiring on the third anniversary date of this Agreement (the \"Termination Date\"). In the event that the Company desires to terminate the Agreement prior to the Termination Date, it shall provide AGI with at least 30 days prior written notice of its intention to terminate this Agreement and this Agreement shall so terminate following the expiration of this 30-day period, without any further responsibility by either Party except as provided in Section 5.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the notice period for early termination from 60 days to 30 days. The contradicted text also states that the notice period is 30 days, which now matches the changed text. However, the perturbation explanation states that the original agreement had a 60-day notice period, and this change creates a contradiction with sections that might rely on the initial 60-day period. Because the change makes the contradicted text (with 30 days) now the SAME as the changed text (with 30 days), based on the given explanation, it introduces an in-text contradiction, making it a YES based on the original agreement terms. The inconsistency in deadlines, as defined by Perturbation Type 5 (Inconsistencies - In Text Contradiction) causes this contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "In the event of a breach of this Agreement by the Company, the Endorsement may be withdrawn by AGI in its sole discretion and this Agreement terminated pursuant to the terms of Section 3B.",
+        "changed_text": "In the event of a breach of this Agreement by the Company, the Endorsement may be withdrawn by AGI in its sole discretion, but this Agreement may not be terminated.",
+        "explanation": "This change introduces an in-text contradiction by stating that the agreement cannot be terminated even if the Endorsement is withdrawn in Section 7. This contradicts section 3B, which allows for termination in the event of a breach. It creates uncertainty about whether AGI can actually terminate the agreement following a breach, especially after withdrawing the endorsement.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "In the event of a breach of this Agreement by the Company, the Endorsement may be withdrawn by AGI in its sole discretion, but this Agreement may not be terminated. In the event of such withdrawal, the Company agrees forthwith to take such action as AGI may request to publicly evidence that the Endorsement has been withdrawn and the Company agrees not to hold the Business out as having the Endorsement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly states that the agreement may not be terminated, directly contradicting the original text and the premise of Section 3B, which allows for termination in the event of a breach. The original text allows for termination, while the changed text forbids it, creating a clear in-text contradiction according to the definition provided for 'Inconsistencies - In Text Contradiction'."
+      }
+    ]
+  }
+]

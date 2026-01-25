@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "PrecheckHealthServicesInc_20200320_8-K_EX-99.2_12070169_EX-99.2_Distributor Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Principal appoints the Distributor as a non-exclusive distributor, to sell Principal's qPCR infectious disease kits, Logix Smart COVID-19 PCR diagnostic test and Co-Dx Box™ instrument (the \"Products\"). The Products are described on Exhibit A to this Agreement.",
+        "changed_text": "The Principal appoints the Distributor as an exclusive distributor, to sell Principal's qPCR infectious disease kits, Logix Smart COVID-19 PCR diagnostic test and Co-Dx Box™ instrument (the \"Products\"). The Products are described on Exhibit A to this Agreement.",
+        "explanation": "By changing 'non-exclusive' to 'exclusive,' the agreement now contradicts Section 4, which states that 'The Principal shall maintain the right to contact and market its products to potential customers in the Territory.' This creates an in-text contradiction regarding distribution rights.",
+        "location": "1",
+        "contradicted_location": "4",
+        "contradicted_text": "The Principal shall maintain the right to contact and market its products to potential customers in the Territory; but agrees to pass on all sales leads and orders to the Distributor.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the distributor is 'non-exclusive'. The changed text alters this to 'exclusive'. The contradicted text states 'The Principal shall maintain the right to contact and market its products to potential customers in the Territory'. An exclusive distributorship directly contradicts the Principal's right to contact and market its products in the territory, creating a clear and direct conflict."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement shall be in effect until March 18. 2021, unless sooner terminated by either party upon (30) days written notice, without cause.",
+        "changed_text": "This Agreement shall be in effect until March 18. 2021, unless sooner terminated by either party upon (10) days written notice, without cause.",
+        "explanation": "Changing the termination notice period from 30 days to 10 days creates a contradiction with the general expectation of reasonable notice for contract termination. If another section refers to 'reasonable notice' without specifying a timeframe, this now introduces ambiguity. This may also run counter to typical legal standards and creates an in-text contradiction regarding the time frame for termination.",
+        "location": "10",
+        "contradicted_location": "11",
+        "contradicted_text": "In the event of termination, the Distributor shall be entitled to receive all orders accepted by the Principal prior to the date of termination and may sell the ordered Products in the Territory. Payment to be made upon shipment.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text reduces the termination notice period from 30 days to 10 days. The contradicted text states that upon termination, the distributor shall be entitled to receive all orders accepted by the Principal prior to the date of termination. A shorter notice period (10 days instead of 30) creates a strong contradiction because the distributor now has less time to prepare for the termination and potentially fulfill existing orders, thus conflicting with their entitlement to receive and sell those orders. This introduces ambiguity regarding a reasonable amount of time for the distributor to continue operating, potentially leading to disputes and violating the 'Ambiguities - In Text Contradiction' definition. The change directly impacts the distributor's rights and creates an inconsistency."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Distributor is an independent contractor and nothing contained in this agreement shall be deemed or interpreted to constitute the Distributor as a partner or employee of the Principal, nor shall either party have any authority to bind the other in any respect, it being understood and agreed that all orders submitted by the Distributor are subject to acceptance by Principal in its sole discretion.",
+        "changed_text": "The Distributor is an independent contractor and nothing contained in this agreement shall be deemed or interpreted to constitute the Distributor as a partner or employee of the Principal, the Distributor will act on behalf of Principal, it being understood and agreed that all orders submitted by the Distributor are subject to acceptance by Principal in its sole discretion.",
+        "explanation": "Adding 'the Distributor will act on behalf of Principal' contradicts the independent contractor status defined earlier in the same sentence. An independent contractor typically does not act on behalf of the principal in all matters. This creates an in-text contradiction about the nature of the Distributor's role and undermines the independence clause.",
+        "location": "13",
+        "contradicted_location": "13",
+        "contradicted_text": "The Distributor is an independent contractor and nothing contained in this agreement shall be deemed or interpreted to constitute the Distributor as a partner or employee of the Principal, the Distributor will act on behalf of Principal, it being understood and agreed that all orders submitted by the Distributor are subject to acceptance by Principal in its sole discretion.",
+        "contradiction_exists": "YES",
+        "justification": "The original text clearly establishes the Distributor as an independent contractor with no authority to bind the Principal. The changed text adds 'the Distributor will act on behalf of Principal', which directly contradicts the independent contractor status. Independent contractors do not typically 'act on behalf of' the principal in the way an agent or employee would. This creates a strong in-text contradiction, undermining the initial declaration of independence and potentially creating an agency relationship. The contradicted text is the same as the changed text, confirming the contradiction exists within the same clause."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "EhaveInc_20190515_20-F_EX-4.44_11678816_EX-4.44_License Agreement_ Reseller Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "\"Term\" has the meaning ascribed to it in Section 9.",
+        "changed_text": "\"Term\" means five (5) years from the Effective Date.",
+        "explanation": "The original definition of 'Term' refers to Section 9 for its meaning. By replacing this with a specific duration, we create a potential contradiction. If Section 9 contains provisions inconsistent with a fixed 5-year term (e.g., automatic renewals or termination clauses), this change will introduce uncertainty. For example, if Section 9 includes a clause for automatic renewal, this perturbation creates an in-text contradiction.",
+        "location": "Section 1(a)",
+        "contradicted_location": "Section 9",
+        "contradicted_text": "This term of this Agreement and the rights and obligations of the Parties hereto shall commence as of the Effective Date and shall continue in perpetuity (the \"Term\"), unless terminated earlier in accordance with the provisions contained herein.",
+        "contradiction_exists": "YES",
+        "justification": "The original text linked the definition of \"Term\" to Section 9. The changed text replaces this with a fixed five-year term, which directly contradicts the contradicted text stating that the term continues \"in perpetuity\" unless terminated. This creates a clear and irreconcilable conflict regarding the duration of the agreement, fitting the definition of an \"Omissions – In Text Contradiction\" as essential language dictating the term's duration is altered, conflicting with another section."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Subject to Section 17(c), in no event shall either Party's liability under this Agreement exceed the aggregate of all amounts paid under this Agreement and amounts that have accrued but not yet been paid in the twelve (12) months preceding the event giving rise to the claim.",
+        "changed_text": "In no event shall either Party's liability under this Agreement exceed $1000.",
+        "explanation": "The original clause calculates liability based on payments made in the preceding year, which is contingent to the specific claim. By changing the calculation to a fixed amount of $1000, we introduce a contradiction with Section 17(c). Because Section 17(c) specifies exceptions to limitation liabilities. By removing this clause, now Section 17(c) is making an exception for a limitation that doesnt exist in this section, creating an in-text contradiction",
+        "location": "Section 17(b)",
+        "contradicted_location": "Section 17(c)",
+        "contradicted_text": "Notwithstanding Sections 17(a) and 17(b), neither Party excludes or limits any liability for: (i) personal injury or death to the extent that such injury or death results from the negligence or wilful misconduct of a Party or its employees or subcontractors; (ii) fraud, fraudulent misrepresentation or fraudulent concealment; (iii) the Party's obligations set out in Sections 2(c), 5(b), 5(c), 6(b), 11, 13 or 16; (iv) CHT's payment obligations under Section 7; or (v) willful misconduct or gross negligence.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the liability calculation from a contingent amount based on payments made in the preceding year to a fixed amount of $1000. The original clause was 'Subject to Section 17(c), in no event shall either Party's liability under this Agreement exceed the aggregate of all amounts paid under this Agreement and amounts that have accrued but not yet been paid'. Section 17(c) lists exceptions to the liability limitations, such as 'Notwithstanding Sections 17(a) and 17(b), neither Party excludes or limits any liability for... (v) willful misconduct or gross negligence'. By setting a fixed liability limit of $1000, regardless of payments made, Section 17(c) now contradicts the altered Section, as it creates exceptions for a limitation that does not account for all liabilities."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Royalties and payment terms are as set out in Schedule \"6\".",
+        "changed_text": "The Royalties shall be 10% of CHT's gross revenue.",
+        "explanation": "The original clause specifies that Royalties are defined in Schedule 6. Removing this reference and replacing it with a fixed percentage creates a contradiction if Schedule 6 contains different royalty calculations, payment schedules, or conditions. For example, if Schedule 6 specifies that CHT doesn't need to pay royalties until they have recovered 50% of the development costs, there is an internal contradiction.",
+        "location": "Section 7(a)",
+        "contradicted_location": "Schedule \"6\"",
+        "contradicted_text": "Schedule \"6\" - Royalties and Early Termination Fee",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to Schedule 6 for royalty details. The changed text directly defines royalties as 10% of CHT's gross revenue, overriding and contradicting any potentially different royalty calculations, payment schedules, or conditions stipulated in Schedule 6. Since Schedule 6 is titled \"Royalties and Early Termination Fee\", this change creates a direct conflict, because Schedule 6 likely has other instructions and obligations regarding Royalties. This constitutes a strong contradiction as per the 'Omissions – In Text Contradiction' definition, where essential language referencing Schedule 6 is removed creating a contradiction with obligations or constraints stated in other sections."
+      }
+    ]
+  }
+]

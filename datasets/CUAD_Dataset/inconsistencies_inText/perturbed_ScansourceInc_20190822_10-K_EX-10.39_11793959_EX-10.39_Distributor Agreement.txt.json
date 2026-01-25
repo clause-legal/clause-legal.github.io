@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "ScansourceInc_20190822_10-K_EX-10.39_11793959_EX-10.39_Distributor Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "2. Section 6.0 (\"Payment\") of the Agreement is modified by adding the following new Section 6.7: 6.7 [*****]",
+        "changed_text": "2. Section 6.0 (\"Payment\") of the Agreement is modified by adding the following new Section 6.7: 6.7 All invoices shall be paid within 60 days of the invoice date.",
+        "explanation": "This change adds a specific payment term (60 days) to Section 6.7. This introduces an in-text contradiction if other sections of the original agreement implicitly or explicitly refer to different payment timelines, leading to uncertainty. This could contradict implied payment deadlines from past agreements.",
+        "location": "2",
+        "contradicted_location": "5",
+        "contradicted_text": "5.0 All capitalized terms not defined in this Amendment No. 3 shall have the meaning assigned to them in the Agreement. In the event of conflict between the terms of this Amendment No. 3 and the Agreement, the terms of this Amendment No. 3 shall prevail. All other terms and conditions of the Agreement remain unchanged.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a specific payment term (60 days) in Section 6.7. The contradicted text states that in the event of conflict between the terms of Amendment No. 3 and the Agreement, the terms of Amendment No. 3 shall prevail, but other terms and conditions of the agreement remain unchanged. If any other part of the agreement states something different, or if the prior agreement contains implicit payment deadlines that do not align with '60 days', then the changed text introduces a contradiction. Therefore, it is a strong in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "12.1 Distributor shall have the option to return to Cisco, for credit, up [*****] of the dollar value of Products from the Wholesale Price List (or, if no Wholesale Price Lists exists for Distributor's Territory, then the applicable price list) shipped to Distributor, net of credits, less returns to Cisco, in the preceding [*****] period (the \"Balancing Cap\") of the preceding Cisco fiscal quarter.",
+        "changed_text": "12.1 Distributor shall have the option to return to Cisco, for credit, up to 25% of the dollar value of Products from the Wholesale Price List (or, if no Wholesale Price Lists exists for Distributor's Territory, then the applicable price list) shipped to Distributor, net of credits, less returns to Cisco, in the preceding [*****] period (the \"Balancing Cap\") of the preceding Cisco fiscal quarter. Distributor can return up to 50% of specific Cisco products listed in Appendix A regardless of other limitations.",
+        "explanation": "The change sets the return limit to 25% but then introduces an exception allowing up to 50% return for items in Appendix A. This creates an in-text contradiction because the general rule (25%) conflicts with the specific exception (50% for Appendix A items). The absence of a clear method for how these limits interact causes uncertainty.",
+        "location": "12.1",
+        "contradicted_location": "12.1",
+        "contradicted_text": "12.1 Distributor shall have the option to return to Cisco, for credit, up to 25% of the dollar value of Products from the Wholesale Price List (or, if no Wholesale Price Lists exists for Distributor's Territory, then the applicable price list) shipped to Distributor, net of credits, less returns to Cisco, in the preceding [*****] period (the \"Balancing Cap\") of the preceding Cisco fiscal quarter. Distributor can return up to 50% of specific Cisco products listed in Appendix A regardless of other limitations. The above-referenced cap shall be determined based on all Product purchases made under this Agreement. The responsibility to manage the Balancing Cap shall rest solely upon Distributor. Distributor shall be entitled to return Product once per quarter, provided such returns do not exceed the Balancing Cap. \"Dead on Arrival\" and Obsolete Products returned pursuant to Section 13 of this Agreement shall be excluded from calculation of the Balancing Cap. Cisco shall credit Distributor's account in the amount of the price paid by Distributor therefore, less any price protection credits issued to Distributor related to the Product returned (the \"Return Credit\").",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an exception allowing up to 50% return for items in Appendix A, while the contradicted text also states the same exception. While they are in the same place, the original agreement did not have this. By modifying the original text to add this exception, it creates a conflict because the general rule (25%) conflicts with the specific exception (50% for Appendix A items) in the same location. The absence of a clear method for how these limits interact causes uncertainty, and would be considered a direct conflict under the definition of Inconsistencies - In Text Contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "(n) Notwithstanding any other provision in this Agreement, Cisco may terminate this Agreement immediately upon written notice if Distributor breaches any of the representations and warranties set forth in this section.",
+        "changed_text": "(n) Notwithstanding any other provision in this Agreement, Cisco may terminate this Agreement immediately upon written notice if Distributor breaches any of the representations and warranties set forth in this section. However, distributor will be given 30 days to resolve the breach before termination is finalized.",
+        "explanation": "This change introduces a contradiction within the same section. While initially stating Cisco can terminate immediately, it then requires a 30-day resolution period. This creates uncertainty about the actual termination process and Cisco's immediate rights. There is an in-text contradiction on how the termination process should take place, immediately or within 30 days.",
+        "location": "4(n)",
+        "contradicted_location": "4(n)",
+        "contradicted_text": "(n) Notwithstanding any other provision in this Agreement, Cisco may terminate this Agreement immediately upon written notice if Distributor breaches any of the representations and warranties set forth in this section. However, distributor will be given 30 days to resolve the breach before termination is finalized.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an in-text contradiction. The original text allows for immediate termination upon breach of representations and warranties. The changed text adds a 30-day resolution period before termination, directly contradicting the 'immediate' termination clause in both the changed text itself and the contradicted text. This aligns with the 'Inconsistencies - In Text Contradiction' definition where 'different sections of a contract provide conflicting deadlines, obligations, or penalties,' creating uncertainty about the enforcement of the termination clause."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "SalesforcecomInc_20171122_10-Q_EX-10.1_10961535_EX-10.1_Reseller Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "SFDC hereby appoints SUB-RESELLER (\"Sub-Reseller\") as a sub-reseller to whom Reseller may resell Services in accordance with Section 2(ii) of the Agreement, provided that Sub-Reseller may only resell such Services to Customer. Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub- Reseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller. Sub-Reseller is not be a third-party beneficiary of the Agreement.",
+        "changed_text": "SFDC hereby appoints SUB-RESELLER (\"Sub-Reseller\") as a sub-reseller to whom Reseller may resell Services. Reseller must ensure that Sub-Reseller follows the Agreement. Sub-Reseller might be a third-party beneficiary of the Agreement.",
+        "explanation": "The phrase \"in accordance with Section 2(ii) of the Agreement, provided that Sub-Reseller may only resell such Services to Customer\" was removed, creating an inconsistency. Now it is no longer defined where and who the sub-reseller can sell too. Additionally, the phrase \"as if Sub- Reseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller. Sub-Reseller is not be a third-party beneficiary of the Agreement.\" was replaced with \"Reseller must ensure that Sub-Reseller follows the Agreement. Sub-Reseller might be a third-party beneficiary of the Agreement.\" creates an in-text contradiction, because now it is no longer clear what happens in case of breach and it is uncertain if the Sub-Reseller is not be a third-party beneficiary.",
+        "location": "1",
+        "contradicted_location": "1",
+        "contradicted_text": "Resale Rights. SFDC hereby appoints SUB-RESELLER (\"Sub-Reseller\") as a sub-reseller to whom Reseller may resell Services. Reseller must ensure that Sub-Reseller follows the Agreement. Sub-Reseller might be a third-party beneficiary of the Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text creates a contradiction. The original text clearly states the terms of the sub-reseller agreement, including resale restrictions and breach consequences, and explicitly denies third-party beneficiary status. The changed text removes the resale restrictions, creates uncertainty about breach liability and implies the sub-reseller might be a third-party beneficiary, directly conflicting with the original terms. Since the Changed Text and Contradicted Text are the same, the changes create a strong contradiction in the new agreement. According to the definition of Omissions, this causes an in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Capitalized terms not defined herein shall have the meanings given to them in the Agreement.",
+        "changed_text": "Capitalized terms not fully defined herein, may be interpreted at will.",
+        "explanation": "Changing this term introduces ambiguity by stating Capitalized terms not fully defined herein, may be interpreted at will. This creates a contradiction, as the original text dictates any terms not defined should follow the 'Agreement' but the changed text lets the parties interpret the terms at their own discretion.",
+        "location": "Intro",
+        "contradicted_location": "3",
+        "contradicted_text": "Entire Agreement. The terms and conditions herein contained constitute the entire agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement and supersede any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a strong in-text contradiction. The original text stated that undefined capitalized terms should follow the 'Agreement'. However, the changed text allows for terms not fully defined to be 'interpreted at will'. This directly contradicts the 'Entire Agreement' clause, which states the contract constitutes the entire agreement and supersedes all other understandings. The change allows for interpretations outside the contract itself, creating a direct conflict and ambiguity regarding which terms are binding."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Subject to the above modifications, the Agreement remains in full force and effect.",
+        "changed_text": "Subject to the above modifications, the Agreement may be partially in full force and effect.",
+        "explanation": "Changing this term introduces ambiguity by stating the agreement may be partially in effect and not the full agreement, but the agreement states the term and conditions contain the entire agreement.",
+        "location": "2",
+        "contradicted_location": "3",
+        "contradicted_text": "Entire Agreement. The terms and conditions herein contained constitute the entire agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement and supersede any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that the agreement 'may be partially in full force and effect.' This directly contradicts the 'Entire Agreement' clause, which states that the terms and conditions 'constitute the entire agreement' between the parties. If the agreement is only 'partially' in effect, it is not the 'entire agreement,' creating a strong contradiction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "form_NondisclosureBlanket.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "2. After ROCHESTER receives a fully signed copy of this Agreement, ROCHESTER shall disclose to COMPANY Confidential Information solely for use by COMPANY in its internal evaluation of the Confidential Information’s commercial prospects.",
+        "changed_text": "2. After ROCHESTER receives a fully signed copy of this Agreement, ROCHESTER may disclose to COMPANY Confidential Information for any reason at its discretion, including but not limited to, COMPANY's internal evaluation of the Confidential Information’s commercial prospects.",
+        "explanation": "The modification changes 'shall disclose' to 'may disclose for any reason at its discretion'. This introduces ambiguity because it contradicts the purpose of the NDA which is built around an expectation of a flow of confidential information for a specific reason. The original text clearly states that disclosure would occur for a specific purpose, whereas the change makes disclosure optional and for potentially unrelated purposes. This is contradictory because it weakens the consideration for the agreement if ROCHESTER has no obligation to disclose.",
+        "location": "Section 2",
+        "contradicted_location": "Section 5",
+        "contradicted_text": "5. COMPANY shall complete its evaluation within the period expiring on the date six (6) months after the date COMPANY receives the Confidential Information from ROCHESTER. If COMPANY believes the Confidential Information has scientific and commer cial promise, COMPANY and ROCHESTER may elect to commence negotiations l eading to an agreemen t governing COMPANY’s commercialization of the Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text changes 'shall disclose' to 'may disclose for any reason at its discretion'. The original text made disclosure an obligation, implying consideration for the agreement. The changed text makes disclosure optional. The contradicted text (Section 5) states that the COMPANY's evaluation period begins 'after the date COMPANY receives the Confidential Information from ROCHESTER'. If ROCHESTER is not obligated to disclose information as per the changed text in Section 2, then the timeline in Section 5 becomes uncertain, creating a contradiction as the company may never receive the Confidential Information and the evaluation period is contingent on that receipt. This constitutes an Ambiguity - In Text Contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "3. COMPANY agree that, for a period of five (5) ye ars after the date of its receipt of the last Confidential Information disclosed under the Agreement, it shall: (i) keep Confidential Information confidential; and (ii) not use the Confidential Information for any commercial purpose.",
+        "changed_text": "3. COMPANY agrees that it shall: (i) keep Confidential Information confidential; and (ii) not use the Confidential Information for any commercial purpose. This obligation is ongoing and without any time limitation.",
+        "explanation": "Removing the five-year limitation creates a contradiction regarding the longevity of the agreement's restrictions. The original text specifies a five-year period for confidentiality and non-use, whereas the modification makes these obligations perpetual. This contradicts the expectation of a limited duration, potentially conflicting with other provisions that assume the agreement will eventually expire.",
+        "location": "Section 3",
+        "contradicted_location": "Section 6",
+        "contradicted_text": "6. At the end of the Evaluation Period, COMPANY shall upon request of ROCHESTER, return to ROCHESTER all Confidential Information in its files to monitor its obligations under this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text limits the confidentiality and non-use obligations to five years. The changed text removes this limitation, making the obligations perpetual. This directly contradicts section 6, which refers to an \"Evaluation Period\" and the return of confidential information at the end of it, implying a finite duration of the agreement. The modified text creates a contradiction regarding the longevity of the agreement's restrictions, conflicting with the assumption of a limited duration present in section 6."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "4. ROCHESTER authorizes COMPANY to disclose the Confidential Information to those of its employees and consultants who require the Confidential Information for the evaluation hereunder, and to potential licensees, prov ided each such employee, consultant an d potential licensee has first entered into a written agreement in which it agrees to be bound by similar obligations of nonuse and nondisclosure as those imposed on COMPANY hereunder.",
+        "changed_text": "4. ROCHESTER authorizes COMPANY to disclose the Confidential Information to its employees and consultants without requiring a written agreement. Disclosure to potential licensees requires ROCHESTER's prior written approval.",
+        "explanation": "This changes the conditions for disclosing confidential information to employees and consultants. Originally, written agreements were required. Now they are not. This creates an inconsistency with section 3, which makes the COMPANY liable for keeping the information confidential. If the employees don't sign an agreement, then there will be a conflict with who is liable in case of disclosure.",
+        "location": "Section 4",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "3. COMPANY agree that, for a period of five (5) ye ars after the date of its receipt of the last Confidential Information disclosed under the Agreement, it shall: (i) keep Confidential Information confidential; and (ii) not use the Confidential Information for any commercial purpose. The foregoing shall not apply to that part of any Confidential Information that: (a) is disclosed or used by COMPANY in a ccordance with any written consent granted by ROCHESTER; or (b) at the time of receipt by COMPANY wa s independently know n by COMPANY; or (c) at any time becomes generally known to the public through no fault of COMPANY; or (d) has been or is made available to COMPANY by a third party having the lawful right to do so without breaching any obligation of nonuse or confidentiality to ROCHESTER; or (e) has been or is disclosed to others by ROCHESTER without similar restrictions on disclosure and use; or (f) COMPANY is required to disclose pursuant to an order of a judicial or administrative authority",
+        "contradiction_exists": "YES",
+        "justification": "The original text in section 4 required employees and consultants to enter a written agreement to be bound by non-disclosure obligations. The changed text removes this requirement, stating that the company can disclose confidential information to its employees and consultants without requiring a written agreement. This contradicts section 3, which makes the company liable for keeping the information confidential. Without a written agreement from employees and consultants, it is unclear how the company can ensure the confidentiality of the information and who would be liable in case of disclosure by the employees/consultants, thus making Section 3 unenforceable in that regard."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "5. COMPANY shall complete its evaluation within the period expiring on the date six (6) months after the date COMPANY receives the Confidential Information from ROCHESTER. If COMPANY believes the Confidential Information has scientific and commer cial promise, COMPANY and ROCHESTER may elect to commence negotiations l eading to an agreemen t governing COMPANY’s commercialization of the Confidential Information.",
+        "changed_text": "5. COMPANY should aim to complete its evaluation. COMPANY and ROCHESTER will try to commence negotiations l eading to an agreement governing COMPANY’s commercialization of the Confidential Information.",
+        "explanation": "Changing 'shall complete' to 'should aim to complete' and 'may elect' to 'will try' significantly weakens the obligation for COMPANY to complete its evaluation and for COMPANY and ROCHESTER to start negotiations. This creates a contradiction as the original intention of the agreement clearly states that evaluations need to happen within 6 months, which is now no longer the case. This is also contradictory to the section 6, where it mentions the obligations of COMPANY at the end of the Evaluation Period",
+        "location": "Section 5",
+        "contradicted_location": "Section 6",
+        "contradicted_text": "6. At the end of the Evaluation Period, COMPANY shall upon request of ROCHESTER, return to ROCHESTER all Confidential Information in its files to monitor its obligations under this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the COMPANY 'shall complete' its evaluation within six months. The changed text weakens this obligation to 'should aim to complete.' This directly contradicts section 6, which states that at the end of the 'Evaluation Period,' the COMPANY has specific obligations. Because the changed text weakens the obligation to complete the evaluation, the duration of the evaluation period becomes unclear and weakens the stated obligations in section 6. The change is not additive or softening the language, but rather creates an ambiguity that directly breaks compatibility with the contradicted section."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "8. This Agreement shall be construed and enforced under the internal laws of the State of New York. If any provision of this Agreement is held to be i nvalid, illegal, or unenforceable, the validity, legality, and enforceability of the remaining provisions shall not in any way be affected or impaired thereby.",
+        "changed_text": "8. This Agreement shall be interpreted according to the principles of fairness and equity, rather than the specific laws of any jurisdiction. If a dispute arises, the parties agree to attempt mediation before resorting to legal action.",
+        "explanation": "By replacing the clause that this agreement should be construed and enforced under the internal laws of the State of New York, and adding a requirement for mediation before any legal action, the agreement becomes vague and contradictory, since it doesn't have a clear mechanism of enforcement. This creates a conflict with the rest of the agreement, where there are clauses such as returning all Confidential Information in its files to monitor its obligations under this Agreement (Section 6), since this monitoring cannot be assured to happen in a predictable matter.",
+        "location": "Section 8",
+        "contradicted_location": "Section 6",
+        "contradicted_text": "6. At the end of the Evaluation Period, COMPANY shall upon request of ROCHESTER, return to ROCHESTER all Confidential Information in its files to monitor its obligations under this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that the agreement is enforced under New York law, providing a clear legal framework. The changed text replaces this with 'principles of fairness and equity' and mandates mediation before legal action, removing the defined legal enforcement mechanism. Section 6 requires the return of Confidential Information to Rochester to monitor obligations. Without a specific jurisdiction's laws governing enforcement, the ability of Rochester to effectively monitor and enforce this obligation is undermined, creating a contradiction and ambiguity regarding how the return and monitoring will be assured."
+      }
+    ]
+  }
+]

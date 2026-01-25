@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "form_NondisclosureBlanket.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "6. At the end of the Evaluation Period, COMPANY shall upon request of ROCHESTER, return to ROCHESTER all Confidential Information in its files to monitor its obligations under this Agreement.",
+        "changed_text": "6. At the discretion of COMPANY, at any time during or after the Evaluation Period, COMPANY may, but is not required to, return to ROCHESTER all Confidential Information in its files.",
+        "explanation": "The original clause mandates the return of Confidential Information at the end of the Evaluation Period upon ROCHESTER's request. The changed clause gives COMPANY the discretion to return the information, negating ROCHESTER's right to request it and monitor obligations. This introduces an in-text contradiction, making it unclear under what circumstances the confidential information should be returned, and conflicts with ROCHESTER's ability to monitor obligations under the agreement.",
+        "location": "Section 6",
+        "contradicted_location": "Section 6",
+        "contradicted_text": "At the discretion of COMPANY, at any time during or after the Evaluation Period, COMPANY may, but is not required to, return to ROCHESTER all Confidential Information in its files.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates return of Confidential Information upon ROCHESTER's request. The changed text, which is also the contradicted text, grants COMPANY discretion to return the information, negating ROCHESTER's right to request it, which is an in-text contradiction. The Change Text contradicts the Original Text and by extension, the Contradicted text, because it changes a required action to a discretionary one, thus creating inconsistency."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "9. This Agreement represents the entire agreement of the parties relating to Confidential Information , and any corresponding patent rights, and any and all contemporaneous and prior oral and written understandings and agreements with respect thereto are superseded by this document.",
+        "changed_text": "9. This Agreement represents a partial agreement of the parties relating to Confidential Information, and any corresponding patent rights; it does not supersede prior written agreements regarding related technologies.",
+        "explanation": "The altered clause now states this agreement is only a partial agreement and does not supersede prior written agreements, creating a direct in-text contradiction. Previously the contract stated that it was the 'entire agreement of the parties' but now it says it is a 'partial agreement of the parties'. This undermines the purpose of having a single, comprehensive agreement, creating potential disputes about which terms and agreements are actually in effect.",
+        "location": "Section 9",
+        "contradicted_location": "Section 9",
+        "contradicted_text": "This Agreement represents a partial agreement of the parties relating to Confidential Information, and any corresponding patent rights; it does not supersede prior written agreements regarding related technologies.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states the agreement is 'a partial agreement' and 'does not supersede prior written agreements,' directly contradicting the original text that stated it was the 'entire agreement' and superseded prior agreements. The 'Contradicted Text' is the same as the 'Changed Text' showing that the Changed Text contradicts itself since the original text was the 'entire agreement' and the changed text is a 'partial agreement'."
+      }
+    ]
+  }
+]

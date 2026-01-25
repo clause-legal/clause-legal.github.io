@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "resources-non-disclosure-agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The disclosing party acknowledges that the Recipient may currently or in the future be developing information internally, or receiving information from other parties, that is similar to the Confidential Information. Nothing in this Agreement will prohibit the Recipient from developing or having developed for it products, concepts, systems or techniques that are similar to or compete with the products, concepts, systems or techniques contemplated by or embodied in the Confidential Information Non-Disclosure Agreement PRIVATE AND CONFIDENTIAL 2 provided that the Recipient does not violate any of its obligations under this Agreement in connection with such development.",
+        "changed_text": "The disclosing party acknowledges that the Recipient may currently or in the future be developing information internally, or receiving information from other parties, that is similar to the Confidential Information. Nothing in this Agreement will prohibit the Recipient from developing or having developed for it products, concepts, systems or techniques that are similar to or compete with the products, concepts, systems or techniques contemplated by or embodied in the Confidential Information Non-Disclosure Agreement PRIVATE AND CONFIDENTIAL 2.",
+        "explanation": "By omitting the conditional clause 'provided that the Recipient does not violate any of its obligations under this Agreement in connection with such development,' the amended text creates a loophole. This change suggests that even if the Recipient violates the NDA's obligations, they're still permitted to develop similar products, directly contradicting the agreement's purpose.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "The disclosing party acknowledges that the Recipient may currently or in the future be developing information internally, or receiving information from other parties, that is similar to the Confidential Information. Nothing in this Agreement will prohibit the Recipient from developing or having developed for it products, concepts, systems or techniques that are similar to or compete with the products, concepts, systems or techniques contemplated by or embodied in the Confidential Information Non-Disclosure Agreement PRIVATE AND CONFIDENTIAL 2.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text omits the critical conditional clause 'provided that the Recipient does not violate any of its obligations under this Agreement in connection with such development.' This omission creates a contradiction because it implies the Recipient can develop similar products even if they violate the NDA's obligations. The original text and the contradicted text limit the recipient from violating the NDA. The Changed text implies that the recipient can."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Neither Party will, without prior approval of the other Party, make any public announcement of or otherwise disclose the existence or the terms of this Agreement.",
+        "changed_text": "Neither Party will make any public announcement of or otherwise disclose the existence or the terms of this Agreement.",
+        "explanation": "By removing the clause 'without prior approval of the other Party', the amended text imposes an absolute restriction on public announcements related to the agreement. This creates an in-text contradiction if other provisions of the agreement require information disclosure or permit certain announcements. This absolute prohibition impacts flexibility, even when mutual consent would be appropriate.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "Neither Party will make any public announcement of or otherwise disclose the existence or the terms of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the 'without prior approval of the other Party' clause, imposing an absolute restriction on public announcements. The contradicted text, which is identical to the changed text, now presents an irreconcilable conflict with the original agreement where announcements were permissible with prior approval. This creates a strong in-text contradiction because the amended agreement now absolutely prohibits something that was previously allowed, impacting flexibility and potentially rendering parts of the original contract unenforceable. According to the provided definition of 'Omissions – In Text Contradiction', this scenario qualifies as a strong contradiction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "1095558_0000944209-00-000518_document_3.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Company shall limit disclosure of Highly Confidential Information to Company employees. Company shall be responsible for any breach of this Agreement by any such -1- <PAGE> employee. Company shall not disclose Highly Confidential Information to any of its consultants, or other vendors, or agents.",
+        "changed_text": "Company shall limit disclosure of Highly Confidential Information to Company employees. Company shall not be responsible for any breach of this Agreement by any such -1- <PAGE> employee. Company shall not disclose Highly Confidential Information to any of its consultants, or other vendors, or agents.",
+        "explanation": "The modified text creates an in-text contradiction by stating that Company shall limit disclosure of Highly Confidential Information to Company employees BUT then stating Company shall not be responsible for any breach of this Agreement by any such employee. This means if an employee discloses confidential information, the company won't be held responsible, directly contradicting that they're limiting disclosure to only those employees",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Company acknowledges and agrees that certain Confidential Information is extremely competitively sensitive for Fox (\"Highly Confidential Information\") and shall therefore be subject to restrictions on disclosure additional to those applicable to other Confidential Information. Highly Confidential Information shall include the identity of Fox's actual and potential customers and vendors; Fox's release schedules and sales trends; the prices and pricing policies of Fox, its vendors and customers; all customer shipment, point-of-sale and returns information; Fox's strategic planning information regarding system implementation (including geographic implementation) and process improvement; all distribution software used by and software development performed for Fox; Fox's replenishment schedules and processes, inventory management schedules and processes; and any other competitively sensitive Confidential Information designated by Fox from time to time as \"Highly Confidential Information\". Company shall limit disclosure of Highly Confidential Information to Company employees. Company shall not be responsible for any breach of this Agreement by any such -1- <PAGE> employee. Company shall not disclose Highly Confidential Information to any of its consultants, or other vendors, or agents.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the Company shall be responsible for any breach of the agreement by its employees. The changed text replaces this with the statement that the Company shall *not* be responsible for any breach of the agreement by its employees, which creates a direct contradiction because the company limiting disclosure to employees implies a level of responsibility for their actions regarding confidential information, as described in the explanation and based on the definition of Inconsistencies - In Text Contradiction, where conflicting obligations create in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Receiving Party hereby agrees to indemnify and hold harmless the Furnishing Party from any damage, loss, cost or liability (including legal fees and the cost of enforcing this indemnity) arising out of, or resulting from, any unauthorized use or disclosure by the Receiving Party or its Representatives of the Confidential Information.",
+        "changed_text": "Receiving Party hereby agrees to indemnify and hold harmless the Furnishing Party from any damage, loss, cost or liability (excluding legal fees and the cost of enforcing this indemnity) arising out of, or resulting from, any unauthorized use or disclosure by the Receiving Party or its Representatives of the Confidential Information.",
+        "explanation": "The modified text creates an in-text contradiction by agreeing to indemnify and hold harmless the Furnishing Party from any damage, loss, cost or liability while excluding legal fees, from the arising damages. Legal fees are a component of damages so stating 'excluding legal fees' directly contradicts the statement of liability.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "The Receiving Party hereby agrees to indemnify and hold harmless the Furnishing Party from any damage, loss, cost or liability (excluding legal fees and the cost of enforcing this indemnity) arising out of, or resulting from, any unauthorized use or disclosure by the Receiving Party or its Representatives of the Confidential Information. The Receiving Party also acknowledges that money damages would be both incalculable and an insufficient remedy for any breach of this Agreement by it or its Representatives and that any such breach would cause the Furnishing Party irreparable harm. Accordingly, the Receiving Party also -2- <PAGE> agrees that in the event of any breach of this Agreement, the Furnishing Party, in addition to any other remedies at law or in equity it may have, shall be entitled to equitable relief, including injunctive relief and specific performance.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes 'legal fees' from the indemnity, while the contradicted text, located in the same section, repeats that exclusion. The perturbation explanation correctly points out that this creates a contradiction because legal fees are typically considered a component of damages, and therefore excluding them from the indemnity creates an inconsistency within the same clause. The original text included legal fees, creating an obligation that is now removed, which is incompatible with general indemnity principles."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "It is understood and agreed that no failure or delay by either party in exercising any right, power or privilege hereunder shall operate as a waiver thereof, nor shall any single or partial exercise thereof preclude any other or further exercise thereof or the exercise of any right, power or privilege hereunder.",
+        "changed_text": "It is understood and agreed that any failure or delay by either party in exercising any right, power or privilege hereunder shall operate as a waiver thereof, nor shall any single or partial exercise thereof preclude any other or further exercise thereof or the exercise of any right, power or privilege hereunder.",
+        "explanation": "The modified text creates an in-text contradiction by stating that any failure or delay by either party in exercising any right, power or privilege hereunder shall operate as a waiver. The use of ANY instead of NO, means any right, power or privilege isn't being waived. This is contradicted by the use of nor, as it says it will not preclude any other or further exercise thereof.",
+        "location": "11",
+        "contradicted_location": "11",
+        "contradicted_text": "It is understood and agreed that any failure or delay by either party in exercising any right, power or privilege hereunder shall operate as a waiver thereof, nor shall any single or partial exercise thereof preclude any other or further exercise thereof or the exercise of any right, power or privilege hereunder.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that ANY failure or delay shall operate as a waiver. The original text states that NO failure or delay shall operate as a waiver. Because the change in the text leads to ANY failure operating as a waiver, there is a direct contradiction in the meaning of the contract. The 'nor' phrase in the changed text further exacerbates the contradiction, making the waiver clause self-contradictory. The contradiction definition is 'Inconsistencies - In Text Contradiction: Inconsistencies also lead to in-text contradictions when different sections of a contract provide conflicting deadlines, obligations, or penalties.'"
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement shall be governed by and construed in accordance with the laws of the State of California.",
+        "changed_text": "This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware.",
+        "explanation": "This modification introduces a potential in-text contradiction if other parts of the contract rely on California law for specific interpretations or definitions. While not an explicit contradiction in this specific section, it creates uncertainty about which state's laws apply, potentially clashing with clauses that implicitly or explicitly refer to California legal standards. It is assumed that other sections of the document follow California law, making this contradicting.",
+        "location": "13",
+        "contradicted_location": "13",
+        "contradicted_text": "This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies California law, which is then changed to Delaware law in the changed text. The contradicted text also states that Delaware law applies. Since the original text and the changed text specify different states' laws, and it is assumed other sections of the document follow California law, this creates a direct contradiction regarding which state's laws govern the agreement."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The Parties will provide each other with Confidential Information as defined below in connection with one or more possible or actual transactions between the Parties (each a \"Transaction\").",
+        "changed_text": "The Parties will provide each other with Confidential Information as defined below in connection with one or more definitive transactions between the Parties (each a \"Transaction\").",
+        "explanation": "The original agreement, the parties exchanged confidential information in both possible and actual transactions, however in the modification parties can only exchange in definitive transaction. This is problematic as definitive has no clear-cut definition. This creates uncertainty in enforcement of possible transactions, which is now a contradiction.",
+        "location": "Intro",
+        "contradicted_location": "Intro",
+        "contradicted_text": "The Parties will provide each other with Confidential Information as defined below in connection with one or more definitive transactions between the Parties (each a \"Transaction\"). As a condition of one of the Parties or its agents or its representatives furnishing Confidential Information (\"Furnishing Party\") to the other of the Parties or its agents or its representatives receiving Confidential Information (\"Receiving Party\"), the Receiving Party shall treat the Confidential Information confidentially as set forth below.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed for the exchange of Confidential Information in both 'possible or actual transactions'. The changed text limits this exchange to only 'definitive transactions'. This directly contradicts the stated definition in the contradicted text which states that Confidential Information is exchanged in 'definitive transactions'. The Perturbation Explanation highlights that this change creates uncertainty and potential unenforceability regarding possible transactions. This aligns with the definition of Inconsistencies - In Text Contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The Receiving Party agrees that neither the Furnishing Party nor its Representatives shall have any liability to Receiving Party or its Representatives resulting from the use of the Confidential Information by the Receiving Party or its Representatives.",
+        "changed_text": "The Receiving Party agrees that the Furnishing Party nor its Representatives shall have any liability to Receiving Party or its Representatives resulting from the use of the Confidential Information by the Receiving Party or its Representatives.",
+        "explanation": "The removal of neither introduces an in-text contradiction. The original text releases the Furnishing Party nor its Representatives from liability resulting from the use of Confidential Information. However, the removal of 'neither', and 'shall have any' implies that the party WILL have liability.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "Although the Receiving Party understands that the Furnishing Party has endeavored to include in the Confidential Information information known to it which it believes to be relevant to a possible or actual Transaction, the Receiving Party further understands that neither the Furnishing Party nor its Representatives make any representation or warranty as to the accuracy or completeness of the Confidential Information. The Receiving Party agrees that the Furnishing Party nor its Representatives shall have any liability to Receiving Party or its Representatives resulting from the use of the Confidential Information by the Receiving Party or its Representatives.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the Furnishing Party has no liability. The changed text, by removing \"neither\", implies the Furnishing Party *does* have liability. The Contradicted Text contains the changed text, so the new implication directly contradicts the original intention of the agreement within the same section, creating a strong in-text contradiction. Therefore, a reasonable reader would find the clause inconsistent with its original form."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement1.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Fees: The Fees for the Project shall be $279,000.00 Payment Schedule: Client shall pay Developer: 20% Deposit ($55,800.00) to be paid at the start of the project. 20% ($55,800.00) to be paid upon completion of Milestone #1. 20% ($55,800.00) to be paid upon completion of Milestone #2. 20% ($55,800.00) to be paid upon completion of Milestone #3. 20% ($55,800.00) to be paid upon completion of Milestone #4. *Milestone Delivery Schedule for Phase 1 Milestone #1 -January 1st, 2019 Milestone #2- February 1st, 2019. Milestone #3 - March 1st, 2019. Milestone #4 - April 1st, 2019.",
+        "changed_text": "Fees: The Fees for the Project are estimated to be $279,000.00. Payment Schedule: Client *may* pay Developer: A flexible deposit (amount at Pelican's discretion) *may* be paid at a time determined by both parties. Payments *may* be made on completion of milestones at percentages decided during development. The milestone schedule itself is subject to change as the developer sees fit.\n*Milestone Delivery Schedule for Phase 1 Milestone #1 -January 1st, 2019 Milestone #2- February 1st, 2019. Milestone #3 - March 1st, 2019. Milestone #4 - April 1st, 2019.",
+        "explanation": "This change introduces uncertainty regarding the payment terms. The original text specifies a fixed fee and a detailed payment schedule. The modified text changes 'shall' to 'may' for payment, and makes the initial deposit discretionary, contradicting the original fixed payment schedule. The term \"Flexible deposit\" itself creates an in-text contradiction, because is not well-defined and introduces an ambiguity.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "Fee Payment Schedule Fees: The Fees for the Project are estimated to be $279,000.00. Payment Schedule: Client *may* pay Developer: A flexible deposit (amount at Pelican's discretion) *may* be paid at a time determined by both parties. Payments *may* be made on completion of milestones at percentages decided during development. The milestone schedule itself is subject to change as the developer sees fit.\n*Milestone Delivery Schedule for Phase 1 Milestone #1 -January 1st, 2019 Milestone #2- February 1st, 2019. Milestone #3 - March 1st, 2019. Milestone #4 - April 1st, 2019.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces significant uncertainty and flexibility regarding payment terms, contradicting the original text's fixed fee and detailed payment schedule. Specifically, changing 'shall' to 'may' for payments, making the deposit discretionary ('flexible deposit' at Pelican's discretion), and allowing for milestone schedule changes introduce ambiguities that conflict with the original fixed structure. The term 'Flexible deposit' itself is not well-defined, creating an in-text contradiction. This directly impacts the enforceability and clarity of the contract, causing a strong contradiction because the contradicted section also includes these vague terms that undermine the original text."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Based on the current requirements and this SOW, Seattle Software Developers estimates that this project will take around six [4] months of development, testing, and deployment. This estimate may change depending on unforeseen circumstances or requirements. We estimate that the website (Customer Portal) will take 3 months to complete because this will be the priority.",
+        "changed_text": "Based on the current requirements and this SOW, Seattle Software Developers guarantees that this project will take around six [4] months of development, testing, and deployment. This estimate will NOT change depending on unforeseen circumstances or requirements. We estimate that the website (Customer Portal) will take 3 months to complete because this will be the priority.",
+        "explanation": "The original agreement estimated a six-month completion time, acknowledging potential changes due to unforeseen circumstances. The revised text guarantees a six-month completion time, regardless of unforeseen circumstances. This introduces an in-text contradiction within section 3, as projects rarely deliver to a set timeline due to common unmitigated events.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Delivery Schedule Based on the current requirements and this SOW, Seattle Software Developers guarantees that this project will take around six [4] months of development, testing, and deployment. This estimate will NOT change depending on unforeseen circumstances or requirements. We estimate that the website (Customer Portal) will take 3 months to complete because this will be the priority.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'estimates' with 'guarantees' and explicitly states the timeline will NOT change, directly contradicting the inherent uncertainty of project timelines. Given the nature of software development, unforeseen issues almost always impact timelines. The contradicted text is the changed text itself, highlighting the introduction of a guaranteed timeline which is unrealistic and potentially unenforceable in a project-based contract. This aligns with the definition of 'Structural Flaws - In Text Contradiction' because the placement of the 'guarantee' creates conflicting implications regarding the deliverability of the project within the specified timeframe."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Client agrees to the terms of the Statement of work Appendix A hereto attached and acknowledges receipt of a copy of this Agreement.",
+        "changed_text": "Client agrees to *some* of the terms of the Statement of work Appendix A hereto attached and acknowledges *partial* receipt of a copy of this Agreement.",
+        "explanation": "The change from \"agrees to the terms\" to \"agrees to some of the terms\" and the change from \"acknowledges receipt\" to \"acknowledges partial receipt\" introduces ambiguity and contradiction. The original text indicates full agreement and receipt, whereas the modification suggests that the client may not be bound by all terms, and there is missing information, contradicting the initial statement. This creates uncertainty about which parts of the agreement are actually binding and which are missing.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "Acknowledgement by Client Client agrees to *some* of the terms of the Statement of work Appendix A hereto attached and acknowledges *partial* receipt of a copy of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the Client agrees to all terms and acknowledges full receipt. The changed text introduces a contradiction by stating the Client agrees to 'some' terms and acknowledges 'partial' receipt, creating uncertainty about which terms are binding and what information is missing. The contradicted text, which is identical to the changed text, exacerbates this issue by repeating the ambiguous agreement and partial receipt acknowledgement, highlighting the unresolvable uncertainty introduced by the change. This undermines the enforceability of the entire agreement."
+      }
+    ]
+  }
+]

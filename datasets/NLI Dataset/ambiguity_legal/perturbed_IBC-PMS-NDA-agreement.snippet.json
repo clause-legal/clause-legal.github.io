@@ -1,0 +1,95 @@
+[
+  {
+    "file_name": "IBC-PMS-NDA-agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - Ambiguous Legal Obligation",
+        "original_text": "(f) To the extent any Confidential Info rmation contains any Personal Informa tion, Vendor agrees to comply with applicable Privacy Laws.",
+        "changed_text": "(f) To the extent any Confidential Info rmation contains any Personal Informa tion, Vendor agrees to endeavor to comply with applicable Privacy Laws.",
+        "explanation": "Changing 'agrees to comply' to 'agrees to endeavor to comply' weakens the obligation to adhere to privacy laws. 'Endeavor' introduces a level of effort rather than strict compliance, creating ambiguity.",
+        "contradicted_law": "Personal Health Information Protection Act, 2004 (Ontario)",
+        "law_citation": "S.12(1)",
+        "law_url1": [
+          "https://www.govinfo.gov/app/details/PLAW-111publ148/PLAW-111publ148"
+        ],
+        "law_url2": [
+          "https://www.law.cornell.edu/topn/statutes.php"
+        ],
+        "law_explanation": "PHIPA mandates strict compliance with privacy regulations when handling personal health information. 'Endeavoring to comply' allows for subjective interpretation and potential non-compliance, contradicting the Act's requirement for clear adherence to privacy principles.",
+        "location": "2(f)",
+        "desired_official_urls": 2,
+        "scraped_snippet_1": "GovInfo",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The change from \"agrees to comply\" to \"agrees to endeavor to comply\" introduces ambiguity and weakens the obligation to adhere to privacy laws, as stated in the perturbation explanation. The LLM's law explanation also highlights that this weakens the standard for clear adherence to privacy principles. Although Scraped Law Snippet 2 is not provided, Scraped Law Snippet 1 (GovInfo) at least indicates the existence of relevant official legal information, suggesting that the obligation should be strictly enforced, not merely 'endeavored' after, given Privacy Laws tend to be extremely strict. The change directly undermines the requirement for compliance, as it suggests a level of effort less than full compliance is acceptable, this creates an Ambiguities Legal Contradiction."
+      },
+      {
+        "type": "Ambiguities - Ambiguous Legal Obligation",
+        "original_text": "(g) From time to time IBC may provide updates or changes to the Confidential Information. Upon receipt of any such update or change, Vendor shall promptly review such informati on and if necessary will use commercially reasonable efforts to issue an upgrade to its PMS System which will permit such PMS System to continue to communicate with the HCAI System.",
+        "changed_text": "(g) From time to time IBC may provide updates or changes to the Confidential Information. Upon receipt of any such update or change, Vendor should consider reviewing such information and may issue an upgrade to its PMS System which might permit such PMS System to continue to communicate with the HCAI System.",
+        "explanation": "Changing 'shall promptly review' to 'should consider reviewing' and 'will use commercially reasonable efforts' to 'may issue an upgrade which might permit' weakens the obligation. The original clause ensured the system would maintain compatibility with the HCAI system, but the modified clause makes future communication with the HCAI system uncertain.",
+        "contradicted_law": "Personal Health Information Protection Act, 2004 (Ontario)",
+        "law_citation": "S.12(1)",
+        "law_url1": [
+          "https://www.govinfo.gov/app/details/STATUTE-110/STATUTE-110-Pg1757"
+        ],
+        "law_url2": [
+          "https://www.law.cornell.edu/topn/standing"
+        ],
+        "law_explanation": "The changes weakens the obligation to maintain system compatibility, which is crucial for secure and reliable transmission of personal health information. PHIPA requires custodians of health information to take reasonable steps to ensure the integrity and confidentiality of that information. The modified clause undermines this requirement by creating uncertainty about future updates and communication, potentially exposing personal health information to risks.",
+        "location": "2(g)",
+        "desired_official_urls": 2,
+        "scraped_snippet_1": "GovInfo",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The original contract language uses 'shall promptly review' and 'will use commercially reasonable efforts,' indicating a clear obligation for the vendor to maintain system compatibility. The changed text weakens this obligation to 'should consider reviewing' and 'may issue an upgrade which might permit.' This shift introduces ambiguity regarding the vendor's responsibility to ensure continued communication with the HCAI system. The LLM generated law explanation states PHIPA requires custodians of health information to take reasonable steps to ensure the integrity and confidentiality of that information. The modified clause undermines this requirement by creating uncertainty about future updates and communication, potentially exposing personal health information to risks."
+      },
+      {
+        "type": "Ambiguities - Ambiguous Legal Obligation",
+        "original_text": "(j) Vendor shall ensure that in its license agreement for the PMS Software: a. It includes protections that protec t IBC and its licensors and subcontractors from any liability to Vendor\u2019s licensees in respect of such licensee\u2019s use of any porti on of the PMS Software that is developed in reliance upon the Confidential Information;",
+        "changed_text": "(j) Vendor shall attempt to ensure that in its license agreement for the PMS Software: a. It includes protections that protec t IBC and its licensors and subcontractors from any liability to Vendor\u2019s licensees in respect of such licensee\u2019s use of any porti on of the PMS Software that is developed in reliance upon the Confidential Information;",
+        "explanation": "Changing 'Vendor shall ensure' to 'Vendor shall attempt to ensure' introduces ambiguity regarding the Vendor's commitment. It implies they might not fully succeed in including necessary protections, creating uncertainty.",
+        "contradicted_law": "Personal Information Protection and Electronic Documents Act (Canada)",
+        "law_citation": "Principle 4.1",
+        "law_url1": [
+          "https://laws-lois.justice.gc.ca/eng/acts/P-21/page-4.html"
+        ],
+        "law_url2": [
+          "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/pipeda_brief/"
+        ],
+        "law_explanation": "PIPEDA requires organizations to be accountable for personal information under their control. By only attempting to include protections, the Vendor doesn't guarantee the protection of personal information if their licensees use the PMS software improperly, thus going against the accountability principle of PIPEDA.",
+        "location": "2(j)a",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "PIPEDA requirements in brief - Office of the Privacy Commissioner of Canada Skip to main content Skip to \"About this site\" PIPEDA requirements in brief The Personal Information Protection and Electronic Documents Act ( PIPEDA ) sets the ground rules for how private-sector organizations collect, use, and disclose personal information in the course of for-profit, commercial activities across Canada. PIPEDA also applies to the personal information of employees of federally-regulated businesses. On this page Key responsibilities under PIPEDA The 10 principles Does the Act apply to your business? Provincial privacy laws Information that crosses borders Federally regulated organizations What is personal information? What is not covered by PIPEDA ? Key responsibilities under PIPEDA Businesses that are subject to the Act must follow these 10 fair information principles to protect personal information, which are set out in Schedule 1 of PIPEDA . By following these principles, you will contribute to building trust in your business and in the digital economy. The 10 principles Accountability Identifying purposes Consent Limiting collection Limiting use, disclosure, and retention Accuracy Safeguards Openness Individual access Challenging compliance Read more about how to comply with these 10 principles in your organization. Does the Act apply to your business? PIPEDA applies to private-sector organizations across Canada that collect, use, or disclose personal information in the course of a commercial activity . The law defines a commercial activity as any particular transaction, act, or conduct, or any regular course of conduct that is of a commercial character, including the selling, bartering or leasing of donor, membership or other fundraising lists. Provincial privacy laws Alberta , British Columbia and Quebec have their own private-sector privacy laws that have been deemed substantially similar to PIPEDA . Organizations that are subject to a substantially similar provincial privacy law are generally exempt from PIPEDA with respect to the collection, use, or disclosure of personal information that occurs within that province. Ontario, New Brunswick, Nova Scotia and Newfoundland and Labrador have also adopted substantially similar legislation regarding the collection, use, and disclosure of personal health information. Information that crosses borders All businesses that operate in Canada and handle personal information that crosses provincial or national borders in the course of commercial activities are subject to PIPEDA , regardless of the province or territory in which they are based (including provinces with substantially similar legislation). Federally regulated organizations Federally regulated organizations that conduct business in Canada are always subject to PIPEDA . The Act also applies to their employees\u2019 personal information. These organizations include: airports, aircraft and airlines banks and authorized foreign banks inter-provincial or international transportation companies telecommunications companies offshore drilling operations radio and television broadcasters Note: Organizations in the Northwest Territories, Yukon, and Nunavut are considered federally regulated, and are therefore also covered by PIPEDA . If you are not sure if your business is subject to PIPEDA , please consult find the right organization to contact about a privacy issue . What is personal information? Under PIPEDA , personal information includes any factual or subjective information, recorded or not, about an identifiable individual. This includes information in any form, such as: age, name, ID numbers, income, ethnic origin, or blood type opinions, evaluations, comments, social status, or disciplinary actions employee files, credit records, loan records, medical records, existence of a dispute between a consumer and a merchant, intentions (for example, to acquire goods or services, or change jobs) What is not covered by PIPEDA ? There are some i",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The change from \"Vendor shall ensure\" to \"Vendor shall attempt to ensure\" significantly weakens the Vendor's obligation. According to the Law Explanation, PIPEDA requires organizations to be accountable for personal information. By changing the obligation to merely attempting to ensure, the vendor doesn't guarantee protection, thus contradicting PIPEDA's accountability principle. Scraped Law Snippet 2 states that businesses subject to the act must follow the 10 fair information principles to protect personal information. The modification weakens the commitment to follow those principles. This constitutes a contradiction because the modified text creates ambiguity, making it difficult to enforce the protection of personal information, which is a core principle of PIPEDA."
+      },
+      {
+        "type": "Ambiguities - Ambiguous Legal Obligation",
+        "original_text": "b. It includes intellectual property protections for the C onfidential Information that are no less stringent that those applicable in respect of the PMS Software but in any event prohibit any disassembly or reverse engineering of any component of the PMS Software that incorporates the Confidential Information (provided that a prohibition on reverse engineering of the entire PMS Software shall be sufficient to satisfy the requirements of this provision).",
+        "changed_text": "b. It includes intellectual property protections that may be similar to those for the C onfidential Information, potentially prohibiting disassembly or reverse engineering of some components of the PMS Software that incorporates the Confidential Information.",
+        "explanation": "The phrase 'may be similar' is vague and undermines the requirement for stringent protection. 'Potentially prohibiting disassembly' makes protection discretionary, reducing legal certainty.",
+        "contradicted_law": "Copyright Act (Canada)",
+        "law_citation": "R.S.C., 1985, c. C-42, s. 3",
+        "law_url1": [
+          "https://laws-lois.justice.gc.ca/eng/acts/c-42/section-3.html"
+        ],
+        "law_url2": [
+          "https://www.canlii.org/en/ca/laws/stat/rsc-1985-c-c-42/latest/rsc-1985-c-c-42.html"
+        ],
+        "law_explanation": "The Copyright Act protects the copyright holder's exclusive rights. By weakening the requirement to protect against disassembly or reverse engineering, the amended clause makes it easier for licensees to infringe on the copyright holder's (IBC's) rights in the confidential information.",
+        "location": "2(j)b",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": "he work or any substantial part thereof in public or, if the work is unpublished, to publish the work or any substantial part thereof, and includes the sole right (a) \u00c2 to produce, reproduce, perform or publish any translation of the work, (b) \u00c2 in the case of a dramatic work, to convert it into a novel or other non-dramatic work, (c) \u00c2 in the case of a novel or other non-dramatic work, or of an artistic work, to convert it into a dramatic work, by way of performance in public or otherwise, (d) \u00c2 in the case of a literary, dramatic or musical work, to make any sound recording, cinematograph film or other contrivance by means of which the work may be mechanically reproduced or performed, (e) \u00c2 in the case of any literary, dramatic, musical or artistic work, to reproduce, adapt and publicly present the work as a cinematographic work, (f) \u00c2 in the case of any literary, dramatic, musical or artistic work, to communicate the work to the public by telecommunication, (g) \u00c2 to present at a public exhibition, for a purpose other than sale or hire, an artistic work created after June 7, 1988, other than a map, chart or plan, (h) \u00c2 in the case of a computer program that can be reproduced in the ordinary course of its use, other than by a reproduction during its execution in conjunction with a machine, device or computer, to rent out the computer program, (i) \u00c2 in the case of a musical work, to rent out a sound recording in which the work is embodied, and (j) \u00c2 in the case of a work that is in the form of a tangible object, to sell or otherwise transfer ownership of the tangible object, as long as that ownership has never previously been transferred in or outside Canada with the authorization of the copyright owner, and to authorize any such acts. Marginal note: Simultaneous fixing (1.1) \u00c2 A work that is communicated in the manner described in paragraph (1)(f) is fixed even if it is fixed simultaneously with its communication. (1.2) to (4) \u00c2 [Repealed, 1997, c. 24, s. 3] R.S., 1985, c. C-42, s. 3 R.S., 1985, c. 10 (4th Supp.), s. 2 1988, c. 65, s. 62 1993, c. 23, s. 2, c. 44, s. 55 1997, c. 24, s. 3 2012, c. 20, s. 4 Previous Version Table of Contents 1 ... 2 2.1 ... 6.1 6.2 ... 15 16 ... 20 21 ... 27 27.1 ... 29.4 29.5 ... 30.03 30.04 ... 30.6 30.61 ... 31.1 32 ... 32.5 32.6 ... 38.1 38.2 ... 41.13 41.14 ... 41.25 41.26 ... 44.01 44.02 ... 44.12 44.2 ... 57 58 ... 66.1 66.2 ... 68 68.1 ... 72 72.1 ... 79 80 ... 88 89 ... 92 SCHEDULE I : Existing Rights SCHEDULE II SCHEDULE III Related Provisions Amendments not in force Previous Amendments \u00ef\u00bb\u00bf Date modified: 2025-07-08 \u00ef\u00bb\u00bf",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The original contract mandates 'intellectual property protections...no less stringent' and 'prohibit any disassembly or reverse engineering.' The changed text weakens this to 'may be similar' and 'potentially prohibiting,' creating ambiguity and reducing the certainty of protection against reverse engineering. The Copyright Act, as suggested by the Law Explanation, protects copyright holders' exclusive rights, and weakening protection against reverse engineering could facilitate infringement. While Scraped Law Snippet 1 broadly outlines copyright protections, the core issue is the weakening of the obligation to protect against reverse engineering, increasing the risk of copyright infringement by licensees, thus creating a contradiction. The change undermines the legal protection the original contract intended to offer."
+      }
+    ]
+  }
+]

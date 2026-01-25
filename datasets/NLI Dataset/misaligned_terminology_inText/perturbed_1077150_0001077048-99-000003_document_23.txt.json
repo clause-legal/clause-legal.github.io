@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "1077150_0001077048-99-000003_document_23.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "shall maintain the identified Proprietary Information in confidence for a period of three (3) years from the effective date of this Agreement.",
+        "changed_text": "may maintain the identified Proprietary Information in confidence for a period of three (3) years from the effective date of this Agreement.",
+        "explanation": "Changing 'shall' to 'may' weakens the obligation to maintain confidentiality. This creates a contradiction, suggesting that confidentiality is optional, undermining the core purpose of the NDA.",
+        "location": "3",
+        "contradicted_location": "2",
+        "contradicted_text": "All disclosures of \"Proprietary Information\" will be in writing and marked \"PROPRIETARY' or equivalent words by ADC at the time such writings are first furnished to BATTELLE.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the party 'shall' maintain confidentiality, indicating a mandatory obligation. The changed text replaces 'shall' with 'may', making confidentiality optional. The contradicted text states that Proprietary Information will be marked 'PROPRIETARY', implying that there is a baseline expectation of Proprietary Information's proprietary status, and therefore confidential treatment, which creates an in-text contradiction because it is not optional. This contradicts the changed text, which renders the confidentiality optional, undermining the purpose of marking something proprietary, because if the party 'may' maintain confidentiality, then there is no point to marking something 'PROPRIETARY', which should make confidentiality not optional."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "BATTELLE shall treat such information with the same degree of care as it accords to its own proprietary information.",
+        "changed_text": "Contractor shall treat such information with a reasonable degree of care.",
+        "explanation": "This changes the standard of care. 'Same degree of care as its own' is now 'reasonable degree of care'. This creates ambiguity since reasonable is not defined and may be lower than the original standard.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "BATTELLE and its representative(s) shall maintain the identified Proprietary Information in confidence for a period of three (3) years from the effective date of this Agreement. During this period, BATTELLE shall not divulge such information to any third party or use such information for any purpose other than review and evaluation without the prior written consent of ADC. BATTELLE shall treat such information with the same degree of care as it accords to its own proprietary information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that BATTELLE must treat the information with the 'same degree of care as it accords to its own proprietary information.' The changed text lowers this standard to a 'reasonable degree of care.' This creates a contradiction because 'reasonable' is subjective and undefined, potentially allowing for a lower standard of care than BATTELLE uses for its own proprietary information, which contradicts the original, stricter requirement as quoted in the 'Contradicted Text'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "4. It is understood by the parties that this obligation of confidentiality shall not apply to information which: 1. is published or becomes published or otherwise becomes generally available to the public through no breach of this Agreement by BATTELLE; or 2. BATTELLE can show was properly in its possession prior to receipt of the disclosure from ADC; or 3. is independently developed by BATTELLE staff not having access to ADC Proprietary Information as demonstrated by competent documentary evidence; or 4. becomes available to BATTELLE from an independent source without breach of agreement or violation of law; or <PAGE> 5. is required to be disclosed pursuant to proper governmental or judicial process, provided that notice of such process is promptly provided to ADC in order that ADC may have every reasonable opportunity to intervene in such process to contest such disclosure",
+        "changed_text": "4. It is understood by the parties that this obligation of confidentiality shall not apply to information which: 1. is published or becomes published or otherwise becomes generally available to the public through no breach of this Agreement by the Receiving Party; or 2. Receiving Party can show was properly in its possession prior to receipt of the disclosure from ADC; or 3. is independently developed by Receiving Party staff not having access to ADC Proprietary Information as demonstrated by competent documentary evidence; or 4. becomes available to Receiving Party from an independent source without breach of agreement or violation of law; or <PAGE> 5. is required to be disclosed pursuant to proper governmental or judicial process, provided that notice of such process is promptly provided to ADC in order that ADC may have every reasonable opportunity to intervene in such process to contest such disclosure",
+        "explanation": "Replacing 'BATTELLE' with 'Receiving Party' within exception clauses contradicts the initial definition, thus, who gets protection from obligation of confidentiality is now not clear.",
+        "location": "4",
+        "contradicted_location": "3",
+        "contradicted_text": "BATTELLE and its representative(s) shall maintain the identified Proprietary Information in confidence for a period of three (3) years from the effective date of this Agreement. During this period, BATTELLE shall not divulge such information to any third party or use such information for any purpose other than review and evaluation without the prior written consent of ADC. BATTELLE shall treat such information with the same degree of care as it accords to its own proprietary information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies 'BATTELLE' as the entity responsible for maintaining confidentiality, while the changed text replaces 'BATTELLE' with 'Receiving Party'. This directly contradicts the 'Contradicted Text' which explicitly states 'BATTELLE' and its responsibilities. This creates a contradiction since the 'Receiving Party' is not necessarily BATTELLE, leading to uncertainty about who is bound by the confidentiality agreement."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Proprietary Information disclosed hereunder shall remain the property of ADC. No license under any patent, copyright, trademark or trade secret is granted or implied.",
+        "changed_text": "Data disclosed hereunder will be jointly owned by ADC and BATTELLE. Licenses under any patent, copyright, trademark or trade secret may be granted pending further negotiation.",
+        "explanation": "This contradicts the original statement of ADC's sole ownership, undermining ADC's rights and creating uncertainty over intellectual property.",
+        "location": "5",
+        "contradicted_location": "1",
+        "contradicted_text": "\"Proprietary Information\" is confidential and proprietary information relating to: 1) Protection of employee medical records relative to drug testing results, 2) Protection of medical records relative to infectious disease testing, 3) Protection of genetic testing records, and 4) Biometric identification of patients and results in the fields of pharmacy, blood banking, radiology and laboratory specimens; and related projects.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that Proprietary Information remains the property of ADC, with no license granted. The changed text asserts that data disclosed will be jointly owned by ADC and BATTELLE, and licenses may be granted. This directly contradicts the initial statement of ADC's sole ownership, creating a conflict with the contradicted text, which defines Proprietary Information related to sensitive medical and biometric data. The change undermines ADC's rights regarding its proprietary information as defined in the contradicted text, leading to uncertainty over intellectual property, which fits the definition of 'Misaligned Terminology - In Text Contradiction'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The prevailing party in any such proceeding shall be entitled to receive from the other party all reasonable attorneys' fees incurred by such prevailing party and all costs reasonably incurred in connection therewith.",
+        "changed_text": "Each party shall bear its own attorneys' fees and costs associated with any legal proceeding.",
+        "explanation": "The original clause allows the prevailing party to recover fees, but the modified one mandates that each party bears its own expenses. This creates a clear financial disincentive for legal enforcement.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "This Agreement shall be governed by and construed in accordance with the laws of the State of Washington and any action brought to enforce any provision or obligation hereunder shall be brought in a court of competent jurisdiction in the State of Washington. The prevailing party in any such proceeding shall be entitled to receive from the other party all reasonable attorneys' fees incurred by such prevailing party and all costs reasonably incurred in connection therewith. The term of this Agreement shall be one (1) year, or as extended by written modification. Article 3 shall survive termination. The effective date of this Agreement shall be determined by the date affixed hereto by the party last signing this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that \"Each party shall bear its own attorneys' fees and costs associated with any legal proceeding.\" This directly contradicts the contradicted text, which specifies that \"The prevailing party in any such proceeding shall be entitled to receive from the other party all reasonable attorneys' fees incurred by such prevailing party and all costs reasonably incurred in connection therewith.\" The changed text removes the entitlement of the prevailing party to receive attorneys' fees and costs, creating a clear contradiction."
+      }
+    ]
+  }
+]

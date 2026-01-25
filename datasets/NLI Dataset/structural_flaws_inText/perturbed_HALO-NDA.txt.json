@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "HALO-NDA.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "4. OWNERSHIP OF INFORMATION. All information furnished to RECIPIENT by HALO shall, unless otherwise specified in writing by HALO, remain the property of HALO; and the written information, and any copies thereof, shall be promptly returned to HALO upon its written or destroyed by RECIPIENT at HALO’s option.",
+        "changed_text": "4. OWNERSHIP OF INFORMATION. All information furnished to RECIPIENT by HALO shall, unless otherwise specified in writing by HALO, become the property of the RECIPIENT after 5 years. The written information, and any copies thereof, shall be promptly returned to HALO upon its written or destroyed by RECIPIENT at HALO’s option.",
+        "explanation": "The original text states that all information remains the property of HALO, unless otherwise specified. The modified version states that the information becomes the property of RECIPIENT after 5 years. This creates a contradiction regarding the ownership of the information after the 5 year period, specifically contradicting the initial statement that the information always remains the property of HALO.",
+        "location": "Section 4",
+        "contradicted_location": "Section 4",
+        "contradicted_text": "4. OWNERSHIP OF INFORMATION. All information furnished to RECIPIENT by HALO shall, unless otherwise specified in writing by HALO, become the property of the RECIPIENT after 5 years. The written information, and any copies thereof, shall be promptly returned to HALO upon its written or destroyed by RECIPIENT at HALO’s option.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the ownership terms of the information provided by HALO. The original text specifies that the information remains HALO's property unless otherwise specified, implying perpetual ownership. The changed text states that the information becomes the RECIPIENT's property after 5 years, which directly contradicts the initial perpetual ownership by HALO. This creates a clear and direct conflict regarding ownership after the 5-year mark, contradicting itself and leading to uncertainty about who owns the information. The contradicted text is a restatement of the changed text, indicating the contradiction is internal to the section. This fits the definition of Structural Flaws - In Text Contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "5. NO LICENSE OR PATENT RIGHTS. Nothing contained in this Agreement shall be construed as granting any license or right to RECIPIENT by HALO under any patent of the United States or a foreign country or otherwise (except for the evaluation purposes indicated above).",
+        "changed_text": "5. NO LICENSE OR PATENT RIGHTS. Nothing contained in this Agreement shall be construed as granting any license or right to RECIPIENT by HALO under any patent of the United States or a foreign country or otherwise, including for the evaluation purposes indicated above.",
+        "explanation": "The original clause explicitly carves out evaluation purposes as an exception to the denial of license or patent rights. The modified clause removes this exception by including 'including for the evaluation purposes indicated above' which creates an in-text contradiction, because one part is excluding the license for evaluation purposes while the original section explicitly stated it was allowed. This makes the rights during the evaluation unclear.",
+        "location": "Section 5",
+        "contradicted_location": "Section 5",
+        "contradicted_text": "5. NO LICENSE OR PATENT RIGHTS. Nothing contained in this Agreement shall be construed as granting any license or right to RECIPIENT by HALO under any patent of the United States or a foreign country or otherwise, including for the evaluation purposes indicated above.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly excluded evaluation purposes from the denial of license or patent rights, whereas the changed text includes evaluation purposes. Because the Changed Text and Contradicted Text are the same, and the Changed text conflicts with the original text by including evaluation purposes which were originally excluded, there is a direct contradiction introduced. The changed text directly contradicts the previous implied right to use the patent for evaluation purposes, creating an in-text contradiction under the definition of Structural Flaws - In Text Contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "6. REMEDIES. RECIPIENT recognizes that the remedy at law for any breach of its obligation under this Agreement will be inadequate, and hence, RECIPIENT agrees that HALO shall be entitled to equitable remedies, including injunction, in the event of breach by RECIPIENT.",
+        "changed_text": "6. REMEDIES. RECIPIENT recognizes that the remedy at law for any breach of its obligation under this Agreement will be adequate. Therefore, HALO is limited to legal remedies and waives its right to equitable remedies, including injunction, in the event of breach by RECIPIENT.",
+        "explanation": "The original text states that legal remedies are inadequate and HALO is entitled to equitable remedies. The modified version states that legal remedies are adequate and HALO waives its right to equitable remedies, creating a clear and direct contradiction. The phrase 'RECIPIENT recognizes that the remedy at law for any breach of its obligation under this Agreement will be adequate' in the modified version completely inverts the meaning of the original clause.",
+        "location": "Section 6",
+        "contradicted_location": "Section 6",
+        "contradicted_text": "6. REMEDIES. RECIPIENT recognizes that the remedy at law for any breach of its obligation under this Agreement will be adequate. Therefore, HALO is limited to legal remedies and waives its right to equitable remedies, including injunction, in the event of breach by RECIPIENT.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the original text and itself. The original text asserts that legal remedies are inadequate and that HALO is entitled to equitable remedies. The changed text inverts this, stating that legal remedies are adequate and that HALO waives its right to equitable remedies. Since the changed text and the contradicted text are the same in this case, this clearly causes a strong in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "7. GOVERNING LAW. This Agreement shall be governed by and construed in accordance with the laws (excluding the laws of conflict of laws) of the State of Califor nia.",
+        "changed_text": "7. GOVERNING LAW. This Agreement shall be governed by and construed in accordance with the laws (excluding the laws of conflict of laws) of the State of California; however, any disputes regarding intellectual property shall be governed by the laws of Delaware.",
+        "explanation": "The original text states that the agreement is governed by California law. The modified version adds that disputes regarding intellectual property shall be governed by Delaware law. This creates a contradiction: what law applies if a dispute involves both contractual and intellectual property issues? The introduction of 'however, any disputes regarding intellectual property shall be governed by the laws of Delaware' directly contradicts the initial statement of California law governing the entire agreement.",
+        "location": "Section 7",
+        "contradicted_location": "Section 7",
+        "contradicted_text": "7. GOVERNING LAW. This Agreement shall be governed by and construed in accordance with the laws (excluding the laws of conflict of laws) of the State of California; however, any disputes regarding intellectual property shall be governed by the laws of Delaware.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that California law governs the entire agreement. The changed text introduces an exception, stating that Delaware law governs intellectual property disputes. This creates a direct conflict because it is unclear which law applies when a dispute involves both contractual and intellectual property issues, leading to uncertainty and a strong in-text contradiction. The contradicted text is the changed text itself and it creates contradiction by introducing Delaware law for intellectual property disputes when the first part of the text already established that California law governs the agreement."
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "SalesforcecomInc_20171122_10-Q_EX-10.1_10961535_EX-10.1_Reseller Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The terms and conditions herein contained constitute the entire agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement and supersede any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+        "changed_text": "The terms and conditions herein contained constitute the entire agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement unless explicitly contradicted by prior agreements made by the reseller. These agreements will be deemed addendums to this current agreement. This supersedes any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+        "explanation": "By adding the phrase 'unless explicitly contradicted by prior agreements made by the reseller. These agreements will be deemed addendums to this current agreement' it directly contradicts the statement that the current agreement represents the entire agreement. Now, previous agreements by the reseller can override the current agreement's terms, creating uncertainty about which terms govern the relationship. This invalidates the idea that the agreement is comprehensive or the 'entire agreement.'",
+        "location": "Section 3",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "Entire Agreement. The terms and conditions herein contained constitute the entire agreement between the Parties with respect to the subject matter of this Sub-Reseller Agreement unless explicitly contradicted by prior agreements made by the reseller. These agreements will be deemed addendums to this current agreement. This supersedes any previous and contemporaneous agreements and understandings, whether oral or written, between the Parties hereto with respect to the subject matter hereof.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a significant contradiction. The original text states the agreement is the 'entire agreement', superseding all prior agreements. The changed text adds an exception, stating that prior reseller agreements can act as addendums and override the current agreement. This creates a direct conflict as it undermines the 'entire agreement' clause, introducing uncertainty about which agreements govern. The contradicted text is also changed to reflect the exception, solidifying the in-text contradiction. This aligns with 'Structural Flaws - In Text Contradiction' as the same clause appears in multiple locations with conflicting implications. It directly breaks compatibility with the original intention of the 'entire agreement' clause, which is to avoid uncertainty caused by previous agreements."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Sub-Reseller Agreement may be executed in one or more counterparts, including facsimiles or scanned copies sent via email or otherwise, each of which will be deemed to be a duplicate original, but all of which, taken together, will be deemed to constitute a single instrument.",
+        "changed_text": "This Sub-Reseller Agreement may be executed in one or more counterparts, including facsimiles or scanned copies sent via email or otherwise. However, if a counterpart is a facsimile or scanned copy sent via email it is subject to approval by SFDC and will be deemed not to be a duplicate original, until approval, but all of which, taken together, will be deemed to constitute a single instrument.",
+        "explanation": "By adding 'However, if a counterpart is a facsimile or scanned copy sent via email it is subject to approval by SFDC and will be deemed not to be a duplicate original, until approval,' a condition of approval has been added which contradicts the original clause that a counterpart is 'deemed to be a duplicate original'. This causes uncertainty to the validity of the agreement depending on if, and when, SFDC approves the facsimile or scanned copies sent via email. Meaning that, despite taking together, that is deemed to constitute a single instrument, it is not originally valid.",
+        "location": "Section 4",
+        "contradicted_location": "Section 4",
+        "contradicted_text": "Counterparts. This Sub-Reseller Agreement may be executed in one or more counterparts, including facsimiles or scanned copies sent via email or otherwise. However, if a counterpart is a facsimile or scanned copy sent via email it is subject to approval by SFDC and will be deemed not to be a duplicate original, until approval, but all of which, taken together, will be deemed to constitute a single instrument.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that each counterpart is 'deemed to be a duplicate original'. The changed text introduces a condition where a facsimile or scanned copy sent via email is 'deemed not to be a duplicate original, until approval'. This creates a direct contradiction because the same type of document is simultaneously considered both a duplicate original and not a duplicate original, depending on SFDC approval, making the agreement's validity uncertain until the approval happens. The contradicted text is the changed text itself highlighting the contradiction is an In-Text Contradiction. This aligns with the definition of Structural Flaws - In Text Contradiction, where a clause is placed in multiple locations (in this case, one clause) with conflicting implications."
+      }
+    ]
+  }
+]

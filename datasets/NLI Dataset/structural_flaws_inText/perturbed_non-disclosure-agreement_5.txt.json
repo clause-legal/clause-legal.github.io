@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "non-disclosure-agreement_5.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Upon the termination of this Agreement, the Receiving Party will ensure that all documents, memoranda, notes and other writings or electronic records prepared by it that include or reflect any Confidential Information are returned or destroyed as directed by the Disclosing Party",
+        "changed_text": "Upon the termination of this Agreement, the Receiving Party may, at its sole discretion, either return or destroy all documents, memoranda, notes and other writings or electronic records prepared by it that include or reflect any Confidential Information, unless otherwise required by law or legal obligation.",
+        "explanation": "In Section 3(c), the original text mandates that the Receiving Party *will* return or destroy Confidential Information upon termination, as directed by the Disclosing Party. The revised text changes this to the Receiving Party *may* choose to return or destroy, at its *sole discretion*. This introduces a contradiction: The first version establishes an obligation, the second provides an option, creating uncertainty about what happens with the information upon termination.",
+        "location": "3c",
+        "contradicted_location": "3c",
+        "contradicted_text": "Upon the termination of this Agreement, the Receiving Party may, at its sole discretion, either return or destroy all documents, memoranda, notes and other writings or electronic records prepared by it that include or reflect any Confidential Information, unless otherwise required by law or legal obligation.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the Receiving Party 'will ensure' the return or destruction of confidential information as directed. The changed text alters this to 'may' choose to return or destroy at their 'sole discretion.' The contradicted text is identical to the Changed Text, because the changed text introduces a direct contradiction: from a mandatory action to a discretionary one, creating an inconsistency in the contract regarding the handling of confidential information upon termination. This is a structural flaw because the original text mandates the receiving party to destroy the documents, while the new text gives them the option of destroying it, which is a direct contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The obligation not to disclose Confidential Information shall remain in effect until 2 years from the date hereof or until the Confidential Information ceases to be a trade secret, except to the extent that such Confidential Information is excluded from the obligations of confidentiality under this Agreement pursuant to Paragraph 2 above.",
+        "changed_text": "The obligation not to disclose Confidential Information shall remain in effect for only 6 months from the date hereof, regardless of whether the Confidential Information ceases to be a trade secret or is excluded from the obligations of confidentiality under this Agreement pursuant to Paragraph 2 above. However, this period may be extended indefinitely at the sole discretion of the Receiving Party.",
+        "explanation": "This change in Section 3(e) creates a clear contradiction regarding the duration of confidentiality. The original text states it lasts for 2 years or until the information is no longer a trade secret. The modification changes this to 6 months, but introduces the possibility of indefinite extension at the Receiving Party's discretion, making the actual duration uncertain and unenforceable.",
+        "location": "3e",
+        "contradicted_location": "3e",
+        "contradicted_text": "The obligation not to disclose Confidential Information shall remain in effect for only 6 months from the date hereof, regardless of whether the Confidential Information ceases to be a trade secret or is excluded from the obligations of confidentiality under this Agreement pursuant to Paragraph 2 above. However, this period may be extended indefinitely at the sole discretion of the Receiving Party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the duration of confidentiality from '2 years from the date hereof or until the Confidential Information ceases to be a trade secret' to 'only 6 months from the date hereof'. This directly conflicts with the contradicted text, which states the same contradictory clause, thus it demonstrates a structural flaw in the contract, because the language has been duplicated."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement will terminate on the earlier of: (a) the written agreement of the parties to terminate this Agreement; (b) the consummation of the Transaction; or (c) 5 years from the date hereof.",
+        "changed_text": "This Agreement will terminate on the earlier of: (a) the written agreement of the parties to terminate this Agreement; (b) the consummation of the Transaction; (c) 5 years from the date hereof; or (d) unilateral declaration by the Receiving Party, effective immediately upon notification to the Disclosing Party.",
+        "explanation": "This change adds a fourth termination condition in Section 9, giving the Receiving Party the unilateral right to terminate the agreement at any time with immediate effect. This directly contradicts the original terms, which required either mutual agreement, transaction completion, or a 5-year term, creating a significant imbalance and rendering the original termination conditions meaningless.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "This Agreement will terminate on the earlier of: (a) the written agreement of the parties to terminate this Agreement; (b) the consummation of the Transaction; (c) 5 years from the date hereof; or (d) unilateral declaration by the Receiving Party, effective immediately upon notification to the Disclosing Party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds a fourth condition (d) that allows the Receiving Party to unilaterally terminate the agreement. This contradicts the original conditions (a, b, c) because it allows for immediate termination, rendering the other termination conditions, which require either mutual agreement, transaction completion, or a 5-year term, potentially meaningless. The contradicted text is identical to the changed text. This means that the changed text contradicts itself (and consequently the rest of the contract), since the contradicted text (which is the changed text) states that the agreement will terminate on the EARLIER of several conditions, which by their very nature, create different, and conflicting conditions. By adding (d) a unilateral termination condition, it contradicts the original term of the agreement, violating the Structural Flaws definition."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement may be amended or modified only by a written agreement signed by both of the parties.",
+        "changed_text": "This Agreement may be amended or modified unilaterally by the Disclosing Party with a written notice to the Receiving Party, but only if the Receiving Party consents in writing to such amendment within 10 business days of receiving the notice. If the Receiving Party does not respond, the amendment is considered rejected. Any amendment is only valid from the moment both parties agrees with it.",
+        "explanation": "The original Section 10 states that the agreement can only be modified by a written agreement signed by both parties, which mandates mutual consent. The modified version allows for unilateral modification by the Disclosing Party if the Receiving party agree with it. This creates an in-text contradiction around the basis of amending the text.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "This Agreement may be amended or modified unilaterally by the Disclosing Party with a written notice to the Receiving Party, but only if the Receiving Party consents in writing to such amendment within 10 business days of receiving the notice. If the Receiving Party does not respond, the amendment is considered rejected. Any amendment is only valid from the moment both parties agrees with it.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that modifications require a written agreement signed by both parties, implying mutual consent. The changed text introduces the possibility of unilateral modification by the Disclosing Party, contingent only on the Receiving Party's consent, but still fundamentally contradicts the requirement of mutual agreement for all modifications described by the original text. The contradicted text is the same as the changed text, indicating that the contradiction lies in the modification itself, creating an in-text contradiction based on the explanation, and adhering to the definition of Structural Flaws."
+      }
+    ]
+  }
+]

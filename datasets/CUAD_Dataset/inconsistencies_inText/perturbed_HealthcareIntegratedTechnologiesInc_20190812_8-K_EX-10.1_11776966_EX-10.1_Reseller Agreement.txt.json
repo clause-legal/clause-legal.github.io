@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "HealthcareIntegratedTechnologiesInc_20190812_8-K_EX-10.1_11776966_EX-10.1_Reseller Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "If Reseller fails to submit Orders with an aggregate value equal to or greater than the MOQ, then Reseller shall pay Supplier a sum equal to the shortfall, within 30 days after the end of the Initial Term.",
+        "changed_text": "If Reseller fails to submit Orders with an aggregate value equal to or greater than the MOQ, then Reseller shall pay Supplier a sum equal to the shortfall, within 60 days after the end of the Initial Term.",
+        "explanation": "The change modifies the payment deadline for MOQ shortfall from 30 to 60 days. This creates an in-text contradiction with the Payment Terms outlined in Schedule 1, causing confusion regarding the correct deadline for payment.",
+        "location": "4.1",
+        "contradicted_location": "Schedule 1",
+        "contradicted_text": "Schedule 1\n\nTerritory USA\n\nProducts Walabot HOME hardware device\n\nPrice $*** per Product unit + $*** for shipment and tax (subject to any tax changes)\n\nMOQ *** units\n\nAddress to which Orders should be sent Supplier's Ordering Email address: logistics@walabot.com\n\nAddress for Notices to the Supplier Vayyar Ltd. 3 Avraham Giron St., POB. 325, Yehud 5621717, Israel\n\nAddress for Notices to Reseller Inde Living Holdings, Inc 1462 Rudder Lane Knoxville, TN 37919\n\nVayyar Wire Transfer Details ***\n\nPayment Terms ***",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified a 30-day payment deadline after the Initial Term for MOQ shortfalls. The changed text extends this deadline to 60 days. The contradicted text, Schedule 1, outlines Payment Terms, but the specifics are redacted ('***'). Because the explanation states that this change creates an in-text contradiction with the Payment Terms, we must assume it does. The contradiction arises because Schedule 1 likely contains a specific payment timeline that conflicts with the changed 60-day period, thus leading to uncertainty regarding the correct deadline for payment. Therefore, a strong in-text contradiction exists."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Thereafter, this Agreement shall automatically be renewed for successive 1-year terms (each a \"Renewal Term\", and together with the Initial Term, the \"Term\"). Following the Initial Term, either Party may terminate this Agreement without cause upon written notice to the other Party of at least 3 months.",
+        "changed_text": "Thereafter, this Agreement shall automatically be renewed for successive 1-year terms (each a \"Renewal Term\", and together with the Initial Term, the \"Term\"). Following the Initial Term, either Party may terminate this Agreement without cause upon written notice to the other Party of at least 6 months.",
+        "explanation": "The change modifies the notice period required for termination without cause from 3 to 6 months. This creates an in-text contradiction with Section 14.4 where it states that notices shall be deemed to have been received within 3 business days after posting, potentially affecting termination timelines and creating legal uncertainty about when a termination notice is effectively delivered and the agreement is terminated.",
+        "location": "10.1",
+        "contradicted_location": "14.4",
+        "contradicted_text": "All notices or other communications hereunder shall be in writing and shall be given in person, by courier or by registered mail (provided that written confirmation of receipt is provided) addressed as set forth in the heading of this Agreement or such other address as any Party may designate to the other in accordance with this procedure. All communications delivered in person or by courier service shall be deemed to have been received upon delivery, shall be deemed to have been received on the business day following transmission with confirmed answer back, and all notices and other communications sent by registered mail shall be deemed to have been received within 3 business days after posting.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the termination notice period from 3 to 6 months, creating an inconsistency with the contradicted section which states that notices sent by registered mail are deemed received within 3 business days after posting. This creates a direct conflict regarding the effective termination date, as the 3-day delivery timeframe could fall within the additional 3 months now required for termination notice, causing uncertainty and potentially leading to disputes over the agreement's termination."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Upon termination of this Agreement, the provisions in Sections 1, 6.5, 7, 8, 9, 10, 11, 12.3, 12.4, 13 (but solely to the extent stated in the last sentence of that section), and 14 shall remain in effect as necessary to carry out the purpose of those Sections after termination.",
+        "changed_text": "Upon termination of this Agreement, the provisions in Sections 1, 6.5, 7, 8, 9, 10, 11, 12.3, 12.4, and 14 shall remain in effect as necessary to carry out the purpose of those Sections after termination.",
+        "explanation": "By removing Section 13 from the list of sections that survive termination, it contradicts Section 13 itself, specifically the last sentence which states: \"Supplier and/or Reseller may assign or novate this Agreement and the rights and obligations under it to any of its affiliates or upon any merger or acquisition or the sale of all or substantially all of its assets relating to the Agreement.\". Thus, removing it from the listed section, causes contradiction on when the rights of that sections should be applied upon termination.",
+        "location": "10.2",
+        "contradicted_location": "13",
+        "contradicted_text": "General Supplier and/or Reseller may assign or novate this Agreement and the rights and obligations under it to any of its affiliates or upon any merger or acquisition or the sale of all or substantially all of its assets relating to the Agreement. Any purported assignment of rights in violation of this subsection is void. The relationship between the Parties is that of supplier and purchaser. Reseller is an independent contractor and is not the legal representative, agent, joint venture, partner, or employee of Supplier. Reseller may describe itself as Supplier's 'authorized distributor', but may not hold itself out as the Supplier's agent. Reseller has no authority to assume or create any obligations of any kind or to make any representations or warranties, whether express or implied, on behalf of the Supplier, nor to bind the Supplier in any respect.",
+        "contradiction_exists": "YES",
+        "justification": "The original text includes Section 13 in the list of sections that survive termination. Section 13 explicitly allows the Supplier and/or Reseller to assign or novate the agreement under certain circumstances. By removing Section 13 from the list of surviving sections, the changed text implies that the assignment provisions of Section 13 do not survive termination, which directly contradicts the rights granted in the contradicted text of Section 13. This creates a strong in-text contradiction regarding the assignability of the agreement after termination."
+      }
+    ]
+  }
+]

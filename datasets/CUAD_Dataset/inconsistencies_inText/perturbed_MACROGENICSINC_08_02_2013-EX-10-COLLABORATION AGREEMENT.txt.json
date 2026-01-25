@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "MACROGENICSINC_08_02_2013-EX-10-COLLABORATION AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "All payments due hereunder to MacroGenics shall be paid to MacroGenics in US Dollars not later than *** following the receipt of the applicable invoice.",
+        "changed_text": "All payments due hereunder to MacroGenics shall be paid to MacroGenics in US Dollars not later than thirty (30) days following the receipt of the applicable invoice.",
+        "explanation": "The perturbation modifies Section 6.2(d) by setting the payment deadline to 30 days after invoice receipt. This creates an in-text contradiction with Section 8.8, which states milestone payments are due within *** days. Since the number of days is left un stated, there is an in text contradiction regarding which term controls the payment deadline.",
+        "location": "6.2(d)",
+        "contradicted_location": "8.8",
+        "contradicted_text": "All milestone payments shall be due and payable within *** after the event for which the payment is due.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 6.2(d) specifies a payment deadline of 30 days after invoice receipt, while Section 8.8 states that milestone payments are due within an unspecified number of days ('***'). This creates a direct conflict and inconsistency, because the '***' days could be less than, equal to, or greater than the 30 days specified in the changed text, thus leading to an in-text contradiction regarding which term controls the payment deadline. A party could argue for either deadline, leading to potential disputes. This falls directly under the definition of Inconsistencies - In Text Contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Green Cross shall launch each Product in the Territory ***, provided that MacroGenics has supplied Product ordered by Green Cross in accordance with Section 6.2(c) for such launch within a reasonable period prior to the planned launch date.",
+        "changed_text": "Green Cross shall launch each Product in the Territory within 90 days of regulatory approval, provided that MacroGenics has supplied Product ordered by Green Cross in accordance with Section 6.2(c) for such launch within a reasonable period prior to the planned launch date.",
+        "explanation": "By modifying Section 5.5(b) to mandate a product launch within 90 days of regulatory approval, a contradiction is introduced with Section 16.1. Section 16.1 defines the Term of the agreement as lasting until the Royalty Term expires. The addition of the term of 90 days of regulatory approval puts an in-text contradiction, because the Royalty Term might expire before that 90 day term",
+        "location": "5.5(b)",
+        "contradicted_location": "16.1",
+        "contradicted_text": "Unless earlier terminated, this Agreement shall continue in effect until the expiration of the Royalty Term as defined in Section 1.87 (\"Term\"), and thereafter Green Cross has no remaining payment obligations with respect to the Products pursuant to Section 8.5 above and MacroGenics shall have no further obligations hereunder.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a requirement for Green Cross to launch the product within 90 days of regulatory approval. This directly contradicts the original agreement's term, which extends until the Royalty Term expires. The Royalty Term could expire before the 90-day launch window, creating an inconsistency in obligations. This falls under the definition of Inconsistencies - In Text Contradiction: \"Inconsistencies also lead to in-text contradictions when different sections of a contract provide conflicting deadlines, obligations, or penalties.\""
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "All notices which are required or permitted hereunder shall be in writing and sufficient if delivered personally, sent by facsimile (and promptly confirmed by personal delivery, registered or certified mail or overnight courier), sent by nationally-recognized overnight courier or sent by registered or certified mail, postage prepaid, return receipt requested, addressed as follows:",
+        "changed_text": "All notices which are required or permitted hereunder shall be in writing and sufficient if delivered by email, sent by nationally-recognized overnight courier or sent by registered or certified mail, postage prepaid, return receipt requested, addressed as follows:",
+        "explanation": "The modification to Section 17.5 eliminates facsimile as a valid means of delivering notices, creating a contradiction in terms with Section 17.1 which indicates that communication of Force Majeure can be done via email. This creates uncertainty around whether email notification is acceptable as it would be under 17.1, or if it's not a valid communication means as per 17.5.",
+        "location": "17.5",
+        "contradicted_location": "17.1",
+        "contradicted_text": "The affected Party shall notify the other Party of such force majeure circumstances as soon as reasonably practical, and shall promptly undertake all reasonable efforts necessary to cure such force majeure circumstances.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes facsimile as a valid method for delivering notices, while the original text allowed it. The contradicted text requires notification of force majeure circumstances as soon as reasonably practical. The original text provided multiple methods, including email, to accomplish this. By removing facsimile, the changed text makes Section 17.1 (not provided, but referenced in the Perturbation Explanation) potentially unenforceable if Section 17.5 is strictly adhered to, creating an inconsistency regarding permissible communication methods for force majeure notices."
+      }
+    ]
+  }
+]

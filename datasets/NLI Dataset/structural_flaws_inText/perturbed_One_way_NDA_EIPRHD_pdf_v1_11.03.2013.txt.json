@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "One_way_NDA_EIPRHD_pdf_v1_11.03.2013.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "3.1 In the context of discussions, preparations or negotiations, the Discloser may disclose Confidential Information to the Recipient. T h e R e c i p i e n t a g r e e s t o u s e t h e Confidential Information solely in connection with purposes contemplated in this Agreement and not to use it for any other purpose or without the prior written consent of the Discloser.",
+        "changed_text": "3.1 In the context of discussions, preparations or negotiations, the Discloser may disclose Confidential Information to the Recipient. T h e R e c i p i e n t a g r e e s t o u s e t h e Confidential Information solely in connection with purposes contemplated in this Agreement and may also use it for any other purpose, with the prior written consent of the Discloser, or even without prior consent if it benefits the Recipient.",
+        "explanation": "By modifying section 3.1 to say the Recipient 'may also use it for any other purpose, with the prior written consent of the Discloser, or even without prior consent if it benefits the Recipient,' introduces an in-text contradiction. The original text limits the Recipient's use to only what's contemplated in the Agreement unless the Discloser gives consent. This contradicts section 3.3, which states the Recipient will 'not use the information for its own purposes or benefit'. Now, the Recipient can use it for their own benefit if they deem it so.",
+        "location": "3.1",
+        "contradicted_location": "3.3",
+        "contradicted_text": "3.3 The Recipient will use the Confidential Information exclusively for the permitted purpose stated in clause 2 and not use the information for its own purposes or benefit.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in section 3.1 now allows the Recipient to use Confidential Information for any purpose if it benefits them, even without prior consent. This directly contradicts section 3.3, which explicitly states that the Recipient will 'not use the information for its own purposes or benefit.' The original text only allowed usage contemplated in the agreement or with prior written consent. Therefore, the change introduces a clear and strong in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "3.7 The Recipient shall promptly return or destroy all copies (in whatever form reproduced or stored), including all notes and derivatives of the Confidential Information disclosed under this Agreement, upon the earlier of (i) the completion or termination of the dealings contemplated in this Agreement; (ii) or the termination of this Agreement; (iii) or at the time the Discloser may request it to the Recipient.",
+        "changed_text": "3.7 The Recipient shall promptly return or destroy all copies (in whatever form reproduced or stored), including all notes and derivatives of the Confidential Information disclosed under this Agreement, upon the earlier of (i) the completion or termination of the dealings contemplated in this Agreement; (ii) or the termination of this Agreement; (iii) or at the time the Discloser may request it to the Recipient, unless the Recipient deems it beneficial to retain such information.",
+        "explanation": "By adding 'unless the Recipient deems it beneficial to retain such information', to section 3.7, we introduce an in-text contradiction. The original text mandates the Recipient return or destroy the information. This directly contradicts section 3.8. While 3.8 allows for retention for legal compliance purposes, there is no qualifier as to if the Recipient deems it beneficial in order to retain such information.",
+        "location": "3.7",
+        "contradicted_location": "3.8",
+        "contradicted_text": "3.8 Notwithstanding the foregoing, the Recipient may retain such of its documents as required to comply with mandatory law, provided that such Confidentiality Information or copies thereof shall be subject to an indefinite c o n f i d e n t i a l i t y obligation.",
+        "contradiction_exists": "YES",
+        "justification": "The addition of 'unless the Recipient deems it beneficial to retain such information' to Section 3.7 directly contradicts the mandatory return or destruction of confidential information initially stipulated. While Section 3.8 allows retention for legal compliance, it doesn't provide a qualifier based on the Recipient's subjective benefit, which creates a strong in-text contradiction. Therefore, a reasonable reader would find a conflict between the modified Section 3.7 and Section 3.8 as retention is now discretionary in one section while the other section requires a legal basis."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "4.1.1 This Agreement shall remain in effect for a term of [number of months or years] term. Notwithstanding the foregoing, the Recipient’s duty to hold in confidence Confidential Information that was disclosed during the term shall remain in effect indefinitely, save otherwise agreed.",
+        "changed_text": "4.1.1 This Agreement shall remain in effect for a term of [number of months or years] term. Notwithstanding the foregoing, the Recipient’s duty to hold in confidence Confidential Information that was disclosed during the term shall remain in effect for the same term as this agreement, save otherwise agreed.",
+        "explanation": "By changing the duration of confidentiality in Section 4.1.1 to 'remain in effect for the same term as this agreement', this contradicts the second half of Section 4.1.2, which states, 'this Agreement shall remain in force until the end of the collaboration undertaken or after [months or years] of its termination.'",
+        "location": "4.1.1",
+        "contradicted_location": "4.1.2",
+        "contradicted_text": "4.1.2 If the Discloser and Recipient succeed in the call for proposal referred to in clause 2 and sign the corresponding Grant Agreement (GA) and Consortium Agreement (CA), or entered into partnership under any other kind of collaborative agreement (COA) or association agreement (AA), the non-disclosure provisions of the CA, COA and AA shall [supplement or supersede] this Agreement. In the event that non-disclosure provisions are not provided for the said private agreements in equal terms as stated herein, this Agreement shall remain in force until the end of the collaboration undertaken or after [months or years] of its termination.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies section 4.1.1 to limit the confidentiality period to the same term as the agreement, while the contradicted text, section 4.1.2, states that the confidentiality obligations remain in force until the end of the collaboration or a specified period after termination. This creates a direct contradiction regarding the duration of confidentiality, as one clause limits it to the agreement's term, and the other extends it beyond that term under certain circumstances, making enforcement unclear."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "4.2 Applicable Law and Jurisdiction This Agreement shall be construed and interpreted by the laws of [choose the applicable law]. The court of [choose the jurisdiction to settle disputes] shall have jurisdiction.",
+        "changed_text": "4.2 Applicable Law and Jurisdiction This Agreement shall be construed and interpreted by the laws of [choose the applicable law], unless the Recipient is located in a different jurisdiction, in which case the laws of the Recipient's jurisdiction will apply. The court of [choose the jurisdiction to settle disputes] shall have jurisdiction.",
+        "explanation": "By adding 'unless the Recipient is located in a different jurisdiction, in which case the laws of the Recipient's jurisdiction will apply', introduces an in-text contradiction. While, the first sentence, requires the 'Applicable Law and Jurisdiction' to be construed and interpreted by the laws of 'choose the applicable law' and 'The court of [choose the jurisdiction to settle disputes] shall have jurisdiction', the added perturbation provides uncertainty to this agreement.",
+        "location": "4.2",
+        "contradicted_location": "4.2",
+        "contradicted_text": "4.2 Applicable Law and Jurisdiction This Agreement shall be construed and interpreted by the laws of [choose the applicable law], unless the Recipient is located in a different jurisdiction, in which case the laws of the Recipient's jurisdiction will apply. The court of [choose the jurisdiction to settle disputes] shall have jurisdiction.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that the agreement will be construed and interpreted by the laws of '[choose the applicable law]' and the court of '[choose the jurisdiction to settle disputes]' shall have jurisdiction. However, the changed text introduces an exception: 'unless the Recipient is located in a different jurisdiction, in which case the laws of the Recipient's jurisdiction will apply'. This creates a direct conflict because it introduces uncertainty about which laws and jurisdiction will govern the agreement, which contradicts the original clear statement and definition of applicable law and jurisdiction. The contradiction is strong because it fundamentally changes the governing law based on the recipient's location, thus directly undermining the initially stated choice of law and forum. The contradictory text is placed in the same section, which makes it an in-text contradiction."
+      }
+    ]
+  }
+]

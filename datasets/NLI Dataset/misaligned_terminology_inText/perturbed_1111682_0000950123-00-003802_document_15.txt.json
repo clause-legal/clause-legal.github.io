@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "1111682_0000950123-00-003802_document_15.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "WHEREAS, UCAR CARBON possesses certain proprietary information (hereinafter UCAR CARBON Proprietary Information) relating to the manufacture of flexible graphite for use in fuel cells: WHEREAS, BALLARD possesses certain proprietary information (hereinafter BALLARD Proprietary Information) relating to fuel cells and components for fuel cells.",
+        "changed_text": "WHEREAS, UCAR CARBON possesses certain confidential data (hereinafter UCAR CARBON Confidential Data) relating to the manufacture of flexible graphite for use in fuel cells: WHEREAS, BALLARD possesses certain proprietary information (hereinafter BALLARD Proprietary Information) relating to fuel cells and components for fuel cells.",
+        "explanation": "Changing 'proprietary information' to 'confidential data' for UCAR CARBON introduces ambiguity. Later sections refer to 'Proprietary Information' for both parties, creating a contradiction. This is because BALLARD possesses proprietary information while UCAR CARBON now possesses confidential data.",
+        "location": "Preamble",
+        "contradicted_location": "Preamble",
+        "contradicted_text": "WHEREAS, UCAR CARBON possesses certain confidential data (hereinafter UCAR CARBON Confidential Data) relating to the manufacture of flexible graphite for use in fuel cells: WHEREAS, BALLARD possesses certain proprietary information (hereinafter BALLARD Proprietary Information) relating to fuel cells and components for fuel cells. WHEREAS, UCAR CARBON and BALLARD desire to exchange such proprietary information (hereinafter individually and collectively referred to as \"Proprietary Information\") for the purpose of UCAR CARBON supplying flexible graphite produced employing UCAR CARBON Proprietary Information to BALLARD under a separate purchase order.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined both UCAR CARBON and BALLARD as possessing 'proprietary information'. The changed text modifies this, stating UCAR CARBON possesses 'confidential data' instead. The contradicted text later refers to both parties exchanging 'Proprietary Information'. This creates a contradiction because UCAR CARBON no longer possesses 'proprietary information' according to the modified text, leading to ambiguity about whether their 'confidential data' is included in the exchange of 'Proprietary Information', and fits the definition of Misaligned Terminology."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "During the term of this Agreement, the receiving party agrees to hold in confidence and not disclose to any person or persons, other than its employees with a need to know, or use except for the purpose of this agreement, for a period of fifteen (15) years from the date of each disclosure, any and all Proprietary Information disclosed in writing and identified as Proprietary Information by the disclosing party.",
+        "changed_text": "During the term of this Agreement, the receiving party agrees to hold in confidence and not disclose to any person or persons, other than its employees with a need to know, or use except for the purpose of this agreement, for a period of ten (10) years from the date of each disclosure, any and all Proprietary Information disclosed in writing and identified as Proprietary Information by the disclosing party.",
+        "explanation": "The change in the time period from fifteen (15) to ten (10) years directly contradicts the original obligation, if in other section this period is still fifteen (15) years, creating an in-text contradiction",
+        "location": "Section 1",
+        "contradicted_location": "Section 1",
+        "contradicted_text": "During the term of this Agreement, the receiving party agrees to hold in confidence and not disclose to any person or persons, other than its employees with a need to know, or use except for the purpose of this agreement, for a period of ten (10) years from the date of each disclosure, any and all Proprietary Information disclosed in writing and identified as Proprietary Information by the disclosing party. If Proprietary Information is disclosed orally or in other than written form, it must be identified as Proprietary Information at the time of disclosure and summarized in writing and identified as Proprietary Information by the disclosing party within thirty (30) days from the date of the disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated a confidentiality period of fifteen (15) years. The changed text modifies this period to ten (10) years. The contradicted text also states a period of ten (10) years. However, the Perturbation Explanation indicates that this change causes a contradiction if other sections still specify fifteen (15) years. While the contradicted text is consistent with the changed text, the explanation highlights an inconsistency *within the document as a whole* due to the modification. Therefore, a contradiction exists because the document now contains conflicting information regarding the confidentiality period, as pointed out in the explanation."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The receiving party agrees not to copy any Proprietary Information without the written permission of the disclosing party, and shall return such Proprietary Information and any copies when requested to do so by the disclosing party during the term of this Agreement",
+        "changed_text": "The receiving party may copy any Proprietary Information as needed, and shall return such Proprietary Information and any copies when requested to do so by the disclosing party during the term of this Agreement",
+        "explanation": "Changing 'agrees not to copy' to 'may copy' creates a direct contradiction. One section forbids copying without permission; the other explicitly allows copying as needed, leading to fundamental disagreement.",
+        "location": "Section 3",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "The receiving party may copy any Proprietary Information as needed, and shall return such Proprietary Information and any copies when requested to do so by the disclosing party during the term of this Agreement",
+        "contradiction_exists": "YES",
+        "justification": "The original text states 'The receiving party agrees not to copy any Proprietary Information without the written permission'. The changed text states 'The receiving party may copy any Proprietary Information as needed'. This creates a direct contradiction because one states that copying is prohibited without permission, while the other states that copying is allowed as needed, creating an irreconcilable incompatibility. This aligns with the 'Misaligned Terminology - In Text Contradiction' perturbation type as the definition of copying is changed which causes a conflicting obligation."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Either party upon thirty (30) days notice given in writing to the other party may terminate this Agreement. However, termination of the Agreement will not affect the confidentiality and non-use obligations of either party.",
+        "changed_text": "Either party upon sixty (60) days notice given in writing to the other party may terminate this Agreement. However, termination of the Agreement will not affect the confidentiality and non-use obligations of either party.",
+        "explanation": "Changing the days notice period from thirty (30) to sixty (60) creates a direct contradiction in the time needed to terminate the agreement",
+        "location": "Section 6",
+        "contradicted_location": "Section 6",
+        "contradicted_text": "Either party upon sixty (60) days notice given in writing to the other party may terminate this Agreement. However, termination of the Agreement will not affect the confidentiality and non-use obligations of either party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated a thirty (30) day notice period for termination, while the changed text modifies this to sixty (60) days. The contradicted text elsewhere in the document states a sixty (60) day notice period. Thus the changed text causes a contradiction, since the contract states that either party can terminate on thirty (30) days notice AND sixty (60) days notice, creating an inconsistency as defined by the 'Inconsistencies' definition given above."
+      }
+    ]
+  }
+]

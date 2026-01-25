@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Template-NDA-2-way-final-1.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Recipient must use at least the same standard of care in protec ting the confidentiality of the Confidential Information as it uses in protecting its own information of a sim ilar nature and, in any event, no less than a reasonabl e standard of ca re.",
+        "changed_text": "Recipient must use at least the same standard of care in protec ting the confidentiality of the Confidential Information as it uses in protecting its own information of a sim ilar nature and, in any event, no more than a reasonabl e standard of ca re.",
+        "explanation": "Changing 'no less than' to 'no more than' creates a contradiction. The original clause sets a minimum standard of care (reasonable), while the changed clause sets a maximum, potentially allowing for a standard of care *below* what is reasonable. This in-text contradiction leads to uncertainty about the required level of protection.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "6. STAND ARD OF CARE Recipient must use at least the same standard of care in protec ting the confidentiality of the Confidential Information as it uses in protecting its own information of a sim ilar nature and, in any event, no more than a reasonabl e standard of ca re. Recipient must notify Discloser promptly upon discovery that any Confidential Information has been accessed or otherwise acquired by or disclosed to an unauthorized person.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'no less than' to 'no more than' introduces a direct conflict with the standard of care. The original text sets a minimum acceptable standard of 'reasonable care'. The changed text sets a maximum standard of 'reasonable care', thus allowing for a standard below reasonable, which contradicts the original intent and creates a potential situation where less than reasonable care is acceptable. The Contradicted Text has the same text as the changed text, further solidifying the direct contradiction. Based on the explanation given, this creates uncertainty about the required level of protection, leading to a strong in-text contradiction as defined by structural flaws."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "If requested in writing by Discloser , Recipient must cease using, return to Discloser and/or destroy all Confidential Information and any copies of Confidential Information in its possessi on or control. Recipient may retain one archival copy of such Confidential Information for the sole purpose of establishing the extent of the disclosure of such Confidential Information, p rovided that such information is not used by Recipient for any other purpose and is subject to the confident iality requirements set out in this Agreement .",
+        "changed_text": "If requested in writing by Discloser , Recipient must cease using, return to Discloser and/or destroy all Confidential Information and any copies of Confidential Information in its possessi on or control. Recipient may retain one archival copy of such Confidential Information for the purpose of research and development of such Confidential Information, p rovided that such information is not used by Recipient for any other purpose and is subject to the confident iality requirements set out in this Agreement .",
+        "explanation": "Changing the purpose of archival copy from 'establishing the extent of disclosure' to 'research and development' creates an in-text contradiction. The original text limits the use of the archival copy, while the modified text permits its use for R&D, creating uncertainty and conflict.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "7. RETURN OF CONFIDENTIAL INFORMATION If requested in writing by Discloser , Recipient must cease using, return to Discloser and/or destroy all Confidential Information and any copies of Confidential Information in its possessi on or control. Recipient may retain one archival copy of such Confidential Information for the purpose of research and development of such Confidential Information, p rovided that such information is not used by Recipient for any other purpose and is subject to the confident iality requirements set out in this Agreement .",
+        "contradiction_exists": "YES",
+        "justification": "The original text limits the use of the archival copy to 'establishing the extent of disclosure.' The changed text expands this purpose to include 'research and development.' The contradicted text also states the purpose of archival copy is for 'research and development'. Although the changed text and contradicted text are now aligned in their purpose, this contradicts the original text's limited purpose. As such, since the original text's purpose conflicts with the changed text's purpose, and the changed text's purpose is identical to the contradicted text, there is a strong in-text contradiction. The change creates a direct conflict regarding the permissible use of the archival copy, making the contract ambiguous and potentially unenforceable."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Discloser warrants that it has the right to disclose the Confidential Information to Recipient. Discl oser makes no other warranties in respect of the Confidential Information and provides all information “AS IS” without any express or implied warranty of any kind, including any warrant y as to merchantability, fitness for a particular purpo se, accu racy, co mpleteness or violation of third party intellectual property rights.",
+        "changed_text": "Discloser warrants that it has the right to disclose the Confidential Information to Recipient. Discl oser makes warranties in respect of the Confidential Information and provides all information “AS IS” without any express or implied warranty of any kind, including any warrant y as to merchantability, fitness for a particular purpo se, accu racy, co mpleteness or violation of third party intellectual property rights.",
+        "explanation": "Changing 'makes no other warranties' to 'makes warranties' creates a direct in-text contradiction. The original clause explicitly disclaims further warranties, while the modified version suggests warranties are being made, creating uncertainty about the Discloser's liability. This is directly contradicted in the same section.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "9. LIMITED WARRANTY & LIABILITY Discloser warrants that it has the right to disclose the Confidential Information to Recipient. Discl oser makes warranties in respect of the Confidential Information and provides all information “AS IS” without any express or implied warranty of any kind, including any warrant y as to merchantability, fitness for a particular purpo se, accu racy, co mpleteness or violation of third party intellectual property rights. Neither party will be liable for any special, incidental or consequential damages of any kind whatsoever resulting from the disclosure, use or receipt of the Confidential Information .",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the 'Discloser makes no other warranties', but the changed text modifies this to 'Discloser makes warranties'. This directly contradicts the same clause in the contradicted text, creating a strong in-text contradiction because the original text explicitly disclaims warranties, while the modified version suggests warranties are being made."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement and Recipient’s obligation to keep Confidential Information confidential expires three (3) years after the Effective Date.",
+        "changed_text": "This Agreement and Recipient’s obligation to keep Confidential Information confidential expires ten (10) years after the Effective Date.",
+        "explanation": "The term of the NDA is extended to 10 years, however further down in the document the signature block of the NDA states the Effective Date to be March 12, 2019. The definition now is conflicting, due to the term of confidentiality and if information must be kept from that date for 3 or 10 years.",
+        "location": "10",
+        "contradicted_location": "Page 1",
+        "contradicted_text": "MUTUAL NON -DISCLOSURE AGREEMENT PARTIES : McMaster University (‘University ’) 1280 Main Street West Hamilton, ON L8S 4L8 Company /Organization name(‘Company ’) Company/organiz ation address DATE: March 12,2019 (‘Effective Date ’) In consideration of the mutua l covenants set out in this Agreement and for other good and valuable consideration (the receipt and sufficiency of which is hereby acknowledged by each of the Parties ), the Parties agree as follows:",
+        "contradiction_exists": "YES",
+        "justification": "The original text states a 3-year confidentiality period. The changed text extends this to 10 years. The contradicted text establishes the 'Effective Date' as March 12, 2019. This creates a contradiction because it's unclear whether the confidentiality obligation expires 3 years from March 12, 2019, or 10 years from that date. This aligns with the definition of 'Inconsistencies - In Text Contradiction' where different sections of a contract provide conflicting deadlines."
+      }
+    ]
+  }
+]

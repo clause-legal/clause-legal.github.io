@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "NDD.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "to disclose this information only to the Applicant's employees or particular employees of subcontractors who are required to have the information for the p urpose of the Applicant’s registration as RRM , and have previously signed an agreem ent in content similar to the provisions thereof;",
+        "changed_text": "to disclose this information only to the Applicant's employees or subcontractors who are deemed necessary.",
+        "explanation": "By removing the requirement for subcontractors to have 'previously signed an agreement in content similar to the provisions thereof', the modified text creates a contradiction. It suggests that subcontractors can access confidential information without any formal confidentiality agreement, which conflicts with the overall purpose of the Non-Disclosure Declaration. The original text clearly establishes that only individuals who have an confidentiality agreement may have access to confidential information, while the modified text allows subcontractors to access the information regardless of having the aforementioned.",
+        "location": "Paragraph 4, bullet point 3",
+        "contradicted_location": "Paragraph 4, bullet point 4",
+        "contradicted_text": "to oblige all employees receiving access to the Confidential I nformation not to disclose it to anyone and not to make any copies of it;",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the requirement for subcontractors to have a confidentiality agreement, which directly contradicts the contradicted text that obliges 'all employees receiving access to the Confidential Information not to disclose it to anyone'. The change allows subcontractors to access confidential information without a confidentiality agreement, creating a strong and direct conflict with the obligation to protect confidential information, therefore creating an in-text contradiction as defined in the Perturbation Explanation."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "to oblige all employees receiving access to the Confidential I nformation not to disclose it to anyone and not to make any copies of it;",
+        "changed_text": "to encourage all employees receiving access to the Confidential Information not to disclose it to anyone and to limit copies.",
+        "explanation": "Changing 'oblige' to 'encourage' weakens the directive regarding non-disclosure and copying, creating a contradiction with the strict confidentiality measures expected elsewhere in the document. The original text requires employees to follow the rules whereas the modified one only encourages them to follow the rules.",
+        "location": "Paragraph 4, bullet point 4",
+        "contradicted_location": "Paragraph 6",
+        "contradicted_text": "All Confidential Information remain the property of the Agency and no license or other rights in the Confidential Inform ation are granted hereby, except as expressly provided above.",
+        "contradiction_exists": "YES",
+        "justification": "The original text imposed a strict obligation ('oblige') on employees regarding confidential information, aligning with the contradicted text stating that 'no license or other rights' are granted. The changed text weakens this obligation to mere 'encouragement' and 'limit copies', creating a contradiction. It now allows for interpretation where employees might disclose information or make copies to some extent, conflicting with the intention of the 'no license or other rights' clause which intends to treat confidential information as proprietary. The change fundamentally alters the level of commitment regarding confidentiality, thereby establishing a strong in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "to immediately notify in writing the Agency i n the event of any unauthorised use or disclosure of the Confidential I nformation.",
+        "changed_text": "to notify the Agency of any suspected unauthorised use or disclosure of the Confidential Information as soon as reasonably practical.",
+        "explanation": "By adding 'suspected' and 'as soon as reasonably practical', the obligation to *immediately* notify the Agency of *any* unauthorised use is weakened. This creates a contradiction because the Agency needs to respond quickly to breaches. Adding these two details, reduces the responsibility on notifying the agency for the disclosure of information.",
+        "location": "Paragraph 4, bullet point 5",
+        "contradicted_location": "Paragraph 8",
+        "contradicted_text": "The Applicant hereby acknowledges that unauthorised disclosure or use of the Confidential Information could cause irreparable harm and significant injury, which may be difficult to ascertain.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires 'immediate' written notification of 'any' unauthorized use. The changed text weakens this by requiring notification only of 'suspected' use 'as soon as reasonably practical'. This contradicts the contradicted text, which states that unauthorized disclosure could cause 'irreparable harm' that is 'difficult to ascertain', which necessitates immediate action, not delayed notification of suspected breaches. Thus, a strong in-text contradiction exists as per the 'Omissions' definition."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Applicant shall not us e for its own purposes, reverse engineer, disassemble, decompile or copy any software or other objects which embody the Confidential Information, nor transmit, directly or indirectl y, any Confidential Information.",
+        "changed_text": "The Applicant shall not use Confidential Information for purposes that directly compete with the Agency's core business, or transmit Confidential Information to direct competitors.",
+        "explanation": "This change narrows the restriction on use and transmission of Confidential Information. By limiting the prohibition to only uses that *directly compete* and transmission *to direct competitors*, it implies that other uses and transmissions are permissible, contradicting the earlier definition that all Confidential Information should be strictly protected. The initial definition states that the information shouldn't be used for its own purposes, while the modification allows the applicant to use the information, but only partially restricted.",
+        "location": "Paragraph 5",
+        "contradicted_location": "Paragraph 6",
+        "contradicted_text": "All Confidential Information remain the property of the Agency and no license or other rights in the Confidential Inform ation are granted hereby, except as expressly provided above.",
+        "contradiction_exists": "YES",
+        "justification": "The original text imposed a blanket restriction on the use and transmission of Confidential Information. The changed text narrows this restriction, permitting uses that do not directly compete with the Agency and transmissions to parties who are not direct competitors. This creates a contradiction with the Contradicted Text, which states that 'no license or other rights in the Confidential Information are granted hereby, except as expressly provided above,' since the modification now implies some permissible uses that were previously prohibited. This aligns with the definition of 'Omissions – In Text Contradiction' because essential language was removed/altered, creating a contradiction with other sections."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Applicant 's obligations her eunder shall survive until all information in the Confidential Information hereunder becomes publicly known.",
+        "changed_text": "The Applicant 's obligations hereunder shall survive for a period of five (5) years from the date of this declaration.",
+        "explanation": "By changing the survival clause from 'until all information...becomes publicly known' to a fixed period of five years, the original condition is nullified. This means obligations may cease even if Confidential Information remains secret, contradicting the purpose of the NDA. The original text specifies the obligations survive until the information is publicly known, while the modified version fixes a period of 5 years regardless the information being publicly known or not.",
+        "location": "Paragraph 7",
+        "contradicted_location": "Paragraph 8",
+        "contradicted_text": "The Applicant hereby acknowledges that unauthorised disclosure or use of the Confidential Information could cause irreparable harm and significant injury, which may be difficult to ascertain.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the applicant's obligations survive until the confidential information becomes publicly known. The changed text limits this survival to a fixed five-year period, regardless of whether the information becomes public. This contradicts the contradicted text, which acknowledges that unauthorized disclosure could cause irreparable harm, because even if irreparable harm is possible after 5 years, the applicant's obligations have ceased. The change introduces a fixed termination point that does not align with the potential for ongoing harm, thus creating a contradiction."
+      }
+    ]
+  }
+]

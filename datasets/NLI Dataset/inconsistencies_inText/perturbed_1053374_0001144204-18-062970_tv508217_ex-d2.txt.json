@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "1053374_0001144204-18-062970_tv508217_ex-d2.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement shall be valid unless terminated by mutual written Agreement.",
+        "changed_text": "This Agreement shall be valid for 5 years unless terminated with 30 days written notice by either party.",
+        "explanation": "This introduces a contradiction, by initially stating 'This Agreement shall be valid unless terminated by mutual written Agreement.', but now specifying that the agreement is valid for 5 years unless terminated with 30 days written notice by either party within section 9. This contradicts the previous clause requiring mutual agreement for termination.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "Term, Assignment and Survival: This Agreement shall be valid for 5 years unless terminated with 30 days written notice by either party. Each Party’s obligations with respect to the Confidential Information, including but not limited to, sections 2,4,5,6 shall survive the termination of this Agreement and/or return of all Confidential Information from the latter date of either termination or return of such information. Neither this Agreement nor any rights hereunder, in whole or in part, shall be assignable or otherwise transferable by either Party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that the agreement could only be terminated by mutual written agreement. The changed text allows termination with 30 days written notice by either party. The contradicted text also states that 'This Agreement shall be valid for 5 years unless terminated with 30 days written notice by either party.' This directly contradicts the initial condition of termination requiring mutual agreement, creating an inconsistency as defined in the perturbation type 'Inconsistencies - In Text Contradiction'."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "In addition to the foregoing, and without limitation thereof, iPass shall not circumvent or otherwise engage in any form of direct or indirect communications with any TEUM Leads without the prior written approval of TEUM, which approval may be given or withheld in TEUM’s sole discretion.",
+        "changed_text": "In addition to the foregoing, and without limitation thereof, iPass may engage in direct or indirect communications with any TEUM Leads after a period of 12 months from the date of this agreement, regardless of TEUM's approval.",
+        "explanation": "This changes the condition that 'iPass shall not circumvent or otherwise engage in any form of direct or indirect communications with any TEUM Leads without the prior written approval of TEUM'. Now iPass 'may engage in direct or indirect communications with any TEUM Leads after a period of 12 months', regardless of TEUM's approval within section 16, therefore, this creates a direct contradiction to the previous clause.",
+        "location": "16",
+        "contradicted_location": "16",
+        "contradicted_text": "Non-solicitation/Non-circumvention . iPass understands, acknowledges and agrees, AS A MATERIAL INDUCEMENT FOR TEUM TO MAKE AND ENTER INTO THIS AGREEMENT, that with respect to any customer or prospective customer opportunities that are identified by TEUM (collectively, the “ TEUM Leads ”) to iPass, that iPass shall not negotiate directly or indirectly solicit or otherwise attempt to cause the TEUM Leads enter into any form of agreement with iPass without the consent of TEUM, which consent may be given or withheld in TEUM’s sole discretion. In addition to the foregoing, and without limitation thereof, iPass may engage in direct or indirect communications with any TEUM Leads after a period of 12 months from the date of this agreement, regardless of TEUM's approval.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that iPass cannot communicate with TEUM Leads without TEUM's approval. The changed text allows iPass to communicate with TEUM Leads after 12 months regardless of TEUM's approval. The contradicted text is a repeat of the changed text, creating a direct contradiction within section 16 and with the original agreement that iPass could not communicate with TEUM leads without approval. This is a clear inconsistency, fitting the 'Inconsistencies - In Text Contradiction' definition."
+      }
+    ]
+  }
+]

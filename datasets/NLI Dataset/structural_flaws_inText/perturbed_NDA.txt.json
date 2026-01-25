@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "NDA.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Developer shall not use any Sample Data for any purpose other than the Permitted Purpose.",
+        "changed_text": "Developer may use the Sample Data for internal testing and development purposes, even if those purposes extend beyond the Permitted Purpose.",
+        "explanation": "The original text strictly limits the use of Sample Data to the Permitted Purpose. The changed text broadens the allowable uses to include internal testing and development, even if they go beyond the defined 'Permitted Purpose'. This contradicts the initial restriction. The contradiction is created by the insertion of this phrase in Section 1(a).",
+        "location": "1(a)",
+        "contradicted_location": "1(b)",
+        "contradicted_text": "b. Non-Disclosure .Except as provided in subsection (c) below, Developer shall not disclose any Sample Data to any third party or to its own employees, agents or professional advisors except employees, agents or professional advisors who are required to have the Sample Data to implement the Permitted Purpose. Developer shall have each employee to whom any Sample Data will be disclosed, or who will have access to Sample Data, sign a nondisclosure agreement that is substantially similar to this Agreement. Developer shall take all reasonable measures to protect the secrecy of and avoid disclosure or use of the Sample Data, including, without limitation, using the highest degree of care that Developer uses to protect its own confidential information. Developer shall notify FDI in writing of any misuse or misappropriation of Sample Data immediately after it becomes aware of such misuse or misappropriation. Developer shall not reproduce any Sample Data in any form or store it in a retrieval system or database without FDI’s prior written consent, except as Developer reasonably may require for the Permitted Purpose.",
+        "contradiction_exists": "YES",
+        "justification": "The original text restricts the use of Sample Data to the 'Permitted Purpose'. The changed text expands the usage to include internal testing and development, even if beyond the 'Permitted Purpose'. The Contradicted Text states that the Developer shall take measures to protect the secrecy of and avoid disclosure or use of the Sample Data, including only using it for the Permitted Purpose. This directly conflicts with the changed text, which allows for usage beyond the Permitted Purpose, thus weakening the restriction to the usage of the Sample Data, creating a contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "When the Assessment Period is over, if the parties have not agreed to go forward and sign a comprehensive agreement that permits Developer to use the Data to modify its Applications and pursuant to which FDI will provide Developer with the technical documents that are necessary for Developer to do so, Developer shall return to FDI or destroy all copies of the Sample Data in its possession or control.",
+        "changed_text": "Upon FDI's written request, Developer shall return to FDI or destroy all copies of the Sample Data in its possession or control, even after the Assessment Period, irrespective of whether a comprehensive agreement has been reached.",
+        "explanation": "The original text makes the return/destruction of data contingent on the absence of a comprehensive agreement *after* the Assessment Period. The changed text makes it contingent on FDI's request *at any time*, even after the Assessment Period and even if an agreement exists. This contradicts the original, creating uncertainty about data retention obligations. This affects the developer's rights to use the data. The contradiction is created by this insertion in Section 2.",
+        "location": "2",
+        "contradicted_location": "3",
+        "contradicted_text": "3. Term .Due to the valuable and proprietary nature of the Sample Data, the obligations assumed by Developer hereunder other than those stated in Section 1(c) shall be unlimited in time or territory.",
+        "contradiction_exists": "YES",
+        "justification": "The original text tied the return/destruction of data to the *absence* of a comprehensive agreement after the Assessment Period. The changed text allows FDI to demand the return/destruction of data *at any time*, regardless of whether an agreement exists. This directly contradicts the implication of the original text by creating the possibility that the developer's assumed right to use the data under the agreement may be violated at any time. This contradicts the Contradicted Text, which states that Section 1(c) obligations are 'unlimited in time', because it is unclear if the developer can depend on that unlimited time if the agreement can be terminated at any time. The original gave the developer an understanding that only if no agreement, then the obligation is created. The change removed that and made it 'irrespective', creating a contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Due to the valuable and proprietary nature of the Sample Data, the obligations assumed by Developer hereunder other than those stated in Section 1(c) shall be unlimited in time or territory.",
+        "changed_text": "The obligations assumed by Developer hereunder shall be limited to the Assessment Period, unless otherwise extended in writing by FDI.",
+        "explanation": "The original text states that the developer's obligations are unlimited in time. The changed text limits the obligations to the Assessment Period, creating a direct contradiction about the duration of the obligations. This creates uncertainty about the agreement's duration and enforceability. This in-text contradiction is created by the insertion in Section 3.",
+        "location": "3",
+        "contradicted_location": "5",
+        "contradicted_text": "5. Injunctive Relief. Developer agrees that money damages would not be an adequate remedy for unauthorized use or disclosure by it of any Sample Data, and that, in addition to all other remedies, Developer shall be entitled to specific performance and injunctive or other equitable relief as a remedy for Developer’s unauthorized use or disclosure, without the requirement of posting any bond. In the event that FDI deems it appropriate to initiate any action to enforce the obligations of Developer under this Agreement, and should Developer be held to have breached this Agreement, Developer shall reimburse FDI for all costs and expenses, including reasonable attorneys’ fees.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the developer's obligations regarding the sample data are 'unlimited in time'. The changed text limits these obligations to the 'Assessment Period'. This creates a direct conflict regarding the duration of the obligations. The contradicted text in Section 5 allows for injunctive relief for unauthorized use or disclosure of sample data. If the developer's obligations are limited to the Assessment Period, it creates a contradiction about whether injunctive relief could be sought outside of the Assessment Period, because the change limits the time frame in which the developer is obligated, while Section 5 has no time limitations, thus directly contradicting each other. A reasonable reader would recognize these sections as incompatible as one states the obligations last forever, and the other only for the assessment period."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Developer acknowledges that FDI owns the Sample Data and agrees not to challenge FDI’s ownership of the Data or the Sample Data.",
+        "changed_text": "Developer acknowledges that FDI owns the Sample Data but reserves the right to challenge FDI’s ownership of any improvements or derivative works created by Developer using the Sample Data.",
+        "explanation": "The original text states that Developer agrees not to challenge FDI’s ownership. The changed text introduces an exception, allowing Developer to challenge ownership of improvements or derivative works. This contradicts the original blanket agreement, creating uncertainty about ownership rights. This insertion in Section 4 directly creates a contradiction in the section.",
+        "location": "4",
+        "contradicted_location": "5",
+        "contradicted_text": "5. Injunctive Relief. Developer agrees that money damages would not be an adequate remedy for unauthorized use or disclosure by it of any Sample Data, and that, in addition to all other remedies, Developer shall be entitled to specific performance and injunctive or other equitable relief as a remedy for Developer’s unauthorized use or disclosure, without the requirement of posting any bond. In the event that FDI deems it appropriate to initiate any action to enforce the obligations of Developer under this Agreement, and should Developer be held to have breached this Agreement, Developer shall reimburse FDI for all costs and expenses, including reasonable attorneys’ fees.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states Developer agrees not to challenge FDI’s ownership of the Sample Data. The changed text allows Developer to challenge ownership of improvements or derivative works, contradicting the original blanket agreement in Section 4. Section 5 states that money damages would not be an adequate remedy for unauthorized use or disclosure by it of any Sample Data. The modified text creates a contradiction as it introduces the possibility of a challenge to FDI's ownership, which could lead to disputes and would therefore influence the 'unauthorized use' clause and the remedies available."
+      }
+    ]
+  }
+]

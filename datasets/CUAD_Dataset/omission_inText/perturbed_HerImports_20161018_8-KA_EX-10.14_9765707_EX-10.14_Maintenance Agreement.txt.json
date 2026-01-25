@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "HerImports_20161018_8-KA_EX-10.14_9765707_EX-10.14_Maintenance Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The compensation to LEADER shall be: 3,000,000 shares of EZJR's unregistered restricted common stock which shall be issuable upon the closing;",
+        "changed_text": "The compensation to LEADER shall be determined at a later date as agreed upon by both parties.",
+        "explanation": "The original text clearly defines the compensation, which is crucial for contract enforceability. By replacing it with 'determined at a later date,' the agreement becomes vague regarding LEADER's compensation, creating an in-text contradiction. This creates uncertainty in Section 1 'EXTENSION OF SERVICE AGREEMENT.', as it is unclear if that agreement is valid without specified compensation, impacting enforceability.",
+        "location": "2",
+        "contradicted_location": "1",
+        "contradicted_text": "EXTENSION OF SERVICE AGREEMENT. Subject to all other terms and conditions set forth herein, as of the date of this agreement, LEADER maintain the software for an additional five years.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that the LEADER is to receive 3,000,000 shares of EZJR's stock upon closing. The changed text, however, states that compensation will be determined at a later date. This directly contradicts the 'EXTENSION OF SERVICE AGREEMENT' clause, as the agreement to maintain the software for five years is predicated on a defined compensation. Without a specified compensation, the enforceability of the 'EXTENSION OF SERVICE AGREEMENT' is questionable, creating a strong in-text contradiction as the terms become uncertain."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "LEADER hereby agrees to indemnify and hold EZJR, it successors, and assigns harmless from and against any and all damage or deficiency resulting from any material misrepresentation, breach of warranty or covenant, or nonfulfillment of any agreement on the part of LEADER under this Agreement.",
+        "changed_text": "LEADER's indemnification responsibilities will be limited to direct damages only.",
+        "explanation": "The original text states that LEADER will indemnify EZJR against 'any and all' damages. By limiting it to 'direct damages only', it introduces an ambiguity as to what constitutes 'direct damages,' contradicting the initial intent of comprehensive indemnification. This limitation impacts the overall protection EZJR thought they had against LEADER's potential breaches, as now there is a contradiction between the original intent and this new limitation, leading to confusion and possible disputes regarding the scope of indemnification. If the definition in Exhibit A mentions any sort of indirect damages that could come as a result of LEADER's breach, it would contradict.",
+        "location": "3",
+        "contradicted_location": "Exhibit A",
+        "contradicted_text": "Customer Relationship Management System Description The Customer Relationship Management (\"CRM\") system entails all aspects of interaction that a company has with its customer, whether it is sales or service-related. It also provides a greater understanding of the customer and helps manage customer data and all interaction with the customer. Advantages and features of the CRM are as following: ● Enhanced customer relationship management including retention tools and fraud prevention. ● Recurring billing feature that allows for fully automated billing and tools to determine approval and decline rates and automated retries of declines. ● Profit management tools including affiliate commission tracking, price point testing and indemnification of revenue loss causes. ● Gateway integration and merchant account load balancing. ● Improved affiliate management and affiliate fraud detection. ● Better reporting and performance tracking.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states 'any and all' damages. The changed text limits indemnification to 'direct damages only.' The contradicted text describes 'indemnification of revenue loss causes' as a feature of the CRM. Since 'revenue loss causes' could easily be interpreted as indirect damages, limiting indemnification to direct damages contradicts the expectation that revenue loss would be covered, creating a strong in-text contradiction as per the provided 'Omissions - In Text Contradiction' definition."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "All notices, requests, demands, and other communications required or permitted hereunder will be in writing and will be deemed to have been duly given when delivered by hand, by overnight courier, or fax, or two days after being mailed by certified or registered mail, return receipt requested, with postage prepaid.",
+        "changed_text": "All notices will be deemed sufficient if sent electronically to the registered email addresses of both parties.",
+        "explanation": "The original notice clause specifies detailed methods for delivering notices (hand, courier, fax, certified mail). The modified clause simplifies this by only allowing electronic notices to registered email addresses. This could create an in-text contradiction if other sections of the contract, particularly those discussing remedies or dispute resolution, rely on 'receipt' of notice, as electronic delivery might be disputed. This contradiction in notice delivery directly affects the 'ENFORCEMENT' and 'DISPUTE RESOLUTION' mechanisms if either party claims they did not receive the notice, leading to arguments and potential litigation.",
+        "location": "12",
+        "contradicted_location": "11",
+        "contradicted_text": "ATTORNEYS' FEES. Each party will pay its or his own legal fees and other expenses in connection with the preparation of this Agreement and the sale of Assets in accordance with this Agreement. However, if any legal action or other proceeding is brought for the enforcement of this Agreement, or because or arising out of an alleged dispute, breach, default or misrepresentation in connection with any of the provisions of this Agreement, the prevailing party will be entitled to recover reasonable attorney's fees and other costs incurred in that action or proceeding, in addition to any other relief to which it or he may be entitled.",
+        "contradiction_exists": "YES",
+        "justification": "The modified notice clause allows only electronic notices, replacing the original clause's multiple methods, including certified mail. The 'ATTORNEYS' FEES' clause relies on the enforcement of the agreement, which could be triggered by a dispute over notice receipt. If a party claims non-receipt of an electronic notice, the 'ATTORNEYS' FEES' clause is directly impacted, creating a contradiction as to whether enforcement can be pursued and attorney's fees recovered. This creates a contradiction because the original clause ensured 'receipt' via registered mail while the changed text allows for potential dispute of receipt of notice."
+      }
+    ]
+  }
+]

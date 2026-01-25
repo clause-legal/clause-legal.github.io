@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "NDA_ResConnect.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Either party agrees that it shall ensure that it and its associated companies and their respective officers and employees shall keep confidential, both during and after the duration of the agreement, all information which:",
+        "changed_text": "Either party agrees that it shall ensure that it and its associated companies and their respective officers and employees shall keep confidential, both during and after the duration of the confidentiality period, all information which:",
+        "explanation": "Changing 'agreement' to 'confidentiality period' creates confusion because the 'confidentiality period' is not defined, while the agreement is clearly defined. The section starts by reffering to the duration of the agreement and ends in a non defined term.",
+        "location": "2.1",
+        "contradicted_location": "2.1",
+        "contradicted_text": "Either party agrees that it shall ensure that it and its associated companies and their respective officers and employees shall keep confidential, both during and after the duration of the confidentiality period, all information which:",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to the 'duration of the agreement', which is presumed to be a well-defined term within the contract. The changed text replaces this with 'duration of the confidentiality period', which, according to the explanation, is not defined anywhere in the contract. This introduces a 'Misaligned Terminology - In Text Contradiction'. Since the contradicted text is the same as the changed text, the change introducing the undefined term does create a direct contradiction by making the provision regarding the duration of confidentiality unenforceable due to lack of clarity, thus leading to uncertainty and a strong contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Business Partner agrees that access to ResRequest information will be used for the sole use of the Business Partner and no auxiliary distribution is permitted, unless agreed upon by both parties.",
+        "changed_text": "The Client agrees that access to ResRequest information will be used for the sole use of the Client and no auxiliary distribution is permitted, unless agreed upon by both parties.",
+        "explanation": "Changing 'Business Partner' to 'Client' makes it uncertain whether 'Client' and 'Business Partner' refer to the same entity or a different entity. The document starts saying the Business Partner agrees but then continues as the client agrees, that are 2 different responsabilities between 2 entities that could be different.",
+        "location": "4.1",
+        "contradicted_location": "4.1",
+        "contradicted_text": "The Client agrees that access to ResRequest information will be used for the sole use of the Client and no auxiliary distribution is permitted, unless agreed upon by both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Business Partner' to 'Client' introduces ambiguity regarding who is agreeing to the terms. The Contradicted Text uses 'Client,' but the Changed Text initially uses 'Client' after changing from 'Business Partner'. This creates uncertainty whether the responsibilities assigned to the 'Client' are the same as those originally intended for the 'Business Partner,' leading to a misaligned terminology issue and potential conflicting obligations, as the document now seemingly assigns identical responsibilities to two potentially distinct entities."
+      }
+    ]
+  }
+]

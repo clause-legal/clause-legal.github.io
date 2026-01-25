@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "NDA-Prasad.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "As used herein, the term \"Confidential Information\" shall be deemed to include any technical, marketing, business and trade secret information disclosed by the Disclosor, but excludes such information which: (a)is presently in Recipient's possession, provided that: (i) such information has not been obtained from the Disclosor; (ii) that such possession can be demonstrated by the Recipient's written records and (iii) that Recipient so informs Disclosor in writing within 30 days from receipt of such Confidential Information; (b)is, or becomes, generally available to the public through, for example, such sources as patents or other generally circulated publications, and such availability to the public does not result from any fault of the Recipient; (c)is received by the Recipient in written form from a third party having no obligation to the Disclosor to keep it confidential; or (d)is independently developed by the Recipient provided that such development can be demonstrated by the Recipient's written records.",
+        "changed_text": "As used herein, the term \"Confidential Information\" shall be deemed to include any technical, marketing, business and trade secret information disclosed by the Disclosor, but excludes such information which: (a) is presently in Recipient's possession; (b)is, or becomes, generally available to the public through, for example, such sources as patents or other generally circulated publications, and such availability to the public does not result from any fault of the Recipient; (c)is received by the Recipient in written form from a third party having no obligation to the Disclosor to keep it confidential; or (d)is independently developed by the Recipient provided that such development can be demonstrated by the Recipient's written records.",
+        "explanation": "The original text states that information already in the Recipient's possession is excluded from the definition of \"Confidential Information\" only if certain conditions are met: it wasn't obtained from the Discloser, the Recipient can prove prior possession with written records, and the Recipient informs the Discloser within 30 days. The modified text removes these conditions, meaning any information already in the Recipient's possession is automatically excluded, regardless of its source or documentation. This in-text contradiction affects the definition of Confidential Information.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "As used herein, the term \"Confidential Information\" shall be deemed to include any technical, marketing, business and trade secret information disclosed by the Disclosor, but excludes such information which: (a) is presently in Recipient's possession; (b)is, or becomes, generally available to the public through, for example, such sources as patents or other generally circulated publications, and such availability to the public does not result from any fault of the Recipient; (c)is received by the Recipient in written form from a third party having no obligation to the Disclosor to keep it confidential; or (d)is independently developed by the Recipient provided that such development can be demonstrated by the Recipient's written records.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the conditions (i, ii, and iii) from the original text regarding when information already in the Recipient's possession is excluded from the definition of 'Confidential Information'. The contradicted text is identical to the changed text, and thus it lacks the original conditions which means that it now directly contradicts the original meaning of 'Confidential Information' by making any information the recipient has automatically excluded. This aligns with Structural Flaws definition, and creates an in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Recipient agrees that the sole purpose for the Disclosor disclosing its Confidential Information to the Recipient is to enable Recipient to evaluate the Confidential Information for purposes of the Discussion. The Recipient will take all reasonable steps necessary to hold in strictest confidence all Confidential Information and to use such Confidential Information solely for this purpose. Any use by the Recipient of such Confidential Information for any other purpose shall be considered unauthorized.",
+        "changed_text": "The Recipient agrees that the Disclosor disclosing its Confidential Information to the Recipient is to enable Recipient to evaluate the Confidential Information for purposes of the Discussion. The Recipient will take reasonable steps to hold Confidential Information and to use such Confidential Information for this purpose and any other purpose, provided the use is not directly in competition with Disclosor. Any use by the Recipient of such Confidential Information for any other purpose shall be considered authorized.",
+        "explanation": "The original text explicitly states that the Confidential Information should be used SOLELY for the purpose of the Discussion and any other use is unauthorized. The modified text now introduces an exception by saying that any other purpose is authorized. This directly contradicts the statement that only usage for the Discussion is authorized, resulting in in-text contradiction.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "The Recipient agrees that the Disclosor disclosing its Confidential Information to the Recipient is to enable Recipient to evaluate the Confidential Information for purposes of the Discussion. The Recipient will take reasonable steps to hold Confidential Information and to use such Confidential Information for this purpose and any other purpose, provided the use is not directly in competition with Disclosor. Any use by the Recipient of such Confidential Information for any other purpose shall be considered authorized.",
+        "contradiction_exists": "YES",
+        "justification": "The original text restricts the use of Confidential Information solely for the Discussion purpose, while the changed text allows for 'any other purpose' as long as it's not in direct competition with the Disclosor. The contradicted text is exactly the same as the changed text. Therefore, the change introduces a direct contradiction by broadening the permitted uses of the Confidential Information, conflicting with the initial restriction to 'solely for this purpose,' as previously indicated."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Recipient agrees that it will not use the Confidential, nor disclose the Confidential Information to others through any act or omission by Recipient, except with the prior written consent of Disclosor.",
+        "changed_text": "Recipient agrees that it may use the Confidential Information and disclose it to others through any act or omission by Recipient, without the prior written consent of Disclosor.",
+        "explanation": "The original text clearly forbids any use or disclosure of the Confidential Information without Discloser's prior written consent. The altered text now gives Recipient the freedom to use and disclose Confidential Information as they see fit, completely removing the prior consent requirement. This introduces a direct contradiction as it now has conflicting implications.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "Recipient agrees that it may use the Confidential Information and disclose it to others through any act or omission by Recipient, without the prior written consent of Disclosor.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that the recipient may use and disclose confidential information without the discloser's consent. The contradicted text also states that the recipient may use and disclose confidential information without the discloser's consent. The original text stated that consent was required. The change directly contradicts the original requirement of consent, creating a strong conflict and leading to contradictory obligations within the agreement, which qualifies as a structural flaw in text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Recipient will return to the Disclosor, upon request, any documents or other tangible materials disclosed by the Disclosor or generated by the Recipient pertaining to the Discussion.",
+        "changed_text": "The Recipient is not obligated to return any documents or other tangible materials disclosed by the Disclosor or generated by the Recipient pertaining to the Discussion.",
+        "explanation": "The original text states the Recipient *will* return materials upon request. The changed text states the Recipient is *not obligated* to return them. It clearly creates an in-text contradiction between the obligation to return vs. the right to retain.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "The Recipient is not obligated to return any documents or other tangible materials disclosed by the Disclosor or generated by the Recipient pertaining to the Discussion.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the Recipient *will* return materials upon request, creating an obligation. The changed text states the Recipient is *not obligated* to return them, explicitly removing that obligation. The contradicted text repeats the changed text, further solidifying the removal of the obligation. This creates a direct conflict, as the Recipient either must return the documents or is not obligated to. Since the change establishes that there is no obligation but originally there was, this establishes a contradiction based on the perturbation explanation."
+      }
+    ]
+  }
+]

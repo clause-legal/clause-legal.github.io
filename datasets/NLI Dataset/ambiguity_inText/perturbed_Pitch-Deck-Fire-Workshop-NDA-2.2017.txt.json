@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Pitch-Deck-Fire-Workshop-NDA-2.2017.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "For purposes of this Agreement, \"Confidential Information\" shall mean any and all non -public information, including, without limitation, technical, developmental, market ing, sales, operating, performance, cost, know -how, business plans, business methods, and process information, disclosed to the Recipient. For convenience, the Disclosing Party may, but is not required to, mark written Confidential Information with the le gend \"Confidential\" or an equivalent designation.",
+        "changed_text": "For purposes of this Agreement, \"Confidential Information\" shall mean any and all non -public information, including, without limitation, technical, developmental, market ing, sales, operating, performance, cost, know -how, business plans, business methods, and process information, disclosed to the Recipient and explicitly marked as 'Confidential'. For convenience, the Disclosing Party must mark written Confidential Information with the legend \"Confidential\" or an equivalent designation.",
+        "explanation": "This change introduces an internal contradiction by mandating that all confidential information must be explicitly marked as 'Confidential' to be considered as such, whereas the original text does not require all information to be marked, only suggesting it 'may'. This creates ambiguity because unmarked information could now be argued as not being covered under the NDA, even if it falls under the description of 'non-public information'. This contradicts the first part of the sentence defining Confidential Information as 'any and all non -public information'.",
+        "location": "1",
+        "contradicted_location": "1",
+        "contradicted_text": "For purposes of this Agreement, \"Confidential Information\" shall mean any and all non -public information, including, without limitation, technical, developmental, market ing, sales, operating, performance, cost, know -how, business plans, business methods, and process information, disclosed to the Recipient and explicitly marked as 'Confidential'. For convenience, the Disclosing Party must mark written Confidential Information with the legend \"Confidential\" or an equivalent designation.",
+        "contradiction_exists": "YES",
+        "justification": "The change mandates that Confidential Information must be explicitly marked, whereas the original text allows for discretion. This directly contradicts the broader definition of Confidential Information as 'any and all non -public information' and creates a strong inconsistency as unmarked information could now be argued as not being covered, creating an in-text contradiction as described in the Perturbation Explanation and based on the definition of Ambiguities - In Text Contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "All Confidential Information disclosed to the Recipient will be used solely for the Business Purpose and for no other purpose whatsoever. The Recipient agrees to keep the Disclosing Party’s Confidentia l Information confidential and to protect the confidentiality of such Confidential Information with the same degree of care with which it protects the confidentiality of its own confidential information, but in no event with less than a reasonable degree o f care.",
+        "changed_text": "All Confidential Information disclosed to the Recipient may be used for the Business Purpose, or any related business opportunities that arise during the Event. The Recipient agrees to keep the Disclosing Party’s Confidentia l Information confidential, unless such information proves beneficial for the Recipient’s business ventures. Recipient should protect the confidentiality of such Confidential Information with the same degree of care with which it protects the confidentiality of its own confidential information, but in no event with less than a reasonable degree o f care.",
+        "explanation": "The original text states that all Confidential Information will be used solely for the Business Purpose, while the modified text allows for use in 'any related business opportunities' and introduces an exception if the information is 'beneficial' to the Recipient's business. This creates a contradiction regarding the scope of permitted use of the Confidential Information. This also creates an in-text contradiction with the clause on protecting the confidentiality of such confidential information.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "All Confidential Information disclosed to the Recipient may be used for the Business Purpose, or any related business opportunities that arise during the Event. The Recipient agrees to keep the Disclosing Party’s Confidentia l Information confidential, unless such information proves beneficial for the Recipient’s business ventures. Recipient should protect the confidentiality of such Confidential Information with the same degree of care with which it protects the confidentiality of its own confidential information, but in no event with less than a reasonable degree o f care.",
+        "contradiction_exists": "YES",
+        "justification": "The original text strictly limits the use of Confidential Information to the Business Purpose. The changed text broadens this to include 'any related business opportunities' and introduces an exception if the information is 'beneficial' to the Recipient. This directly contradicts the original restriction and the requirement to keep the information confidential, creating a strong in-text contradiction as defined by 'Ambiguities – In Text Contradiction'. The changed text directly modifies the permitted use, creating conflict with the confidentiality clause, also included in the contradicted text."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Recipient may disclose Confidential Information only to its employees, agents, consultants and contractors on a need -to-know basis, and only if such employees, agents, consultants and contractors have executed appropriate written agreements with Re cipient sufficient to enable Recipient to enforce all the provisions of this Agreement.",
+        "changed_text": "Recipient may disclose Confidential Information to its employees, agents, consultants and contractors without any restrictions. It is recommended that the employees, agents, consultants and contractors have executed appropriate written agreements with Recipient.",
+        "explanation": "The change removes the 'need-to-know basis' restriction and the mandatory requirement for written agreements. This directly contradicts the intent of protecting Confidential Information, creating a significant vulnerability. Section 2 states the Recipient agrees to keep the information confidential, but this change allows them to disclose it without restrictions.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "Recipient may disclose Confidential Information to its employees, agents, consultants and contractors without any restrictions. It is recommended that the employees, agents, consultants and contractors have executed appropriate written agreements with Recipient.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the 'need-to-know basis' restriction and the mandatory requirement for written agreements, allowing unrestricted disclosure of confidential information to employees, agents, consultants, and contractors. This directly contradicts the original intent of protecting Confidential Information as it appears in the contradicted text, creating a significant vulnerability. The original text has restrictions, whereas the changed text has none, creating an obvious contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "In the event that the Recipient shall breach this Agreement, or in the event that a breach appears to be imminent, the Disclosing Party shall be entitled to all legal and equitable remedies afforded it by law, and in addition may recover all reaso nable costs and attorneys' fees incurred in seeking such remedies.",
+        "changed_text": "In the event that the Recipient breaches this Agreement, the Disclosing Party may be entitled to remedies, but such remedies are limited to direct damages only. The recovery of costs and attorneys' fees is waived by both parties.",
+        "explanation": "The change significantly limits the remedies available to the Disclosing Party in case of a breach. By restricting remedies to 'direct damages only' and waiving the right to recover costs and attorneys' fees, the enforcement of the NDA becomes much weaker. This contradicts the intention of providing full legal and equitable remedies, as outlined in the original text. The altered definition of remedies significantly waters down the initial agreement, which stated that the Disclosing Party 'shall be entitled to all legal and equitable remedies afforded it by law'.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "In the event that the Recipient breaches this Agreement, the Disclosing Party may be entitled to remedies, but such remedies are limited to direct damages only. The recovery of costs and attorneys' fees is waived by both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the Disclosing Party 'shall be entitled to all legal and equitable remedies afforded it by law', whereas the changed text restricts remedies to 'direct damages only' and waives the right to recover costs and attorneys' fees. The contradicted text is the changed text itself, but the change fundamentally contradicts the breadth of remedies initially available, creating a direct conflict in how a breach would be handled. This aligns with the definition of 'Ambiguities – In Text Contradiction', making enforcement difficult."
+      }
+    ]
+  }
+]

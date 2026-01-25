@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "1111682_0000950123-00-003802_document_15.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The receiving party agrees to use at least the same degree of care in maintaining the other party's Proprietary Information confidential as it does for maintaining the confidentiality of its own Proprietary Information of a similar nature.",
+        "changed_text": "The receiving party agrees to use reasonable efforts in maintaining the other party's Proprietary Information confidential. The receiving party will be held liable only if the disclosure of Proprietary Information occurs due to gross negligence or willful misconduct.",
+        "explanation": "This change lowers the standard of care for maintaining confidentiality. The original text requires the same degree of care as the receiving party uses for its own proprietary information. The modification only demands 'reasonable efforts' and introduces a higher threshold for liability (gross negligence or willful misconduct), creating an internal contradiction because in a section after (6) it states that, the termination of the agreement will not affect confidentiality, implying a higher standard of care, instead of 'reasonable efforts' now. It's now unclear if 'reasonable efforts' is sufficient if termination does not affect confidentiality obligations.",
+        "location": "2",
+        "contradicted_location": "6",
+        "contradicted_text": "Either party upon thirty (30) days notice given in writing to the other party may terminate this Agreement. However, termination of the Agreement will not affect the confidentiality and non-use obligations of either party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text lowers the standard of care for maintaining confidentiality from 'at least the same degree of care' to 'reasonable efforts' and introduces a higher threshold for liability ('gross negligence or willful misconduct'). This directly contradicts the 'Contradicted Text' which states that termination of the agreement will not affect confidentiality obligations, implying a higher standard than 'reasonable efforts'. The change creates ambiguity and inconsistency, leading to a strong in-text contradiction as it is now unclear if reasonable efforts are sufficient to fulfill the non-affected confidentiality obligations after termination."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The receiving party agrees not to copy any Proprietary Information without the written permission of the disclosing party, and shall return such Proprietary Information and any copies when requested to do so by the disclosing party during the term of this Agreement",
+        "changed_text": "The receiving party is allowed to copy Proprietary Information for internal use, and shall return such Proprietary Information and any copies when requested to do so by the disclosing party during the term of this Agreement, unless the receiving party reasonably believes that retaining a copy is necessary for compliance with a legal obligation.",
+        "explanation": "This modification introduces an exception to the prohibition against copying Proprietary Information. Now, the receiving party can copy for internal use. This contradicts a section afterwards (4) because it doesn't specify this particular case where copying is permitted, now making it unclear, on the context, of the license, if internal use copying is allowed or not.",
+        "location": "3",
+        "contradicted_location": "4",
+        "contradicted_text": "No license, express or implied, is granted by either party to the other party under any patent, trade secret or copyright now or hereafter owned by either party under this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text prohibited copying, while the changed text permits copying for internal use under certain conditions. The contradicted text states that no license is granted under any patent, trade secret, or copyright. The changed text directly contradicts this by allowing copying, which implies a license for internal use, thus creating a strong in-text contradiction as defined by the prompt. The explanation given states that this contradiction renders it unclear whether internal use copying is allowed or not in the context of the license."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "No license, express or implied, is granted by either party to the other party under any patent, trade secret or copyright now or hereafter owned by either party under this Agreement.",
+        "changed_text": "Subject to the limitations in paragraph 3, no license, express or implied, is granted by either party to the other party under any patent, trade secret or copyright now or hereafter owned by either party under this Agreement.",
+        "explanation": "This change creates a possible in-text contradiction with the preceding clause (3) regarding the right to copy proprietary information for internal use. Where a limitation in paragraph 3 was introduced previously, of copying for internal use, the added phrasing is ambiguous. It isn't clear whether the permission to copy creates a license, or if it's a separate thing. The phrase 'Subject to the limitations' doesn't sufficiently explain the implications, leading to legal uncertainty.",
+        "location": "4",
+        "contradicted_location": "3",
+        "contradicted_text": "The receiving party is allowed to copy Proprietary Information for internal use, and shall return such Proprietary Information and any copies when requested to do so by the disclosing party during the term of this Agreement, unless the receiving party reasonably believes that retaining a copy is necessary for compliance with a legal obligation.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states 'no license, express or implied, is granted'. The changed text adds 'Subject to the limitations in paragraph 3'. Paragraph 3, as stated in the 'Contradicted Text', allows the receiving party to copy Proprietary Information for internal use. The 'Perturbation Explanation' highlights the ambiguity created by 'Subject to the limitations'. It's unclear whether the permission to copy creates a license or if it's a separate thing. This ambiguity directly contradicts the initial statement of 'no license' potentially existing, triggering an in-text contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement shall be construed and interpreted, and its performance shall be governed by substantive laws of the state of Connecticut, U.S.A., without recourse to its conflict of laws, rules or principles.",
+        "changed_text": "This Agreement shall be construed and interpreted according to general principles of contract law. Specific disputes will be subject to arbitration in London, England.",
+        "explanation": "This clause modifies the governing law and dispute resolution mechanism. Originally, Connecticut law governed the agreement. Now, it states general contract law principles will apply. Also states any disputes will be arbitrated in London. This contradicts a section before (1) because in the term it states, 'Proprietary Information disclosed orally or in other than written form, it must be identified as Proprietary Information at the time of disclosure and summarized in writing and identified as Proprietary Information by the disclosing party within thirty (30) days from the date of the disclosure', where according to Connecticut Law it should abide. If the agreement is terminated in Connecticut, there is ambiguity of what law should apply.",
+        "location": "5",
+        "contradicted_location": "1",
+        "contradicted_text": "During the term of this Agreement, the receiving party agrees to hold in confidence and not disclose to any person or persons, other than its employees with a need to know, or use except for the purpose of this agreement, for a period of fifteen (15) years from the date of each disclosure, any and all Proprietary Information disclosed in writing and identified as Proprietary Information by the disclosing party. If Proprietary Information is disclosed orally or in other than written form, it must be identified as Proprietary Information at the time of disclosure and summarized in writing and identified as Proprietary Information by the disclosing party within thirty (30) days from the date of the disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a contradiction by altering the governing law from Connecticut law to general principles of contract law and specifies arbitration in London. The original text clearly stated Connecticut law would govern the agreement. The contradicted text outlines obligations regarding proprietary information, implying these obligations are subject to Connecticut law. The new changed text creates ambiguity as to which jurisdiction's laws apply to the proprietary information obligations, potentially conflicting with the contradicted section. Therefore, a clear contradiction exists."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Either party upon thirty (30) days notice given in writing to the other party may terminate this Agreement. However, termination of the Agreement will not affect the confidentiality and non-use obligations of either party.",
+        "changed_text": "Either party may terminate this Agreement immediately by providing notice to the other party. Termination of this agreement shall relieve both parties of all further obligations, except for any liabilities that arose prior to the date of termination.",
+        "explanation": "This modification alters the termination clause. Originally, termination required thirty days' written notice, and confidentiality obligations survived termination. Now, termination can be immediate, and all obligations cease upon termination (except for prior liabilities). This clause contradicts the previous clauses, specifically 1 and 2, which discuss specific periods of confidentiality and standards of care that originally survived the termination of the agreement. This makes the contract's confidentiality terms ambiguous after termination.",
+        "location": "6",
+        "contradicted_location": "1",
+        "contradicted_text": "During the term of this Agreement, the receiving party agrees to hold in confidence and not disclose to any person or persons, other than its employees with a need to know, or use except for the purpose of this agreement, for a period of fifteen (15) years from the date of each disclosure, any and all Proprietary Information disclosed in writing and identified as Proprietary Information by the disclosing party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the termination clause to allow immediate termination and relieve both parties of all further obligations (except for prior liabilities). This directly contradicts the contradicted text, which states that the receiving party must hold proprietary information in confidence for fifteen years from the date of disclosure, even after the agreement is terminated. The changed text eliminates this post-termination obligation, creating a clear contradiction."
+      }
+    ]
+  }
+]

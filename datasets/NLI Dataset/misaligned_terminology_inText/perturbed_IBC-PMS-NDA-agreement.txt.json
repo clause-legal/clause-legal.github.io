@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "IBC-PMS-NDA-agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "(A) IBC operates an electroni c accident benefits health claims transactions pro cessing system (known as the “Health Claims for Auto Insurance” system or the “HCAI System”) that permits medical and rehabilitation treatment plans and invoices, in the form approved by the Ontario insurance re gulator, the Financial Services Commission of Ontario (“FSCO”) under the Insurance Act (Ontario), (defined as “Claim Requests” below) to be submitted electronic ally to automobile insurers (“Insurers”) by health care provi ders or their intermediaries (“ Providers”).",
+        "changed_text": "(A) IBC operates an electroni c accident benefits health claims transactions pro cessing system (referred to as the “Health Claims for Auto Insurance” system or the “HCAI System”) that permits medical and rehabilitation treatment plans and invoices, in the form approved by the Ontario insurance re gulator, the Financial Services Commission of Ontario (“FSCO”) under the Insurance Act (Ontario), (defined as “Claim Requests” below) to be submitted electronic ally to automobile insurers (“Payers”) by health care provi ders or their intermediaries (“ Providers”).",
+        "explanation": "Changing “Insurers” to “Payers” in Section (A) creates confusion, as the term “Insurers” is later used throughout the document (e.g., in the definition of “Claim Response” and elsewhere). This introduces uncertainty about whether obligations to 'Insurers' also apply to 'Payers,' or vice-versa. Throughout the document 'Insurers' is used, so this change in definition creates a contradiction",
+        "location": "Section (A)",
+        "contradicted_location": "Section (b)(iii)",
+        "contradicted_text": "(iii) “Claim Response” means a response by an Insurer User to a Provider User that is submitted by such Insurer User to the HCAI System for transmission to the originating Provider User.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Insurers' with 'Payers' in the definition of the 'HCAI System'. The contradicted text, which defines 'Claim Response', explicitly references 'Insurers'. This creates a direct contradiction because the document now uses two different terms, 'Payers' and 'Insurers', potentially interchangeably, but only 'Insurers' is used in the definition of 'Claim Response'. This creates uncertainty as to whether obligations to insurers apply to payers, and vice versa, leading to a contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "(B) Vendor is the licensor of a practice managem ent system (“PMS”) known as _________________________ and wishes to obtain technical information fro m IBC (the “Technical Information”) in order to develop functionality in the Provide r’s copy of such PMS System that will permit such Provider licensees of such PMS System who particip ate in the HCAI System to electronically submit Claim Requests to Insurers through the HCAI System and to receive Claim Responses and/or ot her information from the HCAI System (the “Purpose”).",
+        "changed_text": "(B) Vendor is the licensor of a practice managem ent system (“PMS”) known as _________________________ and wishes to obtain technical information fro m IBC (the “Technical Data”) in order to develop functionality in the Provide r’s copy of such PMS System that will permit such Provider licensees of such PMS System who particip ate in the HCAI System to electronically submit Claim Requests to Insurers through the HCAI System and to receive Claim Responses and/or ot her information from the HCAI System (the “Purpose”).",
+        "explanation": "By changing “Technical Information” to “Technical Data” in section (B), while keeping the term “Technical Information” defined later in the document, an in-text contradiction is introduced. It's now unclear what exactly Vendor is receiving, the definition of \"Technical Information\" applies or not. Because the definition of “Confidential Information” includes the “Technical Information”, this introduces additional ambiguity.",
+        "location": "Section (B)",
+        "contradicted_location": "Section 1(a)b",
+        "contradicted_text": "b. includes, without limitation, information in tangible or intangible form relating to the HCAI System, and specifically includes any and all proprietary informa tion and/or materials conc erning the HCAI System including any communication protocols and applica tion programming interfaces (collectively, “HCAI System Information”) and any other conf idential information or materials of IBC, or of third parties and in the possession or control of IBC, and any information derived from any of the foregoing.",
+        "contradiction_exists": "YES",
+        "justification": "The change from \"Technical Information\" to \"Technical Data\" in section (B) creates an ambiguity, because \"Technical Information\" is used later in the document and included in the definition of “Confidential Information”. This creates a conflict, because it's unclear whether the definition of \"Technical Information\" applies. This aligns with the 'Misaligned Terminology - In Text Contradiction' type, because the change introduces ambiguity to the contradicted text."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "In consideration of IBC disclosing the Technical Information to the Vendor, Vendor agrees to abide with the following terms and conditions.",
+        "changed_text": "In consideration of IBC disclosing the Documentation to the Vendor, Vendor agrees to abide with the following terms and conditions.",
+        "explanation": "Changing “Technical Information” to “Documentation” creates confusion. The agreement hinges on what 'Technical Information' Vendor receives. Changing it to 'Documentation', where no definition of 'Documentation' exists, fundamentally undermines the agreement's basis and creates uncertainty about the obligations of the vendor, because the obligations in the contract refer to Technical Information and not Documentation.",
+        "location": "Introductory Paragraph after WHEREAS",
+        "contradicted_location": "Section 2(a)(i)",
+        "contradicted_text": "(i) Not use any Confidential Information except as required for the Purpose. For further certainty, the Purpose expressly excludes the development of or provision by Vendor of a gateway or any web-hosted service that consolidates the exchange of Claim Information between Providers and IBC or any web-based or application service provider ba sed practice management system.",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'Technical Information', which is likely a defined term used throughout the contract. The changed text replaces this with 'Documentation', a term that is not defined. The contradicted text uses the term 'Confidential Information' and references the 'Purpose' of the agreement, which is directly tied to the 'Technical Information'. By changing 'Technical Information' to 'Documentation', the foundation of the agreement is undermined. If the vendor receives 'Documentation' instead of 'Technical Information', the obligations regarding Confidential Information and the Purpose (which are intrinsically linked to the 'Technical Information') become unclear, creating a strong contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "1. Definitions and Exclusions. (a) “Confidential Information” a. means nonpublic information that IBC de signates as being confidential or which, under the circumstances surrounding disclosure ought to be treated as confidential by Vendor.",
+        "changed_text": "1. Definitions and Exclusions. (a) “Confidential Data” a. means nonpublic information that IBC de signates as being confidential or which, under the circumstances surrounding disclosure ought to be treated as confidential by Vendor.",
+        "explanation": "Changing “Confidential Information” to “Confidential Data” in the definition section introduces a significant contradiction. The entire agreement relies on the concept of 'Confidential Information', which is now undefined. This undermines the core confidentiality obligations of the Vendor and creates uncertainty in enforcement, as obligations relating to 'Confidential Information' now apply to 'Confidential Data' without that concept being properly fleshed out.",
+        "location": "Section 1(a)",
+        "contradicted_location": "Section 2(a)(i)",
+        "contradicted_text": "(i) Not use any Confidential Information except as required for the Purpose. For further certainty, the Purpose expressly excludes the development of or provision by Vendor of a gateway or any web-hosted service that consolidates the exchange of Claim Information between Providers and IBC or any web-based or application service provider ba sed practice management system.",
+        "contradiction_exists": "YES",
+        "justification": "The change from \"Confidential Information\" to \"Confidential Data\" creates a contradiction because the contradicted text (i) refers to \"Confidential Information\". If the entire agreement relies on \"Confidential Information\", and it is not properly defined because it was changed to \"Confidential Data\", then the Vendor's confidentiality obligations are undermined. The definition of 'Confidential Information' is essential to the contradicted text, so changing the definition introduces a strong in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "(vi) “Personal Information” means any information about an identifiable i ndividual as defined in the Personal Information Protection and Electronic Documents Act (Canada) and include s personal health information as defined in the Personal Health Info rmation Protection Act, 2004 (Ontar io), and any amending or successor legislation to either statute and th e regulations made pursuant thereto.",
+        "changed_text": "(vi) “Personal Data” means any information about an identifiable i ndividual as defined in the Personal Information Protection and Electronic Documents Act (Canada) and include s personal health information as defined in the Personal Health Info rmation Protection Act, 2004 (Ontar io), and any amending or successor legislation to either statute and th e regulations made pursuant thereto.",
+        "explanation": "Changing “Personal Information” to “Personal Data” creates an in-text contradiction. The contract refers to “Personal Information” throughout the document (especially 2(f)), but only defines “Personal Data”. This introduces ambiguity about whether the obligations related to 'Personal Information' also apply to 'Personal Data,' as well as whether those obligations are defined.",
+        "location": "Section 1(b)(vi)",
+        "contradicted_location": "Section 2(f)",
+        "contradicted_text": "(f) To the extent any Confidential Info rmation contains any Personal Informa tion, Vendor agrees to comply with applicable Privacy Laws.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined \"Personal Information\", which is used in section (f). The changed text redefines \"Personal Information\" as \"Personal Data\", leading to an in-text contradiction because section (f) references \"Personal Information\". Therefore, it is uncertain whether the obligations in section (f) apply to \"Personal Data\". This aligns with the Misaligned Terminology - In Text Contradiction definition as the contract uses multiple terms without defining them which leads to conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "(viii) “Provider User” or “User” means an individual Provider that participates as a “provider” in the HCAI System and is bound by the HCAI Electronic Access Terms and Conditions.",
+        "changed_text": "(viii) “Provider User” or “Participant” means an individual Provider that participates as a “provider” in the HCAI System and is bound by the HCAI Electronic Access Terms and Conditions.",
+        "explanation": "Changing “User” to “Participant” within the definition of “Provider User” creates confusion since the term “User” is used throughout the document without explicit definition. This alteration leads to ambiguity about who is bound by the agreement, and whether 'Provider User' and 'Participant' share the same obligations. The contradiction arises as the definition of User refers to “Provider User” and vice-versa.",
+        "location": "Section 1(b)(viii)",
+        "contradicted_location": "Section 1(b)(ii)",
+        "contradicted_text": "(ii) “Claim Request” means invoices (and may also include treatment plans) of a Provider User submitted to an Insurer User by or on behalf of a Provider User through the HCAI System.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined 'Provider User' or 'User'. The changed text redefines 'Provider User' as 'Provider User' or 'Participant'. The contradicted text refers to 'Provider User'. Because the term 'User' is used in other places in the document, and 'User' is no longer tied to 'Provider User', this creates an ambiguity. The contradiction arises because the document no longer directly links the definition of 'User' to 'Provider User' obligations, leading to confusion regarding who is bound by the agreement. This aligns with the 'Misaligned Terminology - In Text Contradiction' definition, where using terms interchangeably without proper definition leads to conflicting obligations."
+      }
+    ]
+  }
+]

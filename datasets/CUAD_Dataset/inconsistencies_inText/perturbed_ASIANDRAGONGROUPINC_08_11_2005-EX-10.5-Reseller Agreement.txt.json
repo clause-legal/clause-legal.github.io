@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Telnet hereby covenants to pay all invoices rendered to its account by Galaxy within 15 days of the date of invoice; Interest shall accrue on overdue accounts at the rate of 1.5% per month calculated and payable from the date of invoice until the date of payment in full of the overdue amount.",
+        "changed_text": "Telnet hereby covenants to pay all invoices rendered to its account by Galaxy within 45 days of the date of invoice; Interest shall accrue on overdue accounts at the rate of 1.5% per month calculated and payable from the date of invoice until the date of payment in full of the overdue amount.",
+        "explanation": "The changed text introduces an in-text contradiction by modifying the payment deadline from 15 days to 45 days. This contradicts the clause in Section 7.7 which states that 'Telnet shall give notice to Galaxy of all errors and inaccuracies in an invoice within 15 days of receipt by Telnet of the invoice at issue. Thereafter, Telnet will be deemed to have agreed with the accuracy of the invoice.' Now, the contract specifies two different time frames for payment: 45 days for the full payment and 15 days for reporting any errors in the invoice, creating confusion.",
+        "location": "7.8",
+        "contradicted_location": "7.7",
+        "contradicted_text": "For Services Galaxy shall invoice Telnet once per month for the Services delivered, termination fees, 411 directory assistance and 911 emergency call service fees and any other fees or billings chargeable to Telnet; Galaxy shall deliver each invoice to Telnet's account in the Partner Portal; and Telnet shall give notice to Galaxy of all errors and inaccuracies in an invoice within 15 days of receipt by Telnet of the invoice at issue. Thereafter, Telnet will be deemed to have agreed with the accuracy of the invoice.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the payment deadline from 15 days to 45 days, which directly contradicts the requirement in the 'Contradicted Text' that Telnet must notify Galaxy of invoice errors within 15 days of receipt. By extending the payment deadline to 45 days while retaining the 15-day error notification period, the contract creates an inconsistency. Telnet is given 45 days to pay but only 15 days to dispute the invoice, creating a direct conflict regarding the invoice accuracy, which falls under the definition of 'Inconsistencies - In Text Contradiction'."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Galaxy may, at its sole discretion, accept the return, in whole or in part, of an Order and, if it elects to do so, Telnet shall pay a restocking fee of 25% of the original purchase price of the returned Product or Products.",
+        "changed_text": "Galaxy may, at its sole discretion, accept the return, in whole or in part, of an Order and, if it elects to do so, Telnet shall pay a restocking fee of 50% of the original purchase price of the returned Product or Products.",
+        "explanation": "The modified text increases the restocking fee from 25% to 50%. This creates an in-text contradiction with section 10.4 which specifies that 'Telnet shall pay a restocking fee of twenty-five percent (25%) of the original billing amount for the returned inventory' upon termination of the agreement. Now, there are two different restocking fees, one for returns during the agreement (50%) and one for returns upon termination (25%), creating confusion and uncertainty.",
+        "location": "6.7",
+        "contradicted_location": "10.4",
+        "contradicted_text": "Upon termination of this Agreement, Galaxy may, at its sole discretion accept inventory returns of Products. If Galaxy accepts inventory returns, Telnet shall pay a restocking fee of twenty-five percent (25%) of the original billing amount for the returned inventory.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the restocking fee from 25% to 50% for general returns, while the contradicted text specifies a 25% restocking fee specifically upon termination of the agreement. This creates a direct contradiction regarding the applicable restocking fee in different scenarios, creating inconsistency and potentially leading to disputes. This falls under the 'Inconsistencies - In Text Contradiction' definition because 'different sections of a contract provide conflicting penalties'."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The initial term of this Agreement will be for two (2) year(s) commencing on the Effective Date. Thereafter, this agreement will renew automatically from year to year unless cancelled in writing by either Party giving the other written notice of such cancellation a minimum of 60 days before the end of the then current term.",
+        "changed_text": "The initial term of this Agreement will be for two (2) year(s) commencing on the Effective Date. Thereafter, this agreement will renew automatically from year to year unless cancelled in writing by either Party giving the other written notice of such cancellation a minimum of 30 days before the end of the then current term.",
+        "explanation": "The modified text changes the minimum notice period required for cancellation from 60 days to 30 days. This creates an in-text contradiction with section 7.6 that states 'at the time of any renewal of this Agreement, adjust the Service Prices as it, in its absolute discretion, determines provided it has given written notice to Telnet of such price changes a minimum of 60 days in advance of the renewal.' Now the deadline is different for each Party, leading to potential disputes regarding whether adequate notice was given and if so how long.",
+        "location": "10.1",
+        "contradicted_location": "7.6",
+        "contradicted_text": "Prices The prices charged by Galaxy to Telnet for each of the Services (the \"Service Prices\") shall be as listed in Schedule \"A\"; Galaxy shall have the right, but not the obligation, to: during the term of this Agreement, adjust any of the Service Prices by an amount that is proportionate with any changes to Galaxy's direct third party costs in providing the related Services; at the time of any renewal of this Agreement, adjust the Service Prices as it, in its absolute discretion, determines provided it has given written notice to Telnet of such price changes a minimum of 60 days in advance of the renewal. Prices for long distance termination shall be as posted on the Partner Portal and Telnet understands and agrees that, other than for those destinations noted in Schedule A as being fixed in price for the term of this Agreement, such prices are variable and subject to change without notice.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text reduces the notice period for contract cancellation to 30 days, while the contradicted text requires a 60-day notice for Galaxy to adjust service prices at renewal. This creates a direct conflict regarding the notice period, leading to potential disputes over adequate notice and contract terms. This aligns with the definition of 'Inconsistencies - In Text Contradiction' where different sections provide conflicting deadlines."
+      }
+    ]
+  }
+]

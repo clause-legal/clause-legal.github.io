@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "1014959_0000950116-96-000618_document_7.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Recipient agrees not to disclose or provide the Product, documentation, or any related information (including the Product features or the results of use or testing) to any third party or use the Product for any purpose other than as provided in this Agreement.",
+        "changed_text": "Recipient agrees not to disclose or provide the Product, documentation, or any related information (including the Product features or the results of use or testing) to any third party, except for their Affiliates, or use the Product for any purpose other than as provided in this Agreement.",
+        "explanation": "The added exception, \"except for their Affiliates\", contradicts the earlier absolute prohibition on disclosing the product to *any* third party. This creates ambiguity as to whether an Affiliate is considered a third party in this context. Specifically, If there are other places in the agreement that state there should be not disclosure, there is an int-text contradiction.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "CONFIDENTIALITY. The Product and related information is proprietary and confidential information to MS and its suppliers. Recipient agrees not to disclose or provide the Product, documentation, or any related information (including the Product features or the results of use or testing) to any third party, except for their Affiliates, or use the Product for any purpose other than as provided in this Agreement. However, Recipient may disclose confidential information in accordance with judicial or other governmental order, provided Recipient shall give MS reasonable written notice prior to such disclosure and shall comply with any applicable protective order or equivalent. Further, Recipient shall not be obligated to maintain the confidentiality of information which Recipient can prove (1) is already known to Recipient without an obligation to maintain the same as confidential; (2) becomes publicly known through no wrongful act of Recipient; (3) is rightfully received from a third party without breach of an obligation of confidentiality owed to MS; or (4) is independently developed by Recipient. This provision shall survive the termination or expiration of this Agreement with respect to any information that has not been made public by MS as of the commercial release of the Product.",
+        "contradiction_exists": "YES",
+        "justification": "The original text had an absolute prohibition on disclosing the Product, documentation, or any related information to *any* third party. The changed text introduces an exception: \"except for their Affiliates.\" The contradicted text states, \"Recipient agrees not to disclose or provide the Product, documentation, or any related information (including the Product features or the results of use or testing) to any third party, except for their Affiliates\". Although the changed text and contradicted text appear similar, the changed text introduces a contradiction that persists through to the contradicted text. The addition of \"except for their Affiliates\" creates a clear contradiction because it allows for disclosure to Affiliates when the original intent was to prevent disclosure to *any* third party. The added language directly alters the meaning and scope of the confidentiality obligation, creating an in-text contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "If either MS or Recipient employs attorneys to enforce any rights arising out of or relating to this Agreement, the prevailing party shall be entitled to recover reasonable attorneys' fees.",
+        "changed_text": "If either MS or Recipient employs attorneys to enforce any rights arising out of or relating to this Agreement, each party shall bear its own attorneys' fees, regardless of the outcome.",
+        "explanation": "The original clause allows the prevailing party to recover attorney's fees. The changed clause states that each party shall bear its own fees, regardless of outcome. This is a direct contradiction, leading to disputes about which clause governs the allocation of legal costs if litigation ensues.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "This Agreement shall be governed by the laws of the State of Washington and Recipient further consents to jurisdiction by the state and federal courts sitting in the State of Washington. If either MS or Recipient employs attorneys to enforce any rights arising out of or relating to this Agreement, each party shall bear its own attorneys' fees, regardless of the outcome.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed the prevailing party in a dispute to recover attorney's fees. The changed text explicitly states that each party bears its own attorney's fees, regardless of the outcome. The contradicted text repeats the changed text. This is a direct contradiction because one clause allows for fee recovery by the prevailing party, and the other prohibits it, creating a strong and obvious inconsistency regarding the allocation of legal costs. The Perturbation Explanation also states that this is a direct contradiction."
+      }
+    ]
+  }
+]

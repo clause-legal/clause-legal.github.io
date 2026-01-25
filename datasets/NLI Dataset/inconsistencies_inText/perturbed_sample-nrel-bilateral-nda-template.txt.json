@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "sample-nrel-bilateral-nda-template.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Either Party may terminate this Agreement with or without cause by giving the other Part y thirty ( 30)da ys prior written notice.",
+        "changed_text": "Either Party may terminate this Agreement with or without cause by giving the other Part y fifteen (15) days prior written notice.",
+        "explanation": "The modified text changes the prior written notice period for termination from thirty (30) days to fifteen (15) days. This creates a direct in-text contradiction regarding the required notice period for termination, potentially leading to disputes about the effective termination date.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "a. Either Party may terminate this Agreement with or without cause by giving the other Part y fifteen (15) days prior written notice. b.If not earlier terminated by either Part y, this Agreement will terminate at the end of the Disclosi ng P eriod.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the termination notice period from thirty (30) days to fifteen (15) days. The contradicted text includes 'Either Party may terminate this Agreement with or without cause by giving the other Party fifteen (15) days prior written notice.' Initially, both clauses aligned. However, the change in the original text now creates a conflict. If one section states 15 days' notice and another states 30 days' notice, there is an inconsistency regarding the correct notice period, which is a direct conflict. This is an instance of Inconsistencies - In Text Contradiction, where different sections of a contract provide conflicting deadlines."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Upon termination of this Agreement, Receiving Party will, within two (2) weeks of written requestfrom Disclosing Party, return all documents concerning the Proprietary Information and NRE L P rotected Information and all copies of any such documents to Disclosing Party, or certify i n w riting their destruction, with the exception of copies of Proprietary Information and NRE L P rotected Information made as a matter of routine information technology or legal backup, provided that such copies will continue to be subject to the confidentiality obligations set forth i n t his Agreement and may only be used in resolving a dispute between the Parties regarding this Agreement.",
+        "changed_text": "Upon termination of this Agreement, Receiving Party is not required to return or destroy any documents concerning the Proprietary Information and NRE L P rotected Information.",
+        "explanation": "The change eliminates the obligation for the Receiving Party to return or destroy Proprietary Information upon termination. This directly contradicts the original clause requiring return or certification of destruction, undermining the Disclosing Party's control over their confidential information after termination. This will directly contradict all the clauses that are related with returning or destroying documents. Also, the exception clauses will be directly contradicted.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "c.Upon termination of this Agreement, Receiving Party is not required to return or destroy any documents concerning the Proprietary Information and NRE L P rotected Information. d.The obligations of confidentiality set forth in Section 2., above, will survive termination of this Agreement until the end of the Confidentiality Period.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that the Receiving Party is not required to return or destroy documents, while the contradicted text previously stated that the Receiving Party is not required to return or destroy documents. The original text imposed an obligation to return or destroy documents, which is now removed in the changed text. Since the contradicted text is the same as the Changed Text, there is no contradiction. However, compared to the original text, the contradicted text now has a clause that directly opposes the original, creating a strong in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Disclosure of Proprietary Information and/or NREL Protected Information to Receiving Party does not constitute any grant, option, or license under any patent or other right now or hereinafter held by Disclosing Party or DOE. No license —express or implied— in the Proprietary Information and/or NREL Protected Information or other proprietary right is granted hereunder other than to use the information in the manner and the extent authorized by this Agreement.",
+        "changed_text": "Disclosure of Proprietary Information and/or NREL Protected Information to Receiving Party constitutes a perpetual, irrevocable license under any patent or other right now or hereinafter held by Disclosing Party or DOE to the Receiving Party.",
+        "explanation": "This change introduces a contradiction by granting a perpetual, irrevocable license to the Receiving Party, which directly opposes the original clause stating that no license is granted. This could fundamentally alter the rights and obligations of both parties concerning the use of the disclosed information.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "a. Disclosure of Proprietary Information and/or NREL Protected Information to Receiving Party constitutes a perpetual, irrevocable license under any patent or other right now or hereinafter held by Disclosing Party or DOE to the Receiving Party. No license —express or implied— in the Proprietary Information and/or NREL Protected Information or other proprietary right is granted hereunder other than to use the information in the manner and the extent authorized by this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that disclosure constitutes a perpetual, irrevocable license, which directly contradicts the original text and the contradicted text, both of which explicitly state that no such license is granted. This creates a strong in-text contradiction as it creates a conflict between the two sections of the agreement, satisfying the 'Inconsistencies - In Text Contradiction' perturbation type. The contradiction is also created because the contradicted text and the changed text occur at the same location. The original text also states that no license is granted, while the changed text states that a perpetual license is granted"
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement contains the entire understanding between the Parties and it supersedes all prior or contemporaneous communications, agreements, or understandings between the Parties concerning receipt of Proprietary Information and/or NREL Protected Information for the Purpose.",
+        "changed_text": "This Agreement contains only a partial understanding between the Parties and does not supersede all prior or contemporaneous communications, agreements, or understandings between the Parties concerning receipt of Proprietary Information and/or NREL Protected Information for the Purpose.",
+        "explanation": "By stating that the agreement contains only a partial understanding and doesn't supersede prior agreements, the modified text creates a contradiction with the entire agreement clause. This will create conflicts and uncertainties with other parts of the contract, such as, what are the clauses that hold weight and the clauses to enforce.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "d. This Agreement contains only a partial understanding between the Parties and does not supersede all prior or contemporaneous communications, agreements, or understandings between the Parties concerning receipt of Proprietary Information and/or NREL Protected Information for the Purpose. This Agreement may be executed in counterparts and the sum of said counterparts will represent a fully executed document. Facsimile signatures and electronic signatures are fully binding and constitute a legal method of executing this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the agreement contains the *entire* understanding, while the changed text states it contains *only a partial* understanding and *does not* supersede prior agreements. This directly contradicts the contradicted text, as they are now the same, creating a clear in-text contradiction because the new modified text now conflicts with itself. This creates uncertainty about the scope and enforceability of the agreement."
+      }
+    ]
+  }
+]

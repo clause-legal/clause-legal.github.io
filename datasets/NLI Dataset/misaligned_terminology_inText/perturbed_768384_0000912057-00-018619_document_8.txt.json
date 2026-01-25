@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "768384_0000912057-00-018619_document_8.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Recipient agrees not to reproduce or copy by any means Confidential Information, except as reasonably required to accomplish such Recipient's Permitted Purpose.",
+        "changed_text": "Recipient agrees not to reproduce or copy by any means Confidential Data, except as reasonably required to accomplish such Recipient's Permitted Purpose.",
+        "explanation": "Changing \"Confidential Information\" to \"Confidential Data\" creates an issue because Confidential Information is defined, but \"Confidential Data\" is not. This creates an in-text contradiction in section 6 and uncertainty about whether all information disclosed under the agreement is protected or only the formally defined 'Confidential Information'.",
+        "location": "PAGE 3",
+        "contradicted_location": "PAGE 1",
+        "contradicted_text": "\"Confidential Information\" shall mean all information disclosed to Recipient by Discloser or its agents or employees in any manner, whether orally, visually or in tangible form (including, without limitation, documents, devices and computer readable media) and all copies thereof, whether created by Discloser or Recipient. Tangible materials that disclose or embody Confidential Information shall be marked, to the extent practicable, by Discloser as \"Confidential,\" \"Proprietary\" or the substantial equivalent thereof.",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'Confidential Information,' which is a defined term in the contradicted text. The changed text replaces this with 'Confidential Data,' which is undefined. This creates a contradiction because the Recipient's obligation to not reproduce or copy is now tied to an undefined term. This contradicts the contradicted text which defines what 'Confidential Information' means and implies that only 'Confidential Information' is protected, creating an ambiguity and uncertainty about what is protected under the contract."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Recipient shall not remove any proprietary rights legend from, and shall, upon Discloser's reasonable written request, add an appropriate proprietary legend to, materials disclosing or embodying Confidential Information.",
+        "changed_text": "Recipient shall not remove any proprietary rights legend from, and shall, upon Discloser's reasonable written request, add an appropriate proprietary legend to, materials disclosing or embodying Protected Information.",
+        "explanation": "Changing \"Confidential Information\" to \"Protected Information\" introduces a new, undefined term. This contradicts the entire agreement as it's unclear if the term 'Protected Information' falls under the original definition of Confidential Information, potentially nullifying the clause since it doesn't have a defined meaning within the contract.",
+        "location": "PAGE 3",
+        "contradicted_location": "PAGE 1",
+        "contradicted_text": "\"Confidential Information\" shall mean all information disclosed to Recipient by Discloser or its agents or employees in any manner, whether orally, visually or in tangible form (including, without limitation, documents, devices and computer readable media) and all copies thereof, whether created by Discloser or Recipient. Tangible materials that disclose or embody Confidential Information shall be marked, to the extent practicable, by Discloser as \"Confidential,\" \"Proprietary\" or the substantial equivalent thereof.",
+        "contradiction_exists": "YES",
+        "justification": "The change from \"Confidential Information\" to \"Protected Information\" introduces an undefined term. The 'Contradicted Text' explicitly defines \"Confidential Information\". By replacing it, the modified clause now refers to something without a clear definition within the contract, creating an in-text contradiction. This leads to ambiguity and uncertainty, as the clause is no longer clearly linked to the defined 'Confidential Information', potentially nullifying the obligations outlined in that clause. This aligns with the provided definition for 'Misaligned Terminology - In Text Contradiction'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The \"Permitted Purpose\" with respect to Confidential Information disclosed to the Company shall be, to evaluate whether or not to enter into an agreement with Ben & Jerry's relating to a joint venture, other cooperative venture or the like between Ben & Jerry's and the Company.",
+        "changed_text": "The \"Permitted Objective\" with respect to Confidential Information disclosed to the Company shall be, to evaluate whether or not to enter into an agreement with Ben & Jerry's relating to a joint venture, other cooperative venture or the like between Ben & Jerry's and the Company.",
+        "explanation": "Changing \"Permitted Purpose\" to \"Permitted Objective\" leads to inconsistency. While the definition remains locally consistent, all other mentions of 'Permitted Purpose' now conflict. The 'Permitted Purpose' section A and B are still defined in terms of Purpose.",
+        "location": "PAGE 4",
+        "contradicted_location": "PAGE 3",
+        "contradicted_text": "Recipient agrees not to reproduce or copy by any means Confidential Information, except as reasonably required to accomplish such Recipient's Permitted Purpose.",
+        "contradiction_exists": "YES",
+        "justification": "The change from \"Permitted Purpose\" to \"Permitted Objective\" creates a contradiction because the contradicted text uses the term \"Permitted Purpose.\" The perturbation explanation states that all other mentions of 'Permitted Purpose' now conflict, and the contradicted text is one of those mentions. The definition of 'Permitted Purpose' in the original text is relevant, but the change makes that definition inconsistent with the rest of the contract, creating a strong, in-text contradiction as described in the Misaligned Terminology definition."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The \"Permitted Purpose\" with respect to Confidential Information disclosed to Ben & Jerry's shall be: to evaluate whether or not to enter into an agreement with the Company relating to a joint venture, other cooperative venture or the like between Ben & Jerry's and the Company.",
+        "changed_text": "The \"Authorised Use\" with respect to Confidential Information disclosed to Ben & Jerry's shall be: to evaluate whether or not to enter into an agreement with the Company relating to a joint venture, other cooperative venture or the like between Ben & Jerry's and the Company.",
+        "explanation": "Changing \"Permitted Purpose\" to \"Authorised Use\" only in Section B of the Permitted Purposes clause, introduces an in-text contradiction. Section A defines \"Permitted Purpose\" for the Company, while Section B now defines \"Authorised Use\" for Ben & Jerry's. This creates confusion as to whether both terms have the same meaning, or if different standards apply to each party, especially when other clauses refer to 'Permitted Purpose'.",
+        "location": "PAGE 4",
+        "contradicted_location": "PAGE 3",
+        "contradicted_text": "Recipient shall disclose Confidential Information only to those of its Representatives who have a need to know such information for the Permitted Purpose.",
+        "contradiction_exists": "YES",
+        "justification": "The change from \"Permitted Purpose\" to \"Authorised Use\" in Section B, while Section A still uses \"Permitted Purpose,\" directly contradicts the clause that states \"Recipient shall disclose Confidential Information only to those of its Representatives who have a need to know such information for the Permitted Purpose.\" The contradicted text specifies 'Permitted Purpose', but now Section B defines 'Authorised Use' for Ben & Jerry's, creating ambiguity and uncertainty as to which term applies, and therefore, under what conditions Ben & Jerry's can disclose confidential information. This misaligned terminology creates a direct conflict as defined by the 'Misaligned Terminology' perturbation type."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement and any controversies, disputes or claims arising out of or relating to the subject matter of this Agreement shall be governed by and construed in accordance with the laws of the State of New York and the parties agree to submit any and all such controversies, disputes, or claims to the exclusive jurisdiction of the federal courts located in New York, New York.",
+        "changed_text": "This Contract and any controversies, disputes or claims arising out of or relating to the subject matter of this Agreement shall be governed by and construed in accordance with the laws of the State of New York and the parties agree to submit any and all such controversies, disputes, or claims to the exclusive jurisdiction of the federal courts located in New York, New York.",
+        "explanation": "Changing \"Agreement\" to \"Contract\" in the governing law clause creates an inconsistency. Throughout the rest of the document, 'Agreement' is used, so switching to 'Contract' only in this section creates doubt as to whether the governing law actually applies to this document.",
+        "location": "PAGE 4",
+        "contradicted_location": "PAGE 4",
+        "contradicted_text": "The rights and obligations herein shall bind the parties and their successors and assigns. This Agreement expresses the entire agreement and understanding of the parties with respect to the subject matter hereof and supersedes al prior oral or written agreements, commitments and understandings pertaining to the subject matter hereof. Any modifications of or changes in this Agreement shall be in writing and signed by both parties. This Agreement shall remain in full force and effect for two years. Any causes of action accrued on or before the expiration of such period shall survive the expiration of the applicable statute of limitations.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text changes 'Agreement' to 'Contract' in the governing law clause. The contradicted text refers specifically to 'This Agreement' and states that it 'expresses the entire agreement'. By changing 'Agreement' to 'Contract' in the governing law clause, the modification creates doubt as to whether the governing law actually applies to 'This Agreement', thereby introducing a contradiction with the definition provided in the contradicted text. The change leads to an ambiguity regarding which document the governing law applies to, creating a Misaligned Terminology - In Text Contradiction. The rest of the document refers to 'Agreement', which further highlights the conflict."
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "1082797_0000950131-01-501837_dex99d2.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement represents the entire understanding and agreement of the parties and supersedes all prior communications, agreements and understandings relating to the subject matter hereof.",
+        "changed_text": "This Agreement represents the entire understanding and agreement of the parties but does not supersede all prior communications, agreements and understandings relating to the subject matter hereof.",
+        "explanation": "By negating the 'supersedes' clause, it creates an in-text contradiction in Section 9. The contract now states it is the entire agreement, but simultaneously acknowledges prior agreements might still be relevant. This creates ambiguity about which terms are actually binding.",
+        "location": "Section 9",
+        "contradicted_location": "Section 9",
+        "contradicted_text": "This Agreement represents the entire understanding and agreement of the parties but does not supersede all prior communications, agreements and understandings relating to the subject matter hereof. The provisions of this Agreement may not be modified, amended nor waived, except by a written instrument duly executed by both parties. This Agreement may not be assigned by Receiving Party without the prior written consent of the MyPoints.com. This Agreement is made subject to, and shall be construed under, the laws of the State of Illinois.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the agreement supersedes all prior communications. The changed text negates this, explicitly stating the agreement does *not* supersede prior communications. The contradicted text repeats the changed text. Since the agreement now simultaneously claims to be the entire agreement and acknowledges that prior agreements may still be relevant, it creates a direct and significant contradiction. This contradicts the core principle of the entire agreement clause and falls under the structural flaws definition, creating uncertainty about which terms are actually binding."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement may not be assigned by Receiving Party without the prior written consent of the MyPoints.com.",
+        "changed_text": "This Agreement may be assigned by Receiving Party without the prior written consent of the MyPoints.com.",
+        "explanation": "Changing the assignment clause creates a direct in-text contradiction within Section 9. The initial statement prohibits assignment without consent, while the modified text allows it without consent. This creates confusion over the transferability of the agreement.",
+        "location": "Section 9",
+        "contradicted_location": "Section 9",
+        "contradicted_text": "This Agreement may be assigned by Receiving Party without the prior written consent of the MyPoints.com. This Agreement is made subject to, and shall be construed under, the laws of the State of Illinois.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that 'This Agreement may not be assigned by Receiving Party without the prior written consent of the MyPoints.com,' meaning assignment is prohibited without consent. The changed text, 'This Agreement may be assigned by Receiving Party without the prior written consent of the MyPoints.com,' allows assignment without consent. Since both the changed text and the contradicted text are the same, and the perturbation explanation states that 'The initial statement prohibits assignment without consent, while the modified text allows it without consent. This creates confusion over the transferability of the agreement,' a direct contradiction exists, warranting a 'YES' as it is a structural flaw according to the definitions given."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Receiving Party agrees that receipt of Confidential Information, pursuant to this Agreement, is exclusively for the purpose of evaluating a potential acquisition of <PAGE> MyPoints.com and Receiving Party shall not use the Confidential Information for any other purpose.",
+        "changed_text": "Receiving Party agrees that receipt of Confidential Information, pursuant to this Agreement, is exclusively for the purpose of evaluating a potential acquisition of <PAGE> MyPoints.com and Receiving Party shall use the Confidential Information for any other purpose.",
+        "explanation": "Changing the use of Confidential Information in Section 2, from 'shall not use' to 'shall use', introduces a direct contradiction. The original text restricts the use of confidential information to evaluation of acquisition only, while the new text suggests it can be used for any purpose. This contradicts the intent of the non-disclosure agreement.",
+        "location": "Section 2",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "Receiving Party agrees that receipt of Confidential Information, pursuant to this Agreement, is exclusively for the purpose of evaluating a potential acquisition of <PAGE> MyPoints.com and Receiving Party shall use the Confidential Information for any other purpose.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the original text from 'shall not use' to 'shall use' the Confidential Information for any purpose other than evaluating a potential acquisition. This creates a direct contradiction with the contradicted text, which originally restricted the use of confidential information to evaluation of acquisition only. The changed text allows the use of Confidential Information for any purpose, directly conflicting with the original restriction. This falls under Structural Flaws - In Text Contradiction definition because a clause is placed in multiple locations with conflicting implications."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Confidential Information disclosed to Receiving Party hereunder shall: a. not be copied or distributed, disclosed, or disseminated in any way or form by the Receiving Party to any third party without the written permission of MyPoints.com first obtained",
+        "changed_text": "Confidential Information disclosed to Receiving Party hereunder shall: a. be copied or distributed, disclosed, or disseminated in any way or form by the Receiving Party to any third party without the written permission of MyPoints.com first obtained",
+        "explanation": "By changing 'not be copied' to 'be copied,' we contradict Section 3(a). The section initially forbids copying or distributing information without permission, but the altered text implies that copying is allowed. Even if written permission is given, it's unclear if it permits free copying or only specific instances.",
+        "location": "Section 3",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "Confidential Information disclosed to Receiving Party hereunder shall: a. be copied or distributed, disclosed, or disseminated in any way or form by the Receiving Party to any third party without the written permission of MyPoints.com first obtained; b. be treated by the Receiving Party with the same degree of care to avoid disclosure to any third party as is used with respect to the Receiving Party's own proprietary and confidential information of like importance; c. remain the property of the MyPoints.com, and shall be returned by the Receiving Party to MyPoints.com (along with all copies thereof) promptly upon its receipt of a request from MyPoints.com to do so; d. not be used by Receiving Party for any purpose other than as specified herein or otherwise approved by MyPoints.com in writing.",
+        "contradiction_exists": "YES",
+        "justification": "The original text prohibited copying and distribution of confidential information without written permission. The changed text removes the 'not,' implying that copying and distributing is allowed, even without written permission. This directly contradicts the contradicted text (which is the same as the original in this case), which intends to limit the dissemination of confidential information. The change makes the contract internally inconsistent."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement is made subject to, and shall be construed under, the laws of the State of Illinois.",
+        "changed_text": "This Agreement is made subject to, and shall be construed under, the laws of the State of Delaware.",
+        "explanation": "Changing the governing law from Illinois to Delaware creates a direct conflict in Section 9. This can lead to uncertainty about which state's laws apply to the interpretation and enforcement of the agreement. Contract interpretation and outcomes may vary significantly based on the state's legal framework.",
+        "location": "Section 9",
+        "contradicted_location": "Section 9",
+        "contradicted_text": "This Agreement may be assigned by Receiving Party without the prior written consent of the MyPoints.com. This Agreement is made subject to, and shall be construed under, the laws of the State of Delaware.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the agreement is construed under Illinois law, while the changed text modifies this to Delaware law. The contradicted text includes the clause stating that the agreement is construed under the laws of the state of Delaware. Thus, by changing Illinois to Delaware in the first instance, a contradiction is created where the contract text is now located in two places with conflicting governing law, which is explicitly the definition of \"Structural Flaws - In Text Contradiction\", and the explanation details the significance."
+      }
+    ]
+  }
+]

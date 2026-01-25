@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "MUTUAL-NDA-Form-2.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Each party agre es that at all times and notwithstanding any termination or expiration of th is Agreement it will hold in strict confidence and not disclose to any third party Conf idential Information of the other, except as approved in advance in writing by the oth er party to this Agreement, and will use the Confidential Information for no purpose oth er than evaluating or pursuing a business relationship with the other party to this Agreement.",
+        "changed_text": "Each party agre es that at all times and notwithstanding any termination or expiration of th is Agreement it will hold in strict confidence and not disclose to any third party Private Data of the other, except as approved in advance in writing by the oth er party to this Agreement, and will use the Private Data for no purpose oth er than evaluating or pursuing a business relationship with the other party to this Agreement.",
+        "explanation": "In Section 2, 'Confidential Information' is replaced with 'Private Data'. Throughout the agreement, the term 'Confidential Information' still remains. This introduces inconsistency regarding the type of data that is subject to the non-disclosure obligations. This will create confusion in Section 6 about what information requires immediate notification upon discovery of any loss or unauthorized disclosure.",
+        "location": "2",
+        "contradicted_location": "6",
+        "contradicted_text": "Each party s hall immediately notify the other upon discovery of any loss or unauthorized disclosu re of the Confidential Information of the other party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text used the term 'Confidential Information', which is replaced with 'Private Data' in the changed text. The contradicted text still uses 'Confidential Information'. This creates a direct conflict as the agreement now uses two different terms to refer to what appears to be the same type of information, without clarifying whether they are interchangeable or distinct. This creates a misalignment of terminology that impacts the interpretation and enforcement of the contract, specifically concerning the notification requirements in case of data loss. As per the definitions provided, this constitutes a Misaligned Terminology - In Text Contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "All employees, advisors, and agents of the Recipient party with ac cess to Confidential Information shall be bound by this Agreement and the Recipient shall be responsible for any unauthorized disclosure of Confidential Information by its employees, advisors and/or agents.",
+        "changed_text": "All employees, advisors, and agents of the Recipient party with ac cess to Protected Information shall be bound by this Agreement and the Recipient shall be responsible for any unauthorized disclosure of Protected Information by its employees, advisors and/or agents.",
+        "explanation": "In Section 3, 'Confidential Information' is replaced with 'Protected Information'. Throughout the agreement, the term 'Confidential Information' still remains. This introduces inconsistency on what the Recipient is responsible for when any unauthorized disclosures are made. This will directly contradict Section 8, when returning of the information is requested.",
+        "location": "3",
+        "contradicted_location": "8",
+        "contradicted_text": "Upon termination or expir ation of the Agreement, or upon written request by either party, each party shall p romptly return to the other all documents and other tangible materials representing the other's Confidential Information and all copies thereof, or destroy all Confidential Information and copies thereof and certify its destruction to the Provider .",
+        "contradiction_exists": "YES",
+        "justification": "The change replaces 'Confidential Information' with 'Protected Information' in Section 3, while the term 'Confidential Information' still remains in other parts of the agreement, including the contradicted section. This creates an inconsistency regarding what information the recipient is responsible for returning or destroying upon termination of the agreement, as the contradicted text specifies 'Confidential Information' but the changed text obligates the recipient to a different kind of information: 'Protected Information'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Recipient will use at least as much ca re in maintaining the confidentiality of any disclosed Information as tha t party uses in maintaining its own Confidential Information, and the Recipient will us e at least reasonable care.",
+        "changed_text": "The Recipient will use at least as much ca re in maintaining the confidentiality of any disclosed material as tha t party uses in maintaining its own Confidential Information, and the Recipient will us e at least reasonable care.",
+        "explanation": "Changing 'Information' to 'material' creates ambiguity. 'Information' in the first part is undefined and could include any data. The introduction of the word 'material' can create some contradiction for the meaning of disclosed information, since the definition of 'Confidential Information' still remains the same in Section 1, making the obligations of Recipient to use reasonable care is in conflict and harder to understand.",
+        "location": "5",
+        "contradicted_location": "1",
+        "contradicted_text": "As used herein, \"Confi dential Information\" shall mean any and all oral and written proprietary informatio n provided by one party (the \"Provider\") to the other (the \"Recipient\"), includi ng but not limited to financial documents, customer lists, development plans, busin ess plans, trade secrets, and intellectual property.",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'Information', which, while broad, is used consistently. The changed text replaces 'Information' with 'material' in the first part of the sentence while keeping 'Confidential Information' defined as 'any and all oral and written proprietary information'. This creates a contradiction because the Recipient's obligation to maintain confidentiality now applies to 'material', which isn't defined, while the contradicted section defines 'Confidential Information'. This misaligned terminology creates a strong in-text contradiction as per the 'Misaligned Terminology' definition, leading to conflicting obligations and making it harder to understand the scope of the Recipient's duty."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Reproduction of Information. Confidential Inform ation shall not be reproduced in any form except as required to accomplish the inten t of this Agreement. Any reproduction of any Confidential Information by the Recipient shall remain the property of the Provider and shall contain any and all confi dential or proprietary notices or legends that appear on the original, unless otherwi se authorized in writing by the Provider.",
+        "changed_text": "Reproduction of Data. Confidential Inform ation shall not be reproduced in any form except as required to accomplish the inten t of this Agreement. Any reproduction of any Confidential Information by the Recipient shall remain the property of the Provider and shall contain any and all confi dential or proprietary notices or legends that appear on the original, unless otherwi se authorized in writing by the Provider.",
+        "explanation": "By changing 'Information' to 'Data' at the start of Section 7, the subsection header now uses a different term than the rest of the section and the broader agreement. Given the agreement defines \"Confidential Information\", the use of \"Data\" in the section title introduces ambiguity. This will contradict with section 8, the definition and concept of confidential information as a whole.",
+        "location": "7",
+        "contradicted_location": "8",
+        "contradicted_text": "Upon termination or expir ation of the Agreement, or upon written request by either party, each party shall p romptly return to the other all documents and other tangible materials representing the other's Confidential Information and all copies thereof, or destroy all Confidential Information and copies thereof and certify its destruction to the Provider .",
+        "contradiction_exists": "YES",
+        "justification": "The perturbation explanation states that changing 'Information' to 'Data' in the subsection header introduces ambiguity because the agreement defines \"Confidential Information\" but not \"Data\". This creates a contradiction because Section 8 refers to the return or destruction of 'Confidential Information'. If 'Data' is now used interchangeably with 'Confidential Information' but is not defined as such, it's unclear if Section 8's obligations apply to 'Data' as well, creating a direct conflict and inconsistency. Thus based on the definition Misaligned Terminology - In Text Contradiction, a YES is assigned."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement and all disputes risi ng hereunder shall be governed by the laws of the State of New York without regard to its conflict of laws provisions.",
+        "changed_text": "This Agreement and all disputes risi ng hereunder shall be governed by the laws of the State of Delaware without regard to its conflict of laws provisions.",
+        "explanation": "Changing the state law from New York to Delaware creates a direct contradiction in the agreement, leading to confusion and uncertainty about which state's laws govern any disputes. This would directly affect Section 12, making the interpretation in case of any injuctive relief, invalid, because there will be contradictory interpretation of states.",
+        "location": "11",
+        "contradicted_location": "12",
+        "contradicted_text": "In the event that one party breaches or threatens to breach this agreement the parties agree that monetary damages w ill be an inadequate remedy, and therefore, the other party will be entitled to an i mmediate permanent injunction against such breach and such other equitable relief as is n ecessary to enforce any and all of the provisions of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the governing law from New York to Delaware. This directly contradicts the contradicted text because the interpretation and enforcement of the injunction, which relies on the specific laws and precedents of the previously stipulated state (New York), would now be subject to Delaware law. This creates a direct conflict in how the agreement is interpreted and enforced, specifically with respect to remedies like injunctive relief, which would be affected by the change in the governing state's laws."
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "TRIZETTOGROUPINC_08_18_1999-EX-10.17-TECHNICAL INFRASTRUCTURE MAINTENANCE AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "MMMW may cancel this Agreement if the Customer does not remit payment according to the terms of MMMW's invoice.",
+        "changed_text": "MMMW may cancel this Agreement only after providing a 30-day written notice, regardless of whether the Customer remits payment according to the terms of MMMW's invoice.",
+        "explanation": "This change introduces a contradiction. The original clause allows MMMW to cancel the agreement if the customer fails to pay. The modified clause restricts this right by requiring a 30-day written notice *even* if the customer is in default of payment. This contradicts the original intention of prompt cancellation due to non-payment, creating uncertainty about when cancellation is permissible. This introduces uncertainty to Section 2(d).",
+        "location": "2(d)",
+        "contradicted_location": "2(d)",
+        "contradicted_text": "(d) Customer, upon thirty days prior written notice, may cancel this Agreement at the end of the Initial Term and thereafter on each anniversary of the end of the Initial Term. MMMW may cancel this Agreement only after providing a 30-day written notice, regardless of whether the Customer remits payment according to the terms of MMMW's invoice.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a direct contradiction to the original agreement. The original text allowed MMMW to cancel the agreement if the customer failed to remit payment. The changed clause states that MMMW may cancel the agreement 'only after providing a 30-day written notice, regardless of whether the Customer remits payment.' This contradicts the original intention of prompt cancellation for non-payment. Moreover, it adds this 30-day written notice term into the contradicted section, making the clause read: 'MMMW may cancel this Agreement only after providing a 30-day written notice, regardless of whether the Customer remits payment according to the terms of MMMW's invoice.' This creates a direct contradiction, triggering a structural flaw as defined in the instructions: \"Structural flaws also cause **in-text contradictions** when a clause is placed in **multiple locations with conflicting implications**. When contract sections contradict each other based on placement, it creates uncertainty about the obligations and rights of each party.\""
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "MMMW warrants that the Technical Infrastructure remains in satisfactory operating condition provided it is: 1) continuously subject to MMMW's inspection and acceptance of the hardware for service; and 2) subject to normal use and conditions. MMMW's sole and exclusive obligation under this warranty shall be at its option to repair or exchange any hardware not in satisfactory operating condition.",
+        "changed_text": "MMMW warrants that the Technical Infrastructure remains in satisfactory operating condition provided it is: 1) inspected annually by MMMW; and 2) subject to normal use and conditions. MMMW's sole obligation under this warranty shall be at its option to repair hardware.",
+        "explanation": "The original clause requires continuous inspection by MMMW for the warranty to be valid, while the modified clause only requires annual inspection. This significantly reduces the level of scrutiny and maintenance required by MMMW. Also the original clause refers to MMMW's sole and exclusive obligation to repair or exchange hardware, while the modified clause only mentions to repair hardware. This alteration contradicts the more stringent requirement of continuous monitoring in the original clause. This contradiction is within section 8(a)",
+        "location": "8(a)",
+        "contradicted_location": "8(a)",
+        "contradicted_text": "8. WARRANTY (a) MMMW warrants that the Technical Infrastructure remains in satisfactory operating condition provided it is: 1) inspected annually by MMMW; and 2) subject to normal use and conditions. MMMW's sole obligation under this warranty shall be at its option to repair hardware.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text changes the inspection requirement from 'continuously subject to MMMW's inspection' to 'inspected annually by MMMW.' This directly contradicts the original intent of continuous monitoring. Additionally, it changes 'MMMW's sole and exclusive obligation under this warranty shall be at its option to repair or exchange any hardware' to 'MMMW's sole obligation under this warranty shall be at its option to repair hardware,' which removes the option to exchange hardware, creating a contradiction with a potentially applicable requirement in another section."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "5-Appendix-Non-Disclosure-Agreement-Mutual.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This Agreement shall remain in force and effect for [one (1)] year when duly signed by both Parties, provided, however that the confidentiality obligations imposed on the Receiving sid 4:4 Party under this Agreement shall continue for a period of [five (5)] years after termination of the Agreement, except to the extent this Agreement is superseded by stipulations of a contemplated agreement.",
+        "changed_text": "This Agreement shall remain in force and effect when duly signed by both Parties, except to the extent this Agreement is superseded by stipulations of a contemplated agreement.",
+        "explanation": "By removing the expiry timeframes, a contradiction is created. The agreement now is perpetual with no termination date. This means it potentially goes against the clause that allows it to be superseded by other agreements. Which agreements should be followed now?",
+        "location": "6.1",
+        "contradicted_location": "6.1",
+        "contradicted_text": "This Agreement shall remain in force and effect when duly signed by both Parties, except to the extent this Agreement is superseded by stipulations of a contemplated agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies a termination date of one year, with confidentiality obligations extending for five years. The changed text removes the expiry timeframes and makes the agreement perpetual, with no termination date. This directly contradicts the clause that allows it to be superseded by other agreements, as it becomes unclear which agreement should take precedence. The change creates a strong inconsistency, which aligns with the given definition of 'Omissions – In Text Contradiction' where essential language is removed, creating a contradiction with other sections."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Receiving Party shall not be entitled to copy any Confidential Information furnished by the Disclosing Party hereunder, unless and to the extent it is necessary for the purpose of this Agreement.",
+        "changed_text": "The Receiving Party shall only be entitled to copy Confidential Information furnished by the Disclosing Party hereunder for archival purposes.",
+        "explanation": "Originally, the receiving party could copy confidential information if it was necessary for the purpose of the agreement. By limiting the ability to copy to 'archival purposes', the contract is now much more restrictive. Because of the clause referring to confidential information must be used in section 2.4 for the negotiation or evaluation of cooperation, it creates a contradiction as the party must be able to use it, not just archive it",
+        "location": "3.1",
+        "contradicted_location": "2.4",
+        "contradicted_text": "The Parties shall only use Confidential Information for the purpose of negotiation and/or evaluation of any co-operation between the Parties. The Parties shall not disclose Confidential Information to any third party, other than to their officers, employees or consultants (engaged in the matter of this Agreement) on a need to know basis, without the prior written approval of the other Party. Each Party shall ensure that any of its officers, employees, and consultants that receive Confidential Information is bound by confidentiality undertakings that provide at least the same level of protection as is provided by this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed copying of confidential information if necessary for the purpose of the agreement. The changed text restricts copying to only 'archival purposes'. The contradicted text states that the parties shall use confidential information for the purpose of negotiation and/or evaluation of cooperation. The change directly contradicts this, as the receiving party can no longer copy the information for negotiation or evaluation purposes, only for archiving, creating a clear and direct conflict."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "8.2 Any dispute, controversy or claim arising out of or in connection with this Agreement shall be exclusively settled by the District Court of [city] as first instance. [Alt. Any dispute, controversy or claim arising out of or in connection with this Agreement shall be finally settled by arbitration in accordance with the Rules for Expedited Arbitrations of the Arbitration Institute of the Stockholm Chamber of Commerce. The seat of arbitration shall be [City]. The language to be used in the arbitral proceedings shall be [English].]",
+        "changed_text": "8.2 Any dispute, controversy or claim arising out of or in connection with this Agreement shall be settled by a means agreeable by both Parties.",
+        "explanation": "By removing the specific dispute resolution mechanism (court or arbitration), the contract now requires both parties to agree to a method. If one party refuses to agree, the conflict is impossible to solve. It is contradictory because it implies a settlement *must* occur, yet removes the means to enforce such a settlement if disagreement exists.",
+        "location": "8.2",
+        "contradicted_location": "8.2",
+        "contradicted_text": "Any dispute, controversy or claim arising out of or in connection with this Agreement shall be settled by a means agreeable by both Parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text (8.2) specified a clear dispute resolution mechanism (District Court or Arbitration). The changed text replaces this with a requirement for both parties to agree on a resolution method. The contradicted text is identical to the changed text. The perturbation explanation states that this change creates a contradiction because if one party refuses to agree, the conflict is impossible to solve, as the original mechanism for resolution has been removed. This creates a direct conflict and inconsistency within the document, rendering the dispute resolution process unenforceable if the parties cannot agree, which constitutes a strong in-text contradiction."
+      }
+    ]
+  }
+]

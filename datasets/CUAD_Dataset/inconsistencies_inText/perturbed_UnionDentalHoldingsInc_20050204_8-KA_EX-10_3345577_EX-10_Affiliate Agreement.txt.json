@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "UnionDentalHoldingsInc_20050204_8-KA_EX-10_3345577_EX-10_Affiliate Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement shall become effective on the Effective Date and shall continue in effect until either Party informs the other Party with thirty (30) day prior written notice of termination of this Agreement.",
+        "changed_text": "This Agreement shall become effective on the Effective Date and shall continue in effect until either Party informs the other Party with sixty (60) day prior written notice of termination of this Agreement.",
+        "explanation": "The change from 'thirty (30) day' to 'sixty (60) day' prior written notice creates a conflict with the subsequent section 5(b) where UDC can terminate the agreement immediately under certain conditions, effectively negating the 60-day notice period. This creates an in-text contradiction because under section 5(a) a 60 day notice is required to terminate and under 5(b) it can be immediate depending on circumstances.",
+        "location": "5.a",
+        "contradicted_location": "5.b",
+        "contradicted_text": "Termination. UDC may immediately terminate this Agreement without notice and any related agreement if it determines that the Business Affiliate has breached a material provision of this Agreement or if the activities contemplated under this Agreement will result in a violation of any federal or state law or if such Services would, in the opinion of UDC and its counsel. Alternatively, UDC may choose to: (i) provide the Business Affiliate with ten (10) days written notice of the existence of an alleged material breach; and (ii) afford the Business Affiliate an opportunity to cure said alleged material breach upon mutually agreeable terms. Failure to cure in the manner set forth in this paragraph is grounds for the immediate termination of the Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the termination notice period from 30 to 60 days. This directly contradicts the contradicted text, which allows for immediate termination by UDC under specific circumstances (breach, violation of law). The 60-day notice requirement in the changed text conflicts with the immediate termination provision, creating an in-text contradiction as per the definition of 'Inconsistencies - In Text Contradiction'."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Each Party represents and warrants to the other Party that all of its employees, agents, representatives and members of its work force, whose services may be used to fulfill obligations under this Agreement, are or shall be appropriately informed of the terms of this Agreement and are under legal obligation to comply fully with all provisions of this Agreement.",
+        "changed_text": "Each Party represents and warrants to the other Party that all of its employees, agents, representatives and members of its work force, whose services may be used to fulfill obligations under this Agreement, are or shall be appropriately informed of some of the terms of this Agreement and are under legal obligation to comply fully with some provisions of this Agreement.",
+        "explanation": "The change from 'all of the terms' to 'some of the terms' and 'all provisions' to 'some provisions' creates an in-text contradiction because it introduces uncertainty as to which terms and provisions employees, agents, and representatives are obligated to know and follow. It also contradicts section 3.d, which requires 'all of its employees, representatives, subcontractors or agents that receive or use or have access to Confidential Information under this Agreement to agree in writing to adhere to the same restrictions and conditions on the use and/or disclosure of Confidential Information that apply herein'. The employees are not obliged to all provisions, which creates the contradiction. Furthermore, it impacts section 4, which states that all employees, agents, representatives, and members of the workforce are legally obliged to comply with all provisions. The altered text now contradicts this requirement.",
+        "location": "4",
+        "contradicted_location": "3.d",
+        "contradicted_text": "Require all of its employees, representatives, subcontractors or agents that receive or use or have access to Confidential Information under this Agreement to agree in writing to adhere to the same restrictions and conditions on the use and/or disclosure of Confidential Information that apply herein, including the obligation to return or destroy the Confidential Information as provided under paragraph g of this Section 3.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the original obligation for employees, agents, and representatives to be informed of 'all of the terms' to 'some of the terms' and to comply fully with 'all provisions' to 'some provisions'. This directly contradicts the 'Contradicted Text' which requires 'all of its employees, representatives, subcontractors or agents that receive or use or have access to Confidential Information under this Agreement to agree in writing to adhere to the same restrictions and conditions on the use and/or disclosure of Confidential Information that apply herein'. The change creates ambiguity and reduces the scope of required adherence, leading to an inconsistency in obligation, and thus a contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Survival. The respective rights and obligations of Business Affiliate and UDC under the provisions of Sections 3(g) [Responsibilities of the Parties] and 3(h) [Responsibilities of the Parties] and 6 shall survive the termination of this Agreement indefinitely.",
+        "changed_text": "Survival. The respective rights and obligations of Business Affiliate and UDC under the provisions of Sections 3(g) [Responsibilities of the Parties] and 6 shall survive the termination of this Agreement indefinitely.",
+        "explanation": "By removing 'and 3(h) [Responsibilities of the Parties]' from the survival clause, it creates an in-text contradiction regarding whether the obligations defined in 3(h) survive the termination of the agreement or not. Before the change, it was clear those obligations survive the contract indefinitely, but now they are not reffered which creates an in-text contradiction within the agreement",
+        "location": "7.a",
+        "contradicted_location": "3.h",
+        "contradicted_text": "Parties agrees to mitigate, to the extent practicable, any harmful effect that is known to a Party of a use or disclosure of Confidential Information by a Party in violation of the requirements of this Agreement;",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the explicit survival of obligations under Section 3(h) after termination. The contradicted text discusses mitigation of harm from Confidential Information disclosure, which could be part of 3(h)'s obligations. By removing 3(h) from the survival clause, it creates an inconsistency regarding whether the obligations in 3(h), including those related to confidential information and potentially requiring mitigation as mentioned in the contradicted text, still apply after termination. This directly contradicts the implicit understanding that these obligations would survive, creating a strong in-text contradiction."
+      }
+    ]
+  }
+]

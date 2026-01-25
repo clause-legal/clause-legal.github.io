@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "mutual-non-disclosure-agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "A Receiving Party agrees:\n2.1.1. to keep the Confidential Information of the other strictly confidential and not copy, supply or make the same available to any person other than as permitted in Clauses 2.1.2 and 2.1.3 below;",
+        "changed_text": "A Receiving Party agrees:\n2.1.1. to make reasonable efforts to keep the Confidential Information of the other confidential and not copy, supply or make the same available to any person other than as permitted in Clauses 2.1.2 and 2.1.3 below;",
+        "explanation": "This change replaces 'to keep... strictly confidential' with 'to make reasonable efforts to keep... confidential'. This introduces ambiguity because 'reasonable efforts' is less stringent and well-defined than 'strictly confidential.' Clause 3.1 requires the Receiving Party to exercise a degree of care no less than it uses to protect its own information. This creates an in-text contradiction because if a Receiving Party only uses 'reasonable efforts' to protect its *own* information (which could be a low standard), it might be compliant with clause 2.1.1 as modified but violate the intent of clause 3.1, which expects a higher standard for protecting confidential information.",
+        "location": "2.1.1",
+        "contradicted_location": "3.1",
+        "contradicted_text": "3.1. Without prejudice to the generality of Clause 2, the Receiving Party shall exercise no less a degree of care in protecting the Confidential Information than which it uses to protect its own information of like sensitivity and importance.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'strictly confidential' to 'reasonable efforts to keep...confidential' introduces ambiguity, making the standard of care less stringent. This directly contradicts Clause 3.1, which requires the Receiving Party to exercise 'no less a degree of care' than it uses to protect its own information. If the Receiving Party's standard for its own information is low (i.e., 'reasonable efforts'), it could comply with the modified clause 2.1.1 while still violating the intent of clause 3.1, creating a conflict in the required level of care."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Without prejudice to the generality of Clause 2, the Receiving Party shall exercise no less a degree of care in protecting the Confidential Information than which it uses to protect its own information of like sensitivity and importance.",
+        "changed_text": "Without prejudice to the generality of Clause 2, the Receiving Party is encouraged to exercise a high degree of care in protecting the Confidential Information, but this is not a mandatory obligation.",
+        "explanation": "This change directly contradicts the binding nature of the confidentiality obligation. The original clause mandates a specific level of care. The changed clause encourages care but explicitly states it is not mandatory. This creates an in-text contradiction because earlier clauses (like 2.1) establish a duty to protect Confidential Information, implying a mandatory obligation. This undermines the enforceability of the entire agreement.",
+        "location": "3.1",
+        "contradicted_location": "2.1",
+        "contradicted_text": "2.1. A Receiving Party agrees: 2.1.1. to keep the Confidential Information of the other strictly confidential and not copy, supply or make the same available to any person other than as permitted in Clauses 2.1.2 and 2.1.3 below; 2.1.2. to use the Confidential Information of the other solely in, and to the extent necessary for the Purpose and not to copy or use any Confidential Information of the other save to the extent necessary for the Purpose; 2.1.3. not to disclose any Confidential Information to any person or entity other than to such of its employees who need to know for the Purpose (“Permitted Disclosees”), provided that the Receiving Party shall ensure that its Permitted Disclosees keep all Confid ential Information confidential and only use it on the terms of this Agreement, as if such Permitted Disclosees were party to this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandated a degree of care in protecting confidential information. The changed text states that exercising care is encouraged but not mandatory. This directly contradicts clause 2.1, which states that the receiving party agrees to keep the confidential information strictly confidential. By removing the mandatory obligation, the changed text creates a contradiction with the original requirement to keep the information confidential, leading to a strong in-text contradiction, as defined by Ambiguities - In Text Contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Each party shall forthwith upon request by the other return to the other all Confidential Information (including, without limitation, all summaries, copies and excerpts of Confidential Information), and other information, given to it by the oth er and shall expunge and destroy all Confidential Information from any equipment or other device in its possession or control.",
+        "changed_text": "Each party shall, upon reasonable request by the other and where feasible, return to the other all Confidential Information (including, without limitation, all summaries, copies and excerpts of Confidential Information), and other information, given to it by the other and shall expunge and destroy all Confidential Information from any equipment or other device in its possession or control, to the extent reasonably possible.",
+        "explanation": "This introduces ambiguity and weakens the obligation to return and destroy confidential information. By adding 'upon reasonable request and where feasible' and 'to the extent reasonably possible', the receiving party has more leeway in complying. This contradicts the absolute requirement to return and destroy all information. For instance, if section 8.2 allows injunctions for breaches of this agreement, it's now unclear if a 'partial' return/destruction is a breach, leading to uncertainty in the application of remedies.",
+        "location": "7.1",
+        "contradicted_location": "8.2",
+        "contradicted_text": "8.2. Without prejudice to any other rights or remedies which the other party may have (whether or not expressly provided or contemplated in this Agreement), each party acknowledges and agrees that damages may not be an adequate remedy for breach by it of the pr ovisions of this Agreement, and accordingly it agrees that (subject, where applicable, to the discretion of the court) the other party shall be entitled to the remedies of injunction, specific performance and any other equitable relief for any threatened o r actual breach of such provisions and no proof of special damages shall be necessary for its enforcement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates a strict return and destruction of confidential information upon request. The changed text introduces qualifiers like 'reasonable request,' 'where feasible,' and 'to the extent reasonably possible,' weakening the obligation. This contradicts section 8.2, which allows for injunctions for any breach. The weakened obligation creates uncertainty about what constitutes a breach, thus contradicting the remedy afforded in section 8.2, as a 'partial' return/destruction is now possible."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement shall apply without limit of time to all Confidential Information disclosed in connection with the Purpose.",
+        "changed_text": "This Agreement shall apply for a period of five (5) years to all Confidential Information disclosed in connection with the Purpose, after which the obligations of confidentiality shall cease.",
+        "explanation": "This change imposes a five-year limit on the agreement's duration, directly contradicting the original clause that states it applies 'without limit of time.' This creates a significant in-text contradiction since other clauses, like the return of information in section 7.1, are now time-bound. After five years, the obligation to return or destroy confidential information might no longer exist, rendering section 7.1 unenforceable after the specified period.",
+        "location": "9.4",
+        "contradicted_location": "7.1",
+        "contradicted_text": "7.1. Each party shall forthwith upon request by the other return to the other all Confidential Information (including, without limitation, all summaries, copies and excerpts of Confidential Information), and other information, given to it by the oth er and shall expunge and destroy all Confidential Information from any equipment or other device in its possession or control. Furthermore, the receiving party shall destroy all copies of analyses, compilations, studies or other documents or derivative wor ks which contain any Confidential Information. Each party shall on request provide a letter signed by a director confirming that it has complied with this clause.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the agreement applies 'without limit of time,' while the changed text imposes a five-year limit. This directly contradicts section 7.1, which requires the return and destruction of confidential information 'forthwith upon request.' With the five-year limit, the obligation to return information would cease after five years, rendering section 7.1 unenforceable after that period. This constitutes a strong, in-text contradiction and falls under Ambiguities - In Text Contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Neither party shall assign or transfer this Agreement or any part thereof to any other party",
+        "changed_text": "Neither party shall assign or transfer this Agreement or any part thereof to any other party, unless the other party provides written consent, which shall not be unreasonably withheld.",
+        "explanation": "The change adds a condition to the non-assignment clause, allowing assignment with written consent. This creates an in-text contradiction because if section 9.3 states 'No change, amendment or modification of any provision of this Agreement shall be valid or binding on the parties unless made in writing and signed by a duly authorised representative of each of the parties.', the assignment now depends on just one party's consent, while the original text wants written consent from both parties.",
+        "location": "9.2",
+        "contradicted_location": "9.3",
+        "contradicted_text": "9.3. No change, amendment or modification of any provision of this Agreement shall be valid or binding on the parties unless made in writing and signe d by a duly authorised representative of each of the parties.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds a condition to the non-assignment clause, allowing assignment with written consent from one party. This directly contradicts section 9.3, which requires written consent from both parties for any modification of the agreement. The modified text creates a clear conflict with the requirement for mutual consent stated in section 9.3, thus creating a strong in-text contradiction."
+      }
+    ]
+  }
+]

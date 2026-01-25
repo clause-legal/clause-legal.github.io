@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "MSCIINC_02_28_2008-EX-10.10-.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "MS hereby grants (subject to any existing third party contractual obligations) to MSCI a non-exclusive, perpetual, irrevocable, world- wide, royalty-free license for MSCI to use, modify, copy, create derivative works of and sublicense, for any business purpose, the MS Licensed Materials.",
+        "changed_text": "MS hereby grants (subject to any existing third party contractual obligations) to MSCI a non-exclusive, license for MSCI to use, modify, copy, create derivative works of and sublicense, for any business purpose, the MS Licensed Materials. This license is valid for one year and automatically renews, unless either party provides written notice of termination at least 30 days before the renewal date. Renewal is at the sole discretion of MS.",
+        "explanation": "By changing the term from 'perpetual, irrevocable' to a one-year license with an automatic renewal unless terminated, with renewal at the sole discretion of MS, this introduces a contradiction with the original intent of a perpetual license. It adds uncertainty about the duration and conditions of the license originally granted.",
+        "location": "2.1",
+        "contradicted_location": "2.1",
+        "contradicted_text": "MS hereby grants (subject to any existing third party contractual obligations) to MSCI a non-exclusive, license for MSCI to use, modify, copy, create derivative works of and sublicense, for any business purpose, the MS Licensed Materials. This license is valid for one year and automatically renews, unless either party provides written notice of termination at least 30 days before the renewal date. Renewal is at the sole discretion of MS.",
+        "contradiction_exists": "YES",
+        "justification": "The original text grants a 'perpetual, irrevocable' license, whereas the changed text limits the license to one year with renewal at MS's sole discretion. This directly contradicts the concept of a perpetual and irrevocable license, creating a strong in-text contradiction regarding the duration and conditions of the license. The changed text and contradicted text are the same, but the change introduced by the perturbation creates the contradiction, invalidating the perpetual nature of the license, as initially stated. This adheres to the 'Structural Flaws - In Text Contradiction' definition because the term of the license is placed in multiple locations with conflicting implications, namely perpetual vs. one-year renewable."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Parties shall have no obligation to provide support or maintenance for the Licensed Materials, including any obligation to update or correct such Licensed Materials. The Parties shall have no obligation to provide copies of the Licensed Materials (including in the case of software, any source code and object code).",
+        "changed_text": "The Parties shall have no obligation to provide support or maintenance for the Licensed Materials, including any obligation to update or correct such Licensed Materials, unless a separate agreement is reached in writing. The Parties shall have no obligation to provide copies of the Licensed Materials (including in the case of software, any source code and object code), except as mutually agreed upon.",
+        "explanation": "By adding the clauses 'unless a separate agreement is reached in writing' and 'except as mutually agreed upon', the original statement that the Parties have 'no obligation' is contradicted. It introduces uncertainty about whether support, maintenance, or copies will be provided, contradicting the initial clear statement of no obligation. This contradiction arises because, depending on future agreements, the Parties may indeed be obligated to provide support or copies.",
+        "location": "3.1",
+        "contradicted_location": "3.1",
+        "contradicted_text": "The Parties shall have no obligation to provide support or maintenance for the Licensed Materials, including any obligation to update or correct such Licensed Materials, unless a separate agreement is reached in writing. The Parties shall have no obligation to provide copies of the Licensed Materials (including in the case of software, any source code and object code), except as mutually agreed upon.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated unequivocally that 'The Parties shall have no obligation' regarding support, maintenance, or providing copies. The changed text adds exceptions ('unless a separate agreement is reached in writing' and 'except as mutually agreed upon'), directly contradicting the initial statement of no obligation. The contradicted text, being identical to the changed text, highlights the internal contradiction created by the added exceptions, as it initially states no obligation but then allows for obligation based on future agreements. This creates uncertainty and a direct conflict within the document."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "MSCI agrees that neither MS nor its affiliates or subsidiaries (other than MSCI) (collectively, the \"MS Provider Group\") and the respective directors, officers, agents, and employees of the MS Provider Group shall have any liability, whether direct or indirect, in contract or tort or otherwise, to MSCI for or in connection with this Agreement or the transactions contemplated hereby or any actions or inactions by or on behalf of the MS Provider Group in connection with this Agreement and such transactions.",
+        "changed_text": "MSCI agrees that neither MS nor its affiliates or subsidiaries (other than MSCI) (collectively, the \"MS Provider Group\") and the respective directors, officers, agents, and employees of the MS Provider Group shall have any liability, whether direct or indirect, in contract or tort or otherwise, to MSCI for or in connection with this Agreement or the transactions contemplated hereby or any actions or inactions by or on behalf of the MS Provider Group in connection with this Agreement and such transactions, except in cases of gross negligence or willful misconduct.",
+        "explanation": "By adding the clause 'except in cases of gross negligence or willful misconduct', the original statement that the MS Provider Group 'shall have any liability' is directly contradicted. It introduces an exception to the blanket liability waiver, creating uncertainty about when the MS Provider Group can be held liable. The amended text now states that the MS Provider Group generally has no liability but can be liable in specific circumstances (gross negligence or willful misconduct), contradicting the initial absolute waiver.",
+        "location": "5(a)",
+        "contradicted_location": "5(a)",
+        "contradicted_text": "MSCI agrees that neither MS nor its affiliates or subsidiaries (other than MSCI) (collectively, the \"MS Provider Group\") and the respective directors, officers, agents, and employees of the MS Provider Group shall have any liability, whether direct or indirect, in contract or tort or otherwise, to MSCI for or in connection with this Agreement or the transactions contemplated hereby or any actions or inactions by or on behalf of the MS Provider Group in connection with this Agreement and such transactions, except in cases of gross negligence or willful misconduct.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the MS Provider Group has no liability whatsoever. The changed text introduces an exception: liability for gross negligence or willful misconduct. This directly contradicts the original absolute waiver of liability, creating a strong in-text contradiction, as the contradicted text is identical to the Changed text."
+      }
+    ]
+  }
+]

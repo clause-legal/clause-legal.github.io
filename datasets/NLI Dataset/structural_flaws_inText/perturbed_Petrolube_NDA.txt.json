@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Petrolube_NDA.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "4.1) It shall not be necessary for either Party to disclose to the other Party any confidential technical or commercial data or information about its products, technology, processes, commercial activities or otherwise for the purposes of this Agreement. To the extent that either Party does disclose such data or information to the other Party, the other Party shall be entitled to regard such information as non-confidential in the absence of a written agreement between the Parties otherwise.",
+        "changed_text": "4.1) It shall be mandatory for both parties to disclose any confidential technical or commercial data or information about its products, technology, processes, commercial activities or otherwise for the purposes of this Agreement. All information disclosed will be considered confidential regardless of any written agreement between the parties.",
+        "explanation": "The original Clause 4.1 states that disclosure of confidential information is *not necessary*, and any disclosed information is considered non-confidential unless otherwise agreed in writing. The modified clause makes disclosure *mandatory* and considers all disclosed information confidential *regardless* of written agreements. This creates a direct contradiction and uncertainty about the confidentiality of exchanged information and disclosure obligations.",
+        "location": "4.1",
+        "contradicted_location": "4.1",
+        "contradicted_text": "4.1) It shall be mandatory for both parties to disclose any confidential technical or commercial data or information about its products, technology, processes, commercial activities or otherwise for the purposes of this Agreement. All information disclosed will be considered confidential regardless of any written agreement between the parties.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Clause 4.1 directly contradicts itself. Initially, the original text states that disclosing confidential data is not necessary, and any disclosed information is treated as non-confidential unless a written agreement states otherwise. The changed text makes disclosure mandatory and dictates that all disclosed information is confidential regardless of any agreement. The contradicted text is identical to the changed text, further emphasizing the contradiction. This fulfills the definition of Structural Flaws - In Text Contradiction, where a clause's conflicting implications cause uncertainty, because the changed text and contradicted text exist in the same location and the change causes a conflict."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "7.4) The Evaluation and supply of Samples will commence as soon as is practicable after the Effective Date. This Agreement will last for one year from the Effective Date. The obligations under this agreement shall continue to remain in force for a period of five (5) years from the Effective Date. This Agreement may be terminated by either Party at any time by giving thirty (30) days prior written notification. This Agreement may be extended by mutual agreement and written consent of both Parties.",
+        "changed_text": "7.4) The Evaluation and supply of Samples will commence as soon as is practicable after the Effective Date. This Agreement will last indefinitely from the Effective Date. The obligations under this agreement shall expire immediately after termination. This Agreement may only be terminated by mutual agreement and written consent of both Parties.",
+        "explanation": "The original Clause 7.4 specifies the agreement lasts for one year, with obligations lasting five years. The modified clause states it lasts indefinitely, and obligations expire immediately upon termination. Furthermore, the original allows termination by either party with 30 days' notice, but the modified version requires mutual agreement for termination. This creates contradictions in the agreement's duration, the lifespan of the obligations, and the termination process.",
+        "location": "7.4",
+        "contradicted_location": "7.4",
+        "contradicted_text": "7.4) The Evaluation and supply of Samples will commence as soon as is practicable after the Effective Date. This Agreement will last indefinitely from the Effective Date. The obligations under this agreement shall expire immediately after termination. This Agreement may only be terminated by mutual agreement and written consent of both Parties.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text and the contradicted text are identical, and they both directly contradict the original text. The original Clause 7.4 states the agreement lasts for one year with obligations lasting five years and can be terminated by either party with 30 days notice. The changed text states the agreement lasts indefinitely, obligations expire immediately upon termination, and termination requires mutual agreement. This creates a clear contradiction regarding the agreement's duration, the lifespan of obligations, and the termination process, fitting the definition of a structural flaw."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "7.8) The existence, terms, and subject matter of this Agreement are confidential between the Parties and are not to be disclosed to any third parties.",
+        "changed_text": "7.8) The existence, terms, and subject matter of this Agreement are public and may be disclosed to any third parties.",
+        "explanation": "Clause 7.8 originally mandates confidentiality of the Agreement's existence, terms, and subject matter. The changed text states they are public and disclosable to any third party, creating a direct contradiction regarding the confidentiality of the agreement's details. This fundamentally undermines the purpose of a confidentiality agreement.",
+        "location": "7.8",
+        "contradicted_location": "7.8",
+        "contradicted_text": "7.8) The existence, terms, and subject matter of this Agreement are public and may be disclosed to any third parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the agreement is confidential, while the changed text explicitly states the agreement is public and disclosable. The contradicted text is the same as the Changed Text, which means that there is a contradiction introduced to the agreement by changing the original text to the Changed Text, because it directly opposes the original clause regarding confidentiality. This contradiction is strong because confidentiality and public disclosure are mutually exclusive concepts in this context. This aligns with the provided perturbation definition of 'Structural Flaws - In Text Contradiction' where a clause is placed in multiple locations with conflicting implications."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "8.1) This Agreement, and the relationship between (Your Company Name) and Petro- Lubricant Testing Laboratories, Inc. under this Agreement, shall in all respects be interpreted in accordance with and governed by the laws of the United States of America and the State of (Your State), and the Parties agree to submit to the exclusive jurisdiction of those courts in relation to any dispute arising out of or in connection with this Agreement (whether based in contract, tort (including negligence) or otherwise).",
+        "changed_text": "8.1) This Agreement, and the relationship between (Your Company Name) and Petro- Lubricant Testing Laboratories, Inc. under this Agreement, shall in all respects be interpreted in accordance with and governed by the laws of England and Wales, and the Parties agree to submit to binding arbitration in Switzerland in relation to any dispute arising out of or in connection with this Agreement (whether based in contract, tort (including negligence) or otherwise).",
+        "explanation": "The original Clause 8.1 specifies that the agreement is governed by the laws of the United States of America and (Your State), with disputes subject to the exclusive jurisdiction of those courts. The modified version states that the agreement is governed by the laws of England and Wales, and disputes will be resolved through binding arbitration in Switzerland. This creates a direct conflict in the choice of law and dispute resolution mechanism.",
+        "location": "8.1",
+        "contradicted_location": "8.1",
+        "contradicted_text": "8.1) This Agreement, and the relationship between (Your Company Name) and Petro- Lubricant Testing Laboratories, Inc. under this Agreement, shall in all respects be interpreted in accordance with and governed by the laws of England and Wales, and the Parties agree to submit to binding arbitration in Switzerland in relation to any dispute arising out of or in connection with this Agreement (whether based in contract, tort (including negligence) or otherwise).",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies Clause 8.1 to specify that the agreement is governed by the laws of England and Wales, with disputes subject to binding arbitration in Switzerland, while the contradicted text states the same. The original Clause 8.1 specifies that the agreement is governed by the laws of the United States of America and (Your State), with disputes subject to the exclusive jurisdiction of those courts. The changed text creates a direct conflict and introduces a structural flaw as described in the Perturbation Explanation, as the clause is located in multiple locations with conflicting jurisdiction, resolution, and applicable law."
+      }
+    ]
+  }
+]

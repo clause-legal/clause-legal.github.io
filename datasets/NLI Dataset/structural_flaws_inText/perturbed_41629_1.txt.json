@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "41629_1.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "I acknowledge that this Agreement shall remain in force in perpetuity.",
+        "changed_text": "I acknowledge that this Agreement shall remain in force for a period of five (5) years from the date of signing.",
+        "explanation": "Changing 'in perpetuity' to 'for a period of five (5) years' directly contradicts the original statement, creating a clear inconsistency about the duration of the agreement. This directly contradicts the duration mentioned in the earlier part of the agreement, specifically regarding the agreement being 'in perpetuity'",
+        "location": "NON-DISCLOSURE AGREEMENT section, near the end",
+        "contradicted_location": "NON-DISCLOSURE AGREEMENT section, near the end",
+        "contradicted_text": "I acknowledge that this Agreement shall remain in force for a period of five (5) years from the date of signing.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the agreement is 'in perpetuity'. The changed text limits the agreement to 'five (5) years'. The contradicted text also states 'five (5) years'. The change creates a direct conflict, as 'in perpetuity' and 'five (5) years' are mutually exclusive durations. The change from perpetuity to a five-year term directly contradicts the initial intention of the contract to exist indefinitely."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "That in the event of agreeing to purchase the Business and/or Property will pay to TBP a deposit as a sign of good faith amounting to 5% of the purchase price but subject to a minimum of £5,000.",
+        "changed_text": "That in the event of agreeing to purchase the Business and/or Property may pay to TBP a deposit as a sign of good faith amounting to 5% of the purchase price but subject to a minimum of £5,000.",
+        "explanation": "Changing 'will pay' to 'may pay' introduces uncertainty about the deposit requirement. The original clause made the deposit mandatory upon agreement to purchase; the modified version makes it optional, contradicting the original obligation. This directly creates conflict, as the rest of the 'TERMS AND CONDITIONS' section relies on the assumption of this deposit.",
+        "location": "TERMS AND CONDITIONS section, point 1",
+        "contradicted_location": "TERMS AND CONDITIONS section, points 2 and 3",
+        "contradicted_text": "In the event that you withdraw from the purchase without good reason and where such reason is not connected to the purchase of the business, then the deposit will be used to cover our Clients reasonable legal costs (up to a maximum of £2,500), such costs being subject to VAT, up to the point of withdrawal. 3. That if you withdraw for any reason once Heads of Terms or Memorandum of Sale has been prepared and issued you will be charged an Agents Fee of £695.00 plus VAT. The balance of the deposit shall be returned to you forthwith.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that the buyer 'will pay' a deposit, making it mandatory. The changed text modifies this to 'may pay', making the deposit optional. The contradicted text describes scenarios where 'the deposit will be used' or 'the balance of the deposit shall be returned', implying that a deposit exists. Because the 'may pay' in the changed text makes the deposit optional, it directly contradicts the terms outlined in the contradicted text, creating uncertainty and a strong inconsistency, and falling under the definition of Structural Flaws - In Text Contradiction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "922913_0000943440-00-000122_document_2.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "With respect to each item of Proprietary Information disclosed, this obligation of the parties under this Agreement shall expire three (3) years from the date of each such disclosure or the maximum period permitted by law if such period is less than three (3) years.",
+        "changed_text": "With respect to each item of Proprietary Information disclosed, this obligation of the parties under this Agreement shall expire ten (10) years from the date of each such disclosure or the maximum period permitted by law if such period is less than ten (10) years.",
+        "explanation": "This change creates an in-text contradiction by extending the confidentiality period from three years to ten years. This directly contradicts the original stated period and creates confusion as to which expiration term applies. This change introduces uncertainty about the duration of the confidentiality obligations.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "With respect to each item of Proprietary Information disclosed, this obligation of the parties under this Agreement shall expire ten (10) years from the date of each such disclosure or the maximum period permitted by law if such period is less than ten (10) years.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified a confidentiality period of three years, while the changed text extends this period to ten years. The contradicted text also states a confidentiality period of ten years. However, the change from three to ten years in the modified section creates a contradiction because, prior to the change, the original text contradicted the contradicted text. With this change, the two clauses align to ten years, effectively resolving the initial contradiction. However, the perturbation explanation highlights that this creates an in-text contradiction due to the change itself, which introduces confusion. Therefore, based on the explanation given, it is concluded there is a contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "9. No modification, alteration, or addition to this Agreement shall be binding unless mutually agreed to in writing by both parties.",
+        "changed_text": "9. No modification, alteration, or addition to this Agreement shall be binding unless agreed to by INFE.",
+        "explanation": "The changed text now states that modifications only need to be agreed to by INFE to be binding, where the original states that they must be agreed to by both parties. This contradiction creates uncertainty around the enforcement of modifications and opens up the possibility of unilateral changes by INFE.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "No modification, alteration, or addition to this Agreement shall be binding unless agreed to by INFE.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that modifications require agreement from both parties, while the changed text specifies that agreement is only required from INFE. The contradicted text repeats the changed text which directly contradicts the original requirement for mutual agreement. This creates a clear inconsistency regarding the process for modifying the agreement, leading to uncertainty about whose agreement is necessary for changes to be binding. Therefore it is a strong in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement shall be construed, interpreted, and enforced according to the laws of the Commonwealth of Virginia and the parties hereto consent to jurisdiction therein.",
+        "changed_text": "This Agreement shall be construed, interpreted, and enforced according to the laws of the State of Delaware and the parties hereto consent to jurisdiction therein.",
+        "explanation": "By changing the jurisdiction from the Commonwealth of Virginia to the State of Delaware, this creates an in-text contradiction regarding which state's laws govern the agreement. This conflict introduces legal uncertainty and can lead to disputes over which jurisdiction's legal precedents and statutes apply.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "This Agreement shall be construed, interpreted, and enforced according to the laws of the State of Delaware and the parties hereto consent to jurisdiction therein.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies Virginia law governs the agreement, while the changed text specifies Delaware law. The contradicted text also specifies Delaware law. Changing the governing law creates a direct conflict and inconsistency because the two states have different legal precedents and statutes. This satisfies the 'Inconsistencies - In Text Contradiction' definition, making enforcement unclear."
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "Confidentiality_Agreement_1.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Every contract party can disclose confidential i nformation to the other contract party orally or in writing.",
+        "changed_text": "Either contract participant can disclose confidential information to the other contract participant orally or in writing.",
+        "explanation": "Replacing 'contract party' with 'contract participant' introduces a subtle shift that, without further clarification, suggests that there may be a legal and operational difference between the two, creating ambiguity. Later uses of 'contract party' could then be challenged. This creates contradiction becasue the agreement defines that the document is between two parties (Buyer and Seller), by introducing participant there is no definition of this term, creating contradiction",
+        "location": "Section 2",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "The contract parties are obligated to preclude d isclosure of confidential information to third part ies. The parties will entrust confidential information solely to those em ployees, consultants and third party companies whi ch are concerned with the processing of the order and whic h are legally or contractually obligated to secrecy .",
+        "contradiction_exists": "YES",
+        "justification": "The original text consistently uses 'contract party,' which aligns with the definition of the agreement being between two parties (Buyer and Seller). The changed text introduces 'contract participant,' a term not previously defined. This creates ambiguity because the contradicted text refers to obligations of 'contract parties,' and it's unclear whether 'contract participant' falls under the same obligations. This misalignment in terminology creates a contradiction as it introduces an undefined term when the rest of the contract, especially the contradicted text, relies on the well-defined 'contract parties'. This aligns with the definition of 'Misaligned Terminology - In Text Contradiction' because it uses multiple terms interchangeably without defining them, leading to conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The parties will entrust confidential information solely to those em ployees, consultants and third party companies whi ch are concerned with the processing of the order and whic h are legally or contractually obligated to secrecy .",
+        "changed_text": "The sides will entrust confidential information solely to those em ployees, consultants and third party companies whi ch are concerned with the processing of the order and whic h are legally or contractually obligated to secrecy .",
+        "explanation": "Changing 'parties' to 'sides' creates ambiguity. The agreement refers to parties on other instances, creating contradiction on which entity is being reffered to. If the definition of parties in the preamble is being reffered or a new undefined term named sides. This introduces a perturbation since the terms sides is not present in the original text.",
+        "location": "Section 3",
+        "contradicted_location": "Section 11",
+        "contradicted_text": "The parties agree that for this agreement Germa n law applies excluding the United Nations Conventi on on Contracts for the International Sale of Goods. The legal venue for all disputes arising from this agre ement is the head office of the company Helukabel in Hemmingen.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'parties' to 'sides' introduces a term not previously defined in the contract. The contradicted text explicitly refers to 'the parties,' establishing a specific entity. By using 'sides,' the modified text creates ambiguity about whether it refers to the same 'parties' or introduces a new, undefined entity, leading to a contradiction as the agreement's obligations and rights are tied to 'the parties'. This aligns with the definition of 'Misaligned Terminology - In Text Contradiction' since a new term is introduced without defining it, which can cause conflict with existing definitions in the contract."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "To the extent that technical drawings of certain third-party companies are not to be made known, th e buyer must point this fact out on its own initiative.",
+        "changed_text": "To the extent that technical drawings of certain external entities are not to be made known, th e buyer must point this fact out on its own initiative.",
+        "explanation": "By changing 'third-party companies' to 'external entities' the clause becomes ambiguous. It is unclear if 'external entities' include all third-party companies, or other types of organizations, creating contradiction. Because there is no definition of External entities, this creates doubt on who is responsible in the case a non-third party company makes the technical drawings known",
+        "location": "Section 4",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "The contract parties are obligated to preclude d isclosure of confidential information to third part ies. The parties will entrust confidential information solely to those em ployees, consultants and third party companies whi ch are concerned with the processing of the order and whic h are legally or contractually obligated to secrecy .",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'third-party companies' to 'external entities' introduces ambiguity because 'external entities' is not defined, while 'third party companies' is mentioned in the contradicted text. The contradiction arises because it's unclear if the obligations regarding confidential information extend to all 'external entities' or just 'third party companies'. This creates a strong contradiction as it impacts the scope of responsibility for disclosure of confidential information, creating uncertainty regarding the contract's enforceability."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The confidentiality agreement does not apply to statements of the company Helukabel in its catalogu es, datasheets and on the homepage and also not to info rmation which a) the receiving party was already aware of or whic h was developed by the disclosing party itself inde pendent of the disclosure, b) is publicly known without this agreement having been broken, c) was received by a third party without infringeme nt of this or any other confidentiality agreement.",
+        "changed_text": "This secrecy understanding does not apply to statements of the company Helukabel in its catalogu es, datasheets and on the homepage and also not to info rmation which a) the receiving associate was already aware of or whic h was developed by the disclosing associate itself inde pendent of the disclosure, b) is publicly known without this agreement having been broken, c) was received by an outside associate without infringeme nt of this or any other secrecy understanding.",
+        "explanation": "Changing 'confidentiality agreement' to 'secrecy understanding', 'receiving party' to 'receiving associate', 'disclosing party' to 'disclosing associate', and 'third party' to 'outside associate' introduces significant ambiguity. Because there is no definition of associate, there is no clarity on which entities should be reffered to, creating an in-text contradiction and doubting on the scope of the contract",
+        "location": "Section 6",
+        "contradicted_location": "Section 9",
+        "contradicted_text": "At the end of the contract the receiving party s hall return the confidential information and any po ssibly extant copies after receipt of a written request, provided that this is technically feasible and does not vio late the retention obligations. As an alternative to that, the receivi ng party can also ensure in writing the destruction of the received documentation if that is technically feasible.",
+        "contradiction_exists": "YES",
+        "justification": "The change introduces ambiguity by replacing established terms like 'confidentiality agreement', 'receiving party', 'disclosing party', and 'third party' with new terms 'secrecy understanding', 'receiving associate', 'disclosing associate', and 'outside associate' without defining 'associate'. The contradicted text refers to the 'receiving party'. Because 'receiving party' has now been replaced by 'receiving associate' without a clear definition of 'associate' throughout the rest of the document, it's unclear if the obligations that were intended for the receiving party still holds, creating a misaligned terminology contradiction within the contract, as per the definitions."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "If the recipient is forced to expose the confide ntial information due to a legal regulation, a lega lly valid judgement or a non-disputable official decision or decree in part or in whole, it shall immediately inform the o wner of the confidential information in writing so that the own er can take measures to protect the confidential in formation.",
+        "changed_text": "If the receiver is forced to expose the confide ntial material due to a legal regulation, a lega lly valid judgement or a non-disputable official decision or decree in part or in whole, it shall immediately inform the o wner of the confidential material in writing so that the own er can take measures to protect the confidential material.",
+        "explanation": "Changing 'information' to 'material' introduces ambiguity. It becomes unclear whether all 'information' referred to previously now means 'material,' or if there's a distinction. This creates contradiction on what each entity has rights and responsibilities to. This becomes problematic if, for instance, documentation could be considered both information and material. The agreement defines that the confidentiality refers to the confidential information, if the term is swapped to confidential material, the document losses definition on its scope.",
+        "location": "Section 7",
+        "contradicted_location": "Section 5",
+        "contradicted_text": "All confidential information remains the propert y of the disclosing contract party.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'confidential information' to 'confidential material' introduces ambiguity and directly contradicts the original definition by potentially broadening or altering its scope. The contradicted text states that 'All confidential information remains the property of the disclosing contract party.' If 'confidential information' is now replaced with or could also mean 'confidential material,' it creates uncertainty about what exactly remains the property of the disclosing party, as the agreement defines that the confidentiality refers to the confidential information. This aligns with the definition of Misaligned Terminology - In Text Contradiction, as the contract uses multiple terms interchangeably without defining them, leading to conflicting obligations on what each entity has rights and responsibilities to."
+      }
+    ]
+  }
+]

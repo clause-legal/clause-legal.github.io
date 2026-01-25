@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Non%20Disclosure%20Agreement_1.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This agreement shall terminate upon the mutual agreement of the parties, or at such time that the parties and their assigns no longer have any legal or equitable claim to anyConfidential Information.",
+        "changed_text": "This agreement shall terminate after 30 days, regardless of mutual agreement or legal claims to Confidential Information.",
+        "explanation": "Section 6 originally stated that the agreement terminates upon mutual agreement or when legal claims to Confidential Information cease. The modified text now states the agreement terminates after 30 days, regardless of those conditions, thus contradicting the original termination conditions. The new changes contradict the old ones on how to terminate the agreement.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "This agreement shall terminate upon the mutual agreement of the parties, or at such time that the parties and their assigns no longer have any legal or equitable claim to anyConfidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the agreement terminates upon mutual agreement or when legal claims cease. The changed text states the agreement terminates after 30 days regardless of those conditions, which contradicts the original termination conditions. The contradicted text is the original text repeated elsewhere in the document, so the change directly creates an in-text contradiction by modifying the agreement's termination clause."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "WHEREAS , unauthorized disclosure of any confidential information to any person or entity will cause irreparable harm to the parties",
+        "changed_text": "WHEREAS, disclosure of confidential information to any person or entity is permissible and will not cause any harm to the parties.",
+        "explanation": "The original agreement says that unauthorized disclosure of confidential information will cause irreparable harm. The changed agreement states that disclosure of confidential information will not cause any harm. This is a direct contradiction to the main goal of the NDA.",
+        "location": "WHEREAS",
+        "contradicted_location": "WHEREAS",
+        "contradicted_text": "WHEREAS , unauthorized disclosure of any confidential information to any person or entity will cause irreparable harm to the parties",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that disclosure of confidential information is permissible and will not cause harm, directly contradicting the contradicted text, which states that unauthorized disclosure of confidential information will cause irreparable harm. This is a direct in-text contradiction because both clauses address the same issue (disclosure of confidential information) but have opposing statements regarding its permissibility and potential harm, as per the given explanation and the 'Structural Flaws - In Text Contradiction' definition."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "C onfidential Information does not include information which a party can demonstrate and document that: (a ) was in his or her knowledge or possession prior to receiving the information from the other party; or, (b) was public knowledge or has become public knowledge through no fault of the party claiming that the information is not Confidential Information; or, (c) was independently developed without reference to the Confidential Information; or, (d) came into his or her possession through a third party who was not obligated to keep the information confidential.",
+        "changed_text": "C onfidential Information also includes information which a party can demonstrate and document that: (a ) was in his or her knowledge or possession prior to receiving the information from the other party; or, (b) was public knowledge or has become public knowledge through no fault of the party claiming that the information is not Confidential Information; or, (c) was independently developed without reference to the Confidential Information; or, (d) came into his or her possession through a third party who was not obligated to keep the information confidential.",
+        "explanation": "Section 2 defines what is *not* considered Confidential Information. By changing 'does not include' to 'also includes', the same information that was explicitly excluded is now included in the definition. This directly contradicts the intent of the original clause and expands the scope of Confidential Information inconsistently.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "C onfidential Information does not include information which a party can demonstrate and document that: (a ) was in his or her knowledge or possession prior to receiving the information from the other party; or, (b) was public knowledge or has become public knowledge through no fault of the party claiming that the information is not Confidential Information; or, (c) was independently developed without reference to the Confidential Information; or, (d) came into his or her possession through a third party who was not obligated to keep the information confidential.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'does not include' with 'also includes' in the definition of Confidential Information. This creates a direct contradiction with the contradicted text, which states the opposite. The changed text now includes information that was explicitly excluded, making the definition inconsistent and contradictory."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Notwiths tanding the duty of non-disclosure in paragraph 3, the parties may disclose Confidential Information to their directors, officers, employees, advisors and representatives, provided that these persons are bound by the duty of non-disclosure in this agreement and are informed of this duty.",
+        "changed_text": "Notwithstanding the duty of non-disclosure in paragraph 3, the parties may disclose Confidential Information to anyone, regardless of their position or whether they are bound by any duty of non-disclosure.",
+        "explanation": "Section 4 originally allowed disclosure to specific individuals *only* if they were bound by the NDA. The modified text removes this condition, allowing disclosure to *anyone*, regardless of their confidentiality obligations. This fundamentally undermines the purpose of the NDA by making the restriction of non-disclosure pointless, because the parties can disclosed the confidential information to anyone regardless of whether they are bound to any duty of nondisclosure.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "Notwiths tanding the duty of non-disclosure in paragraph 3, the parties may disclose Confidential Information to their directors, officers, employees, advisors and representatives, provided that these persons are bound by the duty of non-disclosure in this agreement and are informed of this duty.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly allows disclosure of Confidential Information to *anyone*, regardless of whether they are bound by a duty of non-disclosure. The contradicted text states that disclosure is permitted only to specific individuals (directors, officers, employees, etc.) *provided* they are bound by the duty of non-disclosure. This creates a direct contradiction because the changed text removes the condition of non-disclosure, undermining the confidentiality requirements outlined in the contradicted text, and explicitly contradicting the original condition"
+      }
+    ]
+  }
+]

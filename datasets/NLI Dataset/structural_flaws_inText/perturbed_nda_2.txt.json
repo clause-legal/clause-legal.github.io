@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "nda_2.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "If Producer determines that the Submission is suitable for further development into a Project, Producer and Writer will attempt to agree on a schedule for development, and compensation to Writer for the submission.",
+        "changed_text": "If Producer determines that the Submission is suitable for further development into a Project, Producer may, at its sole discretion and without any obligation to Writer, proceed with development without agreement on a schedule or compensation.",
+        "explanation": "The original text states that both parties will attempt to agree on a schedule and compensation. The modified clause removes the need for agreement, giving Producer unilateral power. This contradicts the implied good faith negotiation in the original, creating uncertainty about the Writer's rights.",
+        "location": "7",
+        "contradicted_location": "12",
+        "contradicted_text": "Nothing in this agreement shall be deemed a sale or offer for sale of the Submission, and nothing contained herein shall in any way obligate Writer to grant to Producer a license or any other rights, directly or by implication, estoppel or otherwise to the Confidential Information or the Submission.",
+        "contradiction_exists": "YES",
+        "justification": "The original text implies a good-faith negotiation between Producer and Writer regarding schedule and compensation. The Changed Text gives the Producer sole discretion to proceed without any agreement on schedule or compensation, effectively removing the Writer's negotiating power. This directly contradicts the Contradicted Text, which states that the agreement does not obligate the Writer to grant any rights to the Submission by implication or otherwise. The Producer proceeding without agreement on compensation and schedule implies they have rights to the submission, creating a contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Other than as specifically provided herein, Producer will not use the Confidential Information for any purpose whatsoever other than for the sole purpose permitted in paragraph 3 hereof, unless and until a further executed agreement is first made between the parties setting forth the terms and conditions under which rights to the Submission and the Confidential Information are to be licensed to, or acquired by, Producer.",
+        "changed_text": "Producer may use the Confidential Information for any purpose whatsoever, even beyond the scope outlined in paragraph 3, without requiring any further agreement with Writer.",
+        "explanation": "The original text restricts the use of confidential information. The modified clause removes this restriction. Now, section 8 contradicts section 3, which specifies a limited purpose for the disclosure, and undermines the core intent of the NDA.",
+        "location": "8",
+        "contradicted_location": "3",
+        "contradicted_text": "Writer will disclose the Confidential Information to Producer solely for the purpose of allowing Producer to evaluate the Submission to dete rmine, in its sole discretion, whether the Submission may be further developed into a Project.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the Producer cannot use the Confidential Information for any purpose other than the one in paragraph 3. The changed text allows the Producer to use the Confidential Information for any purpose, even beyond paragraph 3. This directly contradicts the contradicted text, which states that the Writer discloses Confidential Information to Producer solely to evaluate the Submission to develop into a Project. The changed text removes this sole purpose restriction, creating a strong contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Writer agrees that it will not contact any party or parties other than Producer concerning the Confidential Information without prior written authorization from Producer during the term of this agreement.",
+        "changed_text": "Writer is free to contact any party or parties, including those in direct competition with Producer, concerning the Confidential Information at any time, with or without authorization from Producer.",
+        "explanation": "The original clause restricts the Writer from contacting other parties regarding the confidential information. The modified clause removes this restriction and allows contact with anyone. This directly contradicts the purpose of the NDA and section 9, removing the protection of the information.",
+        "location": "9",
+        "contradicted_location": "5",
+        "contradicted_text": "The Confidential Information shall rema in the property of Writer and shall not be disclosed or revealed by Producer or anyone else except employees of Producer who have a need to know the information in connection with Producer’s evalua tion of the Submission, and who have entered into a secrecy agreement with Producer under which such employees are required to keep confidential the Confidential Information of Writer, and such employees shall be advised by Producer of the confidential nature of the information and that the information shall be treated accordingly. Producer shall be liable for any improper disclosure of the Confidential Information by its employees.",
+        "contradiction_exists": "YES",
+        "justification": "The original clause restricts the Writer from contacting other parties regarding confidential information. The changed clause allows the Writer to contact any party regarding the confidential information. The contradicted text states that the Confidential Information shall not be disclosed or revealed except to specific employees under secrecy agreements. Allowing the writer to disclose the Confidential Information to any party directly contradicts the purpose of the NDA in the contradicted text."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": ".10. Producer’s obligations under paragraphs 3,4, and 8 of this agreement shall extend from the date of this agreement and shall survive the expiration or term ination of this agreement, provided, however, that Producer’s obligations under paragraphs 3 and 4 of this agreement shall terminate immediately in the event that Writer .shall purposefully disclose the Confidential Information to any other person, firm, or corporation on a non-confidential basis, during the term of this Agreement.",
+        "changed_text": ".10. Producer's obligations under paragraphs 3, 4, and 8 of this agreement shall immediately terminate upon the execution of this agreement.",
+        "explanation": "The original clause states that the Producer's obligations survive termination of the agreement under certain conditions. The modified clause states that the Producer's obligations terminate immediately upon execution. This creates a clear contradiction, making the entire NDA pointless and unenforceable, as the confidentiality obligations cease to exist from the moment the agreement is signed. This change contradicts almost every other section of the agreement that outlines confidentiality obligations.",
+        "location": "10",
+        "contradicted_location": "4",
+        "contradicted_text": "Producer agrees to accept disclosure of the Confidential Information and to exercise the same degree of care to maintain the Confidential Info rmation secret and confidential as is employed by Producer to preserve and safeguard its own materials and confidential information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that the producer's obligations terminate immediately upon the execution of the agreement. This directly contradicts the contradicted text, which states that the producer agrees to maintain confidentiality and safeguard the confidential information. Since the changed text eliminates the confidentiality obligations immediately, it creates a strong contradiction with the contradicted text, making the agreement pointless."
+      }
+    ]
+  }
+]

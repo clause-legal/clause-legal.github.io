@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "916529_0000927016-97-001071_document_2.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "TERM The PROGRAM shall have a nominal term of one year commencing with the effective date of this Agreement, and may be extended at the mutual written agreement of IEC and EFL.",
+        "changed_text": "TERM The PROGRAM shall have a nominal term of one year commencing with the effective date of this Agreement, and may be extended at the discretion of IEC.",
+        "explanation": "By changing the condition for extension from 'mutual written agreement of IEC and EFL' to 'at the discretion of IEC,' we create a contradiction. The clause 'ENTIRE AGREEMENT This Agreement constitutes the entire understanding of the Parties and may only be modified by an amendment in writing executed by authorized persons on behalf of both IEC and EFL' suggests that changes to the agreement require both parties' consent. However, changing the term extension to IEC's discretion allows IEC to unilaterally alter the term. The contradiction lies in whether changes require mutual consent or if IEC alone can decide on extending the term.",
+        "location": "TERM",
+        "contradicted_location": "ENTIRE AGREEMENT",
+        "contradicted_text": "ENTIRE AGREEMENT This Agreement constitutes the entire understanding of the Parties and may only be modified by an amendment in writing executed by authorized persons on behalf of both IEC and EFL.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that the program term could be extended with mutual written agreement of both IEC and EFL. The changed text modifies this to allow extension at the discretion of IEC only. The contradicted text states that the entire agreement can only be modified by a written amendment executed by both IEC and EFL. Because the changed text allows IEC to extend the term unilaterally, while the contradicted text requires mutual agreement for all modifications, this creates a direct contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Either IEC or EFL may terminate the PROGRAM at any time without cause on written notice to the other.",
+        "changed_text": "IEC may terminate the PROGRAM at any time without cause on written notice to the other, but EFL may only terminate the program for a material breach of this agreement.",
+        "explanation": "Altering the termination clause so that IEC can terminate 'at any time without cause,' but EFL can only terminate 'for a material breach of this agreement,' introduces a contradiction concerning equality between the parties. This is especially evident when viewed with the 'ENTIRE AGREEMENT' clause, which implies a mutual understanding. The fact that IEC can terminate freely, while EFL is restricted, contradicts the general implication of balanced rights and responsibilities and the agreement that implies that both parties must agree to the conditions set in it.",
+        "location": "TERM",
+        "contradicted_location": "ENTIRE AGREEMENT",
+        "contradicted_text": "ENTIRE AGREEMENT This Agreement constitutes the entire understanding of the Parties and may only be modified by an amendment in writing executed by authorized persons on behalf of both IEC and EFL.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed both IEC and EFL to terminate the program at any time without cause. The changed text now restricts EFL's ability to terminate to only instances of 'material breach,' while IEC can still terminate at any time. This creates an imbalance in the agreement, directly contradicting the 'ENTIRE AGREEMENT' clause, which implies a mutual understanding and balanced rights. This contradicts the premise that both parties agreed to the same conditions and introduces an inequitable term, making it a strong in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Any notice required or permitted under this Agreement shall be submitted in writing, shall become effective at the time of its receipt, and shall be addressed as follows, or to such other addresses either party designates from time to time:",
+        "changed_text": "Any notice required or permitted under this Agreement shall be submitted via email, shall become effective 3 days after sending, and shall be addressed as follows, or to such other addresses designated by IEC from time to time:",
+        "explanation": "By changing the condition of sending notices from 'in writing' to 'via email', the moment when the notice becomes effective from 'time of its receipt' to '3 days after sending' and the ability to designate 'such other addresses either party designates from time to time:' to 'such other addresses designated by IEC from time to time:' we create a contradiction with the understanding of the whole agreement because the other parts agreed with 'in writing' and that the power for making changes was between the parts, not just one. The fact that IEC can change unilaterally, contradicts the agreement as a whole.",
+        "location": "NOTICE",
+        "contradicted_location": "ENTIRE AGREEMENT",
+        "contradicted_text": "ENTIRE AGREEMENT This Agreement constitutes the entire understanding of the Parties and may only be modified by an amendment in writing executed by authorized persons on behalf of both IEC and EFL.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the agreement by stating that notices must be sent 'via email' and become effective '3 days after sending'. It also gives IEC the unilateral right to designate addresses. This directly contradicts the 'ENTIRE AGREEMENT' clause, which states that modifications require a written amendment executed by both IEC and EFL. By changing the notification method, effectiveness, and address designation unilaterally, the changed text creates a strong contradiction with the original agreement that modifications need to be 'in writing executed by authorized persons on behalf of both IEC and EFL'."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement shall not be assigned by either Party without the prior written consent of the other Party, except that either Party may assign its rights under the Agreement to the successors or assigns of all or substantially all of its business assets relating to the subject matter of this Agreement.",
+        "changed_text": "This Agreement may be assigned by IEC without the prior written consent of the other Party, except that IEC may assign its rights under the Agreement to the successors or assigns of all or substantially all of its business assets relating to the subject matter of this Agreement. EFL may not assign this agreement under any condition.",
+        "explanation": "By altering the assignment clause to allow IEC to assign the agreement without consent, while prohibiting EFL from assigning it under any condition, a contradiction is created. This undermines the principle of mutual agreement implied in the 'ENTIRE AGREEMENT' clause. The clause implies that all parties contribute equally to the terms; however, this alteration grants IEC significantly more power and flexibility regarding assignment. This alteration creates a contradiction.",
+        "location": "ASSIGNMENT",
+        "contradicted_location": "ENTIRE AGREEMENT",
+        "contradicted_text": "ENTIRE AGREEMENT This Agreement constitutes the entire understanding of the Parties and may only be modified by an amendment in writing executed by authorized persons on behalf of both IEC and EFL.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the original text by granting IEC the right to assign the agreement without prior written consent, while simultaneously prohibiting EFL from assigning it under any circumstances. This directly contradicts the 'ENTIRE AGREEMENT' clause, which states that the agreement represents the complete understanding of both parties and can only be modified by a written amendment executed by both IEC and EFL. The changed text creates an imbalance in the parties' rights and introduces a condition that was not mutually agreed upon, violating the spirit and letter of the 'ENTIRE AGREEMENT' clause."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "EFL is a developer and owner of proprietary technology in the areas of electric energy generation and storage, batteries and Electric Fuel/(R)/ hereinafter \"The EFL System.\" IEC and EFL mutually wish to enter into a limited period of information exchange for the purpose of evaluating a business relationship related to EFL's Technology.",
+        "changed_text": "EFL is a developer and owner of proprietary technology in the areas of electric energy generation and storage, batteries and Electric Fuel/(R)/ hereinafter \"The EFL System.\" IEC wishes to enter into a period of information exchange for the purpose of potentially utilizing EFL's Technology.",
+        "explanation": "Changing the language from 'IEC and EFL mutually wish to enter into a limited period of information exchange for the purpose of evaluating a business relationship related to EFL's Technology' to 'IEC wishes to enter into a period of information exchange for the purpose of potentially utilizing EFL's Technology' creates a contradiction. The original text implies a mutual agreement for a business relationship. The revised text suggests only IEC's intention to use EFL's technology. This change now contradicts the \"ENTIRE AGREEMENT\" clause, which expresses that the agreement is between both parties.",
+        "location": "SCHEDULE C - NON-DISCLOSURE AGREEMENT",
+        "contradicted_location": "ENTIRE AGREEMENT",
+        "contradicted_text": "ENTIRE AGREEMENT This Agreement constitutes the entire understanding of the Parties and may only be modified by an amendment in writing executed by authorized persons on behalf of both IEC and EFL.",
+        "contradiction_exists": "YES",
+        "justification": "The original text establishes a mutual agreement between EFL and IEC for information exchange to evaluate a business relationship. The changed text shifts this to IEC expressing its intent to use EFL's technology, removing the mutuality aspect. This contradicts the 'ENTIRE AGREEMENT' clause, which states the agreement is between both parties (IEC and EFL). This is a structural flaw that introduces an in-text contradiction because the changed section now implies a unilateral intention, while the entire agreement is supposed to be bilateral, as defined by the ENTIRE AGREEMENT Clause. The changed text creates a strong conflict because the entire agreement's definition relies on both parties having an agreement, and if that mutual agreement is only one-sided, it contradicts the agreement itself."
+      }
+    ]
+  }
+]

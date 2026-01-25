@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "1052946_0000950134-98-001627_document_4.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Consideration for compliance with this Agreement is the opportunity to work under the aforementioned Cooperative Production Agreement and any remuneration in any form agreed to by the parties.",
+        "changed_text": "Consideration for compliance with this Agreement is solely the opportunity to work under the aforementioned Cooperative Production Agreement. Remuneration is not considered a valid consideration for this agreement.",
+        "explanation": "This change removes 'any remuneration' as consideration, creating a contradiction. If remuneration was previously understood to be a key part of the agreement and if it stops it will create contradiction with section 2.0, where the employees are obligated to not disclose information and know-how, but no longer receiving any consideration for the non-disclosure, since there is no 'remuneration'.",
+        "location": "1.2",
+        "contradicted_location": "2.0",
+        "contradicted_text": "Both parties agree that its representatives and employees will not at any time, either during or subsequent to the Period of Affiliation, either directly or indirectly, disclose to others or use any secret, confidential or proprietary information and know-how of the other party (whether or not developed by the other party) without that party's written consent. The term \"secret, confidential or proprietary information and know-how\" shall include, but shall not be limited to, company plans, customers, costs, programs, prices, computer programs and methods used, developed, investigated, made or sold, at any time, either before or during the parties' Period of Affiliation.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly states that 'remuneration is not considered a valid consideration for this agreement.' This directly contradicts the expectation in the contradicted text, where employees are obligated to keep information confidential. The explanation notes that if remuneration, previously understood as a key part of the agreement, stops, it creates a contradiction because employees are obligated to not disclose information without receiving consideration (remuneration) for the non-disclosure. This creates a strong contradiction, because the prior section implies that remuneration is a consideration, and the changed section completely eliminates it. This aligns with 'Omissions – In Text Contradiction' and 'Ambiguities – In Text Contradiction'."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Both parties agree that its representatives and employees will not at any time, either during or subsequent to the Period of Affiliation, either directly or indirectly, disclose to others or use any secret, confidential or proprietary information and know-how of the other party (whether or not developed by the other party) without that party's written consent.",
+        "changed_text": "Both parties agree that its representatives and employees will not, only during the Period of Affiliation, directly disclose to others any secret, confidential or proprietary information and know-how of the other party (whether or not developed by the other party) without that party's written consent. Disclosure can be made after Period of Affiliation.",
+        "explanation": "The change explicitly limits the non-disclosure obligation to *only during* the Period of Affiliation.  This directly contradicts the original intent that the agreement extend 'subsequent to the Period of Affiliation'. Now there is an intext contradiction if the remuneration is supposed to cover the employees in the Period of Affiliation",
+        "location": "2.0",
+        "contradicted_location": "1.2",
+        "contradicted_text": "Consideration for compliance with this Agreement is the opportunity to work under the aforementioned Cooperative Production Agreement and any remuneration in any form agreed to by the parties. This Agreement is intended to extend beyond the Period of Affiliation.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the non-disclosure agreement extends 'subsequent to the Period of Affiliation.' The changed text limits the non-disclosure obligation to 'only during the Period of Affiliation' and allows disclosure after. The contradicted text states that 'This Agreement is intended to extend beyond the Period of Affiliation'. The changed text directly contradicts this, creating a clear in-text contradiction because the non-disclosure is now limited, while the agreement as a whole is meant to extend beyond the Period of Affiliation."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The term \"secret, confidential or proprietary information and know-how\" shall include, but shall not be limited to, company plans, customers, costs, programs, prices, computer programs and methods used, developed, investigated, made or sold, at any time, either before or during the parties' Period of Affiliation.",
+        "changed_text": "The term \"secret, confidential or proprietary information and know-how\" shall include, and is specifically limited to, only source codes of software used, developed, or sold, at any time, either before or during the parties' Period of Affiliation.",
+        "explanation": "This change narrows the definition of confidential information to only software source code. This is a contradiction since this is contradicting with Salary and compensation information is considered confidential and proprietary information, and is fully subject to the disclosure restrictions of this Agreement.",
+        "location": "2.0",
+        "contradicted_location": "2.1",
+        "contradicted_text": "Salary and compensation information is considered confidential and proprietary information, and is fully subject to the disclosure restrictions of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text significantly narrows the definition of 'secret, confidential or proprietary information and know-how' to solely 'source codes of software.' This directly contradicts the 'Contradicted Text,' which explicitly includes 'salary and compensation information' within the scope of confidential and proprietary information. The changed text's limitation therefore creates a clear inconsistency, as salary information would no longer be considered confidential under the new definition, directly conflicting with the previously stated clause."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "No changes to this Agreement shall be effective unless made in writing and executed by both parties.",
+        "changed_text": "Changes to sections 1.0 and 2.0 of this Agreement may be made verbally, with email confirmation acting as sufficient evidence of agreement. All other changes must be in writing and executed by both parties.",
+        "explanation": "This change allows verbal changes to specific sections (1.0 and 2.0) with email confirmation, contradicting the original requirement for all changes to be in writing. Therefore if there is any dispute it will cause conflict within this text.",
+        "location": "3.0",
+        "contradicted_location": "3.0",
+        "contradicted_text": "The rights and obligations of the parties hereto shall be construed under the laws of the State of Texas and shall be binding upon the heirs, legal representatives and assigns with respect to the subject matter thereof. No changes to this Agreement shall be effective unless made in writing and executed by both parties. DELTA STEEL, INC. FWT, Inc. P.O. Box 2289 P.O. Box 8597 Houston, TX 77252 Fort Worth, TX 76124 BY: /s/ R. A. EMBRY BY: /s/ T. W. MOORE ----------------------- -------------------------- TITLE: PRESIDENT TITLE: PRESIDENT -------------------- ----------------------- DATE: 3/10/97 DATE: 3/31/97 --------------------- ------------------------",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that 'No changes to this Agreement shall be effective unless made in writing and executed by both parties.' The changed text creates an exception to this rule, allowing verbal changes to sections 1.0 and 2.0 with email confirmation, which directly contradicts the original text's blanket requirement for written changes. The contradicted text reiterates the original text, solidifying the contradiction introduced by the change."
+      }
+    ]
+  }
+]

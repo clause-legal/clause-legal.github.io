@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "883905_0001095811-01-000469_f68556ex99-d12.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement is entered into and made effective as of the date set forth above by and between Intel Corporation (hereinafter \"Intel\"), and the participant identified below (hereinafter \"Participant\"). Unless the Participant indicates that this Agreement shall apply only to a specific division or location, this Agreement shall apply to the Participant's entire company.",
+        "changed_text": "This Agreement is entered into and made effective as of the date set forth above by and between Intel Corporation (hereinafter \"Intel\"), and the affiliate identified below (hereinafter \"Participant\"). Unless the Participant indicates that this Agreement shall apply only to a specific division or location, this Agreement shall apply to the Participant's entire organization.",
+        "explanation": "The terms 'Participant' and 'affiliate' are used without defining if they mean the same thing. Furthermore, 'company' is swapped for 'organization'. While seemingly synonymous, 'organization' can encompass entities beyond just companies, like non-profits or government agencies. The Agreement initially defines 'Participant', thus changing to 'affiliate' creates uncertainty if this refers to the same entity, contradicting the established definition. This creates an In-Text Contradiction since it starts referring 'participant' as 'affiliate' later in the text.",
+        "location": "PAGE 1, Paragraph 1",
+        "contradicted_location": "PAGE 1, Paragraph 1",
+        "contradicted_text": "This Agreement is entered into and made effective as of the date set forth above by and between Intel Corporation (hereinafter \"Intel\"), and the affiliate identified below (hereinafter \"Participant\"). Unless the Participant indicates that this Agreement shall apply only to a specific division or location, this Agreement shall apply to the Participant's entire organization.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines 'Participant'. The changed text replaces 'Participant' with 'affiliate' while maintaining the parenthetical definition '(hereinafter \"Participant\")'. The contradicted text is identical to the changed text and the perturbation explanation indicates that this creates uncertainty because it's not clear if 'affiliate' and 'Participant' are intended to be the same entity, thus creating a Misaligned Terminology - In Text Contradiction. This directly conflicts with the intention to define the parties involved, making the contract unclear about who is bound by the agreement, which is why the answer is YES."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The confidential, proprietary and trade secret information of the disclosing party (hereinafter \"Confidential Information\") provided hereunder, is that information described in the Confidential Information Transmittal Record (CITR) form executed from time to time hereafter.",
+        "changed_text": "The sensitive, proprietary and trade secret data of the disclosing party (hereinafter \"Confidential Information\") provided hereunder, is that information described in the Confidential Data Registry (CDR) form executed from time to time hereafter.",
+        "explanation": "Here, 'confidential' is replaced with 'sensitive' and 'Information Transmittal Record (CITR)' is replaced with 'Data Registry (CDR)'. While the definition of 'Confidential Information' remains, switching 'CITR' to 'CDR' without definition leads to confusion because the rest of the contract refers to CITR. It is not clear whether the terms refer to the same document or process, generating ambiguity, leading to an In-Text contradiction. ",
+        "location": "PAGE 1, Paragraph 2",
+        "contradicted_location": "PAGE 1, Paragraph 2",
+        "contradicted_text": "The sensitive, proprietary and trade secret data of the disclosing party (hereinafter \"Confidential Information\") provided hereunder, is that information described in the Confidential Data Registry (CDR) form executed from time to time hereafter.",
+        "contradiction_exists": "YES",
+        "justification": "The original text references 'Confidential Information Transmittal Record (CITR)' while the changed text references 'Confidential Data Registry (CDR)'. The rest of the contract refers to CITR, so switching to CDR without further definition creates a contradiction. The contradicted text, which is the same as the changed text in this case, introduces a new term (CDR) that clashes with the existing CITR references, creating ambiguity and an in-text contradiction as it is unclear whether the terms refer to the same thing. This aligns with the 'Misaligned Terminology - In Text Contradiction' definition because the contract uses multiple terms interchangeably without defining them, leading to conflicting obligations. The change also has to do with the lack of definition of CDR in contrast to CITR."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "All information described in a CITR and marked with a \"confidential,\" \"proprietary,\" or similar legend shall be deemed Confidential Information.",
+        "changed_text": "All data described in a CDR and labeled with a \"secret,\" \"proprietary,\" or similar label shall be deemed Confidential Information.",
+        "explanation": "Changing 'information' to 'data', 'marked with a' to 'labeled with a', 'confidential' to 'secret', and 'legend' to 'label'. The change in terminology creates confusion. It is unclear whether ‘data’ and 'information' are the same. 'secret' and 'confidential' can have different legal meanings; also, 'label' and 'legend' are different. As a result, it is not clear if the disclosure of certain data described, might be considered a contract breach. This leads to an In-Text Contradiction.",
+        "location": "PAGE 1, Paragraph 2",
+        "contradicted_location": "PAGE 1, Paragraph 2",
+        "contradicted_text": "All data described in a CDR and labeled with a \"secret,\" \"proprietary,\" or similar label shall be deemed Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces different terminology ('data' instead of 'information', 'secret' instead of 'confidential', 'label' instead of 'legend') compared to the original text, and both the changed text and contradicted text are the same. This creates a 'Misaligned Terminology' contradiction as defined in the Perturbation Definitions. Because the contract uses multiple terms interchangeably without defining them, it leads to conflicting obligations. It becomes unclear whether 'data' and 'information' are the same, and 'secret' and 'confidential' might have different legal meanings, leading to uncertainty and potential disputes regarding disclosure of certain data."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The receiving party shall not disclose Confidential Information to any third party without the prior written approval of the disclosing party.",
+        "changed_text": "The recipient shall not reveal Sensitive Information to any outside party without the express written consent of the disclosing entity.",
+        "explanation": "Replacing 'receiving party' with 'recipient', 'Confidential Information' with 'Sensitive Information', 'third party' with 'outside party', 'approval' with 'consent' and 'disclosing party' with 'disclosing entity'. The contract defined 'Confidential Information,' so replacing it with 'Sensitive Information' without defining it creates ambiguity. Similarly, 'receiving party' was defined, but recipient was not. The other changes add to this. This generates an In-Text Contradiction.",
+        "location": "PAGE 1, Paragraph 3",
+        "contradicted_location": "PAGE 1, Paragraph 3",
+        "contradicted_text": "The recipient shall not reveal Sensitive Information to any outside party without the express written consent of the disclosing entity.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined 'receiving party' and 'Confidential Information'. The changed text replaces these with 'recipient' and 'Sensitive Information' respectively, without defining these new terms. Because the term 'Sensitive Information' is used in the 'Contradicted Text' and there is no definition provided, this creates an in-text contradiction due to misaligned terminology. This follows the definition provided for 'Misaligned Terminology - In Text Contradiction'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The receiving party shall maintain the Confidential Information with at least the same degree of care that the receiving party uses to protect its own similar categories of confidential and proprietary information, but no less than a reasonable degree of care under the circumstances.",
+        "changed_text": "The recipient must handle the Protected Data with at least the same standard of protection that the recipient uses to safeguard its own related types of sensitive and exclusive data, but no less than a suitable level of diligence given the situation.",
+        "explanation": "Substituting 'receiving party' with 'recipient', 'Confidential Information' with 'Protected Data', 'degree of care' with 'standard of protection', 'confidential' and 'proprietary information' with 'sensitive' and 'exclusive data', and 'reasonable degree of care' with 'suitable level of diligence'. This undermines the clear obligations previously defined. 'Protected Data' is undefined, so it's not clear if it is the same as Confidential Information which was defined. The term changes make it unclear what is expected of the recipient. The introduction of 'Protected Data' and 'exclusive data', neither of which are defined, creates significant ambiguity, leading to an In-Text Contradiction.",
+        "location": "PAGE 1, Paragraph 3",
+        "contradicted_location": "PAGE 1, Paragraph 3",
+        "contradicted_text": "The recipient must handle the Protected Data with at least the same standard of protection that the recipient uses to safeguard its own related types of sensitive and exclusive data, but no less than a suitable level of diligence given the situation.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined 'Confidential Information' and 'reasonable degree of care'. The changed text replaces these defined terms with 'Protected Data', 'standard of protection', and 'suitable level of diligence', none of which are defined, creating ambiguity. This undermines the clarity and enforceability of the original agreement. The contradicted text is the changed text, meaning that the changed text is creating a contradiction based on the undefined terms, which is what the explanation says. Based on the Perturbation Explanation, this makes it unclear what is expected of the recipient, leading to an In-Text Contradiction as the contract uses multiple terms interchangeably without defining them. This aligns with the Misaligned Terminology - In Text Contradiction definition."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "In the event this Agreement is terminated, and the disclosing party so requests, the receiving party shall promptly return or destroy (and certify destruction of) all Confidential Information which it received from the disclosing party along with all copies which it made.",
+        "changed_text": "If this Agreement is canceled, and the disclosing entity demands, the recipient will immediately give back or eliminate (and confirm elimination of) all Sensitive Data that it obtained from the disclosing entity together with all duplicates that it created.",
+        "explanation": "Changing 'terminated' to 'canceled', 'disclosing party' to 'disclosing entity', 'receiving party' to 'recipient', 'return' to 'give back', 'destroy' to 'eliminate', 'certify destruction' to 'confirm elimination', 'Confidential Information' to 'Sensitive Data', and 'copies' to 'duplicates'. 'Sensitive Data' contradicts with the established definition of 'Confidential Information'. These inconsistencies could create grounds for legal disputes as to what the obligations of each party are upon termination, leading to an In-Text Contradiction.",
+        "location": "PAGE 1, Paragraph 8",
+        "contradicted_location": "PAGE 1, Paragraph 8",
+        "contradicted_text": "If this Agreement is canceled, and the disclosing entity demands, the recipient will immediately give back or eliminate (and confirm elimination of) all Sensitive Data that it obtained from the disclosing entity together with all duplicates that it created.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Confidential Information' to 'Sensitive Data' introduces a contradiction. If 'Confidential Information' is defined elsewhere in the contract, and 'Sensitive Data' is either undefined or has a different definition, the changed text conflicts with the original understanding and creates ambiguity about which information must be returned or destroyed upon termination, thus contradicting the established definition and leading to an in-text contradiction, as stated in the explanation."
+      }
+    ]
+  }
+]

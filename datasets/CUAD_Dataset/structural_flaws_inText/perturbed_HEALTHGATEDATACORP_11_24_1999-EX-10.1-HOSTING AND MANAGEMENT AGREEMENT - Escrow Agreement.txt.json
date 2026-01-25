@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "HEALTHGATEDATACORP_11_24_1999-EX-10.1-HOSTING AND MANAGEMENT AGREEMENT - Escrow Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "4.1 NCC shall:\n4.1.1 hold the Material in a safe and secure environment;",
+        "changed_text": "4.1 NCC shall:\n4.1.1 hold the Material in a safe and secure environment, provided, however, that NCC's duty of care is limited to actions of gross negligence only;",
+        "explanation": "This change adds a caveat to NCC's duty to hold the Material in a secure environment, limiting their responsibility to only cases of gross negligence. This contradicts the general duty of care implied in holding the Material safe and secure, creating uncertainty about NCC's obligations. The contradiction is between clause 4.1.1 as modified and the broader implications of 'safe and secure environment'.",
+        "location": "4.1.1",
+        "contradicted_location": "4.1",
+        "contradicted_text": "4 NCC's Duties\n4.1 NCC shall:\n4.1.1 hold the Material in a safe and secure environment, provided, however, that NCC's duty of care is limited to actions of gross negligence only;\n4.1.2 inform the Owner and the Licensee of the receipt of any copy of the Material;\n4.1.3 in accordance with the terms of Clause 9 perform those tests that form part of its Standard Verification Service from time to time;\n4.1.4 at all times retain a copy of the latest verified deposit of the Material; and\n4.1.5 notify the Owner if it becomes aware at any time during the term of this Agreement that the copy of the Material held by it has been lost, damaged or destroyed.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds a clause limiting NCC's liability to gross negligence only regarding holding the material in a safe and secure environment. The original text (and broader implications of 'safe and secure') suggests a general duty of care, which would include ordinary negligence. By limiting the duty to gross negligence, the changed text contradicts the initial implication of ensuring a 'safe and secure environment' by lowering the standard of care expected. The contradiction exists because the phrase \"safe and secure environment\" typically implies a higher standard of care than just avoiding gross negligence."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "11.4 If the Licence Agreement has expired or has been lawfully terminated this Agreement will automatically terminate on the same date.",
+        "changed_text": "11.4 If the Licence Agreement has expired or has been lawfully terminated this Agreement will terminate at NCC's sole discretion. NCC can chose to keep the agreement running for an undefined period of time, with no obligation or responsibility to justify or notice this termination.",
+        "explanation": "Originally, if the Licence Agreement ended, so did the Escrow Agreement. The change gives NCC the power to continue the Escrow Agreement even if the License Agreement ends, which creates contradiction. Section 11.4 now says the agreement will 'terminate at NCC's sole discretion' but implied that the License agreement should be a condition for the escrow. This could lead to legal disputes.",
+        "location": "11.4",
+        "contradicted_location": "Preliminary",
+        "contradicted_text": "Preliminary: (A) The Licensee has been granted a licence to use a software package comprising computer programs.\n(B) Certain technical information and documentation describing the software package are the confidential property of the Owner and are required for understanding, maintaining and correcting the software package.\n(C) The Owner acknowledges that in certain circumstances the Licensee may require possession of the technical information and documentation held under this Agreement.\n(D) Each of the parties to this Agreement acknowledges that the considerations for their respective undertakings given under it are the undertakings given under it by each of the other parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that the Escrow Agreement would automatically terminate if the Licence Agreement expired or was lawfully terminated. The changed text gives NCC the sole discretion to continue the Escrow Agreement even after the Licence Agreement ends. This directly contradicts the implicit understanding in the Preliminary section, particularly (A), (B), and (C), which suggest the Escrow Agreement's purpose is tied to the Licensee's use of the software package. If the License Agreement is terminated, the need for the technical information and documentation held under the Escrow Agreement diminishes, creating a contradiction. The change introduces a scenario where NCC can hold the technical information indefinitely, even when the Licensee no longer has a license, undermining the original intent of the agreement as outlined in the Preliminary section."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "7.1 The Material shall remain the confidential property of the Owner and in the event that NCC provides a copy of the Material to the Licensee, the Licensee shall be permitted to use the Material only in accordance with a confidentiality undertaking in the form contained in Schedule 3.",
+        "changed_text": "7.1 The Material shall remain the confidential property of the Owner. However, NCC has the right to sell or distribute the material to any third party that bids more than $1000 USD, without consulting with the owner.",
+        "explanation": "The original clause states the material is the confidential property of the owner. The modified version contradicts this by saying NCC can sell the material, giving NCC rights that conflict with the Owner's right to the confidential property. Now section 7.1 says that NCC can sell the material to anyone for an amount over $1000, which means this would break the confidentiality agreement with the original owner, this change creates a in-text contradiction in section 7 and also the text about confidentiality undertaking in the form contained in Schedule 3.",
+        "location": "7.1",
+        "contradicted_location": "7.1",
+        "contradicted_text": "7.1 The Material shall remain the confidential property of the Owner. However, NCC has the right to sell or distribute the material to any third party that bids more than $1000 USD, without consulting with the owner.\n7.2 NCC agrees to maintain all information and/or documentation coming into its possession or to its knowledge under this Agreement in strictest confidence and secrecy. NCC further agrees not to make use of such information and/or documentation other than for the purposes of this Agreement and will not disclose or release it other than in accordance with the terms of this Agreement.\n7.3 Termination of this Agreement will not relieve NCC or its employees, or the Licensee or its employees, from the obligations of confidentiality contained in this Clause 7.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in section 7.1 directly contradicts both the original statement in 7.1 and the entirety of clauses 7.2 and 7.3. The original stated that the Material remained the confidential property of the Owner, implying restrictions on its use and distribution. The modified text now grants NCC the right to sell or distribute the material, which inherently violates the confidential property rights of the owner. Additionally, clauses 7.2 and 7.3 explicitly state NCC's obligation to maintain strict confidentiality and not disclose information, which is directly contradicted by the changed text's allowance for sale and distribution. This creates a clear and significant in-text contradiction regarding the ownership and confidentiality of the Material."
+      }
+    ]
+  }
+]

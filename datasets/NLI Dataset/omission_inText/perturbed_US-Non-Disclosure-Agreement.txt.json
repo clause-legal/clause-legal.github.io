@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "US-Non-Disclosure-Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Each Party may reveal the Confidential Information only to its employees, agents, consultants and contractors who have a need to know such information for the purpose o f this Agreement and who have been duly informed of the confidential nature of the Confidential Information.",
+        "changed_text": "Each Party may reveal the Confidential Information only to its employees, agents, consultants and contractors.",
+        "explanation": "Removing the phrase 'who have a need to know such information for the purpose of this Agreement and who have been duly informed of the confidential nature of the Confidential Information' from Section 2 allows disclosure to any employee, agent, consultant, or contractor regardless of their need to know or awareness of confidentiality. This now contradicts Section 3, which requires 'a reasonable degree of care' to protect confidentiality. Without ensuring those receiving the information are aware of its confidential nature, maintaining a 'reasonable degree of care' becomes difficult if not impossible.",
+        "location": "Section 2",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "Each Party will protect the confidentiality of the Confidential Information by using the same degree of care (but not less than a reasonable degree of care) that it uses to protect the confidentiality of its own proprietary and confidential information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 2 broadens the scope of who can access Confidential Information by removing the requirement that recipients need to know the information for the purpose of the agreement and be informed of its confidential nature. This directly contradicts Section 3, which mandates a 'reasonable degree of care' to protect confidentiality. Without ensuring awareness of confidentiality among recipients, fulfilling the 'reasonable degree of care' standard becomes impossible, creating a clear and direct conflict between the two sections. The change creates a strong in-text contradiction, as defined in the Perturbation Explanation."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Confidential Information disclosed hereunder shall at all times remain the property of the Disclosing Party and no Party acquires any intellectual property rights under this Agreement (including but not limited to patent, copyright and trademark rights). Furthermore, no license under any trade secrets, copyrights, or other rights is granted by this Agreement or any disclosure of Confidential Information hereunder.",
+        "changed_text": "Confidential Information disclosed hereunder shall at all times remain the property of the Disclosing Party and no Party acquires any intellectual property rights under this Agreement (including but not limited to patent, copyright and trademark rights).",
+        "explanation": "By removing the second sentence 'Furthermore, no license under any trade secrets, copyrights, or other rights is granted by this Agreement or any disclosure of Confidential Information hereunder.' from Section 4, it creates ambiguity about the status of these licenses. The first sentence states no intellectual property rights are acquired. However, removing the explicit denial of licenses opens the door for a claim that a license *could* be implied, potentially contradicting the intended purpose of the agreement.",
+        "location": "Section 4",
+        "contradicted_location": "Section 4",
+        "contradicted_text": "Confidential Information disclosed hereunder shall at all times remain the property of the Disclosing Party and no Party acquires any intellectual property rights under this Agreement (including but not limited to patent, copyright and trademark rights).",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly denies any license being granted under the agreement or any disclosure of Confidential Information. The changed text removes this explicit denial, thereby creating an ambiguity as to whether a license could be implied. The explanation states this ambiguity creates a contradiction with the intended purpose of the agreement. Even though the changed text and contradicted text are in the same location, the removal of the sentence in the changed text opens the door for a claim that a license *could* be implied, potentially contradicting the intended purpose of the agreement, thus fitting the definition of 'Omissions - In Text Contradiction'."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Upon receipt of written notice requesting return of the Confidential Information, the Receiving Party will promptly deliver to the Disclosing Party (or, at the Disclosing Party’s option, destroy) all Confident ial Information furnished by the Disclosing Party to the Receiving Party, together with copies thereof. At the request of the Disclosing Party, any such destruction shall be confirmed in writing by Receiving Party.",
+        "changed_text": "Upon receipt of written notice requesting return of the Confidential Information, the Receiving Party will deliver to the Disclosing Party Confident ial Information furnished by the Disclosing Party to the Receiving Party, together with copies thereof.",
+        "explanation": "By removing the words '(or, at the Disclosing Party’s option, destroy)' and the sentence 'At the request of the Disclosing Party, any such destruction shall be confirmed in writing by Receiving Party' from Section 6, the Receiving Party no longer has the option to destroy the Confidential Information and doesn't have to confirm the destruction in writing anymore. Which now contradicts with the fact that the information is still Confidential, and the option of destroying the information helps to not make this information public. This creates an ambiguity for the Receiving Party on how they should handle the Confidential Information.",
+        "location": "Section 6",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "Each Party will protect the confidentiality of the Confidential Information by using the same degree of care (but not less than a reasonable degree of care) that it uses to protect the confidentiality of its own proprietary and confidential information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text provided the Receiving Party with the option to either return or destroy confidential information, and confirm the destruction in writing if requested. The changed text removes the destruction option and the written confirmation requirement. The contradicted text requires each party to protect the confidentiality of the confidential information. By removing the option to destroy the information, the Receiving Party may have less effective ways to maintain confidentiality, creating a contradiction. The changed text makes it harder to align with the contradicted text."
+      }
+    ]
+  }
+]

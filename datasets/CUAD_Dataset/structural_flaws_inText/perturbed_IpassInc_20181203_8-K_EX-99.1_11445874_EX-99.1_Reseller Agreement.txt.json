@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "IpassInc_20181203_8-K_EX-99.1_11445874_EX-99.1_Reseller Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "3.2 Payment. All payments hereunder will be in US Dollars and are due and payable within thirty (30) days after the date of invoice. iPass may terminate or modify these payment terms with reasonable notice, when, in its reasonable discretion, iPass believes that its payments may be at risk.",
+        "changed_text": "3.2 Payment. All payments hereunder will be in US Dollars and are due and payable within thirty (30) days after the date of invoice, *unless a shorter payment period is required due to iPass's financial situation*. iPass may terminate or modify these payment terms with reasonable notice, when, in its reasonable discretion, iPass believes that its payments may be at risk.",
+        "explanation": "The added phrase \"unless a shorter payment period is required due to iPass's financial situation\" creates an in-text contradiction. Initially, it states that payments are due within thirty (30) days, but the addition introduces the possibility of a shorter, undefined payment period based on iPass's financial situation. This adds uncertainty to the payment terms. Section 3.2 explicitly sets payment terms, and the addition of the clause \"unless a shorter payment period is required due to iPass's financial situation\" introduces a direct contradiction.",
+        "location": "Section 3.2",
+        "contradicted_location": "Section 3.2",
+        "contradicted_text": "All payments hereunder will be in US Dollars and are due and payable within thirty (30) days after the date of invoice, unless a shorter payment period is required due to iPass's financial situation. iPass may terminate or modify these payment terms with reasonable notice, when, in its reasonable discretion, iPass believes that its payments may be at risk.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds \"unless a shorter payment period is required due to iPass's financial situation\" to the clause stating payments are due within thirty (30) days. This directly contradicts the original statement by introducing a potential exception without a clear definition or process, creating uncertainty about the payment terms. This alteration clashes with the original text's explicit thirty-day payment term, leading to a clear and direct conflict, and thus a contradiction exists."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "10.1 Term. This Agreement shall commence on the Effective Date and shall continue for a period of twelve (12) full calendar months (\"Initial Term\"). The Agreement shall automatically renew for successive one (1) year terms (each a \"Renewal Term\") unless either party provides the other party written notification of its intent to terminate the Agreement no later than sixty (60) days prior to the end of the then applicable term.",
+        "changed_text": "10.1 Term. This Agreement shall commence on the Effective Date and shall continue for a period of twelve (12) full calendar months (\"Initial Term\"). The Agreement shall automatically renew for successive one (1) year terms (each a \"Renewal Term\") unless either party provides the other party written notification of its intent to terminate the Agreement no later than sixty (60) days prior to the end of the then applicable term, *except that iPass may unilaterally decide not to renew at its sole discretion with only 30 days notice*.",
+        "explanation": "Section 10.1 establishes automatic renewal with a specific condition: written notification 60 days before the end of the term. The added clause \"except that iPass may unilaterally decide not to renew at its sole discretion with only 30 days notice\" directly contradicts this. It introduces a different condition that allows iPass to prevent renewal with shorter notice and without needing mutual agreement.",
+        "location": "Section 10.1",
+        "contradicted_location": "Section 10.1",
+        "contradicted_text": "This Agreement shall commence on the Effective Date and shall continue for a period of twelve (12) full calendar months (\"Initial Term\"). The Agreement shall automatically renew for successive one (1) year terms (each a \"Renewal Term\") unless either party provides the other party written notification of its intent to terminate the Agreement no later than sixty (60) days prior to the end of the then applicable term, except that iPass may unilaterally decide not to renew at its sole discretion with only 30 days notice.",
+        "contradiction_exists": "YES",
+        "justification": "The original text in Section 10.1 stated that the agreement automatically renews unless either party provides written notification of termination 60 days prior to the end of the term. The changed text adds an exception allowing iPass to unilaterally decide not to renew with only 30 days notice. This directly contradicts the original renewal terms, creating a strong in-text contradiction. The contradicted text is Section 10.1, which is the same location as the change."
+      }
+    ]
+  }
+]

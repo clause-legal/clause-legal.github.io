@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "1101204_0001085037-00-000208_0015.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "d. not to disclose Information to any other party without the written authorization of Disclosing Party; e. not to duplicate Information without the express written permission of Disclosing Party; f. to return or destroy Information which is in written or physical form, together with any and all copies, negatives, or reproductions or derivative works in any media, promptly upon request of Disclosing Party or upon termination or completion of the Agreement.",
+        "changed_text": "d. not to disclose Information to any other party without the verbal authorization of Disclosing Party; e. not to duplicate Information without the express written permission of Disclosing Party; f. to return or destroy Information which is in written or physical form, together with any and all copies, negatives, or reproductions or derivative works in any media, promptly upon request of Disclosing Party or upon termination or completion of the Agreement.",
+        "explanation": "Changing the requirement for authorization to disclose information from \"written\" to \"verbal\" introduces a contradiction. This makes it much harder to prove authorization was given, weakening the Disclosing Party's protection. This creates ambiguity when seeking an injunction in Section 9, as proof of breach becomes contentious.",
+        "location": "2",
+        "contradicted_location": "9",
+        "contradicted_text": "Each Party acknowledges that the unauthorized disclosure or use by the Receiving Party of the Disclosing Party's proprietary and confidential Information will cause irreparable harm and significant injury, the degree of which may be difficult to ascertain. Accordingly, each Party agrees that the Disclosing Party will have the right to obtain an immediate injunction enjoining any breach of this Agreement, as well as the right to pursue any and all other rights and remedies available at law or in equity for such a breach.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires 'written authorization' for disclosing information, providing a clear standard of proof. The changed text alters this to 'verbal authorization.' The contradicted text states that 'unauthorized disclosure' will cause irreparable harm and entitles the Disclosing Party to an injunction. By changing 'written' to 'verbal,' the modification weakens the Disclosing Party's ability to prove unauthorized disclosure, because verbal agreements are difficult to prove, thus creating a contradiction with the right to an injunction described in the contradicted text, since it will be harder to prove a breach of the agreement based on the changed clause."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Subject to Article 3 hereof, each Party receiving Information under the Agreement shall hold Information in confidence in accordance with the terms of the Agreement for a period of two (2) years from the date of receipt thereof.",
+        "changed_text": "Subject to Article 3 hereof, each Party receiving Data under the Agreement shall hold Data in confidence in accordance with the terms of the Agreement for a period of one (1) year from the date of receipt thereof.",
+        "explanation": "Changing the retention period to one year for \"Data\" creates a contradiction with the two-year retention period for \"Information\" specified earlier in Section 4. Since 'Information' includes 'Data', it's unclear which retention period applies to data, introducing ambiguity and creating an in-text contradiction between the two different periods",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "Subject to Article 3 hereof, each Party receiving Data under the Agreement shall hold Data in confidence in accordance with the terms of the Agreement for a period of one (1) year from the date of receipt thereof.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the retention period for 'Data' from two years to one year, creating a contradiction with the original agreement where 'Information,' which includes 'Data,' was to be held for two years. The contradicted text, by stating the retention period for 'Data' is one year, further emphasizes this contradiction, leading to confusion about the applicable retention period, thus fulfilling the definition of 'Misaligned Terminology - In Text Contradiction'."
+      }
+    ]
+  }
+]

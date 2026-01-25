@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "nda_form_motorola.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "4.I will NOT take photographs or recordings.",
+        "changed_text": "4. Photographs and recordings are permitted only with explicit prior authorization.",
+        "explanation": "Changing 'I will NOT take photographs or recordings' to 'Photographs and recordings are permitted only with explicit prior authorization' creates an in-text contradiction. The original blanket prohibition is removed, but the means of obtaining explicit authorization is not defined. This contradicts the expectation that the facility has established rules of how authorization works.",
+        "location": "Section 4",
+        "contradicted_location": "Section 9",
+        "contradicted_text": "9.I will comply with directions provided by security officers.",
+        "contradiction_exists": "YES",
+        "justification": "The original text prohibited taking photographs/recordings. The changed text allows it with prior authorization, but does not define how to get it. This omission creates a contradiction with Clause 9 which states 'I will comply with directions provided by security officers,' because it is now unclear whether the security officers have any directions on taking photographs or recordings. If the security officers are the only means of providing direction, but they are not the party to authorize photography and recording, then there's a contradiction of what the security officers are allowed to direct and what is allowed."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "7.I will NOT bring in a minor without prior authorization.I will stay with my Motorola approved host at all times.",
+        "changed_text": "7.I will stay with my Motorola approved host at all times.",
+        "explanation": "Removing the clause regarding minors creates an in-text contradiction. The absence of rules regarding minors creates an uncertainty. It contradicts the generally strict tone of the agreement that regulates behaviors and access.",
+        "location": "Section 7",
+        "contradicted_location": "Section 10",
+        "contradicted_text": "10.I understand my Motorola host must be a Motorola employee or Motorola Contractor with Escort Privileges, and that my Motorola host and myself are accountable for my actions.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly prohibited bringing minors without prior authorization, establishing a clear rule. The changed text removes this prohibition, creating a situation where bringing minors is neither explicitly allowed nor forbidden. This contradicts section 10, which states that the Motorola host and the guest are accountable for the guest's actions. The omission creates ambiguity and potential conflict regarding accountability if the guest is a minor, therefore making the sections incompatible."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "11.I affirm I am officially invited and on the guest list for this event. I agree that my admittance into the Motorola facility is a revocable license, and is subject to revocation. I agree that I may be removed from the Motorola Facility at Motorola’s discretion.",
+        "changed_text": "11. I agree that my admittance into the Motorola facility is a revocable license, and is subject to revocation. I agree that I may be removed from the Motorola Facility at Motorola’s discretion.",
+        "explanation": "Removing 'I affirm I am officially invited and on the guest list for this event.' introduces a contradiction. The assumption of being invited is removed, while the rest of the clause regarding admittance and removal still stands. It creates uncertainty on the prerequisite for attending, being on the guest list or invited.",
+        "location": "Section 11",
+        "contradicted_location": "Section 10",
+        "contradicted_text": "10.I understand my Motorola host must be a Motorola employee or Motorola Contractor with Escort Privileges, and that my Motorola host and myself are accountable for my actions.",
+        "contradiction_exists": "YES",
+        "justification": "The original text affirms the invite and guest list status, while the changed text removes that affirmation. This creates a contradiction with clause 10, which implies an invite since a Motorola host is required, but the changed clause no longer guarantees an invite. The removal creates uncertainty about whether an invite is required at all, directly contradicting the implied invite in clause 10. Therefore, it is a strong in-text contradiction."
+      }
+    ]
+  }
+]

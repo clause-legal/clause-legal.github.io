@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "ImineCorp_20180725_S-1_EX-10.5_11275970_EX-10.5_Distributor Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "1.3 \"iMine Products\" shall mean those Products known as cryptocurrency mining rigs and its parts and components, as JRVS and the Distributor shall maintain and modify from time to time.",
+        "changed_text": "1.3 \"iMine Products\" shall mean those Products known as cryptocurrency mining rigs.",
+        "explanation": "By removing \"and its parts and components, as JRVS and the Distributor shall maintain and modify from time to time,\" the definition of 'iMine Products' becomes narrower. This creates a contradiction in Section 7.2, where the text refers to defective 'Products' being returned and the description needs to include lot number and wafer number, which relates to parts and components. If iMine Products do not include parts and components per Section 1.3, then section 7.2 is ambiguous, and it's unclear if parts can be returned.",
+        "location": "1.3",
+        "contradicted_location": "7.2",
+        "contradicted_text": "The Distributor shall have thirty (30) days (the \"Inspection Period\") upon receipt of each shipment to inspect and test the Products. If the Distributor determines any unit of Products defective, the Distributor shall promptly notify JRVS of such defects. Defective Products may be returned for retest, evaluation and examination subject to JRVS Returned Material Authorization (\"RMA\") procedure; provided, that such written notification and request for an RMA number must be received by JRVS during the Inspection Period. Returns must be prepaid by Distributor. When requesting a return authorization, Distributor must supply Distributor's purchase order number and JRVS's invoice number. Product description must include lot number and wafer numbers.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text narrows the definition of 'iMine Products' by removing 'and its parts and components, as JRVS and the Distributor shall maintain and modify from time to time.' This creates a contradiction with the Contradicted Text in Section 7.2, which requires 'lot number and wafer numbers' for returned defective Products, implying that parts and components are covered. Since the changed definition excludes parts and components, it's unclear if parts can be returned, creating an ambiguity and thus a contradiction. Therefore, the change directly conflicts with the requirement in the contradicted text about providing lot and wafer numbers for product returns (Section 7.2), as this applies to parts now excluded from the definition in Section 1.3."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "5.1 JRVS Price. Subject to the terms and conditions of this Agreement, the Distributor shall pay for the Products at the then current price of JRVS (the \"JRVS Price\") at the time of placement of the Order.",
+        "changed_text": "5.1 JRVS Price. Subject to the terms and conditions of this Agreement, the Distributor shall pay for the Products at a price determined by mutual agreement.",
+        "explanation": "By changing the definition of the \"JRVS Price\", and omitting \"at the then current price of JRVS (the \"JRVS Price\") at the time of placement of the Order\", the contract no longer contains an objective standard for determining the price. However Section 5.3 still speaks of a 'special pricing', and reference the JRVS price to be able to get a 'meet comp quote number' but the meaning of JRVS price is undefined and ambiguous.",
+        "location": "5.1",
+        "contradicted_location": "5.3",
+        "contradicted_text": "Notwithstanding the JRVS Price, special pricing on any one of the Products may be extended to the Distributor, in JRVS sole discretion, in situations where special pricing is necessary for the Distributor to obtain sale of the Products to a Customer. If JRVS elects to extend such special pricing, it will issue a confidential meet comp quote number documenting the special price quoted. Upon receipt of the meet comp quote number, the Distributor may ship the Products to the Customer from stock and debit JRVS for the difference between their invoiced amount, less any prior credits granted by JRVS, and the new special pricing. The meet comp quote number shall be included on all such debits.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined \"JRVS Price\" as the current price at the time of order placement. The changed text replaces this objective standard with a price \"determined by mutual agreement.\" This omission creates a contradiction because Section 5.3 (Contradicted Text) refers to \"JRVS Price\" as a basis for special pricing and for obtaining a 'meet comp quote number'. Without a defined \"JRVS Price,\" Section 5.3 becomes ambiguous and unenforceable, as there is no longer a clear reference price point. This aligns with the 'Omissions - In Text Contradiction' perturbation type, where essential language is removed, creating a contradiction with other sections."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "10.1 Sole Warranty. THE SOLE WARRANTY, IF ANY, PROVIDED IN CONNECTION WITH THE PRODUCT SHALL BE PROVIDED BY THE COMPONENT MANUFACTURER. JRVS MAKES NO WARRANTIES TO THE DISTRIBUTOR OR CUSTOMERS.",
+        "changed_text": "10.1 Sole Warranty. JRVS MAKES NO WARRANTIES TO THE DISTRIBUTOR OR CUSTOMERS.",
+        "explanation": "By removing \"THE SOLE WARRANTY, IF ANY, PROVIDED IN CONNECTION WITH THE PRODUCT SHALL BE PROVIDED BY THE COMPONENT MANUFACTURER.\", the contract removes any mention of warranty, even if provided by the component manufacturer. This creates an in-text contradiction in Section 11.1, regarding the Distributor's representation of the Products in a manner inconsistent with JRVS's warranties. Since there are no warranties defined, it's impossible to determine what would be considered an inconsistent representation by the Distributor, making the clause unenforceable.",
+        "location": "10.1",
+        "contradicted_location": "11.1",
+        "contradicted_text": "The Distributor agrees to indemnify, defend and hold JRVS and its affiliated companies and their directors, officers, employees, and agents (collectively, \"Protected Parties\") harmless from and against any and all claims (including those for personal injury or death) and liabilities (including attorneys' and other professional fees and other costs of litigation) by any other party arising out of or attributable to the Distributor's representation of the Products in a manner inconsistent with JRVS's Product descriptions and warranties or from the Distributor's marketing, distribution, use or sale of the Products.",
+        "contradiction_exists": "YES",
+        "justification": "The removal of the initial clause in Section 10.1 eliminates any warranty, even if provided by a component manufacturer. This directly contradicts Section 11.1, which pertains to the Distributor's representation of the Products in a manner inconsistent with JRVS's warranties. Without any defined warranties, the 'inconsistent representation' clause becomes unenforceable, creating a clear contradiction. The original text defined a warranty, if any, coming from component manufacturer. The changed text deletes it. Therefore, the agreement now has the distributor indemnifying JRVS for misrepresentation against JRVS warranties that do not exist, a direct contradiction."
+      }
+    ]
+  }
+]

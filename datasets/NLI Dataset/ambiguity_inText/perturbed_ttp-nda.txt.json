@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "ttp-nda.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "For a period of 3 years from the date of disclosure, Recipient agrees to use the same care and discretion as it uses with its own c onfidential information to avoid, except as expressly permitted in this Agreement, disclosure or publication of Discloser’s Confidential Information.",
+        "changed_text": "For a period of 1 year from the date of disclosure, Recipient agrees to use the same care and discretion as it uses with its own confidential information to avoid, except as expressly permitted in this Agreement, disclosure or publication of Discloser’s Confidential Information.",
+        "explanation": "The change from '3 years' to '1 year' regarding the confidentiality period introduces an in-text contradiction. Later in Section 7, it refers to 'all obligations of confidentiality shall survive and continue to bind Recipient in accordance with their terms,' creating ambiguity regarding the actual duration of confidentiality. The contradiction is that the general confidentiality obligation now seems to only extend for 1 year, but the survival clause suggests it could be longer based on other terms, such as if individual disclosures had different terms.",
+        "location": "Section 4",
+        "contradicted_location": "Section 7",
+        "contradicted_text": "Upon Agreement termination, all obligations of confidentia lity shall survive and cont inue to bind Recipient in accordance with their terms.",
+        "contradiction_exists": "YES",
+        "justification": "The change from '3 years' to '1 year' in the Changed Text directly conflicts with the Contradicted Text. The Contradicted Text states that confidentiality obligations survive termination 'in accordance with their terms.' The change reduces the initial confidentiality period to 1 year, creating ambiguity whether confidentiality survives for 1 year, 3 years, or some other period, creating a direct contradiction. This aligns with the definition of 'Ambiguities – In Text Contradiction' as it defines key terms inconsistently, specifically the duration of confidentiality."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Recipient may use and disclose the Confidential Information among its internal information technology and management staff for its own internal business purposes.",
+        "changed_text": "Recipient may use and disclose the Confidential Information among its internal information technology and management staff for its own internal business purposes, provided that this use is limited to research purposes only.",
+        "explanation": "The addition of 'provided that this use is limited to research purposes only' restricts the permissible use of Confidential Information. This creates a contradiction with Section 6, which allows Recipients freedom of use for residuals. if the residuals can be used for commercial purposes but during the initial use of the Confidential Information, that use is being limited to research purposes, it will create an in-text contradiction.",
+        "location": "Section 3",
+        "contradicted_location": "Section 6",
+        "contradicted_text": "Recipient shall be free to use for any purposes Residuals resulting from access to or work with Discloser’s Confidential Information. Howeve r, the foregoing does not give Recipient the right to disclose the financial, statistical, or personnel informat ion or the business plans of Discloser, and shall not be deemed to grant to either party a license under the other par ty’s copyrights or patents. The term \"Residuals\" means information which may be retained in non-tangi ble form by persons who have had access to the Confidential Information, including without limitati on general ideas, concepts, know-how or techniques contained therein. Neither party shall have any obligat ion to limit or restrict the assignment or reassignment of personnel. Except as otherwise provided in this Agreement, t he parties acknowledge that the communications hereunder will not serve to impair the right of either party to independently develop, make, use, procure or market products or services now or in the future that may be similar to or competitive with those offered by Discloser, nor require Recipient to disclose any planning or other information to Discloser. This Section shall survive termination of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds the clause 'provided that this use is limited to research purposes only' to the original text, restricting the use of Confidential Information to research purposes. This directly contradicts the contradicted text, which states, 'Recipient shall be free to use for any purposes Residuals resulting from access to or work with Discloser’s Confidential Information.' The contradicted text allows for unrestricted use of Residuals, while the changed text limits the initial use of Confidential Information to research only. This creates a strong in-text contradiction as the recipient's freedom to use residuals for any purpose is undermined by the initial restriction to research purposes only."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Micro Focus may post for use of the TTP program a list of the organizations and individuals that have signed a Micro Focus TTP Non-disclosure Agreement.",
+        "changed_text": "Micro Focus must post for use of the TTP program a list of the organizations and individuals that have signed a Micro Focus TTP Non-disclosure Agreement.",
+        "explanation": "Changing 'may' to 'must' creates a mandatory obligation for Micro Focus to post the list. This contradicts Section 8's disclaimer that 'Discloser may change or cancel its plans at any time,' since if Micro Focus cancels the plan of posting the list, it creates a contradiction to section 3.",
+        "location": "Section 3",
+        "contradicted_location": "Section 8",
+        "contradicted_text": "All Confidential Information is provided AS IS, WITHOUT WARRANTY OF ANY KIND, WHETHER EXPRESS OR IMPLIED. Discloser does not r epresent or warrant the accuracy or completeness of the Confidential Information, that it will release an y related product, or that target dates will be met. The entire risk arising out of the use of the Confidential In formation remains with Recipient. Discloser may change or cancel its plans at any time.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'may' to 'must' in the Changed Text imposes a mandatory obligation on Micro Focus to post the list of organizations and individuals who signed a Non-disclosure Agreement. This directly contradicts the Contradicted Text, which states that 'Discloser may change or cancel its plans at any time.' If Micro Focus is obligated to post the list ('must'), it cannot simultaneously retain the right to cancel its plans ('may change or cancel'), creating a clear and direct conflict within the contract as defined by the explanation given."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement shall begin on the date it is executed and shall extend until that date which is six (6) months after the date on which Individual ceases to be a participant in TTP.",
+        "changed_text": "This Agreement shall begin on the date it is executed and shall extend until that date which is twelve (12) months after the date on which Individual ceases to be a participant in TTP.",
+        "explanation": "Changing the extension period from 'six (6) months' to 'twelve (12) months' after the Individual ceases to be a participant in TTP directly contradicts the initial duration mentioned in section 4 of the agreement, which dictates that the confidentiality shall only remain for one year. If the person stops participating, the NDA could be extended to almost 2 years, but in section 4, the confindential information is only been protected for 1 year, there is a direct contradiction.",
+        "location": "Section 7",
+        "contradicted_location": "Section 4",
+        "contradicted_text": "For a period of 1 year from the date of disclosure, Recipient agrees to use the same care and discretion as it uses with its own confidential information to avoid, except as expressly permitted in this Agreement, disclosure or publication of Discloser’s Confidential Information. At a minimum shall Recipient use reasonable care to protect Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text extends the agreement to twelve months after participation in TTP ceases, which contradicts the 'Contradicted Text' that limits the protection of confidential information to '1 year from the date of disclosure'. The explanation provided confirms the change creates a direct conflict in duration, making it a strong in-text contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Upon termination of this Agreement, or earlier upon Discloser’s request, Recipient shall promptly return or destroy all documents and tangible items in its possession which contain any part of the Confidential Information of Discloser.",
+        "changed_text": "Upon termination of this Agreement, or earlier upon Discloser’s request, Recipient shall archive all documents and tangible items in its possession which contain any part of the Confidential Information of Discloser.",
+        "explanation": "Changing 'return or destroy' to 'archive' directly contradicts the explicit instruction regarding what should be done with the Confidential Information upon termination. Since archiving means saving for future references, the agreement is creating a contradiction to the rest of the NDA. Also since section 5 it states that All Confidential Information remains the property of the Discloser and/or its licensors and the Recipient would archive the data after the contract ends.",
+        "location": "Section 7",
+        "contradicted_location": "Section 5",
+        "contradicted_text": "All Confidential Information remains th e property of the Discloser and/or its licensors.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the recipient's obligation regarding confidential information upon termination. The original text requires the recipient to 'return or destroy' the confidential information, aligning with the contradicted text which states that 'All Confidential Information remains the property of the Discloser'. By changing 'return or destroy' to 'archive,' the recipient is now instructed to retain the confidential information, contradicting the discloser's ownership. This introduces a direct conflict within the agreement, thus creating a strong in-text contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "In any legal proceeding arising out of this Agreement, the prevailing party shall be entitled to an award of its costs and reasonabl e attorneys' fees.",
+        "changed_text": "In any legal proceeding arising out of this Agreement, each party shall bear its own costs and reasonabl e attorneys' fees.",
+        "explanation": "Changing 'the prevailing party shall be entitled to an award of its costs' to 'each party shall bear its own costs' completely reverses the responsibility for legal costs. This creates an in-text contradiction with Section 9, which states the limitation of liabilty. If the party has to bear its own costs and at the same time there's a limitation of liabilty in section 9, it is contradictory.",
+        "location": "Section 10",
+        "contradicted_location": "Section 9",
+        "contradicted_text": "IN NO EVENT SHALL DISCLOSER BE LIABLE FOR ANY DAMAGES WHATSOEVER (INCLUDING WITHOUT LIMITATION DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, OR OT HER PECUNIARY LOSS) ARISING OU T OF RECIPIENT'S USE OF OR INABILITY TO USE THE CONFIDENTIAL INFORMATION.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the prevailing party in a legal proceeding is entitled to costs and attorney's fees. The changed text reverses this, stating that each party bears its own costs and fees. The explanation states that this creates an in-text contradiction with the limitation of liability clause in Section 9. If each party bears its own costs, that directly conflicts with the intention of the liability limitation in the contradicted text because, without the original clause, the limitation would be undermined by costs and fees."
+      }
+    ]
+  }
+]

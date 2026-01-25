@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLAUSE: A Discrepancy Benchmark for Auditing LLMs Legal Reasoning</title>
+    <meta name="description" content="CLAUSE - A first-of-its-kind benchmark designed to evaluate the fragility of LLM legal reasoning through systematic contradiction detection in contracts.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary: #1a365d;
+            --primary-light: #2c5282;
+            --accent: #c53030;
+            --accent-light: #fc8181;
+            --gold: #d69e2e;
+            --bg-cream: #faf9f7;
+            --bg-light: #ffffff;
+            --text-primary: #1a202c;
+            --text-secondary: #4a5568;
+            --text-muted: #718096;
+            --border: #e2e8f0;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-cream);
+            color: var(--text-primary);
+            line-height: 1.7;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4 {
+            font-family: 'Crimson Pro', Georgia, serif;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+            padding: 4rem 2rem 5rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            opacity: 0.5;
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 1;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .venue-badge {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            letter-spacing: 0.5px;
+        }
+
+        .title {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            margin-bottom: 0.5rem;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .title .highlight {
+            color: var(--gold);
+        }
+
+        .subtitle {
+            font-size: clamp(1.1rem, 2vw, 1.4rem);
+            font-weight: 400;
+            opacity: 0.95;
+            margin-bottom: 2rem;
+            font-family: 'Crimson Pro', serif;
+            font-style: italic;
+        }
+
+        .authors {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.5rem 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .author {
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        .author sup {
+            color: var(--gold);
+            font-weight: 700;
+        }
+
+        .affiliation {
+            font-size: 1rem;
+            opacity: 0.9;
+            margin-bottom: 2rem;
+        }
+
+        .header-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .header-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            background: rgba(255,255,255,0.15);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(4px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .header-link:hover {
+            background: rgba(255,255,255,0.25);
+            transform: translateY(-2px);
+        }
+
+        .header-link.primary {
+            background: var(--accent);
+            border-color: var(--accent);
+        }
+
+        .header-link.primary:hover {
+            background: #b91c1c;
+        }
+
+        .co-first-note {
+            font-size: 0.9rem;
+            opacity: 0.85;
+            margin-top: 1.25rem;
+            font-style: italic;
+        }
+
+        /* Navigation */
+        .nav {
+            background: var(--bg-light);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: var(--shadow);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            overflow-x: auto;
+        }
+
+        .nav a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            padding: 1rem 0.5rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s ease;
+            white-space: nowrap;
+        }
+
+        .nav a:hover {
+            color: var(--primary);
+            border-bottom-color: var(--primary);
+        }
+
+        /* Main Content */
+        .main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        section {
+            margin-bottom: 4rem;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid var(--gold);
+            display: inline-block;
+        }
+
+        /* Abstract */
+        .abstract {
+            background: var(--bg-light);
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            border-left: 4px solid var(--primary);
+        }
+
+        .abstract p {
+            font-size: 1.05rem;
+            color: var(--text-secondary);
+            text-align: justify;
+        }
+
+        /* Key Stats */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .stat-card {
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: var(--shadow);
+            transition: transform 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-top: 0.25rem;
+        }
+
+        /* Pipeline Figure */
+        .figure-container {
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            margin: 2rem 0;
+        }
+
+        .figure-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .figure-caption {
+            margin-top: 1rem;
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            text-align: center;
+            font-style: italic;
+        }
+
+        /* Categories */
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .category-card {
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            border-top: 4px solid var(--primary);
+        }
+
+        .category-card.legal {
+            border-top-color: var(--accent);
+        }
+
+        .category-card h4 {
+            font-size: 1.1rem;
+            color: var(--primary);
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .category-card.legal h4 {
+            color: var(--accent);
+        }
+
+        .category-card p {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        /* Results Table */
+        .table-container {
+            overflow-x: auto;
+            background: var(--bg-light);
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            margin: 1.5rem 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+
+        th, td {
+            padding: 0.75rem 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+
+        th {
+            background: var(--primary);
+            color: white;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        tr:hover {
+            background: rgba(26, 54, 93, 0.03);
+        }
+
+        .metric-best {
+            font-weight: 700;
+            color: var(--accent);
+        }
+
+        /* Key Findings */
+        .findings-list {
+            list-style: none;
+        }
+
+        .findings-list li {
+            background: var(--bg-light);
+            padding: 1.25rem 1.5rem;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+            display: flex;
+            gap: 1rem;
+            align-items: flex-start;
+        }
+
+        .findings-list li::before {
+            content: '';
+            width: 8px;
+            height: 8px;
+            background: var(--accent);
+            border-radius: 50%;
+            margin-top: 0.5rem;
+            flex-shrink: 0;
+        }
+
+        /* BibTeX */
+        .bibtex-container {
+            background: #1e293b;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .bibtex-header {
+            background: #334155;
+            padding: 0.75rem 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .bibtex-header span {
+            color: #94a3b8;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .copy-btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            transition: background 0.2s;
+        }
+
+        .copy-btn:hover {
+            background: var(--primary-light);
+        }
+
+        .bibtex-code {
+            padding: 1.5rem;
+            overflow-x: auto;
+        }
+
+        .bibtex-code pre {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: #e2e8f0;
+            line-height: 1.6;
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--primary);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .footer-content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .footer p {
+            opacity: 0.9;
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            opacity: 0.8;
+            transition: opacity 0.2s;
+        }
+
+        .footer-links a:hover {
+            opacity: 1;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header {
+                padding: 2rem 1rem 3rem;
+            }
+
+            .authors {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            .header-links {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .nav-container {
+                justify-content: flex-start;
+                padding: 0 1rem;
+                gap: 1.5rem;
+            }
+
+            .main {
+                padding: 2rem 1rem;
+            }
+        }
+
+        /* JSON Example */
+        .json-example {
+            background: #1e293b;
+            border-radius: 12px;
+            overflow: hidden;
+            margin: 1.5rem 0;
+        }
+
+        .json-header {
+            background: #334155;
+            padding: 0.5rem 1rem;
+            color: #94a3b8;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .json-code {
+            padding: 1rem;
+            overflow-x: auto;
+        }
+
+        .json-code pre {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            color: #e2e8f0;
+            line-height: 1.5;
+        }
+
+        .json-key { color: #93c5fd; }
+        .json-string { color: #86efac; }
+        .json-value { color: #fde68a; }
+
+        /* Two column layout */
+        .two-col {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        /* Contribution boxes */
+        .contribution-box {
+            background: var(--bg-light);
+            padding: 1.25rem;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+            display: flex;
+            gap: 1rem;
+            align-items: flex-start;
+        }
+
+        .contribution-box .number {
+            background: var(--primary);
+            color: white;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.9rem;
+            flex-shrink: 0;
+        }
+
+        .contribution-box p {
+            margin: 0;
+            font-size: 0.95rem;
+        }
+
+        /* Eval task cards */
+        .eval-cards {
+            display: grid;
+            gap: 1.5rem;
+        }
+
+        .eval-card {
+            background: var(--bg-light);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: var(--shadow);
+        }
+
+        .eval-card h4 {
+            color: var(--primary);
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .eval-card .task-badge {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="venue-badge">EACL 2026</div>
+            <h1 class="title">Better Call <span class="highlight">CLAUSE</span></h1>
+            <p class="subtitle">A Discrepancy Benchmark for Auditing LLMs Legal Reasoning Capabilities</p>
+            
+            <div class="authors">
+                <span class="author">Manan Roy Choudhury<sup>*</sup></span>
+                <span class="author">Adithya Chandramouli<sup>*</sup></span>
+                <span class="author">Mannan Anand<sup>*</sup></span>
+                <span class="author">Vivek Gupta</span>
+            </div>
+            <p class="affiliation">Arizona State University</p>
+            
+            <div class="header-links">
+                <a href="https://arxiv.org/pdf/2511.00340" class="header-link primary" target="_blank">
+                    <i class="fas fa-file-pdf"></i> Paper
+                </a>
+                <a href="https://github.com/mannanxanand/CLAUSE-Benchmark" class="header-link" target="_blank">
+                    <i class="fab fa-github"></i> Code
+                </a>
+                <a href="#dataset" class="header-link">
+                    <i class="fas fa-database"></i> Dataset
+                </a>
+                <a href="https://arxiv.org/abs/2511.00340" class="header-link" target="_blank">
+                    <i class="fas fa-external-link-alt"></i> arXiv
+                </a>
+            </div>
+            <p class="co-first-note">* Equal contribution</p>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#abstract">Abstract</a>
+            <a href="#overview">Overview</a>
+            <a href="#dataset">Dataset</a>
+            <a href="#tasks">Tasks</a>
+            <a href="#results">Results</a>
+            <a href="#examples">Examples</a>
+            <a href="#citation">Citation</a>
+        </div>
+    </nav>
+
+    <main class="main">
+        <section id="abstract">
+            <h2 class="section-title">Abstract</h2>
+            <div class="abstract">
+                <p>The rapid integration of large language models (LLMs) into high-stakes legal work has exposed a critical gap: no benchmark exists to systematically stress-test their reliability against the nuanced, adversarial, and often subtle flaws present in real-world contracts. To address this, we introduce <strong>CLAUSE</strong>, a first-of-its-kind benchmark designed to evaluate the fragility of an LLM's legal reasoning. We study the capabilities of LLMs to detect and reason about fine-grained discrepancies by producing over <strong>7,500 real-world perturbed contracts</strong> from foundational datasets like CUAD and ContractNLI. Our novel, persona-driven pipeline generates <strong>10 distinct anomaly categories</strong>, which are then validated against official statutes using a Retrieval-Augmented Generation (RAG) system to ensure legal fidelity. We use CLAUSE to evaluate leading LLMs' ability to detect embedded legal flaws and explain their significance. Our analysis shows a key weakness: <strong>these models often miss subtle errors and struggle even more to justify them legally</strong>.</p>
+            </div>
+        </section>
+
+        <section id="stats">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">7,514</div>
+                    <div class="stat-label">Perturbed Contracts</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">23,955</div>
+                    <div class="stat-label">Total Perturbations</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">10</div>
+                    <div class="stat-label">Anomaly Categories</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">98.58%</div>
+                    <div class="stat-label">Human Validation Rate</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="overview">
+            <h2 class="section-title">Overview</h2>
+            <p style="margin-bottom: 1.5rem;">CLAUSE advances legal reasoning evaluation through systematic analysis of contractual discrepancies. Built upon two established legal corpora (CUAD and ContractNLI), our framework represents the first fully AI-generated legal contradiction dataset.</p>
+            
+            <div class="figure-container">
+                <img src="assets/images/Made_By_Mannan.png" alt="CLAUSE Pipeline: Data Generation, AI grounding, and expert validation">
+                <p class="figure-caption"><strong>Figure 1:</strong> CLAUSE pipeline showing Data Preparation, Discrepancy & Benchmark generation, and Evaluation phases.</p>
+            </div>
+
+            <h3 style="margin: 2rem 0 1rem; font-size: 1.3rem;">Key Contributions</h3>
+            <div style="display: grid; gap: 1rem;">
+                <div class="contribution-box">
+                    <span class="number">1</span>
+                    <p><strong>First benchmark for fine-grained legal contradictions</strong> with ten perturbation types grounded in statutory requirements.</p>
+                </div>
+                <div class="contribution-box">
+                    <span class="number">2</span>
+                    <p><strong>Automated AI pipeline</strong> generating and validating contradictions with RAG-based statutory grounding before expert review.</p>
+                </div>
+                <div class="contribution-box">
+                    <span class="number">3</span>
+                    <p><strong>Rich metadata framework</strong> capturing context, reasoning chains, and contradiction strength for reproducibility.</p>
+                </div>
+                <div class="contribution-box">
+                    <span class="number">4</span>
+                    <p><strong>Extensive evaluation</strong> uncovering systematic legal reasoning weaknesses across varied prompting strategies.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="dataset">
+            <h2 class="section-title">Dataset</h2>
+            
+            <p style="margin-bottom: 1.5rem;">CLAUSE implements a comprehensive taxonomy of modifications featuring two fundamental dimensions:</p>
+            
+            <div class="two-col" style="margin-bottom: 2rem;">
+                <div>
+                    <h4 style="color: var(--accent); margin-bottom: 0.75rem;"><i class="fas fa-gavel"></i> Legal Contradictions</h4>
+                    <p style="font-size: 0.95rem; color: var(--text-secondary);">Modifications that conflict with statutory requirements, regulatory standards, or legal precedents, creating compliance issues that could render clauses unenforceable.</p>
+                </div>
+                <div>
+                    <h4 style="color: var(--primary); margin-bottom: 0.75rem;"><i class="fas fa-file-contract"></i> In-Text Contradictions</h4>
+                    <p style="font-size: 0.95rem; color: var(--text-secondary);">Modifications creating logical inconsistencies within the document itself, where different sections provide conflicting information or obligations.</p>
+                </div>
+            </div>
+
+            <h3 style="margin: 2rem 0 1rem; font-size: 1.3rem;">Perturbation Categories</h3>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <h4><i class="fas fa-question-circle"></i> Ambiguity</h4>
+                    <p>Introduction of vague, unclear, or contradictory language creating uncertainty in interpretation, making contract terms susceptible to multiple conflicting meanings.</p>
+                </div>
+                <div class="category-card">
+                    <h4><i class="fas fa-minus-circle"></i> Omission</h4>
+                    <p>Deliberate removal or absence of critical information, clauses, or terms necessary for complete understanding or legal enforceability.</p>
+                </div>
+                <div class="category-card">
+                    <h4><i class="fas fa-exchange-alt"></i> Misaligned Terminology</h4>
+                    <p>Inconsistent use of defined terms throughout the document, or terminology conflicting with established legal definitions.</p>
+                </div>
+                <div class="category-card">
+                    <h4><i class="fas fa-sitemap"></i> Structural Flaws</h4>
+                    <p>Modifications disrupting logical organization, hierarchy, or cross-referencing within the contract.</p>
+                </div>
+                <div class="category-card">
+                    <h4><i class="fas fa-not-equal"></i> Inconsistencies</h4>
+                    <p>Direct contradictions between different sections where statements, obligations, or terms are mutually exclusive.</p>
+                </div>
+            </div>
+
+            <h3 style="margin: 2rem 0 1rem; font-size: 1.3rem;">Dataset Statistics</h3>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th colspan="2" style="text-align: center;">InText</th>
+                            <th colspan="2" style="text-align: center;">Legal</th>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <th>Files</th>
+                            <th>Pert.</th>
+                            <th>Files</th>
+                            <th>Pert.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Ambiguity</td>
+                            <td>741</td>
+                            <td>2,417</td>
+                            <td>805</td>
+                            <td>2,472</td>
+                        </tr>
+                        <tr>
+                            <td>Inconsistency</td>
+                            <td>749</td>
+                            <td>2,357</td>
+                            <td>830</td>
+                            <td>2,711</td>
+                        </tr>
+                        <tr>
+                            <td>Misaligned Terminology</td>
+                            <td>772</td>
+                            <td>2,636</td>
+                            <td>834</td>
+                            <td>2,864</td>
+                        </tr>
+                        <tr>
+                            <td>Omission</td>
+                            <td>754</td>
+                            <td>2,498</td>
+                            <td>698</td>
+                            <td>2,111</td>
+                        </tr>
+                        <tr>
+                            <td>Structural Flaws</td>
+                            <td>760</td>
+                            <td>2,540</td>
+                            <td>571</td>
+                            <td>1,349</td>
+                        </tr>
+                        <tr style="font-weight: 700; background: rgba(26, 54, 93, 0.05);">
+                            <td>Totals</td>
+                            <td>3,776</td>
+                            <td>12,448</td>
+                            <td>3,738</td>
+                            <td>11,507</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="tasks">
+            <h2 class="section-title">Evaluation Tasks</h2>
+            <p style="margin-bottom: 1.5rem;">We define three hierarchical tasks to assess LLM capabilities in detecting and reasoning about legal discrepancies:</p>
+            
+            <div class="eval-cards">
+                <div class="eval-card">
+                    <span class="task-badge">TASK 1</span>
+                    <h4>Binary Discrepancy Detection</h4>
+                    <p>Given a document, predict whether <em>any</em> discrepancy is present (Yes/No classification).</p>
+                </div>
+                <div class="eval-card">
+                    <span class="task-badge">TASK 2</span>
+                    <h4>Contradiction Type Classification</h4>
+                    <p>Classify contradictions as: (1) in-text contradiction, (2) legal/outer-law contradiction, or (3) no contradiction.</p>
+                </div>
+                <div class="eval-card">
+                    <span class="task-badge">TASK 3</span>
+                    <h4>Explanation-Based Discrepancy Detection</h4>
+                    <p>Identify discrepancy spans, generate natural language explanations, and cite violated legal references (for legal contradictions).</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="results">
+            <h2 class="section-title">Key Results</h2>
+            
+            <p style="margin-bottom: 1.5rem;">We evaluated four leading LLMs: <strong>GPT-4o-mini</strong>, <strong>Gemini 2.0 Flash</strong>, <strong>Gemini 2.5 Flash</strong>, and <strong>LLaMA 3.3 70B Instruct</strong>.</p>
+            
+            <div class="figure-container">
+                <img src="assets/images/Figure_1.png" alt="Miss and Extra rate comparison across models">
+                <p class="figure-caption"><strong>Figure 2:</strong> Comparison of model performance showing Miss and Extra rates for CUAD and NLI datasets across L1 (zero-shot) and L2 (one-shot) evaluation levels.</p>
+            </div>
+
+            <h3 style="margin: 2rem 0 1rem; font-size: 1.3rem;">Key Findings</h3>
+            <ul class="findings-list">
+                <li>
+                    <div>
+                        <strong>Performance Hierarchy:</strong> Gemini-2.5 leads with highest F1-scores (63%+ on CUAD), driven by a high-recall (90%+), low-precision strategy. All models perform significantly better on CUAD than the more complex NLI dataset.
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>Category Challenges:</strong> <em>Omission_Legal</em> proves exceptionally challenging, with GPT-4o-mini achieving only 31% F1 and LLaMA-3.3 dropping to 9.3% F1 on NLI. Legal discrepancies are consistently harder than in-text contradictions.
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>Explanation Quality Gap:</strong> Models generate fluent explanations (Clarity 4.0+) but with low Completeness (&lt;2.0), indicating surface-level coherence without substantive legal depth.
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>Law Citation Weakness:</strong> Even the best model (Gemini 2.5) achieves below 14% accuracy in semantically matching legal citations, revealing fundamental gaps in external legal knowledge retrieval.
+                    </div>
+                </li>
+            </ul>
+
+            <h3 style="margin: 2rem 0 1rem; font-size: 1.3rem;">Eval 1: Binary Detection Results</h3>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dataset</th>
+                            <th>Category</th>
+                            <th>GPT-4o-mini F1</th>
+                            <th>Gemini-2.0 F1</th>
+                            <th>Gemini-2.5 F1</th>
+                            <th>LLaMA-3.3 F1</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="5">CUAD</td>
+                            <td>Ambiguity<sub>Legal</sub></td>
+                            <td>41.2</td>
+                            <td>60.8</td>
+                            <td class="metric-best">63.7</td>
+                            <td>53.5</td>
+                        </tr>
+                        <tr>
+                            <td>Inconsistency<sub>Legal</sub></td>
+                            <td>42.5</td>
+                            <td>60.5</td>
+                            <td class="metric-best">63.8</td>
+                            <td>53.9</td>
+                        </tr>
+                        <tr>
+                            <td>MisTerm<sub>Legal</sub></td>
+                            <td>45.4</td>
+                            <td class="metric-best">63.5</td>
+                            <td>63.2</td>
+                            <td>53.9</td>
+                        </tr>
+                        <tr>
+                            <td>Omission<sub>Legal</sub></td>
+                            <td>41.8</td>
+                            <td>59.7</td>
+                            <td class="metric-best">63.8</td>
+                            <td>52.2</td>
+                        </tr>
+                        <tr>
+                            <td>StrFlaw<sub>Legal</sub></td>
+                            <td>37.9</td>
+                            <td>50.9</td>
+                            <td class="metric-best">64.2</td>
+                            <td>6.9</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">NLI</td>
+                            <td>Ambiguity<sub>Legal</sub></td>
+                            <td>38.7</td>
+                            <td>46.6</td>
+                            <td class="metric-best">47.9</td>
+                            <td>14.1</td>
+                        </tr>
+                        <tr>
+                            <td>Omission<sub>Legal</sub></td>
+                            <td>31.6</td>
+                            <td>37.6</td>
+                            <td class="metric-best">41.3</td>
+                            <td>9.3</td>
+                        </tr>
+                        <tr>
+                            <td>StrFlaw<sub>Legal</sub></td>
+                            <td>46.5</td>
+                            <td class="metric-best">54.6</td>
+                            <td>50.4</td>
+                            <td>19.8</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="examples">
+            <h2 class="section-title">Data Examples</h2>
+            
+            <h3 style="margin: 1.5rem 0 1rem; font-size: 1.2rem;">In-Text Contradiction Example</h3>
+            <div class="json-example">
+                <div class="json-header">JSON Metadata Structure</div>
+                <div class="json-code">
+<pre>{
+  <span class="json-key">"file_name"</span>: <span class="json-string">"DovaPharmaceuticalsInc_10-Q_Promotion_Agreement.txt"</span>,
+  <span class="json-key">"perturbation"</span>: [{
+    <span class="json-key">"type"</span>: <span class="json-string">"Omissions - In Text Contradiction"</span>,
+    <span class="json-key">"original_text"</span>: <span class="json-string">"'Detail(s)' shall mean a Product presentation during a face-to-face sales call... Neither e-details, nor presentations made at conventions..."</span>,
+    <span class="json-key">"changed_text"</span>: <span class="json-string">"'Detail(s)' shall mean a Product presentation... Presentations made at conventions, exhibit booths, shall constitute a Detail."</span>,
+    <span class="json-key">"explanation"</span>: <span class="json-string">"The term 'Detail' is redefined to include presentations at conventions, directly contradicting the original definition that explicitly excluded them."</span>,
+    <span class="json-key">"location"</span>: <span class="json-string">"Section 1.19"</span>,
+    <span class="json-key">"contradicted_location"</span>: <span class="json-string">"Section 4.2.2"</span>,
+    <span class="json-key">"contradiction_exists"</span>: <span class="json-value">"YES"</span>
+  }]
+}</pre>
+                </div>
+            </div>
+
+            <h3 style="margin: 1.5rem 0 1rem; font-size: 1.2rem;">Legal Contradiction Example</h3>
+            <div class="json-example">
+                <div class="json-header">JSON Metadata Structure</div>
+                <div class="json-code">
+<pre>{
+  <span class="json-key">"file_name"</span>: <span class="json-string">"PharmagenInc_Endorsement_Agreement.txt"</span>,
+  <span class="json-key">"perturbation"</span>: [{
+    <span class="json-key">"type"</span>: <span class="json-string">"Ambiguities - Ambiguous Legal Obligation"</span>,
+    <span class="json-key">"original_text"</span>: <span class="json-string">"All HDS' uses of Celebrity Attributes... shall be subject to the prior written approval of Celebrity via his agent..."</span>,
+    <span class="json-key">"changed_text"</span>: <span class="json-string">"All HDS' uses of Celebrity Attributes... should aim to obtain the prior approval... A reasonable effort should be made..."</span>,
+    <span class="json-key">"contradicted_law"</span>: <span class="json-string">"Lanham Act - False Endorsement"</span>,
+    <span class="json-key">"law_citation"</span>: <span class="json-string">"15 U.S. Code § 1125(a)"</span>,
+    <span class="json-key">"law_url1"</span>: [<span class="json-string">"https://www.law.cornell.edu/uscode/text/15/1125"</span>],
+    <span class="json-key">"law_explanation"</span>: <span class="json-string">"The modified text creates ambiguity around the approval process, potentially leading to usage without explicit consent, violating the Lanham Act."</span>
+  }]
+}</pre>
+                </div>
+            </div>
+        </section>
+
+        <section id="citation">
+            <h2 class="section-title">Citation</h2>
+            <p style="margin-bottom: 1rem;">If you find this work useful, please cite our paper:</p>
+            
+            <div class="bibtex-container">
+                <div class="bibtex-header">
+                    <span>BibTeX</span>
+                    <button class="copy-btn" onclick="copyBibtex()">
+                        <i class="fas fa-copy"></i> Copy
+                    </button>
+                </div>
+                <div class="bibtex-code">
+<pre id="bibtex">@inproceedings{roychoudhury2025clause,
+    title={Better Call CLAUSE: A Discrepancy Benchmark for Auditing LLMs Legal Reasoning Capabilities},
+    author={Roy Choudhury, Manan and Chandramouli, Adithya and Anand, Mannan and Gupta, Vivek},
+    booktitle={Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (EACL)},
+    year={2026}
+}</pre>
+                </div>
+            </div>
+        </section>
+
+        <section id="acknowledgements">
+            <h2 class="section-title">Acknowledgements</h2>
+            <p style="color: var(--text-secondary);">We are grateful to Rui Heng Foo for his invaluable assistance with the data generation pipelines. We extend our sincere thanks to Arizona State University's Lincoln Center for Applied Ethics, along with their law professors and partners, for lending their expertise to advise on our perturbation categories and to authenticate our perturbed contracts for real-world relevance. We also thank the ASU Law and Pre-Law students for volunteering their time and expertise.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>CLAUSE: A Discrepancy Benchmark for Auditing LLMs Legal Reasoning Capabilities</p>
+            <p style="font-size: 0.85rem; opacity: 0.7;">EACL 2026 • Arizona State University</p>
+            <div class="footer-links">
+                <a href="mailto:mroycho1@asu.edu"><i class="fas fa-envelope"></i> Contact</a>
+                <a href="https://github.com/mannanxanand/CLAUSE-Benchmark" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://arxiv.org/pdf/2511.00340" target="_blank"><i class="fas fa-file-pdf"></i> Paper</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function copyBibtex() {
+            const bibtex = document.getElementById('bibtex').innerText;
+            navigator.clipboard.writeText(bibtex).then(() => {
+                const btn = document.querySelector('.copy-btn');
+                const originalText = btn.innerHTML;
+                btn.innerHTML = '<i class="fas fa-check"></i> Copied!';
+                setTimeout(() => {
+                    btn.innerHTML = originalText;
+                }, 2000);
+            });
+        }
+
+        // Smooth scroll for navigation
+        document.querySelectorAll('.nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

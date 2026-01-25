@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "NDA_7.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The obligations of confidentiality in this agreemen t shall cease when both parties give written notification of its termination, or 5 years after the date hereof, whichever is the sooner.",
+        "changed_text": "The obligations of confidentiality in this agreemen t shall cease when both parties give written notification of its termination, or 5 years after the date hereof, whichever is the sooner. Notwithstanding the preceding, the obligations of confidentiality related to financial data shall continue indefinitely.",
+        "explanation": "The main clause clearly states that confidentiality ends after 5 years or with written termination. Adding a new sentence that specifies perpetual confidentiality for financial data creates a direct conflict, because some confidential information is to be indefinitely kept secret. This affects the period of both the Disclosing Party and Receiving party to maintain the confidential information.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "The obligations of confidentiality in this agreemen t shall cease when both parties give written notification of its termination, or 5 years after the date hereof, whichever is the sooner. Notwithstanding the preceding, the obligations of confidentiality related to financial data shall continue indefinitely.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that confidentiality obligations cease after 5 years or upon written termination. The changed text introduces an exception, stating that confidentiality obligations regarding financial data continue indefinitely, creating a direct conflict with the initial clause regarding the termination of confidentiality. The contradicted text is in the same location as the changed text. The added text strongly contradicts the original meaning and creates an in-text contradiction as defined by structural flaws."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Each party shall be not entitled to assign the righ ts and obligations hereunder to any successor in title of its entire business in the Fi eld without consent of the other party.",
+        "changed_text": "Each party shall be not entitled to assign the righ ts and obligations hereunder to any successor in title of its entire business in the Fi eld without consent of the other party. However, COMPANY NAME A may freely assign its rights and obligations without consent.",
+        "explanation": "The original clause requires consent from both parties before assigning the agreement to a successor. Adding the clause to permit COMPANY NAME A to assign freely without consent creates a direct conflict within the agreement. Affects both the Disclosing Party and the Receiving Party.",
+        "location": "11",
+        "contradicted_location": "11",
+        "contradicted_text": "Each party shall be not entitled to assign the righ ts and obligations hereunder to any successor in title of its entire business in the Fi eld without consent of the other party. However, COMPANY NAME A may freely assign its rights and obligations without consent.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that neither party can assign rights without consent. The changed text adds an exception that allows COMPANY NAME A to assign rights without consent. This directly contradicts the initial statement, as it creates a scenario where one party is bound by the original restriction while the other is not. The contradicted text is the changed text itself."
+      }
+    ]
+  }
+]

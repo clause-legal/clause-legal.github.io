@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "nda_19.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "4. Confidential information shall not be disclosed to any employee, consultant or third party unless they agree to execute and be bound by the terms of this Agreement, and have been approved by XCZONE.TV.",
+        "changed_text": "4. Information shall not be disclosed to any third party.",
+        "explanation": "By changing 'Confidential information' to 'Information', the clause becomes overly broad and conflicts with the section defining exclusions to confidential information later in the document. The original clause specifies *confidential* information which had been defined earlier, while this now applies to all information. Removing 'unless they agree to execute and be bound by the terms of this Agreement, and have been approved by XCZONE.TV' also creates a contradiction as it is not specified how any party may view this information",
+        "location": "Section 4",
+        "contradicted_location": "WHAT SHOULD AN NDA COVER?",
+        "contradicted_text": "WHAT SHOULD AN NDA COVER? It is important for the recipient to carefully identify the kinds of material that are NOT covered by the NDA. For example, information already known to the recipient, or known to the public should not be subject to treatment as confidential. Likewise, information which becomes known to recipient from a third party, and by no fault of the recipient should be excluded. Finally, many NDAs exclude information independently created by the recipient.",
+        "contradiction_exists": "YES",
+        "justification": "The original text restricts disclosure to confidential information with specific conditions. The changed text broadens this to *all* information, removing the original conditions. The contradicted text allows for certain information to be excluded from NDA coverage (e.g., information already known). The changed text, by prohibiting disclosure of *all* information regardless of confidentiality or prior knowledge, directly contradicts the contradicted text which contemplates that some information *should* be excluded from confidential treatment. This creates a strong in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "WHEREAS, XCZONE.TV agrees to furnish _____________________ certain confidential information relating to ideas, inventions, services, techniques or products for the purposes of determining an interest in supplying, developing, manufacturing, selling or joint venturing; WHEREAS, _____________________ agrees to review, examine, inspect or obtain such confidential information only for the purposes described above, and to otherwise hold such information confidential pursuant to the terms of this Agreement.",
+        "changed_text": "WHEREAS, XCZONE.TV agrees to furnish _____________________ certain information relating to ideas, inventions, services, techniques or products; WHEREAS, _____________________ agrees to review, examine, inspect or obtain such information.",
+        "explanation": "Removing 'confidential' from 'certain confidential information' and 'to otherwise hold such information confidential pursuant to the terms of this Agreement' removes the link to the central purpose of the agreement. This creates contradiction because 'confidential information' has been defined elsewhere, yet is being undermined by this removal of this crucial word, particularly in the second 'WHEREAS' clause, where all obligation to treat the information as confidential has been removed. This contradicts the overall purpose stated in the next section.",
+        "location": "Preamble",
+        "contradicted_location": "WHAT IS A NONDISCLOSURE AGREEMENT?",
+        "contradicted_text": "WHAT IS A NONDISCLOSURE AGREEMENT? A Nondisclosure Agreement, sometimes called a confidentiality agreement, is a contract whereby one or both of the parties agree that information, ideas, etc. exchanged between them will not be shared with outsiders. Essentially, the information will be treated as confidential.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly refers to 'confidential information' and an agreement to hold such information confidential. The changed text removes the word 'confidential' and the obligation to treat the information as such, directly contradicting the contradicted text which defines a Nondisclosure Agreement as one where information exchanged is treated as confidential. The change removes the very basis of confidentiality, which is the central element of the Nondisclosure Agreement definition."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "2. No copies will be made or retained of any written information or prototypes supplied without the permission of XCZONE.TV.",
+        "changed_text": "2. Copies may be made of written information or prototypes supplied with the permission of XCZONE.TV.",
+        "explanation": "By changing 'No copies will be made or retained' to 'Copies may be made' the clause directly contradicts other sections that imply information must be kept secret. The change implies that with permission, unlimited copies are allowed, undermining the protection of confidential information even when the recipient has the means of handling them",
+        "location": "Section 2",
+        "contradicted_location": "CONCLUSION",
+        "contradicted_text": "CONCLUSION There are any number of situations that call for the use of a Nondisclosure agreement. Knowing the basic purpose and structure of such agreements is an important first step toward protecting one's intellectual property assets. The assistance of an experienced attorney can help avoid oversights, ambiguities and other costly mistakes.",
+        "contradiction_exists": "YES",
+        "justification": "The original text prohibited copies, while the changed text allows copies with permission. The contradicted text discusses the importance of nondisclosure agreements for protecting intellectual property. By allowing copies, the changed text directly undermines the purpose of a nondisclosure agreement, creating a clear contradiction. The explanation specifies that even with permission, allowing unlimited copies creates conflict with protecting confidential information."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "WHAT SHOULD AN NDA COVER? It is important for the recipient to carefully identify the kinds of material that are NOT covered by the NDA. For example, information already known to the recipient, or known to the public should not be subject to treatment as confidential. Likewise, information which becomes known to recipient from a third party, and by no fault of the recipient should be excluded. Finally, many NDAs exclude information independently created by the recipient.",
+        "changed_text": "WHAT SHOULD AN NDA COVER? It is important for the recipient to carefully identify the kinds of material that are NOT covered by the NDA.",
+        "explanation": "By omitting the examples of what should not be covered (information already known, information from third parties, independently created information) the scope of the agreement becomes unclear and internally contradictory. The recipient now has no guidelines on what information is exempt, despite the agreement needing such clauses.",
+        "location": "WHAT SHOULD AN NDA COVER?",
+        "contradicted_location": "CONCLUSION",
+        "contradicted_text": "CONCLUSION There are any number of situations that call for the use of a Nondisclosure agreement. Knowing the basic purpose and structure of such agreements is an important first step toward protecting one's intellectual property assets. The assistance of an experienced attorney can help avoid oversights, ambiguities and other costly mistakes.",
+        "contradiction_exists": "YES",
+        "justification": "The original text provides specific examples of what an NDA should *not* cover (information already known, information from third parties, independently created information). The changed text removes these examples, making the scope of the NDA unclear. This directly contradicts the contradicted text, which emphasizes the importance of 'avoid[ing] oversights, ambiguities,' and protecting intellectual property assets. By removing clarity on what is *not* covered, the changed text introduces ambiguity and the potential for oversights, directly conflicting with the need for a clear and unambiguous agreement as described in the contradicted text."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Typically, the NDA requires that the parties will treat each other's confidential information as though it were its own. This assumes, however, that the recipient has established protocols for handling confidential material. Obviously where no such protocols already exist, it is prudent to more specifically lay out provisions governing access to the confidential information. In many cases, this involves labeling the information as \"confidential\" and defining where it is to be kept, who within the organization may view it, etc.",
+        "changed_text": "Typically, the NDA requires that the parties will treat each other's information. Obviously where no such protocols already exist, it is prudent to more specifically lay out provisions governing access to the information.",
+        "explanation": "Removing the reference to 'confidential information' and the assumption that 'the recipient has established protocols for handling confidential material' creates an internal contradiction and ambiguity. This omission makes the section inconsistent with the earlier definition of \"confidential information\" and weakens the NDA by assuming the recipient has an established protocol. ",
+        "location": "Handling Confidential Material",
+        "contradicted_location": "WHAT IS A NONDISCLOSURE AGREEMENT?",
+        "contradicted_text": "WHAT IS A NONDISCLOSURE AGREEMENT? A Nondisclosure Agreement, sometimes called a confidentiality agreement, is a contract whereby one or both of the parties agree that information, ideas, etc. exchanged between them will not be shared with outsiders. Essentially, the information will be treated as confidential.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the emphasis on 'confidential information' and the assumption that recipients have established protocols for handling it, as stated in the original text. This directly contradicts the contradicted text, which defines a Non-Disclosure Agreement as a contract where information exchanged is treated as confidential. The omission in the changed text creates ambiguity about whether the 'information' mentioned is necessarily confidential, leading to a contradiction with the contradicted text's clear definition of a nondisclosure agreement, creating a clear and impactful inconsistency."
+      }
+    ]
+  }
+]

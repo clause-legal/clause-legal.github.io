@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "Non-Disclosure-Agreement_6.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "WHEREAS, it may be necessary for the transmission of information proprietary to one of the parties to the other party during cooperation between parties; and WHEREAS, the parties desire to protect said transmitted proprietary inform ation while ensuring the free flow of information between the parties necessary for said cooperative effort:",
+        "changed_text": "WHEREAS, it may be necessary for the transmission of information proprietary to one of the parties to the other party during cooperation between parties; and WHEREAS, the parties desire to allow said transmitted proprietary information to be used freely without restriction, ensuring the free flow of information between the parties necessary for said cooperative effort:",
+        "explanation": "The original 'WHEREAS' clause establishes the intent to protect proprietary information. The modified clause contradicts this by stating the desire to allow proprietary information to be used freely without restriction, creating an in-text contradiction about the agreement's purpose.",
+        "location": "Preamble",
+        "contradicted_location": "Preamble",
+        "contradicted_text": "WHEREAS, it may be necessary for the transmission of information proprietary to one of the parties to the other party during cooperation between parties; and WHEREAS, the parties desire to allow said transmitted proprietary information to be used freely without restriction, ensuring the free flow of information between the parties necessary for said cooperative effort: NOW, THEREFORE, it is mutually agreed as follows: 1. Proprietary information is any information transmitted from one party to the other with the excep tions: a. Information that is already known to the party receiving the information at the time the information is transmitted, or becomes known by the receiving party independently of the transmitting party through no wrongful act of said receiving party. b. Information that is explicitly approved for release by the party transmitting the information. c. Information disclosed in a product marketed by the party transmitting the information. d. Information that is known or available to the general public or becomes known or available to the general public through no wrongful act on the part of the receiving party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text aims to protect proprietary information, while the changed text explicitly allows it to be used freely without restriction. The contradicted text defines proprietary information and lists exceptions for its use, which is consistent with the original text's intent to protect it. The changed text, by allowing unrestricted use, directly contradicts the contradicted text's definition and the implied limitations on the use of proprietary information. This creates a strong in-text contradiction, as it introduces conflicting obligations, thereby adhering to the Structural Flaws - In Text Contradiction definition."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Proprietary information is any information transmitted from one party to the other with the excep tions: a. Information that is already known to the party receiving the information at the time the information is transmitted, or becomes known by the receiving party independently of the transmitting party through no wrongful act of said receiving party. b. Information that is explicitly approved for release by the party transmitting the information. c. Information disclosed in a product marketed by the party transmitting the information. d. Information that is known or available to the general public or becomes known or available to the general public through no wrongful act on the part of the receiving party.",
+        "changed_text": "Proprietary information is any information transmitted from one party to the other, regardless of prior knowledge, explicit approval for release, disclosure in a product, or public availability. All information shared will be considered Proprietary information.",
+        "explanation": "The original definition of 'Proprietary Information' includes several exceptions. The modified definition removes all exceptions and declares that all information shared is considered proprietary, contradicting the original, more limited scope and creating an in-text contradiction with the exceptions originally outlined.",
+        "location": "Section 1",
+        "contradicted_location": "Section 1",
+        "contradicted_text": "1. Proprietary information is any information transmitted from one party to the other, regardless of prior knowledge, explicit approval for release, disclosure in a product, or public availability. All information shared will be considered Proprietary information. 2. The parties agree not to use the proprietary information to the detriment of the transmitting party. The parties also agree to maintain any such proprietary in formation received from the other party in confidence and agree not to disclose any such information to persons not having a need to know the information consistent with the purpose of this agreement until information is publicly disclosed by the party tra nsmitting the information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text broadens the definition of 'Proprietary Information' by removing all the previously stated exceptions (prior knowledge, explicit approval, public availability), and declaring that all information shared is Proprietary Information. This directly contradicts the contradicted text because the contradicted text relies on the prior definition with exceptions, particularly the part stating '...until information is publicly disclosed by the party transmitting the information', which becomes impossible to comply with if all information shared is considered Proprietary, regardless of public availability."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The parties agree not to use the proprietary information to the detriment of the transmitting party.",
+        "changed_text": "The parties may use the proprietary information for any purpose, regardless of detriment to the transmitting party.",
+        "explanation": "The original text prohibits the use of proprietary information to the detriment of the transmitting party. The modified text explicitly allows such detrimental use, contradicting the original clause and creating uncertainty about the parties' obligations.",
+        "location": "Section 2",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "2. The parties may use the proprietary information for any purpose, regardless of detriment to the transmitting party. The parties also agree to maintain any such proprietary in formation received from the other party in confidence and agree not to disclose any such information to persons not having a need to know the information consistent with the purpose of this agreement until information is publicly disclosed by the party tra nsmitting the information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text prohibits using proprietary information to the detriment of the transmitting party. The changed text explicitly permits using proprietary information for any purpose, regardless of detriment to the transmitting party. This change directly contradicts the implicit obligation of not causing detriment, as outlined in the original text. This explicit permission to cause detriment creates a direct conflict with the contradicted text, which also permits using the information for any purpose, but the original text placed a restriction that is now removed."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The parties also agree to maintain any such proprietary in formation received from the other party in confidence and agree not to disclose any such information to persons not having a need to know the information consistent with the purpose of this agreement until information is publicly disclosed by the party tra nsmitting the information.",
+        "changed_text": "The parties are not obligated to maintain the confidentiality of any proprietary information and may disclose it to any person, for any reason, at any time.",
+        "explanation": "The original clause mandates maintaining confidentiality and restricts disclosure. The modified version explicitly removes any confidentiality obligations and permits unrestricted disclosure, directly contradicting the original protection and creating uncertainty about the confidentiality terms.",
+        "location": "Section 2",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "2. The parties may use the proprietary information for any purpose, regardless of detriment to the transmitting party. The parties are not obligated to maintain the confidentiality of any proprietary information and may disclose it to any person, for any reason, at any time. 3. All materials transmitted from one party to the other and containing proprietary information shall remain the property of the transferor and shall be returned upon request, and receipt of such materials agrees not to reproduce sa id materials without written consent of the transferor of the materials.",
+        "contradiction_exists": "YES",
+        "justification": "The original text obligated parties to maintain confidentiality. The changed text explicitly states that parties are not obligated to maintain confidentiality and can disclose information at any time, directly contradicting the original clause. The contradicted text includes a similar statement about non-obligation to maintain confidentiality which aligns with the changed text, but it is only a partial match. The original clause had an obligation that is now being changed to a non-obligation, creating a direct conflict with the requirement to maintain confidentiality in the original text and thus a strong contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "All materials transmitted from one party to the other and containing proprietary information shall remain the property of the transferor and shall be returned upon request, and receipt of such materials agrees not to reproduce sa id materials without written consent of the transferor of the materials.",
+        "changed_text": "All materials transmitted from one party to the other become the property of the receiving party and do not need to be returned. The receiving party has the right to reproduce said materials without written consent of the transferor of the materials.",
+        "explanation": "The original clause states that materials remain the property of the transferor and must be returned upon request, prohibiting reproduction without consent. The modified clause reverses this completely, stating that the materials become the property of the receiver, need not be returned, and can be reproduced freely, directly contradicting the original clause.",
+        "location": "Section 3",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "3. All materials transmitted from one party to the other become the property of the receiving party and do not need to be returned. The receiving party has the right to reproduce said materials without written consent of the transferor of the materials. 4. Nothing herein shall be construed as granting one party a license under any patents, copyrights, or trademarks owned or controlled by the other party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly states that materials become the property of the receiving party, do not need to be returned, and can be reproduced freely, which directly contradicts the contradicted text, which is an exact copy of the changed text. The original text stated the opposite. Therefore, a clear contradiction exists due to the structural flaw of having conflicting clauses in the contract, which falls under the given definition of 'Structural Flaws - In Text Contradiction'."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The parties agree to inform all personnel receiving the proprietary information of the terms of this agreement.",
+        "changed_text": "The parties are not required to inform personnel receiving the proprietary information of the terms of this agreement.",
+        "explanation": "The original clause requires that all personnel receiving proprietary information are informed of the agreement's terms. The modified version explicitly states that there is no such requirement, creating a direct contradiction that introduces uncertainty about the obligation to inform personnel of the agreement's provisions.",
+        "location": "Section 5",
+        "contradicted_location": "Section 5",
+        "contradicted_text": "5. The parties are not required to inform personnel receiving the proprietary information of the terms of this agreement. Carter Logistics, LLC. Carrier_____________________________ Signature________________________________ Signature___________________________ Printed Name____________________________ _ Printed Name________________________ Title____________________________________ Title_______________________________ Date____________________________________ Date_______________________________",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandated informing personnel of the agreement's terms, while the changed text explicitly negates this requirement. This directly contradicts the contradicted text, which also states that informing personnel is not required. This creates a structural flaw and introduces uncertainty about the obligation to inform personnel, making it unclear which instruction to follow, thus, a strong in-text contradiction exists."
+      }
+    ]
+  }
+]

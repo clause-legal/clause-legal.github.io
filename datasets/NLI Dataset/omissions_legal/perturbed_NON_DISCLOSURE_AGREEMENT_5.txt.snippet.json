@@ -1,0 +1,95 @@
+[
+  {
+    "file_name": "NON_DISCLOSURE_AGREEMENT_5.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - Omission Legal Contradiction",
+        "original_text": "This Agreement shall be governed and construed in accordance with the laws of India. The competent courts at [__] India shall have the sole and exclusive jurisdiction over any dispute that arises in relation to this Agreement.",
+        "changed_text": "This Agreement shall be governed and construed in accordance with the laws of India. The parties agree to resolve any dispute that arises in relation to this Agreement through binding arbitration.",
+        "explanation": "By replacing court jurisdiction with binding arbitration without specifying the arbitration process, this clause removes the default right to legal recourse through the Indian court system. This omission contradicts provisions requiring clear and fair dispute resolution mechanisms.",
+        "contradicted_law": "Section 28 of the Indian Contract Act, 1872",
+        "law_citation": "Section 28 of the Indian Contract Act, 1872",
+        "law_url1": [
+          "https://legislative.gov.in/sites/default/files/A1872-9.pdf"
+        ],
+        "law_url2": [
+          "https://indiankanoon.org/doc/1645766/"
+        ],
+        "law_explanation": "Section 28 of the Indian Contract Act deals with agreements in restraint of legal proceedings. While arbitration clauses are generally valid, an ambiguously worded arbitration clause that effectively prevents a party from accessing legal remedies can be challenged under Section 28 as being against public policy.",
+        "location": "12",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The original text provides for dispute resolution through the Indian court system, whereas the changed text replaces this with binding arbitration. The Perturbation Explanation notes that this removes the right to legal recourse through the court system and the Law Explanation indicates that an ambiguously worded arbitration clause preventing access to legal remedies can be challenged. The change replaces a specific legal recourse (court jurisdiction) with a potentially ambiguous one (binding arbitration without specifying the process), which creates a legally questionable omission under the Indian Contract Act."
+      },
+      {
+        "type": "Omissions - Omission Legal Contradiction",
+        "original_text": "The Receiving Party shall protect the Confidential Information in the same manner as it would protect its own confidential information.",
+        "changed_text": "The Receiving Party shall endeavor to protect the Confidential Information.",
+        "explanation": "Changing 'shall protect' to 'shall endeavor to protect' weakens the obligation to protect confidential information. This contradicts the requirement to have reasonable security practices regarding sensitive data as per Indian IT law.",
+        "contradicted_law": "Section 43A of the Information Technology Act, 2000",
+        "law_citation": "Section 43A of the Information Technology Act, 2000",
+        "law_url1": [
+          "https://www.meity.gov.in/writereaddata/files/itact2000/itact2000%20amend%202008.pdf"
+        ],
+        "law_url2": [
+          "https://indiankanoon.org/doc/629037/"
+        ],
+        "law_explanation": "Section 43A of the Information Technology Act, 2000 mandates that body corporates handling sensitive personal data implement and maintain reasonable security practices. Weakening the protection obligation undermines this requirement.",
+        "location": "5",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates protection of confidential information, whereas the changed text only requires an endeavor to protect it, which weakens the obligation. The perturbation explanation states this contradicts the requirement to have reasonable security practices. The law explanation confirms that Section 43A of the Information Technology Act, 2000 requires implementing and maintaining reasonable security practices, and weakening the protection obligation undermines this requirement. The scraped law snippets are missing, but based on the perturbation type definition for Omission Legal Contradiction, a legal contradiction occurs when a contract omits a legally mandated consumer protection, making it non-compliant. Replacing 'shall protect' with 'shall endeavor to protect' omits a legally mandated standard of protection, thus creating a contradiction."
+      },
+      {
+        "type": "Omissions - Omission Legal Contradiction",
+        "original_text": "The Receiving Party shall, upon the req uest of the Disclosing Party or upon the termination of this Agreement, return to the Disclosing Party all Confidential Information, including drawings, documents, reports and other tangible manifestations of Confidential Information received by the Receiv ing Party pursuant to this Agreement, together with all copies and reproductions thereof.",
+        "changed_text": "The Receiving Party shall, upon the termination of this Agreement, return to the Disclosing Party all Confidential Information, including drawings, documents, reports and other tangible manifestations of Confidential Information received by the Receiv ing Party pursuant to this Agreement.",
+        "explanation": "Removing the phrase 'upon the request of the Disclosing Party' means the receiving party is not obligated to return confidential information until the agreement terminates. This violates data protection principles and reasonable security practices that require businesses to comply with data access and deletion requests promptly.",
+        "contradicted_law": "Rule 5(6) of the Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011",
+        "law_citation": "Rule 5(6) of the Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011",
+        "law_url1": [
+          "https://www.meity.gov.in/writereaddata/files/GSR313E_10511%281%29_0.pdf"
+        ],
+        "law_url2": [
+          "https://indiankanoon.org/doc/1173205/"
+        ],
+        "law_explanation": "Rule 5(6) mandates that a body corporate shall address any discrepancies and grievances of the information provider with respect to processing of information in a time bound manner. This includes requests for return of sensitive information. By removing 'upon the request of the Disclosing Party' and limiting the return of information to only upon termination of the agreement, the clause makes the agreement inconsistent with the rule.",
+        "location": "10",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The omission of 'upon the request of the Disclosing Party' significantly weakens the data protection principles and the ability of the Disclosing Party to control their Confidential Information. The original text ensured that the Receiving Party had to return the information upon request or termination of the agreement. The modified text removes the 'upon request' clause, so that the return of information is only required upon termination of the agreement. The Law Explanation indicates Rule 5(6) mandates addressing grievances of the information provider, including requests for the return of sensitive information. The omission therefore makes the agreement inconsistent with the expectation of prompt action regarding information return requests."
+      },
+      {
+        "type": "Omissions - Omission Legal Contradiction",
+        "original_text": "This Agreement contains the full and complete understanding of the parties with respect to the subject matter hereof, and supersedes all prior representations and understandings, whether oral or written. This Agreemen t may be amended only in writing by mutual agreement of the Parties.",
+        "changed_text": "This Agreement contains the understanding of the parties with respect to the subject matter hereof, and supersedes all prior representations and understandings, whether oral or written. This Agreement may be amended.",
+        "explanation": "Removing the phrase 'only in writing by mutual agreement of the Parties' allows for oral modifications. This weakens the enforceability of the contract, contradicting the Indian Evidence Act, which gives written contracts more weight and requires clear evidence for modifications.",
+        "contradicted_law": "Section 92 of the Indian Evidence Act, 1872",
+        "law_citation": "Section 92 of the Indian Evidence Act, 1872",
+        "law_url1": [
+          "https://legislative.gov.in/sites/default/files/A1872-1.pdf"
+        ],
+        "law_url2": [
+          "https://indiankanoon.org/doc/545657/"
+        ],
+        "law_explanation": "Section 92 of the Indian Evidence Act states that when the terms of a contract have been proved according to section 91, no evidence of any oral agreement or statement shall be admitted, as between the parties to any such instrument or their representatives in interest, for the purpose of contradicting, varying, adding to, or subtracting from, its terms. By removing the 'only in writing' clause the enforceability of the contract is weakened.",
+        "location": "17",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates amendments to be 'only in writing by mutual agreement of the Parties'. The changed text removes this requirement, allowing for amendments without written form or mutual agreement. The Law Explanation states that Section 92 of the Indian Evidence Act emphasizes the inadmissibility of oral agreements to contradict or vary the terms of a written contract. The absence of the scraped snippets limits the direct legal reference, but the Law Explanation makes it clear that removing the 'only in writing' clause weakens the contract's enforceability under this act. This creates a contradiction because the modified contract now permits changes that could be legally challenged or unenforceable under the principles outlined in the Law Explanation."
+      }
+    ]
+  }
+]

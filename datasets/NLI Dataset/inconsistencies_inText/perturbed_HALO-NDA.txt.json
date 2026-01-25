@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "HALO-NDA.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "RECIPIENT agrees that for a period of five (5) years from the effective date of this Agreement, RECIPIENT will not disseminate the confidential information except to it’s employees who will be directly involved in the evaluation of the information, and furthermore RECIPIENT will use the same degree of care (but in no event less than reasonable care) to avoid disclosure or unauthorized use of such information as RECIPIENT employs with respect to confidential information of its own.",
+        "changed_text": "RECIPIENT agrees that for a period of five (5) years from the effective date of this Agreement, RECIPIENT will not disseminate the confidential information except to it’s employees who will be directly involved in the evaluation of the information, and furthermore RECIPIENT will use best efforts to avoid disclosure or unauthorized use of such information. RECIPIENT's duty to protect confidential information ends after two (2) years from disclosure.",
+        "explanation": "This change introduces an in-text contradiction by stating that the recipient must use 'best efforts' instead of 'the same degree of care (but in no event less than reasonable care)' to protect confidential information. 'Best efforts' is a more ambiguous standard. Also, the added sentence limits the protection of confidential information to two years, contradicting the initial five-year period, creating an in-text contradiction.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "RECIPIENT agrees that for a period of five (5) years from the effective date of this Agreement, RECIPIENT will not disseminate the confidential information except to it’s employees who will be directly involved in the evaluation of the information, and furthermore RECIPIENT will use best efforts to avoid disclosure or unauthorized use of such information. RECIPIENT's duty to protect confidential information ends after two (2) years from disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an in-text contradiction. The original text states that the RECIPIENT will use 'the same degree of care (but in no event less than reasonable care)' to protect confidential information for 'a period of five (5) years'. The changed text modifies this to 'best efforts' and adds 'RECIPIENT's duty to protect confidential information ends after two (2) years from disclosure'. This directly contradicts the original five-year protection period, creating a conflict, as the contradicted text is identical to the changed text."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "RECIPIENT shall have no obligation with respect to disclosure and use of information to the extent such information: A. is or becomes generally available to the public other than as a consequence of a br each of an obligation of confidentiality to HALO; or B. is made public by HALO; or C. is independently developed by RECIPIENT; or D. is received from a third party independent of HALO without breaching an obligation of confidentiality; or E. is required to be disclosed by the operation of law.",
+        "changed_text": "RECIPIENT shall have no obligation with respect to disclosure and use of information to the extent such information: A. is or becomes generally available to the public other than as a direct consequence of a breach of an obligation of confidentiality to HALO; or B. is made public by HALO; or C. is independently developed by RECIPIENT; or D. is received from a third party independent of HALO without breaching an obligation of confidentiality; or E. is required to be disclosed by the operation of law. F. Is disclosed by RECIPIENT to a government agency in response to an inquiry.",
+        "explanation": "The change adds exception F, which allows RECIPIENT to disclose confidential information to a government agency in response to an inquiry without obligation. This contradicts the core purpose of the NDA, which is to protect confidential information, by creating an exception that could potentially expose a wide range of sensitive data. This creates an in-text contradiction with the rest of the NDA, particularly sections regarding confidentiality and remedies.",
+        "location": "3",
+        "contradicted_location": "6",
+        "contradicted_text": "RECIPIENT recognizes that the remedy at law for any breach of its obligation under this Agreement will be inadequate, and hence, RECIPIENT agrees that HALO shall be entitled to equitable remedies, including injunction, in the event of breach by RECIPIENT.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines the circumstances where RECIPIENT has no obligation regarding confidential information. The changed text adds exception F, allowing disclosure to a government agency, which directly contradicts the contradicted text stating that HALO is entitled to equitable remedies for ANY breach by RECIPIENT. The added exception creates a scenario where a breach (disclosure) is permitted, undermining the original agreement and the remedy provision. Therefore, it's a strong in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "All information furnished to RECIPIENT by HALO shall, unless otherwise specified in writing by HALO, remain the property of HALO; and the written information, and any copies thereof, shall be promptly returned to HALO upon its written or destroyed by RECIPIENT at HALO’s option.",
+        "changed_text": "All information furnished to RECIPIENT by HALO shall, unless otherwise specified in writing by HALO, remain the property of HALO; and the written information, and any copies thereof, shall be promptly returned to HALO upon its written request or destroyed by RECIPIENT at HALO’s option, except for information stored in RECIPIENT's archived backups, which may be retained indefinitely for compliance purposes.",
+        "explanation": "This change creates an in-text contradiction by stating that while all information remains HALO's property and must be returned or destroyed upon request, an exception is made for information in RECIPIENT's archived backups, which can be retained indefinitely. This contradicts the clear requirement for the return or destruction of all confidential information, creating ambiguity about the scope of the return obligation and potentially leading to disputes.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "All information furnished to RECIPIENT by HALO shall, unless otherwise specified in writing by HALO, remain the property of HALO; and the written information, and any copies thereof, shall be promptly returned to HALO upon its written request or destroyed by RECIPIENT at HALO’s option, except for information stored in RECIPIENT's archived backups, which may be retained indefinitely for compliance purposes.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an exception for archived backups regarding the return or destruction of confidential information. While the original text mandates the return or destruction of all information, the changed text allows the RECIPIENT to retain archived backups indefinitely. This directly contradicts the original requirement, creating an inconsistency about the scope of the return obligation, as well as directly contradicting the contradicted text, because both texts are equal, but the explanation gives a clear reason for why it creates contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Nothing contained in this Agreement shall be construed as granting any license or right to RECIPIENT by HALO under any patent of the United States or a foreign country or otherwise (except for the evaluation purposes indicated above).",
+        "changed_text": "Nothing contained in this Agreement shall be construed as granting any license or right to RECIPIENT by HALO under any patent of the United States or a foreign country or otherwise (except for the evaluation purposes indicated above). However, RECIPIENT is granted a temporary, non-exclusive license to use any HALO patents necessary to conduct its evaluation for a period of 90 days.",
+        "explanation": "This change adds a clause that grants RECIPIENT a temporary, non-exclusive license to use HALO patents, which directly contradicts the original statement that nothing in the agreement grants any license or right under any patent (except for evaluation). This creates an in-text contradiction about the RECIPIENT's rights to use HALO's patents and introduces legal uncertainty.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "Nothing contained in this Agreement shall be construed as granting any license or right to RECIPIENT by HALO under any patent of the United States or a foreign country or otherwise (except for the evaluation purposes indicated above). However, RECIPIENT is granted a temporary, non-exclusive license to use any HALO patents necessary to conduct its evaluation for a period of 90 days.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds a clause granting a temporary license to the RECIPIENT to use HALO patents, which directly contradicts the original statement (and also the contradicted text, since they are the same) that nothing in the agreement grants any such license, except for evaluation purposes. The added clause creates a clear inconsistency regarding the RECIPIENT's rights to use HALO's patents, making the license exception for 'evaluation purposes' ambiguous and contradicting the initial statement. This aligns with the definition of 'Inconsistencies - In Text Contradiction' where different sections of a contract provide conflicting obligations."
+      }
+    ]
+  }
+]

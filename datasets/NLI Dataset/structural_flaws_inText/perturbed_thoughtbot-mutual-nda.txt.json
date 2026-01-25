@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "thoughtbot-mutual-nda.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Receiving Party agrees that it shall take all reasonable measures to protect the secrecy of and avoid disclosure and unau- thorized use of the Confidential Information. Without limiting the foregoing, Receiving Party shall take at least those measures that Receiving Party takes to protect its own most highly confidential information and shall have its employees, if any, who have access to Confidential Information sign a nonuse and non-disclosure agreement in content substantially similar to the provi-sions hereof, prior to any disclosure of Confidential Information to such employees. The Receiving Party shall not make any cop - ies of Confidential Information unless the same are previously approved in writing by the Disclosing Party.",
+        "changed_text": "The Receiving Party agrees that it shall take all reasonable measures to protect the secrecy of and avoid disclosure and unau- thorized use of the Confidential Information, unless required by law. Without limiting the foregoing, Receiving Party shall take at least those measures that Receiving Party takes to protect its own most highly confidential information and shall have its employees, if any, who have access to Confidential Information sign a nonuse and non-disclosure agreement in content substantially similar to the provi-sions hereof, prior to any disclosure of Confidential Information to such employees. The Receiving Party shall not make any cop - ies of Confidential Information unless the same are previously approved in writing by the Disclosing Party.",
+        "explanation": "By adding 'unless required by law' to the Receiving Party's obligation to protect Confidential Information, we create a potential contradiction. The original text implies an absolute obligation to protect the information. The added clause provides an exception, but without specifying what constitutes 'required by law.' This contradicts the intent of complete secrecy by creating uncertainty and providing a loophole. This creates an in-text contradiction.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "The Receiving Party agrees that it shall take all reasonable measures to protect the secrecy of and avoid disclosure and unau- thorized use of the Confidential Information. Without limiting the foregoing, Receiving Party shall take at least those measures that Receiving Party takes to protect its own most highly confidential information and shall have its employees, if any, who have access to Confidential Information sign a nonuse and non-disclosure agreement in content substantially similar to the provi-sions hereof, prior to any disclosure of Confidential Information to such employees. The Receiving Party shall not make any cop - ies of Confidential Information unless the same are previously approved in writing by the Disclosing Party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the Receiving Party must take all reasonable measures to protect confidential information. The changed text adds \"unless required by law.\" This introduces a potential contradiction because the phrase 'unless required by law' creates an exception to the obligation of protecting confidentiality, which the original text and the contradicted text implies is an absolute obligation, therefore weakening the confidentiality clause and creating an in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "All documents and other tangible objects containing or representing Confidential Information and all copies thereof which are in the possession of Receiving Party shall be and remain the property of the Disclosing Party and shall be promptly returned to the Disclosing Party upon the Disclosing Party’s request.",
+        "changed_text": "All documents and other tangible objects containing or representing Confidential Information and all copies thereof which are in the possession of Receiving Party shall be and remain the property of the Disclosing Party, except that the Receiving Party may retain one copy for archival purposes demonstrating compliance with this agreement. All documents should be promptly returned to the Disclosing Party upon the Disclosing Party’s request.",
+        "explanation": "In Section 7, the original text mandates the return of *all* documents containing Confidential Information upon request. The inserted phrase 'except that the Receiving Party may retain one copy for archival purposes' creates a direct contradiction. It is no longer the case that *all* documents must be returned. This exception undermines the Disclosing Party's control over its Confidential Information.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "All documents and other tangible objects containing or representing Confidential Information and all copies thereof which are in the possession of Receiving Party shall be and remain the property of the Disclosing Party and shall be promptly returned to the Disclosing Party upon the Disclosing Party’s request.",
+        "contradiction_exists": "YES",
+        "justification": "The original text required all documents to be returned, while the changed text allows the Receiving Party to retain one copy for archival purposes. This creates a direct conflict with the contradicted text, which also mandates the return of all documents, as the changed text explicitly creates an exception to this rule. The explanation given accurately describes the contradiction. The contradiction is strong because now there are two different expectations within the contract."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement shall survive for a period of 3 years from the date of disclosure of the Confidential Information.",
+        "changed_text": "This Agreement shall survive for a period of 3 years from the date of disclosure of the Confidential Information, unless otherwise extended by mutual written agreement of both parties, in which case it shall continue indefinitely.",
+        "explanation": "The original term is set for 3 years. The added clause allows for indefinite extension, creating a contradiction. One section sets a clear termination date, while the other introduces the possibility of perpetual confidentiality, making the term ambiguous.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "This Agreement shall survive for a period of 3 years from the date of disclosure of the Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies a survival period of 3 years. The changed text adds a clause allowing for an indefinite extension via mutual agreement. This creates a direct contradiction because the original text sets a definite termination date (3 years), while the changed text introduces the possibility of perpetual confidentiality, making the term ambiguous. This contradicts the survival period as defined in the 'Contradicted Text', creating a structural flaw as defined by the perturbation type."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement shall bind and inure to the benefit of the parties hereto and their successors and assigns.",
+        "changed_text": "This Agreement shall bind and inure to the benefit of the parties hereto, except that it shall not be assigned to any entity that is a direct competitor of the Disclosing Party without prior written consent of the Disclosing Party. This agreement also applies to their successors and assigns.",
+        "explanation": "Initially, the agreement benefits the parties, their successors, and assigns unconditionally. Adding the clause about not assigning to direct competitors (without consent) introduces a condition, creating a contradiction of complete, unconditional benefit.",
+        "location": "11",
+        "contradicted_location": "11",
+        "contradicted_text": "This Agreement shall bind and inure to the benefit of the parties hereto and their successors and assigns.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the agreement benefits the parties, their successors, and assigns without any conditions. The changed text introduces a condition that the agreement shall not be assigned to any entity that is a direct competitor of the Disclosing Party without prior written consent. This contradicts the original statement of unconditional benefit, as the 'assigns' now have a restriction placed on them, making the agreement's benefit conditional. The contradicted text also states that the agreement binds and inures to the benefit of the parties and their successors and assigns with no condition; however, the changed text adds a condition. This directly conflicts with the contradicted text, creating a strong in-text contradiction and following the definition for structural flaws - in text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Any and all disputes arising under or related to this Agreement shall be adjudicated exclusively in the Commonwealth of Massachusetts.",
+        "changed_text": "Any and all disputes arising under or related to this Agreement shall be adjudicated exclusively in the Commonwealth of Massachusetts, except for disputes concerning intellectual property rights, which may be pursued in any jurisdiction where infringement is alleged to have occurred.",
+        "explanation": "The original text mandates Massachusetts as the exclusive jurisdiction. The added exception for IP disputes creates a direct contradiction. Now, not *all* disputes are adjudicated in Massachusetts, leading to uncertainty and in-text contradiction.",
+        "location": "11",
+        "contradicted_location": "11",
+        "contradicted_text": "Any and all disputes arising under or related to this Agreement shall be adjudicated exclusively in the Commonwealth of Massachusetts.",
+        "contradiction_exists": "YES",
+        "justification": "The original text and contradicted text state that *any and all* disputes will be adjudicated in Massachusetts. The changed text introduces an exception for intellectual property disputes, allowing them to be pursued in other jurisdictions. This directly contradicts the original statement that Massachusetts has exclusive jurisdiction over all disputes, fitting the 'Structural Flaws - In Text Contradiction' definition where a clause is placed in multiple locations with conflicting implications, creating uncertainty about the obligations and rights of each party."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "STARTECGLOBALCOMMUNICATIONSCORP_11_16_1998-EX-10.30-CONSTRUCTION AND MAINTENANCE AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "AFFILIATE A company in which not less than either ten percent (10%) or the highest percentage allowed by the local law, whichever is the lowest, of its voting capital is owned directly or indirectly by a Party or a company owning directly or indirectly not less than either ten (10%) or the highest percentage allowed by the local law, whichever is the lowest, of the voting capital of a Party.",
+        "changed_text": "AFFILIATE A company in which not less than either fifty percent (50%) or the highest percentage allowed by the local law, whichever is the lowest, of its voting capital is owned directly or indirectly by a Party or a company owning directly or indirectly not less than either ten (10%) or the highest percentage allowed by the local law, whichever is the lowest, of the voting capital of a Party.",
+        "explanation": "The definition of 'Affiliate' is changed from 'ten percent (10%)' to 'fifty percent (50%)'. This creates a conflict with later sections that rely on the original definition. Specifically, the changed definition creates uncertainty in who qualifies as an affiliate of a Party, impacting rights and obligations that extend to affiliates.",
+        "location": "1.1",
+        "contradicted_location": "30.2",
+        "contradicted_text": "A Party may assign the whole of its rights under this Agreement to a successor by law, Subsidiary or Affiliate of such Party, or a corporation or an entity jointly controlling or under the same common control as such Party, provided that the assigning Party shall remain jointly and severally liable with the assignee for the performance of this Agreement for the duration of the Agreement. The Managing Group may decide that the assigning Party will not remain jointly and severally liable with the assignee for the performance of this Agreement for the duration of the Agreement provided that the assigning Party will give notice to the other Parties in a timely manner, and provided that the assignee agrees in writing to be bound by the provisions of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The definition of 'Affiliate' is changed from 'ten percent (10%)' to 'fifty percent (50%)'. This creates a conflict because the contradicted text allows a Party to assign rights under the Agreement to an Affiliate. By changing the definition of 'Affiliate', the pool of entities that qualify as Affiliates is reduced. Thus, an entity that would have qualified as an Affiliate under the original definition (10%) and would have been eligible to receive an assignment of rights, may no longer qualify under the changed definition (50%). This directly contradicts the original intent and creates uncertainty in the assignment clause."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "INTERNATIONAL TELECOMMUNICATIONS ENTITY (ITE) Any entity authorized or permitted under the laws of its respective Country, or another Country in which it operates, to acquire and use international transmission facilities for the provision of international telecommunications services and which is in possession of any necessary operating license to enable it to do so.",
+        "changed_text": "INTERNATIONAL TELECOMMUNICATIONS ENTITY (ITE) Any entity authorized or permitted under the laws of its respective Country, or another Country in which it operates, to acquire and use international transmission facilities for the provision of international telecommunications services regardless of whether it is in possession of any necessary operating license to enable it to do so.",
+        "explanation": "By removing the requirement of possessing a necessary operating license in the definition of 'INTERNATIONAL TELECOMMUNICATIONS ENTITY (ITE)', it directly contradicts the intentions outlined in Section 9.2, where assignees of capacity must possess all requisite licenses. This in-text contradiction introduces ambiguity regarding the qualifications for acquiring capacity and participating in the TAT-14 network.",
+        "location": "1.1",
+        "contradicted_location": "9.2",
+        "contradicted_text": "An assignee of capacity under a Purchase Contract or Private Agreement must be either a Party or an entity in possession of any and all requisite licenses authorizing it to own, operate, acquire, sell and/or use, as appropriate, the capacity in TAT-14 for the provision of international telecommunications.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the requirement for an 'INTERNATIONAL TELECOMMUNICATIONS ENTITY (ITE)' to possess necessary operating licenses. This directly contradicts the contradicted text, which states that an assignee of capacity 'must be either a Party or an entity in possession of any and all requisite licenses.' The removal of this requirement in the definition of ITE creates a direct conflict, as an entity can now be defined as an ITE and acquire capacity without holding the necessary licenses, directly contradicting the contradicted clause. This creates ambiguity and potential unenforceability regarding who is eligible to acquire capacity under the contract."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "READY FOR CUSTOMER SERVICE (RFCS) DATE The Ready for Customer Service Date (hereinafter called \"RFCS Date\") shall be considered as the date at which the Parties agree to place TAT-14 into operation for customer service. The RFCS Date is planned to be by 15 December 2000.",
+        "changed_text": "READY FOR CUSTOMER SERVICE (RFCS) DATE The Ready for Customer Service Date (hereinafter called \"RFCS Date\") shall be considered as the date at which the Parties agree to place TAT-14 into operation for customer service. The RFCS Date will be determined by the managing group",
+        "explanation": "Changing the RFCS date definition introduces uncertainty about the network operation date. The original definition set a planned date, while the modified definition gives the managing group the right to determine the RFCS date.",
+        "location": "1.1",
+        "contradicted_location": "4.1",
+        "contradicted_text": "Each of the Segments T1 to T7 shall be provided by the Terminal Party owning that segment, as shown in Subparagraph 5.1, in accordance with the terms of Paragraph 18 of this Agreement. Segments T1 to T7 shall be provided in sufficient time to permit TAT-14 to be placed into operation by the RFPA Date.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified a concrete 'RFCS Date' (15 December 2000), providing certainty for subsequent clauses that depend on this date. The changed text introduces uncertainty by stating the 'RFCS Date' will be determined by the managing group, removing the fixed date. This contradicts the 'Contradicted Text', which states segments must be provided 'in sufficient time to permit TAT-14 to be placed into operation by the RFPA Date', as there is no longer a pre-defined RFCS date to ensure sufficient time is allocated. The change introduces ambiguity, creating a Structural Flaw (In Text Contradiction) because the changed text makes it unclear when TAT-14 should be operational, potentially making it impossible to provide segments in time, thus contradicting the obligation in the 'Contradicted Text'."
+      }
+    ]
+  }
+]

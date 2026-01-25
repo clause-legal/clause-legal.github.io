@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "1013687_0000950144-96-001973_document_38.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Recipient shall, upon the earlier occurrence of (i) completion of the tasks assigned to it by Client which require access to the Confidential",
+        "changed_text": "Recipient shall, upon the earlier occurrence of (i) completion of the tasks assigned to it by Client which require access to the Confidential (iii) Recipient's choice",
+        "explanation": "The modification introduces a conflict by adding \"(iii) Recipient's choice\" as a condition for returning confidential information. This directly contradicts the original intent that return of information is tied to task completion or termination. Now, the Recipient can choose to keep the information.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "Recipient shall, upon the earlier occurrence of (i) completion of the tasks assigned to it by Client which require access to the Confidential Information, or (ii) Recipient's termination of employment with Client, return to Client all copies of the Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the recipient must return confidential information upon task completion or termination. The changed text adds \"(iii) Recipient's choice\" as a condition, which allows the recipient to choose when to return the information, regardless of task completion or termination. This directly contradicts the contradicted text, which mandates the return of confidential information upon specific events. Therefore, the changed text introduces a strong in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Recipient acknowledges that the Application Software and all documentation and related materials are proprietary to Company and are confidential and constitute a valuable asset of Company, and that the data files contained in the Confidential Information are proprietary to Client and are confidential and constitute a valuable asset of Client.",
+        "changed_text": "Recipient acknowledges that the Application Software and all documentation and related materials may or may not be proprietary to Company and may or may not be confidential and may or may not constitute a valuable asset of Company, and that the data files contained in the Confidential Information are proprietary to Client and are confidential and constitute a valuable asset of Client.",
+        "explanation": "By casting doubt on the proprietary and confidential nature of the Application Software, the modified text contradicts the fundamental basis of the entire agreement, which relies on the protection of Company's assets. This weakens the enforceability of clauses related to non-disclosure and unauthorized use.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "Recipient acknowledges that the Application Software and all documentation and related materials are proprietary to Company and are confidential and constitute a valuable asset of Company, and that the data files contained in the Confidential Information are proprietary to Client and are confidential and constitute a valuable asset of Client.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces uncertainty about the proprietary and confidential nature of the Application Software by stating it \"may or may not\" be proprietary and confidential, whereas the contradicted text states definitively that it \"is\" proprietary and confidential. This creates a direct conflict and weakens the enforceability of clauses related to non-disclosure and unauthorized use, as highlighted in the Perturbation Explanation. This aligns with the definition of \"Inconsistencies - In Text Contradiction\", where different sections of a contract provide conflicting obligations."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Recipient agrees to safeguard the Confidential Information, and Recipient shall not disclose or give access to the Confidential Information to any person or entity other than those employees of Recipient who have a need for such access in order to assist Client with Conversion.",
+        "changed_text": "Recipient agrees to safeguard the Confidential Information to the best of their ability, and Recipient shall not disclose or give access to the Confidential Information to any person or entity other than those employees of Recipient who have a need for such access in order to assist Client with Conversion, unless there is a need.",
+        "explanation": "The added phrase \"unless there is a need\" introduces ambiguity into the non-disclosure obligation. It is now unclear when disclosure is permitted, potentially undermining the intended confidentiality of the information and contradict the previous line.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "Recipient agrees to safeguard the Confidential Information, and Recipient shall not disclose or give access to the Confidential Information to any person or entity other than those employees of Recipient who have a need for such access in order to assist Client with Conversion.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds \"unless there is a need\" which directly contradicts the original intent of the confidentiality clause. The contradicted text states that the recipient \"shall not disclose or give access\" except for employees assisting with conversion. The added phrase creates ambiguity and allows for other undefined exceptions, conflicting with the original strict non-disclosure obligation. This aligns with the definition of 'Inconsistencies - In Text Contradiction' as it introduces conflicting obligations."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Recipient shall not, and it will not permit anyone else, to copy the Confidential Information or Application Software.",
+        "changed_text": "Recipient shall not, and it will not permit anyone else, to copy the Confidential Information or Application Software, unless explicitly approved by client.",
+        "explanation": "The additional phrase contradicts the explicit prohibition of copying the confidential information and application software, now allowing copying if client explicitly approves it, making the term to not permit anyone else to copy the confidential information and application software weaker.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Recipient shall not make any unauthorized use or disclosure of the Confidential Information and Recipient shall promptly advise Company and Client in writing if Recipient learns of any unauthorized use or disclosure of the Confidential Information or Application Software by anyone, whether an employee, former employee or agent of Recipient, or others, and shall immediately take all reasonable steps within Recipient's power to stop any unauthorized use or disclosure of the Confidential Information or Application Software by anyone. Recipient shall not, and it will not permit anyone else, to copy the Confidential Information or Application Software.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly prohibits copying Confidential Information or Application Software. The changed text introduces an exception, allowing copying if explicitly approved by the client. This directly contradicts the contradicted text, which also states an explicit prohibition on copying. The addition of 'unless explicitly approved by client' creates a conflicting condition, which falls under the definition of Inconsistencies - In Text Contradiction where different sections of a contract provide conflicting obligations, or penalties. This makes the enforceability of the restriction on copying unclear and introduces a strong in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "In such event, Company and Client shall have the right to equitable and injunctive relief to prevent any unauthorized use or disclosure, and to such damages as are occasioned by any such unauthorized use or disclosure, including but not limited to reasonable attorneys' fees and costs incurred in enforcing Company's or Client's rights hereunder.",
+        "changed_text": "In such event, Company and Client may have the right to equitable and injunctive relief to prevent any unauthorized use or disclosure, and to such damages as are occasioned by any such unauthorized use or disclosure, possibly including reasonable attorneys' fees and costs incurred in enforcing Company's or Client's rights hereunder.",
+        "explanation": "This change introduces uncertainty in the ability of the company and client to seek injunctive relief or damages for unauthorized use by weakening the language.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "In such event, Company and Client shall have the right to equitable and injunctive relief to prevent any unauthorized use or disclosure, and to such damages as are occasioned by any such unauthorized use or disclosure, including but not limited to reasonable attorneys' fees and costs incurred in enforcing Company's or Client's rights hereunder.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that Company and Client 'shall have the right' to equitable and injunctive relief and damages. The changed text alters this to 'may have the right' and 'possibly including' attorneys fees, introducing uncertainty. This directly contradicts the contradicted text, which states 'shall have the right', creating an inconsistency in the enforceability of the rights, thereby fitting the 'Inconsistencies - In Text Contradiction' perturbation type."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This agreement shall be governed by, interpreted in accordance with, and enforced under the laws of the State of Florida.",
+        "changed_text": "This agreement shall be governed by, interpreted in accordance with, and enforced under the laws of the State of Florida, unless the recipient is based outside of Florida.",
+        "explanation": "The added clause introduces a contradiction regarding the governing law. It is now ambiguous whether Florida law applies if the recipient is not in Florida, making the agreement's enforcement uncertain.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "This agreement shall be governed by, interpreted in accordance with, and enforced under the laws of the State of Florida. Recipient and Client hereby agree and acknowledge that Company is a benefited third party to this Agreement. Modification of this Agreement must be in writing and signed by all parties. IN WITNESS WHEREOF, the parties hereto have executed this Addendum in manner and form sufficient to bind them on the day and year indicated after their respective execution hereof. CLIENT: RECIPIENT: ---------------------------- ---------------------------- Authorized Signature Authorized Signature ---------------------------- ---------------------------- Type or Print Name and Title Type or Print Name and Title ---------------------------- ---------------------------- Date Date PHOENIX INTERNATIONAL LTD., INC. ---------------------------- Authorized Signature ---------------------------- Type or Print Name and Title ---------------------------- Date",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the agreement is governed by Florida law. The changed text adds an exception: Florida law applies 'unless the recipient is based outside of Florida'. This directly contradicts the initial, absolute statement, creating ambiguity and a strong inconsistency regarding the governing law. The contradicted text also explicitly states that the agreement should be enforced under the laws of Florida. Therefore, the new clause creates a clear contradiction."
+      }
+    ]
+  }
+]

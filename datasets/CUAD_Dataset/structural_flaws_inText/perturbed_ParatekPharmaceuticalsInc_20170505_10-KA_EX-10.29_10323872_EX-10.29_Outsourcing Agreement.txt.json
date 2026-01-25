@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "ParatekPharmaceuticalsInc_20170505_10-KA_EX-10.29_10323872_EX-10.29_Outsourcing Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Each invoice provided by Supplier to Customer under Section 10.1, to the extent accurate, shall be paid by Customer to Supplier within [* * *] after the date of the invoice to the extent that Customer does not reasonably dispute that portion of the invoice in good faith. All payments will be made in U.S. Dollars by SWIFT bank transfer directly to the Supplier account as specified in the respective Purchase Orders.",
+        "changed_text": "Each invoice provided by Supplier to Customer under Section 10.1, to the extent accurate, shall be paid by Customer to Supplier within [* * *] after the date of the invoice, regardless of whether the Customer disputes the invoice or not. All payments will be made in U.S. Dollars by SWIFT bank transfer directly to the Supplier account as specified in the respective Purchase Orders.",
+        "explanation": "The original text specifies that payment is due within [* * *] after the invoice date if the Customer does not reasonably dispute the invoice in good faith. The changed text removes the condition of non-dispute, implying that payment is due even if the Customer disputes the invoice. This contradiction creates uncertainty regarding the Customer's obligation to pay disputed invoices.",
+        "location": "10.4",
+        "contradicted_location": "10.4",
+        "contradicted_text": "Each invoice provided by Supplier to Customer under Section 10.1, to the extent accurate, shall be paid by Customer to Supplier within [* * *] after the date of the invoice, regardless of whether the Customer disputes the invoice or not. All payments will be made in U.S. Dollars by SWIFT bank transfer directly to the Supplier account as specified in the respective Purchase Orders.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that payment is due within a certain timeframe if the Customer *does not* dispute the invoice. The changed text eliminates this condition, stating payment is due regardless of whether the Customer disputes the invoice or not. The contradicted text is identical to the changed text, meaning it enforces the changed text. This directly contradicts the original intention of allowing the customer to withhold payment on reasonably disputed invoices. The contradiction is strong because it impacts the Customer's rights related to invoice disputes."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "If either Party has grounds to recommend a Recall or otherwise receives a notification or information which might result in a Recall, the Party recommending such Recall or receiving such notification or information shall immediately notify the other Party in writing. Subject to Applicable Law, Customer and its designees shall have the sole responsibility to implement any Recall of the Product or any intermediate or finished product containing the Product and the sole right to make all final decisions regarding any such Recall. Supplier shall reasonably cooperate with Customer and its designees in implementing any such Recall, at Customer's expense.",
+        "changed_text": "If either Party has grounds to recommend a Recall or otherwise receives a notification or information which might result in a Recall, the Party recommending such Recall or receiving such notification or information shall immediately notify the other Party in writing. Notwithstanding Applicable Law, Supplier shall have the sole responsibility to implement any Recall of the Product or any intermediate or finished product containing the Product and the sole right to make all final decisions regarding any such Recall. Customer shall reasonably cooperate with Supplier in implementing any such Recall, at Customer's expense.",
+        "location": "17.2",
+        "contradicted_location": "17.2",
+        "explanation": "The original text states that the Customer has the sole responsibility and right to make all final decisions regarding a product recall. The modified text gives this power to the Supplier, and it contradicts the initial assertion. This is an in-text contradiction because the changed definition directly clashes with the original.",
+        "contradicted_text": "If either Party has grounds to recommend a Recall or otherwise receives a notification or information which might result in a Recall, the Party recommending such Recall or receiving such notification or information shall immediately notify the other Party in writing. Notwithstanding Applicable Law, Supplier shall have the sole responsibility to implement any Recall of the Product or any intermediate or finished product containing the Product and the sole right to make all final decisions regarding any such Recall. Customer shall reasonably cooperate with Supplier in implementing any such Recall, at Customer's expense.",
+        "contradiction_exists": "YES",
+        "justification": "The original text assigns sole responsibility for recalls to the Customer. The changed text assigns sole responsibility for recalls to the Supplier. The contradicted text is identical to the changed text, which solidifies the contradiction and clarifies that the supplier has the final say, which contradicts the customer having the final say. Therefore, a strong in-text contradiction exists."
+      }
+    ]
+  }
+]

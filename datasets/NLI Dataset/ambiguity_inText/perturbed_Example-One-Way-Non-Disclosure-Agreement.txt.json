@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "Example-One-Way-Non-Disclosure-Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Recipient undertakes not to use the Confidential Information for any purpose except the Purpose, without first obtaining the written agreement of the Discloser.",
+        "changed_text": "The Recipient may use the Confidential Information for the Purpose, but should attempt to first obtain the written agreement of the Discloser.",
+        "explanation": "This change introduces ambiguity regarding the Recipient's ability to use Confidential Information. The original text prohibits use without prior written agreement, while the modified text suggests use is permissible even without it, only requiring an attempt to obtain agreement. This contradicts clause 7, which limits use of confidential information to copying it solely for the stated purpose. Furthermore, the term 'endeavor' is vague and unenforceable, making the obligation uncertain, this introduces an in-text contradiction.",
+        "location": "2",
+        "contradicted_location": "7",
+        "contradicted_text": "Neither this Agreement nor the supply of any information grants the Recipient any licence, interest or right in respect of any intellectual property rights of the Discloser except the ri ght to copy the Confidential Information solely for the Purpose.",
+        "contradiction_exists": "YES",
+        "justification": "The original text strictly prohibits using Confidential Information without prior written agreement. The changed text allows for the use of Confidential Information even if written agreement hasn't been obtained, requiring only an attempt to obtain it. This directly contradicts the clause stating that the Recipient only has the right to copy the Confidential Information solely for the Purpose, and no other rights are granted."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Recipient undertakes to keep the Confidential Information secure and not to disclose it to any third party [except to its employees [and professional advi sers] who need to know the same for the Purpose, who know they owe a duty of confidence to the Discloser and who are bound by obligations equivalent to those in clause 2 above and this clause 3.",
+        "changed_text": "The Recipient will endeavor to keep the Confidential Information secure and may disclose it to any third party without the need to ensure they owe a duty of confidence to the Discloser.",
+        "explanation": "This change introduces a significant contradiction. Originally, the Recipient was obligated to keep the information secure and only disclose it to specific individuals under strict conditions. Now, the obligation to keep the information secure is weakened by 'endeavor,' which introduces ambiguity, and there's no restriction on disclosing to third parties, directly contradicting the original terms. This creates an in-text contradiction with clause 2, which prohibits using Confidential Information without agreement.",
+        "location": "3",
+        "contradicted_location": "2",
+        "contradicted_text": "The Recipient undertakes not to use the Confidential Information for any purpose except the Purpose, without first obtaining the written agreement of the Discloser.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text weakens the obligation to keep information secure by using 'endeavor' instead of 'undertakes', and removes restrictions on disclosing to third parties. This directly contradicts the contradicted text, which states that the Recipient undertakes not to use the Confidential Information for any purpose except the Purpose without written agreement. The original text imposed a duty of confidence, whereas the changed text allows disclosure to any third party without ensuring they owe a duty of confidence, creating a direct conflict."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The undertakings in clauses 2 and 3 above apply to all of the information disclosed by the Discloser to the Recipient, regardless of the way or form in which it is disclosed or recorded but they do not apply to: a) any information which is or in future comes into the public domain (unless as a result of the breach of this Agreement); or b) any information which is already known to the Recipient and which was not subject to any obligation of confidence before it was disclosed to the Recipient by the Discloser.",
+        "changed_text": "The undertakings in clauses 2 and 3 above apply only to information clearly marked as 'Confidential' in writing at the time of disclosure. This does not apply to oral disclosures or information previously known to the Recipient.",
+        "explanation": "This change limits the scope of confidentiality obligations, creating an in-text contradiction. The original text applies to *all* information disclosed, regardless of form. The modification now requires written marking, excluding oral disclosures and creating ambiguity about previously known information. This contradicts the underlying intent of a Non-Disclosure Agreement, where oral disclosures are commonly considered confidential. This contradicts the original clause 3, regarding the Recipient's undertaking to keep the Confidential Information secure.",
+        "location": "4",
+        "contradicted_location": "3",
+        "contradicted_text": "The Recipient will endeavor to keep the Confidential Information secure and may disclose it to any third party without the need to ensure they owe a duty of confidence to the Discloser.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the confidentiality clause applies to all information disclosed, regardless of form. The changed text limits this to only information 'clearly marked as Confidential in writing,' contradicting the original scope. This directly conflicts with the contradicted text, which requires the recipient to 'keep the Confidential Information secure'. Since the definition of 'Confidential Information' has been narrowed, the recipient's obligation is now unclear and less encompassing, thus causing a direct conflict."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Nothing in this Agreement will prevent the Reci pient from making any disclosure of the Confidential Information required by law or by any competent authority.",
+        "changed_text": "The Recipient must disclose the Confidential Information if compelled by law or any competent authority, regardless of the potential harm to the Discloser.",
+        "explanation": "This change introduces a subtle but significant contradiction. The original clause allows for legally compelled disclosure, but the modified clause *mandates* it, removing any room for discretion or attempts to protect the Discloser's interests. This creates a contradiction with the underlying purpose of the NDA, which is to *prevent* disclosure. It is also inconsistent with clause 2, regarding the use of Confidential Information.",
+        "location": "5",
+        "contradicted_location": "2",
+        "contradicted_text": "The Recipient may use the Confidential Information for the Purpose, but should attempt to first obtain the written agreement of the Discloser.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed for disclosure required by law, providing some flexibility. The changed text mandates disclosure if compelled by law, removing that flexibility. The contradicted text states that the Recipient 'may use the Confidential Information for the Purpose, but should attempt to first obtain the written agreement of the Discloser.' This implies some level of control and discretion over the use of confidential information. However, the changed text's mandate to disclose information regardless of harm directly contradicts the recipient's ability to first obtain written agreement from the Discloser, thus creating an in-text contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Recipient will, on request from the Discloser, return all copies and records of the Confidential Information to the Discloser and will not retain any copies or records of the Confidential Information.",
+        "changed_text": "The Recipient will, only if feasible, return copies of the Confidential Information, but may retain records for internal compliance purposes.",
+        "explanation": "This change creates a direct contradiction regarding the return of confidential information. The original text mandates the return of *all* copies and records and prohibits retention. The revised text allows for retention for 'internal compliance purposes,' creating a loophole and directly contradicting the prohibition. The obligation for the Recipient to return, is weakened by 'only if feasible'. This contradicts the main goal of the document, regarding confidentiality, and creates and in-text contradiction",
+        "location": "6",
+        "contradicted_location": "3",
+        "contradicted_text": "The Recipient will endeavor to keep the Confidential Information secure and may disclose it to any third party without the need to ensure they owe a duty of confidence to the Discloser.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a clear contradiction. The original text mandates the return of all confidential information copies and prohibits retention, while the changed text allows for retention for internal compliance purposes and weakens the obligation to return by adding 'only if feasible'. This directly contradicts the confidentiality goal and creates a loophole, directly contradicting the prohibition and creating a contradiction with the contradicted text."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The undertakings in clauses 2 and 3 will continue in force [indefinitely.] [for [insert number] years from the date of this Agreement.]",
+        "changed_text": "The undertakings in clauses 2 and 3 will continue in force for as long as the Recipient deems necessary, but no more than one year.",
+        "explanation": "This change introduces a contradiction regarding the duration of the agreement. The original text specifies a fixed period or indefinite duration. The modified text introduces the Recipient's discretion and a one-year cap, directly contradicting the intended duration and undermining the purpose of long-term confidentiality. This clause contradicts clause 2, regarding the use of Confidential Information.",
+        "location": "8",
+        "contradicted_location": "2",
+        "contradicted_text": "The Recipient may use the Confidential Information for the Purpose, but should attempt to first obtain the written agreement of the Discloser.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allows for an indefinite or multi-year duration for clauses 2 and 3. The changed text limits the duration to a maximum of one year, contradicting the original intent and undermining the purpose of long-term confidentiality. This directly contradicts the contradicted text in clause 2, which assumes a longer or indefinite period for using the Confidential Information, making the requirement to obtain written agreement unrealistic within the constrained one-year timeframe."
+      }
+    ]
+  }
+]

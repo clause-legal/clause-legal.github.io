@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "FuseMedicalInc_20190321_10-K_EX-10.43_11575454_EX-10.43_Distributor Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Term: the term of this agreement, as determined in accordance with clause 11.",
+        "changed_text": "Term: the term of this agreement, as determined in accordance with clause 11, but can be unilaterally extended by the Supplier.",
+        "explanation": "By adding 'but can be unilaterally extended by the Supplier' to the definition of 'Term,' we are introducing a contradiction. Clause 11 outlines specific conditions for termination and duration. This addition allows the Supplier to extend the agreement beyond those conditions, creating uncertainty and contradicting the original, mutually agreed-upon term length. This contradicts not only Clause 11, but also the overall implied agreement that both parties are bound by the same terms.",
+        "location": "1.1",
+        "contradicted_location": "11.1",
+        "contradicted_text": "This agreement begins on the Commencement Date and, subject to clause 11.2, shall continue for an initial term of one (1) years (Initial Term) and indefinitely after that until terminated by either party giving at least twelve (12) months' prior written notice to expire on or after the expiry date of the initial term.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text allows the Supplier to unilaterally extend the agreement, directly contradicting the 'Initial Term' and termination conditions specified in the contradicted text. The original agreement requires mutual agreement on termination, while the change introduces a unilateral extension option, causing a strong in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Territory: means the territory specified in Schedule 2.",
+        "changed_text": "Territory: means the territory specified in Schedule 2, however, Supplier has the right to change at will.",
+        "explanation": "By adding 'however, Supplier has the right to change at will' to the definition of 'Territory,' we create a direct contradiction. Schedule 2 defines the Territory as the USA. The added phrase gives the Supplier the unilateral right to alter this defined Territory. This creates uncertainty for the Distributor as their exclusive or non-exclusive rights are affected. The Distributor's sales projections could become invalid. In essence, this addition severely undermines the original definition and its purpose.",
+        "location": "1.1",
+        "contradicted_location": "2.1",
+        "contradicted_text": "The Supplier appoints the Distributor as its non-exclusive distributor to distribute the Products in the Territory on the terms of this agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines 'Territory' by reference to Schedule 2. The changed text adds that the Supplier can change the Territory at will. This directly contradicts the clause that grants the Distributor rights 'to distribute the Products in the Territory on the terms of this agreement'. The Distributor's distribution rights are fundamentally undermined if the Supplier can unilaterally alter the Territory, rendering the original definition and the distribution agreement uncertain and potentially unenforceable. This is a structural flaw creating in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Prices and payment 5.1 The prices to be paid by the Distributor to the Supplier for the Products are to be the Price, as set out in Schedule 4.",
+        "changed_text": "Prices and payment 5.1 The prices to be paid by the Distributor to the Supplier for the Products are to be the Price, as set out in Schedule 4, but at the Supplier's discretion.",
+        "explanation": "By adding 'but at the Supplier's discretion' to the definition of 'Price,' we are creating a contradiction because of the uncertainty now. Schedule 4 defines the prices for each product. The added phrase gives the Supplier the unilateral right to alter these prices at any given time. This creates uncertainty for the Distributor as their profit margings could be affected as well as not knowing if Schedule 4 prices are concrete. In essence, this addition severely undermines the original definition and its purpose. This also directly contradicts the explicit price list in Schedule 4.",
+        "location": "5.1",
+        "contradicted_location": "Schedule 4",
+        "contradicted_text": "Schedule 4\nPrices\nAria Stem $610\nOrigin Stem $610\nRemedy Stem $610\nLogical Cup $450\nLogical Liner $210\nMetal Head $240\nCeramic Head $340\nBiPolar Head $250\nPS / CR Femoral Component $550\nInsert $340\nTibia Tray $440\nPatella $70",
+        "contradiction_exists": "YES",
+        "justification": "The addition of 'but at the Supplier's discretion' to clause 5.1 directly contradicts the fixed prices listed in Schedule 4. The changed text introduces uncertainty regarding the actual price of the products, undermining the original intention of Schedule 4 as a definitive price list. A reasonable reader would immediately recognize that the supplier now has unilateral control over the prices, rendering the explicit prices in Schedule 4 unreliable, causing a strong contradiction."
+      }
+    ]
+  }
+]

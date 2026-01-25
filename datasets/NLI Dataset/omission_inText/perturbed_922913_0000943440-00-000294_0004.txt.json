@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "922913_0000943440-00-000294_0004.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "As used in this Agreement, the phrase Proprietary Information shall include, but not be limited to the following: (a) information relating to trade secrets, appropriate licenses with certain third parties, data, designs, samples, drawings, relationships, documentation, machinery, prototypes, processes, methods, concepts, facilities, research, development, patent applications, and other Proprietary Information relating to the development, testing, manufacture, or application of any such devices or systems (including but not limited to system concepts, architectures, source documents and programming documents); and (b) all marketing or financial plans, projections, resources, contracts, studies, and general information relating to the specific business opportunity contemplated herein, whether obtained verbally or in writing, or through observation. All information, tangible or intangible, whether obtained verbally or in writing, is to be considered Proprietary Information.",
+        "changed_text": "As used in this Agreement, the phrase Proprietary Information shall include information considered confidential by both parties. All information, tangible or intangible, whether obtained verbally or in writing, is to be considered Proprietary Information.",
+        "explanation": "The modification removes the detailed definition of 'Proprietary Information', which initially included trade secrets, licenses, designs, financial plans, etc. The new definition is overly broad and subjective (information considered confidential), and creating uncertainty in what specific types of information are protected under the agreement. This creates a contradiction because later clauses refer back to Proprietary Information. The clause is too vague to be properly enforced, since it is up for debate whether the information being disclosed actually qualifies as 'Proprietary Information'.",
+        "location": "2",
+        "contradicted_location": "4",
+        "contradicted_text": "Neither party shall disclose the Proprietary Information of the other party to any third party whatsoever by without the prior written approval of the other party and all such information shall be protected with at least the same diligence, care, and precaution that each party uses to protect its own Proprietary Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined 'Proprietary Information' with specific examples. The changed text replaces this with a vague definition of 'information considered confidential by both parties'. The contradicted text states that 'Neither party shall disclose the Proprietary Information of the other party'. The original definition gave clear boundaries for what constituted Proprietary Information, making the non-disclosure obligation enforceable. By removing the specific examples and replacing them with a subjective standard, it is unclear what constitutes Proprietary Information, thus making it difficult to enforce the non-disclosure agreement in the contradicted text, fulfilling the definition of Omissions - In Text Contradiction. The modified text creates ambiguity where the contradicted clause expects certainty."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "With respect to each item of Proprietary Information disclosed, this obligation of the parties under this Agreement shall expire three (3) years from the date of each such disclosure or the maximum period permitted by law if such period is less than three (3) years.",
+        "changed_text": "With respect to Proprietary Information disclosed, this obligation of the parties under this Agreement shall continue indefinitely.",
+        "explanation": "By changing the expiry date to 'continue indefinitely' removes a specific timeframe, contradicting the original intention of having a limited confidentiality period. Other sections now reference this open-ended obligation.",
+        "location": "8",
+        "contradicted_location": "5",
+        "contradicted_text": "The undertakings and obligations of the parties under this Agreement shall not apply to any information which: (a) is disclosed in a printed publication available to the general public, is described by or in a patent anywhere in the world, or is otherwise in the public domain at the time of disclosure other than through the wrongful act or omission of the receiving party; (b) is generally disclosed to third parties by the disclosing party without restriction on such third parties; (c) is approved for release by prior, express, written authorization from the disclosing party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified a three-year expiry for proprietary information obligations. The changed text removes this expiry, making the obligation 'continue indefinitely'. This directly contradicts the contradicted text, which lists exceptions to the parties' obligations. If the obligation to keep information confidential continues indefinitely, the exceptions (like information becoming public) become meaningless because the confidentiality obligation never ceases, even if the information enters the public domain. Therefore, the change creates a strong in-text contradiction as defined by Omissions - In Text Contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "WHEREAS, the parties desire to protect and maintain the confidentiality of their respective trade secrets and/or other proprietary information (hereafter collectively referred to as \"Proprietary Information\") and to control and restrict its dissemination to prevent disclosure to unauthorized parties; and",
+        "changed_text": "WHEREAS, the parties desire to maintain the confidentiality of information exchanged; and",
+        "explanation": "By removing the explicit mention of 'trade secrets' and narrowing it down to 'information exchanged', the agreement becomes vague. This creates an inconsistency because the agreement is originally intended to cover trade secrets but now only mentions 'information'. The reference to \"Proprietary Information\" is also removed from this section",
+        "location": "WHEREAS",
+        "contradicted_location": "2",
+        "contradicted_text": "As used in this Agreement, the phrase Proprietary Information shall include information considered confidential by both parties. All information, tangible or intangible, whether obtained verbally or in writing, is to be considered Proprietary Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly mentioned 'trade secrets' and 'Proprietary Information,' indicating a clear intent to protect this specific type of sensitive data. The changed text omits 'trade secrets' and narrows the scope to 'information exchanged,' making the agreement vague and potentially excluding trade secrets from protection. This directly contradicts the contradicted text, which defines 'Proprietary Information' broadly, including all tangible or intangible information considered confidential by both parties. By removing the explicit mention of 'trade secrets' and 'Proprietary Information' from the changed text, the agreement now creates an inconsistency and directly contradicts what is stated in the contradicted text."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "INFE will disclose to IDO such portions of its Proprietary Information solely to enable IDO to determine the desirability of the proposed sale of assets of the Placeum.com division of IDO to INFE; and IDO shall not disseminate any portions of the Proprietary Information to any third party individual or entity.",
+        "changed_text": "INFE will disclose information to IDO to enable IDO to determine the desirability of the proposed sale of assets of the Placeum.com division of IDO to INFE; and IDO shall not disseminate any portions of the information to any third party individual or entity.",
+        "explanation": "By changing 'Proprietary Information' to 'information' in this clause, and with the clause in 'WHEREAS' also changed. It now becomes unclear what information is protected, thus conflicting with the original scope of the agreement.",
+        "location": "1",
+        "contradicted_location": "4",
+        "contradicted_text": "Neither party shall disclose the Proprietary Information of the other party to any third party whatsoever by without the prior written approval of the other party and all such information shall be protected with at least the same diligence, care, and precaution that each party uses to protect its own Proprietary Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies 'Proprietary Information' is being disclosed and protected. The changed text broadens this to just 'information'. This creates a contradiction because the 'Contradicted Text' refers specifically to the protection of 'Proprietary Information'. Now, it is unclear whether the obligation to protect Proprietary Information applies to *all* information disclosed, or just the original subset of 'Proprietary Information', directly contradicting the stated scope of protection and creating an ambiguity regarding the information that must be protected by each party."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "IDO will disclose to INFE such portions of its Proprietary Information solely to enable INFE to determine the desirability of the proposed sale of assets the Placeum.com division of IDO; and INFE shall not disseminate any portions of the Proprietary Information to any third party individual or entity.",
+        "changed_text": "IDO will disclose information to INFE to enable INFE to determine the desirability of the proposed sale of assets the Placeum.com division of IDO; and INFE shall not disseminate any portions of the information to any third party individual or entity.",
+        "explanation": "Similar to the previous perturbation, changing 'Proprietary Information' to 'information' creates inconsistency in what is actually being protected and what is referenced later on in the text.",
+        "location": "2",
+        "contradicted_location": "4",
+        "contradicted_text": "Neither party shall disclose the Proprietary Information of the other party to any third party whatsoever by without the prior written approval of the other party and all such information shall be protected with at least the same diligence, care, and precaution that each party uses to protect its own Proprietary Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies 'Proprietary Information,' while the changed text broadens it to simply 'information.' The contradicted text explicitly refers to the protection of 'Proprietary Information.' By changing 'Proprietary Information' to 'information' in the changed text, the contract creates a contradiction regarding what specific type of information is subject to the non-disclosure obligations described in the contradicted text. It is now unclear whether the contradicted text is referring to 'information' in general or only 'Proprietary Information'. This aligns with the definition of Omissions - In Text Contradiction because the removal of 'Proprietary' creates an inconsistency."
+      }
+    ]
+  }
+]

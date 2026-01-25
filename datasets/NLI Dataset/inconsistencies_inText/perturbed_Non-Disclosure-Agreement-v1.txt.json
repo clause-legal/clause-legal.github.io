@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "Non-Disclosure-Agreement-v1.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Receiving Party shall return to Disclosing Party any and all records, notes, and other written, printed, or tangible materials in its possession pertaining to Confidential Information immediately if Disclosing Party requests it in writing.",
+        "changed_text": "Receiving Party shall return to Disclosing Party only the original documents explicitly marked as Confidential Information within 30 days of receiving a written request. Any copies, notes, or analyses derived from the Confidential Information may be retained by the Receiving Party.",
+        "explanation": "This change creates an in-text contradiction. The original clause states the Receiving Party must return 'any and all records, notes, and other written, printed, or tangible materials' immediately upon request. The modified clause allows the Receiving Party to retain copies, notes, and analyses while only returning originals within 30 days, creating uncertainty about what must be returned and when. This affects Time Periods since the receiving party may be in possession of confidential information even after termination.",
+        "location": "Paragraph 3",
+        "contradicted_location": "Paragraph 4",
+        "contradicted_text": "Time Periods. The nondisclosure provisions of this Agreement shall survive the termination of this Agreement and Receiving Party's duty to hold Confidential Information in confidence shall remain in effect until the Confidential Information no longer qualifies as a trade secret or until Disclosing Party sends Receiving Party written notice releasing Receiving Party from this Agreemen t, whichever occurs first.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a contradiction. The original text requires the Receiving Party to return 'any and all' confidential materials immediately upon request. The changed text limits this to only original documents explicitly marked as Confidential Information within 30 days, allowing retention of copies, notes, and analyses. The contradicted text states that the Receiving Party's duty to hold Confidential Information in confidence survives termination until the information no longer qualifies as a trade secret or until written notice is received. By allowing the Receiving Party to retain copies, the changed text directly conflicts with the ongoing duty to hold all Confidential Information, not just originals, in confidence and directly affects Time Periods since confidential information is still in possession by the receiving party."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The nondisclosure provisions of this Agreement shall survive the termination of this Agreement and Receiving Party's duty to hold Confidential Information in confidence shall remain in effect until the Confidential Information no longer qualifies as a trade secret or until Disclosing Party sends Receiving Party written notice releasing Receiving Party from this Agreemen t, whichever occurs first.",
+        "changed_text": "The nondisclosure provisions of this Agreement shall terminate automatically one (1) year after the termination of this Agreement, regardless of whether the Confidential Information still qualifies as a trade secret or whether Disclosing Party sends Receiving Party written notice releasing Receiving Party from this Agreement. However, information pertaining to pricing shall be held in confidence perpetually.",
+        "explanation": "This change creates an in-text contradiction by limiting the survival of the nondisclosure provisions to one year, regardless of trade secret status or notice from the Disclosing Party, except for pricing information which must be held confidential perpetually. The original clause stated the agreement remains in effect until either the information is no longer a trade secret or the Disclosing Party provides written notice. The exception for pricing also makes the integration clause contradictory, because it does not encompass all prior agreements.",
+        "location": "Paragraph 4",
+        "contradicted_location": "Paragraph 8",
+        "contradicted_text": "Integration. This Agreement expresses the complete understanding of the parties with respect to the subject matter and supersedes all prior proposals, agreements, representations, and understandings. This Agreement may not be amended except in a writing signed by both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text limits the nondisclosure provisions to one year after termination, except for pricing information, directly contradicting the original text which stated the agreement remains in effect until either the information is no longer a trade secret or the Disclosing Party provides written notice. Furthermore, it contradicts the integration clause by not encompassing all prior agreements due to the pricing exception, making it a clear in-text contradiction according to the definition of 'Inconsistencies - In Text Contradiction'."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement may not be amended except in a writing signed by both parties.",
+        "changed_text": "This Agreement may be amended by a writing signed by both parties, or unilaterally by the Disclosing Party with 30 days written notice to the Receiving Party.",
+        "explanation": "This change introduces an in-text contradiction by allowing the Disclosing Party to unilaterally amend the agreement with 30 days' notice, which contradicts the original clause requiring both parties' signatures for any amendment. This undermines the principle of mutual agreement and could lead to disputes over the validity of amendments and this affects Severability.",
+        "location": "Paragraph 8",
+        "contradicted_location": "Paragraph 7",
+        "contradicted_text": "Severability. If a court finds any provision of this Agre ement invalid or unenforceable, the remainder of this Agreement shall be interpreted so as best to effect the intent of the parties.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text allows for unilateral amendment by the Disclosing Party, which directly contradicts the original requirement of both parties' signatures for any amendment. The contradicted text (Severability) states that the agreement should be interpreted to effect the intent of the parties, but unilateral amendment undermines the original intent of mutual agreement. This falls under the definition of inconsistencies, where different sections provide conflicting obligations, creating an in-text contradiction regarding which terms should be enforced."
+      }
+    ]
+  }
+]

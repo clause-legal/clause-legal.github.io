@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "NCDG_Non-disclosure-agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "the Receiving Party can demonstrate to the satisfaction of the Disclosing Party, has been developed independently of its obligations under this Agreement and without access to the Confidential Information.",
+        "changed_text": "the Receiving Party claims to have developed independently of its obligations under this Agreement.",
+        "explanation": "By removing 'to the satisfaction of the Disclosing Party' and 'without access to the Confidential Information', the Receiving Party only needs to 'claim' that something was developed independently. This contradicts the Disclosing Party's rights outlined in section VIII and creates an in-text contradiction because the disclosing party is now unable to audit and determine if in fact it was independently developed or the Confidential Information was disclosed or not.",
+        "location": "II. Definitions: i",
+        "contradicted_location": "VIII. Intellectual Property Rights",
+        "contradicted_text": "All Confidential Information disclosed herein shall remain the sole property of the Disclosing Party and the Receiving Party shall obtain no right thereto of any kind by reason of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the original text by removing the requirement for the Receiving Party to 'demonstrate to the satisfaction of the Disclosing Party' that something was developed independently and without access to confidential information. Now, the Receiving Party only needs to 'claim' independent development. This directly contradicts the contradicted text, which states that all Confidential Information remains the Disclosing Party's property and the Receiving Party gains no right to it. The change prevents the Disclosing Party from verifying independent development, potentially allowing the Receiving Party to use confidential information without accountability, thus creating a direct conflict and an in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "At any time upon request from the Disclosing Party or upon the conclusion of the Purpose or expiry of this Agreement, the Receiving Party, at its own cost, will return or procure the return, promptly and in any event within 14 days of receipt of such request, of each and every copy of Confidential Information given by the Disclosing Party, and satisfy the Disclosing Party that it no longer holds any further Confidential Information.",
+        "changed_text": "At any time upon request from the Disclosing Party or upon the conclusion of the Purpose or expiry of this Agreement, the Receiving Party will return or procure the return of each and every copy of Confidential Information given by the Disclosing Party.",
+        "explanation": "By removing 'at its own cost, promptly and in any event within 14 days of receipt of such request, and satisfy the Disclosing Party that it no longer holds any further Confidential Information', there is no longer a timeframe and procedure to return confidential information. This creates an in-text contradiction, because the receiving party may take an indefinite amount of time to return the Confidential Information and the disclosing party has no way to determine if the information is still held by the Receiving Party. The receiving party is also no longer responsible for any costs associated.",
+        "location": "V. Copying and Return of Furnished Instruments: 3",
+        "contradicted_location": "V. Copying and Return of Furnished Instruments: 3",
+        "contradicted_text": "At any time upon request from the Disclosing Party or upon the conclusion of the Purpose or expiry of this Agreement, the Receiving Party will return or procure the return of each and every copy of Confidential Information given by the Disclosing Party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified a timeframe ('promptly and in any event within 14 days') and a procedure ('satisfy the Disclosing Party that it no longer holds any further Confidential Information') for returning confidential information, along with cost responsibility. The changed text removes these stipulations, creating an open-ended obligation without a defined timeframe, procedure, or cost allocation. This omission directly contradicts the contradicted text (which is actually the changed text itself) because it fails to provide specific guidelines. The receiving party may take an indefinite amount of time to return the Confidential Information and the disclosing party has no way to determine if the information is still held by the Receiving Party. The receiving party is also no longer responsible for any costs associated. This creates a strong in-text contradiction because the original specificity has been replaced with vagueness, making the agreement unenforceable."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This Agreement shall remain in force for five (5) years from the Effective Date, except to the extent this Agreement is superseded by stipulations of the Contemplated Agreement.",
+        "changed_text": "This Agreement shall remain in force until the Parties agree to terminate it.",
+        "explanation": "By changing the term from 'five (5) years from the Effective Date' to 'until the Parties agree to terminate it', the duration of the agreement is now indefinite and reliant on mutual agreement. This creates an in-text contradiction because if there are any disputes that arise after the 5 year mark, there is no way to enforce the non-disclosure agreement.",
+        "location": "VII. Term and Termination: 2",
+        "contradicted_location": "VII. Term and Termination: 3",
+        "contradicted_text": "The rights and obligations of each Party with respect to all Confidential Information of the other Party that is received under this Agreement shall remain in effect for a period of five (5) years from the date of disclosure of Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies a fixed term of five years, while the changed text makes the agreement indefinite, lasting until the parties agree to terminate it. This directly contradicts the contradicted text, which states that confidentiality obligations remain in effect for five years from the date of disclosure. If the agreement continues beyond five years under the changed text, it creates uncertainty and a contradiction as to whether the confidentiality obligations outlined in the contradicted text are still enforceable after the initial five-year period has elapsed, as explained in the Perturbation Explanation."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Upon 45 days written notice, the Disclosing Party may audit the use of the programs, materials, marketing materials, services, and such additional disclosed resources. The Receiving Party agrees to co-operate with the Disclosing Party’s audit and to provide reasonable assistance and access to information.",
+        "changed_text": "Upon written notice, the Disclosing Party may request information regarding the use of the programs, materials, marketing materials, services, and such additional disclosed resources.",
+        "explanation": "By removing '45 days' and the whole sentence after that, especially: 'The Receiving Party agrees to co-operate with the Disclosing Party’s audit and to provide reasonable assistance and access to information', the Disclosing Party loses the explicit right to audit and receive cooperation. This now contradicts Section VIII, Intellectual Property Rights, by making it difficult for the Disclosing Party to verify that its confidential information is being protected, and if the receiving party decides to no longer be co-operative.",
+        "location": "XIII. General: 1",
+        "contradicted_location": "VIII. Intellectual Property Rights",
+        "contradicted_text": "All Confidential Information disclosed herein shall remain the sole property of the Disclosing Party and the Receiving Party shall obtain no right thereto of any kind by reason of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the Disclosing Party's explicit right to audit and receive cooperation from the Receiving Party, especially by omitting '45 days' notice and the sentence compelling cooperation. This directly contradicts the Contradicted Text, which states that all Confidential Information remains the property of the Disclosing Party. Without the right to audit and receive cooperation, the Disclosing Party has no direct means of verifying if the Receiving Party is upholding the terms of the agreement regarding the Confidential Information, thus creating a strong in-text contradiction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "PrudentialBancorpInc_20170606_8-K_EX-10.4_10474434_EX-10.4_Endorsement Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "\"Base Salary\" means the Employee's total base salary as of each January 1st exclusive of special payments such as bonuses or commissions, but including any salary reductions made in accordance with Section 125 or 401(k) of the Code.",
+        "changed_text": "\"Base Salary\" means the Employee's total compensation, including base salary, bonuses, commissions, and any other form of remuneration, as of each January 1st exclusive of special payments such as bonuses or commissions, but including any salary reductions made in accordance with Section 125 or 401(k) of the Code.",
+        "explanation": "The original definition of 'Base Salary' explicitly excludes bonuses and commissions. The modified definition includes these, creating a contradiction. This contradiction will directly impact the calculation of the death benefit in Article IV, which is tied to 'two (2) times the Employee's annualized base salary'. It's unclear whether bonuses and commissions are part of this calculation now. This in-text contradiction adds to confusion with the use of 'exclusive' in the changed text.",
+        "location": "ARTICLE I",
+        "contradicted_location": "ARTICLE IV",
+        "contradicted_text": "Upon the death of the Employee while this Agreement is in force, the Employee's beneficiary as named in the Beneficiary Designation Form on page 6 (or as it may be amended according to the terms set forth on page 6) for this Agreement will be entitled to receive from the Policy proceeds an amount equal to the lesser of: (a) (two (2) times the Employee's annualized base salary at the time of death as provided by the Employer's payroll department) plus $100,000, reduced by any amount payable under the Employer's group term life insurance plan, or (b) the Net Amount At Risk.",
+        "contradiction_exists": "YES",
+        "justification": "The original definition of 'Base Salary' excludes bonuses and commissions. The changed definition explicitly includes them. This directly contradicts the calculation of the death benefit in Article IV, which relies on 'two (2) times the Employee's annualized base salary'. The change introduces uncertainty about whether bonuses and commissions should be included in this calculation. This constitutes a strong in-text contradiction because it directly impacts the amount payable under the agreement, as outlined in the contradicted text."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Employer will have and may exercise, except as limited hereinafter, all ownership rights in the Policies.",
+        "changed_text": "The Employer will have no ownership rights in the Policies.",
+        "explanation": "The original text grants the Employer all ownership rights in the Policies, subject to limitations stated later in the agreement. The modified text removes all ownership rights. This directly contradicts Article III that gives the employer rights to take loans from the policies. The in-text contradiction creates confusion about who controls the policy and makes the execution of the contract challenging. If the employee has full control, then some of the things that the Employer is supposed to do will not take place.",
+        "location": "ARTICLE III",
+        "contradicted_location": "ARTICLE III",
+        "contradicted_text": "The Employer will have and may exercise, except as limited hereinafter, all ownership rights in the Policies. The Employer will not take any action in dealing with the Insurer that would impair any right or interest of the Employee in the Policies. The Employer will have the right to borrow from the Insurer, and to secure that loan by the Policies an amount which together with the unpaid interest accrued thereon, will at no time exceed the lesser of (a) the Employer's Interest in the Policies and (b) the Loan Value of the Policies. During the Employee's life time \"The Employer's Interest In The Policies\" will mean, at any time at which the value of such interest is to be determined under this Agreement, the Cash Value of the Policies at such time, reduced by any then outstanding Policy Loan Balance with respect to any loans made or charged automatically against the Policies by the Employer.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that \"The Employer will have and may exercise, except as limited hereinafter, all ownership rights in the Policies.\" The changed text states \"The Employer will have no ownership rights in the Policies.\" This directly contradicts the contradicted text, which states the Employer has all ownership rights in the policies, and can borrow from the insurer. If the employer has no ownership rights, then they cannot borrow from the insurer, creating a direct contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement may be terminated at any time while the Employee is living by written notice thereof by either the Employer or the Employee to the other; and, in any event, this Agreement will terminate upon termination of the Employee's employment.",
+        "changed_text": "This Agreement may only be terminated by the Employer at any time while the Employee is living by written notice thereof to the Employee; and, in any event, this Agreement will terminate five years after the date of the agreement, regardless of the Employee's employment status.",
+        "explanation": "The original clause allows both the Employer and the Employee to terminate the agreement, and also terminates the agreement upon termination of employment. The modified clause allows only the Employer to terminate the agreement and sets a fixed termination date of five years after the agreement date, overriding the employment termination clause. This in-text contradiction directly impacts Article VI, specifically about the termination of this agreement based on the employee being alive and having the option to leave or not the employer, thus in-text contradicting with the modified statement. This creates uncertainty regarding the agreement's duration and termination conditions, potentially leading to legal disputes.",
+        "location": "ARTICLE VI",
+        "contradicted_location": "ARTICLE VI",
+        "contradicted_text": "This Agreement may be terminated at any time while the Employee is living by written notice thereof by either the Employer or the Employee to the other; and, in any event, this Agreement will terminate upon termination of the Employee's employment.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a direct contradiction. The original and contradicted text both state that either the Employer or the Employee can terminate the agreement. However, the changed text states that only the Employer can terminate the agreement and also specifies a fixed termination date of five years after the agreement date, regardless of the employee's employment status. This directly contradicts the contradicted text because it removes the Employee's ability to terminate and overrides the provision for termination upon the Employee's employment ending, creating a clear and unresolvable conflict within the contract regarding termination conditions."
+      }
+    ]
+  }
+]

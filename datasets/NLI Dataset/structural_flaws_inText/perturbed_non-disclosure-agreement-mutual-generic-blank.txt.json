@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "non-disclosure-agreement-mutual-generic-blank.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Each party agrees not to use the Confidential Information for any purpose whatsoever except for the purposes set forth above. Each party agrees not to disclose the Confidential Information to any third person and only disclose the confidential information to its employees and those of its affiliates who have a need to know and who agree to keep such information confidential.",
+        "changed_text": "Each party may use the Confidential Information for any purpose, whether or not related to the purposes set forth above, provided they believe it is in their best interest. Each party is encouraged to disclose the Confidential Information to any third person they deem appropriate, without restriction.",
+        "explanation": "The original text strictly limits the use and disclosure of Confidential Information. The modified version completely reverses this, allowing unrestricted use and disclosure. This directly contradicts the original restrictions, making the agreement unenforceable due to the in-text contradictions with the other terms.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "Each party may use the Confidential Information for any purpose, whether or not related to the purposes set forth above, provided they believe it is in their best interest. Each party is encouraged to disclose the Confidential Information to any third person they deem appropriate, without restriction.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text allows for unrestricted use and disclosure of Confidential Information, which directly contradicts the contradicted text, which is the same as the changed text. This creates a strong in-text contradiction because the original text strictly limited the use and disclosure of confidential information, as stated in the Perturbation Explanation. The modified version completely reverses this, allowing unrestricted use and disclosure. This directly contradicts the original restrictions, making the agreement unenforceable due to the in-text contradictions."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Each party agrees that it shall protect the confidentiality of, and take reasonable steps to prevent disclosure or unauthorized use of, the Confidential Information in order to prevent it from falling into the public domain or the possession of persons not legally bound to maintain its confid entiality, provided that in no event shall such party's obligations exceed the reasonable standard of care taken to protect its own confidential information of like importance.",
+        "changed_text": "Each party is under no obligation to protect the confidentiality of the Confidential Information and may freely allow it to enter the public domain or the possession of persons not legally bound to maintain its confidentiality. The standard of care for protecting Confidential Information is zero.",
+        "explanation": "The original clause mandates reasonable steps to protect Confidential Information. The modified clause explicitly states there is no obligation to protect it, directly contradicting the prior requirement and undermining the entire purpose of a non-disclosure agreement. This creates a clear in-text contradiction that negates the intended protection.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "Each party is under no obligation to protect the confidentiality of the Confidential Information and may freely allow it to enter the public domain or the possession of persons not legally bound to maintain its confidentiality. The standard of care for protecting Confidential Information is zero.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the original text, which mandated reasonable steps to protect Confidential Information. The changed text states there is no obligation to protect it and that the standard of care is zero, which contradicts the contradicted text, as it's identical to the changed text and explicitly negates any protection of confidential information. This aligns with the definition of Structural Flaws - In Text Contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Each party acknowledges that its obligations hereunder survive in accordance with the terms hereof, notwithstanding the termination of the business relationship of the parties, for a period of two (2) years following the last disclo sure of Confidential Information by the other party hereunder.",
+        "changed_text": "Each party's obligations under this agreement terminate immediately upon the termination of the business relationship between the parties, regardless of the terms outlined herein. There is no survival period for any obligations.",
+        "explanation": "The original text specifies a two-year survival period for confidentiality obligations after termination of the business relationship. The modification eliminates this survival period entirely, creating an in-text contradiction regarding the duration of the obligations. This makes the duration uncertain and unenforceable.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "Each party's obligations under this agreement terminate immediately upon the termination of the business relationship between the parties, regardless of the terms outlined herein. There is no survival period for any obligations.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated a two-year survival period for confidentiality obligations. The changed text explicitly states that all obligations terminate immediately upon the end of the business relationship, with no survival period. This directly contradicts the original provision and creates a strong, irreconcilable in-text contradiction regarding the duration of the obligations, and this contradiction is also found in the contradicted text."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Any materials, documents, notes, memoranda, software code, drawings, sketches and other tangible items containing, consisting of or relating to the Confidential Information of a party which are furnished hereunder to the other party, or are in the possession of the other party, remain the property of the party which disclosed the Confidential Information and shall be promptly returned to such party upon the disclosing party’s request therefore.",
+        "changed_text": "Any materials containing Confidential Information become the sole property of the receiving party upon disclosure and do not need to be returned, irrespective of the disclosing party's request or ownership claims.",
+        "explanation": "The original clause states that materials containing Confidential Information remain the property of the disclosing party and must be returned upon request. The modified clause states that those materials become the property of the receiving party and do not need to be returned. This creates a direct in-text contradiction regarding ownership and return of materials, undermining the protection of confidential information.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Any materials containing Confidential Information become the sole property of the receiving party upon disclosure and do not need to be returned, irrespective of the disclosing party's request or ownership claims.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that materials containing confidential information become the sole property of the receiving party and do not need to be returned, regardless of the disclosing party's request or ownership claims. This directly contradicts the contradicted text, which is a reiteration of the changed text. This creates an in-text contradiction as the changed text and the contradicted text oppose the original clause that states materials remain the property of the disclosing party and must be returned upon request. The Structural Flaws - In Text Contradiction definition applies here, because the contradicting statements regarding ownership and return of materials create uncertainty, inconsistency, and potentially unenforceable terms."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement and any exhibits attached hereto are the complete and exclusive statement regarding the subject matter of this Agreement and supercede all prior agreements, understandings and communications, oral and written, between the parties regarding the subject matter of this Agreement.",
+        "changed_text": "This agreement does not represent the complete understanding between the parties. All prior oral agreements, understandings, and communications, even if contradictory to this document, will take precedence over the terms outlined in this agreement.",
+        "explanation": "The original clause is an integration clause, stating that the written agreement is the complete and exclusive agreement. The modified clause negates this by stating that prior oral agreements take precedence, directly contradicting the integration clause and creating in-text contradictions regarding the enforceability of the written terms. This makes the written agreement essentially non-binding due to in-text contradiction.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "This agreement does not represent the complete understanding between the parties. All prior oral agreements, understandings, and communications, even if contradictory to this document, will take precedence over the terms outlined in this agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text was an integration clause, affirming the written agreement as complete. The changed text directly contradicts this by stating prior oral agreements take precedence, which is also the exact same statement as the contradicted text, establishing a clear in-text contradiction regarding the enforceability of the written agreement's terms. This aligns with the 'Structural Flaws - In Text Contradiction' definition because the clause is placed in multiple locations with conflicting implications, causing uncertainty."
+      }
+    ]
+  }
+]

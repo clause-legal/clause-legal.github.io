@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "BCG-Mutual-NDA.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "What is included, \"Confidential information\" is non -public information, know -how and trade secrets in any form that:  Are designated as \"confidential\"; or",
+        "changed_text": "What is included, \"Confidential information\" is non -public information, proprietary information and trade secrets in any form that:  Are designated as \"confidential\"; or",
+        "explanation": "Changing 'know-how' to 'proprietary information' introduces a subtle contradiction. While know-how relates to practical knowledge, proprietary information is broader, potentially including more types of data. This could affect the scope of what's considered confidential, particularly in section 3, blurring the responsibility for protection.",
+        "location": "Page | 1",
+        "contradicted_location": "Page | 2",
+        "contradicted_text": "Treatment of confidential information. a. In general. Subject to the other terms of this agreement, each of us agrees:  We will not disclose the other's confidential information to third parties; and  We will use and disclose the other's confidential information only for purposes of our business relationship with each other.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'know-how' to 'proprietary information' broadens the scope of 'Confidential Information.' The contradicted text outlines the obligations regarding the treatment of 'confidential information'. By expanding the definition of 'confidential information', the obligations in the contradicted text also expand. This expansion isn't inherently contradictory, but introduces potential ambiguity regarding the scope of protection required. This aligns with the definition of 'Misaligned Terminology - In Text Contradiction' because the interchangeable use of 'know-how' and 'proprietary information' without a clear definition leads to conflicting obligations regarding the scope of confidential information. The original text offered a narrower scope with 'know-how', and the changed text makes it broader with 'proprietary information' triggering a contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "To take reasonable steps to protect the other's confidential information. These steps must be at least as protective as those we take to protect our own confidential information;",
+        "changed_text": "To take commercially reasonable steps to protect the other's confidential information. These steps must be at least as protective as those we take to protect our own sensitive information;",
+        "explanation": "Changing 'reasonable steps' to 'commercially reasonable steps' and 'confidential information' to 'sensitive information' creates a conflict. 'Commercially reasonable' implies cost considerations, potentially allowing less stringent protection. The term 'sensitive information' isn't defined and might not include all confidential information, weakening the protection obligation.",
+        "location": "Page | 2",
+        "contradicted_location": "Page | 2",
+        "contradicted_text": "To notify the other promptly upon discovery of any unauthorized use or discl osure of confidential information; and  To cooperate with the other to help regain control of the confid ential information and prevent further unauthorized use or disclosure of it.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'reasonable steps' to 'commercially reasonable steps' in the Changed Text introduces a cost consideration that wasn't present in the Original Text. The term 'sensitive information' isn't defined and might not include all confidential information, weakening the protection obligation. This contradicts the Contradicted Text, which mandates prompt notification and cooperation for any unauthorized use or disclosure of 'confidential information'. The weaker protection standard now allowed and the change from Confidential to Sensitive information creates an inconsistency, making the obligation to protect confidential information less stringent and potentially conflicting with the requirement to notify and cooperate to protect confidential information."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "A \"representative\" is an employee, contractor, advisor or consultant of one of us or one of our respective affiliates .",
+        "changed_text": "A \"representative\" is an employee, agent, advisor or consultant of one of us or one of our respective affiliates .",
+        "explanation": "Replacing 'contractor' with 'agent' introduces a potential conflict. 'Agent' has specific legal connotations (authority to act on behalf of another). This could inadvertently expand liability under the agreement, as the principal is liable for the acts of its agents.",
+        "location": "Page | 2",
+        "contradicted_location": "Page | 2",
+        "contradicted_text": "Each of us may disclose the other's confidential information to our representatives (who may then disclose that confidential information to other of our representatives) only if those representatives have a need to know about it for purposes of our business relationship with each other.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines 'representative' as including 'contractor,' while the changed text replaces 'contractor' with 'agent.' The explanation states this introduces a potential conflict by expanding liability because 'agent' has specific legal connotations. The contradicted text allows disclosure of confidential information to 'representatives.' By changing the definition of 'representative' from including 'contractor' to 'agent,' there is an implicit alteration of who is allowed to be exposed to confidential information, because now 'agents' are the representatives who have access to the information, increasing the liability exposure. This creates a direct conflict because the scope and liability related to representatives have been significantly altered, making it a strong contradiction."
+      }
+    ]
+  }
+]

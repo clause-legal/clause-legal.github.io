@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "799485_0000950136-00-001643_0013.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Reviewer further agrees not to disclose, directly or indirectly, any of the Confidential Information to any third party without the prior written consent of the Provider, other than to the following (collectively, the \"REPRESENTATIVES\"): (i) the Reviewer's directors, officer and employees (including those of its affiliates), and (ii) the Reviewer's attorneys, accountants and financial advisors; in each case only to those persons who have a need to know the Confidential Information for the purpose stated in Section 2.",
+        "changed_text": "The Reviewer further agrees to disclose, directly or indirectly, any of the Confidential Information to any third party without the prior written consent of the Provider, other than to the following (collectively, the \"REPRESENTATIVES\"): (i) the Reviewer's directors, officer and employees (including those of its affiliates), and (ii) the Reviewer's attorneys, accountants and financial advisors; in each case only to those persons who have a need to know the Confidential Information for the purpose stated in Section 2.",
+        "explanation": "The original text states the reviewer agrees 'not to disclose' confidential information, while the new text states the Reviewer 'agrees to disclose' confidential information to any third party without consent. This creates a clear and direct contradiction regarding disclosure obligations and can lead to disagreements on the protection of the information.",
+        "location": "Section 3(a)",
+        "contradicted_location": "Section 3(a)",
+        "contradicted_text": "The Reviewer further agrees to disclose, directly or indirectly, any of the Confidential Information to any third party without the prior written consent of the Provider, other than to the following (collectively, the \"REPRESENTATIVES\"): (i) the Reviewer's directors, officer and employees (including those of its affiliates), and (ii) the Reviewer's attorneys, accountants and financial advisors; in each case only to those persons who have a need to know the Confidential Information for the purpose stated in Section 2.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the Reviewer agrees 'not to disclose' confidential information, while the changed text states that the Reviewer 'agrees to disclose' confidential information to any third party without consent. The contradicted text is the same as the changed text, indicating this new change directly conflicts with the original intention and previous agreement of not disclosing confidential information. This creates a structural flaw, as defined in the provided Perturbation Definitions, that causes an in-text contradiction since the changed text implies an obligation to disclose, which directly contradicts the original agreement to not disclose."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Upon sending of such written notice or earlier upon the request of the Provider, all copies of Confidential Information provided to or in the possession of the Reviewer or its Representatives shall be destroyed or returned promptly to the Provider, together with (i) all copies thereof made by the Reviewer or its Representatives, and (ii) all portions of all compilations, studies, notes, analyses and memoranda prepared in connection with the examination thereof or derived therefrom that contain or reflect any Confidential Information.",
+        "changed_text": "Upon sending of such written notice or earlier upon the request of the Provider, all copies of Confidential Information provided to or in the possession of the Reviewer or its Representatives may be retained by the Reviewer at its sole discretion. The Provider relinquishes any claim to ownership or control over said Confidential Information, unless required by law. The Reviewer may share such information at its sole discretion.",
+        "explanation": "The original text mandates the return or destruction of Confidential Information, while the modified text allows the Reviewer to retain it at their discretion. This introduces a direct conflict regarding the fate of the information after the agreement terminates or upon request, making it unclear if the provider can have the information back.",
+        "location": "Section 6",
+        "contradicted_location": "Section 6",
+        "contradicted_text": "Upon sending of such written notice or earlier upon the request of the Provider, all copies of Confidential Information provided to or in the possession of the Reviewer or its Representatives may be retained by the Reviewer at its sole discretion. The Provider relinquishes any claim to ownership or control over said Confidential Information, unless required by law. The Reviewer may share such information at its sole discretion.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires the Reviewer to either destroy or return Confidential Information to the Provider. However, the changed text grants the Reviewer the discretion to retain this information, relinquishing the Provider's claim unless required by law. This directly contradicts the initial obligation and introduces uncertainty about the Provider's rights, creating a strong in-text contradiction as per the 'Structural Flaws - In Text Contradiction' definition. The contradicted text is identical to the changed text, making it clear that the change itself is the source of the contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Except as otherwise expressly provided herein, this Agreement shall terminate two years after the date of the destruction or return of the Confidential Information to the other Party.",
+        "changed_text": "This Agreement shall continue indefinitely, regardless of the destruction or return of the Confidential Information to the other Party. Termination will only occur through mutual written consent of both Parties. This applies retroactively.",
+        "explanation": "The original text sets a clear termination date of two years after the destruction/return of confidential information. The changed text states the agreement continues indefinitely, directly contradicting the specified termination condition. The addition of retroactivity introduces even more confusion about past obligations.",
+        "location": "Section 10",
+        "contradicted_location": "Section 10",
+        "contradicted_text": "This Agreement shall continue indefinitely, regardless of the destruction or return of the Confidential Information to the other Party. Termination will only occur through mutual written consent of both Parties. This applies retroactively.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states the agreement continues indefinitely, and only terminates through mutual written consent, and applies retroactively. This directly contradicts the original text that specifies termination two years after destruction/return of Confidential Information. The contradicted text and changed text are in the same location and the changed text overwrites/contradicts the original text. The perturbation explanation confirms this assessment by highlighting the contradiction and the added confusion from retroactivity."
+      }
+    ]
+  }
+]

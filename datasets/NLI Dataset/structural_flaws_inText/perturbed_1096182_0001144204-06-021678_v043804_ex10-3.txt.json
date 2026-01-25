@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "1096182_0001144204-06-021678_v043804_ex10-3.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Receiving Party shall preserve Proprietary Information received from the Disclosing Party in confidence by exercising at least the same degree of care used to restrict disclosure and use of the Receiving Party's own similar confidential information, but at least a reasonable degree of care, and shall refrain from disclosing such Propriety Information to its employees not involved in the Pilot Study, its consultants, representatives, or agents ( the \"Affiliates\") or to any third party without written authorization from the Disclosing Party.",
+        "changed_text": "The Receiving Party may disclose Proprietary Information received from the Disclosing Party to its employees not involved in the Pilot Study, its consultants, representatives, or agents ( the \"Affiliates\") or to any third party without written authorization from the Disclosing Party.",
+        "explanation": "The original text mandates the Receiving Party to preserve Proprietary Information and refrain from disclosing it without authorization. The modified text directly contradicts this by stating that the Receiving Party *may* disclose Proprietary Information without authorization. This introduces uncertainty about the Receiving Party's confidentiality obligations.",
+        "location": "3",
+        "contradicted_location": "4",
+        "contradicted_text": "The Receiving Party shall use Proprietary Information received from the Disclosing Party solely for the purposes set forth in Paragraph 1. Any other use of the Proprietary Information is explicitly forbidden. This restriction shall survive termination of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandated confidentiality and prohibited disclosure of Proprietary Information without written authorization. The changed text states the Receiving Party *may* disclose Proprietary Information without authorization, directly contradicting the original obligation of confidentiality. This contradicts the Contradicted Text, which specifies that Proprietary Information shall only be used for purposes in Paragraph 1 and explicitly forbids any other use."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Receiving Party shall use Proprietary Information received from the Disclosing Party solely for the purposes set forth in Paragraph 1. Any other use of the Proprietary Information is explicitly forbidden. This restriction shall survive termination of this Agreement.",
+        "changed_text": "The Receiving Party may use Proprietary Information received from the Disclosing Party for any purpose it deems necessary. Any restriction outlined in paragraph 1 will be rendered invalid.",
+        "explanation": "The original text restricts the use of Proprietary Information to the purposes in Paragraph 1. The modified text directly contradicts this by allowing the Receiving Party to use the information for *any* purpose. This fundamentally undermines the purpose of the NDA and leads to uncertainty about each party's rights and obligations. Specifically, its contradicting the intended use within Paragraph 1.",
+        "location": "4",
+        "contradicted_location": "1",
+        "contradicted_text": "The parties intend to pursue a Pilot Study to test its functionality, performance and reliability to determine the applicability of this technology to plastic surgery applications, which will be carried out by Dr. Yuan Liu utilizing ABP's BioScanIR(R) system consisting of the following elements: (i) system hardware components: infrared camera, mobile cart, computer workstation, camera power supply, universal power management unit, temperature controller and black body; (ii) proprietary DIRI(R) software for control of system components, data acquisition, data processing, data archiving and reporting; and (iii) applications software packages (hereinafter, collectively referred to as the \"System\") as further defined in the Pilot Site Agreement between the parties (hereinafter referred to as the \"Pilot Study\"), and in the course of which the parties may exchange Proprietary Information, as hereinafter defined. The parties further desire to protect such Proprietary Information from unauthorized disclosure and use under the terms and conditions herein.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that the Receiving Party may use Proprietary Information for any purpose it deems necessary, and that any restriction outlined in paragraph 1 will be rendered invalid. The contradicted text specifically states the parties desire to protect such Proprietary Information from unauthorized disclosure and use under the terms and conditions of the agreement. The change directly contradicts this intention, as the Receiving Party could now use the information for unauthorized purposes, undermining the protection of Proprietary Information that the contradicted text seeks to ensure."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement may be terminated by either party upon thirty (30) days written notice to the other. Unless thus earlier terminated, this Agreement shall terminate upon completion of the Pilot Study. The confidentiality obligations under this Agreement will survive termination of this Agreement for a period of three (3) years.",
+        "changed_text": "This Agreement may not be terminated by either party under any circumstances. The confidentiality obligations under this Agreement will not survive termination of this Agreement.",
+        "explanation": "The original text permits termination with 30 days' notice or upon completion of the pilot study, and the confidentiality obligations survive for three years. The modified text directly contradicts this by stating the agreement cannot be terminated and the confidentiality obligations do not survive termination, removing the original end date. Section 11 addresses actions upon termination, which is now in direct conflict because there's no possibility of termination.",
+        "location": "10",
+        "contradicted_location": "11",
+        "contradicted_text": "Upon termination, the Receiving Party shall cease use of the Disclosing Party's Proprietary Information, and shall destroy all Proprietary Information, including without limitation, reports, analyses, e-mails or any other derivative embodiments of the Proprietary Information, , together with all copies thereof, in its possession or control and furnish the Disclosing Party with written certification of destruction. Alternatively, at the request of the Disclosing Party, the Receiving Party shall return all such Proprietary Information, including without limitation, reports, analyses, e-mails or any other derivative embodiments of the Proprietary Information, together with all copies thereof to the Disclosing Party. The Receiving Party shall ensure that all copies of Proprietary Information stored electronically on its server, tape backup or on the hard drives of computers used by Receiving Party's Affiliates in connection with the Pilot Study have been permanently deleted and Receiving Party shall certify such deletion in writing to the Disclosing Party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that the agreement cannot be terminated and that confidentiality obligations do not survive termination. This directly contradicts the contradicted text, which outlines the actions to be taken 'upon termination,' including ceasing use of proprietary information and destroying it. Since the changed text makes termination impossible, the instructions in the contradicted text become impossible to follow, creating a strong in-text contradiction."
+      }
+    ]
+  }
+]

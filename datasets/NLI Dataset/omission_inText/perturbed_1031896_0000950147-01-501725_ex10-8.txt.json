@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "1031896_0000950147-01-501725_ex10-8.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Both parties agree not to circumvent each other in dealing with the contacts of the other. Each party agrees to negotiate directly and solely with and through the other to any new potential financing, joint ventures, mergers, acquisition or other opportunities, which one makes known to the other, and each shall specify the particular capital sources and/or project.",
+        "changed_text": "Both parties agree not to circumvent each other in dealing with the contacts of the other. Each party agrees to negotiate directly and solely with and through the other to any new potential financing, joint ventures, mergers, acquisition or other opportunities, which one makes known to the other.",
+        "explanation": "Removing 'and each shall specify the particular capital sources and/or project.' creates ambiguity regarding the required level of detail when presenting opportunities. This creates an internal contradiction because, without the requirement to specify capital sources, one party could claim they sufficiently presented an opportunity without providing crucial details, thereby circumventing the other party without explicitly violating the agreement. The contract now implies a good-faith negotiation requirement without defining its parameters.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "Both parties agree not to circumvent each other in dealing with the contacts of the other. Each party agrees to negotiate directly and solely with and through the other to any new potential financing, joint ventures, mergers, acquisition or other opportunities, which one makes known to the other. Both parties agree not to contact the clients of the other for any reason without written consent of the other and will take all the necessary precautions to insure that the parties' clients will not communicate directly without written consent.",
+        "contradiction_exists": "YES",
+        "justification": "The original text required specification of capital sources/projects, setting a defined expectation for presenting opportunities. The changed text removes this requirement, creating ambiguity. This ambiguity, as explained, allows a party to claim compliance without providing crucial details, potentially circumventing the negotiation requirement outlined in both the changed text and contradicted text. Since the contradicted text is essentially a repeat of the Changed Text, and the changed text now has this ambiguity, this directly impacts the Contradicted Text itself causing a contradiction, as there is no longer a defined process for presenting opportunities. This aligns with the 'Omissions – In Text Contradiction' definition."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Both parties agree not to contact the clients of the other for any reason without written consent of the other and will take all the necessary precautions to insure that the parties' clients will not communicate directly without written consent.",
+        "changed_text": "Both parties agree not to contact the clients of the other for any reason without written consent of the other.",
+        "explanation": "Removing the phrase 'and will take all the necessary precautions to insure that the parties' clients will not communicate directly without written consent' weakens the protection against indirect contact with the other party's clients. The initial part still prohibits direct contact, but with the phrase removed, it introduces uncertainty. The parties' clients could communicate without written consent, and the party could argue they took no part in it because they were not responsible for taking precautions, potentially undermining the contract's intent.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "Both parties agree to negotiate directly and solely with and through the other to any new potential financing, joint ventures, mergers, acquisition or other opportunities, which one makes known to the other. Both parties agree not to contact the clients of the other for any reason without written consent of the other. All notices of discharge, termination or discontinuance of service, by the other party, must be submitted in written form and sent by certified mail or verified e-mail to the address of record of the notified party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly prohibited contacting the other party's clients, both directly and indirectly, by requiring precautions to prevent communication. The changed text removes the responsibility for taking precautions to prevent indirect contact. The contradicted text states that 'Both parties agree not to contact the clients of the other for any reason without written consent of the other.' By removing the phrase about precautions, the changed text creates a loophole where indirect client contact may not be considered a violation, thus creating a contradiction and weakening the original protection, which makes it difficult to enforce."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "All notices of discharge, termination or discontinuance of service, by the other party, must be submitted in written form and sent by certified mail or verified e-mail to the address of record of the notified party.",
+        "changed_text": "All notices of discharge, termination or discontinuance of service, by the other party, must be submitted in written form.",
+        "explanation": "By removing 'and sent by certified mail or verified e-mail to the address of record of the notified party,' the requirement for specific delivery methods for termination notices is removed. While the clause still states the notice must be in written form, it introduces ambiguity regarding acceptable delivery methods. This is contradictory because without a prescribed method of delivery, it can lead to disputes over whether notice was properly given and received, effectively weakening the termination clause.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "Both parties agree not to contact the clients of the other for any reason without written consent of the other. All notices of discharge, termination or discontinuance of service, by the other party, must be submitted in written form. IN WITNESS WHEREOF, the parties have executed this agreement, which is effective as of the date of execution.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that termination notices must be sent via certified mail or verified email. The changed text removes this requirement, stating only that notices must be in written form. The contradicted text contains the original, more specific requirement. This creates a direct contradiction because the changed text now allows for potentially unreliable methods of delivery (e.g., regular mail), which could undermine the termination clause's effectiveness and create disputes over proper notice, as the original text, contained in the contradicted text, specified a particular method."
+      }
+    ]
+  }
+]

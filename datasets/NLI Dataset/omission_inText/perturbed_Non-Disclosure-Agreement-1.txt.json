@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Non-Disclosure-Agreement-1.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "IV. The terms of this agreement shall continue without limitation of time. V. The parties agree that damages may not be an adequate remedy for any breach of this agreement by supplier. Supplier shall indemnify Vedrova against any claim, loss, damage or cost arising out of any breach of this agreement or other mis -use or unlawful dis closure of any confidential information. Vedrova is entitled to equitable or injunction relief.",
+        "changed_text": "IV. The terms of this agreement shall continue without limitation of time. V. The parties agree that damages may not be an adequate remedy for any breach of this agreement by supplier. Supplier shall indemnify Vedrova against any claim, loss, damage or cost arising out of any breach of this agreement or other mis -use or unlawful dis closure of any confidential information.",
+        "explanation": "By omitting the sentence 'Vedrova is entitled to equitable or injunction relief.' from Section 3(V), we create a scenario where the agreement acknowledges that monetary damages might be insufficient for a breach, and requires the supplier to indemnify Vedrova, but removes Vedrova's explicit right to seek an injunction. While indemnification is retained, it is contradicted because Vedrova no longer has explicit access to 'equitable or injunction relief', limiting their recourse options. This contradiction will leave Vedrova without a clear path to equitable relief, and it may create confusion of their options for handling the breach of contract.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "III. This agreement contains the entire understanding between the parties regarding the use and disclosure of confidential information. IV. The terms of this agreement shall continue without limitation of time. V. The parties agree that damages may not be an adequate remedy for any breach of this agreement by supplier. Supplier shall indemnify Vedrova against any claim, loss, damage or cost arising out of any breach of this agreement or other mis -use or unlawful dis closure of any confidential information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly states that 'Vedrova is entitled to equitable or injunction relief.' The changed text omits this sentence. The Contradicted Text which is at the same place as the changed text, but it no longer provides Vedrova the ability to seek an injunction. According to the Perturbation Explanation this omission will leave Vedrova without a clear path to equitable relief. This omission creates a contradiction by removing an explicit entitlement, making the agreement internally inconsistent and potentially unenforceable, creating a strong in-text contradiction based on the 'Omissions – In Text Contradiction' definition."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Group TP&H means Vedrova and any other company or entity which is directly or indirectly owned or controlled by Group TP&H, and including any direct or indirect affiliate, subsidiary, joint venture or sub -contractor of customer or any such company or en tity.",
+        "changed_text": "Group TP&H means Vedrova and any other company or entity which is directly or indirectly owned or controlled by Group TP&H, and including any direct or indirect affiliate, subsidiary, joint venture or sub -contractor of customer",
+        "explanation": "By omitting 'or any such company or entity' from the definition of Group TP&H, we create an in-text contradiction. The initial part of the sentence defines Group TP&H to include any company or entity owned or controlled by Group TP&H. However, after including any 'direct or indirect affiliate, subsidiary, joint venture or sub -contractor of customer', the original sentence include the clause 'or any such company or entity' to make it applicable to the customer entities as well; but with the omission, it will create a situation where the customers of Vedrova that are directly or indirectly related to Vedrova do not have to follow Group Clause number 4, and the supplier can leak confidential information to them with no repurcussions. This will contractict the aim of the Group Clause",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "4. Group clause The provisions in this agreement applicable to Vedrova are also applicable to the Group TP&H, and any confidential information of the Group TP& H. Group TP&H means Vedrova and any other company or entity which is directly or indirectly owned or controlled by Group TP&H, and including any direct or indirect affiliate, subsidiary, joint venture or sub -contractor of customer",
+        "contradiction_exists": "YES",
+        "justification": "The original text's definition of \"Group TP&H\" included 'or any such company or entity', which ensured that the Group Clause applied to customer entities related to Vedrova. The changed text omits this phrase, narrowing the definition and creating an exception for those customer entities. This directly contradicts clause 4, which states that the provisions applicable to Vedrova are also applicable to the Group TP&H. Because the definition of Group TP&H no longer encompasses certain customers, the application of Group Clause to them becomes uncertain, leading to a contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "I. This agreement is subject to Belgian law II. The parties shall attempt, in an amicable manner, to settle any dispute which may arise under this agreement. If any such dispute cannot be resolved by negotiation, it sh all as far as legally permissible and in compliance with statutory provisions, referred to the exclusive jurisdiction of the court in Antwerp.",
+        "changed_text": "I. This agreement is subject to Belgian law II. The parties shall attempt, in an amicable manner, to settle any dispute which may arise under this agreement. If any such dispute cannot be resolved by negotiation, it sh all as far as legally permissible and in compliance with statutory provisions, referred to the jurisdiction of the court in Antwerp.",
+        "explanation": "By removing 'exclusive' we change the second section. The original intention was to say disputes would be settled in Belgian law and through the court of Antwerp. By removing exclusive it creates ambiguity to who has jurisdiction over the case and means that either country where either parties resides can have the authority to conduct the trial.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "5. Governing law and dispute resolution I. This agreement is subject to Belgian law II. The parties shall attempt, in an amicable manner, to settle any dispute which may arise under this agreement. If any such dispute cannot be resolved by negotiation, it sh all as far as legally permissible and in compliance with statutory provisions, referred to the jurisdiction of the court in Antwerp.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that disputes will be referred to the 'exclusive jurisdiction' of the court in Antwerp. The changed text removes the word 'exclusive', creating ambiguity about whether other courts could also have jurisdiction. This contradicts the original intention of the agreement to have disputes resolved solely in the Antwerp court as stated in the contradicted text. The explanation provided states 'By removing exclusive it creates ambiguity to who has jurisdiction over the case and means that either country where either parties resides can have the authority to conduct the trial.'"
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "III. This agreement contains the entire understanding between the parties regarding the use and disclosure of confidential information.",
+        "changed_text": "III. This agreement contains the understanding between the parties regarding the use and disclosure of confidential information.",
+        "explanation": "By removing the word 'entire', we change the third section. The intention was to say that everything regarding confidential information is in this agreement. By removing it, it indicates that there can be further agreements whether implicit or not outside of this contract that applies to confidential information",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "III. This agreement contains the understanding between the parties regarding the use and disclosure of confidential information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that the agreement contains the 'entire' understanding between the parties regarding confidential information. By removing 'entire', the changed text now implies that there may be other agreements or understandings outside of this contract that apply to confidential information. Since the contradicted text is identical to the changed text, it contradicts the original intent and creates uncertainty. This satisfies the definition of Omissions - In Text Contradiction."
+      }
+    ]
+  }
+]

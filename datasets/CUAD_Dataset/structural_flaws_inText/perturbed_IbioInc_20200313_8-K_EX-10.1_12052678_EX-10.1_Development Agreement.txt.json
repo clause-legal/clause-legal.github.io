@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "IbioInc_20200313_8-K_EX-10.1_12052678_EX-10.1_Development Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "1.1 iBio hereby grants to CC-Pharming for the term of this Agreement, a nonexclusive, non- assignable, non-sublicensable, limited right and license to use iBio's Technology in order to manufacture, process, prepare, and obtain regulatory approval for the development and production of Product(s) and work to be performed under this Agreement. Each Product will be set forth in a separate Statement of Work in the form set forth in Appendix A, which will be signed by representatives of each Party with signing authority. Each phase of the project(s) will be subject to the terms and conditions set forth in this Agreement unless otherwise provided for or in a Statement of Work (\"SOW\"), including but not limited to project purpose, project phases, and a project budget.",
+        "changed_text": "1.1 iBio hereby grants to CC-Pharming for the term of this Agreement, a nonexclusive, assignable, sublicensable, unlimited right and license to use iBio's Technology in order to manufacture, process, prepare, and obtain regulatory approval for the development and production of Product(s) and work to be performed under this Agreement. Each Product will be set forth in a separate Statement of Work in the form set forth in Appendix A, which will be signed by representatives of each Party with signing authority. Each phase of the project(s) will be subject to the terms and conditions set forth in this Agreement unless otherwise provided for or in a Statement of Work (\"SOW\"), including but not limited to project purpose, project phases, and a project budget.",
+        "explanation": "The original text states that the license granted to CC-Pharming is 'non-exclusive, non-assignable, non-sublicensable, limited'. The modified text changes this to 'non-exclusive, assignable, sublicensable, unlimited,' which is a direct contradiction. This creates uncertainty regarding the scope and limitations of the technology license granted to CC-Pharming. The in-text contradiction is happening because the word 'non' has been removed from assignable and sublicensable while 'un' was added to limited.",
+        "location": "1.1",
+        "contradicted_location": "1.1",
+        "contradicted_text": "1.1 iBio hereby grants to CC-Pharming for the term of this Agreement, a nonexclusive, assignable, sublicensable, unlimited right and license to use iBio's Technology in order to manufacture, process, prepare, and obtain regulatory approval for the development and production of Product(s) and work to be performed under this Agreement. Each Product will be set forth in a separate Statement of Work in the form set forth in Appendix A, which will be signed by representatives of each Party with signing authority. Each phase of the project(s) will be subject to the terms and conditions set forth in this Agreement unless otherwise provided for or in a Statement of Work (\"SOW\"), including but not limited to project purpose, project phases, and a project budget.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies a 'non-assignable, non-sublicensable' license, while the changed text grants an 'assignable, sublicensable' license. Since assignability and sublicensability are directly contradictory to non-assignability and non-sublicensability, and the changed text is in the same location as the original, there is a direct in-text contradiction. A reasonable reader would find these sections incompatible, leading to uncertainty regarding CC-Pharming's rights."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "7.3 Each of the parties agrees that for five (5) years from the date of disclosure, the receiving Party agrees to limit disclosure of the disclosing Party's Confidential Information to those of the receiving party's employees and contractors, and employees and contractors of its Subsidiaries, who have a need to know it, and the receiving Party agrees to use the same care and discretion to avoid disclosure, publication or dissemination outside of those employees and contractors as the receiving Party does with similar information of its own which it does not desire to publish, disclose or disseminate.",
+        "changed_text": "7.3 Each of the parties agrees that indefinitely from the date of disclosure, the receiving Party has no obligation to limit disclosure of the disclosing Party's Confidential Information to anyone, and the receiving Party can disclose, publish, or disseminate this information to any third party.",
+        "explanation": "Section 7.3 originally limits the disclosure of confidential information to a specific group for a period of five years. The modified version completely reverses this by stating there is no limitation on disclosure and allows dissemination to any third party indefinitely. This introduces a clear contradiction. The in-text contradiction is happening because the time has been changed from 5 years to 'indefinitely' and also the word 'no obligation to limit disclosure' has been added making it contradict.",
+        "location": "7.3",
+        "contradicted_location": "7.7",
+        "contradicted_text": "7.7 The parties agree that limitations on disclosure of Confidential information under section 7.3 shall last 5 years from signing date.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in section 7.3 explicitly removes the five-year limitation on disclosure of confidential information and allows disclosure to any third party indefinitely. This directly contradicts section 7.7, which states that limitations on disclosure under section 7.3 last for 5 years. The changed text creates a clear inconsistency regarding the duration of confidentiality obligations, therefore a strong contradiction exists."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "9.8 Assignment. Neither Party may assign its rights or delegate any of its duties under this Agreement without the prior written consent of the other Party. Any unauthorized assignment of this Agreement is void.",
+        "changed_text": "9.8 Assignment. Either Party may assign its rights or delegate any of its duties under this Agreement with or without the prior written consent of the other Party. Any assignment of this Agreement is valid.",
+        "explanation": "Originally, assignment of rights or duties required the prior written consent of the other party and any unauthorized assignment was void. The modified text states that a party *may* assign its rights with *or* without consent, and any assignment is valid, which directly contradicts the original requirement for consent and invalidates the 'void' clause. This creates uncertainty regarding the assignment process. The in-text contradiction is happening because the condition which said written consent should be acquired 'without the prior written consent' has been introduced",
+        "location": "9.8",
+        "contradicted_location": "9.8",
+        "contradicted_text": "9.8 Assignment. Either Party may assign its rights or delegate any of its duties under this Agreement with or without the prior written consent of the other Party. Any assignment of this Agreement is valid.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that assignment requires prior written consent and unauthorized assignments are void. The changed text allows assignment with or without consent and validates all assignments. The contradicted text is the changed text itself, which creates a direct contradiction within the same section. The permission without consent directly negates the requirement for consent that the original text specifies."
+      }
+    ]
+  }
+]

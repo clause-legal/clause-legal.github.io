@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "180314-March-14-2018-SOW-M.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "2.05 No Disclosure Except as set forth in Section 2.06 , the Receiving Party shall not disclose any of the Confidential Information or othe r facts directly related to the Confidential Information to any Person other than its Representatives who have a need to know such Confidential Information and who have been informed of the confidential nature of the Confidential Information.",
+        "changed_text": "2.05 No Disclosure Except as set forth in Section 2.06 , the Receiving Party shall not disclose any of the Confidential Information or othe r facts directly related to the Confidential Information to any Person , provided they verbally agree to keep it confidential.",
+        "explanation": "By removing the need for representatives and allowing disclosure to 'any Person' with only a verbal agreement, this change significantly weakens the non-disclosure obligation. This contradicts the requirements for written notice in section 2.06, creating an inconsistency. Disclosure required by Law will need a written notice, but regular confidential information can be disclosed with only a verbal agreement.",
+        "location": "2.05",
+        "contradicted_location": "2.06",
+        "contradicted_text": "2.06 Disclosure Required by Law The Receiving Party will not disclose to any Person the Confidential Information or other facts directly related to the Confidential Info rmation unless, in the reasonable opinion of the Receiving Party’s legal counsel, disclosure is required by legal process or regulatory demands, in which event the Receiving Party will, prior to such disclosure, promptly provide the Disclosing Party with w ritten notice of the intended disclosure so that the Disclosing Party may seek a protective order or other appropriate protection.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 2.05 allows disclosure of confidential information to 'any Person' with just a verbal agreement, removing the requirement for them to be representatives informed of the confidential nature. This directly contradicts Section 2.06, which requires 'written notice' before disclosing confidential information due to legal requirements. Now, legal disclosures need written notice, while standard confidential info needs only verbal, creating a strong inconsistency and uncertainty regarding disclosure procedures. This aligns with the 'Ambiguities - In Text Contradiction' perturbation type, as the differing requirements create conflicting obligations within the contract."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "3.02 Continuing Obligations Regarding Confidentiality The obligations of confidentiality contained herein shall survive the expiration or termination of the Contract, SOW, Amendments, or RFP Terms.",
+        "changed_text": "3.02 Continuing Obligations Regarding Confidentiality The obligations of confidentiality contained herein shall survive the expiration or termination of the Contract, SOW, Amendments, or RFP Terms, only if explicitly renewed in writing by both parties at the time of termination.",
+        "explanation": "This change adds a condition that the confidentiality obligations only survive if explicitly renewed in writing. This contradicts the original text, which states that the obligations 'shall survive' without any conditions, creating an internal contradiction and weakening the survival clause. If the contract terminates without this written renewal, then the confidential information can no longer be held to article 2.07.",
+        "location": "3.02",
+        "contradicted_location": "2.07",
+        "contradicted_text": "2.07 Return of Confidential Information Upon the Disclosing Party’s written request, the Receiving Party shall promptly ret urn to the Disclosing Party all Confidential Information in its possession or control, and promptly destroy or erase all notes, memoranda and other material prepared by the Receiving Party which reflect, interpret, evaluate, include or are derived from any Confidential Information and the Receiving Party shall certify such destruction in writing to the Disclosing Party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in section 3.02 adds a condition that confidentiality obligations only survive if explicitly renewed, whereas the original text stated they 'shall survive' unconditionally. This directly contradicts section 2.07, which mandates the return and destruction of confidential information upon written request, regardless of contract termination or renewal. The added condition in 3.02 undermines the enforceability of 2.07 if the contract terminates without explicit renewal, thus creating a strong in-text contradiction as per the definition of 'Ambiguities – In Text Contradiction'."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "3.09 Termination This agreement continues in effect for three years. Either party may terminate t his CNDA for any reason by providing the other with 30 days’ advance written notice . The termination of this CNDA , or the completion or abandonment of the Permitted Purpose, shall not affect the survival of the non -disclosure obligations under this CNDA , which obligations shall survive for a period o f 3 years .",
+        "changed_text": "3.09 Termination This agreement continues in effect for three years, unless either party provides a verbal notice of termination, effective immediately. The termination of this CNDA , or the completion or abandonment of the Permitted Purpose, shall not affect the survival of the non -disclosure obligations under this CNDA , which obligations shall survive for a period o f 3 years .",
+        "explanation": "The change from '30 days' advance written notice' to 'verbal notice of termination, effective immediately' introduces a contradiction in the termination terms. This makes it unclear whether the 30-day written notice is still required. This contradicts with article 3.03 since 3.03 states all notices need to be in writing, but this now allows for a verbal termination notice.",
+        "location": "3.09",
+        "contradicted_location": "3.03",
+        "contradicted_text": "3.03 Notices All disclosures, notices or other documents required or permitted to be given pursuant to this CNDA shall be in w riting and delivered by hand or courier service or by fax to the address (a) of the Supplier to the address provided by the Supplier with its request for additional information or to such other address as may be provided from time to time: (b) CPR Addre ss: Attn: Office of the CIO Canadian Pacific Railway Building 1, 7550 Ogden Dale Road Calgary, Alberta T2C 4X9",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies section 3.09 to allow for 'verbal notice of termination, effective immediately', which directly contradicts section 3.03 stating 'All disclosures, notices or other documents required or permitted to be given pursuant to this CNDA shall be in w riting'. The original text required 30 days' advance written notice, which was consistent with 3.03. The change introduces a clear conflict regarding the acceptable form of termination notice, creating a strong in-text contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "3.11 Residuals Notwithstanding the confidentiality obligations contained in Article 2 hereof, the receiving party may, during and after the term hereof, use in its business any Residual Information. “Residual Information” means the ideas, know -how and techniques that would be retained in the unaided memory of an ordinary person skilled in the art, not",
+        "changed_text": "3.11 Residuals Notwithstanding the confidentiality obligations contained in Article 2 hereof, the receiving party may, during and after the term hereof, use in its business any Residual Information. “Residual Information” means any information related to the disclosing party, regardless of how it is stored or remembered. It can be used even if it violates the confidentiality obligations in Article 2.",
+        "explanation": "The redefinition of 'Residual Information' to include 'any information related to the disclosing party, regardless of how it is stored or remembered' directly contradicts the confidentiality obligations of Article 2 and invalidates the purpose of Article 2. This effectively allows the receiving party to use any information, even if it should be confidential, thus leading to a violation of the original confidentiality. It also removes the part of unaided memory in the original text.",
+        "location": "3.11",
+        "contradicted_location": "3.12",
+        "contradicted_text": "3.12 No Implied Partnership This CNDA is intended to provide for the protection of the Confidential Informatio n from unauthorized disclosure and use, and does not constitute an agreement to cooperate in a joint venture, partnership, or other arrangement, or for CP to retain Supplier in respect of any particular project. Additionally, nothing in this CNDA constitu tes a warranty by the Disclosing Party of the accuracy of any Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text redefines 'Residual Information' to include 'any information related to the disclosing party, regardless of how it is stored or remembered' and states that it 'can be used even if it violates the confidentiality obligations in Article 2.' This directly contradicts the purpose of Article 3.12, which is 'to provide for the protection of the Confidential Information from unauthorized disclosure and use.' The change allows for the disclosure and use of confidential information, negating the protection that Article 3.12 is meant to ensure, therefore a strong contradiction exists."
+      }
+    ]
+  }
+]

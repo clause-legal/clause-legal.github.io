@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "MNDA.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "All Information identified as confidential and disclosed there under shall remain the sole property of the disclosing party, and the receiving party shall have no interest in or rights thereto except as set forth herein.",
+        "changed_text": "All Information disclosed there under shall remain the sole property of the disclosing party, and the receiving party shall have no interest in or rights thereto except as set forth herein.",
+        "explanation": "Removing the clause 'identified as confidential' creates an in-text contradiction. Without this identification, all disclosed information is considered proprietary, which conflicts with section 4 which allows information in the public domain to be excluded. This makes it unclear what information is actually protected, leading to enforcement issues.",
+        "location": "2",
+        "contradicted_location": "4",
+        "contradicted_text": "With respect to the obligations of the receiving party to the protection and use of the Information, no obligations shall be imposed upon the receiving party with respect to any portion of said Information, which the receiving party can show (a) corresponds in substance to Information in the receiving party’s possession, in written or recorded forms, prior to the receiving party’s receipt of the same Information from the disclosing party; or (b) at the time of disclosure is, or thereafter becomes through no act or failure to act on the part of the receiving party, part of the public domain by publication or otherwise or (c) that it is required to disclose to the minimum extent required to do so by any order of any court of competent jurisdiction or any competent judicial, governmental or regulatory body.",
+        "contradiction_exists": "YES",
+        "justification": "The original text protects only 'Information identified as confidential'. The changed text removes this qualifier, making *all* disclosed information the sole property of the disclosing party. This creates a contradiction with the 'Contradicted Text', which states that information already in the public domain or in the receiving party's possession is *not* subject to the same protection obligations. Because the changed text makes no exception for this information, it contradicts the section that allows it to be excluded, leading to uncertainty about what information is actually protected, and meets the definition of 'Omissions - In Text Contradiction'."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Test procedures shall be mutually agreed prior to testing.",
+        "changed_text": "",
+        "explanation": "By removing the requirement for mutually agreed test procedures, section 5 now implies that one party can unilaterally decide on test procedures, potentially contradicting the principle of mutual agreement established throughout the agreement regarding the handling of confidential information. This introduces uncertainty and a contradiction as it conflicts with the overall intent of the NDA to protect both parties' interests. Section 6 which specifies disclosing results, relies on agreed upon procedures",
+        "location": "5",
+        "contradicted_location": "6",
+        "contradicted_text": "The parties agree to disclose to each other, the results of the tests performed in connection with the Project. The parties each agree to take all appropriate steps to maintain and protect the confidential nature of the results. It is explicitly agreed that the composition of the material AddiFlex as well as the manufacturing process used to produce AddiFlex shall not be the subject of any test and that all information relating to the composition and manufacture of AddiFlex shall remain the exclusive property of Add-X Biotech AB",
+        "contradiction_exists": "YES",
+        "justification": "The original text required mutually agreed test procedures, but the changed text omits this requirement, creating a direct contradiction. This allows one party to unilaterally determine test procedures, which conflicts with the contradicted text that specifies disclosing test results to each other and protecting confidential information. The contradicted text implicitly relies on agreed-upon test procedures to ensure fairness and protect both parties' confidential information, as stated in the explanation."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "7.1 On the written request of either party the other will supply to the requester a list showing to the extent practical: - 7.1.1 where copies that have been supplied are held; 7.1.2 copies that have been made by the other party and where they are held; and 7.1.3 the names and addresses of the people to whom Information has been disclosed and a copy of the confidentiality undertakings signed by them complying with the provisions of this agreement.",
+        "changed_text": "7.1 On the written request of either party the other will supply to the requester a list showing to the extent practical: - 7.1.1 where copies that have been supplied are held; and 7.1.2 copies that have been made by the other party and where they are held;",
+        "explanation": "Removing the requirement to provide 'the names and addresses of the people to whom Information has been disclosed and a copy of the confidentiality undertakings signed by them' creates an internal contradiction. Without this information, enforcing confidentiality (referenced in section 3 and section 9) becomes significantly more difficult, if not impossible, because the disclosing party cannot verify compliance with the agreement. This directly contradicts the obligation to protect the information.",
+        "location": "7.1",
+        "contradicted_location": "3",
+        "contradicted_text": "When receiving the Information each party agrees to maintain all such Information in strict confidence and to use at least the same measures to protect the same as that party uses to protect its own confidential information, including but not limited to: restricting the information’s availability to employees, agents or consultants of the receiving party with a need to know, and making such disclosure only after they have agreed to abide by the terms and conditions of this Agreement, prohibiting duplication of any such information without the prior written consent of the disclosing party, and taking all necessary and reasonable precautions to prevent unauthorised disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the requirement to provide the names and addresses of people to whom information has been disclosed and a copy of their confidentiality undertakings. This directly contradicts the contradicted text, which requires each party to 'maintain all such Information in strict confidence' and take 'all necessary and reasonable precautions to prevent unauthorised disclosure.' Without the ability to identify who has received the information and verify their agreement to confidentiality, the ability to enforce this section is substantially undermined, creating a strong in-text contradiction as it breaks compatibility with the confidentiality obligations."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "All products and any residue thereof remaining after the tests are completed shall returned to the disclosing party no later than one hundred twenty (120) days from the effective date shown above, or shall be destroyed by the receiving party.",
+        "changed_text": "All products and any residue thereof remaining after the tests are completed shall be handled appropriately.",
+        "explanation": "Replacing the specific instructions for returning or destroying products with 'handled appropriately' introduces ambiguity and contradicts the intent of the NDA to protect confidential information. Without a defined timeframe and method for handling the materials, there's no guarantee that the confidential information contained within the products will be protected. This creates an in-text contradiction, making the provision unenforceable and weakening the confidentiality obligations outlined elsewhere in the document, specifically sections 2 and 3.",
+        "location": "8",
+        "contradicted_location": "2",
+        "contradicted_text": "All Information identified as confidential and disclosed there under shall remain the sole property of the disclosing party, and the receiving party shall have no interest in or rights thereto except as set forth herein.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified a clear procedure for handling products and residue after testing: return to the disclosing party within 120 days or destruction by the receiving party. This ensured confidentiality. The changed text replaces this specific instruction with 'handled appropriately,' which is ambiguous and doesn't guarantee the protection of confidential information. This directly contradicts the contradicted text, which states that all confidential information remains the property of the disclosing party and the receiving party has no rights except as specified. The changed text introduces uncertainty about how confidential information will be handled, thus creating a strong in-text contradiction because the lack of specific guidance means the confidential information is not necessarily being protected as outlined in the contradicted text. This aligns with the definition of 'Omissions – In Text Contradiction' as essential language was removed which creates a contradiction with the constraints stated in other sections."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The agreement and the obligation of confidentiality shall remain in force for a period of ten (10) years after the date of the last disclosure of Information,",
+        "changed_text": "The agreement and the obligation of confidentiality shall remain in force for a period determined by mutual agreement.",
+        "explanation": "By removing the fixed term of ten years and replacing it with 'a period determined by mutual agreement', uncertainty is introduced. This contradicts the earlier sections that rely on a defined timeframe for obligations. If parties disagree on the duration, it leads to a conflict, and it would create a problem of clarity with sections 2 and 3, which states the conditions and restrictions of usage and right to the other party. So creating an internal contradiction.",
+        "location": "12",
+        "contradicted_location": "2",
+        "contradicted_text": "All Information identified as confidential and disclosed there under shall remain the sole property of the disclosing party, and the receiving party shall have no interest in or rights thereto except as set forth herein.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies a fixed term of 10 years for the confidentiality agreement. The changed text replaces this fixed term with a period determined by mutual agreement. This introduces uncertainty and potential conflict, directly contradicting the contradicted text which assumes a defined timeframe for the 'receiving party shall have no interest in or rights thereto except as set forth herein.' If the duration is not fixed or agreed upon, the receiving party's obligations become unclear, creating a significant in-text contradiction as per the definition of 'Omissions - In Text Contradiction'."
+      }
+    ]
+  }
+]

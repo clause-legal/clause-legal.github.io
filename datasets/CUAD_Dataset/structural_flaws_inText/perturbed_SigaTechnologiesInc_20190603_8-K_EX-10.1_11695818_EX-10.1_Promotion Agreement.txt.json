@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "SigaTechnologiesInc_20190603_8-K_EX-10.1_11695818_EX-10.1_Promotion Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "\"Alliance Manager\" has the meaning set forth in Section 3.1(d). \"Anti-Corruption Law\" means any applicable Law of any jurisdiction concerning or relating to bribery, kickbacks or corruption including the United States Foreign Corrupt Practices Act of 1977, the Anti-Kickback Statute, the UK Bribery Act 2010, any Laws enacted pursuant to the OECD Convention on Combating Bribery of Foreign Public Officials, and other similar anti-corruption legislation in other jurisdictions, as may be amended from time to time and each to the extent applicable to a Party.",
+        "changed_text": "\"Alliance Manager\" has the meaning set forth in Section 3.1(d). \"Anti-Corruption Law\" means only the laws of the United States and excludes any international laws or conventions related to bribery, kickbacks, or corruption.",
+        "explanation": "The definition of \"Anti-Corruption Law\" is modified to exclude international laws. This directly contradicts Section 8.4(c)(i), which requires compliance with all applicable Anti-Corruption Laws, implying both US and international laws. This introduces uncertainty about which specific laws govern anti-corruption compliance, particularly in the Territory outside the US, as MMT is responsible to promote the product in such countries, and which ones would prevail.",
+        "location": "ARTICLE 1 DEFINITIONS",
+        "contradicted_location": "Section 8.4(c)(i)",
+        "contradicted_text": "(i) Health Authorities. Each Party and its Affiliates will comply in all material respects with all Laws in the Development, Manufacture, Promotion and Commercialization of the Product and the performance of its obligations under this Agreement, including where applicable the statutes, regulations and written directives of the FDA, the EMA, and any Regulatory Authority having jurisdiction in the Territory, and all applicable Anti-Corruption Laws.",
+        "contradiction_exists": "YES",
+        "justification": "The modified definition of \"Anti-Corruption Law\" explicitly excludes international laws, while Section 8.4(c)(i) requires compliance with all applicable Anti-Corruption Laws. This creates a direct contradiction as to whether the parties are obligated to comply with international anti-corruption laws, particularly concerning the 'Promotion and Commercialization of the Product' outside the US, directly conflicting with the obligations outlined in Section 8.4(c)(i)."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "\"Confidential Information\" of a Party means (a) any and all information of such Party or its Affiliates that is provided or disclosed by such Party or its Affiliates to the other Party or its Affiliates under this Agreement, whether in oral, written, graphic, or electronic form, and (b) the terms of this Agreement.",
+        "changed_text": "\"Confidential Information\" of a Party means (a) any and all information of such Party or its Affiliates that is provided or disclosed by such Party or its Affiliates to the other Party or its Affiliates under this Agreement, whether in oral, written, graphic, or electronic form, but expressly excluding all data related to Net Product Sales Amounts and other financial data, and (b) the terms of this Agreement.",
+        "explanation": "The definition of \"Confidential Information\" is changed to exclude Net Product Sales Amounts. This contradicts Section 6.2(a), which explicitly requires MMT to include Net Product Sales Amounts in Quarterly Reports that are explicitly defined as Confidential Information of MMT as such reports are expected to be confidential and shared only between the parties under the terms of this agreement.. This creates confusion about the confidentiality of sales data and its permitted use.",
+        "location": "ARTICLE 1 DEFINITIONS",
+        "contradicted_location": "Section 6.2(a)",
+        "contradicted_text": "(a) Within [***] days after the conclusion of each Calendar Quarter to occur during the Term, commencing with the First Commercial Sale of the Product in the Field in the Territory, MMT shall deliver to SIGA a written report containing the following information (each a \"Quarterly Report\"): [***]. All such reports shall be considered Confidential Information of MMT. Concurrent with the delivery of the applicable Quarterly Report, MMT shall pay to SIGA in Dollars by wire transfer of immediately available funds into an account designated by SIGA in writing in advance of such payment the net result of Quarterly Collected Revenues, minus the corresponding Promotion Fee, and minus any applicable Credit Amount for such Calendar Quarter (all amounts as calculated in the Quarterly Report, and the payment of the net result being a \"Quarterly Payment\").",
+        "contradiction_exists": "YES",
+        "justification": "The modified text explicitly excludes \"Net Product Sales Amounts and other financial data\" from the definition of \"Confidential Information.\" However, the contradicted text, Section 6.2(a), requires MMT to include \"Net Product Sales Amounts\" in the Quarterly Report, which is explicitly defined as Confidential Information of MMT. This creates a direct contradiction because the modified definition states sales data is not confidential, while Section 6.2(a) states the report containing that data is confidential, making the confidentiality status of sales data and reports unclear."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "\"Territory\" means all countries and territories in the world other than (a) the U.S., (b) South Korea, (c) any Restricted Market, and (d) any Discontinued Country and, in the case of (a)-(c), each of their respective territories and possessions.",
+        "changed_text": "\"Territory\" means only countries that are members of the European Union.",
+        "explanation": "The definition of \"Territory\" is changed. This contradicts Section 4.1(b), which states MMT shall not Promote any Product within any Restricted Market or Discontinued Country as countries that are not part of the European Union as such restriction is not in place. This introduces uncertainty about MMT's promotional obligations and the geographic scope of the agreement.",
+        "location": "ARTICLE 1 DEFINITIONS",
+        "contradicted_location": "Section 4.1(b)",
+        "contradicted_text": "(b) MMT shall use Commercially Reasonable Efforts at its sole cost and expense to Promote the Product in the Field within the Territory in accordance with the then-current Business Plan; provided that MMT shall not Promote any Product within any Restricted Market or Discontinued Country.",
+        "contradiction_exists": "YES",
+        "justification": "The original definition of \"Territory\" included all countries except the U.S., South Korea, Restricted Markets, and Discontinued Countries. The changed definition limits \"Territory\" to only EU member countries. This directly contradicts Section 4.1(b), which states MMT shall not Promote any Product within any Restricted Market or Discontinued Country. The change effectively removes the original territorial scope, impacting the promotional obligations and geographic limitations outlined in Section 4.1(b). Since MMT's promotional efforts were once restricted in certain countries, but are now only allowed in EU countries, there is a conflict on what territories MMT can promote the product."
+      }
+    ]
+  }
+]

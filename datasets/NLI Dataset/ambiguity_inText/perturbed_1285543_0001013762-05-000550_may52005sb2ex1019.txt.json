@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "1285543_0001013762-05-000550_may52005sb2ex1019.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement shall be effective as of the Effective Date and may be terminated by either party upon thirty (30) day's prior written notice to the other party.",
+        "changed_text": "This Agreement shall be effective as of the Effective Date and may be terminated by either party at any time without prior written notice to the other party.",
+        "explanation": "The original text allows termination with a 30-day notice. The change allows termination at any time without notice, creating a contradiction regarding the termination process and the rights of each party, as the absence of notice could cause potential harm to the disclosing party in section 1, that expects the information will be protected for at least 30 days.",
+        "location": "5",
+        "contradicted_location": "1",
+        "contradicted_text": "StrikeForce and Company are interested in disclosing to each other certain information relating to their respective business plans and proprietary technology (hereinafter \"Information\") for the purposes of evaluation and consultation. For the purposes of this Agreement, each party shall be in the position of \"Disclosing Party\" for the Information it discloses to the other party, and each party shall be in the position of \"Recipient\" for the Information it receives from the other party. Such Information is a commercial asset of considerable value to Disclosing Party, and Disclosing Party is willing to disclose such Information only under the terms and conditions set forth below. This Agreement, when signed by authorized representatives of each party, will confirm that the Recipient is willing to receive such Information of Disclosing Party subject to the following terms and conditions, which the parties intend to be legally binding.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires a 30-day written notice for termination, while the changed text allows termination at any time without notice. This creates a direct contradiction. The contradicted text states that the Disclosing Party is disclosing information based on certain terms and conditions, implicitly expecting some level of protection during the agreement. The change allowing immediate termination contradicts this expectation, as the Recipient could immediately terminate the agreement after receiving the Information, defeating the purpose of the agreement and potentially harming the Disclosing Party. Therefore, the change creates a strong in-text contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "In any event, this Agreement shall automatically terminate two (2) years after the Effective Date.",
+        "changed_text": "In any event, this Agreement shall automatically renew every two (2) years after the Effective Date, unless either party provides written notice of termination at least 60 days prior to the renewal date.",
+        "explanation": "The original text specifies automatic termination after two years. The change introduces automatic renewal unless notice is given, contradicting the original termination clause. This contradiction is relevant for section 6 because now the Recipient should cease all use of the Information, until the next renewal, or unless either party provides written notice of termination at least 60 days prior to the renewal date.",
+        "location": "5",
+        "contradicted_location": "6",
+        "contradicted_text": "Upon completion of the aforesaid evaluation and in the absence of further agreement of the parties, the Recipient shall cease all use and make no further use of the Information. At Disclosing Party's request, the Recipient shall promptly return or destroy all Information disclosed by Disclosing Party and shall retain no copies.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stipulated automatic termination after two years. The changed text introduces automatic renewal unless a termination notice is provided. This directly contradicts the contradicted text, which states that upon completion of the evaluation period and without further agreement, the Recipient should cease all use of the information. The change now means that the agreement and thus the right to use the Information could automatically renew, conflicting with the original termination and cease-use clause. This aligns with the definition of 'Ambiguities – In Text Contradiction' because the renewal and termination terms are defined inconsistently, creating a clear conflict."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "At Disclosing Party's request, the Recipient shall promptly return or destroy all Information disclosed by Disclosing Party and shall retain no copies.",
+        "changed_text": "The Recipient is permitted to retain one archival copy of the Information for legal compliance purposes, even after the Disclosing Party requests its return or destruction.",
+        "explanation": "Originally, Section 6 mandates the return or destruction of all Information with no copies retained. The perturbed version allows one archival copy to be kept, which contradicts the strict return/destroy mandate of the original agreement. This also can cause contradictions on section 3, on how the archival copy of the information is going to be treated.",
+        "location": "6",
+        "contradicted_location": "3",
+        "contradicted_text": "The Recipient shall hold the Information in confidence, and shall use reasonable efforts to prevent any unauthorized use or disclosure of the Information. Except as expressly provided in this Agreement, the Recipient shall not disclose or divulge the Information, in whole or in part, to any third party, including licensees or customers anywhere in the world. The Recipient may not use the Information for any purpose other than the aforesaid without the prior written consent of a duly authorized representative of Disclosing Party. The Recipient may disclose the Information only to its officers, employees and independent contractors who are necessary for the purpose of evaluating such Information, and Recipient shall be responsible for any disclosure by them in violation of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandated the return or destruction of all information without retaining copies. The changed text introduces an exception by allowing the Recipient to retain one archival copy, which directly contradicts the previous mandate to return or destroy 'all' information and retain no copies. Furthermore, the contradicted text explicitly prohibits any unauthorized use or disclosure of the Information and restricts its use to specific purposes. Retaining an archival copy inherently contradicts this clause, as it creates a copy that could potentially be subject to unauthorized use or disclosure, even if unintended. Therefore, a strong in-text contradiction exists."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement shall be governed by the law of the United States of America and the State of New Jersey without regard to conflicts of laws principles.",
+        "changed_text": "This Agreement shall be governed by the law of England and Wales with regard to conflicts of laws principles.",
+        "explanation": "The governing law has been changed from the law of United States of America and the State of New Jersey without regard to conflicts of laws principles to the law of England and Wales with regard to conflicts of laws principles. This can cause in-text contradictions with section 7's purpose, since the court may need to involve England and Wales jurisdiction to enforce the agreement.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "The parties hereby acknowledge and agree that in the event of any violation or a threatened violation of this Agreement by the Recipient, the Disclosing Party shall be authorized and entitled to seek from any court of competent jurisdiction preliminary and permanent injunctive relief. This Agreement shall be governed by the law of England and Wales with regard to conflicts of laws principles. Sections 3-7 shall survive any termination or expiration of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified the governing law as that of the United States of America and the State of New Jersey, without regard to conflicts of laws principles. The changed text alters this to the law of England and Wales with regard to conflicts of laws principles. The contradicted text mentions injunctive relief which would be handled differently under different jurisdictional laws. The change introduces a contradiction as the agreement's governing law and the jurisdiction for seeking injunctive relief are altered, which directly impacts how the agreement is enforced and interpreted, satisfying the Ambiguities - In Text Contradiction definition."
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "non-disclosure-agreement-en.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Receiving Party undertakes, for the period of time speci fied in Section 13, to keep confidential all Confidential Information submitted by the Disclosing Party , either directly or indirectly through subcontractors and other partners of the Disclosing Party , and being subject to the rules of intellectual property.",
+        "changed_text": "The Receiving Party undertakes to keep confidential all Confidential Information submitted by the Disclosing Party , either directly or indirectly through subcontractors and other partners of the Disclosing Party .",
+        "explanation": "The removal of 'for the period of time specified in Section 13' creates an in-text contradiction because it implies that the receiving party should keep the information secret forever, contradicting Section 13, which specifies a limited time for confidentiality. This introduces uncertainty about the duration of the confidentiality obligation.",
+        "location": "4",
+        "contradicted_location": "13",
+        "contradicted_text": "This Agreement shall be in force on the Execution Date and shall remain in force for a period of twenty-four (24) months. Notwithstanding the term of the Agreement , the Parties undertake to maintain the confidentiality obligation for a period of three (3) years after Confidential Information disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that the confidentiality obligation is 'for the period of time specified in Section 13'. The changed text removes this temporal limitation, implying the confidentiality obligation is perpetual. This directly contradicts the contradicted text, which states that the confidentiality obligation lasts for a period of three (3) years after Confidential Information disclosure. The change creates a strong contradiction regarding the duration of the confidentiality obligation, making it unclear whether it is perpetual or limited to three years."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Restrict disclosure of the Confidential Information to the minimum required number of people (such as employees, directors, office rs, legal counsels, accountants or consultants who shall also be personally bound to maintain the Information in confidence);",
+        "changed_text": "Restrict disclosure of the Confidential Information to employees;",
+        "explanation": "By restricting disclosure of confidential information only to employees, the change contradicts the possibility that other entities such as 'directors, officers, legal counsels, accountants or consultants' may be involved in the process, creating an internal contradiction since other sections of the text refer to other entities besides 'employees'.",
+        "location": "5",
+        "contradicted_location": "4.1",
+        "contradicted_text": "The Receiving Party for purposes of confidentiality is bound by its managers, emplo yees, agents, for any purpose, and principals.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allows for disclosure of confidential information to a wider group of people (employees, directors, officers, legal counsels, accountants, or consultants) who are bound by confidentiality. The changed text restricts disclosure only to employees. This directly contradicts the 'Contradicted Text' which states the 'Receiving Party' is bound by its managers, employees, agents, for any purpose, and principals. Since agents and principals are no longer allowed to receive confidential information under the changed text, this creates a clear contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Maintain the confidentiality a nd take proper measures to pro tect the secrecy of the Confidential Information , using the same degree of care t hat it uses to protect its own confidential information, but in any event shall us e at least commercially reasonable care .;",
+        "changed_text": "Maintain the confidentiality and take proper measures to protect the secrecy of the Confidential Information.",
+        "explanation": "By removing the section where it indicates to use the same degree of care that the receiving party uses to protect its own information, the changed section creates an in-text contradiction as it doesn't clearly specifies how the receiving party needs to secure the confidential information.",
+        "location": "5",
+        "contradicted_location": "9",
+        "contradicted_text": "The Parties acknowledge that the breach of secrecy has the c haracter of serious irregularity and can cause serious damages to the other Party. 9.1 In case of breach of any obligation set forth herein by th e Receiving Party , the Disclosing Party shall recover any and all damages. Notwithstanding any other provisio n herein, neither Party shall be liable for indirect damages o r loss of profits.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies a standard of care (same degree of care used for its own information, but at least commercially reasonable care). The changed text removes this specific standard, creating a contradiction with the contradicted text, which assumes a clear obligation exists and imposes damages for breach. The contradicted text regarding damages for breach of obligation relies on a defined obligation, which is now absent in the changed text. This creates a strong contradiction because the standard of care is now ambiguous, making it unclear what constitutes a breach and how damages would be assessed."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Payment of damages as set fort h in Section 9 and the applica ble law.",
+        "changed_text": "Payment of damages as applicable law.",
+        "explanation": "Removing the reference to 'Section 9' creates an in-text contradiction. Section 9 outlines specific damage provisions. Removing that section implies damages are solely determined by applicable law, potentially conflicting with the intent of having specific contractual remedies. This undermines the contractual intent by omitting specifically agreed damages.",
+        "location": "6",
+        "contradicted_location": "9",
+        "contradicted_text": "The Parties acknowledge that the breach of secrecy has the c haracter of serious irregularity and can cause serious damages to the other Party. 9.1 In case of breach of any obligation set forth herein by th e Receiving Party , the Disclosing Party shall recover any and all damages. Notwithstanding any other provisio n herein, neither Party shall be liable for indirect damages o r loss of profits. 9.2 Accordingly, the actual or t hreatened unauthorized disclosu re or use of any Information shall give the Disclosing Party the right to seek injunctive relief restraining such unauthoriz ed disclosure or use, without the necessity of proving actual damages, in addition to any other remedy otherwise available to the Disclosing Party . Any third party owner of Information disclosed by a party he reto shall be an intended third party beneficiary of this Agreement and shall be entitled to rely upon and directly enforce the terms and conditions hereof.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that damages are determined by both Section 9 and applicable law. The changed text removes the reference to Section 9, stating that damages are determined solely by applicable law. Section 9 of the contradicted text outlines specific damages and remedies, including injunctive relief and limitations on liability for indirect damages or loss of profits. By removing the reference to Section 9, the changed text contradicts the contradicted text because it eliminates the specifically agreed-upon contractual remedies and limitations defined in Section 9, potentially subjecting the parties to a broader range of damages under applicable law that may not have been intended or agreed upon."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This Agreement binds not onl y the parties, but also their s uccessors and assignees.",
+        "changed_text": "This Agreement binds only the parties.",
+        "explanation": "By removing 'successors and assignees,' the modified text creates an in-text contradiction because it implies the agreement does not extend to entities that might inherit or be assigned rights or obligations under the contract. This creates uncertainty about whether successor entities are bound.",
+        "location": "14",
+        "contradicted_location": "9.2",
+        "contradicted_text": "Accordingly, the actual or t hreatened unauthorized disclosu re or use of any Information shall give the Disclosing Party the right to seek injunctive relief restraining such unauthoriz ed disclosure or use, without the necessity of proving actual damages, in addition to any other remedy otherwise available to the Disclosing Party . Any third party owner of Information disclosed by a party he reto shall be an intended third party beneficiary of this Agreement and shall be entitled to rely upon and directly enforce the terms and conditions hereof.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes 'successors and assignees,' limiting the agreement's scope to only the original parties. The contradicted text explicitly grants rights and enforcement capabilities to third-party beneficiaries, including owners of disclosed information. This directly contradicts the changed text by implying that third-party successors and assignees would not be bound by or able to enforce the agreement, creating a strong in-text contradiction. The original text included those parties."
+      }
+    ]
+  }
+]

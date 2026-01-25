@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "Inaturals_NDA.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "A party to this Agreement receiving Confidential Information “Recipient” agrees to retain such Confidential Information in stricte confidence and n ot to disclose it to any third party or use such Confidential Information for any purpose other than the purposes set forth in this Agreement. “Confidential Information” shall mean information related to the development of natural ingredients products including research, trade secrets, prototypes, formulas, processes, techniques, marketing programs, price information, product lists, technology, business plans, intellectual property and financial information, whether written or oral.",
+        "changed_text": "A party to this Agreement receiving Confidential Information “Recipient” agrees to retain such Confidential Information in stricte confidence and n ot to disclose it to any third party or use such Confidential Information for any purpose other than the purposes set forth in this Agreement. “Confidential Information” shall primarily mean formulas and processes, whether written or oral, but also includes other business information if explicitly marked as confidential by the disclosing party.",
+        "explanation": "This change introduces an in-text contradiction by narrowing the definition of 'Confidential Information' to primarily include formulas and processes unless otherwise explicitly marked. This contradicts the original, broader definition that included a wide array of information without needing explicit markings. This perturbation can create confusion with Clause 7, where all confidential information must be destroyed/returned. This change makes it unclear if the Recipient is obliged to return all business plans, financial information, etc., given they are no longer automatically considered confidential.",
+        "location": "1",
+        "contradicted_location": "7",
+        "contradicted_text": "Upon written request from the other party, each party agrees to return or destroy all the other party’s Confidential Informatio n, together with all copies or reproductions thereof.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text narrows the definition of 'Confidential Information'. Originally, it broadly included research, trade secrets, prototypes, formulas, processes, techniques, marketing programs, price information, product lists, technology, business plans, intellectual property, and financial information. The changed text limits 'Confidential Information' primarily to formulas and processes, with other business information only included if explicitly marked as confidential. This directly contradicts the contradicted text, which states that 'each party agrees to return or destroy all the other party’s Confidential Information'. Because the definition of 'Confidential Information' has been narrowed, it's unclear if the Recipient is obliged to return or destroy the information such as business plans or financial information, as they are not automatically considered confidential anymore. The original broad definition ensured all listed items were covered by the return/destroy obligation, but the revised definition introduces ambiguity. Therefore, there is a strong in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The Recipient will communicate such information only to such employees and contractors or agents who have a need to know such information, and only to such employees and contractors or agents having written agreements with the Recipient obligating them to keep such information confidential .",
+        "changed_text": "The Recipient will communicate such information to any employee, contractor, or agent, provided that such individual is informed that the information is considered confidential. A written agreement is recommended, but not required, to maintain confidentiality.",
+        "explanation": "This modification introduces an in-text contradiction concerning the necessity of written confidentiality agreements. Previously required, now merely 'recommended', creates ambiguity regarding obligations to third parties. Now its unclear if written agreement is needed, and there is a conflict with Clause 8, which states the agreement extends to all agents.",
+        "location": "1",
+        "contradicted_location": "8",
+        "contradicted_text": "This agreement shall be binding on the parties hereto and their respective subsidiaries, affiliates, divisions, officers, directors, agents, employees, successors and assigns.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text by altering the requirement for written agreements. The original text mandated written agreements with employees and contractors. The changed text makes written agreements merely 'recommended,' creating ambiguity. This directly conflicts with the contradicted text, which states the agreement is binding on agents, implying a consistent and enforceable agreement, which is undermined by the 'recommended' nature of the written agreement in the changed text."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Each party agrees that it will not, without the previous written consent of the other party, use or disclose to any person, firm, company, partnership or corporation, the Confidential Information of the other party.",
+        "changed_text": "Each party agrees that it will not, without prior notification (written or oral) to the other party, use or disclose to any person, firm, company, partnership or corporation, the Confidential Information of the other party. Consent is not required, but a good faith effort to notify is expected.",
+        "explanation": "By changing the requirement from 'previous written consent' to 'prior notification (written or oral)' and removing the need for consent, the clause now contradicts itself. The text states it will not disclose the information without notification, but notification doesn't necessarily imply consent. It creates an ambiguity. This modification contradicts with section 3, by allowing notification instead of consent.",
+        "location": "2",
+        "contradicted_location": "3",
+        "contradicted_text": "The parties agree that the unauthorized use or disclosure of Confidential Information would cause permanent, irreparable damage to the business and property of the party to which it belongs. In the event that either party is required to disclose Confidenti al Information pursuant to judicial or administrative process in connection with any action, suit or proceeding, that party will give prompt notice to the party to whom the Confidential Information belongs and will make a good faith effort to obtain confid ential treatment of the information in the action, suit or proceeding.",
+        "contradiction_exists": "YES",
+        "justification": "The original text required 'previous written consent' for disclosing confidential information. The changed text replaces this with 'prior notification (written or oral)' and explicitly states 'Consent is not required'. This directly contradicts the contradicted text, which emphasizes the need to 'obtain confidential treatment of the information' and implies a higher standard of protection than simple notification. The change introduces a significantly weaker requirement, making it easier to disclose confidential information and thus conflicting with the intent and expectations of the contradicted text regarding the protection of such information. This aligns with the Inconsistencies - In Text Contradiction definition."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The obligations of confidentiality and non -use shall be in effect for a period of three (3) year following disclosure, and shall be binding upon the parties’ heirs, successors in interest, or assigns.",
+        "changed_text": "The obligations of confidentiality and non-use shall be in effect for a period of one (1) year following disclosure for marketing information, and three (3) years for technical information, and shall be binding upon the parties’ heirs, successors in interest, or assigns.",
+        "explanation": "The modification introduces an in-text contradiction by setting different timeframes for the confidentiality of marketing versus technical information. This creates ambiguity and potential disputes, in contrast to the initial blanket timeframe. The initial agreement mentions 3 years, but then changes to 1 year to marketing information, contradicting clause 4.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "The obligations of confidentiality and non -use shall be in effect for a period of three (3) year following disclosure, and shall be binding upon the parties’ heirs, successors in interest, or assigns. Upon request, each party shall promptly return all documents or other tangible property containing Confidential Information furnished by the other or shall destroy any Confidential Information in tangible form in its possession.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the original timeframe for confidentiality from a blanket three years to a variable timeframe (one year for marketing information, three years for technical information). This creates a direct contradiction with the contradicted text, which states a consistent three-year period for all confidential information. The change introduces inconsistency, making it unclear which timeframe applies to what information, hence causing a strong in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The parties agre e no disclosure of information including or relating to such intellectual property sha ll be deemed a transfer or assignment of such intellectual property, nor shall any such disclosure of information be deemed a grant or waiver of any rights or privileges with respect to such intellectual property under applicable law, including but not limited to the right to prevent infringement by the unauthorized use, publication, or disclosure of such intellectual property.",
+        "changed_text": "The parties agree that disclosure of information relating to such intellectual property may be deemed a transfer or assignment of such intellectual property rights if explicitly agreed upon in a separate written agreement signed by both parties. Any such disclosure without a separate written agreement shall not be deemed a grant or waiver of any rights.",
+        "explanation": "This perturbation creates a contradiction: originally, disclosure 'shall be deemed' to not have any effect of transfer of rights. Now, it says disclosure can transfer rights if another document allows it, making the whole statement contradictory. This contradicts the initial clause 6 by giving conditions where intellectual property can be transfered, if there is a seperate written agrement.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "The parties agre e no disclosure of information including or relating to such intellectual property sha ll be deemed a transfer or assignment of such intellectual property, nor shall any such disclosure of information be deemed a grant or waiver of any rights or privileges with respect to such intellectual property under applicable law, including but not limited to the right to prevent infringement by the unauthorized use, publication, or disclosure of such intellectual property.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states unequivocally that disclosure of intellectual property information 'shall be deemed' not to transfer or assign rights. The changed text introduces a condition where disclosure *can* lead to a transfer of rights if a separate written agreement exists. This directly contradicts the initial absolute prohibition against such a transfer upon disclosure, creating a clear inconsistency and uncertainty about when a transfer might occur. Thus, the changed text creates a direct in-text contradiction with the contradicted text."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement shal l be governed by French Law. Any dispute arising out of this Agreement shall be exclusively submitted to the Courts of Paris, France.",
+        "changed_text": "This Agreement shall be governed by French Law, except for disputes relating to intellectual property, which shall be governed by the laws of the jurisdiction where the intellectual property rights are registered. Any dispute arising out of this Agreement shall be exclusively submitted to the Courts of Paris, France, unless the dispute involves intellectual property, in which case it shall be submitted to the courts of the jurisdiction where the intellectual property rights are registered.",
+        "explanation": "This change introduces an in-text contradiction by specifying different governing laws and court jurisdictions for disputes related to intellectual property versus other disputes. This contradicts the initial statement that *all* disputes are governed by French Law and submitted to the Courts of Paris. Clause 9 is now contradicting itself in regard to the different governing laws.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "This Agreement shal l be governed by French Law. Any dispute arising out of this Agreement shall be exclusively submitted to the Courts of Paris, France.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a contradiction because it specifies different governing laws and court jurisdictions for disputes related to intellectual property versus other disputes. This contradicts the original and contradicted statement that *all* disputes are governed by French Law and submitted to the Courts of Paris. The addition of the exception makes the agreement inconsistent and creates a clear conflict, therefore 'YES'."
+      }
+    ]
+  }
+]

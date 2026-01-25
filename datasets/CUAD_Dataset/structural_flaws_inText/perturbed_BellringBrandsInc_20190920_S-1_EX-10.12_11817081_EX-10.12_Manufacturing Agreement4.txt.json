@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "BellringBrandsInc_20190920_S-1_EX-10.12_11817081_EX-10.12_Manufacturing Agreement4.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Amendment No. 3 (the \"Third Amendment\"), entered into by and between Stremicks Heritage Foods, LLC (\"Heritage\") Premier Nutrition Corporation (\"Premier\") is effective as of July 3, 2019 (\"Third Amendment Effective Date\") and amends that certain Manufacturing Agreement between Heritage and Premier dated July 1, 2017 as amended (\"Agreement\").",
+        "changed_text": "This Amendment No. 3 (the \"Third Amendment\"), entered into by and between Stremicks Heritage Foods, LLC (\"Heritage\") Premier Nutrition Corporation (\"Premier\") is effective as of July 3, 2019 (\"Third Amendment Effective Date\") and does not necessarily amend that certain Manufacturing Agreement between Heritage and Premier dated July 1, 2017 as amended (\"Agreement\").",
+        "explanation": "By inserting \"does not necessarily amend\" creates a contradiction as the contract begins by stating that it amends the Manufacturing Agreement, and then introduces uncertainty about whether it actually does. This contradicts the clear purpose stated at the beginning and creates uncertainty about the amendments' effects. This is because elsewhere in the document it is mentioned it does. The modification introduces optionality that is not in the spirit of contracts",
+        "location": "First Paragraph",
+        "contradicted_location": "WHEREAS Paragraph",
+        "contradicted_text": "WHEREAS, the Parties wish to amend the Agreement in accordance with the terms and conditions set forth herein.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces uncertainty by stating the amendment 'does not necessarily amend' the original agreement. This directly contradicts the contradicted text, which states that 'the Parties wish to amend the Agreement.' The original text clearly states the purpose of the amendment is to amend the agreement. The changed text creates a contradiction because it creates optionality about whether the agreement is actually amended, while the contradicted text assumes and states this amendment is happening based on both parties wishes. This uncertainty about whether the amendment is taking place creates a contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Except as otherwise specified above in this Amendment, all other terms, conditions and covenants of the Agreement shall remain in full force and effect.",
+        "changed_text": "Except as otherwise specified above in this Amendment, all other terms, conditions and covenants of the Agreement shall remain in full force and effect, unless superseded by future agreements.",
+        "explanation": "Adding \"unless superseded by future agreements\" introduces a contradiction because it implies that existing terms can be changed without explicit amendment, which contradicts the earlier assertion that the Agreement remains in full force and effect. This creates uncertainty about the stability and reliability of the current agreement's terms. This impacts the \"mutual covenants\" because it can be change at any point. ",
+        "location": "2nd Paragraph",
+        "contradicted_location": "NOW, THEREFORE Paragraph",
+        "contradicted_text": "NOW, THEREFORE, in consideration of the promises and of the mutual covenants, representations and warranties contained in the Agreement and set forth herein, the Parties hereby agree that the following changes shall be made to the Agreement:",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds 'unless superseded by future agreements' to a clause stating that the original agreement remains in full force and effect. This directly contradicts the 'mutual covenants' mentioned in the contradicted text by implying that the agreement's terms are not fixed and can be unilaterally changed by subsequent agreements, making the original covenants less reliable and potentially unenforceable. The added text introduces uncertainty about the mutual commitments made by both parties as stated in the contradicted section."
+      }
+    ]
+  }
+]

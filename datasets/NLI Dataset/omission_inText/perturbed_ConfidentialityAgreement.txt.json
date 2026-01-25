@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "ConfidentialityAgreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "3.1 The parties will compensate each other for any damages arising from the breach of the present agreement. The parties hereby acknowledge that the unauthorized disclosure or use of Confidential Information could cause irreparable damage and substantial disadvantage to the parties or their current or future customers which may be difficult to determine. Therefore, the parties agree that the party which has suffered a disadvantage shall be entitled, in addition to any other rights and remedies that it may have, to seek injunctive relief in order to enforce the obligations under the agreement.",
+        "changed_text": "3.1 The parties will compensate each other for any damages arising from the breach of the present agreement. The parties hereby acknowledge that the unauthorized disclosure or use of Confidential Information could cause irreparable damage and substantial disadvantage to the parties or their current or future customers which may be difficult to determine. Therefore, the parties agree that the party which has suffered a disadvantage shall be entitled, in addition to any other rights and remedies that it may have, to seek injunctive relief in order to enforce the obligations under the agreement.",
+        "explanation": "By removing 'and substantial disadvantage to the parties or their current or future customers which may be difficult to determine' from section 3.1, in turn, section 3.2, by not having the need to prove damages, it is possible to have contractual penalty claim without even proving an actual damage",
+        "location": "3.1",
+        "contradicted_location": "3.2",
+        "contradicted_text": "3.2 In addition and regardless of negligence or fault or proof of an actual damage, the parties agree to contractual penalty in the amount of EUR 15,000.00 for the event of a breach of this agreement. Further claims of the injured party remain unaffected.",
+        "contradiction_exists": "YES",
+        "justification": "The original text of section 3.1 acknowledges the difficulty in determining damages from unauthorized disclosure of confidential information. This acknowledgment justifies section 3.2, which allows for a contractual penalty regardless of proof of actual damage. By removing 'and substantial disadvantage to the parties or their current or future customers which may be difficult to determine' from section 3.1, the changed text weakens the justification for section 3.2, implying that damages might *not* be difficult to determine. This creates a contradiction because section 3.2 still mandates a fixed penalty without requiring proof of actual damage, even when such damage could potentially be proven easily, thus creating a potential contractual penalty claim even without proof of actual damage."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "4.1 Recipient (i) shall not disclose Confidential Information, neither in whole nor in part, to any third party; (ii) shall only use the Confidential Information for the Purpose; and (iii) shall not, without the Discloser’s written consent, neither in whole nor in part, commerc ially exploit or use the Confidential Information. Notwithstanding the foregoing, Recipient may make such disclosure if it is required to do so by law, provided always that Recipient has informed Discloser about such disclosure at least two business days prior to the disclosure.",
+        "changed_text": "4.1 Recipient (i) shall not disclose Confidential Information, neither in whole nor in part, to any third party; (ii) shall only use the Confidential Information for the Purpose; and (iii) shall not, without the Discloser’s written consent, neither in whole nor in part, commerc ially exploit or use the Confidential Information.",
+        "explanation": "By removing 'Notwithstanding the foregoing, Recipient may make such disclosure if it is required to do so by law, provided always that Recipient has informed Discloser about such disclosure at least two business days prior to the disclosure.', creates a contradiction because the recipient can't breach the Law, because the action is forbidden by a contract.",
+        "location": "4.1",
+        "contradicted_location": "4.1",
+        "contradicted_text": "4.1 Recipient (i) shall not disclose Confidential Information, neither in whole nor in part, to any third party; (ii) shall only use the Confidential Information for the Purpose; and (iii) shall not, without the Discloser’s written consent, neither in whole nor in part, commerc ially exploit or use the Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed the Recipient to disclose Confidential Information if required by law, provided the Discloser was informed. The changed text removes this exception, creating a direct conflict. Now, the Recipient 'shall not disclose Confidential Information', even if legally obligated. This creates a contradiction because it's impossible for the recipient to both abide by the contract and the law, if the law requires the recipient to disclose confidential information. This directly contradicts the implicit understanding that the Recipient is not expected to break the Law. The changed text directly removes a legal protection that may create a conflict."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "4.2 Discloser warrants that it authorizes the Recipient to use the Confidential Information for the Purpose.",
+        "changed_text": "4.2 Discloser warrants that it authorizes the Recipient to use the Confidential Information.",
+        "explanation": "By removing 'for the Purpose' from section 4.2, the discloser authorizes the recipient to use the confidential information for whatever it wants. The contradiction arises with section 4.1 which establishes that the recipient should only use the confidential information for the established purpose",
+        "location": "4.2",
+        "contradicted_location": "4.1",
+        "contradicted_text": "4.1 Recipient (i) shall not disclose Confidential Information, neither in whole nor in part, to any third party; (ii) shall only use the Confidential Information for the Purpose; and (iii) shall not, without the Discloser’s written consent, neither in whole nor in part, commerc ially exploit or use the Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text of section 4.2 restricted the recipient's use of confidential information to 'the Purpose.' The changed text removes 'for the Purpose,' allowing the recipient to use the confidential information for any reason. This directly contradicts section 4.1, which explicitly states that the recipient 'shall only use the Confidential Information for the Purpose.' The removal of the phrase creates a clear and direct conflict between the two sections, as per the provided explanation."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "6.1 Neither party may assign or otherwise transfer its rights and obligations out of this agreement, neither in whole nor in part, without the other party’s prior written consent.",
+        "changed_text": "6.1 Neither party may assign or otherwise transfer its rights and obligations out of this agreement, neither in whole nor in part,",
+        "explanation": "By removing 'without the other party’s prior written consent' the contract has a conflict with its header, since both parties are signing the agreement. Therefore, the consent is being bypassed.",
+        "location": "6.1",
+        "contradicted_location": "CONFIDENTIALITY AGREEMENT",
+        "contradicted_text": "CONFIDENTIALITY AGREEMENT www.anton- paar.com Seite 4 von 4 Anton Paar GmbH _______________, ____________________ Graz, ____________________ _________________________________ (signature) Name: Title: _________________________________ (signature) Name: Title: _________________________________ (signature) Name: Title: _________________________________ (signa ture) Name: Title:",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that neither party may assign or transfer rights without the other party's written consent. The changed text removes the requirement for the other party's consent. The contradicted text shows the signatures of both parties involved in the agreement. By removing the need for consent, it contradicts the implicit agreement and signature of the other party."
+      }
+    ]
+  }
+]

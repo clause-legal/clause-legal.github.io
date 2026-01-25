@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "WebmdHealthCorp_20050908_S-1A_EX-10.7_1027007_EX-10.7_Content License Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "All amounts payable shall be due be due thirty (30) days after the receipt of WebMD's invoice.",
+        "changed_text": "All amounts payable shall be due be due sixty (60) days after the receipt of WebMD's invoice.",
+        "explanation": "This change introduces an in-text contradiction by altering the payment deadline from 30 days to 60 days after the invoice receipt. This directly contradicts the late payment terms, creating ambiguity about when late fees apply. The changed text in Section 4(a) Payment conflicts with the stated interest rate on late payments. The contract says 'Late payments are subject to an interest charge, at the lower rate of (i) one and one-half percent (1.5%) per month, or (ii) the maximum legal rate.' by expanding the payments from 30 days to 60 days. The text doesn't state if that extra month is with or without interest.",
+        "location": "4(a)",
+        "contradicted_location": "4(c)",
+        "contradicted_text": "(c) Late payments are subject to an interest charge, at the lower rate of (i) one and one-half percent (1.5%) per month, or (ii) the maximum legal rate.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text extends the payment deadline from 30 to 60 days. This directly contradicts the contradicted text, which specifies that late payments are subject to interest. The change introduces ambiguity regarding whether the interest-free period is also extended, or if late fees apply after the original 30-day period, creating an inconsistency in the contract."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Emdeon is hereby granted a non-exclusive and worldwide right to use WebMD's trademarks and logos (\"Marks\") for the purpose of identifying the origin of the Content during the term of this Agreement. These Marks may be used by Emdeon, in its sole discretion, in connection with the Content in the Software, and in any form, format, forum, media, medium, means or method by which the Content is delivered. Notwithstanding the foregoing, portions of the Software that contain Content shall include a WebMD Mark in appearance and format mutually agreed to by the parties.",
+        "changed_text": "Emdeon is hereby granted a non-exclusive and worldwide right to use WebMD's trademarks and logos (\"Marks\") for the purpose of identifying the origin of the Content during the term of this Agreement. These Marks may be used by Emdeon, in its sole discretion, in connection with the Content in the Software, and in any form, format, forum, media, medium, means or method by which the Content is delivered. Notwithstanding the foregoing, portions of the Software that contain Content shall not include a WebMD Mark unless express written permission is granted by WebMD in each specific instance.",
+        "explanation": "This change creates an in-text contradiction regarding the use of WebMD's trademarks. The original clause allows Emdeon to use the trademarks at its discretion, but the modified text restricts this use, requiring WebMD's express written permission for each instance. This contradicts Emdeon's right and introduces uncertainty in enforcing Emdeon's licensing right and the right to identify the origin of the Content.",
+        "location": "5(a)",
+        "contradicted_location": "5(a)",
+        "contradicted_text": "Emdeon is hereby granted a non-exclusive and worldwide right to use WebMD's trademarks and logos (\"Marks\") for the purpose of identifying the origin of the Content during the term of this Agreement. These Marks may be used by Emdeon, in its sole discretion, in connection with the Content in the Software, and in any form, format, forum, media, medium, means or method by which the Content is delivered. Notwithstanding the foregoing, portions of the Software that contain Content shall not include a WebMD Mark unless express written permission is granted by WebMD in each specific instance.",
+        "contradiction_exists": "YES",
+        "justification": "The original text grants Emdeon the right to use WebMD's trademarks at its discretion, while the changed text restricts this use, requiring WebMD's express written permission for each instance. This directly contradicts the previously granted right, creating a strong in-text contradiction as the changed text negates Emdeon's discretionary use outlined earlier in the document, as well as in the contradicted text. This directly breaks compatibility and makes enforcement unclear, fitting the definition of 'Inconsistencies - In Text Contradiction'."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Upon any expiration or termination of this Agreement, Emdeon shall have a reasonable period of time to remove the Content from the Software.",
+        "changed_text": "Upon any expiration or termination of this Agreement, Emdeon shall immediately remove the Content from the Software.",
+        "explanation": "This change introduces an in-text contradiction by changing the time frame Emdeon has to remove the Content from the Software after the termination. The original clause allowed Emdeon a 'reasonable period of time' to remove the content, while the modified text demands that Emdeon 'immediately' remove the content. This contradiction causes uncertainty on the term and termination agreement.",
+        "location": "3(c)",
+        "contradicted_location": "3(c)",
+        "contradicted_text": "All representations, warranties and indemnities shall survive the execution, delivery, suspension, expiration and/or termination of this Agreement or any provision hereof. Upon any expiration or termination of this Agreement, Emdeon shall immediately remove the Content from the Software.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text mandates 'immediate' removal of content, while the contradicted text, which is actually a duplicate of the changed text, includes clauses about representations, warranties, and indemnities surviving the termination. While the contradicted text repeats the 'immediate' removal requirement, the main contradiction lies in the implication that some obligations survive termination, potentially requiring access to the content after the 'immediate' removal, which could introduce a contradiction and be inconsistent with the terms that should be enforced. Thus, by changing 'reasonable period of time' to 'immediately', it creates an inconsistency regarding the accessibility and use of content post-termination, directly impacting enforcability."
+      }
+    ]
+  }
+]

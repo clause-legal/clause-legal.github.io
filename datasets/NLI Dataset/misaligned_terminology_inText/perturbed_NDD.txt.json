@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "NDD.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Applicant agrees moreover: • to use the Confidential I nformation solely for the purpose o f the RRM registration ; • to use all possible means to maintain this Confidential Information in strict confidence and at least those measures that it employs for the protection of its own confidential information, but in any event not less than a reasonabl e degree of care;",
+        "changed_text": "The Subscriber agrees moreover: • to use the Confidential I nformation solely for the purpose o f the RRM registration ; • to use all possible means to maintain this Confidential Information in strict confidence and at least those measures that it employs for the protection of its own confidential information, but in any event not less than a reasonabl e degree of care;",
+        "explanation": "The term 'Applicant' is replaced with 'Subscriber'. The 'Subscriber' is now responsible for using confidential information for the RRM registration, even though it's not defined if the subscriber is the applicant. The contradiction arises because later sections refer to 'Applicant's obligations,' so it will be confusing to decide who is responsible now.",
+        "location": "Paragraph 3",
+        "contradicted_location": "Paragraph 7",
+        "contradicted_text": "The Declaration shall bind and inure to the benefit of the Agency and Applicant and their successors and assigns.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Applicant' to 'Subscriber' introduces ambiguity. The contradicted text refers to 'Applicant', while the changed text makes the 'Subscriber' responsible for actions previously associated with the 'Applicant'. This creates a contradiction because it's unclear if the Subscriber and Applicant are the same entity, leading to uncertainty about who the 'Declaration' binds and benefits, and who has the obligations described in the contradicted text."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Applicant shall not us e for its own purposes, reverse engineer, disassemble, decompile or copy any software or other objects which embody the Confidential Information, nor transmit, directly or indirectl y, any Confidential Information.",
+        "changed_text": "The User shall not us e for its own purposes, reverse engineer, disassemble, decompile or copy any software or other objects which embody the Confidential Information, nor transmit, directly or indirectl y, any Confidential Information.",
+        "explanation": "Changing 'Applicant' to 'User'. Now, the 'User' is restricted from reverse engineering the confidential information. It is undefined whether the user is the applicant. Other parts of the documents refer to 'Applicant's obligation'. It is now unclear whether the user is the applicant.",
+        "location": "Paragraph 4",
+        "contradicted_location": "Paragraph 5",
+        "contradicted_text": "The Applicant 's obligations her eunder shall survive until all information in the Confidential Information hereunder becomes publicly known.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Applicant' to 'User' introduces ambiguity because the contradicted text refers to 'Applicant's obligations'. The perturbation explanation highlights that it's now unclear whether the 'User' and 'Applicant' are the same entity. This misalignment of terminology directly contradicts the section referring to 'Applicant's obligations' because it creates uncertainty about who is bound by those obligations. This fits the 'Misaligned Terminology - In Text Contradiction' definition where the contract uses multiple terms interchangeably without defining them, leading to conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Applicant hereby acknowledges that unauthorised disclosure or use of the Confidential Information could cause irreparable harm and significant injury, which may be difficult to ascertain. Accordingly, the Applicant agrees that the Agency shall have the right to seek and obtain immediate injunctive relief or an equivalent measure before the competent court , in addition to any other rights and remedies it may have.",
+        "changed_text": "The Party hereby acknowledges that unauthorised disclosure or use of the Confidential Information could cause irreparable harm and significant injury, which may be difficult to ascertain. Accordingly, the Applicant agrees that the Agency shall have the right to seek and obtain immediate injunctive relief or an equivalent measure before the competent court , in addition to any other rights and remedies it may have.",
+        "explanation": "Changing 'Applicant' to 'Party'. Now, 'The Party' acknowledges unauthorized disclosure, but 'the Applicant' agrees to injunctive relief. It is undefined whether the party is the applicant or whether they are the same. It creates confusion on who is responsible to do what.",
+        "location": "Paragraph 6",
+        "contradicted_location": "Paragraph 6",
+        "contradicted_text": "The Party hereby acknowledges that unauthorised disclosure or use of the Confidential Information could cause irreparable harm and significant injury, which may be difficult to ascertain. Accordingly, the Applicant agrees that the Agency shall have the right to seek and obtain immediate injunctive relief or an equivalent measure before the competent court , in addition to any other rights and remedies it may have.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Applicant' to 'Party' in the Changed Text, while the Contradicted Text retains both 'Party' and 'Applicant', introduces ambiguity regarding who is responsible for injunctive relief. The explanation highlights that it is unclear whether 'the Party' and 'the Applicant' are the same entity, thus causing confusion about obligations, aligning with the definition of 'Misaligned Terminology - In Text Contradiction'. The Contradicted Text uses both terms and in the Changed Text, 'Party' is mentioned but only 'Applicant' is mentioned to agree to injunctive relief. This creates a strong contradiction."
+      }
+    ]
+  }
+]

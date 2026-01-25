@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "NDA_ResConnect.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Either party agrees that it shall ensure that it and its associated companies and their respective officers and employees shall keep confidential, both during and after the duration of the agreement, all information which:",
+        "changed_text": "Either party agrees that it shall ensure that it and its associated companies and their respective officers and employees shall keep confidential, during the active duration of the agreement, all information which:",
+        "explanation": "By removing 'and after the duration of the agreement,' the text creates an in-text contradiction because the obligation of confidentiality now only applies while the agreement is active. This contradicts the original intention that confidentiality extends beyond the termination of the agreement in 2.3, which states that the confidentiality applies to information designated by the party as confidential.",
+        "location": "2.1",
+        "contradicted_location": "2.3",
+        "contradicted_text": "2.3 Consists of any other information of a confidential nature belonging to, or connected with, the other party and its activities and clients, and designated by such party as confidential;",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes 'and after the duration of the agreement' from the original confidentiality clause. This creates a direct contradiction with section 2.3, which explicitly states that confidential information includes information designated as confidential by a party, implying that this designation and the associated confidentiality obligations can extend beyond the active duration of the agreement. The removal of the post-agreement confidentiality obligation in the changed text directly conflicts with the stated intention and obligation in section 2.3, making it a strong in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Consists of any other information of a confidential nature belonging to, or connected with, the other party and its activities and clients, and designated by such party as confidential;",
+        "changed_text": "Consists of any other information of a confidential nature belonging to, or connected with, the other party and its activities and clients, whether or not designated by such party as confidential;",
+        "explanation": "The removal of the phrase 'designated by such party as confidential' creates a broad, ambiguous confidentiality obligation. This in-text contradiction conflicts with 2.4, which requires prior written permission for disclosure, because all information connected to the other party is now confidential, regardless of whether the party intended it to be secret. This creates uncertainty about what information requires prior approval for disclosure, potentially leading to disputes.",
+        "location": "2.3",
+        "contradicted_location": "2.4",
+        "contradicted_text": "2.4 And undertakes not to disclose any of such information to any third party without the prior written permission of the other party except as required by any applicable law or government regulation, and provided that each party may disclose the agreement on a confidential basis to its public accountants, attorneys and financial advisors and/or funders.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that information is confidential only if 'designated by such party as confidential.' The changed text removes this requirement, making all information connected to the other party confidential regardless of designation. This directly contradicts section 2.4, which requires 'prior written permission' to disclose 'such information.' Since 'such information' is now all information connected to the other party, the change creates uncertainty and conflict about which information requires permission for disclosure, creating a strong in-text contradiction as per the definition of 'Inconsistencies - In Text Contradiction'."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Any Business Partner shall maintain the material as confidential and shall not publish, disclose or distribute all or any portion of it (or any copies of it) to any other person or permit any other person access to it, save for employees, consultants or agents of the Business Partner for purposes specifically related to Mandarin’s use of the material.",
+        "changed_text": "Any Business Partner shall maintain the material as confidential and shall not publish, disclose or distribute all or any portion of it (or any copies of it) to any other person or permit any other person access to it, save for employees, consultants or agents of the Business Partner for purposes specifically related to the Business Partner's use of the material.",
+        "explanation": "Changing 'Mandarin's use of the material' to 'the Business Partner's use of the material' introduces an in-text contradiction and dramatically alters the scope of permitted use. This contradicts the purpose of the original text, which aimed to limit distribution and use to purposes benefiting Mandarin. Now, Business Partner can use the material freely for its purposes which contradicts the original section 4.1 regarding ResRequest connection service, where use should be for sole use of the Business Partner",
+        "location": "3.2",
+        "contradicted_location": "4.1",
+        "contradicted_text": "4. ResRequest connection service4.1 The Business Partner agrees that access to ResRequest information will be used for the sole use of the Business Partner and no auxiliary distribution is permitted, unless agreed upon by both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text restricted the Business Partner's use of the material to purposes related to Mandarin's use. The changed text broadens this to the Business Partner's own use. This directly contradicts section 4.1, which states ResRequest information will be used for the sole use of the Business Partner, introducing a contradiction because the original intent was to limit use to benefit Mandarin, while the modified text allows use benefiting the Business Partner, now creating a conflict in how the Business partner uses it."
+      }
+    ]
+  }
+]

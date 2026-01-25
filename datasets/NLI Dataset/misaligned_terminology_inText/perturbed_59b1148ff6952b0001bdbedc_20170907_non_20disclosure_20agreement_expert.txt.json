@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "59b1148ff6952b0001bdbedc_20170907_non%20disclosure%20agreement_expert.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Clientȋ means any customers or business partners of the Party;",
+        "changed_text": "Clientȋ means specifically named customers or business partners of the Party;",
+        "explanation": "The change from 'any customers or business partners' to 'specifically named customers or business partners' changes the scope of 'Client'. Now in Clause 3.4, it is uncertain as to what 'any' means in the original definition. This also creates an in-text contradiction, as 'Client' is now restricted to those specifically named, making the confidentiality obligations apply only to those named partners, and allowing the recipient to share information with unnamed clients. This creates uncertainty regarding the protection of confidential information for all clients.",
+        "location": "3.4",
+        "contradicted_location": "3.4",
+        "contradicted_text": "ȊClientȋ means specifically named customers or business partners of the Party;",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines 'Client' as 'any customers or business partners'. The changed text narrows this definition to 'specifically named customers or business partners'. The contradicted text retains the narrowed definition. The modification to narrow the definition creates a contradiction because if the initial clause in the contract defines Client as 'any' but is later restricted to 'specifically named' (as also reflected in the contradicted section) there becomes in-text uncertainty in determining the proper definition of 'Client' throughout the contract."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Parties intend to engage in a Project/Projects where the Discloser will facilitate consultation(s) (in-person or remote, e.g. via telephone conference) between its Client and the Recipient (ȊSubject-matter expert consultationsȋ).",
+        "changed_text": "The Parties intend to engage in a Venture where the Discloser will facilitate consultation(s) (in-person or remote, e.g. via telephone conference) between its Client and the Recipient (ȊSubject-matter expert consultationsȋ).",
+        "explanation": "By changing 'Project/Projects' to 'Venture', without defining 'Venture', introduces ambiguity. The text still refers to 'Project' later in the same clause, creating an in-text contradiction. It is now unclear whether the obligations apply to ventures or projects or just the Project defined in 3.7, and how 'Venture' relates to 'Project', causing uncertainty regarding the scope of the agreement.",
+        "location": "4.1",
+        "contradicted_location": "4.1",
+        "contradicted_text": "The Parties intend to engage in a Venture where the Discloser will facilitate consultation(s) (in-person or remote, e.g. via telephone conference) between its Client and the Recipient (ȊSubject-matter expert consultationsȋ). The Parties will as part of the Project disclose to each other certain non-public Confidential Information, subject to the terms and conditions set out in this Agreement, which both Parties hereby accept.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Project/Projects' with 'Venture' while the contradicted text contains both 'Venture' and 'Project'. The perturbation explanation clarifies that this creates ambiguity because 'Venture' is not defined and the text still refers to 'Project', leading to uncertainty about the scope of the agreement. The contradicted text now contains both terms, and the changed text causes an in-text contradiction as it is unclear if the obligations apply to ventures or projects. This aligns with the definition of 'Misaligned Terminology - In Text Contradiction' because the contract uses multiple terms interchangeably without defining them, leading to conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Upon Discloserȇs request, Recipient shall promptly, and in any case within five (5) days from such request, return all documentation and other materials containing any Confidential Information of Discloser without retaining any copies thereof.",
+        "changed_text": "Upon Discloserȇs request, Recipient shall promptly, and in any case within five (5) days from such request, return all documentation and other materials containing any Confidential Data of Discloser without retaining any copies thereof.",
+        "explanation": "Changing 'Confidential Information' to 'Confidential Data' in section 8.1.1 while 'Confidential Information' remains the defined term in section 3.5, this creates an in-text contradiction. The term Confidential Data is not defined, so the requirement to return the documentation and material becomes ambiguous.",
+        "location": "8.1.1",
+        "contradicted_location": "8.1.1",
+        "contradicted_text": "Upon Discloserȇs request, Recipient shall promptly, and in any case within five (5) days from such request, return all documentation and other materials containing any Confidential Data of Discloser without retaining any copies thereof. Alternatively, at Discloserȇs option and request, Recipient shall destroy and/or erase all such materials and documentation and shall provide a written certification that all such materials and documentation have been destroyed and/or erased.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Confidential Information' with 'Confidential Data'. The Perturbation Explanation states that 'Confidential Information' is the defined term (in section 3.5), but 'Confidential Data' is not defined. Thus, the changed text makes the obligation to return documentation and materials ambiguous because it is unclear what 'Confidential Data' encompasses, which is a direct contradiction to the contradicted text which requires all 'Confidential Data' be returned."
+      }
+    ]
+  }
+]

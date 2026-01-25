@@ -1,0 +1,95 @@
+[
+  {
+    "file_name": "Inaturals_NDA.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "The obligations of confidentiality and non -use shall be in effect for a period of three (3) year following disclosure, and shall be binding upon the parties\u2019 heirs, successors in interest, or assigns.",
+        "changed_text": "The obligations of confidentiality and non-use shall be in effect for a period of one (1) year following disclosure, and shall be binding upon the parties\u2019 heirs, successors in interest, or assigns.",
+        "explanation": "Reducing the confidentiality period to one year may be insufficient to protect trade secrets, potentially violating French law regarding trade secret protection.",
+        "contradicted_law": "France Code of Commerce Article L151-1",
+        "law_citation": "France Code of Commerce Article L151-1",
+        "law_url1": [
+          "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044020586"
+        ],
+        "law_url2": [
+          "https://www.wipo.int/wipolex/fr/text/579941"
+        ],
+        "law_explanation": "French law protects trade secrets and commercially sensitive information, often implicitly requiring a period of protection beyond a single year to be effective. Setting such a short duration could render the protection meaningless, especially if the trade secret is used or shared within that period, and thus potentially violating French law on trade secret misappropriation. Article L151-1 is the foundation for trade secret protection.",
+        "location": "4",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The original contract specifies a three-year confidentiality period, while the changed text reduces this to one year. The Perturbation Explanation and Law Explanation state that a one-year period might be insufficient to protect trade secrets under French law, potentially violating trade secret protection laws, particularly Article L151-1. While specific snippets from Article L151-1 are not provided, the Law Explanation asserts that French law implicitly requires a more extended protection period for trade secrets to be effective, and a shorter duration could render the protection meaningless, thus creating a legal contradiction."
+      },
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "This Agreement shal l be governed by French Law. Any dispute arising out of this Agreement shall be exclusively submitted to the Courts of Paris, France.",
+        "changed_text": "This Agreement shall be governed by French Law. Any dispute arising out of this Agreement shall be exclusively submitted to arbitration, with the arbitrator chosen solely by INaturals.",
+        "explanation": "Specifying that INaturals solely chooses the arbitrator could violate principles of fairness and impartiality required under French arbitration law.",
+        "contradicted_law": "French Code of Civil Procedure, Article 1452",
+        "law_citation": "French Code of Civil Procedure, Article 1452",
+        "law_url1": [
+          "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006475891"
+        ],
+        "law_url2": [
+          "https://www.trans-lex.org/601452/_/french-code-of-civil-procedure-article-1452-appointment-of-arbitrator-by-the-court/"
+        ],
+        "law_explanation": "French Code of Civil Procedure, Article 1452, implies that the process of appointing an arbitrator should be fair and impartial. Granting one party the sole right to choose the arbitrator raises concerns about bias and could render the arbitration clause unenforceable under French law.",
+        "location": "9",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "Trans-Lex.org This page uses so called \"cookies\" to improve its service (i.e. \"tracking\"). Learn more and opt out of tracking I agree Principles 1671 Bibliography 1035 Materials 86 Archive 66 History & Modern Evolution of Transnational Commercial Law The requested Document is not available. How to search - Contact - Team - Trustees - Disclaimer / Legal information / Privacy - Twitter - Facebook A project of CENTRAL , University of Cologne.",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The original contract specified disputes would be submitted to the Courts of Paris, France. The changed text mandates arbitration with an arbitrator solely chosen by INaturals. The Law Explanation states this could violate principles of fairness and impartiality under French law (specifically, French Code of Civil Procedure, Article 1452). The Perturbation Explanation reinforces this, saying this sole arbitrator selection could violate fairness principles required under French arbitration law. The scraped snippets are not directly relevant to assessing this contradiction. This falls under 'Inconsistencies Legal Contradiction' because the changed text likely violates federal or state law, making the contractual terms unenforceable or illegal."
+      },
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "Upon request, each party shall promptly return all documents or other tangible property containing Confidential Information furnished by the other or shall destroy any Confidential Information in tangible form in its possession.",
+        "changed_text": "Upon request, each party may, at its sole discretion, return all documents or other tangible property containing Confidential Information furnished by the other or may destroy any Confidential Information in tangible form in its possession.",
+        "explanation": "Allowing parties the discretion to not return or destroy confidential information conflicts with the obligation to protect and safeguard such information under French trade secret laws.",
+        "contradicted_law": "France Code of Commerce Article L151-4",
+        "law_citation": "France Code of Commerce Article L151-4",
+        "law_url1": [
+          "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044020604"
+        ],
+        "law_url2": [
+          "https://www.wipo.int/wipolex/fr/text/579941"
+        ],
+        "law_explanation": "French Code of Commerce Article L151-4 specifies legal actions against acts of trade secret misappropriation. If a party fails to return/destroy confidential information at the request of the other party, and instead uses it, this behaviour would almost certainly violate article L151-4.",
+        "location": "4",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates the return or destruction of confidential information upon request. The changed text introduces discretion, allowing a party to choose whether or not to comply with the request. The Perturbation Explanation states that this conflicts with obligations to protect confidential information under French trade secret laws. The Law Explanation states that this behavior could violate article L151-4 of the French Code of Commerce, which specifies legal actions against acts of trade secret misappropriation. Because the changed text makes a previously mandatory action optional, creating the possibility of trade secret misappropriation, a contradiction exists."
+      },
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "This Agreement may not be assigned by either party without the advance written permission of the other party.",
+        "changed_text": "This Agreement may be freely assigned by INaturals to any of its affiliates without the Customer's consent. The Customer may not assign this agreement under any circumstances.",
+        "explanation": "Creating unequal assignment rights favoring one party and completely restricting the other could be deemed an abusive clause under French law, especially in the context of commercial contracts between businesses of unequal bargaining power.",
+        "contradicted_law": "French Commercial Code, Article L442-1",
+        "law_citation": "French Commercial Code, Article L442-1",
+        "law_url1": [
+          "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037930474/2019-01-01"
+        ],
+        "law_url2": [
+          "https://www.trans-lex.org/690442/_/french-commercial-code-article-l442-1-old-article-l442-6/"
+        ],
+        "law_explanation": "French Commercial Code Article L442-1 addresses unfair commercial practices, including imposing imbalanced obligations. Restricting the Customer from assigning the agreement while allowing INaturals free assignment may constitute a significant imbalance in rights and obligations, potentially violating this article, especially if the Customer is a smaller entity with less negotiation power.",
+        "location": "10",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "Trans-Lex.org This page uses so called \"cookies\" to improve its service (i.e. \"tracking\"). Learn more and opt out of tracking I agree Principles 1672 Bibliography 1035 Materials 86 Archive 66 History & Modern Evolution of Transnational Commercial Law The requested Document is not available. How to search - Contact - Team - Trustees - Disclaimer / Legal information / Privacy - Twitter - Facebook A project of CENTRAL , University of Cologne.",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The changed text creates a significant imbalance in contractual rights by allowing INaturals to freely assign the agreement while completely restricting the Customer from doing so. This contradicts the principle of fair commercial practices, particularly Article L442-1 of the French Commercial Code, which addresses unfair commercial practices and imposing imbalanced obligations. The Law Explanation states that restricting the Customer's assignment rights while granting INaturals free assignment may constitute a significant imbalance, potentially violating this article. The original text provided balanced assignment rights, which was modified, thus creating a contradiction. While Scraped Law Snippet 1 is 'None' and Scraped Law Snippet 2 is unavailable, the Law Explanation clearly references a specific article (L442-1) related to unfair commercial practices, indicating a potential legal issue with the modification."
+      }
+    ]
+  }
+]

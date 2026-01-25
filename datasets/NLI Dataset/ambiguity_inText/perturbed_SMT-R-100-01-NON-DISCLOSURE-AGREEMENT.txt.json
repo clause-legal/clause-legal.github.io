@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "SMT-R-100-01-NON-DISCLOSURE-AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "When the laboratory is required by law or authorized by contractual arrangements to release confidential information, the customer shall, unless prohibited by law, be notified of the information provided BEFORE information released.",
+        "changed_text": "When the laboratory is required by law to release confidential information, the customer shall, unless prohibited by law, be notified of the information provided BEFORE information released. The laboratory is not required to notify the customer, when authorized by contractual arrangements to release confidential information.",
+        "explanation": "This introduces a contradiction about the notification process. Originally, the customer was notified before releasing information due to legal or contractual requirements. The modified text removes the notification requirement for contractual arrangements. The contract initially stated the customer *shall* be notified no matter what. This now opens a legal can of worms and introduces confusion on the matter.",
+        "location": "3",
+        "contradicted_location": "2",
+        "contradicted_text": "Except for information that the customer makes publicly available, or when agreed be tween SMT LABS PTY LTD and the customer all other information is considered proprietary information and shall be regarded as confidential.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates notification to the customer before releasing confidential information, whether required by law or authorized by contract. The changed text eliminates the notification requirement when authorization stems from contractual arrangements. This directly contradicts the contradicted text, which states that all information, except what the customer makes public or is agreed between both parties, is confidential, and shall be regarded as confidential. This previously applied to all confidential information, but the change now creates an exception for contractual releases and does not require notification, leading to a contradiction. The change creates ambiguity about what the term confidential actually means based on the release trigger."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "All service providers (including SANAS) have signed a Non -disclosure Agreement/ Confidentiality Agreement as part of our contractual agreement.",
+        "changed_text": "All service providers (excluding SANAS) have signed a Non -disclosure Agreement/ Confidentiality Agreement as part of our contractual agreement.",
+        "explanation": "The modified text contradicts the original by stating that all service providers *excluding* SANAS have signed an NDA/Confidentiality Agreement, while the previous text states *including* SANAS has signed. This is creating a material contradiction, as it will be difficult to discern, whether or not they've signed, since there are statements that contradict each other. If SANAS hasn't signed it, this means, that they are not kept to the same standards as the customer and the other service providers.",
+        "location": "5",
+        "contradicted_location": "1",
+        "contradicted_text": "SMT LABS PTY LTD shall be responsible, through legally enforceable commitments, for the management of all information obtained or created during the performance of laboratory activities.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text explicitly excludes SANAS from the NDA/Confidentiality Agreement, whereas the original text included them. This directly contradicts the general responsibility for information management outlined in the 'Contradicted Text' section. If SANAS is not bound by the same confidentiality agreements as other service providers, it creates a direct conflict with the requirement that SMT LABS PTY LTD be responsible for managing all information obtained or created during lab activities 'through legally enforceable commitments'. The exclusion undermines the enforceability regarding SANAS, creating a strong in-text contradiction according to the 'Ambiguities – In Text Contradiction' definition."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Personnel, including any committee members, contractors, personnel of external bodies, or individuals acting on the laboratory's behalf, sh all keep confidential all information obtained or created during the performance of laboratory activities, except as required by law.",
+        "changed_text": "Personnel, including any committee members, contractors, personnel of external bodies, or individuals acting on the laboratory's behalf, should endeavor to keep confidential all information obtained or created during the performance of laboratory activities, except as required by law.",
+        "explanation": "Changing 'shall keep confidential' to 'should endeavor to keep confidential' weakens the confidentiality obligation, transforming it from a mandatory requirement to a suggestion. This contradiction appears with the first section, where SMT LABS PTY LTD *shall* be responsible for the management of all information obtained or created during the performance of laboratory activities, therefore meaning their employees *must* maintain that confidentiality.",
+        "location": "4",
+        "contradicted_location": "1",
+        "contradicted_text": "SMT LABS PTY LTD shall be responsible, through legally enforceable commitments, for the management of all information obtained or created during the performance of laboratory activities.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that personnel 'shall keep confidential' information, creating a mandatory obligation. The changed text weakens this obligation to 'should endeavor to keep confidential,' making it a suggestion. The contradicted text states that SMT LABS PTY LTD 'shall be responsible, through legally enforceable commitments, for the management of all information.' Since the change transforms a mandatory requirement into a suggestion, it contradicts the enforceable commitment required by SMT LABS PTY LTD, creating a direct conflict."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "SMT LABS PTY LTD operates a laboratory management system in compliance with ISO/IEC 17025 and requirements as set out in the South African National Accreditation System (SANAS) policies and procedures.",
+        "changed_text": "SMT LABS PTY LTD operates a laboratory management system that aims to comply with ISO/IEC 17025 and requirements as set out in the South African National Accreditation System (SANAS) policies and procedures.",
+        "explanation": "The change from 'in compliance with' to 'that aims to comply with' introduces a critical ambiguity. The original statement asserts an actual state of compliance, implying adherence to specific standards and procedures. This change creates a contradiction in the contract, since it does not mean, that they are actually in compliance. It means that they *wish* to be, and that it can be up to interpretation.",
+        "location": "Intro",
+        "contradicted_location": "5",
+        "contradicted_text": "As part of the SANAS accreditation arrangement and Internal audit policy, SMT LABS PTY LTD will be assessed and audited on an ongoing basis to ensure continuous compliance to ISO/IEC 17025 and SANAS policies and procedures. All service providers (including SANAS) have signed a Non -disclosure Agreement/ Confidentiality Agreement as part of our contractual agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated SMT LABS PTY LTD operates a laboratory management system 'in compliance with' ISO/IEC 17025 and SANAS policies. The changed text modifies this to 'that aims to comply with,' which introduces ambiguity about their actual compliance status. This contradicts the 'Contradicted Text' which states that SMT LABS PTY LTD 'will be assessed and audited on an ongoing basis to ensure continuous compliance to ISO/IEC 17025 and SANAS policies and procedures.' The original statement implies a current state of compliance that is continuously ensured, whereas the changed statement only expresses an aspiration for compliance. This introduces a direct contradiction and falls under the definition of 'Ambiguities – In Text Contradiction' because it makes the enforcement of continuous compliance unclear."
+      }
+    ]
+  }
+]

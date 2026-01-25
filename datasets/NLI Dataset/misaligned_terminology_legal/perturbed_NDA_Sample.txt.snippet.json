@@ -1,0 +1,95 @@
+[
+  {
+    "file_name": "NDA_Sample.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - Legal Contradiction",
+        "original_text": "For purposes of this Agreement, \"Confidential Information\" shall include all information or material that has or could have commercial value or other utility in the business in which Disclosing Party is engaged.",
+        "changed_text": "For purposes of this Agreement, \"Confidential Information\" shall include only information explicitly marked as 'Confidential' by the Disclosing Party, regardless of its potential commercial value.",
+        "explanation": "This change narrows the definition of 'Confidential Information' to only explicitly marked information, conflicting with the broader legal understanding of trade secrets that includes commercially valuable information even if unmarked. This introduces uncertainty in enforcement because unmarked trade secrets would no longer be protected.",
+        "contradicted_law": "Uniform Trade Secrets Act (UTSA)",
+        "law_citation": "UTSA \u00a7 1(4)",
+        "law_url1": [
+          "https://www.law.cornell.edu/uniform/vol14/section1"
+        ],
+        "law_url2": [
+          "https://www.uniformlaws.org/committees/community-home?communitykey=b15a3c00-326f-42c2-a1a1-d708b2e04f68"
+        ],
+        "law_explanation": "The UTSA defines a trade secret as information that derives independent economic value from not being generally known or readily ascertainable, and is subject to reasonable efforts to maintain its secrecy. The modified text contradicts this by requiring explicit marking, regardless of the information's inherent value or secrecy efforts.",
+        "location": "Section 1",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "Community Home - Uniform Law Commission Skip to main content (Press Enter). Sign in Skip auxiliary navigation (Press Enter). Follow ULC Schedule of Events Better Laws. Stronger States. Skip main navigation (Press Enter). Community Home Library Contact Us (312) 450-6600 info@uniformlaws.org Uniform Law Commission 111 N. Wabash Avenue, Suite 1010 Chicago, Illinois 60602 Uniform Law Commission The Uniform Law Commission (ULC, also known as the National Conference of Commissioners on Uniform State Laws), established in 1892, provides states with non-partisan, well-conceived and well-drafted legislation that brings clarity and stability to critical areas of state statutory law. Acts Overview Current Acts Uniform Commercial Code Projects Overview Current Committees Meetings and Events Annual Meeting 2025 Committee Meetings Meeting Calendar Request to Schedule a Web Meeting Grant Application News and Publications News Publications Reprint Request Search Documents Videos Webinar Series Legislation Legislative Activity About ULC About Us Leadership Delegations Staff FAQs Standing Committees Editorial Boards Constitution Policies Spotlight ULC Careers Copyright 2024 Connect. All rights reserved. Privacy Policy | Terms of Use | Accessibility | Contact Us | \u00a9 2025 The National Conference of Commissioners on Uniform State Laws. All Rights Reserved. Powered by Higher Logic",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a contradiction by narrowing the definition of 'Confidential Information' to only explicitly marked information, regardless of its potential commercial value, while the LLM-generated law explanation states that the UTSA defines a trade secret as information that derives independent economic value from not being generally known and is subject to reasonable efforts to maintain its secrecy. The scraped law snippets do not directly support or refute this contradiction, but the LLM Law Explanation, when combined with the Perturbation Explanation and the original/changed text, makes it clear that the changed text creates a legal contradiction by not protecting trade secrets that are unmarked but still commercially valuable and subject to secrecy efforts. Therefore, the 'Misaligned Terminology - Legal Contradiction' definition is satisfied because the contractual language deviates from the legally recognized definition of a trade secret."
+      },
+      {
+        "type": "Misaligned Terminology - Legal Contradiction",
+        "original_text": "Receiving Party shall carefully restrict access to Confidential Information to employees, contractors and third parties as is reasonably required and shall require those persons to sign nondisclosure restrictions at least as protective as those in this Agreement.",
+        "changed_text": "Receiving Party shall allow access to Confidential Information to employees, contractors, and third parties at its sole discretion and is encouraged, but not required, to have them sign nondisclosure agreements.",
+        "explanation": "This change makes the protection of confidential information discretionary, significantly weakening the confidentiality obligations. It contradicts the reasonable measures typically required to protect trade secrets under trade secret law.",
+        "contradicted_law": "Uniform Trade Secrets Act (UTSA)",
+        "law_citation": "UTSA \u00a7 1(4)(ii)",
+        "law_url1": [
+          "https://www.law.cornell.edu/wex/uniform_trade_secrets_act_(utsa)"
+        ],
+        "law_url2": [
+          "https://www.uniformlaws.org/committees/community-home?communitykey=6b9c454c-809b-4b56-8e08-62a58a50f32b"
+        ],
+        "law_explanation": "The UTSA requires reasonable efforts to maintain the secrecy of trade secrets. The modified text eliminates any mandatory requirement to restrict access or have third parties sign NDAs, directly contradicting the 'reasonable efforts' requirement.",
+        "location": "Section 3",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "Community Home - Uniform Law Commission Skip to main content (Press Enter). Sign in Skip auxiliary navigation (Press Enter). Follow ULC Schedule of Events Better Laws. Stronger States. Skip main navigation (Press Enter). Community Home Library Contact Us (312) 450-6600 info@uniformlaws.org Uniform Law Commission 111 N. Wabash Avenue, Suite 1010 Chicago, Illinois 60602 Uniform Law Commission The Uniform Law Commission (ULC, also known as the National Conference of Commissioners on Uniform State Laws), established in 1892, provides states with non-partisan, well-conceived and well-drafted legislation that brings clarity and stability to critical areas of state statutory law. Acts Overview Current Acts Uniform Commercial Code Projects Overview Current Committees Meetings and Events Annual Meeting 2025 Committee Meetings Meeting Calendar Request to Schedule a Web Meeting Grant Application News and Publications News Publications Reprint Request Search Documents Videos Webinar Series Legislation Legislative Activity About ULC About Us Leadership Delegations Staff FAQs Standing Committees Editorial Boards Constitution Policies Spotlight ULC Careers Copyright 2024 Connect. All rights reserved. Privacy Policy | Terms of Use | Accessibility | Contact Us | \u00a9 2025 The National Conference of Commissioners on Uniform State Laws. All Rights Reserved. Powered by Higher Logic",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates the Receiving Party to 'carefully restrict access' and 'require' NDAs, aligning with reasonable efforts to protect confidential information. The changed text replaces this with discretionary access ('allow access...at its sole discretion') and encourages but does not require NDAs. This contradicts the standard of 'reasonable efforts' typically required under trade secret law, as highlighted in the Perturbation Explanation and Law Explanation. The changed text significantly weakens the confidentiality obligations, deviating from the expected legal protection for trade secrets."
+      },
+      {
+        "type": "Misaligned Terminology - Legal Contradiction",
+        "original_text": "Receiving Party shall return to Disclosing Party any and all records, notes, and other written, printed, or tangible materials in its possession pertaining to Confidential Information immediately if Disclosing Party requests it in writing.",
+        "changed_text": "Receiving Party shall return to Disclosing Party any and all records, notes, and other written, printed, or tangible materials in its possession pertaining to Confidential Information within 90 days of the Disclosing Party's written request.",
+        "explanation": "This change introduces a 90-day delay for the return of confidential information, which is unreasonable and contradicts the 'immediate' return requirement. This can severely damage the Disclosing Party, potentially losing a case for trade secret appropriation.",
+        "contradicted_law": "Varies by state law, but generally implied in trade secret misappropriation cases",
+        "law_citation": "Example: CA Civil Code \u00a7 3426.2",
+        "law_url1": [
+          "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=3426.2"
+        ],
+        "law_url2": [
+          "https://law.justia.com/codes/california/2022/code-civ/section-3426.2/"
+        ],
+        "law_explanation": "While there is no direct statute mandating immediate return, trade secret law relies on preventing further dissemination and use of misappropriated information. Delaying the return allows for continued potential use and disclosure, thus conflicting with the intent of trade secret protection which assumes the need to take action swiftly when the party is notified that the data is requested.",
+        "location": "Section 3",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": "California Code, CIV 3426.2 skip to content home accessibility FAQ feedback sitemap login x Quick Search: Bill Number Bill Keyword Home Bill Information California Law Publications Other Resources My Subscriptions My Favorites California Law >> >> Code Section Code Section Code: Select Code CONS BPC CIV CCP COM CORP EDC ELEC EVID FAM FIN FGC FAC GOV HNC HSC INS LAB MVC PEN PROB PCC PRC PUC RTC SHC UIC VEH WAT WIC Article: Section: Code: Select Code All BPC CIV CCP COM CORP EDC ELEC EVID FAM FIN FGC FAC GOV HNC HSC INS LAB MVC PEN PROB PCC PRC PUC RTC SHC UIC VEH WAT WIC Section: Keyword(s): Code Search Text Search Up^ << Previous Next >> cross-reference chaptered bills PDF | Add To My Favorites Search Phrase: Code Text Civil Code - CIV DIVISION 4. GENERAL PROVISIONS [3274 - 9566] ( Heading of Division 4 amended by Stats. 1988, Ch. 160, Sec. 16. ) PART 1. RELIEF [3274 - 3428] ( Part 1 enacted 1872. ) TITLE 5. UNIFORM TRADE SECRETS ACT [3426 - 3426.11] ( Title 5 added by Stats. 1984, Ch. 1724, Sec. 1. ) 3426.2. (a) Actual or threatened misappropriation may be enjoined. Upon application to the court, an injunction shall be terminated when the trade secret has ceased to exist, but the injunction may be continued for an additional period of time in order to eliminate commercial advantage that otherwise would be derived from the misappropriation. (b) If the court determines that it would be unreasonable to prohibit future use, an injunction may condition future use upon payment of a reasonable royalty for no longer than the period of time the use could have been prohibited. (c) In appropriate circumstances, affirmative acts to protect a trade secret may be compelled by court order. (Added by Stats. 1984, Ch. 1724, Sec. 1.)",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The change from 'immediately' to 'within 90 days' for returning confidential information contradicts the purpose of trade secret law, which aims to prevent ongoing misappropriation. While Scraped Law Snippet 1 (CIV 3426.2) doesn't explicitly mandate 'immediate' action, it allows for injunctions against 'actual or threatened misappropriation' and 'affirmative acts to protect a trade secret may be compelled by court order'. A 90-day delay allows for continued potential use and disclosure, undermining the ability to prevent misappropriation and protect the trade secret effectively. The Perturbation Explanation highlights the potential for severe damage and loss of a trade secret appropriation case due to this delay, reinforcing the contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - Legal Contradiction",
+        "original_text": "The nondisclosure provisions of this Agreement shall survive the termination of this Agreement and Receiving Party's duty to hold Confidential Information in confidence shall remain in effect until the Confidential Information no longer qualifies as a trade secret or until Disclosing Party sends Receiving Party written notice releasing Receiving Party from this Agreement, whichever occurs first.",
+        "changed_text": "The nondisclosure provisions of this Agreement shall terminate automatically six months after the termination of this Agreement, regardless of whether the Confidential Information remains a trade secret.",
+        "explanation": "This modification imposes a fixed six-month term limit on the NDA, which contradicts the potential for trade secrets to remain protected for a much longer duration. It undermines the ongoing protection of confidential information that rightfully qualifies as trade secrets.",
+        "contradicted_law": "Uniform Trade Secrets Act (UTSA)",
+        "law_citation": "UTSA \u00a7 2",
+        "law_url1": [
+          "https://www.law.cornell.edu/wex/uniform_trade_secrets_act_utsa"
+        ],
+        "law_url2": [
+          "https://uniformlaws.org/committees/community-home?communitykey=1db30869-c874-47a8-bc4d-2f853736f2e9"
+        ],
+        "law_explanation": "Under the UTSA, misappropriation of a trade secret can lead to injunctions preventing further use or disclosure for as long as the trade secret remains valuable and protectable. The modified text artificially limits the duration of protection to six months, regardless of the continued existence of the trade secret, directly conflicting with the potential duration of protection under the UTSA.",
+        "location": "Section 4",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "Community Home - Uniform Law Commission Skip to main content (Press Enter). Sign in Skip auxiliary navigation (Press Enter). Follow ULC Schedule of Events Better Laws. Stronger States. Skip main navigation (Press Enter). Community Home Library Contact Us (312) 450-6600 info@uniformlaws.org Uniform Law Commission 111 N. Wabash Avenue, Suite 1010 Chicago, Illinois 60602 Uniform Law Commission The Uniform Law Commission (ULC, also known as the National Conference of Commissioners on Uniform State Laws), established in 1892, provides states with non-partisan, well-conceived and well-drafted legislation that brings clarity and stability to critical areas of state statutory law. Acts Overview Current Acts Uniform Commercial Code Projects Overview Current Committees Meetings and Events Annual Meeting 2025 Committee Meetings Meeting Calendar Request to Schedule a Web Meeting Grant Application News and Publications News Publications Reprint Request Search Documents Videos Webinar Series Legislation Legislative Activity About ULC About Us Leadership Delegations Staff FAQs Standing Committees Editorial Boards Constitution Policies Spotlight ULC Careers Copyright 2024 Connect. All rights reserved. Privacy Policy | Terms of Use | Accessibility | Contact Us | \u00a9 2025 The National Conference of Commissioners on Uniform State Laws. All Rights Reserved. Powered by Higher Logic",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The modified text introduces a fixed six-month term limit on the NDA, regardless of whether the Confidential Information remains a trade secret, whereas the UTSA, as explained by the LLM, allows for injunctions preventing further use or disclosure for as long as the trade secret remains valuable and protectable. This limitation directly conflicts with the potential duration of protection under the UTSA, creating a legal contradiction. Scraped Law Snippet 1 is missing, but the LLM-provided explanation, based on UTSA principles, highlights the contradiction."
+      }
+    ]
+  }
+]

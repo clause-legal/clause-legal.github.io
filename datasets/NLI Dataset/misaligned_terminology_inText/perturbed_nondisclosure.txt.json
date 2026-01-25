@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "nondisclosure.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The receiving party agrees it will not allow any of its employees, agents, representatives, affiliates or any other person(s) to disclose or use any of the information of the furnishing party, except in accordance with the terms of the Agreement.",
+        "changed_text": "The receiving party agrees it will not allow any of its staff, contractors, representatives, affiliates or any other person(s) to disclose or use any of the information of the furnishing party, except in accordance with the terms of the Agreement.",
+        "explanation": "Changing 'employees, agents' to 'staff, contractors' creates a potential contradiction because 'staff' and 'contractors' are less formally defined terms than 'employees' and 'agents', especially concerning liability. If the receiving party uses the data incorrectly, there is ambiguity about their liability.",
+        "location": "1c",
+        "contradicted_location": "1d",
+        "contradicted_text": "d) If the receiving party or any of its employees, agents, representatives, affiliates or any other person(s) shall attempt to use or dispose of any of the information of the furnishing party in a manner contrary to the terms of this Agreement, the furnishing party shall have the right, in addition to such other remedies, which may be available to it, to injunctive relief enjoining such acts or attempts, it being acknowledged that legal remedies are inadequate.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'employees, agents' to 'staff, contractors' introduces a misalignment in terminology. The original text and contradicted text both use the phrase 'employees, agents, representatives, affiliates or any other person(s)', indicating a specific and potentially legally defined scope of individuals. By changing this to 'staff, contractors, representatives, affiliates or any other person(s)', the modified text uses 'staff' and 'contractors,' which are less formally defined terms. This creates ambiguity regarding liability if 'staff' or 'contractors' misuse the data, contradicting the contradicted text's clear assignment of responsibility to 'employees, agents, representatives, affiliates or any other person(s).' The explanation further clarifies that 'staff' and 'contractors' introduce ambiguity about liability, creating a strong in-text contradiction concerning who the receiving party is liable for."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The information is being furnished and/or disclosed for the sole purpose of examining the feasibility of a contract or a business relationship between the individual(s) identified above and the information is not to be disseminated by the receiving party to any other individual or entity and is not to be used by the receiving party for any other purpose",
+        "changed_text": "The data is being furnished and/or disclosed for the sole purpose of exploring a partnership or a potential collaboration between the parties identified above and the data is not to be disseminated by the receiving party to any other individual or organization and is not to be used by the receiving party for any other purpose",
+        "explanation": "Changing 'information' to 'data', 'contract or business relationship' to 'partnership or potential collaboration', and 'individual(s) or entity' to 'parties or organization' creates uncertainty. The original NDA used 'information' consistently, this change creates potential conflicts of interpretation later in the document, especially in legal enforcement contexts. The main contradiction is how legally binding that text section can be.",
+        "location": "1e",
+        "contradicted_location": "1a",
+        "contradicted_text": "a) The information shall be deemed the exclusive property of the furnishing party. The information and all copies thereof shall be returned to the furnishing party upon the furnishing party’s request. The receiving party will not use the information for any purpose other than in accordance with the terms of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'information' to 'data', 'contract or business relationship' to 'partnership or potential collaboration', and 'individual(s) or entity' to 'parties or organization' introduces ambiguity. The original NDA consistently used 'information,' and changing this creates potential conflicts of interpretation, particularly with the contradicted text, which states, 'The information shall be deemed the exclusive property of the furnishing party.' By using 'data' instead of 'information' and by changing the description of relationship to 'partnership or potential collaboration', the modification weakens the legally binding nature of the section on exclusive ownership, creating a strong in-text contradiction. It is unclear if 'data' is the same as 'information' in the agreement."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "All information shall be destroyed or returned to the furnishing party whenever any of the Parties so request in writing or upon termination of this Agreement for any reason. Any Party who disclosed information to another party or entity (e.g., employees, representatives, affiliates or independent contractors) must assure that all such parties or entities return or destroy said information. If any of the Parties so requests in written or upon the termination of this Agreement for any reason.",
+        "changed_text": "All data shall be destroyed or returned to the furnishing party whenever any of the Signatories so request in writing or upon termination of this Agreement for any reason. Any Party who disclosed data to another party or organization (e.g., employees, representatives, affiliates or independent contractors) must assure that all such parties or organization return or destroy said data. If any of the Signatories so requests in written or upon the termination of this Agreement for any reason.",
+        "explanation": "Changing 'information' to 'data' and 'Parties' to 'Signatories' introduces inconsistency. The term 'information' in the NDA may cover a broader range of items than the modified 'data' encompasses. This becomes contradictory when the agreement requires specific actions regarding all shared 'information' but later only refers to 'data', potentially excluding certain communications or observations. The term 'parties' being changed to 'Signatories', introduces inconsistency as not all 'parties' signed the document, but 'signatories' are those who did.",
+        "location": "1f",
+        "contradicted_location": "1a",
+        "contradicted_text": "a) The information shall be deemed the exclusive property of the furnishing party. The information and all copies thereof shall be returned to the furnishing party upon the furnishing party’s request. The receiving party will not use the information for any purpose other than in accordance with the terms of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'information' to 'data' narrows the scope of what is covered under the agreement. The contradicted text refers to 'the information' as the exclusive property of the furnishing party. By changing the original text to 'data', it implies that only data, and not all information, is considered the exclusive property, creating a contradiction because the agreement requires specific actions regarding all shared 'information' but later only refers to 'data'. This would exclude certain communications or observations. The change of 'Parties' to 'Signatories' also creates a contradiction as all 'parties' are bound by the agreement, but only the signatories signed the document, causing inconsistency."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "ACBN Executive Board members, employees, subject-matter experts (SMEs), and all those with access to confidential exam information are prohibited from developing or delivering examination preparation products and are not eligible to take the examination during their tenure and for a period of two years following the end of their access to examination content.",
+        "changed_text": "ACBN leadership, staff, consultants, and all those with access to confidential exam data are prohibited from developing or delivering examination preparation products and are not eligible to take the examination during their association and for a period of two years following the end of their access to examination content.",
+        "explanation": "Changing 'Executive Board members, employees, subject-matter experts (SMEs)' to 'leadership, staff, consultants', and 'confidential exam information' to 'confidential exam data', 'tenure' to 'association' changes the scope. It's unclear whether 'leadership, staff, consultants' encompasses the same individuals. 'Data' versus 'information' causes a conflict, especially about coverage under NDA.",
+        "location": "1h",
+        "contradicted_location": "1a",
+        "contradicted_text": "a) The information shall be deemed the exclusive property of the furnishing party. The information and all copies thereof shall be returned to the furnishing party upon the furnishing party’s request. The receiving party will not use the information for any purpose other than in accordance with the terms of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'confidential exam information', which is later changed to 'confidential exam data'. The contradicted text explicitly states that 'the information shall be deemed the exclusive property'. By changing 'information' to 'data', there is now a potential ambiguity and misalignment because it is not clear if 'data' is also considered 'information' under the agreement, thus potentially creating a contradiction with the section ensuring exclusive property rights and usage restrictions."
+      }
+    ]
+  }
+]

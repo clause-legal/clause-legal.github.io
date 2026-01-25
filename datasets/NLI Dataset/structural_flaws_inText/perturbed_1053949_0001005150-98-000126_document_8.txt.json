@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "1053949_0001005150-98-000126_document_8.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The undersigned agrees that the undersigned will not, without the prior written consent of Goldman Sachs in each instance: (a) use in advertising, publicity or otherwise the name of Goldman Sachs or any trade name, trademark, trade device, servicemark, symbol or any abbreviation, contraction or simulation thereof owned by Goldman Sachs; or (b) represent, directly or indirectly, that any product or any service provided by the undersigned has been approved or endorsed by Goldman Sachs.",
+        "changed_text": "The undersigned agrees that the undersigned may, unless explicitly told otherwise in writing, use in advertising, publicity or otherwise the name of Goldman Sachs or any trade name, trademark, trade device, servicemark, symbol or any abbreviation, contraction or simulation thereof owned by Goldman Sachs; or (b) represent, directly or indirectly, that any product or any service provided by the undersigned has been approved or endorsed by Goldman Sachs.",
+        "explanation": "This change creates a direct contradiction. The original text prohibits using Goldman Sachs' name without prior written consent in *each* instance. The changed text permits such use unless explicitly prohibited, reversing the default permission and creating uncertainty about when consent is needed. The initial clause of the section states that it is not acceptable, unless the change of this text permits it.",
+        "location": "Schedule E, Section II",
+        "contradicted_location": "Schedule E, Section II",
+        "contradicted_text": "The undersigned agrees that the undersigned may, unless explicitly told otherwise in writing, use in advertising, publicity or otherwise the name of Goldman Sachs or any trade name, trademark, trade device, servicemark, symbol or any abbreviation, contraction or simulation thereof owned by Goldman Sachs; or (b) represent, directly or indirectly, that any product or any service provided by the undersigned has been approved or endorsed by Goldman Sachs.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts itself. The original text states that prior written consent is required 'in each instance'. The changed text reverses this, permitting use unless explicitly told otherwise in writing. Since the changed text and contradicted text are the same, this means that the change has created an in-text contradiction, since the permission requirement is completely flipped."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The undersigned acknowledges that any violation, breach or other failure on the undersigned's part to strictly comply with this Agreement could materially adversely affect Goldman Sachs and its business, thus giving rise to suit for monetary damages and/or injunctive relief for such violation, breach or other failure.",
+        "changed_text": "The undersigned acknowledges that any violation, breach or other failure on the undersigned's part to strictly comply with this Agreement could materially adversely affect Goldman Sachs and its business, but Goldman Sachs reserves the right not to pursue any legal action regarding this.",
+        "explanation": "This changes the consequence of a breach. The original implies that a violation 'giving rise' to legal action. The added phrase gives Goldman Sachs the right *not* to pursue legal action, negating the implied consequence. This internal conflict weakens the enforcement mechanism. the text originally gave the rise for a suit, the change states the suit may not be pursued",
+        "location": "Schedule E, Last Paragraph, Last Sentence",
+        "contradicted_location": "Schedule E, Last Paragraph, Last Sentence",
+        "contradicted_text": "The undersigned acknowledges that any violation, breach or other failure on the undersigned's part to strictly comply with this Agreement could materially adversely affect Goldman Sachs and its business, but Goldman Sachs reserves the right not to pursue any legal action regarding this.",
+        "contradiction_exists": "YES",
+        "justification": "The original text implies that a violation of the agreement gives rise to a suit for monetary damages or injunctive relief. The changed text introduces the possibility that Goldman Sachs may choose not to pursue legal action, directly contradicting the implied consequence of a violation. The contradicted text is exactly the same as the changed text, causing a direct contradiction, because it introduces an option to not pursue legal action when the original text implies that it gives rise to a suit. This aligns with the definition of a Structural Flaw - In Text Contradiction, where a clause is placed in multiple locations with conflicting implications."
+      }
+    ]
+  }
+]

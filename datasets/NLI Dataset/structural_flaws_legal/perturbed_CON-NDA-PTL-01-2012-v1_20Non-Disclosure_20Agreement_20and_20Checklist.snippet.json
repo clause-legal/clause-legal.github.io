@@ -1,0 +1,95 @@
+[
+  {
+    "file_name": "CON-NDA-PTL-01-2012-v1%20Non-Disclosure%20Agreement%20and%20Checklist.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "This Agreement shall be governed by and interpreted under the laws of the Province of Alberta and the Parties consent to the exclusive jurisdiction of the courts of the Province of Alberta for all disputes arising out of this Agreement.",
+        "changed_text": "This Agreement shall be governed by and interpreted under the laws of the Province of Alberta. The Parties consent to the exclusive jurisdiction of the courts of the Province of Alberta for all disputes arising out of this Agreement. To the extent that any statute, regulation or other legislation applies to the Confidential Information, the Parties shall not be required to comply with same.",
+        "explanation": "Moving a clause that explicitly required compliance with statutes, regulations, or other legislation to the 'General Provisions' section and negating it creates ambiguity, potentially undermining legal requirements related to confidentiality.",
+        "contradicted_law": "Personal Information Protection and Electronic Documents Act (PIPEDA)",
+        "law_citation": "PIPEDA, S.C. 2000, c. 5, Section 5(1)",
+        "law_url1": [
+          "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/page-2.html"
+        ],
+        "law_url2": [
+          "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/"
+        ],
+        "law_explanation": "PIPEDA requires organizations to comply with its provisions regarding the protection of personal information. By stating that the parties are not required to comply with statutes or regulations, the modified text contradicts PIPEDA's mandatory compliance requirements.",
+        "location": "9.8",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "The Personal Information Protection and Electronic Documents Act (PIPEDA) - Office of the Privacy Commissioner of Canada Skip to main content Skip to \"About this site\" The Personal Information Protection and Electronic Documents Act (PIPEDA) PIPEDA requirements in brief Personal information, coverage, complaints, principles Fair information principles Accountability, identifying purposes, consent, limiting collection, limiting use, disclosure and retention, accuracy, safeguards, openness, individual access, challenging compliance Legislation and related regulations Law, related legislation, regulations Which privacy law applies? Interactive search based on type of information and organization Compliance help Guidance for businesses, specific issues, interpretation bulletins Investigations of businesses Findings Legislative reform Submissions to parliament, recommendations Features Privacy Guide for Businesses Learn about PIPEDA and find information to help businesses understand and comply with the law. Ten privacy tips for businesses Find tips to help businesses respect privacy, and a graphic version you can print and post. Protecting Your Customers' Privacy [video] Watch a brief video for businesses to understand the basic requirements of PIPEDA. Date modified: 2021-12-08",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The modified text explicitly states that the parties are 'not required to comply' with statutes or regulations related to confidential information. This directly contradicts PIPEDA's requirements, as outlined in the Law Explanation, which mandates compliance with its provisions regarding the protection of personal information. The scraped snippet 2 references PIPEDA stating: 'Learn about PIPEDA and find information to help businesses understand and comply with the law.' Thus, the modified text directly opposes the legal requirement to comply with PIPEDA, creating a structural flaw by placing the negation of compliance within the general provisions."
+      },
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "Each Party acknowledges that monetary damages would be inadequate to protect the other Party against any actual or threatened breach of this Agreement, and, without prejudice to any other rights and remedies otherwise available to the other Party, agrees to the granting of injunctive relief in favour of th e other Party without proof of actual damages.",
+        "changed_text": "Each Party acknowledges that monetary damages would be inadequate to protect the other Party against any actual or threatened breach of this Agreement. All Confidential Information provided by the Disclosing Party remains its property and the Receiving Party obtains no right of any kind to any Confidential Information provided to it, and, without prejudice to any other rights and remedies otherwise available to the other Party, injunctive relief will not be granted in favor of the other Party.",
+        "explanation": "Moving the phrase to 'General Provisions' and changing the statement to state that injunctive relief is not available introduces a contradiction. The original clause acknowledged the potential need for injunctive relief. This weakens the remedies available for breach, and is placed out of context.",
+        "contradicted_law": "Alberta Rules of Court, Rule 10.3",
+        "law_citation": "Alberta Rules of Court, Rule 10.3",
+        "law_url1": [
+          "https://www.albertacourts.ca/docs/default-source/qb/rules-of-court/rules-of-court.pdf"
+        ],
+        "law_url2": [
+          "https://www.canlaw.com/ab/rules-of-court/division-1/rule-10.3-injunctions-and-mandatory-orders"
+        ],
+        "law_explanation": "Rule 10.3(1) of the Alberta Rules of Court states the court may grant an interlocutory injunction. The moved clause attempts to waive injunctive relief, which a court may be hesitant to enforce, especially given the equitable nature of injunctions.",
+        "location": "6.1",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed for injunctive relief, but the changed text explicitly states that injunctive relief will not be granted. The Law Explanation states that Rule 10.3(1) of the Alberta Rules of Court states the court may grant an interlocutory injunction. While the rule states the court 'may' grant an injunction, the changed contract language attempts to waive injunctive relief entirely, which could be viewed as an attempt to contract out of court procedure, creating a contradiction as this might not be enforceable, given the equitable nature of injunctions. The Perturbation Explanation confirms this by stating that the change weakens remedies."
+      },
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "The Receiving Party shall indemnify the Disclosing Party against any loss or damage suffered by the Disclosing Party as a result of the failure of the Receiving Party or such other persons who are disclosed Co nfidential Information under this Agreement to comply with the terms of this Agreement.",
+        "changed_text": "The Receiving Party shall indemnify the Disclosing Party against any loss or damage suffered by the Disclosing Party as a result of the failure of the Receiving Party or such other persons who are disclosed Co nfidential Information under this Agreement to comply with the terms of this Agreement. This Agreement shall only be amended orally by the parties.",
+        "explanation": "Moving the amendment section of the contract from Section 9.9 to 6.2 to be with the indemnification clause, and allowing oral amendments when most jurisdictions require written ones, could mislead parties into thinking that oral agreements are binding. The lack of any mention of written amendments could be misconstrued.",
+        "contradicted_law": "Alberta's Law of Evidence Act, RSA 2000, c L-10, s 3",
+        "law_citation": "Alberta's Law of Evidence Act, RSA 2000, c L-10, s 3",
+        "law_url1": [
+          "https://www.qp.alberta.ca/documents/Acts/L10.pdf"
+        ],
+        "law_url2": [
+          "https://www.canlii.org/en/ab/laws/stat/rsa-2000-c-l-10/latest/rsa-2000-c-l-10.html"
+        ],
+        "law_explanation": "While the Law of Evidence Act itself doesn't explicitly ban oral amendments, it governs the admissibility of evidence in court. Enforceability of Oral Contracts in Alberta: Alberta courts have generally held that where a contract contains a clause stating that it can only be amended in writing, oral agreements will generally not be admissible to vary the terms of that contract unless there is clear evidence of a new agreement entirely or compelling reasons to suggest the written requirement was waived.",
+        "location": "6.2",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The modification introduces a structural flaw by including an amendment clause permitting oral amendments, while most jurisdictions require written amendments, which contradicts the spirit of ensuring clear and enforceable agreements. The Perturbation Explanation states it could 'mislead parties into thinking that oral agreements are binding'. The Law Explanation supports this by suggesting that oral agreements may not be admissible to vary the terms of a contract with a written amendment clause, unless there is evidence of a new agreement. While there are no explicit scraped snippets provided, the Law and Perturbation Explanations outline the increased ambiguity/unenforceability risk when permitting oral contract amendments where written amendments are required or generally accepted."
+      },
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "Each Party shall pay its own costs and expenses incurred in connection with this Agreement.",
+        "changed_text": "Each Party shall pay its own costs and expenses incurred in connection with this Agreement. Subject to section 5.4, within 10 days of a written request by the Disclosing Party, the Receiving Party shall, unless otherwise precluded by any legal obligation: (a) return to the Disclosing Party or destroy all of the Disclosing Party\u2019s original tangible Confidential Information, together with all tangible copies and reproductions; (b) subject to subsection 5.3(c) , make its best efforts to delete all electronic copies of the Confidential Information received from the Disclosing Party; (c) safeguard any electronic Confidential Information that cannot be destroyed due to the Receiving Party\u2019s archiving practices or policies with the same degree of care as it would its own Confidential Information; and",
+        "explanation": "Moving the destruction and return of information section from 5.3 to the 'Costs and Expenses' section creates confusion about when and how to destroy confidential information. The provision now appears disconnected from the broader context of term and termination, which may make it difficult to enforce.",
+        "contradicted_law": "General Data Protection Regulation (GDPR) Article 17",
+        "law_citation": "GDPR Article 17",
+        "law_url1": [
+          "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+        ],
+        "law_url2": [
+          "https://gdpr-info.eu/art-17-gdpr/"
+        ],
+        "law_explanation": "GDPR Article 17 grants data subjects the right to erasure ('right to be forgotten'). While Alberta law applies, GDPR could potentially apply if any EU citizen data is involved. By obscuring the procedure for data destruction within an unrelated section on costs and expenses, the agreement makes it more difficult for individuals to exercise their right to erasure under GDPR.",
+        "location": "7.1",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "Art. 17 GDPR \u2013 Right to erasure (\u2018right to be forgotten\u2019) - General Data Protection Regulation (GDPR) Search for: Skip to content Search for: Imprint | Privacy Policy | Liability The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies: the personal data are no longer necessary in relation to the purposes for which they were collected or otherwise processed; the data subject withdraws consent on which the processing is based according to point (a) of Article 6 (1), or point (a) of Article 9 (2), and where there is no other legal ground for the processing; the data subject objects to the processing pursuant to Article 21 (1) and there are no overriding legitimate grounds for the processing, or the data subject objects to the processing pursuant to Article 21 (2); the personal data have been unlawfully processed; the personal data have to be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject; the personal data have been collected in relation to the offer of information society services referred to in Article 8 (1). Where the controller has made the personal data public and is obliged pursuant to paragraph 1 to erase the personal data, the controller, taking account of available technology and the cost of implementation, shall take reasonable steps, including technical measures, to inform controllers which are processing the personal data that the data subject has requested the erasure by such controllers of any links to, or copy or replication of, those personal data. Paragraphs 1 and 2 shall not apply to the extent that processing is necessary: for exercising the right of freedom of expression and information; for compliance with a legal obligation which requires processing by Union or Member State law to w",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The altered contract text contradicts GDPR Article 17, specifically the 'right to be forgotten,' because the relocation of the data destruction clause to an irrelevant section ('Costs and Expenses') obscures the procedure for data erasure. According to the Law Explanation, this obscurity hinders individuals from exercising their right to erasure under GDPR. Scraped Law Snippet 2 explicitly states that 'the data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay' and that 'the controller shall have the obligation to erase personal data without undue delay.' By burying the data destruction procedure within an unrelated clause, the changed text makes it difficult to locate and implement this right, creating a structural flaw that contradicts the GDPR's mandate for easy and timely data erasure."
+      }
+    ]
+  }
+]

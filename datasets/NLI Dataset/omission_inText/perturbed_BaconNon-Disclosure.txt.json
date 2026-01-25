@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "BaconNon-Disclosure.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "I/weunderstand thatifI/wemake thepurchase through Broker, I/wewillnotbe liable forthefeetobepaidbySeller toBroker.",
+        "changed_text": "I/weunderstand that if I/we make the purchase, I/we will not be liable for the feetobepaidbySeller toBroker.",
+        "explanation": "By omitting 'through Broker' from this sentence, it now suggests that the buyer is not liable for the broker's fee regardless of whether the broker facilitated the purchase. This directly contradicts the earlier statement in section 1(d) that if the buyer interferes with the broker's contract, the buyer may be liable for the seller's fee. This creates confusion about under what circumstances the buyer is responsible for fees.",
+        "location": "1",
+        "contradicted_location": "1",
+        "contradicted_text": "1.(a)Thatanyinformation provided onanybusiness issensitive andconfidential, andthatitsdisclosure toothers maybedamaging tothe businesses andtheirowners. (b)Nottodisclose anyinformation regarding these businesses toanyother person whohasnotalsosigned thisAgreement, except tosecure theadvise andrecommendations ofmybusiness advisors (accountants, attorneys, etc.)\"Information\" asused inthisAgreement shall include thefactthatthebusinesses areforsale, plusany other dataprovided. (c)Nottocontact thebusiness owners ortheirlandlords, employees, suppliers orcustomers except through Broker. Allcorrespondence, inquiries, offers topurchase andnegotiations relating tothepurchase orlease ofanybusiness presented byBroker willbe conducted through Broker. (d)Nottocircumvent orinterfere withBroker's contract withtheSeller inanyway, I/weunderstand thatifI/weinterfere withBroker's contract right toitsfeefrom Seller, I/wemaybepersonally liable toBroker forpayment oftheSeller's fee.Weunderstand thatshould I/webecome amanager orotherwise connect withanyofthebusinesses shown oroffered tome/us forsale, orshould I/webuy,trade, lease orexchange anyofthe businesses disclosed tome/us, thenafeewillbeduetoBroker. I/weunderstand that if I/we make the purchase, I/we will not be liable for the feetobepaidbySeller toBroker.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the buyer is not liable for the seller's fee to the broker *if* the purchase is made through the broker. The changed text omits \"through Broker\", implying the buyer is *never* liable. This directly contradicts section 1(d), which states that if the buyer interferes with the broker's contract, the buyer *may* be liable for the seller's fee. The omission creates a direct conflict between the buyer potentially being liable (1(d)) and never being liable (changed text)."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Broker hasno knowledge oftheaccuracy ofsaidinformation andmakes nowarranty, express orimplied, astotheaccuracy ofsuch information.",
+        "changed_text": "Broker hasno knowledge oftheaccuracy ofsaidinformation andmakes nowarranty astotheaccuracy ofsuch information.",
+        "explanation": "By removing 'express or implied', the contract now seemingly provides a warranty, as not specifying which warranties are not valid could be interpreted as providing only specific warranties. This contradicts the stated purpose of the section, creating an internal inconsistency as well as potential liabilities for the broker that were originally disclaimed. This contradicts section 2 where it implies that Broker doesn't have any responsibilities.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "2.Thatallinformation regarding businesses forsaleisprovided bytheSeller orother sources andisnotverified inanywaybyBroker. Broker hasno knowledge oftheaccuracy ofsaidinformation andmakes nowarranty astotheaccuracy ofsuch information. Understanding thatI/weshall make anindependent verification ofsaidinformation priortoentering intoanagreement topurchase anybusiness. I/weagree thatBroker isnotresponsible fortheaccuracy ofanyoftheinformation I/wereceive orfailtoreceive, andI/weagree toindemnify and holdBroker anditsagent harmless from anyclaims ordamages which mayoccur byreason oftheinaccuracy orincompleteness ofany information provided tome/us withrespect toanybusiness I/wemight purchase.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly states that the Broker makes no warranty, express or implied, regarding the accuracy of information. The changed text removes 'express or implied', making it ambiguous whether any warranty is provided. This ambiguity contradicts Section 2, which asserts that the Broker has no knowledge of the accuracy of information and makes no warranty. By potentially implying a limited warranty, the changed text conflicts with the original disclaimer of any warranty in Section 2, creating an in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Understanding thatI/weshall make anindependent verification ofsaidinformation priortoentering intoanagreement topurchase anybusiness.",
+        "changed_text": "Understanding that I/we may make anindependent verification ofsaidinformation priortoentering intoanagreement topurchase anybusiness.",
+        "explanation": "Changing 'shall' to 'may' weakens the requirement for the buyer to independently verify information. Previously, independent verification was mandatory. Now, it is optional. This contradicts the intent of section 2, which states the broker is not responsible for the accuracy of information provided. If verification is optional, this increases the buyer's reliance on potentially inaccurate information provided by the broker/seller, creating a conflict about the level of due diligence expected from the buyer.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "2.Thatallinformation regarding businesses forsaleisprovided bytheSeller orother sources andisnotverified inanywaybyBroker. Broker hasno knowledge oftheaccuracy ofsaidinformation andmakes nowarranty astotheaccuracy ofsuch information. Understanding that I/we may make anindependent verification ofsaidinformation priortoentering intoanagreement topurchase anybusiness. I/weagree thatBroker isnotresponsible fortheaccuracy ofanyoftheinformation I/wereceive orfailtoreceive, andI/weagree toindemnify and holdBroker anditsagent harmless from anyclaims ordamages which mayoccur byreason oftheinaccuracy orincompleteness ofany information provided tome/us withrespect toanybusiness I/wemight purchase.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated the buyer 'shall' make an independent verification, creating a mandatory obligation. The changed text modifies this to 'may', making it optional. The contradicted text states the Broker is not responsible for the accuracy of information, and the buyer agrees to indemnify the broker from claims arising from inaccurate information. By making verification optional, the changed text increases the buyer's reliance on the broker's information, contradicting the intent of the contradicted section, which seeks to absolve the broker of responsibility for that information. This creates a strong conflict regarding the level of due diligence expected of the buyer and the broker's liability."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "I/weacknowledge thatI/wehave received anexact copy ofthisAgreement andthatI/wehave readthisAgreement carefully andfullyunderstand it.",
+        "changed_text": "I/weacknowledge thatI/wehave received a copy ofthisAgreement andthatI/wehave readthisAgreement.",
+        "explanation": "By omitting 'exact' and 'carefully and fully understand it' it implies that there is no acknowledgement that this is the exact agreement, allowing doubt to be created about the document in question. The omission suggests a less rigorous review and understanding by the buyer. Now, it becomes questionable if the buyer truly agrees with the detailed terms and conditions, potentially conflicting with the binding nature of the agreement itself. This contradicts the basis of the entire contract.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "5.I/weacknowledge thatwewillreceive confidential information about theSeller's business, operations, customers, andemployees andagree not tostartabusiness similar tothesellers listed above andnottosolicit orcontact Seller's employees orcustomers foraperiod ofthree years from thedateherein. Intheevent Buyer forwhatever reason does notpurchase thebusiness, Buyer agrees toimmediately return toBroker anyandall materials related toSeller without retaining anycopies. I/weacknowledge thatI/wehave received a copy ofthisAgreement andthatI/wehave readthisAgreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the buyer acknowledges receiving an 'exact copy' and has 'read this Agreement carefully and fully understand it'. The changed text omits 'exact' and 'carefully and fully understand it'. This omission introduces doubt regarding the buyer's comprehension and acceptance of the agreement's specifics, which directly conflicts with the premise of the contract, particularly considering the confidentiality and non-solicitation obligations outlined in the contradicted text. The buyer's acknowledgement in the contradicted text is weakened, creating a contradiction, since the change implies they might not fully understand what they acknowledged. The change aligns with the definition of 'Omissions – In Text Contradiction'."
+      }
+    ]
+  }
+]

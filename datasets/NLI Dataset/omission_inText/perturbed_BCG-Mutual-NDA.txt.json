@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "BCG-Mutual-NDA.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "During the term of the agreement and for a period of twelve (12) months thereafter, each party agrees not to solicit or recruit any employee of each other without the prior written consent of that party. Both BCG and Partner hereby agree that it will not solicit for hire, in any capacity whatsoever, any of each other’s employees, contractors or ot her such affiliated resources without prior written consent from the other party.",
+        "changed_text": "During the term of the agreement and for a period of twelve (12) months thereafter, each party agrees not to solicit or recruit any employee of each other without the prior written consent of that party.",
+        "explanation": "By removing the sentence that includes contractors or other affiliated resources, and just leaving the employee's reference the non-solicitation clause becomes less forceful on protecting other types of resources and it is in contradiction if BCG or Partner hired those resources after terminating the agreement, creating a possible contradiction in the enforcement",
+        "location": "5.c",
+        "contradicted_location": "5.c",
+        "contradicted_text": "Non -solicitation - Employees. During the term of the agreement and for a period of twelve (12) months thereafter, each party agrees not to solicit or recruit any employee of each other without the prior written consent of that party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text included employees, contractors, and other affiliated resources in the non-solicitation clause. The changed text removes contractors and other affiliated resources, only referencing employees. The contradicted text also only mentions employees. This omission creates a potential contradiction because the original agreement protected a broader range of resources. If BCG or Partner hired contractors or affiliated resources after terminating the agreement, the changed text might not prevent that, contradicting the initial intention and potentially the broader understanding of the non-solicitation agreement. As a result, this creates an in-text contradiction as per the 'Omissions - In Text Contradiction' definition provided."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Each of us acknowledges that money damages may not be sufficient compensation for a breach of th is agreement . Each of us agrees that the other may seek court orders to stop confidential information from becoming public in breach of this agreement.",
+        "changed_text": "Each of us acknowledges that money damages may not be sufficient compensation for a breach of th is agreement .",
+        "explanation": "By removing the specific allowance for seeking court orders to prevent the release of confidential information, it is leaving the agreement with the acknowledgment that there should be another way for breaches of this agremeement that isn't money related, and it leaves a hole in the enforcement of breaches that aren't related to money.",
+        "location": "5.f",
+        "contradicted_location": "5.f",
+        "contradicted_text": "Money damages insufficient . Each of us acknowledges that money damages may not be sufficient compensation for a breach of th is agreement .",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly allows for seeking court orders to prevent the release of confidential information, supplementing the acknowledgement that money damages might be insufficient. The changed text removes this specific allowance, creating a contradiction because the contradicted text acknowledges that money damages are not sufficient, but the changed text removes the specification of an alternative remedy (court orders to stop confidential information from becoming public). This creates a strong in-text contradiction, fitting the definition of 'Omissions – In Text Contradiction' as the removal of language in one section creates a contradiction with obligations or constraints stated in other sections."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "In any dispute relating to this agreement the prevailing party will be entitled to recover reasonable attorneys' fees and costs.",
+        "changed_text": "In any dispute relating to this agreement the prevailing party will be entitled to recover costs.",
+        "explanation": "By omitting “attorneys’ fees” from the section on costs recovery, the altered clause now presents a contradiction because it’s unclear whether the prevailing party can recover attorneys’ fees, which are a significant component of litigation costs. This contradiction leads to ambiguity about the financial implications of disputes, creating uncertainty around the overall cost of litigation for both parties. The contradiction arises because the clause still addresses cost recovery but is silent on attorneys’ fees.",
+        "location": "5.g",
+        "contradicted_location": "5.g",
+        "contradicted_text": "Attorneys' fees. In any dispute relating to this agreement the prevailing party will be entitled to recover costs.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the prevailing party can recover \"reasonable attorneys' fees and costs\". The changed text omits \"attorneys' fees\", stating the prevailing party can only recover \"costs\". The contradicted text, \"Attorneys' fees. In any dispute relating to this agreement the prevailing party will be entitled to recover costs,\" now presents a contradiction because the changed text implies attorneys' fees might not be recoverable, even though the contradicted text initially suggests attorneys' fees are part of the costs recoverable. This omission creates a direct conflict and uncertainty, thus a contradiction exists."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "If any provision of this agreement is unenforceable, the parties (or, if we cannot agree, a court) will revise it so that it can be enforced. Even if no revision is possible, the rest of this agreement will remain in place.",
+        "changed_text": "If any provision of this agreement is unenforceable, the parties will revise it so that it can be enforced. Even if no revision is possible, the rest of this agreement will remain in place.",
+        "explanation": "Removing the court's option from revising the agreement to make it enforceable makes it contradictible, since if both parties dont agree to revise it to make it enforceable, the clause on enforability won't be enforced, thus creating an uncertanty about the other party enforcing it's rights.",
+        "location": "5.i",
+        "contradicted_location": "5.i",
+        "contradicted_text": "Enforceabil ity. If any provision of this agreement is unenforceable, the parties will revise it so that it can be enforced. Even if no revision is possible, the rest of this agreement will remain in place.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed a court to revise the agreement if the parties couldn't agree, ensuring enforceability. The changed text removes the court's option. The contradicted text mirrors the changed text. This creates a contradiction because if the parties don't agree, the agreement states it will be revised to be made enforceable, and if that doesn't happen, the rest of the agreement will remain in place; however, without the court as an option, the enforceability of the agreement becomes uncertain, because there is no guarantee it will be revised, directly impacting other obligations and rights within the contract, meeting the definition of 'Omissions – In Text Contradiction'."
+      }
+    ]
+  }
+]

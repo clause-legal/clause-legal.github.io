@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "document_viewer.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "From and after the date of this Agreement, the Provider agrees neither to disclose to any third party nor permit any third party to have access to any or all of the Confidential Information disclosed by the Town , without the prior written consent of the Town , nor to use any of the Confidential Information for any purpose other than as consented to in writing by the Town .",
+        "changed_text": "From and after the date of this Agreement, the Provider agrees neither to disclose to any third party nor permit any third party to have access to any or all of the Information disclosed by the Town , without the prior written consent of the Town , nor to use any of the Confidential Information for any purpose other than as consented to in writing by the Town .",
+        "explanation": "Changing 'Confidential Information' to 'Information' only within the context of third-party disclosure creates a contradiction. Since 'Information' is a broad term, it suggests that even non-confidential information provided by the Town cannot be shared with third parties, which is inconsistent with the purpose of the agreement focused on confidential data. This could create problems for business operations since any information given from the Town to the Provider is now prohibited in being disclosed. The final clause retains Confidential Information, further emphasizing the contradiction.",
+        "location": "3.1",
+        "contradicted_location": "3.1",
+        "contradicted_text": "From and after the date of this Agreement, the Provider agrees neither to disclose to any third party nor permit any third party to have access to any or all of the Information disclosed by the Town , without the prior written consent of the Town , nor to use any of the Confidential Information for any purpose other than as consented to in writing by the Town . However, the aforesaid obligations shall not apply to information which the Provider can clearly demonstrate falls within any one of the following categories: a) Information that is now generally known to the public through no fault of the Provider ; b) Information obtained a fter the date of this Agreement hereof from a third party lawfully in possession of and with no limitation upon disclosure of that information, and having the right to disclose the same; or c) Information that is required to be divulged pursuant to process of any judicial or governmental body of competent jurisdiction, provided notice of receipt of such notice is provided to the other party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text broadens the scope of restricted information from 'Confidential Information' to 'Information'. The contradicted text contains an exception clause that applies to 'Information', allowing disclosure of certain types of information. The change creates a contradiction because it implies that even information falling under the exceptions in the contradicted text (e.g., publicly known information) cannot be disclosed to a third party, while the contradicted text explicitly states that it can, creating an in-text contradiction due to misaligned terminology."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Provider shall immediately notify the Town of any security breach (including any internal unauthorized use or disclosure), investigate the security breach, and take measures to reme diate such breach at the Vendor s cost as directed by the Town.",
+        "changed_text": "The Provider shall immediately notify the Town of any data compromise (including any internal unauthorized use or disclosure), investigate the security breach, and take measures to reme diate such breach at the Vendor s cost as directed by the Town.",
+        "explanation": "Replacing 'security breach' with 'data compromise' creates inconsistency. The Provider is responsible for remediating the 'security breach,' but is notified of 'data compromise.' Data compromise is not precisely the same as security breach, and the original definition can still be interpreted as being outside of data compromise. This creates uncertainty as to what type of breach must be remediated.",
+        "location": "4.5",
+        "contradicted_location": "4.5",
+        "contradicted_text": "The Provider shall immediately notify the Town of any data compromise (including any internal unauthorized use or disclosure), investigate the security breach, and take measures to reme diate such breach at the Vendor s cost as directed by the Town.",
+        "contradiction_exists": "YES",
+        "justification": "The Changed Text replaces 'security breach' with 'data compromise' while the Contradicted Text retains both terms. The Perturbation Explanation clarifies that 'data compromise' is not precisely the same as 'security breach,' and the original definition can still be interpreted as being outside of data compromise, creating uncertainty as to what type of breach must be remediated. This misalignment of terminology leads to a direct contradiction because the Contradicted Text uses both terms interchangeably, leading to conflicting obligations. This aligns with the definition of Misaligned Terminology - In Text Contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Town retains the right to audit the Provider to ensure that proper measures are being applied to protect any and all confidential information. Auditing may be performed by Town IT Staff or by a Third Par ty, as chosen by the Town in its sole discretion.",
+        "changed_text": "The Town retains the right to audit the Provider to ensure that proper measures are being applied to protect any and all confidential records. Auditing may be performed by Town IT Staff or by a Third Par ty, as chosen by the Town in its sole discretion.",
+        "explanation": "By changing 'confidential information' to 'confidential records,' the scope of the audit becomes unclear. The original definition of confidential information is broad, potentially including more than just formal records. This could create disputes over what the Town is allowed to audit. This is further complicated as the text later on in the text still refers to Confidential Information. ",
+        "location": "5.1",
+        "contradicted_location": "6.1",
+        "contradicted_text": "The Town may, at any time, request the return of all Confidential Information (including notes generated by the Provider on Confidential Information given orally) and all copies thereof, received from or on behalf of the Town , and the Provider agrees to promptly comply with such requests. The Provider agrees that, subsequent to a request for return of Confidential Information or notification of termination of business discussions and/or collaboration, Confidential Information provided orally will continue to be kept confidential by the Provider and the provisions of this Agreement shall continue with respect to all Confidential Information until an y of items 3.1 a), b) and c) become applicable. If the information is unable to be returned then information must be destroyed and a certificate of destruction must be issued.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'confidential information' to 'confidential records' narrows the scope of what is being audited. The 'Contradicted Text' discusses the return of 'Confidential Information (including notes generated by the Provider on Confidential Information given orally).' The original text allowed auditing of 'confidential information,' which aligns with the contradicted text's broader definition. However, changing it to 'confidential records' limits the audit's scope, potentially excluding the audit of oral information and other types of information that are not formally recorded. This creates a direct contradiction as the town is still responsible for the destruction of information that may not fall under 'records' causing a strong in-text contradiction under the definition of Misaligned Terminology."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Provider shall not use the Confidential Information provided by the Town for any purpose e xcept for carrying out the work for which the Town has engaged the Provider.",
+        "changed_text": "The Provider shall not use the Proprietary Data provided by the Town for any purpose e xcept for carrying out the work for which the Town has engaged the Provider.",
+        "explanation": "By replacing 'Confidential Information' with 'Proprietary Data,' the agreement becomes confusing. 'Proprietary Data' is not explicitly defined within the agreement, thus leading to questions regarding what exactly the Provider can and cannot use. This introduces an uncertainty in enforcement since Proprietary data is not defined and therefore can lead to confusion in the document since Proprietary Data is not defined.",
+        "location": "7.1",
+        "contradicted_location": "7.1",
+        "contradicted_text": "The Provider shall not use the Proprietary Data provided by the Town for any purpose e xcept for carrying out the work for which the Town has engaged the Provider.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Confidential Information' to 'Proprietary Data' creates a contradiction because 'Proprietary Data' is not explicitly defined within the agreement, as per the explanation provided. The contradicted text uses 'Proprietary Data', meaning that the 'Provider shall not use the Proprietary Data'. However, since the meaning is not defined, it creates an ambiguity that was not present in the original agreement. Since misaligned terminology leads to in-text contradictions when the contract uses multiple terms interchangeably without defining them, leading to conflicting obligations, this is a 'YES'."
+      }
+    ]
+  }
+]

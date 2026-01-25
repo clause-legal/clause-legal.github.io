@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "NonDisEC12212010.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Non-Disclosure of Confidential Information. The Recipient agrees not to use the Confidential Information for any purpose other than that set forth in Section 1 of this Agreement. The Recipient will not disclose any Confidential Inform ation to third parties except those directors, officers, employees, consultants and agents of R ecipient who are required to have the information in order to carry out the purpose set forth in Section 1 of this Agreement. Recipient has had or will have directors, officers, employees, cons ultants and agents of Recipient to whom Confidential Information is disclosed or who have access to Confidential Information sign a Non- Disclosure Agreement in content substantially simi lar to this Agreement and will promptly notify the Discloser in writing of the names of each su ch person who has signed such agreements after such agreements are signed.",
+        "changed_text": "Non-Disclosure of Sensitive Data. The Recipient agrees not to use the Sensitive Data for any purpose other than that set forth in Section 1 of this Agreement. The Recipient will not disclose any Sensitive Data to third parties except those directors, officers, employees, consultants and agents of Recipient who are required to have the information in order to carry out the purpose set forth in Section 1 of this Agreement. Recipient has had or will have directors, officers, employees, consultants and agents of Recipient to whom Sensitive Data is disclosed or who have access to Sensitive Data sign a Non- Disclosure Agreement in content substantially simi lar to this Agreement and will promptly notify the Discloser in writing of the names of each su ch person who has signed such agreements after such agreements are signed.",
+        "explanation": "By replacing 'Confidential Information' with 'Sensitive Data' in this section, but not defining 'Sensitive Data', it creates confusion. Other sections of the agreement still refer to 'Confidential Information,' leading to uncertainty about whether the non-disclosure obligations apply to a broader or narrower set of data. Section 5 mentions the return of materials containing 'Confidential Information', now conflicting with the newly introduced 'Sensitive Data'.",
+        "location": "3",
+        "contradicted_location": "5",
+        "contradicted_text": "Return of Materials. Any materials or doc uments of which have been furnished by the Discloser to the Recipient will be promptly re turned within five (5) business days, accompanied by copies of such documentation, after the evaluatio n set forth in Section 1 of this Agreement has been concluded.",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'Confidential Information,' and the contradicted text uses the same term. The changed text replaces 'Confidential Information' with 'Sensitive Data' without defining 'Sensitive Data'. This creates a contradiction because the contradicted text in Section 5 refers to the return of materials containing 'Confidential Information,' while the changed text focuses on 'Sensitive Data'. If the two terms are not equivalent, it is unclear what materials must be returned, as only Confidential Information is mentioned in the contradicted text."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The foregoing commitments shall survive any termination of discussions between the parties, and shall continue for a peri od of five (5) years following the date of this Agreement.",
+        "changed_text": "The aforementioned confidentiality obligations shall survive any termination of discussions between the parties, and shall continue indefinitely following the date of this Agreement.",
+        "explanation": "The duration of the confidentiality is extended from a definite five years to an indefinite term. The changed wording contradicts the earlier stated commitment of five years in the original text. In the text 'mandatory disclosure' in section 4 now is indefinitely, introducing uncertainty and potential legal disputes.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "Term. The foregoing commitments shall survive any termination of discussions between the parties, and shall continue for a peri od of five (5) years following the date of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified a confidentiality period of five years, as reflected in both the 'Original Text' and the 'Contradicted Text'. The 'Changed Text' alters this to an indefinite period. This directly contradicts the 'Contradicted Text' which explicitly states a five-year duration, creating a strong in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement shall be governed by and construed and enforced in accordance with the inte rnal laws of the State of New York (without regard to its conflict of law rules), and shall be binding upon the parties hereto in The United States of America and worldwide.",
+        "changed_text": "This Agreement shall be governed by and construed and enforced in accordance with the federal laws of the United States, specifically excluding New York state law. This agreement applies exclusively within the continental United States.",
+        "explanation": "The governing law is changed from New York state law to federal law, and the geographical scope is limited to the continental U.S., directly contradicting the original agreement's worldwide applicability. This change will directly impact section 13 where New York Law is stated.",
+        "location": "13",
+        "contradicted_location": "13",
+        "contradicted_text": "Governing Law and Jurisdiction. This Agreement shall be governed by and construed and enforced in accordance with the inte rnal laws of the State of New York (without regard to its conflict of law rules), and shall be binding upon the parties hereto in The United States of America and worldwide. The state cour ts within Monroe County New York and/or the federal courts located in Western New York shall have exclusive jurisdiction to adjudicate any dispute arising out of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the governing law from New York state law to federal law, and it limits the geographical scope to the continental U.S. The contradicted text states that the agreement is governed by New York law and applies worldwide. These two sections are in direct conflict, as the governing law and geographical scope are mutually exclusive. The changed text directly contradicts the contradicted text, fulfilling the 'Misaligned Terminology - In Text Contradiction' perturbation type."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Recipient agrees that its obligations hereunder are necessary and reasonable in order to protect the Discloser and its business, and expressly agrees that monetary damages would be inadequate to compensate the Discloser for any breach of any covenants and agreements set forth herein. Accordingly, R ecipient agrees and acknowledges that any such violation or threatened violation will cause irreparable injury to the Discloser and that, in addition to any other remedies that may be available, in la w, in equity or otherwise, the Discloser shall be entitled to obtain injunctive relief against the threatened breach of this Agreement or the continuation of any such breach, without the necessity of proving actual damages.",
+        "changed_text": "Recipient acknowledges that due to the nature of shared data, breaches may occur. While Recipient agrees to exert reasonable effort to prevent unauthorized disclosure, monetary damages will be the sole remedy for any breach of this agreement. Injunctive relief will not be pursued by the Discloser.",
+        "explanation": "This change directly contradicts the original remedies clause. The original text allows for injunctive relief, while the modified version states that monetary damages will be the *sole* remedy and that injunctive relief will not be sought. Section 14's remedies are in contradiction now.",
+        "location": "14",
+        "contradicted_location": "14",
+        "contradicted_text": "Remedies. Recipient agrees that its obligations hereunder are necessary and reasonable in order to protect the Discloser and its business, and expressly agrees that monetary damages would be inadequate to compensate the Discloser for any breach of any covenants and agreements set forth herein. Accordingly, R ecipient agrees and acknowledges that any such violation or threatened violation will cause irreparable injury to the Discloser and that, in addition to any other remedies that may be available, in la w, in equity or otherwise, the Discloser shall be entitled to obtain injunctive relief against the threatened breach of this Agreement or the continuation of any such breach, without the necessity of proving actual damages.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that 'monetary damages will be the sole remedy' and that 'Injunctive relief will not be pursued by the Discloser.' This directly contradicts the contradicted text, which explicitly states that 'monetary damages would be inadequate' and that the Discloser 'shall be entitled to obtain injunctive relief.' This creates a clear and direct conflict regarding the available remedies for a breach of the agreement."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Entire Agreement. This Agreement, em bodies the entire agreement and understanding by and between the parties with respect to th e subject matter herein referred to, and no representations, promises, agreements, or understandings, written or oral, not herein contained shall be of any force or effect. No change or modification shall be valid or binding unless the same is in writing and signed by both parties.",
+        "changed_text": "Entire Agreement. This Agreement constitutes the initial understanding between the parties. Subsequent oral agreements made by authorized representatives of both parties shall supersede any conflicting terms within this document.",
+        "explanation": "This change allows subsequent oral agreements to modify the contract, conflicting with the original clause that requires written and signed modifications. This undermines the entire agreement clause and creates uncertainty about what the final agreement actually is. The prior mention about changes only valid by written will be impacted by this perturbation.",
+        "location": "15",
+        "contradicted_location": "15",
+        "contradicted_text": "Entire Agreement. This Agreement, em bodies the entire agreement and understanding by and between the parties with respect to th e subject matter herein referred to, and no representations, promises, agreements, or understandings, written or oral, not herein contained shall be of any force or effect. No change or modification shall be valid or binding unless the same is in writing and signed by both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a direct contradiction. The original clause, which is also the contradicted text, explicitly states that modifications must be in writing and signed by both parties. The changed text, however, allows subsequent oral agreements to supersede terms, directly conflicting with the original requirement of written modifications. This creates a clear inconsistency and undermines the enforceability of the entire agreement clause."
+      }
+    ]
+  }
+]

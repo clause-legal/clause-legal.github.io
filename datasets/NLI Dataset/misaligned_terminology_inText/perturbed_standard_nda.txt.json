@@ -1,0 +1,18 @@
+[
+  {
+    "file_name": "standard_nda.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "ERROR: PyPDF2 not installed. Install with: pip install PyPDF2 Original file: contract-nli/raw\\standard_nda.pdf",
+        "changed_text": "ERROR: PyPDF2 not installed. Install with: pip install PyPDF2 Original file: contract-nli/raw\\standard_nda.pdf",
+        "explanation": "Referring to 'Agreement' in one place and 'Contract' in another. Undefined terms are used to determine a binding contract.",
+        "location": "Hypothetical Section 7",
+        "contradicted_location": "Hypothetical Section 8",
+        "contradicted_text": "Hypothetical Section 8 Text: If this section refers to 'Contract' termination clauses while another references the 'Agreement' in the exact same context, there is conflict.",
+        "contradiction_exists": "YES",
+        "justification": "The perturbation explanation states that the changed text introduces a contradiction by referring to 'Agreement' and 'Contract' interchangeably, particularly if these terms are used in the same context. The contradicted text highlights a scenario where one section refers to 'Contract' termination clauses while another references 'Agreement' in the same context, creating a conflict. Because 'Agreement' and 'Contract' could refer to different documents, or have different implications, this constitutes a strong in-text contradiction."
+      }
+    ]
+  }
+]

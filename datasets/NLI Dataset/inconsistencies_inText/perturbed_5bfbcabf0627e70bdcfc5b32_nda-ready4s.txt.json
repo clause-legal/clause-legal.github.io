@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "5bfbcabf0627e70bdcfc5b32_nda-ready4s.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Conﬁdential Information means:- (a) information relating to the Disclosing Party regarding its business, partners, customers or ﬁnancial aﬀairs (including details relating to any software the copyright in respect of which is vested in the Disclosing Party) which is obtained by the Receiving Party, either before or after this undertaking is entered into and either in writing or orally from or pursuant to the discussions with the Personnel of the Disclosing Party; (b) those portions of analyses, compilations, studies, reports and other documents prepared by the Disclosing Party which contain or otherwise reﬂect or are generated from any such information as is speciﬁed in paragraph (a) above; (c) information of a commercially sensitive nature relating to the Disclosing Party obtained by observation during any visits to the Disclosing Party’s premises but subject always to the proviso set out in clause.",
+        "changed_text": "Conﬁdential Information means information relating to the Disclosing Party's business that is explicitly marked as 'Confidential' in writing. Information shared orally or observed visually is not considered Confidential Information, regardless of its nature. Any document not explicitly labeled 'Confidential' is excluded, even if it contains sensitive data.",
+        "explanation": "This perturbation changes the definition of 'Confidential Information'. The original definition broadly includes information related to the Disclosing Party's business, partners, customers, and financial affairs, whether written or oral. The revised definition narrows it to *only* written information explicitly marked as 'Confidential,' excluding oral or visually observed information. This contradicts later sections that refer to the broader, original definition of Confidential Information and create an in-text contradiction.",
+        "location": "1.1",
+        "contradicted_location": "3.1",
+        "contradicted_text": "A Receiving Party shall treat and safeguard as private and conﬁdential all of the Conﬁdential Information and will take all reasonable precautions in dealing with any Conﬁdential Information so as to prevent any third party from having access to the Conﬁdential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text significantly narrows the definition of 'Confidential Information' to only written information explicitly marked as 'Confidential'. This directly contradicts the contradicted text, which requires the Receiving Party to treat 'all of the Confidential Information' as confidential, implying a broader scope as defined in the original text including any written or oral communication or information obtained through observation. The change makes it unclear which information the Receiving Party is obligated to protect, creating a strong in-text contradiction. The contradicted text uses the term 'all of the Confidential Information' which refers to the broad definition previously given in the original text and now contradicts the narrowed definition in the Changed Text."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Personnel means any and all staﬀ, employees, directors, oﬃcers and professional advisors of a Party",
+        "changed_text": "Personnel means only full-time employees of a Party, excluding directors, officers, professional advisors, and any other non-employee staff.",
+        "explanation": "The original definition of 'Personnel' includes staff, employees, directors, officers, and professional advisors. The altered definition restricts it to *only* full-time employees. This change creates an in-text contradiction because sections concerning disclosure to personnel now have a much narrower scope, conflicting with the original intent. This create an in-text contradiction, since earlier it was agreed that the the definition included everyone, but now it's full-time employess only.",
+        "location": "1.1",
+        "contradicted_location": "4.1",
+        "contradicted_text": "A Receiving Party shall only disclose or reveal any Conﬁdential Information disclosed to it to those of its Personnel who are required in the course of their duties to receive and consider the same in so far as is necessary to fulﬁl the Purpose.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines 'Personnel' broadly. The changed text narrows the definition to only full-time employees, excluding directors, officers, advisors, and other non-employee staff. The contradicted text states that confidential information can be disclosed to 'Personnel'. The changed definition directly contradicts the original intent of who can receive confidential information, as many individuals who were previously considered 'Personnel' are no longer included, creating a strong in-text contradiction according to the 'Inconsistencies - In Text Contradiction' definition provided."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Purpose means any and all discussions and negotiations relating to a potential agreement between the Parties hereto as more particularly set out in Recital (A)",
+        "changed_text": "Purpose means the initial meeting held on [Date] to generally explore a potential business relationship. Any subsequent discussions or negotiations are explicitly excluded from this definition.",
+        "explanation": "The original definition of 'Purpose' is broad, encompassing all discussions and negotiations related to a potential agreement. The changed definition restricts it to *only* the initial meeting. This creates a conflict because the confidentiality obligations, which apply to information disclosed for the 'Purpose,' are now limited to the initial meeting only. Any other discussions are no longer protected.",
+        "location": "1.1",
+        "contradicted_location": "2.1",
+        "contradicted_text": "In consideration of each Party agreeing to supply the other Party with Conﬁdential Information for the Purpose, and in consideration of the mutual undertakings set out herein the Parties each hereby separately agree and irrevocably undertake to each other that they will only use Conﬁdential Information for the Purpose and otherwise to act in accordance with the terms and conditions hereinafter contained.",
+        "contradiction_exists": "YES",
+        "justification": "The original definition of 'Purpose' was broad, encompassing all discussions and negotiations. The changed definition restricts it to the initial meeting. The contradicted text states that confidential information is exchanged for the 'Purpose'. Because the changed definition limits 'Purpose' to the initial meeting, any subsequent discussions are no longer protected by the confidentiality obligations, creating a clear and direct conflict."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The Receiving Party shall, immediately upon receipt of Notice to that eﬀect: (a) return to the Disclosing Party all Conﬁdential Information (including all copies held); (b) destroy those portions (and all copies) of any analyses, compilations, studies, reports or other documents prepared by it for its use containing or reﬂecting or generated from, in whole or in part, any Conﬁdential Information; and (c) expunge and destroy any Conﬁdential Information from any computer, word processor or other device in its possession or custody or control containing such information.",
+        "changed_text": "The Receiving Party is required to return all Confidential Information within 30 days of the termination of the agreement. However, the Receiving Party is allowed to keep one copy of the Confidential Information for archival purposes, provided it remains secured and is not used for any commercial activity.",
+        "explanation": "The original text mandates the immediate return or destruction of Confidential Information upon notice. The changed text allows a 30-day grace period and permits the retention of one copy for archival purposes. This is a direct contradiction, as the Receiving Party is now allowed to *delay* the return and *keep* a copy, which was initially prohibited. This undermines the 'Return of Confidential Information' terms.",
+        "location": "8.1",
+        "contradicted_location": "8.1",
+        "contradicted_text": "The Receiving Party shall, immediately upon receipt of Notice to that eﬀect: (a) return to the Disclosing Party all Conﬁdential Information (including all copies held); (b) destroy those portions (and all copies) of any analyses, compilations, studies, reports or other documents prepared by it for its use containing or reﬂecting or generated from, in whole or in part, any Conﬁdential Information; and (c) expunge and destroy any Conﬁdential Information from any computer, word processor or other device in its possession or custody or control containing such information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. The original text, which is also the contradicted text, mandates immediate return/destruction of Confidential Information upon notice. The changed text introduces a 30-day grace period and allows keeping a copy for archival, creating a direct conflict with the original requirement of immediate return and complete destruction. This aligns with the 'Inconsistencies - In Text Contradiction' definition."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Each Party agrees to waive any objection to the English courts, whether on the grounds of venue, or on the grounds that the forum is not appropriate.",
+        "changed_text": "Each Party reserves the right to object to the jurisdiction of the English courts based on the grounds of venue or forum non conveniens.",
+        "explanation": "The original text contains a clause where each party waives their right to make an objection, whether on the grounds of venue, or on the grounds that the forum is not appropriate. The changed text now reserves the party's right to make such an objection. This in-text contradiction would lead to confusion and legal challenges.",
+        "location": "14.1",
+        "contradicted_location": "14.1",
+        "contradicted_text": "The Parties irrevocably agree that the English courts shall have the exclusive jurisdiction to settle any dispute arising out of or in connection with this Agreement. Each Party agrees to waive any objection to the English courts, whether on the grounds of venue, or on the grounds that the forum is not appropriate.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly waives the right to object to the English courts based on venue or forum. The changed text reserves this right. The contradicted text also states that each party agrees to waive any objection to the English courts, whether on the grounds of venue, or on the grounds that the forum is not appropriate, directly conflicting with the change. This meets the definition of 'Inconsistencies - In Text Contradiction' because different sections of the contract provide conflicting obligations, creating a strong in-text contradiction regarding which terms should be enforced."
+      }
+    ]
+  }
+]

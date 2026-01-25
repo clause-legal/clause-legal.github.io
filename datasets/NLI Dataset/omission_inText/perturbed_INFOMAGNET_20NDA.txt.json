@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "INFOMAGNET%20NDA.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "(a) \"Confidential Information\" means non public information that the Disclosing Party either designates as being confidential or which, under the circumstances surrounding disclosure ought to be treated as confidential. \"Confidential Information\" includes, without limitation, information relating to released or unreleased Disclosing Party software products, the marketing or promotion of any Disclosing Party product, Disclosing Party's business policies or practices, and information received from others that Disclosing Party is obligated to treat as confidential. Confidential Information disclosed to the Receiving Party by any Disclosing Party subsidiary and/or agents is al so covered by this Agreement.",
+        "changed_text": "(a) \"Confidential Information\" means information. Confidential Information disclosed to the Receiving Party by any Disclosing Party subsidiary and/or agents is al so covered by this Agreement.",
+        "explanation": "By removing the core definition of 'Confidential Information,' including its non-public nature and examples, the agreement loses its fundamental clarity. This omission contradicts later sections relying on a clear understanding of what constitutes 'Confidential Information,' specifically regarding restrictions on disclosure and permitted use. Now, 'information' is too ambiguous.",
+        "location": "1(a)",
+        "contradicted_location": "2(a)",
+        "contradicted_text": "(a) Receiving Party shall not disclose any Conf idential Information to any third parties for three (3) years following the date of its disclo sure by Disclosing Part y to Receiv ing Party, except to Receiving Party's consultants as set out below. However, Receiving Party may disclose Confidential Information in accordance with judicial or other governmental order, provided that the Receiving Part y shall give the Disclosing Part y reasonable notice prior to such disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the definition of 'Confidential Information', making it simply 'information'. The contradicted text states that the Receiving Party shall not disclose any 'Confidential Information'. Without a clear definition of 'Confidential Information', the obligation in the contradicted text becomes unenforceable because it's unclear what 'information' is protected, creating a strong in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "(b) Confidential Information shall not include any information that: (i) is or subsequently becomes publicly available without Receiving Pa rty's breach of any obligation owed to the Disclosing Party; (ii) became known to the Receiving Pa rty prior to Disc losing Party's disclosure of such information to Receiving Part y; (iii) became known to Receiving Party from a source other than Disclosing Party other than by breach of an obligation of confidentiality owed to Disclosing Party; or (iv) is independently developed or acquired legitimately by Receiving Party.",
+        "changed_text": "(b) Confidential Information shall not include any information that: (i) is or subsequently becomes publicly available without Receiving Pa rty's breach of any obligation owed to the Disclosing Party; (ii) became known to the Receiving Pa rty prior to Disc losing Party's disclosure of such information to Receiving Part y; or (iv) is independently developed or acquired legitimately by Receiving Party.",
+        "explanation": "By removing (iii), the agreement becomes internally contradictory. It now implies that information received from other sources *is* considered confidential, even if that source wasn't bound by confidentiality. This directly contradicts the intent of excluding information already known from confidentiality protection. The exclusion of (iii) creates uncertainty and liability.",
+        "location": "1(b)",
+        "contradicted_location": "1(a)",
+        "contradicted_text": "(a) \"Confidential Information\" means information. Confidential Information disclosed to the Receiving Party by any Disclosing Party subsidiary and/or agents is al so covered by this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes clause (iii) from the definition of 'Confidential Information', which previously excluded information received from other sources (not bound by confidentiality). The contradicted text defines 'Confidential Information' broadly. By removing (iii), the changed text now implicitly includes information received from non-confidential sources as confidential. This creates a direct conflict with the intent and scope of the original definition of Confidential Information in section (a), because it now implies information received from any source is considered confidential, regardless of any confidentiality obligation."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "(d) “Disclosing Party” is the party disclosi ng the Confidential Information and/or the Confidential Materials. (e) “Receiving Party” is the party in receip t of the Confidential Information and/or the Confidential Materials.",
+        "changed_text": "(d) “Disclosing Party” is the party. (e) “Receiving Party” is the party.",
+        "explanation": "Removing the crucial part of the definition about disclosing/receiving Confidential Information/Materials creates an in-text contradiction when other clauses refer to the actions or responsibilities of the Disclosing and Receiving Parties in relation to Confidential Information/Materials. It's unclear now what their responsibilities are, as the context is gone.",
+        "location": "1(d), 1(e)",
+        "contradicted_location": "3(a)",
+        "contradicted_text": "(a) Receiving Party shall noti fy Disclosing Party immediat ely upon discovery of any unauthorised use or disclosure of Confidential Information or Confidential Materials, or any other breach of this Agreement by Receiving Pa rty, and will co-operate with Disclosing Party in every reasonable way to help Disclosing Party regain possession of the Confidential Information and/or Confidential Materials and prevent its further unauthorised use.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the definitions of \"Disclosing Party\" and \"Receiving Party\" as those who disclose or receive Confidential Information/Materials, respectively. The contradicted text then imposes an obligation on the Receiving Party to notify the Disclosing Party upon unauthorized use/disclosure of Confidential Information/Materials. Because the changed text removes the context of Disclosing/Receiving parties with relation to Confidential information/materials, it introduces a contradiction. Without the definitions provided in the original text, the contradicted text is meaningless and therefore creates an in-text contradiction as defined in the Omissions - In Text Contradiction definition."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "However, Receiving Party may disclose Confidential Information in accordance with judicial or other governmental order, provided that the Receiving Part y shall give the Disclosing Part y reasonable notice prior to such disclosure.",
+        "changed_text": "However, Receiving Party may disclose Information in accordance with judicial or other governmental order.",
+        "explanation": "By removing the clause \"provided that the Receiving Part y shall give the Disclosing Part y reasonable notice prior to such disclosure.\", there is no longer a responsibility for the receiving party to inform when doing so. Which would imply a contradiction to previous sections where it states the need for reasonable security precautions.",
+        "location": "2(a)",
+        "contradicted_location": "2(b)",
+        "contradicted_text": "(b) Receiving Party shall take reasonable security precautions, at least as great as the precautions it takes to protect its own Confidential Information, to keep confidential the Confidential Information. Receiving Party may disclose Confidential Information or Confidential Materials only to Receiving Part y's employees or bona-fidae consultants on a need-to-know basis. Receiving Party will have executed or sh all execute appropriate written agreements with its employees and consultants sufficient to enable them to comp ly with all the provisions of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text required the Receiving Party to give notice to the Disclosing Party before disclosing Confidential Information under a judicial or governmental order. The changed text removes this notice requirement. The Contradicted Text states that the Receiving Party must take 'reasonable security precautions' to protect Confidential Information. By removing the notice requirement, the Receiving Party can disclose information without informing the Disclosing Party, potentially hindering the Disclosing Party's ability to take its own protective measures, thus creating a direct conflict with the obligation to take 'reasonable security precautions'."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Receiving Party will have executed or sh all execute appropriate written agreements with its employees and consultants sufficient to enable them to comp ly with all the provisions of this Agreement.",
+        "changed_text": "Receiving Party will have executed or sh all execute appropriate written agreements with its employees and consultants.",
+        "explanation": "Removing the phrase \"sufficient to enable them to comp ly with all the provisions of this Agreement\" weakens the obligation of the Receiving Party to ensure their employees/consultants are bound by the NDA's terms. While agreements exist, the omission suggests the agreements don't *have* to fully comply, contradicting the core intent of protecting confidential information. This makes the responsibility unclear.",
+        "location": "2(b)",
+        "contradicted_location": "2(a)",
+        "contradicted_text": "(a) Receiving Party shall not disclose any Conf idential Information to any third parties for three (3) years following the date of its disclo sure by Disclosing Part y to Receiv ing Party, except to Receiving Party's consultants as set out below. However, Receiving Party may disclose Information in accordance with judicial or other governmental order.",
+        "contradiction_exists": "YES",
+        "justification": "The original text obligated the Receiving Party to ensure agreements with employees/consultants were 'sufficient to enable them to comply with all the provisions of this Agreement.' The changed text removes this sufficiency requirement. The contradicted text states the Receiving Party cannot disclose confidential information except to consultants 'as set out below,' implying these consultants are bound by confidentiality. By removing the 'sufficiency' clause, the Receiving Party is no longer explicitly obligated to ensure consultant agreements bind them to all provisions, directly contradicting the expectation in the contradicted section that consultants are subject to the same confidentiality restrictions."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "(c) Receiving Party acknowledges that monetary damages may not be a sufficient remedy for unauthorised disclosure of Confidential Informat ion and that Disclosing Party shall be entitled, without waiving any other rights or remedies , to such compensation as may be deemed proper by a court of competent jurisdiction.",
+        "changed_text": "(c) Receiving Party acknowledges that monetary damages may not be a sufficient remedy for unauthorised disclosure of Confidential Informat ion and that Disclosing Party shall be entitled to such compensation as may be deemed proper by a court of competent jurisdiction.",
+        "explanation": "By removing \"without waiving any other rights or remedies\", the clause implies that the pursuit of \"such compensation\" *does* waive other rights or remedies. This contradicts the general legal principle that remedies can be cumulative unless explicitly stated otherwise. This places the disclosing party in a problematic situation, with uncertain compensation.",
+        "location": "3(c)",
+        "contradicted_location": "3(a)",
+        "contradicted_text": "(a) Receiving Party shall noti fy Disclosing Party immediat ely upon discovery of any unauthorised use or disclosure of Confidential Information or Confidential Materials, or any other breach of this Agreement by Receiving Pa rty, and will co-operate with Disclosing Party in every reasonable way to help Disclosing Party regain possession of the Confidential Information and/or Confidential Materials and prevent its further unauthorised use.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the Disclosing Party is entitled to compensation 'without waiving any other rights or remedies'. The changed text removes this phrase, implying that seeking compensation *does* waive other rights. The contradicted text, section (a), requires the Receiving Party to cooperate with the Disclosing Party to regain possession of Confidential Information if there is a breach. By removing the phrase 'without waiving any other rights or remedies', the Disclosing Party might be interpreted as waiving its right to cooperation from the Receiving Party if it chooses to pursue compensation. This creates a direct conflict, as the Disclosing Party's ability to enforce section (a) is now uncertain, fulfilling the conditions for an Omissions - In Text Contradiction."
+      }
+    ]
+  }
+]

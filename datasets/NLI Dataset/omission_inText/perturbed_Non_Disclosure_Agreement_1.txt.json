@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "Non_Disclosure_Agreement_1.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "7.0 Vendor shall not make use of this Agreement, or the University ’s name or that of any member of the University ’s staff , for publicity or advertising purposes without prior written approval of the University.",
+        "changed_text": "7.0 Vendor shall not make use of this Agreement, or the University ’s name for publicity or advertising purposes without prior written approval of the University.",
+        "explanation": "By removing 'or that of any member of the University’s staff', the Vendor is free to use staff member's names for publicity and advertising. This contradicts the wider intention of the NDA, which is to protect the university's confidential and proprietary information, because this can indirectly disclose confidential projects or information. Although the Agreement and the University's name are to not be used for publicity, staff names can still be exploited.",
+        "location": "7.0",
+        "contradicted_location": "9.0",
+        "contradicted_text": "9.0 The parties agree that irreparable harm may result if Vendor fails to abide by the confidentiality requirements set forth in the ag reement. In the event of a breach by Vendor of the confidentiality requirements of this Agreement, the University shall have the right to seek injunctive and/or other preliminary or equitable relief, without having to prove actual damages or to post a bond. Such relief shall be in addition to any other remedies and damages available to the University.",
+        "contradiction_exists": "YES",
+        "justification": "The original text prevents the vendor from using the University's name or the names of its staff for publicity without approval. The changed text removes the restriction on using staff names, allowing the Vendor to use staff names without approval, while still protecting the University's name. This contradicts section 9.0, which emphasizes the importance of confidentiality and preventing irreparable harm. The modified text permits a scenario (using staff names for publicity) that could indirectly disclose confidential information, thus conflicting with the overall intent of the agreement and creating a strong contradiction regarding confidentiality."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "11.0 This Agreement constitutes the entire understanding and agreement between the parties hereto with respect to the confidential nature of materials exchanged as part of assessing, discussing or otherwise exploring the Project and su persedes all previous communications, both oral and written, representations and understandings between the parties with respect to the subject matter of this Agreement. If any provisions of this Agreement are held to be invalid or unenforceable, they are to that extent to be deemed omitted and the remaining provisions of this Agreement will remain in full force and effect.",
+        "changed_text": "11.0 This Agreement constitutes the entire understanding and agreement between the parties hereto with respect to the confidential nature of materials exchanged as part of assessing, discussing or otherwise exploring the Project and su persedes all previous communications, both oral and written, representations and understandings between the parties with respect to the subject matter of this Agreement. If any provisions of this Agreement are held to be invalid or unenforceable, they will be omitted.",
+        "explanation": "By removing 'they are to that extent to be deemed omitted and the remaining provisions of this Agreement will remain in full force and effect', the removal of this clause makes the contract ambiguous. The contract no longer specifies what would happen if a particular component of the agreement is no longer in force. In contrast, it suggests any problems and the WHOLE agreement may become invalid. This contradicts the intent of enforcing the confidential nature of this agreement.",
+        "location": "11.0",
+        "contradicted_location": "11.0",
+        "contradicted_text": "11.0 This Agreement constitutes the entire understanding and agreement between the parties hereto with respect to the confidential nature of materials exchanged as part of assessing, discussing or otherwise exploring the Project and su persedes all previous communications, both oral and written, representations and understandings between the parties with respect to the subject matter of this Agreement. If any provisions of this Agreement are held to be invalid or unenforceable, they will be omitted.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified what happens if some provisions are invalid: they are omitted, and the rest of the agreement remains. The changed text removes this clause, only stating 'they will be omitted'. The Perturbation Explanation states that the removal of this clause makes the contract ambiguous and suggests that any problems could make the WHOLE agreement invalid. Because the changed text no longer specifies the same outcome as the original text, and contradicts the intent of enforcing the confidential nature of this agreement, there is a strong contradiction within the document, as well as the Changed Text and Contradicted Text being in the same location."
+      }
+    ]
+  }
+]

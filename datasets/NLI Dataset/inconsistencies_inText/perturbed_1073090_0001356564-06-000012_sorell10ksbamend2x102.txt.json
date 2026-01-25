@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "1073090_0001356564-06-000012_sorell10ksbamend2x102.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "5. Sales Price for Player: US$11.00 (Included Tooling Cost Depreciation US$1.00) a. The price is only for the player without map data Nand Flash Memory, Map Porting Cost and accessories. b. SCAM provides the giftbox design, and ANUBIS provides the cosmetic design for giftbox. c. SCAM and ANUBIS double check the price for accessories. d. The price will be discussed after 100,000 units production.",
+        "changed_text": "5. Sales Price for Player: US$11.00 (Included Tooling Cost Depreciation US$1.00) a. The price is only for the player including accessories. b. SCAM provides the giftbox design, and ANUBIS provides the cosmetic design for giftbox. c. SCAM and ANUBIS double check the price for accessories. d. The price will be discussed after 100,000 units production.",
+        "explanation": "Changing 'The price is only for the player without accessories' to 'The price is only for the player including accessories' introduces a contradiction about what is included in the price. The amended text causes confusion and a potential dispute about the actual cost of goods provided.",
+        "location": "SCHEDULE FOR BUSINESS AGREEMENT - 5a",
+        "contradicted_location": "SCHEDULE FOR BUSINESS AGREEMENT - 5a",
+        "contradicted_text": "5. Sales Price for Player: US$11.00 (Included Tooling Cost Depreciation US$1.00) a. The price is only for the player including accessories.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the sales price is for the player *without* accessories. The changed text modifies this to state that the sales price is for the player *including* accessories. This creates a direct contradiction. The contradicted text (which is the same as the changed text in this case) now directly conflicts with the original intention and introduces a strong inconsistency about what the sales price covers, as explained by the Perturbation Explanation."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "6. Performance Levels (Total 100,000 units from Jan 2006 to Dec 2006) a. Quarter 1 (Jan. 2006 - Mar. 2006): 50,000 units b. Quarter 2-4 (Apr. 2006 - Dec. 2006): 50,000 units",
+        "changed_text": "6. Performance Levels (Total 100,000 units from Jan 2006 to Dec 2006) a. Quarter 1 (Jan. 2006 - Mar. 2006): 25,000 units b. Quarter 2-4 (Apr. 2006 - Dec. 2006): 50,000 units",
+        "explanation": "Changing 'Quarter 1 (Jan. 2006 - Mar. 2006): 50,000 units' to 'Quarter 1 (Jan. 2006 - Mar. 2006): 25,000 units' creates an in-text contradiction. While the total units remain at 100,000, changing the distribution for quarter 1 contradicts the initially agreed upon quota. Because now instead of having the total of 100,000 units from Q1 to Q4, the quantity is now 75,000 units.",
+        "location": "SCHEDULE FOR BUSINESS AGREEMENT - 6a",
+        "contradicted_location": "SCHEDULE FOR BUSINESS AGREEMENT - 6a",
+        "contradicted_text": "6. Performance Levels (Total 100,000 units from Jan 2006 to Dec 2006) a. Quarter 1 (Jan. 2006 - Mar. 2006): 25,000 units",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the performance levels for Quarter 1 from 50,000 units to 25,000 units, while maintaining the same total target of 100,000 units. This creates a direct contradiction with the contradicted text, which states that Quarter 1 should have a quota of 25,000 units. The contradiction arises because the new distribution makes the stated total inconsistent, directly conflicting with the total output goal. As per the definition of Inconsistencies - In Text Contradiction, different sections of a contract provide conflicting obligations. Thus, this is a YES."
+      }
+    ]
+  }
+]

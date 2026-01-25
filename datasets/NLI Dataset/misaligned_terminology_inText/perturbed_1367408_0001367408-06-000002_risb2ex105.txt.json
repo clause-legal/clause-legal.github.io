@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "1367408_0001367408-06-000002_risb2ex105.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "In order to protect certain confidential information which may be disclosed by Raphael Industries, Inc (\"Company\") to Marketing Software Company (\"MSC\"), it is agreed that: 1. The confidential information disclosed by Company to MSC under this Agreement is described as: customer and prospective customer contact data (\"Information\").",
+        "changed_text": "In order to protect certain confidential information which may be disclosed by Raphael Industries, Inc (\"Raphael\") to Marketing Software Company (\"MSC\"), it is agreed that: 1. The confidential information disclosed by Raphael to MSC under this Agreement is described as: customer and prospective customer contact data (\"Information\").",
+        "explanation": "The term \"Company\" is replaced with \"Raphael\". This creates an in-text contradiction because the rest of the document still refers to \"Company\", leading to confusion about which entity is bound by the agreement. This is a contradiction, because in the document in some place Company is reffered and in other places Raphael is reffered",
+        "location": "Paragraph 1",
+        "contradicted_location": "Paragraph 4",
+        "contradicted_text": "MSC recognizes that the Information is the sole property of Company, is confidential, and is to be held by MSC in the strictest confidence.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines 'Company' as Raphael Industries, Inc. The changed text replaces 'Company' with 'Raphael'. The contradicted text refers to 'Company' owning the Information. Since the document now inconsistently refers to the same entity as both 'Company' and 'Raphael', it creates ambiguity and contradicts the contradicted text where only 'Company' is mentioned as the owner of the Information, leading to confusion about which entity is the owner. This aligns with the definition of Misaligned Terminology - In Text Contradiction, as it uses multiple terms interchangeably without defining them and creates conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "MSC shall protect the Information by using the same degree of care, but no less than a reasonable degree of care, to prevent the unauthorized use, dissemination or publication of the Information as MSC uses to protect its own confidential information of a like nature.",
+        "changed_text": "MSC shall safeguard the Information by using a commercially reasonable effort, but no less than a reasonable degree of care, to prevent the unauthorized use, dissemination or publication of the Information as MSC uses to protect its own confidential information of a like nature.",
+        "explanation": "The term \"protect\" is replaced with \"safeguard\" and \"the same degree of care\" is replaced with \"a commercially reasonable effort\". While both mean similar things, the change introduces ambiguity as 'safeguard' can be argued to be a lower standard than 'protect' which is the term used in other sections and 'commercially reasonable effort' is more vague than 'the same degree of care' which is creating a subtle contradiction in standards. The contradiction is found when comparing paragraph 2 and 4, where paragraph 4 reaffirms strictest confidence.",
+        "location": "Paragraph 2",
+        "contradicted_location": "Paragraph 4",
+        "contradicted_text": "MSC recognizes that the Information is the sole property of Company, is confidential, and is to be held by MSC in the strictest confidence.",
+        "contradiction_exists": "YES",
+        "justification": "The original text used \"the same degree of care\" and the word \"protect\", while the changed text uses \"a commercially reasonable effort\" and \"safeguard\". The changed text contradicts the contradicted text because \"a commercially reasonable effort\" is a weaker standard than the original standard, and \"safeguard\" can be interpreted as requiring less stringent measures than \"protect.\" The contradicted text states that MSC must hold the information \"in the strictest confidence,\" which implies a high standard of care. The changed text allows for a lower, potentially less strict, standard of care, thereby contradicting the requirement of holding the information in the \"strictest confidence.\""
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement imposes no obligation upon MSC with respect to the Information which (a) was in MSC's possession before receipt from the Company; (b) is or becomes a matter of public knowledge through no fault of MSC; (c) is rightfully received by MSC from a third party without a duty of confidentiality; (d) is disclosed by the Company to a third party without a duty of confidentiality on the third party; (e) is independently developed by MSC; (f) is disclosed under operation of law; or (g) is disclosed by MSC with the Company's prior approval.",
+        "changed_text": "This Agreement imposes no obligation upon MSC with respect to the Data which (a) was in MSC's possession before receipt from the Company; (b) is or becomes a matter of public knowledge through no fault of MSC; (c) is rightfully received by MSC from a third party without a duty of confidentiality; (d) is disclosed by the Company to a third party without a duty of confidentiality on the third party; (e) is independently developed by MSC; (f) is disclosed under operation of law; or (g) is disclosed by MSC with the Company's prior approval.",
+        "explanation": "The term \"Information\" is replaced with \"Data\". This introduces an in-text contradiction since the agreement initially defines what \"Information\" means. Using \"Data\" creates uncertainty and could be interpreted differently, therefore, weakening the contract, leading to conflicting interpretations. \"Data\" is not defined, and the contrast occurs in paragraph 1, where \"Information\" is defined.",
+        "location": "Paragraph 3",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "The confidential information disclosed by Company to MSC under this Agreement is described as: customer and prospective customer contact data (\"Information\").",
+        "contradiction_exists": "YES",
+        "justification": "The original text uses 'Information' which is defined in the contradicted text as 'customer and prospective customer contact data'. The changed text replaces 'Information' with 'Data', which is not defined within the contract. This creates a contradiction because the obligations regarding the undefined 'Data' are now unclear, potentially conflicting with the established obligations regarding the defined 'Information'. The original text clearly defined 'Information', and using 'Data' undermines this definition, leading to conflicting interpretations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "MSC recognizes that the Information is the sole property of Company, is confidential, and is to be held by MSC in the strictest confidence.",
+        "changed_text": "MSC acknowledges that the Data is the sole possession of Raphael, is confidential, and will be kept by MSC in strict confidence.",
+        "explanation": "\"Information\" is changed to \"Data,\" \"recognizes\" is changed to \"acknowledges\", \"property\" is changed to \"possession\", \"Company\" is changed to \"Raphael\", and \"strictest confidence\" is changed to \"strict confidence\". This creates contradictions. The contract now has some clauses referring to 'Information' as Raphael's \"property\" and in other places it's referred to as 'Data' in Raphael's \"possession\". Furthermore, reducing the standard from \"strictest\" to \"strict\" creates another contradiction. All these differences make the terms uncertain, which weakens the contract because it becomes hard to enforce. Contradicting the definitions in paragraph 1.",
+        "location": "Paragraph 4",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "The confidential information disclosed by Company to MSC under this Agreement is described as: customer and prospective customer contact data (\"Information\").",
+        "contradiction_exists": "YES",
+        "justification": "The change from \"Information\" to \"Data\" and from \"Company\" to \"Raphael\", along with the change in the standard of confidence, creates a direct contradiction with the contradicted text. The contradicted text specifically defines \"Information\" as customer and prospective customer contact data disclosed by \"Company\". The changed text now refers to \"Data\" as Raphael's \"possession\", creating a misalignment in terminology as well as conflicting obligations. Furthermore, the change from \"strictest\" to \"strict\" creates further inconsistencies which falls under the definition of 'Misaligned Terminology - In Text Contradiction' as the contract uses multiple terms interchangeably without defining them, leading to conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "MSC recognizes that the Information constitutes a valuable property of the Company. MSC agrees that it will not permit any person, firm or corporation to use, copy or reproduce in any manner whatsoever any part of the Information, except to the extent that the Information must be reproduced by MSC in performing its data processing services.",
+        "changed_text": "MSC acknowledges that the Data constitutes a valuable possession of Raphael. MSC agrees that it will not permit any person, firm or corporation to use, copy or reproduce in any manner whatsoever any part of the Data, except to the extent that the Data must be reproduced by MSC in performing its processing services.",
+        "explanation": "\"Information\" changed to \"Data,\" \"recognizes\" changed to \"acknowledges\", \"property\" changed to \"possession\", \"Company\" changed to \"Raphael\", and \"data processing services\" to \"processing services\". These change create further in-text contradictions from the previous change, because the original terms are used in other sections, and these changes create uncertainty, thereby weakening the contract, as it is difficult to enforce the agreement. ",
+        "location": "Paragraph 5",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "The confidential information disclosed by Company to MSC under this Agreement is described as: customer and prospective customer contact data (\"Information\").",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Information' with 'Data' and 'Company' with 'Raphael'. The contradicted text defines 'Information' as 'customer and prospective customer contact data' disclosed by 'Company' to MSC. The change introduces a contradiction because the contradicted text specifically refers to 'Information' and 'Company', terms no longer consistently used in the changed text, leading to ambiguity about what the contract refers to. This misaligned terminology creates an in-text contradiction as defined in the instructions, impacting the clarity and enforceability of the contract."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement is made under and shall be construed according to the laws of the State of California.",
+        "changed_text": "This Contract is made under and shall be construed according to the laws of the State of Delaware.",
+        "explanation": "The term \"Agreement\" is changed to \"Contract\", while the document is still reffering to the document as Agreement. Furthermore, the term \"California\" changed to \"Delaware\". This creates confusion and uncertainty about which jurisdiction governs the agreement, because of the mixture between Agreement and Contract. This change is a significant contradiction because it affects the interpretation and enforcement of the entire contract. In this case it is creating a contradiction, because at the begining is said the agreement is under california law, but at the end it says it's from delaware.",
+        "location": "Paragraph 7",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "In order to protect certain confidential information which may be disclosed by Raphael Industries, Inc (\"Company\") to Marketing Software Company (\"MSC\"), it is agreed that: 1. The confidential information disclosed by Company to MSC under this Agreement is described as: customer and prospective customer contact data (\"Information\").",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the governing law from California to Delaware and also changes the term 'Agreement' to 'Contract'. The contradicted text refers to 'Agreement'. This misalignment in terminology and the change in jurisdiction create a direct contradiction. The contract initially states it's under California law, but the change suggests it's under Delaware law. This is a strong contradiction because it creates confusion about the governing law and the defined term Agreement, directly impacting the interpretation and enforcement of the entire contract, as well as breaking compatibility with the contradicted section that uses the original term 'Agreement'."
+      }
+    ]
+  }
+]

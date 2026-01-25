@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "1101204_0001085037-00-000208_0015.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "To be covered hereunder, Information disclosed in writing must be marked \"proprietary\", \"confidential\", or by words of similar import. Information disclosed orally or visually and identified at the time as proprietary or confidential shall be covered hereunder if it is reduced to writing, marked as provided herein, and transmitted to Receiving Party within thirty (30) days after disclosure.",
+        "changed_text": "To be covered hereunder, Information disclosed in writing must be marked \"proprietary\", \"confidential\", or by words of similar import. Regardless of whether information disclosed orally or visually is identified at the time as proprietary or confidential, it doesn't need to be written to be covered hereunder, if it is, it will be covered after disclosure.",
+        "explanation": "The original clause requires oral disclosures to be reduced to writing to be covered. The changed text states any information whether oral or visual are to be covered regardless of whether the disclosure is made, therefore creating an in-text contradiction. This contradiction undermines the requirements for protecting oral disclosures, and specifically creates a conflict with section 1, where information covered is only written and not oral disclosures.",
+        "location": "1",
+        "contradicted_location": "1",
+        "contradicted_text": "Information: As used herein the term \"Information\" includes any and all technology, information, knowledge or data whether oral, written, in a physical form or otherwise, which is disclosed for the purpose set forth above and which is identified by the Disclosing Party at the time of disclosure as being proprietary and/or confidential. \"Data\" includes notes, designs, drawings, documentation, flow charts, writings, specifications, memoranda, computer software and other similar data. To be covered hereunder, Information disclosed in writing must be marked \"proprietary\", \"confidential\", or by words of similar import. Regardless of whether information disclosed orally or visually is identified at the time as proprietary or confidential, it doesn't need to be written to be covered hereunder, if it is, it will be covered after disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates written documentation for oral disclosures to be covered, aligning with the initial definition of 'Information' as written. The changed text eliminates the written requirement for oral disclosures, directly contradicting the original text's stipulation and thus introducing an in-text contradiction as information disclosed orally or visually does not need to be written to be covered hereunder."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Because of the trade secret subject matter of Entera's business, Disclosee agrees that it will not solicit the services of any of the employees of Entera during the term of this Agreement and for ninety (90) days thereafter.",
+        "changed_text": "Because of the trade secret subject matter of Entera's business, Disclosee agrees that it will not solicit the services of any of the employees of Entera during the term of this Agreement, however the disclosee will be able to do so from (91) days thereafter.",
+        "explanation": "The original agreement prevents solicitation for 90 days after the agreement. This is contradictory because of the change on article 6, where the agreement term is now on (1) day.",
+        "location": "5",
+        "contradicted_location": "6",
+        "contradicted_text": "This Agreement is effective until terminated in accordance with this Article. Either Party, upon one (1) days notice in writing to the other Party, may terminate the Agreement with respect to disclosures made thereafter. The rights and obligations of the Parties hereunder in respect of Information received under and subject to the Agreement shall survive such termination.",
+        "contradiction_exists": "YES",
+        "justification": "The original text prevented solicitation for 90 days after the agreement's term. The changed text modifies this to allow solicitation after 91 days. However, the 'Contradicted Text' states the agreement can be terminated with one (1) day's notice, per Article [missing]. This creates a contradiction because the non-solicitation clause's 90-day (now 91-day) post-termination period is inconsistent with the agreement potentially ending much sooner, therefore creating uncertainty regarding the term and enforceability of the non-solicitation agreement."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement is effective until terminated in accordance with this Article. Either Party, upon two (2) days notice in writing to the other Party, may terminate the Agreement with respect to disclosures made thereafter.",
+        "changed_text": "This Agreement is effective until terminated in accordance with this Article. Either Party, upon one (1) days notice in writing to the other Party, may terminate the Agreement with respect to disclosures made thereafter.",
+        "explanation": "The original text requires two days' notice for termination. The modification changes this to one day's notice, creating an internal contradiction. It is contradictory with section 5, as the duration of time for a 90 day restriction of solicitation will almost never happen, since the agreement can be terminated after one day.",
+        "location": "6",
+        "contradicted_location": "5",
+        "contradicted_text": "Because of the trade secret subject matter of Entera's business, Disclosee agrees that it will not solicit the services of any of the employees of Entera during the term of this Agreement and for ninety (90) days thereafter.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text changes the termination notice period from two days to one day. The contradicted text states that Disclosee cannot solicit employees for 90 days *after* the termination of the agreement. With only one day's notice for termination, the agreement could be terminated very quickly, meaning the 90-day non-solicitation period would almost never fully apply, creating a contradiction and making the non-solicitation clause practically unenforceable."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "No Information submitted and/or exchanged by the Parties shall constitute any representation, warranty, assurance, guarantee or inducement by either party to the other with respect to infringement of trademarks, patents, copyrights or any right of privacy, or any rights of third persons.",
+        "changed_text": "Information exchanged shall constitute a guarantee of non-infringement of trademarks, patents, and copyrights. However, no warranty is provided regarding rights of privacy or rights of third persons.",
+        "explanation": "The original clause explicitly states that information exchanged does NOT constitute any guarantee regarding intellectual property rights. The changed text directly contradicts this by stating that information exchanged DOES guarantee non-infringement of trademarks, patents, and copyrights. This creates a direct conflict with the original intent of the agreement stated on section 8.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "No Information submitted and/or exchanged by the Parties shall constitute any representation, warranty, assurance, guarantee or inducement by either party to the other with respect to infringement of trademarks, patents, copyrights or any right of privacy, or any rights of third persons. Information exchanged shall constitute a guarantee of non-infringement of trademarks, patents, and copyrights. However, no warranty is provided regarding rights of privacy or rights of third persons.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the original text and, consequently, the contradicted text. The original text states that exchanged information does NOT constitute a guarantee, while the changed text explicitly states that it DOES constitute a guarantee of non-infringement for trademarks, patents, and copyrights. This is a clear and direct conflict, making the contract ambiguous and potentially unenforceable."
+      }
+    ]
+  }
+]

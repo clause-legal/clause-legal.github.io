@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "QuickBooks-NDA-template.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Company and Third Party each agree not to use the Confidential Information disclosed to it by the other party for its own use or for any purpose except to carry out discussions concerning and the undertaking of any business relationship between the two.",
+        "changed_text": "The Corporation and External Vendor both commit to refrain from employing the Protected Data shared by the other solely for their own advantage or any purpose beyond engaging in talks and initiating a potential partnership.",
+        "explanation": "Changing 'Company' to 'Corporation', 'Third Party' to 'External Vendor', and 'Confidential Information' to 'Protected Data'. This creates inconsistency with later sections that still refer to the original terms, especially since the new terms were redefined earlier",
+        "location": "3",
+        "contradicted_location": "11",
+        "contradicted_text": "All notices hereunder shall be sent to either party at the address and to the contact person specified below, or such other address or contact person as the respective party may specify from time to time in accordance with the provisions of this Agreement. IN WITNESS WHEREOF, each of the parties has signed this Non-disclosure Agreement as of the date first above written. Company: __________________________________________________________ Signature: __________________________________________________________ Name: _____________________________________________________________ Title: ______________________________________________________________ Address: ___________________________________________________________ ___________________________________________________________________ Third Party Company: _________________________________________________ Signature: __________________________________________________________ Name: _____________________________________________________________ Title: _______________________________________________________________ Address: ____________________________________________________________ ____________________________________________________________________",
+        "contradiction_exists": "YES",
+        "justification": "The change replaces 'Company' with 'Corporation', 'Third Party' with 'External Vendor', and 'Confidential Information' with 'Protected Data'. The contradicted text still uses the original terms ('Company', 'Third Party Company'). This misaligned terminology creates a direct contradiction because the contract now refers to entities and information using different names, leading to confusion about which entities are bound by the agreement and which data is considered confidential. This aligns with the definition of 'Misaligned Terminology - In Text Contradiction'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "All Confidential Information shall remain the exclusive property of Disclosing Party, and Recipient shall have no right to use Confidential Information except as provided herein.",
+        "changed_text": "All Sensitive Data will remain the sole domain of the Data Provider; the User is granted no authority to utilize Sensitive Data beyond what is explicitly outlined here.",
+        "explanation": "Replace 'Confidential Information' with 'Sensitive Data', 'Disclosing Party' with 'Data Provider', and 'Recipient' with 'User'. While seemingly parallel, these changes are never defined as being the same entities. This leads to confusion when the contract refers back to 'Confidential Information'.",
+        "location": "4",
+        "contradicted_location": "6",
+        "contradicted_text": "Nothing in this Agreement is intended to grant any rights under any patent or copyright of either party, nor shall this Agreement grant either party any rights in or to the other partyʼs Confidential Information, except the limited right to review such Confidential Information solely for the purposes of determining whether to enter into the proposed business relationship between the parties and in carrying out such relationship. The disclosing party warrants that it has the right to disclose its Confidential Information to the receiving party. Otherwise, all information is provided “as is” and without any warranty, express, implied or otherwise, regarding its accuracy or performance.",
+        "contradiction_exists": "YES",
+        "justification": "The change replaces 'Confidential Information' with 'Sensitive Data' without explicitly defining them as equivalent. The contradicted text refers to 'Confidential Information', and because the contract now uses 'Sensitive Data' instead, there is no clear connection between the two. This creates a contradiction because it is unclear whether the restrictions and allowances outlined in the contradicted section apply to 'Sensitive Data', rendering the term's usage inconsistent and creating a potential conflict. This aligns with the 'Misaligned Terminology' definition, as the contract uses multiple terms interchangeably without defining them, leading to conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The disclosing party warrants that it has the right to disclose its Confidential Information to the receiving party.",
+        "changed_text": "The sharing entity guarantees they are authorized to provide their Private Data to the receiving body.",
+        "explanation": "Altered the wording to use: 'sharing entity' instead of 'disclosing party', 'Private Data' instead of 'Confidential Information' and 'receiving body' instead of 'receiving party'. These terms are being used interchangeably. It creates confusion about the obligations and rights related to the information being shared.",
+        "location": "6",
+        "contradicted_location": "9",
+        "contradicted_text": "This Agreement shall be binding upon and for the benefit of the undersigned parties, their successors and assigns provided that Confidential Information may not be assigned without consent of the disclosing party. Failure to enforce any provision of this Agreement shall not constitute a waiver of any term hereof. This Agreement shall be governed by and construed and enforced in accordance with the laws of the State/Territory ____________________________________________ as they apply to contracts entered into and wholly to be performed in the State/Territory of _______________________________________. The Federal and State courts within the State/Territory of _________________________________________ shall have exclusive jurisdiction to adjudicate any dispute arising out of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The change replaces 'disclosing party' with 'sharing entity', 'Confidential Information' with 'Private Data', and 'receiving party' with 'receiving body'. The contradicted text uses the original terms 'disclosing party' and 'Confidential Information'. The explanation states that these terms are being used interchangeably, creating confusion. Because these terms were replaced without explicit redefinition in the modified text, and the contradicted text continues to rely on the original terms to determine obligations and rights, the modified text does create a strong in-text contradiction based on the definition of Misaligned Terminology."
+      }
+    ]
+  }
+]

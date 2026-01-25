@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "1011344_0001193125-08-097987_dex99d5.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "All Confidential Information (including all copies thereof) shall remain the property of Discloser. All copies shall bear all proprietary markings contained on or in the originals. Upon the request of Discloser, Recipient shall, at Recipient’s option, either (a) return such materials to Discloser, or (b) certify the destruction thereof.",
+        "changed_text": "All Confidential Information (including all copies thereof) shall remain the property of Originator. All copies shall bear all proprietary markings contained on or in the originals. Upon the request of Discloser, Recipient shall, at Recipient’s option, either (a) return such materials to Discloser, or (b) certify the destruction thereof.",
+        "explanation": "The term 'Discloser' is changed to 'Originator', but the rest of the sentences still refers to 'Discloser'. This creates an ambiguity as to which entity holds the ownership of the confidential information, as the definition in Section 4 now uses 'Originator' while the definition still refers to 'Discloser' in the same section. This introduces uncertainty regarding which entity holds the ownership tied to disclosure.",
+        "location": "Section 4",
+        "contradicted_location": "Section 4",
+        "contradicted_text": "All Confidential Information (including all copies thereof) shall remain the property of Originator. All copies shall bear all proprietary markings contained on or in the originals. Upon the request of Discloser, Recipient shall, at Recipient’s option, either (a) return such materials to Discloser, or (b) certify the destruction thereof.",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'Discloser', and the contradicted text refers to 'Originator'. The changed text changes 'Discloser' to 'Originator' in the first sentence but keeps 'Discloser' in the following sentences in the same section, which refers to the request of 'Discloser'. Since the Contradicted Text uses 'Originator' in the first sentence while the Changed Text has both, and the explanation explicitly mentions that this creates an ambiguity as to which entity holds the ownership of the confidential information because both 'Originator' and 'Discloser' are now used within the same section, this leads to a Misaligned Terminology contradiction, as defined in the instructions."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Each party acknowledges that the other party may currently or in the future be developing information internally, or receiving information from third parties, that is similar to the Confidential Information. Nothing in this Agreement will prohibit Recipient from developing or having developed for it products, concepts, systems or techniques that are similar to those contemplated by or embodied in the Confidential Information, provided the Recipient does not violate its obligations under this Agreement.",
+        "changed_text": "Each party acknowledges that the other party may currently or in the future be developing information internally, or receiving information from third parties, that is similar to the Sensitive Information. Nothing in this Agreement will prohibit Recipient from developing or having developed for it products, concepts, systems or techniques that are similar to those contemplated by or embodied in the Confidential Information, provided the Recipient does not violate its obligations under this Agreement.",
+        "explanation": "The term 'Confidential Information' is changed to 'Sensitive Information', while still refering to 'Confidential Information' in the next statement. This creates confusion and makes the statement contradictory. ",
+        "location": "Section 5",
+        "contradicted_location": "Section 5",
+        "contradicted_text": "Each party acknowledges that the other party may currently or in the future be developing information internally, or receiving information from third parties, that is similar to the Sensitive Information. Nothing in this Agreement will prohibit Recipient from developing or having developed for it products, concepts, systems or techniques that are similar to those contemplated by or embodied in the Confidential Information, provided the Recipient does not violate its obligations under this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Confidential Information' to 'Sensitive Information' in the first part of the sentence, while still referring to 'Confidential Information' in the second part, creates a direct conflict. The contradicted text contains this same change, which indicates that there's a contradiction within the contract. The document inconsistently uses the terms 'Sensitive Information' and 'Confidential Information', implying they are interchangeable in one part but treating them as distinct in another, which fits the definition of 'Misaligned Terminology - In Text Contradiction'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Recipient hereby acknowledges and agrees that no remedy at law will afford Discloser adequate protection against, or appropriate compensation for, breach of Recipient’s obligations under this Agreement. Accordingly, Recipient agrees that Discloser shall be entitled to specific performance of Recipient’s obligations, as well as such further equitable relief as may be granted by a court of competent jurisdiction.",
+        "changed_text": "Recipient hereby acknowledges and agrees that no remedy at law will afford Provider adequate protection against, or appropriate compensation for, breach of Recipient’s obligations under this Contract. Accordingly, Recipient agrees that Discloser shall be entitled to specific performance of Recipient’s obligations, as well as such further equitable relief as may be granted by a court of competent jurisdiction.",
+        "explanation": "In this section, 'Discloser' has been changed to 'Provider' at the begining of the text, while it still refers to 'Discloser', introducing ambiguity about which party is entitled to legal remedies. Furthermore, since the contract referes to the document itself as 'Agreement', but also uses 'Contract', making this section contradictory. ",
+        "location": "Section 7",
+        "contradicted_location": "Section 7",
+        "contradicted_text": "Recipient hereby acknowledges and agrees that no remedy at law will afford Provider adequate protection against, or appropriate compensation for, breach of Recipient’s obligations under this Contract. Accordingly, Recipient agrees that Discloser shall be entitled to specific performance of Recipient’s obligations, as well as such further equitable relief as may be granted by a court of competent jurisdiction.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces ambiguity by changing 'Discloser' to 'Provider' at the beginning of the section while still referring to 'Discloser' later in the same sentence. This directly contradicts the contradicted text, which uses both terms inconsistently. Furthermore, the explanation states that using both 'Agreement' and 'Contract' creates contradiction, which satisfies the definition of 'Misaligned Terminology - In Text Contradiction', because multiple terms are used interchangeably without defining them, leading to conflicting obligations."
+      }
+    ]
+  }
+]

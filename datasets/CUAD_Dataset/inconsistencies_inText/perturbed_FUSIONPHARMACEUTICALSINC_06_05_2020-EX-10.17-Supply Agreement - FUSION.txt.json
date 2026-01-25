@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "FUSIONPHARMACEUTICALSINC_06_05_2020-EX-10.17-Supply Agreement - FUSION.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "FUSION shall pay such invoice within [***] of receipt of the invoice in accordance with the Supply Agreement",
+        "changed_text": "FUSION shall pay such invoice within [***] of receipt of the invoice in accordance with the Supply Agreement, unless otherwise negotiated in writing by both parties.",
+        "explanation": "This change adds a contingency that payment terms can be negotiated and potentially changed in writing. This introduces uncertainty and contradicts the original fixed payment term, because the phrase 'unless otherwise negotiated in writing by both parties,' directly creates the possibility for an alternative payment deadline. This contradicts the expectation of consistent application of the initial deadline, making it ambiguous when the original payment is valid and when it can be changed.",
+        "location": "3.5",
+        "contradicted_location": "3.5",
+        "contradicted_text": "For supply of Product, CPDC shall invoice FUSION [***]. CPDC shall send such invoices to: Address: 270 Longwood Rd. South Hamilton, Ontario L8P 0J6 Canada [***] FUSION shall pay such invoice within [***] of receipt of the invoice in accordance with the Supply Agreement, unless otherwise negotiated in writing by both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds a condition ('unless otherwise negotiated in writing by both parties') to the payment terms, which directly contradicts the expectation of a fixed payment term initially described. This introduces ambiguity and inconsistency in the contract regarding payment deadlines, aligning with the definition of 'Inconsistencies - In Text Contradiction' where 'different sections of a contract provide conflicting deadlines'. The contradicted text, which initially establishes a payment deadline, is now undermined by the potential for alternative payment schedules. This change creates a direct conflict as it's unclear when the original deadline applies and when the negotiated one supersedes it."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Affiliate(s) shall exclude CPDC, when referring to FUSION'S affiliates, and shall exclude FUSION, when referring to CPDC's affiliates.",
+        "changed_text": "Affiliate(s) shall exclude CPDC, when referring to FUSION'S affiliates for purposes of liability, and shall exclude FUSION, when referring to CPDC's affiliates for purposes of intellectual property rights.",
+        "explanation": "The modification introduces a contradiction by limiting the exclusion of affiliates to specific scenarios (liability for Fusion and intellectual property for CPDC). This implies that for other matters, such as revenue sharing or resource allocation, the definition of affiliate might include CPDC for Fusion and Fusion for CPDC. This contradicts the intention of keeping the two entities separate in all affiliate-related contexts, which creates ambiguity in how the affiliate exclusion should apply and could lead to disputes over obligations.",
+        "location": "2.1",
+        "contradicted_location": "2.1",
+        "contradicted_text": "Affiliate(s) shall exclude CPDC, when referring to FUSION'S affiliates for purposes of liability, and shall exclude FUSION, when referring to CPDC's affiliates for purposes of intellectual property rights.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states a general exclusion of affiliates. The changed text limits this exclusion to specific circumstances (liability and intellectual property rights), which implies that in other contexts like revenue sharing or resource allocation, the affiliate definition might include the otherwise excluded entities. This directly contradicts the intention of a complete separation stated in the original text, leading to ambiguity and potential disputes. Since the contradicted text is in the same location as the changed text, but a contradiction was indeed created due to the change, it still qualifies as a YES."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The Parties shall confer with each other with respect to the best means to implement and comply with such requirements. Any reasonable costs for modifications or additions to the facility required as a result of new regulatory requirements shall be borne by [***].",
+        "changed_text": "The Parties shall confer with each other with respect to the best means to implement and comply with such requirements. Any reasonable costs for modifications or additions to the facility required as a result of new regulatory requirements shall be borne by [***], provided that FUSION's consent to such costs is obtained in advance, such consent not to be unreasonably withheld, unless FUSION can prove that the modifications or additions are not beneficial to FUSION.",
+        "explanation": "The added condition that FUSION's consent must be obtained for covering facility modification costs introduces an in-text contradiction. While the original clause assigns the financial burden, the added condition allows FUSION to potentially avoid these costs if they deem them unnecessary. This contradicts the initial assignment of cost responsibility, leading to uncertainty about who ultimately bears the cost of regulatory compliance upgrades and it contradicts the original intent, which creates ambiguity about who ultimately bears the cost of regulatory compliance upgrades.",
+        "location": "4.8",
+        "contradicted_location": "4.8",
+        "contradicted_text": "Each Party shall promptly notify the other of new regulatory requirements of which it becomes aware which are relevant to the manufacture of any Product under this Agreement and which are required by the Regulatory Authorities, as applicable. The Parties shall confer with each other with respect to the best means to implement and comply with such requirements. Any reasonable costs for modifications or additions to the facility required as a result of new regulatory requirements shall be borne by [***], provided that FUSION's consent to such costs is obtained in advance, such consent not to be unreasonably withheld, unless FUSION can prove that the modifications or additions are not beneficial to FUSION.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states costs 'shall be borne by'. The changed text introduces a condition that allows FUSION to potentially avoid these costs if they deem them unnecessary. This conditional obligation directly contradicts the original assignment of cost responsibility. The contradicted text is identical to the changed text, however the change introduces a condition, leading to uncertainty about who ultimately bears the cost of regulatory compliance upgrades. Therefore, a strong in-text contradiction exists."
+      }
+    ]
+  }
+]

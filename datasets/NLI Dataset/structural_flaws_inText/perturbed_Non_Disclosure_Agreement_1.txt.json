@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "Non_Disclosure_Agreement_1.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "5.0 The Confidential Information shall be and remain the property of the Disclosing Party and will be returned to the Disclosing Party immediately, upon written request, or destroyed, at the Disclosing Party’s option. That portion of the Disclo sing Party’s Confidential Information which consists of analyses, compilations, studies or other documents or records prepared by the Recipient, or its representatives , shall be held by the Recipient and kept confidential and subject to the terms of this A greement, or shall be destroyed.",
+        "changed_text": "5.0 The Confidential Information shall be and remain the property of the Disclosing Party and will be returned to the Disclosing Party immediately, upon written request, or destroyed, at the Disclosing Party’s option. That portion of the Disclo sing Party’s Confidential Information which consists of analyses, compilations, studies or other documents or records prepared by the Recipient, or its representatives , shall be held by the Recipient and kept confidential and subject to the terms of this A greement, or may be used for internal purposes.",
+        "explanation": "The original text indicates that any analyses, compilations, or studies prepared by the Recipient based on the Disclosing Party's confidential information must be either kept confidential or destroyed. The change introduces the possibility of using this information for internal purposes, which contradicts the initial requirement of maintaining strict confidentiality or destroying the material. This creates uncertainty about how the Recipient can use the confidential information.",
+        "location": "5.0",
+        "contradicted_location": "5.0",
+        "contradicted_text": "5.0 The Confidential Information shall be and remain the property of the Disclosing Party and will be returned to the Disclosing Party immediately, upon written request, or destroyed, at the Disclosing Party’s option. That portion of the Disclo sing Party’s Confidential Information which consists of analyses, compilations, studies or other documents or records prepared by the Recipient, or its representatives , shall be held by the Recipient and kept confidential and subject to the terms of this A greement, or may be used for internal purposes.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that analyses, compilations, or studies prepared by the Recipient based on the Disclosing Party's confidential information must be kept confidential or destroyed. The changed text introduces the possibility of using this information for internal purposes. This change contradicts the initial strict requirement of maintaining confidentiality or destruction. Because the Changed Text is the same as the Contradicted Text, the change clearly creates an in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "9.0 The parties agree that irreparable harm may result if Vendor fails to abide by the confidentiality requirements set forth in the ag reement. In the event of a breach by Vendor of the confidentiality requirements of this Agreement, the University shall have the right to seek injunctive and/or other preliminary or equitable relief, without having to prove actual damages or to post a bond. Such relief shall be in addition to any other remedies and damages available to the University.",
+        "changed_text": "9.0 The parties agree that irreparable harm may result if Vendor fails to abide by the confidentiality requirements set forth in the ag reement. In the event of a breach by Vendor of the confidentiality requirements of this Agreement, the University shall have the right to seek injunctive and/or other preliminary or equitable relief, ONLY if University proves actual damages. Such relief shall be in addition to any other remedies and damages available to the University.",
+        "explanation": "The original text allows the University to seek injunctive relief without proving actual damages in case of a breach. The modified version requires proof of actual damages before seeking injunctive relief. This contradiction introduces a significant hurdle for the University in enforcing the NDA, as proving damages can be difficult and time-consuming. This creates uncertainty about the University's ability to quickly stop confidential information from being disclosed.",
+        "location": "9.0",
+        "contradicted_location": "9.0",
+        "contradicted_text": "9.0 The parties agree that irreparable harm may result if Vendor fails to abide by the confidentiality requirements set forth in the ag reement. In the event of a breach by Vendor of the confidentiality requirements of this Agreement, the University shall have the right to seek injunctive and/or other preliminary or equitable relief, ONLY if University proves actual damages. Such relief shall be in addition to any other remedies and damages available to the University.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that the University could seek injunctive relief without proving actual damages. The changed text introduces a requirement for the University to prove actual damages before seeking injunctive relief, directly contradicting the original clause. Since the contradicted text is the changed text itself in this case, a direct conflict exists regarding the conditions under which the University can seek injunctive relief. This falls under the definition of Structural Flaws - In Text Contradiction, as the clause is placed in the same location with conflicting implications."
+      }
+    ]
+  }
+]

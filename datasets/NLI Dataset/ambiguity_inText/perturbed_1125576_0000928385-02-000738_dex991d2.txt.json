@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "1125576_0000928385-02-000738_dex991d2.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "HPAC makes no representation or warranty regarding the completeness or accuracy of any Confidential Information disclosed.",
+        "changed_text": "HPAC makes a warranty regarding the accuracy of any Confidential Information disclosed, but not regarding its completeness.",
+        "explanation": "The change from 'no representation or warranty' to 'warranty regarding accuracy' introduces an obligation for HPAC regarding the accuracy of the data. This contradicts the later part of section 3, that says 'All Confidential Information provided by HPAC and any copies made thereof shall remain the sole property of HPAC', by implicitly assigning some ownership liability regarding this information.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Nothing herein shall be construed to obligate HPAC to disclose any Confidential Information to LHT, or as granting a license to any Confidential Information disclosed. HPAC makes a warranty regarding the accuracy of any Confidential Information disclosed, but not regarding its completeness. All Confidential Information provided by HPAC and any copies made thereof shall remain the sole property of HPAC and shall be returned or destroyed, at the option of HPAC, upon three (3) days' written notice to LHT. Return or destruction of the Confidential Information and any copies made thereof shall not relieve LHT of its obligations hereunder.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a warranty regarding the accuracy of Confidential Information, which creates a potential liability for HPAC regarding the information's accuracy. This contradicts the original intent and wording of the contradicted section which states 'All Confidential Information provided by HPAC and any copies made thereof shall remain the sole property of HPAC', creating a direct conflict over the ownership and potential liability associated with the information. This falls under Ambiguities - In Text Contradiction as HPAC's obligations related to the information's accuracy are now inconsistent."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement shall not be assigned by either party without the express written consent of the other party; however, either party may assign this Agreement to its respective successors in interest.",
+        "changed_text": "This Agreement shall not be assigned by either party without the express written consent of the other party; however, either party may assign this Agreement to its respective successors in interest, excluding any successor in interest that is a direct competitor of the other party.",
+        "explanation": "This addition puts a condition on assigning the contract to successors based on competitive interests, whereas the original only required it be a successor in interest. Section 5 contains the entire understanding, but this addition changes this. Because now, if in the case it is assigned to a competitor, it creates a contradiction on how the agreement will be hold.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "This Agreement shall not be assigned by either party without the express written consent of the other party; however, either party may assign this Agreement to its respective successors in interest, excluding any successor in interest that is a direct competitor of the other party. This Agreement constitutes the entire understanding between the parties with respect to the subject matter hereof, and may be modified only by a written amendment signed by both parties. LHT agrees to comply with all governmental regulations applicable to the Confidential Information, including federal and state securities laws and US Export Control Laws and Regulations.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds a condition to the assignment clause, specifically excluding successors in interest that are direct competitors. The contradicted text includes the entire assignment clause, which is now inconsistent within itself. It states that either party may assign the agreement to its successors in interest, while also excluding direct competitors as successors in interest. The inclusion of the exception creates a clear in-text contradiction within the contradicted section, making the clause ambiguous and potentially unenforceable, as it's unclear whether assignment to a competitor is permitted or not. This aligns with the definition of 'Ambiguities – In Text Contradiction'."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "LHT agrees to comply with all governmental regulations applicable to the Confidential Information, including federal and state securities laws and US Export Control Laws and Regulations.",
+        "changed_text": "LHT agrees to comply with all governmental regulations applicable to the Confidential Information, including only US Export Control Laws and Regulations.",
+        "explanation": "By removing federal and state securities laws from the list of regulations LHT must comply with, this creates a contradiction. Section 6 states that HPAC will be irreparably harmed if LHT's obligations are not specifically enforced. Omitting securities law compliance weakens LHT's obligations, potentially leading to actions that could harm HPAC. Because now it restricts to certain law enforcements, and creates unclarity to other enforcements where LHT should comply.",
+        "location": "5",
+        "contradicted_location": "6",
+        "contradicted_text": "LHT acknowledges that HPAC will be irreparably harmed if LHT's obligations are not specifically enforced, and that no adequate legal remedy exists for breach thereof. LHT agrees that HPAC shall be entitled to obtain injunctive relief, in addition to any other remedies available. Reasonable attorney's fees and costs shall be awarded to HPAC in the event of litigation in which HPAC prevails involving the enforcement or interpretation of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires LHT to comply with 'all governmental regulations applicable to the Confidential Information, including federal and state securities laws and US Export Control Laws and Regulations.' The changed text narrows this to 'only US Export Control Laws and Regulations.' This creates a contradiction with the contradicted text, which states that HPAC will be irreparably harmed if LHT's obligations are not specifically enforced. By removing the requirement to comply with federal and state securities laws, the changed text weakens LHT's obligations, creating a strong contradiction and potential harm to HPAC, as the compliance is reduced and could lead to a breach, specifically related to securities regulations."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Reasonable attorney's fees and costs shall be awarded to HPAC in the event of litigation in which HPAC prevails involving the enforcement or interpretation of this Agreement.",
+        "changed_text": "Attorney's fees and costs may be awarded to HPAC in the event of litigation in which HPAC prevails involving the enforcement or interpretation of this Agreement, subject to the court's discretion.",
+        "explanation": "Changing 'shall' to 'may' introduces ambiguity regarding the awarding of attorney's fees. This creates an in-text contradiction with the earlier statement in section 6 that HPAC will be irreparably harmed if LHT's obligations are not specifically enforced. By making the awarding of fees discretionary, it weakens HPAC's ability to fully enforce the agreement, contradicting the need for specific enforcement. because the use of 'may' the actions aren't ensured or obligaroty, and it contradicts with previous statetment of the irreparable harm if obligations are not specifically enforced.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "LHT acknowledges that HPAC will be irreparably harmed if LHT's obligations are not specifically enforced, and that no adequate legal remedy exists for breach thereof. LHT agrees that HPAC shall be entitled to obtain injunctive relief, in addition to any other remedies available. Attorney's fees and costs may be awarded to HPAC in the event of litigation in which HPAC prevails involving the enforcement or interpretation of this Agreement, subject to the court's discretion.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'shall' to 'may' in the Changed Text introduces ambiguity and discretion regarding the awarding of attorney's fees. The Contradicted Text emphasizes that HPAC will be irreparably harmed if LHT's obligations are not specifically enforced. By making attorney's fees discretionary, the Changed Text weakens HPAC's ability to fully enforce the agreement, creating a strong contradiction with the Contradicted Text that assumes HPAC will be able to fully and effectively enforce the agreement."
+      }
+    ]
+  }
+]

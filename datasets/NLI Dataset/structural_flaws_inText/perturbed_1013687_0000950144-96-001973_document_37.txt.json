@@ -1,0 +1,18 @@
+[
+  {
+    "file_name": "1013687_0000950144-96-001973_document_37.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "2. \"Confidential Information\" shall be deemed to include the source and object code computer programs and associated documentation, manuals and other printed or visually acceptable materials describing the use or design of software and strategic plans as well as any other information, oral or written, which shall be so noted on its face as being confidential or proprietary to the disclosing party.",
+        "changed_text": "2. \"Confidential Information\" shall be deemed to include *only* the source and object code computer programs and associated documentation, manuals and other printed or visually acceptable materials describing the use or design of software and strategic plans.",
+        "explanation": "Paragraph 2 originally defines 'Confidential Information' broadly, including software documentation and strategic plans *as well as any other information* noted as confidential. By inserting 'only,' the definition is restricted to *only* the source code, object code and documentation, excluding other types of information that could be considered confidential. This contradicts paragraph 1 and paragraph 7 where any information can be deemed confidential or discussions can be deemed confidential, making the exact scope of confidentiality in the agreement unclear.",
+        "location": "2",
+        "contradicted_location": "7",
+        "contradicted_text": "7. Phoenix and Company agree to maintain as Confidential Information, the existence of these discussions regarding a possible business relationship, until an agreement is completed.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines 'Confidential Information' broadly, including any information noted as confidential. The changed text narrows the definition to *only* include source and object code and related documentation. This directly contradicts paragraph 7, which states that the *existence of discussions* is also considered Confidential Information. Because the change restricts what can be confidential, paragraph 7 now conflicts and creates an in-text contradiction."
+      }
+    ]
+  }
+]

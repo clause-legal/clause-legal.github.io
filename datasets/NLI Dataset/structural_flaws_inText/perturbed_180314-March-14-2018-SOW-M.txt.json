@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "180314-March-14-2018-SOW-M.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "2.01 Confidential Information \"Confidential Information \" means, subject to section 2.02 below any additional information requested by the Supplier and provided by CPR , or any information supplied by either party that is clearly marked “Confidential” or clearly intended to be disclosed in confidence.",
+        "changed_text": "2.01 Confidential Information \"Confidential Information \" means any information exchanged between CPR and the Supplier, regardless of whether it is marked “Confidential” or intended to be disclosed in confidence. Section 2.02 does not apply to this definition.",
+        "explanation": "This change broadens the definition of 'Confidential Information' to include all information exchanged, removing the requirement for explicit marking or intent of confidentiality, therefore, creating an in-text contradiction with section 2.02, which outlines exceptions to what constitutes Confidential Information.",
+        "location": "2.01",
+        "contradicted_location": "2.02",
+        "contradicted_text": "2.02 Not Confidential Information The following shall not, for the purposes of this CNDA, constitute Confidential Information: (a) information relating to the Disclosing Party that is obtained or was previously obtained by the Receiving Party from a thir d Person who, insofar as is known to the Receiving Party after reasonable inquiry, is not obligated to keep such information confidential; (b) information already known to the Receiving Party at the time of disclosure, as shown by prior written evidence o r other evidence satisfactory to the Disclosing Party; (c) information that is or becomes generally available to the public other than as a result of disclosure by the Receiving Party’s violation of this CNDA; and (d) information that the Disclosing Part y authorizes the Receiving Party to disclose.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in section 2.01 broadens the definition of 'Confidential Information' to include all information exchanged, regardless of markings or intent. This directly contradicts section 2.02, which outlines specific exceptions to what constitutes Confidential Information (e.g., information already publicly known). The change removes the conditions that would allow information to be considered 'Not Confidential Information' under 2.02, creating a strong in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "2.07 Return of Confidential Information Upon the Disclosing Party’s written request, the Receiving Party shall promptly ret urn to the Disclosing Party all Confidential Information in its possession or control, and promptly destroy or erase all notes, memoranda and other material prepared by the Receiving Party which reflect, interpret, evaluate, include or are derived from any Confidential Information and the Receiving Party shall certify such destruction in writing to the Disclosing Party.",
+        "changed_text": "2.07 Return of Confidential Information Upon the Disclosing Party’s written request, the Receiving Party may, at their discretion, return some, all, or none of the Confidential Information in its possession or control. The Receiving Party is not obligated to destroy or erase any notes, memoranda, or other material derived from Confidential Information, and certification of destruction is not required.",
+        "explanation": "This change makes the return of Confidential Information discretionary instead of mandatory, therefore, creating an in-text contradiction with section 2.07 which states the receiving party 'shall promptly return' all confidential information",
+        "location": "2.07",
+        "contradicted_location": "2.07",
+        "contradicted_text": "2.07 Return of Confidential Information Upon the Disclosing Party’s written request, the Receiving Party shall promptly ret urn to the Disclosing Party all Confidential Information in its possession or control, and promptly destroy or erase all notes, memoranda and other material prepared by the Receiving Party which reflect, interpret, evaluate, include or are derived from any Confidential Information and the Receiving Party shall certify such destruction in writing to the Disclosing Party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the original text and the contradicted text (which is the same as the original text). The original and contradicted text states the receiving party 'shall promptly return' all confidential information upon written request. However, the changed text states the receiving party 'may, at their discretion, return some, all, or none of the Confidential Information'. This creates a clear and direct conflict, making the return of confidential information discretionary instead of mandatory, which is a strong in-text contradiction. This fits the 'Structural Flaws - In Text Contradiction' perturbation type."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "3.02 Continuing Obligations Regarding Confidentiality The obligations of confidentiality contained herein shall survive the expiration or termination of the Contract, SOW, Amendments, or RFP Terms.",
+        "changed_text": "3.02 Continuing Obligations Regarding Confidentiality The obligations of confidentiality contained herein will terminate immediately upon the expiration or termination of the Contract, SOW, Amendments, or RFP Terms.",
+        "explanation": "This change directly contradicts the original clause stating that confidentiality obligations survive termination. Now, confidentiality ends upon termination, therefore creating an in-text contradiction within section 3.02 itself.",
+        "location": "3.02",
+        "contradicted_location": "3.02",
+        "contradicted_text": "3.02 Continuing Obligations Regarding Confidentiality The obligations of confidentiality contained herein shall survive the expiration or termination of the Contract, SOW, Amendments, or RFP Terms.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies section 3.02 to state that confidentiality obligations terminate upon expiration, directly contradicting the original clause and the contradicted text, which also is the same section, which specifies that these obligations survive termination. This is a clear and direct conflict within the same section, fitting the definition of a structural flaw causing an in-text contradiction, as it places the same clause with conflicting implications in the same location."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "3.05 Amendments This CNDA shall not be amended except if in writing and signed by the Parties.",
+        "changed_text": "3.05 Amendments This CNDA may be amended orally by mutual agreement of the Parties. A written record is preferred but not required.",
+        "explanation": "This change allows for oral amendments, contradicting the original requirement for written and signed amendments, therefore, creating an in-text contradiction within section 3.05 itself.",
+        "location": "3.05",
+        "contradicted_location": "3.05",
+        "contradicted_text": "3.05 Amendments This CNDA shall not be amended except if in writing and signed by the Parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that amendments to the CNDA must be in writing and signed by the parties. The changed text states that the CNDA may be amended orally by mutual agreement of the parties, directly contradicting the original requirement. The contradicted text is the original text, so the change introduces an in-text contradiction within the same clause itself, creating a structural flaw as defined in the perturbation definitions, specifically, 'when a clause is placed in multiple locations with conflicting implications'."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "3.09 Termination This agreement continues in effect for three years. Either party may terminate t his CNDA for any reason by providing the other with 30 days’ advance written notice . The termination of this CNDA , or the completion or abandonment of the Permitted Purpose, shall not affect the survival of the non -disclosure obligations under this CNDA , which obligations shall survive for a period o f 3 years .",
+        "changed_text": "3.09 Termination This agreement continues in effect indefinitely. This CNDA cannot be terminated by either party under any circumstances.",
+        "explanation": "This change makes the agreement indefinite and non-terminable, directly contradicting the original term limit and termination clause, therefore, creating an in-text contradiction in section 3.09. Removing the right to terminate clashes with the original three-year term and termination option, affecting the agreed conditions.",
+        "location": "3.09",
+        "contradicted_location": "3.09",
+        "contradicted_text": "3.09 Termination This agreement continues in effect for three years. Either party may terminate t his CNDA for any reason by providing the other with 30 days’ advance written notice . The termination of this CNDA , or the completion or abandonment of the Permitted Purpose, shall not affect the survival of the non -disclosure obligations under this CNDA , which obligations shall survive for a period o f 3 years .",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that the agreement continues indefinitely and cannot be terminated, directly contradicting the contradicted text which states the agreement lasts for three years and can be terminated by either party with 30 days' notice. This creates a direct conflict, therefore based on the definition 'Structural Flaws - In Text Contradiction' it is a 'YES'."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "3.11 Residuals Notwithstanding the confidentiality obligations contained in Article 2 hereof, the receiving party may, during and after the term hereof, use in its business any Residual Information. “Residual Information” means the ideas, know -how and techniques that would be retained in the unaided memory of an ordinary person skilled in the art, not CONFIDENTIALITY AND NON -DISCLOSURE AGREEMENT - MUTUAL 6 | P a g e Confidentiality and Non -Disclosure Agreement – version 1 80314 intent on appropriating the proprietary information of the disclosing party, as a result of such person’s access to, use, review, evaluation, or testing of the Confidential Information of the disclosing party for the purposes described herein. An employee's memory is unaided if the employee has not intentionally memorized the confidential information for the purpose of retaining and subsequently using or disclosing it . Nothin g in this paragraph, however, shall be deemed to grant to the receiving party a license under the disclosing party’s intellectual property rights",
+        "changed_text": "3.11 Residuals The receiving party is strictly prohibited from using any Residual Information in its business, both during and after the term hereof. All ideas, know-how, and techniques gained from the Disclosing Party's Confidential Information remain the sole and exclusive property of the Disclosing Party and cannot be used or disclosed by the Receiving Party under any circumstances.",
+        "explanation": "This change reverses the original provision allowing the use of Residual Information. Now, the receiving party is prohibited from using any Residual Information, creating a direct in-text contradiction within section 3.11 itself.",
+        "location": "3.11",
+        "contradicted_location": "3.11",
+        "contradicted_text": "3.11 Residuals Notwithstanding the confidentiality obligations contained in Article 2 hereof, the receiving party may, during and after the term hereof, use in its business any Residual Information. “Residual Information” means the ideas, know -how and techniques that would be retained in the unaided memory of an ordinary person skilled in the art, not CONFIDENTIALITY AND NON -DISCLOSURE AGREEMENT - MUTUAL 6 | P a g e Confidentiality and Non -Disclosure Agreement – version 1 80314 intent on appropriating the proprietary information of the disclosing party, as a result of such person’s access to, use, review, evaluation, or testing of the Confidential Information of the disclosing party for the purposes described herein. An employee's memory is unaided if the employee has not intentionally memorized the confidential information for the purpose of retaining and subsequently using or disclosing it . Nothin g in this paragraph, however, shall be deemed to grant to the receiving party a license under the disclosing party’s intellectual property rights",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text, both of which are located in section 3.11. The original text and contradicted text states that the receiving party 'may, during and after the term hereof, use in its business any Residual Information.' The changed text completely reverses this, stating 'The receiving party is strictly prohibited from using any Residual Information in its business, both during and after the term hereof.' This is a clear and direct conflict within the document, making enforcement unclear."
+      }
+    ]
+  }
+]

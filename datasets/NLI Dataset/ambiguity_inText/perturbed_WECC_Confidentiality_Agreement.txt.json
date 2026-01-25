@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "WECC_Confidentiality_Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "In the event Data Recipient shares Non -Public Information WECC Confidentiality Agreement 2 with a contractor pursuant to this provision, Data Recipient agrees to be responsible and jointl y and severally liable for any breach of confidentiality by that contractor ;",
+        "changed_text": "In the event Data Recipient shares Non -Public Information WECC Confidentiality Agreement 2 with a contractor pursuant to this provision, Data Recipient agrees to be responsible for any breach of confidentiality by that contractor to the extent permitted by law;",
+        "explanation": "By changing 'jointly and severally liable' to 'responsible...to the extent permitted by law,' the Data Recipient's liability for a contractor's breach is weakened and made subject to legal interpretation. This directly contradicts the original intent of making the Data Recipient fully liable, introducing uncertainty in enforcement and creates an in-text contradiction if another section relies on the assumption of strict liability.",
+        "location": "2.b.ii",
+        "contradicted_location": "8.c",
+        "contradicted_text": "This Agreement shall be for the sole benefit of W ECC and any owner or submitter of the Non - Public Information. This Agreement shall be fully enforceable by WECC and any entity whose Non -Public Information is not treated in accordance with this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the Data Recipient's liability from 'jointly and severally liable' to 'responsible...to the extent permitted by law.' This introduces ambiguity and weakens the liability, which directly contradicts the contradicted text, which states that 'This Agreement shall be fully enforceable by WECC and any entity whose Non -Public Information is not treated in accordance with this Agreement.' The original text ensured WECC and other entities could fully enforce the agreement based on the Data Recipient's full liability for breaches, whereas the changed text introduces legal limitations and uncertainty, making full enforcement less certain and creating an in-text contradiction as defined by 'Ambiguities - In Text Contradiction'."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement may be terminated by WECC or Data Recipient at any time at their sole discretion.",
+        "changed_text": "This Agreement may be terminated by WECC or Data Recipient with 30 days written notice.",
+        "explanation": "The change removes the 'at any time at their sole discretion' clause and replaces it with a '30 days written notice' requirement. This contradicts the idea of immediate termination. Previously, either party could terminate without cause or delay. Now, a 30-day notice is required, which might clash with situations where immediate termination is crucial. This creates an in-text contradiction, because section 7.b discusses obligations 'upon any termination'.",
+        "location": "7.a",
+        "contradicted_location": "7.b",
+        "contradicted_text": "Upon any termination of this Agreement, Data Recipient shall return to WECC all Non -Public Information in Data Recipient’s possession or destroy all Non -Public Information in Data Recipient’s possession and certify to WECC in writing that all Non -Public Information has been returned or destroyed , except as may be otherwise required by law in which case the confidentiality obligations of this Agreement shall survive termination .",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed termination 'at any time at their sole discretion,' implying immediate termination. The changed text introduces a '30 days written notice' requirement. This directly contradicts the contradicted text, which outlines obligations 'upon any termination' because the original clause allowed for immediate termination, and the change now prevents that and requires 30 days notice. The contradiction is clear: previously termination could be immediate, now it must wait 30 days. This creates an in-text contradiction as to what obligations are in place and when."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement represents the entire understanding between WECC and Data Recipient related to the Non -Public Information and supersedes all previous communications between WECC and Data Recipient related to this subject.",
+        "changed_text": "This Agreement represents the current understanding between WECC and Data Recipient related to the Non -Public Information but does not necessarily supersede all previous communications between WECC and Data Recipient related to this subject.",
+        "explanation": "By weakening the integration clause, the modification introduces ambiguity about what constitutes the 'entire understanding.' By stating it 'does not necessarily supersede all previous communications,' it opens the door for prior agreements or understandings to be considered valid, potentially conflicting with the written terms of the confidentiality agreement. This creates an in-text contradiction with the intention of having a definitive, standalone agreement.",
+        "location": "8.b",
+        "contradicted_location": "8.c",
+        "contradicted_text": "This Agreement shall be for the sole benefit of W ECC and any owner or submitter of the Non - Public Information. This Agreement shall be fully enforceable by WECC and any entity whose Non -Public Information is not treated in accordance with this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text established the agreement as the 'entire understanding,' superseding prior communications. The changed text weakens this, stating it 'does not necessarily supersede' previous communications. This creates a contradiction because it allows prior agreements to potentially influence or contradict the current agreement, undermining the clause in the contradicted text that grants sole benefit and enforceability to WECC based on the terms of 'This Agreement.' By not superseding other agreements, the 'sole benefit' and enforceability could be challenged or diluted, thus the change introduces a direct and significant in-text contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "If any term or provision of this Agreement is hel d by a body of competent jurisdiction to be invalid, void, or unenforceable, then (1) the remaining provisions of the Agreement shall continue in full force and effect , and (2) in lieu of each such term or provision there shall be added as part of this Agr eement a clause or provision as similar in terms as possible that is legal, valid and enforceable.",
+        "changed_text": "If any term or provision of this Agreement is hel d by a body of competent jurisdiction to be invalid, void, or unenforceable, then the parties will attempt to renegotiate the affected term in good faith. If renegotiation is unsuccessful, the remaining provisions of the Agreement shall continue in full force and effect.",
+        "explanation": "The modification replaces the automatic 'savings clause' with a 'good faith negotiation' clause. This creates uncertainty because it's no longer guaranteed that an invalid term will be replaced with a similar, enforceable one. The failure of renegotiation could lead to unintended consequences and potentially undermine the overall purpose of the agreement. The change from automatic replacement to potential failure through negotiation creates an in-text contradiction with the agreement's enforceability.",
+        "location": "8.d",
+        "contradicted_location": "8.c",
+        "contradicted_text": "This Agreement shall be for the sole benefit of W ECC and any owner or submitter of the Non - Public Information. This Agreement shall be fully enforceable by WECC and any entity whose Non -Public Information is not treated in accordance with this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text provided a guarantee that an invalid term would be replaced with a similar, enforceable one. The changed text introduces a 'good faith negotiation' clause, which doesn't guarantee a replacement, and renegotiation might fail. This directly contradicts the contradicted text, which states that the agreement 'shall be fully enforceable'. The changed text introduces a scenario where the agreement might not be fully enforceable if renegotiation fails, creating an in-text contradiction according to the definition of Ambiguities - In Text Contradiction."
+      }
+    ]
+  }
+]

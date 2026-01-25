@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "Non-Disclosure-Agreement_3.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "During the term of this Agreement and for 3 Years thereafter, Recipient will not attempt to do business with, or otherwise solicit any business contacts found or otherwise referred by Owner to Recipient for the purpose of circumventing, the result of whic h shall be to prevent the Owner from realizing or recognizing a profit, fees, or otherwise, without the specific written approval of the Owner.",
+        "changed_text": "During the term of this Agreement, Recipient will not attempt to do business with any business contacts found or referred by Owner.",
+        "explanation": "The omission of 'and for 3 Years thereafter...without the specific written approval of the Owner' eliminates the post-agreement restriction on the Recipient's business activities. This creates an internal contradiction with Section XI, 'The obligations of confidentiality shall survive indefinitely from the date of disclosure of the Proprietary Information', because the Recipient could solicit contacts right after the term of agreement and that would be working against the obligations of confidentiality.",
+        "location": "IV",
+        "contradicted_location": "XI",
+        "contradicted_text": "GENERAL PROVISIONS. This Agreement sets forth the entire unde rstanding of the parties regarding confidentiality. The obligations of confidentiality shall survive indefinitely from the date of disclosure of the Proprietary Information. Any amendments must be in writing and signed by both parties. This Agreement shall be construed under the laws of the State of Florida. This Agreement shall not be assignable by either party. Neither party may delegate its duties under this Agreement without the prior written consent of the other party. The confidentiality provisions of this Agreement shall remain in full force and effect at all times after the effective date of this Agreement. If any provision of this Agreement is held to be invalid, illegal or unenforceable, the remaining portions of this Agreement shall remain in full force and effect and construed so as to best effectuate the original inten t and purpose of this Agreement",
+        "contradiction_exists": "YES",
+        "justification": "The original text restricted the Recipient from soliciting business contacts for 3 years after the agreement. The changed text eliminates this post-agreement restriction. Section XI states that confidentiality obligations survive indefinitely. By removing the 3-year restriction, the Recipient could solicit contacts immediately after the agreement's term, potentially using confidential information, thus directly contradicting the indefinite survival of confidentiality obligations as stated in the Contradicted Text."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "If such circumvention shall occur the Owner shall be entitled to any commissions due pursuant to this Agreement or relating to such transaction.",
+        "changed_text": "",
+        "explanation": "Removing the clause 'If such circumvention shall occur the Owner shall be entitled to any commissions due pursuant to this Agreement or relating to such transaction' creates an in-text contradiction, because now there is no mention to any legal entitlement for the owner in the event that the Recipient does circumvent as the definition implies in the previous section. Since the prior text mentions circumvention, and there is no mention of commissions and entitlements, there is an ambiguity in the text for enforcement.",
+        "location": "IV",
+        "contradicted_location": "IV",
+        "contradicted_text": "NON -CIRCUMVENTION. During the term of this Agreement and for 3 Years thereafter, Recipient will not attempt to do business with, or otherwise solicit any business contacts found or otherwise referred by Owner to Recipient for the purpose of circumventing, the result of whic h shall be to prevent the Owner from realizing or recognizing a profit, fees, or otherwise, without the specific written approval of the Owner.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified the owner's entitlement to commissions if circumvention occurred. The changed text removes this entitlement clause. The contradicted text defines 'NON-CIRCUMVENTION' and its consequences. By removing the owner's right to commissions upon circumvention, the changed text contradicts the original agreement's intent to protect the owner's profit, fees, or otherwise, creating a strong in-text contradiction as it makes enforcement unclear."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Each party agrees to defend, indemnify, and hold harmless the other party and its officers, directors, agents, affiliates, distributors, representatives, and employees from any and all third party claims, demands, liabilities, costs and expenses, including reasonable attorneys fees, costs and expenses resulting from the indemnifying party's material breach of any duty, representation, or warranty under this Agreement.",
+        "changed_text": "Each party agrees to indemnify the other party from any and all third party claims. demands, liabilities, costs and expenses.",
+        "explanation": "By omitting 'defend, and hold harmless the other party and its officers, directors, agents, affiliates, distributors, representatives, and employees...resulting from the indemnifying party's material breach of any duty, representation, or warranty under this Agreement,' the scope of indemnity is significantly reduced and creates an uncertainty for enforcement. Also removing the 'including reasonable attorneys fees, costs and expenses' creates a financial impact to any type of process related, and it's unclear what can be paid if a issue arises.",
+        "location": "IX",
+        "contradicted_location": "IX",
+        "contradicted_text": "INDEMNITY. Each party agrees to defend, indemnify, and hold harmless the other party and its officers, directors, agents, affiliates, distributors, representatives, and employees from any and all third party claims, demands, liabilities, costs and expenses, including reasonable attorneys fees, costs and expenses resulting from the indemnifying party's material breach of any duty, representation, or warranty under this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text significantly reduces the scope of indemnity by omitting 'defend, and hold harmless the other party and its officers, directors, agents, affiliates, distributors, representatives, and employees...resulting from the indemnifying party's material breach of any duty, representation, or warranty under this Agreement,' which directly conflicts with the contradicted text that includes these obligations. Also, the removal of 'including reasonable attorneys fees, costs and expenses' creates a financial impact, creating an uncertainty for enforcement and therefore a contradiction. The Omissions – In Text Contradiction type definition also states that 'Omissions occur when essential language is removed or altered in one section, creating a contradiction with obligations or constraints stated in other sections.'"
+      }
+    ]
+  }
+]

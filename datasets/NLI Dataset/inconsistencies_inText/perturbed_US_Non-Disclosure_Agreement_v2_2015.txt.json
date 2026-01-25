@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "US_Non-Disclosure_Agreement_v2_2015.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Each Party agrees not to use the Confidential In formation in any fashion, form, or manner for any purpose other than the purpose of this Agreement or as any subsequent agreements between the Parties may allow.",
+        "changed_text": "Each Party agrees not to use the Confidential In formation in any fashion, form, or manner for any purpose other than the purpose of this Agreement or as any subsequent agreements between the Parties may allow. However, either party can use information derived from reviewing public records.",
+        "explanation": "This perturbation creates an in-text contradiction within Section 1. The original text strictly prohibits the use of Confidential Information for any purpose outside the agreement. The added sentence allows for the use of information derived from public records, but if said information was originally obtained by the recipient party, through the discloser, and falls under the definition of confidential information, it is uncertain whether or not this exception stands. Thus, creating an ambiguity regarding information obtained through confidential means, but that also has public record.",
+        "location": "Section 1",
+        "contradicted_location": "Section 1",
+        "contradicted_text": "Each Party agrees not to use the Confidential In formation in any fashion, form, or manner for any purpose other than the purpose of this Agreement or as any subsequent agreements between the Parties may allow. However, either party can use information derived from reviewing public records.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an exception that allows the use of information derived from public records, even if it was initially obtained as Confidential Information. The original text strictly prohibits any use of Confidential Information outside the agreement's purpose. Because the Changed Text is a direct contradiction to the Orignal Text, and the Contradicted text is the same as the Changed Text, it thus creates a direct conflict or inconsistency regarding the use of Confidential Information, thus creating a contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Each Party may reveal the Confidential Inform ation only to its employees, agents and consultants who have a need to know such information for th e purpose of this Agreement and who have been duly informed of the confidential nature of the C onfidential Information.",
+        "changed_text": "Each Party may reveal the Confidential Inform ation only to its employees, agents and consultants who have a need to know such information for th e purpose of this Agreement and who have been duly informed of the confidential nature of the C onfidential Information. Unless the receiving party has received explicit written permission from the disclosing party, in which case they can disclose the information to anyone.",
+        "explanation": "The change allows the receiving party to disclose confidential information to anyone with explicit written permission. This directly contradicts the initial restriction limiting disclosure to employees, agents, and consultants with a need to know, creating in-text contradiction within Section 2. It introduces uncertainty about the scope of confidentiality obligations and increases the risk of unauthorized disclosure.",
+        "location": "Section 2",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "Each Party may reveal the Confidential Inform ation only to its employees, agents and consultants who have a need to know such information for th e purpose of this Agreement and who have been duly informed of the confidential nature of the C onfidential Information. Unless the receiving party has received explicit written permission from the disclosing party, in which case they can disclose the information to anyone.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds an exception to the original restriction on disclosing confidential information, allowing disclosure to anyone with written permission. The original text in both the 'Original Text' and 'Contradicted Text' sections limits disclosure to employees, agents, and consultants with a 'need to know'. The addition of 'Unless the receiving party has received explicit written permission from the disclosing party, in which case they can disclose the information to anyone' directly contradicts this initial restriction, creating an inconsistency as per the 'Inconsistencies - In Text Contradiction' definition."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Each Party will protect the confidentiality of the Confidential Information by using the same degree of care (but not less than a reasonable degree of care) it uses to protect the confidentiality of its own proprietary and co nfidential information.",
+        "changed_text": "Each Party will protect the confidentiality of the Confidential Information by using the same degree of care (but not less than a reasonable degree of care) it uses to protect the confidentiality of its own proprietary and co nfidential information. However, if confidential information is inadvertently disclosed, there will be no penalty for the receiving party.",
+        "explanation": "The original text in Section 3 establishes a standard of care for protecting Confidential Information. The added clause removes any penalty for inadvertent disclosure, directly contradicting the obligation to protect confidentiality. This change introduces uncertainty about the consequences of breaches and weakens the overall confidentiality protection.",
+        "location": "Section 3",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "Each Party will protect the confidentiality of the Confidential Information by using the same degree of care (but not less than a reasonable degree of care) it uses to protect the confidentiality of its own proprietary and co nfidential information. However, if confidential information is inadvertently disclosed, there will be no penalty for the receiving party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a clause stating there's no penalty for inadvertent disclosure of confidential information, directly contradicting the original obligation to protect confidentiality with a reasonable degree of care. This creates a conflict because even though there's a stated obligation in protecting confidential information, the added clause negates the consequence of not meeting that obligation if the disclosure is inadvertent."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Confidential Information of either Party may not be copied or reproduced by the other Party without the disclosing Party’s prior written consent.",
+        "changed_text": "Confidential Information of either Party may not be copied or reproduced by the other Party without the disclosing Party’s prior written consent. However, copies for archival purposes are allowed.",
+        "explanation": "Section 5 originally prohibits copying or reproducing Confidential Information without prior written consent. The added sentence makes an exception for archival purposes. This creates an ambiguity because the term archival purposes is undefined, making its interpretation uncertain. This contradicts the original requirement for explicit written consent for any copying, leading to in-text contradiction within Section 5.",
+        "location": "Section 5",
+        "contradicted_location": "Section 5",
+        "contradicted_text": "Confidential Information of either Party may not be copied or reproduced by the other Party without the disclosing Party’s prior written consent. However, copies for archival purposes are allowed.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds an exception ('However, copies for archival purposes are allowed') to the original prohibition of copying Confidential Information without prior written consent. This introduces ambiguity regarding the scope of 'archival purposes' and whether it requires prior written consent, which contradicts the explicit requirement in both the original and contradicted text. Thus there is a strong inconsistency and in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The term of this Agreement shall continue dur ing the Parties’ business relationship and bind the Parties hereto for a period of three (3) years af ter the termination of all business relationships between the Parties. Notwithstanding the foregoing, th is Agreement shall survive with respect to all Confidential Information that is di sclosed before the termination.",
+        "changed_text": "The term of this Agreement shall continue dur ing the Parties’ business relationship and bind the Parties hereto for a period of three (3) years af ter the termination of all business relationships between the Parties. Notwithstanding the foregoing, th is Agreement shall survive with respect to all Confidential Information that is di sclosed before the termination. However, after 1 year of the termination of the agreement, the agreement will not bind confidential information disclosed before the termination.",
+        "explanation": "The added clause in Section 8 introduces a direct contradiction to the agreement's survival clause. The original text states that the agreement survives termination for all Confidential Information disclosed before the termination for 3 years. The added sentence limits this survival to only 1 year, creating a conflict about the duration of confidentiality obligations after termination.",
+        "location": "Section 8",
+        "contradicted_location": "Section 8",
+        "contradicted_text": "The term of this Agreement shall continue dur ing the Parties’ business relationship and bind the Parties hereto for a period of three (3) years af ter the termination of all business relationships between the Parties. Notwithstanding the foregoing, th is Agreement shall survive with respect to all Confidential Information that is di sclosed before the termination. However, after 1 year of the termination of the agreement, the agreement will not bind confidential information disclosed before the termination.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a direct contradiction. The original text states that confidentiality obligations survive termination for all Confidential Information disclosed before the termination for 3 years. The added sentence limits this survival to only 1 year, creating a direct conflict about the duration of confidentiality obligations after termination of the agreement. The contradicted text and changed text are located in the same section."
+      }
+    ]
+  }
+]

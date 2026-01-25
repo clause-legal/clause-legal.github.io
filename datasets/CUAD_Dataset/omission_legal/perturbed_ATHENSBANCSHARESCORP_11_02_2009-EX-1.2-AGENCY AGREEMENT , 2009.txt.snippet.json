@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "ATHENSBANCSHARESCORP_11_02_2009-EX-1.2-AGENCY AGREEMENT , 2009.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - Omission Legal Contradiction",
+        "original_text": "The deposit accounts of the Bank are insured by the FDIC up to the applicable limits, and no proceedings for the termination or revocation of such insurance are pending or, to the best knowledge of the Company or the Bank, threatened.",
+        "changed_text": "The deposit accounts of the Bank may be insured, but the level of insurance is subject to change without notice, and the company is not liable for any changes.",
+        "explanation": "This alteration introduces a legal risk by creating an ambiguity concerning deposit insurance coverage. By stating that insurance 'may be insured' and is 'subject to change', it implies a lack of guarantee, which is a direct contradiction of the federal requirement for FDIC insurance. This introduces legal risk by potentially misleading depositors about the security of their funds.",
+        "contradicted_law": "12 U.S. Code § 1821 - Insurance of deposits",
+        "law_citation": "12 U.S.C. § 1821",
+        "law_url1": [
+          "https://www.govinfo.gov/app/details/USCODE-2022-title12/USCODE-2022-title12-chap16-sec1821"
+        ],
+        "law_url2": [
+          "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSCODE-2022-title12-chap16-sec1821&edition=2022"
+        ],
+        "law_explanation": "12 U.S.C. § 1821 mandates that all member banks of the FDIC provide deposit insurance up to a certain limit. The altered text contradicts this by implying that insurance coverage is not guaranteed and may change, which undermines the legally required protection.",
+        "location": "Section 4(l)",
+        "desired_official_urls": 2,
+        "scraped_snippet_1": "GovInfo",
+        "scraped_snippet_2": "This page is better viewed with a JavaScript enabled browser. Document not Found Document not found The document you were looking for does not exist. Click here to close this window, or click here to go back.",
+        "scrape_success": 2,
+        "contradiction_exists": "YES",
+        "justification": "The original text affirms FDIC insurance, while the changed text casts doubt, stating insurance 'may be insured' and is 'subject to change.' This undermines the federal mandate, as described in the Law Explanation referencing 12 U.S.C. § 1821, which requires FDIC member banks to provide deposit insurance. While the scraped snippets are unhelpful, the Perturbation Explanation correctly identifies that the altered text introduces ambiguity and undermines the guarantee of FDIC insurance, creating a risk of misleading depositors. The definition of 'Omission Legal Contradiction' applies here because a legally mandated consumer protection is effectively removed or weakened, leading to non-compliance. This constitutes a contradiction because the changed text implies a scenario where deposits might not be fully insured, directly opposing the implicit guarantee of coverage required by federal regulations."
+      },
+      {
+        "type": "Omissions - Omission Legal Contradiction",
+        "original_text": "The Company and its subsidiaries maintain a system of internal accounting controls sufficient to provide reasonable assurance that (A) transactions are executed in accordance with management's general or specific authorizations, (B) transactions are recorded as necessary to permit preparation of financial statements in conformity with generally accepted accounting principles and to maintain accountability for assets, (C) access to assets is permitted only in accordance with management's general or specific authorization, and (D) the recorded accounts or assets is compared with the existing assets at reasonable intervals and appropriate action is taken with respect thereto.",
+        "changed_text": "The Company and its subsidiaries endeavor to maintain some internal controls.",
+        "explanation": "This introduces legal risk by significantly weakening the assurance of proper internal accounting controls. The original language ensures reasonable assurance that transactions are correctly authorized, recorded, and accounted for. The new language weakens these guarantees. Sarbanes-Oxley requires specific controls be in place, especially because the company is registering its Common Shares under Section 12(b) of the Securities Exchange Act of 1934.",
+        "contradicted_law": "Sarbanes-Oxley Act of 2002, Section 404",
+        "law_citation": "Sarbanes-Oxley Act of 2002, Section 404",
+        "law_url1": [
+          "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSCODE-2022-title15-chap98-sec7262"
+        ],
+        "law_url2": [
+          "https://www.sec.gov/files/soact2002.pdf"
+        ],
+        "law_explanation": "Sarbanes-Oxley Act of 2002, Section 404 requires public companies to establish and maintain internal controls over financial reporting. By weakening the language around maintaining adequate internal accounting controls, the modified text contradicts the SOX requirements.",
+        "location": "Section 4(ii)",
+        "desired_official_urls": 2,
+        "scraped_snippet_1": "This page is better viewed with a JavaScript enabled browser. Document not Found Document not found The document you were looking for does not exist. Click here to close this window, or click here to go back.",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The changed text significantly weakens the original's assurance of proper internal accounting controls. The original text ensures 'reasonable assurance' for transaction authorization, recording, and asset accountability, referencing generally accepted accounting principles. The modified text, stating the company 'endeavor[s] to maintain some internal controls,' omits these crucial assurances, creating a legal contradiction because the Perturbation Explanation and Law Explanation both state this weakens SOX requirements. The scraped snippets do not contain information."
+      }
+    ]
+  }
+]

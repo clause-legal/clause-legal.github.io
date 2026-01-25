@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "Kerber_Non_Disclosure_Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The receiving party will not use, manufacture or sell any document, schematic, drawing, photograph, specification, specimen or any other material making up any part of the Confidential Information, or use any Co nfidential Information as a basis for the design or creation of any items or ot her means without the prior written consent of the disclosing party.",
+        "changed_text": "The receiving party will not use, manufacture or sell any document, schematic, drawing, photograph, specification, specimen or any other material making up any part of the Confidential Information, or use any Confidential Information as a basis for the design or creation of any items or other means without the prior written consent of the disclosing party, unless such use is for internal evaluation purposes.",
+        "explanation": "This adds an exception to the restriction on using confidential information, 'unless such use is for internal evaluation purposes.' This contradicts the general non-use provision and opens the door for disputes over what constitutes 'internal evaluation purposes' and whether specific uses fall within that exception creating ambiguity in section 2.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "The receiving party will not use, manufacture or sell any document, schematic, drawing, photograph, specification, specimen or any other material making up any part of the Confidential Information, or use any Confidential Information as a basis for the design or creation of any items or other means without the prior written consent of the disclosing party, unless such use is for internal evaluation purposes.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an exception ('unless such use is for internal evaluation purposes') to the previously absolute restriction on using confidential information. This exception directly contradicts the general non-use provision, creating ambiguity and a strong potential for disputes. The contradicted text repeats the changed text, but the addition of the exception fundamentally alters the agreement, creating a clear conflict within the document as it is no longer a blanket restriction. The explanation provided specifically notes this contradiction, fitting the 'Ambiguities - In Text Contradiction' perturbation definition."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "All tangible information including, without limitat ion, documents, schematics, drawings, photographs, specifications, specimens or any other information submitted by either party to the other, will remain the property of the furnishing party.",
+        "changed_text": "All tangible information including, without limitat ion, documents, schematics, drawings, photographs, specifications, specimens or any other information submitted by either party to the other, will become the property of the receiving party upon submission.",
+        "explanation": "This changes the ownership of tangible information from the furnishing party to the receiving party. This change contradicts the previous statements about retaining rights of ownership, and creates an in-text contradiction because it conflicts with clause 5 and potentially 6.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "Each party shall retain all rights of ownership over all intellectual property associated with the above referenced subject matter , including the rights of ownership of patents, trademarks and copyrights. All tangible information including, without limitat ion, documents, schematics, drawings, photographs, specifications, specimens or any other information submitted by either party to the other, will become the property of the receiving party upon submission.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the ownership of tangible information. The original text states that the furnishing party retains ownership, while the changed text states that the receiving party gains ownership upon submission. The contradicted text includes the changed text and the statement, 'Each party shall retain all rights of ownership over all intellectual property associated with the above referenced subject matter,' creating a direct contradiction because the changed text now assigns ownership of tangible information to the receiving party, conflicting with the initial statement that each party retains ownership."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The furnishing of Confidential Information pursu ant to this Agreement shall not be construed as granting or conferring, either expr essly or implicitly, any rights, licences or relationships.",
+        "changed_text": "The furnishing of Confidential Information pursuant to this Agreement shall be construed as granting a limited, non-exclusive license to use the information for the purposes of evaluating a potential business relationship.",
+        "explanation": "This changes the agreement to explicitly grant a limited license. The original clause states that furnishing information doesn't grant any rights, licenses, or relationships. The modified clause states that furnishing information does grant a limited license for evaluation, creating a direct contradiction. This creates an in-text contradiction because it conflicts with the original intention of the clause.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "The furnishing of Confidential Information pursuant to this Agreement shall be construed as granting a limited, non-exclusive license to use the information for the purposes of evaluating a potential business relationship.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly states that furnishing confidential information does NOT grant any rights or licenses. The changed text directly contradicts this by stating that furnishing confidential information SHALL BE CONSTRUED as granting a limited, non-exclusive license. Since the contradicted text is the same as the changed text, this is a direct contradiction. Thus the change creates an in-text contradiction."
+      }
+    ]
+  }
+]

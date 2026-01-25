@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement1.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Fees: The Fees for the Project shall be $279,000.00",
+        "changed_text": "Fees: The Fees for the Project are estimated to be $279,000.00. The final fee may vary based on project scope adjustments mutually agreed upon in writing.",
+        "explanation": "Changing 'shall be' to 'are estimated to be' introduces uncertainty about the total project cost. This creates an in-text contradiction because other sections of the agreement might assume a fixed project cost for payment milestones. This change makes the fees open for interpretation and subject to change, conflicting with any clauses that rely on a fixed fee schedule.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "Fee Payment Schedule Fees: The Fees for the Project are estimated to be $279,000.00. The final fee may vary based on project scope adjustments mutually agreed upon in writing. Payment Schedule: Client shall pay Developer: 20% Deposit ($55,800.00) to be paid at the start of the project. 20% ($55,800.00) to be paid upon completion of Milestone #1. 20% ($55,800.00) to be paid upon completion of Milestone #2. 20% ($55,800.00) to be paid upon completion of Milestone #3. 20% ($55,800.00) to be paid upon completion of Milestone #4. *Milestone Delivery Schedule for Phase 1 Milestone #1 -January 1st, 2019 Milestone #2- February 1st, 2019. Milestone #3 - March 1st, 2019. Milestone #4 - April 1st, 2019.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified a fixed fee of $279,000.00. The changed text introduces ambiguity by stating the fee is 'estimated' and subject to change based on project scope adjustments. This directly contradicts the payment schedule in the contradicted text, which outlines specific dollar amounts (20% of $279,000.00) to be paid upon completion of specific milestones. If the total fee can vary, the milestone payments based on a fixed percentage of $279,000.00 become inconsistent and unenforceable, creating a clear in-text contradiction as defined by Ambiguities – In Text Contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The application will pull data from the POS system once every 1-2 hours",
+        "changed_text": "The application will attempt to pull data from the POS system every 1-2 hours, subject to POS system availability and API performance.",
+        "explanation": "The original text specified a definitive schedule for data updates from the POS system. Changing it to 'attempt to pull data...subject to POS system availability' introduces an element of uncertainty. This in-text contradiction affects the 'Products' section further down, which relies on this updated inventory information. The change makes the update schedule non-binding, and reliant on external factors.",
+        "location": "5",
+        "contradicted_location": "6",
+        "contradicted_text": "Products will be populated by pulling inventory from POS system § Script will run every 1-2 hours to update the inventory o Have the ability to associate multiple images to products",
+        "contradiction_exists": "YES",
+        "justification": "The original text guarantees that 'the application will pull data from the POS system once every 1-2 hours'. The changed text introduces uncertainty ('attempt to pull data...subject to POS system availability'), directly contradicting the 'Products will be populated by pulling inventory from POS system § Script will run every 1-2 hours to update the inventory' clause. The changed text now makes the update schedule conditional, while the contradicted text relies on a definite and consistent update schedule, which creates an ambiguity that makes enforcement difficult or interpretation unclear and breaks the in-text consistencies, which adheres to the definition of Ambiguities – In Text Contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Each driver will have a set amount of time (e.g. 10 seconds) to accept or reject the order, or the order will automatically be rejected by time and the lack of response will be recorded for future reference/internal driver ranking in the future.",
+        "changed_text": "Each driver will generally have a short period to accept or reject the order, but the exact timeframe may vary depending on network conditions and system load.",
+        "explanation": "The original text clearly defines a 'set amount of time' for drivers to respond to orders. Altering this to a 'short period' with a timeframe that 'may vary depending on network conditions and system load' introduces ambiguity. This is an in-text contradiction to other sections that depend on a consistent driver response time for order processing. If order acceptance and rejection isn't being clearly and concisely being applied, the whole flow of process is affected, because this will affect the whole logistics workflow.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "If customer ID has been verified and the customer's cart is confirmed, the application will search for nearby drivers. § If a driver is found, the driver can either accept of decline the order · Drivers will be notified one at a time (queue system), with the river closest to the dispensary being notified first, then the next driver, etc. · Each driver will generally have a short period to accept or reject the order, but the exact timeframe may vary depending on network conditions and system load. § If the driver accepts, the dispensary will be notified of the order § If the driver declines, the application will look for another drive",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces ambiguity where the contradicted text relies on a consistent timeframe for drivers to accept or reject orders. The original text specified a 'set amount of time' whereas the changed text states 'generally have a short period' and 'the exact timeframe may vary'. This directly contradicts the expectation in the contradicted text that drivers are notified one at a time, because the queue system relies on having a consistent time. The ambiguity introduced by the change, that timeframe can vary, creates a contradiction."
+      }
+    ]
+  }
+]

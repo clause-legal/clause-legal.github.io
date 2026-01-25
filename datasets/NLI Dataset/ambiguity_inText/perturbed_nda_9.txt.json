@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "nda_9.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Upon completion of the Business Purpose and/or upon written request of the party providing the Information, the other party shall within 14 days return all copies of th e Information to the providing party or certify in writing that all copies of the Information have been destroyed.",
+        "changed_text": "Upon completion of the Business Purpose and/or upon written request of the party providing the Information, the other party shall within 60 days return all copies of th e Information to the providing party or certify in writing that all copies of the Information have been destroyed.",
+        "explanation": "This changes the timeframe for returning information from 14 days to 60 days. The 60 day extension creates a contradiction with the original intent of promptly returning confidential information, causing an internal contradiction when coupled with clause 6, Injunctive Rights, that grants rights to seek immediate injunctive relief for breach or potential breach, and if the party fails to return in 14 days (while original text is in place) then it can be deemed a breach in contract. This is an in-text contradiction because if this information is to be returned within 14 days for breach or can be returned in 60 days, it creates ambiguity and uncertainty.",
+        "location": "2",
+        "contradicted_location": "6",
+        "contradicted_text": "Injunctive Rights Each party acknowledges and agrees that the Information is the confidential and/or propri etary and/or trade secret information of the other and the unauthorised use or disc losure of the Information could cause irreparable harm and significant injury to the other party for which that other party would have no adequate remedy at law. Therefore, each party shall have the right, in addition to any other rights it may have at law or in equity, to seek and obtain immediate injunctive relief in respect of any breach or potential breach of this Agreement by the other.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text extends the timeframe for returning confidential information from 14 days to 60 days. This directly contradicts the 'Injunctive Rights' clause, which allows a party to seek immediate injunctive relief for any breach or potential breach. If the original text (14 days) remains in place elsewhere and the changed text introduces 60 days, failing to return information within 14 days, as intended by the contradicted section, could be considered a breach. The 60-day extension introduces ambiguity about when a breach occurs, directly conflicting with the right to 'immediate' injunctive relief, which is an inconsistency as defined in the Perturbation Definitions."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Neither party shall be liable to the other or to any other person hereunder for amounts representing loss of profits or loss of business or indirect, consequential or punitive damages of the other or of such other person in connection with the provision or use of the Information hereunder.",
+        "changed_text": "Neither party shall be liable to the other or to any other person hereunder for amounts representing loss of profits, provided that such loss of profits does not exceed $1000, or loss of business or indirect, consequential or punitive damages of the other or of such other person in connection with the provision or use of the Information hereunder.",
+        "explanation": "By adding 'provided that such loss of profits does not exceed $1000', we introduce a limit on liability for loss of profits. This directly contradicts the original statement where there was no liability for loss of profits, creating an internal contradiction. This contradiction can be noticed when coupled with clause 6, Injunctive Rights, that grants rights to seek immediate injunctive relief for breach or potential breach. If we are to have immediate injective relief, we must be able to quantify the loss of profit.",
+        "location": "3",
+        "contradicted_location": "6",
+        "contradicted_text": "Injunctive Rights Each party acknowledges and agrees that the Information is the confidential and/or propri etary and/or trade secret information of the other and the unauthorised use or disc losure of the Information could cause irreparable harm and significant injury to the other party for which that other party would have no adequate remedy at law. Therefore, each party shall have the right, in addition to any other rights it may have at law or in equity, to seek and obtain immediate injunctive relief in respect of any breach or potential breach of this Agreement by the other.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that neither party shall be liable for loss of profits. The changed text introduces a limit of $1000 on liability for loss of profits, which directly contradicts the original statement of no liability. This new limit on liability creates a contradiction with the Injunctive Rights clause, which grants the right to seek immediate injunctive relief for any breach or potential breach. If there is immediate injunctive relief, there has to be a way to quantify the profit loss. This aligns with the definition of 'Ambiguities - In Text Contradiction', since key obligations are defined inconsistently, making enforcement unclear, creating an in-text contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Nothing contained in this Agreement shall be construed as granting or conferring any rights by licence or otherwise in the Information except as provided herein.",
+        "changed_text": "Nothing contained in this Agreement shall be construed as granting or conferring any rights by licence or otherwise in the Information except as provided herein, unless explicitly agreed upon in a separate written agreement.",
+        "explanation": "The addition of 'unless explicitly agreed upon in a separate written agreement' introduces an exception to the clause that nothing in the agreement grants rights by license. This creates an internal contradiction because it is not defining rights within the agreement but by reference to a different agreement. This change creates an in-text contradiction because if there is an agreement like such then there is a breach of the original terms of the agreement.",
+        "location": "4",
+        "contradicted_location": "8.2",
+        "contradicted_text": "Entire Agreement This Agreement and any attachments hereto: i) are the complete and exclusive statement between the parties with respect to the protection of the confidentiality of the Information; and ii) supersede all related discussions and other communications between the parties; and iii) may only be modified in writing by authorised representatives of the parties.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an exception to the entire agreement clause. The original agreement states it is the complete and exclusive statement, superseding all other communications and only modifiable in writing by authorised representatives. The changed text introduces a side agreement, not part of the main agreement, that can grant rights, directly contradicting the 'Entire Agreement' clause."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Any forecasts or similar material provided by either party to the other shall not constitute any commitments.",
+        "changed_text": "Any forecasts or similar material provided by either party to the other shall constitute commitments, provided that they are marked as 'Binding Forecast' and signed by both parties.",
+        "explanation": "This changes forecasts from non-binding to binding under specific conditions. This creates an internal contradiction as forecasts by default are non-binding, but under certain conditions become binding. This contradicts the original intent and creates uncertainty, and especially creates an internal contradiction with clause 5, 'Business Purpose', and it creates ambiguity, uncertainty, and can lead to disputes.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "Business Purpose The parties expressly agree that the provision of Inform ation hereunder and any discussions held in connection with the Business Purpose shall not prevent either party from pursuing similar discussions with third parties provided that no breach of this Agreement is so occasion ed or oblige that party to take, continue or forego any action relating to the Business Purpose. Any forecasts or similar material provided by either party to the other shall constitute commitments, provided that they are marked as 'Binding Forecast' and signed by both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that 'Any forecasts or similar material provided by either party to the other shall not constitute any commitments.' The changed text modifies this to state that such forecasts *will* constitute commitments if marked 'Binding Forecast' and signed. The contradicted text repeats the changed text. The contradiction arises because the same sentence is first presented as non-binding and subsequently, under certain circumstances, as binding within the same document. This creates a direct and significant contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Any notices required under this Agreement shall be in wr iting and posted by registered mail return receipt requested to the applicable address indicated in Exhibit A.",
+        "changed_text": "Any notices required under this Agreement shall be in writing and may be sent by email to the applicable address indicated in Exhibit A, provided that a delivery receipt is obtained.",
+        "explanation": "The change allows notices to be sent by email instead of registered mail. The original requirement of registered mail ensures proof of delivery and receipt, which is a stricter requirement than simply obtaining a 'delivery receipt' for an email. This 'delivery receipt' isn't as legally sound as a registered mail return receipt, and the new condition contradicts the intention of having a verifiable record of notice. This causes an internal contradiction with clause 8.2 and 8.3; 'Entire Agreement' and 'Governing Law', because if a notice isn't being received and can be proved, is that following the governing laws and following the points that this agreement is complete and exclusive.",
+        "location": "8.1",
+        "contradicted_location": "8.2",
+        "contradicted_text": "Entire Agreement This Agreement and any attachments hereto: i) are the complete and exclusive statement between the parties with respect to the protection of the confidentiality of the Information; and ii) supersede all related discussions and other communications between the parties; and iii) may only be modified in writing by authorised representatives of the parties.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces email as a valid form of notification, which contradicts the 'Entire Agreement' clause. The original text requires registered mail for notices, which provides a verifiable record. The changed text only requires a 'delivery receipt' for email, which is not as legally sound. This introduces ambiguity and potentially undermines the enforceability of the agreement, especially concerning notice requirements. Since the entire agreement clause states that the agreement is complete and exclusive, this change impacts governing laws and verifiability, creating a strong in-text contradiction."
+      }
+    ]
+  }
+]

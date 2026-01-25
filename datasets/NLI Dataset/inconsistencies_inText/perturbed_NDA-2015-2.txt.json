@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "NDA-2015-2.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "1. Recipients (and their respective partners, suppliers, licensors, licencees, agents, contractors and affiliates, who are hereby authorized to have Confidential Information disclosed to them hereunder only so long as they are in receipt of said Confidential Information under terms of confidentiality comparable to those set forth herein) hereby agree to hold in confidence any and all Confidential Information disclosed during the Up-Start Competition, either verbally or in writing.",
+        "changed_text": "1. Recipients hereby agree to hold in confidence any and all Confidential Information disclosed during the Up-Start Competition, either verbally or in writing. However, Recipients are permitted to share anonymized and aggregated data derived from the Confidential Information with third-party consultants for market research purposes.",
+        "explanation": "This change to Section 1 adds a clause allowing Recipients to share anonymized and aggregated data, which directly contradicts the initial agreement to hold *all* Confidential Information in confidence. The text creates an in-text contradiction because, while the data is anonymized, the original text does not permit this type of sharing, potentially allowing for reverse engineering.",
+        "location": "1",
+        "contradicted_location": "1",
+        "contradicted_text": "1. Recipients hereby agree to hold in confidence any and all Confidential Information disclosed during the Up-Start Competition, either verbally or in writing. However, Recipients are permitted to share anonymized and aggregated data derived from the Confidential Information with third-party consultants for market research purposes.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an exception to the confidentiality obligation, allowing the sharing of anonymized and aggregated data. This directly contradicts the original agreement to hold *all* Confidential Information in confidence, as stated in the original text and re-emphasized in the provided contradicted text. Even if the data is anonymized and aggregated, the initial condition of complete confidentiality is violated, creating a clear conflict. The Perturbation Explanation confirms that the change creates an in-text contradiction, the definition of Inconsistencies directly applies."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "4. Recipient agrees to use due care, but in no event less than a reasonable degree of care, to keep Confidential Information disclosed to it pursuant to this Agreement in a safe and secure place that is at least as safe and secure as the place where that party keeps other confidential information that it considers to be valuable and proprietary to itself.",
+        "changed_text": "4. Recipient agrees to use due care to keep Confidential Information disclosed to it pursuant to this Agreement in a safe and secure place. The specific security measures are solely at the discretion of the Recipient.",
+        "explanation": "The modification to Section 4 introduces an in-text contradiction. The original text specifies a 'reasonable degree of care' and compares the security to that used for the Recipient's own valuable information. The changed text states that the security measures are solely at the Recipient's discretion, removing the standard of 'reasonable care' and opening the door to a lower level of security than originally intended. This creates conflict and uncertainty regarding the required standard of care for protecting confidential information.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "4. Recipient agrees to use due care to keep Confidential Information disclosed to it pursuant to this Agreement in a safe and secure place. The specific security measures are solely at the discretion of the Recipient.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that security measures are solely at the Recipient's discretion, removing the original requirement of a 'reasonable degree of care' and comparison to the Recipient's own valuable information. This conflicts with the contradicted text, which is the same as the changed text but implicitly contradicts the initial standard of reasonable care previously present in the original text. This creates a strong contradiction as the standard of care is now undefined, potentially allowing for a lower level of security than originally intended, making enforcement unclear and leading to potential disputes."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "8. This Agreement contains the entire agreement of the parties with respect to the subject matter hereof and may not be changed, modified, amended or supplemented except by a written instrument signed by the parties.",
+        "changed_text": "8. This Agreement contains the entire agreement of the parties with respect to the subject matter hereof. MaRS reserves the right to unilaterally modify or amend this Agreement by providing written notice to the Recipients. Continued participation in the Up-Start Competition following such notice shall constitute acceptance of the modified terms.",
+        "explanation": "The modification of Section 8 creates an in-text contradiction. Originally, the agreement could only be changed through a written instrument signed by both parties. The changed text allows MaRS to unilaterally modify the agreement with written notice, contradicting the earlier requirement for mutual agreement. This generates conflict and uncertainty regarding the process for amending the agreement.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "8. This Agreement contains the entire agreement of the parties with respect to the subject matter hereof. MaRS reserves the right to unilaterally modify or amend this Agreement by providing written notice to the Recipients. Continued participation in the Up-Start Competition following such notice shall constitute acceptance of the modified terms.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the agreement can only be modified by a written instrument signed by both parties. The changed text allows MaRS to unilaterally modify the agreement, which directly contradicts the original requirement for mutual agreement. This in-text contradiction creates conflict and uncertainty as it violates the mutually agreed upon terms for modification, leading to uncertainty in enforcement."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "3. Recipient acknowledges that any violation of any of the provisions hereof by such party may result in immediate and irreparable damage to other party and agrees that in the event of such violation the other party shall, in addition to any other right, relief or remedy at law, be entitled to any equitable relief that any court of competent jurisdiction may deem just and proper.",
+        "changed_text": "3. Recipient acknowledges that any violation of any of the provisions hereof by such party may result in damage to other party. However, in the event of such violation, the breaching party will have 30 days to cure the violation before the other party shall be entitled to any equitable relief that any court of competent jurisdiction may deem just and proper.",
+        "explanation": "The modification of Section 3 introduces an in-text contradiction. The original text allows for immediate equitable relief in the event of a violation. The added clause now gives the breaching party 30 days to cure the violation before equitable relief can be sought, contradicting the possibility of immediate relief. This introduces ambiguity about the timing of remedies for violations.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "3. Recipient acknowledges that any violation of any of the provisions hereof by such party may result in damage to other party. However, in the event of such violation, the breaching party will have 30 days to cure the violation before the other party shall be entitled to any equitable relief that any court of competent jurisdiction may deem just and proper.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds a 30-day cure period before equitable relief can be sought. The original text allowed for immediate equitable relief. The contradiction arises because the addition of the cure period directly conflicts with the possibility of obtaining immediate relief, creating an inconsistency in the timing of remedies and thus contradicting the original intent."
+      }
+    ]
+  }
+]

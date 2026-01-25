@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Non-Disclosure-Agreement-NDA.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Each party's Conﬁdential Information shall remain its own property. Upon the termination of the business relationship or upon request, whichever is sooner, each party shall return all of the other's Conﬁdential Information, certifying destruction of any copies or partial copies made.",
+        "changed_text": "Each party's Conﬁdential Information shall remain its own property. Upon the termination of the business relationship or upon request, whichever is sooner, each party shall return all of the other's Conﬁdential Information.",
+        "explanation": "By removing the requirement to 'certifying destruction of any copies or partial copies made', it leaves ambiguity if the recipient party is legally obligated to permanently destroy copies, or only return the main document. It also diminishes the effectiveness and intention of the confidentiality clause as now there is no confirmation that the other party deleted and destroyed any copies of the document. This creates a contradiction to the first section when states the parties 'agree to protect each other's Confidential Information'.",
+        "location": "6",
+        "contradicted_location": "The parties agree that in order for them to explore opportunities and examine how they might work together to their mutual beneﬁt, it will be necessary and desirable that they disclose conﬁdential business information. The parties agree to protect each other's Conﬁdential Information disclosed before or after the execution of this Agreement on the following terms.",
+        "contradicted_text": "The parties agree that in order for them to explore opportunities and examine how they might work together to their mutual beneﬁt, it will be necessary and desirable that they disclose conﬁdential business information. The parties agree to protect each other's Conﬁdential Information disclosed before or after the execution of this Agreement on the following terms.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the obligation to certify the destruction of confidential information copies. This directly contradicts the contradicted text, which states, 'The parties agree to protect each other's Confidential Information.' Without the certification of destruction, the agreement to protect confidential information is weakened and creates a direct conflict, as the changed text no longer ensures complete protection as initially agreed upon in the contradicted text. The Omissions-In Text Contradiction definition is met because essential language was removed, creating a contradiction with obligations stated in other sections."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The obligation of conﬁdentiality shall extend to three years from and including the date of return of the Conﬁdential Information and certiﬁcation of destruction of any copies made. At any time, either party may notify the other party in writing that future disclosures shall not be governed by this Agreement.",
+        "changed_text": "The obligation of conﬁdentiality shall extend to three years from and including the date of return of the Conﬁdential Information. At any time, either party may notify the other party in writing that future disclosures shall not be governed by this Agreement.",
+        "explanation": "The removal of 'and certification of destruction of any copies made' creates an ambiguity about when the three-year confidentiality period starts. The original clause clearly linked the start of the period to both returning the information *and* certifying destruction. Now, it's unclear if the three-year period begins upon return alone, or if proof of destruction is implied, which is a contradiction from Section 6 where the certificiation of destruction was previously ommitted.",
+        "location": "7",
+        "contradicted_location": "6",
+        "contradicted_text": "Each party's Conﬁdential Information shall remain its own property. Upon the termination of the business relationship or upon request, whichever is sooner, each party shall return all of the other's Conﬁdential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text clearly states that the confidentiality period extends to three years from the date of return of confidential information *and* certification of destruction of any copies made. By removing \"and certification of destruction of any copies made\", the changed text creates an ambiguity about when the three-year confidentiality period begins, and thus, contradicts the original terms. This creates a contradiction with the section stating \"Upon the termination of the business relationship or upon request, whichever is sooner, each party shall return all of the other's Conﬁdential Information.\" because it's now unclear when the return of confidential information triggers the three year period since the requirement to certify destruction of any copies was removed in the changed text."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This Agreement is governed by the laws of Germany without regard to its rules on conﬂicts of law, and both parties consent to the venue and jurisdiction of its courts.",
+        "changed_text": "This Agreement is governed by the laws of Germany.",
+        "explanation": "By removing 'without regard to its rules on conflicts of law, and both parties consent to the venue and jurisdiction of its courts,' the governing law becomes ambiguous if a conflict of law situation arises. The original text explicitly stated that German law applies even if its own conflict of law rules would point to another jurisdiction. Without this clause, there's no clear agreement on which court should have jurisdiction, contradicting the intent to have a clear legal framework and potentially impacting section 9 regarding remedies for breaches.",
+        "location": "10",
+        "contradicted_location": "9",
+        "contradicted_text": "Each party agrees that in the event of a breach or threatened breach by either party, including its agents, directors, or employees, of the provisions of this Agreement, the non-breaching party may have no adequate remedy in money damages and, accordingly, shall be entitled to an injunction against such breach, in addition to any other legal or equitable remedies available to it.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly states that German law governs the agreement, regardless of conflict of law rules, and specifies venue and jurisdiction. The changed text removes the clause about conflicts of law and jurisdiction. The contradicted text discusses remedies for breach of the agreement, including injunctions. By removing the jurisdiction clause, it becomes unclear which court has the power to issue such an injunction or to hear a case regarding a breach, thus creating a contradiction. Without a defined jurisdiction, section 9 becomes difficult, if not impossible, to enforce effectively. Therefore, the omission creates a significant contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "No modiﬁcation of this Agreement shall be eﬀective unless in writing and signed by both parties. No waiver of any provision of this Agreement shall be eﬀective unless signed by the waiving party.",
+        "changed_text": "No modiﬁcation of this Agreement shall be eﬀective unless in writing. No waiver of any provision of this Agreement shall be eﬀective unless signed by the waiving party.",
+        "explanation": "By removing the phrase 'and signed by both parties' from the sentence regarding the modification of the agreement, it is not clear who is required to approve the change to the agreement to make it effective, potentially negating the point of having a mutual agreement in the first place and putting it in the hands of just one party. This introduces ambiguity and runs counter to the initial agreement that the agreement should be 'mutual'.",
+        "location": "10",
+        "contradicted_location": "Non-Disclosure Agreement This mutual Nondisclosure Agreement (the \"Agreement\") is entered into between ACCRUENCE GMBH LOEWENICHSTR. 3 91054 ERLANGEN, GERMANY and and is eﬀective as of the last date signed.",
+        "contradicted_text": "Non-Disclosure Agreement This mutual Nondisclosure Agreement (the \"Agreement\") is entered into between ACCRUENCE GMBH LOEWENICHSTR. 3 91054 ERLANGEN, GERMANY and and is eﬀective as of the last date signed.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that modifications to the agreement require signatures from both parties, reinforcing the 'mutual' aspect described in the contradicted text. The changed text removes the requirement for both parties to sign, making it unclear who needs to approve the change. The explanation provided suggests this weakens the 'mutual' understanding of the agreement as described in the contradicted text, introducing a contradiction by potentially allowing one party to unilaterally modify the terms, thus creating a strong contradiction."
+      }
+    ]
+  }
+]

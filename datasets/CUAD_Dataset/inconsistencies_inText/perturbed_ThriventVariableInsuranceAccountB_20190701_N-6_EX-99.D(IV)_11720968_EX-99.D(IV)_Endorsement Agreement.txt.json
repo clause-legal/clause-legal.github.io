@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "ThriventVariableInsuranceAccountB_20190701_N-6_EX-99.D(IV)_11720968_EX-99.D(IV)_Endorsement Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "DIVIDEND OPTIONS. If dividends are credited after premiums can no longer be paid under this contract, dividends will be paid in cash. Otherwise, dividends will be applied under the Payment of Premium option unless the Cash option has been chosen in writing. Cash. Dividends are paid in cash. Payment of Premium. Dividends are applied as payment of a Net Premium.",
+        "changed_text": "DIVIDEND OPTIONS. If dividends are credited after premiums can no longer be paid under this contract, dividends will be reinvested in the contract. Otherwise, dividends will be applied under the Payment of Premium option unless the Cash option has been chosen in writing. Cash. Dividends are paid in cash. Payment of Premium. Dividends are applied as payment of a Net Premium.",
+        "explanation": "This change introduces an in-text contradiction by changing the default dividend option after premiums can no longer be paid from 'paid in cash' to 'reinvested in the contract'. This directly conflicts with the subsequent 'Cash' option definition, which states 'Dividends are paid in cash.' This will lead to confusion over how dividends are handled when premiums are no longer being paid, particularly if the Cash option has NOT been chosen in writing.",
+        "location": "DIVIDEND OPTIONS",
+        "contradicted_location": "DIVIDEND OPTIONS",
+        "contradicted_text": "DIVIDEND OPTIONS. If dividends are credited after premiums can no longer be paid under this contract, dividends will be reinvested in the contract. Otherwise, dividends will be applied under the Payment of Premium option unless the Cash option has been chosen in writing. Cash. Dividends are paid in cash. Payment of Premium. Dividends are applied as payment of a Net Premium.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the default dividend option after premiums can no longer be paid from 'paid in cash' to 'reinvested in the contract'. This directly conflicts with the 'Cash' option definition, which states 'Dividends are paid in cash.' The Contradicted Text and Changed Text are the same, but because the Original Text said something different ('dividends will be paid in cash'), the change itself causes an in-text contradiction. This falls under the definition of 'Inconsistencies - In Text Contradiction' since the change introduces a conflict, specifically between the initial dividend option statement and the subsequent definition of the 'Cash' option."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "ASSIGNMENT The ASSIGNMENT section is amended to include the following: You may transfer ownership of this contract in accordance with our bylaws. Society membership rights and privileges cannot be transferred or assigned.",
+        "changed_text": "ASSIGNMENT The ASSIGNMENT section is amended to include the following: You may transfer ownership of this contract at any time, without restriction. Society membership rights and privileges cannot be transferred or assigned.",
+        "explanation": "This change creates an in-text contradiction by stating ownership can be transferred 'at any time, without restriction', while the original contract states it can only happen 'in accordance with our bylaws'. This removes the bylaw restriction completely. If the bylaws contain specific conditions for transfer, this change makes it unclear whether those conditions still apply. It creates an immediate conflict within the same section and raises legal ambiguity regarding valid contract assignment.",
+        "location": "ASSIGNMENT",
+        "contradicted_location": "ASSIGNMENT",
+        "contradicted_text": "ASSIGNMENT The ASSIGNMENT section is amended to include the following: You may transfer ownership of this contract at any time, without restriction. Society membership rights and privileges cannot be transferred or assigned.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that ownership can be transferred 'at any time, without restriction,' directly contradicting the original requirement of transferring ownership 'in accordance with our bylaws.' This creates a clear inconsistency regarding the conditions for transferring ownership, making the contract ambiguous and potentially unenforceable."
+      }
+    ]
+  }
+]

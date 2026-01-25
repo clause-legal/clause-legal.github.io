@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "IdeanomicsInc_20160330_10-K_EX-10.26_9512211_EX-10.26_Content License Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "(n) \"Territory\" shall mean mainland China.",
+        "changed_text": "(n) \"Territory\" shall mean mainland China, excluding Hong Kong and Macau for titles listed in Schedule A.",
+        "explanation": "This change modifies the definition of 'Territory' to exclude Hong Kong and Macau for titles listed in Schedule A, creating a contradiction if another section refers to the original definition of 'Territory' without this exclusion. For instance, Section 2(a) [License Grant] grants rights within the 'Territory.' This creates an in-text contradiction by allowing one interpretation of 'Territory' in relation to all sections, but another with the exclusion of Hong Kong and Macau for the titles listed in schedule A.",
+        "location": "Section 1(n)",
+        "contradicted_location": "Section 2(a)",
+        "contradicted_text": "In exchange for the Share Consideration, Licensor hereby grants to Licensee a non-exclusive, royalty-free, perpetual and non-perpetual license (subject to the duration and scope, and format limitations for which Licensor has the rights to each Title as specified in Schedule A1-A6 of Schedule A) to: i. license, exhibit, distribute, reproduce, transmit, perform, display, and otherwise exploit and make available each Title within the Territory in any language by VOD (including SVOD, TVOD, AVOD and free VOD) for Internet, TV and mobile platforms (including, but not limited to, OTT streaming services, Sites and Mobile Sites), subject to these limitations for each of the Title in Schedule A1-A6: 1) For Titles listed in Schedule A1-A2: Licensor can only grant Licensee distribution rights to up to six (6) MSOs plus two (2) of China's Internet TV license holders or their OTT Internet-based video partners by VOD (including SVOD, TVOD, AVOD and free VOD). China's current Internet TV license holders include: CNTV (中国网络电视台/未来电视), BesTV (百视通), Wasu (华数), Southern Media Cooperation (南方传媒), Hunan TV (芒果 TV), China National Radio/Galaxy Internet TV (GITV) (银河电视), and China Radio International (中国国际 广播电台);",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the definition of 'Territory' to exclude Hong Kong and Macau for titles in Schedule A. The contradicted text grants a license to exploit titles within the 'Territory'. Because the definition of Territory has been modified, a contradiction arises as to whether titles in Schedule A can be exploited in Hong Kong and Macau under the general license grant, thus creating an in-text contradiction. The original text did not include any exclusions, while the changed text creates an exception to the Territory definition, making them incompatible based on the provided information."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Licensee shall have the right to assign or sublicense any or all of its rights granted under this Agreement, in whole or in part, to third parties exhibiting the Titles in the ordinary course of Licensee's business with prior written notice to Licensor and subject to the applicable limitations (if any) in Section 2(a)(i) [License Grant]. Except as otherwise specified in the previous sentence, Licensee may not sublicense any of its rights under Section 2(a) [License Grant] without Licensor's prior written consent, which shall not be unreasonably withheld or delayed.",
+        "changed_text": "Licensee shall have the right to assign or sublicense any or all of its rights granted under this Agreement, in whole or in part, to third parties exhibiting the Titles in the ordinary course of Licensee's business without prior written notice to Licensor and not subject to the applicable limitations (if any) in Section 2(a)(i) [License Grant]. Licensee may sublicense any of its rights under Section 2(a) [License Grant] with Licensor's prior written consent, which shall be subjected to a fee.",
+        "explanation": "The altered text in Section 2(b) now creates an in-text contradiction by stating that the Licensee can assign or sublicense their rights without prior written notice and not subject to the limitations in Section 2(a)(i). This contradicts the latter half of this section and previous statments. This change creates ambiguity regarding sublicensing rights. It creates uncertainty about which clause governs the process: the relaxed approach stated or the initial restrictions.",
+        "location": "Section 2(b)",
+        "contradicted_location": "Section 2(b)",
+        "contradicted_text": "(b) Sublicensing. Licensee shall have the right to assign or sublicense any or all of its rights granted under this Agreement, in whole or in part, to third parties exhibiting the Titles in the ordinary course of Licensee's business without prior written notice to Licensor and not subject to the applicable limitations (if any) in Section 2(a)(i) [License Grant]. Licensee may sublicense any of its rights under Section 2(a) [License Grant] with Licensor's prior written consent, which shall be subjected to a fee.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a contradiction by stating that the Licensee can assign or sublicense their rights without prior written notice and not subject to the limitations in Section 2(a)(i). This directly conflicts with the latter half of the same section which implies that the Licensee may sublicense its rights under Section 2(a) with Licensor's prior written consent subject to a fee. This conflict falls under the definition of 'Ambiguities – In Text Contradiction' as it creates uncertainty about which clause governs the sublicensing process, leading to potential disputes."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Any edits to any Title will require the prior written approval by Licensor.",
+        "changed_text": "Any edits to any Title for internet distribution will require the prior written approval by Licensor, unless said edit is for censorship purposes, in which no approval is required.",
+        "explanation": "This change adds an exception to the editing rules, which creates an in-text contradiction if other sections of the agreement require all edits to be approved or are limited based on editing, regardless of purpose. By creating an exception for censorship, it contradicts with the general rule of getting an approval before doing any edits to the title and creates uncertainty about censorship requirements.",
+        "location": "Section 2(f)",
+        "contradicted_location": "Section 2(c)",
+        "contradicted_text": "(c) Display of Titles. Licensee agrees to display the Titles without material alteration to the content thereof. Licensee may make non-material modifications or edits the format of the Titles only for technical purposes with prior written approval by Licensor (such approval not to be unreasonably withheld or delayed) and subject to the applicable limitations (if any) in section 2(a)(i). Nothing in this Agreement prevents Licensee from providing Users with the ability to use the Titles as permitted by law or in a manner for which a license is not required.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an exception for censorship edits, overriding the general requirement for prior written approval for *any* edits. This directly contradicts the contradicted text, which mandates approval for *any* modifications to the format, regardless of the reason or the type of edit. The exception introduces ambiguity and directly conflicts with the requirement stated in the contradicted text, creating a strong in-text contradiction as it relates to editing without approval."
+      }
+    ]
+  }
+]

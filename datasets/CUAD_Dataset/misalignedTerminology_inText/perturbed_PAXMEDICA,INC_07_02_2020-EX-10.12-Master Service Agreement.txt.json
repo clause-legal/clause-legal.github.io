@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "PAXMEDICA,INC_07_02_2020-EX-10.12-Master Service Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Master Service Agreement This Master Service Agreement (\"Agreement\"), entered into on May 25th, 2018 by and between CRO Consulting (Pty) Limited, whose Registered Office is at OnQ House 250 Market Street Fairland Johannesburg 2170 South Africa (hereinafter referred to as \"CRO\") and Purinix Pharmaceuticals LLC whose Registered Office is at 1266 East Main Street, Suite 700R, Stamford, CT 06902, USA (hereinafter referred to as \"Client\").",
+        "changed_text": "Master Service Agreement This Master Service Agreement (\"Agreement\"), entered into on May 25th, 2018 by and between CRO Consulting (Pty) Limited, whose Registered Office is at OnQ House 250 Market Street Fairland Johannesburg 2170 South Africa (hereinafter referred to as \"Contractor\") and Purinix Pharmaceuticals LLC whose Registered Office is at 1266 East Main Street, Suite 700R, Stamford, CT 06902, USA (hereinafter referred to as \"Client\").",
+        "explanation": "The term 'CRO' is replaced with 'Contractor' in the definition. This introduces a contradiction later in the document where 'CRO' is used assuming it aligns with the initial definition, creating confusion about which entity is bound by those clauses. The change impacts the definition and all other sections using CRO.",
+        "location": "Preamble",
+        "contradicted_location": "1.1",
+        "contradicted_text": "Client requires CRO to carry out Clinical Research Services in South Africa (\"Services\"). CRO will carry out the tasks agreed and summarised in the Addenda to this Master Service Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text redefines 'CRO' as 'Contractor', which directly contradicts the contradicted text. The contradicted text refers to 'CRO' carrying out services, but the initial definition has been altered. This misalignment in terminology creates a strong in-text contradiction as the contract now uses 'CRO' without a clear, consistent definition, leading to ambiguity about which entity is responsible for the stated obligations. This fits the definition of 'Misaligned Terminology - In Text Contradiction'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Client will pay CRO for satisfactory performance of Services as agreed in each Project-specific Addendum to this Agreement.",
+        "changed_text": "Client will pay the Service Provider for satisfactory performance of Services as agreed in each Project-specific Addendum to this Agreement.",
+        "explanation": "Replaced CRO with Service Provider. Since 'CRO' was established as Contractor, then 'Service Provider' is now a different role without an official definition, leading to ambiguity about who is entitled to payment. This introduces uncertainty about financial obligations.",
+        "location": "2.1",
+        "contradicted_location": "2.4",
+        "contradicted_text": "CRO will provide a detailed account of all time and tasks, as against project specific task and time addenda, and will be payable within 30 days of receipt of invoice by Client.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'CRO' to 'Service Provider' introduces a contradiction because the contradicted text specifies that 'CRO' will provide invoices and receive payment. By changing the payee in the first clause to 'Service Provider,' while the second clause still refers to 'CRO,' the contract now has conflicting instructions on who is entitled to payment. This creates a direct conflict and makes the contract unenforceable regarding payment terms."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Client may designate representatives who shall, upon reasonable notice to CRO, have access to and shall be permitted to review all documents, information, data and/or materials specifically related to the conduct of the projects covered by the Addenda.",
+        "changed_text": "Client may designate representatives who shall, upon reasonable notice to the Project Team, have access to and shall be permitted to review all documents, information, data and/or materials specifically related to the conduct of the projects covered by the Addenda.",
+        "explanation": "Changing 'CRO' to 'Project Team'. This creates uncertainty because the document does not define who constitutes the 'Project Team.' This could lead to disputes over who is authorized to provide information and access, conflicting with responsibilities assigned to the Contractor, originally CRO.",
+        "location": "8.2",
+        "contradicted_location": "5.1",
+        "contradicted_text": "CRO warrants to Client that the Services will be performed in a professional and workmanlike manner and on a best endeavours basis in accordance with the standard of care ordinarily and reasonably expected in the performance of such Services and that the work performed for Client will be correct in all material respects to the best of the knowledge and belief of CRO. However, Client acknowledges that the provision of the Services is dependent upon the responsiveness of the South African regulatory authorities and CRO shall not be held responsible for any acts or omissions of such authorities.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified that the CRO would provide access to documents. The changed text replaces 'CRO' with 'Project Team', which is undefined in the document. This creates a contradiction because the contradicted text specifically assigns responsibilities and warrants performance to the 'CRO'. By changing the entity responsible for providing access to documents, the changed text introduces uncertainty about who is ultimately responsible for the performance warranted by the CRO, potentially conflicting with the CRO's obligations outlined in the contradicted text. The altered terminology thus creates a strong in-text contradiction by undermining the CRO's defined responsibilities."
+      }
+    ]
+  }
+]

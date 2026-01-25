@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "NDA_5.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement shall remain in effect until such time as all Confidential Information of Google disclosed hereunder becomes publicly known and made generally available through no action or inaction of Participant.",
+        "changed_text": "This Agreement shall remain in effect for a period of one (1) year from the date of execution, regardless of whether Confidential Information of Google disclosed hereunder becomes publicly known and made generally available through no action or inaction of Participant.",
+        "explanation": "The original agreement states that it remains in effect until the confidential information becomes publicly known through no fault of the participant. The modified version limits the agreement to one year, regardless of whether the information is still confidential. This creates an in-text contradiction on the duration of the agreement and the participant's ongoing obligations.",
+        "location": "Paragraph 7",
+        "contradicted_location": "Paragraph 2",
+        "contradicted_text": "In connection with Participant's visit, Google may disclose or expose to Participant certain information that is proprietary to Google (\"Confidential Information\"). Participant will use the Confidential Information only for the purpose associated with Participant's visit. Participant will use the same degree of care, but no less than a reasonable degree of care, as Participant uses with respect to its own similar information to protect the Confidential Information and to prevent (i) any use of Confidential Information not authorized in this Agreement, (ii) dissemination of Confidential Information to any third party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed the agreement to continue until the confidential information became public, whereas the changed text limits the agreement to one year regardless of the information's confidentiality. The contradicted text states that the participant must protect confidential information and prevent unauthorized use or dissemination. The modified version of the agreement, limiting the agreement to one year, contradicts this obligation because after one year, according to the modified version, the participant would no longer be bound by the confidentiality clause, even if the information remains confidential."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Participant, upon Google's written request, will promptly return all Confidential Information received from Google, together with all copies, or certify in writing that all such Confidential Information and copies thereof have been destroyed.",
+        "changed_text": "Participant, upon Google's request, may or may not return all Confidential Information received from Google, together with all copies, or certify in writing that all such Confidential Information and copies thereof have been destroyed, at the Participant's discretion.",
+        "explanation": "Changing 'will promptly return' to 'may or may not return, at the Participant's discretion' directly contradicts the mandatory nature of the original agreement, creating uncertainty as to whether the participant is actually obligated to return confidential information upon request. This undermines the confidentiality protections outlined at the beginning of the document.",
+        "location": "Paragraph 8",
+        "contradicted_location": "Paragraph 2",
+        "contradicted_text": "In connection with Participant's visit, Google may disclose or expose to Participant certain information that is proprietary to Google (\"Confidential Information\"). Participant will use the Confidential Information only for the purpose associated with Participant's visit. Participant will use the same degree of care, but no less than a reasonable degree of care, as Participant uses with respect to its own similar information to protect the Confidential Information and to prevent (i) any use of Confidential Information not authorized in this Agreement, (ii) dissemination of Confidential Information to any third party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates the return of confidential information ('will promptly return'), while the changed text makes it discretionary ('may or may not return, at the Participant's discretion'). This directly contradicts the 'Contradicted Text' section, which states the participant 'will use the same degree of care...to protect the Confidential Information' and prevent unauthorized use. The discretionary nature introduced by the change weakens the obligation to protect confidential information, thus creating a strong in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement between the parties supersedes any other prior or collateral agreements, whether oral or written, with respect to the subject matter hereof and constitutes the entire agreement with respect to the subject matter hereof.",
+        "changed_text": "This Agreement between the parties supersedes any other prior or collateral agreements, whether oral or written, with respect to the subject matter hereof, except for any prior oral agreements made between Google and the Participant related to confidentiality.",
+        "explanation": "By adding \"except for any prior oral agreements made between Google and the Participant related to confidentiality,\" the modified clause creates an exception to the entire agreement clause. This introduces ambiguity and contradiction, as it suggests that prior oral agreements, which are not documented in the written agreement, could still be enforceable, undermining the purpose of having a written agreement that covers the entire subject matter. This contradicts the entire purpose of the document, which is a *written* non-disclosure agreement.",
+        "location": "Paragraph 9",
+        "contradicted_location": "Paragraph 9",
+        "contradicted_text": "This Agreement between the parties supersedes any other prior or collateral agreements, whether oral or written, with respect to the subject matter hereof and constitutes the entire agreement with respect to the subject matter hereof.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds an exception to the 'entire agreement' clause, allowing prior oral agreements related to confidentiality to remain in effect. This directly contradicts the original intent and the contradicted text, which states that the agreement supersedes *any* prior agreements, whether oral or written. The addition creates a loophole, undermining the purpose of having a fully integrated written agreement."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Participant will use the Confidential Information only for the purpose associated with Participant's visit.",
+        "changed_text": "Participant will use the Confidential Information for any purpose they deem fit.",
+        "explanation": "Changing 'only for the purpose associated with Participant's visit' to 'for any purpose they deem fit' completely negates the entire purpose of the non-disclosure agreement. The Participant is no longer restricted in how they use the Confidential Information, thus directly contradicting the intent to keep the information confidential, which is at the very base of the agreement.",
+        "location": "Paragraph 2",
+        "contradicted_location": "Paragraph 2",
+        "contradicted_text": "In connection with Participant's visit, Google may disclose or expose to Participant certain information that is proprietary to Google (\"Confidential Information\"). Participant will use the Confidential Information only for the purpose associated with Participant's visit. Participant will use the same degree of care, but no less than a reasonable degree of care, as Participant uses with respect to its own similar information to protect the Confidential Information and to prevent (i) any use of Confidential Information not authorized in this Agreement, (ii) dissemination of Confidential Information to any third party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text restricts the participant to using Confidential Information 'only for the purpose associated with Participant's visit'. The changed text removes this restriction, allowing the Participant to use the Confidential Information 'for any purpose they deem fit'. This directly contradicts the contradicted text which states 'Participant will use the Confidential Information only for the purpose associated with Participant's visit' and the intent to prevent unauthorized use of Confidential Information."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Participant will use the same degree of care, but no less than a reasonable degree of care, as Participant uses with respect to its own similar information to protect the Confidential Information and to prevent (i) any use of Confidential Information not authorized in this Agreement, (ii) dissemination of Confidential Information to any third party.",
+        "changed_text": "Participant is not required to exercise any degree of care in protecting the Confidential Information and is not responsible for preventing (i) any use of Confidential Information not authorized in this Agreement, (ii) dissemination of Confidential Information to any third party.",
+        "explanation": "By removing the requirement for the Participant to use a reasonable degree of care, this directly contradicts the fundamental premise of the NDA. The Participant now has no obligation to protect the Confidential Information, making the agreement meaningless. This goes against the purpose of the document to protect the confidentiality of Google's information.",
+        "location": "Paragraph 2",
+        "contradicted_location": "Paragraph 2",
+        "contradicted_text": "In connection with Participant's visit, Google may disclose or expose to Participant certain information that is proprietary to Google (\"Confidential Information\"). Participant will use the Confidential Information only for the purpose associated with Participant's visit. Participant will use the same degree of care, but no less than a reasonable degree of care, as Participant uses with respect to its own similar information to protect the Confidential Information and to prevent (i) any use of Confidential Information not authorized in this Agreement, (ii) dissemination of Confidential Information to any third party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the Participant's obligation to protect Confidential Information, stating they are 'not required to exercise any degree of care.' This directly contradicts the contradicted text, which states that 'Participant will use the same degree of care, but no less than a reasonable degree of care, as Participant uses with respect to its own similar information to protect the Confidential Information.' The original text imposed an obligation and the change removes the obligation. Since this violates structural flaws definition, there is contradiction."
+      }
+    ]
+  }
+]

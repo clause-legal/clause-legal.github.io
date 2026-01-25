@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "GreenStorm%20NDCSC.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "9e. ANY and ALL additions, modifications, and waivers of this Agreement must be made in writing and signed by all Parties. However, the failure of a Party to insist on full compliance with any provisions of this Agreeme nt in a particular instance shall not preclude it from requiri ng full compliance thereafter.",
+        "changed_text": "9e. ANY and ALL additions, modifications, and waivers of this Agreement must be made in writing and signed by all Parties. However, oral agreements to specific modifications can be enforced at the discretion of the party seeking enforcement, unless explicit written notice objecting to the oral agreement is provided within 10 business days. The failure of a Party to insist on full compliance with any provisions of this Agreeme nt in a particular instance shall not preclude it from requiri ng full compliance thereafter.",
+        "explanation": "The original clause mandates written modifications. The added clause introduces the possibility of enforceable oral agreements under certain conditions. This directly contradicts the requirement for written modifications, creating uncertainty about how the agreement can be amended and also is creating uncertanity on the full compliance required in the text.",
+        "location": "9e",
+        "contradicted_location": "9e",
+        "contradicted_text": "9e. ANY and ALL additions, modifications, and waivers of this Agreement must be made in writing and signed by all Parties. However, oral agreements to specific modifications can be enforced at the discretion of the party seeking enforcement, unless explicit written notice objecting to the oral agreement is provided within 10 business days. The failure of a Party to insist on full compliance with any provisions of this Agreeme nt in a particular instance shall not preclude it from requiri ng full compliance thereafter.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires all modifications to be in writing. The changed text introduces an exception allowing oral agreements to be enforceable under specific conditions (unless explicit written notice objecting to the oral agreement is provided within 10 business days). This directly contradicts the requirement for written modifications. The contradictory text and changed text are in the same location, reinforcing the contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "8. JURISDICTION The jurisdiction for this Agreem ent is global and worldwide. Should either Party assert that a violation has occurred; the asserting Party shall be entitled to take action to remedy the violation in the locale and/or legal jurisdiction in which the violation occurred, and/or in any other locale or jurisdiction(s) which is appropri ate, in the opinion of the asserting Party and their counsel.",
+        "changed_text": "8. JURISDICTION The jurisdiction for this Agreem ent is limited to the state of Delaware, USA. Should either Party assert that a violation has occurred; the asserting Party shall be entitled to take action to remedy the violation in the locale and/or legal jurisdiction in which the violation occurred, and/or in any other locale or jurisdiction(s) which is appropri ate, in the opinion of the asserting Party and their counsel.",
+        "explanation": "The change limits the jurisdiction to Delaware, USA, contradicting the initial statement that the jurisdiction is global and worldwide. This creates a clear conflict regarding where legal action can be pursued. The contradiction stems from the initial phrase claiming worldwide jurisdiction, which is immediately limited by the condition that follows.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "8. JURISDICTION The jurisdiction for this Agreem ent is limited to the state of Delaware, USA. Should either Party assert that a violation has occurred; the asserting Party shall be entitled to take action to remedy the violation in the locale and/or legal jurisdiction in which the violation occurred, and/or in any other locale or jurisdiction(s) which is appropri ate, in the opinion of the asserting Party and their counsel.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the jurisdiction is 'global and worldwide'. The changed text limits the jurisdiction to 'the state of Delaware, USA'. This creates a direct contradiction, as global and worldwide jurisdiction is mutually exclusive with jurisdiction limited to a single state. The contradicted text restates the changed text, so there is still a contradiction created by the changed text."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "4. OBLIGATION OF NON-COMPETITION The non-competition provision s of this Agreeme nt are an essential and material part of the total agreem ent, by which the Parties agree they shall not use any advantages derivable from such confidential information in their own business or affairs, unless the same is done pursuant to a new agreement executed by all signatories to this document.",
+        "changed_text": "4. OBLIGATION OF NON-COMPETITION The non-competition provision s of this Agreeme nt are not an essential and material part of the total agreem ent, and are only applicable if explicitly stated in a separate, mutually agreed upon addendum to this agreement. By which the Parties agree they shall not use any advantages derivable from such confidential information in their own business or affairs, unless the same is done pursuant to a new agreement executed by all signatories to this document.",
+        "explanation": "The change directly contradicts the original statement that the non-competition provision is an essential part of the agreement. By stating it is *not* essential and only applicable with a separate addendum, it creates uncertainty about the enforceability of the non-competition clause. The original provision states the agreement is essential and the added text contradicts that statement. This is making the agreemeent, lack certainty in the case of enforcement.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "4. OBLIGATION OF NON-COMPETITION The non-competition provision s of this Agreeme nt are not an essential and material part of the total agreem ent, and are only applicable if explicitly stated in a separate, mutually agreed upon addendum to this agreement. By which the Parties agree they shall not use any advantages derivable from such confidential information in their own business or affairs, unless the same is done pursuant to a new agreement executed by all signatories to this document.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the non-competition provision is an essential part of the agreement, while the changed text states it is *not* essential and only applies if stated in a separate addendum. This directly contradicts the original statement, creating uncertainty and inconsistency regarding the enforceability of the non-competition clause. The contradicted text is the same as the changed text, implying the contradiction is against itself, which is valid as it has been altered to become contradictory."
+      }
+    ]
+  }
+]

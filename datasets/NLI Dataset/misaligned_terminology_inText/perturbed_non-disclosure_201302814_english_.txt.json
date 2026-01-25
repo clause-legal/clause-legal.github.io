@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "non-disclosure_201302814_english_.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Proponent agrees to use the Confidential Information solely for the purpose of making decisions related to the preparation and submission of a proposal in response to the RFP and not for any other purpose.",
+        "changed_text": "The Contractor may use the Confidential Information for business development purposes, so long as such activity does not directly compete with CMHC.",
+        "explanation": "The original text strictly limits the Proponent's use of Confidential Information to preparing the proposal. The modified text allows the Contractor to use it for broader business development. This creates a direct contradiction regarding the permissible use of the Confidential Information, and creates an In-Text Contradiction.",
+        "location": "2.2",
+        "contradicted_location": "2.2",
+        "contradicted_text": "2.2 Use. The Contractor may use the Confidential Information for business development purposes, so long as such activity does not directly compete with CMHC.",
+        "contradiction_exists": "YES",
+        "justification": "The original text limits the use of Confidential Information to proposal preparation. The changed text and contradicted text both allow its use for broader business development. This change directly contradicts the original text, creating a strong in-text contradiction regarding the permissible use of the Confidential Information."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Proponent agrees that all originals, copies, records, notes and summaries (paper or electronic) of any nature provided by CMHC, including the Confidential Information, and all copies thereof, shall be surrendered or, at CMHC’s option, certified destroyed, to CMHC immediately upon request.",
+        "changed_text": "Upon the termination of this agreement, the Contractor may retain copies of Confidential Information to the extent required for compliance purposes, in consultation with legal counsel.",
+        "explanation": "The original text demands immediate surrender or destruction of all Confidential Information upon request. The modified text allows the Contractor to retain copies under certain conditions post-termination. This directly contradicts the obligation to return or destroy all copies and creates uncertainty regarding information control, creating an In-Text Contradiction.",
+        "location": "2.3",
+        "contradicted_location": "2.3",
+        "contradicted_text": "2.3 Return of Documents. Upon the termination of this agreement, the Contractor may retain copies of Confidential Information to the extent required for compliance purposes, in consultation with legal counsel. The Contractor shall notify CMHC immediately upon discovery of any unauthorized use or disclosure of the Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates immediate surrender or destruction of all Confidential Information upon request. The changed text allows the Contractor to retain copies under certain conditions post-termination for compliance purposes in consultation with legal counsel. This allowance directly contradicts the original obligation to return or destroy all copies, leading to an inconsistency in managing and controlling confidential information after the agreement's termination. The contradicted text, '2.3 Return of Documents. Upon the termination of this agreement, the Contractor may retain copies of Confidential Information to the extent required for compliance purposes, in consultation with legal counsel', further supports this contradiction. The changed text creates an In-Text Contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Proponent agrees to indemnify and hold harmless CMHC from and against all losses, expenses, claims and liability arising out of any breach by the Proponent or its affiliates, or their respective officers, employees or representatives of this Agreement.",
+        "changed_text": "The Contractor's liability under this agreement shall be limited to the value of services provided under the contract.",
+        "explanation": "The original text provides for full indemnification of CMHC by the Proponent for any breach. The modified text limits the Contractor's liability to the value of services. This introduces a contradiction in the extent of liability and creates uncertainty in enforcement because there is a huge difference in indemnity vs value of service, creating an In-Text Contradiction.",
+        "location": "3.3",
+        "contradicted_location": "3.3",
+        "contradicted_text": "3.3 The Contractor's liability under this agreement shall be limited to the value of services provided under the contract.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates full indemnification, while the changed text limits liability to the value of services. The contradicted text reinforces the limited liability of the Contractor to the value of services. This creates a strong in-text contradiction within the contract because the proponent is both fully responsible and only responsible up to the value of service at the same time, which is an impossible standard to enforce."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement may not be assigned or transferred in whole or in part by the Proponent without CMHC’s prior written consent.",
+        "changed_text": "The Contractor may assign this agreement to a subsidiary company with notification to CMHC.",
+        "explanation": "The original text prohibits assignment by the Proponent without CMHC's consent. The modified text allows assignment to a subsidiary with notification only, creating a contradiction and uncertainty in the assignment conditions, creating an In-Text Contradiction.",
+        "location": "4.9",
+        "contradicted_location": "4.9",
+        "contradicted_text": "4.9 Assignment . The Contractor may assign this agreement to a subsidiary company with notification to CMHC.",
+        "contradiction_exists": "YES",
+        "justification": "The original text required CMHC's prior written consent for assignment. The changed text allows assignment to a subsidiary with only notification to CMHC. The contradicted text is identical to the changed text. Since the changed text modifies the original to allow assignment with notification to CMHC and the contradicted text states the same, while the original text states otherwise, there is a direct contradiction created."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "PROPONENT [Confirm full legal name]",
+        "changed_text": "SERVICE PROVIDER [Confirm full legal name]",
+        "explanation": "Changing the signature block to 'Service Provider' adds to the existing confusion created by changing 'Proponent' to 'Contractor' earlier in the document, which is creating a definition conflict in the document and uncertainty on who is signing the agreement, creating an In-Text Contradiction.",
+        "location": "Signature Block",
+        "contradicted_location": "Preamble",
+        "contradicted_text": "This Agreement is made as of _________, 2013, between Canada Mortgage and Housing Corporation (“CMHC ”) and [confirm full legal name] (the “ Contractor ”).",
+        "contradiction_exists": "YES",
+        "justification": "The original text identifies the signing party as \"PROPONENT [Confirm full legal name]\". The changed text alters this to \"SERVICE PROVIDER [Confirm full legal name]\". This change, coupled with the existing \"Contractor\" designation in the \"Contradicted Text\" (\"Canada Mortgage and Housing Corporation (“CMHC ”) and [confirm full legal name] (the “ Contractor ”)\"), introduces multiple terms ('Proponent', 'Service Provider', 'Contractor') to describe the same entity without clear definitions or indications of interchangeability. This aligns with the 'Misaligned Terminology - In Text Contradiction' definition: 'Misaligned terminology also leads to in-text contradictions when the contract uses multiple terms interchangeably without defining them, leading to conflicting obligations.' This creates significant ambiguity regarding the identity and obligations of the signing party, representing a strong in-text contradiction."
+      }
+    ]
+  }
+]

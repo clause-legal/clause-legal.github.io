@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "NDA_eng.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "3.6. The Investor shall be entitled to make copies, abstracts, memoranda, or other documents (including documents made by mechanical or electronic means) related to the conﬁdential information, which shall also be marked as «Commercial Secret» and/or «Conﬁdential» only to the extents that are necessary for the conﬁdential information achievement. The Investor shall provide the true recording of all copies and places where the duplicates copies of the conﬁdential information are kept, and access limitation to the speciﬁed copies, abstracts, memoranda, and other documents to third-parties except for his or her authorized Agents, according to the section 3.1. of the Agreement.",
+        "changed_text": "3.6. The Investor is free to make copies, abstracts, memoranda, or other documents related to the confidential information without restriction or obligation to mark them as «Commercial Secret» and/or «Conﬁdential». The Investor is not required to record or limit access to these copies.",
+        "explanation": "This modification removes all restrictions on copying and distributing confidential information, which directly contradicts the entire purpose of a non-disclosure agreement. This creates an in-text contradiction with section 3.7 which states the Investor shall provide constant and secure information storage not allowing to obtain the data access by any persons except for Investor’s authorized Agents, since the Investor no longer has the obligation to provide constant and secure information storage not allowing to obtain the data access by any persons except for Investor’s authorized Agents. This undermines the confidentiality provisions of the contract and makes enforcement impossible.",
+        "location": "3.6",
+        "contradicted_location": "3.7",
+        "contradicted_text": "3.7. The Investor shall provide constant and secure information storage not allowing to obtain the data access by any persons except for Investor’s authorized Agents.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in section 3.6 removes all restrictions on copying and distributing confidential information, explicitly stating that the Investor is free to make copies without any obligation to mark them as confidential or limit access. This directly contradicts section 3.7, which requires the Investor to provide constant and secure information storage, preventing unauthorized access. Since the investor is no longer obligated to keep the copies secure, as stated in the changed section 3.6, it would be impossible to provide constant and secure information storage, as indicated in section 3.7."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "5.1. All information disclosed to the Investor by the Company in any form shall be and remain the property of the Company. Documents and any copies of them, abstracts, memoranda, or other documentation shall be immediately returned to the Company or destroyed at the written request of the Company.",
+        "changed_text": "5.1. All information disclosed to the Investor by the Company in any form shall be considered jointly owned by both parties. Documents and any copies of them, abstracts, memoranda, or other documentation do not need to be returned or destroyed.",
+        "explanation": "By changing the ownership of confidential information from solely the Company to jointly owned, and removing the requirement to return or destroy documents, this introduces an in-text contradiction with Section 1.3, which defines Proprietary Information as having commercial value by virtue of third-parties being unfamiliar with it. Joint ownership directly contradicts the concept of the Company retaining exclusive rights to its proprietary information and also contradicts Section 6.1, since it would be difficult to claim damage on information that is jointly owned.",
+        "location": "5.1",
+        "contradicted_location": "1.3",
+        "contradicted_text": "1.3. An Agent of the Investor is any person or entity the investor chooses, regardless of authorization or access to Proprietary Information. The Proprietary Information is only information the Company explicitly designates as such in writing and formally communicates to the Investor. It includes only trade secrets and patentable inventions. The Proprietary Information does not include any publicly available information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 5.1 alters the ownership of information disclosed by the Company to the Investor, making it jointly owned. It also removes the requirement to return or destroy documents. This directly contradicts Section 1.3, which defines 'Proprietary Information' as having commercial value because third parties are unfamiliar with it. Joint ownership of the information contradicts the Company retaining exclusive rights, as outlined in Section 1.3, thus creating a strong in-text contradiction. Also the explanation clarifies why the change causes a contradiction to Section 6.1, by potentially impacting damage claims on information that is jointly owned."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "7.1. The Agreement shall enter into force as soon as it has been accepted by the Investor and also shall be effective during 5 (ﬁve) years from the termination of the effective period of the Offer, so that the Investor shall fulﬁll its obligations of conﬁdentiality for 5 (ﬁve) years following the expiration of the Agreement or Offer.",
+        "changed_text": "7.1. The Agreement shall enter into force as soon as it has been accepted by the Investor and shall terminate immediately upon the conclusion of the OLPORTAL ICO.",
+        "explanation": "This changes the duration of the agreement from 5 years after the Offer to immediate termination upon the ICO's conclusion. This directly contradicts the implied obligations of confidentiality that would extend beyond the ICO period, since all sections mentioning the obligation to protect confidentiality are now rendered meaningless after the ICO.",
+        "location": "7.1",
+        "contradicted_location": "3.1",
+        "contradicted_text": "3.1. The Investor is authorized to grant access to the proprietary information only to those parties who require access to the proprietary information in realizing the investors’ rights under the Offer in order to achieve the provision of the Proprietary Information, are obliged not to disclose the Proprietary Information and informed about the fact of the conclusion of the Agreement. The Investor is obliged to provide the list of Investor’s Agents who have received access to the Proprietary Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the agreement's duration to terminate immediately upon the ICO's conclusion, which conflicts with section 3.1. Section 3.1 places obligations on the investor regarding proprietary information and its disclosure, which now become meaningless since the agreement ends immediately after the ICO, thus contradicting the original intent of ongoing confidentiality."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "9.1. Disputes relating to the agreement between the parties should be subject to Singapore International Arbitration Centre’s review (SIAC).",
+        "changed_text": "9.1. Disputes relating to the agreement between the parties will be resolved through binding mediation in a location chosen by the Investor.",
+        "explanation": "This clause specifies that disputes should be resolved via SIAC review. Changing this to binding mediation in a location chosen by the Investor introduces an in-text contradiction regarding the dispute resolution process. This contradicts the impartiality principle that the contract should have and gives total and unnecessary control to the investor. This uncertainty can create disputes.",
+        "location": "9.1",
+        "contradicted_location": "9.1",
+        "contradicted_text": "9.1. Disputes relating to the agreement between the parties will be resolved through binding mediation in a location chosen by the Investor.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies dispute resolution via SIAC review. The changed text mandates binding mediation in a location chosen by the Investor. The contradicted text repeats this mediation clause. This creates a direct contradiction because the two sections prescribe different methods for dispute resolution, leading to uncertainty and potential unenforceability. The change directly violates the 'Inconsistencies - In Text Contradiction' definition."
+      }
+    ]
+  }
+]

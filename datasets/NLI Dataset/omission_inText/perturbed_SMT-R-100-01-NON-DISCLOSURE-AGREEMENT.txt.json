@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "SMT-R-100-01-NON-DISCLOSURE-AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Except for information that the customer makes publicly available, or when agreed be tween SMT LABS PTY LTD and the customer all other information is considered proprietary information and shall be regarded as confidential.",
+        "changed_text": "Except for information that the customer makes publicly available, all other information is considered proprietary information and shall be regarded as confidential.",
+        "explanation": "By removing the phrase 'or when agreed be tween SMT LABS PTY LTD and the customer' we remove the specification of a mutual agreement. The contract states all information is confidential, except publicly available data but contradicts itself since there could be an agreement where both parts can make certain information available, yet is not specified. This leads to uncertainty whether the lab can share information with the customer.",
+        "location": "Paragraph 2",
+        "contradicted_location": "Paragraph 2",
+        "contradicted_text": "Except for information that the customer makes publicly available, all other information is considered proprietary information and shall be regarded as confidential.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the explicit exception 'or when agreed between SMT LABS PTY LTD and the customer'. This creates a contradiction with the contradicted text, which states that all information other than publicly available data is confidential. The removal of the exception introduces a potential conflict because the parties could have previously agreed to share certain proprietary information, which is now seemingly prohibited under the new wording, creating a contradiction regarding the allowable use of proprietary information."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "As part of the SANAS accreditation arrangement and Internal audit policy, SMT LABS PTY LTD will be assessed and audited on an ongoing basis to ensure continuous compliance to ISO/IEC 17025 and SANAS policies and procedures. All service providers (including SANAS) have signed a Non -disclosure Agreement/ Confidentiality Agreement as part of our contractual agreement.",
+        "changed_text": "SMT LABS PTY LTD will be assessed and audited on an ongoing basis to ensure continuous compliance to ISO/IEC 17025. All service providers have signed a Non -disclosure Agreement/ Confidentiality Agreement as part of our contractual agreement.",
+        "explanation": "By removing the explicit reference to 'SANAS policies and procedures' in this section, while paragraph 1 no longer ensures compliance to SANAS, creates a contradiction because paragraph 5 mentions that SMT LABS PTY LTD will be assessed to ensure continuous compliance to SANAS policies and procedures, while not ensuring it on paragraph 1.",
+        "location": "Paragraph 5",
+        "contradicted_location": "Paragraph 5",
+        "contradicted_text": "SMT LABS PTY LTD will be assessed and audited on an ongoing basis to ensure continuous compliance to ISO/IEC 17025. All service providers have signed a Non -disclosure Agreement/ Confidentiality Agreement as part of our contractual agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly includes 'SANAS policies and procedures' as part of the compliance assessment, alongside ISO/IEC 17025. The changed text removes the explicit mention of 'SANAS policies and procedures', narrowing the scope of compliance to only ISO/IEC 17025. Since the original text ensures SMT LABS PTY LTD will be assessed to ensure continuous compliance to SANAS policies and procedures, it creates an in-text contradiction because now paragraph 1 no longer ensures compliance to SANAS. Thus, creating a contradiction between both paragraphs, making the answer YES."
+      }
+    ]
+  }
+]

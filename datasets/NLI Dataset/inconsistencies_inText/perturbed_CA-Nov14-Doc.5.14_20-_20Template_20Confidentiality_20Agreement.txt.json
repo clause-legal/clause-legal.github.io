@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "CA-Nov14-Doc.5.14%20-%20Template%20Confidentiality%20Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "All information disclosed by a Party or by Affiliate s of a Party to the other Party or its respective Affiliates orally, electronically, writing or by any other means during the data sharing negotiations shall be considered as confidential unless expressly stated otherwise by the disclosing Party.",
+        "changed_text": "All information disclosed by a Party to the other Party orally, electronically, writing or by any other means during the data sharing negotiations shall be considered as confidential unless expressly stated otherwise by the disclosing Party. Information disclosed by Affiliates is not subject to this confidentiality.",
+        "explanation": "This change removes Affiliates from the scope of confidentiality when disclosing information. This contradicts the previous statement, that implies Affiliates are also bound by the same confidentiality obligations. The text creates ambiguity about whether or not affiliates are held to the same confidences.",
+        "location": "1.a",
+        "contradicted_location": "1.a",
+        "contradicted_text": "A Party may disclose to the other Party information with a view to negotiating the sharing of data for a purpose under the BPR (“ the Purpose ”). The Parties agree that the terms and conditions set forth in this Agreement shall govern any such disclosure of information. All information disclosed by a Party to the other Party orally, electronically, writing or by any other means during the data sharing negotiations shall be considered as confidential unless expressly stated otherwise by the disclosing Party. Information disclosed by Affiliates is not subject to this confidentiality.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly states that 'Information disclosed by Affiliates is not subject to this confidentiality.' The contradicted text is identical to the changed text. However, the original text stated 'All information disclosed by a Party or by Affiliate s of a Party to the other Party... shall be considered as confidential.' This creates a direct contradiction. The changed text introduces a clear exception for Affiliates, where the original agreement made no such distinction. This inconsistency leads to ambiguity and could affect the enforceability of the confidentiality clause."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The Parties shall first attempt to settle amicably any dispute arising out of this Agreement. Any dispute that cannot be s ettled amicably between the Parties shall be exclusively resolved by arbitration.",
+        "changed_text": "The Parties may attempt to settle amicably any dispute arising out of this Agreement. Any dispute that cannot be s ettled amicably between the Parties shall be resolved by litigation in the courts of [Jurisdiction].",
+        "explanation": "The dispute resolution mechanism is changed from mandatory arbitration to litigation. This directly contradicts the previous requirement for arbitration, creating confusion about which method should be used to resolve disputes under the agreement.",
+        "location": "3.a",
+        "contradicted_location": "3.a",
+        "contradicted_text": "The Parties may attempt to settle amicably any dispute arising out of this Agreement. Any dispute that cannot be s ettled amicably between the Parties shall be resolved by litigation in the courts of [Jurisdiction]. The arbitration rules of [ … ] shall be applicable. The place of any hearing shall be [ … ] and the language of the arbitration shall be [ … ] .",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandated arbitration for dispute resolution. The changed text replaces this with litigation in the courts of [Jurisdiction]. The contradicted text includes both litigation and arbitration clauses, specifying the application of arbitration rules. The changed text eliminates the arbitration clause, creating a direct contradiction by removing the possibility of arbitration, which the contradicted text assumes to be available. This constitutes a strong in-text contradiction according to the 'Inconsistencies - In Text Contradiction' definition."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement may not be assigned by a Party hereto without the express written consent to such assignment by the other Parties.",
+        "changed_text": "This Agreement may be assigned by a Party hereto without the express written consent to such assignment by the other Parties, provided that the assignee agrees to be bound by the terms of this agreement.",
+        "explanation": "The assignment clause is altered to allow assignment without consent, contradicting the original requirement for express written consent. The change creates uncertainty and legal ambiguity regarding the procedure to transfer the rights and obligations of the contract to another party.",
+        "location": "4.a",
+        "contradicted_location": "4.a",
+        "contradicted_text": "This Agreement may be assigned by a Party hereto without the express written consent to such assignment by the other Parties, provided that the assignee agrees to be bound by the terms of this agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires express written consent for assignment. The changed text allows assignment without consent, provided the assignee agrees to be bound. The contradicted text also allows assignment without consent. The change directly contradicts the original consent requirement, creating a strong in-text contradiction as it alters the fundamental condition for assignment, making the original requirement unenforceable. The Perturbation Explanation confirms that this type of change creates uncertainty and legal ambiguity."
+      }
+    ]
+  }
+]

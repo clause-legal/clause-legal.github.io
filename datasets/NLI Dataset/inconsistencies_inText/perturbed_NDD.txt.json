@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "NDD.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The Applicant agrees moreover: • to use the Confidential I nformation solely for the purpose o f the RRM registration ;",
+        "changed_text": "The Applicant agrees moreover: • to use the Confidential I nformation primarily for the purpose o f the RRM registration ;",
+        "explanation": "The perturbation changes 'solely' to 'primarily', opening the door for the Applicant to use the Confidential Information for other purposes, which directly contradicts the original intent and creates uncertainty regarding the permitted use of the information. This creates an in-text contradiction in subsequent sections outlining the restrictions and protections surrounding the Confidential Information.",
+        "location": "Paragraph 6",
+        "contradicted_location": "Paragraph 7",
+        "contradicted_text": "• to use all possible means to maintain this Confidential Information in strict confidence and at least those measures that it employs for the protection of its own confidential information, but in any event not less than a reasonabl e degree of care;",
+        "contradiction_exists": "YES",
+        "justification": "The original text restricts the use of Confidential Information 'solely' for RRM registration, ensuring a clear and limited purpose. The changed text broadens this to 'primarily,' allowing the applicant to use the information for other, unspecified purposes. This contradicts the requirement in the 'Contradicted Text' section to maintain Confidential Information in 'strict confidence' and use 'all possible means' to protect it, as the 'primarily' usage implies acceptable alternative uses that might compromise confidentiality. The change introduces ambiguity and potential conflict."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "• to disclose this information only to the Applicant's employees or particular employees of subcontractors who are required to have the information for the p urpose of the Applicant’s registration as RRM , and have previously signed an agreem ent in content similar to the provisions thereof;",
+        "changed_text": "• to disclose this information to the Applicant's employees, subcontractors, or consultants who are required to have the information for any business purpose, provided they maintain a reasonable level of confidentiality; ",
+        "explanation": "This change broadens the scope of permissible disclosure, contradicting the original limitation to employees/subcontractors directly involved in RRM registration. The relaxation of the confidentiality agreement requirement and the expansion to 'any business purpose' create an in-text contradiction with the intent of strict confidentiality outlined elsewhere.",
+        "location": "Paragraph 6",
+        "contradicted_location": "Paragraph 8",
+        "contradicted_text": "• to oblige all employees receiving access to the Confidential I nformation not to disclose it to anyone and not to make any copies of it;",
+        "contradiction_exists": "YES",
+        "justification": "The changed text broadens the scope of disclosure to include 'any business purpose' and allows disclosure to 'consultants', while requiring only a 'reasonable level of confidentiality'. This directly contradicts the contradicted text, which mandates that all employees with access to the information 'not disclose it to anyone' and 'not to make any copies of it'. The original text restricted disclosure to employees and subcontractors involved in RRM registration with a similar confidentiality agreement; the changed text significantly relaxes these restrictions, creating a clear and direct conflict."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The Applicant shall not us e for its own purposes, reverse engineer, disassemble, decompile or copy any software or other objects which embody the Confidential Information, nor transmit, directly or indirectl y, any Confidential Information.",
+        "changed_text": "The Applicant shall not, without prior written consent from the Agency, reverse engineer, disassemble, or decompile any software or other objects which embody the Confidential Information. The Applicant may use the information for internal analysis.",
+        "explanation": "This perturbation introduces a contradiction by allowing 'internal analysis' of the confidential information, while originally prohibiting its use for 'its own purposes'. This in-text contradiction creates ambiguity about the permissible use of the information, undermining the original restrictions.",
+        "location": "Paragraph 9",
+        "contradicted_location": "Paragraph 6",
+        "contradicted_text": "• to use all possible means to maintain this Confidential Information in strict confidence and at least those measures that it employs for the protection of its own confidential information, but in any event not less than a reasonabl e degree of care;",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a contradiction. The original text prohibited the use of confidential information for the applicant's own purposes. The changed text now allows for 'internal analysis,' which implicitly permits using the confidential information, contradicting the original restriction. This creates a direct conflict with the contradicted text, which requires the Applicant to maintain the Confidential Information in strict confidence and use at least the same measures to protect it as they do their own. Internal analysis may break confidentiality. Therefore, there is a strong in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "All Confidential Information remain the property of the Agency and no license or other rights in the Confidential Inform ation are granted hereby, except as expressly provided above.",
+        "changed_text": "All Confidential Information remain the property of the Agency; however, the Applicant retains the right to use aggregated, anonymized data derived from the Confidential Information.",
+        "explanation": "The added clause regarding 'aggregated, anonymized data' creates an in-text contradiction. While the Agency retains ownership, the Applicant gains a right to use data derived from the Confidential Information, which implies a license or right not 'expressly provided above'. This undermines the Agency's exclusive rights and causes ambiguity.",
+        "location": "Paragraph 10",
+        "contradicted_location": "Paragraph 10",
+        "contradicted_text": "All Confidential Information remain the property of the Agency and no license or other rights in the Confidential Inform ation are granted hereby, except as expressly provided above.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that 'no license or other rights in the Confidential Information are granted hereby, except as expressly provided above.' The changed text introduces a clause that 'the Applicant retains the right to use aggregated, anonymized data derived from the Confidential Information.' This directly contradicts the original statement, as the Applicant is now granted a right to use data derived from the Confidential Information, which was not 'expressly provided above'. The Contradicted Text is the same as the Original Text and this new right is in direct conflict."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The Applicant hereby acknowledges that unauthorised disclosure or use of the Confidential Information could cause irreparable harm and significant injury, which may be difficult to ascertain.",
+        "changed_text": "The Applicant hereby acknowledges that unauthorised disclosure of the Confidential Information, in its exact original form, could cause irreparable harm and significant injury, which may be difficult to ascertain.",
+        "explanation": "This perturbation limits the acknowledgement of harm to 'exact original form' disclosures. By narrowing the scope of what constitutes harmful disclosure, it creates an in-text contradiction with earlier sections that broadly define Confidential Information and its protection. This makes enforcement more difficult as it implies that modified versions or aggregated data, stemming from the Confidential Information, are not covered under the agreement for protection from disclosure.",
+        "location": "Paragraph 11",
+        "contradicted_location": "Paragraph 4",
+        "contradicted_text": "The Applicant agrees that all information disclosed by the Agency to the Applicant by means of a document ‘ ’Technical Specifications for RRMs ’’, including its future amendments, and other documents relating to the RRM registration and data submission shall be considered as confidential (altogether the ‘ Confidential Information’).",
+        "contradiction_exists": "YES",
+        "justification": "The original text acknowledges the potential harm from any unauthorized disclosure of Confidential Information. The changed text narrows this to apply only to disclosures in 'exact original form.' This contradicts the 'Contradicted Text', which broadly defines Confidential Information to include documents relating to RRM registration and data submission, including future amendments. The change implies that modified or derived versions of this information are not protected, creating a strong in-text contradiction and potential unenforceability regarding the comprehensive definition of Confidential Information."
+      }
+    ]
+  }
+]

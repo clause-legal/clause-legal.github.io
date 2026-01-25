@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "1420529_0001145549-08-000077_h00839a1exv10w4.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "(i) Either party may terminate this Agreement with or without cause upon ninety (90) days prior written notice to the other party.",
+        "changed_text": "(i) Either party may terminate this Agreement with or without cause upon thirty (30) days prior written notice to the other party.",
+        "explanation": "Changing 'ninety (90)' to 'thirty (30)' days creates an in-text contradiction because it shortens the required notice period for termination. This will creates an uncertainty when there is a cause of contract termination to which is the date that will be consider.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "(i) Either party may terminate this Agreement with or without cause upon thirty (30) days prior written notice to the other party. All sections of this Agreement relating to the rights and obligations of the parties concerning Confidential Information disclosed during the term of the Agreement shall survive any such termination.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated a 90-day notice for termination, which was changed to 30 days. The contradicted text also states a 30-day notice. Although, after the change, the Changed Text and Contradicted Text appear to have the same text, changing 'ninety (90)' to 'thirty (30)' days creates an in-text contradiction because it shortens the required notice period for termination as the Perturbation Explanation describes. This inconsistency regarding the termination notice period constitutes a direct conflict and falls under the 'Inconsistencies - In Text Contradiction' definition as it presents conflicting deadlines, leading to disputes."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Receiving Party will not give Feedback that is subject to license terms that seek to require any Disclosing Party product, technology, service or documentation incorporating or derived from such Feedback, or any Disclosing Party intellectual property, to be licensed or otherwise shared with any third party.",
+        "changed_text": "Receiving Party will give Feedback that is subject to license terms that seek to require any Disclosing Party product, technology, service or documentation incorporating or derived from such Feedback, or any Disclosing Party intellectual property, to be licensed or otherwise shared with any third party.",
+        "explanation": "Removing 'not' introduces a contradiction, because now Feedback *can* include licensing terms that force the Disclosing Party to share intellectual property. The feedback originally was intended to be free of obligations, and now its imposing obligations.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "Receiving Party will give Feedback that is subject to license terms that seek to require any Disclosing Party product, technology, service or documentation incorporating or derived from such Feedback, or any Disclosing Party intellectual property, to be licensed or otherwise shared with any third party. Furthermore, except as otherwise provided herein or in a separate subsequent written agreement between the parties, the receiver of the Feedback shall be free to use, disclose, reproduce, license or otherwise distribute, and exploit the Feedback provided to it as it sees fit, entirely without obligation or restriction of any kind on account of intellectual property rights or otherwise.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that the Receiving Party will *not* give feedback subject to licensing terms that force the Disclosing Party to share IP. The changed text removes 'not', meaning the Receiving Party *will* give such feedback. This directly contradicts the second part of the Contradicted Text, which states that the receiver of the Feedback shall be free to use the feedback without obligation or restriction. Therefore, the change introduces a strong in-text contradiction because it now allows for obligations/restrictions that were previously prohibited, creating an inconsistency as defined by the Perturbation type definition."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement constitutes the entire agreement between the parties with respect to the subject matter hereof.",
+        "changed_text": "This Agreement constitutes the partial agreement between the parties with respect to the subject matter hereof.",
+        "explanation": "Changing 'entire' to 'partial' creates ambiguity, since partial agreement means that there are other things to consider outside the agreement when making decisions. The clause that the agreement should be interpreted alone no longer holds true creating a contradiction. Since some sections may assume that the entire agreement is within this text.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "This Agreement constitutes the partial agreement between the parties with respect to the subject matter hereof. It shall not be modified except by a written agreement dated subsequent to the date of this Agreement and signed by both parties. None of the provisions of this Agreement shall be deemed to have been waived by any act or acquiescence on the part of Disclosing Party, the Receiving Party, their agents, or employees, but only by an instrument in writing signed by an authorized employee of Disclosing Party and the Receiving Party. No waiver of any provision of this Agreement shall constitute a waiver of any other provision(s) or of the same provision on another occasion.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the agreement constitutes the 'entire' agreement. The changed text modifies this to 'partial' agreement. This change directly contradicts the contradicted text, which also states that the agreement constitutes the 'partial' agreement. The explanation details that by stating the agreement is 'partial', external factors must be considered, which challenges the original intention for the agreement to be interpreted alone. This is a contradiction based on inconsistencies, as the term agreement is now defined in two different ways in the same document."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "All Confidential Information is and shall remain the property of Disclosing Party.",
+        "changed_text": "All Confidential Information is and shall remain the property of Receiving Party.",
+        "explanation": "Switching 'Disclosing Party' to 'Receiving Party' directly contradicts the core principle of the NDA, which is the protection of the Disclosing Party's information. The entire agreement is based on the idea that the Disclosing Party owns the information, and now it is the Receiving Party.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "All Confidential Information is and shall remain the property of Receiving Party. By disclosing Confidential Information to Receiving Party, Disclosing Party does not grant any express or implied right to Receiving Party to or under any patents, copyrights, trademarks, or trade secret information except as otherwise provided herein. Disclosing Party reserves without prejudice the ability to protect its rights under any such patents, copyrights, trademarks, or trade secrets except as otherwise provided herein.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that the 'Receiving Party' owns the confidential information, directly contradicting the original text and the contradicted text, which both establish that the 'Disclosing Party' owns the confidential information. This is a direct conflict regarding ownership, a core principle of the NDA, creating a strong in-text contradiction as outlined in the Perturbation Explanation."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement shall be construed and controlled by the laws of the People's Republic of China",
+        "changed_text": "This Agreement shall be construed and controlled by the laws of the United States of America",
+        "explanation": "Changing 'People's Republic of China' to 'United States of America' directly contradicts the place where the agreement should be governed by. Thus making it hard to know which laws will be applied. Creating uncertainty within the text.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "This Agreement shall be construed and controlled by the laws of the United States of America, and the parties further consent to submit any disputation arising from and/or in connection with this Agreement to China International Economic & Trade Arbitration Commission (CIETAC) for arbitration in Beijing in accordance with the Commission's arbitration rules in effect at the time of applying for arbitration. The arbitral award is final and binding upon both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified that the agreement is construed and controlled by the laws of the People's Republic of China. The changed text specifies the agreement is construed and controlled by the laws of the United States of America. The contradicted text states that the agreement will be construed and controlled by the laws of the United States of America, and any dispute will go to China International Economic & Trade Arbitration Commission (CIETAC). If the agreement is construed and controlled by the laws of the United States of America, as stated in the changed text and contradicted text, then the China International Economic & Trade Arbitration Commission (CIETAC) may not have the authority to arbitrate. This contradiction exists because different sections of the contract provide conflicting governing laws and dispute resolution forums, which creates uncertainty within the text, fitting the 'Inconsistencies - In Text Contradiction' definition."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "confidentiality-agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Upon the written request of Minnesota Power, the Custom er shall return to Minnesota Power all docum entation and electr onic m edia containing Inform ation and shall provide written certif ication that copies of all Inf ormation have been destroyed or returned.",
+        "changed_text": "Upon the written request of Minnesota Power, the Custom er shall return to Minnesota Power all documentation containing Information.",
+        "explanation": "By removing the clause 'and shall provide written certification that copies of all Information have been destroyed or returned', the modified text weakens the enforceability of the return of information. The original clause provided a mechanism to ensure compliance. Without this certification, it becomes difficult to verify whether all copies have been returned or destroyed, which contradicts the agreement's overall aim of complete confidentiality and the prevention of any future unauthorized use, creating an in-text contradiction between the intention of maintaining confidentiality and its practical implementation.",
+        "location": "Section 6",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "It is agreed that the Inf ormation will be used by Custom er only f or the lim ited purpose of interconnecting a distributed generation system with Minnesota Power. W ithout the prior written consent of Minnesota Power, any disclosure or other unauthorized use of the Inform ation by Custom er is prohibited. This Ag reem ent shall not prohibit disclosure to third party consultants and professional advisors provided such third parties enter into and agree to be bound by this Agreem ent.",
+        "contradiction_exists": "YES",
+        "justification": "The original text required both the return of documentation and certification of destruction, ensuring no copies remained. The changed text removes the certification requirement. The contradicted text emphasizes the prohibition of unauthorized use and disclosure of information. By removing the certification, the changed text creates a practical gap in enforcing this prohibition, as there's no verification that all copies were destroyed, creating an in-text contradiction because it weakens the ability to ensure compliance with the confidentiality clause."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Custom er agrees that, without the prior written consent of Minnesota Power, it will not m ake any statem ent to any com petitor, cust omer or other third party with respect to the Inform ation exchanged hereunder or regarding the Project itself.",
+        "changed_text": "Custom er agrees that, without the prior written consent of Minnesota Power, it will not make any disparaging statement to any third party with respect to the Information exchanged hereunder.",
+        "explanation": "By changing the scope of the restriction from 'any statement to any competitor, customer or other third party...regarding the project itself' to 'any disparaging statement to any third party', the clause is significantly narrowed. The original clause broadly protected information and the project from any unauthorized communication. The modified clause only prohibits 'disparaging statements', implicitly allowing positive or neutral statements and removing protection for information beyond merely preventing criticism. This directly contradicts the premise that all information is strictly confidential, which the original agreement was designed to protect and its intention. This create an in-text contradiction of the original intention of non-disclosure of Information.",
+        "location": "Section 7",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "The inform ation, knowledge and m aterial exchanged pursuant to the preceding paragraph shall be referred to as the “Inform ation.” The Parties hereby agree to retain, and to require all respective representatives to reta in, the Inform ation provided pursuant to this Agreem ent in strict confidence in accordance with the term s set forth below.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text narrows the scope of prohibited statements from 'any statement' to 'any disparaging statement.' This contradicts the 'Contradicted Text' section, which mandates retaining all 'Information' in 'strict confidence.' By only prohibiting 'disparaging statements', the revised clause implicitly allows neutral or positive statements about the 'Information', directly conflicting with the requirement of strict confidentiality. The original text's intention to broadly protect the information is undermined, creating a strong in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Notwithstanding the Parties entering into any further agreement or arrangement, or any other event or occurrence, the provisions of this Agreement relating to nondisclosure (including the provisions relating to the breach of this Agreement) or use of the Information shall remain in full force and eff ect for ________ years or as long as the Information is confidential and non-public, whichever is less, unless otherwise agreed to in writing by the Parties hereto.",
+        "changed_text": "Notwithstanding the Parties entering into any further agreement or arrangement, or any other event or occurrence, the provisions of this Agreement relating to use of the Information shall remain in full force and effect unless otherwise agreed to in writing by the Parties hereto.",
+        "explanation": "By removing the phrase 'relating to nondisclosure (including the provisions relating to the breach of this Agreement)', the duration clause no longer explicitly covers breaches of the confidentiality provisions. While it mentions 'use of the Information,' it omits the consequences for failing to maintain confidentiality. This creates an in-text contradiction because the entire agreement is predicated on strict confidentiality, but the duration clause, which should reinforce this principle, now only explicitly covers the allowed *use* of the information, rather than its *disclosure*. This weakens the enforceability of the confidentiality provisions over time, which is directly contradictory to the overall spirit and explicit requirements of the agreement, rendering enforceability uncertain.",
+        "location": "Section 9",
+        "contradicted_location": "Section 5",
+        "contradicted_text": "Custom er and Minnesota Power hereby acknowledge that unauthorized disclosure or use of the Inform ation m ay result in harm to Minnesota Power. Accordingly, Custom er agrees that Minnesota Power shall have the right to seek remedies for disclosure or use of all Information subject to this Agreem ent.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes 'relating to nondisclosure (including the provisions relating to the breach of this Agreement)' from the duration clause, causing it to only explicitly cover the use of information rather than its disclosure. This contradicts the contradicted text, which acknowledges that unauthorized disclosure or use of the Information may result in harm to Minnesota Power, thus creating uncertainty about the enforceability of remedies for disclosure. This falls under the Omissions - In Text Contradiction definition."
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "WEB-NDA-Mutual-Customer-and-Allazo-Electronics-v2.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Therefore, both parties agree to have Non Disclosure Agreements in place with any current or future employee, any third party person or company to the magnitude of this agreement or greater prior to any internal or external disclosure.",
+        "changed_text": "Therefore, both parties may consider having Non Disclosure Agreements in place with their current or future employees.",
+        "explanation": "The original text mandates NDAs with employees and third parties. The modified text makes it optional ('may consider'). This creates an internal contradiction because the overall NDA assumes a certain level of confidentiality protection. Now, internal disclosure practices may not be aligned with external confidentiality requirements creating in text contradiction.",
+        "location": "5",
+        "contradicted_location": "6",
+        "contradicted_text": "The Receiving Party shall protect the disclosed Confidential Information by using the same degree of care, but no less than a reasonable degree of care, to prevent the unauthorized use, dissemination or publication of the Confidential Information as the Receiving Party uses to protect its own Confidential Information of a similar nature. The Receiving Party (i) shall limit access to all Confidential Information to its employees, agents, representatives, consultants and contractors who shall reasonably require access to the Confidential Information for the purpose set forth above and to third party vendors for the purpose of obtaining price quotations, (ii) shall use the Confidential Information solely in connection with the Purpose, and (iii) shall use due diligence to insure that all such persons are aware of, understand their obligations under, and comply with the provisions of this Agreement. Each party agrees not to publicize or disclose the existence or terms of this Agreement to any third party without the prior consent of the other party except as required by law (in which case, the party seeking to disclose the information shall give reasonable notice to the other party of its intent to make such a disclosure). Neither party shall make any press release or similar public statement without the prior consent of the other party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandated NDAs for employees and third parties, while the changed text makes NDAs optional ('may consider'). The contradicted text requires the Receiving Party to protect Confidential Information and limit access to employees who understand and comply with the agreement. By making NDAs optional, the changed text creates a contradiction because the Receiving Party might not require employees to sign NDAs, which undermines the obligation to protect Confidential Information as required in the contradicted text, thus creating a strong in-text contradiction. This is an Omissions - In Text Contradiction"
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Receiving Party shall protect the disclosed Confidential Information by using the same degree of care, but no less than a reasonable degree of care, to prevent the unauthorized use, dissemination or publication of the Confidential Information as the Receiving Party uses to protect its own Confidential Information of a similar nature.",
+        "changed_text": "The Receiving Party shall endeavor to protect the disclosed Confidential Information.",
+        "explanation": "Replacing 'shall protect...no less than a reasonable degree of care' with 'shall endeavor to protect' significantly weakens the obligation. This introduces an in-text contradiction with the remedies section, which assumes a strong protection duty.",
+        "location": "6",
+        "contradicted_location": "11",
+        "contradicted_text": "The Receiving Party agrees that its obligations hereunder are necessary and reasonable in order to protect the Disclosing Party and the Disclosing Party’s business, and expressly agrees that monetary damages may be inadequate to compensate the Disclosing Party for any breach by either party of any covenants and agreements set forth herein. Accordingly, the Receiving Party agrees and acknowledges that any such violation or threatened violation may cause irreparable injury to the Disclosing Party and that, in addition to any other remedies that may be available, in law, in equity or otherwise, the Disclosing Party may be entitled to obtain injunctive relief against the threatened breach of this Agreement or the continuation of any such breach.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandated a 'reasonable degree of care' to protect confidential information. The changed text weakens this obligation to simply 'endeavor to protect,' creating a significant difference in the level of protection required. This directly contradicts the contradicted text, which assumes a strong protection duty and states that monetary damages may be inadequate due to a breach. The weaker obligation introduced by the changed text makes the remedies and assumptions in the contradicted text inconsistent and creates a direct contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Receiving Party shall not reverse-engineer, de-compile, or disassemble any software disclosed to it and shall not remove, overprint or deface any notice of copyright, trademark, logo, legend, or other notices of ownership from any originals or copies of Confidential Information it obtains from the Disclosing Party.",
+        "changed_text": "The Receiving Party shall not reverse-engineer any software disclosed to it.",
+        "explanation": "By removing the prohibition against de-compiling, disassembling software, and altering notices of ownership, the modified text creates an in-text contradiction. While reverse engineering is prohibited, the lack of restrictions on decompiling and disassembling allows for indirect exploitation of the software and intellectual property. This creates contradiction in the 'Ownership/Return of Confidential Information' section, specifically that the Disclosing Party shall remain the owner of all Confidential Information it discloses.",
+        "location": "8",
+        "contradicted_location": "9",
+        "contradicted_text": "The Disclosing Party shall remain the owner of all Confidential Information it discloses. Within ten (10) days after any written request by the Disclosing Party, the Receiving Party shall promptly return all copies of the Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text prevented the Receiving Party from reverse-engineering, decompiling, disassembling software, and altering ownership notices. The changed text removes the prohibitions on decompiling, disassembling, and altering notices. This contradicts the section stating that the Disclosing Party remains the owner of all Confidential Information because the Receiving Party can now decompile or disassemble the software and effectively remove ownership notices, potentially claiming ownership or otherwise exploiting the Confidential Information in a way inconsistent with the Disclosing Party's ownership."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Within ten (10) days after any written request by the Disclosing Party, the Receiving Party shall promptly return all copies of the Confidential Information.",
+        "changed_text": "Upon written request by the Disclosing Party, the Receiving Party shall return all copies of the Confidential Information when reasonably possible.",
+        "explanation": "The original text specifies a strict 10-day return period. The modified text introduces ambiguity ('when reasonably possible'), creating an in-text contradiction. The original agreement indicates that any breach or threatened breach may result in irreparable injury. This implies that any delay or failure to promptly return Confidential Information per the terms of the original agreement warrants an immediate and equitable recourse. However, given that 'when reasonably possible' is highly subjective, it becomes challenging to justify why the 10-day period cannot be enforced, which weakens the remedy.",
+        "location": "9",
+        "contradicted_location": "11",
+        "contradicted_text": "The Receiving Party agrees that its obligations hereunder are necessary and reasonable in order to protect the Disclosing Party and the Disclosing Party’s business, and expressly agrees that monetary damages may be inadequate to compensate the Disclosing Party for any breach by either party of any covenants and agreements set forth herein. Accordingly, the Receiving Party agrees and acknowledges that any such violation or threatened violation may cause irreparable injury to the Disclosing Party and that, in addition to any other remedies that may be available, in law, in equity or otherwise, the Disclosing Party may be entitled to obtain injunctive relief against the threatened breach of this Agreement or the continuation of any such breach.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies a strict 10-day return period, while the changed text introduces ambiguity with 'when reasonably possible'. This contradicts the contradicted text, which emphasizes the need for immediate and equitable recourse for any breach or threatened breach, including the failure to promptly return confidential information. The subjective nature of 'when reasonably possible' weakens the enforceability of the original agreement and the justification for immediate action, creating a direct conflict."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The parties agree that the state courts of Collin or Dallas Counties, Texas and the federal courts located in the Eastern District of Texas shall have exclusive jurisdiction and venue to adjudicate any and all disputes arising out of or in connection with this Agreement.",
+        "changed_text": "The parties agree that the courts of Texas shall have jurisdiction and venue to adjudicate any and all disputes arising out of or in connection with this Agreement.",
+        "explanation": "Removing the specification of Collin, Dallas Counties, or the Eastern District of Texas eliminates a restriction on where disputes must be resolved, thereby introducing ambiguity and potentially increasing costs and inconveniences for the parties. This weakens the 'Entire Agreement' clause, as it introduces a potential conflict not originally contemplated, potentially altering the balance and scope of the agreement beyond its originally intended form.",
+        "location": "10",
+        "contradicted_location": "14",
+        "contradicted_text": "This document contains the complete and exclusive Agreement between the parties, and it is intended to be final expression of their Agreement. No promise, representation, warranty or covenant not included in this document has been or is relied upon by any party. Each party has relied upon its own examination of the warranties, representations and covenants expressly contained in the Agreement itself. No modification or amendment of this Agreement shall be of any force unless in writing executed by all parties hereto.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies exclusive jurisdiction in Collin or Dallas Counties, Texas, and the Eastern District of Texas federal courts. The changed text broadens this to 'the courts of Texas', removing the exclusivity and potentially allowing disputes to be heard in any Texas court. This contradicts the 'Entire Agreement' clause, which states the document is the complete and exclusive agreement and that no modifications are valid unless in writing executed by all parties. By broadening the jurisdiction without a written amendment, the changed text introduces a contradiction to the exclusivity intended by the original jurisdiction clause and affirmed by the 'Entire Agreement' clause."
+      }
+    ]
+  }
+]

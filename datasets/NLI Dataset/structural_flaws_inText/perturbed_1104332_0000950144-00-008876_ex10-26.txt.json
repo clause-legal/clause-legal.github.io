@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "1104332_0000950144-00-008876_ex10-26.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Parties agree to abide by the following rules of non-circumvention and non-disclosure for a period of Two years from the effective date hereof. Such covenant and agreement shall survive termination of this Agreement for any reason whatsoever.",
+        "changed_text": "The Parties agree to abide by the following rules of non-circumvention and non-disclosure indefinitely from the effective date hereof. Such covenant and agreement shall survive termination of this Agreement for any reason whatsoever.",
+        "explanation": "Changing the duration of the non-circumvention and non-disclosure agreement from \"Two years\" to \"indefinitely\" creates a contradiction with Section 2, which states the agreement is valid for two years. The indefinite duration introduces uncertainty about the actual enforceable term of the agreement.",
+        "location": "1",
+        "contradicted_location": "2",
+        "contradicted_text": "The Agreement is valid and effective for all purposes, business, communications, negotiations, disclosures and transactions of whatever nature between the Parties for a period of two (2) years from the effective date hereof.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the duration of the non-circumvention and non-disclosure agreement from 'Two years' to 'indefinitely'. This directly contradicts the 'Contradicted Text' which explicitly states that 'The Agreement is valid and effective...for a period of two (2) years from the effective date hereof.' This creates a clear and direct conflict within the document regarding the enforceable term of the agreement, meeting the definition of a structural flaw and creating uncertainty as explained."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "For purposes of this Agreement, the term \"associates\" or \"contacts\" shall be defined as: in the case of a business entity its officers, directors, affiliates, subsidiaries, associated entities, and any other business entity in which the business entity owns five percent (5%) or more of the outstanding equity interest.",
+        "changed_text": "For purposes of this Agreement, the term \"associates\" or \"contacts\" shall be defined as: in the case of a business entity its officers, directors, affiliates, subsidiaries, associated entities, and any other business entity in which the business entity owns ten percent (10%) or more of the outstanding equity interest.",
+        "explanation": "Changing the percentage of equity ownership that defines \"associates\" from \"five percent (5%)\" to \"ten percent (10%)\" creates a contradiction. This leads to confusion about which entities are considered associates and, consequently, which entities are subject to the non-circumvention and non-disclosure terms.",
+        "location": "1.b",
+        "contradicted_location": "1.a",
+        "contradicted_text": "Each Party, for itself and its associates as defined below, represents and warrants that it shall not conduct business with any sources or contacts, or said source's or contact's associates as defined below, that are originally made known and/or available by another Party hereto, at any time or in any manner, without the express written permission (not to be unreasonably withheld) of the Party who made the source(s) known and/or available.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined \"associates\" as entities with 5% or more equity interest. The changed text raises this threshold to 10%. The contradicted text prohibits business dealings with a party's \"associates as defined below.\" This creates a direct contradiction because the pool of \"associates\" is now smaller under the changed text, potentially allowing business dealings that were previously prohibited. This inconsistency regarding the definition directly impacts which entities are subject to the non-circumvention agreement."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Parties will maintain complete confidentiality regarding this Agreement and all transactions occurring thereunder, each other's business, business sources and affiliates and each other's propriety knowledge and know-how, and will disclose such information only pursuant to the express written permission of the party who made such information available save where such information deemed to be in the public domain or under the order of a competent Court or Government Agency.",
+        "changed_text": "The Parties will maintain confidentiality regarding this Agreement and all transactions occurring thereunder, each other's business, business sources and affiliates and each other's propriety knowledge and know-how, and may disclose such information as they deem necessary, regardless of written permission or legal order.",
+        "explanation": "Changing the confidentiality clause to allow disclosure \"as they deem necessary\" directly contradicts the original restriction of disclosure \"only pursuant to the express written permission of the party.\" This creates uncertainty about the actual level of confidentiality the parties are bound to.",
+        "location": "1.c",
+        "contradicted_location": "1.c",
+        "contradicted_text": "The Parties will maintain confidentiality regarding this Agreement and all transactions occurring thereunder, each other's business, business sources and affiliates and each other's propriety knowledge and know-how, and may disclose such information as they deem necessary, regardless of written permission or legal order.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates confidentiality with disclosure allowed only with express written permission or legal order. The changed text permits disclosure 'as they deem necessary, regardless of written permission or legal order'. This directly contradicts the original restriction, creating a strong in-text contradiction. The contradicted text is the same as the changed text, indicating the contradiction arises from altering the original clause itself."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement is a full recourse agreement concluded under the laws of Pennsylvania and said forum shall be applicable law covering the construction, interpretation, execution, validity, enforceability, performance, and any other such matters in respect to this Agreement, including any breach or claim of breach hereof.",
+        "changed_text": "This Agreement is subject to mediation before any legal action can be taken, which is to be attempted in good faith. If mediation is unsuccessful then the laws of Pennsylvania will apply, but mediation will halt any applicable time constraints on bringing suit.",
+        "explanation": "Changing \"This Agreement is a full recourse agreement concluded under the laws of Pennsylvania\" by adding the clause requiring mediation. Before any legal action can be taken, this clause is contradicted by what was there previously because it implies that Pennsylvania Law and recourse is not the first action that is going to be done with this agreement.",
+        "location": "12",
+        "contradicted_location": "12",
+        "contradicted_text": "This Agreement is subject to mediation before any legal action can be taken, which is to be attempted in good faith. If mediation is unsuccessful then the laws of Pennsylvania will apply, but mediation will halt any applicable time constraints on bringing suit.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the agreement is a full recourse agreement under Pennsylvania law, implying immediate legal action can be taken. The changed text introduces mandatory mediation before legal action, which directly conflicts with the original implication of immediate recourse under Pennsylvania law. The contradicted text and changed text are in the same location. Because the addition requires mediation before legal action, Pennsylvania law is no longer the first action to be taken."
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "ProtectedData-MMD-NonDisclosureAgreementSubmissionInstructions.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Non-Public Information shall include any and al l information Data Recipient receives from WECC, including, but not limited to, information received through a login to the WECC website, which: i. Is designated as “Confidential Information” or “Market Sensitive Information” or is otherwise considered non-public under the WECC Information Sharing Policy; ii. Meets the definition of Confidential Informatio n as set forth in Section 1500 of the North American Electric Reliability Corporation Rules of Procedure; or iii. Is identified by WECC as non-public or confidential at the time of disclosure.",
+        "changed_text": "Non-Public Information shall include any and al l information Data Recipient receives from WECC, including, but not limited to, information received through a login to the WECC website, which: i. Is designated as “Confidential Information” or “Market Sensitive Information” or is otherwise considered non-public under the WECC Information Sharing Policy; ii. Meets the definition of Confidential Informatio n as set forth in Section 1500 of the North American Electric Reliability Corporation Rules of Procedure; or iii. Is identified by WECC as non-public or confidential only if WECC provides a written notice of such designation to the recipient within 10 days of disclosure.",
+        "explanation": "This change introduces a contradiction within Section 1(a). Originally, information identified by WECC as non-public at the time of disclosure was considered Non-Public Information. The modification adds a requirement of written notice within 10 days, contradicting the initial condition of identification at the time of disclosure. This creates confusion as to when information is truly considered Non-Public. The contradiction takes place in section 1. Non-Public Information",
+        "location": "1(a)",
+        "contradicted_location": "1(a)",
+        "contradicted_text": "Non-Public Information shall include any and al l information Data Recipient receives from WECC, including, but not limited to, information received through a login to the WECC website, which: i. Is designated as “Confidential Information” or “Market Sensitive Information” or is otherwise considered non-public under the WECC Information Sharing Policy; ii. Meets the definition of Confidential Informatio n as set forth in Section 1500 of the North American Electric Reliability Corporation Rules of Procedure; or iii. Is identified by WECC as non-public or confidential only if WECC provides a written notice of such designation to the recipient within 10 days of disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the conditions under which information is considered Non-Public Information. The original text states that information identified by WECC as non-public at the time of disclosure is considered Non-Public Information. The changed text adds the condition that WECC must provide written notice within 10 days of disclosure. This contradicts the original condition, creating a strong in-text contradiction. The contradictory text, although found in the same location, causes a structural flaw by creating conflicting implications within the section regarding Non-Public Information."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Information that was or is independently deve loped by Data Recipient as demonstrated by Data Recipient’s documentation.",
+        "changed_text": "Information that was or is independently deve loped by Data Recipient, regardless of whether it is demonstrated by Data Recipient’s documentation.",
+        "explanation": "The change introduces a contradiction in Section 1(b)(iii). The original text specifies that independently developed information is excluded from Non-Public Information, but only if the Data Recipient can demonstrate it through documentation. Removing the documentation requirement contradicts the initial intent, potentially including information that should be protected. This could lead to conflict when determining if independently developed information is truly excluded from the agreement. The contradiction happens within the section 1. Non-Public Information",
+        "location": "1(b)(iii)",
+        "contradicted_location": "1(b)(iii)",
+        "contradicted_text": "Information that was or is independently deve loped by Data Recipient, regardless of whether it is demonstrated by Data Recipient’s documentation.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the requirement for documentation to prove independent development. This directly contradicts the implied requirement in the original text, and potentially another section in the document (section 1biii). The change makes information qualify as \"independently developed\" even if there's no proof of it. This breaks the initial intent of excluding only verifiably independent data, creating a direct conflict."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Data Recipient agrees to not make available, disclose, provide or communicate Non-Public Information to any entity or individual, except: i. Employees of Data Recipient who (1) have signed an acknowledgment of this Agreement or a non-disclosure agreement that covers the Non-Public Information and is at least as restrictive as this Agreement, and (2) need th e Non-Public Information for performance of a job function subject to the limitation on Market Sensitive Information below;",
+        "changed_text": "Data Recipient agrees to not make available, disclose, provide or communicate Non-Public Information to any entity or individual, except: i. Employees of Data Recipient who (1) have access to the company's shared drive that contains the Agreement, and (2) need th e Non-Public Information for performance of a job function subject to the limitation on Market Sensitive Information below;",
+        "explanation": "This change introduces a contradiction within Section 2(b)(i). Originally, employees needed to have signed an acknowledgment of the agreement or a non-disclosure agreement. Now, the condition has been changed to them only needing 'access to the company's shared drive that contains the Agreement'. The implication being employees, who have access to the shared drive, now don't need to formally acknowledge this agreement to receive or use non-public information. The contradiction occurs in section 2. Treatment of Non-Public Information",
+        "location": "2(b)(i)",
+        "contradicted_location": "2(b)(i)",
+        "contradicted_text": "Data Recipient agrees to not make available, disclose, provide or communicate Non-Public Information to any entity or individual, except: i. Employees of Data Recipient who (1) have access to the company's shared drive that contains the Agreement, and (2) need th e Non-Public Information for performance of a job function subject to the limitation on Market Sensitive Information below;",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the requirements for employees to access Non-Public Information. The original text required employees to sign an acknowledgment or non-disclosure agreement, providing a level of documented agreement. The changed text only requires access to a shared drive containing the agreement, eliminating the need for a signed acknowledgment. This contradicts the contradicted text because it weakens the controls over who can access and use non-public information, and this is a direct conflict regarding the conditions for accessing non-public information."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Notwithstanding anything to the contrary here in, Data Recipient may disclose Non-Public Information to a governmental authority as requ ired by law, provided that to the extent permitted by law: i. Data Recipient notifies WECC as soon as reas onably possible of the required disclosure; ii. Data Recipient does not disclose the Non- Public Information until WECC has had a reasonable opportunity to respond to the required disclosure; and iii. Data Recipient cooperates with WECC as re asonably requested by WECC to protect WECC’s interests in the Non-Public Information.",
+        "changed_text": "Notwithstanding anything to the contrary here in, Data Recipient may disclose Non-Public Information to a governmental authority as requ ired by law, without any prior notice or coordination with WECC.",
+        "explanation": "This change introduces a contradiction within Section 4(a). The original clause required the Data Recipient to notify and cooperate with WECC before disclosing non-public information to a government authority. By removing these conditions, it now contradicts the original intent of WECC having a chance to respond to any required disclosures. The contradiction is present in section 4. Compelled Disclosures",
+        "location": "4(a)",
+        "contradicted_location": "4(a)",
+        "contradicted_text": "Notwithstanding anything to the contrary here in, Data Recipient may disclose Non-Public Information to a governmental authority as requ ired by law, without any prior notice or coordination with WECC.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires the Data Recipient to notify and cooperate with WECC before disclosing non-public information to a government authority. The changed text removes these conditions, stating that the Data Recipient may disclose Non-Public Information without any prior notice or coordination with WECC. This creates a direct contradiction with the original intent of WECC having a chance to respond to any required disclosures, as stated in the Perturbation Explanation and the Perturbation Type, which is Structural Flaws - In Text Contradiction. The Contradicted Text is the same as the Changed Text, demonstrating the contradictory nature of the modification."
+      }
+    ]
+  }
+]

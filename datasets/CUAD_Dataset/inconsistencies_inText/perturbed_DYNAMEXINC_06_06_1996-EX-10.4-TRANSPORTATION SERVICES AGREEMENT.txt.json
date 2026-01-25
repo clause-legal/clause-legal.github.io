@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "DYNAMEXINC_06_06_1996-EX-10.4-TRANSPORTATION SERVICES AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "5.5 Every invoice shall be reviewed by the invoiced Party and subject to paragraphs 5.2, shall pay the invoice net fifteen (15) days from the date of invoicing. Invoices shall be delivered to the invoiced Party within three (3) days of the date of invoicing.",
+        "changed_text": "5.5 Every invoice shall be reviewed by the invoiced Party and subject to paragraphs 5.2, shall pay the invoice net sixty (60) days from the date of invoicing. Invoices shall be delivered to the invoiced Party within three (3) days of the date of invoicing.",
+        "explanation": "This change introduces a contradiction by extending the payment deadline from fifteen (15) days to sixty (60) days in section 5.5, while section 5.6 specifies interest on overdue amounts starting after thirty (30) days. This creates an in-text contradiction, because it's unclear when the interest starts to apply, after 30 or 60 days.",
+        "location": "5.5",
+        "contradicted_location": "5.6",
+        "contradicted_text": "5.6 Interest, at the prime rate then charged to commercial customers by the Canadian Imperil Bank of Commerce (Toronto Main Branch), shall be payable on all amounts overdue for thirty (30) days or more.",
+        "contradiction_exists": "YES",
+        "justification": "The change extends the payment deadline from 15 days to 60 days in section 5.5, while section 5.6 specifies interest on overdue amounts starting after 30 days. This creates a direct conflict regarding when interest starts to apply, as the changed text implies payment is not overdue until after 60 days, contradicting the 30-day period in section 5.6."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "17.2 Upon the occurrence of an Event of Default and in addition to any rights or remedies available to it under this Agreement or at law or in equity, the Party not in default may exercise any or all of the following remedies: (a) terminate this Agreement, upon giving one hundred and twenty (120) days written notice, otherwise upon written notice with respect to 17.1 (g) and (h);",
+        "changed_text": "17.2 Upon the occurrence of an Event of Default and in addition to any rights or remedies available to it under this Agreement or at law or in equity, the Party not in default may exercise any or all of the following remedies: (a) terminate this Agreement, upon giving thirty (30) days written notice, otherwise upon written notice with respect to 17.1 (g) and (h);",
+        "explanation": "This change introduces a contradiction in Section 17.2(a) by reducing the written notice period for termination from one hundred and twenty (120) days to thirty (30) days, which contradicts Section 19.1, which allows either party to terminate the agreement without cause with two (2) years written notice.",
+        "location": "17.2",
+        "contradicted_location": "19.1",
+        "contradicted_text": "19.1 Either Party may terminate this Agreement, without cause, by giving two (2) years written notice.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text reduces the termination notice period in Section 17.2(a) from 120 days to 30 days. This directly contradicts Section 19.1, which allows either party to terminate the agreement without cause with two (2) years written notice. The two sections now have conflicting notice periods for termination, creating a strong in-text contradiction as described in the 'Inconsistencies - In Text Contradiction' definition."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "3.4 Each Party agrees to provide the services outlined above at an on time performance level of no less than ninety percent (90%) of the scheduled delivery time, excluding delays caused by the other Party or events of Force Majeure. Monthly, the performance level shall be measured as set out above. Failure to provide services as set out herein constitutes a Monthly Service Failure.",
+        "changed_text": "3.4 Each Party agrees to provide the services outlined above at an on time performance level of no less than seventy percent (70%) of the scheduled delivery time, excluding delays caused by the other Party or events of Force Majeure. Monthly, the performance level shall be measured as set out above. Failure to provide services as set out herein constitutes a Monthly Service Failure.",
+        "explanation": "This change creates an in-text contradiction by modifying the minimum on-time performance level in Section 3.4 from ninety percent (90%) to seventy percent (70%). This contradicts Section 18.1, which calculates performance penalties based on a ninety percent (90%) performance commitment, creating uncertainty as to which performance target should be used for penalty calculations.",
+        "location": "3.4",
+        "contradicted_location": "18.1",
+        "contradicted_text": "18.1 In the event a Party has, in any twelve (12) month period, more than three (3) Monthly Performance Failures, then the defaulting Party shall pay a penalty to the Party not in default, which the Parties acknowledge is a pre-estimation of damages suffered by the non-defaulting Party due to the current month's Monthly Performance Failure (\"Default Month\"). For each Default Month, the Party in default shall pay a penalty equal to five (5) times the Party not in default's corporate average yield during the Default Month for each shipment below the performance commitment.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the required on-time performance level from 90% to 70%. This directly contradicts Section 18.1, which calculates penalties based on the original 90% performance commitment. This creates a significant inconsistency, as it is unclear which performance target (70% or 90%) should be used for calculating penalties for Monthly Performance Failures, leading to a direct conflict in the contract's terms and potential disputes over contractual obligations."
+      }
+    ]
+  }
+]

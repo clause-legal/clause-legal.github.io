@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "ttp-nda.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Recipient may use and disclose the Confidential Information among its internal information technology and management staff for its own internal business purposes.",
+        "changed_text": "Recipient shall not use or disclose the Confidential Information among its internal information technology and management staff for any of its internal business purposes.",
+        "explanation": "This change directly contradicts the original allowance of use of confidential information within the recipient's organization, creating an in-text contradiction and uncertainty about the recipient's rights.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Recipient shall not use or disclose the Confidential Information among its internal information technology and management staff for any of its internal business purposes. Either party may also disclose on the TTP mailing list Confidential Information previously received on the TTP mailing list or during TTP meetings. Micro Focus may post for use of the TTP program a list of the organizations and individuals that have signed a Micro Focus TTP Non-disclosure Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allows the Recipient to use and disclose confidential information internally. The changed text explicitly prohibits the Recipient from doing so. The contradicted text is identical to the changed text. Therefore, the change creates a direct, impactful in-text contradiction regarding the Recipient's rights to use and disclose the Confidential Information, thus leading to a 'YES'."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "All Confidential Information remains th e property of the Discloser and/or its licensors.",
+        "changed_text": "All Confidential Information will become th e property of the Recipient after a period of 1 year.",
+        "explanation": "By stating that confidential information becomes the property of the recipient after a year, it conflicts with the purpose and nature of a non-disclosure agreement, where ownership is intended to remain with the disclosing party. This affects section 5 and makes it unclear who owns the Confidential Information.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "All Confidential Information will become th e property of the Recipient after a period of 1 year.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states \"All Confidential Information will become the property of the Recipient after a period of 1 year\", while the contradicted text states the same thing. This change fundamentally alters the nature of confidentiality by transferring ownership, creating a direct contradiction with the original intent of maintaining ownership with the Discloser, as explained in the perturbation explanation. Therefore, a strong in-text contradiction exists."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Recipient shall be free to use for any purposes Residuals resulting from access to or work with Discloser’s Confidential Information.",
+        "changed_text": "Recipient shall be free to use for any purposes Residuals resulting from access to or work with Discloser’s Confidential Information with Discloser prior written authorization.",
+        "explanation": "The original clause grants the Recipient freedom of use over Residuals. Inserting 'with Discloser prior written authorization' creates a direct contradiction, limiting the Recipient's previously granted freedom and adding a condition that was not present before.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "Recipient shall be free to use for any purposes Residuals resulting from access to or work with Discloser’s Confidential Information with Discloser prior written authorization. Howeve r, the foregoing does not give Recipient the right to disclose the financial, statistical, or personnel informat ion or the business plans of Discloser, and shall not be deemed to grant to either party a license under the other par ty’s copyrights or patents. The term \"Residuals\" means information which may be retained in non-tangi ble form by persons who have had access to the Confidential Information, including without limitati on general ideas, concepts, know-how or techniques contained therein.",
+        "contradiction_exists": "YES",
+        "justification": "The original text grants the Recipient unrestricted use of Residuals. The changed text adds the requirement of 'Discloser prior written authorization', directly contradicting the original grant of freedom. The contradicted text is identical to the Changed text, indicating that the change itself introduces the contradiction by adding a condition to a previously unrestricted right, creating a structural flaw and in-text contradiction as defined in the prompt."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Either party may terminate this Agreement for its convenience upon wri tten notice to the other.",
+        "changed_text": "Either party may not terminate this Agreement for its convenience upon wri tten notice to the other.",
+        "explanation": "This creates a direct contradiction regarding termination rights. The original agreement allows termination for convenience with notice, but the changed version prohibits it, leading to uncertainty about the agreement's duration and enforceability.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "Either party may not terminate this Agreement for its convenience upon wri tten notice to the other. Upon termination of this Agreement, or earlier upon Discloser’s request, Recipient shall promptly return or destroy all documents and tangible items in its possession which contain any part of the Confidential Information of Discloser. Upon Agreement termination, all obligations of confidentia lity shall survive and cont inue to bind Recipient in accordance with their terms.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly prohibits termination for convenience, directly contradicting the provided contradicted text, which also prohibits termination for convenience. While seemingly aligned, the perturbation explanation indicates a change from the original text that *allowed* termination for convenience, creating a conflict within the document. The change creates a structural flaw that causes in-text contradiction, meeting the definition given."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Discloser may change or cancel its plans at any time.",
+        "changed_text": "Discloser may never change or cancel its plans at any time.",
+        "explanation": "By negating the Discloser's ability to change or cancel plans, the modified clause contradicts the principle of flexibility and adaptability outlined. This makes it unclear whether the Discloser is bound to specific, unchanging plans despite market changes.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "All Confidential Information is provided AS IS, WITHOUT WARRANTY OF ANY KIND, WHETHER EXPRESS OR IMPLIED. Discloser does not r epresent or warrant the accuracy or completeness of the Confidential Information, that it will release an y related product, or that target dates will be met. The entire risk arising out of the use of the Confidential In formation remains with Recipient. Discloser may never change or cancel its plans at any time.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that \"Discloser may never change or cancel its plans at any time,\" which directly contradicts the statement within the contradicted text which contains that exact same phrase. The change creates an in-text contradiction because both clauses should not contain that same exact phrasing, as explained earlier. Because this is a structural flaw-related contradiction, and by definition a structural flaw causes in-text contradictions when a clause is placed in multiple locations with conflicting implications, this would be a \"YES\"."
+      }
+    ]
+  }
+]

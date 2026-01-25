@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "NEW_moi_ndform.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Receiving Party agrees it will not use Confidential Information provided under this Agreement to guide or aid a search and evaluation for purposes of showing information, technical data, trade secrets, or know- how provided hereunder is in the public domain.",
+        "changed_text": "Receiving Party agrees it will use Confidential Information provided under this Agreement to guide or aid a search and evaluation for purposes of showing information, technical data, trade secrets, or know- how provided hereunder is in the public domain.",
+        "explanation": "The term 'will not use' has been changed to 'will use.' This now directly contradicts the purpose of the NDA, suggesting the Receiving Party can use the Confidential Information to prove it's already public, undermining the agreement's core function.",
+        "location": "Non-Disclosure of Confidential Information",
+        "contradicted_location": "Non-Disclosure of Confidential Information",
+        "contradicted_text": "Receiving Party agrees it will use Confidential Information provided under this Agreement to guide or aid a search and evaluation for purposes of showing information, technical data, trade secrets, or know- how provided hereunder is in the public domain.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the original clause from 'will not use' to 'will use' confidential information to prove it's in the public domain. This directly contradicts the contradicted text, which, although identical, highlights the shift in obligation. The change undermines the core purpose of an NDA, which is to protect confidential information, thus creating a strong in-text contradiction as the receiving party is now incentivized to prove the information isn't confidential."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement may be executed in any number of counterparts, each of which shall be considered as an original.",
+        "changed_text": "This Agreement may be executed in any number of counterparts, only the first of which shall be considered as an original.",
+        "explanation": "By stating 'only the first' is original and therefore, what are the other counterparts? This changes the value of the counterparts and creates uncertainty about the other documents.",
+        "location": "Entire Agreement",
+        "contradicted_location": "Entire Agreement",
+        "contradicted_text": "This Agreement may be executed in any number of counterparts, only the first of which shall be considered as an original.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that each counterpart shall be considered an original. The changed text modifies this by stating that 'only the first' is considered an original. The explanation states that this changes the value of the counterparts and creates uncertainty about the other documents. Therefore, because the Changed Text breaks the meaning/definition of the word counterparts, which will cause issues later on in the contract, and following the definition of Misaligned Terminology, the change creates a direct contradiction, since the contradiction will cause conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Return of Materials . NO materials or documents which have been furnished by Submitting Party to Receiving Party will be returned, but instead will be disposed of in an appropriate manner to maintain confidentiality.",
+        "changed_text": "Return of Materials . All materials or documents which have been furnished by Submitting Party to Receiving Party will be returned, but instead will be disposed of in an appropriate manner to maintain confidentiality.",
+        "explanation": "Changing 'NO materials' to 'All materials' creates a contradiction: The initial sentence says materials WILL be returned, the second part says those exact same materials will be disposed of. It becomes unclear what the proper action is.",
+        "location": "Return of Materials",
+        "contradicted_location": "Return of Materials",
+        "contradicted_text": "Return of Materials . All materials or documents which have been furnished by Submitting Party to Receiving Party will be returned, but instead will be disposed of in an appropriate manner to maintain confidentiality.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states 'All materials or documents which have been furnished by Submitting Party to Receiving Party will be returned, but instead will be disposed of in an appropriate manner to maintain confidentiality.'. This creates a direct contradiction within the same sentence. The first part of the sentence mandates the return of all materials, while the second part mandates the disposal of the exact same materials. This contradiction exists both in the changed text itself, and in relation to the contradicted text which is identical, creating a strong in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Confidential Information does not include information, technical data or know-how which: i. is generally available to the public prior to its disclosure; or ii. is generally known to Receiving Party prior to the disclosure thereof as evidenced by written and dated material in its possessions; or iii. through no fault of Receiving Party , becomes available to the public after the disclosure thereof; or iv. is disclosed to Receiving Party by a third party having a bona fide right to do so; or v. is approved for release by the written authorization of Submitting Party ; or vi. is disclosed pursuant to the requirement of a government agency or by operation of law after Submitting Party has been given at least thirty (30) days notice and an opportunity to object to such disclosures; or vii. is developed by Receiving Party completely independent of this Agreement.",
+        "changed_text": "Confidential Information does include information, technical data or know-how which: i. is generally available to the public prior to its disclosure; or ii. is generally known to Receiving Party prior to the disclosure thereof as evidenced by written and dated material in its possessions; or iii. through no fault of Receiving Party , becomes available to the public after the disclosure thereof; or iv. is disclosed to Receiving Party by a third party having a bona fide right to do so; or v. is approved for release by the written authorization of Submitting Party ; or vi. is disclosed pursuant to the requirement of a government agency or by operation of law after Submitting Party has been given at least thirty (30) days notice and an opportunity to object to such disclosures; or vii. is developed by Receiving Party completely independent of this Agreement.",
+        "explanation": "Changing 'does not include' to 'does include' directly contradicts the essence of the exceptions listed. Now, information publicly available *before* disclosure is, paradoxically, considered 'Confidential Information.' This renders the entire section meaningless and creates legal ambiguity.",
+        "location": "Definition",
+        "contradicted_location": "Definition",
+        "contradicted_text": "Confidential Information does include information, technical data or know-how which: i. is generally available to the public prior to its disclosure; or ii. is generally known to Receiving Party prior to the disclosure thereof as evidenced by written and dated material in its possessions; or iii. through no fault of Receiving Party , becomes available to the public after the disclosure thereof; or iv. is disclosed to Receiving Party by a third party having a bona fide right to do so; or v. is approved for release by the written authorization of Submitting Party ; or vi. is disclosed pursuant to the requirement of a government agency or by operation of law after Submitting Party has been given at least thirty (30) days notice and an opportunity to object to such disclosures; or vii. is developed by Receiving Party completely independent of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'does not include' to 'does include' in the definition of Confidential Information creates a direct contradiction. The original text defined exceptions to Confidential Information (i.e., what is *not* considered confidential). The modified text states that the exceptions listed *are* considered Confidential Information, which clashes directly with the contradicted text, also defining what IS included as Confidential Information. Both sections, now being identical, include items that are by their very nature, not confidential (e.g., information already public). This creates a clear and undeniable contradiction, making the term 'Confidential Information' ambiguous and its enforceability questionable."
+      }
+    ]
+  }
+]

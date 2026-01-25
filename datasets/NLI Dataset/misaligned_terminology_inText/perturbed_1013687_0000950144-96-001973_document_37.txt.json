@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "1013687_0000950144-96-001973_document_37.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "A. Confidential Information which at the time of disclosure is in the public domain;",
+        "changed_text": "A. Private Information which at the time of disclosure is in the public domain;",
+        "explanation": "Changing 'Confidential Information' to 'Private Information' in section A, of the exceptions, while Paragraph 1 and other sections refer to 'Confidential Information,' creates confusion. The contract now uses different terms for what appears to be the same thing without explicitly stating they are equivalent.",
+        "location": "Paragraph 1. A",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "Phoenix and Company agree that they shall hold in confidence and shall not disclose any Proprietary Data (as defined in Paragraph 2 below) without the prior written authorization from a corporate officer of the party to whom the information belongs nor use such Confidential Information for any purpose other than that contemplated by this Agreement. This obligation, however, shall not extend to any of the following: A. Private Information which at the time of disclosure is in the public domain; B. Confidential Information which after generation or disclosure is published or otherwise becomes part of the public domain through no fault of the disclosing party (but only after and to the extent that it is published or otherwise becomes part of the public domain); C. Confidential Information which either party can show was in its possession at the time of generation or disclosure and was not acquired, directly or indirectly, from the other party or from a third party under obligation of confidence; D. Confidential Information which was received after the time of generation or disclosure hereunder, from a third party who did not require that party to hold it in confidence and who did not acquire it, directly or indirectly, form the other party under an obligation of confidence; and",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Confidential Information' with 'Private Information' within the exceptions to the non-disclosure obligation. The contradicted text refers to both 'Proprietary Data' and 'Confidential Information' as terms covered by the non-disclosure agreement. The change introduces a contradiction because the agreement now uses 'Private Information' in the exception, while the core obligation and other exceptions still refer to 'Confidential Information.' This misaligned terminology, where two terms seem to be used for similar things without explicitly defining them as equivalent, leads to a contradiction, as per the definition of 'Misaligned Terminology - In Text Contradiction.' It becomes unclear whether the obligation to protect 'Confidential Information' also extends to 'Private Information' under the new exception, creating uncertainty and potential unenforceability. A reasonable reader would immediately recognize that this change conflicts with how 'Confidential Information' is treated elsewhere in the document."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "3. Each party shall exercise such care in the protection of the confidential information of the other as they exercise in the protection of confidential information of their own.",
+        "changed_text": "3. Each party shall exercise such care in the protection of the company data of the other as they exercise in the protection of confidential information of their own.",
+        "explanation": "Replacing 'confidential information' with 'company data' in Paragraph 3 introduces ambiguity. The contract refers to 'Confidential Information' elsewhere (Paragraphs 1 and 2) and now 'company data', without defining if they mean the same thing, or if 'company data' has a different scope, causing in-text contradiction.",
+        "location": "Paragraph 3",
+        "contradicted_location": "Paragraph 3",
+        "contradicted_text": "Each party shall exercise such care in the protection of the company data of the other as they exercise in the protection of confidential information of their own.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'confidential information' with 'company data' in Paragraph 3. The contradicted text uses 'company data' and 'confidential information'. Because of the definition of 'Misaligned Terminology - In Text Contradiction' in the Perturbation Definitions, this leads to an in-text contradiction, where the contract uses multiple terms interchangeably without defining them, leading to conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "5. At the termination of this examination, both parties agree to return to each other all of the documents and other information provided in connection with this examination, and all copies thereof, as soon as requested by the other party.",
+        "changed_text": "5. At the termination of this examination, both parties agree to return to each other all of the records and other data provided in connection with this examination, and all copies thereof, as soon as requested by the other party.",
+        "explanation": "Replacing 'documents and other information' with 'records and other data', while the rest of the document refers to Confidential Information, creates confusion about what exactly needs to be returned. Are 'records and other data' encompassing all Confidential Information or something more/less?",
+        "location": "Paragraph 5",
+        "contradicted_location": "Paragraph 5",
+        "contradicted_text": "At the termination of this examination, both parties agree to return to each other all of the records and other data provided in connection with this examination, and all copies thereof, as soon as requested by the other party.",
+        "contradiction_exists": "YES",
+        "justification": "The perturbation explanation states that replacing 'documents and other information' with 'records and other data' creates confusion because the rest of the document refers to 'Confidential Information.' This creates a potential in-text contradiction under the definition of Misaligned Terminology, as it introduces ambiguity about what exactly needs to be returned. The changed text contradicts the implicit understanding established by the consistent use of 'Confidential Information' elsewhere, suggesting a different scope of materials to be returned."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Phoenix and Company agree to maintain as Confidential Information, the existence of these discussions regarding a possible business relationship, until an agreement is completed.",
+        "changed_text": "Phoenix and Company agree to maintain as Secret Data, the existence of these discussions regarding a possible business relationship, until an agreement is completed.",
+        "explanation": "Changing 'Confidential Information' to 'Secret Data' introduces a contradiction because the contract defines 'Confidential Information' in Paragraph 2, but 'Secret Data' is undefined. Therefore creates confusion.",
+        "location": "Paragraph 7",
+        "contradicted_location": "Paragraph 7",
+        "contradicted_text": "Phoenix and Company agree to maintain as Secret Data, the existence of these discussions regarding a possible business relationship, until an agreement is completed.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Confidential Information' to 'Secret Data' introduces a contradiction because the contract defines 'Confidential Information' in Paragraph 2, but 'Secret Data' is undefined. The contradicted text also uses 'Secret Data.' This creates a contradiction because the contract uses a term that has no definition, creating confusion and uncertainty regarding the obligations related to information handling. The change breaks compatibility with the original intent of protecting 'Confidential Information' as originally defined, therefore it is a strong in-text contradiction."
+      }
+    ]
+  }
+]

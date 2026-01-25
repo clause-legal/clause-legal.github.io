@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "NDA-for-Gar-Kenyon-Suppliers.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement sets out and constitutes the entire agreement between the parties with respect to the disclosure, protection and use of Confidential Information and supersedes all prior agreements, whether oral or written, relating to such matters and all other prior communications between the pa rties relating to the subject matter of this Agreement.",
+        "changed_text": "This Agreement sets out and constitutes the entire agreement between the parties with respect to the disclosure, protection and use of Confidential Information and supersedes all prior agreements, whether oral or written, relating to such matters and all other prior communications between the pa rties relating to the subject matter of this Agreement. However, any oral agreements made after the signing of this agreement regarding pricing shall be binding.",
+        "explanation": "This change creates a contradiction to the 'entire agreement' clause. While the original clause intends to consolidate all agreements into the written document, the added text explicitly states that subsequent oral agreements regarding pricing are also binding. This directly contradicts the purpose of the original clause, leading to uncertainty about which terms are enforceable and opening the door to disputes based on undocumented oral agreements.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "This Agreement sets out and constitutes the entire agreement between the parties with respect to the disclosure, protection and use of Confidential Information and supersedes all prior agreements, whether oral or written, relating to such matters and all other prior communications between the pa rties relating to the subject matter of this Agreement. However, any oral agreements made after the signing of this agreement regarding pricing shall be binding.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds a clause that 'any oral agreements made after the signing of this agreement regarding pricing shall be binding.' This directly contradicts the original 'entire agreement' clause, which states that the written agreement supersedes all prior agreements, whether oral or written. By explicitly allowing subsequent oral agreements on pricing to be binding, the change creates a clear conflict and makes the 'entire agreement' clause unenforceable with respect to pricing, leading to uncertainty about which terms are valid, fitting the definition of 'Inconsistencies - In Text Contradiction'."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The parties hereby agree to submit all disputes hereunder to arbitration in Connecticut, USA in accordance with the rules of the International Chamber of Commerce . All arbitration proceedings shall be conducted exclusively in the English language before a single arbitrator.",
+        "changed_text": "The parties hereby agree to submit all disputes hereunder to arbitration in Connecticut, USA in accordance with the rules of the International Chamber of Commerce . All arbitration proceedings shall be conducted exclusively in the English language before a single arbitrator. However, GK reserves the right to litigate any dispute in a court of its choosing.",
+        "explanation": "This perturbation introduces an in-text contradiction regarding dispute resolution. The original clause mandates arbitration for all disputes. The added sentence gives GK the option to litigate disputes in court, directly contradicting the mandatory arbitration clause. This creates uncertainty and potential legal challenges regarding the appropriate forum for resolving disputes.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "The parties hereby agree to submit all disputes hereunder to arbitration in Connecticut, USA in accordance with the rules of the International Chamber of Commerce . All arbitration proceedings shall be conducted exclusively in the English language before a single arbitrator. Notwithstanding the foregoing, if SUPPLIER is alleged to have breached this Agreement, then GK shall be entitled to seek injunctive relief from any court of competent jurisdiction. However, GK reserves the right to litigate any dispute in a court of its choosing.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds \"However, GK reserves the right to litigate any dispute in a court of its choosing.\" This directly contradicts the original agreement to submit all disputes to arbitration, as stated in the original text and repeated in the contradicted text. By reserving the right to litigate, GK is no longer bound by the arbitration clause, creating a strong in-text contradiction, aligning with the definition of 'Inconsistencies - In Text Contradiction'."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "SUPPLIER shall advise its employees and agen ts of its obligations pursuant to this Agreement, but SUPPLIER shall remain responsible to ensure their compliance.",
+        "changed_text": "SUPPLIER shall advise its employees and agen ts of its obligations pursuant to this Agreement, but SUPPLIER shall remain responsible to ensure their compliance. However, GK will provide SUPPLIER's employees and agents with alternate guidelines that supersede this agreement's obligations.",
+        "explanation": "This edit directly contradicts SUPPLIER's responsibility for ensuring compliance with the NDA. By stating that GK will provide alternative guidelines that 'supersede' the agreement's obligations, it creates confusion and uncertainty about which set of rules employees and agents should follow. The contradiction arises because SUPPLIER is initially held responsible, but then GK is given the power to negate those responsibilities through separate guidelines, which creates potential dispute.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "Any disclosure of Confidential Inform ation shall be limited SUPPLIER’s employees and who have a need to use or study such Confidential Information for the Purpose. SUPPLIER shall advise its employees and agen ts of its obligations pursuant to this Agreement, but SUPPLIER shall remain responsible to ensure their compliance. However, GK will provide SUPPLIER's employees and agents with alternate guidelines that supersede this agreement's obligations.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a direct contradiction. The original text states that SUPPLIER is responsible for ensuring its employees and agents comply with the agreement. The changed text adds that GK will provide alternate guidelines that supersede the agreement's obligations. This means the employees and agents might not be complying with the original agreement, directly contradicting SUPPLIER's responsibility as defined. The contradicted text is the changed text itself. The change creates a situation where the SUPPLIER is responsible for compliance with the agreement, but the GK is able to create guidelines that supersede the agreement, meaning that it is unclear which agreement the SUPPLIER is responsible for."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "At any time that GKT may request, SUPPLIER shall return the Confidential Information to GK and shall certify in writing that all copies thereof in its possession have been destroyed.",
+        "changed_text": "At any time that GKT may request, SUPPLIER shall return the Confidential Information to GK and shall certify in writing that all copies thereof in its possession have been destroyed. However, SUPPLIER may retain one copy of the Confidential Information for archival purposes indefinitely.",
+        "explanation": "This change contradicts the requirement to return all Confidential Information and certify its destruction. Allowing SUPPLIER to retain a copy 'indefinitely' directly conflicts with the obligation to return and destroy all copies. This in-text contradiction raises questions about the completeness of the return and the continued confidentiality of the information.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "All Confidential Information is and shall remain the property of GK. At any time that GKT may request, SUPPLIER shall return the Confidential Information to GK and shall certify in writing that all copies thereof in its possession have been destroyed. However, SUPPLIER may retain one copy of the Confidential Information for archival purposes indefinitely.",
+        "contradiction_exists": "YES",
+        "justification": "The Changed Text adds 'However, SUPPLIER may retain one copy of the Confidential Information for archival purposes indefinitely.' This directly contradicts the original requirement, which is also stated in the Contradicted Text, that 'SUPPLIER shall return the Confidential Information to GK and shall certify in writing that all copies thereof in its possession have been destroyed.' Retaining a copy is a clear and direct violation of the requirement to destroy all copies, creating an in-text contradiction as defined by the 'Inconsistencies - In Text Contradiction' perturbation type. The explanation also clearly states that this is an in-text contradiction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "934545_0000891618-99-004640_document_2.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Corporate Non-Disclosure Agreement (\"Agreement\") is entered into and made effective as of the date set forth above, by and between Intel Corporation and its majority owned subsidiaries (\"Intel\"), and the Participant identified below (\"Participant\"). Unless the Participant indicates that this Agreement will apply only to the specific division or location, this Agreement will apply to the Participant's entire Company.",
+        "changed_text": "This Corporate Non-Disclosure Agreement (\"Agreement\") is entered into and made effective as of the date set forth above, by and between Intel Corporation and its majority owned subsidiaries (\"Intel\"), and the Partner identified below (\"Participant\"). Unless the Partner indicates that this Agreement will apply only to the specific division or location, this Agreement will apply to the Participant's entire Company.",
+        "explanation": "Changing 'Participant' to 'Partner' in the initial definition creates ambiguity. Throughout the document, 'Participant' is used, but this initial change makes it unclear if 'Partner' and 'Participant' are the same, especially since the rest of the agreement continues to use the original term 'Participant'. This creates a contradiction regarding who the agreement applies to.",
+        "location": "PAGE 1",
+        "contradicted_location": "PAGE 1",
+        "contradicted_text": "Unless the Participant indicates that this Agreement will apply only to the specific division or location, this Agreement will apply to the Participant's entire Company.",
+        "contradiction_exists": "YES",
+        "justification": "The change replaces 'Participant' with 'Partner' in the definition section of the agreement. The contradicted text, which is also the original text, uses the term 'Participant'. Since the agreement consistently uses 'Participant' elsewhere, changing the definition introduces a contradiction. It becomes unclear whether 'Partner' and 'Participant' are intended to be the same entity, creating ambiguity about who the agreement applies to, which directly contradicts the original intention and creates misalignment as per the Misaligned Terminology definition."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "To be considered Confidential Information, non-tangible disclosures must be identified as confidential prior to disclosure and produced in writing, marked as provided above and delivered to the receiving party within thirty (30) days of the original date of disclosure.",
+        "changed_text": "To be considered Sensitive Data, non-tangible disclosures must be identified as confidential prior to disclosure and produced in writing, marked as provided above and delivered to the receiving party within thirty (30) days of the original date of disclosure.",
+        "explanation": "Changing 'Confidential Information' to 'Sensitive Data' introduces a new term without defining it. This creates confusion whether 'Confidential Information' and 'Sensitive Data' are same. This might create an internal contradiction in the section about obligations, because it's unclear whether the protections afforded to 'Confidential Information' also extend to 'Sensitive Data.'",
+        "location": "PAGE 1",
+        "contradicted_location": "PAGE 1",
+        "contradicted_text": "All Confidential Information received from the disclosing party will be in tangible form. To be considered Sensitive Data, non-tangible disclosures must be identified as confidential prior to disclosure and produced in writing, marked as provided above and delivered to the receiving party within thirty (30) days of the original date of disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Confidential Information' with 'Sensitive Data'. The contradicted text refers to both 'Confidential Information' and 'Sensitive Data', but the change introduces 'Sensitive Data' without defining it, creating ambiguity. This aligns with the definition of 'Misaligned Terminology - In Text Contradiction' because it uses multiple terms without defining them, leading to confusion. It is uncertain if 'Sensitive Data' has the same protections and handling requirements as 'Confidential Information' as stated in other parts of the contract. The change also causes contradiction to the contradicted text as it refers to both of these terms which are now potentially different."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Unless a shorter period is indicated in the applicable CITR, the disclosing party will not insert any claims of breach of this Agreement or misappropriation of trade secrets against the receiving party arising from the receiving party's disclosure of the disclosing party's Confidential Information made more than five <PAGE> 2 (5) years from the date of the CITR under which such information was disclosed.",
+        "changed_text": "Unless a shorter period is indicated in the applicable CITR, the disclosing party will not assert any claims of breach of this Agreement or misappropriation of intellectual property against the receiving party arising from the receiving party's disclosure of the disclosing party's Confidential Information made more than five <PAGE> 2 (5) years from the date of the CITR under which such information was disclosed.",
+        "explanation": "Changing 'trade secrets' to 'intellectual property' broadens the scope of protection potentially beyond what was originally intended. This contradicts the specific definition of Confidential Information focused on trade secrets and creates uncertainty if the 5-year limitation applies to all types of intellectual property or just trade secrets. This is particularly relevant because later sections address intellectual property rights more broadly.",
+        "location": "PAGE 1",
+        "contradicted_location": "PAGE 2",
+        "contradicted_text": "However, unless at least one of the exceptions set for in Section 4 below has occurred, the receiving party will continue to treat such confidential Information as the confidential information of the disclosing party and only disclose any such Confidential Information to third parties under the terms of a non-disclosure agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'trade secrets' to 'intellectual property' broadens the scope of the limitation on claims, potentially encompassing more than just 'Confidential Information' as defined in other sections. This introduces uncertainty about whether the five-year limitation applies to all intellectual property or only trade secrets within the definition of confidential information, directly contradicting the requirement in the 'Contradicted Text' section that the receiving party continues to treat 'such confidential Information' as confidential, regardless of the five-year period, unless an exception occurs. This means that after 5 years, disclosing party has no claims on intellectual property, while the Receiving party has to continue to treat as confidential Information, leading to uncertainty and a strong contradiction, based on the explanation provided."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The term \"Residuals\" means any information retained in the unaided memories of the receiving party's employees who have had access to the disclosing party's Confidential Information pursuant to the terms of this Agreement. An employee's memory is unaided if the employee has not intentionally memorized the Confidential Information for the purpose of retaining and subsequently using or disclosing it.",
+        "changed_text": "The term \"Knowledge\" means any information retained in the unaided memories of the receiving party's employees who have had access to the disclosing party's Confidential Information pursuant to the terms of this Agreement. An employee's memory is unaided if the employee has not intentionally memorized the Confidential Information for the purpose of retaining and subsequently using or disclosing it.",
+        "explanation": "Renaming \"Residuals\" to \"Knowledge\" changes the scope of what's permitted. \"Residuals\" implies a limited amount of information that can't be intentionally memorized. By making it \"Knowledge\", it could be interpreted as more general information that the receiving party can use, even if it provides a competitive advantage. This is because the original meaning of Residuals allows for information from the Confidential information to be retained, but unintentially, whereas Knowledge is more broad in the sense that it does not specify unintentionality. This contradicts the intent of protecting the disclosing party's competitive advantage.",
+        "location": "PAGE 2",
+        "contradicted_location": "PAGE 2",
+        "contradicted_text": "Notwithstanding anything herein to the contrary, either party may use Knowledge for any purpose, including without limitation use in development manufacture, promotion, sale and maintenance of its products or services: provided that this right to Knowledge does not represent a licence under any patents, copyrights or other intellectual property rights of the disclosing party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined 'Residuals' as unintentionally retained information. The changed text redefines 'Residuals' as 'Knowledge'. The contradicted text states that either party may use 'Knowledge' for any purpose. This creates a contradiction because the original intent of 'Residuals' was to limit the use of retained confidential information to that which was unintentionally memorized. By changing 'Residuals' to 'Knowledge' and then allowing use of 'Knowledge' for any purpose, it allows the receiving party to intentionally use confidential information, which is a direct contradiction of the original intention and creates inconsistency."
+      }
+    ]
+  }
+]

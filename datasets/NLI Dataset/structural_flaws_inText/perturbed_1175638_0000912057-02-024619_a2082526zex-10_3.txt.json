@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "1175638_0000912057-02-024619_a2082526zex-10_3.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "6.0 The parties hereto further agree that RECIPIENT shall not be liable for: i. inadvertent disclosure or use of PROPRIETARY information provided that a. it uses the same prudence as set forth above, in safeguarding such PROPRIETARY information, and b. upon discovery of such inadvertent disclosure or use of such PROPRIETARY information, it endeavours to prevent any further inadvertent disclosure or use, 1 ii. unauthorised disclosure or use of PROPRIETARY information by persons who are or have been in its employ, unless it fails to prudently safeguard such PROPREETARY information.",
+        "changed_text": "6.0 The parties hereto further agree that RECIPIENT *shall* be liable for: i. inadvertent disclosure or use of PROPRIETARY information provided that a. it uses the same prudence as set forth above, in safeguarding such PROPRIETARY information, and b. upon discovery of such inadvertent disclosure or use of such PROPRIETARY information, it endeavours to prevent any further inadvertent disclosure or use, 1 ii. unauthorised disclosure or use of PROPRIETARY information by persons who are or have been in its employ, unless it fails to prudently safeguard such PROPREETARY information.",
+        "explanation": "Changing \"shall not be liable\" to \"shall be liable\" creates a direct contradiction within Section 6.0 itself. The original text provided an exception for inadvertent disclosure if due diligence was exercised. The modified text removes this exception, making the recipient liable even if they acted prudently. This change can cause disputes about liability",
+        "location": "6.0",
+        "contradicted_location": "6.0",
+        "contradicted_text": "6.0 The parties hereto further agree that RECIPIENT shall be liable for: i. inadvertent disclosure or use of PROPRIETARY information provided that a. it uses the same prudence as set forth above, in safeguarding such PROPRIETARY information, and b. upon discovery of such inadvertent disclosure or use of such PROPRIETARY information, it endeavours to prevent any further inadvertent disclosure or use, 1 ii. unauthorised disclosure or use of PROPRIETARY information by persons who are or have been in its employ, unless it fails to prudently safeguard such PROPREETARY information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the recipient 'shall not be liable' for inadvertent disclosure under certain conditions. The changed text alters this to 'shall be liable' under the same conditions. This creates a direct and irreconcilable conflict within Section 6.0 itself, as the modified text now imposes liability where it was previously excluded, exactly as the Perturbation Explanation describes. The Contradicted Text is located at the same place as the Changed text, indicating that the contradiction is present at the same location. Because the changed text says 'shall be liable' whereas the original text says 'shall not be liable' there is an immediate conflict, and the change satisfies a Structural Flaws - In Text Contradiction"
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "11.0 All written PROPRIETARY information delivered by OWNER to RECIPIENT pursuant to this Agreement and any authorised copies thereof shall remain the property of OWNER, and shall be promptly returned to OWNER upon written request.",
+        "changed_text": "11.0 All written PROPRIETARY information delivered by OWNER to RECIPIENT pursuant to this Agreement and any authorised copies thereof shall remain the property of RECIPIENT, and shall be promptly returned to OWNER upon written request.",
+        "explanation": "Changing \"property of OWNER\" to \"property of RECIPIENT\" directly contradicts the clause's original intent and creates uncertainty about ownership rights. While the RECIPIENT has to return it, the recipient is now the owner",
+        "location": "11.0",
+        "contradicted_location": "11.0",
+        "contradicted_text": "11.0 All written PROPRIETARY information delivered by OWNER to RECIPIENT pursuant to this Agreement and any authorised copies thereof shall remain the property of RECIPIENT, and shall be promptly returned to OWNER upon written request.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the ownership of the PROPRIETARY information from the OWNER to the RECIPIENT, directly contradicting the original agreement that the OWNER retains ownership. The change explanation clearly explains how this contradiction occurs. While the RECIPIENT is required to return the information, the change states they are the owner of it."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "13.0 All disputes which cannot be resolved between the parties are to be decided exclusively by the Arbitration Court of the International Chamber of Commerce in London under the arbitration rules of this Chamber.",
+        "changed_text": "13.0 All disputes which cannot be resolved between the parties are to be decided exclusively by the Arbitration Court of the International Chamber of Commerce in New York under the arbitration rules of this Chamber.",
+        "explanation": "The original clause specifies arbitration in London. Changing it to New York creates a contradiction regarding the location of arbitration, leading to potential disputes over jurisdiction.",
+        "location": "13.0",
+        "contradicted_location": "14.0",
+        "contradicted_text": "14.0 Competency of court is United Kingdom.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified arbitration in London, which aligns with the contradicted text specifying court competency in the United Kingdom. The changed text alters the location of arbitration to New York. This creates a direct contradiction with the contradicted text, because New York is not in the United Kingdom. Therefore, a reasonable reader would immediately recognize the sections as incompatible, since they refer to different jurisdictions for dispute resolution."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "5.0 The parties hereto agree that information shall not be deemed PROPRIETARY and RECIPIENT shall have no obligation with respect to, any such information which; i is already known to RECIPIENT; ii is or becomes publicly known through no wrongful act of RECIPIENT or any employee or RECIPIENT; (iii is rightfully received from a third party without restriction and without breach of this Agreement; iv is independently developed by RECIPIENT without breach of this Agreement; v is furnished to a third party by OWNER without a similar restriction on third party's rights; vi is approved for release by written authorisation of OWNER; viii. is disclosed pursuant to the requirement or request of a Governmental agency or where disclosure is required by operation of law.",
+        "changed_text": "5.0 The parties hereto agree that information shall *always* be deemed PROPRIETARY and RECIPIENT shall have no obligation with respect to, any such information which; i is already known to RECIPIENT; ii is or becomes publicly known through no wrongful act of RECIPIENT or any employee or RECIPIENT; (iii is rightfully received from a third party without restriction and without breach of this Agreement; iv is independently developed by RECIPIENT without breach of this Agreement; v is furnished to a third party by OWNER without a similar restriction on third party's rights; vi is approved for release by written authorisation of OWNER; viii. is disclosed pursuant to the requirement or request of a Governmental agency or where disclosure is required by operation of law.",
+        "explanation": "Changing \"shall not be deemed PROPRIETARY\" to \"shall always be deemed PROPRIETARY\" creates a contradiction within Section 5.0 itself. The original text provided exceptions under which information wasn't considered proprietary, however the new text dictates every case is deemed proprietary. This change causes dispute over what constitutes as Proprietary.",
+        "location": "5.0",
+        "contradicted_location": "5.0",
+        "contradicted_text": "5.0 The parties hereto agree that information shall always be deemed PROPRIETARY and RECIPIENT shall have no obligation with respect to, any such information which; i is already known to RECIPIENT; ii is or becomes publicly known through no wrongful act of RECIPIENT or any employee or RECIPIENT; (iii is rightfully received from a third party without restriction and without breach of this Agreement; iv is independently developed by RECIPIENT without breach of this Agreement; v is furnished to a third party by OWNER without a similar restriction on third party's rights; vi is approved for release by written authorisation of OWNER; viii. is disclosed pursuant to the requirement or request of a Governmental agency or where disclosure is required by operation of law.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies Section 5.0, stating that information \"shall *always* be deemed PROPRIETARY.\" This directly contradicts the subsequent clauses (i-viii) within the same section, which outline specific conditions under which information is *not* considered proprietary. The contradicted text is the same section, further enforcing the contradiction. The original text allowed for exceptions, while the modified text eliminates them, leading to an in-text contradiction."
+      }
+    ]
+  }
+]

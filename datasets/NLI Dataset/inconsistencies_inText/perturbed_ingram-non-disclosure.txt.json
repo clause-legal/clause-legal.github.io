@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "ingram-non-disclosure.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The Recipient agrees not to copy, duplicate, disclose or deliver all or any portion of the Confidential Information to a third party or permit any other third party to inspect, copy or duplicate the same except those parties deemed necessary by the undersi gned to evaluate a possible business relationship (including agents, advisors, affiliates, accountants, attorneys, consultants, and lenders).",
+        "changed_text": "The Recipient agrees not to copy, duplicate, disclose or deliver all or any portion of the Confidential Information to a third party or permit any other third party to inspect, copy or duplicate the same, except to employees who have signed a confidentiality agreement with the Recipient. The Recipient is not responsible for breaches by such employees if the Recipient has implemented reasonable security measures.",
+        "explanation": "This change introduces an in-text contradiction. The original text allows disclosure only to parties 'deemed necessary by the undersigned' (presumably LSUK) for evaluating the business relationship. The revised clause allows disclosure to the Recipient's employees who have signed a confidentiality agreement, regardless of LSUK's approval. Additionally, it limits the Recipient's responsibility for breaches by these employees if 'reasonable security measures' are in place, conflicting with the original agreement's broad responsibility.",
+        "location": "Paragraph 3",
+        "contradicted_location": "Paragraph 3",
+        "contradicted_text": "The Recipient agrees not to copy, duplicate, disclose or deliver all or any portion of the Confidential Information to a third party or permit any other third party to inspect, copy or duplicate the same except those parties deemed necessary by the undersi gned to evaluate a possible business relationship (including agents, advisors, affiliates, accountants, attorneys, consultants, and lenders).",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a contradiction with the contradicted text. The original text restricts disclosure to only parties 'deemed necessary by the undersigned,' implying LSUK's approval. The changed text expands this to include the Recipient's employees with confidentiality agreements, regardless of LSUK's approval. Furthermore, it limits the Recipient's liability for employee breaches under 'reasonable security measures,' conflicting with the broader responsibility in the original agreement, which also serves as the contradicted text. This falls under the 'Inconsistencies - In Text Contradiction' perturbation type, as different sections (the original, now modified, clause and itself) provide conflicting obligations regarding disclosure and liability."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "It is understood that the undersigned may disclose Confidential Information only to parties who (i) require such m aterial for the purpose related to this agreement and (ii) are informed by Recipient of the confidential nature of the Confidential Information and agree to be bound by the terms hereof. The Recipient further agrees to be responsible for any breach of this Agreement by parties in the preceding sentence, and that these parties will not use any of the Confidential Information for any reason or purpose other than to evaluate a possible business relationship and not in any way detrimental to LSUK .",
+        "changed_text": "It is understood that the undersigned may disclose Confidential Information only to parties who require such material for the purpose related to this agreement. The Recipient is not responsible for breaches by these parties unless the Recipient had prior knowledge of their intent to misuse the Confidential Information.",
+        "explanation": "This change creates an in-text contradiction by significantly altering the Recipient's responsibility for breaches by third parties. The original text holds the Recipient fully responsible if those parties misuse the Confidential Information. The modified text removes this responsibility unless the Recipient had 'prior knowledge of their intent to misuse' the information, drastically limiting the Recipient's liability and creating uncertainty about the enforcement of confidentiality.",
+        "location": "Paragraph 3",
+        "contradicted_location": "Paragraph 3",
+        "contradicted_text": "The Recipient further agrees to be responsible for any breach of this Agreement by parties in the preceding sentence, and that these parties will not use any of the Confidential Information for any reason or purpose other than to evaluate a possible business relationship and not in any way detrimental to LSUK .",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. The original text states 'The Recipient further agrees to be responsible for any breach of this Agreement by parties in the preceding sentence'. The changed text alters this to 'The Recipient is not responsible for breaches by these parties unless the Recipient had prior knowledge of their intent to misuse the Confidential Information.' This introduces a significant limitation to the Recipient's responsibility, creating a strong contradiction as defined by the Inconsistencies - In Text Contradiction perturbation type. The changed text conflicts with the original obligations stated in the contradicted section."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement shall remain in perpetually and upon request, Recipient will promptly return all data and materials furnished by LSUK , or provide written certification of its destruction and destroy any internal analyses and/or work papers related to these discussions .",
+        "changed_text": "This Agreement shall remain in effect for a period of three (3) years from the Effective Date. Upon expiration, Recipient's obligation to protect trade secrets shall continue indefinitely, but other Confidential Information need not be returned or destroyed.",
+        "explanation": "This introduces a direct contradiction by changing the term of the agreement. Originally perpetual, it is now limited to three years. Furthermore, it creates ambiguity regarding data destruction. The original agreement mandates return or destruction of *all* Confidential Information. The changed agreement only mandates continued protection of 'trade secrets' after expiration, implying that other Confidential Information (as narrowly defined in a prior perturbation) need not be returned or destroyed, contradicting the original obligation.",
+        "location": "Paragraph 4",
+        "contradicted_location": "Paragraph 4",
+        "contradicted_text": "This Agreement shall remain in perpetually and upon request, Recipient will promptly return all data and materials furnished by LSUK , or provide written certification of its destruction and destroy any internal analyses and/or work papers related to these discussions .",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the agreement is perpetual. The changed text limits the agreement to three years, creating a direct conflict regarding the agreement's duration. The contradicted text repeats the original agreement, therefore it is still contradictory."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "In the event a legal dispute arises concerning this Agreement, the prevailing Party shall recover all court costs, expenses, and reasonable attorney's fees.",
+        "changed_text": "In the event a legal dispute arises concerning this Agreement, each party shall bear its own court costs, expenses, and attorney's fees, regardless of the outcome, except in cases of willful misconduct or gross negligence.",
+        "explanation": "This change introduces a clear in-text contradiction regarding cost allocation in legal disputes. The original clause stipulates that the prevailing party recovers all legal costs. The modified clause mandates that each party bears its own costs, regardless of who wins, except in specific circumstances (willful misconduct or gross negligence). This creates uncertainty about which rule applies, potentially discouraging LSUK from pursuing legitimate claims due to the risk of incurring significant unrecoverable costs.",
+        "location": "Paragraph 2",
+        "contradicted_location": "Paragraph 2",
+        "contradicted_text": "In the event a legal dispute arises concerning this Agreement, the prevailing Party shall recover all court costs, expenses, and reasonable attorney's fees.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text regarding who bears the legal costs in the event of a dispute. The original and contradicted text states that the prevailing party recovers all legal costs. However, the changed text states that each party bears its own costs, regardless of the outcome, except in cases of willful misconduct or gross negligence. This creates a clear in-text contradiction as to which rule applies."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "PrecheckHealthServicesInc_20200320_8-K_EX-99.2_12070169_EX-99.2_Distributor Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "DESCRIPTION OF DISTRIBUTOR The Distributor is a company operating or planning to operate in the United States of America, Latin America, Europe and Russia. The Distributor represents that the Distributor or a subsidiary of the Distributor is or will be fully licensed and registered in the Territory and will provide professional distribution services for the products of the Principal.",
+        "changed_text": "DESCRIPTION OF DISTRIBUTOR The Distributor is a company operating or planning to operate solely in the United States of America. The Distributor represents that the Distributor or a subsidiary of the Distributor is or will be fully licensed and registered in the Territory and will provide professional distribution services for the products of the Principal.",
+        "explanation": "By limiting the Distributor's operational area to only the United States of America, the agreement creates a contradiction with condition 2 where the 'Territory' is defined as Romania. The term 'Territory' is used throughout the document, thus, limiting the operational area of the Distributor to the United States creates a contradiction on whether the Distributor can sell in Romania.",
+        "location": "DESCRIPTION OF DISTRIBUTOR",
+        "contradicted_location": "2",
+        "contradicted_text": "2. The Principal grants Distributor non- exclusive rights to sell these products within the countries of Romania (the \"Territory\"), which may be amended by mutual written agreement. Source: PRECHECK HEALTH SERVICES, INC., 8-K, 3/20/2020",
+        "contradiction_exists": "YES",
+        "justification": "The changed text limits the Distributor's operational area to the United States of America. However, the contradicted text states that the Distributor has rights to sell products in Romania, which is defined as the 'Territory'. Therefore, the change directly contradicts the contradicted text by restricting the Distributor's operational scope to the United States while the contradicted text grants rights in Romania."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Distributor accepts the appointment and shall use its commercially reasonable efforts to promote, market and sell the Products within the Territory, devote such time and attention as may be reasonably necessary and abide by the Principal's policies.",
+        "changed_text": "The Distributor acknowledges the appointment and shall use its best endeavors to promote, market and sell the Products within the Territory, devote substantial time and attention and adhere to the Principal's policies.",
+        "explanation": "The replacement of 'commercially reasonable efforts' with 'best endeavors' creates a higher standard of performance required from the Distributor, which conflicts with the general understanding of 'commercially reasonable efforts' indicating a basic or moderate level of required action. The shift to 'devote substantial time and attention' also increases the requirements of the distributor beyond what is considered reasonable in a commercial context, creating an in-text contradiction related to what consitutes reasonable comercial effort.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "3. The Distributor accepts the appointment and shall use its commercially reasonable efforts to promote, market and sell the Products within the Territory, devote such time and attention as may be reasonably necessary and abide by the Principal's policies.",
+        "contradiction_exists": "YES",
+        "justification": "The original text and the contradicted text are identical, both stating \"commercially reasonable efforts.\" The changed text modifies \"commercially reasonable efforts\" to \"best endeavors\" and \"devote such time and attention as may be reasonably necessary\" to \"devote substantial time and attention.\" As per the explanation, this imposes a higher standard of performance on the distributor than \"commercially reasonable efforts\" would require, creating a conflict with the original text's understanding of reasonable commercial efforts, and thus a contradiction is created."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "In the event of termination, the Distributor shall be entitled to receive all orders accepted by the Principal prior to the date of termination and may sell the ordered Products in the Territory. Payment to be made upon shipment.",
+        "changed_text": "In the event of termination, the Distributor will attempt to receive all orders accepted by the Principal prior to the date of termination and can try to sell the ordered Products in the Territory. Payment may be made upon shipment based on Principal's discretion.",
+        "explanation": "The modification replaces 'shall be entitled' with 'will attempt to receive', and 'may sell' with 'can try to sell', changing a definite right of the Distributor into a mere possibility. Also the pertubation of replacing 'Payment to be made upon shipment.' to 'Payment may be made upon shipment based on Principal's discretion.' changes the mandatory payment into optional, which leads to an contradiction, on whether the distributor will be paid and on how the payment will be made after termination of the contract.",
+        "location": "11",
+        "contradicted_location": "11",
+        "contradicted_text": "11. In the event of termination, the Distributor shall be entitled to receive all orders accepted by the Principal prior to the date of termination and may sell the ordered Products in the Territory. Payment to be made upon shipment. Source: PRECHECK HEALTH SERVICES, INC., 8-K, 3/20/2020",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the original text from a definite entitlement to a mere possibility regarding receiving orders and selling products. Furthermore, the payment terms are changed from a mandatory obligation ('Payment to be made upon shipment') to discretionary one ('Payment may be made upon shipment based on Principal's discretion'). This directly contradicts the contradicted text, as it fundamentally alters the distributor's rights and introduces uncertainty about whether the distributor will be paid after termination and on what conditions. Therefore, a reasonable reader would immediately recognize the sections as incompatible."
+      }
+    ]
+  }
+]

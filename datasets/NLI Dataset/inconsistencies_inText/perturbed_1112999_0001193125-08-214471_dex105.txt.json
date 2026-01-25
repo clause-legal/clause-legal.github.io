@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "1112999_0001193125-08-214471_dex105.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "For this purpose, “Control ” means that more than fifty percent (50%) of the controlled entity’s shares or ownership interest representing the right to make decisions for such entity that are owned or controlled, directly or indirectly, by the controlling entity.",
+        "changed_text": "For this purpose, “Control” means any influence, direct or indirect, that one entity has over the decision-making process of another entity.",
+        "explanation": "The change in the definition of 'Control' creates an in-text contradiction. Originally, control required >50% ownership, providing a clear standard. The altered definition introduces ambiguity, potentially affecting the scope of 'Related Company' and consequently, what information is considered confidential. This directly impacts the enforceability of non-disclosure obligations, particularly regarding information shared with entities now loosely considered under 'Control', contradicting 1.01 regarding Related Company, since Related Company depends on this definition.",
+        "location": "1.01",
+        "contradicted_location": "1.01",
+        "contradicted_text": "“Related Company” shall mean any corporation, company, or other entity which at the time of disclosure of Confidential Information: a) is controlled by a party hereto; b) Controls a party hereto; c) or is under common Control with a party hereto. For this purpose, “Control ” means that more than fifty percent (50%) of the controlled entity’s shares or ownership interest representing the right to make decisions for such entity that are owned or controlled, directly or indirectly, by the controlling entity.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the definition of \"Control\" from requiring more than 50% ownership to meaning \"any influence\". This creates a direct contradiction with the contradicted text, which defines \"Related Company\" based on the original, more specific definition of \"Control\" (more than 50% ownership). The new, broader definition of control introduces ambiguity into what constitutes a \"Related Company\", making it unclear which entities fall under that definition, thus contradicting the original intent and creating uncertainty."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement shall be governed by, and interpreted and enforced in accordance with, the laws in force in the country of Korea excluding any conflict of laws rule or principle which might refer such construction to the laws of another jurisdiction).",
+        "changed_text": "This Agreement shall be governed by the laws of the State of New York, USA, including its conflict of laws principles.",
+        "explanation": "This change directly contradicts the clause specifying Korean law. This creates an in-text contradiction because the entire agreement is drafted and intended to be interpreted under Korean law. Enforcing the contract under New York law may render certain clauses invalid or unenforceable, leading to significant uncertainty and potential legal battles regarding the proper jurisdiction, contradicting the section below it.",
+        "location": "1.02",
+        "contradicted_location": "1.02",
+        "contradicted_text": "Each party hereto irrevocably submits to the non-exclusive jurisdiction of the courts of Korea with respect to any matter arising hereunder or related hereto.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies Korean law, and the contradicted text specifies Korean courts. The changed text specifies New York law, which directly contradicts both the original text and the contradicted text. This creates a strong in-text contradiction because the governing law and jurisdiction are now inconsistent, making it unclear which legal system should be used to interpret and enforce the agreement."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Either party may terminate this Agreement without cause, by giving the other party five (30) Business Days advance written notice.",
+        "changed_text": "Either party may terminate this Agreement without cause, by giving the other party one (1) Business Days advance written notice.",
+        "explanation": "The change from 'five (30)' to 'one (1)' business days creates an in-text contradiction. The original clause requires a 30 business day notice while the new clause says 1 business day's notice. This significantly alters the conditions for termination, potentially impacting obligations related to confidentiality and return of information, creating uncertainty in the obligations of each party for termination and the time frame for termination, contradicting the overall intent of having a formal notice period.",
+        "location": "3.02",
+        "contradicted_location": "3.02",
+        "contradicted_text": "Either party may terminate this Agreement without cause, by giving the other party one (1) Business Days advance written notice.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the notice period for termination from 'five (30) Business Days' to 'one (1) Business Days'. The contradicted text states 'Either party may terminate this Agreement without cause, by giving the other party one (1) Business Days advance written notice.' This creates a direct and irreconcilable conflict regarding the required notice period for termination. The original clause required 30 business days, but the changed text and contradicted text both state 1 business day, establishing a strong in-text contradiction as defined by the 'Inconsistencies - In Text Contradiction' perturbation."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Each party agrees that the other party will be entitled, in addition to all other remedies that the other party may have and without showing or proving any actual damage sustained by it, to seek an injunction or other order to restrain any breach, threatened breach or the continuation of any breach of this section.",
+        "changed_text": "Each party agrees that the sole remedy for any breach of this agreement shall be monetary damages, capped at $1000 USD.",
+        "explanation": "The change directly contradicts the availability of injunctive relief. The original clause allows for injunctions to prevent breaches, whereas the modified text limits remedies to a fixed amount of monetary damages. This creates an in-text contradiction because it removes the possibility of seeking immediate preventative action to protect confidential information, contradicting the overall purpose of the agreement to protect confidentiality, which is irreparable if breached, therefore damages can't measure that.",
+        "location": "3.04",
+        "contradicted_location": "3.04",
+        "contradicted_text": "Each party agrees that any breach of this Agreement may give rise to irreparable damage to the other party, the injury to the other party from any such breach would be difficult to calculate, and that money damages would therefore be an inadequate remedy for that breach. Each party agrees that the sole remedy for any breach of this agreement shall be monetary damages, capped at $1000 USD.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that \"the sole remedy for any breach of this agreement shall be monetary damages, capped at $1000 USD.\" The contradicted text also states that \"Each party agrees that the sole remedy for any breach of this agreement shall be monetary damages, capped at $1000 USD.\" This clause directly contradicts the earlier statement in the contradicted text stating \"Each party agrees that any breach of this Agreement may give rise to irreparable damage to the other party...and that money damages would therefore be an inadequate remedy for that breach.\" which is a direct contradiction. Therefore a strong in-text contradiction exists."
+      }
+    ]
+  }
+]

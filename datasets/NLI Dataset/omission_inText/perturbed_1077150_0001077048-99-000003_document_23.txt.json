@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "1077150_0001077048-99-000003_document_23.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "3. BATTELLE and its representative(s) shall maintain the identified Proprietary Information in confidence for a period of three (3) years from the effective date of this Agreement. During this period, BATTELLE shall not divulge such information to any third party or use such information for any purpose other than review and evaluation without the prior written consent of ADC. BATTELLE shall treat such information with the same degree of care as it accords to its own proprietary information.",
+        "changed_text": "3. BATTELLE and its representative(s) shall maintain all information in confidence. During this period, BATTELLE shall not divulge such information to any third party or use such information for any purpose other than review and evaluation without the prior written consent of ADC. BATTELLE shall treat such information with reasonable care.",
+        "explanation": "Removing the three-year time period introduces uncertainty as to how long the confidentiality obligation lasts. The meaning of 'reasonable care' is subjective compared to the original requirement of treating the information with the same degree of care as its own proprietary information creating an intext contradiction. This affects the interpretation of Article 3 and its enforcement.",
+        "location": "Section 3",
+        "contradicted_location": "Section 6",
+        "contradicted_text": "6. This Agreement shall be governed by and construed in accordance with the laws of the State of Washington and any action brought to enforce any provision or obligation hereunder shall be brought in a court of competent jurisdiction in the State of Washington. The prevailing party in any such proceeding shall be entitled to receive from the other party all reasonable attorneys' fees incurred by such prevailing party and all costs reasonably incurred in connection therewith. The term of this Agreement shall be one (1) year, or as extended by written modification. Article 3 shall survive termination. The effective date of this Agreement shall be determined by the date affixed hereto by the party last signing this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the 'three (3) years from the effective date' for maintaining Proprietary Information in confidence. This directly contradicts Article 6 which states 'Article 3 shall survive termination' and 'The term of this Agreement shall be one (1) year, or as extended by written modification'. Without the three-year limitation in Article 3, the 'survive termination' clause in Article 6 creates an indefinite obligation of confidentiality, conflicting with the defined one-year term of the agreement, or written modification. Also, the change from 'same degree of care' to 'reasonable care' introduces a subjective standard, making enforcement unclear, which creates a contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The term of this Agreement shall be one (1) year, or as extended by written modification. Article 3 shall survive termination.",
+        "changed_text": "The term of this Agreement shall be one (1) year. Article 3 shall survive termination.",
+        "explanation": "Removing the phrase 'or as extended by written modification' makes it unclear whether the agreement can be extended beyond the initial one-year term. This omission introduces a contradiction, as it implies the agreement cannot be extended and yet Article 3 is stated to survive termination, including a period of three years. If the contract cannot be extended past one year, how can Article 3 then survive?",
+        "location": "Section 6",
+        "contradicted_location": "Section 6",
+        "contradicted_text": "This Agreement shall be governed by and construed in accordance with the laws of the State of Washington and any action brought to enforce any provision or obligation hereunder shall be brought in a court of competent jurisdiction in the State of Washington. The prevailing party in any such proceeding shall be entitled to receive from the other party all reasonable attorneys' fees incurred by such prevailing party and all costs reasonably incurred in connection therewith. The term of this Agreement shall be one (1) year. Article 3 shall survive termination. The effective date of this Agreement shall be determined by the date affixed hereto by the party last signing this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the possibility of extending the agreement beyond one year. This contradicts the statement that 'Article 3 shall survive termination', particularly if Article 3 has provisions or obligations that extend beyond one year. If the term cannot be extended, Article 3's survival is questionable and creates a strong inconsistency. The contradiction is caused by the omission of the phrase 'or as extended by written modification' in the Changed Text when compared to the Contradicted Text."
+      }
+    ]
+  }
+]

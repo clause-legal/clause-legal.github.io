@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "example-NDA-one-way-short-form-2012-1.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "1.2 The Recipient shall keep the Confidential Infor mation confidential and shall not use or exploit the Confidential Information in any way exc ept for the purpose of [STATE PURPOSE] (the “Purpose”) and shall not disclose the Confidential Information to any third party (except as expressly permitted by this agreement).",
+        "changed_text": "1.2 The Recipient shall keep the Confidential Infor mation confidential and shall use and exploit the Confidential Information in any way for their own profit and shall disclose the Confidential Information to any third party (except as expressly permitted by this agreement).",
+        "explanation": "By changing 'shall not use or exploit' to 'shall use and exploit' and 'shall not disclose' to 'shall disclose' we create a direct contradiction to the initial obligation of confidentiality. It now says the Recipient can use and disclose it, directly contradicting the purpose of a non-disclosure agreement and rendering the obligations fundamentally unclear.",
+        "location": "1.2",
+        "contradicted_location": "1.2",
+        "contradicted_text": "1.2 The Recipient shall keep the Confidential Infor mation confidential and shall use and exploit the Confidential Information in any way for their own profit and shall disclose the Confidential Information to any third party (except as expressly permitted by this agreement).",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the concept of confidentiality. The original text states the Recipient 'shall not use or exploit' and 'shall not disclose'. The changed text flips this to 'shall use and exploit' and 'shall disclose'. The contradicted text is the same as the changed text, indicating that the change creates a direct and irreconcilable conflict with the intended purpose of a confidentiality clause, which would be to prevent use and disclosure."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "1.4 At the request of the Discloser, the Recipient shall destroy or return to the disclosing party all documents and materials containing Confid ential Information.",
+        "changed_text": "1.4 At the request of a competitor, the Recipient shall destroy or return to the disclosing party all documents and materials containing Confid ential Information.",
+        "explanation": "Changing the requestor from 'Discloser' to 'a competitor' creates a contradiction. The Recipient now has to comply with a request from a competitor instead of the discloser. This would create a contradiction with 1.5 where it says that the confidential information shall remain the property of the Discloser.",
+        "location": "1.4",
+        "contradicted_location": "1.5",
+        "contradicted_text": "1.5 All Confidential Information shall remain the p roperty of the Discloser and no rights in the Confidential Information are granted to the Rec ipient other than those expressly stated in this agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies section 1.4 to allow a 'competitor' to request the destruction or return of confidential information. This directly contradicts section 1.5, which states that all confidential information remains the property of the Discloser. Allowing a competitor to trigger the return or destruction of the Discloser's confidential information creates a direct conflict and makes the ownership clause in section 1.5 unenforceable, as the Discloser's property rights are compromised."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "2. T ERMINATION If either party decides not to become involved in the Purpose with the other party, it shall notify the other party in writing of its inte ntion to terminate this agreement. The obligations of each party shall continue for a peri od of [STATE NUMBER OF YEARS] year(s) from the termination of this agreement.",
+        "changed_text": "2. T ERMINATION If either party decides not to become involved in the Purpose with the other party, it shall notify the other party in writing of its inte ntion to terminate this agreement. The obligations of each party shall cease immediately from the termination of this agreement.",
+        "explanation": "Changing 'continue for a period of [STATE NUMBER OF YEARS] year(s)' to 'cease immediately' creates a direct contradiction regarding the duration of the confidentiality obligations after termination. One part of the agreement states obligations continue for a period and the other one states the obligations cease immediately.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "2. T ERMINATION If either party decides not to become involved in the Purpose with the other party, it shall notify the other party in writing of its inte ntion to terminate this agreement. The obligations of each party shall cease immediately from the termination of this agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies Section 2 to state that obligations cease immediately upon termination, while the original text stated that obligations continue for a specified period after termination. The contradicted text is the same as the changed text, therefore it creates a direct and irreconcilable conflict within the contract regarding the duration of obligations post-termination, thus indicating a structural flaw and leading to in-text contradiction as described in the Perturbation Explanation."
+      }
+    ]
+  }
+]

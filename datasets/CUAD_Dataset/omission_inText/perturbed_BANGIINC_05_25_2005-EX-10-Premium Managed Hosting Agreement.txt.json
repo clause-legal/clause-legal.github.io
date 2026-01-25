@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "BANGIINC_05_25_2005-EX-10-Premium Managed Hosting Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Includes a 99 percent server uptime guarantee.",
+        "changed_text": "Includes a server uptime guarantee.",
+        "explanation": "Removing '99 percent' from the server uptime guarantee creates uncertainty. Later sections of the contract may rely on this specific uptime percentage for calculating service credits or penalties. Without the specific percentage, enforcing the guarantee becomes ambiguous, creating a contradiction because it is still 'guaranteed' but the extent of the guarentee is no longer specified.",
+        "location": "Section: Included Monthly Services",
+        "contradicted_location": "Section: Included Monthly Services",
+        "contradicted_text": "Included Monthly Services System Administration Management of SMTP, IMAP, DNS, SQL database and HTTP server software and systems for the AstroNutrition.com domain and web site. This includes regular off-site backups of the website itself and the database. Change Management Management of site source code and integration of contributed software updates and bug fixes into zencart is included. Personal Technical Support 24 x 7 emergency phone support and 1-business-day email response on non-critical issues. Includes a server uptime guarantee.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified a '99 percent server uptime guarantee.' The changed text removes '99 percent,' resulting in an ambiguous server uptime guarantee. The contradicted text relies on the existence of a 'server uptime guarantee,' which is still present, but the original specificity is now gone, creating uncertainty and a strong contradiction. The changed text fails to give extent to the guarantee, while before it explicitly gave it. This directly contradicts the expectations set by other sections that could rely on a defined uptime for penalties and credits."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Managed hosting fees are $175 per month for a period of 12 months. This includes up to 10 G of bandwidth, with overages at $20 for each 1 G beyond 10 in any given month.",
+        "changed_text": "Managed hosting fees are $175 per month for a period of 12 months. This includes bandwidth, with overages.",
+        "explanation": "By omitting the 'up to 10 G of bandwidth, with overages at $20 for each 1 G beyond 10 in any given month.' portion, the amount of inclusive bandwidth and the overage cost are undefined. The phrase 'with overages' now creates a contradiction because the contract specifies overages exist, but there is no indication of how those overages are calculated or priced, making billing disputes likely and enforcement unclear. The service could technically still charge for overages without specifying the amount which creates an in-text contradiction as the cost is no longer defined, but they can technically still charge for the service.",
+        "location": "Section: Terms of Agreement",
+        "contradicted_location": "Section: Terms of Agreement",
+        "contradicted_text": "Terms of Agreement Managed hosting fees are $175 per month for a period of 12 months. This includes bandwidth, with overages. The billing cycle is the 1st of each month.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text omits the specific bandwidth allowance (10 GB) and the overage cost ($20/GB), while still mentioning 'overages'. This contradicts the contradicted text, as the billing cycle refers to 'bandwidth, with overages' but fails to specify the exact terms of bandwidth limits and overage rates, creating ambiguity and a strong contradiction in how the service is priced. Because there is no longer a specific bandwidth allowance or rate, it makes enforcement unclear and leads to a contradiction as the cost is no longer defined."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "nda_19.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Confidential information shall not be disclosed to any employee, consultant or third party unless they agree to execute and be bound by the terms of this Agreement, and have been approved by XCZONE.TV.",
+        "changed_text": "Confidential information shall not be disclosed to any employee, consultant or third party, regardless of whether they agree to execute and be bound by the terms of this Agreement, except for employees, consultants or third parties pre-approved by XCZONE.TV in writing.",
+        "explanation": "The modified text now says confidential information cannot be disclosed *regardless* of agreement to the NDA, except if pre-approved, contradicting the initial allowance for disclosure *if* they sign the agreement. The phrase, 'regardless of whether they agree to execute' is a direct in-text contradiction to the original allowance of executing the agreement.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "Confidential information shall not be disclosed to any employee, consultant or third party, regardless of whether they agree to execute and be bound by the terms of this Agreement, except for employees, consultants or third parties pre-approved by XCZONE.TV in writing.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that confidential information shall not be disclosed 'regardless of whether they agree to execute,' which directly contradicts the original text and creates an in-text contradiction. The contradicted text is a copy of the changed text, showcasing that the contradiction is intrinsic to this revised language. The initial text allowed disclosure if the party agreed to the terms, which the changed text explicitly negates, unless the party is pre-approved."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement and its validity, construction and effect shall be governed by the laws of Canada.",
+        "changed_text": "This Agreement and its validity, construction and effect shall be governed by the laws of Canada, unless a dispute arises involving intellectual property, in which case the laws of the state of California, USA, shall govern.",
+        "explanation": "The modified text introduces a contradictory clause stating that the laws of California will govern disputes involving intellectual property, whereas the original text states the laws of Canada will govern the agreement. The phrase 'unless a dispute arises' is a direct in-text contradiction.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "This Agreement and its validity, construction and effect shall be governed by the laws of Canada, unless a dispute arises involving intellectual property, in which case the laws of the state of California, USA, shall govern.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a direct contradiction. The original text states that the laws of Canada govern the agreement. The changed text adds an exception: if a dispute arises involving intellectual property, California law governs. The contradicted text is identical to the changed text, highlighting that the change introduces the contradiction by creating two conflicting statements about which jurisdiction's laws apply. This aligns with the 'Inconsistencies - In Text Contradiction' definition: 'different sections of a contract provide conflicting deadlines, obligations, or penalties.'"
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "For example, information already known to the recipient, or known to the public should not be subject to treatment as confidential.",
+        "changed_text": "For example, information already known to the recipient, or known to the public should not be subject to treatment as confidential, except if XCZONE.TV specifically designates such information as confidential in writing.",
+        "explanation": "The original text specifies that information already known or public should *not* be confidential. The added clause now allows XCZONE.TV to designate such information as confidential, which creates an in-text contradiction. By including a condition for 'exceptions' is a direct in-text contradiction.",
+        "location": "WHAT SHOULD AN NDA COVER?",
+        "contradicted_location": "WHAT SHOULD AN NDA COVER?",
+        "contradicted_text": "For example, information already known to the recipient, or known to the public should not be subject to treatment as confidential, except if XCZONE.TV specifically designates such information as confidential in writing.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states information known to the recipient or public should *not* be confidential. The changed text adds an exception: XCZONE.TV can designate such information as confidential. This directly contradicts the initial assertion, creating an in-text contradiction as the changed text and contradicted text are the same section. The change allows for an exception that negates the original rule, fulfilling the definition of 'Inconsistencies - In Text Contradiction'."
+      }
+    ]
+  }
+]

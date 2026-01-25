@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Confidentiality_and_Non-Disclosure_Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Any notice required or permitted u nder this Agreement shall be in writing and shall be delivered and deemed received as follows: (i) by personal delivery or by facsimile (with electronic confirmation) during the recipient’s normal business hours, in which case it shall be deemed received at the time of such delivery or facsimile as the case may be; (ii) by certified or registered mail, in which case it shall be deemed received on the date such return receipt is signed; or (iii) by prepaid nationally recognized overnight courier by next day delivery, in which case it shall be deemed received on the day following the date of deposit with such courier.",
+        "changed_text": "Any notice required or permitted under this Agreement shall be in writing and may be delivered and deemed received as follows: (i) by personal delivery or by facsimile (with electronic confirmation) during the recipient’s normal business hours, in which case it shall be deemed received at the time of such delivery or facsimile as the case may be; (ii) by certified or registered mail, in which case it shall be deemed received on the date such return receipt is signed; or (iii) by verbal communication. ",
+        "explanation": "Changing 'shall' to 'may' and adding 'by verbal communication' creates a contradiction. The section starts by saying any notice 'shall' be in writing, then introduces 'verbal communication', which is not in writing. This will create an ambiguity about what valid form of contact the parties must have between one another. This change will create an ambiguity around 'Time of Essence', which will make this more difficult to enforce.",
+        "location": "5(d)",
+        "contradicted_location": "5(f)",
+        "contradicted_text": "(f) Time of Essence. Time is of the ess ence as to all of the terms of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that 'Any notice required or permitted under this Agreement shall be in writing'. The changed text allows for 'verbal communication'. The contradicted text, '(f) Time of Essence. Time is of the ess ence as to all of the terms of this Agreement', requires clarity and enforceability regarding deadlines and obligations. Verbal communication is not in writing and therefore creates ambiguity about what a valid form of contact is between the parties and therefore making 'Time of Essence' difficult to enforce. This creates a direct contradiction and the type of perturbation is Structural Flaws - In Text Contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement, and all questions relating to its validity, interpretation, performance, and enforcement (including, without limitation, provisions concerning limitations of action) shall be go verned by and construed in accordance with the laws of the Province of Ontario, Canada.",
+        "changed_text": "This Agreement, and all questions relating to its validity, interpretation, performance, and enforcement (including, without limitation, provisions concerning limitations of action) shall be governed by and construed in accordance with the laws of the Province of Quebec, Canada.",
+        "explanation": "By switching 'Ontario' to 'Quebec', the contract now states that Quebec law governs, but the company is located in Ontario (as stated in the preamble). This creates a direct conflict, leading to potential legal disputes over which jurisdiction's laws apply. This will directly affect enforcement of the Agreement, since the location the Agreement will be enforced is unclear.",
+        "location": "5(g)",
+        "contradicted_location": "5(j)",
+        "contradicted_text": "(j) Enforcement . Should any legal proceedings be commenced to secure or enforce any right under this Agreement, the prevailing party shall be entitled to recover from the non-prevailing party its reasonable attorneys' fees and costs, in addition to all other relief to which the prevailing party may be entitled at law or in equity.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the governing law from Ontario to Quebec. The explanation states that the company is located in Ontario, leading to a conflict regarding which jurisdiction's laws apply to the agreement. The contradicted text concerns enforcement and recovery of attorney's fees. Because the change introduces uncertainty regarding which jurisdiction will be used to enforce the agreement, it directly impacts the 'Enforcement' clause making it difficult to determine which jurisdiction's laws govern attorney's fees and costs, therefore causing a direct contradiction based on structural flaws."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Dealer shall not assign this Agreement without the express written permission of CIF.",
+        "changed_text": "Dealer shall not assign this Agreement without the express written permission of CIF, unless Dealer undergoes a change of control.",
+        "explanation": "Adding 'unless Dealer undergoes a change of control' creates an exception to the non-assignment clause. This introduces ambiguity because 'change of control' isn't defined, and now the original clause stating 'Dealer shall not assign this Agreement without the express written permission of CIF' is contradicted, because assignment might happen during a change of control. This directly affects the 'Binding Effect' clause by changing when the effect is actually binding.",
+        "location": "5(e)",
+        "contradicted_location": "5(e)",
+        "contradicted_text": "(e) Binding Effect/Assignment/Benefits . This Agreement shall be binding upon and shal l inure to the benefit of the parties hereto and their respective successors and permitted assigns. Dealer shall not assign this Agreement without the express written permission of CIF.Expect as otherwise provided herein, nothing in this Agreement, express or implied, is intended to confer on any person other than the parties hereto or their respective successors and permitted assigns any rights, remedies, obligations, or liabilities under or by reason of this Agreement. 3",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that the 'Dealer shall not assign this Agreement without the express written permission of CIF.' The changed text adds 'unless Dealer undergoes a change of control', which creates an exception to the non-assignment clause. The contradicted text states 'Dealer shall not assign this Agreement without the express written permission of CIF'. This is directly contradicted by the changed text, because assignment might happen during a change of control without CIF's permission. Therefore a clear and direct contradiction exists."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The provisions of this Agreement shall be deemed s everable from each other, and, if for any reason any section, clause, provision or part thereof is found to be illegal, invalid, unenforceable, or inoperative, such section, clause or provision or part thereof shall not affect the validity or enforceabilit y of any other section, clause, provision or part thereof.",
+        "changed_text": "The provisions of this Agreement shall be deemed severable from each other, except that the clause regarding governing law is not severable. If for any reason any section, clause, provision or part thereof is found to be illegal, invalid, unenforceable, or inoperative, such section, clause or provision or part thereof shall not affect the validity or enforceability of any other section, clause, provision or part thereof.",
+        "explanation": "By adding 'except that the clause regarding governing law is not severable', a contradiction is created with the original intent of the severability clause. If the governing law clause is invalid, the entire agreement could be deemed unenforceable. This will create issues with the 'Enforcement' clause if the clause is unenforceable since the governing law clause is not severable.",
+        "location": "5(i)",
+        "contradicted_location": "5(j)",
+        "contradicted_text": "(j) Enforcement . Should any legal proceedings be commenced to secure or enforce any right under this Agreement, the prevailing party shall be entitled to recover from the non-prevailing party its reasonable attorneys' fees and costs, in addition to all other relief to which the prevailing party may be entitled at law or in equity.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the severability clause to state that the 'governing law' clause is not severable. The original text states that *any* section or clause is severable. This directly contradicts the 'Enforcement' clause because if the 'governing law' clause is deemed invalid, the entire agreement, including the enforcement clause, could be deemed unenforceable. This creates an in-text contradiction because the severability clause now directly impacts the enforceability of another clause in the contract."
+      }
+    ]
+  }
+]

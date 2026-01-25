@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "BOMI%20Non-Disclosure%20Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "All notes, analyses, compilations, and other documents pr epared by Attendee during the Testing Period, which contain or otherwise reflect information regarding the Test, will also be “Confidential Information.” The Testing Period include s all time immediately prior to, during, and immediately following the scheduled Test time. 2. Attendee will preserve as confidential all Confidential Information that Attendee may obtain or prepare in relation to the Test during the Testing Period.",
+        "changed_text": "The Testing Period include s all time immediately prior to, during, and immediately following the scheduled Test time. 2. Attendee will preserve as confidential all Confidential Information that Attendee may obtain or prepare in relation to the Test during the Testing Period.",
+        "explanation": "Removing 'All notes, analyses, compilations, and other documents pr epared by Attendee during the Testing Period, which contain or otherwise reflect information regarding the Test, will also be “Confidential Information.”' creates a contradiction with the statement that Attendee should preserve as confidential all Confidential Information that Attendee may obtain or prepare in relation to the Test during the Testing Period, since now this notes are out of the scope of the NDA agreement.",
+        "location": "Section 1",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "Attendee will preserve as confidential all Confidential Information that Attendee may obtain or prepare in relation to the Test during the Testing Period. Without BOMI’s prior written consent, which may be given or withheld by BOMI in its sole and absolute discretion, Attendee will not at any time, whether during or after the Testing Period, (a) disclose any Confidential Information to any third party nor gi ve any third party access thereto, nor (b) use any Confidential Information except as required in taking the Test. At all times during the testing period, Attendee agrees to abide by the Code of Profe ssional Ethics and Conduct, a copy of which can be found online at www.bomi.org .",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly includes 'All notes, analyses, compilations, and other documents prepared by Attendee during the Testing Period, which contain or otherwise reflect information regarding the Test' as 'Confidential Information.' The changed text removes this explicit inclusion, which creates a contradiction with the contradicted text that requires Attendee to preserve all Confidential Information, since it is unclear whether the Attendee is obligated to keep this information confidential or not. This falls under the definition of 'Omissions – In Text Contradiction'."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Attendee agrees to abide by the Code of Profe ssional Ethics and Conduct, a copy of which can be found online at www.bomi.org . 3. Attendee shall notify BO MI immediately upon discovery of unauthorized use or disclosure of Confidential Information or any breach of this Agreement, and shall cooperate with BOMI in every reasonable way to assist BOMI in mitigating the consequences of such use or disclosure and preven ting further unauthorized use or disclosu re.",
+        "changed_text": "Attendee agrees to abide by the Code of Profe ssional Ethics and Conduct, a copy of which can be found online at www.bomi.org . 3. Attendee shall cooperate with BOMI in every reasonable way to assist BOMI in mitigating the consequences of such use or disclosure and preven ting further unauthorized use or disclosu re.",
+        "explanation": "By removing 'Attendee shall notify BO MI immediately upon discovery of unauthorized use or disclosure of Confidential Information or any breach of this Agreement', the Attendee don't have the responsability to notify the discovery of a breach. Which contradicts the next sentencen, where the Attendee will cooperate with BOMI to mitigate consequences of an unauthorized use or disclosure, which means the Attendee has knowledge about that use or disclosure, creating a contradiction.",
+        "location": "Section 3",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "Attendee shall cooperate with BOMI in every reasonable way to assist BOMI in mitigating the consequences of such use or disclosure and preven ting further unauthorized use or disclosu re. If a third part y brings an action against BOMI arising out of Atte ndee’s breach of this Agreement, BOMI, at its sole discretion, may settle or defend the claim, and Attendee shall pay all settlements, costs, damages and legal fees and expenses arising out of such settlement or defense.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires the Attendee to notify BOMI immediately upon discovery of unauthorized use or disclosure. The changed text removes this requirement. The contradicted text requires the Attendee to cooperate with BOMI in mitigating the consequences of unauthorized use or disclosure. Without the notification requirement, it is unclear how BOMI would learn of the unauthorized use or disclosure and how the attendee could cooperate effectively, creating a contradiction. The removed notification requirement directly conflicts with the cooperation requirement because, without notification, cooperation to mitigate consequences is difficult or impossible. This is a strong contradiction as it impacts the enforceability of the cooperation clause."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "If a third part y brings an action against BOMI arising out of Atte ndee’s breach of this Agreement, BOMI, at its sole discretion, may settle or defend the claim, and Attendee shall pay all settlements, costs, damages and legal fees and expenses arising out of such settlement or defense.",
+        "changed_text": "If a third part y brings an action against BOMI arising out of Atte ndee’s breach of this Agreement, BOMI, at its sole discretion, may settle or defend the claim.",
+        "explanation": "Removing 'and Attendee shall pay all settlements, costs, damages and legal fees and expenses arising out of such settlement or defense.' creates an in-text contradiction. While BOMI can settle or defend the claim, it is unclear who bears the financial responsibility, creating uncertainty and hindering effective enforcement of the breach. Is BOMI assuming those costs, or they have to reach another agreement with the Attendee?.",
+        "location": "Section 3",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "If a third part y brings an action against BOMI arising out of Atte ndee’s breach of this Agreement, BOMI, at its sole discretion, may settle or defend the claim.",
+        "contradiction_exists": "YES",
+        "justification": "The original text clearly states that the Attendee is responsible for all settlements, costs, damages, legal fees, and expenses arising from a claim against BOMI due to the Attendee's breach. The changed text removes this clause, leaving the financial responsibility unclear. This directly contradicts the purpose of the original clause, creating a strong in-text contradiction because now there's no explicit assignment of who covers the costs associated with the settlement or defense of the claim, which is also what the explanation says."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "In the event of any litigation between the Parties in connection with this Agreement, including the seeking of injunctive relief, if BOMI is the successful party, Attendee shall pay to BOMI therein all co sts and expenses, including but not limited to actual attorneys’ fees incurred therein by BOMI, which costs, expens es and attorneys’ fees shall be included as a 2 part of any judgment rendered in such action in addition to a ny other relief to which BOMI may be entitled. Should BOMI not be a successfu l party, the Parties will each bear their own attorneys’ fees and expenses.",
+        "changed_text": "In the event of any litigation between the Parties in connection with this Agreement, including the seeking of injunctive relief, the Parties will each bear their own attorneys’ fees and expenses.",
+        "explanation": "By removing 'if BOMI is the successful party, Attendee shall pay to BOMI therein all co sts and expenses, including but not limited to actual attorneys’ fees incurred therein by BOMI, which costs, expens es and attorneys’ fees shall be included as a 2 part of any judgment rendered in such action in addition to a ny other relief to which BOMI may be entitled. ', it creates a clear contradiction. The original states who pays legal fees if BOMI wins the litigation. The new text states that the Parties will each bear their own attorneys’ fees and expenses no matter who wins the litigation.",
+        "location": "Section 5",
+        "contradicted_location": "Section 5",
+        "contradicted_text": "In the event of any litigation between the Parties in connection with this Agreement, including the seeking of injunctive relief, the Parties will each bear their own attorneys’ fees and expenses.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that if BOMI wins the litigation, the Attendee will pay BOMI's costs and fees. The changed text states that regardless of who wins, each party bears their own fees. This directly contradicts the condition where the Attendee is responsible for BOMI's fees if BOMI is successful, as the contradicted text states that the parties will bear their own fees, meaning that the Attendee will not have to pay BOMI's fees. The contradiction is therefore clear and direct. The Perturbation Type \"Omissions - In Text Contradiction\" applies."
+      }
+    ]
+  }
+]

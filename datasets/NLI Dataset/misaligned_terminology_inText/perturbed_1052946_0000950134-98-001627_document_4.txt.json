@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "1052946_0000950134-98-001627_document_4.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "2.0 Both parties agree that its representatives and employees will not at any time, either during or subsequent to the Period of Affiliation, either directly or indirectly, disclose to others or use any secret, confidential or proprietary information and know-how of the other party (whether or not developed by the other party) without that party's written consent.",
+        "changed_text": "2.0 Both parties agree that its representatives and employees will not at any time, either during or subsequent to the Period of Affiliation, either directly or indirectly, communicate to others or utilize any trade secrets or privileged information and expertise of the other entity (whether or not created by the other entity) without that entity's written consent.",
+        "explanation": "Changing \"disclose\" to \"communicate,\" \"secret, confidential or proprietary information and know-how\" to \"trade secrets or privileged information and expertise,\" and \"party\" to \"entity\" creates ambiguity. It's unclear if 'trade secrets or privileged information' are the same as 'secret, confidential or proprietary information,' and 'entity' versus 'party' blurs the obligations. This contradiction can affect enforceability, specifically contradicting the sentence 'The term \"secret, confidential or proprietary information and know-how\" shall include, but shall not be limited to, company plans, customers, costs, programs, prices, computer programs and methods used, developed, investigated, made or sold, at any time, either before or during the parties' Period of Affiliation.' because it uses 'secret, confidential or proprietary information and know-how'",
+        "location": "Paragraph 2.0",
+        "contradicted_location": "Paragraph 2.0",
+        "contradicted_text": "The term \"secret, confidential or proprietary information and know-how\" shall include, but shall not be limited to, company plans, customers, costs, programs, prices, computer programs and methods used, developed, investigated, made or sold, at any time, either before or during the parties' Period of Affiliation.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'disclose... secret, confidential or proprietary information and know-how' to 'communicate...trade secrets or privileged information and expertise' creates a contradiction. The original text had a defined meaning for 'secret, confidential or proprietary information and know-how', while the changed text introduces new, undefined terms. The contradicted text relies on the original definition of 'secret, confidential or proprietary information and know-how'. Because the new terms are undefined, it's unclear if they align with the original definition, causing a contradiction and ambiguity about what is protected. This is a Misaligned Terminology - In Text Contradiction, as the contract uses multiple terms interchangeably without defining them, leading to conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "2.1 Salary and compensation information is considered confidential and proprietary information, and is fully subject to the disclosure restrictions of this Agreement.",
+        "changed_text": "2.1 Salary and compensation information is deemed sensitive business data, and is generally subject to the communication limitations of this understanding.",
+        "explanation": "Replacing \"confidential and proprietary information\" with \"sensitive business data\" and \"disclosure restrictions of this Agreement\" with \"communication limitations of this understanding\" introduces ambiguity. It's unclear if 'sensitive business data' is equivalent to 'confidential and proprietary information' and whether 'understanding' has the same legal weight as 'Agreement,' contradicting paragraph 2.0 and weakening the NDA.",
+        "location": "Paragraph 2.1",
+        "contradicted_location": "Paragraph 2.0",
+        "contradicted_text": "Both parties agree that its representatives and employees will not at any time, either during or subsequent to the Period of Affiliation, either directly or indirectly, disclose to others or use any secret, confidential or proprietary information and know-how of the other party (whether or not developed by the other party) without that party's written consent.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly refers to \"confidential and proprietary information\" being subject to \"disclosure restrictions of this Agreement.\" The changed text weakens this by using the terms \"sensitive business data\" and \"communication limitations of this understanding.\" The contradicted text refers to \"secret, confidential or proprietary information\". This change introduces ambiguity as 'sensitive business data' may not be equivalent to 'confidential or proprietary information', and the term 'understanding' might not carry the same legal weight as 'Agreement,' creating an inconsistency in the kind of information that is protected, thus creating a contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Reference to Delta and FWT includes any subsidiary, affiliated or parent companies, and the directors, officers, employees, agents, representatives and contractors of the respective companies.",
+        "changed_text": "Reference to Delta and FWT includes any subsidiary, affiliated or parent companies, and the senior management, staff, authorized personnel, and consultants of those businesses.",
+        "explanation": "Changing 'directors, officers, employees, agents, representatives and contractors' to 'senior management, staff, authorized personnel, and consultants' narrows the scope of who is covered, creating a contradiction. For example, it's unclear if 'staff' includes 'contractors,' potentially exempting them from the agreement. Therefore, the phrase 'The parties may use all legal means at their disposal to enforce this Agreement' could be contradicted, since it changes who 'Delta' and 'FWT' include.",
+        "location": "Paragraph 1.0",
+        "contradicted_location": "Paragraph 1.0",
+        "contradicted_text": "The parties may use all legal means at their disposal to enforce this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text narrows the definition of 'Delta and FWT' by replacing 'directors, officers, employees, agents, representatives and contractors' with 'senior management, staff, authorized personnel, and consultants.' This creates a contradiction with the contradicted text, 'The parties may use all legal means at their disposal to enforce this Agreement,' because the scope of who can enforce the agreement on behalf of Delta and FWT is now unclear. Specifically, it is uncertain whether 'contractors' are still included, potentially hindering legal enforcement if a contractor is involved."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "1.1 \"Period of Affiliation\", as used below, refers to the period of the business relationship between the parties under the Cooperative Production Agreement dated March 10, 1997.",
+        "changed_text": "1.1 \"Term of Engagement\", as used below, refers to the duration of the working partnership between the entities under the Cooperative Production Agreement dated March 10, 1997.",
+        "explanation": "Changing \"Period of Affiliation\" to \"Term of Engagement\", \"business relationship\" to \"working partnership\", and \"parties\" to \"entities\" introduces inconsistencies. It is unclear if the Term of Engagement is exactly the Period of Affiliation, because 'working partnership' is not defined and might imply a difference from the cooperative production agreement's intended 'business relationship'. This can create discrepancies for obligations that extend beyond the Period of Affiliation. This directly contradicts the paragraph that describes the Consideration:",
+        "location": "Paragraph 1.1",
+        "contradicted_location": "Paragraph 1.2",
+        "contradicted_text": "Consideration for compliance with this Agreement is the opportunity to work under the aforementioned Cooperative Production Agreement and any remuneration in any form agreed to by the parties. This Agreement is intended to extend beyond the Period of Affiliation.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces inconsistencies by altering \"Period of Affiliation\" to \"Term of Engagement,\" \"business relationship\" to \"working partnership,\" and \"parties\" to \"entities.\" This creates ambiguity about whether the Term of Engagement is equivalent to the Period of Affiliation, because the term 'working partnership' is not defined in the agreement. The Contradicted Text relies on the defined term \"Period of Affiliation\", but this term no longer exists. Since the Consideration section explicitly refers to extending beyond the Period of Affiliation, redefining the period creates a direct contradiction because the Period of Affiliation term has been redefined as Term of Engagement, and it is unclear if they are the same, causing the 'extends beyond' clause to be unclear. This aligns with the 'Misaligned Terminology' definition which states that in-text contradictions occur when the contract uses multiple terms interchangeably without defining them, leading to conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "3.0 The rights and obligations of the parties hereto shall be construed under the laws of the State of Texas and shall be binding upon the heirs, legal representatives and assigns with respect to the subject matter thereof.",
+        "changed_text": "3.0 The entitlements and duties of the participants involved shall be governed by the statutes of the State of Texas and shall be compulsory upon the successors, authorized agents and transferees regarding the substance thereof.",
+        "explanation": "Changing \"rights and obligations\" to \"entitlements and duties,\" \"parties\" to \"participants,\" \"heirs, legal representatives and assigns\" to \"successors, authorized agents and transferees\", and \"subject matter\" to \"substance\" creates legal ambiguity. \"Entitlements\" is too vague to convey the same strength as \"rights,\" and 'duties' can imply less legal weight than 'obligations.' These contradictions are especially in the phrase 'Both parties understand the nature and character of this Agreement, and intend for this to be a fully binding agreement' because it lessens the validity of 'a fully binding agreement'.",
+        "location": "Paragraph 3.0",
+        "contradicted_location": "Paragraph 1.0",
+        "contradicted_text": "Both parties understand the nature and character of this Agreement, and intend for this to be a fully binding agreement. The parties may use all legal means at their disposal to enforce this Agreement. Reference to Delta and FWT includes any subsidiary, affiliated or parent companies, and the directors, officers, employees, agents, representatives and contractors of the respective companies.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'rights and obligations' to 'entitlements and duties' weakens the binding nature of the agreement. 'Entitlements' is less forceful than 'rights,' and 'duties' carries less legal weight than 'obligations'. This directly undermines the contradicted text's explicit statement that 'Both parties understand the nature and character of this Agreement, and intend for this to be a fully binding agreement' because it introduces ambiguity and weakens the legally binding aspect that the original text emphasizes. The changed text misaligns the terminology, leading to a contradiction by implying a weaker commitment than originally intended."
+      }
+    ]
+  }
+]

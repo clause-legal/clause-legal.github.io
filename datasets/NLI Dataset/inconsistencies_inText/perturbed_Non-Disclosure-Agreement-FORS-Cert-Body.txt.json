@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "Non-Disclosure-Agreement-FORS-Cert-Body.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Confidential Information” means collectively and individually all or any information of whatsoever nature, di sclosed in any form, whether oral, visual, written or in electronic form (including, without limitation, any documentation, reports, calculations, processes, methodologies, manuals and membership data ) relating to [Company name] and FORS operators, audit processes and commercial data together with all records or copies or e xtracts thereof in whatever media held.",
+        "changed_text": "Confidential Information” means collectively and individually all or any information of whatsoever nature, di sclosed in any form, whether oral, visual, written or in electronic form (including, without limitation, any documentation, reports, calculations, processes, methodologies, manuals and membership data ) relating to [Company name] ONLY. Information regarding FORS operators, audit processes and commercial data are EXCLUDED from this definition.",
+        "explanation": "This change introduces an in-text contradiction by narrowing the definition of 'Confidential Information'. Initially, it included data related to both '[Company name]' and 'FORS operators, audit processes and commercial data'. The revised definition explicitly excludes the latter. This contradicts clause 2.1.1 which requires keeping ALL Confidential Information secret, because some of the documents aren't part of 'Confidential Information'",
+        "location": "1",
+        "contradicted_location": "2.1.1",
+        "contradicted_text": "to keep the Confidential Information secret and acknowledges the proprietary nature of the Confidential Information;",
+        "contradiction_exists": "YES",
+        "justification": "The changed text significantly narrows the definition of 'Confidential Information' by excluding data related to FORS operators, audit processes, and commercial data. This directly contradicts the contradicted text, which requires keeping ALL 'Confidential Information' secret. The original text included this data within the definition, while the changed text explicitly excludes it, thus creating a strong inconsistency in what information is considered confidential and must be protected."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The above duties of confidentiality shall not apply to information that the receiving Party can demonstrate by reasonable documentary proof: - 2.2.1 to hav e been in the public domain at the time of receipt or to subsequently entered the public domain through no fault of the receiving Party; 2.2.2 to have been l awfully known by the r eceiving P arty prior to its receipt; or 2.2.3 to have been disclosed to the receiving Party without restriction by a third party.",
+        "changed_text": "The above duties of confidentiality shall not apply to information that the receiving Party claims, regardless of proof: - 2.2.1 to hav e been in the public domain at the time of receipt or to subsequently entered the public domain through no fault of the receiving Party; 2.2.2 to have been l awfully known by the r eceiving P arty prior to its receipt; or 2.2.3 to have been disclosed to the receiving Party without restriction by a third party.",
+        "explanation": "This perturbation creates a contradiction by removing the 'reasonable documentary proof' requirement. The receiving party now only needs to 'claim' that the information falls under the exceptions, which conflicts with section 2.1.1 where the party needs to 'keep the Confidential Information secret' which means providing proof and reasonable cause if they were to break the obligation",
+        "location": "2.2",
+        "contradicted_location": "2.1.1",
+        "contradicted_text": "to keep the Confidential Information secret and acknowledges the proprietary nature of the Confidential Information;",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'reasonable documentary proof' with a simple 'claim, regardless of proof'. This directly contradicts the contradicted text which obligates the party 'to keep the Confidential Information secret and acknowledges the proprietary nature of the Confidential Information'. By removing the requirement for proof, the changed text allows a party to avoid their confidentiality obligations by simply claiming an exception, which is fundamentally incompatible with the original obligation to keep information secret, thus a strong in-text contradiction is present."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The receiving Party may disclose Confidential Information: 3.1.1 only to such employees of the receiving Party as are strictly necessary for the Permitted Purpose; and/or 3.1.2 as required by any order of any court of competent jurisdiction or any competent judicial, governmental or regularly body.",
+        "changed_text": "The receiving Party may disclose Confidential Information: 3.1.1 to any employee of the receiving Party, regardless of necessity for the Permitted Purpose; and/or 3.1.2 as required by any order of any court of competent jurisdiction or any competent judicial, governmental or regularly body.",
+        "explanation": "This change contradicts the confidentiality obligations by allowing disclosure to *any* employee, not just those 'strictly necessary' for the Permitted Purpose. This in-text contradiction can cause contradiction and breach of obligation to keep the Confidential Information secret, stated in section 2.1.1",
+        "location": "3.1",
+        "contradicted_location": "2.1.1",
+        "contradicted_text": "to keep the Confidential Information secret and acknowledges the proprietary nature of the Confidential Information;",
+        "contradiction_exists": "YES",
+        "justification": "The original text limits disclosure of Confidential Information to employees 'strictly necessary' for the Permitted Purpose. The changed text removes this restriction, allowing disclosure to *any* employee, regardless of necessity. This directly contradicts the contradicted text, which requires the receiving party to 'keep the Confidential Information secret'. By broadening the scope of permissible disclosure, the change weakens the confidentiality obligation, creating a strong in-text contradiction based on the 'Inconsistencies - In Text Contradiction' definition."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "On the request of the d isclosing Party, the r eceiving Party shall procure that they enter into a confidentiality agreement on terms and conditions no less onerous than those contained in this Agreement.",
+        "changed_text": "On the request of the d isclosing Party, the r eceiving Party may attempt to procure that they enter into a confidentiality agreement on terms and conditions no less onerous than those contained in this Agreement.",
+        "explanation": "This change from 'shall procure' to 'may attempt to procure' weakens the obligation to ensure third parties are bound by confidentiality. This new change contradicts the receiving party's obligation to keep the Confidential Information secret, in section 2.1.1, because there are no measures being taken to keep it safe.",
+        "location": "4.1",
+        "contradicted_location": "2.1.1",
+        "contradicted_text": "to keep the Confidential Information secret and acknowledges the proprietary nature of the Confidential Information;",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that the receiving party 'shall procure' a confidentiality agreement from third parties. This created a strong obligation. The changed text weakens this obligation to 'may attempt to procure'. This weakening directly contradicts the contradicted text, which requires the receiving party 'to keep the Confidential Information secret'. By only attempting to procure a confidentiality agreement, the receiving party is not necessarily taking sufficient action to ensure the confidentiality of the information, creating a direct conflict and inconsistency."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "If the disclosing Party so requests in writing, the r eceiving Party shall immediately: - 5.2.1 return all Confidential Information including copies to the disclosing Party ; and 5.2.2 destroy or permanently erase all copies made by the receiving Party and procure that anyone to whom the receiving Party ha s supplied copies destroys or permanently erases such copies and any further copies made by them.",
+        "changed_text": "If the disclosing Party so requests in writing, the r eceiving Party shall use reasonable efforts to: - 5.2.1 return all Confidential Information including copies to the disclosing Party ; and 5.2.2 destroy or permanently erase all copies made by the receiving Party and use reasonable efforts to ensure anyone to whom the receiving Party ha s supplied copies destroys or permanently erases such copies and any further copies made by them.",
+        "explanation": "The change from 'shall immediately' to 'shall use reasonable efforts to' weakens the obligation to return and destroy confidential information upon request. There is an in-text contradiction because the Receiving Party is obliged to keep the Confidential Information secret, but the 'reasonable measures' makes it difficult to guarantee that the secrecy and safe keeping is happening effectively.",
+        "location": "5.2",
+        "contradicted_location": "2.1.1",
+        "contradicted_text": "to keep the Confidential Information secret and acknowledges the proprietary nature of the Confidential Information;",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the receiving party 'shall immediately' return or destroy confidential information. The changed text weakens this obligation to 'shall use reasonable efforts to', which contradicts the contradicted text's requirement for the receiving party 'to keep the Confidential Information secret'. The 'reasonable efforts' standard introduces ambiguity and makes it more difficult to ensure the Confidential Information remains secret, creating an in-text contradiction as per the explanation given and definition of 'Inconsistencies'."
+      }
+    ]
+  }
+]

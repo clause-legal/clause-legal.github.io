@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "Non-Disclosure-Agreement-NDA.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Neither party may use the other's Conﬁdential Information for any purpose but the Business Purpose stated above.",
+        "changed_text": "Neither party may use the other's Conﬁdential Information for any purpose, including the Business Purpose stated above, without explicit written consent.",
+        "explanation": "By explicitly prohibiting the use of Confidential Information even for the agreed Business Purpose, unless with additional written consent, Section 5 contradicts the foundational premise of the agreement stated in the preamble, where the parties agree to disclose confidential information 'in order for them to explore opportunities and examine how they might work together to their mutual beneﬁt'. This effectively renders the entire agreement pointless.",
+        "location": "5",
+        "contradicted_location": "Preamble",
+        "contradicted_text": "This mutual Nondisclosure Agreement (the \"Agreement\") is entered into between ACCRUENCE GMBH LOEWENICHSTR. 3 91054 ERLANGEN, GERMANY and and is eﬀective as of the last date signed. The parties agree that in order for them to explore opportunities and examine how they might work together to their mutual beneﬁt, it will be necessary and desirable that they disclose conﬁdential business information. The parties agree to protect each other's Conﬁdential Information disclosed before or after the execution of this Agreement on the following terms.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text prohibits the use of confidential information for the stated Business Purpose without explicit written consent. This directly contradicts the contradicted text, which states that the parties agree to disclose confidential information 'in order for them to explore opportunities and examine how they might work together to their mutual beneﬁt'. The change undermines the fundamental purpose of the agreement as outlined in the preamble, creating a clear and direct contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Upon the termination of the business relationship or upon request, whichever is sooner, each party shall return all of the other's Conﬁdential Information, certifying destruction of any copies or partial copies made.",
+        "changed_text": "Upon the termination of the business relationship, each party shall return all of the other's Conﬁdential Information, certifying the retention of one copy for archival purposes. Upon request, all archival copies should be destroyed.",
+        "explanation": "Section 6 originally mandates returning and destroying all Confidential Information upon termination or request. The change allows retention of one archival copy, directly contradicting the requirement for complete destruction and introduces uncertainty. This creates an in-text contradiction in the event that there's request on destroying all copies, the text is contradicting each other, because now it is allowing one copy to remain.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "Each party's Conﬁdential Information shall remain its own property. Upon the termination of the business relationship, each party shall return all of the other's Conﬁdential Information, certifying the retention of one copy for archival purposes. Upon request, all archival copies should be destroyed.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandated the return and destruction of all Confidential Information upon termination or request. The changed text introduces an exception by allowing the retention of one archival copy. This directly contradicts the requirement for complete destruction, creating an in-text contradiction. The Contradicted Text is identical to the Changed Text, and since the Change introduces a contradiction, there is a contradiction here. If a request for destruction is made, the obligation to destroy all copies now conflicts with the permission to retain one copy for archival purposes."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The obligation of conﬁdentiality shall extend to three years from and including the date of return of the Conﬁdential Information and certiﬁcation of destruction of any copies made.",
+        "changed_text": "The obligation of conﬁdentiality shall extend indefinitely from and including the date of signing this agreement.",
+        "explanation": "The original Section 7 sets a three-year limit on confidentiality. By changing this to 'indefinitely,' it contradicts the provision in the same section allowing either party to notify the other that future disclosures shall not be governed by this agreement, effectively permitting termination of the agreement which would involve no longer keeping information confidential, which is now indefinite.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "The obligation of conﬁdentiality shall extend indefinitely from and including the date of signing this agreement. At any time, either party may notify the other party in writing that future disclosures shall not be governed by this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the confidentiality obligation from a three-year limit to 'indefinitely'. This directly contradicts the 'Contradicted Text' which states that either party can terminate the confidentiality agreement at any time. If the agreement is terminated, the indefinite confidentiality becomes logically inconsistent and unenforceable because there's no agreement under which the confidentiality is maintained, leading to a strong in-text contradiction as defined by the 'Ambiguities – In Text Contradiction' type."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement is the entire agreement between the parties on nondisclosure of conﬁdential information and supersedes all prior representations and agreements between the parties on that subject.",
+        "changed_text": "This Agreement represents a partial understanding between the parties on nondisclosure of confidential information, with further agreements to be determined.",
+        "explanation": "Section 10 originally states that the agreement is the 'entire agreement.' The modification contradicts this by stating it's only a 'partial understanding', suggesting that other (unspecified) agreements are also relevant. This creates an internal contradiction because it undermines the claim that the document fully encapsulates the nondisclosure obligations. This can be contradicted in court, since the entire agreement is in this text.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "This Agreement represents a partial understanding between the parties on nondisclosure of confidential information, with further agreements to be determined. Erlangen, DD/MM/YYYY _________________________ _________________________ ACCRUENCE GMBH",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that the agreement was the 'entire agreement' between the parties. The changed text modifies this to say it's only a 'partial understanding,' implying other agreements exist, which contradicts the original intent and creates an ambiguity regarding the scope of the agreement. The contradicted text is the exact same as the changed text, so there is a contradiction. This adheres to the definition of 'Ambiguities - In Text Contradiction'."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Each party agrees that in the event of a breach or threatened breach by either party, including its agents, directors, or employees, of the provisions of this Agreement, the non-breaching party may have no adequate remedy in money damages and, accordingly, shall be entitled to an injunction against such breach, in addition to any other legal or equitable remedies available to it.",
+        "changed_text": "Each party agrees that in the event of a breach or threatened breach by either party, including its agents, directors, or employees, of the provisions of this Agreement, the breaching party will be given a 30-day notice to cure such breach. If the breach is not cured within 30 days, the non-breaching party may then pursue available remedies.",
+        "explanation": "Section 9 originally states that the non-breaching party is immediately entitled to an injunction in the event of a breach or threatened breach. The modified version introduces a 30-day cure period before any remedies can be pursued. This delays the right to injunctive relief, which is explicitly provided in the original text. A situation where an imminent threat needs to be addressed is in contradiction with the 30-day cure period introduced.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "Each party agrees that in the event of a breach or threatened breach by either party, including its agents, directors, or employees, of the provisions of this Agreement, the breaching party will be given a 30-day notice to cure such breach. If the breach is not cured within 30 days, the non-breaching party may then pursue available remedies.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the non-breaching party is immediately entitled to an injunction, while the changed text introduces a 30-day cure period before remedies can be pursued. This contradicts the immediacy of the injunction right. The contradicted text is the same as the changed text, indicating that the modification introduces a contradiction by requiring a 30-day cure period, thereby conflicting with the original provision for immediate injunctive relief. This aligns with the definition of 'Inconsistencies - In Text Contradiction' where different sections provide conflicting obligations."
+      }
+    ]
+  }
+]

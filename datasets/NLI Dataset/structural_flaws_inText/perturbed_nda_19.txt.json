@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "nda_19.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "At the conclusion of any discussions, or upon demand by XCZONE.TV, all confidential information, including prototypes, written notes, photographs, sketches, models, memoranda or notes taken shall be returned to XCZONE.TV.",
+        "changed_text": "At the conclusion of any discussions, confidential information may be retained indefinitely by _____________________ and not returned to XCZONE.TV, unless _____________________ deems it necessary.",
+        "explanation": "Changing the requirement to return confidential information to allowing indefinite retention directly contradicts the intent of the NDA. It introduces uncertainty about ownership and control of confidential material. This contradicts section 1.",
+        "location": "Section 3",
+        "contradicted_location": "Section 1",
+        "contradicted_text": "1. _____________________ agrees to hold confidential or proprietary information or trade secrets (\"confidential information\") in trust and confidence and agrees that it shall be used only for the contemplated purposes, shall not be used for any other purpose, or disclosed to any third party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires the return of confidential information to XCZONE.TV. The changed text allows for indefinite retention of confidential information, directly contradicting the requirement for return. This creates a direct conflict with section 1, which states that the confidential information should be held in trust and confidence, used only for contemplated purposes, and not disclosed. The changed text undermines the control and confidentiality intended in section 1, resulting in a clear contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Confidential information shall not be disclosed to any employee, consultant or third party unless they agree to execute and be bound by the terms of this Agreement, and have been approved by XCZONE.TV.",
+        "changed_text": "Confidential information may be freely disclosed to any employee, consultant, or third party without any requirement for agreement or approval by XCZONE.TV.",
+        "explanation": "Removing the restriction on disclosing confidential information undermines the entire NDA. It directly conflicts with the purpose of maintaining confidentiality. This contradicts the WHEREAS section in the preamble.",
+        "location": "Section 4",
+        "contradicted_location": "Preamble",
+        "contradicted_text": "WHEREAS, XCZONE.TV agrees to furnish _____________________ certain confidential information relating to ideas, inventions, services, techniques or products for the purposes of determining an interest in supplying, developing, manufacturing, selling or joint venturing; WHEREAS, _____________________ agrees to review, examine, inspect or obtain such confidential information only for the purposes described above, and to otherwise hold such information confidential pursuant to the terms of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires any employee, consultant or third party to agree to and be bound by the terms of the agreement before confidential information is disclosed to them. The changed text allows confidential information to be freely disclosed to any employee, consultant, or third party without any requirement for agreement or approval. This directly contradicts the WHEREAS section, which states that the recipient of confidential information agrees to hold such information confidential pursuant to the terms of the agreement, because the change removes the requirement for agreement, which the WHEREAS clause is based on."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Essentially, the information will be treated as confidential.",
+        "changed_text": "Essentially, the information is not treated as confidential.",
+        "explanation": "By stating that the information is not treated as confidential, we are creating a contradiction, since the entire agreement is about keeping information confidential. The first line in the document states 'Confidentiality and Non-Disclosure Agreement', then we state it will not be treated as confidential.",
+        "location": "Definition of Nondisclosure Agreement",
+        "contradicted_location": "Preamble",
+        "contradicted_text": "WHEREAS, XCZONE.TV agrees to furnish _____________________ certain confidential information relating to ideas, inventions, services, techniques or products for the purposes of determining an interest in supplying, developing, manufacturing, selling or joint venturing; WHEREAS, _____________________ agrees to review, examine, inspect or obtain such confidential information only for the purposes described above, and to otherwise hold such information confidential pursuant to the terms of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states 'Essentially, the information is not treated as confidential,' which directly contradicts the contradicted text's emphasis on maintaining confidentiality. The contradicted text begins by stating that XCZONE.TV will furnish confidential information and that the other party agrees to hold such information confidential. The changed text negates this fundamental agreement, creating a clear and strong contradiction."
+      }
+    ]
+  }
+]

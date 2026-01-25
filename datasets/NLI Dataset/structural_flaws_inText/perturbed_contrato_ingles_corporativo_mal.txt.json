@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "contrato_ingles_corporativo_mal.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Under the Agreement, it is agreed that the Party disclosing the Confidential Information is herein referred to the “TINTERMEDIARY”, and the Party receiving the Confidential Information is herein referred to the “Recipient”.",
+        "changed_text": "Under the Agreement, the Party disclosing the Confidential Information is referred to as the “TINTERMEDIARY” or “PRODUCER”, and the Party receiving the Confidential Information may sometimes be referred to the “Recipient” or the “Evaluator”.",
+        "explanation": "The original text clearly defines the roles of “TINTERMEDIARY” as the disclosing party and “Recipient” as the receiving party. By adding the alternative term 'Evaluator', the new definition creates uncertainty. It's unclear under which circumstances the term 'Evaluator' will be used and what its obligations are, thereby contradicting any sections that refer to the 'Recipient' and assuming consistent roles, for example Section 8. The definition has been altered in Section 2, making section 8 contradictory due to the additional of “Evaluator”.",
+        "location": "2",
+        "contradicted_location": "8",
+        "contradicted_text": "The receiving Party shall not copy, reproduce, duplicate, publish, disclose, or otherwise make available any Confidential Information disclosed by the Transmitter, or any parts, or abstracts thereof to any third person, firm, corpo ration, partnership or entity in any form or manner whatsoever without the prior written approval of the Transmitter.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined 'TINTERMEDIARY' and 'Recipient' with clear roles. The changed text introduces 'PRODUCER' and 'Evaluator' as alternatives, creating uncertainty. The contradicted text states obligations for the 'receiving Party', which was previously unambiguously 'Recipient'. Now, it's unclear if the 'Evaluator' is also bound by those obligations, creating a strong contradiction. The Perturbation Explanation further supports this, emphasizing the new definition's impact on sections that assume consistent roles."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Agree ment is a perpetual guarantee from its effective date affixed below and is applied to any and all transactions entertained by the Parties regarding exclusively the Project, including subsequent and follow -up, repeat, extended or renegotiated transactions, as well as to the initial transaction, regardless of the success of the Project.",
+        "changed_text": "The Agreement is initially valid for one year from its effective date. Renewal is optional and subject to written agreement by both parties six months prior to the expiration date. After the first year, this agreement is applied to only the initial transactions.",
+        "explanation": "The original text states the agreement is a \"perpetual guarantee\", implying unlimited duration and applicability to all related transactions. The modified text limits the agreement to one year with optional renewal and applies only to initial transactions after the first year. This directly contradicts the perpetual nature described originally, making the long-term applicability of other clauses related to repeat transactions (such as commissions on future sales derived from initial introductions) uncertain. Section 3 is where the change occurs, and sections that reffers on long-term relationship becomes contradictory due to the lack of long term commitment.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "The Agree ment is a perpetual guarantee from its effective date affixed below and is applied to any and all transactions entertained by the Parties regarding exclusively the Project, including subsequent and follow -up, repeat, extended or renegotiated transactions, as well as to the initial transaction, regardless of the success of the Project.",
+        "contradiction_exists": "YES",
+        "justification": "The original text and contradicted text state that the agreement is 'perpetual', while the changed text limits it to one year with optional renewal and applies only to initial transactions after the first year. This creates a direct and clear conflict regarding the duration and applicability of the agreement, making the term 'perpetual' contradictory and creating a strong in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Parties hereby agree to keep completely confidential the name(s) of the Purchaser, such identity shall remain confidential until either the execution of all agreements nec essary to fulfil the Project or the abandon of the Project.",
+        "changed_text": "The Parties hereby agree to keep confidential the names of Purchasers involved in active negotiations. Once negotiations cease or an agreement is abandoned, the confidentiality obligation regarding the Purchaser's name is immediately lifted.",
+        "explanation": "The original text mandates confidentiality of Purchaser names until either the successful completion of agreements or the abandonment of the project. The modified version lifts confidentiality as soon as negotiations cease, even if the project is still ongoing. This contradicts any expectation of ongoing confidentiality even during the project, creating uncertainty and the original section being directly contradicted because of the changes. Location of the change is Section 4, and due to this change that section has in-text contradictions now.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "The Parties hereby agree to keep completely confidential the name(s) of the Purchaser, such identity shall remain confidential until either the execution of all agreements nec essary to fulfil the Project or the abandon of the Project.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text lifts the confidentiality obligation regarding the Purchaser's name as soon as negotiations cease, even if the project is still ongoing. The contradicted text states that confidentiality remains until either the execution of all agreements or the abandonment of the project. Therefore, the changed text creates a direct contradiction because it shortens the period of confidentiality compared to what is stated in the contradicted text, creating an in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Parties agree that absolutely no effort shall be made to circumvent the Agreement in any way or manner to gain fees, commissions, remuneration(s) or other such considerations to the benefit of a Party of the Agreement and/or the Purchaser except mutually and previously agreed by the Parties.",
+        "changed_text": "The Parties agree to make a reasonable effort not to circumvent the Agreement, but if a more favorable opportunity arises independently, then such action would not be considered a breach, unless the original introduction by the other Party was the direct and sole cause of the new opportunity.",
+        "explanation": "The original text strictly prohibits any circumvention of the agreement to gain fees or commissions, unless mutually agreed. The modified text introduces a significant loophole, allowing circumvention if a \"more favorable opportunity arises independently,\" undermining the original intention of preventing circumvention and potentially leading to disputes over what constitutes an \"independent\" opportunity and whether the original introduction contributed. Section 5 where this is being made, it has an in-text contradiction now",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "The Parties agree that absolutely no effort shall be made to circumvent the Agreement in any way or manner to gain fees, commissions, remuneration(s) or other such considerations to the benefit of a Party of the Agreement and/or the Purchaser except mutually and previously agreed by the Parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text strictly prohibits any circumvention. The modified text allows circumvention if a \"more favorable opportunity arises independently.\" This directly contradicts the original text, creating a loophole that undermines the agreement's initial intent. Since both texts were in the same location, the new modification contradicts the original intent, therefore there is an in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Agreement shall apply to all Confidential Information exchanged by the Parties in connection with the purpose of the Agreement defined above, notwithstanding that such Confidential Information may have been excha nged prior to the dates of signature of the Agreement, and shall remain valid for a period of five (5) years. The obligations of the Agreement shall survive for five (5) years after disclosure of the subject Confidential Information.",
+        "changed_text": "The Agreement shall apply to only information explicitly marked as 'Confidential' at the time of exchange, and shall remain valid for a period of one (1) year, renewable annually by mutual written consent. The obligations of the Agreement will not survive after termination of the agreement.",
+        "explanation": "The original text states the agreement is valid for five years after disclosure. The changed text reduces it to one year, contradicting the previous statement and creating ambiguity regarding the duration and applicability of the agreement. The changes are made in Section 10. Any party reading Section 10 would now experience internal conflict since it contradict itself. Also, it affects Section 3, which refers to long-term transactions.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "The Agreement shall apply to all Confidential Information exchanged by the Parties in connection with the purpose of the Agreement defined above, notwithstanding that such Confidential Information may have been excha nged prior to the dates of signature of the Agreement, and shall remain valid for a period of five (5) years. The obligations of the Agreement shall survive for five (5) years after disclosure of the subject Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the duration of the agreement from five years to one year, renewable annually. It also states that the obligations of the agreement will not survive after termination, which directly contradicts the original agreement's stipulation that obligations survive for five years after disclosure. The contradicted text is in the same location as the changed text, but the change causes a conflict with the five-year term specified in the original agreement."
+      }
+    ]
+  }
+]

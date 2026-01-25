@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "1473637_0001432093-12-000764_ex10-34.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Recipient agrees to use Proprietary Information only for the Purpose. Proprietary Information shall not be reproduced in any other form except as required to accomplish the Purpose",
+        "changed_text": "Recipient agrees to use Company Data only for the Purpose. Proprietary Information shall not be reproduced in any other form except as required to accomplish the Purpose",
+        "explanation": "Changing Proprietary Information to Company Data in the first sentence creates a contradiction within the paragraph. The first sentence refers to 'Company Data', implying that the Recipient can only use this data for the specified purpose, while the second sentence refers to 'Proprietary Information,' implying that only 'Proprietary Information' cannot be reproduced without proper authorization. This leads to uncertainty about whether the restrictions on reproduction apply to 'Company Data' as well. In-text contradiction due to the conflicting terms being used within the same paragraph.",
+        "location": "Paragraph 3",
+        "contradicted_location": "Paragraph 3",
+        "contradicted_text": "Recipient agrees to use Company Data only for the Purpose. Proprietary Information shall not be reproduced in any other form except as required to accomplish the Purpose",
+        "contradiction_exists": "YES",
+        "justification": "The original and contradicted texts are identical. The perturbation involves changing 'Proprietary Information' to 'Company Data' in the first sentence, while the second sentence retains 'Proprietary Information.' The explanation details how this creates an in-text contradiction: the first sentence now restricts the use of 'Company Data' to a specific 'Purpose,' while the second sentence restricts the reproduction of 'Proprietary Information.' This creates ambiguity as to whether the reproduction restrictions apply to 'Company Data,' thus triggering an in-text contradiction as the paragraph uses both terms creating conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Recipient agrees not to reverse-engineer or have a third party reverse-engineer the Proprietary Information without first obtaining the express, written consent of Discloser.",
+        "changed_text": "Recipient agrees not to reverse-engineer or have a third party reverse-engineer the Confidential Materials without first obtaining the express, written consent of Discloser.",
+        "explanation": "By replacing 'Proprietary Information' with 'Confidential Materials,' without defining Confidential Materials, a misaligned terminology is introduced. The agreement now refers to a new, undefined term, creating uncertainty about what specifically is protected from reverse engineering. This directly contradicts the initial definition of Proprietary Information and creates an ambiguity which reduces enforceability. There is now an in-text contradiction and there is a new undefined term which may or may not be a subset of the defined \"Proprietary Information\".",
+        "location": "Paragraph 4",
+        "contradicted_location": "Paragraph 5",
+        "contradicted_text": "The obligations of confidentiality and restrictions on use set forth in Paragraph 2 above do not apply to information that Recipient can demonstrate by competent physical evidence: (a) Was already known by Recipient prior to receipt from Discloser or becomes known by Recipient independently of Discloser through no wrongful act of Recipient; (b) is now, or becomes, publicly known through no violation of this Agreement; (c) is disclosed pursuant to law, regulation or lawful order or process, provided that Recipient promptly notifies Discloser so as to permit Discloser to oppose or limit such disclosure; or (d) is approved in writing by Discloser for disclosure to a third party by Recipient. Proprietary Information disclosed by Discloser to Recipient shall not be deemed to come under the above exceptions merely because it is embraced by more general information that is or becomes subject to the above exceptions. In addition, any combination of features shall not be deemed to be within the foregoing exceptions merely because individual features are in the public domain or in the possession of the Recipient, but only if the combination itself and its principle of operation are in the public domain or in the possession of the Recipient.",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'Proprietary Information', which is presumably defined elsewhere in the contract. The changed text replaces this with 'Confidential Materials' without defining this new term. The contradicted text references 'Proprietary Information' and exceptions to its confidentiality. By introducing an undefined 'Confidential Materials', it's unclear whether these exceptions also apply to it, creating ambiguity and potential contradiction because the Contradicted Text references only 'Proprietary Information' whereas the Changed Text uses 'Confidential Materials', which might be interpreted differently, creating ambiguity and contradiction. This aligns with the 'Misaligned Terminology - In Text Contradiction' definition."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement is for protecting Proprietary Information only. No rights or obligations other than those expressly recited herein are granted or to be implied from this Agreement.",
+        "changed_text": "This Agreement is for protecting Trade Secrets only. No rights or obligations other than those expressly recited herein are granted or to be implied from this Agreement.",
+        "explanation": "Changing 'Proprietary Information' to 'Trade Secrets' narrows the scope of the agreement, leading to potential dispute over whether types of information defined earlier as 'Proprietary Information' but not necessarily meeting the legal threshold of 'Trade Secrets' are protected under the agreement. Because Proprietary Information has a broad legal understanding, in-text now the contraction could invalidate the definition of Proprietary information being used and referenced throughout the document.",
+        "location": "Paragraph 7",
+        "contradicted_location": "Paragraph 8",
+        "contradicted_text": "Discloser makes no representations, extends no warranties of any kind, either express or implied, and assumes no responsibilities whatsoever with respect to the adequacy, accuracy, completeness, operability, fitness for a particular purpose, or utility of any information, including Proprietary Information, obtained or used by Recipient under this Agreement. The information, including Proprietary Information, is provided \"AS IS,\" without warranty or guarantee of any kind and Discloser shall not be liable to the Recipient for any damages, loss, expense or claim of loss arising of any kind from the use of or reliance upon such information, including Proprietary Information.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Proprietary Information' to 'Trade Secrets' narrows the scope of the agreement. The contradicted text references 'Proprietary Information' and disclaims warranties regarding its accuracy, completeness, etc. Since Proprietary Information has a broader legal understanding than Trade Secrets, narrowing the agreement's scope to Trade Secrets could lead to the argument that the warranty disclaimer only applies to Trade Secrets, not other forms of previously included Proprietary Information. This creates a strong in-text contradiction because the definition of Proprietary information is now invalid."
+      }
+    ]
+  }
+]

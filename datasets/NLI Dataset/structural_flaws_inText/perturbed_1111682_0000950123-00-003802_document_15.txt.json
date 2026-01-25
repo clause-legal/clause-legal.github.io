@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "1111682_0000950123-00-003802_document_15.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The receiving party agrees not to copy any Proprietary Information without the written permission of the disclosing party, and shall return such Proprietary Information and any copies when requested to do so by the disclosing party during the term of this Agreement",
+        "changed_text": "The receiving party agrees not to copy any Proprietary Information without the written permission of the disclosing party, but such permission will not be unreasonably withheld. The receiving party shall make reasonable efforts to return Proprietary Information and copies upon request.",
+        "explanation": "The added phrase \"but such permission will not be unreasonably withheld\" contradicts the initial requirement for explicit written permission. This gives the receiving party a degree of leeway to copy information even without explicit permission. It also weakens the return policy by only requiring \"reasonable efforts\" instead of a strict return of all copies. This change affects the obligations set out in that same section.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "The receiving party agrees not to copy any Proprietary Information without the written permission of the disclosing party, but such permission will not be unreasonably withheld. The receiving party shall make reasonable efforts to return Proprietary Information and copies upon request. 4. No license, express or implied, is granted by either party to the other party under any patent, trade secret or copyright now or hereafter owned by either party under this Agreement. 5. This Agreement shall be construed and interpreted, and its performance shall be governed by substantive laws of the state of Connecticut, U.S.A., without recourse to its conflict of laws, rules or principles. <PAGE> 27 -27- 6. Either party upon thirty (30) days notice given in writing to the other party may terminate this Agreement. However, termination of the Agreement will not affect the confidentiality and non-use obligations of either party. AGREED: BALLARD POWER SYSTEMS INC. UCAR CARBON COMPANY INC. By /s/ Keith B. Prater By/s/ R.M. Flowers",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the original requirement for explicit written permission to copy Proprietary Information by adding \"but such permission will not be unreasonably withheld.\" This introduces a degree of leeway, allowing the receiving party to potentially copy information even without explicit written permission. This directly contradicts the strict return policy initially in place by only requiring 'reasonable efforts.' The contradicted text, which is also the changed text in this case, now includes this contradictory obligation within itself. Because the contradicted text is the same as the changed text, and the explanation indicates an in-text contradiction was introduced by that change, it is a YES."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Either party upon thirty (30) days notice given in writing to the other party may terminate this Agreement. However, termination of the Agreement will not affect the confidentiality and non-use obligations of either party.",
+        "changed_text": "Either party upon thirty (30) days notice given in writing to the other party may terminate this Agreement. Termination of the Agreement will affect the confidentiality and non-use obligations of either party if requested within 30 days of the termination notice.",
+        "explanation": "Changing \"will not affect\" to \"will affect\" and adding \"if requested within 30 days of the termination notice\" directly contradicts the original clause stating that termination does not impact confidentiality. The new text states that the obligations CAN be affected and adds a condition regarding the request timeline to create uncertainty. This makes it unclear when, and if, confidentiality is protected after termination.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "Either party upon thirty (30) days notice given in writing to the other party may terminate this Agreement. Termination of the Agreement will affect the confidentiality and non-use obligations of either party if requested within 30 days of the termination notice. AGREED: BALLARD POWER SYSTEMS INC. UCAR CARBON COMPANY INC. By /s/ Keith B. Prater By/s/ R.M. Flowers ------------------- ---------------- Name Keith B. Prater Name R.M. Flowers --------------- ------------ Title Vice President Title Dir.-Worldwide Tech. -------------- -------------------- Date 21Jun96 Date July 2, 1996 ------- ------------",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated termination 'will not affect' confidentiality. The changed text says termination 'will affect' confidentiality if requested, introducing a direct contradiction. This inconsistency regarding the impact of termination on confidentiality obligations creates a clear conflict, as the contradicted text is identical to the changed text, but originally the agreement stated the opposite."
+      }
+    ]
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "NDA_for_Raffles_Translation_Website.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - Legal Contradiction",
+        "original_text": "(b) \u201cAffiliate\u201d of a Party means any corporation or other entity that a Party directly or indirectly controls, or is controlled by or is under common control with. In this context, a Party \u201ccontrols\u201d a corporation or other entity if it owns fifty percent (50%) or more of the voting rights for the board of directors or other mechanism of control for the corporation or other entity.",
+        "changed_text": "(b) \u201cAffiliate\u201d of a Party means any corporation or other entity that a Party directly or indirectly controls, or is controlled by or is under common control with. In this context, a Party \u201ccontrols\u201d a corporation or other entity if it owns twenty percent (20%) or more of the voting rights for the board of directors or other mechanism of control for the corporation or other entity.",
+        "explanation": "The definition of 'controls' in the context of 'Affiliate' is changed from 50% to 20% ownership. This conflicts with standard corporate law definitions of control, creating ambiguity and potentially affecting the scope of confidentiality obligations.",
+        "contradicted_law": "Singapore Companies Act, Section 4",
+        "law_citation": "Singapore Companies Act, Section 4",
+        "law_url1": [
+          "https://sso.agc.gov.sg/Act/CoA1967#pr4-"
+        ],
+        "law_url2": [
+          "https://www.lexology.com/library/detail.aspx?g=8546dd69-597d-4d65-9c1a-06b68b836f80"
+        ],
+        "law_explanation": "The Singapore Companies Act typically uses a higher threshold for defining control. Lowering the threshold to 20% creates a conflict, as the Act uses this concept to define subsidiaries and related-party transactions, which trigger different legal and reporting obligations. This could lead to uncertainty in determining which entities are covered under the NDA as 'Affiliates'.",
+        "location": "1. Definitions (b)",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The original contract defined 'control' as 50% ownership, aligning with common corporate law standards for defining affiliates. The changed text lowers this threshold to 20%, which, according to the Law Explanation, conflicts with the Singapore Companies Act's typical higher threshold for defining control and subsidiaries. This misalignment, as per the Perturbation Explanation, creates ambiguity and potential legal issues. The 'Misaligned Terminology Legal Contradiction' definition states that a contradiction arises when contractual language deviates from legally recognized definitions, making the contract unenforceable, which is precisely the case here due to the altered definition of 'control'."
+      },
+      {
+        "type": "Misaligned Terminology - Legal Contradiction",
+        "original_text": "(c) \u201cConfidential Information\u201d refers to all non -public information co ncerning itself, its affiliates and subsidiaries, which may include, but is not limited to (i) all discussions between the Company and Vendor pursuant to and relating to the Activity , (ii) any business, marketing, human resource, financial, technical, scie ntific or other information in tangible or intangible form, discl osed by one Party (including its Affiliates) (hereinafter known as the \u201cDisclosing Party \u201d) to the other Party (including its Affiliates) (hereinafter known as the \u201c Receiving Party \u201d) which, at the time of disclosure is designated as confidential (or like designation), is disclosed in circumstances of confidence, or would be understood by the P arties (or its Affiliates) exercising reasonable business judgment, to be confidential, specifically in cluding the Parties\u2019 business, finances, operations, including projections and analysis, business plans, service delivery concepts, technical know -how, patent applications, staff strength, staff records, payroll, customer lists, supplier lists, methods of operations, price lists, software code, development strategies, distribution arrangements, financial data, marketing plans, and business practices or policies.",
+        "changed_text": "(c) \u201cConfidential Information\u201d refers to all non -public information concerning itself, its affiliates and subsidiaries, which may include, but is not limited to (i) all discussions between the Company and Vendor pursuant to and relating to the Activity , (ii) any business, marketing, human resource, financial, technical, scie ntific or other information in tangible or intangible form, discl osed by one Party (including its Affiliates) (hereinafter known as the \u201cDisclosing Party \u201d) to the other Party (including its Affiliates) (hereinafter known as the \u201c Receiving Party \u201d) which, at the time of disclosure is designated as confidential (or like designation), is disclosed in circumstances of confidence, or would be understood by the P arties (or its Affiliates) exercising reasonable business judgment, to be confidential, specifically including the Parties\u2019 business, finances, operations.",
+        "explanation": "The definition of Confidential Information has been narrowed. The text was cut to remove: including projections and analysis, business plans, service delivery concepts, technical know -how, patent applications, staff strength, staff records, payroll, customer lists, supplier lists, methods of operations, price lists, software code, development strategies, distribution arrangements, financial data, marketing plans, and business practices or policies. The modified definition is too narrow and does not adhere to Singapore's PDPA which defines business data as personal data and is subject to confidentiality.",
+        "contradicted_law": "Singapore Personal Data Protection Act (PDPA) 2012, Section 2(1)",
+        "law_citation": "Singapore Personal Data Protection Act (PDPA) 2012, Section 2(1)",
+        "law_url1": [
+          "https://sso.agc.gov.sg/Act/PDPA2012"
+        ],
+        "law_url2": [
+          "https://www.pdpc.gov.sg/what-we-do/overview-of-pdpa"
+        ],
+        "law_explanation": "Under Singapore's PDPA, 'personal data' which often includes business data like customer lists, staff records, and payroll, is protected. The reduced scope of 'Confidential Information' could imply that data no longer considered as confidential in the contract is not covered by its protection, potentially leading to violations of the PDPA if such data is disclosed without consent.",
+        "location": "1. Definitions (c)",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "PDPC | Page Not Found Search Toggle search bar Toggle mobile menu Search Be aware of scammers impersonating as PDPC officers and report any suspicious calls to the Police. Do not reveal personal information over the phone to unknown parties. You may call PDPC (6377 3131) to verify the identity of the alleged PDPC officer. For scam-related advice, visit www.scamshield.gov.sg . Close notification The PDPC website has recently undergone a transformation. Please click the links below if you are looking for: Overview of the Personal Data Protection Act (PDPA) Commission's Decisions Advisory on Collection of Personal Data for COVID-19 Contact Tracing Advisory Guidelines Help for DP Professionals E-Learning Programme DPO Connect e-Newsletter Take me back to homepage . Share To offer you a better experience, this site uses cookies. Read more about cookies in our Privacy Statement. Close Back to top of page Personal Data Protection Commission Contact Us FAQs Sitemap \u00a9 2025 Personal Data Protection Commission Last updated 05 Dec 2023",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The modified contract text narrows the definition of \"Confidential Information\" by removing specific examples such as 'customer lists, staff records, and payroll'. The Law Explanation states that Singapore's PDPA protects 'personal data' which includes business data like customer lists and payroll. By reducing the scope of what's considered confidential, the modified contract potentially allows for the disclosure of such data without the protection afforded by the contract, which could lead to violations of the PDPA. While the Scraped Law Snippet 2 doesn't provide specific details of PDPA law, it points to the Personal Data Protection Commission's (PDPC) website where such information can be found. Thus, the modified text contradicts the intention, to protect personal data, which may lead to a violation of the law."
+      },
+      {
+        "type": "Misaligned Terminology - Legal Contradiction",
+        "original_text": "(d) Governing Law . This Agreement shall be governed by, and construed in accordance with, the laws of Singapore and shall be subject to the non -exclusive jurisdiction of the courts of Singapore.",
+        "changed_text": "(d) Governing Law . This Agreement shall be governed by, and construed in accordance with, the laws of Delaware, USA and shall be subject to the non -exclusive jurisdiction of the courts of Delaware, USA.",
+        "explanation": "The governing law and jurisdiction are changed from Singapore to Delaware, USA. This could create a conflict if the activities covered by the NDA primarily occur in Singapore and involve compliance with Singaporean laws (e.g., PDPA), making enforcement in Delaware complex and potentially inconsistent with Singaporean legal requirements.",
+        "contradicted_law": "Singapore Personal Data Protection Act (PDPA) 2012",
+        "law_citation": "Singapore Personal Data Protection Act (PDPA) 2012",
+        "law_url1": [
+          "https://sso.agc.gov.sg/Act/PDPA2012"
+        ],
+        "law_url2": [
+          "https://www.pdpc.gov.sg/what-we-do/overview-of-pdpa"
+        ],
+        "law_explanation": "Switching the governing law to Delaware could complicate compliance with Singapore's PDPA. If the NDA covers the processing of personal data in Singapore, the PDPA applies regardless of the governing law stipulated in the contract. Enforcing the NDA under Delaware law might not adequately address PDPA violations, leading to legal complications and potential non-compliance.",
+        "location": "6. General (d)",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "PDPC | Page Not Found Search Toggle search bar Toggle mobile menu Search Be aware of scammers impersonating as PDPC officers and report any suspicious calls to the Police. Do not reveal personal information over the phone to unknown parties. You may call PDPC (6377 3131) to verify the identity of the alleged PDPC officer. For scam-related advice, visit www.scamshield.gov.sg . Close notification The PDPC website has recently undergone a transformation. Please click the links below if you are looking for: Overview of the Personal Data Protection Act (PDPA) Commission's Decisions Advisory on Collection of Personal Data for COVID-19 Contact Tracing Advisory Guidelines Help for DP Professionals E-Learning Programme DPO Connect e-Newsletter Take me back to homepage . Share To offer you a better experience, this site uses cookies. Read more about cookies in our Privacy Statement. Close Back to top of page Personal Data Protection Commission Contact Us FAQs Sitemap \u00a9 2025 Personal Data Protection Commission Last updated 05 Dec 2023",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The change in governing law from Singapore to Delaware, USA, directly contradicts the implied requirement to comply with Singaporean laws, particularly the PDPA, if the activities covered by the NDA primarily occur in Singapore. The scraped snippet 2, though incomplete, mentions the Personal Data Protection Commission (PDPC) and its role, suggesting the relevance of Singapore's PDPA. The modified clause, by switching jurisdiction, makes enforcing compliance with Singaporean data protection laws more complex and potentially unenforceable, which aligns with the 'Misaligned Terminology Legal Contradiction' definition where contractual language deviates from legally recognized definitions, making the contract unenforceable."
+      }
+    ]
+  }
+]

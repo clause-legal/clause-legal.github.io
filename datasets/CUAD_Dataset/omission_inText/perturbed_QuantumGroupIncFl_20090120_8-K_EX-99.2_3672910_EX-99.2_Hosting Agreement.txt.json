@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "QuantumGroupIncFl_20090120_8-K_EX-99.2_3672910_EX-99.2_Hosting Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "\"Bandwidth\" means the measurement of samples of usage taken every five (5) minutes during a calendar month and collecting two (2) readings (cumulative of inbound feeds and cumulative of outbound feeds at the same measured point in time). The measurements are stored and become data points. At the end of the month, all data points taken during the month are ranked in ascending order. IBM will discard the top five percent (5%) for each set (inbound and outbound) of data points. The highest remaining sample of the two (2) sets becomes the Customer's Committed or Burstable usage number for that billing cycle.",
+        "changed_text": "\"Bandwidth\" means a general measure of data transfer volume, the specific calculation of which will be determined at IBM's discretion.",
+        "explanation": "The original definition of 'Bandwidth' provides a detailed method for calculation. The modified definition introduces an in-text contradiction by making the bandwidth calculation subjective and unilaterally determined by IBM, even though later sections refer back to the original defined calculation in Attachment C. This creates uncertainty in enforcement of overage charges.",
+        "location": "2.0 Definitions",
+        "contradicted_location": "Attachment C - Charges",
+        "contradicted_text": "Peak Bandwidth Usage charges for data traffic in excess of Committed Bandwidth are due as incurred. IBM will determine Peak Bandwidth Usage charges each month by subtracting the Committed Bandwidth from the Peak Bandwidth Usage for that month and multiplying the difference by the Peak Bandwidth Usage rate of $147.14.00 per Mbps.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text provides a subjective definition of 'Bandwidth' determined at IBM's discretion, which directly contradicts the original text that defined 'Bandwidth' as a calculation of samples of usage. This creates a contradiction with the contradicted text, which states 'IBM will determine Peak Bandwidth Usage charges each month by subtracting the Committed Bandwidth from the Peak Bandwidth Usage for that month'. The original definition provided a concrete calculation for bandwidth, while the revised definition allows IBM to unilaterally determine it, making the formula in the 'Contradicted Text' section unenforceable since there's no longer a fixed, agreed-upon method for determining 'Peak Bandwidth Usage' or 'Committed Bandwidth'."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Customer may terminate this Agreement, or any portion of Services specified herein, for convenience by: providing at least sixty (60) days prior written notice to IBM; and paying the applicable early termination charges specified in Attachment C.",
+        "changed_text": "Customer may terminate this Agreement, or any portion of Services specified herein, for convenience by: providing at least sixty (60) days prior written notice to IBM.",
+        "explanation": "By removing the clause 'paying the applicable early termination charges specified in Attachment C', the modified text creates an in-text contradiction with Attachment C, which specifies early termination charges. This omission makes the enforcement of early termination fees uncertain.",
+        "location": "4.0 Term and Termination",
+        "contradicted_location": "Attachment C - Charges",
+        "contradicted_text": "In the event the Customer elects to terminate this Agreement, or any portion of the Services described herein, for convenience, Customer will pay the applicable termination charges as set forth in the table below.\n\n3-year (thirty six (36) month) Term:\n\nFor termination:\n\nFor any terminated Services, Customer will be charged:\n\nprior to first anniversary of the Hosting Service Ready Date\nfour (4) months' applicable recurring monthly charges plusany unpaid One Time Charges\nfrom the first anniversary of the Hosting Service Ready Date and prior to the second anniversary of the Hosting Service Ready Date\nthree (3) months' applicable recurring monthly charges\nfrom the second anniversary of the Hosting Service Ready Date and prior to the expiration of this Agreement\ntwo (2) month's applicable recurring monthly charges",
+        "contradiction_exists": "YES",
+        "justification": "The original text required both providing 60 days' notice and paying termination charges, while the changed text only requires providing notice. The contradicted text explicitly states that the customer *will* pay termination charges upon early termination. Removing the payment obligation directly contradicts the requirement to pay such charges, creating an in-text contradiction and uncertainty regarding enforcement of termination fees."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The parties will review the PCR and will do one of the following: authorize the change by signing the PCR; agree in writing to submit the PCR for further investigation. In such case, Customer agrees to pay IBM for its reasonable charges, if any, for such investigation. The investigation will determine the technical merits and the effect on the charges, schedule, and other terms and conditions that may result from the implementation of the PCR. The parties will then decide either to accept or to reject the PCR; or reject the PCR.",
+        "changed_text": "The parties will review the PCR and will do one of the following: authorize the change by signing the PCR; agree in writing to submit the PCR for further investigation. The parties will then decide either to accept or to reject the PCR; or reject the PCR.",
+        "explanation": "By removing the sentence, 'In such case, Customer agrees to pay IBM for its reasonable charges, if any, for such investigation. The investigation will determine the technical merits and the effect on the charges, schedule, and other terms and conditions that may result from the implementation of the PCR.', the Customer might think that IBM is responsible for the charges if they decided to review the PCR with further investigation, causing in-text contradiction in section 5.0 which discusses about the payment.",
+        "location": "13.0 Changes",
+        "contradicted_location": "5.0 Charges and Payment",
+        "contradicted_text": "Customer will pay to IBM all applicable charges specified in Attachment C. Charges may be specified as one-time, recurring, or usage. IBM will invoice such charges when they begin or are due as set forth in Attachment C.\n\nPayment IBM invoices will specify the amount due. Payment is due and payable by month end for any invoice received by the 10th of the month, otherwise payment is due thirty (30) days from receipt of invoice. Customer agrees to pay accordingly, including any late payment fees. Payment will be made in United States dollars.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly states that the Customer agrees to pay IBM's charges for further investigation of the PCR. The changed text removes this obligation. The contradicted text states that the customer will pay IBM all applicable charges specified in Attachment C, which presumably includes charges for PCR investigation. By removing the explicit mention of Customer responsibility for investigation charges, the changed text creates ambiguity and a potential contradiction with the contradicted text, since the Customer could now argue that they are not responsible for those charges, creating a strong inconsistency."
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "NDA_5.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Participant will use the same degree of care, but no less than a reasonable degree of care, as Participant uses with respect to its own similar information to protect the Confidential Information and to prevent (i) any use of Confidential Information not authorized in this Agreement, (ii) dissemination of Confidential Information to any third party.",
+        "changed_text": "Participant will use a minimal degree of care to protect the Confidential Information, provided it is no less than what is required by applicable law. Participant is permitted to disseminate Confidential Information to essential third parties with a need to know.",
+        "explanation": "This change introduces a contradiction by relaxing the standard of care required to protect Confidential Information. The original text requires the same degree of care as Participant uses for its own similar information, but no less than a reasonable degree of care. The revised text only requires a minimal degree of care required by law, and also allows dissemination to third parties, therefore creates in-text contradiction with the original text because earlier in the document it was prohibitted.",
+        "location": "Paragraph 2",
+        "contradicted_location": "Paragraph 2",
+        "contradicted_text": "Participant will use the same degree of care, but no less than a reasonable degree of care, as Participant uses with respect to its own similar information to protect the Confidential Information and to prevent (i) any use of Confidential Information not authorized in this Agreement, (ii) dissemination of Confidential Information to any third party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text weakens the standard of care for protecting confidential information from 'the same degree of care, but no less than a reasonable degree of care' to a 'minimal degree of care'. It also now allows dissemination to third parties, which was previously prohibited. The contradicted text states that the Participant will use the same degree of care and prevent dissemination to any third party. Thus, the changed text directly contradicts the contradicted text by relaxing the standard of care and allowing dissemination, creating a clear in-text contradiction as outlined in the provided explanation and the 'Inconsistencies' perturbation definition."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement between the parties supersedes any other prior or collateral agreements, whether oral or written, with respect to the subject matter hereof and constitutes the entire agreement with respect to the subject matter hereof.",
+        "changed_text": "This Agreement is intended as a supplement to any prior agreements, and does not supersede any existing confidentiality arrangements between the parties unless explicitly stated otherwise in writing by both parties.",
+        "explanation": "This change introduces a contradiction by altering the interpretation of whether this agreement takes precedence over prior agreements. The original agreement dictates this agreement supersedes any prior or collateral agreements but now this agreement acts as a supplement. The original intent of having this agreement as the sole and comprehensive agreement is directly contradicted and therefore contradicts with the original text.",
+        "location": "Paragraph 8",
+        "contradicted_location": "Paragraph 8",
+        "contradicted_text": "This Agreement between the parties supersedes any other prior or collateral agreements, whether oral or written, with respect to the subject matter hereof and constitutes the entire agreement with respect to the subject matter hereof.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. The original text states that the agreement supersedes any prior agreements, whereas the changed text states that the agreement is intended as a supplement to prior agreements, which are directly contradictory statements. This falls under the definition of inconsistencies leading to in-text contradictions when different sections of a contract provide conflicting obligations."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The exclusive venue for any dispute relating to this Agreement shall be in the state or federal courts within Santa Clara County, California.",
+        "changed_text": "Any dispute relating to this Agreement shall be resolved through binding arbitration in a location mutually agreed upon by both parties. If the parties cannot agree on a location, arbitration will take place in the Participant's principal place of business.",
+        "explanation": "This change introduces a contradiction by altering the dispute resolution process. The original text specifies that disputes will be resolved in California courts. The modified text mandates binding arbitration, potentially in a location outside of California. This shift contradicts the original venue clause and creates uncertainty about how disputes will be handled.",
+        "location": "Paragraph 9",
+        "contradicted_location": "Paragraph 9",
+        "contradicted_text": "The exclusive venue for any dispute relating to this Agreement shall be in the state or federal courts within Santa Clara County, California.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a mandatory binding arbitration clause, potentially located outside Santa Clara County, California. This directly contradicts the contradicted text, which specifies that the exclusive venue for disputes is in the state or federal courts within Santa Clara County, California. This inconsistency in dispute resolution methods and location constitutes a strong in-text contradiction, creating uncertainty and potential unenforceability."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Participant hereby certifies that he/she shall not -- directly or indirectly -- sell, export, reexport, transfer, divert, or otherwise dispose of any hardware, software, source code, or technology (including products derived from or based on such technology or software) received from Google to any country (or national thereof) without obtaining prior authorization from Google and the appropriate government authorities.",
+        "changed_text": "Participant is permitted to export hardware, software, source code or technology received from Google to countries approved by Google in writing, provided that Participant complies with all applicable export control laws. Google's approval will not be unreasonably withheld.",
+        "explanation": "This change introduces a contradiction by changing the export restrictions. The original text strictly prohibits exporting without prior authorization from Google and government authorities. The modified text permits exporting with Google's written approval, making it less stringent. Therefore, it creates in-text contradiction to the original document.",
+        "location": "Paragraph 5",
+        "contradicted_location": "Paragraph 5",
+        "contradicted_text": "Participant hereby certifies that he/she shall not -- directly or indirectly -- sell, export, reexport, transfer, divert, or otherwise dispose of any hardware, software, source code, or technology (including products derived from or based on such technology or software) received from Google to any country (or national thereof) without obtaining prior authorization from Google and the appropriate government authorities.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the export restrictions. The original and contradicted text strictly prohibits exporting without prior authorization from both Google and government authorities. The changed text permits exporting with Google's written approval only, provided compliance with export control laws, making it less restrictive and creating a clear contradiction to the original text. This directly breaks compatibility between the sections as one prohibits without Google AND government approval, while the other permits with Google's approval only. This falls under the definition of 'Inconsistencies - In Text Contradiction'."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "In connection with Participant's visit, Google may disclose or expose to Participant certain information that is proprietary to Google (\"Confidential Information\"). Participant will use the Confidential Information only for the purpose associated with Participant's visit.",
+        "changed_text": "In connection with Participant's visit, Google will disclose or expose to Participant certain information that is proprietary to Google (\"Confidential Information\"). Participant may use the Confidential Information for purposes related to their company's core business.",
+        "explanation": "This change introduces a contradiction by expanding the allowable use of Confidential Information. The original text restricts the use of Confidential Information to the purpose associated with the Participant's visit. The modified text allows its use for purposes related to the Participant's company's core business. By removing the direct tie to the 'visit' the participant can now use the information for their own goals and therefore contradicting the original purpose.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "Participant will use the Confidential Information only for the purpose associated with Participant's visit.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the allowable use of Confidential Information. The original and contradicted text state that Participant will use the Confidential Information 'only for the purpose associated with Participant's visit.' The changed text, however, allows the Participant to use the Confidential Information 'for purposes related to their company's core business.' This creates a direct conflict and contradiction because it broadens the permissible uses of the information beyond the explicit restriction stated in the contradicted text, creating an inconsistency."
+      }
+    ]
+  }
+]

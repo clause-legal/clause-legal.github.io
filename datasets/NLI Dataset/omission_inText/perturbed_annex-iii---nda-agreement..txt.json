@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "annex-iii---nda-agreement..txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "2.6 Nothing in this agreement will restrict your ability to disclose PwC’s advice concerning the tax (including social security) treatment or tax structure of any transaction regardless of any confidentiality markings on any communications.",
+        "changed_text": "2.6 Nothing in this agreement will restrict your ability to disclose PwC’s advice concerning the tax (including social security) treatment or tax structure of any transaction.",
+        "explanation": "By removing 'regardless of any confidentiality markings on any communications', the clause becomes ambiguous. Now, if PwC marks tax advice as confidential, it's unclear whether the receiving party is still free to disclose it. This creates a contradiction with the general confidentiality obligations outlined earlier.",
+        "location": "2.6",
+        "contradicted_location": "2.1",
+        "contradicted_text": "The receiving party agrees: (a) to keep the disclosing party’s confidential information, confidential; (b) not to use the disclosing party’s confidential information except in connection with the purpose; and (c) not to disclose the disclosing party’s confidential information to anyone else.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly allowed disclosure of tax advice regardless of confidentiality markings. The changed text removes this exception, making the disclosure of tax advice with confidentiality markings ambiguous. This creates a direct conflict with the contradicted text, which mandates keeping all confidential information confidential, because it is unclear whether 'PwC’s advice concerning the tax' is considered confidential information anymore when it contains confidentiality markings, leading to an in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "3.1 This agreement will come into effect on the date of signature by both parties and will continue indefinitely, subject to any subsequent agreement entered into between the parties in relation to the purpose which includes obligations relating to the protecti on of confidential information. The subsequent agreement will then replace this agreement with effect from the commencement of our services.",
+        "changed_text": "3.1 This agreement will come into effect on the date of signature by both parties and will continue indefinitely, subject to any subsequent agreement entered into between the parties in relation to the purpose. The subsequent agreement will then replace this agreement with effect from the commencement of our services.",
+        "explanation": "By removing 'which includes obligations relating to the protecti on of confidential information', the agreement no longer explicitly requires subsequent agreements to contain confidentiality obligations. This contradicts the fundamental purpose of the NDA if later agreements lack such clauses, and creates ambiguity about what governs confidentiality after the commencement of services under a subsequent agreement.",
+        "location": "3.1",
+        "contradicted_location": "2",
+        "contradicted_text": "2 Confidentiality 2.1 The receiving party agrees: (a) to keep the disclosing party’s confidential information, confidential; (b) not to use the disclosing party’s confidential information except in connection with the purpose; and (c) not to disclose the disclosing party’s confidential information to anyone else. 2.2 Each party agrees that it will keep the purpose and the existence of this agreement confidential. 2.3 This agreement will not apply to information which: (a) is publicly available; or (b) has been received from someone else who owes no duty of confidence in relation to it; or (c) was already known by the receiving party. 2.4 Nothing i n this agreement will prevent the receiving party from disclosing confidential information: (a) if the disclosing party has given its prior written consent; or (b) to its lawyers; or (c) if the disclosure is required by law, regulation or professional requirements. 2.5 The receiving party will ensure that anyone who receives confidential information under clause 2.4 (b) is bound by confidentiality obligations before the confidential information is di sclosed. 2.6 Nothing in this agreement will restrict your ability to disclose PwC’s advice concerning the tax (including social security) treatment or tax structure of any transaction.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly states that any subsequent agreement includes obligations related to the protection of confidential information. The changed text removes this requirement. The contradicted text (section 2) outlines the confidentiality obligations. By removing the requirement in the changed text, there is no guarantee that future agreements will contain confidentiality clauses, potentially contradicting the initial confidentiality obligations in section 2. This creates a strong contradiction because the confidentiality outlined in section 2 may not be upheld if a subsequent agreement lacks similar clauses, as the changed text allows for subsequent agreements without confidentiality obligations, thus making section 2 unenforceable if a subsequent agreement is signed without confidentiality clauses."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "3.2 Following a written request from the disclosing party, the receiving party will, as soon as practicable, either de stroy or return all confidential information to the disclosing party or, in the case of electronic copies of confidential information, delete them or make them reasonably inaccessible. However, PwC may retain a copy of the confidential information for our internal purposes.",
+        "changed_text": "3.2 Following a written request from the disclosing party, the receiving party will, as soon as practicable, either de stroy or return all confidential information to the disclosing party or, in the case of electronic copies of confidential information, delete them or make them reasonably inaccessible.",
+        "explanation": "By removing 'However, PwC may retain a copy of the confidential information for our internal purposes', it implies that PwC must also destroy all confidential information upon request. This contradicts standard professional practices where firms retain records for compliance or legal reasons, potentially creating liability if PwC destroys information it's legally required to keep.",
+        "location": "3.2",
+        "contradicted_location": "2.1",
+        "contradicted_text": "The receiving party agrees: (a) to keep the disclosing party’s confidential information, confidential; (b) not to use the disclosing party’s confidential information except in connection with the purpose; and (c) not to disclose the disclosing party’s confidential information to anyone else.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly allowed PwC to retain confidential information for internal purposes. The changed text removes this allowance, implying that PwC must destroy all confidential information upon request. This creates a contradiction with the 'Contradicted Text,' which states the receiving party agrees to keep the disclosing party's confidential information confidential. This contradiction arises because PwC could not fulfill both obligations simultaneously if they destroyed the confidential information, but are still obligated to keep it confidential. This aligns with the 'Omissions - In Text Contradiction' definition as removing the retention clause creates a contradiction with the obligation to keep information confidential."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This agreement forms the entire agreement between the parties relating to confidential information disclosed in connection with the purpose. It replaces any earlier agreements, representations or discussions. Neither party excludes liability for any fraud.",
+        "changed_text": "This agreement forms the entire agreement between the parties. It replaces any earlier agreements, representations or discussions. Neither party excludes liability for any fraud.",
+        "explanation": "By removing 'relating to confidential information disclosed in connection with the purpose', the agreement now broadly claims to be the entire agreement for *all* matters between the parties, not just confidentiality regarding the project. This contradicts the limited scope defined in the 'Background' section and potentially overrides other existing agreements. This change causes an in-text contradiction with the Background paragraph.",
+        "location": "4",
+        "contradicted_location": "Background",
+        "contradicted_text": "Background In connection with our discussions relating to ‘[Insert project name]’ (the “purpose”) certain confidential information may be disclosed between us.",
+        "contradiction_exists": "YES",
+        "justification": "The original text limits the 'entire agreement' clause to confidential information related to a specific purpose. The changed text broadens the 'entire agreement' to encompass *all* agreements between the parties, contradicting the 'Background' section, which defines the agreement's scope as limited to discussions relating to '[Insert project name]' and confidential information. This broader claim directly conflicts with the limited scope outlined in the 'Background', creating an in-text contradiction because it could override other potential agreements."
+      }
+    ]
+  }
+]

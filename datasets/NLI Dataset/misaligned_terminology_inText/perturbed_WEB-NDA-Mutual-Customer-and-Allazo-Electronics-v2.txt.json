@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "WEB-NDA-Mutual-Customer-and-Allazo-Electronics-v2.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Receiving Party shall protect the disclosed Confidential Information by using the same degree of care, but no less than a reasonable degree of care, to prevent the unauthorized use, dissemination or publication of the Confidential Information as the Receiving Party uses to protect its own Confidential Information of a similar nature.",
+        "changed_text": "The Receiving Party shall protect the disclosed Protected Data by using the same degree of care, but no less than a reasonable degree of care, to prevent the unauthorized use, dissemination or publication of the Confidential Information as the Receiving Party uses to protect its own Confidential Information of a similar nature.",
+        "explanation": "Changing 'Confidential Information' to 'Protected Data' at the beginning of the sentence creates confusion as 'Protected Data' isn't defined. It's unclear what aspects of information, if any, are supposed to be protected to a higher or different degree.",
+        "location": "Section 6",
+        "contradicted_location": "Section 6",
+        "contradicted_text": "The Receiving Party shall protect the disclosed Protected Data by using the same degree of care, but no less than a reasonable degree of care, to prevent the unauthorized use, dissemination or publication of the Confidential Information as the Receiving Party uses to protect its own Confidential Information of a similar nature. The Receiving Party (i) shall limit access to all Confidential Information to its employees, agents, representatives, consultants and contractors who shall reasonably require access to the Confidential Information for the purpose set forth above and to third party vendors for the purpose of obtaining price quotations, (ii) shall use the Confidential Information solely in connection with the Purpose, and (iii) shall use due diligence to insure that all such persons are aware of, understand their obligations under, and comply with the provisions of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Confidential Information' with 'Protected Data' at the beginning of a sentence. The 'Perturbation Explanation' states that 'Protected Data' is not defined within the document, leading to ambiguity about which information should be protected to a higher or different degree. The 'Contradicted Text' uses both 'Protected Data' and 'Confidential Information', further highlighting the lack of clarity and creating a strong in-text contradiction because it is unclear if both refer to the same thing and thus which definition or set of obligations apply, because there is no alignment of the terms. This ambiguity directly impacts the enforceability of the agreement, as it's unclear what obligations apply to each type of information, fitting the definition of Misaligned Terminology - In Text Contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The parties agree that the state courts of Collin or Dallas Counties, Texas and the federal courts located in the Eastern District of Texas shall have exclusive jurisdiction and venue to adjudicate any and all disputes arising out of or in connection with this Agreement.",
+        "changed_text": "The parties agree that the state courts of Collin or Dallas Counties, Texas and the federal courts located in the Northern District of Texas shall have exclusive jurisdiction and venue to adjudicate any and all disputes arising out of or in connection with this Agreement.",
+        "explanation": "Changing 'Eastern District of Texas' to 'Northern District of Texas' changes the defined legal jurisdiction. This introduces a contradiction because only one jurisdiction can be exclusively responsible for dispute resolution and it would be ambiguous which district has priority. This change creates uncertainty over which court will hear any claims.",
+        "location": "Section 10",
+        "contradicted_location": "Section 10",
+        "contradicted_text": "This Agreement shall be governed by and construed in accordance with the laws of the State of Texas, without regard to its conflicts of law principles. The parties agree that the state courts of Collin or Dallas Counties, Texas and the federal courts located in the Northern District of Texas shall have exclusive jurisdiction and venue to adjudicate any and all disputes arising out of or in connection with this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the exclusive jurisdiction for disputes from the 'Eastern District of Texas' to the 'Northern District of Texas'. The contradicted text contains the exact same clause, which includes the 'Northern District of Texas'. The original text included the 'Eastern District', so the Contradicted text conflicts with the Original text and contradicts it. The perturbation explanation clarifies that changing the jurisdiction creates a contradiction because only one jurisdiction should be exclusively responsible. This satisfies the 'Misaligned Terminology' definition, as using different jurisdictions interchangeably creates conflicting obligations and thus, an in-text contradiction."
+      }
+    ]
+  }
+]

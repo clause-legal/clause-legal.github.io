@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "Non_Disclosure_Canada_BC.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The parties warrant that they have the right to make the disclosures under this Agreement.",
+        "changed_text": "The parties warrant that they have the right to make the disclosures under this Agreement, except for any information that may infringe on third-party intellectual property rights.",
+        "explanation": "The added clause, 'except for any information that may infringe on third-party intellectual property rights,' directly contradicts the original warranty that the parties have the right to make all disclosures. The addition introduces uncertainty about the scope of the warranty and creates a potential loophole where the parties may not be liable for disclosing information that infringes on IP rights, despite the initial warranty.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "The parties warrant that they have the right to make the disclosures under this Agreement, except for any information that may infringe on third-party intellectual property rights.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds an exception ('except for any information that may infringe on third-party intellectual property rights') to the original warranty, which states that the parties have the right to make all disclosures. This creates a contradiction because the original warranty implies an unrestricted right to disclose, while the added exception limits that right, creating uncertainty and a potential loophole, which is why the contradiction exists. This aligns with the 'Structural Flaws - In Text Contradiction' definition."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Both parties acknowledge and agree that the exchange of information under this Agreement shall not commit or bind either party to any present or future contractual relationship (except as specifically stated Canada Child Care Non-Disclosure Agreement 1.1 Page 2 of 2 herein), nor shall the exchange of information be construed as an inducement to act or not to act in any given manner.",
+        "changed_text": "Both parties acknowledge and agree that the exchange of information under this Agreement shall not commit or bind either party to any present or future contractual relationship (except as specifically stated Canada Child Care Non-Disclosure Agreement 1.1 Page 2 of 2 herein), unless a clear intent to create such a relationship is demonstrated through subsequent actions, nor shall the exchange of information be construed as an inducement to act or not to act in any given manner.",
+        "explanation": "By adding \"unless a clear intent to create such a relationship is demonstrated through subsequent actions,\" the initial statement about the exchange of information not creating a contractual relationship is contradicted. This clause introduces ambiguity because the subsequent actions can bind the parties and create contractual obligations even if the agreement explicitly states it should not.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "Both parties acknowledge and agree that the exchange of information under this Agreement shall not commit or bind either party to any present or future contractual relationship (except as specifically stated Canada Child Care Non-Disclosure Agreement 1.1 Page 2 of 2 herein), unless a clear intent to create such a relationship is demonstrated through subsequent actions, nor shall the exchange of information be construed as an inducement to act or not to act in any given manner.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an exception to the original agreement that the exchange of information does not create a contractual relationship. By adding \"unless a clear intent to create such a relationship is demonstrated through subsequent actions,\" it contradicts the initial statement, creating ambiguity about whether the exchange of information can lead to a binding contractual agreement. The changed text and contradicted text are the same, but the change itself causes the contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement states the entire agreement between the parties concerning the disclosure of Confidential Information and supersedes any prior agreements, understandings, or representations with respect thereto. Any addition or modification to this Agreement must be made in writing and signed by authorized representatives of both parties.",
+        "changed_text": "This Agreement states the entire agreement between the parties concerning the disclosure of Confidential Information and supersedes any prior agreements, understandings, or representations with respect thereto. Any addition or modification to this Agreement must be made in writing and signed by authorized representatives of both parties, except in cases where verbal agreement is explicitly documented and agreed upon by both parties.",
+        "explanation": "By adding 'except in cases where verbal agreement is explicitly documented and agreed upon by both parties', we are directly contradicting the prior statement that modifications must be in writing. This creates uncertainty because there are now two conflicting methods for making changes to the agreement.",
+        "location": "11",
+        "contradicted_location": "11",
+        "contradicted_text": "This Agreement states the entire agreement between the parties concerning the disclosure of Confidential Information and supersedes any prior agreements, understandings, or representations with respect thereto. Any addition or modification to this Agreement must be made in writing and signed by authorized representatives of both parties, except in cases where verbal agreement is explicitly documented and agreed upon by both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that any modification must be in writing. The changed text adds an exception allowing verbal agreements if documented, directly contradicting the initial requirement for written modifications. The contradicted text is simply the changed text in this case which is acceptable. This qualifies as Structural Flaws - In Text Contradiction, therefore, a strong in-text contradiction exists."
+      }
+    ]
+  }
+]

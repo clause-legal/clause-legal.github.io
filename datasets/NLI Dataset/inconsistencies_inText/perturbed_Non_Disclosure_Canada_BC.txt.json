@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "Non_Disclosure_Canada_BC.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement states the entire agreement between the parties concerning the disclosure of Confidential Information and supersedes any prior agreements, understandings, or representations with respect thereto. Any addition or modification to this Agreement must be made in writing and signed by authorized representatives of both parties.",
+        "changed_text": "This Agreement states the entire agreement between the parties concerning the disclosure of Confidential Information and supersedes any prior agreements, understandings, or representations with respect thereto. Any addition or modification to this Agreement may be made orally, and need not be signed, provided both parties acknowledge such modification.",
+        "explanation": "This changes the modification clause to allow oral modifications, directly contradicting the first sentence regarding this agreement is the entire agreement, as oral modification is harder to prove. This contradiction introduces uncertainty because it is unclear whether the written agreement or any oral modifications take precedence, which impacts the enforceability of the contract as a whole.",
+        "location": "11",
+        "contradicted_location": "11",
+        "contradicted_text": "This Agreement states the entire agreement between the parties concerning the disclosure of Confidential Information and supersedes any prior agreements, understandings, or representations with respect thereto. Any addition or modification to this Agreement must be made in writing and signed by authorized representatives of both parties. This Agreement is made under and shall be construed according to the laws of the Alberta, Canada. In the event that this agreement, is breached, any and all disputes must be settled in a court of competent jurisdiction in the Province of British Columbia, Canada.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the original agreement to allow for oral modifications, which directly contradicts the initial statement in both the Changed Text and the Contradicted Text that the agreement represents the entire understanding between the parties and supersedes prior agreements. This is because allowing oral modifications introduces uncertainty and makes it difficult to determine the complete agreement, creating an in-text contradiction. The contradiction makes the contract unenforceable as it is uncertain whether the written agreement or any oral modifications take precedence. As per the provided definition of Inconsistencies - In Text Contradiction, the contradictory terms would lead to disputes over contractual obligations."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "In the event that this agreement, is breached, any and all disputes must be settled in a court of competent jurisdiction in the Province of British Columbia, Canada.",
+        "changed_text": "In the event that this agreement is breached, all disputes will be resolved through binding arbitration in Vancouver, British Columbia, under the rules of the British Columbia International Commercial Arbitration Centre.",
+        "explanation": "The original clause specifies that disputes will be settled in a court of competent jurisdiction in British Columbia. The modified clause mandates binding arbitration instead, this change directly contradicts the original clause in paragraph 10 which refers to injunctive relief in court if a breach occurs.",
+        "location": "11",
+        "contradicted_location": "10",
+        "contradicted_text": "If there is a breach or threatened breach of any provision of this Agreement, it is agreed and understood that the non-breaching party shall have no adequate remedy in money or other damages and accordingly shall be entitled to injunctive relief; provided however, no specification in this Agreement of any particular remedy shall be construed as a waiver or prohibition of any other remedies in the event of a breach or threatened breach of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces court settlement with binding arbitration. The contradicted text states the non-breaching party is entitled to injunctive relief. Injunctive relief is typically sought through the court system. By mandating binding arbitration, the changed text contradicts the availability of injunctive relief in court as described in the contradicted text, leading to a strong in-text contradiction as the two clauses are incompatible with each other."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement is made under and shall be construed according to the laws of the Alberta, Canada.",
+        "changed_text": "This Agreement is made under and shall be construed according to the laws of the British Columbia, Canada.",
+        "explanation": "The original agreement specifies that the laws of Alberta, Canada, govern the construction of the agreement. By changing this to British Columbia, a direct contradiction is created. This change impacts paragraph 11 directly because both cant apply at the same time, and the last sentence is about any and all disputes to be settled in a court of competent jurisdiction in the Province of British Columbia, Canada.",
+        "location": "11",
+        "contradicted_location": "11",
+        "contradicted_text": "This Agreement states the entire agreement between the parties concerning the disclosure of Confidential Information and supersedes any prior agreements, understandings, or representations with respect thereto. Any addition or modification to this Agreement must be made in writing and signed by authorized representatives of both parties. This Agreement is made under and shall be construed according to the laws of the British Columbia, Canada. In the event that this agreement, is breached, any and all disputes must be settled in a court of competent jurisdiction in the Province of British Columbia, Canada.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the agreement is governed by Alberta law, but the changed text says it's governed by British Columbia law. The contradicted text already contains the statement that the agreement is governed by British Columbia law and that any disputes must be settled in British Columbia. Therefore, the change to British Columbia in the modified text creates a contradiction with the original text where Alberta law governed."
+      }
+    ]
+  }
+]

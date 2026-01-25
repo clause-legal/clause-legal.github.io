@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "nondisclosure.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "b) The receiving party shall use the same degree of care as it uses with its own propriety information to protect and maintain the confidentiality of the information of the furnishing party. The receiving party understands that he/she may review sensitive member information and trade secrets, and agrees to maintain confidentiality of all information.",
+        "changed_text": "b) The receiving party shall use reasonable efforts to protect the confidentiality of the information of the furnishing party. The receiving party understands that he/she may review sensitive member information and trade secrets but is not obligated to maintain absolute confidentiality of all information.",
+        "explanation": "This change introduces an in-text contradiction by weakening the confidentiality obligation. Originally, the receiving party had to use the *same degree of care* as with their own proprietary information and agreed to *maintain confidentiality of all* information. Now, they only need to use *reasonable efforts* and are *not obligated to maintain absolute confidentiality*. This undermines the original agreement's strong emphasis on protecting sensitive information.",
+        "location": "1",
+        "contradicted_location": "1g",
+        "contradicted_text": "g) The Parties are aware of and understand Member Confidentiality as referred to in Section 264 of the Health Insurance Profitability and Accountability Act of 1996 (HIPPA). All member information is considered highly sensitive and may not be disseminated.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandated the 'same degree of care' and 'maintain confidentiality of all information'. The changed text weakens this by requiring only 'reasonable efforts' and stating the receiving party is 'not obligated to maintain absolute confidentiality'. This directly contradicts the 'Contradicted Text' which emphasizes that 'All member information is considered highly sensitive and may not be disseminated' due to HIPPA regulations. The altered text creates a clear inconsistency regarding the level of confidentiality required, thus violating the condition for a strong in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "c) The receiving party agrees it will not allow any of its employees, agents, representatives, affiliates or any other person(s) to disclose or use any of the information of the furnishing party, except in accordance with the terms of the Agreement.",
+        "changed_text": "c) The receiving party agrees to use its best efforts to prevent its employees, agents, representatives, affiliates or any other person(s) from disclosing or using the information of the furnishing party, except in accordance with the terms of the Agreement. Disclosure by these parties will not be considered a breach of this agreement.",
+        "explanation": "This change creates an in-text contradiction. The original text explicitly prohibited the receiving party from *allowing* disclosure by its employees, agents, etc. The modified text weakens this by requiring only 'best efforts' and stating that disclosure by these parties will *not* be considered a breach. This is a contradiction, introducing uncertainty about liability for disclosures made by related parties.",
+        "location": "1",
+        "contradicted_location": "1d",
+        "contradicted_text": "d) If the receiving party or any of its employees, agents, representatives, affiliates or any other person(s) shall attempt to use or dispose of any of the information of the furnishing party in a manner contrary to the terms of this Agreement, the furnishing party shall have the right, in addition to such other remedies, which may be available to it, to injunctive relief enjoining such acts or attempts, it being acknowledged that legal remedies are inadequate.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that disclosure by employees, agents, etc., will *not* be considered a breach, while the contradicted text allows the furnishing party to seek injunctive relief if those same parties attempt to use or dispose of the information contrary to the agreement. This creates a direct conflict: the changed text immunizes certain disclosures from being considered breaches, while the contradicted text provides a remedy for those same disclosures. This fits the definition of 'Inconsistencies - In Text Contradiction' because different sections of the contract provide conflicting obligations and remedies."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Either Party may terminate the obligation to provide or exchange business, technical, marketing or other information pursuant to this Agreement for any reason upon thirty (30) days prior notice to the other Party. The provisions of Section 1 shall survive termination of this Agreement and shall remain in full force and effect.",
+        "changed_text": "Either Party may terminate the obligation to provide or exchange business, technical, marketing or other information pursuant to this Agreement for any reason upon five (5) days prior notice to the other Party. The provisions of Section 1 shall not survive termination of this Agreement, but instead shall immediately cease to exist.",
+        "explanation": "This perturbation creates an in-text contradiction regarding the termination terms and the survival of Section 1. The original text allows termination with 30 days' notice, but the change reduces this to 5 days. Furthermore, it initially states that Section 1 survives termination, while the modified text declares that it does not, leading to confusion about which terms are valid post-termination.",
+        "location": "4",
+        "contradicted_location": "1f",
+        "contradicted_text": "f) All information shall be destroyed or returned to the furnishing party whenever any of the Parties so request in writing or upon termination of this Agreement for any reason. Any Party who disclosed information to another party or entity (e.g., employees, representatives, affiliates or independent contractors) must assure that all such parties or entities return or destroy said information. If any of the Parties so requests in written or upon the termination of this Agreement for any reason.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. The Changed Text modifies the original agreement so that Section 1 does not survive termination. The contradicted text states that information must be returned or destroyed upon termination. Because Section 1 is about information, but the changed agreement makes it cease to exist, this directly causes an in-text contradiction. The contradicted text still makes claims on information that now has an ambiguous status upon termination, which aligns with the definition of inconsistencies: 'Inconsistencies also lead to in-text contradictions when different sections of a contract provide conflicting deadlines, obligations, or penalties. This creates in-text contradiction regarding which terms should be enforced, leading to disputes over contractual obligations.'"
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "In all notices, requests, consents, demands and other communications provided for by this Agreement shall be in writing and shall (unless otherwise specifically provided herein) be deemed given when mailed first class mail at any general or branch post office enclosed in a registered or certified postpaid envelope, addressed to the address of the parties set forth above, or to such changed addresses as such parties may have fixed by notice, provided, however that any notice of change in address shall be effective only upon receipt.",
+        "changed_text": "In all notices, requests, consents, demands and other communications provided for by this Agreement may be communicated either orally or in writing. Written notices should be considered delivered immediately upon email. Oral notices are effective immediately.",
+        "explanation": "This change introduces an in-text contradiction regarding how notices should be delivered. The original clause requires that all communications must be in writing and sent via certified mail. The modification now permits both oral and written communications (including email) with immediate effect, creating a contradiction on the required form and effective date of notices.",
+        "location": "2",
+        "contradicted_location": "4d",
+        "contradicted_text": "d) Either Party may terminate the obligation to provide or exchange business, technical, marketing or other information pursuant to this Agreement for any reason upon thirty (30) days prior notice to the other Party. The provisions of Section 1 shall survive termination of this Agreement and shall remain in full force and effect.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the original requirement that all notices be in writing and sent via certified mail to allow for both oral and written communications (including email) with immediate effect. This directly contradicts the contradicted text, which requires thirty (30) days prior notice for termination of the obligation to provide information. The immediate effect of oral or email notice conflicts with the 30-day requirement, thus creating a clear contradiction regarding notice periods, as outlined in the 'Inconsistencies - In Text Contradiction' definition."
+      }
+    ]
+  }
+]

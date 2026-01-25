@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Non-Disclosure-Agreement-1.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Supplier will refrain from any operational and commercial contact with Vedrova’ s customers. Supplier will respect Vedrova’ s commercial interests with these customers an d will not approach any of Vedrova’ s customers with the purpose to directly or indirectly offer and provide logistic services, which are in scope of this Agreement or part of the services Vedrova provides to these customers.",
+        "changed_text": "The seller will refrain from any operational and commercial contact with Vedrova’ s customers. Supplier will respect Vedrova’ s commercial interests with these customers an d will not approach any of Vedrova’ s customers with the purpose to directly or indirectly offer and provide logistic services, which are in scope of this Agreement or part of the services Vedrova provides to these customers.",
+        "explanation": "Replacing 'Supplier' with 'The seller' in the first sentence introduces ambiguity regarding which entity is restricted from contacting Vedrova’s customers. The second sentence still refers to the 'Supplier,' creating an in-text contradiction. It's unclear whether both terms refer to the same entity, leading to confusion and uncertainty in enforcement of the clause.",
+        "location": "1 (III)",
+        "contradicted_location": "1 (III)",
+        "contradicted_text": "The seller will refrain from any operational and commercial contact with Vedrova’ s customers. Supplier will respect Vedrova’ s commercial interests with these customers an d will not approach any of Vedrova’ s customers with the purpose to directly or indirectly offer and provide logistic services, which are in scope of this Agreement or part of the services Vedrova provides to these customers.",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers consistently to 'Supplier', while the changed text introduces 'The seller' in the first sentence. The contradiction arises because the second sentence continues to use 'Supplier', creating ambiguity about whether 'Supplier' and 'The seller' are the same entity. Since the contradicted text is identical to the changed text, the explanation provided states that the terms used in both sentences creates ambiguity, and thus a contradiction exists."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Supplier acknowledges Vedrova’ s owne rship in all confidential information, and its marks, names, data, systems and processes and supplier acquires no rights in any of these.",
+        "changed_text": "Contractor acknowledges Vedrova’ s owne rship in all confidential information, and its marks, names, data, systems and processes and supplier acquires no rights in any of these.",
+        "explanation": "Changing 'Supplier' to 'Contractor' in the first part of the sentence but retaining 'supplier' in the second part creates confusion. It's no longer clear whether 'Contractor' and 'supplier' refer to the same entity. This contradicts the flow of the sentence, as 'Contractor acknowledges... and supplier acquires' implies they are different entities, making the sentence nonsensical and unenforceable. The contradiction is within section 2.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "Contractor acknowledges Vedrova’ s owne rship in all confidential information, and its marks, names, data, systems and processes and supplier acquires no rights in any of these.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Supplier' to 'Contractor' while retaining 'supplier' in the same sentence introduces ambiguity regarding whether 'Contractor' and 'supplier' refer to the same entity. This contradicts the original flow and intent of the sentence, making it unclear and potentially unenforceable. The contradictory nature of this modification is explicitly outlined in the Perturbation Explanation, as the text now becomes nonsensical due to the implication of two different entities, when originally, there was only one. The contradicted text is identical to the changed text, confirming the contradiction exists within the section itself. This aligns with the 'Misaligned Terminology - In Text Contradiction' definition, where the interchangeable use of terms leads to conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The parties agree that damages may not be an adequate remedy for any breach of this agreement by supplier. Supplier shall indemnify Vedrova against any claim, loss, damage or cost arising out of any breach of this agreement or other mis -use or unlawful dis closure of any confidential information. Vedrova is entitled to equitable or injunction relief.",
+        "changed_text": "The parties agree that damages may not be an adequate remedy for any breach of this agreement by provider. Supplier shall indemnify Vedrova against any claim, loss, damage or cost arising out of any breach of this agreement or other mis -use or unlawful dis closure of any confidential information. Vedrova is entitled to equitable or injunction relief.",
+        "explanation": "Replacing 'supplier' with 'provider' in the first sentence of the paragraph, while keeping 'Supplier' in the subsequent sentences, introduces a significant ambiguity. This raises the question of whether 'provider' and 'Supplier' are the same entity. This ambiguity creates an internal contradiction within the paragraph. The clause concerning indemnification and equitable relief specifically references 'Supplier,' leaving it uncertain whether 'provider' also bears the same responsibilities and creating issues in enforcement.",
+        "location": "3 (V)",
+        "contradicted_location": "3 (V)",
+        "contradicted_text": "The parties agree that damages may not be an adequate remedy for any breach of this agreement by provider. Supplier shall indemnify Vedrova against any claim, loss, damage or cost arising out of any breach of this agreement or other mis -use or unlawful dis closure of any confidential information. Vedrova is entitled to equitable or injunction relief.",
+        "contradiction_exists": "YES",
+        "justification": "The change replaces 'supplier' with 'provider' in the first sentence, while subsequent sentences use 'Supplier.' This creates a contradiction because it's unclear whether 'provider' and 'Supplier' refer to the same entity. The indemnification and equitable relief clauses specifically mention 'Supplier,' making it uncertain whether 'provider' also bears these responsibilities, as per the explanation and the definition of Misaligned Terminology - In Text Contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Group TP&H means Vedrova and any other company or entity which is directly or indirectly owned or controlled by Group TP&H, and including any direct or indirect affiliate, subsidiary, joint venture or sub -contractor of customer or any such company or en tity.",
+        "changed_text": "Group TP&H refers to Vedrova and any other company or entity which is directly or indirectly owned or controlled by Group TP&H, and including any direct or indirect affiliate, subsidiary, joint venture or sub -contractor of client or any such company or en tity.",
+        "explanation": "Replacing 'customer' with 'client' creates ambiguity. The document consistently uses 'customer' when referring to Vedrova's clientele. Changing it to 'client' introduces uncertainty as to whether 'client' and 'customer' are interchangeable. Since 'customer' is directly associated with Vedrova, and 'client' now introduces a non defined term, raising questions about who that could be referring to.",
+        "location": "4",
+        "contradicted_location": "1 (III)",
+        "contradicted_text": "The seller will refrain from any operational and commercial contact with Vedrova’ s customers. Supplier will respect Vedrova’ s commercial interests with these customers an d will not approach any of Vedrova’ s customers with the purpose to directly or indirectly offer and provide logistic services, which are in scope of this Agreement or part of the services Vedrova provides to these customers.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'customer' to 'client' in the Group TP&H definition introduces ambiguity. The contradicted text refers specifically to 'Vedrova's customers.' The original definition clearly linked Group TP&H to Vedrova's customers. By using 'client' instead, the changed definition broadens the scope and creates uncertainty about whether 'client' and 'customer' are the same, potentially leading to a contradiction regarding who the seller is prohibited from contacting. This aligns with the 'Misaligned Terminology - In Text Contradiction' definition, which states that using multiple terms interchangeably without defining them leads to conflicting obligations."
+      }
+    ]
+  }
+]

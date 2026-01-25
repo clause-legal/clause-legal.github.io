@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "ArtaraTherapeuticsInc_20200110_8-K_EX-10.5_11943350_EX-10.5_License Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "1.12 \"Product\" shall mean TARA-002 and any similar products.",
+        "changed_text": "1.12 \"Product\" shall mean TARA-002 only.",
+        "explanation": "The original definition of \"Product\" included \"TARA-002 and any similar products.\" The modified definition restricts \"Product\" to mean only \"TARA-002\". This creates an in-text contradiction. For example, later sections that refer to Net Sales of Product and Royalty payments for Product are now ambiguous because it is unclear whether those sections cover similar products beyond TARA-002. The original text allowed for the agreement to naturally extend to biosimilars and derivative pharmaceuticals, where the new text closes this option by removing the term, 'any similar products'. This contradicts section 2.1's goal 'to use the Program Data as clinical support for Product Regulatory Filings and to gain approval to commercialize the Product for the Indication in the Territory'. The original text was not limited to TARA-002, where the new definition limits the agreement to TARA-002 alone.",
+        "location": "1.12",
+        "contradicted_location": "2.1",
+        "contradicted_text": "2.1 Performance of Project. The University and/or Principal Investigator together with ArTara and the CRO will conduct the Project in accordance with the Project Plan and will use all reasonable endeavors consistent with their expertise to successfully complete the Project. It is the goal of the Project to use the Program Data as clinical support for Product Regulatory Filings and to gain approval to commercialize the Product for the Indication in the Territory.",
+        "contradiction_exists": "YES",
+        "justification": "The original definition of \"Product\" included \"TARA-002 and any similar products,\" allowing for a broader application of the agreement. The changed definition restricts \"Product\" to \"TARA-002 only.\" This directly contradicts section 2.1, which outlines the project's goal \"to use the Program Data as clinical support for Product Regulatory Filings and to gain approval to commercialize the Product for the Indication in the Territory.\" By limiting the definition of Product to only TARA-002, the changed text creates an in-text contradiction as to whether the project's goal extends to similar products or only TARA-002. This introduces uncertainty and potential unenforceability, fitting the definition of 'Structural Flaws - In Text Contradiction'."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "8.1 Term. This Agreement may be terminated by ArTara upon thirty (30) days prior written notice to University.",
+        "changed_text": "8.1 Term. This Agreement may be terminated by ArTara upon thirty (30) days prior written notice to University. However, termination by ArTara requires the prior written approval of the University, which may be withheld at the University's sole discretion.",
+        "explanation": "The original text states that ArTara may terminate the agreement with 30 days' notice. The modification adds a requirement for University approval, which can be withheld at their sole discretion. This creates an in-text contradiction as it restricts ArTara's right to terminate, which was originally unconditional. It creates an in-text contradiction within Section 8.1 because the initial statement gives ArTara the right to terminate the contract in 30 days, while the next statement impedes on this right by requiring University approval. This directly contradicts the initial grant of the right to terminate, and adds an element of ambiguity and creates an uncertainty in enforcement.",
+        "location": "8.1",
+        "contradicted_location": "8.1",
+        "contradicted_text": "8.1 Term. This Agreement may be terminated by ArTara upon thirty (30) days prior written notice to University. However, termination by ArTara requires the prior written approval of the University, which may be withheld at the University's sole discretion.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds a requirement for University approval for ArTara's termination, which can be withheld at the University's sole discretion. This directly contradicts the initial statement that ArTara may terminate the agreement with 30 days' notice. The contradiction exists because the original clause grants ArTara an unconditional right to terminate, while the modification makes that right conditional and dependent on the University's approval, effectively negating the original right as stated in Section 8.1. This is an in-text contradiction because Section 8.1 now contains conflicting statements about ArTara's ability to terminate the agreement."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "4.2 License. University hereby grants to ArTara an exclusive license to use the Program Data solely for the Project and in Regulatory Filings in the Field in the Territory.",
+        "changed_text": "4.2 License. University hereby grants to ArTara a non-exclusive license to use the Program Data solely for the Project and in Regulatory Filings in the Field in the Territory.",
+        "explanation": "The original agreement grants ArTara an *exclusive* license to the data, providing a competitive advantage. Changing \"exclusive\" to \"non-exclusive\" contradicts section 4.3 which discusses an \"exclusive Right of Reference\". The original text, where it grants ArTara an exclusive license, is contradicted by the amended text where the license is now non-exclusive and no competitive advantage is given to ArTara. Since there is an exclusive right of reference, it also makes this contradictory as the definition should read as \"exclusive\".",
+        "location": "4.2",
+        "contradicted_location": "4.3",
+        "contradicted_text": "4.3 Right of Reference and IND Assignment. University hereby grants to ArTara an exclusive Right of Reference to all Program Regulatory Filings by University in support of the Product. Upon written request of ArTara, University will assign the IND to ArTara.",
+        "contradiction_exists": "YES",
+        "justification": "The change from an \"exclusive license\" to a \"non-exclusive license\" in Section 4.2 directly contradicts Section 4.3, which grants ArTara an \"exclusive Right of Reference.\" An exclusive right is inherently incompatible with a non-exclusive license, creating a conflict regarding ArTara's rights and competitive advantage. The changed text undermines the exclusivity granted in the contradicted text."
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "25895_0000950134-07-023464_d51356exv10w1.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Protected Market ” shall mean the United States.",
+        "changed_text": "Protected Market ” shall mean the State of Delaware.",
+        "explanation": "Changing the definition of 'Protected Market' in Section 1(g) from the United States to the State of Delaware introduces a contradiction with sections 2 and 3. These sections restrict the seller from engaging in certain activities 'in the Protected Market.' By narrowing the definition, the restrictions now only apply to activities within Delaware, contradicting the initial intent of protecting the business throughout the US.",
+        "location": "1(g)",
+        "contradicted_location": "3",
+        "contradicted_text": "Seller hereby agrees that, during the Restricted Period, except as permitted by Section 5 of this Agreement, Seller will not, directly or indirectly, solicit, induce or influence any customer, supplier, lender, lessor or any other Person that has a business relationship with the Business in the Protected Market, or which had on the date of this Agreement a business relationship with the Business in the Protected Market, to discontinue or reduce the extent of such relationship with the Business in the Protected Market; it being understood that, nothing herein shall restrict Seller from carrying on or transacting business with any such Person in respect of any Seller Exclusive Products.",
+        "contradiction_exists": "YES",
+        "justification": "The original definition of 'Protected Market' as the United States aligns with the contradicted text, which restricts the seller from certain activities throughout the US. However, the changed definition narrows 'Protected Market' to only the State of Delaware. This directly contradicts the section restricting the seller's activities 'in the Protected Market' because now those restrictions only apply to Delaware, while the original intent covered the entire US, thus creating a strong in-text contradiction and making enforcement unclear outside of Delaware."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Permitted Activities . The restrictions set forth in Sections 2, 3 and 4 of this Agreement shall not apply to Permitted Activities or to actions taken by Seller to the extent that such actions are expressly approved in writing by Purchaser.",
+        "changed_text": "Permitted Activities . The restrictions set forth in Sections 2, 3 and 4 of this Agreement shall only apply to Permitted Activities.",
+        "explanation": "Changing Section 5 to state that restrictions in Sections 2, 3, and 4 only apply to permitted activities contradicts those sections. Originally, Permitted Activities were EXEMPT from the restrictions. This in-text contradiction could allow for the Seller to act against Section 2, 3, and 4.",
+        "location": "5",
+        "contradicted_location": "2",
+        "contradicted_text": "Seller hereby agrees that, during the Restricted Period, except as permitted by Section 5 of this Agreement, it will not, directly or indirectly, own, manage, operate, control, invest in or acquire an interest in, or otherwise engage or participate in the establishment, management or operation of, any Competitive Business that sells or distributes Competitive Products, directly or indirectly, for ultimate purchase by consumers in the Protected Market, without regard to whether the Competitive Business has any office, manufacturing or other business facilities within the Protected Market.",
+        "contradiction_exists": "YES",
+        "justification": "The original text in Section 5 exempted Permitted Activities from the restrictions in Sections 2, 3, and 4. The changed text now states that the restrictions in Sections 2, 3, and 4 *only* apply to Permitted Activities. This directly contradicts the contradicted text, which states that the Seller agrees to certain restrictions 'except as permitted by Section 5'. If Section 5 now subjects Permitted Activities to the restrictions, it removes the exemption, creating a direct conflict."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Waivers and Amendments . Any term or provision of this Agreement may be waived at any time by the party that is entitled to the benefits thereof, and any term or provision of this Agreement may be amended or supplemented at any time by the mutual consent of the parties hereto, except that any waiver of any term or condition, or any amendment or supplementation, of this Agreement must be in writing.",
+        "changed_text": "Waivers and Amendments . Any term or provision of this Agreement may be waived at any time by the party that is entitled to the benefits thereof, and any term or provision of this Agreement may be amended or supplemented at any time by the mutual consent of the parties hereto, including verbal consent.",
+        "explanation": "Removing the requirement for written consent directly contradicts the original clause. Specifically, it contradicts the phrase 'except that any waiver of any term or condition, or any amendment or supplementation, of this Agreement must be in writing.'",
+        "location": "14",
+        "contradicted_location": "14",
+        "contradicted_text": "Waivers and Amendments . Any term or provision of this Agreement may be waived at any time by the party that is entitled to the benefits thereof, and any term or provision of this Agreement may be amended or supplemented at any time by the mutual consent of the parties hereto, including verbal consent. A waiver of any breach or failure to enforce any of the terms or conditions of this Agreement shall not in any way affect, limit or waive a party’s rights hereunder at any time to enforce strict compliance thereafter with every term or condition of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires waivers and amendments to be in writing. The changed text explicitly allows verbal consent, directly contradicting the original requirement and creating a clear in-text contradiction. The explanation given supports this claim as well. The Contradicted text includes the phrase \"including verbal consent\", which the explanation argues is in direct contradiction of the original contract."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Enforcement of Certain Rights . Nothing expressed or implied in this Agreement is intended, or shall be construed, to confer upon or give any Person other than the parties hereto, and their successors or assigns, any rights, remedies, obligations or liabilities under or by reason of this Agreement, or result in such Person being deemed a third party beneficiary of this Agreement.",
+        "changed_text": "Enforcement of Certain Rights . Nothing expressed or implied in this Agreement is intended, or shall be construed, to confer upon or give any Person other than the parties hereto, and their successors or assigns, any rights, remedies, obligations or liabilities under or by reason of this Agreement, or result in such Person being deemed a third party beneficiary of this Agreement. Any Person other than the parties hereto, and their successors or assigns, any rights, remedies, obligations or liabilities under or by reason of this Agreement, or result in such Person being deemed a third party beneficiary of this Agreement.",
+        "explanation": "Duplicating part of section 18 creates an in-text contradiction. The original section states that no third party should be considered as a beneficiary, by adding the sentence to the original context it creates an uncertainty due to the in-text contradiction of what the section is trying to express",
+        "location": "18",
+        "contradicted_location": "18",
+        "contradicted_text": "Enforcement of Certain Rights . Nothing expressed or implied in this Agreement is intended, or shall be construed, to confer upon or give any Person other than the parties hereto, and their successors or assigns, any rights, remedies, obligations or liabilities under or by reason of this Agreement, or result in such Person being deemed a third party beneficiary of this Agreement. Any Person other than the parties hereto, and their successors or assigns, any rights, remedies, obligations or liabilities under or by reason of this Agreement, or result in such Person being deemed a third party beneficiary of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that no third party should be considered a beneficiary. The changed text duplicates the original text, essentially repeating the statement that no third party is a beneficiary. The perturbation explanation states this repetition creates uncertainty and thus a contradiction. The contradicted text is located in the same place as the Changed Text and shows that the duplication of the statement creates an in-text contradiction. Since Structural Flaws - In Text Contradiction is a type of perturbation that causes in-text contradictions when a clause is placed in multiple locations with conflicting implications, and since the repetition of the original clause creates an in-text contradiction, the answer is YES."
+      }
+    ]
+  }
+]

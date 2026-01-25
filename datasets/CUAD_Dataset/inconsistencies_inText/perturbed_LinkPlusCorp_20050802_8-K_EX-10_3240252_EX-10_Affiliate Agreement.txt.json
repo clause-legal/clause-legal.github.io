@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "LinkPlusCorp_20050802_8-K_EX-10_3240252_EX-10_Affiliate Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "3.5.1 Payments due shall be made within 45 days of the close of each calendar quarter.",
+        "changed_text": "3.5.1 Payments due shall be made within 15 days of the close of each calendar quarter.",
+        "explanation": "This change introduces a contradiction in the payment terms. While section 3.5.1 initially states that payments are due within 45 days of the close of each calendar quarter, this modification reduces the timeframe to 15 days, which will conflict with the subsequent clause 3.5.2, creating uncertainty about the correct payment deadline and triggering late payment interest.",
+        "location": "3.5.1",
+        "contradicted_location": "3.5.2",
+        "contradicted_text": "3.5.2 Payments that are not received within thirty (30) days after their due date will bear interest at the rate of twelve percent (12.0%) per annum compounded monthly from the due date until such payment is received.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text reduces the payment timeframe from 45 to 15 days. The contradicted text, section 3.5.2, states that payments not received within 30 days after the due date will bear interest. The changed text creates a direct contradiction, as the due date is now 15 days after the close of the calendar quarter, while 3.5.2 refers to a 30-day period, which is now impossible. This introduces an inconsistency regarding the timing of late payment interest, fitting the 'Inconsistencies - In Text Contradiction' definition."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "3.5.2 Payments that are not received within thirty (30) days after their due date will bear interest at the rate of twelve percent (12.0%) per annum compounded monthly from the due date until such payment is received.",
+        "changed_text": "3.5.2 Payments that are not received within five (5) days after their due date will bear interest at the rate of twenty percent (20.0%) per annum compounded monthly from the due date until such payment is received.",
+        "explanation": "This change introduces a contradiction in the payment terms. The original text states interest is applied after 30 days of non-payment, at 12% interest. However, the updated text shortens the time frame to 5 days and changes the interest rate to 20%, compounding the contradiction and creating uncertainty regarding the grace period and the applicable interest rate for late payments. This directly clashes with the timeframe established in 3.5.1.",
+        "location": "3.5.2",
+        "contradicted_location": "3.5.1",
+        "contradicted_text": "3.5.1 Payments due shall be made within 15 days of the close of each calendar quarter.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified a 30-day grace period with 12% interest after non-payment. The changed text shortens this to 5 days and increases the interest rate to 20%. This directly contradicts section 3.5.1, which mandates payments be made within 15 days of the quarter's close. Thus, a payment could be subject to the 20% penalty before the 15-day deadline in 3.5.1 has even passed, leading to a clear contradiction and inconsistency in payment terms."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "5. TERM This Agreement will remain in force for perpetuity or until and unless otherwise mutually agreed or amended in writing by both parties.",
+        "changed_text": "5. TERM This Agreement will remain in force for five (5) years, automatically renewing for successive one (1) year terms, unless either party provides written notice of termination at least ninety (90) days prior to the end of the then-current term, or until and unless otherwise mutually agreed or amended in writing by both parties.",
+        "explanation": "This change introduces a contradiction. The original agreement states it is in effect perpetually unless amended. The modified text sets a 5-year term with automatic renewals, contradicting the perpetuity clause. This new clause clashes with the initial statement that the agreement is for perpetuity, creating confusion on how and when the agreement can be terminated, as both conditions are mutually exclusive, since perpetuity can't be automatically renewable. This would cause legal disputes over the effective agreement duration and termination options.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "5. TERM This Agreement will remain in force for five (5) years, automatically renewing for successive one (1) year terms, unless either party provides written notice of termination at least ninety (90) days prior to the end of the then-current term, or until and unless otherwise mutually agreed or amended in writing by both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the agreement is in effect perpetually. The changed text sets a 5-year term with automatic renewals. This contradicts the perpetuity clause in the original agreement and the explanation provided, which is a clear incompatibility. The contradicted text is the same as the changed text. The contradiction is present because the Changed Text creates a contradiction against the original text, which stated that the agreement was for perpetuity, since perpetuity can't be automatically renewable."
+      }
+    ]
+  }
+]

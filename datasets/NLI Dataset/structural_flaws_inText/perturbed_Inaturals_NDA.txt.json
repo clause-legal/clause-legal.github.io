@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "Inaturals_NDA.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement may not be assigned by either party without the advance written permission of the other party.",
+        "changed_text": "This Agreement may be assigned by either party without the advance written permission of the other party, provided that the assigning party notifies the other party in writing 30 days prior to the assignment.",
+        "explanation": "The insertion of 'may be assigned... provided that the assigning party notifies...' directly contradicts the initial statement that assignment requires 'advance written permission.' While the added clause attempts to provide a condition for assignment, it still clashes with the absolute prohibition on assignment without permission stated earlier in Section 10, creating an in-text contradiction and ambiguity about the necessary conditions for assignment.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "This Agreement may not be assigned by either party without the advance written permission of the other party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states \"This Agreement may not be assigned by either party without the advance written permission of the other party.\" The changed text modifies this to allow assignment with only a 30-day written notice, removing the requirement for advance written permission. This directly contradicts the original condition in the contradicted text, creating a clear and direct conflict within the document regarding the conditions for assignment."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The obligation of confidentiality and non -use shall not apply to information which: a) Information already in the receiving party’ s possession at the time of disclosure; receiving parties trade secrets or experienced knowledge in processing and development of natural ingredients . b) At the time of disclosure is in the public domain or that subsequently becomes available to the general public other than as a consequence of a breach of this agreement; c) Information received by either party from a third party which, to the receiving party’s knowledge, was not under an obligation to maintain the confidentiality of the information and did no t acquire such information from either Client or Company , or d) Is required by law to be disclosed.",
+        "changed_text": "The obligation of confidentiality and non -use shall not apply to information which: a) Information already in the receiving party’s possession at the time of disclosure; b) At the time of disclosure is in the public domain; c) Information received by either party from a third party; or d) Is required by law to be disclosed. Notwithstanding the preceding, trade secrets related to the development of natural ingredients, even if falling under (a), (b), or (c), shall always be considered Confidential Information.",
+        "explanation": "Adding 'trade secrets related to the development of natural ingredients, even if falling under (a), (b), or (c), shall always be considered Confidential Information' introduces an in-text contradiction. The prior clauses (a, b, c) explicitly state scenarios where information is *not* considered confidential. Now, *some* of that same information *is* considered confidential. This creates ambiguity and legal uncertainty, particularly regarding the scope of exemptions to confidentiality.",
+        "location": "1",
+        "contradicted_location": "1",
+        "contradicted_text": "A party to this Agreement receiving Confidential Information “Recipient” agrees to retain such Confidential Information in stricte confidence and n ot to disclose it to any third party or use such Confidential Information for any purpose other than the purposes set forth in this Agreement. “Confidential Information” shall mean information related to the development of natural ingredients products including research, trade secrets, prototypes, formulas, processes, techniques, marketing programs, price information, product lists, technology, business plans, intellectual property and financial information, whether written or oral. The Recipient will communicate such information only to such employees and contractors or agents who have a need to know such information, and only to such employees and contractors or agents having written agreements with the Recipient obligating them to keep such information confidential . The obligation of confidentiality and non -use shall not apply to information which: a) Information already in the receiving party’ s possession at the time of disclosure; receiving parties trade secrets or experienced knowledge in processing and development of natural ingredients . b) At the time of disclosure is in the public domain or that subsequently becomes available to the general public other than as a consequence of a breach of this agreement; c) Information received by either party from a third party which, to the receiving party’s knowledge, was not under an obligation to maintain the confidentiality of the information and did no t acquire such information from either Client or Company , or d) Is required by law to be disclosed.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the exception to the confidentiality obligation. Previously, 'trade secrets or experienced knowledge in processing and development of natural ingredients' were explicitly excluded from confidentiality. The changed text now states that even if such information falls under the exceptions (a, b, c), it *will* be considered confidential, which directly contradicts the earlier exception for these trade secrets. This introduces an in-text contradiction within the same section of the contract and with the Contradicted Text, creating ambiguity about what information is actually considered confidential."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement constitutes the entire understanding between the parties relating to the subject matter hereof.",
+        "changed_text": "This Agreement constitutes the entire understanding between the parties relating to the subject matter hereof, except for any prior oral agreements made regarding marketing strategies, which shall remain in full force and effect.",
+        "explanation": "By adding 'except for any prior oral agreements made regarding marketing strategies, which shall remain in full force and effect,' to the 'entire understanding' clause, we introduce an in-text contradiction. The original clause states this agreement is the *entire* understanding. The added language explicitly acknowledges that *other* agreements (oral ones!) exist and *also* apply. This directly contradicts the 'entire understanding' declaration, making the scope of the agreement uncertain.",
+        "location": "11",
+        "contradicted_location": "11",
+        "contradicted_text": "This Agreement constitutes the entire understanding between the parties relating to the subject matter hereof.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the agreement is the 'entire understanding'. The changed text adds an exception for prior oral agreements regarding marketing strategies, which explicitly acknowledges that other agreements exist and also apply. This directly contradicts the 'entire understanding' declaration, making the scope of the agreement uncertain and creating a direct conflict with the contradicted text which also states the agreement is the 'entire understanding'."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Upon written request from the other party, each party agrees to return or destroy all the other party’s Confidential Informatio n, together with all copies or reproductions thereof.",
+        "changed_text": "Upon written request from the other party, each party agrees to return or destroy all the other party’s Confidential Information, together with all copies or reproductions thereof, unless the receiving party believes, in its sole discretion, that retaining such information is necessary for ongoing business operations.",
+        "explanation": "The addition of 'unless the receiving party believes, in its sole discretion, that retaining such information is necessary for ongoing business operations' introduces an in-text contradiction. The original sentence unequivocally states that information *must* be returned or destroyed upon request. The added clause provides a loophole where the recipient can simply *decide* not to comply, contradicting the obligation to return or destroy. This creates an uncertainty about the effectiveness and enforceability of the return/destruction requirement.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "Upon written request from the other party, each party agrees to return or destroy all the other party’s Confidential Informatio n, together with all copies or reproductions thereof.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an exception that allows a party to retain confidential information at its sole discretion, directly contradicting the original requirement in both the original text and the contradicted text that such information 'must' be returned or destroyed upon request. This creates a clear and direct conflict, making the obligation to return or destroy conditional and unenforceable."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Any dispute arising out of this Agreement shall be exclusively submitted to the Courts of Paris, France.",
+        "changed_text": "Any dispute arising out of this Agreement shall be exclusively submitted to the Courts of Paris, France, except for disputes relating to intellectual property, which may be resolved through arbitration in New York, USA.",
+        "explanation": "The original text specified that ALL disputes must go through the Courts of Paris. By creating an exception - 'except for disputes relating to intellectual property, which may be resolved through arbitration in New York, USA', directly contradicts the initial statement that *any* dispute falls under the jurisdiction of the Paris courts. This in-text contradiction creates confusion about which jurisdiction applies to specific types of disputes.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "This Agreement shal l be governed by French Law. Any dispute arising out of this Agreement shall be exclusively submitted to the Courts of Paris, France.",
+        "contradiction_exists": "YES",
+        "justification": "The original text and the contradicted text both state that \"Any dispute arising out of this Agreement shall be exclusively submitted to the Courts of Paris, France.\". The changed text adds an exception to this rule: \"except for disputes relating to intellectual property, which may be resolved through arbitration in New York, USA.\" This directly contradicts the original and contradicted texts because it states that *some* disputes will be resolved outside of the Courts of Paris, whereas previously *all* disputes were to be resolved in Paris. This creates a clear contradiction regarding jurisdiction."
+      }
+    ]
+  }
+]

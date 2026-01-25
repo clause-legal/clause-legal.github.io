@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "non-disclosure-agreement-template.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Receiving Party shall hold and maintain the Sensitive Information in strictest confidence for the sole and exclusive benefit of the Disclosing Party.",
+        "changed_text": "Receiving Party may, at its discretion, share the Sensitive Information with its affiliates for internal business purposes, while still attempting to maintain confidentiality to the extent reasonably possible.",
+        "explanation": "Changing the 'shall' to 'may' and adding 'at its discretion' significantly weakens the obligation to maintain strict confidence. Introducing 'affiliates' and 'internal business purposes' creates an exception, directly contradicting the original clause that states the information is for the 'sole and exclusive benefit of the Disclosing Party'. The inclusion of 'while still attempting to maintain confidentiality to the extent reasonably possible' further adds ambiguity, making the Receiving Party's obligations unclear.",
+        "location": "Section 3",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "Receiving Party shall hold and maintain the Sensitive Information in strictest confidence for the sole and exclusive benefit of the Disclosing Party. Receiving Party shall carefully restrict access to Sensitive Information to employees, contractors and third parties as is reasonably required and shall require those persons to sign nondisclosure restrictions at least as protective as those in this Agreement. Recei ving Party shall put in place effective governance controls to monitor compliance and respond to (and report) any security breach incidents.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text weakens the obligation to maintain strict confidence by changing 'shall' to 'may' and adding 'at its discretion'. It introduces an exception by allowing the Receiving Party to share the information with affiliates for internal business purposes, directly contradicting the original clause in both the original text and contradicted text, which states the information is for the 'sole and exclusive benefit of the Disclosing Party'. The phrase 'while still attempting to maintain confidentiality to the extent reasonably possible' further adds ambiguity, making the Receiving Party's obligations unclear. Thus, the changed text creates a direct conflict with the contradicted text, fulfilling the definition of a Structural Flaws - In Text Contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Receiving Party shall return to Disclosing Party any and all records, notes, and other writ ten, printed, or tangible materials in its possession pertaining to Sensitive Information within a reasonable time period if Disclosing Party requests it in writing.",
+        "changed_text": "Receiving Party is encouraged, but not required, to return to Disclosing Party any records, notes, and other written, printed, or tangible materials in its possession pertaining to Sensitive Information if Disclosing Party requests it in writing.",
+        "explanation": "By changing 'shall return' to 'is encouraged, but not required', the perturbation removes the Receiving Party's mandatory obligation to return Sensitive Information, creating a direct contradiction. This significantly weakens the Disclosing Party's control over its Sensitive Information upon request, contradicting the obligation introduced previously in the text that puts obligations on the receiving party to safe keep the Disclosing party's info.",
+        "location": "Section 3",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "Receiving Party shall not, without prior written approval of Disclosing Party, use for Receiving Party's own benefi t, publish, copy, or otherwise disclose to others, or permit the use by others for their benefit or to the detriment of Disclosing Party, any Sensitive Information. Receiving Party shall return to Disclosing Party any and all records, notes, and other writ ten, printed, or tangible materials in its possession pertaining to Sensitive Information within a reasonable time period if Disclosing Party requests it in writing.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the 'Receiving Party's' obligation to return 'Sensitive Information' from 'shall return' to 'is encouraged, but not required'. This directly contradicts the 'Contradicted Text' which states 'Receiving Party shall return to Disclosing Party any and all records...pertaining to Sensitive Information within a reasonable time period if Disclosing Party requests it in writing.'. The original text in the contradicted text specifies a mandatory action ('shall return'), while the changed text makes it optional, creating a clear in-text contradiction as defined by the prompt because one section requires a mandatory action while the other allows it to be ignored"
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The non -disclosure provisions of this Agreement shall survive the termination of this Agreement and Receiving Party's duty to hold Sensitive Information in confidence shall remain in effect until the Sensitive Information no longer qualifies as a trade secret or otherwise needing protection until Disclosing Party send s Receiving Party written notice releasing Receiving Party from this Agreement, whicheve r occurs first.",
+        "changed_text": "The non-disclosure provisions of this Agreement shall terminate automatically upon the completion of the project for which the Sensitive Information was disclosed, regardless of whether the information still qualifies as a trade secret or needs protection.",
+        "explanation": "This change completely contradicts the original clause by stating that the non-disclosure provisions terminate automatically upon project completion. This overrides the extended protection afforded to Sensitive Information that remains a trade secret or otherwise needs protection, creating ambiguity about the duration of confidentiality obligations. Now the agreement both survives the termination of the agreement and terminates automatically upon completion of the project",
+        "location": "Section 4",
+        "contradicted_location": "Section 4",
+        "contradicted_text": "The non -disclosure provisions of this Agreement shall survive the termination of this Agreement and Receiving Party's duty to hold Sensitive Information in confidence shall remain in effect until the Sensitive Information no longer qualifies as a trade secret or otherwise needing protection until Disclosing Party send s Receiving Party written notice releasing Receiving Party from this Agreement, whicheve r occurs first.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a direct contradiction. The original text states that the non-disclosure provisions survive the termination of the agreement and remain in effect until the Sensitive Information no longer qualifies as a trade secret, or until a written notice is sent. However, the changed text states that the non-disclosure provisions terminate automatically upon the completion of the project, regardless of whether the information still qualifies as a trade secret or needs protection. This contradicts the contradicted text, as now the agreement both terminates after the completion of the project, and it survives the termination of the agreement, making it ambiguous on when the agreement is terminated."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement may not be amended except in writing signed by both parties.",
+        "changed_text": "This Agreement may be amended by either party providing written notice to the other party. No signature is required for amendments.",
+        "explanation": "This change directly contradicts the original clause, which requires a written agreement signed by both parties to amend the contract. The modified clause allows unilateral amendments with just written notice and without a signature. By eliminating the signature requirement, the amendment process is substantially altered, leading to potential disputes.",
+        "location": "Section 7",
+        "contradicted_location": "Section 7",
+        "contradicted_text": "This Agreement expre sses the complete understanding of the partie s with respect to the subject matter and supersedes all prior proposals, agreements, representations and understandings. This Agreement may not be amended except in writing signed by both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states \"This Agreement may not be amended except in writing signed by both parties.\" The changed text modifies this to \"This Agreement may be amended by either party providing written notice to the other party. No signature is required for amendments.\" This directly contradicts the signature requirement, thus creating an in-text contradiction. The contradicted text repeats the original clause, further solidifying the contradiction. Therefore, the changed text introduces a clear contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The failure to exercise any right provided in thi s Agreement shall not be a waive r of prior or subsequent rights.",
+        "changed_text": "The failure to exercise any right provided in this Agreement shall be deemed a waiver of that right after a period of thirty (30) days.",
+        "explanation": "The original clause explicitly states that failing to exercise a right does not constitute a waiver. The altered clause directly contradicts this by stating that failure to exercise a right for 30 days *does* constitute a waiver, introducing a specific timeframe for waiver. This directly contradicts the initial statement, by saying that failure to exercise a right both is and is not a waiver of prior and subsequent rights.",
+        "location": "Section 8",
+        "contradicted_location": "Section 8",
+        "contradicted_text": "Waiver. The failure to exercise any right provided in thi s Agreement shall not be a waive r of prior or subsequent rights. This Agreement and each party's obligation s shall be binding on the representatives, assign s and successo rs of such party. Each party h as signed thi s Agreement through it s authorised representative.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a direct contradiction. The original and contradicted text states that failure to exercise a right does *not* constitute a waiver. The changed text states that failure to exercise a right *does* constitute a waiver after 30 days. This is a direct and irreconcilable conflict."
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "ingram-non-disclosure.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Recipient agrees not to copy, duplicate, disclose or deliver all or any portion of the Confidential Information to a third party or permit any other third party to inspect, copy or duplicate the same except those parties deemed necessary by the undersi gned to evaluate a possible business relationship (including agents, advisors, affiliates, accountants, attorneys, consultants, and lenders). It is understood that the undersigned may disclose Confidential Information only to parties who (i) require such m aterial for the purpose related to this agreement and (ii) are informed by Recipient of the confidential nature of the Confidential Information and agree to be bound by the terms hereof.",
+        "changed_text": "The Recipient agrees not to disclose Confidential Information to a third party. The Recipient may disclose Confidential Information to parties evaluating a business relationship.",
+        "explanation": "The original text provides specific conditions and limitations on disclosing Confidential Information to third parties (agents, advisors, etc.). The revised text removes the detail and limitations, creating an in-text contradiction. It's unclear if the same conditions apply, such as informing the third party of the confidentiality and ensuring they agree to be bound by the agreement.",
+        "location": "Paragraph 3",
+        "contradicted_location": "Paragraph 3",
+        "contradicted_text": "The Recipient agrees not to disclose Confidential Information to a third party. The Recipient may disclose Confidential Information to parties evaluating a business relationship. The Recipient further agrees to be responsible for any breach of this Agreement by parties in the preceding sentence, and that these parties will not use any of the Confidential Information for any reason or purpose other than to evaluate a possible business relationship and not in any way detrimental to LSUK .",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified conditions for disclosing confidential information to third parties (agents, advisors, etc.). The changed text removes these specific conditions, creating a contradiction with the contradicted text, which assumes those conditions apply. The contradicted text holds the recipient responsible for any breach of the agreement by the parties evaluating a business relationship, implying they are still bound by the original constraints. By removing the constraints, it contradicts this assumption, potentially leading to unenforceability and uncertainty about the obligations of the parties involved. Thus, it is a strong in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Recipient further agrees to be responsible for any breach of this Agreement by parties in the preceding sentence, and that these parties will not use any of the Confidential Information for any reason or purpose other than to evaluate a possible business relationship and not in any way detrimental to LSUK . This shall n ot, however, prevent Recipient from disclosing to others or using in any manner Confidential Information : (i) which has been published and has become part of the public domain and not caused by acts or omissions by the receiving party ; (ii) which has been furnished or made known to the undersigned by third parties as a matter of right without restriction of disclosure, or ; (iii) which the undersigned can show was already in its possession at the time it entered into this Agreement and which was not acquired directly or indirectly from LSUK , it's representatives, or employees.",
+        "changed_text": "The Recipient further agrees to be responsible for any breach of this Agreement by parties in the preceding sentence, and that these parties will not use any of the Confidential Information for any reason or purpose other than to evaluate a possible business relationship and not in any way detrimental to LSUK .",
+        "explanation": "The original text provides exceptions to the non-disclosure obligation (information in the public domain, previously known, etc.). Removing these exceptions creates an in-text contradiction. The Recipient is now absolutely liable for not disclosing and using Confidential Information, even if it was already publicly known.",
+        "location": "Paragraph 4",
+        "contradicted_location": "Paragraph 4",
+        "contradicted_text": "The Recipient further agrees to be responsible for any breach of this Agreement by parties in the preceding sentence, and that these parties will not use any of the Confidential Information for any reason or purpose other than to evaluate a possible business relationship and not in any way detrimental to LSUK . This Agreement shall remain in perpetually and upon request, Recipient will promptly return all data and materials furnished by LSUK , or provide written certification of its destruction and destroy any internal analyses and/or work papers related to these discussions .",
+        "contradiction_exists": "YES",
+        "justification": "The original text had exceptions to the non-disclosure agreement, such as information already in the public domain. The changed text removes these exceptions, making the Recipient absolutely liable for any disclosure or use of Confidential Information, even if it was already publicly known. This directly contradicts the contradicted text, as the Recipient is now bound by a stricter obligation with no exceptions, creating an in-text contradiction according to the 'Omissions – In Text Contradiction' definition."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This Agreement shall remain in perpetually and upon request, Recipient will promptly return all data and materials furnished by LSUK , or provide written certification of its destruction and destroy any internal analyses and/or work papers related to these discussions .",
+        "changed_text": "This Agreement shall remain in effect for one year. Upon termination, the Recipient will promptly return all data and materials furnished by LSUK.",
+        "explanation": "The original agreement is perpetual. The modified text limits the agreement to one year. This creates a contradiction since other clauses still reference actions and obligations without any regard to term limit. If Appendix A (described in a prior perturbation) relies on information from years prior, then it can't be guaranteed in a term limited agreement.",
+        "location": "Paragraph 5",
+        "contradicted_location": "Paragraph 5",
+        "contradicted_text": "This Agreement shall remain in effect for one year. Upon termination, the Recipient will promptly return all data and materials furnished by LSUK . LSUK : RECIPIENT: Lightning Source UK Ltd. __________________________ (RECIPIENT) Chapter House, Pitfield __________________________ (Address) Kiln Farm, Milton Keynes MK11 3LW __________________________ (Address) Signed: Signed:___________________________________ Printed Name:_____________________________ Printed Name:______________________________ Title:____________________________________ Title:_____________________________________",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the agreement is perpetual, but the changed text limits it to one year. The contradicted text reaffirms this one-year limit. This creates a clear contradiction because obligations that were previously understood to continue indefinitely are now explicitly limited to a single year. This change directly contradicts the original intent of a perpetual agreement, causing a significant and obvious inconsistency."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Lightning Source UK Ltd., a private company limited by shares formed under the laws of England and Wales (\"LSUK\"), and ______________________, including its parent, subsidiary or affiliated entities, if any (\"Recipient\").",
+        "changed_text": "Lightning Source UK Ltd., a private company limited by shares formed under the laws of England and Wales (\"LSUK\"), and ______________________. Recipient's obligations under this agreement only apply to the named entity.",
+        "explanation": "The original text includes parent, subsidiary, or affiliated entities in the definition of \"Recipient.\" The modified text removes those entities, creating an in-text contradiction. The contract refers to 'Recipient', but those are not the same 'Recipient'. If only the original recipient is liable then there is no way for the agreement to apply to a new recipient.",
+        "location": "Preamble",
+        "contradicted_location": "Preamble",
+        "contradicted_text": "Non-Disclosure Agreement (APOD) This Nondisclosure Agreement is entered into as of the ______ day of ___________, 20__ (the \"Effective Date\"), by and between Lightning Source UK Ltd., a private company limited by shares formed under the laws of England and Wales (\"LSUK\"), and ______________________. Recipient's obligations under this agreement only apply to the named entity. In order to pursue a possible business relationship, LSUK is providing a tour of its facility and may from time to time disclose confidential or proprietary bu siness and technical information to Recipient.",
+        "contradiction_exists": "YES",
+        "justification": "The original text includes parent, subsidiary, or affiliated entities in the definition of 'Recipient.' The changed text removes those entities. The contradicted text refers to 'Recipient', but because the changed text removes affiliated entities from the definition of recipient, the obligations don't necessarily apply to those entities, causing a strong contradiction."
+      }
+    ]
+  }
+]

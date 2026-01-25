@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "BOMI%20Non-Disclosure%20Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "In the event of any litigation between the Parties in connection with this Agreement, including the seeking of injunctive relief, if BOMI is the successful party, Attendee shall pay to BOMI therein all co sts and expenses, including but not limited to actual attorneys’ fees incurred therein by BOMI, which costs, expens es and attorneys’ fees shall be included as a 2 part of any judgment rendered in such action in addition to a ny other relief to which BOMI may be entitled. Should BOMI not be a successfu l party, the Parties will each bear their own attorneys’ fees and expenses.",
+        "changed_text": "In the event of any litigation between the Parties in connection with this Agreement, including the seeking of injunctive relief, if BOMI is the prevailing party, Attendee shall pay to BOMI therein all co sts and expenses, excluding actual attorneys’ fees incurred therein by BOMI, which costs, expens es shall not be included as a 2 part of any judgment rendered in such action in addition to a ny other relief to which BOMI may be entitled. Should BOMI not be a successfu l party, the Parties will each bear their own attorneys’ fees and expenses.",
+        "explanation": "The change modifies 'successful party' to 'prevailing party', while semantically similar, the exclusion of 'actual attorneys' fees' and stating the costs 'shall not be included' contradicts the initial clause and shifts the financial burden, creating an in-text conflict that alters the original intent and meaning of this clause.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "In the event of any litigation between the Parties in connection with this Agreement, including the seeking of injunctive relief, if BOMI is the prevailing party, Attendee shall pay to BOMI therein all co sts and expenses, excluding actual attorneys’ fees incurred therein by BOMI, which costs, expens es shall not be included as a 2 part of any judgment rendered in such action in addition to a ny other relief to which BOMI may be entitled. Should BOMI not be a successfu l party, the Parties will each bear their own attorneys’ fees and expenses.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the terms of who is responsible for attorney fees. The original text states that BOMI should be awarded attorney fees if it is the successful party. The changed text, however, says that BOMI should not be awarded attorney fees. This exclusion directly contradicts the original intent. Since the Contradicted Text is the same as the Changed Text, they are in direct conflict with what the original text provided."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Attendee acknowledges that all Test documents, materi als, drawings, and other physical media of expression inco rporating or containing any Confidential Information that BOMI furnishes to Attendee, or that Attendee prepares during the Testing Period, are BOMI’s property and will be promptly su rrendered to BOMI upon the comple tion of the Testing Period.",
+        "changed_text": "Attendee acknowledges that all Exam papers, materi als, drawings, and other physical media of expression inco rporating or containing any Confidential Information that BOMI furnishes to Attendee, or that Attendee prepares during the Testing Period, are Attendee's property and will not be surrendered to BOMI upon the comple tion of the Testing Period.",
+        "explanation": "This perturbation introduces a direct contradiction by changing 'Test documents' to 'Exam papers', changing 'BOMI's property' to 'Attendee's property' and stating that the materials 'will not be surrendered'. This is a direct violation and creates confusion, as Attendee is now considered the owner of confidential information that BOMI initially owned.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "Attendee acknowledges that all Exam papers, materi als, drawings, and other physical media of expression inco rporating or containing any Confidential Information that BOMI furnishes to Attendee, or that Attendee prepares during the Testing Period, are Attendee's property and will not be surrendered to BOMI upon the comple tion of the Testing Period. After the completion of the Testing Period, Atte ndee will make no furthe r use of any of the Confidential Information. The foregoing will a pply regardless of whether Attendee completes the Test.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that the 'Exam papers' are the 'Attendee's property' and 'will not be surrendered', which directly contradicts the implied understanding that BOMI retains ownership and control over confidential information. The contradicted text also states 'Attendee will make no furthe r use of any of the Confidential Information.' which contradicts that the Attendee now owns the 'Exam papers'. Therefore, the change introduces a clear and direct conflict within the document, satisfying the condition for a strong in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Attendee understands that BOMI makes no representations or warranties as to the accuracy or completeness of any Confidential Information disclosed, and Attendee agrees that neither BOMI nor any of its officers, director s, Attendees, agents, members or attorneys will have any liability to Attendee arising from Attendee’s use of the Confidential Information.",
+        "changed_text": "Attendee acknowledges that BOMI provides guarantee as to the accuracy and completeness of any Confidential Information disclosed, and Attendee agrees that neither BOMI nor any of its officers, director s, Attendees, agents, members or attorneys will have any liability to Attendee arising from Attendee’s use of the Confidential Information.",
+        "explanation": "The change alters 'makes no representations or warranties' to 'provides guarantee', which directly contradicts the original intent of disclaiming responsibility for the accuracy of the information. It creates a conflict because the original text avoids liability, while the modified text implies BOMI is liable for the integrity of the Confidential Information, which is contradictory to the rest of the agreement.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "Attendee acknowledges that BOMI provides guarantee as to the accuracy and completeness of any Confidential Information disclosed, and Attendee agrees that neither BOMI nor any of its officers, director s, Attendees, agents, members or attorneys will have any liability to Attendee arising from Attendee’s use of the Confidential Information. 8. To the fullest extent permitted by law, all of the covenants and agreements contained in this Agreement will survive inde finitely.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'makes no representations or warranties' with 'provides guarantee', creating a direct contradiction. The contradicted text is identical to the changed text; therefore, it directly contradicts the initial statement that BOMI makes no warranties. This creates a strong in-text contradiction as the document now both disclaims and guarantees the accuracy of the Confidential Information, leading to ambiguity and potential unenforceability."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "To the fullest extent permitted by law, all of the covenants and agreements contained in this Agreement will survive inde finitely. Attendee also understands that the obligation not to use or disclose Confidential In formation shall survive the completion of Testing Period, for so long as the information remain s Confidential Information.",
+        "changed_text": "To the fullest extent permitted by law, all of the covenants and agreements contained in this Agreement will terminate in 30 days. Attendee also understands that the obligation not to use or disclose Confidential In formation shall not survive the completion of Testing Period.",
+        "explanation": "The modification introduces a contradiction by stating the agreement will 'terminate in 30 days', in contrast to the original term 'survive indefinitely'. Additionally, the original obligation 'not to use or disclose' now 'shall not survive' after the testing period, completely nullifying the confidentiality clause. This makes the agreement unenforceable and causes internal disagreement within the clause.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "To the fullest extent permitted by law, all of the covenants and agreements contained in this Agreement will terminate in 30 days. Attendee also understands that the obligation not to use or disclose Confidential In formation shall not survive the completion of Testing Period. Attendee further understands that this Agreement extends to, and shall be binding upon, his heirs, successors and assigns. 9. This Agreement supersedes all previous ag reements, written or oral, relating to the above subject matter, and may be modified onl y by a written instrument duly executed by the parties hereto.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that the agreement will terminate in 30 days and the confidentiality obligation will not survive the testing period. This directly contradicts the same sentence in the Contradicted Text, which originally stated that the agreement would survive indefinitely and the confidentiality obligation would survive the testing period. The contradiction lies in the opposing terms of duration ('terminate in 30 days' vs. 'survive indefinitely') and the survival of confidentiality obligations ('shall not survive' vs. shall survive), creating a clear and direct conflict within the clause."
+      }
+    ]
+  }
+]

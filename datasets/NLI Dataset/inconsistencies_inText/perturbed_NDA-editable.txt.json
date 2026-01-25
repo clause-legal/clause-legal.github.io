@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "NDA-editable.txt",
+    "perturbation": [
+      {
+        "type": "Inconsencies - In Text Contradiction",
+        "original_text": "Time is of the essence with respect to the obligations to be performed under this Agreement.",
+        "changed_text": "Time is not of the essence with respect to the obligations to be performed under this Agreement.",
+        "explanation": "This change directly contradicts the original clause, creating an in-text contradiction. Initially, 'time is of the essence,' meaning strict adherence to deadlines is critical. Now, it's stated that time is *not* of the essence, suggesting deadlines are more flexible. This will affect how all obligations of the contract are interpreted.",
+        "location": "3.2",
+        "contradicted_location": "3.2",
+        "contradicted_text": "3.2 Time is not of the essence with respect to the obligations to be performed under this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states \"Time is of the essence,\" which directly opposes the changed text, \"Time is not of the essence.\" This creates a direct contradiction with the contradicted text, which also states, \"Time is not of the essence.\" The change directly conflicts with a section elsewhere in the document about timing, resulting in inconsistent obligations, thus creating an in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Subject to any express provisions in this Agreement regarding restrictions on transfers or assignments, this Agreement shall be binding upon and inure to the benefit of the parties and their respective successors, assigns, heirs, and personal representatives.",
+        "changed_text": "This Agreement shall not be binding upon or inure to the benefit of any successors, assigns, heirs, or personal representatives of either party.",
+        "explanation": "This change creates a significant in-text contradiction by negating the clause regarding successors and assigns. Initially, the agreement was binding on successors, assigns, heirs, etc. Now, it explicitly states it is *not* binding on them. This will cause problems if one of the companies is aquired, or goes bankrupt. This contradicts the enforceability and applicability of the contract, especially in scenarios involving inheritance, mergers, or acquisitions.",
+        "location": "3.3",
+        "contradicted_location": "3.3",
+        "contradicted_text": "3.3 Successors and Assigns. This Agreement shall not be binding upon or inure to the benefit of any successors, assigns, heirs, or personal representatives of either party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly states that the agreement is *not* binding on successors, assigns, heirs, or personal representatives, which directly contradicts the contradicted text, which states the exact same thing. The change directly caused the contradiction to occur. The explanation is that originally the agreement was binding, and the change is that now it is explicitly not binding."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The parties agree that the courts of Idaho shall have exclusive jurisdiction and agree that Ada County is the proper venue.",
+        "changed_text": "The parties agree that the courts of California shall have exclusive jurisdiction and agree that Los Angeles County is the proper venue.",
+        "explanation": "This change creates an in-text contradiction by changing the jurisdiction and venue for legal disputes. Originally, it was Idaho and Ada County; now, it's California and Los Angeles County. This introduces uncertainty and conflicts in the legal enforcement of the contract, and contradicts 3.1 with the new location, making that section void",
+        "location": "3.1",
+        "contradicted_location": "3.1",
+        "contradicted_text": "3.1 Governing Law, Jurisdiction, and Venue. This Agreement shall be construed and interpreted in accordance with the laws of the State of Idaho. The parties agree that the courts of California shall have exclusive jurisdiction and agree that Los Angeles County is the proper venue.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified Idaho courts and Ada County as the exclusive jurisdiction and venue. The changed text replaces this with California courts and Los Angeles County. The contradicted text includes both the original and the changed text. Therefore, the change directly contradicts the initial part of the contradicted text, which specifies Idaho, creating an in-text contradiction. This contradiction falls under the provided definition of 'Inconsistencies - In Text Contradiction,' as it introduces conflicting information about the jurisdiction and venue, which are critical legal aspects of the contract."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "MARIPOSA may manufacture and sell products that use formulas that are similar to (but not identical with) formulas used for the Company products. In this regard, a formula shall not be considered identical if the chemical components of the f ormula vary in any respect.",
+        "changed_text": "MARIPOSA may not manufacture or sell any products that use formulas similar to those used for the Company's products. Any formula with similar chemical components will be considered a breach of this agreement.",
+        "explanation": "This change directly contradicts the original clause, creating an in-text contradiction. Originally, MARIPOSA was allowed to use similar formulas. Now, it's prohibited from using any similar formulas, with any similarity considered a breach. This creates a contradiction for what MARIPOSA can use.",
+        "location": "2.2",
+        "contradicted_location": "2.2",
+        "contradicted_text": "(d) MARIPOSA may not manufacture or sell any products that use formulas similar to those used for the Company products. Any formula with similar chemical components will be considered a breach of this agreement. In this regard, a formula shall not be considered identical if the chemical components of the f ormula vary in any respect.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed MARIPOSA to manufacture and sell products with similar formulas. The changed text explicitly prohibits MARIPOSA from doing so, stating that any similarity will be considered a breach. The contradicted text is a repetition of the changed text, further solidifying this prohibition. This creates a direct conflict between the original allowance and the new prohibition, fitting the definition of an inconsistency that leads to an in-text contradiction."
+      }
+    ]
+  }
+]

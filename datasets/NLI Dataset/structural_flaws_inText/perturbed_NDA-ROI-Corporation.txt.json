@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "NDA-ROI-Corporation.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "For the purposes of this Agreement, “Confidential Information” shall mean information that is used in Disclosing Party's business and is: (i) proprietary to, about or created by Disclosing Part y; (ii) gives Disclosing Party some competitive business ad vantage or the opportunity of obtaining such advantage or the disclosure of which could be detri mental to the interests of Disclosing Party; (iii) designated as Confidential Information by Disclosin g Party, or from all the relevant circumstances should reasonably be assumed by Receiving Party to be confidential and proprietary to Disclosing Party including information and documentation clear ly and conspicuously marked with a legend identifying its Confidential, Classified and Propri etary in nature: (iv) not generally known by Receiving Party",
+        "changed_text": "For the purposes of this Agreement, “Confidential Information” shall mean information that is used in Disclosing Party's business and is: (i) proprietary to, about or created by Disclosing Part y; (ii) gives Disclosing Party some competitive business ad vantage or the opportunity of obtaining such advantage or the disclosure of which could be detri mental to the interests of Disclosing Party; (iii) designated as Confidential Information by Disclosin g Party; (iv) generally known by Receiving Party.",
+        "explanation": "By removing the phrase 'or from all the relevant circumstances should reasonably be assumed by Receiving Party to be confidential and proprietary to Disclosing Party including information and documentation clear ly and conspicuously marked with a legend identifying its Confidential, Classified and Propri etary in nature' and replacing it with '(iv) generally known by Receiving Party', it now directly contradicts the intent of the agreement. Before this change, information not generally known was confidential, now information generally known is confidential, causing contradiction.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "For the purposes of this Agreement, “Confidential Information” shall also include, but is not necessarily limited to, any and all information, financial statements, lega l documents, location of the practice(s), and iden tity of the Vendor, the fact that the practices are available fo r purchase, business records and plans, patient li sts and records, employee lists and records, trade secrets, operatio ns, technical information, pricing structure, costs , marketing strategies and market research and patient demograp hics pertaining to the professional practice(s) for which I am inquiring.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined confidential information as information not generally known. The changed text redefines confidential information to include information that *is* generally known. This creates a direct contradiction with the contradicted text, which lists specific types of information (financial statements, legal documents, etc.) that are included as confidential information. If 'Confidential Information' now includes generally known information, it renders the list in the contradicted text ambiguous and contradictory because the examples may already be generally known or assumed to be confidential. This causes uncertainty as to what constitutes confidential information within the agreement."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "I further agree n ot to write or mark the Appraisal(s), nor shall I c opy or reproduce any information in any manner whatsoever without the prior consent of ROI Corporation.",
+        "changed_text": "I further agree to write or mark the Appraisal(s), and shall I c opy or reproduce any information in any manner whatsoever without the prior consent of ROI Corporation.",
+        "explanation": "By changing 'not to write or mark' to 'to write or mark', the clause becomes contradictory. Initially, the receiving party was forbidden from altering the appraisal. Now, they are allowed to write and mark the appraisal, creating uncertainty about the handling of appraisal documents.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "The Receiving Party shall take all practical steps to keep the Disclosing Party’s Confidential Informa tion confidential and shall restrict access to the Confidential Infor mation to those agents and professional advisers to whom disclosure is necessary in pursuit of the Approved Purpose.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text allows the receiving party to \"write or mark the Appraisal(s)\", which directly contradicts the Contradicted Text, which states \"The Receiving Party shall take all practical steps to keep the Disclosing Party’s Confidential Informa tion confidential and shall restrict access to the Confidential Information\", as the appraisal is confidential information. Allowing the Receiving Party to write and mark the appraisal creates a risk to confidentiality, thereby contradicting the instruction to keep confidential information confidential. The perturbation explanation given also agrees with this analysis."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Receiving Party shall take all practical steps to keep the Disclosing Party’s Confidential Informa tion confidential and shall restrict access to the Confidential Infor mation to those agents and professional advisers to whom disclosure is necessary in pursuit of the Approved Purpose.",
+        "changed_text": "The Receiving Party is not required to take any practical steps to keep the Disclosing Party’s Confidential Informa tion confidential and will not restrict access to the Confidential Infor mation to those agents and professional advisers to whom disclosure is necessary in pursuit of the Approved Purpose.",
+        "explanation": "The original text obligates the Receiving Party to protect confidential information. The changed text removes this obligation, directly contradicting the intention to protect confidential information and contradicting the clause that identifies information as confidential, which creates in-text contradictions.",
+        "location": "Paragraph 2",
+        "contradicted_location": "Paragraph 2",
+        "contradicted_text": "Each Party shall inform all such employee s, agents and professional advisers of the provisions of this Agr eement and shall be responsible for ensuring compli ance with the said provisions by all agents and professional advi sers.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires the Receiving Party to protect confidential information. The changed text states the Receiving Party is not required to protect confidential information. The contradicted text requires Each Party to ensure compliance with the provisions of this Agreement. The changed text directly contradicts the contradicted text, because if the receiving party does not have to protect the information, the provision to ensure compliance with this provision is now unenforceable, creating a strong in-text contradiction. This aligns with the definition of Structural Flaws - In Text Contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Each Party shall inform all such employee s, agents and professional advisers of the provisions of this Agr eement and shall be responsible for ensuring compli ance with the said provisions by all agents and professional advi sers.",
+        "changed_text": "Each Party is not obligated to inform all such employee s, agents and professional advisers of the provisions of this Agr eement and shall not be responsible for ensuring compli ance with the said provisions by all agents and professional advi sers.",
+        "explanation": "By negating the responsibility of informing employees, agents, and advisors about the agreement's provisions, this contradicts the overall intent of ensuring compliance with the agreement. If no one is informed, compliance is impossible, creating an in-text contradiction to the primary purpose of the NDA.",
+        "location": "Paragraph 2",
+        "contradicted_location": "Paragraph 3",
+        "contradicted_text": "Receiving Party acknowledges and agrees that due to the sensitive nature of the Confidential Informati on, any breach of this Agreement would cause irreparable ha rm to the Disclosing Party and that the Disclosing Party shall therefore be entitled to equitable relief in additi on to all other remedies available at law.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly states that the party is *not* obligated to inform employees, agents, and advisors about the agreement and is *not* responsible for their compliance. This directly contradicts the contradicted text, which states that any breach would cause irreparable harm and entitle the disclosing party to equitable relief. If individuals are not informed of the agreement, their breach is more likely, thereby causing irreparable harm and directly conflicting with the intent and enforceability of the agreement and causing a strong in-text contradiction. This follows the definition of Structural Flaws - In Text Contradiction."
+      }
+    ]
+  }
+]

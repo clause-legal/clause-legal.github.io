@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "XLITECHNOLOGIES,INC_12_02_2015-EX-10.02-STRATEGIC ALLIANCE AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "5. RIGHTS GRANTED: BOSCH hereby grants CLIENT the \"Exclusive Distribution License Rights\" sell and distribute the Products within the \"Territory\". BOSCH hereby grants CLIENT un-exclusive \"Reserved Rights\" to sell and distribute the \"Product\" within the \"Territory\".",
+        "changed_text": "5. RIGHTS GRANTED: BOSCH hereby grants CLIENT the \"Exclusive Distribution License Rights\" to sell and distribute the Products within the \"Territory\". Furthermore, BOSCH may grant other parties exclusive rights within the same \"Territory\" without notifying CLIENT. BOSCH hereby grants CLIENT un-exclusive \"Reserved Rights\" to sell and distribute the \"Product\" within the \"Territory\".",
+        "explanation": "This change adds a sentence that contradicts the exclusive rights granted to the client in the first sentence. It creates an internal contradiction because while the client is granted 'Exclusive Distribution License Rights', BOSCH reserves the right to grant other parties exclusive rights in the same territory which contradicts the idea of exclusivity initially granted to the CLIENT.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "5. RIGHTS GRANTED: BOSCH hereby grants CLIENT the \"Exclusive Distribution License Rights\" to sell and distribute the Products within the \"Territory\". Furthermore, BOSCH may grant other parties exclusive rights within the same \"Territory\" without notifying CLIENT. BOSCH hereby grants CLIENT un-exclusive \"Reserved Rights\" to sell and distribute the \"Product\" within the \"Territory\".",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a clear contradiction. Initially, the client is granted \"Exclusive Distribution License Rights\" within the specified \"Territory\". However, the modification adds that \"BOSCH may grant other parties exclusive rights within the same 'Territory' without notifying CLIENT\". This directly contradicts the meaning of 'exclusive rights' initially granted to the client, as exclusivity implies that only one party has the right to sell and distribute within that territory. This creates an in-text contradiction because both parties can't simultaneously have exclusive rights for the same product in the same territory. This aligns with the definition of \"Ambiguities – In Text Contradiction\", which states that ambiguities occur when key terms are defined inconsistently, making enforcement difficult."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "7. TERRITORY: United States of America and Canada, excluding the US Virgin Islands",
+        "changed_text": "7. TERRITORY: The territory shall consist of select locations within the United States of America and Canada, as determined solely by BOSCH, excluding the US Virgin Islands. A list of approved locations will be provided separately, but BOSCH retains the right to modify this list at any time without prior notice.",
+        "explanation": "This change introduces uncertainty regarding the definition of 'Territory'. Initially, the territory is clearly defined as the United States and Canada (excluding the US Virgin Islands). After the change, it becomes 'select locations' within those countries as determined by BOSCH, creating an internal contradiction. In Section 5, the rights granted in territory are now uncertain, because the territory it self is uncertain.",
+        "location": "7",
+        "contradicted_location": "5",
+        "contradicted_text": "5. RIGHTS GRANTED: BOSCH hereby grants CLIENT the \"Exclusive Distribution License Rights\" to sell and distribute the Products within the \"Territory\". Furthermore, BOSCH may grant other parties exclusive rights within the same \"Territory\" without notifying CLIENT. BOSCH hereby grants CLIENT un-exclusive \"Reserved Rights\" to sell and distribute the \"Product\" within the \"Territory\".",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines a clear territory (United States of America and Canada, excluding the US Virgin Islands). The changed text introduces significant ambiguity by limiting the territory to 'select locations within' those countries, determined solely by BOSCH. This contradicts section 5, which grants the CLIENT exclusive and non-exclusive distribution rights to the entire previously defined 'Territory'. The term 'Territory' no longer has a fixed meaning, making it impossible to determine the scope of the distribution rights. This aligns with the Ambiguities - In Text Contradiction definition because it introduces uncertainty regarding the definition of 'Territory'. In Section 5, the rights granted in territory are now uncertain, because the territory it self is uncertain. The change breaks the compatibility between the defined territory and the rights granted within it, creating a strong in-text contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "8. RESERVED RIGHTS: All business, locations, entities, people, etc... without any limitations. This is in concert and approval with BOSCH and is limited to any and all of BOSCH's current clients.",
+        "changed_text": "8. RESERVED RIGHTS: All business, locations, entities, people, etc... without any limitations unless explicitly stated otherwise by BOSCH in writing. This is in concert and approval with BOSCH and is limited to only those of BOSCH's current clients who have been pre-approved for this agreement. BOSCH can withdraw the pre-approval any moment",
+        "explanation": "The original text grants reserved rights to all businesses, locations, etc. with BOSCH's approval, limited only to BOSCH's current clients. The modified text adds conditions that BOSCH may restrict these reserved rights with written notice, and the rights are limited to pre-approved current clients with BOSCH retaining the right to withdraw approval. This introduces ambiguity and contradiction, because the first sentence grants unlimited rights whereas the others restrict rights based on BOSCH's approval.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "8. RESERVED RIGHTS: All business, locations, entities, people, etc... without any limitations unless explicitly stated otherwise by BOSCH in writing. This is in concert and approval with BOSCH and is limited to only those of BOSCH's current clients who have been pre-approved for this agreement. BOSCH can withdraw the pre-approval any moment",
+        "contradiction_exists": "YES",
+        "justification": "The original text granted reserved rights to all businesses, locations, etc., with BOSCH's approval, limited only to BOSCH's current clients. The changed text introduces conditions that BOSCH may restrict these reserved rights with written notice and limits the rights to pre-approved current clients with BOSCH retaining the right to withdraw approval, as shown by '8. RESERVED RIGHTS: All business, locations, entities, people, etc... without any limitations unless explicitly stated otherwise by BOSCH in writing.' and 'BOSCH can withdraw the pre-approval any moment'. The first sentence now clashes with the other sentences restricting rights based on BOSCH's approval. Therefore, it's an in-text contradiction as the granting of unlimited rights conflicts with limiting rights based on BOSCH's approval. This leads to ambiguities and inconsistencies, making it difficult to determine the extent of the reserved rights. Thus, a strong in-text contradiction exists based on the definition given for ambiguities in the prompt."
+      }
+    ]
+  }
+]

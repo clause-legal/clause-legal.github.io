@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "PREMIERBIOMEDICALINC_05_14_2020-EX-10.2-INTELLECTUAL PROPERTY AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Licenses granted herein are solely for products in the form sold by the Licensee and are not to be construed either (i) as consent by the Marv to any act which may be performed by the Licensee, except to the extent impacted by a patent licensed herein to the Licensee, or (ii) to include licenses to contributorily infringe or induce infringement under U.S. law or a foreign equivalent thereof.",
+        "changed_text": "Licenses granted herein are solely for products in the form sold by the Licensee and shall be construed as consent by Marv to any act which may be performed by the Licensee. The licenses include the right to contributorily infringe or induce infringement under U.S. law or a foreign equivalent thereof.",
+        "explanation": "This change directly contradicts the original text. The original clause explicitly stated the licenses do *not* include consent for any act by the Licensee and do *not* allow for contributory infringement. The modified clause asserts the opposite. This creates uncertainty about the scope of the license and potential liability for infringement, because Section 2(a)4 contradicts itself, and is an in-text contradiction",
+        "location": "2(a)4",
+        "contradicted_location": "2(a)4",
+        "contradicted_text": "4. Licenses granted herein are solely for products in the form sold by the Licensee and shall be construed as consent by Marv to any act which may be performed by the Licensee. The licenses include the right to contributorily infringe or induce infringement under U.S. law or a foreign equivalent thereof.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text introduces a direct in-text contradiction. The original text explicitly denies consent for Licensee's actions and disallows contributory infringement, while the changed text asserts the opposite: it grants consent and permits contributory infringement. This creates a clear conflict within the contract, satisfying the 'Structural Flaws - In Text Contradiction' definition, as the same clause now has conflicting implications based on its modified content, causing uncertainty about the Licensee's rights and potential liabilities. The changed text directly breaks compatibility with the original text's limitations."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "THI shall prepay Marv for any affirmed IP Cost before payment is to be made by Marv. Marv shall have no duty to pay an IP Cost, whether affirmed or not affirmed, for which Marv does not receive prepayment. If THI does not pay Marv by the Due Date, the Application or Patent shall revert to Marv as if THI had denied payment under section 2(c)3.",
+        "changed_text": "THI shall prepay Marv for any affirmed IP Cost before payment is to be made by Marv. Marv retains the full duty to pay any IP cost, regardless if it has been affirmed, and regardless if they received pre payment, as long as it has been received before the Due Date. If THI does not pay Marv by the Due Date, the Application or Patent shall not revert to Marv.",
+        "explanation": "By inserting the perturbed text, we created a contradiction in the requirements for IP cost payment and the consequences of non-payment. The clause now states Marv has a duty to pay regardless of prepayment if received before the due date, conflicting with the earlier statement that they have no duty without prepayment and that the application will revert to Marv. The change also states that non-payment does not result in reversion, which directly opposes the original agreement. In-text contradiction inside 2(c)4 where it refers to Marv duty to pay even if THI hasn't prepaid, and in-text contradiction inside 2(c)4 where it refers that If THI does not pay Marv by the Due Date, the Application or Patent shall not revert to Marv.",
+        "location": "2(c)4",
+        "contradicted_location": "2(c)4",
+        "contradicted_text": "4. Reimbursement by Licensee. THI shall prepay Marv for any affirmed IP Cost before payment is to be made by Marv. Marv retains the full duty to pay any IP cost, regardless if it has been affirmed, and regardless if they received pre payment, as long as it has been received before the Due Date. If THI does not pay Marv by the Due Date, the Application or Patent shall not revert to Marv as if THI had denied payment under section 2(c)3.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a direct contradiction within the document. The original text states Marv has 'no duty to pay an IP Cost' without prepayment, and the application reverts if THI doesn't pay. The changed text imposes a 'full duty to pay any IP cost' regardless of prepayment and prevents reversion upon non-payment. The contradicted text in section 4 reflects these exact contradictory changes regarding Marv's duty and the consequences of non-payment, making the contradiction explicit and impactful, thus creating a clear in-text contradiction based on the definition of structural flaws because the same clause has contradicting implications."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Parties agree that Marv and/or Mitchell S. Felder shall have no obligation and/or involvement in any capital raising activities for THI or Premier at any time and for any reason.",
+        "changed_text": "The Parties agree that Marv and/or Mitchell S. Felder shall have an obligation to participate actively in capital raising activities for THI and Premier, as directed by Premier's board of directors. Marv's participation is mandatory and essential for the success of the joint venture.",
+        "explanation": "This perturbation reverses the original statement completely. The original clause explicitly states that Marv has no obligation or involvement in capital raising. The modified clause states the opposite, making it mandatory for Marv to be involved. This creates a direct conflict regarding Marv's role, creating uncertainty and potentially leading to legal disputes. The in-text contradiction can be found in section 5, since it contradicts itself.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "5. REQUIREMENT. The Parties agree that Marv and/or Mitchell S. Felder shall have an obligation to participate actively in capital raising activities for THI and Premier, as directed by Premier's board of directors. Marv's participation is mandatory and essential for the success of the joint venture. Further, the 150,000,000 (one hundred and fifty million) stock warrants previously ceded to Mitchell S. Felder by Halberd/THI shall not be eliminated, cancelled, or altered in any way, and for any reason, unless specifically directed at the request of Mitchell S. Felder.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that Marv and Mitchell S. Felder have no obligation or involvement in capital raising activities. The changed text states the opposite, making Marv's participation mandatory. The Contradicted Text also states that Marv and Mitchell S. Felder have an obligation to participate in capital raising activities. The changed text causes a direct conflict with the original clause as well as the contradicted clause, creating uncertainty and potentially leading to legal disputes. Therefore, a strong in-text contradiction exists."
+      }
+    ]
+  }
+]

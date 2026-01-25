@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "DoiT-ICN-NonDisclosure-Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "6. The parties recognize and agree that the obligations under paragraphs 1 and 6 of this Agreement shall survive the termination of this Agreement, and the parties shall be bound by such obligations after termination hereof.",
+        "changed_text": "6. The parties recognize and agree that the obligations under paragraphs 1 of this Agreement shall survive the termination of this Agreement, and the parties shall be bound by such obligations after termination hereof.",
+        "explanation": "By removing 'and 6' the surviving obligations after termination now only refer to paragraph 1, but the contract now doesn't specify any other paragraph to be referred, creating an in-text contradiction. This makes it unclear what, if any, other obligations survive termination, affecting the enforceability of other contract terms.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "6. The parties recognize and agree that the obligations under paragraphs 1 of this Agreement shall survive the termination of this Agreement, and the parties shall be bound by such obligations after termination hereof.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that obligations under paragraphs 1 and 6 survive termination. The changed text removes 'and 6', stating only obligations under paragraph 1 survive. This creates a contradiction because the contradicted text is identical to the changed text. The changed text, as a result of the omission, now makes it unclear whether the obligations under paragraph 6 survive termination, thereby contradicting the original intent. The explanation confirms that this omission leads to an in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "4. This Agreement shall be governed by the laws of the State of Illinois.",
+        "changed_text": "4. This Agreement shall be governed by the laws as determined by the mutual agreement of both parties.",
+        "explanation": "By changing the jurisdiction selection, this creates an in-text contradiction, since laws cannot be determined based on the mutual agreement of both parties, this is only applicable when selecting arbitration. Creating a contraddiction by making it unclear by which jurisdiction shall be applied.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "4. This Agreement shall be governed by the laws as determined by the mutual agreement of both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that Illinois law governs the agreement. The changed text introduces a contradiction by stating that the governing law will be determined by the mutual agreement of both parties, which is inconsistent with the legal framework that is supposed to govern the contract. The contradicted text is exactly the same as the changed text. The explanation clearly states that it creates a contradiction by making it unclear by which jurisdiction shall be applied. A reasonable reader would immediately recognize the sections as incompatible."
+      }
+    ]
+  }
+]

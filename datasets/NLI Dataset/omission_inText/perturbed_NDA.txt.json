@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "NDA.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Developer shall not reproduce any Sample Data in any form or store it in a retrieval system or database without FDI’s prior written consent, except as Developer reasonably may require for the Permitted Purpose.",
+        "changed_text": "Developer shall not reproduce any Sample Data in any form or store it in a retrieval system or database without FDI’s prior written consent.",
+        "explanation": "By removing the phrase 'except as Developer reasonably may require for the Permitted Purpose,' we create an in-text contradiction because the original text allows for some reproduction or storage within the 'Permitted Purpose'. Now, no reproduction or storage is allowed at all, irrespective of the 'Permitted Purpose'. This creates a contradiction when considering the definition of the 'Permitted Purpose'.",
+        "location": "1.b",
+        "contradicted_location": "WHEREAS",
+        "contradicted_text": "WHEREAS, FDI has compiled and maintains certain databases pertaining to ophthalmic frame style specifications which it updates and modifies from time to time that includes textual and graphic data relating to frames manufactured by various manufacturers (the “Data ”); Developer develops optical practice management software applications (the “Applications ”) and wishes to obtain a sample of certain Data (the “Sample Data ”) for the sole purpose of assessing whether Developer can adapt the Applications to be compatible with the Sample Data (the “Permitted Purpose ”); and FDI is willing to provide Developer with a sample of Sample Data for the Permitted Purpose for a limited time (the “Assessment Period ”) on the terms and conditions set forth below; NOW, THEREFORE, in consideration of the mutual promises made below, the parties agree as follows:",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed the Developer to reproduce or store Sample Data if reasonably required for the Permitted Purpose. The changed text removes this exception, creating a blanket prohibition on reproduction or storage. The contradicted text states that the Permitted Purpose is to assess whether the Developer can adapt Applications to be compatible with the Sample Data. Removing the exception means the Developer cannot reproduce or store the data even for assessment purposes, which directly contradicts the definition of 'Permitted Purpose' provided in the contradicted text, therefore it is a strong contradiction, and 'YES' is assigned."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Term .Due to the valuable and proprietary nature of the Sample Data, the obligations assumed by Developer hereunder other than those stated in Section 1(c) shall be unlimited in time or territory.",
+        "changed_text": "Term . The obligations assumed by Developer hereunder other than those stated in Section 1(c) shall be limited to the Assessment Period.",
+        "explanation": "By changing 'unlimited in time or territory' to 'limited to the Assessment Period', the agreement now contradicts itself. The original agreement explicitly states that the developer's obligations (excluding 1(c)) are unlimited in time because the data is valuable and proprietary. Now it is explicitly limited to the Assessment Period even though data continues to be valuable and proprietary. This contradicts the implicit justification for the original unlimited term, especially as the section states that the obligations assumed by Developer are unlimited in time or territory *because* of the Sample Data's valuable and proprietary nature.",
+        "location": "3",
+        "contradicted_location": "4",
+        "contradicted_text": "Ownership .Developer acknowledges that FDI owns the Sample Data and agrees not to challenge FDI’s ownership of the Data or the Sample Data.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated the Developer's obligations regarding the Sample Data were 'unlimited in time or territory' due to its valuable and proprietary nature. The changed text limits these obligations to the 'Assessment Period'. This directly contradicts the 'Ownership' section, as the value and proprietary nature of the Sample Data, as acknowledged by the Developer, would logically extend beyond the Assessment Period. Limiting the obligations while still acknowledging FDI's ownership and the data's proprietary nature creates a contradiction, because the initial agreement was that the obligations were unlimited *because* of the data's nature."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This Agreement shall be governed by the laws of the State of New York without regard to its conflicts of laws provisions.",
+        "changed_text": "This Agreement shall be governed by the laws of the State of Delaware.",
+        "explanation": "Changing the governing law creates a contradiction if any other clause relies on specific New York laws. For instance, if Section 1(c) or another implied section hinges on New York law regarding legal compulsion to disclose, switching to Delaware law changes the entire basis for interpreting that clause. This change could influence the outcome of litigation and renders prior assumptions about legal interpretation incorrect, and contradicts other clauses who would depend on that state law, should there be any.",
+        "location": "6",
+        "contradicted_location": "1.c",
+        "contradicted_text": "Legal Compulsion .If Developer becomes legally compelled to disclose any Sample Data, Developer shall provide FDI with prompt prior written notice of such requirement so that FDI may seek a protective order or other appropriate remedy, or both, or waive compliance with the terms of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies New York law, while the changed text specifies Delaware law. The contradicted text discusses 'Legal Compulsion' and requires the Developer to notify FDI, potentially so FDI can seek remedies under New York law. Changing the governing law to Delaware alters the legal framework under which that clause would be interpreted and enforced, directly contradicting the implicit assumption that New York law would apply for seeking protective orders or other remedies. This constitutes a strong in-text contradiction because the remedy sought in the contradicted section now falls under a different legal system."
+      }
+    ]
+  }
+]

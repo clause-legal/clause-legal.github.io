@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "1367408_0001367408-06-000002_risb2ex105.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "MSC recognizes that the Information is the sole property of Company, is confidential, and is to be held by MSC in the strictest confidence.",
+        "changed_text": "MSC recognizes that the Information is not the sole property of Company, it is not confidential and does not need to be held by MSC in the strictest confidence.",
+        "explanation": "This change directly contradicts the core confidentiality obligation by stating the information is *not* confidential and doesn't need strict protection. The contradiction arises when considered against the purpose stated at the beginning of the agreement: 'In order to protect certain confidential information'. This clause effectively negates the agreement's main intent, leading to ambiguity.",
+        "location": "4",
+        "contradicted_location": "introduction",
+        "contradicted_text": "CONFIDENTIALITY AND NON-DISCLOSURE AGREEMENT Effective Date: 11/22/05 In order to protect certain confidential information which may be disclosed by Raphael Industries, Inc (\"Company\") to Marketing Software Company (\"MSC\"), it is agreed that:",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. The contradicted text states that the purpose of the agreement is to protect certain confidential information. However, the changed text explicitly states that the information is *not* confidential and does not need to be held in the strictest confidence. This is a direct contradiction of the agreement's foundational purpose, causing a strong in-text contradiction as defined in the prompt."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "MSC agrees that it will not permit any person, firm or corporation to use, copy or reproduce in any manner whatsoever any part of the Information, except to the extent that the Information must be reproduced by MSC in performing its data processing services.",
+        "changed_text": "MSC agrees that it will allow any person, firm or corporation to use, copy or reproduce in any manner whatsoever any part of the Information, even if the Information must not be reproduced by MSC in performing its data processing services.",
+        "explanation": "This change directly contradicts the non-reproduction clause. It introduces an ambiguity because while MSC initially agrees not to permit reproduction, the modified clause now allows it without limitation. This clashes with the 'strictest confidence' requirement in Clause 4, creating uncertainty about the actual restrictions on the use and distribution of the Information.",
+        "location": "5",
+        "contradicted_location": "4",
+        "contradicted_text": "MSC recognizes that the Information is the sole property of Company, is confidential, and is to be held by MSC in the strictest confidence.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a direct contradiction. The original text stated that MSC would not permit reproduction of the information, while the changed text explicitly allows it. This directly contradicts the contradicted text, which states that the information is to be held by MSC in the 'strictest confidence', which implies a restriction on reproduction or dissemination. The change introduces an ambiguity and conflicts with the 'strictest confidence' requirement, making it a strong in-text contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "All additions or modifications to the Agreement must be made in writing and must be signed by both parties.",
+        "changed_text": "Additions or modifications to the Agreement can be made verbally and without signature from either parties.",
+        "explanation": "This change presents a contradiction about how the agreement can be altered. Originally, modifications required written consent and signatures. Now, changes can be verbal and unsigned. This introduces an ambiguity as it undermines the enforceability of future changes, making it unclear which amendments are valid. This contradiction arises when considering the 'Effective Date' at the beginning, implying a fixed, agreed-upon document, rather than a fluid, verbally-modifiable one.",
+        "location": "6",
+        "contradicted_location": "introduction",
+        "contradicted_text": "CONFIDENTIALITY AND NON-DISCLOSURE AGREEMENT Effective Date: 11/22/05 In order to protect certain confidential information which may be disclosed by Raphael Industries, Inc (\"Company\") to Marketing Software Company (\"MSC\"), it is agreed that:",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that all modifications must be in writing and signed by both parties. The changed text now says that modifications can be made verbally and without signatures. The contradicted text establishes an 'Effective Date', implying a finalized, agreed-upon agreement. The change directly contradicts this by allowing verbal, unsigned modifications, undermining the idea of a fixed agreement and introducing ambiguity about the validity of future amendments, creating a direct in-text contradiction per the explanation given."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement is made under and shall be construed according to the laws of the State of California.",
+        "changed_text": "This Agreement is made under and shall be construed according to the laws of the State of Delaware.",
+        "explanation": "The change in the governing law introduces an ambiguity as it alters the legal framework under which the contract is interpreted and enforced. This creates a potential contradiction, since other clauses may have been drafted specifically with California law in mind. Since Delaware laws may have a different definition, leading to disputes over the interpretations of the other clauses",
+        "location": "7",
+        "contradicted_location": "Any Clause",
+        "contradicted_text": "CONFIDENTIALITY AND NON-DISCLOSURE AGREEMENT Effective Date: 11/22/05 In order to protect certain confidential information which may be disclosed by Raphael Industries, Inc (\"Company\") to Marketing Software Company (\"MSC\"), it is agreed that: 1. The confidential information disclosed by Company to MSC under this Agreement is described as: customer and prospective customer contact data (\"Information\"). 2. MSC shall protect the Information by using the same degree of care, but no less than a reasonable degree of care, to prevent the unauthorized use, dissemination or publication of the Information as MSC uses to protect its own confidential information of a like nature. 3. This Agreement imposes no obligation upon MSC with respect to the Information which (a) was in MSC's possession before receipt from the Company; (b) is or becomes a matter of public knowledge through no fault of MSC; (c) is rightfully received by MSC from a third party without a duty of confidentiality; (d) is disclosed by the Company to a third party without a duty of confidentiality on the third party; (e) is independently developed by MSC; (f) is disclosed under operation of law; or (g) is disclosed by MSC with the Company's prior approval. 4. MSC recognizes that the Information is the sole property of Company, is confidential, and is to be held by MSC in the strictest confidence. 5. MSC recognizes that the Information constitutes a valuable property of the Company. MSC agrees that it will not permit any person, firm or corporation to use, copy or reproduce in any manner whatsoever any part of the Information, except to the extent that the Information must be reproduced by MSC in performing its data processing services. 6. All additions or modifications to the Agreement must be made in writing and must be signed by both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The change from California to Delaware law introduces a strong ambiguity and potential contradiction. The 'Contradicted Text' outlines specific obligations and definitions, such as 'confidential information' and its handling. These clauses are likely drafted and interpreted under California law. Switching to Delaware law alters the fundamental legal framework, creating uncertainty over how these clauses are interpreted and enforced, as Delaware law might define terms and obligations differently. This creates an in-text contradiction under the 'Ambiguities' definition, leading to potential disputes over the contract's interpretation."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The confidential information disclosed by Company to MSC under this Agreement is described as: customer and prospective customer contact data (\"Information\").",
+        "changed_text": "The confidential information disclosed by Company to MSC under this Agreement includes only data explicitly marked as 'Confidential'. Any unmarked data is considered non-confidential, including customer and prospective customer contact data (\"Information\").",
+        "explanation": "The original defines 'Information' as customer contact data, making it presumptively confidential. The change introduces a conflicting condition: only data *explicitly marked* as confidential is protected, contradicting the original broad definition of 'Information'. This creates an ambiguity regarding which data is actually covered by the confidentiality obligations. The fact that the initial text defines the information being passed as \"Information\" creates the in-text contradition",
+        "location": "1",
+        "contradicted_location": "2",
+        "contradicted_text": "MSC shall protect the Information by using the same degree of care, but no less than a reasonable degree of care, to prevent the unauthorized use, dissemination or publication of the Information as MSC uses to protect its own confidential information of a like nature.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines 'Information' (customer contact data) as confidential. The changed text says that only explicitly marked data is confidential, including customer contact data, which contradicts the original definition. The 'Contradicted Text' assumes that 'Information' is confidential and must be protected. The changed text introduces an exception, making it unclear if customer contact data (previously defined as 'Information') needs to be protected because it may not be marked as 'Confidential'. This introduces ambiguity in the definition, meeting the 'Ambiguities - In Text Contradiction' perturbation type."
+      }
+    ]
+  }
+]

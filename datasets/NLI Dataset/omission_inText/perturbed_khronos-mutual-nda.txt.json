@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "khronos-mutual-nda.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "5.4 Notices Any notices under this Agreement shall be sent by a) registered mail; b) tracked overnight carrier or c) email transmission where the recipient specifically replies to acknowledge receipt.",
+        "changed_text": "5.4 Notices Any notices under this Agreement shall be sent by a) registered mail; b) tracked overnight carrier.",
+        "explanation": "By removing 'email transmission where the recipient specifically replies to acknowledge receipt', the contract omits one method of delivering notices. If a party attempts to provide notice via email and relies on that, it creates uncertainty because it is no longer listed as acceptable. If a later section relies on 'proper notice', it will be contradicted.",
+        "location": "5.4",
+        "contradicted_location": "5.9",
+        "contradicted_text": "Either party may terminate this Agreement at any time upon written notice to the other party. Promptly after such termination, all obligations of Participant and Khronos under this Agreement will terminate, and both parties will return or destroy all materials provided by the other party pursuant to th is Agreement. Notwithstanding the foregoing, the rights and obligations set forth in Sections 4 (Confidential Information), 5.7 (No Warranty) and 5.8 (Limitation of Liability) will survive termination of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allows for notices to be sent via email transmission with acknowledgement of receipt. The changed text omits email as an acceptable form of notice. The contradicted text states that either party may terminate the agreement upon 'written notice'. The omission of email as an acceptable form of notice directly contradicts the contradicted text, because if a party attempts to terminate the agreement via email, it is unclear whether this would be considered proper notice, creating a contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "5.8 Limitation of Liability IN NO EVENT WILL ANY EITHER PARTY BE LIABLE TO THE OTHER PARTY FOR ANY INCIDENTAL, CONSEQUENTIAL, INDIRECT, SPECIAL OR EXEMPLARY DAMAGES, WHETHER UNDER CONTRACT, TORT, WARRANTY, CONDIT ION OR OTHERWISE, ARISING IN ANY WAY IN RELATION TO THIS OR ANY OTHER RELATED AGREEMENT, WHETHER OR NOT SUCH PARTY HAD ADVANCE NOTICE OF THE POSSIBILITY OF SUCH DAMAGES.",
+        "changed_text": "5.8 Limitation of Liability IN NO EVENT WILL ANY EITHER PARTY BE LIABLE TO THE OTHER PARTY FOR ANY INCIDENTAL, CONSEQUENTIAL, INDIRECT, SPECIAL OR EXEMPLARY DAMAGES, WHETHER UNDER CONTRACT, TORT, WARRANTY, CONDIT ION OR OTHERWISE, ARISING IN ANY WAY IN RELATION TO THIS OR ANY OTHER RELATED AGREEMENT.",
+        "explanation": "Removing 'WHETHER OR NOT SUCH PARTY HAD ADVANCE NOTICE OF THE POSSIBILITY OF SUCH DAMAGES' implies liability *could* exist if advance notice was given. This contradicts the core 'IN NO EVENT WILL ANY EITHER PARTY BE LIABLE...' statement earlier in the section, and removes the previous clarity that knowledge of potential damages doesn't change the liability.",
+        "location": "5.8",
+        "contradicted_location": "5.8",
+        "contradicted_text": "5.8 Limitation of Liability IN NO EVENT WILL ANY EITHER PARTY BE LIABLE TO THE OTHER PARTY FOR ANY INCIDENTAL, CONSEQUENTIAL, INDIRECT, SPECIAL OR EXEMPLARY DAMAGES, WHETHER UNDER CONTRACT, TORT, WARRANTY, CONDIT ION OR OTHERWISE, ARISING IN ANY WAY IN RELATION TO THIS OR ANY OTHER RELATED AGREEMENT.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly states that the parties are not liable for specific types of damages, 'whether or not such party had advance notice of the possibility of such damages.' The changed text removes this clause, creating an implied condition where liability *could* potentially exist if advance notice was given. This directly contradicts the initial 'IN NO EVENT WILL ANY EITHER PARTY BE LIABLE...' statement, creating an in-text contradiction. The Contradicted Text is identical to the original text, highlighting the change causes the contradiction, which aligns with the definition of 'Omissions – In Text Contradiction' since essential language was removed that creates a contradiction with obligations or constraints stated in other sections."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Promptly after such termination, all obligations of Participant and Khronos under this Agreement will terminate, and both parties will return or destroy all materials provided by the other party pursuant to th is Agreement. Notwithstanding the foregoing, the rights and obligations set forth in Sections 4 (Confidential Information), 5.7 (No Warranty) and 5.8 (Limitation of Liability) will survive termination of this Agreement.",
+        "changed_text": "Promptly after such termination, all obligations of Participant and Khronos under this Agreement will terminate, and both parties will return or destroy all materials provided by the other party pursuant to th is Agreement.",
+        "explanation": "By removing 'Notwithstanding the foregoing, the rights and obligations set forth in Sections 4 (Confidential Information), 5.7 (No Warranty) and 5.8 (Limitation of Liability) will survive termination of this Agreement.', the contract now states that all obligations terminate upon termination. This contradicts the actual meaning of the rest of Section 5. This creates significant ambiguity and uncertainty about post-termination obligations.",
+        "location": "5.9",
+        "contradicted_location": "5.9",
+        "contradicted_text": "Promptly after such termination, all obligations of Participant and Khronos under this Agreement will terminate, and both parties will return or destroy all materials provided by the other party pursuant to th is Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that specific sections (4, 5.7, and 5.8) survive termination. The changed text omits this statement, indicating that *all* obligations terminate upon termination. This creates a direct contradiction with the implicit continuation of obligations outlined in sections 4, 5.7, and 5.8, thus making the contradicted text, which states that 'all obligations of Participant and Khronos under this Agreement will terminate', an in-text contradiction."
+      }
+    ]
+  }
+]

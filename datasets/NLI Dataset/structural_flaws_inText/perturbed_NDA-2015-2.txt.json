@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "NDA-2015-2.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "8. This Agreement contains the entire agreement of the parties with respect to the subject matter hereof and may not be changed, modified, amended or supplemented except by a written instrument signed by the parties.",
+        "changed_text": "8. This Agreement contains the entire agreement of the parties with respect to the subject matter hereof and may not be changed, modified, amended or supplemented except by a written instrument signed by one of the parties.",
+        "explanation": "The original clause requires a *written instrument signed by both parties* to modify the agreement. The modified clause states the agreement can be amended or changed by an instrument signed by *one* party only. This direct contradiction introduces significant uncertainty about how the agreement can be legally altered, potentially voiding or weakening the 'entire agreement' clause itself.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "This Agreement contains the entire agreement of the parties with respect to the subject matter hereof and may not be changed, modified, amended or supplemented except by a written instrument signed by one of the parties. The unenforceability of any provision of this Agreement shall not affect the enforceability of any other provision of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original clause requires a written instrument signed by both parties to modify the agreement. The changed clause states the agreement can be amended or changed by an instrument signed by one party only. This directly contradicts the requirement of both parties agreeing to modifications, which is a structural flaw that introduces significant uncertainty about how the agreement can be legally altered. The contradicted text is the same exact sentence, which means that there is an in-text contradiction as a clause is placed in multiple locations with conflicting implications, creating uncertainty about the obligations and rights of each party."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "4. Recipient agrees to use due care, but in no event less than a reasonable degree of care, to keep Confidential Information disclosed to it pursuant to this Agreement in a safe and secure place that is at least as safe and secure as the place where that party keeps other confidential information that it considers to be valuable and proprietary to itself.",
+        "changed_text": "4. Recipient agrees to use due care, but in no event less than a reasonable degree of care, to keep Confidential Information disclosed to it pursuant to this Agreement in a safe and secure place that is at least as safe and secure as the place where that party keeps publicly available information.",
+        "explanation": "This perturbation changes the standard of care for protecting confidential information. Originally, it had to be kept as safe as the recipient's *own* valuable confidential information. Now, it only needs to be kept as safe as *publicly available information*. This effectively removes the obligation to treat the information confidentially, severely weakening the entire agreement.",
+        "location": "4",
+        "contradicted_location": "WHEREAS",
+        "contradicted_text": "WHEREAS, MaRS will be hosting a series of confidential presentations being made by entrants into a business pitch competition (the “Up-Start Competition”); and WHEREAS, entrants into the Up-Start Competition are each in possession of certain confidential information that will be disclosed during their presentation in the competition and through questions thereafter (hereinafter \"Confidential Information\"); and WHEREAS, Recipients desire to receive such Confidential Information for the purpose of participating in the Up-Start Competition either as competitors or as interested observers; and WHEREAS, MaRS wishes to ensure that the Confidential Information provided by competitors in the Up-Start Competition remains confidential.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text weakens the standard of care for confidential information, requiring it to be kept only as safe as publicly available information, while the contradicted text emphasizes the need to maintain the confidentiality of the information being presented. This change directly contradicts the purpose outlined in the 'WHEREAS' clauses, which clearly state the intention to ensure that the confidential information remains confidential. The changed text creates a clear inconsistency and would make the agreement unenforceable."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "3. Recipient acknowledges that any violation of any of the provisions hereof by such party may result in immediate and irreparable damage to other party and agrees that in the event of such violation the other party shall, in addition to any other right, relief or remedy at law, be entitled to any equitable relief that any court of competent jurisdiction may deem just and proper.",
+        "changed_text": "3. Recipient acknowledges that any violation of any of the provisions hereof by such party may result in minimal or no damage to other party and agrees that in the event of such violation the other party shall, in addition to any other right, relief or remedy at law, not be entitled to any equitable relief that any court of competent jurisdiction may deem just and proper.",
+        "explanation": "This change directly contradicts the acknowledgment of potential 'immediate and irreparable damage' caused by a breach. By stating violations result in 'minimal or no damage' and denying equitable relief, the enforceability and purpose of the entire agreement are undermined. The clause essentially says breaches are not serious and cannot be remedied, which directly contradicts the confidentiality obligations the agreement is designed to enforce.",
+        "location": "3",
+        "contradicted_location": "WHEREAS",
+        "contradicted_text": "WHEREAS, MaRS will be hosting a series of confidential presentations being made by entrants into a business pitch competition (the “Up-Start Competition”); and WHEREAS, entrants into the Up-Start Competition are each in possession of certain confidential information that will be disclosed during their presentation in the competition and through questions thereafter (hereinafter \"Confidential Information\"); and WHEREAS, Recipients desire to receive such Confidential Information for the purpose of participating in the Up-Start Competition either as competitors or as interested observers; and WHEREAS, MaRS wishes to ensure that the Confidential Information provided by competitors in the Up-Start Competition remains confidential.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the purpose and enforceability of the agreement, particularly regarding the confidentiality of information. The original text acknowledges 'immediate and irreparable damage' from violations, while the changed text claims 'minimal or no damage' and denies equitable relief. This directly conflicts with the contradicted text, which emphasizes the importance of maintaining the confidentiality of information disclosed during the Up-Start Competition. The changed text undermines MaRS's wish to ensure confidentiality, creating a clear contradiction."
+      }
+    ]
+  }
+]

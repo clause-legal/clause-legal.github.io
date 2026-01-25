@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "UAGHINC_04_14_2004-EX-10.18-MAINTENANCE AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement commences on the date first above written, and will remain in effect for the period of five (5) years, except as otherwise provided herein.",
+        "changed_text": "This Agreement commences on the date first above written, and will remain in effect indefinitely, unless otherwise provided herein.",
+        "explanation": "The original text specifies a term of five years, while the modified text suggests an indefinite term. This creates a direct contradiction regarding the duration of the agreement, making it unclear how long it is binding. This will create a conflict in section 1.3, where the termination is defined for the original duration.",
+        "location": "SECTION 1.1",
+        "contradicted_location": "SECTION 1.3",
+        "contradicted_text": "Notwithstanding the foregoing, either party may terminate this Agreement at any time without liability by providing one hundred eighty (180) days written notice to the other party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the agreement's duration from a fixed five-year term to an indefinite term. The contradicted text states that either party may terminate the agreement by providing 180 days written notice. If the agreement has an indefinite term as stated in the changed text, the clause in the contradicted text would imply that the agreement can be terminated at any time, even after the initial five-year term has passed, which contradicts the original term of five years. The change from a defined term to indefinite directly conflicts with the termination clause that implicitly relied on a defined term."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Provider or its affiliate will provide the Company, with respect to the Fiber Ring Assets, all maintenance services (including but not limited to jetwashing and related ancillary services) required under the Provider's license agreements with the municipalities in which the Fiber Ring Assets are located (each a \"City Rights Agreement\"), and monitoring, emergency response and emergency splicing (collectively, the \"Services\"). If a service call is required to restore the Fiber Ring Assets to good operating condition, the Company will notify the Provider promptly after it becomes aware of the service affecting problem.",
+        "changed_text": "The Provider or its affiliate will provide the Company, with respect to the Fiber Ring Assets, all routine maintenance services only, strictly excluding emergency repairs or any services needed due to damages caused by external factors or force majeure, notwithstanding any requirements under the Provider's license agreements with the municipalities in which the Fiber Ring Assets are located (each a \"City Rights Agreement\"), and routine monitoring only (collectively, the \"Services\"). If a service call is required to restore the Fiber Ring Assets to good operating condition, the Company will notify the Provider promptly after it becomes aware of the service affecting problem.",
+        "explanation": "The original text includes \"all maintenance services\u2026 required under the Provider's license agreements\" including emergency response and splicing. The modified text explicitly excludes emergency repairs and damages caused by external factors or force majeure, even if the Provider's license agreements demand they be performed. This change contradicts the obligation to fulfill the requirements of the City Rights Agreement, as the Provider will be limited by the Service definition. This contradiction would come into play when the Provider denies the Services due to the new definition of the Services in place",
+        "location": "SECTION 2.1(a)",
+        "contradicted_location": "SECTION 2.1(a)",
+        "contradicted_text": "The Provider or its affiliate will provide the Company, with respect to the Fiber Ring Assets, all routine maintenance services only, strictly excluding emergency repairs or any services needed due to damages caused by external factors or force majeure, notwithstanding any requirements under the Provider's license agreements with the municipalities in which the Fiber Ring Assets are located (each a \"City Rights Agreement\"), and routine monitoring only (collectively, the \"Services\"). If a service call is required to restore the Fiber Ring Assets to good operating condition, the Company will notify the Provider promptly after it becomes aware of the service affecting problem.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the Provider will provide 'all maintenance services... required under the Provider's license agreements,' including emergency response. The modified text explicitly excludes emergency repairs, even if the City Rights Agreement demands them. The contradicted text is identical to the changed text. The change causes a clear contradiction. The new definition of 'Services' directly conflicts with the obligation to meet the requirements of the City Rights Agreement."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Provider shall not be liable nor deemed to be in default for any delay or failure in performance under this Agreement resulting, directly or indirectly, from causes beyond the reasonable control of the Provider, provided that the Provider shall refund to the Company a pro rata portion of the Service Fee for any period in excess of two (2) weeks during which the Provider fails to or is unable for any reason to provide the Services or Repairs called for under this Agreement. Service provided under this Agreement does not assure uninterrupted operation of equipment.",
+        "changed_text": "The Provider shall not be liable nor deemed to be in default for any delay or failure in performance under this Agreement resulting, directly or indirectly, from causes beyond the reasonable control of the Provider, and will not be subject to any refund for any interruption of the service. Service provided under this Agreement does not assure uninterrupted operation of equipment.",
+        "explanation": "The original text stipulates that the Provider must refund a portion of the service fee if they fail to provide services for more than two weeks due to circumstances beyond their control. The modified text removes the refund obligation entirely. This creates a contradiction regarding the Provider's financial responsibility in cases of service interruption and conflicts with the Limited Warranty in Section 5.2.",
+        "location": "SECTION 5.1",
+        "contradicted_location": "SECTION 5.2",
+        "contradicted_text": "The Provider shall provide maintenance under this Agreement for the fixed rate without regard to the number of legitimate service requests by the Company.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies a pro rata refund for service failures exceeding two weeks. The changed text eliminates this refund obligation, directly contradicting the principle that the Provider will provide maintenance for a fixed rate, regardless of service requests. This creates a clear financial inconsistency. The changed text removes a financial responsibility from the provider, while the contradicted text suggests the company is entitled to maintenance for a \"fixed rate\", implying that a failure of service on the providers end should result in a refund of payment, in order to uphold the original agreement. The changed text contradicts this implied agreement."
+      }
+    ]
+  }
+]

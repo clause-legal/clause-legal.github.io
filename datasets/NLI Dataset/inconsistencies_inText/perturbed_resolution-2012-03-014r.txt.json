@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "resolution-2012-03-014r.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Confidential Information as used herein also includes information supplied by Ameren Illinois to Recipient prior to the execution of this Agreement, and such Confidential Information shall be considered in the same manner and be subject to the same treatment as the Confidential Information made available after the execution of this Agreement.",
+        "changed_text": "Confidential Information as used herein does not include information supplied by Ameren Illinois to Recipient prior to the execution of this Agreement.",
+        "explanation": "This introduces a contradiction within the definition of 'Confidential Information'. Section 2 initially states that information provided *before* the agreement is included, but the modified text excludes it. This creates uncertainty about whether pre-existing information is protected by the NDA, contradicting the earlier part of Section 2.",
+        "location": "Section 2",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "Confidential Information Defined. The Parties acknowledge that any such information referred to in paragraph above shall be considered Confidential Information. Under this Agreement, all information disclosed by the Ameren Illinois whether provided in oral, written, visual, electronic or other form is presumed to be Confidential Information unless it falls within one of the exclusions of Section 3. Confidential Information includes non-public customer specific information. Confidential Information as used herein also includes information supplied by Ameren Illinois to Recipient prior to the execution of this Agreement, and such Confidential Information shall be considered in the same manner and be subject to the same treatment as the Confidential Information made available after the execution of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. The original text and contradicted text both state that 'Confidential Information as used herein also includes information supplied by Ameren Illinois to Recipient prior to the execution of this Agreement'. The changed text explicitly excludes this, stating 'Confidential Information as used herein does not include information supplied by Ameren Illinois to Recipient prior to the execution of this Agreement'. This creates a clear and direct conflict, qualifying as an inconsistency leading to an in-text contradiction, because one section includes pre-agreement information as confidential while the other excludes it."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Ameren Illinois may seek recourse in the form of injunctive or other equitable relief to remedy or forestall any breach or threatened breach involving a violation of this agreement, including but not limited to the marketing of goods and services beyond authorized aggregation activities. Such remedy shall not be deemed to be the exclusive remedy for any breach of this Agreement but shall be in addition to all other rights and remedies available at law or in equity.",
+        "changed_text": "Ameren Illinois's sole recourse for any breach of this agreement is limited to monetary damages not exceeding $100.",
+        "explanation": "This change creates a direct contradiction to the original remedies clause. Initially, Ameren Illinois could seek injunctive relief and other remedies. The modified text limits their recourse to monetary damages of $100, contradicting the availability of equitable relief described earlier in Section 6.",
+        "location": "Section 6",
+        "contradicted_location": "Section 6",
+        "contradicted_text": "Remedies for Breach. Ameren Illinois may seek recourse in the form of injunctive or other equitable relief to remedy or forestall any breach or threatened breach involving a violation of this agreement, including but not limited to the marketing of goods and services beyond authorized aggregation activities. Such remedy shall not be deemed to be the exclusive remedy for any breach of this Agreement but shall be in addition to all other rights and remedies available at law or in equity.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text limits Ameren Illinois's recourse to monetary damages not exceeding $100, while the contradicted text states that Ameren Illinois may seek injunctive or other equitable relief for a breach. This is a direct contradiction as the original clause allows for equitable relief in addition to other remedies, while the changed text restricts the available remedies to a specific monetary amount. This constitutes a strong in-text contradiction according to the 'Inconsistencies - In Text Contradiction' definition, where different sections of a contract provide conflicting obligations or penalties, leading to uncertainty about which terms should be enforced."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Termination of this agreement may result in the suspension of information listing services provided by Ameren Illinois.",
+        "changed_text": "Termination of this agreement will automatically result in the suspension of information listing services provided by Ameren Illinois, regardless of the reason for termination.",
+        "explanation": "The original clause in Section 9 states that termination *may* result in suspension, implying it's not guaranteed. The modified text mandates automatic suspension upon termination, regardless of the circumstances. This creates an in-text contradiction as it removes the discretionary aspect.",
+        "location": "Section 9",
+        "contradicted_location": "Section 9",
+        "contradicted_text": "Term; Termination. Either of the Parties may terminate the exchange of Confidential Information u nder this Agreement at any time by written notice to the other Party specifically referencing this Agreement. In any event, however, the obligations of Recipient to maintain the confidentiality of the Confidential Information it has received under this Agreement shall continue after such termination. Termination of this agreement may result in the suspension of information listing services provided by Ameren Illinois.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states termination *may* result in suspension, giving discretion. The changed text mandates *automatic* suspension, removing that discretion. The contradicted text includes the original 'may' statement. The change creates a direct conflict because the contradicted section now contains a statement that is false due to the new 'automatic' requirement."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement shall not be modified, supplemented or amended except by a writing signed by both Parties hereto.",
+        "changed_text": "This Agreement may be modified, supplemented or amended by either party providing written notice to the other.",
+        "explanation": "This changes the amendment clause. The original text (Section 10) requires a *written agreement signed by both parties* for any modifications. The change allows either party to unilaterally amend the agreement with just written notice. This in-text contradiction creates legal uncertainty about how the contract can be validly altered.",
+        "location": "Section 10",
+        "contradicted_location": "Section 10",
+        "contradicted_text": "No Waiver; Amendment; Exclusive Agreement. No failure or delay by either of the Parties in exercising any right, power or privilege hereunder shall operate as a waiver thereof, nor shall any single or partial exercise thereof preclude any other or further exercise thereof or the exercise of any other right, power or privilege hereunder. This Agreement shall not be modified, supplemented or amended except by a writing signed by both Parties hereto. This Agreement represents the exclusive agreement between the Parties in connection with the subject matter hereof.",
+        "contradiction_exists": "YES",
+        "justification": "The original text and the contradicted text state that the agreement can only be modified by a writing signed by both parties. The changed text states that the agreement can be modified by either party providing written notice. This creates a direct contradiction regarding the process for modifying the agreement. The changed text directly conflicts with the existing clause in the contradicted text, making it unclear how the contract can be validly altered, therefore it is a strong contradiction. It adheres to the definition of 'Inconsistencies - In Text Contradiction' where different sections of a contract provide conflicting obligations."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Any Confidential Information disclosed by an affiliated company of Ameren Illinois which would otherwise constitute Confidential Information hereunder if disclosed by Ameren Illinois, shall be deemed to constitute Confidential Information under this Agreement, and the rights of Ameren Illinois under this Agreement may be enforced by any such affiliate as if such affiliate were also a Party to this Agreement.",
+        "changed_text": "Confidential Information disclosed by an affiliated company of Ameren Illinois will not be considered Confidential Information under this agreement.",
+        "explanation": "Section 11 originally states that Confidential Information disclosed by affiliates of Ameren Illinois is also covered under the agreement. This perturbation completely reverses that, excluding such information. This creates a direct in-text contradiction, as it is unclear if affiliate information is protected or not.",
+        "location": "Section 11",
+        "contradicted_location": "Section 11",
+        "contradicted_text": "Applicability to Affiliates. Any Confidential Information disclosed by an affiliated company of Ameren Illinois which would otherwise constitute Confidential Information hereunder if disclosed by Ameren Illinois, shall be deemed to constitute Confidential Information under this Agreement, and the rights of Ameren Illinois under this Agreement may be enforced by any such affiliate as if such affiliate were also a Party to this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that Confidential Information disclosed by an affiliated company of Ameren Illinois is considered Confidential Information under the agreement. The changed text directly contradicts this by stating that it will not be considered Confidential Information. This creates a clear in-text contradiction with the 'Contradicted Text', which restates the original agreement, making it unclear whether affiliate information is protected, and thus falls under the definition of Inconsistencies - In Text Contradiction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "NDA_for_Raffles_Translation_Website.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "(b) Unless otherwise agreed in writing, the Receiving Party agrees that such Confidential Information shal l not be disclosed or otherwise utilized in any manner to advise or form the basis for providing advice to other existing and/or potential customers of the Receiving Party and/or its Representatives.",
+        "changed_text": "(b) The Receiving Party agrees that such Confidential Information shall not be disclosed to customers of the Receiving Party.",
+        "explanation": "By removing the clause that speaks about 'existing and/or potential' customers creates an ambiguity. A receiving party can argue that it is okay to disclose such Confidential Information to other customers of their business, as long as they were not doing business during the NDA.",
+        "location": "2",
+        "contradicted_location": "5",
+        "contradicted_text": "(a) The Receivi ng Party shall indemnify and defend the Disclosing Party , its employees, directors, officers, agents, representatives and Affiliates, from and against any losses, damages, liabilities, costs or expenses (including without limitation expense of consultants and legal advisors and counsel) claims, suits, actions, proceedings, demands, penalties, fines, judgments, awards or damages arising out of the Receiving Party ’s or its Representatives’ failure to perform or comply with, or breach of, any one or more of th e terms of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text removes the clause 'otherwise utilized in any manner to advise or form the basis for providing advice to other existing and/or potential customers'. According to the explanation, this creates ambiguity as the Receiving Party can now argue that disclosing confidential information to other customers of their business is permissible as long as they weren't doing business during the NDA, which directly contradicts the contradicted text (a) that states that the Receiving Party shall indemnify and defend the Disclosing Party from any losses arising out of the Receiving Party’s failure to comply with any of the terms of the Agreement. Therefore, the modified text directly contradicts the contradicted text."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "(h) No Disclosing Party nor its Affiliates sh all be deemed to have made any representation or warranty as to the accuracy or completeness of any of the Confidential Information.",
+        "changed_text": "(h) The Disclosing Party provides warranty as to the accuracy of Confidential Information.",
+        "explanation": "By removing 'No' to the Disclosing Party the contract now states the opposite in regards to the accuracy of any Confidential Information. Since the Confidential Information is going to be used in the Activity, later in Section 6 the contract says 'Representation Agreement', which then means the contract has an in-text contradiction.",
+        "location": "2",
+        "contradicted_location": "6",
+        "contradicted_text": "(f) Representation Agreement . The Parties agree that no contract or agreement providing for Vendor ’s engagement shall be deemed to exist between Vendor and Company unless and until Vendor and Company execute and deliver a final definitive agreement relating thereto.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly states that the Disclosing Party makes no warranty as to the accuracy of the Confidential Information. The changed text reverses this, stating that the Disclosing Party provides a warranty as to the accuracy of Confidential Information. This directly contradicts the later section (f) Representation Agreement, as now the contract is inconsistent on whether to consider the confidential information's accuracy as part of the agreement. This aligns with the Omissions - In Text Contradiction definition because the removal of 'No' creates a contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "(a) Term. The Parties specifically agree that the confidentiality obligations set forth in this Agreement shall rema in in effect for a period of five (5 ) years from the date of this Agreement , despite any termination of this Agreement.",
+        "changed_text": "(a) Term. The Parties specifically agree that the confidentiality obligations set forth in this Agreement shall rema in in effect until either party provides written notice of termination.",
+        "explanation": "By changing the 'Term', while still stating a five-year period for obligations, the 'Return of Confidential Information' from Section 4b has a contradiction. If the obligations can be terminated, the Receiving Party will not 'certify in writing that such destruction or return has been accomplished.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "(b) Return of Confidential Information . At any time requested in writing by Disclosing Party , the Receiving Party shall return or destroy all documents, samples or other tangible materials embodying Confidential Information, shall retain no copies thereof, and shall certify in writing that such destruction or return has been accomplished.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies a fixed term of five years for confidentiality obligations. The changed text allows termination of these obligations upon written notice. This directly contradicts the 'Return of Confidential Information' clause, which requires the Receiving Party to certify the destruction or return of confidential information. If the obligations can be terminated, the Receiving Party will not necessarily be required to comply with the return or destruction requirement, creating a strong contradiction as the original fixed period requires an action that is impossible under the new clause."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "(d) Governing Law . This Agreement shall be governed by, and construed in accordance with, the laws of Singapore and shall be subject to the non -exclusive jurisdiction of the courts of Singapore.",
+        "changed_text": "(d) Governing Law . This Agreement shall be governed by, and construed in accordance with, the laws of Utopia and shall be subject to the non -exclusive jurisdiction of the courts of Singapore.",
+        "explanation": "By changing the 'laws of Singapore' to 'laws of Utopia', while still having 'the non -exclusive jurisdiction of the courts of Singapore', there is an in-text contradiction. The parties agree to laws that do not have jurisdiction where they reside, which makes it unclear how to enforce the contract and is a legal error.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "(d) Governing Law . This Agreement shall be governed by, and construed in accordance with, the laws of Utopia and shall be subject to the non -exclusive jurisdiction of the courts of Singapore.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified the laws of Singapore, which aligns with the jurisdiction of the courts of Singapore. The changed text replaces 'laws of Singapore' with 'laws of Utopia', while still maintaining the 'non-exclusive jurisdiction of the courts of Singapore'. This creates a contradiction because it is unclear how the courts of Singapore can enforce the laws of Utopia. This directly follows the explanation given. The Changed Text contradicts the Contradicted Text."
+      }
+    ]
+  }
+]

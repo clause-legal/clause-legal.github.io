@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "1125892_0000950133-00-004441_w41075a1ex10-7.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Non-Disclosure Agreement (the \"Agreement\") is made and entered into as of the later of the two signature dates below by and between MICROSOFT CORPORATION, a Washington corporation (\"Microsoft\"), and STARBAND COMMUNICATIONS INC./DELAWARE corporation (\"Company\").",
+        "changed_text": "This Confidentiality Contract (the \"Agreement\") is made and entered into as of the later of the two signature dates below by and between MICROSOFT CORPORATION, a Washington corporation (\"Microsoft\"), and STARBAND COMMUNICATIONS INC./DELAWARE corporation (\"Company\").",
+        "explanation": "Changing 'Non-Disclosure Agreement' to 'Confidentiality Contract' creates an internal contradiction because the document repeatedly refers to itself as the 'Non-Disclosure Agreement'. This is in-text contradiction since the document itself is now titled as a different thing. It introduces confusion regarding the agreement's nature.",
+        "location": "PAGE 63",
+        "contradicted_location": "PAGE 63",
+        "contradicted_text": "This Non-Disclosure Agreement (the \"Agreement\") is made and entered into as of the later of the two signature dates below by and between MICROSOFT CORPORATION, a Washington corporation (\"Microsoft\"), and STARBAND COMMUNICATIONS INC./DELAWARE corporation (\"Company\"). IN CONSIDERATION OF THE MUTUAL PROMISES AND COVENANTS CONTAINED IN THIS AGREEMENT AND THE MUTUAL DISCLOSURE OF CONFIDENTIAL INFORMATION, THE PARTIES HERETO AGREE AS FOLLOWS: 1. Definition of Confidential Information and Exclusions. (a) \"Confidential Information\" means nonpublic information that a party to this Agreement (\"Disclosing Party\") designates as being confidential to the party that receives such information (\"Receiving Party\") or which, under the circumstances surrounding disclosure ought to be treated as confidential by the Receiving Party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the name of the agreement from 'Non-Disclosure Agreement' to 'Confidentiality Contract'. The contradicted text refers to the agreement as the 'Non-Disclosure Agreement'. This creates a direct in-text contradiction because the document consistently refers to itself using the original name, making the changed title inconsistent with the rest of the document as the definition of Misaligned Terminology states. This leads to confusion and ambiguity about the subject and nature of the document."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "(a) \"Confidential Information\" means nonpublic information that a party to this Agreement (\"Disclosing Party\") designates as being confidential to the party that receives such information (\"Receiving Party\") or which, under the circumstances surrounding disclosure ought to be treated as confidential by the Receiving Party.",
+        "changed_text": "(a) \"Secret Data\" means nonpublic information that a party to this Agreement (\"Disclosing Party\") designates as being confidential to the party that receives such information (\"Receiving Party\") or which, under the circumstances surrounding disclosure ought to be treated as confidential by the Receiving Party.",
+        "explanation": "Changing 'Confidential Information' to 'Secret Data' in the definition creates a contradiction because the rest of the document continues to use the term 'Confidential Information', leading to ambiguity about what the agreement actually covers. This is in-text contradiction because multiple clauses in the contract refer to Confidential Information.",
+        "location": "PAGE 63",
+        "contradicted_location": "PAGE 63",
+        "contradicted_text": "IN CONSIDERATION OF THE MUTUAL PROMISES AND COVENANTS CONTAINED IN THIS AGREEMENT AND THE MUTUAL DISCLOSURE OF CONFIDENTIAL INFORMATION, THE PARTIES HERETO AGREE AS FOLLOWS: 1. Definition of Confidential Information and Exclusions. (a) \"Confidential Information\" means nonpublic information that a party to this Agreement (\"Disclosing Party\") designates as being confidential to the party that receives such information (\"Receiving Party\") or which, under the circumstances surrounding disclosure ought to be treated as confidential by the Receiving Party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines 'Confidential Information.' The changed text redefines it as 'Secret Data' but the 'Contradicted Text' continues to use the term 'Confidential Information.' This creates a clear in-text contradiction because the agreement now uses two terms ('Secret Data' and 'Confidential Information') seemingly interchangeably, or at least, creates ambiguity as to which term applies, potentially leading to confusion and disputes over the scope of protected information, satisfying the 'Misaligned Terminology - In Text Contradiction' definition, making it a strong contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Receiving Party shall, at Disclosing Party's request, return all originals, copies, reproductions and summaries of Confidential Information and all other tangible materials and devices provided to the Receiving Party as Confidential Information, or at Disclosing Party's option, certify destruction of the same.",
+        "changed_text": "Receiving Party shall, at Disclosing Party's request, return all originals, copies, reproductions and summaries of Private Data and all other tangible materials and devices provided to the Receiving Party as Confidential Information, or at Disclosing Party's option, certify destruction of the same.",
+        "explanation": "Changing 'Confidential Information' to 'Private Data' in one instance, while retaining 'Confidential Information' elsewhere in the same sentence, creates a direct contradiction and ambiguity about which type of information the clause applies to. What is considered Private Data versus Confidential information, leading to conflicting obligations.",
+        "location": "PAGE 64",
+        "contradicted_location": "PAGE 64",
+        "contradicted_text": "Receiving Party shall, at Disclosing Party's request, return all originals, copies, reproductions and summaries of Confidential Information and all other tangible materials and devices provided to the Receiving Party as Confidential Information, or at Disclosing Party's option, certify destruction of the same.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Confidential Information' with 'Private Data' while retaining 'Confidential Information' in the same sentence. The contradicted text relies solely on 'Confidential Information'. This creates a contradiction because it is unclear whether the receiving party must return or destroy only 'Confidential Information', only 'Private Data', or both. This ambiguity directly contradicts the original obligation and creates uncertainty about which type of information the clause applies to."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "All Confidential Information is and shall remain the property of Disclosing Party. By disclosing Confidential information to Receiving Party, Disclosing Party does not grant any express or implied right to Receiving Party to or under any patents, copyrights, trademarks, or trade secret information except as otherwise provided herein.",
+        "changed_text": "All Classified Data is and shall remain the property of Disclosing Party. By disclosing Confidential information to Receiving Party, Disclosing Party does not grant any express or implied right to Receiving Party to or under any patents, copyrights, trademarks, or trade secret information except as otherwise provided herein.",
+        "explanation": "Changing 'Confidential Information' to 'Classified Data' creates a contradiction since the second sentence of the segment refers to 'Confidential information' and not 'Classified Data.' This makes it unclear which data is being referred to when the Disclosing Party grants rights to the Receiving Party. This leads to an in-text contradiction.",
+        "location": "PAGE 64",
+        "contradicted_location": "PAGE 64",
+        "contradicted_text": "All Confidential Information is and shall remain the property of Disclosing Party. By disclosing Confidential information to Receiving Party, Disclosing Party does not grant any express or implied right to Receiving Party to or under any patents, copyrights, trademarks, or trade secret information except as otherwise provided herein.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Confidential Information' to 'Classified Data' in the Changed Text creates an in-text contradiction because the subsequent sentence still refers to 'Confidential information'. This misalignment of terminology, as defined in the Perturbation Definitions, leads to ambiguity about which type of information the Receiving Party is granted rights to, directly conflicting with the original intent and consistent use of 'Confidential Information' as shown in the Contradicted Text. This causes a strong contradiction because it undermines clarity and enforceability regarding data rights within the agreement."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The terms of confidentiality under this Agreement shall not be construed to limit either the Disclosing Party or the Receiving Party's right to independently develop or acquire products without use of the other party's Confidential Information.",
+        "changed_text": "The terms of secrecy under this Agreement shall not be construed to limit either the Disclosing Party or the Receiving Party's right to independently develop or acquire products without use of the other party's Confidential Information.",
+        "explanation": "Replacing 'confidentiality' with 'secrecy' alters the scope and nature of the agreement's protection. The agreement continues to refer to 'Confidential Information' which conflicts with using the word secrecy. This creates an in-text contradiction because the terms aren't synonymous; confidentiality may allow limited disclosure, while secrecy implies complete nondisclosure.",
+        "location": "PAGE 64",
+        "contradicted_location": "PAGE 64",
+        "contradicted_text": "The terms of confidentiality under this Agreement shall not be construed to limit either the Disclosing Party or the Receiving Party's right to independently develop or acquire products without use of the other party's Confidential Information. Further, the Receiving Party shall be free to use for any purpose the residuals resulting from access to or work with the Confidential Information of the Disclosing Party, provided that the Receiving Party shall not disclose the Confidential Information except as expressly permitted pursuant to the terms of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'confidentiality' to 'secrecy' introduces a strong in-text contradiction. The original text and the contradicted text both use 'confidentiality' and 'Confidential Information'. By changing the first instance to 'secrecy', while the contradicted text retains the terms 'confidentiality' and 'Confidential Information', creates a conflict. The agreement now refers to two different standards without clearly defining their relationship. The Perturbation Explanation states that 'confidentiality may allow limited disclosure, while secrecy implies complete nondisclosure', which further highlights this contradiction, creating uncertainty about which standard applies, and how to enforce the terms."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Either party may terminate this Agreement with or without cause upon ninety (90) days prior written notice to the other party. All sections of this Agreement relating to the rights and obligations of the parties concerning Confidential Information disclosed during the term of the Agreement shall survive any such termination.",
+        "changed_text": "Either party may terminate this Contract with or without cause upon ninety (90) days prior written notice to the other party. All sections of this Agreement relating to the rights and obligations of the parties concerning Confidential Information disclosed during the term of the Agreement shall survive any such termination.",
+        "explanation": "Changing 'this Agreement' to 'this Contract' in the first sentence introduces a contradiction, especially since the second sentence uses 'this Agreement.' It creates in-text contradiction, causing confusion about which term is authoritative, potentially leading to legal disputes. 'Contract' is a broader term, while 'Agreement' refers to the specifically named document, causing the contradiction.",
+        "location": "PAGE 65",
+        "contradicted_location": "PAGE 65",
+        "contradicted_text": "Either party may terminate this Agreement with or without cause upon ninety (90) days prior written notice to the other party. All sections of this Agreement relating to the rights and obligations of the parties concerning Confidential Information disclosed during the term of the Agreement shall survive any such termination.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'this Agreement' with 'this Contract' in the first sentence while the second sentence refers to 'this Agreement.' This misalignment of terminology creates an in-text contradiction as it causes confusion over which term, 'Agreement' or 'Contract,' is the correct reference for the document, as stated in the Perturbation Explanation. This aligns with the definition of 'Misaligned Terminology - In Text Contradiction', and would cause confusion because the contradicted text also refers to 'this Agreement'."
+      }
+    ]
+  }
+]

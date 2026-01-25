@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "1074663_0001090002-01-500104_ex102.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "In the event of ACTUAL VIOLATION of the AGREEMENT, the COMPANY shall receive, from RECIPIENT 100% of ALL INCOME which RECIPIENT has acquired form said BREACH of this AGREEMENT.",
+        "changed_text": "In the event of ACTUAL VIOLATION of the AGREEMENT, the COMPANY shall receive, from RECIPIENT 100% of ALL NET INCOME which RECIPIENT has acquired form said BREACH of this AGREEMENT, unless RECIPIENT can prove the BREACH was uninentional.",
+        "explanation": "The original text states that in case of breach, the company receives 100% of all income the recipient made from it. The modified text introduces a clause that it will only receive NET income, which is usually a smaller amount, also adds that unless RECIPIENT can prove the BREACH was uninentional. This creates a contradiction.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "Any VIOLATION or THREATENED VIOLATION of this AGREEMENT shall entitle the COMPANY to INJUNCTIVE RELIEF, together with ANY OTHER REMEDIES available to the COMPANY including MONETARY DAMAGES. In the event of ACTUAL VIOLATION of the AGREEMENT, the COMPANY shall receive, from RECIPIENT 100% of ALL NET INCOME which RECIPIENT has acquired form said BREACH of this AGREEMENT, unless RECIPIENT can prove the BREACH was uninentional.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the company receives 100% of ALL income in case of a breach. The changed text modifies this to 100% of ALL NET INCOME and introduces a condition where the RECIPIENT can avoid this if the breach was unintentional. The contradicted text states that in the event of an ACTUAL VIOLATION, the company shall receive 100% of ALL NET INCOME unless RECIPIENT can prove the BREACH was uninentional. The change introduces both a narrower definition of income (Net vs. All) and an exception, creating a contradiction with the original intent of the agreement to provide monetary damages as a remedy in addition to injunctive relief. The change is a direct contradiction and an inconsistency."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "RECIPIENT shall MAINTAIN a RECORD or LOG reflecting the NAMES, ADDRESSES, DATES and other INFORMATION which the COMPANY shall request RECIPIENT to keep of PERSONS or ENTITIES to execute a COPY of this AGREEMENT acknowledging its TERMS and the TRADE SECRET nature of CONFIDENTIAL MATERIAL and shall provide to the COMPANY UPON REQUEST, copies of ALL such acknowledgments.",
+        "changed_text": "RECIPIENT shall MAINTAIN a RECORD or LOG reflecting the NAMES, ADDRESSES, DATES and other INFORMATION which the COMPANY shall request RECIPIENT to keep of PERSONS or ENTITIES to execute a COPY of this AGREEMENT acknowledging its TERMS and the TRADE SECRET nature of CONFIDENTIAL MATERIAL, unless RECIPIENT has a reasonable fear disclosing such information. Recipient may be exempt from this obligation, with written consent from CEO.",
+        "explanation": "The original text stated that the recipient shall maintain a record or log reflecting the Names, Addresses, Dates. The changed text now states UNLESS RECIPIENT has a reasonable fear disclosing such information.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "During and after discussion, including the duration of ANY BUSINESS RELATIONSHIP and THEREAFTER, RECIPIENT will HOLD TRUST and KEEP SECRET ALL CONFIDENTIAL MATERIAL obtained from COMPANY. ---- RECIPIENT will maintain adequate SAFEGUARDS to PROTECT such CONFIDENTIAL MATERIAL and PREVENT its DISCLOSURE to others, except its own employees on a NEED-TO-KNOW BASIS, and will NEITHER USE nor DISCLOSE, DIRECTLY or INDIRECTLY, for him/herself or for the benefit of another, ANY CONFIDENTIAL MATERIAL or perform any acts which may DIRECTLY or INDIRECTLY have an adverse effect upon the business of the COMPANY, or which would tend to reduce the proprietary value of such CONFIDENTIAL MATERIAL to the COMPANY, without the COMPANY'S PRIOR WRITTEN APPROVAL. RECIPIENT shall MAINTAIN a RECORD or LOG reflecting the NAMES, ADDRESSES, DATES and other INFORMATION which the COMPANY shall request RECIPIENT to keep of PERSONS or ENTITIES to execute a COPY of this AGREEMENT acknowledging its TERMS and the TRADE SECRET nature of CONFIDENTIAL MATERIAL, unless RECIPIENT has a reasonable fear disclosing such information. Recipient may be exempt from this obligation, with written consent from CEO and shall provide to the COMPANY UPON REQUEST, copies of ALL such acknowledgments.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates that the recipient maintain a record reflecting names, addresses, and dates. The changed text introduces an exception, allowing the recipient to withhold this information if they have a 'reasonable fear' of disclosing it or with written consent from CEO. The contradicted text states the Recipient must HOLD TRUST and KEEP SECRET ALL CONFIDENTIAL MATERIAL obtained from COMPANY, and includes the obligation to maintain the aforementioned record without exception. Because the modified text creates an exception to the obligation to maintain a record, this contradicts the language in the 'Contradicted Text' since it imposes an exception whereas the contradicted text does not. This creates an inconsistency and impacts enforcement and is a strong in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Any attempt to disassemble or otherwise reverse engineer CONFIDENTIAL MATERIAL by the RECIPIENT or the transfer of CONFIDENTIAL MATERIAL to any other company or persons for any reason is strictly prohibited.",
+        "changed_text": "Any attempt to disassemble or otherwise reverse engineer CONFIDENTIAL MATERIAL by the RECIPIENT or the transfer of CONFIDENTIAL MATERIAL to any other company or persons is allowed with written consent of the RECIPIENT's supervisor.",
+        "explanation": "The original text strictly prohibits any attempts to disassemble confidential material by the RECIPIENT or any transfer to any company, persons, or for any reason. The changed text now stated any attempt to disassemble or transfer is ALLOWED with written consent of the RECIPIENT's supervisor. Contradiction.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "All CONFIDENTIAL MATERIAL, which RECIPIENT shall use, view, receive or come in contact with, shall be and shall remain the COMPANY'S SOLE and EXCLUSIVE property, and shall be PROMPTLY RETURNED upon completion of the purpose for which it was provided, or when verbally communicated, will no longer be utilized to benefit RECIPIENT, but in NO EVENT, later than TEN (10) DAYS after request by COMPANY. NO COPIES shall be made of ANY MATERIAL or DOCUMENT (S) provided under this agreement, except upon WRITTEN CONSENT of the COMPANY, ALL COPIES and samples shall likewise be RETURNED. Any attempt to disassemble or otherwise reverse engineer CONFIDENTIAL MATERIAL by the RECIPIENT or the transfer of CONFIDENTIAL MATERIAL to any other company or persons is allowed with written consent of the RECIPIENT's supervisor.",
+        "contradiction_exists": "YES",
+        "justification": "The original text strictly prohibits any attempt to disassemble or otherwise reverse engineer CONFIDENTIAL MATERIAL, however, the changed text now allows it under certain conditions, which contradicts the original strict prohibition. The contradicted text is the same as the changed text, which means that even within the same section, there is a contradiction between the original prohibition and the allowance with consent, making it a strong in-text contradiction based on the explanation given."
+      }
+    ]
+  }
+]

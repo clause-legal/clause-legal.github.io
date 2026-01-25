@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Mutual-Non-Disclosure-Agreement-Inventor-Product-Development-Experts-Inc..txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "All documents and other tangible objects containing or representing Confidential Information which have been disclosed by either party to the other party, and all copies thereof which are in the possession of the other party, shall be and re main the property of the disclosing party and shall be promptly returned to the disclosing party upon the disclosing party's written request.",
+        "changed_text": "All documents containing or representing Confidential Information which have been disclosed by either party to the other party, and all copies thereof which are in the possession of the other party, shall be and re main the property of the disclosing party and shall be promptly returned to the disclosing party upon the disclosing party's written request.",
+        "explanation": "By removing 'and other tangible objects' the section contradicts itself, as 'tangible objects' are mentioned in the agreement but cannot be retrieved. In addition it also contradicts with the definition of 'Confidential Information' in Purpose Section, if perturbation one was applied.",
+        "location": "Section: Return of Materials, Paragraph: 1",
+        "contradicted_location": "Section: Non -use and Non -disclosure, Paragraph: 1",
+        "contradicted_text": "Neither party shall reverse engineer, disassemble or decompile any prototypes, software or other tangible objects which embody the other party's Confidential Information and which are provided to the party hereunder.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text omits 'and other tangible objects' from the description of what must be returned, while the contradicted text refers to 'prototypes, software or other tangible objects' embodying confidential information. Because the changed text removes the obligation to return tangible objects, it directly contradicts the section stating that neither party can reverse engineer, disassemble, or decompile those tangible objects. The change creates a contradiction, as tangible objects, if they contain confidential information, are mentioned in the contradicted section and the changed text now does not require them to be returned."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The obligations of each receiving party hereunder shall surviv e for a period of five years after the disclosure of the Confidential Information or until such time as all Confidential Information of the other party disclosed hereunder becomes publicly known and made generally available through no action or inaction of the receiving party, whichever is earlier.",
+        "changed_text": "The obligations of each receiving party hereunder shall surviv e for a period of five years after the disclosure of the Confidential Information.",
+        "explanation": "Removing the clause 'or until such time as all Confidential Information of the other party disclosed hereunder becomes publicly known and made generally available through no action or inaction of the receiving party, whichever is earlier' creates a contradiction. The original text accounted for confidential information entering the public domain, while now it remains under obligation for a set time. This change causes it to contradict with No License section.",
+        "location": "Section: Term, Paragraph: 1",
+        "contradicted_location": "Section: No License, Paragraph: 1",
+        "contradicted_text": "Nothing in this Agreement is intended to grant any rights to either party under any patent, mask work right or copyright of the other party, nor shall this Agreement grant any party any rights in or to the Confidential Information of the other party except as expressly set forth herein.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed the confidentiality obligation to end if the information became publicly known, while the changed text removes this exception, extending the obligation indefinitely for five years. This creates a contradiction with the 'No License' section, which implies that rights to confidential information are limited to what's explicitly granted. The changed text effectively expands the scope of confidential information protection beyond what is explicitly granted in the 'No License' section, creating a contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Each party agrees that any violation or threatened violation of this Agreement may cause irreparable injury to the other party, entitling the other party to seek injunctive relief in addition to all legal remedies.",
+        "changed_text": "Each party agrees that any violation or threatened violation of this Agreement may cause irreparable injury to the other party.",
+        "explanation": "Removing 'entitling the other party to seek injunctive relief in addition to all legal remedies' from the remedies section creates a in-text contradiction because while it states there is injury, the section removes the capacity to seek legal action. This contradicts with Choice of Laws and Forum.",
+        "location": "Section: Remedies, Paragraph: 1",
+        "contradicted_location": "Section: Choice of Laws and Forum, Paragraph: 1",
+        "contradicted_text": "The interpretation and enforcement of this Agreement shall be governed by the laws of the State of Florida, U.S.A., as it applies to a contract executed, delivered, and performed solely in such state.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly granted the right to seek injunctive relief and legal remedies for violations. The changed text removes the explicit entitlement to seek injunctive relief and all legal remedies, while the contradicted text states that the agreement will be governed by the laws of Florida, implying that there are avenues for enforcement. Removing the right to seek legal action directly contradicts the implied enforcement mechanism in the choice of law clause, creating a strong in-text contradiction as it removes a remedy that would be governed by Florida law as stated in the contradicted section. This aligns with the Omissions - In Text Contradiction definition."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This document contains the entire agreement between the parties with respect to the subject matter hereof, and neither party shall have any obligation, express or implied by law, with respect to trade secret or proprietary information of the other party except as set forth herein.",
+        "changed_text": "This document contains the entire agreement between the parties with respect to the subject matter hereof.",
+        "explanation": "By removing 'and neither party shall have any obligation, express or implied by law, with respect to trade secret or proprietary information of the other party except as set forth herein,' the clause now directly contradicts the term, 'Non -use and Non -disclosure', since it removes the obligation to trade secret and proprietary information.",
+        "location": "Section: Miscellaneous, Paragraph: 1",
+        "contradicted_location": "Section: Non -use and Non -disclosure, Paragraph: 1",
+        "contradicted_text": "Each party shall not use the Confidential Information of the other party for any purpose except to evaluate and engage in discussions concerning a potential business relationship between the parties. Neither party shall disclose any Confidential Information of the other party to third parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly stated that obligations regarding trade secrets and proprietary information were limited to what was set forth in the agreement. The changed text removes this specific statement, creating a scenario where no obligation regarding trade secrets is defined in this section of the agreement. This omission contradicts the 'Non -use and Non -disclosure' term where each party must not use the Confidential Information of the other party."
+      }
+    ]
+  }
+]

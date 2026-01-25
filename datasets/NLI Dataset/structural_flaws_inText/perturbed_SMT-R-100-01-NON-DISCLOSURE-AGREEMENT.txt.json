@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "SMT-R-100-01-NON-DISCLOSURE-AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Except for information that the customer makes publicly available, or when agreed be tween SMT LABS PTY LTD and the customer all other information is considered proprietary information and shall be regarded as confidential.",
+        "changed_text": "Except for information that the customer makes publicly available, all other information *may* be considered proprietary information, at the discretion of SMT LABS PTY LTD and shall be regarded as confidential *unless otherwise stated*.",
+        "explanation": "This change introduces uncertainty about what information is considered proprietary and confidential. The original text states that all information, excluding what the customer makes public, is considered proprietary and confidential. The modified text changes 'is' to 'may be' and adds 'at the discretion of SMT LABS PTY LTD,' and 'unless otherwise stated' This contradicts the initial statement and gives SMT LABS PTY LTD the power to unilaterally decide what is confidential after the fact.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "Except for information that the customer makes publicly available, all other information *may* be considered proprietary information, at the discretion of SMT LABS PTY LTD and shall be regarded as confidential *unless otherwise stated*.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that all information, excluding what the customer makes public, is considered proprietary and confidential. The changed text introduces uncertainty by changing 'is' to 'may be' and adding 'at the discretion of SMT LABS PTY LTD,' and 'unless otherwise stated.' This directly contradicts the implied certainty in the original text and in any text that relied on that certainty (as is evidenced by the identical contradictory text). The change gives SMT LABS PTY LTD the power to unilaterally decide what is confidential, creating a clear and direct conflict and is therefore a structural flaw that causes a strong in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "In compliance with these requirements, confidentiality, with regards to all laboratory activities contracted to SMT LABS PTY LTD (as agreed upon by both parties), shall be undertaken in the following manner:",
+        "changed_text": "In compliance with these requirements, confidentiality, with regards to all laboratory activities contracted to SMT LABS PTY LTD (as agreed upon by both parties), *may* be undertaken in the following manner: *only if SMT LABS PTY LTD deems it necessary*.",
+        "explanation": "The original text states that confidentiality *shall* be undertaken. The modified text changes this to *may* and adds a condition that it only occurs *if SMT LABS PTY LTD deems it necessary*. This introduces uncertainty and contradicts the initial commitment to confidentiality for all agreed-upon lab activities. It gives unilateral power to SMT LABS PTY LTD to decide if confidentiality is even applied.",
+        "location": "Introduction",
+        "contradicted_location": "Introduction",
+        "contradicted_text": "In compliance with these requirements, confidentiality, with regards to all laboratory activities contracted to SMT LABS PTY LTD (as agreed upon by both parties), *may* be undertaken in the following manner: *only if SMT LABS PTY LTD deems it necessary*.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states confidentiality 'shall' be undertaken, creating a firm obligation. The changed text modifies this to 'may' and adds a condition ('only if SMT LABS PTY LTD deems it necessary'), introducing uncertainty and making confidentiality discretionary. This directly contradicts the expectation of mandatory confidentiality implied in the original text and creates a strong in-text contradiction as it gives SMT LABS PTY LTD the power to decide if confidentiality applies or not for agreed upon activities."
+      }
+    ]
+  }
+]

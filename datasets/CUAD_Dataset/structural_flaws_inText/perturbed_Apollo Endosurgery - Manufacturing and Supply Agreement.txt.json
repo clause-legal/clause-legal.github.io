@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "Apollo Endosurgery - Manufacturing and Supply Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "1.7\"Lead Time\" shall mean the time period that begins on the day ESTABLISHMENT receives a Purchase Order (defined below) for Product from APOLLO and ends on the day ESTABLISHMENT is required to deliver the Product to APOLLO.",
+        "changed_text": "1.7\"Lead Time\" shall mean the time period that begins on the day ESTABLISHMENT receives a Purchase Order (defined below) for Product from APOLLO and ends 180 days after the day ESTABLISHMENT receives a Purchase Order for Products from APOLLO.",
+        "explanation": "The original definition of Lead Time is clear and straightforward and there is no fixed definition. Modifying the definition of \"Lead Time\" to a fixed 180 days directly contradicts the intention that the parties cooperate to establish \"appropriate lead times for orders\" based on the product ordered, introducing uncertainty in Section 5.2 regarding delivery expectations.",
+        "location": "1.7",
+        "contradicted_location": "5.2",
+        "contradicted_text": "5.2Orders. APOLLO shall routinely provide ESTABLISHMENT Purchase Orders for Product demands. All Product ordered by APOLLO shall be in the form of a firm written Purchase Order. Each Purchase Order shall contain at a minimum, the following information: description of the Product and quantity ordered, price, freight carrier information, payment terms, delivery date, and Purchase Order number for billing purposes. The Parties shall cooperate to establish appropriate lead times for orders; requested delivery dates shall provide sufficient lead times for the products ordered.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the definition of \"Lead Time\" from a flexible period determined by the parties to a fixed 180 days. This directly contradicts Section 5.2, which states, \"The Parties shall cooperate to establish appropriate lead times for orders; requested delivery dates shall provide sufficient lead times for the products ordered.\" By imposing a fixed lead time, the modified definition removes the flexibility and cooperation intended by Section 5.2, creating a strong in-text contradiction. It impairs the ability of the parties to cooperate on establishing appropriate lead times based on the product ordered."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "2.1Term. This Agreement shall commence on the Effective Date and shall be valid for a period of five (5) years with automatic renewal of one year thereafter until terminated -2- by either party with one (1) year written notice prior to the expiration of the initial period or any extension period thereof.",
+        "changed_text": "2.1Term. This Agreement shall commence on the Effective Date and shall be valid for a period of five (5) years, and shall not be subject to automatic renewal. This Agreement can only be renewed via written amendment signed by both parties. Either party may terminate the Agreement, in writing, at any time for any reason, and there is no notice period required to terminate the agreement, thereby allowing the agreement to be terminated with immediate effect.",
+        "explanation": "The original agreement specifies a five-year term with automatic one-year renewals and a one-year written notice for termination. Changing the renewal to require written amendment and removing the notice period creates a direct contradiction, making the contract term and termination conditions ambiguous. This contradicts the original explicit language, causing confusion about the parties' commitment and exit options.",
+        "location": "2.1",
+        "contradicted_location": "2.1",
+        "contradicted_text": "2.1Term. This Agreement shall commence on the Effective Date and shall be valid for a period of five (5) years, and shall not be subject to automatic renewal. This Agreement can only be renewed via written amendment signed by both parties. Either party may terminate the Agreement, in writing, at any time for any reason, and there is no notice period required to terminate the agreement, thereby allowing the agreement to be terminated with immediate effect.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text fundamentally alters the term and termination conditions of the agreement. The original text provides for a five-year term with automatic one-year renewals and requires a one-year written notice for termination. The modified text eliminates automatic renewals, requiring a written amendment for renewal, and allows either party to terminate the agreement at any time for any reason without any notice period. This creates a direct contradiction regarding the duration of the agreement and the conditions under which it can be terminated. The contradicted text, because it is the same as the changed text (a structural flaw), reinforces the inherent contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "3.1Performance Standards. ESTABLISHMENT shall manufacture the Product in accordance with the Specifications of this Agreement, and shall comply with all quality system requirement communicated by Apollo from time to time, ISO 13485:2012 and any applicable cGMPs and all other applicable local, United States or European regulations or laws in connection with the manufacture, testing, packaging, labeling, shipping, and handling of the Product.",
+        "changed_text": "3.1Performance Standards. ESTABLISHMENT shall manufacture the Product in accordance with the Specifications of this Agreement, but compliance with quality system requirements communicated by Apollo is optional and at Establishment's sole discretion. Establishment will not be binded to any ISO or cGMPs compliance.",
+        "explanation": "The original text requires ESTABLISHMENT to adhere to APOLLO's quality system requirements, ISO standards, and applicable regulations. The change makes compliance with APOLLO's communicated quality requirements optional and removes binding obligations for ISO or cGMPs, directly contradicting the initial mandatory compliance, and undermining the entire agreement section, creating uncertainty about the agreed quality standards. This undermines the Product Warranty in section 6.1 as well.",
+        "location": "3.1",
+        "contradicted_location": "6.1",
+        "contradicted_text": "6.1Product Warranty. ESTABLISHMENT warrants that all Product supplied under this Agreement shall, when it leaves ESTABLISHMENT's possession and control, conform with the Specifications and shall be free from defects in materials and workmanship. -6- ESTABLISHMENT further warrants that the Product shall be manufactured in accordance with applicable ISO 13485:2012 standards and with all applicable laws and regulations.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in section 3.1 makes compliance with APOLLO's quality system requirements optional and removes binding obligations for ISO or cGMPs. This directly contradicts section 6.1, which warrants that the product is manufactured in accordance with applicable ISO 13485:2012 standards and with all applicable laws and regulations. The removal of mandatory compliance creates a clear contradiction with the warranty, as the product might not be manufactured according to the standards that are warranted."
+      }
+    ]
+  }
+]

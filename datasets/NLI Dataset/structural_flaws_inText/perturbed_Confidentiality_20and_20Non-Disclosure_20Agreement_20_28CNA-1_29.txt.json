@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Confidentiality%20and%20Non-Disclosure%20Agreement%20%28CNA-1%29.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "In the event the transaction is not successful, Prospect and Prospect’s Broker will immediately return to Listing Broker any information and materials provided by Listing Broker .",
+        "changed_text": "In the event the transaction is not successful, Prospect and Prospect’s Broker will retain any information and materials provided by Listing Broker, unless otherwise directed by Listing Broker.",
+        "explanation": "This change directly contradicts the original requirement to return all materials if the transaction fails. Now, the Prospect retains the materials unless told otherwise. This creates uncertainty and conflicts with the stated confidentiality in the first sentence of this section. It is a direct contradiction since it changes the obligation from 'will immediately return' to 'will retain'.",
+        "location": "1",
+        "contradicted_location": "1",
+        "contradicted_text": "Confidentiality. Prospect and Prospect’s Broker acknowledge that all information and materials provided by Listing Broker regarding the above-referenced Property is conf idential and may be used for evaluation and competitive analysis. Prospect’s and Prospect’s Broker’s dissemination of any inform ation and materials provided by Listing Broker will be limited to attorneys, accountants, banking represen tatives, and business advisors directly involved with the above-referenced Property. In the event the transaction is not successful, Prospect and Prospect’s Broker will retain any information and materials provided by Listing Broker, unless otherwise directed by Listing Broker.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that in the event the transaction is unsuccessful, Prospect and Prospect’s Broker will return materials to Listing Broker. The changed text states that Prospect and Prospect’s Broker will retain the materials unless otherwise directed. This directly contradicts the initial requirement to return the materials, creating a strong in-text contradiction within the document as the contradicted text is in the same section where the change occurred and the change makes the confidentiality agreement unclear."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Listing Broker , Prospect , and Prospect’s Broker agree not to disclose to any other person the fact that any discussions or negotiations are taking place wi th regard to the Property, the actual or potential terms, conditions, or facts involved in any such discussions or negotiations.",
+        "changed_text": "Listing Broker , Prospect , and Prospect’s Broker agree to disclose to authorized parties the fact that any discussions or negotiations are taking place wi th regard to the Property, the actual or potential terms, conditions, or facts involved in any such discussions or negotiations.",
+        "explanation": "This perturbation inverts the non-disclosure agreement. The original text states that all parties agree *not* to disclose the existence or details of negotiations. By changing 'not to disclose' to 'to disclose,' this section directly contradicts itself and the overall intention of a non-disclosure agreement, particularly if the definition of 'authorized parties' is vague or undefined. This completely changes the obligation.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "Non-Disclosure. Listing Broker , Prospect , and Prospect’s Broker agree to disclose to authorized parties the fact that any discussions or negotiations are taking place wi th regard to the Property, the actual or potential terms, conditions, or facts involved in any such discussions or negotiations.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states 'not to disclose', whereas the changed text states 'to disclose'. This directly contradicts the contradicted text, as it also states 'to disclose'. This creates a significant contradiction because it completely reverses the obligation regarding non-disclosure. It fulfills the definition of Structural Flaws - In Text Contradiction, where a clause is placed in multiple locations with conflicting implications."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Prospect and Prospect’s Broker agree not to contact the Property owner, landlord, tenants, employees, or customers except through Listing Broker .",
+        "changed_text": "Prospect and Prospect’s Broker agree to directly contact the Property owner, landlord, tenants, employees, or customers without needing to go through Listing Broker.",
+        "explanation": "This change introduces a significant contradiction to the non-circumvention clause. The original text strictly prohibits direct contact with specified parties, requiring all communication to go through the Listing Broker. The modified text explicitly allows direct contact, eliminating the Listing Broker as an intermediary. This undermines the Listing Broker's role and directly contradicts the purpose of preventing circumvention.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Non-Circumvention. Prospect and Prospect’s Broker agree to directly contact the Property owner, landlord, tenants, employees, or customers without needing to go through Listing Broker. Prospect and Prospect’s Broker further agree not to circumvent or interfere with Listing Broker’s contract with owner/landlord in any way.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that Prospect and Prospect’s Broker agree not to contact the Property owner, landlord, tenants, employees, or customers except through Listing Broker. The changed text explicitly states that Prospect and Prospect’s Broker agree to directly contact the Property owner, landlord, tenants, employees, or customers without needing to go through Listing Broker. This is a direct contradiction to the original text. Additionally, the contradicted text also states that Prospect and Prospect’s Broker agree to directly contact the Property owner, landlord, tenants, employees, or customers without needing to go through Listing Broker. The change introduces a structural flaw-in text contradiction by having the original and contradicted texts having conflicting implications, which causes uncertainty about the obligations and rights of each party, as per the definition given."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Prospect and Prospect’s Broker further agree not to circumvent or interfere with Listing Broker’s contract with owner/landlord in any way.",
+        "changed_text": "Prospect and Prospect’s Broker further agree to circumvent or interfere with Listing Broker’s contract with owner/landlord in any way.",
+        "explanation": "By changing the text from 'not to circumvent' to 'to circumvent', the clause now directly conflicts with the Non-Circumvention purpose. This inserted perturbation would now allow the Prospect to interfere with the contract between the Listing Broker and the property owner, creating a direct contradiction within the same section. It changes the fundamental intention of the clause and would lead to disputes about the broker's representation and rights.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Non-Circumvention. Prospect and Prospect’s Broker agree to directly contact the Property owner, landlord, tenants, employees, or customers without needing to go through Listing Broker. Prospect and Prospect’s Broker further agree to circumvent or interfere with Listing Broker’s contract with owner/landlord in any way.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that Prospect and Prospect's Broker agree 'not to circumvent or interfere' with the Listing Broker's contract. The changed text inverts this to 'to circumvent or interfere'. The contradicted text contains the same clause as the Changed Text which is contradictory to the section title \"Non-Circumvention\" and creates in-text contradiction by placing contradictory clauses in the same section, violating the 'Structural Flaws - In Text Contradiction' definition."
+      }
+    ]
+  }
+]

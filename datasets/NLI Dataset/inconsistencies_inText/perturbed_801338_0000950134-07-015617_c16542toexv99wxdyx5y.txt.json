@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "801338_0000950134-07-015617_c16542toexv99wxdyx5y.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement contains the entire agreement between the parties with respect to Confidential Information and no modification or waiver of the terms of this Agreement shall be binding unless it is in writing signed by an authorized representative of each party.",
+        "changed_text": "This Agreement contains the entire agreement between the parties with respect to Confidential Information, except for implied agreements established through conduct. No modification or waiver of the terms of this Agreement shall be binding unless it is in writing signed by an authorized representative of each party.",
+        "explanation": "This perturbation introduces an in-text contradiction by including implied agreements. This undermines the entire agreement clause which requires written consent, creating uncertainty. This now creates two conflicting interpretations for future disputes, as written versus implied can cause in-text contradictions. ",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "This Agreement contains the entire agreement between the parties with respect to Confidential Information, except for implied agreements established through conduct. No modification or waiver of the terms of this Agreement shall be binding unless it is in writing signed by an authorized representative of each party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an exception to the 'entire agreement' clause by including 'implied agreements established through conduct.' This directly contradicts the subsequent sentence stating that 'No modification or waiver of the terms of this Agreement shall be binding unless it is in writing signed by an authorized representative of each party.' The added exception creates a conflict between written and implied agreements, leading to uncertainty and potential disputes about which terms are enforceable. This aligns with the definition of inconsistencies leading to in-text contradictions as it creates conflicting interpretations."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "COMPANY shall provide notice to DISCLOSING PARTY of any demand made upon it under lawful process to disclose or provide the Confidential Information.",
+        "changed_text": "COMPANY shall provide notice to DISCLOSING PARTY of any demand made upon it under lawful process to disclose or provide the Confidential Information, unless such notice is deemed by the COMPANY's legal counsel to be detrimental to the COMPANY's interests.",
+        "explanation": "This perturbation introduces an in-text contradiction by adding a clause that allows the company to withhold notice if its legal counsel deems it detrimental. This undermines the original obligation to notify the disclosing party in all circumstances. The in-text contradiction of providing notices and not providing notice creates uncertainty in legal obligations. ",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "COMPANY shall provide notice to DISCLOSING PARTY of any demand made upon it under lawful process to disclose or provide the Confidential Information, unless such notice is deemed by the COMPANY's legal counsel to be detrimental to the COMPANY's interests. COMPANY agrees to cooperate with DISCLOSING PARTY if DISCLOSING PARTY elects to seek reasonable protective arrangements or oppose such disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a condition where COMPANY is not obligated to notify DISCLOSING PARTY if its legal counsel deems it detrimental. The contradicted text repeats this same condition. While it seems repetitive, the change from the original text created an in-text contradiction, as the original text states an unconditional obligation to provide notice. The changed text creates an exception, directly conflicting with the original obligation. Since the contradicted text includes this exception, this means the changed text made the contradictory text now align with itself, which proves that it is indeed contradictory to the first original text."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Upon written notice from DISCLOSING PARTY at any time, COMPANY shall return to DISCLOSING PARTY or destroy all Confidential Information and any copies or derivative works thereof.",
+        "changed_text": "Upon written notice from DISCLOSING PARTY at any time, COMPANY shall return to DISCLOSING PARTY or destroy all Confidential Information, except for copies required for regulatory compliance, and derivative works thereof.",
+        "explanation": "This perturbation introduces an in-text contradiction by creating exceptions. The phrase *except for copies required for regulatory compliance*, implies that some confidential information may be retained, contradicting the requirement to return or destroy all such information. This is an in-text contradiction. ",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "All Confidential Information shall remain the property of DISCLOSING PARTY, except for information independently developed by COMPANY using the Confidential Information. This Agreement does not grant any rights to COMPANY with respect to the Confidential Information, unless explicitly agreed upon in writing by both parties. Upon written notice from DISCLOSING PARTY at any time, COMPANY shall return to DISCLOSING PARTY or destroy all Confidential Information, except for copies required for regulatory compliance, and derivative works thereof.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the original text by adding an exception: 'except for copies required for regulatory compliance.' The contradicted text now includes this same exception, which creates a direct contradiction with the initial requirement to 'return to DISCLOSING PARTY or destroy all Confidential Information'. The addition of the exception means that not all confidential information needs to be returned or destroyed, creating a conflict and thus a strong in-text contradiction."
+      }
+    ]
+  }
+]

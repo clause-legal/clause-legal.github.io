@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "GarrettMotionInc_20181001_8-K_EX-2.4_11364532_EX-2.4_Intellectual Property Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "\"Honeywell Trade Secrets\" means the Trade Secrets included in the Honeywell IP.\n\"Honeywell Trademarks\" means the Trademarks included in the Honeywell IP.",
+        "changed_text": "\"Honeywell Trade Secrets\" means specific documents that are held by Honeywell, as described in Appendix Z.\n\"Honeywell Trademarks\" means the Trademarks included in the Honeywell IP.",
+        "explanation": "Changing the definition of 'Honeywell Trade Secrets' to refer to a specific Appendix Z creates a potential contradiction. Other sections might assume all Trade Secrets are included, not just those listed in the Appendix. This change creates an in-text contradiction, because without knowledge of the explicit contents of Appendix Z, it is not clear whether all Honeywell Trade Secrets are included, or only the defined subset.",
+        "location": "Section 1.01",
+        "contradicted_location": "Section 3.02",
+        "contradicted_text": "(d) All SpinCo Trade Secrets shall be in or shall be moved to the physical possession of the SpinCo Group in a tangible form (including all copies thereof and all notes, extracts or summaries based thereon) prior to the Distribution Date. At the specific written request of SpinCo, Honeywell shall destroy or shall have destroyed any form or copy of any SpinCo Trade Secrets specified by SpinCo in such written request that are in the possession of Honeywell or any members of the Honeywell Group and were not used in the Honeywell Business as of immediately prior to the Distribution, other than SpinCo Trade Secrets that were electronically preserved or recorded by an electronic backup system prior to the Distribution Date and remain within a secure, encrypted data backup system that is subject to industry practice defense, protection and access restriction measures.",
+        "contradiction_exists": "YES",
+        "justification": "The original definition of \"Honeywell Trade Secrets\" included all Trade Secrets in the Honeywell IP. The changed definition limits \"Honeywell Trade Secrets\" to specific documents in Appendix Z. This creates a contradiction with the contradicted text, which states \"All SpinCo Trade Secrets shall be in or shall be moved to the physical possession of the SpinCo Group\". If \"Honeywell Trade Secrets\" is now only a subset, it's unclear whether \"All SpinCo Trade Secrets\" includes those not listed in Appendix Z, creating uncertainty about the obligation to transfer them. The change introduces an inconsistency because the contradicted text refers to 'All SpinCo Trade Secrets', implying a comprehensive set, while the changed definition potentially restricts the scope of 'Honeywell Trade Secrets' to only those listed in Appendix Z."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "(a) This Agreement may be executed in one or more counterparts, all of which counterparts shall be considered one and the same agreement, and shall become effective when one or more counterparts have been signed by each Party and delivered to the other Party.",
+        "changed_text": "(a) This Agreement must be executed in one counterpart, which shall be considered the final agreement, and shall become effective when signed by each Party and a hard copy delivered to the Honeywell headquarters.",
+        "explanation": "The modification of Section 11.01(a) from allowing multiple counterparts to mandating a single, physically delivered counterpart introduces an in-text contradiction. This contradicts the original clause, creating uncertainty about the validity of agreements signed and exchanged electronically. This change directly impacts the method of contract execution and enforcement.",
+        "location": "Section 11.01",
+        "contradicted_location": "Section 11.01",
+        "contradicted_text": "This Agreement may be executed by facsimile or PDF signature and scanned and exchanged by electronic mail, and such facsimile or PDF signature or scanned and exchanged copies shall constitute an original for all purposes.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 11.01(a) mandates a single, physically delivered counterpart, explicitly stating that 'This Agreement must be executed in one counterpart...and a hard copy delivered to the Honeywell headquarters.' This directly contradicts the 'Contradicted Text' which allows for execution 'by facsimile or PDF signature and scanned and exchanged by electronic mail, and such facsimile or PDF signature or scanned and exchanged copies shall constitute an original for all purposes.' The changed text invalidates the electronic execution option, creating a strong in-text contradiction regarding acceptable execution methods."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Section 8.01. No Assignment or Transfer Without Consent. Except as expressly set forth in this Agreement, neither this Agreement nor any of the rights, interests or obligations under this Agreement, including the licenses granted pursuant to this Agreement, shall be assigned, in whole or in part, by operation of Law or otherwise by either Party without the prior written consent of the other Party.",
+        "changed_text": "Section 8.01. No Assignment or Transfer Without Consent. Except as expressly set forth in this Agreement, neither this Agreement nor any of the rights, interests or obligations under this Agreement, including the licenses granted pursuant to this Agreement, shall be assigned, in whole or in part, by operation of Law or otherwise by either Party, even with the prior written consent of the other Party.",
+        "explanation": "Modifying Section 8.01 to prohibit assignment even WITH consent directly contradicts the original clause. This creates an in-text contradiction regarding whether assignment is permissible under ANY circumstances. It severely restricts the transferability of rights and obligations, potentially impacting future business arrangements. This change has an impact on the flexibility of the contract and transferability of the agreement in any case.",
+        "location": "Section 8.01",
+        "contradicted_location": "Section 8.01",
+        "contradicted_text": "Notwithstanding the foregoing, if any Party to this Agreement (or any of its successors or permitted assigns) (a) shall enter into a consolidation or merger transaction in which such Party is not the surviving entity and the surviving entity acquires or assumes all or substantially all of such Party's assets, (b) shall transfer all or substantially all of such Party's assets to any Person or (c) shall assign this Agreement to such Party's Affiliates, then, in each such case, the assigning Party (or its successors or permitted assigns, as applicable) shall ensure that the assignee or successor- in-interest expressly assumes in writing all of the obligations of the assigning Party under this Agreement, and the assigning Party shall not be required to seek consent, but shall provide written notice and evidence of such assignment, assumption or succession to the non-assigning Party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 8.01 now prohibits assignment even with consent, directly contradicting the 'Contradicted Text' which outlines specific scenarios where assignment is permitted without consent, such as in cases of mergers or asset transfers. The change eliminates the exceptions previously allowed, creating a clear and direct conflict within the contract regarding the permissibility of assignment under any circumstances."
+      }
+    ]
+  }
+]

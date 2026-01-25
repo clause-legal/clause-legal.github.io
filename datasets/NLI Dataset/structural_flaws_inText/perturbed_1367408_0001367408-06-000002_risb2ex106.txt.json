@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "1367408_0001367408-06-000002_risb2ex106.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "ListFusion agrees that this Agreement grants only limited rights to use the List for the sole purpose of loading the List into ListFusion's proprietary database system. The List will not be reproduced, transferred, or conveyed to any 3rd party without prior written authorization by Raphael.",
+        "changed_text": "ListFusion agrees that this Agreement grants only limited rights to use the List for the sole purpose of loading the List into ListFusion's proprietary database system. ListFusion has unlimited rights to use the List for their business use. The List will not be reproduced, transferred, or conveyed to any 3rd party without prior written authorization by Raphael.",
+        "explanation": "In Section 2, we added 'ListFusion has unlimited rights to use the List for their business use.' which contradicts the first statement in the same Section 2, which initially granted 'only limited rights to use the List for the sole purpose of loading the List into ListFusion's proprietary database system.'. This creates in-text contradiction in the same section due to the perturbation.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "ListFusion agrees that this Agreement grants only limited rights to use the List for the sole purpose of loading the List into ListFusion's proprietary database system. ListFusion has unlimited rights to use the List for their business use. The List will not be reproduced, transferred, or conveyed to any 3rd party without prior written authorization by Raphael.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds the clause 'ListFusion has unlimited rights to use the List for their business use' which directly contradicts the initial statement 'ListFusion agrees that this Agreement grants only limited rights to use the List for the sole purpose of loading the List into ListFusion's proprietary database system.' within the same section. This creates a clear in-text contradiction, as the modified text grants both limited and unlimited rights for the same ListFusion to use the same List, making the agreement ambiguous and potentially unenforceable, aligning with the 'Structural Flaws - In Text Contradiction' perturbation type."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "ListFusion will provide Raphael with an Administrative username and password. Access to the List by Raphael will be controlled by this username and password. Raphael may at their discretion create additional usernames and passwords. ListFusion will not create, generate, distribute, or convey to any 3rd party a username or password without prior written authorization by Raphael.",
+        "changed_text": "ListFusion will provide Raphael with an Administrative username and password. Access to the List by Raphael will be controlled by this username and password. Raphael may not create additional usernames and passwords. ListFusion will not create, generate, distribute, or convey to any 3rd party a username or password without prior written authorization by Raphael.",
+        "explanation": "In Section 5, the phrase 'Raphael may at their discretion create additional usernames and passwords.' was changed to 'Raphael may not create additional usernames and passwords.' This change directly contradicts the previous sentence, creating an in-text contradiction within the same section. The initial statement permitted Raphael to generate additional usernames, while the subsequent modified statement explicitly forbids it, therefore, creating an in-text contradiction",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "ListFusion will provide Raphael with an Administrative username and password. Access to the List by Raphael will be controlled by this username and password. Raphael may not create additional usernames and passwords. ListFusion will not create, generate, distribute, or convey to any 3rd party a username or password without prior written authorization by Raphael.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies Section 5 by altering 'Raphael may at their discretion create additional usernames and passwords' to 'Raphael may not create additional usernames and passwords.' This creates a direct in-text contradiction because the original text allows Raphael to create additional usernames, while the changed text explicitly forbids it. The contradicted text is located in the same section, and presents this modified contradictory sentence."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Raphael my at any time request the List be completely destroyed, scratched, and purged from all media, including electronic storage, disk, tape, and printed documents.",
+        "changed_text": "Raphael may not at any time request the List be completely destroyed, scratched, and purged from all media, including electronic storage, disk, tape, and printed documents.",
+        "explanation": "Section 7 initially stated, 'Raphael my at any time request the List be completely destroyed...'. This has been directly negated by changing 'my' to 'may not'. Now, Raphael doesn't have any right to ask to destroy it. This creates direct in-text contradiction in the same section because the agreement originally provided Raphael with this explicit right",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "Raphael may not at any time request the List be completely destroyed, scratched, and purged from all media, including electronic storage, disk, tape, and printed documents.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed Raphael to request the List be destroyed. The changed text explicitly states that Raphael may not request the List be destroyed. This directly contradicts the contradicted text, which is identical to the changed text, creating a clear and strong in-text contradiction. The explanation further confirms that the change negates Raphael's original right."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "In the event ListFusion discontinues services, the List will be returned to Raphael and then completely destroyed, scratched, and purged from all media, including electronic storage, disk, tape, and printed documents in possession of ListFusion.",
+        "changed_text": "In the event ListFusion discontinues services, the List will be retained by ListFusion and then completely destroyed, scratched, and purged from all media, including electronic storage, disk, tape, and printed documents in possession of ListFusion.",
+        "explanation": "In Section 8, we changed 'the List will be returned to Raphael' to 'the List will be retained by ListFusion'. The initial clause stated that upon discontinuing services, the List goes back to Raphael, while the changed one says it will be retained by ListFusion, creating an in-text contradiction within the same section.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "In the event ListFusion discontinues services, the List will be retained by ListFusion and then completely destroyed, scratched, and purged from all media, including electronic storage, disk, tape, and printed documents in possession of ListFusion.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that upon discontinuation of services, 'the List will be returned to Raphael', while the changed text states 'the List will be retained by ListFusion'. This creates a direct contradiction as to who possesses the List after the service ends. The contradicted text is identical to the changed text. This highlights the clear and irreconcilable conflict regarding ownership and control of the List, thus meeting the criteria for a strong in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement shall not be modified or amended, except in a written instrument executed by the parties.",
+        "changed_text": "This Agreement shall be modified or amended verbally by either party.",
+        "explanation": "Section 9 previously stated that 'This Agreement shall not be modified or amended, except in a written instrument executed by the parties.' The change directly contradicts this by saying 'This Agreement shall be modified or amended verbally by either party.' This introduces an in-text contradiction in Section 9 because the agreement now states it can be amended verbally, opposing the original written instrument requirement.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "This Agreement contains the entire agreement relative to the protection of the List to be exchanged hereunder, and supersedes all prior to contemporaneous oral or written understandings or agreements regarding the issue. This Agreement shall be modified or amended verbally by either party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that modifications must be in writing. The changed text states that modifications can be verbal. The contradicted text contains the changed text that allows verbal modification. This directly contradicts the original requirement for written modifications, creating an in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Nothing contained in this Agreement shall grant to either party the right to make commitments of any kind or on behalf of any other party without the prior written consent of the other party.",
+        "changed_text": "Either party has the right to make commitments of any kind or on behalf of any other party with the prior written consent of the other party.",
+        "explanation": "In Section 12, the change replaces 'Nothing contained in this Agreement shall grant to either party the right to make commitments' to 'Either party has the right to make commitments'. The initial statement denied the right to make commitments, but the changed statement grants such right. This creates a direct in-text contradiction within the same section.",
+        "location": "12",
+        "contradicted_location": "12",
+        "contradicted_text": "Nothing contained in this Agreement shall grant to either party the right to make commitments of any kind or on behalf of any other party without the prior written consent of the other party. Either party has the right to make commitments of any kind or on behalf of any other party with the prior written consent of the other party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that neither party has the right to make commitments on behalf of the other without written consent, while the changed text grants either party the right to make such commitments with written consent. The contradicted text is a verbatim repeat of the changed text, which is contradictory to itself. This is a clear contradiction of a fundamental right/restriction within the agreement, fitting the definition of a structural flaw causing in-text contradiction."
+      }
+    ]
+  }
+]

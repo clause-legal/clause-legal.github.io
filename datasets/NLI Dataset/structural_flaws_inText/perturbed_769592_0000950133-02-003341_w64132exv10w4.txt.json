@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "769592_0000950133-02-003341_w64132exv10w4.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Proprietary Information of the Disclosing Party shall remain the property of the Disclosing Party. Proprietary Information of the Disclosing Party shall be treated and safeguarded hereunder by the Receiving Party for a period of two (2) years from the date of disclosure. The Receiving Party warrants that it applies reasonable safeguards against the unauthorized disclosure of Proprietary Information and that it will protect such Proprietary Information as least as securely as it protects its own Proprietary Information.",
+        "changed_text": "Proprietary Information of the Disclosing Party shall remain the property of the Disclosing Party. Proprietary Information of the Disclosing Party may be treated and safeguarded hereunder by the Receiving Party for a period of two (2) years from the date of disclosure, or indefinitely, at the Disclosing Party's discretion. The Receiving Party warrants that it applies reasonable safeguards against the unauthorized disclosure of Proprietary Information and that it will protect such Proprietary Information as least as securely as it protects its own Proprietary Information.",
+        "explanation": "The original text specifies a two-year period for safeguarding proprietary information. The modified text introduces ambiguity by adding \"or indefinitely, at the Disclosing Party's discretion.\" This contradicts the defined 2 year period and creates uncertainty about the duration of the obligation in Paragraph 3.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Proprietary Information of the Disclosing Party shall remain the property of the Disclosing Party. Proprietary Information of the Disclosing Party may be treated and safeguarded hereunder by the Receiving Party for a period of two (2) years from the date of disclosure, or indefinitely, at the Disclosing Party's discretion. The Receiving Party warrants that it applies reasonable safeguards against the unauthorized disclosure of Proprietary Information and that it will protect such Proprietary Information as least as securely as it protects its own Proprietary Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces the possibility of an indefinite period for safeguarding proprietary information at the Disclosing Party's discretion, directly contradicting the original two-year limitation. This creates a direct conflict regarding the duration of the Receiving Party's obligation, as the contradicted text implies that the safeguarding period is either two years or indefinite, leading to ambiguity and potentially unenforceable terms."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement shall terminate two (2) years from the date first written above, except the obligations of confidentiality pursuant to paragraph 3, and the terms of paragraph 4, shall continue for the period specified in paragraph 3.",
+        "changed_text": "This Agreement shall terminate two (2) years from the date first written above, except the obligations of confidentiality pursuant to paragraph 3, and the terms of paragraph 4, shall continue indefinitely.",
+        "explanation": "The original text specified that the obligations of confidentiality pursuant to paragraph 3 continue for the period specified in paragraph 3. The modification replaces this with 'continue indefinitely', which directly contradicts the potential two-year limit established in paragraph 3 after the prior perturbation, and further increases the uncertanity created by the modification of the Paragraph 3. The contradiction is located within paragraph 6.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "This Agreement shall terminate two (2) years from the date first written above, except the obligations of confidentiality pursuant to paragraph 3, and the terms of paragraph 4, shall continue indefinitely.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies paragraph 6 to state that confidentiality obligations pursuant to paragraph 3 continue 'indefinitely'. The explanation clarifies that this contradicts a potential two-year limit established in paragraph 3, creating an in-text contradiction. The contradicted text is a restatement of the changed text, reinforcing the presence of the contradiction. Therefore, the changed text indeed contradicts the contradicted text, as one section implies a time limit based on Paragraph 3 and the other section states that the confidentiality is indefinite, and according to the definition of the Perturbation type this indicates a Structural Flaw - In Text Contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Receiving Party agrees that (i) the documents provided to the Receiving Party hereunder containing Proprietary Information of the Disclosing Party shall be used by the Receiving Party solely for the purpose of evaluating its interest in the business arrangements described or performing a future agreement between the Parties; (ii) it will not use such documents disclosed hereunder for any other purpose; and (iii) it will not distribute, disclose or disseminate Proprietary Information to anyone except its 1 <PAGE> employees with a need to know who are involved in the consideration or performance of the business arrangements described herein.",
+        "changed_text": "The Receiving Party agrees that (i) the documents provided to the Receiving Party hereunder containing Proprietary Information of the Disclosing Party may be used by the Receiving Party for the purpose of evaluating its interest in the business arrangements described or performing a future agreement between the Parties; (ii) it may use such documents disclosed hereunder for any other purpose; and (iii) it may distribute, disclose or disseminate Proprietary Information to anyone, even those beyond its 1 <PAGE> employees with a need to know who are involved in the consideration or performance of the business arrangements described herein.",
+        "explanation": "The original text restricted the use of Proprietary Information solely to evaluating business arrangements or performing future agreements. The modified text uses 'may' instead of 'shall' creating a level of optionality and creates a contradiction by stating that the Receiving Party 'may use such documents disclosed hereunder for any other purpose', which directly contradict the original obligation. The contradiction arises because it is unclear what the expected behavior is from the Receiving Party, this occurs in section 4.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "The Receiving Party agrees that (i) the documents provided to the Receiving Party hereunder containing Proprietary Information of the Disclosing Party may be used by the Receiving Party for the purpose of evaluating its interest in the business arrangements described or performing a future agreement between the Parties; (ii) it may use such documents disclosed hereunder for any other purpose; and (iii) it may distribute, disclose or disseminate Proprietary Information to anyone, even those beyond its 1 <PAGE> employees with a need to know who are involved in the consideration or performance of the business arrangements described herein.",
+        "contradiction_exists": "YES",
+        "justification": "The original text placed restrictions on the Receiving Party regarding the use and distribution of Proprietary Information. The changed text removes these restrictions, stating the Receiving Party 'may use such documents disclosed hereunder for any other purpose' and 'may distribute, disclose or disseminate Proprietary Information to anyone'. This creates a direct conflict with the original obligations, thus creating a strong contradiction. The contradiction text is a copy of the changed text and the perturbed explanation states that this introduces uncertainty and breaks the original obligation."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Each Party agrees that it will not disclose the subject matter or terms of this Agreement or the discussions between the Parties without the written consent of the other Party.",
+        "changed_text": "Each Party agrees that it may not disclose the subject matter or terms of this Agreement or the discussions between the Parties without the written consent of the other Party, unless obligated to do so by a third party.",
+        "explanation": "The original text prohibited disclosure without written consent. The modified text adds 'unless obligated to do so by a third party', which weakens the confidentiality clause and creates a contradiction. The terms were originally agreed to be confidential, however, it is unclear how the third party is involved in the agreement, and if they have a greater right than the Disclosing party. This change creates an in-text contradiction and is found in section 12.",
+        "location": "12",
+        "contradicted_location": "12",
+        "contradicted_text": "Each Party agrees that it may not disclose the subject matter or terms of this Agreement or the discussions between the Parties without the written consent of the other Party, unless obligated to do so by a third party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that each party will not disclose the terms of the agreement without written consent. The changed text introduces an exception: disclosure is allowed if 'obligated to do so by a third party.' This exception directly contradicts the original, absolute restriction on disclosure, creating an in-text contradiction within the document as highlighted in the explanation. The contradicted text is identical to the changed text, which highlights that the change itself introduced the contradiction within the same section."
+      }
+    ]
+  }
+]

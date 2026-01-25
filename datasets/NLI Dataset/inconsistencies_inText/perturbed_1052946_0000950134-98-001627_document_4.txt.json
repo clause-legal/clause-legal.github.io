@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "1052946_0000950134-98-001627_document_4.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement is intended to extend beyond the Period of Affiliation.",
+        "changed_text": "This Agreement terminates automatically at the end of the Period of Affiliation.",
+        "explanation": "This change directly contradicts the original intent, creating an in-text contradiction with section 2.0. If the agreement now terminates, the phrase 'either during or subsequent to the Period of Affiliation' in section 2.0 becomes confusing.",
+        "location": "1.2",
+        "contradicted_location": "2.0",
+        "contradicted_text": "Both parties agree that its representatives and employees will not at any time, either during or subsequent to the Period of Affiliation, either directly or indirectly, disclose to others or use any secret, confidential or proprietary information and know-how of the other party (whether or not developed by the other party) without that party's written consent. The term \"secret, confidential or proprietary information and know-how\" shall include, but shall not be limited to, company plans, customers, costs, programs, prices, computer programs and methods used, developed, investigated, made or sold, at any time, either before or during the parties' Period of Affiliation.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that the agreement terminates automatically at the end of the Period of Affiliation. However, the contradicted text states that the parties' representatives and employees will not disclose confidential information 'either during or subsequent to the Period of Affiliation.' If the agreement terminates at the end of the Period of Affiliation, as stated in the changed text, then the phrase 'subsequent to the Period of Affiliation' in the contradicted text becomes meaningless and contradictory. This creates a clear conflict within the document, fitting the definition of 'Inconsistencies - In Text Contradiction'."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Both parties agree that its representatives and employees will not at any time, either during or subsequent to the Period of Affiliation, either directly or indirectly, disclose to others or use any secret, confidential or proprietary information and know-how of the other party (whether or not developed by the other party) without that party's written consent.",
+        "changed_text": "Both parties agree that its representatives and employees may disclose confidential information to third parties, provided such disclosure is in the best interest of their respective companies.",
+        "explanation": "This change fundamentally reverses the confidentiality obligation, contradicting the original intent and creates conflict. This is an in-text contradiction against section 1.0, which states that parties intend for this to be a binding agreement and parties will use legal means to enforce the agreement. This clause now makes the entire agreement unenforceable.",
+        "location": "2.0",
+        "contradicted_location": "1.0",
+        "contradicted_text": "Both parties understand the nature and character of this Agreement, and intend for this to be a fully binding agreement. The parties may use all legal means at their disposal to enforce this Agreement. Reference to Delta and FWT includes any subsidiary, affiliated or parent companies, and the directors, officers, employees, agents, representatives and contractors of the respective companies.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text allows for the disclosure of confidential information, which directly contradicts the contradicted text's assertion that the agreement is fully binding and enforceable. The original text prohibited such disclosure, while the changed text permits it, creating a direct conflict in obligations and rendering the agreement's enforceability questionable."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The term \"secret, confidential or proprietary information and know-how\" shall include, but shall not be limited to, company plans, customers, costs, programs, prices, computer programs and methods used, developed, investigated, made or sold, at any time, either before or during the parties' Period of Affiliation.",
+        "changed_text": "The term \"secret, confidential or proprietary information and know-how\" shall only include customer lists and nothing else.",
+        "explanation": "By severely restricting the scope of \"secret, confidential or proprietary information and know-how\", this change introduces a conflict with section 2.1, which specifically includes salary and compensation information. Limiting the definition to customer lists excludes salary information, making it unclear whether salary information is actually protected under the agreement.",
+        "location": "2.0",
+        "contradicted_location": "2.1",
+        "contradicted_text": "Salary and compensation information is considered confidential and proprietary information, and is fully subject to the disclosure restrictions of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text significantly narrows the definition of \"secret, confidential or proprietary information and know-how\" to only include customer lists. This directly contradicts the contradicted text, which explicitly states that \"Salary and compensation information is considered confidential and proprietary information.\" By limiting the definition to customer lists, the changed text excludes salary information, creating a clear inconsistency regarding whether salary information is protected under the agreement. The original text did include company plans, customers, costs, programs, prices, computer programs and methods, which included salary information, as such it did not have a contradiction. The change directly causes the contradiction to the contradicted text."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "No changes to this Agreement shall be effective unless made in writing and executed by both parties.",
+        "changed_text": "Either party may unilaterally amend this Agreement by providing written notice to the other party. Such amendments shall be effective immediately upon receipt of the notice.",
+        "explanation": "This change contradicts the original provision regarding amendments, creating an in-text contradiction. The original text requires mutual agreement and execution, while the modified text allows unilateral amendments. This undermines the enforceability and stability of the agreement, leading to potential disputes.",
+        "location": "3.0",
+        "contradicted_location": "3.0",
+        "contradicted_text": "The rights and obligations of the parties hereto shall be construed under the laws of the State of Texas and shall be binding upon the heirs, legal representatives and assigns with respect to the subject matter thereof. No changes to this Agreement shall be effective unless made in writing and executed by both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text and the contradicted text state that 'No changes to this Agreement shall be effective unless made in writing and executed by both parties.' This requires mutual agreement for any amendments. The changed text states 'Either party may unilaterally amend this Agreement by providing written notice to the other party. Such amendments shall be effective immediately upon receipt of the notice.' This allows one party to change the agreement without the other's consent, directly contradicting the requirement for mutual agreement stated in the contradicted text. Therefore, a strong in-text contradiction exists."
+      }
+    ]
+  }
+]

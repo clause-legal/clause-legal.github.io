@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "913949_0000950149-96-000782_document_6.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Vendor and Ingram mutually agree that Ingram's public disclosure of the Proprietary Information, except pursuant to a confidential disclosure agreement, to any party will release Vendor from the obligation of confidentiality with respect to that portion of the Proprietary Information actually disclosed by Ingram.",
+        "changed_text": "Subcontractor and Ingram mutually agree that Ingram's public disclosure of the Proprietary Information, except pursuant to a confidential disclosure agreement, to any party will release Vendor from the obligation of confidentiality with respect to that portion of the Proprietary Information actually disclosed by Ingram.",
+        "explanation": "The term 'Vendor' is replaced with 'Subcontractor' in the beginning. The second use of the term 'Vendor' is not replaced, creating confusion about the obligations of confidentiality. Now it's unclear who is released from the obligation of confidentiality.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "Subcontractor and Ingram mutually agree that Ingram's public disclosure of the Proprietary Information, except pursuant to a confidential disclosure agreement, to any party will release Vendor from the obligation of confidentiality with respect to that portion of the Proprietary Information actually disclosed by Ingram.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Vendor' with 'Subcontractor' in the first instance but leaves the second instance as 'Vendor'. The contradicted text contains the exact same flawed sentence as the changed text. Since the term 'Vendor' and 'Subcontractor' refer to different entities, this creates a contradiction, as it becomes unclear who is released from the obligation of confidentiality. This aligns with the definition of 'Misaligned Terminology - In Text Contradiction', as the change introduces ambiguity by using both terms without clarity, leading to conflicting obligations. This meets the requirement of a strong, immediate contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Upon termination of this Agreement by either party for any reason, Vendor shall return all Proprietary Information to Ingram within thirty (30) days, irrespective of format.",
+        "changed_text": "Upon termination of this Agreement by either party for any reason, Subcontractor shall return all Proprietary Information to Ingram within sixty (60) days, irrespective of format.",
+        "explanation": "The deadline to return the Proprietary Information now contradicts itself. 'Vendor' became 'Subcontractor,' and the period changed from thirty (30) to sixty (60) days. This is an explicit internal contradiction concerning a critical performance deadline.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "Upon termination of this Agreement by either party for any reason, Subcontractor shall return all Proprietary Information to Ingram within sixty (60) days, irrespective of format. For purposes of enforcing this provision, Vendor's return obligation shall survive the termination of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the original text by changing 'Vendor' to 'Subcontractor' and the return period from 'thirty (30) days' to 'sixty (60) days'. This directly contradicts the Contradicted Text, which states, 'Upon termination of this Agreement by either party for any reason, Subcontractor shall return all Proprietary Information to Ingram within sixty (60) days, irrespective of format. For purposes of enforcing this provision, Vendor's return obligation shall survive the termination of this Agreement.' The contradiction arises because the Changed Text uses 'Subcontractor' with a sixty-day period, while the Contradicted Text refers to 'Vendor' with what appears to be a conflicting thirty-day period for vendors from the Original text (even though it is supposed to be sixty as well, because it is contradictory based on the change). This creates a direct inconsistency regarding the return obligation, causing a strong in-text contradiction as defined by the Misaligned Terminology - In Text Contradiction type where conflicting obligations occur due to changes in terminology and deadlines, based on the explanation."
+      }
+    ]
+  }
+]

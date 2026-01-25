@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement2.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Customization Schedule is attached to the Software License, Customization and Maintenance Agreement (the \"Agreement\") executed by and between Bank of America, N.A. (\"Bank of America\") and <<enter Company Name>> (\"Supplier\").",
+        "changed_text": "This Customization Schedule is attached to the Software License, Customization and Maintenance Agreement (the \"Agreement\") executed by and between Bank of America, N.A. (\"Bank of America\") and <<enter Company Name>> (\"Vendor\").",
+        "explanation": "Changing 'Supplier' to 'Vendor' introduces ambiguity. The contract initially defines the other party as 'Supplier'. Later references to 'Supplier' are now unclear, as the document never indicates that 'Vendor' and 'Supplier' are the same entity. The contract uses the term 'Supplier' many times, including in the definition of Supplier Project Manager in section 8, creating uncertainty about who the agreement is referring to.",
+        "location": "First paragraph",
+        "contradicted_location": "8",
+        "contradicted_text": "Project Personnel: Bank of America Project Administrator: Supplier Project Administrator: Bank of America Project Manager: Supplier Project Manager:",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Supplier' with 'Vendor', creating a misaligned terminology issue. The 'Contradicted Text' section uses 'Supplier' in the context of 'Supplier Project Manager', which directly contradicts the changed text because the agreement now refers to the other party as 'Vendor', making the 'Supplier Project Manager' ambiguous as per the Perturbation Explanation, which states that the agreement never indicates that 'Vendor' and 'Supplier' are the same entity."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Customizations shall fulfill or exceed all of the functional, performance and other specifications described in the Program Materials and the documents prepared either by Bank of America or Supplier pursuant to this Agreement.",
+        "changed_text": "The Customizations shall fulfill or exceed all of the functional, performance and other specifications described in the Program Materials and the documents prepared either by Bank of America or Contractor pursuant to this Agreement.",
+        "explanation": "Changing 'Supplier' to 'Contractor' introduces ambiguity regarding who should prepare the document. It is unclear whether Contractor and Supplier are the same entity. Because Supplier is also stated as Vendor, this makes it even more confusing. This creates an uncertainty about which party is responsible for which parts of the documentation, where previously it was defined.",
+        "location": "1",
+        "contradicted_location": "1",
+        "contradicted_text": "The Customizations shall fulfill or exceed all of the functional, performance and other specifications described in the Program Materials and the documents prepared either by Bank of America or Contractor pursuant to this Agreement. as indicated below. No later than <<enter Customization Documents Delivery Date>>, Supplier shall deliver to Bank of America the documents described below for this Customization. The detailed specifications so delivered shall be incorporated herein when approved by Bank of America. System Solution Functional Specifications System Design Specifications Test Specifications Supplier acknowledges receipt of the following documents from Bank of America: Detailed Requirements",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Supplier' with 'Contractor' in the initial clause. However, the contradicted text later explicitly states 'Supplier shall deliver to Bank of America the documents described below'. This creates a direct contradiction because the initial clause now refers to 'Contractor' for document preparation, while the contradicted text clearly assigns the responsibility to 'Supplier'. This misalignment of terminology results in an ambiguity about who is responsible for delivering the customization documents, which constitutes a strong in-text contradiction according to the definition of 'Misaligned Terminology - In Text Contradiction'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Fees for Customizations: [SPECIFY TIME AND MATERIALS RATES ([Indicate any \"not to exceed\" limit on T&M Customization costs) OR FIXED PRICE] If the proposed price Is Increased by Supplier upon delivery to Bank of America of detailed specifications or at any other time hereafter, Bank of America may terminate this Schedule and shall receive a refund of all amounts previously paid hereunder.",
+        "changed_text": "Fees for Customizations: [SPECIFY TIME AND MATERIALS RATES ([Indicate any \"not to exceed\" limit on T&M Customization costs) OR FIXED PRICE] If the proposed price Is Increased by Service Provider upon delivery to Bank of America of detailed specifications or at any other time hereafter, Bank of America may terminate this Schedule and shall receive a refund of all amounts previously paid hereunder.",
+        "explanation": "Changing 'Supplier' to 'Service Provider' introduces ambiguity regarding payment. It is unclear if the contract is referring to the Vendor, Supplier or Contractor to receive the payment, which creates uncertainty about who should receive the payment.",
+        "location": "4",
+        "contradicted_location": "First paragraph",
+        "contradicted_text": "This Customization Schedule is attached to the Software License, Customization and Maintenance Agreement (the \"Agreement\") executed by and between Bank of America, N.A. (\"Bank of America\") and <<enter Company Name>> (\"Vendor\"). The Customizations identified hereunder shall be subject to the terms and conditions of that Software License, Customization and Maintenance Agreement referenced above. Bank of America wishes to obtain the Customizations herein defined, and Supplier wishes to delivery those Customizations, on the terms and conditions of the Agreement and this Customization Schedule.",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'Supplier,' which aligns with the 'Supplier' identified in the contradicted text. The changed text replaces 'Supplier' with 'Service Provider,' while the contradicted text explicitly identifies the involved parties as 'Vendor' and 'Supplier'. This creates a misalignment and ambiguity, making it unclear who is entitled to receive payment, contradicting the clear identification of 'Supplier' in the original agreement and leading to a conflict regarding the parties' obligations and entitlements. The changed text contradicts the agreement because it is not clear if the Vendor, Supplier, or Contractor should receive the payment."
+      }
+    ]
+  }
+]

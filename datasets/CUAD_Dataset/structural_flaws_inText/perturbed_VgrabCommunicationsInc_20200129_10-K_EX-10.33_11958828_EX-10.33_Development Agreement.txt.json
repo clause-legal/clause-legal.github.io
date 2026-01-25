@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_Development Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "PAYMENT TERMS All Parties agreed the payment listed below are fair and just for the services being provided. Payment to the following individual below within 7 days upon completion and handover on the Project to VAL.",
+        "changed_text": "PAYMENT TERMS All Parties agreed the payment listed below are fair and just for the services being provided. Payment to the following individual below within 7 days upon completion and handover on the Project to VAL, *unless VAL deems the handover incomplete or unsatisfactory*.",
+        "explanation": "The addition of \"unless VAL deems the handover incomplete or unsatisfactory\" introduces uncertainty and contradicts the initial statement that payment will be made within 7 days upon completion. This gives VAL the discretion to withhold payment, effectively overriding the agreed-upon payment terms. This contradicts the intention of the agreement to pay within 7 days.",
+        "location": "Clause 5",
+        "contradicted_location": "Clause 5",
+        "contradicted_text": "PAYMENT TERMS All Parties agreed the payment listed below are fair and just for the services being provided. Payment to the following individual below within 7 days upon completion and handover on the Project to VAL, *unless VAL deems the handover incomplete or unsatisfactory*.\nNo. Name Function Amount 1. Ms. Chen Weijie Coordinator/Lead Developer USD100,000.00 2. Mr. Zheng Qing Developer USD50,000.00 3. Mr. Gu Xianwin Developer USD50,000.00",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a condition ('unless VAL deems the handover incomplete or unsatisfactory') that directly contradicts the original statement of payment within 7 days. This condition gives VAL the power to withhold payment, creating uncertainty and a direct conflict with the stated payment obligation. The contradicted text lists the amount of money to be paid within 7 days, without condition. The changed text directly undermines this section, introducing a strong contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "All Intellectual Property during the project is owned by VAL, and will be turned over to VAL at the conclusion of the project by Developer and after the fulfillment of all commercial obligations by the VAL. All rights and title to Duesey Coffee Intellectual Property created pursuant to the Project shall belong to VAL and shall be subject to the terms and conditions of this Agreement.",
+        "changed_text": "All Intellectual Property during the project is owned by VAL, *except for any code libraries or tools created independently by the Developer prior to the project's commencement*. All rights and title to Duesey Coffee Intellectual Property created pursuant to the Project shall belong to VAL and shall be subject to the terms and conditions of this Agreement.",
+        "explanation": "The phrase \"except for any code libraries or tools created independently by the Developer prior to the project's commencement\" contradicts the statement that \"All Intellectual Property during the project is owned by VAL\". It creates ambiguity about the ownership of code libraries used in the project. Does VAL own the application source code or not? This change introduces the possibility of the developer claiming ownership of essential components after handing over the finished product. The intention was that all IPR belongs to VAL.",
+        "location": "Clause 11.1",
+        "contradicted_location": "Clause 11.1",
+        "contradicted_text": "INTELLECTUAL PROPERTY RIGHTS AND OWNERSHIP All Intellectual Property during the project is owned by VAL, *except for any code libraries or tools created independently by the Developer prior to the project's commencement*. All rights and title to Duesey Coffee Intellectual Property created pursuant to the Project shall belong to VAL and shall be subject to the terms and conditions of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds an exception to the original statement that \"All Intellectual Property during the project is owned by VAL.\" The exception, \"except for any code libraries or tools created independently by the Developer prior to the project's commencement,\" directly contradicts the initial claim of VAL owning all Intellectual Property during the project. This introduces ambiguity about the ownership of potentially crucial code libraries and tools used in the project, creating a strong in-text contradiction, as highlighted in the Perturbation Explanation. It creates uncertainty over ownership and therefore enforceability within the contract."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "TERMINATION VAL shall, in the event of Developer committing any breach of any of the terms and conditions of this agreement or for any other reason considered as sufficient, be entitled to terminate this agreement by giving two (2) weeks' notice in writing and it is applicable only when the project is not completed.",
+        "changed_text": "TERMINATION VAL shall, in the event of Developer committing any breach of any of the terms and conditions of this agreement or for any other reason considered as sufficient, be entitled to terminate this agreement by giving two (2) weeks' notice in writing and it is applicable only when the project is not completed. *However, VAL may terminate this agreement immediately if it determines, in its sole discretion, that the Developer's work is of unsatisfactory quality*.",
+        "explanation": "The added sentence \"However, VAL may terminate this agreement immediately if it determines, in its sole discretion, that the Developer's work is of unsatisfactory quality\" conflicts with the original termination clause that requires two weeks' notice. It allows VAL to bypass the notice period based on a subjective assessment of the work's quality. This creates uncertainty about the actual process and terms for termination. The two week termination notice clause is contradicted by the new statement.",
+        "location": "Clause 12.1",
+        "contradicted_location": "Clause 12.1",
+        "contradicted_text": "TERMINATION VAL shall, in the event of Developer committing any breach of any of the terms and conditions of this agreement or for any other reason considered as sufficient, be entitled to terminate this agreement by giving two (2) weeks' notice in writing and it is applicable only when the project is not completed. *However, VAL may terminate this agreement immediately if it determines, in its sole discretion, that the Developer's work is of unsatisfactory quality*.\nIf the customer terminates the agreement, then VAL shall compensate the Developer up to the date of termination with a fee calculated on Pro-rata basis.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds a provision allowing immediate termination based on VAL's subjective assessment of work quality, directly contradicting the original clause which mandates a two-week notice period for termination. The contradicted text also contains this contradictory clause which makes the contradiction very clear. The introduction of immediate termination creates a direct conflict with the two-week notice requirement, making it unclear under what circumstances each termination process applies. This aligns with the 'Structural Flaws - In Text Contradiction' definition, as a conflicting clause is placed in the same location, creating uncertainty about termination rights and obligations. This is a clear and direct conflict within the document."
+      }
+    ]
+  }
+]

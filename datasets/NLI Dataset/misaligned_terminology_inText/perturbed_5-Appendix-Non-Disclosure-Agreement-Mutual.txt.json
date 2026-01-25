@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "5-Appendix-Non-Disclosure-Agreement-Mutual.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "All Confidential Information disclosed by the Disclosing Party to the Receiving Party shall remain the property of the Disclosing Party.",
+        "changed_text": "All Secret Data disclosed by the Disclosing Party to the Receiving Party shall remain the property of the Disclosing Party.",
+        "explanation": "Replacing 'Confidential Information' with 'Secret Data' introduces inconsistency. The remainder of the agreement uses 'Confidential Information,' creating ambiguity about the scope of ownership and return obligations.",
+        "location": "3.1",
+        "contradicted_location": "4.1",
+        "contradicted_text": "All Confidential Information (including but not limited to all intellectual property rights emanating from or related to Confidential Information) remains the exclusive property of the Disclosing Party and nothing in this Agreement grants any right or license in the Confidential Information to the Receiving Party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Confidential Information' with 'Secret Data'. The contradicted text explicitly defines and uses 'Confidential Information', including its relationship to intellectual property rights. Since 'Secret Data' is not defined or used elsewhere in the agreement, it introduces ambiguity and undermines the clear ownership and licensing provisions related to 'Confidential Information'. This creates a direct conflict and uncertainty regarding which information is protected and how, leading to a strong in-text contradiction as described in the 'Misaligned Terminology' definition."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "All Confidential Information (including but not limited to all intellectual property rights emanating from or related to Confidential Information) remains the exclusive property of the Disclosing Party and nothing in this Agreement grants any right or license in the Confidential Information to the Receiving Party.",
+        "changed_text": "All Classified Material (including but not limited to all intellectual property rights emanating from or related to Classified Material) remains the exclusive property of the Disclosing Party and nothing in this Agreement grants any right or license in the Classified Material to the Receiving Party.",
+        "explanation": "Substituting 'Confidential Information' with 'Classified Material' makes the term inconsistent throughout the document. This will cause confusion about the scope and use of the information under the agreement.",
+        "location": "4.1",
+        "contradicted_location": "2.1",
+        "contradicted_text": "For the purpose of this Agreement, “Confidential Information” means any information received by a Party (the “Receiving Party”) regarding the other Party’s (the “Disclosing Party”) business, research, products and/or services, such as all information and technology, including without limitation, research, inventions, manufacture methods, data, designs, plans, drawings, know-how, IT systems, software, processes, schematics, blueprints, records, reports, models, prototypes and descriptions related thereto, customers, partners, as well as the terms and conditions of this Agreement and information furnished during discussions or oral presentations, whether or not designated as confidential at the time of disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Confidential Information' to 'Classified Material' creates an in-text contradiction. The contradicted text defines 'Confidential Information,' and the agreement relies on this definition. By changing 'Confidential Information' to 'Classified Material' in the changed text, the agreement introduces a term ('Classified Material') that is not defined within the document, leading to ambiguity and inconsistency regarding which information is protected and governed by the agreement, violating the misaligned terminology definition."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "In the case of any breach of any material obligations under this Agreement by the Receiving Party or any permitted third party who has received Confidential Information according to this Agreement, the Receiving Party shall be liable to pay liquidated damages to the Disclosing Party amounting to SEK [amount] for each such breach of its obligations.",
+        "changed_text": "In the case of any breach of any material obligations under this Agreement by the Receiving Party or any permitted third party who has received Sensitive Details according to this Agreement, the Receiving Party shall be liable to pay liquidated damages to the Disclosing Party amounting to SEK [amount] for each such breach of its obligations.",
+        "explanation": "Replacing 'Confidential Information' with 'Sensitive Details'. The agreement does not define the term Sensitive Details. This change might cause the liquidated damage clause to be unenforceable due to ambiguity regarding the subject of the obligation.",
+        "location": "5.1",
+        "contradicted_location": "2.1",
+        "contradicted_text": "For the purpose of this Agreement, “Confidential Information” means any information received by a Party (the “Receiving Party”) regarding the other Party’s (the “Disclosing Party”) business, research, products and/or services, such as all information and technology, including without limitation, research, inventions, manufacture methods, data, designs, plans, drawings, know-how, IT systems, software, processes, schematics, blueprints, records, reports, models, prototypes and descriptions related thereto, customers, partners, as well as the terms and conditions of this Agreement and information furnished during discussions or oral presentations, whether or not designated as confidential at the time of disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'Confidential Information,' which is defined in the 'Contradicted Text.' The changed text replaces 'Confidential Information' with 'Sensitive Details,' a term not defined within the contract. This creates ambiguity because the liquidated damages clause now hinges on a term with no clear meaning, thus making it unclear what obligations are covered by the clause, and contradicting the section that defines 'Confidential Information'. This misalignment of terminology introduces an in-text contradiction as per the definition provided."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The provisions of this Agreement shall apply retroactively to any Confidential Information, which has been disclosed in accordance with this Agreement and in connection with discussions and negotiation regarding the possible co-operation described in this Agreement prior to the effective date of the Agreement.",
+        "changed_text": "The provisions of this Agreement shall apply retroactively to any Private Data, which has been disclosed in accordance with this Agreement and in connection with discussions and negotiation regarding the possible co-operation described in this Agreement prior to the effective date of the Agreement.",
+        "explanation": "Changing the term 'Confidential Information' to 'Private Data' leads to an ambiguous scope. The term 'Confidential Information' is still used in other sections of this agreement, creating an in-text contradiction.",
+        "location": "6.1",
+        "contradicted_location": "2.1",
+        "contradicted_text": "For the purpose of this Agreement, “Confidential Information” means any information received by a Party (the “Receiving Party”) regarding the other Party’s (the “Disclosing Party”) business, research, products and/or services, such as all information and technology, including without limitation, research, inventions, manufacture methods, data, designs, plans, drawings, know-how, IT systems, software, processes, schematics, blueprints, records, reports, models, prototypes and descriptions related thereto, customers, partners, as well as the terms and conditions of this Agreement and information furnished during discussions or oral presentations, whether or not designated as confidential at the time of disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Confidential Information' with 'Private Data'. However, the contradicted text defines 'Confidential Information'. Since 'Confidential Information' is still used within the agreement, and the term 'Private Data' is not defined, there's now an in-text contradiction. The original text aligned with the contradicted text because it used the defined term 'Confidential Information'. Now that the changed text used a different term in the original text that is not defined, and the original term still exists, a contradiction is introduced."
+      }
+    ]
+  }
+]

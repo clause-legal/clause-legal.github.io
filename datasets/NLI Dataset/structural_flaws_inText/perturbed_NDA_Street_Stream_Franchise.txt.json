@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "NDA_Street_Stream_Franchise.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Upon receipt by the Recipient of a written demand from the Disclosers: 8.1.1 the Recipient must return or procure the return to the Disclosers or, as the Disclosers may require, destroy or procure the destruction of any and all materials containing the Confidential Information together with all copies;",
+        "changed_text": "Upon receipt by the Recipient of a written demand from the Disclosers: 8.1.1 the Recipient may return or procure the return to the Disclosers or, as the Disclosers may require, destroy or procure the destruction of any and all materials containing the Confidential Information together with all copies;",
+        "explanation": "Changing 'must' to 'may' in Section 8.1.1 introduces an in-text contradiction. The original clause mandates the return or destruction of confidential information upon demand, creating a clear obligation. The modification makes the action discretionary ('may'), directly contradicting the previous mandatory requirement and creating uncertainty about the Recipient's obligations.",
+        "location": "8.1.1",
+        "contradicted_location": "8.1.1",
+        "contradicted_text": "8.1.1 the Recipient may return or procure the return to the Disclosers or, as the Disclosers may require, destroy or procure the destruction of any and all materials containing the Confidential Information together with all copies;",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'must' to 'may' in Section 8.1.1 transforms a mandatory obligation into a discretionary option for the Recipient regarding the return or destruction of confidential information. The contradicted text is actually the changed text. The initial requirement (must) creates an enforceable obligation, while the modified term (may) gives the Recipient leeway, potentially conflicting with other parts of the agreement that assume the Recipient is obligated to return or destroy the information. This introduces uncertainty about the Recipient's duties, creating a clear contradiction and making the contract inconsistent."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Entire agreement 9.1 The parties agree that this Agreement and any documents entered into pursuant to it constitute the entire agreement between them and supersedes all previous agreements, understandings and arrangements between them, whether in writing or oral in respect of its subject matter.",
+        "changed_text": "Entire agreement 9.1 The parties agree that this Agreement and any documents entered into pursuant to it constitute the entire agreement between them and supersedes all previous agreements, understandings and arrangements between them, whether in writing or oral in respect of its subject matter. However, any prior oral agreements specifically acknowledged in writing by both parties will remain in effect.",
+        "explanation": "The addition of 'However, any prior oral agreements specifically acknowledged in writing by both parties will remain in effect' creates an in-text contradiction with the 'entire agreement' clause. The original intent is to supersede all previous agreements, but the added phrase allows certain oral agreements to survive. This undermines the certainty provided by the entire agreement clause and could lead to disputes over what agreements are actually binding.",
+        "location": "9.1",
+        "contradicted_location": "9.1",
+        "contradicted_text": "9.1 The parties agree that this Agreement and any documents entered into pursuant to it constitute the entire agreement between them and supersedes all previous agreements, understandings and arrangements between them, whether in writing or oral in respect of its subject matter. However, any prior oral agreements specifically acknowledged in writing by both parties will remain in effect.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the 'Entire agreement' clause by adding an exception for prior oral agreements acknowledged in writing. This directly contradicts the original purpose of the clause, which is to supersede all previous agreements, whether written or oral. The contradicted text is identical to the changed text, demonstrating the in-text contradiction. The Perturbation Explanation clearly states that this addition undermines the certainty provided by the entire agreement clause, making it a strong contradiction according to the definition of Structural Flaws - In Text Contradiction."
+      }
+    ]
+  }
+]

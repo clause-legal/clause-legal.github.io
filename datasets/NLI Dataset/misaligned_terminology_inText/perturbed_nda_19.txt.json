@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "nda_19.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "3. At the conclusion of any discussions, or upon demand by XCZONE.TV, all confidential information, including prototypes, written notes, photographs, sketches, models, memoranda or notes taken shall be returned to XCZONE.TV.",
+        "changed_text": "3. At the conclusion of any discussions, or upon demand by XCZONE.TV, all tangible materials, including prototypes, written notes, photographs, sketches, models, memoranda or notes taken shall be returned to XCZONE.TV.",
+        "explanation": "By replacing 'confidential information' with 'tangible materials' in this section, the scope of what must be returned becomes unclear. While tangible materials are included in confidential information, the change implies that intangible confidential information (like learned concepts or ideas) does not need to be returned. This contradicts the agreement's broader intent to protect all confidential information.",
+        "location": "3",
+        "contradicted_location": "1",
+        "contradicted_text": "1. _____________________ agrees to hold confidential or proprietary information or trade secrets (\"Company Information\") in trust and confidence and agrees that it shall be used only for the contemplated purposes, shall not be used for any other purpose, or disclosed to any third party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text required the return of 'confidential information,' which is then defined in the contradicted text as encompassing proprietary information and trade secrets. The changed text narrows this to 'tangible materials.' This creates a contradiction because the changed text implies that intangible confidential information (e.g., learned ideas or concepts) does not need to be returned, which conflicts with the contradicted text requiring all confidential information, including trade secrets, to be held in trust and not disclosed."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "4. Confidential information shall not be disclosed to any employee, consultant or third party unless they agree to execute and be bound by the terms of this Agreement, and have been approved by XCZONE.TV.",
+        "changed_text": "4. Sensitive data shall not be disclosed to any employee, consultant or third party unless they agree to execute and be bound by the terms of this Agreement, and have been approved by XCZONE.TV.",
+        "explanation": "Substituting 'confidential information' with 'sensitive data' raises ambiguity. While sensitive data can be part of confidential information, it is not clearly defined within the NDA, potentially narrowing the scope of protection. This is contradictory as the NDA's purpose is to protect the sharing of the confidential information not just sensitive data.",
+        "location": "4",
+        "contradicted_location": "1",
+        "contradicted_text": "1. _____________________ agrees to hold confidential or proprietary information or trade secrets (\"Company Information\") in trust and confidence and agrees that it shall be used only for the contemplated purposes, shall not be used for any other purpose, or disclosed to any third party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies 'confidential information,' which the contradicted text also references as 'Company Information,' defining it broadly to include proprietary information and trade secrets. The changed text replaces 'confidential information' with 'sensitive data,' creating a potential ambiguity as 'sensitive data' may not encompass the full scope of 'Company Information' as defined in the contradicted text, thus narrowing the protection and creating an inconsistency according to the Misaligned Terminology definition."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "WHAT IS A NONDISCLOSURE AGREEMENT? A Nondisclosure Agreement, sometimes called a confidentiality agreement, is a contract whereby one or both of the parties agree that information, ideas, etc. exchanged between them will not be shared with outsiders. Essentially, the information will be treated as confidential.",
+        "changed_text": "WHAT IS A NONDISCLOSURE AGREEMENT? A Nondisclosure Agreement, sometimes called a confidentiality agreement, is a contract whereby one or both of the parties agree that information, ideas, etc. exchanged between them will not be shared with outsiders. Essentially, the information will be treated as private.",
+        "explanation": "By replacing 'confidential' with 'private,' the description of the NDA's function becomes less legally precise. 'Confidential' has established legal meaning in the context of NDAs. 'Private' is more vague. This alteration contradicts the rest of the document which relies on the term 'confidential information.'",
+        "location": "Definition of Nondisclosure Agreement",
+        "contradicted_location": "1",
+        "contradicted_text": "1. _____________________ agrees to hold confidential or proprietary information or trade secrets (\"Company Information\") in trust and confidence and agrees that it shall be used only for the contemplated purposes, shall not be used for any other purpose, or disclosed to any third party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces the term 'confidential' with 'private' in the definition of a Non-Disclosure Agreement. The contradicted text explicitly uses the term 'confidential information'. Because the changed text introduces a less legally precise term, it creates a contradiction because the rest of the document relies on the term 'confidential information' as per the Perturbation Explanation. The definition of Misaligned Terminology - In Text Contradiction matches the conditions."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Finally, an NDA can be used to articulate the specifics of which information can and cannot be disclosed. Typically as a result of negotiation to identify and classify the nondisclosible information as confidential or proprietary. Disclosing parties seek the broadest definition, while recipients generally prefer the narrowest definition.",
+        "changed_text": "Finally, an NDA can be used to articulate the specifics of which information can and cannot be disclosed. Typically as a result of negotiation to identify and classify the nondisclosible information as secret or proprietary. Disclosing parties seek the broadest definition, while recipients generally prefer the narrowest definition.",
+        "explanation": "Replacing 'confidential' with 'secret' introduces a different standard. 'Secret' suggests a higher level of protection than 'confidential,' which includes a broader range of information that is not necessarily secret but still proprietary. This can lead to disagreements about what the NDA actually covers, as some information might be confidential but not strictly 'secret'.",
+        "location": "Discussion of what an NDA should cover",
+        "contradicted_location": "1",
+        "contradicted_text": "1. _____________________ agrees to hold confidential or proprietary information or trade secrets (\"Company Information\") in trust and confidence and agrees that it shall be used only for the contemplated purposes, shall not be used for any other purpose, or disclosed to any third party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'confidential' with 'secret' when classifying nondisclosible information. The contradicted text states that the agreement applies to 'confidential or proprietary information or trade secrets'. Since 'secret' implies a higher standard than 'confidential', the change narrows the scope of what is protected, potentially excluding information that is 'confidential' but not 'secret'. This directly contradicts the original intent of the NDA as described in the contradicted text."
+      }
+    ]
+  }
+]

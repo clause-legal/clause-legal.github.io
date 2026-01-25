@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "1112999_0001193125-08-214471_dex105.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "2.04 Non-Disclosure. The Receiving Party agrees to use reasonable care, but in no event less than the same degree of care that it uses to protect its own Confidential Information of a similar nature, to prevent the unauthorized use, disclosure, publication or dissemination of the Confidential Information.",
+        "changed_text": "2.04 Non-Disclosure. The Receiving Party agrees to use reasonable care, but in no event more than the degree of care that it uses to protect its own Confidential Information of a similar nature, to prevent the unauthorized use, disclosure, publication or dissemination of the Confidential Information.",
+        "explanation": "The original text sets a floor for the standard of care (no less than what the Receiving Party uses for its own confidential information). The changed text sets a ceiling (no more than that standard). This creates uncertainty. If the Receiving Party is negligent in protecting its own information, does it have a greater duty of care under the original text or not under the modified text? The original text implies that this protection should be applied, but the modified says that is not the case.",
+        "location": "2.04 Non-Disclosure",
+        "contradicted_location": "2.04 Non-Disclosure",
+        "contradicted_text": "The Receiving Party agrees to use reasonable care, but in no event more than the degree of care that it uses to protect its own Confidential Information of a similar nature, to prevent the unauthorized use, disclosure, publication or dissemination of the Confidential Information. Each party shall only have the right to disclose the Confidential Information to its employees, agents and consultants on a “need to know” basis; provided, however, that disclosure in any event shall only be made to such persons who have agreed in writing to protect the confidentiality of the Disclosing Party’s information. Each party shall, prior to disclosing any Confidential Information to any such person, issue appropriate instructions to them and obtain all necessary undertakings to ensure that such Persons comply with the confidentiality and use obligations and restrictions contained In this Agreement with respect to the Confidential Information. These obligations shall survive termination or expiry of this Agreement. The Receiving Party may Disclose Confidential Information if required by law, provided that the Receiving Party will take reasonable steps to give the Disclosing Party sufficient prior written notice of the requirement and provide reasonable assistance to enable the Disclosing Party to seek protection of its Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text creates a contradiction. The original text establishes a minimum standard of care. The changed text establishes a maximum standard of care. The contradicted text repeats the changed text of setting a maximum standard of care. The original text would contradict the contradicted text as it is right now, because the changed text has a maximum standard of care now instead of a minimum as before. This change introduces uncertainty and potential conflict in interpretation and enforcement, meaning there is now a strong in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "3.02 Termination. Either party may terminate this Agreement without cause, by giving the other party five (30) Business Days advance written notice.",
+        "changed_text": "3.02 Termination. Either party may terminate this Agreement without cause, by giving the other party zero (0) Business Days advance written notice. A verbal notice is sufficent.",
+        "explanation": "The original text requires 30 Business Days' written notice for termination. The change allows immediate termination with no advance notice, and it can be verbal, making the written notice requirement and the 30 days void. This clearly contradicts the original terms for termination described at the begining of section 3.02",
+        "location": "3.02 Termination",
+        "contradicted_location": "3.02 Termination",
+        "contradicted_text": "Either party may terminate this Agreement without cause, by giving the other party zero (0) Business Days advance written notice. A verbal notice is sufficent.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the termination clause, originally requiring 30 business days' written notice, to allow immediate termination with verbal notice. This directly contradicts the original requirement of 30 days' written notice, as the changed text makes the written notice requirement void. The Changed Text and Contradicted Text are located in the same place, and because of the change, it causes a contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "4.03 Freedom to Disclose. Each party acknowledges that, notwithstanding the execution of the Agreement, each Disclosing Party maintains the sole and absolute discretion to determine what, if any, of its Confidential Information shall be disclosed to the Receiving Party.",
+        "changed_text": "4.03 Obligation to Disclose. Each party acknowledges that, notwithstanding the execution of the Agreement, each Disclosing Party must disclose all of its Confidential Information to the Receiving Party in full, for the success of the deal.",
+        "explanation": "The original text grants the Disclosing Party the discretion to choose which, if any, Confidential Information to disclose. The change creates an obligation for the Disclosing Party to disclose all Confidential Information. This contradicts the nature of a NDA, where the discloser can pick and chose what to disclose, making the agreement ineffective for its purpose.",
+        "location": "4.03 Freedom to Disclose",
+        "contradicted_location": "4.03 Freedom to Disclose",
+        "contradicted_text": "Each party acknowledges that, notwithstanding the execution of the Agreement, each Disclosing Party must disclose all of its Confidential Information to the Receiving Party in full, for the success of the deal.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allows the Disclosing Party the freedom to choose what Confidential Information to disclose. The changed text mandates that the Disclosing Party must disclose all Confidential Information. Since the Contradicted Text is the same as the changed text and the original text states something different, this creates a direct contradiction regarding the Disclosing Party's obligation. Therefore, the answer is YES."
+      }
+    ]
+  }
+]

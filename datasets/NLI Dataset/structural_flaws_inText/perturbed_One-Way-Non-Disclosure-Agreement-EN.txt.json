@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "One-Way-Non-Disclosure-Agreement-EN.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "3.7 The Recipient shall pr omptly return or destroy all copies (in whatever form repr o- duced or stored) , including all notes and derivatives of the Confidential Information di s- closed under this Agreement, upon the earlier of (i) the completion or termination of the dealings contempla ted in this Agreement; (ii) or the termination of this Agreement; (iii) or at the time the Discloser may r equest it to the Recipient .",
+        "changed_text": "3.7 The Recipient may retain all copies (in whatever form repr o- duced or stored) , including all notes and derivatives of the Confidential Information di s- closed under this Agreement, upon the earlier of (i) the completion or termination of the dealings contempla ted in this Agreement; (ii) or the termination of this Agreement; (iii) or at the time the Discloser may r equest it to the Recipient .",
+        "explanation": "The original text states that the Recipient *shall promptly return or destroy* all copies of confidential information under certain conditions. The modified text changes this to *may retain* all copies, creating a direct contradiction and uncertainty about whether the recipient is obligated to return or destroy the information. This affects the Discloser's control over their Confidential Information.",
+        "location": "3.7",
+        "contradicted_location": "3.6",
+        "contradicted_text": "3.6 All Confidential Information disclosed under this Agreement shall be and remain u n- der the property of the Discloser and nothing contained in this Agreement shall be co n- strued as granting or conferring any rights to such Confidential Information on the Recip- ient. Principally, nothing in this Agreement shall be deemed to grant to the Recipient a licence expressly or by implication under any patent, copyright or other intellectual property r ight. The Recipient hereby acknowledges and confirms that all the existing and future intellectual property rights related to the Confidential Inf ormation are exclusive titles of the Discloser . For the sake of clarity based in good faith, the Recipient will not apply for or obtain any intellectual proper ty protection in respect of the Confidential",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires the Recipient to return or destroy confidential information. The changed text allows the Recipient to retain it. This directly contradicts section 3.6, which states that all Confidential Information shall remain the property of the Discloser and nothing in the agreement shall be construed as granting any rights to such Confidential Information to the Recipient. If the recipient *may retain* the information as the Changed Text states, then it contradicts the fact that the information shall remain under the property of the Discloser."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "3.1 In the context of discussions, preparations or negotiations, the Discloser may disclose Confidential Information to the Recipient . The Recipient agrees to use the Confidential Information solely in connectio n with purposes contemplat ed in this Agreement and not to use it for any other purpose or without the prior written consent of the Discloser .",
+        "changed_text": "3.1 In the context of discussions, preparations or negotiations, the Discloser may disclose Confidential Information to the Recipient . The Recipient may use the Confidential Information in connection with purposes related or unrelated to this Agreement.",
+        "explanation": "The original clause restricts the Recipient's use of Confidential Information to the purposes contemplated in the Agreement. The changed clause contradicts this by allowing the Recipient to use the information for any purpose, related or unrelated to the agreement, undermining the core purpose of the NDA, which is to restrict its use.",
+        "location": "3.1",
+        "contradicted_location": "3.3",
+        "contradicted_text": "3.3 The Recipient will use the Confidential Information exclusively for the permitted pu r- pose stated in clause 2 and not use the in formation for its own purposes or benefit.",
+        "contradiction_exists": "YES",
+        "justification": "The original text restricts the Recipient's use of Confidential Information to purposes contemplated in the Agreement, while the changed text allows the Recipient to use the information for any purpose, related or unrelated to the agreement. This contradicts section 3.3, which states that \"The Recipient will use the Confidential Information exclusively for the permitted purpose stated in clause 2 and not use the in formation for its own purposes or benefit.\" The change directly conflicts with the stated purpose and restrictions defined elsewhere in the document, creating a strong in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "3.4 The Recipient will not disclose any Confidential Information received to any third parties, except as otherwise provided for herein.",
+        "changed_text": "3.4 The Recipient may disclose any Confidential Information received to any third parties, without any limitations.",
+        "explanation": "The original clause explicitly prohibits the Recipient from disclosing Confidential Information to third parties, except as otherwise provided. The modified clause directly contradicts this by permitting disclosure to any third party without any limitations, rendering the confidentiality provisions meaningless.",
+        "location": "3.4",
+        "contradicted_location": "3.2",
+        "contradicted_text": "3.2 The Recipient will not disclos e and will keep confidential the information received, except to its employees, representatives or agent s who need to have access to the Co n- fidential Information for the purpose of carrying out their duties in connection with the permitted purposes specified in clause 2. The Recipient will inform them about the co n- fidential quality of the information provide d and will ensure that their agreement is o b- tained to keep it confidential on the same terms as set forth in this Agreement. Hence the Recipient will be responsible for ensuring that the obligations of confidentiality and non-use contained he rein will be s trictly observed and will assume full liability for the acts or omissions made for its personnel representatives or agents .",
+        "contradiction_exists": "YES",
+        "justification": "The original text prohibited disclosure of confidential information to third parties, except as otherwise provided. The changed text now permits such disclosure without any limitations. This directly contradicts section 3.2, which requires the recipient to keep the information confidential and only disclose it to specific individuals under specific conditions. The changed text essentially nullifies the confidentiality obligations outlined in section 3.2, creating a strong in-text contradiction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "59b1148ff6952b0001bdbedc_20170907_non%20disclosure%20agreement_expert.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "5.2.5. Either Party must promptly inform the other Party after becoming aware of any breach of this Agreement whether committed by Recipient itself or its Representatives.",
+        "changed_text": "5.2.5. Either Party may inform the other Party after becoming aware of any potential breach of this Agreement whether committed by Recipient itself or its Representatives.",
+        "explanation": "The original text 'must promptly inform' creates a mandatory obligation to report breaches. Changing this to 'may inform' makes reporting optional, creating uncertainty about whether breaches will be reported. This contradicts with section 6.2, which imposes a liability on the Recipient for acts and omissions from their representitives. If the party 'may inform' the other party, then they may choose not to report it, conflicting the ability of the other party to ensure all 'acts and omissions' are accounted for.",
+        "location": "5.2.5",
+        "contradicted_location": "6.2",
+        "contradicted_text": "6.2. Recipient shall be liable for its Representatives' acts and omissions as if such acts or omissions had been its own acts or omissions, even when such persons/entities cease to be (as the case may be) employee, director, senior executive, professional advisor, consultant, Affiliate or supplier of any tier in relation to Recipient.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandated prompt reporting of breaches ('must promptly inform'), creating a clear obligation. The changed text makes reporting optional ('may inform'). This directly contradicts Section 6.2, which holds the Recipient liable for its Representatives' acts and omissions. If reporting is optional, the other party may not be informed of acts or omissions, hindering their ability to hold the Recipient liable, thus creating a strong in-text contradiction as defined by the provided 'Ambiguities – In Text Contradiction' definition."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "7.1.1. The obligations contained in this Agreement shall start at the Effective Date and shall automatically terminate when the Project is terminated or completed.",
+        "changed_text": "7.1.1. The obligations contained in this Agreement shall start at the Effective Date and may terminate when the Project is deemed to be substantially complete.",
+        "explanation": "The original clause specifies automatic termination upon completion or termination of the project. The modified version introduces the ambiguous term 'substantially complete,' making it unclear when the agreement terminates. This change affects the obligations of confidentiality in 7.3.1, because it is no longer clear how long the term lasts, since 'substantially complete' is subjective. ",
+        "location": "7.1.1",
+        "contradicted_location": "7.3.1",
+        "contradicted_text": "7.3.1. The obligations of confidentiality, non-disclosure and non-use set forth in this Confidentiality Agreement shall survive the termination or expiration of this Confidentiality Agreement (i) with respect to any Confidential Information that constitutes a trade secret under applicable law, for so long as such item shall continue to constitute a trade secret under applicable law, and (ii) with respect to any Confidential Information that does not constitute a trade secret under applicable law, for a period of 5 (five) years from and after the date of disclosure of such Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original clause specified automatic termination upon completion or termination of the project, which aligns with the survival clause in 7.3.1. The changed version introduces 'substantially complete,' creating ambiguity about the termination date. This contradicts 7.3.1, which defines the obligations for confidentiality after 'termination or expiration,' as the meaning of termination is now unclear. It is possible for the contract to terminate at complete or substantially complete, but this would mean one of the clauses would be false."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "8.1.1. Upon Discloserȇs request, Recipient shall promptly, and in any case within five (5) days from such request, return all documentation and other materials containing any Confidential Information of Discloser without retaining any copies thereof.",
+        "changed_text": "8.1.1. Upon Discloser’s reasonable request, Recipient shall endeavor to return all documentation and other materials containing any Confidential Information of Discloser without retaining any copies thereof, but the Recipient is not held to a strict deadline.",
+        "explanation": "Originally, the recipient had to promptly return the information within 5 days. Now, the obligation is weakened with “endeavor to return” and removing the strict deadline, giving more leeway and room for interpretation. This directly contradicts clause 8.1.2, where it outlines that clause 8.1, should not apply under any circumstances, while the new clause introduces more subjective measures.",
+        "location": "8.1.1",
+        "contradicted_location": "8.1.2",
+        "contradicted_text": "8.1.2. Clause 8.1 shall not apply to Confidential Information which i) must be stored by Recipient according to provisions of mandatory law or ii) was made as a matter of routine backup provided that such Confidential Information and copies thereof shall be subject to an indefinite confidential obligation according to the terms and conditions set forth herein until returned and/or destroyed, as the case may be.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies a strict 5-day deadline for returning confidential information. The changed text weakens this obligation by using \"endeavor to return\" and removing the deadline. This contradicts clause 8.1.2, which states that clause 8.1 should not apply under certain circumstances. By making the return of confidential information less strict and more open to interpretation, the changed text undermines the exceptions outlined in clause 8.1.2 and creates a contradiction. The change now introduces a more subjective measure into a context where a strict exception was defined."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "10.2.1. The Parties will attempt to settle any dispute between them by entering into good-faith negotiations through the appropriate management level of governance in a timely manner. The Parties must as a minimum attend the first good-faith negotiations.",
+        "changed_text": "10.2.1. The Parties may attempt to settle any dispute between them through negotiations. Attendance at any negotiation is at the discretion of each party.",
+        "explanation": "The original clause mandates an attempt at good-faith negotiations and requires attendance at least for the first session. The modified version makes both the attempt at negotiation and the attendance discretionary, weakening the dispute resolution process. This now contradicts 10.2.2, where any dispute will be 'finally settled by arbitration', suggesting negotations need to take place before the final settlement. The lack of attendance, will fail the negotiation.",
+        "location": "10.2.1",
+        "contradicted_location": "10.2.2",
+        "contradicted_text": "10.2.2. Any dispute, controversy or claim arising out of or in connection with the Agreement or any breach, termination or invalidity hereof which is not resolved by prior negotiations, shall be finally settled by arbitration by The Danish Institute of Arbitration in accordance with the relevant rules adapted by The Danish Institute of Arbitration and applicable at the time of opening of the arbitration. The arbitration tribunal must have three arbitrators appointed by the Danish Institute of Arbitration unless the Parties agree otherwise. The arbitrators elect, from among their members, the chairman of the arbitration tribunal.",
+        "contradiction_exists": "YES",
+        "justification": "The original clause mandated good-faith negotiations and attendance at the first session. The changed text makes both the attempt at negotiation and attendance discretionary. This directly contradicts clause 10.2.2, which states that arbitration is the final settlement method only for disputes 'not resolved by prior negotiations'. If attendance is discretionary, negotiations may not occur, making the requirement of 'prior negotiations' before arbitration unenforceable."
+      }
+    ]
+  }
+]

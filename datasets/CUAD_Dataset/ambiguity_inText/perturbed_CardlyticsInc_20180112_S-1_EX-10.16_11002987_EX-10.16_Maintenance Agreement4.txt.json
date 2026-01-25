@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement4.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "C. Maintenance Services No-charge Maintenance Services shall be provided from the Delivery Date through the Warranty Period. The first paid (Initial) Maintenance Term shall commence upon expiration of the Warranty Period and shall continue for twelve (12) months thereafter. Thereafter, the Maintenance Term shall automatically renew for successive period, 12 months, on the terms and conditions of this Agreement unless Bank of America terminates Maintenance Services pursuant to this Agreement.",
+        "changed_text": "C. Maintenance Services No-charge Maintenance Services shall be provided from the Delivery Date through the Warranty Period. The first paid (Initial) Maintenance Term shall commence upon expiration of the Warranty Period and shall continue for twelve (12) months thereafter. Thereafter, the Maintenance Term shall automatically renew for successive period, 6 months, on the terms and conditions of this Agreement unless Bank of America terminates Maintenance Services pursuant to this Agreement.",
+        "explanation": "The change from '12 months' to '6 months' for the automatic renewal period of the Maintenance Term creates an in-text contradiction with the implicit expectation and standard practice that maintenance terms are typically annual (12 months). This contradicts with the fact that in the previous sentence the maintenance term lasts for 'twelve (12) months'.",
+        "location": "Schedule A",
+        "contradicted_location": "Schedule A",
+        "contradicted_text": "Thereafter, the Maintenance Term shall automatically renew for successive period, 12 months, on the terms and conditions of this Agreement unless Bank of America terminates Maintenance Services pursuant to this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the automatic renewal period of the Maintenance Term from '12 months' to '6 months'. This directly contradicts the contradicted text, which states 'the Maintenance Term shall automatically renew for successive period, 12 months'. This introduces a clear inconsistency regarding the duration of the renewal period, causing potential disputes and uncertainty about the contractual obligations. Since the previous sentence also mentions 'twelve (12) months' maintenance term, the definition of 'Ambiguities - In Text Contradiction' is satisfied."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Software License and Maintenance will be provided at no charge.",
+        "changed_text": "The Software License and Maintenance will be provided at no charge for the first year.",
+        "explanation": "Changing \"The Software License and Maintenance will be provided at no charge\" to \"The Software License and Maintenance will be provided at no charge for the first year\" introduces a condition on the duration of free maintenance. This creates an ambiguity with the section defining the Maintenance Term, since it is not explicit how much the maintenance will cost once the first year has passed. This contradiction with the payment terms affects the whole section defining the conditions of payments.",
+        "location": "Schedule A",
+        "contradicted_location": "Schedule A",
+        "contradicted_text": "During the initial Maintenance Term and any renewal term, Maintenance Fees shall be paid in the increments described below under \"Payment Terms.\"",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the software license and maintenance will be provided at no charge without any time constraints. The changed text limits this free provision to the first year. The contradicted text states that Maintenance Fees shall be paid in increments, but it doesn't specify the cost after the first year, creating an ambiguity about the maintenance fees after year one. This inconsistency creates a contradiction within the payment terms, making it unclear whether the 'Payment Terms' apply after the first year of free maintenance, thus introducing ambiguity as defined in the Perturbation Definitions."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Notwithstanding anything set forth elsewhere in this Agreement (or below), the Maintenance Period shall be twenty- four (24) hours per day, seven (7) days per week, including Bank of America holidays.",
+        "changed_text": "Notwithstanding anything set forth elsewhere in this Agreement (or below), the Maintenance Period shall be twenty- four (24) hours per day, five (5) days per week, excluding Bank of America holidays.",
+        "explanation": "The change from 'seven (7) days per week, including Bank of America holidays' to 'five (5) days per week, excluding Bank of America holidays' introduces a clear contradiction regarding the availability of maintenance services. The original text ensures 24/7 availability including holidays while the modified text limits it to weekdays and excludes holidays. This contradicts the implied expectation that critical software systems require continuous maintenance coverage. This contradiction particularly affects the sections outlining service level agreements or performance metrics.",
+        "location": "Schedule A",
+        "contradicted_location": "Schedule A",
+        "contradicted_text": "C. Maintenance Services No-charge Maintenance Services shall be provided from the Delivery Date through the Warranty Period. The first paid (Initial) Maintenance Term shall commence upon expiration of the Warranty Period and shall continue for twelve (12) months thereafter. Thereafter, the Maintenance Term shall automatically renew for successive period, 12 months, on the terms and conditions of this Agreement unless Bank of America terminates Maintenance Services pursuant to this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the 'Maintenance Period' from 24/7 including holidays to 24/5 excluding holidays. This directly contradicts the expectation implied within 'Maintenance Services' that the maintenance is continuous, creating uncertainty around the availability of no-charge maintenance services as defined in the 'Contradicted Text'. This introduces an ambiguity in key terms, making enforcement difficult and interpretation unclear, thus creating a strong in-text contradiction as per the definition given for Ambiguities – In Text Contradiction."
+      }
+    ]
+  }
+]

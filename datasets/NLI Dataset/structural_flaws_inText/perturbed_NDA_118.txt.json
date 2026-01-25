@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "NDA_118.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Recipient shall protect the Confidential Information using the same degree of care that Recipient uses to protect its own confidential information of a similar nature to prevent the unauthorized use, reproduction or disclosure of the Confidential Information. Such care shall not be less than a reasonable degree of care.",
+        "changed_text": "Recipient may choose to protect the Confidential Information using the same degree of care that Recipient uses to protect its own confidential information of a similar nature to prevent the unauthorized use, reproduction or disclosure of the Confidential Information. Such care may or may not be a reasonable degree of care.",
+        "explanation": "By changing 'shall protect' to 'may choose to protect,' and changing 'shall not be less than a reasonable degree of care' to 'may or may not be a reasonable degree of care', the modification undermines the original requirement for the Recipient to adequately protect the confidential information.",
+        "location": "3.b",
+        "contradicted_location": "3.b",
+        "contradicted_text": "Recipient may choose to protect the Confidential Information using the same degree of care that Recipient uses to protect its own confidential information of a similar nature to prevent the unauthorized use, reproduction or disclosure of the Confidential Information. Such care may or may not be a reasonable degree of care. Recipient shall not disclose the Confidential Information to any employees, contractors, or third parties except to those employees, contractors or third parties who have a need to know the Confidential Information to fulfill the Purpose, provided that: (i) Recipient shall be vicariously liable for any act or omission of such employees, contractors or third parties respecting the Confidential Information, (ii) such employee, contractor or third party has been advised of the confidentiality obligations contained in this NDA and has either agreed in writing to be bound by the obligations of this NDA, or has entered into a binding written obligation of confidentiality with the Recipient that affords substantially similar protection of the Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the Recipient 'shall protect' the Confidential Information with a degree of care 'not less than a reasonable degree of care.' The changed text modifies this to 'may choose to protect' and the care 'may or may not be a reasonable degree of care.' The contradicted text includes the modified text. By making the protection of confidential information optional and potentially unreasonable, a direct contradiction is created with the requirement to maintain confidentiality. This undermines the agreement's core purpose of safeguarding confidential information, leading to a clear and direct conflict within the document as the recipient can choose not to protect confidential information even though they have an obligation to maintain confidentiality."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Recipient agrees that it shall not alter, modify, adapt, create derivative works, translate, deface, decompile, disassemble, convert into human readable form, or reverse engineer all, or any part, of any materials to which it is provided access by Discloser.",
+        "changed_text": "Recipient agrees that it shall not alter, modify, adapt, create derivative works, translate, deface, decompile, disassemble, convert into human readable form, or reverse engineer all, or any part, of any materials to which it is provided access by Discloser, unless the Recipient deems it necessary.",
+        "explanation": "In Section 3c, adding the phrase 'unless the Recipient deems it necessary' creates a contradiction. This qualification essentially allows the Recipient to bypass the restrictions outlined in the original clause at their own discretion, negating the original restrictions. The Recipient now has the power to alter, modify, or reverse engineer the materials if they subjectively believe it is necessary.",
+        "location": "3.c",
+        "contradicted_location": "3.c",
+        "contradicted_text": "Recipient agrees that it shall not alter, modify, adapt, create derivative works, translate, deface, decompile, disassemble, convert into human readable form, or reverse engineer all, or any part, of any materials to which it is provided access by Discloser, unless the Recipient deems it necessary. d. Each party will promptly advise the other in writing of any misappropriation or misuse by any person of such Confidential Information of which it may become aware.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces the phrase 'unless the Recipient deems it necessary' which directly contradicts the original restriction on altering, modifying, or reverse engineering the materials. This gives the Recipient the discretion to bypass the restrictions, making the original clause unenforceable. Since the contradicted text has the exact same language, the change clearly creates an in-text contradiction because the original restriction is effectively nullified by the added clause, causing a direct conflict within the document."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "All right, title and interest in and to the Confidential Information is and shall remain with the Discloser, and no rights to the Confidential Information are granted under this NDA other than the rights expressly granted in Section 3.",
+        "changed_text": "All right, title and interest in and to the Confidential Information is and shall remain with the Discloser, unless Recipient develops a new product with the confidential information, and no rights to the Confidential Information are granted under this NDA other than the rights expressly granted in Section 3.",
+        "explanation": "Section 7 originally assigns all rights, title, and interest in the confidential information to the Discloser. Adding 'unless Recipient develops a new product with the confidential information' creates an exception to this clause. It suggests that if the Recipient uses the confidential information to develop a new product, the Recipient may gain some rights or interest in the confidential information related to that new product, conflicting with the original assertion that all rights remain with the Discloser.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "All right, title and interest in and to the Confidential Information is and shall remain with the Discloser, unless Recipient develops a new product with the confidential information, and no rights to the Confidential Information are granted under this NDA other than the rights expressly granted in Section 3. Recipient shall not acquire any ownership right, interest or title in or to the Confidential Information or any intellectual property rights therein or the right to obtain or apply for such rights under this NDA.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds an exception ('unless Recipient develops a new product with the confidential information') to the original clause assigning all rights, title, and interest in the confidential information to the Discloser. This exception directly contradicts the statement in the contradicted text that 'Recipient shall not acquire any ownership right, interest or title in or to the Confidential Information'. The modified text creates a situation where the Recipient could potentially gain rights, creating an in-text contradiction and fitting the definition of structural flaw."
+      }
+    ]
+  }
+]

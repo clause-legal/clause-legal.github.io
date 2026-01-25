@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "1.31 \"SLA\" means the Service Level Agreement attached hereto in Appendix 6.",
+        "changed_text": "1.31 \"SLA\" means a general guideline for service quality.",
+        "explanation": "By changing the definition of \"SLA\" from a specific, attached \"Service Level Agreement\" to a vague \"general guideline,\" we create an in-text contradiction. The rest of the contract, particularly Section 6, refers to the SLA as if it were a concrete agreement with specific terms (Appendix 6). This change makes the references to the SLA unenforceable because there is no specific SLA to refer to, only general expectations.",
+        "location": "Section 1",
+        "contradicted_location": "Section 6",
+        "contradicted_text": "6. SERVICE LEVEL 6.1 The Hosting Services shall be provided in accordance with the level of service and support as the Parties have agreed upon in Appendix 6. 6.2 At no point in time shall one of the Parties carry out service or support on equipment, excluding SIM cards ordered according to article 16, that belongs to the other Party or is provided or maintained by the other Party, unless the other Party has agreed in writing to such measures in advance. 6.3 T-Mobile shall give prior notice to ELEPHANT TALK about planned outages and planned work as agreed in Appendix 6.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text redefines \"SLA\" from a specific \"Service Level Agreement attached hereto in Appendix 6\" to a vague \"general guideline for service quality.\" This directly contradicts section 6, which explicitly states, \"The Hosting Services shall be provided in accordance with the level of service and support as the Parties have agreed upon in Appendix 6\" and \"T-Mobile shall give prior notice to ELEPHANT TALK about planned outages and planned work as agreed in Appendix 6.\" By removing the concrete agreement defined in Appendix 6, the change renders these clauses unenforceable and creates a clear in-text contradiction, as there is no longer a specific SLA to refer to."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "1.15 \"Hosting Service(s)\" shall mean the network hosting (and related) services - as listed in Appendix 1 - provided by T-Mobile to ELEPHANT TALK under the Agreement, enabling ELEPHANT TALK to provide ELEPHANT TALK Wholesale Services to ELEPHANT TALK Customers in accordance with its terms and conditions of the Agreement.",
+        "changed_text": "1.15 \"Hosting Service(s)\" shall mean the services provided by T-Mobile to ELEPHANT TALK under the Agreement.",
+        "explanation": "By removing the phrase \"as listed in Appendix 1\" we now have a contradiction. Several other places in the document reference the types of Hosting Services described in Appendix 1. Without the definition specifying that Hosting Services are detailed in Appendix 1, it becomes unclear what specifically constitutes 'Hosting Services' under the agreement. The other mentions to appendix 1 will now be contradictory because the reader will no longer know what appendix 1's is reffering to",
+        "location": "Section 1",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "3.1 T-Mobile shall provide the Hosting Services, as described in Appendix 1, during the term of this Agreement from the Ready for Service Date. 3.2 T-Mobile shall ensure that all *** from ELEPHANT TALK Customers and other telecommunication end users in the Netherlands and in the relevant roaming countries, as further specified in the Agreement. 3.3 ELEPHANT TALK is responsible and accountable for the installation, maintenance and availability of the leased line between ELEPHANT TALK's POP and the T-Mobile Network, as described in Appendix 1.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the explicit link to Appendix 1 for defining 'Hosting Services.' The contradicted text in Section 3 repeatedly refers to 'Hosting Services, as described in Appendix 1' and the leased line 'as described in Appendix 1.' Without the original definition specifying that Hosting Services are detailed in Appendix 1, Section 3 becomes contradictory because it refers to a definition that no longer exists, creating uncertainty about the services T-Mobile is obligated to provide and the specifics of the leased line. This aligns with the definition of Omissions - In Text Contradiction because essential language was removed that creates a contradiction with obligations stated in other sections."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "9.2.4 ELEPHANT TALK shall pay all invoices no later than *** after the invoice date. ELEPHANT TALK ***, in the event that ELEPHANT TALK fails to meet ***",
+        "changed_text": "9.2.4 ELEPHANT TALK shall pay all invoices promptly. ELEPHANT TALK ***, in the event that ELEPHANT TALK fails to meet ***",
+        "explanation": "By removing the phrase \"no later than *** after the invoice date\" and replacing it with 'Promptly', we introduce ambiguity and potential contradiction. The term 'promptly' is subjective and open to interpretation, especially in a legal context. There's also a reference to ELEPHANT TALK not meeting '***', which the reader will no longer be able to follow since there is not set timeline. This contradiction makes the enforcement of payment terms difficult, as the definition of 'promptly' is vague and can be disputed.",
+        "location": "Section 9",
+        "contradicted_location": "Section 9",
+        "contradicted_text": "9.2.4 ELEPHANT TALK shall pay all invoices promptly. ELEPHANT TALK ***, in the event that ELEPHANT TALK fails to meet *** 9.2.5 *** 9.2.6 Invoices submitted to ELEPHANT TALK by T-Mobile shall be itemized in accordance with Dutch acknowledged principles of billing and accounting.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified a concrete timeframe ('no later than *** after the invoice date') for payment. The changed text replaces this with the ambiguous term 'promptly'. The contradicted text is the same as the changed text, which means that the original defined payment terms have now been removed. Because there is no set timeline, a contradiction is formed since the 'promptly' text does not tell the reader when 'ELEPHANT TALK fails to meet ***'. The lack of a clear deadline introduces ambiguity and conflicts with the reasonable expectation of specificity in contract terms, creating an in-text contradiction as defined by the 'Omissions - In Text Contradiction' type."
+      }
+    ]
+  }
+]

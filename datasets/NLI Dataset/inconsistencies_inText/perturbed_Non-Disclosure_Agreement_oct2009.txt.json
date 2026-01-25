@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "Non-Disclosure_Agreement_oct2009.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "For purposes of this Agreement, “Confidential Information” shall include all information contained in the membership database, such as mem bers’ names, addresses, birthdates, occupations, spouses’ names, email addresses, telephone numbers, etc.",
+        "changed_text": "For purposes of this Agreement, “Confidential Information” shall include select information contained in the membership database, such as members’ names and addresses. Other details like birthdates, occupations, spouses’ names, email addresses, telephone numbers, etc., are considered 'Restricted Information' and are subject to a separate confidentiality agreement.",
+        "explanation": "This change introduces an in-text contradiction by narrowing the scope of 'Confidential Information' to only include members' names and addresses and creating the term 'Restricted Information'. This contradicts later sections of the document that refer to 'Confidential Information' as encompassing all the initially listed data points (birthdates, occupation, etc), thus now causing confusion over what is and isn't protected under this NDA.",
+        "location": "1",
+        "contradicted_location": "2",
+        "contradicted_text": "All Confidential Information contained in the membership database may be used by the Receiving Party exclusively for conducting the business of the Society. Any disclosure of Confidential Information to any person or corporation for any commercial or other purpose not necessary for the conduct of the Society’s business shall be dee med Improper Disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines 'Confidential Information' broadly, including all information in the membership database. The changed text narrows this definition, creating 'Restricted Information' for other data. This directly contradicts the contradicted text, which refers to 'Confidential Information' as encompassing all the data initially listed, now causing confusion and creating a direct contradiction based on the explanation."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Any disclosure of Confidential Information to any person or corporation for any commercial or other purpose not necessary for the conduct of the Society’s business shall be dee med Improper Disclosure.",
+        "changed_text": "Any disclosure of Confidential Information to any person or corporation for any commercial or other purpose not necessary for the conduct of the Society’s business shall be dee med Improper Disclosure. However, disclosure of such information to contracted vendors for operational purposes is permissible with prior written consent from the Society's president.",
+        "explanation": "This change adds a qualification to what constitutes 'Improper Disclosure'. It allows disclosure to contracted vendors with the Society president's consent. This contradicts the initial definition of 'Improper Disclosure' which defined any disclosure as improper if not necessary for the Society's business, regardless of consent. The consent exception creates ambiguity.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "All Confidential Information contained in the membership database may be used by the Receiving Party exclusively for conducting the business of the Society. Any disclosure of Confidential Information to any person or corporation for any commercial or other purpose not necessary for the conduct of the Society’s business shall be dee med Improper Disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined any disclosure of Confidential Information not necessary for the Society's business as 'Improper Disclosure'. The changed text introduces an exception, allowing disclosure to contracted vendors with the president's consent. This directly contradicts the contradicted text, which states, 'Any disclosure of Confidential Information to any person or corporation for any commercial or other purpose not necessary for the conduct of the Society’s business shall be dee med Improper Disclosure.' The addition of the exception creates an inconsistency in the definition of 'Improper Disclosure', making it an in-text contradiction as per the 'Inconsistencies - In Text Contradiction' perturbation type. The change alters the definition of improper disclosure, directly conflicting with the definition present in the contradicted text."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Receiving Party shall hold and maintain the Confidential Information in st rictest confidence for the sole and exclusive purposes of the Society.",
+        "changed_text": "Receiving Party shall hold and maintain the Confidential Information in confidence, utilizing reasonable security measures, for the purposes of the Society, except where disclosure is required by law.",
+        "explanation": "This change weakens the confidentiality obligation by changing 'strictest confidence' to merely 'confidence, utilizing reasonable security measures' and adding an exception for disclosures 'required by law'. This contradicts the original intention of strict confidentiality and creates uncertainty about the level of protection expected, conflicting with the remedies outlined in the 'Penalties' section.",
+        "location": "3",
+        "contradicted_location": "5",
+        "contradicted_text": "If proven Improper Disclosure sha ll take place, the Receiving Party’s membership in the Society shall be terminated immediately. Depending on circumstances, there may also be recourse to the courts and criminal or civil action, or both, may be initiated by the Society or by injured parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires 'strictest confidence' while the changed text only requires 'confidence, utilizing reasonable security measures' and also introduces an exception for disclosures 'required by law'. This directly contradicts the contradicted text, which states 'If proven Improper Disclosure shall take place, the Receiving Party’s membership in the Society shall be terminated immediately.' The change weakens the confidentiality obligation, making it unclear what constitutes an 'Improper Disclosure'. The original text implies *any* disclosure is improper, but the modified text allows for some disclosures (those required by law). This uncertainty regarding what constitutes an 'Improper Disclosure' directly contradicts the automatic termination penalty for any proven 'Improper Disclosure', therefore, according to the definition of Inconsistencies - In Text Contradiction, this is a YES."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Upon termination of membership, Receiving Party will immediately return to the Society all records, notes and other written, printed or tangible materi al in its possession, including CDs and DVDs pertaining to Confidential In formation. Confidential Information stored electronically in computers or any other electronic devices will be deleted upon membership termination.",
+        "changed_text": "Upon termination of membership, Receiving Party will return to the Society all readily available records, notes and other written, printed or tangible materi al in its possession, including CDs and DVDs pertaining to Confidential Information. Confidential Information stored electronically in computers or any other electronic devices will be deleted to the best of Receiving Party's ability upon membership termination.",
+        "explanation": "This change introduces ambiguity by adding 'readily available' and 'to the best of Receiving Party's ability'. This contradicts the original, strict obligation to return and delete all Confidential Information, creating uncertainty about what level of effort is required, conflicting with the 'Penalties' section which outlines strict consequences for Improper Disclosure.",
+        "location": "3",
+        "contradicted_location": "5",
+        "contradicted_text": "If proven Improper Disclosure sha ll take place, the Receiving Party’s membership in the Society shall be terminated immediately. Depending on circumstances, there may also be recourse to the courts and criminal or civil action, or both, may be initiated by the Society or by injured parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires 'immediate' return and deletion of Confidential Information. The changed text introduces ambiguity with 'readily available' and 'to the best of Receiving Party's ability.' This directly contradicts the 'Contradicted Text' which states that 'If proven Improper Disclosure shall take place, the Receiving Party’s membership in the Society shall be terminated immediately,' as it's now unclear what constitutes 'Improper Disclosure' given the modified obligation. This creates an inconsistency, as outlined in the provided definition, because different sections of the contract provide conflicting obligations, leading to disputes over contractual obligations. The addition of qualifiers weakens the original commitment and makes enforcement of the penalties section ambiguous, thus causing a strong in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The nondisclosure provision of this Agreement shall survive the termination of this Agreement and Receiving Party’s duty to hold Confidential Information in confidence shall remain in effect indefinitely.",
+        "changed_text": "The nondisclosure provision of this Agreement shall survive the termination of this Agreement; however, Receiving Party’s duty to hold Confidential Information in confidence shall terminate five (5) years after the termination of this Agreement.",
+        "explanation": "This change directly contradicts the original clause by stating that the confidentiality obligation lasts 'indefinitely' but then stipulating that it actually terminates after five years. This creates a clear in-text contradiction about the duration of the confidentiality obligation.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "The nondisclosure provision of this Agreement shall survive the termination of this Agreement and Receiving Party’s duty to hold Confidential Information in confidence shall remain in effect indefinitely.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a direct contradiction. The original text and the contradicted text both state that the nondisclosure provision survives indefinitely. The changed text, however, limits this survival to five years after termination. This creates a clear inconsistency regarding the duration of the confidentiality obligation, satisfying the definition of 'Inconsistencies - In Text Contradiction'."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "If proven Improper Disclosure sha ll take place, the Receiving Party’s membership in the Society shall be terminated immediately. Depending on circumstances, there may also be recourse to the courts and criminal or civil action, or both, may be initiated by the Society or by injured parties.",
+        "changed_text": "If Improper Disclosure is suspected, the Receiving Party’s membership may be suspended pending investigation. If proven Improper Disclosure shall take place following the investigation, the Receiving Party’s membership in the Society shall be terminated immediately. Depending on circumstances, there may also be recourse to the courts, but only after internal arbitration.",
+        "explanation": "This change alters the 'Penalties' section by introducing a suspension pending investigation before termination and requiring internal arbitration before recourse to the courts. This contradicts the original clause which stated immediate termination upon proof of Improper Disclosure and allows immediate recourse to the courts. The added steps introduce uncertainty and potential delays in enforcement, which clashes with the original, more direct penalty structure.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "If proven Improper Disclosure sha ll take place, the Receiving Party’s membership in the Society shall be terminated immediately. Depending on circumstances, there may also be recourse to the courts and criminal or civil action, or both, may be initiated by the Society or by injured parties.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a 'suspension pending investigation' and requires 'internal arbitration before recourse to the courts'. This directly contradicts the contradicted text which states 'immediate termination upon proof of Improper Disclosure' and allows 'immediate recourse to the courts'. The added steps and requirements create a clear conflict in the enforcement process, making the original and revised clauses incompatible."
+      }
+    ]
+  }
+]

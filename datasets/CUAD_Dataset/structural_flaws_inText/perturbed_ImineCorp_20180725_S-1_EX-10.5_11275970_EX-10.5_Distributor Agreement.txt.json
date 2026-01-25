@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "ImineCorp_20180725_S-1_EX-10.5_11275970_EX-10.5_Distributor Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "1.7 \"Products\" shall mean the products offered by JRVS for sale to the Distributor; the Products shall include iMine cryptocurrency mining rigs and its parts and components.",
+        "changed_text": "1.7 \"Products\" shall mean the products offered by JRVS for sale to the Distributor; the Products shall include iMine cryptocurrency mining rigs, its parts and components, and any other items JRVS deems appropriate, regardless of prior agreements or product specifications.",
+        "explanation": "The original definition of 'Products' is limited to iMine cryptocurrency mining rigs and their components. By adding \"and any other items JRVS deems appropriate, regardless of prior agreements or product specifications,\" we introduce ambiguity. This contradicts later sections that rely on the original, narrower definition of 'Products', particularly Section 3.3, which discusses competitive products.",
+        "location": "Section 1.7",
+        "contradicted_location": "Section 3.3",
+        "contradicted_text": "3.3 Conflict of Interest. The Distributor shall not, during the term of this Agreement, directly or indirectly market, sell, distribute, solicit orders within the Territory for any products which are competitive with the iMine Products unless JRVS consents thereto in writing in advance, based upon the Distributor's full disclosure of the material facts in seeking such consent. Any such marketing, sale, distribution or solicitation of the competitive products is considered to be a material breach of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The modified definition of 'Products' now includes 'any other items JRVS deems appropriate, regardless of prior agreements or product specifications.' This directly contradicts section 3.3, which restricts the Distributor from selling products competitive with 'iMine Products'. The expanded definition allows JRVS to unilaterally declare any product as a 'Product' under the agreement, thereby potentially preventing the distributor from selling a much broader range of goods, conflicting with the intention of Section 3.3 based on the original narrower definition."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "5.1 JRVS Price. Subject to the terms and conditions of this Agreement, the Distributor shall pay for the Products at the then current price of JRVS (the \"JRVS Price\") at the time of placement of the Order.",
+        "changed_text": "5.1 JRVS Price. Subject to the terms and conditions of this Agreement, the Distributor shall pay for the Products at the then current price of JRVS (the \"JRVS Price\") at the time of shipment of the Order. If there is any discrepancy between the price at the time of placement and shipment, JRVS holds no liability to notify the Distributor.",
+        "explanation": "The change shifts the price determination from 'time of placement' to 'time of shipment'. This contradicts the certainty initially established for pricing, creating uncertainty, especially regarding potential price fluctuations between order and delivery. This contradicts terms of payment, as prices can change even after the order has been placed, without notifying distributor.",
+        "location": "Section 5.1",
+        "contradicted_location": "Section 6.1",
+        "contradicted_text": "6.1 Payment Terms. JRVS shall submit an invoice to the Distributor upon shipment of Products to the Distributor. The invoice shall state the amount to be paid by the Distributor for all Products in such shipment, as well as any taxes, duties or excises paid by JRVS which shall be reimbursed by the Distributor in accordance with Section 5.4. Terms of payment shall be net thirty (30) days. All payments shall be in U.S. Dollars.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text shifts the price determination from the 'time of placement' to the 'time of shipment' and states that JRVS holds no liability to notify the Distributor about price discrepancies, which directly contradicts Section 6.1. Section 6.1 states that 'JRVS shall submit an invoice to the Distributor upon shipment of Products... The invoice shall state the amount to be paid by the Distributor for all Products in such shipment'. The original agreement implicitly assumed the 'amount to be paid' was set at the time of the order. The change means the invoice amount may differ from what the Distributor expected when placing the order, without notification, therefore creating a contradiction. The change creates uncertainty about the final price, making the payment terms (net thirty (30) days) problematic, as the distributor may not be aware of the final price until shipment."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "12.1 Term. This Agreement shall become effective upon the date first written above and shall remain in full force and effect for a period of two years (2), unless earlier terminated pursuant to the provisions in this Agreement. This Agreement shall expire unless extended by both parties in writing prior to the termination.",
+        "changed_text": "12.1 Term. This Agreement shall become effective upon the date first written above and shall remain in full force and effect for a period of two years (2), unless terminated at any time at the discretion of JRVS pursuant to the provisions in this Agreement. This Agreement may be extended unilaterally by JRVS with written notification to the distributor prior to the initial termination date.",
+        "explanation": "By changing the clause to allow JRVS the sole discretion to terminate the agreement at any time and unilaterally extend the agreement, while the original requires mutual agreement, this creates contradiction. By saying JRVS has sole discretion to terminate the agreement, this creates contradiction with original clause, and allows JRVS to force its decisions on the Distributor.",
+        "location": "Section 12.1",
+        "contradicted_location": "Section 12.2",
+        "contradicted_text": "12.2 Termination for Convenience. This Agreement may be terminated by either party for any reason or no reason, whether or not extended beyond the initial term, by giving the other party written notice ninety (90) days in advance.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in section 12.1 allows JRVS to terminate the agreement at any time at its sole discretion and to unilaterally extend it. This directly contradicts section 12.2, which states that either party can terminate the agreement with 90 days' notice for any reason. The contradiction arises because 12.1 gives JRVS significantly more power over termination and extension than 12.2 allows for, creating a clear inconsistency regarding the termination and extension rights of both parties. The original text required mutual agreement, the modified text allows unilateral action, which directly contradicts the mutual agreement termination clause. This is an in-text contradiction as the sections provide conflicting obligations, in accordance with the definition of inconsistencies causing in-text contradiction."
+      }
+    ]
+  }
+]

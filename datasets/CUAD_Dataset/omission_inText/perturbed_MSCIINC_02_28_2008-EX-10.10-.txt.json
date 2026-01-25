@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "MSCIINC_02_28_2008-EX-10.10-.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "MS hereby grants (subject to any existing third party contractual obligations) to MSCI a non-exclusive, perpetual, irrevocable, world- wide, royalty-free license for MSCI to use, modify, copy, create derivative works of and sublicense, for any business purpose, the MS Licensed Materials.",
+        "changed_text": "MS hereby grants (subject to any existing third party contractual obligations) to MSCI a non-exclusive, time-limited, revocable, royalty-bearing license for MSCI to use, modify, copy, create derivative works of and sublicense, for internal business purposes, the MS Licensed Materials.",
+        "explanation": "The original text grants a 'perpetual, irrevocable, royalty-free license' while the modified text changes it to 'time-limited, revocable, royalty-bearing license' for 'internal business purposes'. This directly contradicts the original intention and nature of the license, creating a significant shift in the rights and obligations of MSCI regarding the MS Licensed Materials, especially when section 2.2 grants MSCI a 'perpetual, irrevocable, world-wide, royalty-free license', which creates an in-text contradiction.",
+        "location": "2.1",
+        "contradicted_location": "2.2",
+        "contradicted_text": "MSCI hereby grants (subject to any existing third party contractual obligations) to MS a non-exclusive, perpetual, irrevocable, world- wide, royalty-free license for MS to use, modify, copy, create derivative works of and sublicense, for any business purpose, the MSCI Licensed Materials.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies 'perpetual, irrevocable, royalty-free' to 'time-limited, revocable, royalty-bearing'. The contradicted text states 'perpetual, irrevocable, world-wide, royalty-free license'. This directly contradicts the nature of the license granted, creating a clear inconsistency and conflicting obligations regarding the MS Licensed Materials. The changed text imposes limitations (time, revocability, royalties, internal use only) that are explicitly absent in the contradicted text, creating a strong in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Parties shall have no obligation to provide support or maintenance for the Licensed Materials, including any obligation to update or correct such Licensed Materials.",
+        "changed_text": "The Parties shall have an obligation to provide basic support for the Licensed Materials as reasonably requested, with commercially reasonable efforts to update critical issues.",
+        "explanation": "The original clause explicitly states 'no obligation to provide support or maintenance', but the modified clause introduces an 'obligation to provide basic support' and 'update critical issues'. This creates a direct contradiction regarding the level of support the parties are required to provide for the Licensed Materials. This directly creates a in-text contradiction, since section 4 explicit excludes any warantees.",
+        "location": "3.1",
+        "contradicted_location": "4",
+        "contradicted_text": "THE LICENSE GRANTS HEREUNDER ARE PROVIDED \"AS-IS\" WITH NO WARRANTIES, AND THE PARTIES EXPRESSLY EXCLUDE AND DISCLAIM ANY WARRANTIES UNDER OR ARISING AS A RESULT OF THIS AGREEMENT, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT OR ANY OTHER WARRANTY WHATSOEVER.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly disclaims any obligation for support or maintenance. The changed text creates an obligation to provide basic support and updates. The contradicted text explicitly provides the licensed grants 'AS-IS' with no warranties and disclaims any warranties arising as a result of the agreement. By introducing an obligation to provide support, the changed text directly contradicts the 'AS-IS' nature and warranty disclaimer in the contradicted text."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Any notice, instruction, direction or demand under the terms of this Agreement required to be in writing shall be duly given upon delivery, if delivered by hand, facsimile transmission, or mail, to the following addresses:",
+        "changed_text": "Any notice, instruction, direction or demand under the terms of this Agreement required to be in writing shall be duly given upon delivery via certified mail only to the following addresses:",
+        "explanation": "The original clause allows for notices to be given by 'hand, facsimile transmission, or mail', while the modified clause restricts it to 'certified mail only'. This creates a contradiction by eliminating previously acceptable methods of communication. In addition, this modification directly contradicts section 6.3 (a) ,(b) and (c) where all the notice, requests and other communications are given, on the specified instructions, creating a clear internal inconsistency regarding how official communications are to be delivered.",
+        "location": "6.3",
+        "contradicted_location": "6.3",
+        "contradicted_text": "All such notices, requests and other communications shall be deemed given, (a) when delivered in person or by courier or a courier services, (b) if sent by facsimile transmission (receipt confirmed) on a business day prior to 5 p.m. in the place of receipt, on the date of transmission (or, if sent after 5 p.m., on the following business day) or (c) if mailed by certified mail (return receipt requested), on the date specified on the return receipt.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed notices via hand, facsimile, or mail. The changed text restricts it to certified mail only. The contradicted text explicitly allows for delivery in person, by courier, and by facsimile. The change eliminates methods explicitly permitted in the contradicted text, creating a direct and strong contradiction regarding acceptable communication methods. Therefore the change leads to an in-text contradiction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "ASPIRITYHOLDINGSLLC_05_07_2012-EX-10.6-OUTSOURCING AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Business Day. Any day other than (a) a Saturday or Sunday or (b) another day on which banking institutions in the the State of Minnesota are authorized or obligated by law, executive order, or governmental decree to be closed.",
+        "changed_text": "Business Day. Any day other than (a) a Saturday or Sunday or (b) another day on which banking institutions in the the State of Minnesota are authorized to be closed.",
+        "explanation": "The original text defines a 'Business Day' by excluding days banks are 'authorized or obligated' to close. The modified version removes 'or obligated,' making it unclear if a day banks are legally required to be closed is still considered a Business Day. This creates ambiguity when calculating deadlines for payments or notices within the contract. This change is inserted in Section 1.01, however, the contradiction of this defintion occurs in Section 2.03(c).",
+        "location": "Section 1.01",
+        "contradicted_location": "Section 2.03(c)",
+        "contradicted_text": "Payment of Fees. On the first Business Day of each month, or as soon thereafter as practicable, the Contractor shall provide the Company with a written invoice for the previous month's fees and expenses that are payable with respect to Notes issued up to the last day of such month.. Such fees and expenses will be due and payable by the later of the fifteenth (15 ) day of every month or fifteen (15) days after the date such invoice is received.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined 'Business Day' as excluding days banks are either 'authorized or obligated' to be closed, while the changed text removes 'or obligated'. This means that under the changed definition, a day banks are legally *required* to be closed *could* be considered a business day. This directly contradicts Section 2.03(c), which requires fees to be paid on the 'first Business Day' of the month, because it is now ambiguous if that includes a day when banks are legally obligated to be closed. The change creates ambiguity and a strong inconsistency regarding the payment schedule."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Contractor shall also oversee designing and printing all marketing materials (subject to the prior approval of the Company), in accordance with the Securities Act, including the applicable rules and regulations and any other requirements of the SEC and any other Governmental Rules.",
+        "changed_text": "The Contractor shall oversee designing and printing all marketing materials without needing the approval of the Company, in accordance with the Securities Act, including the applicable rules and regulations and any other requirements of the SEC and any other Governmental Rules.",
+        "explanation": "This modification removes the requirement for 'prior approval of the Company' for marketing materials. This directly contradicts the last sentence of Section 3.01(a), which states 'All ad placements and use of all marketing materials shall be subject to the prior written approval of the Company.', this creates an in-text contradiction where it is up for debate whether the Contractor can design and print all marketing materials without approval of the Company.",
+        "location": "Section 3.01(a)",
+        "contradicted_location": "Section 3.01(a)",
+        "contradicted_text": "Marketing and Advertising. During the term of this Agreement, the Contractor shall develop and execute a direct response marketing strategy for the Notes designed to meet the Company's capital goals in a timely manner, which shall be subject to the prior approval of the Company. The Contractor shall also oversee designing and printing all marketing materials (subject to the prior approval of the Company), in accordance with the Securities Act, including the applicable rules and regulations and any other requirements of the SEC and any other Governmental Rules. The Contractor will provide the Company with media planning, media buying, media production and media placement services related to the Offering. All ad placements and use of all marketing materials shall be subject to the prior written approval of the Company. The Company will pay all marketing and advertising costs related to the offering, including printing, postage, advertising and web site hosting.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the requirement for Company approval of marketing materials, directly contradicting the contradicted text, specifically the sentence 'All ad placements and use of all marketing materials shall be subject to the prior written approval of the Company.'. This creates a direct conflict regarding whether the Contractor needs Company approval, leading to uncertainty and potential disputes, as defined under Structural Flaws - In Text Contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Company will have the ability to terminate this Agreement by giving 60 days' prior written notice to the Contractor. The Contractor will have the ability to terminate this Agreement by giving 90 days' prior written notice to the Company.",
+        "changed_text": "The Company and Contractor will have the ability to terminate this Agreement at any time by giving 30 days' prior written notice to the other party.",
+        "explanation": "This change alters the termination conditions of the contract. Originally, the Company required 60 days' notice for termination while the Contractor required 90. The modification standardizes the notice period to 30 days for both. This directly contradicts Section 8.02, where termination notice periods were distinctly different. Therefore, creating an in-text contradiction.",
+        "location": "Section 8.02",
+        "contradicted_location": "Section 8.02",
+        "contradicted_text": "Termination. The Company or the Contractor may terminate this Agreement at any time in whole or in part as more specifically provided below, and in such case, the Contractor will be paid fees incurred up to the date of such termination plus its expenses accrued as of such date within 30 days of such termination. The Company will have the ability to terminate this Agreement by giving 60 days' prior written notice to the Contractor. The Contractor will have the ability to terminate this Agreement by giving 90 days' prior written notice to the Company.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text changes the termination notice periods for both the Company and the Contractor to a uniform 30 days. This directly contradicts the original text and the contradicted text, where the Company's notice period was 60 days and the Contractor's was 90 days. This creates a clear inconsistency and in-text contradiction as defined by Structural Flaws - In Text Contradiction."
+      }
+    ]
+  }
+]

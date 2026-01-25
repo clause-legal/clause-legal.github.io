@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Reseller shall be entitled to the following discount to the following Diversinet's standard pricing: Discount % For annual revenues < $1m 30% For annual revenues > $1m and <$2m 40% For annual revenues > $2m 50%",
+        "changed_text": "Reseller shall be entitled to a discount to Diversinet's standard pricing, as determined by Diversinet, subject to change.",
+        "explanation": "By removing the tiered discount structure based on annual revenue and replacing it with a vague statement that discount is determined by Diversinet and is subject to change, it introduces an in-text contradiction with the later clause, \"Product Price List Terms and Conditions\" which specifies terms based on the discount tiers. Since the discount tiers were removed in the altered text, the later pricing term, contradicts with the perturbation on this section.",
+        "location": "Schedule 3",
+        "contradicted_location": "Schedule 3",
+        "contradicted_text": "Product Price List Terms and Conditions ÿ Price proposals are valid for 30 days and subject to change by Diversinet at its sole discretion ÿ All prices are expressed in United States dollars ÿ Prices do not include any applicable taxes ÿ Prices do not include shipping and additional charges ÿ Support and maintenance fees are 20% of the server license fee, payable annually in advance after the first year and include: patch, maintenance and major release updates, Diversinet online technical support and email/phone technical product support from Monday- Friday, 9:00a.m.-5:00p.m., excluding statutory holidays ÿ Optional maintenance and level 2 support and training is available at $1,500 per person day (excluding travel and out-of-expenses) ÿ Professional services are available at $1,500 per person day (excluding travel and out-of-expenses)",
+        "contradiction_exists": "YES",
+        "justification": "The original text established a tiered discount structure based on reseller's annual revenue. The changed text removes this structure, stating the discount is determined by Diversinet and subject to change. This contradicts the 'Product Price List Terms and Conditions' section because that section likely relies on a consistent pricing structure, which is undermined by the removal of the predefined discount tiers. Without consistent tiers, pricing assumptions throughout the contract are invalidated. The contradicted text would be rendered uncertain and unenforceable, creating a strong in-text contradiction and fitting the definition of 'Omissions – In Text Contradiction'."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Furthermore, if Reseller terminates the AMC in the manner contemplated in Schedule 3, the exclusive license above shall revert to being a non- exclusive license. In either case, Reseller will have the non-exclusive right to contract in the rest of the world, excluding the United States. If Reseller identifies End- Users in the United States, with the prior written consent of Diversinet, Reseller may sell the Products to the End-Users. United Stated revenues will not be counted against the AMC however Reseller will be entitled to the discount rates as indicated in Schedule 3.",
+        "changed_text": "Furthermore, if Reseller terminates the AMC, the exclusive license above shall revert to being a non-exclusive license. Reseller will have the non-exclusive right to contract in the rest of the world, excluding the United States.",
+        "explanation": "By removing the sentence stating that \"If Reseller identifies End- Users in the United States, with the prior written consent of Diversinet, Reseller may sell the Products to the End-Users. United Stated revenues will not be counted against the AMC however Reseller will be entitled to the discount rates as indicated in Schedule 3.\" creates an in-text contradiction with another perturbation made in Schedule 3, that removed discount tiers.",
+        "location": "1. Appointment",
+        "contradicted_location": "Schedule 3",
+        "contradicted_text": "Reseller shall be entitled to a discount to Diversinet's standard pricing, as determined by Diversinet, subject to change.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allows Reseller to sell products to US End-Users with Diversinet's consent and receive discounts outlined in Schedule 3. The changed text removes this possibility entirely. The contradicted text states Reseller is entitled to a discount. The perturbation explanation specifies that another change to Schedule 3 removes discount tiers. Since the changed text prevents US sales, and Schedule 3 no longer specifies discount tiers, the Reseller's entitlement to discounts in relation to US sales (as implied by the original text) is contradicted, because US sales aren't possible anymore and the discounts are no longer guaranteed as per the contradictory changes made in the document."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Diversinet will accept electronic mail messages via the Internet using SMTP compliant software (\"E Mail\") addressed to: support@diversinet.com, from Reseller with questions regarding the functions of the Products, as well as questions about how to make full use of the software (\"Support Questions\"). If second level support is not being provided by the Reseller, Diversinet may, at its sole discretion, provide additional support to Reseller. In these cases, Diversinet may charge the Reseller for support services or reduce the product price discount provided to Reseller.",
+        "changed_text": "Diversinet will accept electronic mail messages via the Internet using SMTP compliant software (\"E Mail\") from Reseller with questions regarding the functions of the Products, as well as questions about how to make full use of the software (\"Support Questions\").",
+        "explanation": "By removing the clause \"If second level support is not being provided by the Reseller, Diversinet may, at its sole discretion, provide additional support to Reseller. In these cases, Diversinet may charge the Reseller for support services or reduce the product price discount provided to Reseller.\" this creates an in-text contradiction because of a perturbation already placed in Schedule 3 where the discount tiers were removed, and replaced by a simple one line \"Reseller shall be entitled to a discount to Diversinet's standard pricing, as determined by Diversinet, subject to change.\"",
+        "location": "10. Support",
+        "contradicted_location": "Schedule 3",
+        "contradicted_text": "Reseller shall be entitled to a discount to Diversinet's standard pricing, as determined by Diversinet, subject to change.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed Diversinet to charge the Reseller for support or reduce the product price discount if Diversinet provided second level support. The changed text removes this clause entirely. The contradicted text, 'Reseller shall be entitled to a discount to Diversinet's standard pricing, as determined by Diversinet, subject to change', combined with the changed text, leads to a contradiction because the original text allows for the discount to be reduced. Removing that clause while the contradicted text still exists, leads to the possibility that the discount cannot be reduced in special circumstances, thus leading to contradiction between the two. In essence, the Reseller is entitled to a discount, but can that discount be modified by Diversinet based on levels of support provided, as previously permitted, or not? The removal causes a direct conflict, making it unclear and inconsistent."
+      }
+    ]
+  }
+]

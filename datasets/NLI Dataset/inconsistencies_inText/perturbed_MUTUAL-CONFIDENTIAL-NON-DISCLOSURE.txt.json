@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "MUTUAL-CONFIDENTIAL-NON-DISCLOSURE.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Recipient shall for a period of [NUMBER] (*) years from the date of this Agreement keep in str ict confidence and not disclose to any third party any Confidential Information received from Provider prior to and during the term of this Agreement.",
+        "changed_text": "Recipient shall for a period of one (1) year from the date of this Agreement keep in strict confidence and not disclose to any third party any Confidential Information received from Provider prior to and during the term of this Agreement.",
+        "explanation": "The confidentiality period is changed from '[NUMBER] years' to 'one (1) year'. This introduces a contradiction in later sections that may assume a longer period of confidentiality.",
+        "location": "3",
+        "contradicted_location": "6",
+        "contradicted_text": "This Agreement is effective as of the date first above written and shall remain in full force and effect until [DATE] (*), unless terminated earlier by either Party. Either Party may terminate this Agreement for any reason upon sixty (60) days written notice to the other Party. The rights and obligations of the Parties under paragraphs 3 and 4 of this Agreement shal l continue beyond termination.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the confidentiality period from '[NUMBER] years' to 'one (1) year'. The contradicted text states that the rights and obligations of the Parties under paragraphs 3 and 4 shall continue beyond termination. If those paragraphs refer to the longer confidentiality period implied by the original '[NUMBER] years', the change to 'one (1) year' creates a contradiction as the duration of the confidentiality obligations after termination would be inconsistent."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Recipient agrees to protect the Provider’s Confidential Information using at le ast the same degree of care Recipient uses to protect its own Confidential Information, but in no event less than reasonable care.",
+        "changed_text": "Recipient agrees to protect the Provider’s Confidential Information using at least ordinary care. Recipient agrees to protect the Provider’s Confidential Information using reasonable care.",
+        "explanation": "The level of care required to protect confidential information is changed, creating an in-text contradiction as to which standard applies: ordinary or reasonable care.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "Recipient may disc lose the Confidential Information only to such of its employees [OPTIONAL: and Representatives] who have a need to know such information for the Purpose and according to the terms and conditions contained herein. Recipient shall ensure that its employ ees [OPTIONAL: and Representatives] are fully aware of the confidential nature of the Confidential Information and of the obligations of confidentiality owed to the Provider. Recipient agrees to protect the Provider’s Confidential Information using at least ordinary care. Recipient agrees to protect the Provider’s Confidential Information using reasonable care.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an in-text contradiction by stating \"Recipient agrees to protect the Provider’s Confidential Information using at least ordinary care. Recipient agrees to protect the Provider’s Confidential Information using reasonable care.\" This directly contradicts itself because it specifies two different standards of care (ordinary and reasonable) without clarifying which one applies. This aligns with the definition of 'Inconsistencies - In Text Contradiction' where different sections (in this case, the same section) of a contract provide conflicting obligations. The Contradicted Text contains the same contradictory statement, further emphasizing the in-text contradiction created by the changed text. The original text had a more unified approach stating \"Recipient agrees to protect the Provider’s Confidential Information using at le ast the same degree of care Recipient uses to protect its own Confidential Information, but in no event less than reasonable care.\""
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Recipient agrees not to use the Confidential Information in any manner whatsoever, directly or indirectly, and Recipient will not make use of such Confidential Information for any purpose, within or outside of its business, other than in connection with the Purpose.",
+        "changed_text": "Recipient agrees not to use the Confidential Information in any manner whatsoever, directly or indirectly, and Recipient will not make use of such Confidential Information for any purpose, within or outside of its business, other than in connection with the Purpose, unless given express written permission from the Provider.",
+        "explanation": "An exception is added stating that confidential information can be used with express written permission from the provider, which creates a contradiction within the original obligation not to use it outside the scope of the stated purpose.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "Recipient agrees not to use the Confidential Information in any manner whatsoever, directly or indirectly, and Recipient will not make use of such Confidential Information for any purpose, within or outside of its business, other than in connection with the Purpose. Recipient agrees, prior to the termination of this Agreement, to provide the Provider with all work products incorporating or derived therefrom or written confirmation of their destruction.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the recipient cannot use the confidential information for any purpose other than the stated one. The changed text adds an exception, allowing use with express written permission. The contradicted text reiterates the original restriction without the exception. The addition of the exception directly conflicts with the absolute restriction in the contradicted text, creating a clear inconsistency and therefore a contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "No right or license whatsoever, expressed or implied, is granted by either Party to the other pursuant to this Agreement under any patent, patent application, copyright, trademark or other proprietary right now or hereafter held by or licensed to Provider.",
+        "changed_text": "No right or license whatsoever, expressed or implied, is granted by either Party to the other pursuant to this Agreement under any copyright, trademark or other proprietary right now or hereafter held by or licensed to Provider. However, a limited license for patents and patent applications directly related to the Purpose is granted.",
+        "explanation": "An in-text contradiction is created by adding a limited license for patents and patent applications directly related to the Purpose, directly contradicting the initial statement that no rights or licenses are granted.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "No right or license whatsoever, expressed or implied, is granted by either Party to the other pursuant to this Agreement under any copyright, trademark or other proprietary right now or hereafter held by or licensed to Provider. However, a limited license for patents and patent applications directly related to the Purpose is granted. No legal obligations, rights, relationship or duties shall be construed or inferred from the entering into of this Agreement other than as expressly set out herein.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly states that 'No right or license whatsoever... is granted... under any patent...'. The changed text modifies this by adding 'However, a limited license for patents and patent applications directly related to the Purpose is granted.' This directly contradicts the initial statement, creating an in-text contradiction as the changed text grants a license that the original text explicitly denies. The Contradicted Text is the same as the Changed Text, but the Change is what causes the contradiction."
+      }
+    ]
+  }
+]

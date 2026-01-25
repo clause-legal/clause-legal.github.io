@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "InvendaCorp_20000828_S-1A_EX-10.2_2588206_EX-10.2_Co-Branding Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "d) \"User(s)\" shall mean an end-user customer of the Excite@Home Network of web-sites and services. e) \"Excite@Home Member(s)\" shall mean a User who has registered as a member of the Excite@Home Network, regardless of that User's stated preference regarding allowing their registration information to be shared with third parties. f) \"Program Member(s)\" shall mean an Excite@Home Member who has:",
+        "changed_text": "d) \"User(s)\" shall mean any visitor of the Excite@Home Network of web-sites and services. e) \"Excite@Home Member(s)\" shall mean a User who has registered as a member of the Excite@Home Network, only if that User has explicitly allowed their registration information to be shared with third parties. f) \"Program Member(s)\" shall mean an Excite@Home Member who has:",
+        "explanation": "The definition of 'User' is broadened to include any visitor instead of an end-user customer, and the definition of 'Excite@Home Member' is restricted to only those who agree to share their data, creating a discrepancy. Section 6(b)(i) refers to 'Payment-Eligible User Data' which relies on the original definition of 'Excite@Home Member'. The conflicting definition now creates uncertainty on what User data is eligible for payment.",
+        "location": "1",
+        "contradicted_location": "6",
+        "contradicted_text": "6. USER DATA OWNERSHIP a) Ownership i) The operation of the Co-Branded Application will permit the collection of Payment-Eligible User Data. ii) Payment-Eligible URS User Data, Superset Data, and Shopping Category Data collected through the operation of the Co-Branded Application will be jointly owned by the parties. The parties' respective ownership shall be subject to the restrictions set forth in this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The change in definition of 'User' and 'Excite@Home Member' directly contradicts Section 6, which discusses 'Payment-Eligible User Data'. The original definition allowed for a clear understanding of which user data was eligible. Now, by broadening 'User' and restricting 'Excite@Home Member' based on data sharing preferences, the scope of 'Payment-Eligible User Data' becomes ambiguous and uncertain, creating a strong in-text contradiction. This new definition impacts the joint ownership agreement outlined in Section 6(a)(ii), making it unclear which data is subject to that agreement, leading to potential disputes."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Co-Branded Application will include offers and other content and functionality (Excite Content and e-centives Content, collectively \"Application Content\") as further described in EXHIBIT B.",
+        "changed_text": "The Co-Branded Application will include offers and other content and functionality, referred to as \"Digital Assets\" as further described in EXHIBIT B.",
+        "explanation": "Here the term 'Application Content' is replaced with 'Digital Assets'. This creates confusion because the term 'Application Content' is defined in this original section, but further in the agreement there are references to 'Application Content' specifically (e.g., Section 12). It introduces an ambiguity regarding which definition to follow which would create uncertainty about the scope of rights and obligations related to content within the Co-Branded Application. It now contradicts section 12a where 'Application Content' is used to define the license granted to Excite@Home.",
+        "location": "2",
+        "contradicted_location": "12",
+        "contradicted_text": "12 CONTENT OWNERSHIP AND LICENSE a) Application Provider will retain all right, title and interest in and to the e-centives Content worldwide (including, but not limited to, ownership of all copyrights and other intellectual property rights therein). Subject to the terms and conditions of this Agreement, Application Provider hereby grants to Excite@Home a royalty-free, non-exclusive, worldwide license to use, reproduce, distribute, transmit and publicly display the e-centives Content in accordance with this Agreement and to sub-license the Application Content to Excite@Home's wholly-owned subsidiaries or to joint ventures in which Excite@Home participates for the sole purpose of using, reproducing, distributing, transmitting and publicly displaying the e-centives Content in accordance with this Agreement, provided that no such sublicensing shall be to Application Provider Named Competitors.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Application Content' to 'Digital Assets' creates a contradiction because section 12a specifically references 'Application Content' when defining the license granted to Excite@Home. By changing the term in the initial definition, the agreement introduces ambiguity and makes it unclear whether section 12a still applies to the same content. This introduces an in-text contradiction as the definition of rights and obligations in section 12a related to 'Application Content' are directly impacted by the change in terminology."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement may only be modified by a written document executed by both parties.",
+        "changed_text": "This Agreement may only be amended or superseded by a formal letter of intent signed by legal representatives of both parties.",
+        "explanation": "The change from 'modified by a written document' to 'amended or superseded by a formal letter of intent' creates uncertainty. A 'written document' is broad, while a 'formal letter of intent' is specific. It's unclear if any written document would suffice or if it must be a formal letter, thus leading to uncertainty. This statement directly conflicts with the overall governing law and the intention of the parties as it refers to governing law of state of california, not any specific letter of intent being the final factor that governs the law, as its stated in Section 22.a",
+        "location": "22",
+        "contradicted_location": "22",
+        "contradicted_text": "22. GENERAL a) Governing Law. The Agreement will be governed by and construed in accordance with the laws of the State of California, notwithstanding the actual state or country of residence or incorporation of Application Provider.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text specifies that the agreement can only be amended or superseded by a 'formal letter of intent signed by legal representatives', which directly contradicts section 22.a, which states the agreement is governed by the laws of the State of California. This creates a contradiction because the changed text prioritizes a specific type of document over the governing law of California, implying the letter of intent dictates the law rather than California law itself. This is a strong in-text contradiction that would cause confusion and unenforceability."
+      }
+    ]
+  }
+]

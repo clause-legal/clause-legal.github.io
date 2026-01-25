@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "1014959_0000950116-96-000618_document_7.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Recipient shall not rent, lease, sell, sublicense, assign, or otherwise transfer the Product, including any accompanying printed materials. Recipient may not reverse engineer, decompile or disassemble the Product except to the extent that this restriction is expressly prohibited by applicable law. MS and its suppliers shall retain title and all ownership rights to the Product.",
+        "changed_text": "Recipient shall not rent, lease, sell, sublicense, assign, or otherwise transfer the Deliverable, including any accompanying printed materials. Recipient may not reverse engineer, decompile or disassemble the Product except to the extent that this restriction is expressly prohibited by applicable law. MS and its suppliers shall retain title and all ownership rights to the Product.",
+        "explanation": "Changing 'Product' to 'Deliverable' only in the first sentence creates an internal contradiction within this section. The second and third sentences still refer to 'Product,' but the first uses 'Deliverable,' causing confusion about what exactly Recipient is prohibited from transferring. In this case both terms are being refered, thus causing the contradiction in this section.",
+        "location": "Section 1(a)",
+        "contradicted_location": "Section 1(a)",
+        "contradicted_text": "Recipient shall not rent, lease, sell, sublicense, assign, or otherwise transfer the Deliverable, including any accompanying printed materials. Recipient may not reverse engineer, decompile or disassemble the Product except to the extent that this restriction is expressly prohibited by applicable law. MS and its suppliers shall retain title and all ownership rights to the Product.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Product' to 'Deliverable' in the first sentence, while the subsequent sentences retain 'Product', creates a contradiction. The modified text, states that the Recipient can't transfer the 'Deliverable', but the Recipient can reverse engineer, decompile or disassemble the 'Product'. It's ambiguous about what is not allowed to be transfered and what can be reverse engineered. This directly introduces ambiguity and conflicting language within the section, thus causing a contradiction as described in the explanation and the definition provided."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "MS further grants to recipient the following non-exclusive, nontransferable, royalty-free rights with respect to the sample and redistributable code listed in the readme.txt file. (a) Subject to Section 2(b) below, to reproduce and distribute test version of Recipient's Application for use on The Microsoft Network (\"MSN\") created using the Product to MSN users provided you identify such Application as \"BETA\" and that you comply with Section 2(c), below.",
+        "changed_text": "MS further grants to recipient the following non-exclusive, nontransferable, royalty-free rights with respect to the sample and redistributable code listed in the readme.txt file. (a) Subject to Section 2(b) below, to reproduce and distribute test version of Recipient's Application for use on The Microsoft Network (\"MSN\") created using the System to MSN users provided you identify such Application as \"BETA\" and that you comply with Section 2(c), below.",
+        "explanation": "Changing 'Product' to 'System' in this section introduces uncertainty. The original refers to the Microsoft product that Recipient needs to test. By changing it to the system makes it ambigous because system is used in other definition to refer something else, causing an in-text contradiction.",
+        "location": "Section 2",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "MS further grants to recipient the following non-exclusive, nontransferable, royalty-free rights with respect to the sample and redistributable code listed in the readme.txt file. (a) Subject to Section 2(b) below, to reproduce and distribute test version of Recipient's Application for use on The Microsoft Network (\"MSN\") created using the System to MSN users provided you identify such Application as \"BETA\" and that you comply with Section 2(c), below.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Product' to 'System' introduces ambiguity, as the original text clearly specifies 'Product' as the entity used for creating the application. The contradicted text uses 'System' which, according to the Perturbation Explanation, is used in other definitions to refer to something else. This creates an in-text contradiction because the application is now created using 'System', which could be interpreted differently, leading to confusion about the source or platform."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "CONFIDENTIALITY. The Product and related information is proprietary and confidential information to MS and its suppliers. Recipient agrees not to disclose or provide the Product, documentation, or any related information (including the Product features or the results of use or testing) to any third party or use the Product for any purpose other than as provided in this Agreement.",
+        "changed_text": "CONFIDENTIALITY. The Deliverable and related information is proprietary and confidential information to MS and its suppliers. Recipient agrees not to disclose or provide the Product, documentation, or any related information (including the Product features or the results of use or testing) to any third party or use the Product for any purpose other than as provided in this Agreement.",
+        "explanation": "Changing 'Product' to 'Deliverable' only in the first sentence creates ambiguity about what information is confidential. This creates an internal contradiction. It does not specify which term should be taken into consideration, whether the 'deliverable' or the 'product'.",
+        "location": "Section 6",
+        "contradicted_location": "Section 6",
+        "contradicted_text": "CONFIDENTIALITY. The Deliverable and related information is proprietary and confidential information to MS and its suppliers. Recipient agrees not to disclose or provide the Product, documentation, or any related information (including the Product features or the results of use or testing) to any third party or use the Product for any purpose other than as provided in this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Product' to 'Deliverable' in the first sentence of the CONFIDENTIALITY clause, while the rest of the text refers to 'Product', creates an ambiguity and contradiction. The contradicted text repeats the changed sentence, using both 'Deliverable' and 'Product' in the subsequent sentences. This misalignment in terminology, as defined by the 'Misaligned Terminology - In Text Contradiction' perturbation type, leads to conflicting obligations regarding which information is confidential, causing a clear contradiction within the document because it becomes unclear whether the confidentiality applies to 'Deliverable', 'Product', or both."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Product constitutes pre-release code and may be changed substantially before commercial release. The PRODUCT IS PROVIDED \"AS IS\" WITHOUT WARRANTY OF ANY KIND.",
+        "changed_text": "The Deliverable constitutes pre-release code and may be changed substantially before commercial release. The PRODUCT IS PROVIDED \"AS IS\" WITHOUT WARRANTY OF ANY KIND.",
+        "explanation": "Changing 'Product' to 'Deliverable' only in the first sentence creates an internal contradiction. It's unclear whether the 'AS IS' disclaimer applies to the 'Deliverable' or only the 'Product', as they are now distinct. Thus creating ambiguity.",
+        "location": "Section 7",
+        "contradicted_location": "Section 7",
+        "contradicted_text": "The Deliverable constitutes pre-release code and may be changed substantially before commercial release. The PRODUCT IS PROVIDED \"AS IS\" WITHOUT WARRANTY OF ANY KIND.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines 'Product' and applies a warranty disclaimer to it. The changed text replaces 'Product' with 'Deliverable' in the first sentence but keeps 'PRODUCT' (all caps) in the disclaimer. The contradicted text also uses 'Deliverable' in the first sentence and 'PRODUCT' in the second, creating a contradiction. The explanation states that this change creates an internal contradiction because it becomes unclear whether the 'AS IS' disclaimer applies to the 'Deliverable' or only to the 'Product'. This aligns with the Misaligned Terminology definition, which states that using multiple terms interchangeably without defining them leads to conflicting obligations."
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "confagree.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "1.5 shall procure that your employees, agents and advisers, or any other party acting on your instructions to whom disclosure of Confidential Information is to be made, agree before such disclosure to be bound by the terms of this letter as if they were parties hereto;",
+        "changed_text": "1.5 shall procure that your employees, agents and advisers, or any other party acting on your instructions to whom disclosure of Confidential Information is to be made, agree before such disclosure to be bound by the terms of this letter, except where such parties are subject to their own confidentiality agreements that provide at least an equivalent level of protection.;",
+        "explanation": "The modification to Section 1.5, adding an exception for parties with 'equivalent' confidentiality agreements, creates an in-text contradiction with the original requirement that all such parties 'agree before such disclosure to be bound by the terms of this letter as if they were parties hereto'. This introduces ambiguity and potential dispute over what constitutes 'equivalent' protection and whether the original agreement terms can be effectively overridden, opening the door to inconsistent application of confidentiality obligations and directly contradicting the 'as if they were parties hereto' provision.",
+        "location": "1.5",
+        "contradicted_location": "1.5",
+        "contradicted_text": "1.5 shall procure that your employees, agents and advisers, or any other party acting on your instructions to whom disclosure of Confidential Information is to be made, agree before such disclosure to be bound by the terms of this letter, except where such parties are subject to their own confidentiality agreements that provide at least an equivalent level of protection.;",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 1.5 introduces an exception for parties with 'equivalent' confidentiality agreements, which directly contradicts the initial requirement that all parties 'agree before such disclosure to be bound by the terms of this letter'. This creates a strong contradiction because it undermines the enforceability and consistency of the original agreement, making it unclear whether external confidentiality agreements can override the specific terms outlined in the contract. The contradiction is strong enough to cause confusion and potential legal disputes."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "1.7 shall not, and shall procure that any associated company of yours shall not, employ, seek to employ, or solicit any pe rson employed by us or the Business or who holds or otherwise has access to Confid ential Information either at the date of this Agreement or at any time during negotiations for the sale of the Business or during the period of twelve months from the date of this Agreement.",
+        "changed_text": "1.7 shall not, and shall procure that any associated company of yours shall not, employ, seek to employ, or solicit any pe rson employed by us or the Business or who holds or otherwise has access to Confid ential Information either at the date of this Agreement or at any time during negotiations for the sale of the Business, unless such employee initiates contact and applies for a position through publicly available channels.",
+        "explanation": "The addition to Section 1.7 allows the Recipient to employ individuals from the Vendor's company if they apply through 'publicly available channels.' This contradicts the original intent of preventing poaching of employees who possess Confidential Information for a twelve-month period following the agreement. It creates ambiguity as the rule is there to avoid solicitations of any kind, but in the modified agreement, solicitations are disallowed with the exception of when an employee does it themselves, which allows room for circumvention of the clause and makes the clause contradictory in nature.",
+        "location": "1.7",
+        "contradicted_location": "1.7",
+        "contradicted_text": "1.7 shall not, and shall procure that any associated company of yours shall not, employ, seek to employ, or solicit any pe rson employed by us or the Business or who holds or otherwise has access to Confid ential Information either at the date of this Agreement or at any time during negotiations for the sale of the Business, unless such employee initiates contact and applies for a position through publicly available channels.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an exception to the non-solicitation clause (1.7). While the original text completely prohibits solicitation of employees with confidential information, the changed text allows it if the employee initiates contact through publicly available channels. The contradicted text is identical to the changed text, meaning that the changed text does contradict its original intention, as laid out in the perturbation explanation. The original intent was to prevent poaching, which the changed text now allows for. Therefore, there is a clear contradiction, as the original, stricter prohibition is undermined by the new exception."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "2.5 This agreement shall expire two years from the date of execution.",
+        "changed_text": "2.5 This agreement shall expire two years from the date of execution, unless extended in writing by mutual agreement of both parties. However, paragraph 1.1 shall survive indefinitely.",
+        "explanation": "The change to Section 2.5 introduces two contradictions. First, it allows for written extensions of the agreement beyond the initial two-year term, conflicting with the explicit expiry date. Second, it specifies that paragraph 1.1 (confidentiality) survives indefinitely, while the rest of the agreement (including enforcement mechanisms) could expire, creating confusion about the enforceability of the confidentiality clause and creating an implicit contradiction with the limited term. The sentence 'This agreement shall expire two years from the date of execution' contradicts the rest of the sentence when being mentioned paragraph 1.1 survives indefinitely, making this contradicting to the original nature of the contract.",
+        "location": "2.5",
+        "contradicted_location": "2.5",
+        "contradicted_text": "2.5 This agreement shall expire two years from the date of execution, unless extended in writing by mutual agreement of both parties. However, paragraph 1.1 shall survive indefinitely. Any agreement created by acceptance of this Co nfidential Information shall be governed by and construed in accordance with the laws of (Enter State) and you hereby submit to the exclusive jurisdiction of the Courts of (Enter State) in relation thereto. If the party to this agreement is a company th e person signing this agreement on behalf of the company hereby agrees in consideration of the information being provided to the company at their request to personally guaran tee the performance of the company of its obligations hereunder which guarantee shall be a primary obligation.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in section 2.5 creates a strong in-text contradiction with the rest of section 2.5. While the original text specified a fixed two-year expiry, the changed text allows for extensions, undermining the fixed expiry. Additionally, the clause stating that paragraph 1.1 survives indefinitely directly clashes with the agreement expiring and implicitly contradicts the enforceability of the entire agreement past the expiry date (except for 1.1), creating an inconsistency regarding the scope and duration of obligations."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "PLEASE NOTE: It is the recipients responsibility to return the Confidential Information Memorandum to Mergers & Acquisitions as per Paragraph 1.6.",
+        "changed_text": "PLEASE NOTE: While it is preferred that the Recipient return the Confidential Information Memorandum to Mergers & Acquisitions as per Paragraph 1.6, alternative arrangements for secure destruction may be made.",
+        "explanation": "The modification in the 'PLEASE NOTE' section changes the mandatory return of the Confidential Information Memorandum to a 'preferred' action, introducing an in-text contradiction with Paragraph 1.6, which mandates the return or destruction. The added clause, 'alternative arrangements for secure destruction may be made', creates uncertainty regarding whether the Recipient must return the information, offering an alternative that is not clearly defined in paragraph 1.6 and undermining the original purpose of physical return.",
+        "location": "PLEASE NOTE",
+        "contradicted_location": "PLEASE NOTE",
+        "contradicted_text": "PLEASE NOTE: While it is preferred that the Recipient return the Confidential Information Memorandum to Mergers & Acquisitions as per Paragraph 1.6, alternative arrangements for secure destruction may be made.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandated the return of the Confidential Information Memorandum. The changed text modifies this to a 'preferred' action and introduces 'alternative arrangements for secure destruction'. This directly contradicts the original intent of paragraph 1.6, which, according to the explanation, mandates return or destruction. While destruction is mentioned, the change introduces uncertainty about whether return is now optional, creating a conflict and therefore a strong contradiction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Petrolube_NDA.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "5.1) Petro-Lube certifies that, in exercising its rights and carrying out its obligations under this Agreement, it shall comply with all applicable governmental laws, regulations, decrees and orders governing the export and re-export of goods, technology and software including, without limitation, the U.S. Export Administration Regulations and European Council Regulation 428/2009 and all amendments to such Regulations.",
+        "changed_text": "5.1) Petro-Lube will use reasonable efforts to comply with export control regulations.",
+        "explanation": "Changing the clause from a certification of compliance to a statement of using \"reasonable efforts\" to comply creates an in-text contradiction. The original clause implies a strict obligation, while the modified clause introduces ambiguity and a lower standard of care. If (Your Company Name) relies on Petro-Lube's initial certification, this change introduces a potential breach if Petro-Lube fails to fully comply due to a lack of 'reasonable effort.' This contradicts the spirit of the NDA, where strict adherence to laws is expected, especially in the context of sensitive data or technology exchange. The uncertainty of 'reasonable efforts' creates the contradiction.",
+        "location": "5.1",
+        "contradicted_location": "5.1",
+        "contradicted_text": "5.1) Petro-Lube will use reasonable efforts to comply with export control regulations.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states Petro-Lube 'certifies' compliance with export laws, implying a strict obligation. The changed text weakens this to 'reasonable efforts,' creating a contradiction. While both texts are located in the same place, they contradict each other. The original text implies guaranteed compliance while the Changed Text introduces a lower standard, causing a potential breach if full compliance isn't achieved due to merely making 'reasonable efforts'. This contradicts the NDA's expected strict adherence to laws. This is a direct contradiction that introduces ambiguity where certainty was previously implied."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "6.5) To the fullest extent permitted by applicable law, each Party shall be responsible for, and shall indemnify and hold harmless the other Party from all claims, losses, damages, reasonable costs (including legal costs), reasonable expenses and liabilities in respect of: 6.5.1) loss or damage to any property of either Party to this Agreement arising from or relating to the performance of the Agreement. 6.5.2) personal injury, including death or disease, to any person employed by either Party to this Agreement arising from or relating to the performance of this Agreement, even if any such injury, loss or damage arises out of any negligence, act or omission of either Party in the performance of this Agreement.",
+        "changed_text": "6.5) Each Party shall be responsible for their own losses and damages.",
+        "explanation": "By changing the indemnification clause to \"Each Party shall be responsible for their own losses and damages,\" we create a direct in-text contradiction with the original intent of the indemnification clause. The previous version specifically outlined scenarios where one party would indemnify the other, including property damage and personal injury, even due to negligence. Now, each party bears their own burden, effectively negating the risk allocation originally intended. This contradicts the risk-sharing and liability provisions initially established, leaving the agreement ambiguous in its practical application concerning liabilities arising from the agreement's performance.",
+        "location": "6.5",
+        "contradicted_location": "6.5",
+        "contradicted_text": "6.5) Each Party shall be responsible for their own losses and damages.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text, stating \"Each Party shall be responsible for their own losses and damages,\" directly contradicts the original intent of the indemnification clause as described in the perturbation explanation. The original text outlined scenarios where one party would indemnify the other, including property damage and personal injury, even due to negligence. The changed text and contradicted text are the same and explicitly state each party bears their own burden which negates the risk allocation originally intended. This is a clear contradiction causing uncertainty about the obligations and rights of each party regarding liabilities arising from the agreement's performance."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "7.4) The Evaluation and supply of Samples will commence as soon as is practicable after the Effective Date. This Agreement will last for one year from the Effective Date. The obligations under this agreement shall continue to remain in force for a period of five (5) years from the Effective Date. This Agreement may be terminated by either Party at any time by giving thirty (30) days prior written notification. This Agreement may be extended by mutual agreement and written consent of both Parties.",
+        "changed_text": "7.4) This Agreement will last for one year from the Effective Date. This Agreement may be terminated by either Party at any time by giving thirty (30) days prior written notification. This Agreement may be extended by mutual agreement and written consent of both Parties.",
+        "explanation": "By removing \"The Evaluation and supply of Samples will commence as soon as is practicable after the Effective Date. The obligations under this agreement shall continue to remain in force for a period of five (5) years from the Effective Date.\" we are omitting clauses around commencement and enduring agreement, which contradicts with the rest of the document. Leaving the clause in force for five years, ensured that NDA was still in effect long after. This makes the entire agreement ambiguous as to when/if testing is needed.",
+        "location": "7.4",
+        "contradicted_location": "7.4",
+        "contradicted_text": "7.4) This Agreement will last for one year from the Effective Date. This Agreement may be terminated by either Party at any time by giving thirty (30) days prior written notification. This Agreement may be extended by mutual agreement and written consent of both Parties.",
+        "contradiction_exists": "YES",
+        "justification": "The removal of \"The Evaluation and supply of Samples will commence as soon as is practicable after the Effective Date. The obligations under this agreement shall continue to remain in force for a period of five (5) years from the Effective Date.\" from clause 7.4 creates a contradiction. While the agreement still states it lasts for one year and can be terminated with 30 days' notice, the original text ensured obligations extended for five years. Removing this contradicts the intent that the agreement's obligations (likely including NDAs or confidentiality) last longer than the initial year, thus creating ambiguity regarding the agreement's long-term enforceability, which the original version intended to clarify."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "7.6) This Agreement constitutes the whole agreement between the Parties relating to its subject matter and supersedes all prior oral or written agreements, drafts, understandings, undertakings, representations or arrangements relating to the subject matter of this Agreement, except in the case of fraud.",
+        "changed_text": "7.6) This Agreement constitutes the whole agreement between the Parties relating to its subject matter.",
+        "explanation": "By removing \"and supersedes all prior oral or written agreements, drafts, understandings, undertakings, representations or arrangements relating to the subject matter of this Agreement, except in the case of fraud.\" we create an in-text contradiction. The contract is no longer the sole agreement, opening the door for previous documents to have a say in the agreement, which is contrary to the whole point of an NDA. This effects the entire contract and the integrity of the legal agreement between the parties.",
+        "location": "7.6",
+        "contradicted_location": "7.6",
+        "contradicted_text": "7.6) This Agreement constitutes the whole agreement between the Parties relating to its subject matter.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the agreement constitutes the whole agreement and supersedes prior agreements. The changed text removes the superseding clause, which directly contradicts the implied exclusivity of the agreement as the 'whole agreement' as stated in the contradicted text. Without the superseding clause, prior agreements could be considered, creating a direct conflict and therefore a strong in-text contradiction."
+      }
+    ]
+  }
+]

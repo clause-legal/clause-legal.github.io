@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "MANAKOASERVICESCORP_11_21_2007-EX-7.5-STRATEGIC ALLIANCE AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "G. MKOS will not seek to acquire any technologies presented to MKOS by UTEK from the technology developer directly or indirectly for a period of 24 months following the termination of this Strategic Alliance Agreement.",
+        "changed_text": "G. MKOS will not seek to acquire any technologies presented to MKOS by UTEK from the technology developer directly or indirectly for a period of 6 months following the termination of this Strategic Alliance Agreement.",
+        "explanation": "The change reduces the period during which MKOS is restricted from directly acquiring technologies presented by UTEK from 24 months to 6 months. This introduces a contradiction because Section VIII.C states a 24 month non-solicitation period for employees, which by implication restricts employee acquisition as well as technological. This perturbation can lead to the confusion that MKOS should not hire UTEK employees for 24 months, but they are free to acquire the technologies from those same employees after only 6 months.",
+        "location": "I.G",
+        "contradicted_location": "VIII.C",
+        "contradicted_text": "C. SOLICITATION. MKOS agrees that for a twenty four months (24) following the execution of this Agreement, MKOS shall not, without UTEK's prior written consent, directly or indirectly solicit for employment any present employee of UTEK, or request, induce or advise any employee of UTEK to leave the employ of UTEK. In turn, UTEK agrees that it will not directly or indirectly solicit any present employee of MKOS.",
+        "contradiction_exists": "YES",
+        "justification": "The change from a 24-month restriction on acquiring technologies to a 6-month restriction directly contradicts the 24-month non-solicitation period for employees stated in Section VIII.C. This creates a clear inconsistency because the agreement restricts hiring employees who might possess the same technologies for a longer period than it restricts acquiring the technologies themselves, creating an in-text contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "A. In consideration for providing these Services, MKOS shall pay UTEK $120,000 in the form of unregistered shares of common stock (923,077 shares) upon the execution of this Strategic Alliance Agreement. 1/12th of the shares (76,923) shall vest each month during the term of this Agreement. In lieu of payment of shares, MKOS shall have the option of paying UTEK $10,000 per month for the Services described in this Agreement. If this Agreement is terminated any unvested shares will be returned to MKOS.",
+        "changed_text": "A. In consideration for providing these Services, MKOS shall pay UTEK $120,000 in the form of unregistered shares of common stock (923,077 shares) upon the execution of this Strategic Alliance Agreement. These shares shall vest immediately. In lieu of payment of shares, MKOS shall have the option of paying UTEK $10,000 per month for the Services described in this Agreement. If this Agreement is terminated, UTEK keeps all shares regardless of termination date.",
+        "explanation": "The change modifies the vesting schedule of the shares. Originally, shares vested monthly, and unvested shares were returned upon termination. Now, all shares vest immediately, and UTEK retains them even if the agreement is terminated. This creates an in-text contradiction with the original intent of a monthly vesting schedule. This contradicts the section that stated '1/12th of the shares (76,923) shall vest each month during the term of this Agreement' making the 'term' ambiguous to it's definition.",
+        "location": "IV.A",
+        "contradicted_location": "IV.A",
+        "contradicted_text": "A. In consideration for providing these Services, MKOS shall pay UTEK $120,000 in the form of unregistered shares of common stock (923,077 shares) upon the execution of this Strategic Alliance Agreement. 1/12th of the shares (76,923) shall vest each month during the term of this Agreement. In lieu of payment of shares, MKOS shall have the option of paying UTEK $10,000 per month for the Services described in this Agreement. If this Agreement is terminated any unvested shares will be returned to MKOS.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text introduces a strong in-text contradiction. The original text specifies a monthly vesting schedule for the shares, with unvested shares returned upon termination. The changed text states that all shares vest immediately and UTEK keeps all shares regardless of termination date. This directly contradicts the original vesting schedule and creates a conflict over ownership of the shares upon termination, making the 'term' ambiguous to its definition, as described in the 'Perturbation Explanation'."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Either party may terminate this Agreement at any time with 30 days written notice.",
+        "changed_text": "Either party may terminate this Agreement at any time with 30 days written notice, unless UTEK has secured a technology license for MKOS, in which case MKOS must wait 180 days to terminate.",
+        "explanation": "The change introduces a condition to the termination clause. Previously, termination was unconditional with 30 days' notice. Now, if UTEK has secured a technology license, MKOS must wait 180 days. This introduces contradiction with section V on the termination conditions. This clause creates ambiguity, because the first part of V states 'The term of the Agreement will be for 12 months unless terminated sooner.' implying that after the technology is secured, MKOS still must wait 180 days before terminating the agreement, therefore violating the 12 month 'term'.",
+        "location": "V",
+        "contradicted_location": "V",
+        "contradicted_text": "V. TERM AND TERMINATION The term of the Agreement will be for 12 months unless terminated sooner. This Agreement may be renewed upon mutual, written agreement of the parties. Either party may terminate this Agreement at any time with 30 days written notice.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that either party may terminate with 30 days written notice. The changed text introduces a condition where MKOS must wait 180 days to terminate if UTEK secures a technology license. This directly contradicts the original termination clause in Section V which allows either party to terminate with 30 days' notice, regardless of any conditions, therefore, resulting in an in-text contradiction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "non-disclosure-agreement-template.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "Nothing contained in this Agreement shall be deemed to constitute either party a partner, joint venture or employee of the other party for any purpose.",
+        "changed_text": "The failure to exercise any right provided in thi s Agreement shall not be a waive r of prior or subsequent rights.",
+        "explanation": "Moving the 'no partnership' clause to replace the waiver clause. This is moved to section 8 which is waiver. This obscures the intended meaning of the clause, making it harder to argue that there was no intention to form a partnership.",
+        "contradicted_law": "Uniform Partnership Act \u00a7 202",
+        "law_citation": "UPA \u00a7 202",
+        "law_url1": [
+          "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=03954d93-c96f-8d9f-24e0-39f82841c32f&forceDialog=0"
+        ],
+        "law_url2": [
+          "https://corplaw.us/wp-content/uploads/2019/12/Uniform-Partnership-Act.pdf"
+        ],
+        "law_explanation": "UPA 202 defines the rules for determining the existence of a partnership. By removing the explicit statement disclaiming a partnership from its logical location and replacing it with a waiver clause, the contract fails to clearly negate the intent to form a partnership. Leaving such out may lead to unintentional assumption of partnership.",
+        "location": "Section 5",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The perturbation involves a 'Structural Flaw' where the original text, designed to prevent the assumption of a partnership, has been moved to an irrelevant section. This is problematic because, as explained, UPA 202 governs the existence of a partnership. The Law Explanation indicates that by obscuring or removing the explicit disclaimer from its intended location, the contract fails to clearly negate the intent to form a partnership, potentially leading to unintended assumption of such. The absence of relevant scraped law snippets doesn't negate the identified contradiction, as the explanation itself hinges on the necessity of a clear disclaimer, the absence of which introduces ambiguity about partnership intent."
+      },
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "Waiver. The failure to exercise any right provided in thi s Agreement shall not be a waive r of prior or subsequent rights.",
+        "changed_text": "Relationships. Nothing contained in this Agreement shall be deemed to constitute either party a partner, joint venture or employee of the other party for any purpose.",
+        "explanation": "By replacing the waiver section with the relationship section, this obscures the original intent for any kind of waiver to be put into place. It is more difficult to argue that any kinds of waivers are implemented.",
+        "contradicted_law": "UCC \u00a7 1-308",
+        "law_citation": "UCC \u00a7 1-308",
+        "law_url1": [
+          "https://www.law.cornell.edu/ucc/1/1-308"
+        ],
+        "law_url2": [
+          "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=c9813855-b90e-424c-8af7-3731c529d42e&forceDialog=0"
+        ],
+        "law_explanation": "UCC 1-308 discusses performance or acceptance under reservation of rights. Removing a waiver section and replacing it with a relationship sections means that the party cannot explicitly reserve their rights when performing or accepting something.",
+        "location": "Section 8",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": "\u00a7 1-308. Performance or Acceptance Under Reservation of Rights. | Uniform Commercial Code | US Law | LII / Legal Information Institute Please help us improve our site! \u00d7 No thank you \u00a7 1-308. Performance or Acceptance Under Reservation of Rights. (a) A party that with explicit reservation of rights performs or promises performance or assents to performance in a manner demanded or offered by the other party does not thereby prejudice the rights reserved. Such words as \"without prejudice,\" \"under protest,\" or the like are sufficient. (b) Subsection (a) does not apply to an accord and satisfaction. Uniform Commercial Code Toolbox About Uniform Laws State Uniform Commercial Codes",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The original text included a waiver section, which can be linked to reserving rights under UCC 1-308. The changed text replaces this waiver section with a 'Relationships' section, removing any mention of waivers. According to the Law Explanation, this means that the party cannot explicitly reserve their rights when performing or accepting something. Scraped Law Snippet 1 states that a party can reserve rights by explicitly stating it in their performance or acceptance. By removing the waiver section, the changed text contradicts the ability of a party to reserve their rights under UCC 1-308, thus creating a legal contradiction."
+      }
+    ]
+  }
+]

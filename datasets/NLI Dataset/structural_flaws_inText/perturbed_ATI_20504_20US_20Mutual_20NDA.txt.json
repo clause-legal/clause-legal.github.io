@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "ATI%20504%20US%20Mutual%20NDA.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Owner represents that it has the authority to disclose to the Recipient any Confidential Information, which it elects to disclose hereunder.",
+        "changed_text": "The Owner represents that it may not have the authority to disclose to the Recipient any Confidential Information, which it elects to disclose hereunder.",
+        "explanation": "By changing \"has the authority\" to \"may not have the authority,\" this introduces a contradiction. Initially, the Owner warranted their right to disclose the confidential information; now, that right is uncertain. This can create legal disputes about the validity of the information exchange and the agreement itself.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "The Owner represents that it may not have the authority to disclose to the Recipient any Confidential Information, which it elects to disclose hereunder. The Owner shall not, however, have any liability or responsibility for errors or omissions in, or any decisions made by the Recipient in reliance on, any Confidential Information disclosed under this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces \"has the authority\" with \"may not have the authority.\" The contradicted text repeats the changed text \"The Owner represents that it may not have the authority to disclose to the Recipient any Confidential Information, which it elects to disclose hereunder.\" This reinforces that the Owner is uncertain about their authority to disclose confidential information. This contradicts the original text where the Owner represented that they had the authority and creates a direct in-text contradiction regarding the Owner's authority to disclose confidential information, leading to uncertainty and potential legal disputes."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Each party agrees to protect Confidential Information received from the other by exercising, at a minimum, the same level of care it uses to protect its own confidential information and agrees that it will (a) use such Confidential Information only for the purposes of this Agreement;",
+        "changed_text": "Each party agrees to protect Confidential Information received from the other by exercising, at a minimum, the same level of care it uses to protect its own confidential information and agrees that it will (a) use such Confidential Information for purposes other than the purposes of this Agreement;",
+        "explanation": "The original text specifies that the Confidential Information shall only be used for the purposes of the Agreement. Changing the text to \"use such Confidential Information for purposes other than the purposes of this Agreement\" directly contradicts this, creating a situation where the recipient is simultaneously obligated and forbidden from using the information outside of the agreed purposes. This creates uncertainty about the scope of permissible use.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "Each party agrees to protect Confidential Information received from the other by exercising, at a minimum, the same level of care it uses to protect its own confidential information and agrees that it will (a) use such Confidential Information for purposes other than the purposes of this Agreement; (b) only make such Confidential Information available to its employees having a “need to know”; (c) not disclose the Confidential Information to any third person, except that Confidential Information may be disclosed to the demand of the Government (d) not copy or reproduce Confidential Information in whole or in part, except as necessary to carry out the purposes of this Agreement, pr ovided that, if they do copy or reproduce Confidential Information in whole or in part, the reproduction shall carry a proprietary notice or legend similar to that which appears on the original; (e) not manufacture, sell, use, or have made devices embodying or utilizing Confidential In formation, except as otherwise agreed to by the Parties in writing.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that Confidential Information should only be used for the purposes of the Agreement. The changed text explicitly states that the Confidential Information will be used for purposes *other* than those of the Agreement. This directly contradicts the intention and permissible uses outlined in the original text, which the Contradicted Text mirrors. The change creates a strong in-text contradiction, as the two sections now mandate mutually exclusive actions regarding the use of Confidential Information."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement: (a) is the complete agreement of the Parties concerning the subject matter hereof and supersedes any prior such agreements with respect to further disclosures concerning such subject matter; (b) may not be amended or in any manner modified except by a written instrument signed by authorized repr esentatives of both Parties",
+        "changed_text": "This Agreement: (a) is not the complete agreement of the Parties concerning the subject matter hereof and does not supersede any prior such agreements with respect to further disclosures concerning such subject matter; (b) may be amended or in any manner modified verbally by authorized representatives of both Parties",
+        "explanation": "This change negates the entire integration clause. By stating that the agreement \"is not the complete agreement\" and \"does not supersede prior agreements,\" the change makes it unclear which agreements govern the parties' relationship. It further allows verbal modifications, in direct contradiction to the original requirement of a written instrument. This creates immense uncertainty regarding the contract's terms.",
+        "location": "14",
+        "contradicted_location": "14",
+        "contradicted_text": "This Agreement: (a) is not the complete agreement of the Parties concerning the subject matter hereof and does not supersede any prior such agreements with respect to further disclosures concerning such subject matter; (b) may be amended or in any manner modified verbally by authorized representatives of both Parties; and (c) shall be governed and construed in accordance with the laws of Germany without regard to its choice of law provisions.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the standard integration clause found in most contracts. The original text states that the agreement is the complete agreement and can only be modified in writing. The changed text states the opposite: that it is *not* the complete agreement and can be modified verbally. The contradicted text repeats the changes made. This creates a direct conflict, as the parties are now uncertain about which documents constitute the agreement and how it can be amended. This leads to a strong in-text contradiction and falls under Structural Flaws - In Text Contradiction based on the provided perturbation definition."
+      }
+    ]
+  }
+]

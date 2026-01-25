@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "NDA-SqillerBetaTesters.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "1.5. “Expiration Date ” means 1 year from the Effective Date.",
+        "changed_text": "1.5. “Expiration Date ” means 90 days from the Effective Date.",
+        "explanation": "Changing the definition of 'Expiration Date' from 1 year to 90 days creates a contradiction with clause 3.2, which states that confidential information may be exchanged until the obligations in the underpinned agreements are still in effect. It is implied by this clause that the agreement could extend beyond the stated Expiration Date. Therefore, reducing the Expiration Date to 90 days creates an in-text contradiction, as it's unclear if the 90 days is an absolute limit, or it can go beyond. This also introduces ambiguity regarding how long the agreement lasts, thereby contradicting the expectation set by clause 3.2.",
+        "location": "Section 2",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "3.2. Exchange of Confidential Information . Confidential Information may be exchanged by the Parties from the Effective Date until the Expiration Date, or, if the agreement(s) underpinning the Purpose have been entered into before the Expiration Date, then Confidential Info rmation may be exchanged until the obligations in such agreement(s) are still in effect.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the 'Expiration Date' from 1 year to 90 days. The contradicted text (3.2) states that confidential information can be exchanged until the Expiration Date, or if an agreement underpinning the purpose is entered into before the Expiration Date, then until the obligations in that agreement are in effect. Shortening the Expiration Date to 90 days creates a conflict, as the contradicted text implies the agreement could potentially extend beyond the originally defined Expiration Date (1 year), leading to a contradiction about the agreement's duration and when information exchange can occur. This satisfies the 'Structural Flaws - In Text Contradiction' definition because the changed 'Expiration Date' conflicts with the implication of clause 3.2, causing uncertainty about each party's rights and obligations."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "3.4. Non-disclosure . Each Party shall hold the other Party ’s Confidential Information in strictest confidence and shall not disclose the other Party ’s Confidential Information to any third party , except to the Receiving Party’s own Authorized Persons on a need -to-know basis .",
+        "changed_text": "3.4. Non-disclosure . Each Party shall hold the other Party ’s Confidential Information in strictest confidence and shall disclose the other Party ’s Confidential Information to any third party , including those who are not Authorized Persons on a need -to-know basis .",
+        "explanation": "Clause 3.4 initially prohibits disclosure to third parties except for authorized persons on a need-to-know basis. The modified version mandates disclosure to any third party including those who are not authorized, which creates a direct contradiction. This is a clear case of an in-text contradiction on who and when a disclosure must be made.",
+        "location": "Section 3",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "3.4. Non-disclosure . Each Party shall hold the other Party ’s Confidential Information in strictest confidence and shall disclose the other Party ’s Confidential Information to any third party , including those who are not Authorized Persons on a need -to-know basis .",
+        "contradiction_exists": "YES",
+        "justification": "The original text of Clause 3.4 prohibits disclosure of confidential information to third parties, except for authorized persons on a need-to-know basis. The changed text of Clause 3.4 mandates disclosure to any third party, including those who are not authorized. This creates a direct contradiction within the same clause (3.4) as the Changed Text is the same as the Contradicted Text."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "1.2. “Confidential Information” means information related to a Party, its Group Companies, its Authorized Persons, this Agreement or any agreement to which this Agreement is annexed or upon which this Agreement’s Purpose is based , that a Party receives or accesses , except information that (i) is or falls into the public domain without fault of the Receiving Party , (ii) the Receiving Party can prove was in its possession without any obligation of confidentiality prior to receipt from the Disclosing Party , (iii) is independently developed by the Receiving Party , or (iv) is obtained by the Receiving Party from third parties without any obligation of confidentiality to the Disclosing Party.",
+        "changed_text": "1.2. “Confidential Information” means all information, without exception, related to a Party, its Group Companies, its Authorized Persons, this Agreement or any agreement to which this Agreement is annexed or upon which this Agreement’s Purpose is based , that a Party receives or accesses .",
+        "explanation": "By removing the exceptions (i-iv) from the definition of 'Confidential Information,' any information related to the parties is now considered confidential regardless of its public availability or prior possession. This alteration introduces a direct contradiction with clause 3.7, 'Required Disclosures,' which allows disclosure of confidential information if legally required. However, the new definition makes no exceptions for required disclosures; so it's unclear how it reconciles with mandatory disclosures under section 3.7. It is an in-text contradiction",
+        "location": "Section 2",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "3.7. Required Disclosures . Nothing in this Agreement shall prohibit either Party from disclosing a part of the other Party’s Confidential Information if legally required to do so by law or regulation (including those governing capital markets), judicial or governmental order , provided that it gives, to the extent and as soon as legally permissible, prior notice of such disclosure to the other Party .",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the exceptions to the definition of 'Confidential Information,' making virtually all information related to the parties confidential. This directly contradicts clause 3.7, which allows disclosure of confidential information when legally required. The modified definition offers no exceptions, creating a strong in-text contradiction because it is now unclear how compliance with legal disclosure requirements can be reconciled with the expansive definition of confidential information."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "2.1. No Warranties . All Confidential Information furnished under this Agreement is provided AS IS. Neither Party makes any warranties, express or implied, for example, regarding the accuracy, completeness, merchantability, fitness for use, or non-infring ing nature of its Confidential Information.",
+        "changed_text": "2.1. Warranties. All Confidential Information furnished under this Agreement is provided with full warranties. Each Party makes all warranties, express and implied, including regarding the accuracy, completeness, merchantability, fitness for use, and non-infringing nature of its Confidential Information.",
+        "explanation": "Changing 'No Warranties' to 'Warranties' creates a direct contradiction within Section 2. It is directly contradicting if there are any warranty clauses. This is a clear case of an in-text contradiction where the statement is directly opposite to the original agreement",
+        "location": "Section 2",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "2.1. Warranties. All Confidential Information furnished under this Agreement is provided with full warranties. Each Party makes all warranties, express and implied, including regarding the accuracy, completeness, merchantability, fitness for use, and non-infringing nature of its Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states 'No Warranties' for Confidential Information. The changed text replaces this with 'Warranties,' explicitly stating that Confidential Information is provided with 'full warranties.' This directly contradicts the original statement of no warranties, creating a clear in-text contradiction. The contradicted text is the changed text. The 'No Warranties' clause is completely opposite to the 'Warranties' clause, triggering a strong in-text contradiction based on Structural Flaws."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "3.8. Return of Confidential Information . Immediately upon the Disclosing Party ’s request or by the last date defined in clause 3.2, the Receiving Party shall return /or destroy, at the Disclosing Party ’s discretion and expense, all the Disclosing Party’s Confidential Information in its possession, irrespective of the media, and certify execution of this obligation in writing. This obligation shall not apply to (i) copies retained in compliance with a Party’s legal or regulatory obligations or (ii) copies made as part of preexisting data back -up proce sses, if such copies a re not accessible to the Receiving Party’s st aff or Authorized Persons in the normal course of business.",
+        "changed_text": "3.8. Return of Confidential Information . The Receiving Party is never required to return/destroy the Disclosing Party's Confidential Information. The Receiving Party can use the information for its own benefit, unless the disclosing party requests it to be returned immediately. This obligation shall apply to (i) copies retained in compliance with a Party’s legal or regulatory obligations and (ii) copies made as part of preexisting data back -up proce sses, if such copies a re accessible to the Receiving Party’s st aff or Authorized Persons in the normal course of business.",
+        "explanation": "The original text states that the Receiving Party shall return/destroy the confidential information but provides some exception. The modified text says, never required and even in cases where such information is available to the receiving party, there is no need for it to be returned unless the disclosing party requests it. There is an in-text contradiction on when and how to return the confidential information",
+        "location": "Section 3",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "3.8. Return of Confidential Information . The Receiving Party is never required to return/destroy the Disclosing Party's Confidential Information. The Receiving Party can use the information for its own benefit, unless the disclosing party requests it to be returned immediately. This obligation shall apply to (i) copies retained in compliance with a Party’s legal or regulatory obligations and (ii) copies made as part of preexisting data back -up proce sses, if such copies a re accessible to the Receiving Party’s st aff or Authorized Persons in the normal course of business.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states the Receiving Party is 'never required' to return/destroy confidential information and can use it for their benefit, unless the disclosing party requests it. This directly contradicts the implication in the original text, which requires return/destruction under certain circumstances. The contradicted text is the same as the changed text, which still indicates a contradiction because the original and modified sections contain contradictory information about when and how confidential information should be returned. This inconsistency creates a strong in-text contradiction."
+      }
+    ]
+  }
+]

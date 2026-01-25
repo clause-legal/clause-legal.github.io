@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "LejuHoldingsLtd_20140121_DRS (on F-1)_EX-10.26_8473102_EX-10.26_Content License Agreement2.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Beijing SINA and SINA Leju agree that, upon the date of execution of this Termination Agreement, the Agreement shall terminate and be of no further force or effect, and, for the avoidance of doubt, no provisions of the Original Agreement survive such termination.",
+        "changed_text": "Beijing SINA and SINA Leju agree that, upon the date of execution of this Termination Agreement, the Agreement shall terminate; however, certain provisions of the Original Agreement, specifically those pertaining to intellectual property rights, shall survive such termination as determined at Beijing SINA's sole discretion.",
+        "explanation": "This change introduces a contradiction regarding the survival of provisions from the Original Agreement. The original text explicitly states that 'no provisions of the Original Agreement survive such termination.' The modified text, however, states that 'certain provisions…shall survive,' creating direct in-text contradiction and uncertainty about which parts of the original agreement still apply. It gives Beijing SINA unilateral control over which provisions survive, against the initial statement that all of it would be terminated.",
+        "location": "1",
+        "contradicted_location": "1",
+        "contradicted_text": "Beijing SINA and SINA Leju agree that, upon the date of execution of this Termination Agreement, the Agreement shall terminate; however, certain provisions of the Original Agreement, specifically those pertaining to intellectual property rights, shall survive such termination as determined at Beijing SINA's sole discretion.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text introduces a direct contradiction. The original text states that 'no provisions of the Original Agreement survive such termination.' The changed text states that 'certain provisions…shall survive,' creating a direct in-text contradiction. The contradicted text is the same as the changed text, which makes it clear it is referring to the same clause that was modified to create the contradiction. The change introduces a contradiction as to whether any provisions from the Original Agreement survive termination or not, and gives unilateral power to Beijing SINA. This directly violates the structural flaws definition for In-Text Contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Termination Agreement represents the complete, integrated, and entire agreement between the parties, and may not be modified except in writing signed by the parties.",
+        "changed_text": "This Termination Agreement represents the initial understanding between the parties; however, either party may unilaterally amend or supplement this Termination Agreement by providing written notice to the other party, effective immediately upon such notice.",
+        "explanation": "The original clause states that the Termination Agreement is the 'complete, integrated, and entire agreement' and requires written agreement by both parties for any modifications. The modified version allows either party to 'unilaterally amend' the agreement, directly contradicting the original intention and creating uncertainty about the finality of the agreement. This introduces an in-text contradiction, as the agreement is no longer 'complete' if it can be altered at any time by a single party.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "This Termination Agreement represents the initial understanding between the parties; however, either party may unilaterally amend or supplement this Termination Agreement by providing written notice to the other party, effective immediately upon such notice.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text allows unilateral amendment of the Termination Agreement, which directly contradicts the contradicted text and original intent that the agreement is 'complete, integrated, and entire' and can only be modified with both parties' agreement, introducing an in-text contradiction according to the definition of Structural Flaws - In Text Contradiction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "non-disclosure-agreement_1.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "6.1 You shall direct all communications and questions regarding the Possible Transaction only to Geoffrey Howe, Dominic Burke or Derek Walsh of the Company or to Conor Hillery of J.P. Morgan or Tim Lewis or Katherine Moir of Clifford Chance LLP, save with prior consent from the Company .",
+        "changed_text": "6.1 You shall direct all communications and questions regarding the Possible Transaction only to the head of legal department of the Company, save with prior consent from the Company .",
+        "explanation": "This change limits the contact people specified, while in section 6.2 it acknowledges Geoffrey Howe or Derek Walsh have the power to grant written consent. This could restrict the communication with the parties agreed.",
+        "location": "6.1",
+        "contradicted_location": "6.2",
+        "contradicted_text": "You acknowledge and agree that any consent or authorisation required under this agreement shall only be given on our behalf by Geoffrey Howe or Derek Walsh of the Company . For the avoidance or doubt, written consent or authorisation may be provided by email.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed communication with specific individuals (Geoffrey Howe, Dominic Burke, Derek Walsh, Conor Hillery, Tim Lewis, Katherine Moir). The changed text restricts communication to only the head of the legal department. The contradicted text states that only Geoffrey Howe or Derek Walsh can give consent. By limiting communication solely to the head of the legal department, it becomes unclear if Geoffrey Howe or Derek Walsh can be contacted for consent as previously agreed. This creates a strong contradiction because it alters the previously established process of communication and consent."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "12. DURATION This agreement shall continue for 18 months after the date of this agreement.",
+        "changed_text": "12. DURATION This agreement shall continue indefinitely after the date of this agreement.",
+        "explanation": "Changing the duration of the agreement from 18 months to indefinitely creates a direct contradiction. Parties may rely on the original 18-month term for their business planning and this could lead to legal disputes.",
+        "location": "12",
+        "contradicted_location": "5.1",
+        "contradicted_text": "You shall, upon request by us at any time: 5.1.1 promptly destroy or return to us (at your option) all hard copy documents and other materials which are in a form reasonably ca pable of delivery containing or reflecting the Confidential Information and all copies thereof and ensure the destruction of all Derivative Information and confirm to us in writing that you have complied with this paragraph 5.1.1 ; and 5.1.2 ensure that where Confidential Information has not been destroyed or returned under paragraph 5.1.1 , all reasonable steps are taken to erase from any computer under your control any document, disk or file to the extent containing, reflecting or generated from any Confidential Information and that, following such e rasure, no steps will be taken to access or recover such material, save that you will be entitled to retain such copies of such Confidential Information (a) to the extent required by law or regulation , (b) to the extent required by your internal compliance procedures , or (c) to the extent contained as back -ups or archives as a matter of reasonable routine process on your electronic information management and communications systems or servers and for which deletion or destruction would not be reasonably prac ticable (provided that no step will be taken to access or recover such Confidential Information and provided that such Confidential Information shall continue to be held subject to the terms of this agreement) .",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the agreement lasts for 18 months. The changed text states the agreement continues indefinitely. The contradicted text concerns the handling of confidential information, including destruction or return of materials. If the agreement is only for 18 months, the obligations related to confidential information are expected to align with that duration. However, an indefinite duration implies perpetual obligations regarding confidential information, which contradicts the implicitly limited timeframe in the original agreement and creates uncertainty about the ongoing responsibilities after the initial 18-month period that was initially established."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "15. ASSIGNMENT Neither party shall assign, transfer, declare a trust of the benefit of or in any other way alienate any of its rights under this agreement whether in whole or in part without the consent of the other .",
+        "changed_text": "15. ASSIGNMENT Either party shall assign, transfer, declare a trust of the benefit of or in any other way alienate any of its rights under this agreement whether in whole or in part without the consent of the other .",
+        "explanation": "Changing 'Neither party' to 'Either party' completely reverses the meaning of the clause. It now implies that assignment *is* permitted without consent, which contradicts the core principle of this section.",
+        "location": "15",
+        "contradicted_location": "15",
+        "contradicted_text": "Neither party shall assign, transfer, declare a trust of the benefit of or in any other way alienate any of its rights under this agreement whether in whole or in part without the consent of the other .",
+        "contradiction_exists": "YES",
+        "justification": "The original text states 'Neither party shall assign... without the consent of the other'. The changed text modifies this to 'Either party shall assign... without the consent of the other'. This completely reverses the meaning, now implying that assignment *is* permitted without consent. The contradicted text mirrors the original text, reinforcing the prohibition of assignment without consent. The change introduces a direct contradiction by allowing assignment without consent, conflicting with the original restriction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "16.2 The courts of England have exclusive jurisdiction to hear and decide any suit, action or proceedings, and to settle any disputes, which may arise out of or in connection with this agreement, including a dispute or proceeding regarding the existence, validity or termination of this agreement or relating to any non -contractual or other obligation arising out of or in connection with this agreement or regarding the consequences of its nullity (respectively, \" Proceedings \" and \" Disputes \"), and for these purposes, each party irrevocably submits to the jurisdiction of the courts of England.",
+        "changed_text": "16.2 The courts of England have non-exclusive jurisdiction to hear and decide any suit, action or proceedings, and to settle any disputes, which may arise out of or in connection with this agreement, including a dispute or proceeding regarding the existence, validity or termination of this agreement or relating to any non -contractual or other obligation arising out of or in connection with this agreement or regarding the consequences of its nullity (respectively, \" Proceedings \" and \" Disputes \"), and for these purposes, each party irrevocably submits to the jurisdiction of the courts of England.",
+        "explanation": "Changing 'exclusive' to 'non-exclusive' creates a direct conflict. 'Exclusive' means only the English courts can hear the dispute, while 'non-exclusive' opens the door to other jurisdictions, which is contradictory.",
+        "location": "16.2",
+        "contradicted_location": "16.3",
+        "contradicted_text": "Each party irrevocably waives any objection which it might at any time have to the courts of England being nominated as the forum to hear and deci de any Proceedings and to settle any Disputes and agrees not to claim that the courts of England are not a convenient or appropriate forum.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified that the courts of England have 'exclusive jurisdiction', while the changed text specifies 'non-exclusive jurisdiction'. This directly contradicts the contradicted text, which states that each party 'irrevocably waives any objection which it might at any time have to the courts of England being nominated as the forum'. The original text is compatible with the contradicted text, because it asserts that the parties agree to have the courts of England have jurisdiction and agree to object to other courts. However, changing it to 'non-exclusive' means that parties can object to having Proceedings be heard in England, which is incompatible to the Contradicted Text."
+      }
+    ]
+  }
+]

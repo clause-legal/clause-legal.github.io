@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "Confidentiality_Agreement_1.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "To the extent that technical drawings of certain third-party companies are not to be made known, th e buyer must point this fact out on its own initiative.",
+        "changed_text": "",
+        "explanation": "Removing the section on technical drawings means that there is no explicit protection mentioned in the agreement. This creates an in-text contradiction because section 5 states 'All confidential information remains the propert y of the disclosing contract party', now it doesn't specify, whether the third party drawing is included in this agreement.",
+        "location": "4",
+        "contradicted_location": "5",
+        "contradicted_text": "All confidential information remains the propert y of the disclosing contract party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text provided explicit guidance regarding technical drawings of third-party companies, which was removed in the Changed Text. Section 5 states that 'All confidential information remains the propert y of the disclosing contract party'. The removal of the original text leads to an in-text contradiction because it introduces ambiguity on whether third-party drawings are included, creating uncertainty as to whether section 5 applies to this category, since there is no specification or exclusion of the term. This satisfies the 'Omissions' – In Text Contradiction definition."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The confidentiality agreement does not apply to statements of the company Helukabel in its catalogu es, datasheets and on the homepage and also not to info rmation which a) the receiving party was already aware of or whic h was developed by the disclosing party itself inde pendent of the disclosure, b) is publicly known without this agreement having been broken, c) was received by a third party without infringeme nt of this or any other confidentiality agreement.",
+        "changed_text": "The confidentiality agreement does not apply to statements of the company Helukabel in its catalogu es, datasheets and on the homepage.",
+        "explanation": "By removing exceptions (a), (b), and (c) from the section about what the confidentiality agreement does NOT apply to, it now creates uncertainty. Previously, the agreement didn't apply to information the receiving party already knew, information publicly known, or information received from a third party without breach of agreement. Removing this, creates a potential contradiction since the omitted clauses are now not being excluded by the confidentiality agreement, which could be already known. This has an in-text contradiction.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "The confidentiality agreement does not apply to statements of the company Helukabel in its catalogu es, datasheets and on the homepage.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text omits exceptions (a), (b), and (c) that were present in the original text, while the contradicted text only contains the first part of the original text. The removal of these exceptions creates a contradiction, since the omitted clauses are now not being excluded by the confidentiality agreement, which could be already known. The original text excludes certain information from the confidentiality agreement, while the changed text does not. The contradicted text aligns with the changed text in that it doesn't include those exceptions, but it still is a contradiction that it doesn't include them and the original text DID, creating a contradiction in the original text. This aligns with the definition of 'Omissions – In Text Contradiction'."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "If the recipient is forced to expose the confide ntial information due to a legal regulation, a lega lly valid judgement or a non-disputable official decision or decree in part or in whole, it shall immediately inform the o wner of the confidential information in writing so that the own er can take measures to protect the confidential in formation.",
+        "changed_text": "If the recipient is forced to expose the confide ntial information due to a legal regulation, a lega lly valid judgement or a non-disputable official decision or decree in part or in whole.",
+        "explanation": "By removing the requirement for the recipient to inform the owner of confidential information when forced to disclose it, creates an in-text contradiction in the intent of the agreement. The agreement is about protecting the information, and notifiying the owner would be a key part of that.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "If the recipient is forced to expose the confide ntial information due to a legal regulation, a lega lly valid judgement or a non-disputable official decision or decree in part or in whole.",
+        "contradiction_exists": "YES",
+        "justification": "The original text outlines a specific procedure: if the recipient is compelled to disclose confidential information, they must inform the owner so the owner can take protective measures. The changed text removes the obligation to inform the owner. The contradicted text contains the initial condition: \"If the recipient is forced to expose the confide ntial information due to a legal regulation\". By removing the responsibility to inform, the modified clause creates a direct contradiction with the purpose of protecting confidential information as the owner cannot act to protect it if they are not notified, making enforcement of protection difficult. This aligns with the \"Omissions – In Text Contradiction\" perturbation type as the language removed contradicts obligations stated implicitly elsewhere in the document. Therefore, a strong in-text contradiction exists."
+      }
+    ]
+  }
+]

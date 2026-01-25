@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "FerroglobePlc_20150624_F-4A_EX-10.20_9154746_EX-10.20_Outsourcing Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The specific services rendered by EIT according to this Agreement include the following:\n3.1. NETWORK EIT is in charge of the remote Network, which connects each workstation of the Customer to the Central Server of EIT and to Internet (hereinafter \"WAN\"). The internal network of the factories (hereinafter \"LAN\") is excluded from this Agreement and the Customer is responsible for it.",
+        "changed_text": "The specific services rendered by EIT according to this Agreement include the following:\n3.1. NETWORK EIT is NOT in charge of the remote Network, which connects each workstation of the Customer to the Central Server of EIT and to Internet (hereinafter \"WAN\"). The internal network of the factories (hereinafter \"LAN\") is excluded from this Agreement and the Customer is responsible for it.",
+        "explanation": "By negating that EIT is not in charge of the remote network creates a contradiction. Later in the text, 3.1.2, EIT commits itself to monitor the Network during working hours in South Africa, up to where the service rendered by theNetwork Supplier allows. This creates a contradiction, as one section denies EITs responsibility while the other affirms it.",
+        "location": "3.1",
+        "contradicted_location": "3.1.2",
+        "contradicted_text": "EIT commits itself to monitor the Network during working hours in South Africa, up to where the service rendered by theNetwork Supplier allows.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that EIT is NOT in charge of the remote Network, while the contradicted text states that EIT commits to monitoring the Network. This creates a direct contradiction, as EIT cannot monitor a network it is not responsible for, leading to uncertainty about its obligations and potentially unenforceable terms. The change alters a core obligation that directly conflicts with a later commitment."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "These services include the study, development and implementation of new applications, changing to new platforms, as well as any other service that the Customer may need in the field of IT services.",
+        "changed_text": "These services do not include the study, development and implementation of new applications, changing to new platforms, as well as any other service that the Customer may need in the field of IT services.",
+        "explanation": "By negating the inclusion of other supplementary services in 4.1 directly contradicts the provision for negotiating these services separately as detailed in 4.2. The contract initially outlines how supplementary services are to be managed and paid for, creating a contradiction on the provision of new supplementary services, as the negation suggests they are not part of the agreement, creating an in-text contradiction.",
+        "location": "4.1",
+        "contradicted_location": "4.2",
+        "contradicted_text": "The terms and conditions of these services will be separately negotiated if and when it applies.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly states that certain services are *not* included, directly contradicting the contradicted text which specifies that the terms and conditions of these services will be separately negotiated. This creates a direct conflict because the changed text denies the inclusion of the services altogether, whereas the contradicted text assumes their potential inclusion and subsequent negotiation."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Customer is also in charge of defining the user accesses, as well as the level of access of its users.",
+        "changed_text": "The Customer is not in charge of defining the user accesses, as well as the level of access of its users.",
+        "explanation": "By stating the Customer is not in charge of defining the user access in 11.2.1, directly contradicts 11.2.2. EIT guarantees the control of access (through an access code and password) to information pursuant to the accessrights defined by the Customer. This creates uncertainty as to who has authority over setting access levels.",
+        "location": "11.2.1",
+        "contradicted_location": "11.2.2",
+        "contradicted_text": "EIT guarantees the control of access (through an access code and password) to information pursuant to the accessrights defined by the Customer.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the customer is in charge of defining user access. The changed text states the customer is *not* in charge of defining user access. This directly contradicts the section stating \"EIT guarantees the control of access (through an access code and password) to information pursuant to the access rights defined by the Customer.\" If the customer is not in charge of defining access rights, EIT's guarantee based on customer-defined rights becomes meaningless, creating a strong in-text contradiction."
+      }
+    ]
+  }
+]

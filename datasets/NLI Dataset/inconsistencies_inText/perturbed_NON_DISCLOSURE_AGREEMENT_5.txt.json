@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "NON_DISCLOSURE_AGREEMENT_5.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "3. All such Confidential Information shared under this Agreement shall be used by the Parties exclusively for the Purpose and neither Party shall disclose or otherwise use th e Confidential Information for any other purpose or in any other manner without the prior written approval of the Disclosing Party.",
+        "changed_text": "3. All such Confidential Information shared under this Agreement shall be used by the Parties exclusively for the Purpose. Party 2, as the Receiving Party, may disclose or otherwise use the Confidential Information for purposes related or unrelated to the Purpose without the prior written approval of the Disclosing Party, provided that such use does not directly compete with Party 1's core business as outlined in Appendix A.",
+        "explanation": "This change introduces an in-text contradiction. Section 3 initially restricts the use of Confidential Information exclusively to the defined 'Purpose'. However, the modification allows Party 2 to use the information for other purposes, provided it doesn't directly compete with Party 1's core business. This contradicts the original restriction and creates uncertainty regarding the scope of permitted usage. Also, introducing 'Appendix A' that does not exist creates further ambiguity. Due to this change section 3 contradicts itself.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "All such Confidential Information shared under this Agreement shall be used by the Parties exclusively for the Purpose. Party 2, as the Receiving Party, may disclose or otherwise use the Confidential Information for purposes related or unrelated to the Purpose without the prior written approval of the Disclosing Party, provided that such use does not directly compete with Party 1's core business as outlined in Appendix A.",
+        "contradiction_exists": "YES",
+        "justification": "The original text in Section 3 restricts the use of Confidential Information exclusively for the Purpose. The changed text contradicts this by allowing Party 2 to use the Confidential Information for other purposes (related or unrelated to the Purpose), as long as it doesn't directly compete with Party 1's core business as outlined in Appendix A. This directly contradicts the initial restriction, thus leading to an in-text contradiction as defined in the Perturbation Explanation and Perturbation Definitions for inconsistencies."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "12. This Agreement shall be governed and construed in accordance with the laws of India. The competent courts at [__] India shall have the sole and exclusive jurisdiction over any dispute that arises in relation to this Agreement.",
+        "changed_text": "12. This Agreement shall be governed and construed in accordance with the laws of India. Any dispute that arises in relation to this Agreement shall be subject to binding arbitration in accordance with the rules of the International Chamber of Commerce (ICC), and the seat of arbitration shall be [__] India.",
+        "explanation": "The original clause specifies that competent courts in [__] India have sole and exclusive jurisdiction. The modification mandates binding arbitration under ICC rules. This creates an in-text contradiction concerning the dispute resolution mechanism. It is unclear whether court or arbitration is required to resolve disputes. Due to this change section 12 contradicts itself.",
+        "location": "12",
+        "contradicted_location": "12",
+        "contradicted_text": "This Agreement shall be governed and construed in accordance with the laws of India. Any dispute that arises in relation to this Agreement shall be subject to binding arbitration in accordance with the rules of the International Chamber of Commerce (ICC), and the seat of arbitration shall be [__] India.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified that competent courts in [__] India have sole and exclusive jurisdiction over disputes. The changed text mandates binding arbitration under ICC rules for the same disputes. This creates a direct conflict regarding the dispute resolution mechanism. The contradiction text is the same as the changed text in this case, which further adds to the contradiction. Therefore, the change introduces a strong in-text contradiction, since it is unclear whether court or arbitration is required to resolve disputes."
+      }
+    ]
+  }
+]

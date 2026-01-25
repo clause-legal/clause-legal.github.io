@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "FLOTEKINDUSTRIESINCCN_05_09_2019-EX-10.1-SUPPLY AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "\"Margin\" means $[***] per pound of Terpene Product.",
+        "changed_text": "\"Margin\" means a mutually agreed upon amount per pound of Terpene Product, subject to market conditions.",
+        "explanation": "The original definition of 'Margin' specifies a fixed dollar amount per pound. The revised definition makes 'Margin' variable and dependent on mutual agreement and market conditions, contradicting the sections that rely on a fixed 'Product Price' calculated using a fixed 'Margin'. This change creates uncertainty because the Product Price is no longer determined by a fixed margin as initially stated, but now relies on a fluctuating value that needs constant negotiations. If the agreed upon margin contradicts the agreed upon amounts within each invoice, this can create an In-Text Contradiction",
+        "location": "Section 1",
+        "contradicted_location": "Section 4",
+        "contradicted_text": "The price per pound payable by Flotek to FCC for Terpene Product shall be the Product Price of that Terpene Product.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined \"Margin\" as a fixed amount, which is essential for calculating the \"Product Price\" as stated in the contradicted text. The changed text introduces a variable \"Margin\" dependent on mutual agreement and market conditions. This directly contradicts the contradicted text, which anticipates a fixed \"Product Price\" based on a fixed \"Margin.\" This creates a strong in-text contradiction because the price determination mechanism is fundamentally altered, causing uncertainty and potential disputes over the final price per pound. This is an Omissions - In Text Contradiction"
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Flotek shall order Terpene Product by sending to FCC written purchase orders in the form attached hereto as Exhibit A.",
+        "changed_text": "Flotek shall order Terpene Product by sending to FCC purchase orders.",
+        "explanation": "By removing the phrase \"in the form attached hereto as Exhibit A\", the requirement for a specific purchase order format is eliminated. However, other clauses may implicitly refer to specific fields or data expected in the Exhibit A format. This omission introduces an inconsistency because without the standardized format, FCC might reject orders, leading to disputes and creating an in-text contradiction within the order fulfillment process.",
+        "location": "Section 6(a)",
+        "contradicted_location": "Section 6(a)",
+        "contradicted_text": "FCC shall promptly, but in no event later than three (3) days after the date of such purchase order, confirm its acceptance or rejection of such purchase order by written notice to Flotek. FCC shall be obligated to accept all such purchase orders unless the amount ordered for a Year exceeds the Maximum Quantity, or orders for a particular quarter exceed [***] pounds or exceed the Flotek forecast for that quarter by more than 25%, provided, however, that, in such event, FCC shall communicate Flotek of the time period that will be required to satisfy such order assuming FCC endeavors to satisfy such order as soon as practicable, and Flotek shall inform FCC within ten (10) days of such communication whether it will order such Terpene Product pursuant to the revised delivery terms.",
+        "contradiction_exists": "YES",
+        "justification": "The original text required purchase orders to be in the form of Exhibit A. The changed text eliminates this requirement. The contradicted text states FCC's obligation to accept or reject purchase orders within 3 days and outlines specific conditions for rejection (quantity limits, forecasts). The changed text, by removing the format requirement, introduces ambiguity about what constitutes a valid purchase order, potentially leading to FCC rejecting orders for format issues not previously permitted under Exhibit A. This directly contradicts the original intent of the acceptance/rejection clause and creates a strong in-text contradiction. This is an example of 'Omissions - In Text Contradiction' as it removes 'in the form attached hereto as Exhibit A', creating an inconsistency with other sections."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "FCC agrees to provide $5,000,000 of commercial liability insurance in support of this indemnity which names Flotek as additional insured, with waiver of subrogation.",
+        "changed_text": "FCC agrees to provide commercial liability insurance in support of this indemnity.",
+        "explanation": "By removing the specific insurance amount ($5,000,000) and the requirements for Flotek to be named as an additional insured and the waiver of subrogation, the indemnity clause becomes vague. While FCC is still obligated to provide insurance, the level of coverage and specific terms are undefined. This is an in-text contradiction because the original text had a set amount to be followed. If a claim exceeds that amount, this can be considered a breach of the insurance agreement that would need to be agreed upon again.",
+        "location": "Section 15",
+        "contradicted_location": "Section 15",
+        "contradicted_text": "FCC will defend, indemnify and hold harmless Flotek, its Affiliates, and their respective officers and employees from all claims, actions, losses, damages and expenses resulting from any injury to persons, damage to property or action by any regulatory agency, arising out of or in any way associated with the operation of the Facility or any other facility of FCC, including, without limitation, injuries to FCC's employees involved in these operations REGARDLESS OF THE NEGLIGENCE OF ANY OF THE INDEMNIFIED PARTIES.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified a $5,000,000 insurance coverage with Flotek as an additional insured and a waiver of subrogation. The changed text removes these specifics, leaving the indemnity clause vague regarding the level of coverage and specific terms. This contradicts the original intent of the indemnity clause in the 'Contradicted Text', which intended to protect Flotek from 'all claims, actions, losses, damages and expenses'. Without the specific insurance coverage and terms, Flotek's protection under the indemnity is uncertain, creating a direct conflict and inconsistency within the contract, falling under 'Omissions – In Text Contradiction'."
+      }
+    ]
+  }
+]

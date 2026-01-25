@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "1018761_0000950130-96-004285_document_6.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "TeleService Resources (TSR)(the \"Providing Party\") and Computer Generated Solutions, Inc. (CGS) (the \"Receiving Party\").",
+        "changed_text": "TeleService Resources (TSR)(the \"Supplying Party\") and Computer Generated Solutions, Inc. (CGS) (the \"Receiving Party\").",
+        "explanation": "The term 'Providing Party' is replaced with 'Supplying Party.' While seemingly minor, this creates ambiguity. The contract later relies on the defined term 'Providing Party' for obligations. Using 'Supplying Party' here, but 'Providing Party' later creates confusion as to which entity the clauses are referring to when enforcing responsibilities. This introduces an internal contradiction. The contract does not mention 'Supplying Party' anywhere else making it ambiguous and contradicting the role and responsibilities of TSR, as defined later.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Paragraph 3",
+        "contradicted_text": "All Confidential Information transmitted hereunder shall be and remain the property of TSR, and all such Information and any copies thereof shall be promptly returned to TSR upon request or destroyed at TSR's option.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Providing Party' to 'Supplying Party' introduces a contradiction because the contract relies on the defined term 'Providing Party' later on. The contradicted text refers to 'TSR' when it states 'All Confidential Information transmitted hereunder shall be and remain the property of TSR'. However, since TSR is now defined as the 'Supplying Party' in the changed text, the contract creates confusion about which entity the clauses are referring to, because the contract does not mention 'Supplying Party' anywhere else, leading to conflicting obligations and uncertainty, which aligns with the definition of Misaligned Terminology - In Text Contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "All Confidential Information transmitted hereunder shall be and remain the property of TSR, and all such Information and any copies thereof shall be promptly returned to TSR upon request or destroyed at TSR's option.",
+        "changed_text": "All Confidential Information transmitted hereunder shall be and remain the property of CGS, and all such Information and any copies thereof shall be promptly returned to CGS upon request or destroyed at CGS's option.",
+        "explanation": "This change assigns the ownership of confidential information to CGS instead of TSR. This is a direct contradiction because the original text establishes TSR as the owner, affecting the right to request for the copy or destructions of such information.",
+        "location": "Paragraph 3",
+        "contradicted_location": "Paragraph 2",
+        "contradicted_text": "In view of TSR's desire that such documentation and information be maintained in confidence, it is hereby agreed that for a period of five (5) years commencing on the date of this Agreement, CGS may disclose or otherwise make available to a third party any proprietary information and documentation received from TSR that is identified as confidential (\"Confidential Information\") with prior written consent from TSR.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text assigns the ownership of Confidential Information to CGS, whereas the contradicted text states that 'CGS may disclose or otherwise make available to a third party any proprietary information and documentation received from TSR that is identified as confidential...with prior written consent from TSR'. This means TSR has the right to allow CGS to share the confidential information. If the ownership of the Confidential Information is with CGS now, then it does not need the written consent from TSR, thus contradicting the contradicted text."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Confidential Information shall mean any non-public, confidential proprietary information, services to be rendered or transactions contemplated hereby, including without limitation, pricing and material terms and conditions of services offered, intellectual property, enabling software, programming, except that Confidential Information does not include any information that: (i) is required by law to be disclosed (ii) was available to the Receiving Party prior to its disclosure by the Providing Party (iii) was known or becomes generally available to the public or to competitors of the parties hereto other than as a result of disclosure by the Receiving Party",
+        "changed_text": "Protected Information shall mean any non-public, confidential proprietary information, services to be rendered or transactions contemplated hereby, including without limitation, pricing and material terms and conditions of services offered, intellectual property, enabling software, programming, except that Protected Information does not include any information that: (i) is required by law to be disclosed (ii) was available to the Receiving Party prior to its disclosure by the Providing Party (iii) was known or becomes generally available to the public or to competitors of the parties hereto other than as a result of disclosure by the Receiving Party",
+        "explanation": "Changing 'Confidential Information' to 'Protected Information' introduces ambiguity. The rest of the agreement uses 'Confidential Information.' This means, it contradicts with the obligation in previous paragraphs.",
+        "location": "Paragraph 4",
+        "contradicted_location": "Paragraph 3",
+        "contradicted_text": "All Confidential Information transmitted hereunder shall be and remain the property of CGS, and all such Information and any copies thereof shall be promptly returned to CGS upon request or destroyed at CGS's option.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Confidential Information' to 'Protected Information' creates a contradiction because the contradicted text refers to 'Confidential Information'. By changing the term, the obligation to return or destroy 'Confidential Information' upon request becomes unclear since the modified section defines a different term, 'Protected Information', and the rest of the agreement wasn't updated to reflect that change. This misalignment in terminology leads to an in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Furthermore, in the event that TSR and CGS enter into program-specific Agreements whereby CGS will provide help desk call handling services to TSR, those services will be provided for TSR's client programs.",
+        "changed_text": "Furthermore, in the event that TSR and CGS enter into program-specific Agreements whereby TSR will provide help desk call handling services to CGS, those services will be provided for CGS's client programs.",
+        "explanation": "Reversing the roles of TSR and CGS in providing help desk services introduces a direct contradiction. The original text specifies CGS providing services to TSR's clients. The modified version states TSR provides the service for CGS's clients. It will be unclear which entities needs to be bound by the noncompete clause",
+        "location": "Paragraph 5",
+        "contradicted_location": "Paragraph 5",
+        "contradicted_text": "CGS agrees to pursue independent business relations with any of TSR's clients for which it provides services immediately from the start date of the program-specific Agreement(s)",
+        "contradiction_exists": "YES",
+        "justification": "The changed text reverses the roles of TSR and CGS regarding who provides help desk services, directly contradicting the contradicted text. The original text implies CGS is providing services to TSR's clients. The changed text implies TSR provides services to CGS's clients. The contradicted text states 'CGS agrees to pursue independent business relations with any of TSR's clients for which it provides services'. Since the changed text now states that TSR provides services to CGS clients, then CGS wouldn't need to pursue independent business relations with TSR's clients, since that is now CGS's clients per the changed text. This constitutes a strong in-text contradiction."
+      }
+    ]
+  }
+]

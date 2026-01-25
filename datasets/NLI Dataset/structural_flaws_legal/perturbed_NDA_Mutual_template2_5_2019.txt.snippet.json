@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "NDA_Mutual_template2_5_2019.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "(c) This Agreement shall be interpreted, construed and enforced in accordance with the laws of the State of Tennessee as executed and performed in that state without regard to conflicts of laws principles .",
+        "changed_text": "(b) The parties acknowledge and agree that all Confidential Information is provided \u201cAS -IS\u201d and without any warranty, express, implied or otherwise, regarding such Confidential Infor mation\u2019s accuracy or completeness. (c) This Agreement shall be interpreted, construed and enforced in accordance with the laws of the State of Delaware as executed and performed in that state without regard to conflicts of laws principles .",
+        "explanation": "The governing law provision has been altered from Tennessee to Delaware, placing it in conflict with the original intent and potentially applicable Tennessee law. Moving the choice of law to an earlier, less prominent section makes it less noticeable.",
+        "contradicted_law": "Tennessee Code Annotated \u00a7 47-1-301",
+        "law_citation": "TCA \u00a7 47-1-301",
+        "law_url1": [
+          "https://law.justia.com/codes/tennessee/2022/title-47/chapter-1/part-3/section-47-1-301/"
+        ],
+        "law_url2": [
+          "https://advance.lexis.com/document/?pdmfid=1000516&crid=9483934a-c76a-424c-9671-839966934601&pddocfullpath=%2Fshared%2Fdocument%2Fstatutes-legislation%2Furn%3AcontentItem%3A5X91-D461-F042-Y059-00000-00&pdcontentcomponentid=222261&pdteaserkey=sr0&pditab=content&ecomp=7g6ks&earg=sr0&prid=94326918-9489-4579-9136-616719061961"
+        ],
+        "law_explanation": "TCA \u00a7 47-1-301 allows parties to choose the governing law, but it must bear a reasonable relation to the transaction. If the transaction has no connection to Delaware, specifying Delaware law may be unenforceable. TTU is located in Tennessee, so Delaware law is likely invalid.",
+        "location": "Section 4(c)",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "Lexis\u00ae - Sign In | LexisNexis You did not enter an ID value. You did not enter a Password value. ID Please enter a valid ID. Password Please enter a valid password. Caps Lock is on Having Caps Lock on may cause you to enter your password incorrectly. Press Caps Lock to turn it off before entering your password. SHOW Remember Me Forgot your ID or password? Use of this service is subject to terms & conditions. Terms of use Your use of this service is subject to the LexisNexis \u00ae Terms & Conditions. You must accept these Terms & Conditions to use the service. Please also review the Privacy & Cookies policy",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The contract's governing law was changed from Tennessee to Delaware, a structural flaw that creates a legal contradiction. The LLM Law Explanation points out that under TCA \u00a7 47-1-301, the chosen law must have a reasonable relation to the transaction. Since TTU is located in Tennessee, choosing Delaware law may not be enforceable. The Perturbation Explanation states this change could conflict with applicable Tennessee law. While Scraped Law Snippet 1 is empty, Scraped Law Snippet 2 provides terms of use for LexisNexis, which is not directly relevant, the core issue remains that changing the governing law to a state with no apparent connection to the transaction creates a significant legal risk. This risk is heightened by the structural flaw of potentially obscuring the change by placing it in a less prominent location, as explained in the Perturbation Explanation. The change directly contradicts the principle of choosing a governing law with a reasonable relation to the transaction, making the contract potentially unenforceable under Tennessee law."
+      },
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "This Agreement shall not be assignable by either party , in whole or in part, without the prior written consent of the other party ; provided, however, that a party may assign this Agreement without consent in the even t of a sale of securities or assets, merger or change of control of such party.",
+        "changed_text": "Subject to the Tennessee Public Records Act, Section 10 -7-5-1 et seq., a t all times during the term of this Agreement and thereafter, the receiving party shall: (i) refrain from disclosing , directly or indirectly, any Confidential Information of the disclosing party to third parties , and hold all Confidential Information received from the disclosing party in trust and strict confidence, subject to the terms of this Agreement ; This Agreement shall not be assignable by either party , in whole or in part, without the prior written consent of the other party ; provided, however, that a party may assign this Agreement without consent in the even t of a sale of securities or assets, merger or change of control of such party.",
+        "explanation": "The text regarding non-disclosure of information to third parties was moved to the section about assigning the contract. This creates the contradiction that it is acceptable to disclose to third parties after assignment since it is in a separate paragraph. The confidentiality obligations are not prominently displayed.",
+        "contradicted_law": "Uniform Trade Secrets Act (UTSA)",
+        "law_citation": "UTSA \u00a7 1(2)",
+        "law_url1": [
+          "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=ca44f79f-2417-7b2b-47b9-ab881c471ff9&forceDialog=0"
+        ],
+        "law_url2": [
+          "https://advance.lexis.com/search?crid=b4e52099-fc94-49f9-b1e7-35a18b5f3202&pdmfid=1000516&pddocfu=true&pdtb=CATALOG&pdsearchterms=%7Bterms%3A%22Uniform+Trade+Secrets+Act%22%2CsearchType%3Aadvanced%7D&pdtypeofsearch=searchboxclick&isadvsearch=true&searchboxpdsearchterms=%7Bterms%3A%22Uniform+Trade+Secrets+Act%22%2CsearchType%3Aadvanced%7D"
+        ],
+        "law_explanation": "The UTSA emphasizes maintaining secrecy. Moving the confidentiality clause into the assignment section obscures the core requirement of continuous protection of trade secrets. This placement suggests confidentiality applies only until assignment, contradicting the intent of trade secret protection.",
+        "location": "Section 4(c)",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "Lexis\u00ae - Sign In | LexisNexis You did not enter an ID value. You did not enter a Password value. ID Please enter a valid ID. Password Please enter a valid password. Caps Lock is on Having Caps Lock on may cause you to enter your password incorrectly. Press Caps Lock to turn it off before entering your password. SHOW Remember Me Forgot your ID or password? Use of this service is subject to terms & conditions. Terms of use Your use of this service is subject to the LexisNexis \u00ae Terms & Conditions. You must accept these Terms & Conditions to use the service. Please also review the Privacy & Cookies policy",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The relocation of the non-disclosure clause to the assignment section creates a structural flaw by obscuring its importance, potentially suggesting it only applies until assignment. This contradicts the spirit of trade secret protection, as highlighted in the LLM's law explanation. Although the snippets do not directly address the UTSA or assignment, the 'Structural Flaws Legal Contradiction' definition is met: 'when a required legal disclosure is placed in an irrelevant or misleading section, making it difficult for parties to locate or interpret.' The revised contract creates ambiguity around the duration of confidentiality, undermining the implicit requirement of continuous protection for confidential information."
+      }
+    ]
+  }
+]

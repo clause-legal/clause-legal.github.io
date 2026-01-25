@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Hereafter referred to as the \"Company\" or \"AZUL\", On the one part, AND: AVIONS DE TRANSPORT REGIONAL, G.I.E., a French groupement d'int\u00e9r\u00eat \u00e9conomique established under articles L.251-1 to L251-23 of the French Commercial Code, whose registered office is at 1 all\u00e9e Pierre Nadot, 31712 Blagnac, France identified under Corporate and Trade Register of Toulouse number 323 932 236, Hereafter referred to as the \"Repairer' or \"ATR\", On the other part.",
+        "changed_text": "Hereafter referred to as the \"Company\" or \"AZUL\", On the one part, AND: AVIONS DE TRANSPORT REGIONAL, G.I.E., a French groupement d'int\u00e9r\u00eat \u00e9conomique established under articles L.251-1 to L251-23 of the French Commercial Code, whose registered office is at 1 all\u00e9e Pierre Nadot, 31712 Blagnac, France identified under Corporate and Trade Register of Toulouse number 323 932 236, Hereafter referred to as the \"Service Provider' or \"ATR\", On the other part.",
+        "explanation": "Changing 'Repairer' to 'Service Provider' introduces ambiguity. While ATR is also used, the contract later refers to obligations of the 'Repairer,' creating uncertainty about whether those obligations also apply to ATR as the 'Service Provider.' This will cause in-text contradiction in sections reffering to the repairer obligations.",
+        "location": "Page 2/9",
+        "contradicted_location": "Page 3/9",
+        "contradicted_text": "WHEREAS the Repairer and the Company entered into a Global Maintenance Agreement as referenced here above (as amended and supplemented from time to time, hereafter referred to as the \"GMA\") for the purpose of providing the Company with Services for the maintenance of the Aircraft; and, WHEREAS in consideration of modification of the operations, the Repairer and the Company agree to amend the GMA in order to update the number of [*****] required for the invoicing; and, WHEREAS the Parties wish to amend certain provisions of the GMA upon the terms and conditions set out below.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Repairer' to 'Service Provider' introduces ambiguity because the contradicted text refers specifically to the 'Repairer' and the 'GMA' which defines obligations specifically for the repairer. Since the changed text redefines 'Repairer' as 'Service Provider' while retaining 'ATR' as a secondary identifier, it creates a situation where it's unclear whether the obligations defined for the 'Repairer' also apply to ATR in its capacity as the 'Service Provider.' This directly contradicts the contradicted text, which assumes a clear and consistent definition of 'Repairer' throughout the agreement, leading to potential disputes over obligations related to maintenance and invoicing."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Amendment shall enter into force on the date of its signature by both Parties and, unless otherwise agreed upon in writing by the Parties through a subsequent amendment to the GMA, shall remain in force for the term of the referenced GMA.",
+        "changed_text": "This Amendment shall enter into force on the date of its signature by both Parties and, unless otherwise agreed upon verbally by the Parties through a subsequent amendment to the GMA, shall remain in force for the term of the referenced GMA.",
+        "explanation": "Changing 'in writing' to 'verbally' creates a contradiction with clause 6.3, which states that amendments must be in writing. This introduces uncertainty about the validity of verbal agreements.",
+        "location": "Page 4/9",
+        "contradicted_location": "Page 7/9",
+        "contradicted_text": "6.3 This Amendment shall not be varied or modified except by a written document duly signed by duly authorized representatives of both Parties.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the requirement for amending the agreement from 'in writing' to 'verbally'. This directly contradicts clause 6.3, which explicitly states that amendments must be in a 'written document'. The change introduces a direct conflict regarding the acceptable form of amendments, creating a strong in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "4.1 Confidentiality obligations Unless otherwise provided in this Amendment, any Confidential Information released by either of the Parties (the \"Disclosing Party\") to the other Party (the \"Receiving Party\") shall not be released in whole or in part to any third party. In particular, the Receiving Party undertakes: - to keep the Confidential Information strictly confidential, not to deliver, disclose or publish it to any third party including subsidiarycompanies and companies having an interest in its capital, except as otherwise agreed in writing by the Disclosing Party; - to use the Confidential Information solely for the purpose of this Amendment and except as otherwise expressly agreed in writing bythe Disclosing Party, not to use the same or permit its use for any other purpose;",
+        "changed_text": "4.1 Confidentiality obligations Unless otherwise provided in this Amendment, any Confidential Information released by either of the Parties (the \"Disclosing Party\") to the other Party (the \"Receiving Party\") shall not be released in whole or in part to any associate. In particular, the Receiving Party undertakes: - to keep the Confidential Information strictly confidential, not to deliver, disclose or publish it to any associate including subsidiarycompanies and companies having an interest in its capital, except as otherwise agreed in writing by the Disclosing Party; - to use the Confidential Information solely for the purpose of this Amendment and except as otherwise expressly agreed in writing bythe Disclosing Party, not to use the same or permit its use for any other purpose;",
+        "explanation": "Changing 'third party' to 'associate' creates an in-text contradiction. The original text defines exceptions for confidentiality, but doesn't define 'associate,' potentially broadening the scope of who can receive Confidential Information. Clause 4.5 then clarifies that Affiliates and Subcontractors are *not* considered third parties, which now conflicts with this broadened, undefined term 'associate'. This introduces ambiguity about who can receive confidential information, and will make harder to apply the confidentiality in case of breach of contract.",
+        "location": "Page 4/9",
+        "contradicted_location": "Page 6/9",
+        "contradicted_text": "4.5 For the sake of clarity, and for the purpose of this Clause 4 and this Amendment, any of the receiving Party's Affiliates and their Subcontractors shall not be considered as third party and shall be entitled to have access to any Confidential Information disclosed by the disclosing Party in connection with this Amendment.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'third party' to 'associate' introduces a contradiction because the contract clarifies that Affiliates and Subcontractors are *not* considered third parties (4.5). However, 'associate' is not defined, creating ambiguity. This uncertainty about whether 'associate' encompasses Affiliates and Subcontractors now creates an inconsistency in who can receive confidential information, contradicting the intention of clause 4.5."
+      }
+    ]
+  }
+]

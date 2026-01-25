@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "736291_0000930661-99-001320_document_3.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "(7) \"Services\" means all IT services offered by Seller, including, -------- but not limited to, all outsourcing, professional services, break/fix, staff augmentation and consulting services; provided that the term -------- \"Services\" shall not include (i) on-site Configuration of Products by CompuCom or (ii) the sale (but not the performance) by CompuCom of extended warranty contracts at time of initial sale of Products to customers.",
+        "changed_text": "(7) \"Services\" means all IT services offered by Seller, including, -------- but not limited to, all outsourcing, professional services, break/fix, staff augmentation and consulting services; provided that the term -------- \"Services\" shall include (i) on-site Configuration of Products by CompuCom or (ii) the sale (but not the performance) by CompuCom of extended warranty contracts at time of initial sale of Products to customers.",
+        "explanation": "The original definition excludes onsite configuration of Products by CompuCom from the definition of services, while the modified definition includes it. This impacts the interpretation of CompuCom's agreement not to compete.",
+        "location": "ARTICLE I",
+        "contradicted_location": "ARTICLE III",
+        "contradicted_text": "3.2 CompuCom's Agreement. (a) CompuCom agrees that during the Non- -------------------- Competition Period CompuCom will not, and will not permit any of its Subsidiaries to: (i) provide any Services to any account listed on Exhibit B hereto; ---------",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifically excludes on-site configuration of products by CompuCom from the definition of 'Services'. The changed text now includes on-site configuration as 'Services'. The contradicted text states that CompuCom agrees not to provide any 'Services' to accounts listed in Exhibit B. Because on-site configuration is now included as a 'Service', but originally was not, the changed text contradicts the agreement in the contradicted text."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "(3) \"Product\" means any computer or related hardware and peripherals ------- (including hubs, switches and routers or networking hardware) or software products (including networking software products) which CompuCom has the ability to sell.",
+        "changed_text": "(3) \"Product\" means only computer hardware which CompuCom has the ability to sell.",
+        "explanation": "The original definition of 'Product' includes hardware, peripherals and software. By changing it to include only hardware, it creates contradiction as the contract refers to software and networking software products under 'Product Business'.",
+        "location": "ARTICLE I",
+        "contradicted_location": "ARTICLE I",
+        "contradicted_text": "(4) \"Product Business\" means the acceptance and fulfillment of ---------------- customer orders for Products, including the manufacturing, channel assembly, co-location or centralized image loading and Configuration of Products; provided that the term \"Product Business\" shall not include on- -------- site Configuration of computer or related <PAGE> hardware or software products made subsequent to the initial image load/configuration.",
+        "contradiction_exists": "YES",
+        "justification": "The original definition of \"Product\" includes hardware, peripherals, and software. The changed definition limits \"Product\" to only hardware. The \"Product Business\" definition includes the acceptance and fulfillment of customer orders for Products, including the manufacturing, channel assembly, co-location or centralized image loading and Configuration of Products; provided that the term \"Product Business\" shall not include on- site Configuration of computer or related <PAGE> hardware or software products made subsequent to the initial image load/configuration. Since 'Product Business' refers to software products, but 'Product' is now defined as only hardware, there is a direct contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "(6) \"Service Accounts\" means the customer accounts of Seller listed ---------------- on Exhibits B and C hereto.",
+        "changed_text": "(6) \"Service Accounts\" means the customer accounts of Seller listed ---------------- on Exhibit B hereto.",
+        "explanation": "Removing Exhibit C from the definition creates confusion because CompuCom's agreement not to compete refers to both Exhibits B and C, specifically allowing providing services to accounts in Exhibit C under certain conditions.",
+        "location": "ARTICLE I",
+        "contradicted_location": "ARTICLE III",
+        "contradicted_text": "3.2 CompuCom's Agreement. (a) CompuCom agrees that during the Non- -------------------- Competition Period CompuCom will not, and will not permit any of its Subsidiaries to: (i) provide any Services to any account listed on Exhibit B hereto; --------- (ii) provide any Services to any account listed on Exhibit C hereto except to the extent provided for in such Exhibit; or",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined \"Service Accounts\" as accounts listed on Exhibits B and C. The changed text alters this definition to only include Exhibit B. This creates a contradiction with section 3.2, which explicitly refers to accounts listed on Exhibit C, and CompuCom's agreement regarding services provided to those accounts. By removing Exhibit C from the definition, the agreement's applicability to Exhibit C accounts becomes unclear, creating a contradiction according to the Misaligned Terminology - In Text Contradiction definition because it creates conflicting obligations based on the definition of \"Service Accounts.\""
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "3.1 Seller's Agreement. (a) Seller agrees that during the Non- ------------------ Competition Period Seller will not, and will not permit any of its Subsidiaries to: (i) engage in the Product Business; (ii) encourage any Service Account to specify a party other than CompuCom to provide Products and image load/configurations to such Service Account; or (iii) solicit, entice or induce any employee of CompuCom or any Subsidiary of CompuCom to terminate his or her employment with CompuCom or any Subsidiary of CompuCom or hire any person who was or is at any time from the date of execution of the Asset Purchase Agreement to the end of the Non-Competition Period an employee of CompuCom or any Subsidiary of CompuCom.",
+        "changed_text": "3.1 Seller's Agreement. (a) Seller agrees that during the Non- ------------------ Competition Period Seller will not, and will not permit any of its Subsidiaries to: (i) engage in the Services Business; (ii) encourage any Service Account to specify a party other than CompuCom to provide Products and image load/configurations to such Service Account; or (iii) solicit, entice or induce any employee of CompuCom or any Subsidiary of CompuCom to terminate his or her employment with CompuCom or any Subsidiary of CompuCom or hire any person who was or is at any time from the date of execution of the Asset Purchase Agreement to the end of the Non-Competition Period an employee of CompuCom or any Subsidiary of CompuCom.",
+        "explanation": "Changing Product Business to Services Business creates confusion. Since the agreement defines the activities that each party may engage in or restricted from, this changes and creates contradictions in later sections.",
+        "location": "ARTICLE III",
+        "contradicted_location": "ARTICLE IV",
+        "contradicted_text": "CompuCom agrees that during the Non-Competition Period, it will accept orders for Products submitted to CompuCom by Seller pursuant to Section 3.1(b) under the following conditions: (i) CompuCom has the ability to offer such Product for sale; (ii) the purchase price required by the customer order for the Product is reasonably acceptable to CompuCom; (iii) such Product offered by CompuCom meets the customer's specifications, including, but not limited to, configuration specifications; and (iv) the requirements of the customer with respect to such Product, including but not limited to delivery, payment terms and return privileges are reasonably acceptable to CompuCom. CompuCom agrees to notify Seller of CompuCom's rejection of such orders for Product within a mutually agreed upon time that is reasonable under the time constraints required by the customer order or contract.",
+        "contradiction_exists": "YES",
+        "justification": "The change from \"Product Business\" to \"Services Business\" in Section 3.1(a)(i) directly contradicts the contradicted text. The contradicted text refers to \"orders for Products submitted to CompuCom by Seller pursuant to Section 3.1(b)\". By changing the scope of the seller's non-competition agreement from \"Product Business\" to \"Services Business\", it creates a conflict because CompuCom agrees to accept orders for Products from the seller under specific conditions, implying the seller can engage in 'Product' related business. Now the agreement restricts the Seller from engaging in Services Business. This is a strong contradiction because the activities that the seller is allowed to perform are changed. Thus, it introduces ambiguity and potentially nullifies Section 3.1(b)."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "CompuCom agrees to notify Seller of CompuCom's rejection of such orders for Product within a mutually agreed upon time that is reasonable under the time constraints required by the customer order or contract.",
+        "changed_text": "CompuCom may notify Seller of CompuCom's rejection of such orders for Product within a mutually agreed upon time that is reasonable under the time constraints required by the customer order or contract.",
+        "explanation": "Changing 'agrees to notify' to 'may notify' changes the obligation of CompuCom to notify the Seller of rejections which creates contradiction. 'CompuCom agrees' establishes a clear obligation, while 'CompuCom may' suggests an option, not a duty.",
+        "location": "ARTICLE IV",
+        "contradicted_location": "ARTICLE IV",
+        "contradicted_text": "ARTICLE IV Acceptance of Product Orders CompuCom agrees that during the Non-Competition Period, it will accept orders for Products submitted to CompuCom by Seller pursuant to Section 3.1(b) under the following conditions: (i) CompuCom has the ability to offer such Product for sale; (ii) the purchase price required by the customer order for the Product is reasonably acceptable to CompuCom; (iii) such Product offered by CompuCom meets the customer's specifications, including, but not limited to, configuration specifications; and (iv) the requirements of the customer with respect to such Product, including but not limited to delivery, payment terms and return privileges are reasonably acceptable to CompuCom. CompuCom may notify Seller of CompuCom's rejection of such orders for Product within a mutually agreed upon time that is reasonable under the time constraints required by the customer order or contract.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states CompuCom 'agrees to notify' creating an obligation. The changed text alters this to 'may notify' creating a permission rather than a duty. This directly contradicts Article IV, as the replaced text is within the same Article, so the change implies that CompuCom does not *have* to notify the seller of a rejection, even though Article IV previously states that 'CompuCom agrees'. This directly leads to an in-text contradiction as different sections within the same article provide conflicting obligations."
+      }
+    ]
+  }
+]

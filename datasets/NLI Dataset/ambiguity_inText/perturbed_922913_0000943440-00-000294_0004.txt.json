@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "922913_0000943440-00-000294_0004.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "INFE will disclose to IDO such portions of its Proprietary Information solely to enable IDO to determine the desirability of the proposed sale of assets of the Placeum.com division of IDO to INFE; and IDO shall not disseminate any portions of the Proprietary Information to any third party individual or entity.",
+        "changed_text": "INFE will disclose to IDO such portions of its Proprietary Information solely to enable IDO to determine the desirability of the proposed sale of assets of the Placeum.com division of IDO to INFE; and IDO may disseminate portions of the Proprietary Information to third party advisors such as legal counsel and accountants.",
+        "explanation": "This change introduces an exception to the non-dissemination clause, creating a contradiction. Section 1 initially prohibits any dissemination to third parties, but the revised text permits dissemination to specific advisors. This directly contradicts the original restrictive clause.",
+        "location": "1",
+        "contradicted_location": "4",
+        "contradicted_text": "Neither party shall disclose the Proprietary Information of the other party to any third party whatsoever by without the prior written approval of the other party and all such information shall be protected with at least the same diligence, care, and precaution that each party uses to protect its own Proprietary Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text prohibited any dissemination of proprietary information to third parties. The changed text allows dissemination to specific third-party advisors. The contradicted text states that neither party shall disclose proprietary information to *any* third party without prior written approval. The changed text creates a direct contradiction by introducing an exception to the previously absolute prohibition, fitting the definition of an in-text contradiction due to ambiguities."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "IDO will disclose to INFE such portions of its Proprietary Information solely to enable INFE to determine the desirability of the proposed sale of assets the Placeum.com division of IDO; and INFE shall not disseminate any portions of the Proprietary Information to any third party individual or entity.",
+        "changed_text": "IDO will disclose to INFE such portions of its Proprietary Information solely to enable INFE to determine the desirability of the proposed sale of assets the Placeum.com division of IDO; and INFE may disseminate portions of the Proprietary Information to its parent company.",
+        "explanation": "This change introduces an exception to the non-dissemination clause, creating a contradiction. Section 2 initially prohibits any dissemination to third parties, but the revised text permits dissemination to its parent company. This directly contradicts the original restrictive clause.",
+        "location": "2",
+        "contradicted_location": "4",
+        "contradicted_text": "Neither party shall disclose the Proprietary Information of the other party to any third party whatsoever by without the prior written approval of the other party and all such information shall be protected with at least the same diligence, care, and precaution that each party uses to protect its own Proprietary Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text prohibits dissemination to *any* third party, while the changed text allows dissemination to its parent company, which is explicitly a third party. The contradicted text states 'Neither party shall disclose the Proprietary Information of the other party to any third party whatsoever'. The changed text thus creates a direct contradiction. This aligns with the Perturbation Explanation which states that the change 'introduces an exception to the non-dissemination clause, creating a contradiction.'"
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "As used in this Agreement, the phrase Proprietary Information shall include, but not be limited to the following: (a) information relating to trade secrets, appropriate licenses with certain third parties, data, designs, samples, drawings, relationships, documentation, machinery, prototypes, processes, methods, concepts, facilities, research, development, patent applications, and other Proprietary Information relating to the development, testing, manufacture, or application of any such devices or systems (including but not limited to system concepts, architectures, source documents and programming documents); and (b) all marketing or financial plans, projections, resources, contracts, studies, and general information relating to the specific business opportunity contemplated herein, whether obtained verbally or in writing, or through observation.",
+        "changed_text": "As used in this Agreement, the phrase Proprietary Information shall include only information explicitly marked as confidential by the disclosing party. (a) information relating to trade secrets, appropriate licenses with certain third parties, data, designs, samples, drawings, relationships, documentation, machinery, prototypes, processes, methods, concepts, facilities, research, development, patent applications, and other Proprietary Information relating to the development, testing, manufacture, or application of any such devices or systems (including but not limited to system concepts, architectures, source documents and programming documents); and (b) all marketing or financial plans, projections, resources, contracts, studies, and general information relating to the specific business opportunity contemplated herein, whether obtained verbally or in writing, or through observation.",
+        "explanation": "This change restricts the definition of 'Proprietary Information' to only items explicitly marked as confidential, creating a contradiction with the subsequent list, which includes broad categories of information that would typically be considered proprietary regardless of explicit marking. The initial part of section 3 now limits the scope much more narrowly, directly contradicting the non-exhaustive list that follows.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "As used in this Agreement, the phrase Proprietary Information shall include only information explicitly marked as confidential by the disclosing party. (a) information relating to trade secrets, appropriate licenses with certain third parties, data, designs, samples, drawings, relationships, documentation, machinery, prototypes, processes, methods, concepts, facilities, research, development, patent applications, and other Proprietary Information relating to the development, testing, manufacture, or application of any such devices or systems (including but not limited to system concepts, architectures, source documents and programming documents); and (b) all marketing or financial plans, projections, resources, contracts, studies, and general information relating to the specific business opportunity contemplated herein, whether obtained verbally or in writing, or through observation.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text significantly narrows the definition of 'Proprietary Information' to only include items explicitly marked as confidential. This directly contradicts the subsequent list of items that would typically be considered proprietary regardless of explicit marking. The original text defined Proprietary Information to 'include, but not be limited to', meaning it could include items that were not explicitly marked confidential. The changed text, however, strictly limits the definition of Proprietary Information to only information that is explicitly marked confidential. This contradiction creates a clear and direct conflict as the list now contains examples of information that might not be considered Proprietary Information under the new, limited definition if it is not explicitly marked as such. This aligns with the definition of Ambiguities – In Text Contradiction: Ambiguities occur when key terms or obligations are defined inconsistently in different parts of a contract, making enforcement difficult or interpretation unclear."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement shall be construed, interpreted, and enforced according to the laws of the Commonwealth of Virginia and the parties hereto consent to jurisdiction therein.",
+        "changed_text": "This Agreement shall be construed, interpreted, and enforced according to the laws of the Commonwealth of Delaware and the parties hereto consent to jurisdiction therein.",
+        "explanation": "This change modifies the governing law from Virginia to Delaware, which contradicts the clause establishing Virginia law as the governing jurisdiction. The In-Text contradiction is that now the governing law for enforcement changes from Virginia to Delaware.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "This Agreement shall be construed, interpreted, and enforced according to the laws of the Commonwealth of Delaware and the parties hereto consent to jurisdiction therein.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the governing law from Virginia to Delaware. The contradicted text states that the agreement shall be construed, interpreted, and enforced according to the laws of the Commonwealth of Delaware. Since the original text stated Virginia law would govern, this change introducing Delaware law directly contradicts the original agreement."
+      }
+    ]
+  }
+]

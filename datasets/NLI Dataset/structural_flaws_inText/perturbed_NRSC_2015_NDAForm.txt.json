@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "NRSC_2015_NDAForm.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The consideration for the covenants and agreements of each PARTY contained in this AGREEMENT shall be that PARTY’s right to receive access to CONFIDENTIAL INFORMATION as part of NRSC analysis, and that PARTY’s right to protect such CONF IDENTIAL INFORMATION as it deems appropriate to disclose pursuant to this AGREEMENT, which the PARTIES acknowledge and agree shall constitute sufficient and adequate consideration.",
+        "changed_text": "The consideration for the covenants and agreements of each PARTY contained in this AGREEMENT shall be the nominal fee of one dollar ($1.00), and the Parties acknowledge and agree shall constitute sufficient and adequate consideration. Access to CONFIDENTIAL INFORMATION is not required for this agreement to be valid.",
+        "explanation": "The original text defines the consideration as the right to access and protect confidential information. The modified text states the consideration is $1.00 and that access to confidential information is *not* required, which contradicts the purpose of a Non-Disclosure Agreement and undermines its enforceability because the essence of the agreement is access to CONFIDENTIAL INFORMATION. By explicitly stating that access to CONFIDENTIAL INFORMATION is not required for the agreement, there arises an issue of the actual validity and purpose of the entire legal document.",
+        "location": "2.",
+        "contradicted_location": "3.(a)",
+        "contradicted_text": "Each PARTY her eby acknowledges that it is in the best interests of the other PARTIES to insist on the confidentiality of any and all CONFIDENTIAL INFORMATION disclosed pursuant to this AGREEMENT.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the consideration for the agreement from access to confidential information to a nominal fee and explicitly states that access to confidential information is not required. This directly contradicts the contradicted text, which emphasizes the importance of confidentiality of confidential information disclosed pursuant to the agreement. The change undermines the very purpose of a Non-Disclosure Agreement (NDA) by stating that confidential information is not required. This is a direct and strong contradiction that would cause confusion and potentially make the agreement unenforceable."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Each PARTY reserves the right to decide not to disclose any CONFIDEN TIAL INFORMATION, and nothing herein shall require the disclosure of any CONFIDENTIAL INFORMATION by any PARTY. It is understood that any disclosures undertaken pursuant to the AGREEMENT are voluntary and do not constitute a waiver of any rights or privileges with respect to future or other disclosures.",
+        "changed_text": "Each PARTY is required to disclose all CONFIDENTIAL INFORMATION relevant to NRSC analysis, and nothing herein shall permit the withholding of any CONFIDENTIAL INFORMATION by any PARTY. It is understood that any disclosures undertaken pursuant to this AGREEMENT are mandatory and may constitute a waiver of any rights or privileges with respect to future or other disclosures.",
+        "explanation": "The original text states that disclosure is voluntary. The changed text makes it mandatory. This creates an in-text contradiction about whether parties *must* disclose CONFIDENTIAL INFORMATION, or whether they have the right to withhold it. This will directly contradict section 3 (b) where it states, 'Each PARTY reserves the right to decide not to disclose any CONFIDENTIAL INFORMATION...'",
+        "location": "3.(b)",
+        "contradicted_location": "3.(b)",
+        "contradicted_text": "Each PARTY reserves the right to decide not to disclose any CONFIDEN TIAL INFORMATION, and nothing herein shall require the disclosure of any CONFIDENTIAL INFORMATION by any PARTY. It is understood that any disclosures undertaken pursuant to the AGREEMENT are voluntary and do not constitute a waiver of any rights or privileges with respect to future or other disclosures.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. The original text and contradicted text both state that each party 'reserves the right to decide not to disclose any CONFIDENTIAL INFORMATION'. The changed text, however, states that 'Each PARTY is required to disclose all CONFIDENTIAL INFORMATION...and nothing herein shall permit the withholding of any CONFIDENTIAL INFORMATION'. This creates a clear in-text contradiction regarding whether disclosure of confidential information is voluntary or mandatory, fitting the definition of 'Structural Flaws - In Text Contradiction' where a clause is placed in multiple locations with conflicting implications."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The RECEIVING PARTIES agree that they will not disclose any CONFIDENTIAL INFORMATION to any contractor or consultant who is not bound by a non -disclosure agreement with the RECEIVING PARTY.",
+        "changed_text": "The RECEIVING PARTIES agree that they are encouraged to disclose CONFIDENTIAL INFORMATION to any contractor or consultant, regardless of whether the contractor or consultant is bound by a non -disclosure agreement with the RECEIVING PARTY.",
+        "explanation": "The original text prohibits disclosure to contractors/consultants without an NDA. The modified version encourages disclosure even without an NDA. This creates a direct contradiction, violating the entire spirit of the NDA, in the contract. The changed sentence directly contradicts the previous statement, negating the purpose of the contract. The change now actively encourages the RECEIVING PARTY to give away the CONFIDENTIAL INFORMATION to people with no obligation to protect it. ",
+        "location": "3.(d)",
+        "contradicted_location": "3.(a)",
+        "contradicted_text": "Each PARTY her eby acknowledges that it is in the best interests of the other PARTIES to insist on the confidentiality of any and all CONFIDENTIAL INFORMATION disclosed pursuant to this AGREEMENT.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly prohibits disclosure of confidential information to contractors/consultants without a non-disclosure agreement (NDA). The changed text encourages disclosure to them, regardless of whether they are bound by an NDA. This creates a direct conflict with the contradicted text, which states that it's in the best interest of the parties to maintain the confidentiality of all disclosed confidential information. The modified version directly contradicts this by encouraging disclosure without ensuring confidentiality, thus a strong contradiction exists."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Each PARTY shall exercise its reasonable commerc ial efforts to ensure the continued confidentiality of all CONFIDENTIAL INFORMATION delivered or disclosed pursuant to this AGREEMENT and, in any event, shall protect such information with at least the same degree of care it uses to protect its own confide ntial, commercial, proprietary, and financial information of a similar nature.",
+        "changed_text": "Each PARTY shall have no obligation to ensure the continued confidentiality of all CONFIDENTIAL INFORMATION delivered or disclosed pursuant to this AGREEMENT and, in any event, shall not be required to protect such information in any manner whatsoever.",
+        "explanation": "The original text requires reasonable commercial efforts to maintain confidentiality. The changed text removes any obligation to protect the CONFIDENTIAL INFORMATION, directly contradicting the confidentiality requirements earlier defined, rendering this agreement completely useless. Section 3(a) which states, 'Each PARTY hereby acknowledges that it is in the best interests of the other PARTIES to insist on the confidentiality of any and all CONFIDENTIAL INFORMATION disclosed pursuant to this AGREEMENT.'",
+        "location": "3.(e)",
+        "contradicted_location": "3.(a)",
+        "contradicted_text": "Each PARTY her eby acknowledges that it is in the best interests of the other PARTIES to insist on the confidentiality of any and all CONFIDENTIAL INFORMATION disclosed pursuant to this AGREEMENT.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that each party has 'no obligation to ensure the continued confidentiality' and is 'not required to protect such information in any manner whatsoever.' This directly contradicts the contradicted text, which states that 'it is in the best interests of the other PARTIES to insist on the confidentiality of any and all CONFIDENTIAL INFORMATION disclosed pursuant to this AGREEMENT.' The original text required 'reasonable commercial efforts' to maintain confidentiality, while the changed text removes this requirement, creating a direct conflict."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This AGREEMENT shall expire on Dece mber 31, 2017 . Notwithstanding the foregoing, each PARTY that receives or obtains CONFIDENTIAL INFORMATION pursuant to the terms of this AGREEMENT shall remain bound for five (5) years from the date of disclosure by all confidentiality obligations, and su bject to all remedies, under this AGREEMENT after termination, including, without limitation, the obligations set forth in Sections 3 , 6 and 7 and the remedies specified in Section 4.",
+        "changed_text": "This AGREEMENT shall expire on Dece mber 31, 2017 . Notwithstanding the foregoing, each PARTY that receives or obtains CONFIDENTIAL INFORMATION pursuant to the terms of this AGREEMENT shall have no obligation to maintain confidentiality after December 31, 2017, regardless of when the information was disclosed.",
+        "explanation": "The original text dictates that even after the agreement expires, the receiving party is bound by confidentiality obligations for 5 years from the date of disclosure. The modified text eliminates those post-termination obligations, thus creating a contradiction on when confidentiality obligations cease, and making the duration of the agreement ambiguous. Also, this creates an in-text contradiction with Section 7 that states, 'each PARTY that receives or obtains CONFIDENTIAL INFORMATION pursuant to the terms of this AGREEMENT shall remain bound for five (5) years from the date of disclosure by all confidentiality obligations, and subject to all remedies, under this AGREEMENT after termination...'",
+        "location": "7.",
+        "contradicted_location": "7.",
+        "contradicted_text": "This AGREEMENT shall expire on Dece mber 31, 2017 . Notwithstanding the foregoing, each PARTY that receives or obtains CONFIDENTIAL INFORMATION pursuant to the terms of this AGREEMENT shall remain bound for five (5) years from the date of disclosure by all confidentiality obligations, and su bject to all remedies, under this AGREEMENT after termination, including, without limitation, the obligations set forth in Sections 3 , 6 and 7 and the remedies specified in Section 4.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that confidentiality obligations last for five years after the agreement expires, whereas the changed text states that there is no obligation to maintain confidentiality after December 31, 2017, regardless of when the information was disclosed. This directly contradicts the contradicted text, which is the same as the original text, stating that confidentiality obligations remain for five years after disclosure, even after termination. The change introduces a clear inconsistency regarding the duration of confidentiality obligations, leading to an in-text contradiction."
+      }
+    ]
+  }
+]

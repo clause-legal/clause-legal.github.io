@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "Principal Life Insurance Company - Broker Dealer Marketing and Servicing Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Broker Dealer will promptly forward to the appropriate office of Distributor, or its authorized designee, all Annuity Contract applications along with other documents, if any, and any payments received with such applications and will have no rights of set off for any reason.",
+        "changed_text": "Broker Dealer will promptly forward to the appropriate office of Distributor, or its authorized designee, all Annuity Contract applications along with other documents, if any, and any payments received with such applications. Broker Dealer reserves the right of set off for outstanding commissions or other debts owed by Distributor.",
+        "explanation": "This change introduces a contradiction in Section 8. The original text explicitly states that the Broker Dealer has 'no rights of set off for any reason'. The modified text gives Broker Dealer the right to set off for outstanding commissions which causes an in-text contradiction. This creates uncertainty and conflict, especially if Broker Dealer withholds applications due to a payment dispute.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "Broker Dealer will promptly forward to the appropriate office of Distributor, or its authorized designee, all Annuity Contract applications along with other documents, if any, and any payments received with such applications. Broker Dealer reserves the right of set off for outstanding commissions or other debts owed by Distributor. Any Annuity Contract application that is rejected, together with any payment made and other documents submitted, shall be returned to Broker Dealer or the source of the payments.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly prohibited any right of set-off for the Broker Dealer. The changed text introduces the right of set-off for outstanding commissions, directly contradicting the original prohibition. The contradicted text is the same as the changed text, but the contradiction lies between the initial 'no set off' statement and the subsequent introduction of a 'right to set off'. This introduces a structural flaw as the same clause contains conflicting statements."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Any Party hereto may terminate this Agreement at any time upon prior written notice.",
+        "changed_text": "Any Party hereto may terminate this Agreement at any time without any prior notice.",
+        "explanation": "This change introduces a direct in-text contradiction by removing the written notice requirement for termination. The original clause requires 'prior written notice', the amended clause states termination can occur 'without any prior notice'. This creates uncertainty about termination rights and responsibilities. Removing the notification requirement means there is less of an opportunity to wind down the agreement in an organized and complaint way.",
+        "location": "25",
+        "contradicted_location": "25",
+        "contradicted_text": "Any Party hereto may terminate this Agreement at any time without any prior notice. This Agreement shall automatically terminate if Broker Dealer voluntarily or involuntarily ceases to be or is suspended from being, a member in good standing of FINRA. In addition, Distributor and Issuer reserve the right to terminate this Agreement in the event that any producer of Broker Dealer is suspended, disciplined or found to be in violation of governing insurance or securities laws, rules or regulations. Failure of any Party to terminate this Agreement for any of the causes set forth in this Agreement shall not constitute a waiver of the right to terminate this Agreement at a later time for any such causes.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the 'prior written notice' requirement for termination, directly contradicting the original text's requirement. The contradicted text repeats the changed clause, thereby repeating and reinforcing the contradictory language within the same agreement. This creates a structural flaw where the same clause has conflicting implications based on the modifications, leading to an in-text contradiction as defined by the 'Structural Flaws - In Text Contradiction' perturbation type. The contradiction creates uncertainty about the termination process and the rights/responsibilities of each party."
+      }
+    ]
+  }
+]

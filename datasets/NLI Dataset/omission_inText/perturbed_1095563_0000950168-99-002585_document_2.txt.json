@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "1095563_0000950168-99-002585_document_2.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "(c) Confidential Information and Confidential Materials may be disclosed, reproduced, summarized or distributed only in pursuance of Receiving Party's business relationship with Disclosing Party, and only as otherwise provided hereunder. Receiving Party agrees to segregate all such Confidential Materials from the confidential materials of others in order to prevent commingling.",
+        "changed_text": "(c) Confidential Information and Confidential Materials may be disclosed, reproduced, summarized or distributed only in pursuance of Receiving Party's business relationship with Disclosing Party. Receiving Party agrees to segregate all such Confidential Materials from the confidential materials of others in order to prevent commingling.",
+        "explanation": "The text: \"and only as otherwise provided hereunder\" was removed, creating an in-text contradiction. Removing this phrase implies that the Receiving Party can disclose information only in the context of the business relationship, but it removes the explicit exceptions or allowances potentially outlined elsewhere in the agreement. This omission limits the flexibility intended by the contract, where disclosures might have been permitted under specific circumstances detailed in other sections, thus creating an in-text contradiction.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "Restrictions ------------ (c) Confidential Information and Confidential Materials may be disclosed, reproduced, summarized or distributed only in pursuance of Receiving Party's business relationship with Disclosing Party. Receiving Party agrees to segregate all such Confidential Materials from the confidential materials of others in order to prevent commingling.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed for disclosure of confidential information beyond the business relationship, as outlined elsewhere in the agreement ('only as otherwise provided hereunder'). The changed text removes this allowance, restricting disclosure solely to the business relationship. This directly contradicts the possibility of disclosures permitted in other sections of the contract, thus creating an in-text contradiction because it narrows the conditions of disclosure. The contradicted text is an exact copy of the changed text, implying that the change occurred in the contradictory text as well."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "(d) Receiving Party may not reverse engineer, decompile or disassemble any software disclosed to Receiving Party.",
+        "changed_text": "(d) Receiving Party may reverse engineer, decompile or disassemble any software disclosed to Receiving Party.",
+        "explanation": "The omission of the term \"not\" was inserted. This creates an in-text contradiction since, reverse engineering, decompiling, and disassembling software is now allowed. This is contradictory to common confidentiality agreements.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "Restrictions ------------ (d) Receiving Party may reverse engineer, decompile or disassemble any software disclosed to Receiving Party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that the Receiving Party 'may not' reverse engineer, decompile, or disassemble any software. The changed text removes the 'not', now stating that the Receiving Party 'may' perform these actions. The contradicted text, which is the exact same as the changed text, explicitly allows these actions. Since the original text prohibits these actions and the changed text allows it, this creates a direct contradiction. The omission of 'not' is a strong contradiction, as it directly inverts the permitted actions, leading to potential confusion and legal issues regarding the allowable use of the disclosed software."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "(c) Receiving Party acknowledges that monetary damages may not be a sufficient remedy for unauthorized disclosure of Confidential Information and that Disclosing Party shall be entitled, without waiving any other rights or remedies, to such injunctive or equitable relief as may be deemed proper by a court of competent jurisdiction.",
+        "changed_text": "(c) Receiving Party acknowledges that monetary damages may not be a sufficient remedy for unauthorized disclosure of Confidential Information and that Disclosing Party shall be entitled to such injunctive or equitable relief as may be deemed proper by a court of competent jurisdiction.",
+        "explanation": "The phrase \"without waiving any other rights or remedies,\" was intentionally omitted to create an in-text contradiction concerning the Disclosing Party's ability to pursue multiple forms of legal recourse. By omitting this clause, the agreement implies that seeking injunctive or equitable relief might waive other available remedies, such as monetary damages, thus limiting the Disclosing Party's options and creating a contradiction with standard legal practices that generally allow for the concurrent pursuit of multiple remedies unless explicitly waived. The overall intent of legal recourse is contradicted",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Rights and Remedies ------------------- (c) Receiving Party acknowledges that monetary damages may not be a sufficient remedy for unauthorized disclosure of Confidential Information and that Disclosing Party shall be entitled to such injunctive or equitable relief as may be deemed proper by a court of competent jurisdiction.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text omits \"without waiving any other rights or remedies,\". The original text allows the Disclosing Party to pursue injunctive or equitable relief without giving up other remedies. The changed text implies seeking injunctive relief might waive other remedies. This directly conflicts with the original intent of legal recourse as it limits the Disclosing Party's options for remedy. Therefore, a strong contradiction exists."
+      }
+    ]
+  }
+]

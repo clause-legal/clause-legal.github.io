@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "BNLFINANCIALCORP_03_30_2007-EX-10.8-OUTSOURCING AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The initial term (\"Initial Term\") of this Agreement shall be for one year commencing on the 1st day of May, 2006 (\"Effective Date\"). Payments under this Agreement by BNL shall commence as provided in paragraph 5(A) hereof.",
+        "changed_text": "The initial term (\"Initial Term\") of this Agreement shall be for one year commencing on the 1st day of May, 2006 (\"Effective Date\"). Payments under this Agreement by BNL shall commence 90 days after the Effective Date.",
+        "explanation": "This change introduces a contradiction by altering when payments commence. Originally, payments began as provided in paragraph 5(A), which outlines the payment schedule. The modified text delays the commencement of payments by 90 days, creating an in-text contradiction with paragraph 5(A), where the payment schedules are detailed.",
+        "location": "15. A",
+        "contradicted_location": "5. A",
+        "contradicted_text": "For EDP Services provided pursuant to this Agreement, BNL will pay to VIP the charges set forth in the Payment Schedule attached hereto as Schedule B: provided however and notwithstanding anything to the contrary herein. The minimum monthly fee shall not be less than five thousand dollars ($5,000) per month (as applicable, \"Minimum Fee\").",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a 90-day delay in the commencement of payments, directly contradicting the contradicted text that states BNL will pay VIP the charges set forth in Schedule B (Payment Schedule), which presumably does not account for this 90-day delay. This creates a clear conflict regarding when payments are due, making the agreement ambiguous and leading to potential disputes. This aligns with the definition of Ambiguities - In Text Contradiction where the agreement is defined inconsistently."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "VIP shall give BNL reasonable advance notice of all such scheduled downtime.",
+        "changed_text": "VIP shall give BNL at least 24 hours advance notice of all such scheduled downtime.",
+        "explanation": "This change specifies the 'reasonable advance notice' for scheduled downtime to 'at least 24 hours'. This conflicts with Section 12 (D), where VIP is expected to 'ensure the availability of the VIP system for BNL ' use at least during the hours of7:00 a.m. through 5:00 p.m. (central time) each day Monday through Friday', as very short notice may mean the downtime disrupts system availability during those specified hours, effectively contradicting the system availability requirements.",
+        "location": "3",
+        "contradicted_location": "12. D",
+        "contradicted_text": "Except in instances beyond VIP's reasonable control under paragraph 16(J) or as provided in paragraph 3, ensure the availability of the VIP system for BNL ' use at least during the hours of7:00 a.m. through 5:00 p.m. (central time) each day Monday through Friday.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed for 'reasonable advance notice,' while the changed text specifies 'at least 24 hours.' This introduces a potential contradiction. The contradicted text requires VIP to ensure system availability during specific hours (7 am - 5 pm CT, Mon-Fri). Giving only 24 hours' notice could lead to scheduled downtime during those hours, thus violating the availability requirement, which is only excused by events beyond VIP's control or paragraph 3. The specified downtime notice now potentially allows for downtime during core hours, creating a contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Any sum due VIP hereunder for which a time for payment is not otherwise specified will be due and payable within ten (10) days after the date of the postmark for an invoice therefor from VIP.",
+        "changed_text": "Any sum due VIP hereunder for which a time for payment is not otherwise specified will be due and payable within thirty (30) days after the date of the postmark for an invoice therefor from VIP.",
+        "explanation": "This change modifies the payment term from ten (10) days to thirty (30) days. It creates a contradiction with Section 7 (A), which discusses termination for cause if BNL fails to pay any sums of money due to VIP and does not cure such default within thirty (30) days after receipt of written notice of such nonpayment from VIP. The change in Section 5(D) extends the initial payment window to thirty days, meaning a delay in payment within this period no longer triggers the termination clause based on the original intent of Section 7(A), where it implied a shorter initial payment timeframe.",
+        "location": "5. D",
+        "contradicted_location": "7. A",
+        "contradicted_text": "In the event that BNL fails to pay any sums of money due to VIP hereunder and does not cure such default within thirty (30) days after receipt of written notice of such nonpayment from VIP , provided that if BNL notifies VIP in writing that BNL disputes a billing and BNL pays any undisputed portion of such billing VIP shall not institute formal proceedings by arbitration or judicial review or terminate this Agreement with respect to such disputed billing until after VIP has afforded BNL an opportunity for a meeting to discuss such dispute.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 5(D) extends the payment term to thirty (30) days. This directly contradicts the original intent of Section 7(A), where a shorter payment timeframe was implicitly linked to potential termination for cause. By extending the payment window, the changed text weakens the termination clause, making the two sections incompatible and creating an in-text contradiction. A failure to pay within the original ten (10) days in 5(D) would have triggered 7(A). Now, a failure to pay within ten (10) days, but before thirty (30) days, would not trigger 7(A)."
+      }
+    ]
+  }
+]

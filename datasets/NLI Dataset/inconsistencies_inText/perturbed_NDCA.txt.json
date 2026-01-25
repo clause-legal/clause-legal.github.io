@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "NDCA.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "That all Information is provided by the Seller and is not verified in any way by Tameracq Partners, Inc. Tameracq Partners, Inc is relying on Seller for the accuracy and completeness of said Information, has no knowle dge of the accuracy of said Information and makes no warranty, expressed or implied, as to such Information.",
+        "changed_text": "That all Information is provided by the Seller and is verified in a limited way by Tameracq Partners, Inc, specifically regarding readily available public records. Tameracq Partners, Inc is relying on Seller for the accuracy and completeness of all other Information, has no knowle dge of the accuracy of said Information beyond readily available public records and makes no warranty, expressed or implied, as to such Information beyond that which is publicly verifiable.",
+        "explanation": "By stating that Tameracq Partners, Inc verifies information in a 'limited way' but then disclaims responsibility for the accuracy of 'said Information', this creates an in-text contradiction. The clause implies verification while simultaneously denying any liability related to said verification, creating uncertainty regarding their responsibility.",
+        "location": "Paragraph 4",
+        "contradicted_location": "Paragraph 4",
+        "contradicted_text": "That all Information is provided by the Seller and is verified in a limited way by Tameracq Partners, Inc, specifically regarding readily available public records. Tameracq Partners, Inc is relying on Seller for the accuracy and completeness of all other Information, has no knowle dge of the accuracy of said Information beyond readily available public records and makes no warranty, expressed or implied, as to such Information beyond that which is publicly verifiable.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that Tameracq Partners, Inc verifies information in a 'limited way' regarding public records. However, it simultaneously disclaims knowledge of accuracy beyond those public records and makes no warranty beyond what is publicly verifiable. This creates a direct contradiction: The clause implies verification but denies liability related to that verification, which creates uncertainty about their responsibility, aligning with the definition of 'Inconsistencies - In Text Contradiction'."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "That, prior to finalizing an agreement to purchase a busine ss, it is my responsibility to make an independent verification of all information. I agree that Tameracq Partners, Inc is not responsible for the accuracy of any Informati on I received and I agree to indemnify and hold Tameracq Partners, Inc harmless from any claims or damages resulting from its use.",
+        "changed_text": "That, prior to finalizing an agreement to purchase a busine ss, it is my responsibility to make an independent verification of all information, unless Tameracq Partners, Inc has provided written assurance of accuracy. I agree that Tameracq Partners, Inc is not responsible for the accuracy of any Informati on I received, unless they have provided written assurance of accuracy, and I agree to indemnify and hold Tameracq Partners, Inc harmless from any claims or damages resulting from its use.",
+        "explanation": "The addition of 'unless Tameracq Partners, Inc has provided written assurance of accuracy' creates a contradiction. The clause originally states the potential investor is solely responsible for verification and Tameracq is not liable, but this addition implies Tameracq *can* be responsible if they give written assurance. This introduces uncertainty and potential liability for Tameracq, conflicting with the original intent.",
+        "location": "Paragraph 5",
+        "contradicted_location": "Paragraph 5",
+        "contradicted_text": "That, prior to finalizing an agreement to purchase a busine ss, it is my responsibility to make an independent verification of all information, unless Tameracq Partners, Inc has provided written assurance of accuracy. I agree that Tameracq Partners, Inc is not responsible for the accuracy of any Informati on I received, unless they have provided written assurance of accuracy, and I agree to indemnify and hold Tameracq Partners, Inc harmless from any claims or damages resulting from its use.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds an exception ('unless Tameracq Partners, Inc has provided written assurance of accuracy') to the original statement that the investor is solely responsible for verifying information and that Tameracq is not responsible for its accuracy. This directly contradicts the original intent of holding Tameracq harmless and places a conditional liability on them based on written assurances, which creates a clear and direct conflict within the document itself, as the original text states that Tameracq is not responsible for any information."
+      }
+    ]
+  }
+]

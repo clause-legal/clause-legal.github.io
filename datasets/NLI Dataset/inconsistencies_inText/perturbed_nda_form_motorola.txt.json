@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "nda_form_motorola.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "All information, materials and assets in the Motorola Mobility facility I am visiting, including without limitation any products, prototypes, strategies, business plans or other information I observe, am told about, or otherwise come in contact with, belongs to Motorola (“Confidential Motorola Information”)",
+        "changed_text": "All information, materials and assets in the Motorola Mobility facility I am visiting, including without limitation any products, prototypes, strategies, business plans or other information I observe, am told about, or otherwise come in contact with, may belong to Motorola (“Confidential Motorola Information”). Ownership will be determined on a case-by-case basis.",
+        "explanation": "This change introduces an in-text contradiction. Initially, all information within the facility is defined as 'Confidential Motorola Information' and belonging to Motorola. The modification introduces uncertainty by stating that ownership 'may' belong to Motorola and will be determined on a case-by-case basis. This contradicts subsequent clauses that assume all such information is inherently Motorola's property and is considered confidential, particularly clause 2 about not disclosing information without authorization.",
+        "location": "1",
+        "contradicted_location": "2",
+        "contradicted_text": "I will NOT disclose, share, publish or utilize any Confidential Motorola Information without the prior authorization from Motorola Mobility.",
+        "contradiction_exists": "YES",
+        "justification": "The original text definitively states that all information within the facility belongs to Motorola and is confidential. The changed text introduces uncertainty by stating that ownership 'may' belong to Motorola and will be determined on a case-by-case basis. This directly contradicts the contradicted text, which assumes all such information is Confidential Motorola Information, and requires that it not be disclosed without authorization."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "I will NOT take photographs or recordings.",
+        "changed_text": "I will NOT take photographs or recordings without express written permission from a Motorola executive.",
+        "explanation": "This change adds a condition (express written permission) that contradicts the general prohibition against photography and recordings. While seemingly allowing some flexibility, it creates an in-text contradiction with the later clause stating legal action will be taken for 'any violation of the foregoing', as it's now unclear if taking a photo with permission is a violation or not. This adds legal uncertainty.",
+        "location": "4",
+        "contradicted_location": "12",
+        "contradicted_text": "Motorola takes the protection of its confidential information very seriously. Any violation of the foregoing will result in your visit being terminated, and possibly legal action.",
+        "contradiction_exists": "YES",
+        "justification": "The original text completely prohibits photographs and recordings. The changed text now allows them with permission. The contradicted text states that 'any violation of the foregoing' (which includes the prohibition on photographs/recordings) will result in termination and possible legal action. The changed text creates an inconsistency because it's unclear whether taking a photo with permission is a violation or not, directly contradicting the 'any violation' clause in the contradicted text. The change introduces ambiguity where certainty was expected, causing a strong contradiction, as it's now unclear if the rule is a hard rule or one that can be waived, leading to potential disputes about contractual obligations, aligning with the 'Inconsistencies - In Text Contradiction' perturbation type."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "I will stay with my Motorola approved host at all times.",
+        "changed_text": "I will stay with my Motorola approved host at all times unless expressly directed otherwise by Motorola Security.",
+        "explanation": "This change introduces a contradiction. While the original text requires staying with the host at all times, the modification allows deviation based on the directions of Motorola Security. This contradicts the accountability provision outlined in clause 10 which states both the visitor and host are accountable for the visitor's actions, as it's unclear if the host remains accountable when the visitor is acting under the direction of security. This introduces ambiguity about who is responsible when a visitor isn't with their host.",
+        "location": "7",
+        "contradicted_location": "10",
+        "contradicted_text": "I understand my Motorola host must be a Motorola employee or Motorola Contractor with Escort Privileges, and that my Motorola host and myself are accountable for my actions.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the visitor 'will stay with my Motorola approved host at all times'. The changed text adds an exception: 'unless expressly directed otherwise by Motorola Security'. This directly contradicts the original requirement. The contradicted text states that both the host and visitor 'are accountable for my actions.' However, if the visitor is following the direction of Motorola Security and not the host, it introduces ambiguity about accountability. This creates a clear and impactful contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "I agree that my admittance into the Motorola facility is a revocable license, and is subject to revocation. I agree that I may be removed from the Motorola Facility at Motorola’s discretion.",
+        "changed_text": "I agree that my admittance into the Motorola facility is a revocable license, and is subject to revocation only if a material breach of this agreement occurs. I agree that I may be removed from the Motorola Facility only upon evidence of said material breach.",
+        "explanation": "By adding 'only if a material breach of this agreement occurs' and 'only upon evidence of said material breach,' the modified text contradicts the original clause allowing Motorola to remove a visitor 'at Motorola's discretion.' The original allows for arbitrary removal, the change requires justification. This creates an in-text contradiction about the conditions under which Motorola can revoke the license.",
+        "location": "11",
+        "contradicted_location": "12",
+        "contradicted_text": "Motorola takes the protection of its confidential information very seriously. Any violation of the foregoing will result in your visit being terminated, and possibly legal action.",
+        "contradiction_exists": "YES",
+        "justification": "The original text granted Motorola the discretion to remove a visitor, while the changed text restricts this power, requiring a material breach. This directly contradicts the 'Contradicted Text,' which states that 'Any violation of the foregoing will result in your visit being terminated'. The 'foregoing' is not conditional upon a material breach, which is in conflict with the conditionality introduced by the changed text, creating a strong in-text contradiction, and aligns with the definition of 'Inconsistencies - In Text Contradiction'."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Any violation of the foregoing will result in your visit being terminated, and possibly legal action.",
+        "changed_text": "Any intentional and material violation of the foregoing will result in your visit being terminated, and possibly legal action. However, unintentional or immaterial violations may be subject to a warning.",
+        "explanation": "This change introduces a contradiction by differentiating between intentional/material violations and unintentional/immaterial violations, leading to uncertainty. Initially, the text implies any violation leads to termination and legal action. The modified text makes it ambiguous what constitutes a material vs. immaterial violation and who decides that. This in-text contradiction creates uncertainty in enforcement, especially regarding clauses where the severity of the violation isn't clearly defined.",
+        "location": "12",
+        "contradicted_location": "3",
+        "contradicted_text": "I will keep everything I see, touch or hear strictly confidential. In particular, I agree NOT, to blog or otherwise post any Confidential Motorola Information to any social media websites.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that 'Any violation' will result in termination and possibly legal action. The changed text now introduces the concepts of 'intentional and material' vs. 'unintentional or immaterial' violations, where the latter might only result in a warning. This contradicts the previously absolute statement. The contradicted text states 'I will keep everything I see, touch or hear strictly confidential,' implying that ANY breach of confidentiality, regardless of intent or materiality, is a violation. The introduction of 'intentional and material' qualifications creates ambiguity and inconsistency in enforcement, directly contradicting the absolute nature of the confidentiality agreement."
+      }
+    ]
+  }
+]

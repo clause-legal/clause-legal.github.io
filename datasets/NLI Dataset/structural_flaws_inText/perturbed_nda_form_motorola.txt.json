@@ -1,0 +1,18 @@
+[
+  {
+    "file_name": "nda_form_motorola.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "I understand my Motorola host must be a Motorola employee or Motorola Contractor with Escort Privileges, and that my Motorola host and myself are accountable for my actions.",
+        "changed_text": "I understand my Motorola host must be a Motorola employee or Motorola Contractor with Escort Privileges. While my Motorola host and myself are generally accountable for my actions, Motorola shall bear ultimate responsibility for any liability arising from unintended consequences of authorized activities.",
+        "explanation": "The initial clause states that both the visitor and their Motorola host are accountable for the visitor's actions. The added text shifts ultimate responsibility to Motorola for 'unintended consequences of authorized activities'. This creates a contradiction because it's unclear to what extent the host and visitor remain accountable versus when Motorola takes over, introducing ambiguity in liability. It contradicts at the location the change was introduced.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "I understand my Motorola host must be a Motorola employee or Motorola Contractor with Escort Privileges. While my Motorola host and myself are generally accountable for my actions, Motorola shall bear ultimate responsibility for any liability arising from unintended consequences of authorized activities.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the visitor and host are accountable for the visitor's actions. The changed text adds that Motorola bears 'ultimate responsibility' for 'unintended consequences of authorized activities.' This creates a contradiction because it introduces ambiguity about the extent of the host and visitor's accountability versus Motorola's, contradicting the initial clear statement of joint accountability. The contradicted text is identical to the changed text as the change itself creates the contradiction, adhering to the 'Structural Flaws - In Text Contradiction' definition."
+      }
+    ]
+  }
+]

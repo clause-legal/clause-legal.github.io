@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "vmw-certification-conduct-policy.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Recipient expressly agrees not to use the Confidential Information for purposes other than those necessary to consider the possibility of entering into a business relationship with the Company.",
+        "changed_text": "Recipient expressly agrees not to use the Confidential Information for purposes other than those necessary to consider the possibility of entering into a business relationship with the Company. However, Recipient is allowed to use Confidential Information to evaluate competing products.",
+        "explanation": "This change introduces a contradiction by allowing the Recipient to use Confidential Information to evaluate competing products. This directly clashes with the original restriction that limits the use of Confidential Information to considering a business relationship with the Company. Now there is uncertainty around what the recipient can and cannot do with the company's confidential information, with a in-text contradiction.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "Recipient expressly agrees not to use the Confidential Information for purposes other than those necessary to consider the possibility of entering into a business relationship with the Company. However, Recipient is allowed to use Confidential Information to evaluate competing products.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds a clause that allows the Recipient to use the Confidential Information to evaluate competing products. The original text, which is also the contradicted text, expressly prohibits the use of Confidential Information for purposes other than considering a business relationship with the Company. The changed text directly conflicts with this prohibition, creating a strong in-text contradiction. The explanation provided confirms this contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "All Confidential Information remains the property of the Company and no license or other rights in the Confidential Informati on is granted hereby.",
+        "changed_text": "All Confidential Information remains the property of the Company, however, a limited, non-exclusive license to use the Confidential Information for internal evaluation purposes is granted hereby.",
+        "explanation": "This change creates a direct conflict. The original clause states that no license or other rights are granted in the Confidential Information. The modified clause then grants a 'limited, non-exclusive license' for internal evaluation. This creates ambiguity about whether the Recipient has any rights to use the Confidential Information, and if so, under what conditions.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "All Confidential Information remains the property of the Company, however, a limited, non-exclusive license to use the Confidential Information for internal evaluation purposes is granted hereby.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that no license or rights were granted regarding the confidential information. The changed text explicitly grants a 'limited, non-exclusive license' to use the confidential information. This directly contradicts the original statement of no rights being granted, creating a clear in-text contradiction as per the 'Inconsistencies - In Text Contradiction' definition."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Recipient hereby acknowledges that unauthorized disclosure or use of Confidential Information could cause irreparable harm an d significant injury which may be difficult to ascertain. Accordingly, Recipient agrees that the Company shall have the right to seek and obtain immediate injunctive relief from breaches of this Agreement, in addition to any other rights and remedies it may have.",
+        "changed_text": "Recipient hereby acknowledges that unauthorized disclosure or use of Confidential Information could cause irreparable harm an d significant injury which may be difficult to ascertain. However, for any disclosure of information that is not core to the Company’s business, Recipient and Company will first attempt to resolve such issues through mediation before initiating legal proceedings. Accordingly, Recipient agrees that the Company shall have the right to seek and obtain immediate injunctive relief from breaches of this Agreement, in addition to any other rights and remedies it may have.",
+        "explanation": "This change adds a requirement for mediation before legal proceedings for disclosures 'that is not core to the Company’s business', contradicting the statement that the Company has the right to 'seek and obtain immediate injunctive relief' for all breaches. Now, the injunctive relief is not applicable for every unauthorized disclosure of information, creating an in-text contradiction.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "Recipient hereby acknowledges that unauthorized disclosure or use of Confidential Information could cause irreparable harm an d significant injury which may be difficult to ascertain. However, for any disclosure of information that is not core to the Company’s business, Recipient and Company will first attempt to resolve such issues through mediation before initiating legal proceedings. Accordingly, Recipient agrees that the Company shall have the right to seek and obtain immediate injunctive relief from breaches of this Agreement, in addition to any other rights and remedies it may have.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a condition that for disclosures 'that is not core to the Company’s business', mediation is required before legal proceedings. The contradicted text states that the Company has the right to 'seek and obtain immediate injunctive relief' for all breaches. This creates a direct contradiction because the company does not have the right to seek immediate injunctive relief in all cases, as the changed text introduces a mediation requirement for some breaches. This aligns with the provided 'Inconsistencies - In Text Contradiction' perturbation type definition."
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "1001917_0000950123-08-007542_y61533exv99wdw3.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Confidential Information shall not include any information that: (a) prior to its disclosure by the Disclosing Party is already lawfully and rightfully known by or available to the Recipient as evidenced by prior written records; (b) through no wrongful act, fault or negligence on the part of the Recipient is or hereafter becomes part of the public domain; (c) is lawfully received by the Recipient from a third party without restriction and without breach of this agreement or any other agreement; (d) is approved for public release or use by written authorization of the Disclosing Party; (e) the Recipient can demonstrate was independently developed by it without reference to the Disclosing Party’s Confidential Information; or (f) is disclosed pursuant to the requirement or request of a governmental agency or court of competent jurisdiction to the extent such disclosure is required by a valid law, regulation or court order and sufficient notice is given by the Recipient to the Disclosing Party of any such requirement or request in order to permit the Disclosing Party to seek an appropriate protective order or exemption from such requirement or request.",
+        "changed_text": "Confidential Information does not include information approved for public release or use by written authorization of the Disclosing Party.",
+        "explanation": "By removing the other exclusions, the definition of what is *not* considered confidential is drastically reduced. This creates an in-text contradiction with section 2(a) where it mentions that the Recipient has to provide evidence by prior written records to prove what information was already lawfully known. Now that there is only one exclusion, any further context or clarification that was provided has been removed.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "Confidential Information shall not include any information that: (a) prior to its disclosure by the Disclosing Party is already lawfully and rightfully known by or available to the Recipient as evidenced by prior written records; (b) through no wrongful act, fault or negligence on the part of the Recipient is or hereafter becomes part of the public domain; (c) is lawfully received by the Recipient from a third party without restriction and without breach of this agreement or any other agreement; (d) is approved for public release or use by written authorization of the Disclosing Party; (e) the Recipient can demonstrate was independently developed by it without reference to the Disclosing Party’s Confidential Information; or (f) is disclosed pursuant to the requirement or request of a governmental agency or court of competent jurisdiction to the extent such disclosure is required by a valid law, regulation or court order and sufficient notice is given by the Recipient to the Disclosing Party of any such requirement or request in order to permit the Disclosing Party to seek an appropriate protective order or exemption from such requirement or request.",
+        "contradiction_exists": "YES",
+        "justification": "The original text lists several exceptions to the definition of 'Confidential Information.' The changed text drastically reduces these exceptions, only including information approved for public release. This creates a direct contradiction with the contradicted text, which assumes the other exceptions still exist. For example, the contradicted text mentions information already lawfully known by the recipient as an exception, which is now removed by the changed text. Therefore, the changed text creates a contradiction because it narrows the definition of what is *not* confidential, conflicting with the broader understanding used in other sections of the contract."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Each Party shall take reasonable security precautions to protect the Confidential Information, at least as strict as the precautions it takes to protect its own confidential and proprietary information of a similar nature.",
+        "changed_text": "Each Party shall take precautions to protect the Confidential Information.",
+        "explanation": "By removing the standard 'at least as strict as the precautions it takes to protect its own confidential and proprietary information of a similar nature,' the obligation becomes ambiguous. This omission contradicts Section 5, No Warranty, which disclaims warranties regarding the 'sufficiency' of Confidential Information. Now, without a clear standard of care for protecting Confidential Information, the disclaimer in Section 5 is brought into question. If protection is inadequate, can 'sufficiency' be reasonably disclaimed?",
+        "location": "3",
+        "contradicted_location": "5",
+        "contradicted_text": "THE CONFIDENTIAL INFORMATION IS PROVIDED “AS IS,” AND THE DISCLOSING PARTY HEREBY DISCLAIMS ALL REPRESENTATIONS AND WARRANTIES REGARDING THE ACCURACY, SUFFICIENCY, SUITABILITY OR NON-INFRINGEMENT OF SUCH CONFIDENTIAL INFORMATION.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the 'at least as strict as...' clause, creating ambiguity in the required security precautions. This directly contradicts the 'AS IS' disclaimer in Section 5, which disclaims warranties of 'sufficiency'. Without a clear standard of care introduced by the original language, the disclaimer becomes questionable as the term 'sufficiency' is up for interpretation based on the new ambiguous precautions stated in the change text."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Other than through general employment listings and advertising or through the efforts of employment search firms, each Party shall not, during the Term of this Agreement and for one (1) year thereafter, directly or indirectly, solicit or hire any employee or independent contractor of the other Party, or induce any such person to abandon their relationship with the other Party.",
+        "changed_text": "Each Party shall not solicit or hire any employee of the other Party.",
+        "explanation": "By removing the exceptions for 'general employment listings and advertising or through the efforts of employment search firms,' the non-solicitation clause becomes overly restrictive. This omission contradicts section 4 where it also dictates that the Term of this Agreement ends with one year thereafter, because the exception clarifies how employees are hired and can abandon their relationship, that is not as clear since the exception has been removed. What qualifies as soliciting or hiring?",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "Other than through general employment listings and advertising or through the efforts of employment search firms, each Party shall not, during the Term of this Agreement and for one (1) year thereafter, directly or indirectly, solicit or hire any employee or independent contractor of the other Party, or induce any such person to abandon their relationship with the other Party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the exceptions present in the original text, namely 'general employment listings and advertising or through the efforts of employment search firms'. This creates a direct conflict with the contradicted text, which contains those exceptions, and also clarifies that the Term of Agreement ends within one year. The omission makes the non-solicitation clause overly restrictive, creating a contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Parties consent to the jurisdiction of the state and federal courts located in New York, New York.",
+        "changed_text": "The Parties consent to the jurisdiction of state and federal courts.",
+        "explanation": "By removing the specific location of 'New York, New York', the jurisdiction clause becomes ambiguous. This omission contradicts section 9 because of the prior specific location and the omission creates confusion on where matters of construction, validity and performance of the Governing Law take place. Does this apply to all state and federal courts across the nation?",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "This Agreement, including all matters of construction, validity and performance, shall be governed by, construed and enforced in accordance with the laws of the State of Washington, as applied to contracts made and to be fully performed in such state, without regard to its conflict of law rules. The Parties consent to the jurisdiction of the state and federal courts located in New York, New York. A prevailing Party shall be entitled to an award of its reasonable attorneys’ fees and costs arising out of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies jurisdiction in 'New York, New York'. The changed text omits this specific location, broadening the potential jurisdiction to all state and federal courts, which contradicts the original intent and the explicit specification within the 'Contradicted Text'. This creates ambiguity about where matters of construction, validity, and performance of the agreement take place, thus creating a strong contradiction based on the definition of 'Omissions – In Text Contradiction'."
+      }
+    ]
+  }
+]

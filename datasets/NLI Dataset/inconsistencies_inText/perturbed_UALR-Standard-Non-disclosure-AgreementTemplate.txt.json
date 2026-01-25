@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "UALR-Standard-Non-disclosure-AgreementTemplate.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Confidential Information that is disclosed verbally will also be included as proprietary.",
+        "changed_text": "Confidential Information that is disclosed verbally will not be included as proprietary.",
+        "explanation": "The modified text creates a direct in-text contradiction by excluding verbally disclosed information from the definition of proprietary information, while the original text explicitly includes it. This creates ambiguity about the protection of verbally shared confidential details.",
+        "location": "1",
+        "contradicted_location": "1",
+        "contradicted_text": "Confidential Information is defined as any information, whether written or verbal, of either party hereto, (Disclosing Party) which is disclosed to o r observed by the other party (Receiving Party) in connection with or as a result of the evaluation of any possible transaction between the Univers ity of Arkansas at Little Rock and ______________________________ and which is, at the time of disclosure, marked as being Confident ial or Proprietary, or is reasonably identifiable as confidential, proprietary information of the Disclosing Party pertaining to information in the areas of (subject matter) : _______________________________________________ ___________________________. Such Confidential Information may include, but is not li mited to, business plans, forecasts, content, processes, projections or analysis, software, hardware, product, or system designs, specifications, documentation, code, structure, or protocols. Confidential Information that is disclosed verbally will not be included as proprietary.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that verbally disclosed information will *not* be included as proprietary, directly contradicting the contradicted text, which includes the sentence, 'Confidential Information that is disclosed verbally will not be included as proprietary.' This creates a clear inconsistency regarding whether verbal disclosures are considered proprietary. The original text prior to the change said verbally disclosed information *will* be included as proprietary. The definition of 'Inconsistencies - In Text Contradiction' is met because different sections (in this case, the same section after modification) of a contract provide conflicting definitions, creating in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Before receiving any part of the Confidential Information, Receiving Party’s employees shall be required to read this Non -disclosure Agreement and, by receiving such Confidential Information, such employee shall acknowledge and agree to abide by the Receiving Party’s obligations hereunder.",
+        "changed_text": "Before receiving any part of the Confidential Information, Receiving Party’s employees are not required to read this Non -disclosure Agreement, and no acknowledgement is needed to abide by the Receiving Party’s obligations hereunder.",
+        "explanation": "This creates a conflict regarding employee obligations. The initial text requires employees to read and acknowledge the agreement before accessing confidential data. The modified text eliminates this requirement, causing inconsistency in enforcing confidentiality among the receiving party's staff.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "Unless expressly authorized in writing by the Disclosing Party, the Receiving Party agrees to retain the Confidential Information in confidence and shall not copy or disclose the Confidential Information to or use the Confidenti al Information for the benefit of any third party. Confidential Information shall only be disclosed to the Receiving Party’s employees and, even then, only to the extent that such employees have a specific need to know of the Confidential information, for the evaluation of the proposed transaction. Before receiving any part of the Confidential Information, Receiving Party’s employees are not required to read this Non -disclosure Agreement, and no acknowledgement is needed to abide by the Receiving Party’s obligations hereunder.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that Receiving Party's employees are not required to read the Non-disclosure Agreement and need not acknowledge it to abide by the obligations. This directly contradicts the first paragraph of the 'Contradicted Text', which states that Confidential Information shall only be disclosed to the Receiving Party’s employees and, even then, only to the extent that such employees have a specific need to know of the Confidential information, for the evaluation of the proposed transaction.' It now opens the door for employees without the 'need to know' and not reading the NDA to access the confidental information."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Either party will be relieved of its obligation hereunder it, and to the extent, that Confidential Information is explicitly approved for release by written authorization of the Disclosing Party.",
+        "changed_text": "Either party will be relieved of its obligation hereunder it, and to the extent, that Confidential Information is explicitly approved for release by verbal authorization of the Disclosing Party.",
+        "explanation": "This change creates a contradiction by allowing verbal authorization for releasing confidential information, conflicting with the implicit requirement of written consent in other sections. This ambiguity raises disputes over the validity of verbal approvals.",
+        "location": "4",
+        "contradicted_location": "2",
+        "contradicted_text": "Unless expressly authorized in writing by the Disclosing Party, the Receiving Party agrees to retain the Confidential Information in confidence and shall not copy or disclose the Confidential Information to or use the Confidenti al Information for the benefit of any third party. Confidential Information shall only be disclosed to the Receiving Party’s employees and, even then, only to the extent that such employees have a specific need to know of the Confidential information, for the evaluation of the proposed transaction. Before receiving any part of the Confidential Information, Receiving Party’s employees shall be required to read this Non -disclosure Agreement and, by receiving such Confidential Information, such employee shall acknowledge and agree to abide by the Receiving Party’s obligations hereunder.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that a party can be relieved of obligations if Confidential Information is approved for release by *written* authorization. The changed text modifies this to allow *verbal* authorization. The contradicted text states: 'Unless expressly authorized in writing...'. Therefore, allowing verbal authorization directly contradicts the requirement for written authorization outlined in the contradicted text."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "No license, express or implied, in the Confidential Information is granted to either party other than to use the information in the manner and to the extent authorized by this Agreement. Each Party shall retain the t itle and full ownership rights to their respective “Confidential Information”.",
+        "changed_text": "A license, express or implied, in the Confidential Information is granted to either party other than to use the information in the manner and to the extent authorized by this Agreement. Each Party shall retain the t itle and full ownership rights to their respective “Confidential Information”.",
+        "explanation": "The modification, specifically the removal of \"No,\" introduces an in-text contradiction by now granting a license (express or implied) concerning the confidential information. This contradicts the original intent of retaining full ownership and title rights, potentially leading to disputes about usage rights and intellectual property ownership. This creates uncertainty regarding usage rights of the confidential information and clashes with the intended protection of ownership.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "A license, express or implied, in the Confidential Information is granted to either party other than to use the information in the manner and to the extent authorized by this Agreement. Each Party shall retain the t itle and full ownership rights to their respective “Confidential Information”.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly prohibited any implied license, while the changed text grants a license (express or implied). The contradicted text, which is the same as the changed text, now grants a license while retaining the title and full ownership rights, which is contradictory. The change directly contradicts the idea of retaining full ownership rights by granting a license."
+      }
+    ]
+  }
+]

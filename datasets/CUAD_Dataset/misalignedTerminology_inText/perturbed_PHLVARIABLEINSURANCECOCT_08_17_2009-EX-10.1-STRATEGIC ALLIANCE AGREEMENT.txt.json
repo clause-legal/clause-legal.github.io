@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "PHLVARIABLEINSURANCECOCT_08_17_2009-EX-10.1-STRATEGIC ALLIANCE AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "1.34 ICC Customer. A customer or client of ICC who has established an ICC Account.",
+        "changed_text": "1.34 ICC Customer. An individual who has established an ICC Account.",
+        "explanation": "The definition of 'ICC Customer' is changed from 'customer or client' to 'individual'. This creates a contradiction because other sections of the contract refer to 'ICC Customer' in ways that imply they can be entities, not just individuals. This makes the enforcement uncertain as entities could argue they don't fall under the definition of ICC Customer anymore. Specifically section 1.34 original definition allows for 'customer or client of ICC'. The modification limits the definition only to an 'individual' which contradicts the possibility of an entity being considered an ICC Customer. Since in multiple other sections the agreement considers ICC customer as an auditable entity (as a customer or client) the contradiction affects the enforcement.",
+        "location": "Section 1",
+        "contradicted_location": "Section 1.34",
+        "contradicted_text": "1.34 ICC Customer. An individual who has established an ICC Account.",
+        "contradiction_exists": "NO",
+        "justification": "The changed text and contradicted text are identical. However, the explanation states that changing the definition of 'ICC Customer' from 'customer or client' to 'individual' creates a contradiction with other sections that imply ICC Customers can be entities. Since the changed and contradicted text are the same, and both define ICC customer as 'an individual', there is no in-text contradiction between these two specific sections. The contradiction only arises when comparing this definition to other sections not provided. Without those other sections, it's impossible to definitively say there's an in-text contradiction based solely on the provided text, thus NO."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "1.53 Term. The term shall have the meaning set forth in Section 2.",
+        "changed_text": "1.53 Term. The term shall have the meaning set forth in Section 15.",
+        "explanation": "The definition of 'Term' is now referring to Section 15, where duration and termination are described, instead of Section 2. This introduces an in-text contradiction because Section 2 explicitly states the agreement's start and end based on the Effective Date, making the enforcement uncertain regarding the actual duration of the agreement. Specifically section 1.53 should be refering the Term defintion, in Section 2.01, but with the modification is being refferred Section 15 where termination and suspension are described, the contradiction creates enforcement uncertainte because Section 2 states the agreement's start and end based on the effective date.",
+        "location": "Section 1",
+        "contradicted_location": "Section 2.01",
+        "contradicted_text": "2.01 This Agreement shall commence on the Effective Date and shall continue until it is terminated in accordance with the provisions of Section 15 of this Agreement (\"Term\").",
+        "contradiction_exists": "YES",
+        "justification": "The modified text changes the definition of 'Term' to refer to Section 15 (termination and suspension) instead of Section 2, which defines the agreement's duration based on the Effective Date. This creates a direct contradiction because Section 2.01 explicitly states the 'Term' is defined by its provisions. By redefining 'Term' to be defined by Section 15 in Section 1.53, the agreement's duration becomes uncertain and contradicts Section 2.01, where it is clearly defined, leading to enforcement uncertainty."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "11.03.1 Confidentiality of Nonpublic Personal Information. The Parties each acknowledge they may come into possession of nonpublic personal information regarding \"customers\" or \"consumers\" of the other Party, as those terms are defined in Regulation S-P as enacted by the SEC and in other applicable Laws relating to privacy of nonpublic personal information (collectively, \"Nonpublic Personal Information.\")",
+        "changed_text": "11.03.1 Confidentiality of Nonpublic Personal Information. The Parties each acknowledge they may come into possession of nonpublic personal information regarding \"clients\" of the other Party, as those terms are defined in Regulation S-P as enacted by the SEC and in other applicable Laws relating to privacy of nonpublic personal information (collectively, \"Nonpublic Personal Information.\")",
+        "explanation": "The definition of 'Nonpublic Personal Information' is changed. The original text the parties will have access to nonpublic information of 'customers' or 'consumers' of the other party, while the new definition will be only about the 'clients' of the other party. Regulation S-P refers to consumers when an individual shares NPI but doesn't have an established relationship. By removing 'consumers' it potentially limits the scope of NPI protection under this agreement. This change causes uncertainty in enforcement because it narrows the scope of protected information, making it unclear whether information from potential consumers is covered. Specifically, section 11.03.1 will be referring the confidentiality of nonpublic information only from 'clients' removing the scope where 'consumers' are also part of the protection of nonpublic personal information",
+        "location": "Section 11.03.1",
+        "contradicted_location": "Section 11.03.1",
+        "contradicted_text": "11.03.1 Confidentiality of Nonpublic Personal Information. The Parties each acknowledge they may come into possession of nonpublic personal information regarding \"clients\" of the other Party, as those terms are defined in Regulation S-P as enacted by the SEC and in other applicable Laws relating to privacy of nonpublic personal information (collectively, \"Nonpublic Personal Information.\")",
+        "contradiction_exists": "NO",
+        "justification": "While the explanation details a potential narrowing of the scope of 'Nonpublic Personal Information' by changing 'customers' or 'consumers' to only 'clients,' the contradicted text is identical to the changed text. Thus, there is no direct in-text contradiction. The potential issue exists between the original and changed text, but not between the changed and contradicted texts. Both texts refer to 'clients'. Since the changed text and contradicted text are the same, there is no contradiction."
+      }
+    ]
+  }
+]

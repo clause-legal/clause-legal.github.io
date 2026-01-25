@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "Non-Disclosure-Agreement-v1.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "For purposes of this Agreement, \"Confidential Information\" shall include all information or material that has or could have commercial value or other utility in the business in which Disclosing Party is engaged. If Confidential Information is in written form, the Disclosing Party shall label or stamp the materials with the word \"Confidential\" or some similar warning. If Confidential Information is transmitted orally, the Disclosing Par ty shall promptly provide a writing indicating that such oral communication constituted Confidential Information.",
+        "changed_text": "For purposes of this Agreement, \"Confidential Information\" shall include all information or material that has or could have commercial value or other utility in the business in which Disclosing Party is engaged. Information provided without explicit warning, either written or oral, does not fall under the definition of Confidential Information. If Confidential Information is in written form, and the Disclosing Party fails to label or stamp the materials with the word \"Confidential\" or some similar warning, then it is not considered confidential. If Confidential Information is transmitted orally, but the Disclosing Party fails to promptly provide a writing indicating that such oral communication constituted Confidential Information, it will not be considered as such.",
+        "explanation": "This change introduces a contradiction by stating that information is not considered confidential if it is not explicitly labeled or confirmed in writing, effectively narrowing the original broad definition. While the original text requires labeling, the change introduces uncertainty because it strongly emphasizes that if there is a lack of confirmation, it is not confidential.",
+        "location": "Definition of Confidential Information",
+        "contradicted_location": "Obligations of Receiving Party",
+        "contradicted_text": "Obligations of Receiving Party. Receiving Party shall hold and maintain the Confid ential Information in strictest confidence for the sole and exclusive benefit of the Disclosing Party. Receiving Party shall carefully restrict access to Confidential Information to employees, contractors, and third parties as is reasonably required and shall require those persons to sign nondisclosure restrictions at least as protective as those in this Agreement. Receiving Party shall not, without prior written approval of Disclosing Party, use for Receiving Party's own benefit, publish, copy, or otherwis e disclose to others, or permit the use by others for their benefit or to the detriment of Disclosing Party, any Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text significantly narrows the definition of 'Confidential Information' by stating that it is not considered confidential if not explicitly labeled or confirmed in writing. This directly contradicts the 'Obligations of Receiving Party' section, which mandates strict confidentiality for all 'Confidential Information' without qualification regarding labeling. The original text only mentions labeling as a means of communication, while the change creates a strict condition that makes the information not confidential if this condition is not met, creating a contradiction that falls under the definition of Structural Flaws - In Text Contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Receiving Party shall return to Disclosing Party any and all records, notes, and other written, printed, or tangible materials in its possession pertaining to Confidential Information immediately if Disclosing Party requests it in writing.",
+        "changed_text": "Receiving Party shall return to Disclosing Party any and all records, notes, and other written, printed, or tangible materials in its possession pertaining to Confidential Information within 30 days of a written request from Disclosing Party, unless a different timeframe is mutually agreed upon in writing.",
+        "explanation": "The original clause states that the Receiving Party must return confidential materials 'immediately' upon written request. The modified clause changes this to 'within 30 days', unless another timeframe is agreed upon, thereby directly contradicting the original immediate return requirement.",
+        "location": "Obligations of Receiving Party",
+        "contradicted_location": "Obligations of Receiving Party",
+        "contradicted_text": "Receiving Party shall hold and maintain the Confid ential Information in strictest confidence for the sole and exclusive benefit of the Disclosing Party. Receiving Party shall carefully restrict access to Confidential Information to employees, contractors, and third parties as is reasonably required and shall require those persons to sign nondisclosure restrictions at least as protective as those in this Agreement. Receiving Party shall not, without prior written approval of Disclosing Party, use for Receiving Party's own benefit, publish, copy, or otherwis e disclose to others, or permit the use by others for their benefit or to the detriment of Disclosing Party, any Confidential Information. Receiving Party shall return to Disclosing Party any and all records, notes, and other written, printed, or tangible materials in its possession pertaining to Confidential Information within 30 days of a written request from Disclosing Party, unless a different timeframe is mutually agreed upon in writing.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires the Receiving Party to return confidential materials 'immediately' upon written request. The changed text modifies this to 'within 30 days', unless another timeframe is agreed upon. The contradicted text has this same 30 day timeframe. The original immediately timeframe is a contradiction to the contradicted texts's 30 day timeframe, therefore, the changed text introduces a contradiction in the original contract."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The nondisclosure provisions of this Agreement shall survive the termination of this Agreement and Receiving Party's duty to hold Confidential Information in confidence shall remain in effect until the Confidential Information no longer qualifies as a trade secret or until Disclosing Party sends Receiving Party written notice releasing Receiving Party from this Agreemen t, whichever occurs first.",
+        "changed_text": "The nondisclosure provisions of this Agreement shall survive the termination of this Agreement and Receiving Party's duty to hold Confidential Information in confidence shall remain in effect for a period of one (1) year, regardless of whether the Confidential Information remains a trade secret or if Disclosing Party issues a written release.",
+        "explanation": "This change contradicts the original text by imposing a fixed one-year limit on the confidentiality obligation, irrespective of whether the information is still a trade secret or whether the Disclosing Party has provided a written release. Previously, the agreement remained in effect until one of those two things occurred. With this perturbation, the 1-year is imposing the other term, which creates a contradiction with the 'whichever occurs first' on the original text.",
+        "location": "Time Periods",
+        "contradicted_location": "Time Periods",
+        "contradicted_text": "The nondisclosure provisions of this Agreement shall survive the termination of this Agreement and Receiving Party's duty to hold Confidential Information in confidence shall remain in effect for a period of one (1) year, regardless of whether the Confidential Information remains a trade secret or if Disclosing Party issues a written release.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text imposes a fixed one-year limit on the confidentiality obligation, regardless of whether the information remains a trade secret or if the Disclosing Party issues a written release. The contradicted text repeats the new fixed one-year limit, which contradicts the original text. The original text stated the confidentiality obligation remained in effect until the Confidential Information no longer qualifies as a trade secret or until Disclosing Party sends Receiving Party written notice, whichever occurs first. By setting a one-year limit regardless, the new text imposes on the previous text, creating a strong contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "If a court finds any provision of this Agre ement invalid or unenforceable, the remainder of this Agreement shall be interpreted so as best to effect the intent of the parties.",
+        "changed_text": "If a court finds any provision of this Agreement invalid or unenforceable, the entire Agreement shall be deemed null and void.",
+        "explanation": "This change directly contradicts the principle of severability. The original text states that if one provision is invalid, the rest of the agreement remains in effect, whereas the modified text declares that the entire agreement becomes void if any provision is deemed invalid.",
+        "location": "Severability",
+        "contradicted_location": "Severability",
+        "contradicted_text": "If a court finds any provision of this Agreement invalid or unenforceable, the entire Agreement shall be deemed null and void.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states \"If a court finds any provision of this Agreement invalid or unenforceable, the entire Agreement shall be deemed null and void.\" The contradicted text is the exact same text, and it contradicts the original text, which states \"If a court finds any provision of this Agreement invalid or unenforceable, the remainder of this Agreement shall be interpreted so as best to effect the intent of the parties.\" The change introduces a direct contradiction regarding the severability of the agreement. The original text implies severability, while the changed text eliminates it, making the entire agreement void if any part is invalid. This creates a strong in-text contradiction as defined by the provided Structural Flaws definition."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement expresses the complete understanding of the parties with respect to the subject matter and supersedes all prior proposals, agreements, representations, and understandings. This Agreement may not be amended except in a writing signed by both parties.",
+        "changed_text": "This Agreement expresses the complete understanding of the parties with respect to the subject matter and supersedes all prior proposals, agreements, representations, and understandings. This Agreement may be amended orally, provided there is documented proof of mutual consent to the amendment.",
+        "explanation": "The original text explicitly requires amendments to be in writing and signed by both parties. The modified text allows for oral amendments with 'documented proof', directly contradicting the original requirement for a written agreement for any changes. The inclusion of documented proof isn't as strong as the writing sign requirement.",
+        "location": "Integration",
+        "contradicted_location": "Integration",
+        "contradicted_text": "This Agreement expresses the complete understanding of the parties with respect to the subject matter and supersedes all prior proposals, agreements, representations, and understandings. This Agreement may be amended orally, provided there is documented proof of mutual consent to the amendment.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that amendments must be in writing and signed. The changed text introduces a contradictory possibility by allowing oral amendments if there's 'documented proof'. This directly conflicts with the written requirement, creating a strong in-text contradiction as it provides two incompatible ways to amend the agreement as described in the perturbation explanation. The contradicted text is exactly the same as the changed text, furthering the contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The failure to exercise any right provided in this Agreement shall not be a waiver of p rior or subsequent rights.",
+        "changed_text": "The failure to exercise any right provided in this Agreement shall be deemed a waiver of that right for all future instances.",
+        "explanation": "The original clause explicitly states that failure to exercise a right does not constitute a waiver. The changed text directly contradicts this by stating that failure to exercise a right *does* waive that right for future instances.",
+        "location": "Waiver",
+        "contradicted_location": "Waiver",
+        "contradicted_text": "The failure to exercise any right provided in this Agreement shall be deemed a waiver of that right for all future instances.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that failure to exercise a right is *not* a waiver. The changed text directly contradicts this by stating that it *is* a waiver for future instances, meaning the changed text does contradict the contradicted text because they are the exact same clause."
+      }
+    ]
+  }
+]

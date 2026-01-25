@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "CCAINDUSTRIESINC_04_14_2014-EX-10.1-OUTSOURCING AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "For the purposes of this Agreement, the following capitalized terms shall have the meanings set forth below. (a) \"Accounts Receivable\" shall mean all accounts receivable, notes receivable and other indebtedness due and owed by any Customer and arising or held in connection with the sale of any of the Products.",
+        "changed_text": "For the purposes of this Agreement, the following capitalized terms shall have the meanings set forth below. (a) \"Accounts Receivable\" shall mean all debts.",
+        "explanation": "By changing the definition of \"Accounts Receivable\" to \"all debts\" while not removing references to customers and products, creates an in-text contradiction. The definition is now overly broad, and the change is intended to remove any requirement for the debts to be directly linked to sales of Products.",
+        "location": "1.01",
+        "contradicted_location": "4.02",
+        "contradicted_text": "Contractor shall deposit into bank accounts designated by the Company an amount equal to the following: all amounts received from any Customer that are related to Accounts Receivable, less each of the following that is applicable to any such Accounts Receivable (and has not already been applied to reduce any Accounts Receivable): (i) Service Fees, (ii) commissions pursuant to the Sales Representation Agreement, (iii) returns, (iv) quantity and cash discounts, (v) trade allowances or markdowns granted on account of unsalable or discontinued Products, (vi) all sales or use taxes, tariffs, duties or similar charges of any Governmental Authority paid by or for the benefit of the Company, (vii) freight, warehousing (storage and labor) and other charges associated with the distribution of the Products using Contractor's warehouse, logistics terminal and shipping facility (see Exhibit \"C\"), (viii) the Company's pro rata portion of product liability insurance (approximately $800 per million dollars of sales) purchased by the Contractor in connection with performance of the Services, and (ix) any other deductions, rebates, credits, allowances or adjustments, in each case, which has been specifically identified by such Customer as being applicable to any such Accounts Receivable. Contractor shall use its best efforts to deposit the foregoing amounts within five (5) business days, following the receipt thereof.",
+        "contradiction_exists": "YES",
+        "justification": "The original text limited \"Accounts Receivable\" to debts related to the sale of \"Products\". The changed text broadens the definition to \"all debts,\" while the contradicted text still refers to \"Accounts Receivable\" as amounts received from any \"Customer\" that are related to Accounts Receivable. This creates a contradiction because the broadened definition could include debts unrelated to customers or products, making the application of deductions and allowances in the contradicted section ambiguous and potentially unenforceable. The modified definition contradicts the scope implicitly defined in the Contradicted Text."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Term. This agreement shall commence on January 20, 2014 (the \"Effective Date\") and shall continue in effect for six (6) months (the \"Initial Term\"). This agreement shall automatically renew for successive six (6) month periods unless written notice is provided of either party's intent not to renew at least six (6) months before the end of the then-current term.",
+        "changed_text": "Term. This agreement shall commence on January 20, 2014 (the \"Effective Date\") and shall continue in effect for six (6) months (the \"Initial Term\"). This agreement shall automatically renew for successive six (6) month periods unless written notice is provided of either party's intent not to renew at least thirty (30) days before the end of the then-current term.",
+        "explanation": "By changing the notification period from 'six (6) months' to 'thirty (30) days' before the end of the current term for non-renewal, while the definition of \"Notice Period\" in section 1.01 (o) still refers to six (6) months, introduces an in-text contradiction. This creates uncertainty on the actual required notice period for termination, impacting termination conditions.",
+        "location": "2.01",
+        "contradicted_location": "1.01",
+        "contradicted_text": "For the purposes of this Agreement, the following capitalized terms shall have the meanings set forth below. (o) \"Notice Period\" shall mean the period between the termination date of this Agreement and the date that is six (6) months after the date on which the Company provides Contractor with written notice of its election to terminate this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the notice period for non-renewal from 'six (6) months' to 'thirty (30) days'. This directly contradicts the definition of 'Notice Period' in the 'Contradicted Text', which explicitly states that 'Notice Period' means 'six (6) months'. This creates a clear conflict within the contract regarding the required notice period for termination."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Company agrees to have Fesnak & Associates, LLP pay the Service Fees directly to Contractor. Service Fees shall be paid to Contractor within five (5) days after the end of each month.",
+        "changed_text": "Service Fees shall be paid to Contractor within thirty (30) days after the end of each month.",
+        "explanation": "Removing 'Company agrees to have Fesnak & Associates, LLP pay the Service Fees directly to Contractor' contradicts section 5.06 because Fesnak & Associates, LLP is no longer responsible to do this.",
+        "location": "4.01",
+        "contradicted_location": "5.06",
+        "contradicted_text": "Contractor shall retain Fesnak & Associates, LLP to provide accounting services in connection with Contractor's performance of the Services and shall not engage a different accountant to provide such services without the Company's prior written consent (not to be unreasonably withheld). Contractor and the Company are arranging for OHL to provide certain warehousing, shipping and other logistical services related to the Products, as mutually agreed by the parties, and Contractor shall not engage a different vendor with respect to such services without the Company's prior written consent (not to be unreasonably withheld).",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the explicit agreement for Fesnak & Associates, LLP to pay the service fees, which directly contradicts the contradicted text that requires the Contractor to retain Fesnak & Associates, LLP for accounting services related to the Contractor's performance. Removing the payment obligation undermines the purpose of retaining the firm. This creates a direct conflict, fitting the 'Omissions – In Text Contradiction' definition."
+      }
+    ]
+  }
+]

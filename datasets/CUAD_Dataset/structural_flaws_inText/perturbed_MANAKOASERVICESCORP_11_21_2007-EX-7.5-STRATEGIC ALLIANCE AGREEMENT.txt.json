@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "MANAKOASERVICESCORP_11_21_2007-EX-7.5-STRATEGIC ALLIANCE AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "MKOS will have 30-days from receipt of information to determine if they wish to go forward with the technology license. UTEK, after 30 days, shall have the right to present the technology to other clients.",
+        "changed_text": "MKOS will have 30-days from receipt of information to determine if they wish to go forward with the technology license. UTEK, after 60 days, shall have the right to present the technology to other clients.",
+        "explanation": "By changing '30 days' to '60 days' in Section I.C, it now contradicts Section I.C by delaying UTEK's right to present the technology to other clients, creating confusion over the time frame each party has. The insertion of a time frame in I.C contradicts the original agreement.",
+        "location": "I.C",
+        "contradicted_location": "I.C",
+        "contradicted_text": "MKOS will have 30-days from receipt of information to determine if they wish to go forward with the technology license. UTEK, after 60 days, shall have the right to present the technology to other clients.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the timeframe in which UTEK can present the technology to other clients from 30 days to 60 days. Since the contradicted text also states that UTEK has to wait 60 days, this creates a contradiction because originally, the text was supposed to give MKOS 30 days to decide if they wish to proceed with the license, then UTEK can go forward with licensing the technology to other clients. Now, the changed text states that MKOS gets 30 days, but UTEK has to wait 60 days. However, this is what the contradicted text is also stating, meaning that the explanation is correct, that this creates a contradiction. Therefore, this is considered a strong in-text contradiction, creating confusion about the time frame each party has, rendering the timing conflicting."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "In consideration for providing these Services, MKOS shall pay UTEK $120,000 in the form of unregistered shares of common stock (923,077 shares) upon the execution of this Strategic Alliance Agreement. 1/12th of the shares (76,923) shall vest each month during the term of this Agreement. In lieu of payment of shares, MKOS shall have the option of paying UTEK $10,000 per month for the Services described in this Agreement. If this Agreement is terminated any unvested shares will be returned to MKOS.",
+        "changed_text": "In consideration for providing these Services, MKOS may pay UTEK $120,000 in the form of unregistered shares of common stock (923,077 shares) upon the execution of this Strategic Alliance Agreement. 1/12th of the shares (76,923) shall vest each month during the term of this Agreement. In lieu of payment of shares, MKOS shall have the option of paying UTEK $10,000 per month for the Services described in this Agreement. If this Agreement is terminated any unvested shares will be returned to UTEK.",
+        "explanation": "By changing 'MKOS shall pay UTEK' to 'MKOS may pay UTEK' and 'will be returned to MKOS' to 'will be returned to UTEK' in Section IV.A, the certainty of payment and return of shares is removed, and it now dictates the return to UTEK instead. This contradicts the original text which dictates shares returned to MKOS, introducing uncertainty about the obligations.",
+        "location": "IV.A",
+        "contradicted_location": "IV.A",
+        "contradicted_text": "In consideration for providing these Services, MKOS may pay UTEK $120,000 in the form of unregistered shares of common stock (923,077 shares) upon the execution of this Strategic Alliance Agreement. 1/12th of the shares (76,923) shall vest each month during the term of this Agreement. In lieu of payment of shares, MKOS shall have the option of paying UTEK $10,000 per month for the Services described in this Agreement. If this Agreement is terminated any unvested shares will be returned to UTEK.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies 'MKOS shall pay UTEK' to 'MKOS may pay UTEK', altering a mandatory obligation to a discretionary one. Additionally, it changes 'will be returned to MKOS' to 'will be returned to UTEK'. This creates a direct contradiction because the original agreement states shares are returned to MKOS upon termination while the modified version specifies they are returned to UTEK. This inconsistency regarding the return of shares introduces a significant contradiction, as the contradiction text reflects the changes made in the modified text."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Either party may terminate this Agreement at any time with 30 days written notice.",
+        "changed_text": "Either party may terminate this Agreement at any time with 60 days written notice, except if UTEK fails to present technology opportunities.",
+        "explanation": "By adding the phrase 'except if UTEK fails to present technology opportunities' to the termination clause in Section V, it contradicts the initial statement of 'at any time', because now there's an exception condition. This creates ambiguity about termination rights, especially for MKOS. It will cause a contradiction where the parties right to terminate becomes unclear.",
+        "location": "V",
+        "contradicted_location": "V",
+        "contradicted_text": "The term of the Agreement will be for 12 months unless terminated sooner. This Agreement may be renewed upon mutual, written agreement of the parties. Either party may terminate this Agreement at any time with 60 days written notice, except if UTEK fails to present technology opportunities.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed termination 'at any time'. The changed text adds an exception, preventing termination if 'UTEK fails to present technology opportunities'. The contradicted text repeats the changed text, which still creates a contradiction because now, the ability to terminate 'at any time' is conditional, which is a direct conflict making the termination rights of MKOS ambiguous, fulfilling the criteria for a structural flaw that causes an in-text contradiction, as per the definition."
+      }
+    ]
+  }
+]

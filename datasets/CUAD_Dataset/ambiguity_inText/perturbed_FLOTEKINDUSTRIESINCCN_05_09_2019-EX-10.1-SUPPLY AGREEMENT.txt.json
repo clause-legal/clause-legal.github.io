@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "FLOTEKINDUSTRIESINCCN_05_09_2019-EX-10.1-SUPPLY AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "\"Maximum Quantity\" means [***] pounds of Terpene Product per Year, prorated for any partial Year included in the Term.\n\"Minimum Quantity\" means [***] pounds of Terpene Product per Year, prorated for any partial Year included in the Term.",
+        "changed_text": "\"Maximum Quantity\" means [***] pounds of Terpene Product per Year, prorated for any partial Year included in the Term, unless otherwise agreed in writing by both parties.\n\"Minimum Quantity\" means [***] pounds of Terpene Product per Year, without any proration for any partial Year included in the Term.",
+        "explanation": "The change to 'Maximum Quantity' introduces flexibility that contradicts the earlier definition, allowing for quantities exceeding the limit, leading to uncertainty. The definition of Minimum Quantity has been adjusted so there is no proration for partial years, which can lead to a contradiction if another section of the contract relies on prorated calculations, specifically Section 6(d).",
+        "location": "1",
+        "contradicted_location": "6",
+        "contradicted_text": "(d) In the event that Flotek does not order the Minimum Quantity in a given Year, FCC may ship to Flotek the remaining quantity of Terpene Product prior to the end of such Year, and invoice Flotek as described in Section 6(c).",
+        "contradiction_exists": "YES",
+        "justification": "The change to the definition of 'Minimum Quantity' introduces a contradiction. Originally, the Minimum Quantity was to be prorated for partial years. The change removes this proration. Section 6(d) references the 'Minimum Quantity in a given Year'. The change to the definition of 'Minimum Quantity' introduces a scenario where the calculations based on a prorated year, as implicitly expected in Section 6(d), are no longer valid, potentially leading to disputes about how the remaining quantity is calculated and invoiced if the minimum quantity is not ordered in a partial year. The explanation provided explicitly states that the change contradicts Section 6(d)."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "FCC will be permitted during the Term to sell terpene to other parties who will utilize or resale such terpene for oilfield solvent applications.",
+        "changed_text": "FCC will be permitted during the Term to sell terpene to other parties who will utilize or resale such terpene for any applications.",
+        "explanation": "The change broadens the permissible sales by FCC to include 'any applications,' removing the restriction to 'oilfield solvent applications'. This creates an in-text contradiction because it undermines Flotek's expectation of exclusivity in the oilfield solvent sector. Section 17 allows sales for utilization or resale for oilfield applications and the change made here expands it to any application, directly contradicts the intent that FCC cannot go into other industries and directly compete, or supply direct competitors in different industries. This creates ambiguity around the agreement's intended scope and purpose.",
+        "location": "17",
+        "contradicted_location": "17",
+        "contradicted_text": "Notwithstanding any of the terms of this Agreement, Flotek shall not be restricted from purchasing any terpene-based product, including but not limited to, Terpene Product, from sources other than FCC.",
+        "contradiction_exists": "YES",
+        "justification": "The original text limited FCC's sales of terpene to oilfield solvent applications. The changed text expands this to 'any applications,' directly contradicting the intent that Flotek would have some level of exclusivity. While Flotek is free to purchase terpene-based products from other sources, the expanded sales permission for FCC creates a situation where FCC can now directly compete or supply direct competitors in different industries, thereby creating a strong contradiction of intended market and scope."
+      }
+    ]
+  }
+]

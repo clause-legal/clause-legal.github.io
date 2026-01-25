@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "1466739_0001002014-12-000470_exh10-4.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Neither the Receiving Party nor any of its agents shall, in any manner access, contact, solicit or conduct any business with a Business Source that has been made available by and through Monnit. The Receiving Party shall not in any way whatsoever circumvent or attempt to circumvent Monnit and Page 1 of 4 shall not enter into direct or indirect offers, negotiations or transactions with a Business Source revealed by Monnit.",
+        "changed_text": "The Receiving Party nor any of its agents shall, in any manner access, contact, solicit or conduct any business with a Business Source that has been made available by and through Monnit. The Receiving Party may, however, enter into direct offers, negotiations, or transactions with a Business Source revealed by Monnit, provided that Monnit is informed within 10 days.",
+        "explanation": "Originally, the contract strictly prohibited the Receiving Party from engaging in any direct or indirect dealings with Business Sources revealed by Monnit. The modified clause now permits such interactions, provided Monnit is informed within 10 days. This allowance directly contradicts the preceding prohibition, creating an in-text contradiction because the initial clause restricted the Receiving Party from dealing with the Business Source at all, while the inserted text allows it with just informing Monnit.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "Non-Solicitation; Non-Circumvention . Neither the Receiving Party nor any of its agents shall, in any manner access, contact, solicit or conduct any business with a Business Source that has been made available by and through Monnit. The Receiving Party may, however, enter into direct offers, negotiations, or transactions with a Business Source revealed by Monnit, provided that Monnit is informed within 10 days.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states a strict prohibition on the Receiving Party engaging in any dealings with Business Sources revealed by Monnit. The changed text introduces an exception allowing such dealings if Monnit is informed within 10 days. This directly contradicts the original prohibition, creating an in-text contradiction. The contradicted text is exactly the same as the changed text, indicating that the changed text is the one introducing the contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The parties shall maintain complete confidentiality regarding each other's business and/or their affiliates and shall only disclose information pertaining to the Business Sources as permitted by Monnit, unless agreed and granted an expressed written permission of Monnit.",
+        "changed_text": "The parties shall maintain confidentiality regarding each other's business and/or their affiliates; however, either party may disclose information about the Business Sources without permission from Monnit. All other information requires expressed written permission of Monnit.",
+        "explanation": "The original clause requires complete confidentiality and only allows disclosure of Business Source information with Monnit's permission. The modified clause introduces a contradiction by stating that either party *may* disclose information about the Business Sources *without* Monnit's permission, which directly violates the original confidentiality agreement. This in-text contradiction makes it unclear whether the Business Source information is confidential or not.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "Non-Disclosure . The parties shall maintain confidentiality regarding each other's business and/or their affiliates; however, either party may disclose information about the Business Sources without permission from Monnit. All other information requires expressed written permission of Monnit.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires Monnit's permission to disclose Business Source information. The changed text explicitly allows either party to disclose this information without Monnit's permission. The contradicted text is a repeat of the changed text. This is a direct conflict and thus creates a strong in-text contradiction, as the obligations in the original and changed texts are mutually exclusive. The explanation reinforces the fact that this is an in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "In the event of circumvention by any of the undersigned Parties, whether direct and/or indirect, the circumvented Party shall be entitled to a legal monetary compensation equal to ten times the maximum service fees it would have realized from such a transaction, plus any and all expenses, including any and all legal fees incurred in lieu of the recovery of such compensation.",
+        "changed_text": "In the event of circumvention by any of the undersigned Parties, whether direct and/or indirect, the circumvented Party shall be entitled to a legal monetary compensation equal to ten times the maximum service fees it would have realized from such a transaction. All expenses, including any and all legal fees incurred in lieu of the recovery of such compensation, will be the sole responsibility of each party.",
+        "explanation": "The original clause states that in case of circumvention the circumvented party is entitled to compensation that includes the service fees, expenses, and all legal fees. The changed clause now states that the legal fees will be the sole responsibility of each party. This directly contradicts with the fact that expenses and all legal fees are now *not* included in the compensation but a responsibility of each party. Thus, creating an in-text contradiction.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Damages . In the event of circumvention by any of the undersigned Parties, whether direct and/or indirect, the circumvented Party shall be entitled to a legal monetary compensation equal to ten times the maximum service fees it would have realized from such a transaction. All expenses, including any and all legal fees incurred in lieu of the recovery of such compensation, will be the sole responsibility of each party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the circumvented party is entitled to compensation that includes expenses and legal fees. The changed text modifies this by stating that all expenses, including legal fees, are the sole responsibility of each party, directly contradicting the initial compensation agreement. The contradicted text is the same as the changed text, which means that the change is causing a contradiction, that is a structural flaw, as it creates conflicting implications with the original meaning."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This agreement is valid for five (5) years from the date of signature, for any and all transactions between the Parties therein, with renewal to be agreed upon between the signatories.",
+        "changed_text": "This agreement is valid for five (5) years from the date of signature, for any and all transactions between the Parties therein, with automatic renewal for another five (5) years, unless either party objects in writing 30 days prior to the renewal date.",
+        "explanation": "The original clause states that the renewal of the agreement is something to be agreed upon by both parties. In contrast, the changed clause includes that there is an automatic renewal for five years. This now creates an in-text contradiction where, it is not sure if the agreement will automatically be renewed for five years or there need to be an actual agreement with both parties.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "Term . This agreement is valid for five (5) years from the date of signature, for any and all transactions between the Parties therein, with automatic renewal for another five (5) years, unless either party objects in writing 30 days prior to the renewal date.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that renewal is 'to be agreed upon', implying a mutual decision. The changed text introduces 'automatic renewal' unless objection occurs, which contradicts the need for mutual agreement. The contradicted text repeats the 'automatic renewal' clause. The change introduces a direct contradiction by creating uncertainty about whether renewal requires agreement or is automatic, which is strong enough to cause confusion, unenforceability, or a legal issue."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "STARTECGLOBALCOMMUNICATIONSCORP_11_16_1998-EX-10.30-CONSTRUCTION AND MAINTENANCE AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "1 DEFINITIONS 1.1 Definition of Terms AFFILIATE A company in which not less than either ten percent (10%) or the highest percentage allowed by the local law, whichever is the lowest, of its voting capital is owned directly or indirectly by a Party or a company owning directly or indirectly not less than either ten (10%) or the highest percentage allowed by the local law, whichever is the lowest, of the voting capital of a Party.",
+        "changed_text": "1 DEFINITIONS 1.1 Definition of Terms AFFILIATE A company in which its voting capital is owned directly or indirectly by a Party.",
+        "explanation": "By removing the specific percentage requirements for 'AFFILIATE' definition, particularly the phrase about 'ten percent (10%) or the highest percentage allowed by the local law', it creates ambiguity regarding the threshold for affiliation. This omission creates an in-text contradiction with sections like 7.1, where Managing Group membership depends on representing '10 % or more of the total voting interest as specified in Schedule B', which ties back to affiliate voting capital. The original definition provided a clear threshold, while the modified definition does not, making it unclear if a company with, say, 5% ownership would qualify, leading to uncertainty in enforcing Managing Group composition.",
+        "location": "Page 1",
+        "contradicted_location": "Page 11",
+        "contradicted_text": "7 ESTABLISHMENT OF THE MANAGING GROUP 7.1 The Managing Group will consist of one representative from each MOU Party and one representative from any other Party or Parties who individually or collectively represent 10 % or more of the total voting interest as specified in Schedule B.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the specific percentage requirements (ten percent (10%) or the highest percentage allowed by the local law) for the definition of 'AFFILIATE'. This creates an in-text contradiction with section 7.1, which requires parties to 'represent 10 % or more of the total voting interest as specified in Schedule B' to be part of the Managing Group. Since the changed definition no longer specifies a minimum percentage for affiliate ownership, it becomes unclear whether a party with less than 10% ownership can qualify for the Managing Group, thus contradicting the requirement in section 7.1."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "CAPACITY Capacity shall be categorized as follows: (i) Design Capacity The design ring capacity of Segment S of TAT-14, which is 640 Gbit/s. (ii) Allocated Capacity Number of Ring-MlUs distributed to Parties, based on their financial commitments at the time of signing of this Agreement, as shown in Schedule C. (iii) Purchased Capacity Capacity purchased after signing of this Agreement by a Purchase Contract. (iv) Sold Capacity The sum of the Allocated Capacity and the Purchased Capacity. (v) Common Reserve Capacity (CRC) The difference between the Design Capacity and the Sold Capacity.",
+        "changed_text": "CAPACITY Capacity shall be categorized as follows: (i) Design Capacity The design ring capacity of Segment S of TAT-14. (ii) Allocated Capacity Number of Ring-MlUs distributed to Parties, based on their financial commitments at the time of signing of this Agreement, as shown in Schedule C. (iii) Purchased Capacity Capacity purchased after signing of this Agreement by a Purchase Contract. (iv) Sold Capacity The sum of the Allocated Capacity and the Purchased Capacity.",
+        "explanation": "The removal of the Design Capacity being set as 'which is 640 Gbit/s.' and Common Reserve Capacity (CRC) 'The difference between the Design Capacity and the Sold Capacity' introduces a contradiction. If the Design Capacity is not explicitly defined, then the Common Reserve Capacity (CRC) is undefined too. This contradicts section 9.5, section 9.6, section 9.7, section 9.11 and section 9.12, which rely on a calculable CRC for capacity sales and refunds",
+        "location": "Page 2",
+        "contradicted_location": "Page 13",
+        "contradicted_text": "9.5 The CRC of TAT-14 shall be owned by the Parties in common and undivided shares. 9.6 The Managing Group shall establish the terms and conditions including pricing criteria for sales of capacity from the CRC. The NA shall develop procedures for sale of capacity from the CRC and a Purchase Contract for approval by the Managing Group. Following such approval, the NA shall be authorized to execute any such Purchase Contract on behalf of all the Parties. No provisions of any Purchase Contract shall override the provisions of this Agreement. The Purchase Contract price structure may be reviewed and amended if necessary, by the Managing Group",
+        "contradiction_exists": "YES",
+        "justification": "The removal of 'which is 640 Gbit/s' from the definition of Design Capacity, and the removal of the definition of Common Reserve Capacity (CRC) as 'The difference between the Design Capacity and the Sold Capacity' introduces a contradiction. Section 9.5 specifies that 'The CRC of TAT-14 shall be owned by the Parties in common and undivided shares.' Without a defined Design Capacity, the CRC cannot be calculated, thus creating a direct conflict. This directly contradicts section 9.5 which refers to CRC. Also, Section 9.6 mentions sales from CRC, but that cannot be determined, thus breaking compatibility."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "TERMINAL PARTIES The Terminal Parties are AT&T, BT, Deutsche Telekom, France Telecom, KPN, Sprint, and Telia.",
+        "changed_text": "TERMINAL PARTIES The Terminal Parties are AT&T, BT, Deutsche Telekom, France Telecom, KPN, and Sprint.",
+        "explanation": "By removing 'Telia' from the list of 'TERMINAL PARTIES,' there is now an inconsistency with sections referencing the responsibilities of the Terminal Parties. Specifically, section 16.1 (vii) states that 'Telia shall be responsible for Segment T7'. If Telia is no longer officially a 'TERMINAL PARTY,' the contract lacks clarity on who is responsible for Segment T7. This creates uncertainty on segment responsibilities.",
+        "location": "Page 5",
+        "contradicted_location": "Page 20",
+        "contradicted_text": "16.1 The Terminal Parties, on behalf of the Parties and Purchasers, are responsible for operation and maintenance as follows: (i) Sprint shall be responsible for Segment T1; (ii) AT&T shall be responsible for Segment T2; (iii) BT shall be responsible for Segment T3; (iv) FT shall be responsible for Segment T4; (v) KPN shall be responsible for Segment T5; (vi) DTAG shall be responsible for Segment T6; (vii) Telia shall be responsible for Segment T7;",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes 'Telia' from the list of Terminal Parties, but section 16.1 (vii) assigns responsibility for Segment T7 to 'Telia'. This creates a direct conflict, as the contract no longer clearly defines who is responsible for Segment T7, contradicting the explicit assignment in section 16.1 (vii)."
+      }
+    ]
+  }
+]

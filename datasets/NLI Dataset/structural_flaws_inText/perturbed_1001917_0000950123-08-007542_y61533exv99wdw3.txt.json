@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "1001917_0000950123-08-007542_y61533exv99wdw3.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Upon written request by the Disclosing Party, the Recipient shall return to the Disclosing Party, or shall destroy in a manner satisfactory to the Disclosing Party, all tangible or electronic forms of Confidential Information, including any and all copies of the Confidential Information or notes containing the Confidential Information, and shall provide a written certification to the Disclosing Party that all tangible forms of the Confidential Information have been returned or destroyed.",
+        "changed_text": "Upon written request by the Disclosing Party, the Recipient may, at their discretion, return to the Disclosing Party, or may destroy in a manner satisfactory to the Disclosing Party, all tangible or electronic forms of Confidential Information, including any and all copies of the Confidential Information or notes containing the Confidential Information, and may provide a written certification to the Disclosing Party that all tangible forms of the Confidential Information have been returned or destroyed.",
+        "explanation": "Originally, the Recipient 'shall' return or destroy confidential information upon request, making it mandatory. Changing 'shall' to 'may' makes this action optional. This creates in text contradictions with the term 'Confidential Information', defined earlier in the contract, since the Recipient may use that information at his own discretion.",
+        "location": "6",
+        "contradicted_location": "1",
+        "contradicted_text": "Definition of Confidential Information. The term “ Confidential Information ” means any and all information that is or has been received by either Party (the “ Recipient ”) from the other Party (the “ Disclosing Party ”), or which the Recipient has had access to, during the four (4)-month period commencing on the Effective Date (the “ Term ”), and that is either (a) marked as “confidential,” “proprietary,” or such similar term, or (b) non-public information related to the Disclosing Party’s business, which the Receiving Party should reasonably know is confidential based on the nature of such information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates the recipient to return or destroy confidential information ('shall'). The changed text makes this action optional ('may'). This creates a contradiction with the definition of 'Confidential Information', as the recipient is no longer obligated to protect or return it, thus potentially misusing the confidential information at his discretion. The change conflicts with the nature of confidential information."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement does not represent nor imply any agreement or commitment to enter into any further business relationship.",
+        "changed_text": "This Agreement may represent or imply an agreement or commitment to enter into any further business relationship.",
+        "explanation": "The original text explicitly states that the agreement does not imply any commitment to a future business relationship. The modified text directly contradicts this by stating it 'may' imply such a commitment. This creates uncertainty about the intention of the agreement and its enforceability in regards to future business dealings. This can affect section 5 No Warranty, specifically around Non-Infringement.",
+        "location": "6",
+        "contradicted_location": "5",
+        "contradicted_text": "THE CONFIDENTIAL INFORMATION IS PROVIDED “AS IS,” AND THE DISCLOSING PARTY HEREBY DISCLAIMS ALL REPRESENTATIONS AND WARRANTIES REGARDING THE ACCURACY, SUFFICIENCY, SUITABILITY OR NON-INFRINGEMENT OF SUCH CONFIDENTIAL INFORMATION.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the agreement does not imply any commitment to a future business relationship. The changed text contradicts this directly by stating that it 'may' imply such a commitment. This conflict creates uncertainty and directly affects the enforceability of the 'No Warranty' section, because the original document assured no future commitment and the new one does."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Parties consent to the jurisdiction of the state and federal courts located in New York, New York.",
+        "changed_text": "The Parties consent to the jurisdiction of the state and federal courts located in Washington, Washington.",
+        "explanation": "The original agreement specifies jurisdiction in New York. Changing the location to Washington creates direct conflict and ambiguity about which state's courts have jurisdiction over disputes. This contradicts section 9, which states the agreement is governed by the laws of Washington.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "Governing Law; Attorneys’ Fees. This Agreement, including all matters of construction, validity and performance, shall be governed by, construed and enforced in accordance with the laws of the State of Washington, as applied to contracts made and to be fully performed in such state, without regard to its conflict of law rules. The Parties consent to the jurisdiction of the state and federal courts located in Washington, Washington. A prevailing Party shall be entitled to an award of its reasonable attorneys’ fees and costs arising out of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies jurisdiction in New York. The changed text specifies jurisdiction in Washington. The contradicted text specifies that the agreement is governed by Washington law and that the parties consent to jurisdiction in Washington. The change from New York to Washington creates a direct conflict regarding jurisdiction, as it removes New York as a valid jurisdiction while the contradicted text refers to Washington. This creates a contradiction in terms of the location of jurisdiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement may be amended and any provision may be waived only by the written agreement of the Parties.",
+        "changed_text": "This Agreement may be amended unilaterally by either party with written notice, and any provision may be waived orally.",
+        "explanation": "The original clause requires written agreement from both parties for amendments and waivers. The change allows unilateral amendment with written notice and permits oral waivers, directly contradicting the original requirement for mutual written agreement. This conflicts with section 10, where it speaks on the successory right of the agreement, which can cause uncertainty in enforcement.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "The terms and conditions of this Agreement shall inure to the benefit of and be binding upon the respective successors and assigns of the Parties, provided that Confidential Information of the Disclosing Party may not be assigned by the Recipient without the prior written consent of the Disclosing Party. If any provision of this Agreement is held by a court of competent jurisdiction to be invalid, illegal, or unenforceable, the validity, legality and enforceability of the remaining provisions shall not in any way be effected, impaired or invalidated thereby.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires written agreement from both parties for amendments and waivers. The changed text allows unilateral amendment with written notice and permits oral waivers. This creates a direct contradiction because the contradicted text in the agreement states that it is binding upon the respective successors and assigns of the Parties, which implies that all modifications and waivers must be agreed upon by all parties. The unilateral amendment and oral waiver provision in the changed text undermines this binding nature and creates uncertainty in enforcement. Therefore, a strong in-text contradiction exists."
+      }
+    ]
+  }
+]

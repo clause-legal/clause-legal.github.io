@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "nondisclosure.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "a) The information shall be deemed the exclusive property of the furnishing party. The information and all copies thereof shall be returned to the furnishing party upon the furnishing party’s request. The receiving party will not use the information for any purpose other than in accordance with the terms of this Agreement.",
+        "changed_text": "a) The information shall be deemed the exclusive property of the furnishing party. The receiving party may retain a copy of the information after the termination of this agreement. The receiving party will not use the information for any purpose other than in accordance with the terms of this Agreement.",
+        "explanation": "By allowing the receiving party to retain a copy of the information after termination, this contradicts Section 1(f) which states that all information shall be destroyed or returned to the furnishing party upon termination of the agreement. The original text states that all copies must be returned on request. The changed text creates an exception, allowing the receiving party to retain a copy, creating uncertainty and a direct conflict.",
+        "location": "1a",
+        "contradicted_location": "1f",
+        "contradicted_text": "f) All information shall be destroyed or returned to the furnishing party whenever any of the Parties so request in writing or upon termination of this Agreement for any reason. Any Party who disclosed information to another party or entity (e.g., employees, representatives, affiliates or independent contractors) must assure that all such parties or entities return or destroy said information. If any of the Parties so requests in written or upon the termination of this Agreement for any reason.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text allows the receiving party to retain a copy of the information after termination of the agreement, while the contradicted text (Section 1(f)) mandates that all information be destroyed or returned to the furnishing party upon termination. This creates a direct conflict and in-text contradiction, because both statements cannot be true."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "b) The receiving party shall use the same degree of care as it uses with its own propriety information to protect and maintain the confidentiality of the information of the furnishing party. The receiving party understands that he/she may review sensitive member information and trade secrets, and agrees to maintain confidentiality of all information.",
+        "changed_text": "b) The receiving party shall use reasonable efforts to protect the confidentiality of the information of the furnishing party. The receiving party understands that he/she may review sensitive member information and trade secrets, and agrees to maintain confidentiality of all information.",
+        "explanation": "Changing \"the same degree of care as it uses with its own propriety information\" to \"reasonable efforts\" weakens the obligation to protect confidentiality. This directly contradicts the later statement in the same paragraph where the receiving party agrees to \"maintain confidentiality of all information\", implying a higher, stricter standard than just 'reasonable efforts.' This weakens the clause significantly.",
+        "location": "1b",
+        "contradicted_location": "1b",
+        "contradicted_text": "b) The receiving party shall use reasonable efforts to protect the confidentiality of the information of the furnishing party. The receiving party understands that he/she may review sensitive member information and trade secrets, and agrees to maintain confidentiality of all information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states 'the receiving party shall use the same degree of care as it uses with its own propriety information', creating a strong and measurable standard. The changed text weakens this obligation to 'reasonable efforts.' The paragraph concludes by saying the receiving party 'agrees to maintain confidentiality of all information.' This creates a contradiction because 'reasonable efforts' does not guarantee maintaining all information, which is a higher standard. Thus the changed text introduces a contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "d) If the receiving party or any of its employees, agents, representatives, affiliates or any other person(s) shall attempt to use or dispose of any of the information of the furnishing party in a manner contrary to the terms of this Agreement, the furnishing party shall have the right, in addition to such other remedies, which may be available to it, to injunctive relief enjoining such acts or attempts, it being acknowledged that legal remedies are inadequate.",
+        "changed_text": "d) If the receiving party or any of its employees, agents, representatives, affiliates or any other person(s) shall attempt to use or dispose of any of the information of the furnishing party in a manner contrary to the terms of this Agreement, the furnishing party may seek injunctive relief, but such relief is not guaranteed.",
+        "explanation": "The original text states that injunctive relief is available and legal remedies are inadequate. The modified text weakens this by saying injunctive relief \"may\" be sought and is not guaranteed, directly contradicting the original assertion that legal remedies are inadequate and injunctive relief is a right. The original text assures immediate injunctive relief, the change introduces uncertainty, weakening the protection for the furnishing party.",
+        "location": "1d",
+        "contradicted_location": "1d",
+        "contradicted_text": "d) If the receiving party or any of its employees, agents, representatives, affiliates or any other person(s) shall attempt to use or dispose of any of the information of the furnishing party in a manner contrary to the terms of this Agreement, the furnishing party may seek injunctive relief, but such relief is not guaranteed.",
+        "contradiction_exists": "YES",
+        "justification": "The original text guarantees injunctive relief while stating legal remedies are inadequate. The changed text weakens this by saying injunctive relief \"may\" be sought and is not guaranteed. This directly contradicts the initial assertion and creates uncertainty, as highlighted in the Perturbation Explanation. The Changed Text is identical to the Contradicted text, indicating that the contradiction is happening in the very same clause. Thus, there is an in-text contradiction. The original text assures immediate injunctive relief. This has been changed, and introduces uncertainty, weakening the protection for the furnishing party."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "g) The Parties are aware of and understand Member Confidentiality as referred to in Section 264 of the Health Insurance Profitability and Accountability Act of 1996 (HIPPA). All member information is considered highly sensitive and may not be disseminated.",
+        "changed_text": "g) The Parties are aware of and understand Member Confidentiality as referred to in Section 264 of the Health Insurance Profitability and Accountability Act of 1996 (HIPPA). All member information is considered highly sensitive, but may be disseminated if de-identified in accordance with HIPAA guidelines.",
+        "explanation": "The original text states that \"All member information is considered highly sensitive and may not be disseminated.\" The changed text contradicts this absolute prohibition by allowing dissemination if de-identified. De-identification introduces a conditional exception, undermining the original statement. The original provision does not contemplate any dissemination, the addition now contradicts that original statement.",
+        "location": "1g",
+        "contradicted_location": "1g",
+        "contradicted_text": "g) The Parties are aware of and understand Member Confidentiality as referred to in Section 264 of the Health Insurance Profitability and Accountability Act of 1996 (HIPPA). All member information is considered highly sensitive, but may be disseminated if de-identified in accordance with HIPAA guidelines.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states an absolute prohibition on disseminating member information. The changed text introduces an exception to that prohibition by allowing dissemination if the information is de-identified. This creates a direct contradiction because the original text did not allow for any dissemination, and now it does under certain conditions. The contradicted text is the same as the changed text, which demonstrates that the change causes a contradiction within the document."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "h) ​ ​ ACBN Executive Board members, employees, subject-matter experts (SMEs), and all those with access to confidential exam information are prohibited from developing or delivering examination preparation products and are not eligible to take the examination during their tenure and for a period of two years following the end of their access to examination content.",
+        "changed_text": "h) ACBN Executive Board members, employees, subject-matter experts (SMEs), and all those with access to confidential exam information are prohibited from developing or delivering examination preparation products and are not eligible to take the examination during their tenure, unless explicitly approved by the ACBN President. This approval will be based on a conflict-of-interest review.",
+        "explanation": "The original text creates an absolute prohibition on taking the examination during their tenure and for two years following. The addition of \"unless explicitly approved by the ACBN President\" introduces a conditional exception that directly contradicts the original statement. This creates a conflict of interest.",
+        "location": "1h",
+        "contradicted_location": "1h",
+        "contradicted_text": "h) ACBN Executive Board members, employees, subject-matter experts (SMEs), and all those with access to confidential exam information are prohibited from developing or delivering examination preparation products and are not eligible to take the examination during their tenure, unless explicitly approved by the ACBN President. This approval will be based on a conflict-of-interest review.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states an absolute prohibition. The changed text introduces an exception to this prohibition ('unless explicitly approved by the ACBN President'), which directly contradicts the initial absolute prohibition. The contradicted text is the same as the changed text, but the change from the original introduced the contradiction, thus 'YES'."
+      }
+    ]
+  }
+]

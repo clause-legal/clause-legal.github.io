@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "SupplementOne-NDA.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "c) Injunction . The Recipient will be liable for disclosure of any Confidential Information. The Parties agree tha t the disclosure of Confidential Information of the Discloser may cause the Discloser irreparable damage for which remedies other than injunctive relief may be inadequate, and the Recipient agrees that in the event of a breach of the obligations hereunder, t he Discloser shall be entitled to temporary and permanent injunctive relief to enforce this provision without the necessity of proving actual damages. This provision shall not, however, diminish or alter any right to claim and recover damages.",
+        "changed_text": "c) Injunction . The Parties agree tha t the disclosure of Confidential Information of the Discloser may cause the Discloser irreparable damage for which remedies other than injunctive relief may be inadequate, and the Recipient agrees that in the event of a breach of the obligations hereunder, t he Discloser shall be entitled to temporary and permanent injunctive relief to enforce this provision without the necessity of proving actual damages. This provision shall not, however, diminish or alter any right to claim and recover damages.",
+        "explanation": "By removing the first sentence, \"The Recipient will be liable for disclosure of any Confidential Information\", from Section 1(c), the contract no longer explicitly states that the recipient is liable for disclosure. This omission creates ambiguity and weakens the enforceability of the injunction clause. The remaining text implies liability but doesn't explicitly state it, leading to a potential contradiction with the NDA's overall purpose.",
+        "location": "1)c)",
+        "contradicted_location": "1)b)iv)",
+        "contradicted_text": "iv) Recipient shall promptly notify Discloser of any loss, release, misuse or misappropriation of Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly stated \"The Recipient will be liable for disclosure of any Confidential Information.\" The changed text omits this statement. The contradicted text states \"Recipient shall promptly notify Discloser of any loss, release, misuse or misappropriation of Confidential Information.\" Without the explicit statement of liability, the recipient's obligation to notify the discloser of a breach becomes less enforceable, creating a contradiction. The omission weakens the overall agreement and creates uncertainty about the recipient's responsibility, which makes the notification requirement in the contradicted text less impactful, since there is no explicit acknowledgement that they are liable for such breaches. The change therefore contradicts the contradicted text."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "7) Location of Data. Recipient affirms that it sha ll not and shall not allow others to take the Discloser’s Confidential Information outside the United States without express written authorization from the Discloser.",
+        "changed_text": "7) Location of Data. Recipient affirms that it sha ll not take the Discloser’s Confidential Information outside the United States without express written authorization from the Discloser.",
+        "explanation": "By removing \"and shall not allow others to\" from section 7, the contract omits language prohibiting the Recipient from allowing others to take the Discloser's Confidential Information outside the United States. This directly contradicts the intention of Section 1(b)(ii)(1), which restricts disclosure to employees/subcontractors unless a specific agreement is in place. Now the recipient could allow a 3rd party with no agreement to take the data outside the US.",
+        "location": "7)",
+        "contradicted_location": "1)b)ii)(1)",
+        "contradicted_text": "ii) Recipient: (1) Shall not disclose Confide ntial Information to any employe e or subcontractor of Recipient un less such person needs access in order to facilitate the evaluation and preparation of a response to RFP CSP903918 and executes a nondisclosure agreement with the Recipient with terms no less restrictive tha n those of this Section 2)b) ; (2) Shall not disclose Confidential Information to any other third party without Discloser’s prior written consent ; and (3) Shall not reproduce Confidential Information in any form except as required to facilitate the evaluation and preparation of a response to RFP CSP903918 .",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in section 7 removes the phrase \"and shall not allow others to\", which previously prohibited the Recipient from allowing third parties to take confidential information outside the United States. This creates a direct contradiction with section 1(b)(ii)(1), which restricts disclosure to employees/subcontractors unless a specific agreement is in place. The changed text now allows the recipient to permit a third party without an agreement to take data outside the US, directly conflicting with the intended restrictions in 1(b)(ii)(1)."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "8) Authority to Sign . The person whose signature appears below on behalf of the Recipient represents and warrants that he/she has authority to bind the Recipient and all employees and agents of the Recipient to the terms of this contract and has specific authority to sign thi s Agreement.",
+        "changed_text": "8) Authority to Sign . The person whose signature appears below on behalf of the Recipient represents and warrants that he/she has authority to bind the Recipient to the terms of this contract and has specific authority to sign thi s Agreement.",
+        "explanation": "By removing \"and all employees and agents of the Recipient\" from section 8, the contract omits the representation that the signatory has authority to bind the employees and agents of the Recipient. Section 1(b)(ii)(1) requires that employees and subcontractors accessing confidential information be bound by a non-disclosure agreement. Thus, omitting the language from section 8 creates a situation where the agreement aims to bind employees but doesn't ensure the signatory's explicit authority to do so.",
+        "location": "8)",
+        "contradicted_location": "1)b)ii)(1)",
+        "contradicted_text": "ii) Recipient: (1) Shall not disclose Confide ntial Information to any employe e or subcontractor of Recipient un less such person needs access in order to facilitate the evaluation and preparation of a response to RFP CSP903918 and executes a nondisclosure agreement with the Recipient with terms no less restrictive tha n those of this Section 2)b) ; (2) Shall not disclose Confidential Information to any other third party without Discloser’s prior written consent ; and (3) Shall not reproduce Confidential Information in any form except as required to facilitate the evaluation and preparation of a response to RFP CSP903918 .",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that the signatory had the authority to bind the recipient, its employees, and agents. The changed text removes 'and all employees and agents of the Recipient,' thereby omitting the signatory's explicit authority to bind them. The contradicted text, Section 1(b)(ii)(1), requires employees and subcontractors to be bound by a non-disclosure agreement. By removing the explicit authority to bind employees, there is a direct contradiction and uncertainty in enforcing the non-disclosure agreement on employees as required by Section 1(b)(ii)(1)."
+      }
+    ]
+  }
+]

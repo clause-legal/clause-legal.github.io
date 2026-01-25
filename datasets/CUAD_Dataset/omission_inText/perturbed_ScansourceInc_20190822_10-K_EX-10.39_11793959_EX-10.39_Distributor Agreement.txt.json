@@ -1,0 +1,18 @@
+[
+  {
+    "file_name": "ScansourceInc_20190822_10-K_EX-10.39_11793959_EX-10.39_Distributor Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "12.1 Distributor shall have the option to return to Cisco, for credit, up [*****] of the dollar value of Products from the Wholesale Price List (or, if no Wholesale Price Lists exists for Distributor's Territory, then the applicable price list) shipped to Distributor, net of credits, less returns to Cisco, in the preceding [*****] period (the \"Balancing Cap\") of the preceding Cisco fiscal quarter. The above-referenced cap shall be determined based on all Product purchases made under this Agreement. The responsibility to manage the Balancing Cap shall rest solely upon Distributor. Distributor shall be entitled to return Product once per quarter, provided such returns do not exceed the Balancing Cap. \"Dead on Arrival\" and Obsolete Products returned pursuant to Section 13 of this Agreement shall be excluded from calculation of the Balancing Cap. Cisco shall credit Distributor's account in the amount of the price paid by Distributor therefore, less any price protection credits issued to Distributor related to the Product returned (the \"Return Credit\").",
+        "changed_text": "12.1 Distributor may return Products to Cisco, subject to Cisco's discretion. The responsibility to manage returns rests solely upon Distributor. \"Dead on Arrival\" and Obsolete Products returned pursuant to Section 13 of this Agreement may be subject to a restocking fee. Cisco shall credit Distributor's account for approved returns.",
+        "explanation": "The removal of specific details about the 'Balancing Cap' and the calculation of 'Return Credit', along with the reference to 'price protection credits', introduces ambiguity. While Distributor may return Products to Cisco, the modified text now contradicts the later statement referencing Product returns pursuant to Section 13 by subjecting them to a restocking fee instead of excluding them, creating an internal contradiction. The uncertainty about the return process and associated fees affects enforcement and creates an in-text contradiction.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "12.1 Distributor may return Products to Cisco, subject to Cisco's discretion. The responsibility to manage returns rests solely upon Distributor. \"Dead on Arrival\" and Obsolete Products returned pursuant to Section 13 of this Agreement may be subject to a restocking fee. Cisco shall credit Distributor's account for approved returns.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly excludes \"Dead on Arrival\" and Obsolete Products returned pursuant to Section 13 from the calculation of the Balancing Cap, implying they are treated differently. The changed text introduces the possibility of a restocking fee for these same products returned under Section 13, directly contradicting the implied preferential treatment outlined in the original text, and further restated in the 'Contradicted Text'. This introduces an in-text contradiction because the products were previously handled separately and now could be subject to fees."
+      }
+    ]
+  }
+]

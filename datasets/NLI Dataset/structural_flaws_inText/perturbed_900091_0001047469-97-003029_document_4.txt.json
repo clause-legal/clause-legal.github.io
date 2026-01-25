@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "900091_0001047469-97-003029_document_4.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Receiving Party agrees that the Confidential Information shall be disclosed to only those people within its respective organizations or its agents, consultants, representatives or advisors who have a need to know the information 2 <PAGE> and who are obligated under terms no less restrictive than those imposed by this Agreement on the Receiving Party.",
+        "changed_text": "The Receiving Party agrees that the Confidential Information may be disclosed to anyone within its respective organizations without any restrictions. The Receiving Party is not responsible for ensuring these individuals maintain confidentiality.",
+        "explanation": "This change contradicts the requirement that Confidential Information should only be disclosed to those with a 'need to know' and who are bound by confidentiality terms no less restrictive than those in the agreement. This perturbation removes any restrictions on who can access the confidential information and waives any responsibility on the Receiving Party to ensure confidentiality is maintained. This contradicts the entire purpose of a non-disclosure agreement.",
+        "location": "6",
+        "contradicted_location": "2.(a)",
+        "contradicted_text": "The Receiving Party shall: (a) hold the Confidential Information in confidence and not disclose it to third parties, except in the limited cases referred to in paragraph \"6\"; and (b) not use the Confidential Information for any purpose other than exploring or examining the possibility of a business relationship between the parties.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the restrictions on disclosing confidential information, stating that it can be disclosed to anyone without any restrictions, and that the Receiving Party is not responsible for maintaining confidentiality. This directly contradicts the contradicted text which requires the Receiving Party to hold the Confidential Information in confidence and not disclose it to third parties, except in limited cases. The original text also required that any disclosure be to those with a need to know and under similar confidentiality terms. The changed text removes these protections, thus creating a strong contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Subject to Paragraph \"4\" hereof, the obligation of the Receiving Party provided in Paragraph \"2\" hereof shall continue for three (3) years from the date of each receipt of the Confidential Information, even after termination of this Agreement according to paragraph \"3\" hereof.",
+        "changed_text": "The obligation of the Receiving Party provided in Paragraph \"2\" hereof shall continue indefinitely from the date of each receipt of the Confidential Information, even after termination of this Agreement according to paragraph \"3\" hereof. Paragraph “4” hereof is not applicable.",
+        "explanation": "This removes the explicit three-year time limit on confidentiality obligations, making them indefinite. This contradicts the original defined duration. Additionally, removing the applicability of Paragraph 4 eliminates the exceptions to confidentiality, creating a conflict. This is a clear in-text contradiction on the term of Confidentiality",
+        "location": "13",
+        "contradicted_location": "13",
+        "contradicted_text": "Subject to Paragraph \"4\" hereof, the obligation of the Receiving Party provided in Paragraph \"2\" hereof shall continue for three (3) years from the date of each receipt of the Confidential Information, even after termination of this Agreement according to paragraph \"3\" hereof.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies a clause regarding confidentiality obligations by making them indefinite and removing the applicability of paragraph 4. The contradicted text states that these obligations continue for three years subject to paragraph 4. This creates a direct and strong contradiction because the changed text makes the term indefinite while the contradicted text explicitly defines the term as three years. This fulfills the 'Structural Flaws - In Text Contradiction' definition, since the same clause is present in multiple locations with conflicting implications, in this case regarding the duration of confidentiality obligations."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement shall be governed, construed and interpreted in accordance with the laws of Japan.",
+        "changed_text": "This Agreement shall be governed, construed and interpreted in accordance with the laws of California.",
+        "explanation": "This change modifies the governing law from Japan to California. This directly contradicts the original governing law clause, creating uncertainty about which jurisdiction's laws apply to the agreement.",
+        "location": "14",
+        "contradicted_location": "14",
+        "contradicted_text": "This Agreement shall be governed, construed and interpreted in accordance with the laws of Japan.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the agreement is governed by the laws of Japan. The changed text modifies this to California. The contradicted text, which is the same as the original, reaffirms that the agreement is governed by Japan's laws. Therefore, the change directly contradicts the original and contradicted sections, creating a strong in-text contradiction as per the 'Structural Flaws - In Text Contradiction' definition because the governing law clause is placed in multiple locations with conflicting implications."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Disclosing Party represents and warrants that it has the right to disclose the information disclosed under the terms of this Agreement and that disclosure of this information does not conflict with the terms of any agreement between the Disclosing Party and a third party.",
+        "changed_text": "The Disclosing Party makes no representations or warranties regarding its right to disclose the information disclosed under the terms of this Agreement. The Disclosing Party is not responsible if disclosure of this information conflicts with the terms of any agreement between the Disclosing Party and a third party.",
+        "explanation": "This removes the Disclosing Party's representation and warranty that it has the right to disclose the information and that it doesn't conflict with third-party agreements. Now, the Disclosing Party is not responsible, which creates a contradiction where the Receiving Party is forced to enter a NDA which the Disclosing party might not have any right to provide it, which directly violates the terms of agreement. This introduces uncertainty and contradicts the original assurance.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "The Disclosing Party represents and warrants that it has the right to disclose the information disclosed under the terms of this Agreement and that disclosure of this information does not conflict with the terms of any agreement between the Disclosing Party and a third party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text contains a representation and warranty from the Disclosing Party regarding their right to disclose information and the absence of conflicts with third-party agreements. The changed text removes this representation and warranty, stating the Disclosing Party makes no such representations and is not responsible for conflicts. The contradicted text is the original representation and warranty itself. The change creates a direct contradiction because the changed text denies the very representation and warranty that the contradicted text asserts. The fact that both texts are the same strengthens the contradiction because it highlights the removal of the clause that provides assurance of the right to disclose."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Each party shall have the right to refuse to accept any information under this Agreement, and nothing herein shall obligate either party to disclose to the other party any particular information. Further, each party acknowledges that no contract or agreement providing for a business relationship, of any nature, shall be deemed to exist unless and until a final definitive agreement has been executed and delivered.",
+        "changed_text": "Each party is obligated to disclose all relevant information under this Agreement, regardless of preference. A preliminary expression of interest shall be deemed as contract or agreement providing for a business relationship, of any nature.",
+        "explanation": "This modification forces both parties to disclose all relevant information, effectively reversing the original clause that allowed each party to refuse information. It also directly contradicts the final definitive agreement clause. This is a clear in-text contradiction on the rights to withhold information. This means that the Receiving Party would be required to make the disclosure.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "Each party shall have the right to refuse to accept any information under this Agreement, and nothing herein shall obligate either party to disclose to the other party any particular information. Further, each party acknowledges that no contract or agreement providing for a business relationship, of any nature, shall be deemed to exist unless and until a final definitive agreement has been executed and delivered.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. The original/contradicted text states that each party has the right to refuse information, while the changed text mandates the disclosure of all relevant information, regardless of preference. This creates a direct conflict regarding each party's right to withhold information. Additionally, the original text states that a business relationship only exists after a final agreement, while the changed text says a preliminary expression of interest is enough. This directly contradicts the 'final definitive agreement' clause."
+      }
+    ]
+  }
+]

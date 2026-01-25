@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "Inaturals_NDA.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Confidentiality Agreement is between_______________________ (“C ustomer ”) located at______________________ ______________________ _ and INaturals (“Company”).",
+        "changed_text": "This Confidentiality Agreement is between_______________________ (“Client”) located at______________________ ______________________ _ and INaturals (“Company”).",
+        "explanation": "Changing \"Customer\" to \"Client\" without defining it separately creates confusion. Throughout the document, the term 'Customer' is used to define the agreement counterpart, and now introducing 'Client' creates ambiguity about who is bound by those obligations. This contradicts the implicit definition of 'Customer' established later.",
+        "location": "Preamble",
+        "contradicted_location": "Clause 8",
+        "contradicted_text": "This agreement shall be binding on the parties hereto and their respective subsidiaries, affiliates, divisions, officers, directors, agents, employees, successors and assigns.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined the agreement counterpart as 'Customer'. The changed text replaces 'Customer' with 'Client'. The 'Contradicted Text' refers to 'the parties hereto', which previously was unambiguously 'Customer'. By introducing 'Client', the change creates ambiguity as to who the 'parties hereto' refers to, causing a contradiction. The perturbation type is 'Misaligned Terminology - In Text Contradiction', which occurs when multiple terms are used interchangeably without defining them, leading to conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "WHEREAS, during the course of such discussions, the parties may disclose to each other certain Confidential Information (as defin ed below);",
+        "changed_text": "WHEREAS, during the course of such discussions, the parties may disclose to each other certain Proprietary Data (as defin ed below);",
+        "explanation": "Replacing \"Confidential Information\" with \"Proprietary Data\" in the preamble introduces a conflicting term. The agreement subsequently defines \"Confidential Information,\" but never defines \"Proprietary Data.\" This creates confusion as to what information is protected under the agreement.",
+        "location": "Preamble",
+        "contradicted_location": "Clause 1",
+        "contradicted_text": "A party to this Agreement receiving Confidential Information “Recipient” agrees to retain such Confidential Information in stricte confidence and n ot to disclose it to any third party or use such Confidential Information for any purpose other than the purposes set forth in this Agreement. “Confidential Information” shall mean information related to the development of natural ingredients products including research, trade secrets, prototypes, formulas, processes, techniques, marketing programs, price information, product lists, technology, business plans, intellectual property and financial information, whether written or oral.",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'Confidential Information', which is later defined in the agreement. The changed text replaces this with 'Proprietary Data', which is NOT defined anywhere else in the agreement. The contradicted text defines 'Confidential Information' and sets obligations related to it. Since 'Proprietary Data' is now used instead of 'Confidential Information' in the preamble, but 'Confidential Information' is the only term defined and used to specify the obligations, there is a contradiction, as it is unclear which obligations and definitions apply to 'Proprietary Data', if any."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "1. A party to this Agreement receiving Confidential Information “Recipient” agrees to retain such Confidential Information in stricte confidence and n ot to disclose it to any third party or use such Confidential Information for any purpose other than the purposes set forth in this Agreement.",
+        "changed_text": "1. An entity to this Agreement receiving Confidential Information “Holder” agrees to retain such Confidential Information in stricte confidence and n ot to disclose it to any third party or use such Confidential Information for any purpose other than the purposes set forth in this Agreement.",
+        "explanation": "Changing “Recipient” to “Holder” where \"Recipient\" is introduced introduces a conflicting term, the agreement subsequently continues to use the term 'Recipient' in Clause 1, creating ambiguity in who the term Holder is refering to.",
+        "location": "Clause 1",
+        "contradicted_location": "Clause 1",
+        "contradicted_text": "The Recipient will communicate such information only to such employees and contractors or agents who have a need to know such information, and only to such employees and contractors or agents having written agreements with the Recipient obligating them to keep such information confidential .",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces \"Recipient\" with \"Holder\" in the definition, but the contradicted text still refers to \"Recipient.\" This creates ambiguity and a direct conflict because the agreement now uses two terms, \"Holder\" and \"Recipient,\" potentially referring to the same entity without explicitly defining them as such. The explanation states that this creates ambiguity, and the contradicted text relies on a clear definition of 'Recipient,' therefore a strong contradiction exists."
+      }
+    ]
+  }
+]

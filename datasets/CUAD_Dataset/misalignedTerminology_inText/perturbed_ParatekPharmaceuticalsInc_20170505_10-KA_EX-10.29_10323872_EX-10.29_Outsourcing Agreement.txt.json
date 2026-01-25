@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "ParatekPharmaceuticalsInc_20170505_10-KA_EX-10.29_10323872_EX-10.29_Outsourcing Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "a) Supplier shall perform release testing of all batches of Product prior to delivery to Customer in accordance with the Product Specifications and the Master Batch Record, to determine whether such batches of Product meet the requirements set out in the Product Specifications. Customer shall be responsible for the final release of Product prior to shipping and further processing.",
+        "changed_text": "a) Supplier shall perform release testing of all batches of Product prior to delivery to Customer in accordance with the Product Specifications and the Master Batch Record, to determine whether such batches of Product meet the requirements set out in the Product Specifications. Supplier shall be responsible for the final release of Product prior to shipping and further processing.",
+        "explanation": "The original contract assigns responsibility for 'final release of Product' to the 'Customer', but the modified text assigns this responsibility to the 'Supplier'. This change creates an in-text contradiction in section 5.1 and throws the definition of who makes the final release into question.",
+        "location": "5.1",
+        "contradicted_location": "5.1",
+        "contradicted_text": "a) Supplier shall perform release testing of all batches of Product prior to delivery to Customer in accordance with the Product Specifications and the Master Batch Record, to determine whether such batches of Product meet the requirements set out in the Product Specifications. Supplier shall be responsible for the final release of Product prior to shipping and further processing.",
+        "contradiction_exists": "NO",
+        "justification": "Although the perturbation explanation suggests that the original text assigns 'final release of Product' to the 'Customer', and the modified text assigns this responsibility to the 'Supplier', creating an in-text contradiction, the Contradicted Text is exactly the same as the Changed text. Therefore, the Change does not cause a contradiction in this specific case because both parts of the text that should cause contradiction are exactly the same."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Consistent with the Short Term Rolling Forecast as set forth in Section 4.1, Customer shall place with Supplier Purchase Orders, stating Customer's required delivery data, anticipated delivery schedule and the anticipated Fees, in accordance with the Fee Schedule set out in Exhibit C, for each delivery of Product to be made under this Agreement.",
+        "changed_text": "Consistent with the Short Term Rolling Forecast as set forth in Section 4.1, Customer shall place with Supplier Requests, stating Customer's required delivery data, anticipated delivery schedule and the anticipated Fees, in accordance with the Fee Schedule set out in Exhibit C, for each delivery of Product to be made under this Agreement.",
+        "explanation": "The term 'Purchase Orders' is changed to 'Requests'. This creates confusion because other sections of the contract rely on the term 'Purchase Orders' to define obligations. The use of 'Requests' can be interpreted as non-binding, contradicting other sections where 'Purchase Orders' are explicitly binding.",
+        "location": "6.1",
+        "contradicted_location": "6.1",
+        "contradicted_text": "Purchase Orders must have at least [* * *] of lead time before anticipated delivery to allow sufficient time for Supplier's planning, raw material purchases, production and release. Each Purchase Order shall constitute a firm, binding order, upon Supplier's acceptance thereof in accordance with Section 6.2.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Purchase Orders' to 'Requests' introduces a contradiction. The contradicted text explicitly states that 'Each Purchase Order shall constitute a firm, binding order'. By changing 'Purchase Orders' to 'Requests', the changed text implies that these 'Requests' may not be binding, directly contradicting the established binding nature of 'Purchase Orders' outlined elsewhere in the contract."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Customer shall pay to Supplier, in respect of each Purchase Order placed by Customer, the applicable Fees for the supply of the Product in bulk quantities under this Agreement, in accordance with the terms of this Agreement.",
+        "changed_text": "Customer shall pay to Supplier, in respect of each Request placed by Customer, the applicable Fees for the supply of the Product in bulk quantities under this Agreement, in accordance with the terms of this Agreement.",
+        "explanation": "Here, the term Purchase Order is changed to 'Request'. By modifying the defined meaning of the Purchase order, this creates confusion, as the fee structure and payment are now linked to what appears to be a non-binding request. This change introduces uncertainty about payment obligations. This affects how invoices are issued.",
+        "location": "9.1",
+        "contradicted_location": "10.1",
+        "contradicted_text": "Supplier shall, in accordance with Section 10.2, invoice Customer for each Purchase Order accepted under Section 6.2 as follows:",
+        "contradiction_exists": "YES",
+        "justification": "The change from \"Purchase Order\" to \"Request\" creates a direct contradiction because the contradicted text explicitly states \"invoice Customer for each Purchase Order\". By changing the initiating action to a 'Request', which is likely non-binding, the specific link between an action and invoicing is broken, leading to uncertainty in the obligation to pay. This violates the Misaligned Terminology definition, as the term is used to describe a financial obligation elsewhere."
+      }
+    ]
+  }
+]

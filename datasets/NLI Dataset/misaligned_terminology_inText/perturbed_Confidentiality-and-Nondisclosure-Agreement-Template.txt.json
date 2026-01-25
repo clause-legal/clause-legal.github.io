@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Confidentiality-and-Nondisclosure-Agreement-Template.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "VENDOR acknowledges that in the course of providing services to UNIVERSITY, VENDOR will be given or have access to confidential student and/or employee information (“Confidential Information”) protected from disclosure by privacy laws.",
+        "changed_text": "VENDOR acknowledges that in the course of providing services to UNIVERSITY, VENDOR will be given or have access to private student and/or employee information (“Confidential Information”) protected from disclosure by privacy laws.",
+        "explanation": "Changing 'confidential' to 'private' before 'student and/or employee information' introduces ambiguity. While seemingly synonymous, legal contexts often differentiate between data classifications, especially with PII. Later clauses refer specifically to 'Confidential Information' which is defined by its association with 'confidential student and/or employee information'. Using 'private' here undermines that definition and creates a contradiction. Since the agreement defines the 'Confidential Information' as `confidential student and/or employee information`, making the change of the word `confidential` to `private` creates this contradiction.",
+        "location": "1",
+        "contradicted_location": "1",
+        "contradicted_text": "Confidential Information. VENDOR acknowledges that in the course of providing services to UNIVERSITY, VENDOR will be given or have access to private student and/or employee information (“Confidential Information”) protected from disclosure by privacy laws. VENDOR, its employees, agents, contractors and subcontractors s h a l l , i n a d d i t i o n t o t h e i r r e s p e c t i v e o b l i g a t i o n s hereunder, use best efforts at all times to adopt and follow procedures and practices to protect the confidentiality of the Confidential Information and prevent its disclosure to others without the express written consent of UNIVERSITY.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'confidential' to 'private' in the Changed Text introduces ambiguity regarding the definition of 'Confidential Information.' The Contradicted Text explicitly uses 'private student and/or employee information' to define 'Confidential Information,' which creates a direct contradiction, since the agreement had defined it previously using the word `confidential` instead of `private`. This misalignment in terminology, as defined in the Perturbation Definitions, leads to a strong in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "VENDOR shall maintain the privacy of protected personal information and shall be financially responsible, if and to the extent that any security breach relating to protected personal information results from acts or omissions of VENDOR, or its personnel, for any notifications to affected persons (after prompt consultation with UNIVERSITY), and to the extent requested by UNIVERSITY, administratively responsible for such notification.",
+        "changed_text": "VENDOR shall maintain the privacy of protected confidential information and shall be financially responsible, if and to the extent that any security breach relating to protected personal information results from acts or omissions of VENDOR, or its personnel, for any notifications to affected persons (after prompt consultation with UNIVERSITY), and to the extent requested by UNIVERSITY, administratively responsible for such notification.",
+        "explanation": "The change of `protected personal information` to `protected confidential information`, within the same sentence where `protected personal information` is being used causes a contradiction on what type of information the VENDOR needs to protect. Causing uncertainty in enforcement. Even though later in the sentence, `protected personal information` is being used, due to the first chnage of the phrase, causes the contradiction",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "VENDOR shall maintain the privacy of protected confidential information and shall be financially responsible, if and to the extent that any security breach relating to protected personal information results from acts or omissions of VENDOR, or its personnel, for any notifications to affected persons (after prompt consultation with UNIVERSITY), and to the extent requested by UNIVERSITY, administratively responsible for such notification.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies `protected personal information` to `protected confidential information` in the same sentence where `protected personal information` is also being used. The contradicted text is the changed text. Even though it's in the same location. The change creates a contradiction because the vendor is now responsible for protecting two types of information `protected confidential information` and `protected personal information`, creating confusion regarding which information is being referred to within the same sentence, meeting the definition of Misaligned Terminology - In Text Contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "VENDOR and UNIVERSITY agree that this Agreement is entered into in the State of Arkansas and that the legal forums located in the State of Arkansas are the appropriate forums in the event any 3 party seeks legal action or injunctive relief under this Agreement. Both parties consent to venue and personal jurisdiction in the appropriate forum in the State of Arkansas.",
+        "changed_text": "VENDOR and UNIVERSITY agree that this Agreement is entered into in the State of Arkansas and that the legal forums located in the State of Arkansas are the exclusive forums in the event any 3 party seeks legal action or injunctive relief under this Agreement. Both parties consent to venue and personal jurisdiction in the appropriate forum in the State of Arkansas.",
+        "explanation": "Changing 'appropriate forums' to 'exclusive forums'. While seemingly similar, these terms have different legal implications. 'Appropriate' suggests that Arkansas forums are suitable, but doesn't prevent lawsuits in other jurisdictions. 'Exclusive' unequivocally mandates that all legal actions must occur in Arkansas. If the original intent was to allow for lawsuits elsewhere, this change creates a contradiction.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "Appropriate Forum. VENDOR and UNIVERSITY agree that this Agreement is entered into in the State of Arkansas and that the legal forums located in the State of Arkansas are the exclusive forums in the event any 3 party seeks legal action or injunctive relief under this Agreement. Both parties consent to venue and personal jurisdiction in the appropriate forum in the State of Arkansas.",
+        "contradiction_exists": "YES",
+        "justification": "The original text uses 'appropriate forums', which suggests that Arkansas forums are suitable but doesn't exclude other jurisdictions. The changed text replaces 'appropriate forums' with 'exclusive forums', which mandates that all legal actions must occur in Arkansas. The contradicted text still contains 'exclusive forums', however the explanation notes that the original intent of the 'appropriate' forum selection was not to be exclusive. Since the Contradicted Text is in the same location, but the explanation notes that the original term, before the change, was not intended to be 'exclusive', it is a contradiction. Changing 'appropriate' to 'exclusive' creates a contradiction with the original intent and creates a direct conflict in the document. This creates ambiguity and impacts enforcement."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement may be amended, modified or supplemented only by a written agreement signed by VENDOR and UNIVERSITY.",
+        "changed_text": "This Agreement may be amended, modified or supplemented only by a written agreement signed by VENDOR.",
+        "explanation": "Omitting `and UNIVERSITY` implies that only the VENDOR's signature is required for amendments. This directly contradicts the need for mutual agreement and creates uncertainty about the process for changing the contract, which is a crucial aspect of enforceability. This creates confusion about which entity needs to sign the document in order to be amended. ",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "This Agreement may be amended, modified or supplemented only by a written agreement signed by VENDOR. Any waiver of the terms and conditions of this Agreement must be in writing signed by the party granting such waiver and shall not operate as a waiver of, or estoppel with respect to, any subsequent or other failure to perform.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the agreement can only be modified with signatures from both VENDOR and UNIVERSITY. The changed text removes `and UNIVERSITY`, stating the agreement can be modified only with the signature of the VENDOR. This directly contradicts the contradicted text, which also says that the agreement may be amended only with the signature of the VENDOR. The change effectively creates a scenario where it is unclear whether the agreement can be modified with just the VENDOR's signature or if both VENDOR and UNIVERSITY need to sign, creating a direct conflict within the document, creating a contradiction based on the Misaligned Terminology - In Text Contradiction definition."
+      }
+    ]
+  }
+]

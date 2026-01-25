@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "1065748_0000950131-00-004465_0016.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Parties hereto agree that information shall not be deemed Confidential Information, and Recipient shall have no obligation with respect to any such information which: (i) was generally known to the public prior to the disclosure under this Agreement; 1 <PAGE> (ii) is already known to Recipient prior to October 27, 1999, as evidenced by the written electronically stored records of the Party dated prior to October 27, 1999; or (iii) is or becomes publicly known through no wrongful act of Recipient or any person to whom the Recipient discloses such information; or (iv) is received by a third party without breach of this Agreement or any other obligation to maintain the confidentiality of such information; (v) is independently developed by Recipient; or (vi) is approved for release by written authorization of Owner; or (vii) is disclosed pursuant to the lawful requirement or request of a governmental agency, or disclosure is required by operation of law.",
+        "changed_text": "The Parties hereto agree that information shall be deemed Confidential Information, and Recipient shall have full obligation with respect to any such information which: (i) was generally known to the public prior to the disclosure under this Agreement; 1 <PAGE> (ii) is already known to Recipient prior to October 27, 1999, as evidenced by the written electronically stored records of the Party dated prior to October 27, 1999; or (iii) is or becomes publicly known through no wrongful act of Recipient or any person to whom the Recipient discloses such information; or (iv) is received by a third party without breach of this Agreement or any other obligation to maintain the confidentiality of such information; (v) is independently developed by Recipient; or (vi) is approved for release by written authorization of Owner; or (vii) is disclosed pursuant to the lawful requirement or request of a governmental agency, or disclosure is required by operation of law.",
+        "explanation": "By changing 'shall not be deemed Confidential Information' to 'shall be deemed Confidential Information' and 'Recipient shall have no obligation' to 'Recipient shall have full obligation', we directly contradict the exceptions listed in this paragraph. For example, if information was already known to the recipient prior to the agreement, the original text said it wasn't confidential. Now, it is, which contradicts the intention of those exceptions. This creates uncertainty and makes this entire section contradictory.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "The Parties hereto agree that information shall be deemed Confidential Information, and Recipient shall have full obligation with respect to any such information which: (i) was generally known to the public prior to the disclosure under this Agreement; 1 <PAGE> (ii) is already known to Recipient prior to October 27, 1999, as evidenced by the written electronically stored records of the Party dated prior to October 27, 1999; or (iii) is or becomes publicly known through no wrongful act of Recipient or any person to whom the Recipient discloses such information; or (iv) is received by a third party without breach of this Agreement or any other obligation to maintain the confidentiality of such information; (v) is independently developed by Recipient; or (vi) is approved for release by written authorization of Owner; or (vii) is disclosed pursuant to the lawful requirement or request of a governmental agency, or disclosure is required by operation of law.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the core meaning of the confidentiality clause. Originally, certain conditions (i-vii) meant information was *not* considered confidential. The change flips this, stating that under the *same* conditions (i-vii), the information *is* deemed confidential. This directly contradicts the exceptions, creating a strong in-text contradiction with itself, as the exceptions are now included as conditions where information is deemed confidential. This aligns with the 'Structural Flaws - In Text Contradiction' perturbation type, where a clause is placed with conflicting implications. The contradicted text is the same location as the changed text, but the changes directly cause a conflict and thus meet the conditions for a 'YES' answer."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "All written data delivered by Owner to the Recipient pursuant to this Agreement shall be and remain the property of Owner, and all such written data, and all copies thereof, shall be promptly returned to Owner upon written request, or destroyed at Owner's option.",
+        "changed_text": "All written data delivered by Owner to the Recipient pursuant to this Agreement shall be and remain the property of the Recipient, and all such written data, and all copies thereof, shall be retained by Recipient indefinitely.",
+        "explanation": "By changing the ownership of written data from Owner to Recipient and eliminating the requirement to return or destroy it, we directly contradict the original intention of this section. This creates uncertainty over who owns the data and how it should be handled upon termination or completion of the project. The original text states that all written data remain property of the owner, and this paragraph clearly contradicts this notion, as it now states that all written data belongs to the recipient.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "All written data delivered by Owner to the Recipient pursuant to this Agreement shall be and remain the property of the Recipient, and all such written data, and all copies thereof, shall be retained by Recipient indefinitely.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text by stating that the Recipient owns and retains the written data indefinitely, whereas the original text indicated that the Owner retained ownership of the written data. This creates a clear and irreconcilable contradiction regarding the ownership and disposition of the data, which is a critical element of the agreement, thereby meeting the criteria for 'YES'."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement shall be effective from and after the date set forth below and shall terminate eighteen months thereafter.",
+        "changed_text": "This Agreement shall be effective from and after the date set forth below and shall never terminate.",
+        "explanation": "By changing the termination clause to state that the agreement shall 'never terminate', we contradict the original agreement's stated duration of eighteen months. This creates a perpetual obligation and conflicts directly with the limited timeframe originally agreed upon. This contradiction creates considerable uncertainty regarding the long-term obligations of each party.",
+        "location": "14",
+        "contradicted_location": "14",
+        "contradicted_text": "This Agreement shall be effective from and after the date set forth below and shall never terminate.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the agreement terminates after eighteen months. The changed text says the agreement will 'never terminate'. The contradicted text restates that the agreement will 'never terminate', reflecting the change. This creates a direct contradiction because a contract cannot simultaneously have a fixed termination date and last forever. The change in the Changed Text directly contradicts the original agreement's limited timeframe, creating a perpetual obligation which leads to an in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "One party hereto (\"Owner\") may disclose to the other party hereto (\"Recipient\") certain Confidential Information pursuant to this Agreement which Owner deems proprietary and confidential.",
+        "changed_text": "One party hereto (\"Owner\") must disclose to the other party hereto (\"Recipient\") all Confidential Information pursuant to this Agreement.",
+        "explanation": "Changing 'may disclose' to 'must disclose' alters the voluntary nature of information sharing. The original allows for selective disclosure, while the modified version mandates full disclosure of all confidential information. This creates a direct contradiction because paragraph 1, states that the Owner discloses based on what they deem is proprietary and confidential. With the new perturbation it now dictates that the owner must disclose all confidential information. This could force disclosure of information the Owner wishes to keep private, contradicting the purpose of the NDA.",
+        "location": "1",
+        "contradicted_location": "1",
+        "contradicted_text": "One party hereto (\"Owner\") must disclose to the other party hereto (\"Recipient\") all Confidential Information pursuant to this Agreement which Owner deems proprietary and confidential.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies 'may disclose' to 'must disclose', forcing the Owner to disclose all Confidential Information. This contradicts the original intent and the contradicted text, which allows the Owner to disclose only what they deem proprietary and confidential. This creates a direct conflict, since paragraph 1 now contradicts the purpose of the NDA."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Notwithstanding the provisions of Paragraph 1 above, the Parties may disclose the Confidential Information disclosed under this Agreement to their employees and/or agents, but only for the purpose of supplying the Party with sufficient information to enable the Party to evaluate the potential value of establishing a business and/or contractual relationship with each other.",
+        "changed_text": "Notwithstanding the provisions of Paragraph 1 above, the Parties shall not disclose the Confidential Information disclosed under this Agreement to their employees and/or agents.",
+        "explanation": "By changing 'may disclose' to 'shall not disclose', we completely reverse the permission granted in paragraph 2 to share information with employees and agents. This now directly contradicts paragraph 1, which allows for some level of disclosure, and creates ambiguity about who is authorized to access the Confidential Information. The introduction of this negative constraint will create in-text contradiction, since para 1 allows for some level of disclosure.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "Notwithstanding the provisions of Paragraph 1 above, the Parties shall not disclose the Confidential Information disclosed under this Agreement to their employees and/or agents, but only for the purpose of supplying the Party with sufficient information to enable the Party to evaluate the potential value of establishing a business and/or contractual relationship with each other.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allows parties to disclose confidential information to employees/agents for evaluation purposes. The changed text explicitly prohibits such disclosure. This creates a direct and strong contradiction with the contradicted text, which also prohibits disclosure but includes the evaluation exception, and with the original paragraph 1 which allows some level of disclosure, making the contract inconsistent and ambiguous about who can access the information, creating a clear in-text contradiction. The perturbation explanation confirms this type of change directly introduces a contradiction."
+      }
+    ]
+  }
+]

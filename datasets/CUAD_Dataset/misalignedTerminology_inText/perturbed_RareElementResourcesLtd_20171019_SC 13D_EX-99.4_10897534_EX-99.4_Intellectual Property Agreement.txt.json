@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "RareElementResourcesLtd_20171019_SC 13D_EX-99.4_10897534_EX-99.4_Intellectual Property Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "2.10 \"Improvement\" or \"Improvements\" means any modification of a process or other technology described in a Patent, and any modification to Technical Information.",
+        "changed_text": "2.10 \"Improvement\" or \"Improvements\" means any modification of a process or other technology described in a Patent.",
+        "explanation": "The definition of \"Improvement\" is changed by removing 'and any modification to Technical Information'. This creates a contradiction because later sections assume 'Improvements' relate to both Patents and Technical Information.",
+        "location": "II. Definitions - 2.10",
+        "contradicted_location": "V. Improvements - 5.00",
+        "contradicted_text": "5.00 Improvements made or acquired solely by the Company (\"Company Improvements\") during the term of this IP Agreement shall be deemed Technical Information hereunder and shall be subject to the license provisions set forth in Article III for Technical Information. Any patent applications and any patents relating to any Company Improvements shall be deemed Patents hereunder and shall be subject to the license provisions set forth in Article III for Patents.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes 'and any modification to Technical Information' from the definition of \"Improvement\". This directly contradicts section 5.00, which states that 'Company Improvements' shall be deemed Technical Information. The modified definition now excludes modifications to Technical Information from being considered Improvements, creating a direct conflict."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "3.00 Company grants to Investor, for the duration of the Option Period, a worldwide, royalty-free, non-exclusive, irrevocable license (with the right to grant sublicenses to Affiliates) under the Patents to practice the methods therein described and claimed and to make and have made, use, offer to sell, sell and import products made using such methods, and to make Improvements, and to engage in any activity which would give rise to a claim of infringement (direct or indirect or otherwise) of one or more of the Patents in the absence of a license.",
+        "changed_text": "3.00 Company grants to Investor, for the duration of the Option Period, a worldwide, royalty-free, non-exclusive, revocable license (with the right to grant sublicenses to Affiliates) under the Patents to practice the methods therein described and claimed and to make and have made, use, offer to sell, sell and import products made using such methods, and to make Improvements, and to engage in any activity which would give rise to a claim of infringement (direct or indirect or otherwise) of one or more of the Patents in the absence of a license.",
+        "explanation": "The term \"irrevocable license\" is changed to \"revocable license\". This contradicts Article 3.07 which states the license rights are an encumbrance and shall be enforceable.",
+        "location": "III. License - 3.00",
+        "contradicted_location": "III. License - 3.07",
+        "contradicted_text": "3.07 The licenses and other rights of Investor set forth in this IP Agreement are an encumbrance on (and thus run with) the Patents and Technical Information, and shall be enforceable against any entity having or obtaining ownership of, or the right to enforce, any of the Patents and Technical Information or any rights therein. Company shall obligate any Person to whom Company assigns or otherwise confers an ownership interest or right to enforce any of the Patents and Technical Information or any rights therein to: (a) fully honor in all respects all of the rights and licenses granted to Investor under this IP Agreement; and (b) obligate all subsequent assignees or other Persons who obtain an ownership interest or right to enforce any of the Patents and Technical Information or any rights therein to (i) similarly fully honor all of the foregoing in all respects, and (ii) expressly flow down all of the foregoing (including, without limitation, this flow down obligation) in all subsequent assignments or other agreements that confer an ownership interest or right to enforce any of the Patents and Technical Information or any rights therein. Any assignment or agreement or other transaction by Company that fails to be in complete compliance with this Article 3.07 or any other provision of this IP Agreement shall be null and void.",
+        "contradiction_exists": "YES",
+        "justification": "The change from \"irrevocable license\" to \"revocable license\" directly contradicts Article 3.07, which states that the licenses are an encumbrance and shall be enforceable against any entity. A revocable license can be terminated, thus not providing an enforceable encumbrance, creating a strong contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "18.03 Litigation or Arbitration as a Final Resort. If the Parties cannot resolve any Dispute for any reason, including, but not limited to, the failure of the Parties to agree to enter into mediation or agree to any settlement proposed by the mediator, within sixty (60) days after the Escalation to Mediation Date, either the Company or the Holder may file suit in a court of competent jurisdiction in accordance with Article 18.04.",
+        "changed_text": "18.03 Litigation or Arbitration as a Final Resort. If the Parties cannot resolve any Dispute for any reason, including, but not limited to, the failure of the Parties to agree to enter into mediation or agree to any settlement proposed by the mediator, within sixty (60) days after the Escalation to Mediation Date, neither the Company nor the Holder may file suit in a court of competent jurisdiction in accordance with Article 18.04.",
+        "explanation": "By changing 'either the Company or the Holder may file suit' to 'neither the Company nor the Holder may file suit', there is an internal contradiction that removes the right to seek legal recourse if mediation fails and the governing law Article 18.04 will have no effect if no one may file the suit",
+        "location": "XVIII. Governing Law; Jurisdiction; Dispute Resolution - 18.03",
+        "contradicted_location": "XVIII. Governing Law; Jurisdiction; Dispute Resolution - 18.04",
+        "contradicted_text": "18.04 Governing Law; Jurisdiction. All questions concerning the construction, validity, enforcement and interpretation of this IP Agreement shall be determined in accordance with the provisions of the Investment Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Article 18.03 states that 'neither the Company nor the Holder may file suit,' directly contradicting Article 18.04, which outlines the governing law and jurisdiction for resolving disputes through legal means. If no party is allowed to file suit, Article 18.04 becomes unenforceable and irrelevant, creating a significant in-text contradiction. The original text allowed either party to file suit, thus aligning with the purpose of Article 18.04, but the change removes this right, causing the contradiction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "for-41-supplier-confidentiality-agreement-and-non-disclosure-agreement.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "1. The recipient agrees to hold all information provided by Manitoba Housing (“Confidential Information”) in trust and confidence and agrees that it shall be used only for the contemplated purposes, shall not be used for any other purpose or disclosed to any third part.",
+        "changed_text": "1. The recipient agrees to hold all information provided by Manitoba Housing (“Confidential Information”) in trust and confidence and agrees that it shall be used only for the contemplated purposes, but may be used for related projects with written consent from Manitoba Housing, and disclosure to necessary third parties involved in those projects is permitted.",
+        "explanation": "This change introduces a contradiction. Initially, the recipient couldn't use confidential information for any purpose other than the 'contemplated purposes' and couldn't disclose it to any third party. The modified text allows usage for related projects with consent and disclosure to necessary third parties. This contradicts the original strict prohibition, creating uncertainty about what's allowed.",
+        "location": "1",
+        "contradicted_location": "5",
+        "contradicted_text": "5. Confidential information shall not be disclosed to any employee, consultant or third party unless they have executed and agreed to be bound by the terms of the Agreement, and have been approved by Manitoba Housing.",
+        "contradiction_exists": "YES",
+        "justification": "The original text strictly prohibited any third-party disclosure, while the changed text permits disclosure to necessary third parties involved in related projects with written consent. The contradicted text also requires approval by Manitoba Housing and an agreement to be bound by the terms of the Agreement before any disclosure to a third party. Although the changed text requires written consent, it still contradicts the original text's strict prohibition and introduces an inconsistency with the contradicted text, creating uncertainty about the conditions under which disclosure is allowed, thereby creating a contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "3. No copies will be made or retained of any written information without the permission of Manitoba Housing.",
+        "changed_text": "3. Copies of written information may be made for internal review, but retention is strictly prohibited without explicit written permission from Manitoba Housing.",
+        "explanation": "Originally, NO copies could be made without permission. The modified text allows copies for internal review, contradicting the original strict prohibition. This creates uncertainty: what constitutes 'internal review', and what happens if review reveals a need for longer retention?",
+        "location": "3",
+        "contradicted_location": "4",
+        "contradicted_text": "4. At the conclusion of any discussions or upon demand by Manitoba Housing, a ll confidential information or written notes taken shall be returned to Manitoba Housing.",
+        "contradiction_exists": "YES",
+        "justification": "The original text prohibited all copies. The changed text permits copies for 'internal review' while still prohibiting retention without permission. This directly contradicts the original total prohibition. Further, the 'Contradicted Text' demands all confidential information or written notes be returned upon demand, which conflicts with the changed text's allowance for copies for internal review (but not retained) because the copies could contain confidential information that would be held temporarily and thus, potentially in violation of the 'Contradicted Text'."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "4. At the conclusion of any discussions or upon demand by Manitoba Housing, a ll confidential information or written notes taken shall be returned to Manitoba Housing.",
+        "changed_text": "4. At the conclusion of any discussions or upon demand by Manitoba Housing, all original confidential information shall be returned to Manitoba Housing. Copies made for internal review do not need to be returned unless explicitly requested.",
+        "explanation": "The original text requires ALL confidential information and written notes to be returned. The modified text states that copies made for internal review do not need to be returned unless specifically requested. This directly contradicts the original and creates uncertainty about obligations.",
+        "location": "4",
+        "contradicted_location": "3",
+        "contradicted_text": "3. Copies of written information may be made for internal review, but retention is strictly prohibited without explicit written permission from Manitoba Housing.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that ALL confidential information and written notes taken shall be returned. The changed text introduces an exception: that copies made for internal review do not need to be returned unless specifically requested. This directly contradicts the contradicted text, which states that retention is strictly prohibited without explicit written permission. The changed text now permits retention of copies for internal review under certain conditions, creating a direct conflict and therefore a strong in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "5. Confidential information shall not be disclosed to any employee, consultant or third party unless they have executed and agreed to be bound by the terms of the Agreement, and have been approved by Manitoba Housing.",
+        "changed_text": "5. Confidential information shall not be disclosed to any employee, consultant or third party unless they have executed and agreed to be bound by the terms of the Agreement, or if the recipient deems such disclosure necessary for project execution.",
+        "explanation": "Originally, disclosure to third parties required an agreement and approval from Manitoba Housing. The altered text now also permits disclosure if the recipient deems it necessary for project execution. This is contradictory because it undermines Manitoba Housing's control over who receives confidential information, and contradicts original prohibition introducing uncertainty about what's allowed.",
+        "location": "5",
+        "contradicted_location": "1",
+        "contradicted_text": "1. The recipient agrees to hold all information provided by Manitoba Housing (“Confidential Information”) in trust and confidence and agrees that it shall be used only for the contemplated purposes, but may be used for related projects with written consent from Manitoba Housing, and disclosure to necessary third parties involved in those projects is permitted.",
+        "contradiction_exists": "YES",
+        "justification": "The original text required Manitoba Housing's approval for disclosing confidential information to third parties. The changed text introduces an alternative condition where the recipient's judgment is sufficient for disclosure, directly conflicting with the original requirement. The contradicted text reinforces Manitoba Housing's control and consent over the use and disclosure of confidential information. The changed text undermines this control, creating a clear contradiction. Therefore, a strong in-text contradiction exists as it introduces uncertainty about what's allowed."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "WHEREAS, the recipient agrees to review, examine, inspect or obtain such confidential information only for the purposes described above, and to otherwise hold such information confidential pursuant to the terms of this Agreement.",
+        "changed_text": "WHEREAS, the recipient agrees to review, examine, inspect or obtain such confidential information primarily for the purposes described above, and to otherwise hold such information confidential pursuant to the terms of this Agreement, unless otherwise agreed upon with associated project stakeholders.",
+        "explanation": "The original text restricts the recipient's use of confidential information 'only for the purposes described above'. The modified text allows usage 'unless otherwise agreed upon with associated project stakeholders', which broadens the acceptable use, creating an in-text contradiction about scope. Stakeholders may agree on something outside the agreement’s original intent. Also, in contrast to the clause at the very beginning of the text.",
+        "location": "WHEREAS",
+        "contradicted_location": "1",
+        "contradicted_text": "1. The recipient agrees to hold all information provided by Manitoba Housing (“Confidential Information”) in trust and confidence and agrees that it shall be used only for the contemplated purposes, but may be used for related projects with written consent from Manitoba Housing, and disclosure to necessary third parties involved in those projects is permitted.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that confidential information should be used 'only for the purposes described above', but the changed text broadens this scope by allowing usage 'unless otherwise agreed upon with associated project stakeholders'. This directly contradicts the contradicted text which specifies 'it shall be used only for the contemplated purposes, but may be used for related projects with written consent from Manitoba Housing'. The changed text introduces an alternative route for approving use of the information (agreement with project stakeholders) that is not mentioned or allowed in the contradicted text, causing a strong in-text contradiction."
+      }
+    ]
+  }
+]

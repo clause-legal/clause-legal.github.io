@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "NON-DISCLOSURE-AGREEMENT_13.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The confidential information is a valuable asset that belongs to the disclosing party .",
+        "changed_text": "The confidential information is generally considered a valuable asset, but ownership remains unclear until formally assigned in writing.",
+        "explanation": "This change introduces ambiguity regarding the ownership of confidential information. Originally, it was stated that the information 'belongs' to the disclosing party. Now, ownership is unclear until formally assigned. This contradicts the implicit understanding that the disclosing party inherently owns the information disclosed. This creates an in-text contradiction, because it creates uncertainity for the ownership of the information.",
+        "location": "3.2",
+        "contradicted_location": "3.2",
+        "contradicted_text": "The re will be no disclosure or use of confidential information, without permission. The confidential information is generally considered a valuable asset, but ownership remains unclear until formally assigned in writing. 3.3. Confidential information may not be disclosed to any third party . Information may only be disclosed to employees and/or agents; or if required by law , and such employees and/or agents must bind themselves to this agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that confidential information 'belongs to the disclosing party'. The changed text introduces ambiguity, stating ownership is 'unclear until formally assigned'. The contradicted text uses the changed text and states 'The re will be no disclosure or use of confidential information, without permission' and 'The confidential information is generally considered a valuable asset, but ownership remains unclear until formally assigned in writing'. This contradicts the implicit understanding that the disclosing party inherently owns the information disclosed without explicit assignment, creating an in-text contradiction about the right to disclose information, which aligns with the 'Ambiguities - In Text Contradiction' definition."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Confidential information may not be disclosed to any third party . Information may only be disclosed to employees and/or agents; or if required by law , and such employees and/or agents must bind themselves to this agreement.",
+        "changed_text": "Confidential information may be disclosed to any third party, with a notification in writing to the disclosing party, prior to disclosure. Information may also be disclosed to employees and/or agents, or if required by law, provided that the disclosing party is notified.",
+        "explanation": "This change introduces a contradiction regarding disclosure to third parties. Previously, such disclosure was strictly prohibited. Now, it's allowed with notification. This affects the overall confidentiality of the agreement, creating an in-text contradiction with the purpose of the entire NDA. It creates an in-text contradiction because the original text was stating that the information can only be shared if the other party required by law, so there is a differente between 'required by law' and 'may be disclosed' when the second one there is no specific condition for it.",
+        "location": "3.3",
+        "contradicted_location": "3.3",
+        "contradicted_text": "Confidential information may be disclosed to any third party, with a notification in writing to the disclosing party, prior to disclosure. Information may also be disclosed to employees and/or agents, or if required by law, provided that the disclosing party is notified. 3.4. If it is legally required for either party to disclose confident ial information, the other party must be informed of this in writing. The Party required to make the disclosure will only do so to the extent that it is compulsory.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that confidential information may not be disclosed to any third party except under very specific conditions (employees/agents, or required by law). The changed text now permits disclosure to any third party with prior notification. This directly contradicts the original restriction on disclosure, and it is also a strong contradiction with the contradicted text, which also allows any third party disclosure only after notification, when it should be after a legal requirement for a disclosure. This change clearly introduces an inconsistency regarding when and how confidential information can be disclosed, creating a strong in-text contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "When this agreement comes to an end or written demand has been sent, confidential information must be returned to the other party , within 5 (five) business days of the expiry date or the date that the demand was received. Confidential information held in electronic format mus t be destroyed or deleted to protect its confidentiality .",
+        "changed_text": "When this agreement comes to an end or written demand has been sent, confidential information may be retained by the receiving party for archival purposes, with the understanding that it will not be actively used. Confidential information held in electronic format may be stored securely.",
+        "explanation": "This changes the obligation to return or destroy confidential information upon termination of the agreement. The original text mandated return or deletion, while the modified text allows retention for archival purposes. This creates an in-text contradiction with the confidentiality clauses in the agreement, where it was initially defined that confidential information 'must be returned'. The uncertainty creates a contradiction with the other sections.",
+        "location": "3.5",
+        "contradicted_location": "3.5",
+        "contradicted_text": "When this agreement comes to an end or written demand has been sent, confidential information may be retained by the receiving party for archival purposes, with the understanding that it will not be actively used. Confidential information held in electronic format may be stored securely. 3.6. No warranties, representations or undertakings will be valid or relied on, unless placed in writing and signed by both parties. No changes to this agreement will be valid or hav e force or effect unless placed in writing and signed by both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates the return or destruction of confidential information upon termination, creating a clear obligation. The changed text introduces an exception by allowing the receiving party to retain confidential information for archival purposes, provided it is not actively used. This directly contradicts the initial requirement to return or destroy the information. The changed text is the same as the contradicted text, and the explanation states there is a contradiction with the confidentiality clauses in the agreement where it was initially defined that confidential information 'must be returned'."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "No changes to this agreement will be valid or hav e force or effect unless placed in writing and signed by both parties.",
+        "changed_text": "Changes to this agreement may be implemented through email correspondence, subject to confirmation within 30 days.",
+        "explanation": "The original text specifies that changes to the agreement must be in writing and signed by both parties. The modified text introduces the possibility of changes via email, contradicting the original requirement for formal written amendments. This creates an in-text contradiction within the contract itself, because the original agreement specifies a specific protocol, and with the new text, there is a conflict of the protocol and it creates uncertainity. ",
+        "location": "3.6",
+        "contradicted_location": "3.6",
+        "contradicted_text": "No warranties, representations or undertakings will be valid or relied on, unless placed in writing and signed by both parties. Changes to this agreement may be implemented through email correspondence, subject to confirmation within 30 days. 3.7. No party may directly or indirectly make an of fer employment to, or request an interest from an employee or agent of the other party , for a least 1 (one) year of signing this agreement and for at least 1 (one) year after its termination.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that changes to the agreement must be in writing and signed by both parties. The changed text allows for changes via email correspondence, subject to confirmation within 30 days. This directly contradicts the initial requirement for written and signed amendments. The contradicted text highlights the agreement that no warranties, representations or undertakings will be valid or relied on, unless placed in writing and signed by both parties; however the changed text states otherwise and creates contradiction and therefore uncertainty within the contract, as indicated in the prompt."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "No party may directly or indirectly make an of fer employment to, or request an interest from an employee or agent of the other party , for a least 1 (one) year of signing this agreement and for at least 1 (one) year after its termination.",
+        "changed_text": "Parties may make offers of employment to employees or agents of the other party, provided that the employee or agent has been given a notice of at least 30 days.",
+        "explanation": "This change directly contradicts the non-solicitation clause. The original text prohibited any offers of employment for one year after the agreement, while the modified version allows such offers with a 30-day notice. This creates an in-text contradiction because the previous rule was prohibitting any offer of employment and with the new text, it's now allowing it with a condition and creates uncertainity because it's not clear now, in which cases are allow and not.",
+        "location": "3.7",
+        "contradicted_location": "3.7",
+        "contradicted_text": "Parties may make offers of employment to employees or agents of the other party, provided that the employee or agent has been given a notice of at least 30 days. 3.8. The Courts of the Republic of South Africa have jurisdiction over any dispute resulting from this agreement. (E.g. Party 1 has been approached to develop and implement a marketing strategy for Party 2’s service offering. The nature, extent and viability will be determined by the Parties in a Service Level Agreement) (e.g. their financial dealings, contractual rights and obligations, their current client base and potential clients, suppliers, employees, operation systems, forecasts, strategies and budgets, intellectual property, and other information that may be of importance.) Initials Initials",
+        "contradiction_exists": "YES",
+        "justification": "The original text prohibited soliciting employees for one year. The changed text allows solicitation with 30-day notice. The contradicted text restates the changed text, which directly conflicts with the original restriction, creating a clear in-text contradiction because one section outright prohibits an action that another explicitly allows under specified conditions, leading to uncertainty about which rule governs."
+      }
+    ]
+  }
+]

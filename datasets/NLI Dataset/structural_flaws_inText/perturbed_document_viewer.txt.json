@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "document_viewer.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "4.4. The Provider shall employ at all times administrative and technical security measures to the Town’s standards on access and password procedures for Provider’s personnel, encryption of Town Confidential Information while in transit and at rest, continuous monitoring of the security posture of the Information, maintenance of auditable logs including: user access logs, physical outage logs, and application logs, encryption, isolation of the Town’s Confidential Information, business continuity procedures, and provision of an encrypted method of remo te authentication and authorization.",
+        "changed_text": "4.4. The Provider shall employ, when deemed necessary by the Provider and feasible, administrative and technical security measures based on the Provider's internal standards on access and password procedures for Provider’s personnel, encryption of Town Confidential Information while in transit, intermittent monitoring of the security posture of the Information, maintenance of basic logs including: user access logs, isolation of the Town’s Confidential Information only during business hours, and provision of a non-encrypted method of remo te authentication and authorization.",
+        "explanation": "This change reduces the security measures required, moving from 'Town’s standards' to 'Provider's internal standards', removing encryption 'at rest', reducing monitoring frequency, using 'basic logs' instead of 'auditable logs', limiting isolation to 'business hours', and removing encryption for remote authentication. This weakens the security protocols and contradicts the overall intent of protecting Confidential Information established in Section 4 and the requirements outlined in 4.5 relating to Security Breaches.",
+        "location": "4.4",
+        "contradicted_location": "4.5",
+        "contradicted_text": "4.5. The Provider shall immediately notify the Town of any security breach (including any internal unauthorized use or disclosure), investigate the security breach, and take measures to reme diate such breach at the Vendor s cost as directed by the Town.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in 4.4 significantly weakens the security measures required by the provider. Specifically, it changes the standard from 'Town's standards' to 'Provider's internal standards', eliminates encryption 'at rest', reduces monitoring frequency, uses 'basic logs' instead of 'auditable logs', limits isolation to 'business hours', and removes encryption for remote authentication. This directly contradicts 4.5, which requires immediate notification to the Town of any security breach and remediation at the Vendor's cost. The weakened security posture outlined in the changed text makes a security breach more likely and thus directly conflicts with the obligation to immediately investigate and remediate breaches. Therefore, the change creates a strong in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "5. Right to Audit 5.1. The Town retains the right to audit the Provider to ensure that proper measures are being applied to protect any and all confidential information. Auditing may be performed by Town IT Staff or by a Third Par ty, as chosen by the Town in its sole discretion.",
+        "changed_text": "5. Right to Audit 5.1. The Town may request an audit of the Provider, but the Provider has the right to refuse. Auditing will be performed only by a mutually agreed upon Third Party, at the Town’s expense.",
+        "explanation": "This change significantly limits the Town's right to audit, which contradicts the initial power dynamic set by the original text. By giving the Provider the right to refuse and restricting auditing to a mutually agreed upon third party (at the town's expense) it diminishes the Town's ability to enforce security measures, contradicting the core intention of Section 4 regarding Protection of Confidential Information and 5.2 regarding Privacy Impact Assessments.",
+        "location": "5.1",
+        "contradicted_location": "5.2",
+        "contradicted_text": "5.2. A Privacy Impact Assessment (“PIA”) shall be required if the Provider will have access to personal information as defined by MFIPPA and personal health information as defined by PHIPA, the Town sha ll have right to terminate the engagement of the Provider without any liability or penalty if the Provider fails the PIA, and the failure cannot be mitigated , within a time specified by the Town, by measures acceptable to the Town.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 5.1 significantly weakens the Town's audit rights by granting the Provider the right to refuse and limiting audits to mutually agreed-upon third parties. This directly contradicts Section 5.2, which grants the Town the right to terminate the agreement if the Provider fails a Privacy Impact Assessment (PIA) and cannot mitigate the failure. With the Provider now able to refuse an audit, the Town's ability to conduct a PIA and enforce its termination rights under Section 5.2 is undermined, creating a strong in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "6. Return of Confidential I nformation 6.1. The Town may, at any time, request the return of all Confidential Information (including notes generated by the Provider on Confidential Information given orally) and all copies thereof, received from or on behalf of the Town , and the Provider agrees to promptly comply with such requests.",
+        "changed_text": "6. Return of Confidential I nformation 6.1. The Town may request the return of specifically identified documents only, and only if the Provider is able to locate them within a reasonable timeframe. The Provider is not obligated to return or destroy automatically generated computer logs or any documents older than one year.",
+        "explanation": "This significantly weakens the Town's right to retrieve confidential information. It now limits the scope to 'specifically identified documents', allows the Provider to claim inability to locate information, and exempts computer logs and older documents. This creates conflict with the intended indefinite confidentiality and return obligations, this contradicts section 11.1.",
+        "location": "6.1",
+        "contradicted_location": "11.1",
+        "contradicted_text": "11. Length of Agreement 11.1. This agreement shall be in full force upon its execution by the Parties and shall be and effect inde finitely. For greater clarity and certainty, the obligations herein with respect to Confidential Information continue indefinitely and beyond the time limit of the specific engagement for whi ch the Town engaged the Provider .",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in section 6.1 significantly weakens the Town's right to retrieve confidential information by limiting the scope to 'specifically identified documents', allowing the Provider to claim inability to locate information, and exempting computer logs and older documents. This contradicts section 11.1, which states that the obligations with respect to Confidential Information continue indefinitely."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "8.1. The Town shall at all time retain sole ownership, right and title in the Town’s Confidential Information",
+        "changed_text": "8.1. The Town retains ownership of the explicitly marked confidential information provided, however the provider has the right to use such confidential information with other clients",
+        "explanation": "This change creates a contradiction, by stating that while the Town retains ownership, the Provider has the right to use the confidential information with other clients. This contradicts the fundamental principle of sole ownership and confidentially established in section 3.1 regarding Disclosure to Third Parties.",
+        "location": "8.1",
+        "contradicted_location": "3.1",
+        "contradicted_text": "3. Disclosure to Third Parties 3.1. From and after the date of this Agreement, the Provider agrees neither to disclose to any third party nor permit any third party to have access to any or all of the Confidential Information disclosed by the Town , without the prior written consent of the Town , nor to use any of the Confidential Information for any purpose other than as consented to in writing by the Town . However, the aforesaid obligations shall not apply to information which the Provider can clearly demonstrate falls within any one of the following categories: a) Information that is now generally known to the public through no fault of the Provider ; b) Information obtained a fter the date of this Agreement hereof from a third party lawfully in possession of and with no limitation upon disclosure of that information, and having the right to disclose the same; or c) Information that is required to be divulged pursuant to process of any judicial or governmental body of competent jurisdiction, provided notice of receipt of such notice is provided to the other party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 8.1 grants the Provider the right to use the Town's confidential information with other clients. This directly contradicts Section 3.1, which states that the Provider shall not disclose the Confidential Information to any third party nor use it for any purpose other than as consented to in writing by the Town. The change creates a clear conflict, as it allows the Provider to use the information in a way that Section 3.1 explicitly prohibits without written consent. This meets the definition of 'Structural Flaws - In Text Contradiction' as it introduces conflicting implications about the Provider's right to use confidential information."
+      }
+    ]
+  }
+]

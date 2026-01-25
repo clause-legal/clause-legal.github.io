@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "NDA-2016-DAB.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Each party warrants its right to disclose its Confidential Information to the other party and to authorise the other party to use the same for the Purpose.",
+        "changed_text": "Each party warrants its right to disclose its Confidential Information to the other party.",
+        "explanation": "Removing 'and to authorise the other party to use the same for the Purpose' removes a key allowance given. While parties warrant their right to disclose, the removal of the part authorizing use creates doubt. Clause 2(a) indicates handling instructions, but this removal creates doubt about what activities the other party is permitted to perform with confidential information, introducing uncertainty and potentially hindering the original intent of establishing a business relationship, outlined in clause A of the WHEREAS section.",
+        "location": "4",
+        "contradicted_location": "WHEREAS",
+        "contradicted_text": "WHEREAS : (A) The parties, for their mu tual benefit, may have exchanged and wish further to exchange certain information (including but not limited to trade secrets and proprietary know -how) in order that each of them may evaluate such information for the purpose of determining their respective interest in establishing a business relationship between them. (B) The parties wish to define their rights with respect to the said information and to protect the confidentiality thereof and proprietary features contained therein.",
+        "contradiction_exists": "YES",
+        "justification": "The original text warranted both the right to disclose and the right to authorize use of confidential information. The changed text removes the authorization to use the information, while the 'WHEREAS' section indicates the parties intend to exchange information to evaluate a business relationship. Because the purpose of the exchange is to evaluate and potentially establish a business relationship, removing the explicit authorization to use the information directly contradicts the intent and purpose outlined in the 'WHEREAS' section. The omission undermines the foundation for establishing a business relationship, as evaluation requires the ability to use the disclosed information."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This Agreement shall become effective from the date hereof and continue in force for a period of one year . The provisions of clauses 1, 2 and 3 shall survive any such termination.",
+        "changed_text": "This Agreement shall become effective from the date hereof and continue in force for a period of one year .",
+        "explanation": "By removing 'The provisions of clauses 1, 2 and 3 shall survive any such termination,' the contract now has a glaring omission regarding what happens to confidential information after the agreement ends. Clause 3 requires the return of confidential information after the 'Purpose' is complete, but clause 7 originally ensured the survival of those obligations, now without it, after the term of the agreement expires, parties may not be required to continue protecting information.",
+        "location": "7",
+        "contradicted_location": "3",
+        "contradicted_text": "Each party shall: (a) within one month of completion of the Purpose or receipt of a written request from the other party, return to the other party all documents and mater ials (and all copies thereof) containing the other party's Confidential Information and certify in writing to the other party that it has complied with the requirements of this sub -clause; and (b) notwithstanding completion of the Purpose or return of document s and materials as aforesaid, continue to be bound by the undertakings set out in clause 2.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that clauses 1, 2, and 3 would survive termination, which included the obligation to return confidential information as detailed in clause 3 and the undertakings set out in clause 2 of the contradicted text. The changed text omits this survival clause. As a result, upon termination of the agreement, the contradicted text's requirements to return confidential information and continue to be bound by undertakings set out in clause 2 after termination are no longer explicitly enforced by the first clause, creating a strong contradiction. Without the survival clause, it's unclear if the obligations in the contradicted text continue to apply after the one-year term, creating an in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "All notices under this Agreement shall be in writing and shall be sent by first -class registered or recorded delivery post to the party being served at its address specified above or at such other address of which such party shall have given notice as aforesaid, and marked for the attention of that party's signatory of this Agreement. The date of service shall be deemed to be the day following the day on which the notice was transmitted or posted as the case m ay be.",
+        "changed_text": "All notices under this Agreement shall be in writing and shall be sent to the party being served at its address specified above or at such other address of which such party shall have given notice as aforesaid, and marked for the attention of that party's signatory of this Agreement.",
+        "explanation": "Removing 'first -class registered or recorded delivery post' eliminates the requirement for proof of delivery. Without registered or recorded delivery, there's no guaranteed method of verifying that a notice was actually received. This creates uncertainty regarding compliance with notification requirements, especially concerning critical matters like breach of contract.",
+        "location": "6",
+        "contradicted_location": "10",
+        "contradicted_text": "Both parties to this Agreement acknowledge that the Confidential Information belonging to each party is a unique and valuable asset of su ch party. Disclosure in breach of this Agreement will result in irreparable injury to the disclosing party for which monetary damages alone will not be an adequate remedy. Therefore, the parties agree that in the event of a breach or threatened breach of the terms of this Agreement, the disclosing party will be entitled to specific performance, injunctive relief or other equitable relief prohibiting any breach of this Agreement without giving an undertaking as to damages. Any such equitable remedy shall b e in addition to and not in lieu of, other appropriate relief at law to which the disclosing party may be entitled.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires notices to be sent via 'first -class registered or recorded delivery post', ensuring proof of delivery. The changed text removes this requirement, creating uncertainty about whether a notice was actually received. This directly contradicts the contradicted text, which relies on timely and effective notification to trigger remedies for breach of confidentiality. Without proof of delivery, it becomes difficult to establish when a breach occurred and thus when equitable relief can be sought."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The interpretation construction and effect of this Agreement shall be governed and construed in all respects in accordance with English Law and the parties submit to the exclusive jurisdictio n of the courts of England and Wales.",
+        "changed_text": "The interpretation construction and effect of this Agreement shall be governed and construed in all respects in accordance with English Law.",
+        "explanation": "By removing the clause 'and the parties submit to the exclusive jurisdiction of the courts of England and Wales', parties are no longer bound to litigate in England and Wales. This introduces an ambiguity because, while the agreement is governed by English Law, the jurisdiction for disputes is no longer specified. This could lead to disputes over where claims may be brought, potentially delaying enforcement and increasing costs. Clause 10 indicates that any breach of confidentiality is likely to create a dispute, but now there is no longer an explicit jurisdiction where the conflict would be handled.",
+        "location": "14",
+        "contradicted_location": "10",
+        "contradicted_text": "Both parties to this Agreement acknowledge that the Confidential Information belonging to each party is a unique and valuable asset of su ch party. Disclosure in breach of this Agreement will result in irreparable injury to the disclosing party for which monetary damages alone will not be an adequate remedy. Therefore, the parties agree that in the event of a breach or threatened breach of the terms of this Agreement, the disclosing party will be entitled to specific performance, injunctive relief or other equitable relief prohibiting any breach of this Agreement without giving an undertaking as to damages. Any such equitable remedy shall b e in addition to and not in lieu of, other appropriate relief at law to which the disclosing party may be entitled.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified that disputes would be resolved in the courts of England and Wales. The changed text removes this explicit jurisdiction. The contradicted text concerns breaches of confidentiality and the availability of injunctive relief. By removing the jurisdictional clause, the changed text creates a contradiction because it is no longer clear where a party would seek injunctive relief or specific performance for a breach of confidentiality, creating ambiguity regarding the enforceability of the agreement, thereby causing a strong in-text contradiction."
+      }
+    ]
+  }
+]

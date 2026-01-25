@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "NDATC.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Such Confidential Information will be disclosed for the P urpose and for no other purpose in accordance with the following understandings:",
+        "changed_text": "Such Confidential Information will be disclosed for the Task and for no other purpose in accordance with the following understandings:",
+        "explanation": "By changing 'Purpose' to 'Task', an ambiguity is introduced. The agreement defines 'Purpose', but not 'Task'. Thus, it is not clear whether the two terms are interchangeable. Later sections still reference 'Purpose,' potentially invalidating permitted disclosures done for the 'Task'. This causes a contradiction in section 2 because it refers to 'Purpose' as the reason for disclosure, so this section is contradicted by the change.",
+        "location": "Introductory Paragraph",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "The obligations of confidentiality and non- use shall not apply to Confidential Information which the receiving party can document: (a) at the time of disclosure was generally known to the public or, after such disclosure, became generally known to the public other than by a breach of this Agreement by the receiving party; (b) was already in the possession of the receiving party at the time of such disclosure without an obligation of confidentiality; (c) was later received on a non- confidential basis by the receiving party from a third party having t he right to impart such Confidential Information; or (d) is developed by an employee of the receiving party who did not have access to the Confidential Information. Confidential Information shall not be deemed to be within one or more of the foregoing exceptions merely because any part of such Confidential Information is embodied in general disclosures or because individual features, components or combinations are now or hereafter become publicly known.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Purpose' to 'Task' introduces an undefined term, while the contradicted section relies on the defined term 'Confidential Information' which refers to the original 'Purpose'. The modified text makes it unclear whether disclosures done for the 'Task' are also covered under the confidentiality obligations outlined in the contradicted text, creating a direct conflict regarding the allowable use and protection of confidential information. Since 'Purpose' is defined, and the modified 'Task' is not, this creates a misalignment of terminology and thus a contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "All written, printed, electronically stored or other tangible documents, samples and materials submitted by one party to the other hereunder, and all copies thereof remaining in the receiving party’s possession, shall promptly be returned to the disclosing party and electronic media erased upon request or upon termination of this Agreement, except that a copy of each may be retained by the receiving party under appropriate security.",
+        "changed_text": "All written, printed, electronically stored or other tangible documents, samples and materials submitted by one party to the other hereunder, and all copies thereof remaining in the receiving party’s possession, shall promptly be returned to the disclosing party and electronic media erased upon request or upon termination of this Arrangement, except that a copy of each may be retained by the receiving party under appropriate security.",
+        "explanation": "Replacing 'Agreement' with 'Arrangement' in Section 5 introduces uncertainty regarding what triggers the return of confidential information. The contract was initially defined as an 'Agreement,' and subsequent sections refer to the 'Agreement.' This creates a contradiction; it's unclear if the return is triggered by the termination of the 'Agreement' or the 'Arrangement'. This contradiction affects the enforceability of Section 7.",
+        "location": "Section 5",
+        "contradicted_location": "Section 7",
+        "contradicted_text": "Either party may at any time upon written notice terminate this Agreement; otherwise participation by the parties in the review or evaluation shall end, and this Agreement shall terminate ten (10) years from the Effective D ate.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Agreement' with 'Arrangement'. The contradicted text refers to the 'Agreement'. The explanation indicates that this introduces uncertainty as to what triggers the return of confidential information, creating a contradiction. This misaligned terminology, where the terms are potentially used interchangeably without clear definition, leads to conflicting obligations and a strong in-text contradiction, as defined by the perturbation type."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Nothing in this Agreement shall be understood as granting, expressly or by implication, any rights to either party under the patents, technical information or know -how of the other party except to the extent expressly set forth herein, nor as giving rise to any obligation on the part of either party to supply or to purchase any goods or services to the other party.",
+        "changed_text": "Nothing in this Document shall be understood as granting, expressly or by implication, any rights to either party under the patents, technical information or know -how of the other party except to the extent expressly set forth herein, nor as giving rise to any obligation on the part of either party to supply or to purchase any goods or services to the other party.",
+        "explanation": "Changing 'Agreement' to 'Document' causes a contradiction. While Section 1 states that this is an Agreement, Section 6 states its a Document. This discrepancy means that later references to the Agreement are no longer clear. This invalidates later actions that could be taken under the 'Agreement'. This is especially true of section 10, which refers to the entire 'Agreement'",
+        "location": "Section 6",
+        "contradicted_location": "Section 10",
+        "contradicted_text": "This Agreement constitutes the entire agreement and understanding between the parties hereto relating to the subject matter hereof. This Agreement may not be amended or modified except in writing signed by both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Agreement' to 'Document' introduces a Misaligned Terminology - In Text Contradiction because the contradicted text explicitly refers to 'This Agreement'. By changing 'Agreement' to 'Document' in the changed text, it creates uncertainty about whether the contradicted section applies to the 'Document'. This uncertainty invalidates later actions taken under the 'Agreement' as described in the perturbation explanation, directly conflicting with the contradicted section. Therefore, a strong contradiction exists."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement constitutes the entire agreement and understanding between the parties hereto relating to the subject matter hereof. This Agreement may not be amended or modified except in writing signed by both parties.",
+        "changed_text": "This Understanding constitutes the entire understanding and agreement between the parties hereto relating to the subject matter hereof. This Understanding may not be amended or modified except in writing signed by both parties.",
+        "explanation": "By replacing 'Agreement' with 'Understanding', the enforceability of the contract becomes uncertain. The contract is initially presented as an 'Agreement', and now Section 10 identifies it as an 'Understanding'. This contradiction impacts Section 7, which refers to the termination of the 'Agreement', because Section 10 does not state what the nature of this Understanding.",
+        "location": "Section 10",
+        "contradicted_location": "Section 7",
+        "contradicted_text": "Either party may at any time upon written notice terminate this Agreement; otherwise participation by the parties in the review or evaluation shall end, and this Agreement shall terminate ten (10) years from the Effective D ate.",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to an 'Agreement,' which the contradicted text also references when discussing termination. The changed text replaces 'Agreement' with 'Understanding'. This creates a direct conflict because the contradicted section specifically refers to terminating an 'Agreement,' and if the contract is now an 'Understanding' as per the changed text, it is unclear whether the termination clause still applies. This creates a clear and significant contradiction regarding the enforceability and termination terms of the contract, which is misaligned terminology according to the provided definition."
+      }
+    ]
+  }
+]

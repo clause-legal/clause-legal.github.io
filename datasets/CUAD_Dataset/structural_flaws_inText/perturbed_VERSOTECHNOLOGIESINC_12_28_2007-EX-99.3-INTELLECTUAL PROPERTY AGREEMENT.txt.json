@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "VERSOTECHNOLOGIESINC_12_28_2007-EX-99.3-INTELLECTUAL PROPERTY AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "WHEREAS, Buyer has designated Backhaul as a Buyer Designee for purposes of the Asset Purchase Agreement, and Buyer has assigned to Backhaul the right to receive the Purchased Assets pursuant to that certain Assignment of Asset Purchase Agreement between Buyer and Backhaul dated as of the date hereof.",
+        "changed_text": "WHEREAS, Buyer has designated Backhaul as a Buyer Designee for purposes of the Asset Purchase Agreement, and Buyer has the option to assign Backhaul the right to receive the Purchased Assets pursuant to that certain Assignment of Asset Purchase Agreement between Buyer and Backhaul dated as of the date hereof. Buyer can choose not to assign to Backhaul at its sole discretion.",
+        "explanation": "The original text stated that Buyer *has assigned* the rights to Backhaul. The modified text states that Buyer *has the option to assign* the rights, and can choose not to. This introduces uncertainty and contradicts the later sections that assume the assignment has occurred without condition. The in-text contradiction is occurring because in one place there is confirmation of assignement, and in another the option of assignement, and it is not clear which one is true.",
+        "location": "RECITALS",
+        "contradicted_location": "ASSIGNMENT",
+        "contradicted_text": "ASSIGNMENT: NOW, THEREFORE, for good and valuable consideration, the receipt and adequacy of which are hereby acknowledged, Seller does hereby transfer, sell, assign, convey and deliver to Backhaul all right, title and interest in, to and under the Assigned Intellectual Property, including, without limitation, the Trademarks and Patents set forth on Schedules A and B hereof, respectively, and all goodwill of the Purchased Business associated therewith.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated a completed assignment of rights to Backhaul. The changed text introduces an option for Buyer to assign or not assign, creating uncertainty. This directly contradicts the contradicted text, which states that 'Seller does hereby transfer, sell, assign, convey and deliver to Backhaul', implying a mandatory and completed transfer. The change introduces a contingency where the contradicted section assumes a certainty, thus causing a strong in-text contradiction. This aligns with the definition of Structural Flaws - In Text Contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Intellectual Property Agreement shall be construed and interpreted according to the laws of the State of Georgia, applicable contracts to be wholly performed within the State of Georgia.",
+        "changed_text": "This Intellectual Property Agreement shall be construed and interpreted according to the laws of the State of Delaware, applicable contracts to be wholly performed within the State of Georgia.",
+        "explanation": "The original text specifies Georgia law for interpretation. By changing it to Delaware law, applicable for contracts performed in Georgia, an in-text contradiction is introduced, creating uncertainty regarding which jurisdiction's laws govern the contract's interpretation. This is especially problematic since the contract states the agreement is to be wholly performed within the State of Georgia, but is subject to the laws of the State of Delaware, which is in contradiction of itself.",
+        "location": "End of ASSIGNMENT Section",
+        "contradicted_location": "End of ASSIGNMENT Section",
+        "contradicted_text": "This Intellectual Property Agreement shall be construed and interpreted according to the laws of the State of Delaware, applicable contracts to be wholly performed within the State of Georgia.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stipulated that Georgia law governs the interpretation of the Intellectual Property Agreement. The changed text replaces Georgia law with Delaware law, while the agreement is to be wholly performed within the State of Georgia. This alteration creates a direct conflict with the contradicted text (which is also the changed text), because it is illogical and uncertain to apply Delaware law to a contract wholly performed in Georgia. This contradiction introduces uncertainty and potential unenforceability, aligning with the definition of 'Structural Flaws - In Text Contradiction' where a clause is placed in multiple locations with conflicting implications."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Seller hereby covenants and agrees, that from time to time forthwith upon the reasonable written request of Backhaul or Buyer, that Seller will, at Backhaul's cost and expense, do, execute, acknowledge and deliver or cause to be done, executed, acknowledged and delivered, each and all of such further acts, deeds, assignments, transfers, conveyances and assurances as may reasonably be required by Backhaul or Buyer in order to transfer, assign, convey and deliver unto and vest in Backhaul title to all right, title and interest of Seller in, to and under the Assigned Intellectual Property.",
+        "changed_text": "Seller hereby covenants and agrees, that from time to time forthwith upon the reasonable written request of Backhaul or Buyer, that Seller will, at Backhaul's cost and expense, do, execute, acknowledge and deliver or cause to be done, executed, acknowledged and delivered, each and all of such further acts, deeds, assignments, transfers, conveyances and assurances as may reasonably be required by Buyer in order to transfer, assign, convey and deliver unto and vest in Buyer title to all right, title and interest of Seller in, to and under the Assigned Intellectual Property. Backhaul has no rights to request this action.",
+        "explanation": "The original text states that both Backhaul *or* Buyer can request further actions to transfer the IP. The modified text now states *only* Buyer can request these actions and Backhaul has no rights. This introduces an in-text contradiction because it contradicts the earlier assumption that Backhaul has assigned rights and can act on them, now Backhaul cannot request these actions.",
+        "location": "ASSIGNMENT",
+        "contradicted_location": "ASSIGNMENT",
+        "contradicted_text": "ASSIGNMENT: NOW, THEREFORE, for good and valuable consideration, the receipt and adequacy of which are hereby acknowledged, Seller does hereby transfer, sell, assign, convey and deliver to Backhaul all right, title and interest in, to and under the Assigned Intellectual Property, including, without limitation, the Trademarks and Patents set forth on Schedules A and B hereof, respectively, and all goodwill of the Purchased Business associated therewith. Seller hereby covenants and agrees, that from time to time forthwith upon the reasonable written request of Backhaul or Buyer, that Seller will, at Backhaul's cost and expense, do, execute, acknowledge and deliver or cause to be done, executed, acknowledged and delivered, each and all of such further acts, deeds, assignments, transfers, conveyances and assurances as may reasonably be required by Buyer in order to transfer, assign, convey and deliver unto and vest in Buyer title to all right, title and interest of Seller in, to and under the Assigned Intellectual Property. Backhaul has no rights to request this action.",
+        "contradiction_exists": "YES",
+        "justification": "The original text in both sections allows Backhaul *or* Buyer to request actions. The changed text in both sections removes Backhaul's right to request actions. This is a direct contradiction because it grants Backhaul a right and then removes it, making the contract inconsistent and potentially unenforceable."
+      }
+    ]
+  }
+]

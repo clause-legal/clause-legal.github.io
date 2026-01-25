@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "GSVINC_05_15_1998-EX-10-SPONSORSHIP AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Client will pay Excite sponsorship and advertising fees of XXXXXXXXXXX for the first year of the term of the Agreement. These fees will be paid in equal monthly installments",
+        "changed_text": "Client will pay Excite sponsorship and advertising fees of XXXXXXXXXXX for the first year of the term of the Agreement. These fees will be paid in unequal monthly installments",
+        "explanation": "This change introduces an in-text contradiction because later sections assume fees are paid in equal installments. The contradiction arises specifically in Section 7(a) where the term 'equal monthly installments' is redefined, directly conflicting with the general assumption of equal payments, and potentially leading to disputes over payment amounts and schedules. This perturbation directly contradicts the text in Section 7(a) on when these payments are due and how much they should be.",
+        "location": "7",
+        "contradicted_location": "7(a)",
+        "contradicted_text": "In exchange for XXXXXXXXXXXXXXXXXXXXXXXX the Client will pay Excite sponsorship and advertising fees of XXXXXXXXXXX for the first year of the term of the Agreement. These fees will be paid in equal monthly installments 7 CONFIDENTIAL of XXXXXXXXXXXXXXXXX. The first monthly payment will be due upon the display of the first of the promotional placements and advertising described in the Agreement. Subsequent installments will be due on a monthly basis thereafter. XXXXXXXXXXXXXXXXXXXXXX.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the payment schedule from 'equal monthly installments' to 'unequal monthly installments'. This directly contradicts the original text and specifically Section 7(a), which explicitly states 'These fees will be paid in equal monthly installments.' This inconsistency creates a clear and impactful contradiction regarding the payment schedule, potentially leading to disputes and uncertainty about the agreed-upon payment terms. The changed text introduces ambiguity where the contradicted clause expects certainty, therefore falling under Ambiguities – In Text Contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Excite will in \"good faith\" ensure Client that the above mentioned banners and promotional placements will be more prominently presented than any other \"competitive retailer's\" banners or promotional placements for the term of the Agreement. For the purposes of this Agreement, a \"competitive retailer\" means an on-line department store comparable to Bloomingdale's, Macy's, Burdine's, Shopping.com, Chef's Catalog or iQVC.",
+        "changed_text": "Excite will in \"good faith\" ensure Client that the above mentioned banners and promotional placements will be more prominently presented than any other \"competitive retailer's\" banners or promotional placements for the term of the Agreement. For the purposes of this Agreement, a \"competitive retailer\" means any retailer selling similar products, regardless of their business model.",
+        "explanation": "This change broadens the definition of \"competitive retailer,\" leading to a contradiction. Initially, 'competitive retailer' was clearly defined as an online department store similar to specific examples. Now, it includes any retailer selling similar products, regardless of business model. This in-text contradiction affects Section 6(c) because it alters the scope of Excite's obligation to provide more prominent placement. The original definition was limited to specific types of retailers, whereas the new definition is much broader. This change increases the number of entities considered as a 'competitive retailer', now it can be subject to any seller. Therefore, this increase causes an internal contradiction with the original obligation of Excite to the Client to ensure that the banners and promotional placements will be more prominently presented than any other 'competitive retailer's' banners or promotional placements.",
+        "location": "6(c)",
+        "contradicted_location": "6(c)",
+        "contradicted_text": "Excite will in \"good faith\" ensure Client that the above mentioned banners and promotional placements will be more prominently presented than any other \"competitive retailer's\" banners or promotional placements for the term of the Agreement. For the purposes of this Agreement, a \"competitive retailer\" means any retailer selling similar products, regardless of their business model.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text broadens the definition of 'competitive retailer' from a specific set of online department stores to 'any retailer selling similar products, regardless of their business model.' This creates a contradiction because it significantly expands the scope of Excite's obligation to provide more prominent placement, making it potentially impossible to fulfill the original intent of guaranteeing prominence against a select group of major online retailers as outlined in the contradicted section."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The term of this Agreement will begin on the Launch Date and will not end until Excite displays of a total of XXXXXXXXXXXXX impressions of Client's advertising banners and promotional placements on the Excite Site and Excite has made reasonable commercial efforts to deliver, at minimum, a goal of XXXXXXXX clickthroughs to the Client Site. Regardless of Excite's actual delivery of impressions and clickthroughs, the term of this Agreement will not be shorter than two (2) years after the display of the first of Client's advertising banners and promotional placements, subject to the termination rights set forth below.",
+        "changed_text": "The term of this Agreement will begin on the Launch Date and will end after two (2) years after the display of the first of Client's advertising banners and promotional placements, regardless of the total impressions and clickthroughs.",
+        "explanation": "This change introduces ambiguity around when the agreement terminates by stating that it ends after two years regardless of impressions or clickthroughs. The original agreement's term depends on impression delivery with a two-year minimum, making it unclear what the duration is. The term duration is being contradicted in Section 9(a) where the new text disregards clickthroughs and impression numbers on whether or not to terminate this agreement. If Excite doesn't deliver an agreed-upon number, they can cancel the agreement after one year, which creates an internal contradiction with this change where it implies it will end on the 2nd year regardless of the impressions and clickthroughs being met.",
+        "location": "9(a)",
+        "contradicted_location": "9(a)",
+        "contradicted_text": "The term of this Agreement will begin on the Launch Date and will end after two (2) years after the display of the first of Client's advertising banners and promotional placements, regardless of the total impressions and clickthroughs.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text stating the agreement ends after two years, regardless of impressions or clickthroughs, directly contradicts the original agreement's dependence on impression delivery and clickthroughs with a two-year minimum duration, creating ambiguity and an in-text contradiction as per the explanation provided. This falls under 'Ambiguities - In Text Contradiction' where key obligations are defined inconsistently, making enforcement unclear."
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "isca-nda.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "2.1 The Vendor hereby agrees to maintain as confiden tial and agrees not to use except for the Limited Purpose, any part or the whole of any Confidential Information.",
+        "changed_text": "2.1 The Vendor hereby agrees to maintain as confidential but may disclose it to a third party and agrees not to use except for the Limited Purpose, any part or the whole of any Confidential Information.",
+        "explanation": "By adding that the Vendor may disclose the Confidential Information to a third party, a contradiction is introduced. The core purpose of the NDA is to protect confidentiality. This directly contradicts Clause 4 regarding Third Party Disclosure, which requires ISCA's written approval before any disclosure to a third party, and the third party must also have a non-disclosure agreement.",
+        "location": "2.1",
+        "contradicted_location": "4",
+        "contradicted_text": "4. Third Party Disclosure In the event that the Vendor requires the assistance of any third party other than employees of the Vendor , to whom disclosure of any Confidential Information is necessary, the Vendor shall first seek ISCA ’s written approval of such third party and thereafter , prior to any disclosure to that third party, obtain from that third party a duly binding non-disclosure agreement on terms at least as binding upon that third party as the Vendor is bound to ISCA hereunder which terms will be subject to ISCA ’s prior written approval .",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 2.1 allows the Vendor to disclose Confidential Information to a third party, directly contradicting Clause 4, which requires ISCA's written approval and a binding non-disclosure agreement from the third party. This creates a strong, irreconcilable conflict within the document, as the Vendor is simultaneously permitted and restricted from disclosing confidential information to third parties."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "2.2 The Vendor shall: (1) not without the prior written consent of ISCA copy, reproduce, distribute , disclose , or allow access to any Confidential In formation to any person, other than those employees who are directly concerned with fulfilling the Limited Purpose (subject to compliance with Clause 3) and purely on a “need to know” basis in furtherance of the Limited Purpose (“Authorised Employees ”), and shall not use any Confidential Information for any purpose other than the Limited Purpose ;",
+        "changed_text": "2.2 The Vendor shall: (1) without the prior written consent of ISCA copy, reproduce, distribute , disclose , or allow access to any Confidential In formation to any person, other than those employees who are directly concerned with fulfilling the Limited Purpose (subject to compliance with Clause 3) and purely on a “need to know” basis in furtherance of the Limited Purpose (“Authorised Employees ”), and shall not use any Confidential Information for any purpose other than the Limited Purpose ;",
+        "explanation": "By removing the word 'not', the Vendor is now obligated to copy, reproduce, distribute, disclose, or allow access to the Confidential Information without the prior written consent of ISCA. This creates a contradiction with the initial intention of the NDA, which is to protect Confidential Information. The change directly contradicts Clause 2.1 and undermines the entire agreement.",
+        "location": "2.2",
+        "contradicted_location": "2.1",
+        "contradicted_text": "2.1 The Vendor hereby agrees to maintain as confiden tial and agrees not to use except for the Limited Purpose, any part or the whole of any Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the Vendor shall *not* copy confidential information without ISCA's consent. The changed text removes 'not,' obligating the Vendor to copy confidential information *without* consent. This directly contradicts Clause 2.1, which states the Vendor agrees *not* to use Confidential Information, creating a strong in-text contradiction as it completely reverses the confidentiality obligation."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "3.1 The Vendor shall, before any permitted disclosures are made to any employees pursuant to Clause 2.2(1) , inform such employees of the Vendor ’s obligations under this Agreement and bind such employees to observe the terms of this Agreement.",
+        "changed_text": "3.1 The Vendor should not before any permitted disclosures are made to any employees pursuant to Clause 2.2(1) , inform such employees of the Vendor ’s obligations under this Agreement and bind such employees to observe the terms of this Agreement.",
+        "explanation": "Changing 'shall' to 'should not' makes the Vendor's obligation to inform employees about confidentiality optional, creating a contradiction with the mandatory nature of employee undertakings and jeopardizing the protections intended by Clause 2.2(1). The original text provides a firm obligation, while the new text makes it non-binding.",
+        "location": "3.1",
+        "contradicted_location": "3.2",
+        "contradicted_text": "3.2 For the avoidance of doubt, the Vendor shall be responsible for ensuring its employees’ strict compliance with the terms of this Agreement. Any non -compliance with the terms of this Agreement by an employee of the Vendor shall be deemed a breach of this Agreement by Vendor .",
+        "contradiction_exists": "YES",
+        "justification": "The original text in Clause 3.1 states that the vendor 'shall' inform employees of their obligations, creating a mandatory requirement. The changed text replaces 'shall' with 'should not,' making this action optional or even prohibited. Clause 3.2 states that 'the Vendor shall be responsible for ensuring its employees’ strict compliance with the terms of this Agreement.' If Clause 3.1 makes informing employees about their obligations optional, it directly contradicts the vendor's responsibility to ensure their strict compliance, as it would be difficult to ensure compliance without informing them. Therefore, the change introduces a clear and direct conflict, meeting the definition of Ambiguities - In Text Contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "5. Information Not Protected 5.1 The protection to be accorded to t he Confidential Information to be disclosed hereunder does not and shall not extend to any information which: (1) at the Effective Date is public knowledge or which subsequently becomes public knowledge other than by any breach of the terms of this Agreement; (2) is proven by Vendor by written evidence to have been already known to the Vendor at the Effective Date and not acquired directly or indirectly from ISCA , and such information has been obtained without restrictions on disclosure to others; or (3) is required to be disclosed by applicable law or order of a court of competent jurisdiction or recognised stock exchange or government department or agency with valid authority, provided that prior to such disclosure the Vendor consults with ISCA as to the proposed form , scope, nature, and purpose of the disclosure, co -operates with ISCA to limit the extent of the disclosure, and permits ISCA time to obtain legal remedies to maintain such Confidential Information in confidence.",
+        "changed_text": "5. Information Not Protected 5.1 The protection to be accorded to t he Confidential Information to be disclosed hereunder does extend to any information which: (1) at the Effective Date is public knowledge or which subsequently becomes public knowledge other than by any breach of the terms of this Agreement; (2) is proven by Vendor by written evidence to have been already known to the Vendor at the Effective Date and not acquired directly or indirectly from ISCA , and such information has been obtained without restrictions on disclosure to others; or (3) is required to be disclosed by applicable law or order of a court of competent jurisdiction or recognised stock exchange or government department or agency with valid authority, provided that prior to such disclosure the Vendor consults with ISCA as to the proposed form , scope, nature, and purpose of the disclosure, co -operates with ISCA to limit the extent of the disclosure, and permits ISCA time to obtain legal remedies to maintain such Confidential Information in confidence.",
+        "explanation": "By changing 'does not and shall not extend to' to 'does extend to', information that was originally excluded from protection because it was public knowledge, previously known, or legally required to be disclosed is now considered protected Confidential Information. This conflicts with the very definition of what is considered confidential, and directly contradicts Clause 2.1. This amendment will create confusion on what is considered protected or not. It will potentially bring issues with information that is public knowledge.",
+        "location": "5.1",
+        "contradicted_location": "2.1",
+        "contradicted_text": "2.1 The Vendor hereby agrees to maintain as confiden tial and agrees not to use except for the Limited Purpose, any part or the whole of any Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text in Section 5.1 stated that the protection of Confidential Information 'does not and shall not extend to' certain information (public knowledge, previously known, or legally required disclosures). The changed text modifies this to 'does extend to' that same information. This directly contradicts the definition of Confidential Information as outlined and referenced in Clause 2.1, which mandates the Vendor to keep Confidential Information confidential and not use it except for the Limited Purpose. Now, information that should not be protected is. This creates a direct in-text contradiction because the changed text now protects information that should be public/already known, and this protection is incompatible with Vendor's obligations in Clause 2.1."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "6.1 Vendor shall not collect, use , process and/or disclose any Personal Data of ISCA’s clients or customers (collectively “ Customers ”) or of ISCA’s employees, without the prior written consent of ISCA.",
+        "changed_text": "6.1 Vendor may collect, use , process and/or disclose any Personal Data of ISCA’s clients or customers (collectively “ Customers ”) or of ISCA’s employees, without the prior written consent of ISCA.",
+        "explanation": "By changing 'shall not' to 'may', the vendor is now permitted to collect, use, process and/or disclose personal data without ISCA's consent. This directly contradicts the intention of the clause, creating a significant legal risk, particularly in relation to compliance with the PDPA. The change also conflicts with clause 6.2 which requires compliance to the PDPA.",
+        "location": "6.1",
+        "contradicted_location": "6.2",
+        "contradicted_text": "6.2 Vendor shall at all times comply with the provisions of the PDPA and not cause ISCA t o be in breach of its obligations under the PDPA, including in relation to Personal Data of Customers and ISCA’s employees.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the vendor 'shall not' collect, use, process, or disclose personal data without prior written consent. The changed text modifies this to 'may' collect, use, process or disclose such data without consent. This directly contradicts clause 6.2, which requires the vendor to comply with the PDPA and not cause ISCA to breach its obligations under the PDPA, including in relation to personal data. The 'may' in the changed text permits actions that could violate the PDPA and put ISCA in breach, directly conflicting with the mandatory compliance required in clause 6.2."
+      }
+    ]
+  }
+]

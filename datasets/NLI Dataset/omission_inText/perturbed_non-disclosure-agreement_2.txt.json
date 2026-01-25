@@ -1,0 +1,18 @@
+[
+  {
+    "file_name": "non-disclosure-agreement_2.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "LIMITED WARRANTY AND LIABILITY: Discloser warrants that it has the right to disclose Confidential Information to Recipient. Discloser makes no other warranties with respect to the Confidential Information and provides all information \"AS IS\" without any express or implied warranty of any kind, including any warranty as to merchantability, fitness for a particular purpose, accuracy, completeness or violation of third party intellectual property rights. Neither Party will be liable for any special, incidental or consequential damages of any kind whatsoever resulting from the disclosure, use or receipt of the Confidential Information.",
+        "changed_text": "LIMITED WARRANTY AND LIABILITY: Discloser warrants that it has the right to disclose Confidential Information to Recipient. Discloser makes no other warranties with respect to the Confidential Information and provides all information \"AS IS\" without any express or implied warranty of any kind, including any warranty as to merchantability, fitness for a particular purpose, accuracy, completeness or violation of third party intellectual property rights.",
+        "explanation": "By removing 'Neither Party will be liable for any special, incidental or consequential damages of any kind whatsoever resulting from the disclosure, use or receipt of the Confidential Information', we open the door for claims of special, incidental, or consequential damages. If an earlier section (e.g., Section 3 'USE OF CONFIDENTIAL INFORMATION') anticipates or allows certain uses of the information, removing this liability waiver introduces a direct contradiction, as the allowed use may now lead to legal claims that the agreement seemingly prohibits elsewhere. A breach of confidentiality could result in significant incidental damages to the Disclosing Party, and the removal of the liability limitation clause exposes the Receiving Party to such claims. The contradiction lies in Section 14 now contradicting Section 3.",
+        "location": "14",
+        "contradicted_location": "14",
+        "contradicted_text": "LIMITED WARRANTY AND LIABILITY: Discloser warrants that it has the right to disclose Confidential Information to Recipient. Discloser makes no other warranties with respect to the Confidential Information and provides all information \"AS IS\" without any express or implied warranty of any kind, including any warranty as to merchantability, fitness for a particular purpose, accuracy, completeness or violation of third party intellectual property rights.",
+        "contradiction_exists": "YES",
+        "justification": "The original text included a clause that limited liability for special, incidental, or consequential damages. The changed text omits this clause. The contradicted text, which is actually the original text, includes the liability limitation. By removing the liability waiver, the changed text opens the door to claims for damages that the original agreement sought to prevent, creating a direct contradiction. The explanation states this directly, specifying how Section 14 (where this change occurs) now contradicts Section 3. This is a strong contradiction that would create uncertainty and potential legal issues."
+      }
+    ]
+  }
+]

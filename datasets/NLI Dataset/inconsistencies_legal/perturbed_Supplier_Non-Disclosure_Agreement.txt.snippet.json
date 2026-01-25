@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "Supplier_Non-Disclosure_Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "C. The Confidential Information, and all copies, summaries, notes, and computations related thereto, shall be delivered by Supplier to Company within 48 hours of demand.",
+        "changed_text": "C. The Confidential Information, and all copies, summaries, notes, and computations related thereto, shall be delivered by Supplier to Company within 72 hours of demand.",
+        "explanation": "Changing the deadline for returning confidential information upon demand to 72 hours contradicts the general principle that trade secret misappropriation can be immediately enjoined. Immediate return or shorter deadlines are generally favored in trade secret law, especially when risk of dissemination exists. While 72 hours is not facially illegal, it can create a delay that prejudices the trade secret holder's ability to prevent further harm.",
+        "contradicted_law": "Uniform Trade Secrets Act (as adopted in Michigan)",
+        "law_citation": "MCLA 445.1903(a)",
+        "law_url1": [
+          "https://www.michigan.gov/ag/consumer-protection/laws/uniform-trade-secrets-act"
+        ],
+        "law_url2": [
+          "https://www.michbar.org/file/article/socialforum/1032593/utsamichigan"
+        ],
+        "law_explanation": "MCLA 445.1903(a) allows for injunctive relief for misappropriation of trade secrets. While not explicitly mandating an immediate return of information, the allowance for injunctive relief implies the ability to immediately stop the misappropriation, which could be hindered by a 72-hour delay. A court may consider the delay unreasonable and prejudicial.",
+        "location": "2.C",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The original contract requires the supplier to return confidential information within 48 hours of demand. The changed text extends this deadline to 72 hours. The perturbation explanation and law explanation both state that this delay could hinder the ability to immediately stop misappropriation of trade secrets, potentially causing prejudice to the trade secret holder. MCLA 445.1903(a) allows for injunctive relief for misappropriation, which implies an immediate halt to the misappropriation. While the scraped snippets are absent, the provided Law Explanation indicates that the 72-hour delay undermines the possibility of immediate injunctive relief, thus creating a legal contradiction."
+      },
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "If the law applicable to any enforcement proceeding requires a temporal limitation, the period after termination for which Supplier is restricted in use or disclosure of Confidential Information which is not a trade secret shall be limited to any specific maximum permitted by law or five years from the date of termination.",
+        "changed_text": "If the law applicable to any enforcement proceeding requires a temporal limitation, the period after termination for which Supplier is restricted in use or disclosure of Confidential Information which is not a trade secret shall be limited to any specific maximum permitted by law or one year from the date of termination.",
+        "explanation": "Reducing the restrictive period for confidential information to one year may be insufficient to protect legitimate business interests, especially if the information has a longer useful life. This could be deemed an unreasonable restraint of trade under certain circumstances, despite Michigan generally permitting reasonable non-compete agreements.",
+        "contradicted_law": "Michigan Antitrust Reform Act",
+        "law_citation": "MCL 445.774a",
+        "law_url1": [
+          "https://casetext.com/statute/michigan-compiled-laws/chapter-445-regulation-of-trade/act-274-antitrust-reform-act/section-445774a-covenants-not-to-compete-or-engage-in-business-profession-or-occupation"
+        ],
+        "law_url2": [
+          "https://www.legislature.mi.gov/(S(c0w1a4d4yazj3k55b31l1q45))/mileg.aspx?page=getObject&objectName=mcl-445-774a"
+        ],
+        "law_explanation": "MCL 445.774a permits reasonable non-compete agreements but requires them to protect a legitimate business interest. Limiting the confidentiality period to one year might be deemed unreasonable if the confidential information retains value for a longer period, potentially violating the Act by unduly restraining trade. A longer period of time, like the original five years, may have been more appropriate for the specific confidential information being protected.",
+        "location": "4.D",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "MCL - Section 445.774a - Michigan Legislature MCL - Section 445.774a Download Section Chapter 445 Act 274 of 1984 Previous Section Next Section MICHIGAN ANTITRUST REFORM ACT (EXCERPT) Act 274 of 1984 445.774a Agreement or covenant protecting business interests of employer; applicability of section. Sec. 4a. (1) An employer may obtain from an employee an agreement or covenant which protects an employer's reasonable competitive business interests and expressly prohibits an employee from engaging in employment or a line of business after termination of employment if the agreement or covenant is reasonable as to its duration, geographical area, and the type of employment or line of business. To the extent any such agreement or covenant is found to be unreasonable in any respect, a court may limit the agreement to render it reasonable in light of the circumstances in which it was made and specifically enforce the agreement as limited. (2) This section shall apply to covenants and agreements which are entered into after March 29, 1985. History: Add. 1987, Act 243, Imd. Eff. Dec. 28, 1987",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The changed text reduces the restrictive period for confidential information from five years to one year. According to the Law Explanation and Perturbation Explanation, this change may be deemed unreasonable if the confidential information retains value for longer than one year, potentially violating MCL 445.774a. MCL 445.774a, as shown in Scraped Law Snippet 2, allows employers to obtain agreements that protect 'reasonable competitive business interests' and requires that the agreement be 'reasonable as to its duration'. By reducing the duration to one year, the agreement may no longer adequately protect those interests, thus creating a contradiction. The original five-year period may have been more appropriate. The one-year period creates a higher risk of violating the 'reasonable' duration requirement under MCL 445.774a if the confidential information's useful life exceeds that period."
+      },
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "All improvements to Company Produc ts, their compone nts, or their unde rlying technology developed during the performance of any purchase order issued by Company to Supplier shall belong to Company.",
+        "changed_text": "All improvements to Company Produc ts, their compone nts, or their unde rlying technology developed during the performance of any purchase order issued by Company to Supplier shall belong to Company, regardless of whether the improvements are based on the Supplier's pre-existing IP.",
+        "explanation": "Claiming ownership of all improvements, even those based on the supplier's pre-existing IP, could violate fundamental principles of patent law. The supplier owns their prior inventions, and the company cannot simply claim ownership of improvements to those inventions without a specific assignment or license agreement.",
+        "contradicted_law": "35 U.S. Code \u00a7 101 - Inventions patentable",
+        "law_citation": "35 U.S.C. \u00a7 101",
+        "law_url1": [
+          "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title35-section101&edition=prelim"
+        ],
+        "law_url2": [
+          "https://www.law.cornell.edu/uscode/text/35/101"
+        ],
+        "law_explanation": "35 U.S.C. \u00a7 101 establishes the basic framework for patentable inventions, implicitly acknowledging the rights of inventors. The modified clause attempts to automatically assign ownership of improvements to the company, even if those improvements are based on the supplier's pre-existing IP. This conflicts with the inventor's right to their inventions under patent law, requiring a specific agreement for assignment of those rights.",
+        "location": "2.G",
+        "desired_official_urls": 2,
+        "scraped_snippet_1": "35 USC 101: Inventions patentable Result 1 of 1 Current 2024 Main Ed. (1/6/2025) [Titles 1 through 6] 2018 Ed. and Supplement V (1/3/2024) 2018 Ed. and Supplement IV (1/5/2023) 2018 Ed. and Supplement III (1/3/2022) 2018 Ed. and Supplement II (1/13/2021) 2018 Ed. and Supplement I (1/24/2020) 2018 Main Ed. (1/14/2019) 2012 Ed. and Supplement V (1/12/2018) 2012 Ed. and Supplement IV (1/6/2017) 2012 Ed. and Supplement III (1/3/2016) 2012 Ed. and Supplement II (1/5/2015) 2012 Ed. and Supplement I (1/16/2014) 2012 Main Ed. (1/15/2013) 2006 Ed. and Supplement V (1/3/2012) 2006 Ed. and Supplement IV (1/7/2011) 2006 Ed. and Supplement III (2/1/2010) 2006 Ed. and Supplement II (1/5/2009) 2006 Ed. and Supplement I (1/8/2008) 2006 Main Ed. (1/3/2007) 2000 Ed. and Supplement V (1/2/2006) 2000 Ed. and Supplement IV (1/3/2005) 2000 Ed. and Supplement III (1/19/2004) 2000 Ed. and Supplement II (1/6/2003) 2000 Ed. and Supplement I (1/22/2002) 2000 Main Ed. (1/2/2001) 1994 Ed. and Supplement V (1/23/2000) 1994 Ed. and Supplement IV (1/5/1999) 1994 Ed. and Supplement III (1/26/1998) 1994 Ed. and Supplement II (1/6/1997) 1994 Ed. and Supplement I (1/16/1996) 1994 Main Ed. (1/4/1995) Back to Original Document << Previous TITLE 35 / PART II / CHAPTER 10 / \u00a7 101 Next >> [Print] [Print selection] [OLRC Home] Help 35 USC 101 : Inventions patentable Text contains those laws in effect on June 22, 2025 From Title 35-PATENTS PART II-PATENTABILITY OF INVENTIONS AND GRANT OF PATENTS CHAPTER 10-PATENTABILITY OF INVENTIONS Jump To: Source Credit Miscellaneous \u00a7101. Inventions patentable Whoever invents or discovers any new and useful process, machine, manufacture, or composition of matter, or any new and useful improvement thereof, may obtain a patent therefor, subject to the conditions and requirements of this title. ( July 19, 1952, ch. 950, 66 Stat. 797 .) Historical and Revision Notes Based on Title 35, U.S.C., 1946 ed., \u00a731 (R.S. 4886, amended (1) Mar. 3, 1897, ch. 391, \u00a71, 29 Stat. 692 , (2) May 23, 1",
+        "scraped_snippet_2": "35 U.S. Code \u00a7 101 - Inventions patentable | U.S. Code | US Law | LII / Legal Information Institute Please help us improve our site! \u00d7 No thank you Quick search by citation: Title Section Go! 35 U.S. Code \u00a7 101 - Inventions patentable U.S. Code Notes prev | next Whoever invents or discovers any new and useful process , machine, manufacture, or composition of matter, or any new and useful improvement thereof, may obtain a patent therefor, subject to the conditions and requirements of this title. (July 19, 1952, ch. 950, 66 Stat. 797 .) Historical and Revision Notes Based on Title 35, U.S.C., 1946 ed., \u00a7 31 (R.S. 4886, amended (1) Mar. 3, 1897, ch. 391, \u00a7 1, 29 Stat. 692 , (2) May 23, 1930, ch. 312, \u00a7 1, 46 Stat. 376 , (3) Aug. 5, 1939, ch. 450, \u00a7 1, 53 Stat. 1212 ). The corresponding section of existing statute is split into two sections, section 101 relating to the subject matter for which patents may be obtained, and section 102 defining statutory novelty and stating other conditions for patentability. Section 101 follows the wording of the existing statute as to the subject matter for patents, except that reference to plant patents has been omitted for incorporation in section 301 and the word \u201cart\u201d has been replaced by \u201c process \u201d, which is defined in section 100. The word \u201cart\u201d in the corresponding section of the existing statute has a different meaning than the same word as used in other places in the statute; it has been interpreted by the courts as being practically synonymous with process or method. \u201c Process \u201d has been used as its meaning is more readily grasped than \u201cart\u201d as interpreted, and the definition in section 100(b) makes it clear that \u201c process or method\u201d is meant. The remainder of the definition clarifies the status of processes or methods which involve merely the new use of a known process , machine, manufacture, composition of matter, or material; they are processes or methods under the statute and may be patented provided the conditions for patentability are sa",
+        "scrape_success": 2,
+        "contradiction_exists": "YES",
+        "justification": "The modified text attempts to claim ownership of improvements to Company Products, even if the improvements are based on the Supplier's pre-existing IP. This contradicts the general principle of inventorship rights established by 35 U.S.C. \u00a7 101, which states that \"Whoever invents or discovers any new and useful process, machine, manufacture, or composition of matter, or any new and useful improvement thereof, may obtain a patent therefor\". The added clause in the changed text undermines the supplier's potential right to patent improvements to their existing IP, by automatically assigning ownership to the company, regardless of inventorship. The original text does not contain that change, and therefore is in line with 35 U.S.C. \u00a7 101."
+      }
+    ]
+  }
+]

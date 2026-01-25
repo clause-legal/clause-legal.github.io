@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "Non-Disclosure-Agreement_ALL_englisch.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Information under this Agreement is defined as any data or knowledge from Bomatec or the Business Partner that Bomatec has made or will make available to the Business Partner, or vice versa, in verbal, written or electronic form or in the form of one or several objects, irrespective of whether such data and knowledge was designated as confidential or secret. Bomatec retains all rights to its data, information and objects.",
+        "changed_text": "Information under this Agreement is defined as any data or knowledge from Bomatec or the Business Partner that Bomatec has made or will make available to the Business Partner, or vice versa, in verbal, written or electronic form or in the form of one or several objects, and it must always be designated as confidential or secret to fall under this agreement. Bomatec retains all rights to its data, information and objects.",
+        "explanation": "This change contradicts the original definition by stating that information MUST be designated as confidential, whereas the original definition states it applies irrespective of whether it is designated as such. This introduces uncertainty as section 2 contradicts its own original statement.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "Definition of information under this Agreement Information under this Agreement is defined as any data or knowledge from Bomatec or the Business Partner that Bomatec has made or will make available to the Business Partner, or vice versa, in verbal, written or electronic form or in the form of one or several objects, and it must always be designated as confidential or secret to fall under this agreement. Bomatec retains all rights to its data, information and objects.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the definition of 'Information under this Agreement' to explicitly require that it 'must always be designated as confidential or secret'. This directly contradicts the original text, which stated the definition applies 'irrespective of whether such data and knowledge was designated as confidential or secret'. Since the Changed text and the Contradicted text are exactly the same, and it contradicts the Original Text. This change creates a direct conflict within the document regarding the scope of 'Information under this Agreement'."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The contractual partners undertake to treat confidentially any information they obtain, to use it only for the intended purpose of the particular assignment or project and not to make it di rectly or indirectly accessible to third parties.",
+        "changed_text": "The contractual partners undertake to treat confidentially any information they obtain, but it is up to their discretion if they use it only for the intended purpose of the particular assignment or project and whether to make it di rectly or indirectly accessible to third parties.",
+        "explanation": "The change adds 'but it is up to their discretion' to whether to use it for the intended purpose or not, contradicting the original obligation to use it only for the intended purpose of the particular assignment, creating an in-text contradiction in section 1 itself.",
+        "location": "1",
+        "contradicted_location": "1",
+        "contradicted_text": "Duty of confidentiality The contractual partners undertake to treat confidentially any information they obtain, but it is up to their discretion if they use it only for the intended purpose of the particular assignment or project and whether to make it di rectly or indirectly accessible to third parties. Furthermore, they undertake to place a duty of confidentiality on their employees and any sub -contractors that correspond to the one contained in this Agreement. The duty of confidentiality does not apply to information - that the receiving contractual partner was already in possession of when the information was passed on, - that was published when or after it was disclosed without being in breach of this Non - Disclosure Agreement, - that a contractual partner received legally from a third party where there was no duty of confidentiality, - that a contractual partner develops independently of the confidential information after this Agreement has come into force, - that a contractual partner has released as a result of a written agreement with the other contractual partner.",
+        "contradiction_exists": "YES",
+        "justification": "The original text obligated the contractual partners to treat information confidentially and use it only for the intended purpose. The changed text introduces discretion, allowing them to potentially not use the information for the intended purpose and make it accessible to third parties, which directly contradicts the original obligation. While the contradicted text and the changed text are the same, as mentioned in the instructions, there is an in-text contradiction introduced. The change removes the certainty of the original obligation, creating a conflict within the same section (section 1 itself, as indicated in the Perturbation Explanation), which makes it a direct in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This agreement shall take effect as soon as it has been signed by both parties and shall be valid for the duration of the collaboration or until this agreement is replaced by another agreement.",
+        "changed_text": "This agreement shall take effect as soon as it has been signed by both parties and shall be valid for a period of 30 days regardless of the duration of the collaboration, and it cannot be replaced by any other agreement.",
+        "explanation": "The change now states the agreement is valid for only 30 days and cannot be replaced, directly contradicting the original text which allows it to last for the collaboration's duration or be replaced, causing an in-text contradiction on section 6 itself.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "Duration of the Agreement This agreement shall take effect as soon as it has been signed by both parties and shall be valid for a period of 30 days regardless of the duration of the collaboration, and it cannot be replaced by any other agreement. The obligation to confidentiality shall apply for a period of two years beyond the end of the collaboration.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies section 6, stating that the agreement is valid for only 30 days and cannot be replaced. The contradicted text in section 6 mirrors this, stating the same terms. The original text stated the agreement lasts for the collaboration or can be replaced. Therefore the change creates a direct contradiction, causing section 6 to now contradict what it originally was in the original text, which creates an in-text contradiction on section 6 itself."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Changes or additions to this Agreement (including the waiver of this provision) must be made in writing.",
+        "changed_text": "Changes or additions to this Agreement (including the waiver of this provision) can be made verbally or in writing, as agreed upon by both parties.",
+        "explanation": "This modification directly contradicts the original requirement for changes to be in writing by now allowing verbal changes as well, creating an in-text contradiction in section 9 itself.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "Written form Changes or additions to this Agreement (including the waiver of this provision) can be made verbally or in writing, as agreed upon by both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that changes must be made in writing. The changed text now allows for changes to be made verbally or in writing. This directly contradicts the original requirement, creating a contradiction. The contradicted text, which is actually the changed text itself, highlights the contradiction in the agreement."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "If specifically requested by Bomatec , the Business Partner must return to Bomatec any documents or objects it was given during the collaboration and vice versa.",
+        "changed_text": "Even if specifically requested by Bomatec , the Business Partner has the option to not return to Bomatec any documents or objects it was given during the collaboration, and Bomatec also has the option not to return the Business Partner's objects or documents, if they wish.",
+        "explanation": "The modification now gives the Business Partner the OPTION to not return requested documents, directly contradicting the original text which stated they MUST return them when requested, creating an in-text contradiction in section 5 itself.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "Returning of documents and/or objects Even if specifically requested by Bomatec , the Business Partner has the option to not return to Bomatec any documents or objects it was given during the collaboration, and Bomatec also has the option not to return the Business Partner's objects or documents, if they wish.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the Business Partner MUST return documents if requested. The changed text grants the Business Partner the OPTION to not return documents even if requested. This directly contradicts the original obligation, and the contradicted text is the changed text itself, creating a clear and strong in-text contradiction as described in the explanation."
+      }
+    ]
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "file_name": "NON_DISCLOSURE_AGREEMENT_5.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "11. This Agreement shall be effective as of the Effective Date and shall terminate on the delivery of written notice of termination from either Party; provided, however, that the obligations of the Receiving Party under this Agreement shall remain in effect for a period of [__] years from the date of termination.",
+        "changed_text": "11. This Agreement shall be effective as of the Effective Date and shall terminate on the delivery of written notice of termination from either Party; provided, however, that the obligations of the Receiving Party under this Agreement shall remain in effect for a period of 25 years from the date of termination.",
+        "explanation": "Imposing a 25-year confidentiality obligation may be deemed unreasonable and unenforceable under Indian law, potentially conflicting with principles of contract law regarding reasonableness and restraint of trade.",
+        "contradicted_law": "Section 27 of the Indian Contract Act, 1872",
+        "law_citation": "Section 27 of the Indian Contract Act, 1872",
+        "law_url1": [
+          "https://indiacode.nic.in/handle/123456789/2205?saml_auth=no"
+        ],
+        "law_url2": [
+          "https://www.lawctopus.com/academike/section-27-indian-contract-act-1872-agreements-restraint-trade/"
+        ],
+        "law_explanation": "Section 27 of the Indian Contract Act states that agreements in restraint of trade are void. While confidentiality agreements are generally enforceable, a 25-year term may be considered an unreasonable restraint, especially if the confidential information becomes outdated or irrelevant over time.",
+        "location": "11",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": "India Code: Invalid URL or Argument(s). Invalid URL or Argument(s). The system has experienced an error. Please try to do what you were doing again, and if the problem persists, please contact us so we can fix the problem. Go to the DSpace home page",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The modified text imposes a 25-year confidentiality obligation, which, as the Perturbation Explanation notes, may be considered unreasonable under Indian law. The Law Explanation further clarifies that Section 27 of the Indian Contract Act renders agreements in restraint of trade void. While scraped snippet 1 is inaccessible, the Law Explanation suggests the 25-year period could be deemed an unreasonable restraint, particularly if the information becomes outdated. The original contract allows for a flexible term determined by an empty bracket '[__]' while the changed text fixes it for 25 years. This fixation, combined with the Law Explanation, indicates a potential contradiction with principles against unreasonable restraint of trade."
+      },
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "12. This Agreement shall be governed and construed in accordance with the laws of India. The competent courts at [__] India shall have the sole and exclusive jurisdiction over any dispute that arises in relation to this Agreement.",
+        "changed_text": "12. This Agreement shall be governed and construed in accordance with the laws of India. Disputes arising from this agreement must be resolved through binding arbitration in New York, USA, waiving rights to Indian court jurisdiction.",
+        "explanation": "Designating a foreign jurisdiction (New York, USA) and mandating binding arbitration could be challenged under Indian law if it significantly disadvantages one party or violates public policy regarding access to justice within India.",
+        "contradicted_law": "Section 28 of the Indian Contract Act, 1872",
+        "law_citation": "Section 28 of the Indian Contract Act, 1872",
+        "law_url1": [
+          "https://legislative.gov.in/sites/default/files/A1872-09.pdf"
+        ],
+        "law_url2": [
+          "https://indiankanoon.org/doc/1527889/"
+        ],
+        "law_explanation": "Section 28 of the Indian Contract Act invalidates agreements that absolutely restrict a party from enforcing their rights in the usual legal tribunals.  While arbitration is generally permissible, a clause that effectively denies a party access to Indian courts altogether, particularly when the agreement is governed by Indian law, might be challenged as a violation of this section.",
+        "location": "12",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies Indian courts for dispute resolution under Indian law. The changed text mandates binding arbitration in New York, USA, waiving Indian court jurisdiction. The Law Explanation indicates that Section 28 of the Indian Contract Act may invalidate agreements that completely restrict a party from enforcing their rights in Indian legal tribunals. The Perturbation Explanation further clarifies that designating a foreign jurisdiction and mandating arbitration could be challenged if it disadvantages a party or violates public policy regarding access to justice in India. While scraped snippets are unavailable, the modification directly contradicts the principle that parties should have access to Indian courts when the agreement is governed by Indian law, creating a legally questionable scenario where a party's rights to seek recourse in the designated jurisdiction (India) are explicitly waived."
+      },
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "10. The Receiving Party shall, upon the req uest of the Disclosing Party or upon the termination of this Agreement, return to the Disclosing Party all Confidential Information, including drawings, documents, reports and other tangible manifestations of Confidential Information received by the Receiv ing Party pursuant to this Agreement, together with all copies and reproductions thereof.",
+        "changed_text": "10. The Receiving Party shall archive all Confidential Information indefinitely, regardless of the Disclosing Party's request or termination of the agreement. No return of any Confidential Information will occur.",
+        "explanation": "This change contradicts the principle of data minimization under India's IT Act and proposed data protection laws which require data to be retained only as long as necessary.",
+        "contradicted_law": "Section 43A of the Information Technology Act, 2000 read with the Digital Personal Data Protection Act, 2023 (when enacted)",
+        "law_citation": "Section 43A of the Information Technology Act, 2000",
+        "law_url1": [
+          "https://www.meity.gov.in/writereaddata/files/itact2000/pdf/itact2000.pdf"
+        ],
+        "law_url2": [
+          "https://www.indiacode.nic.in/handle/123456789/2169?saml_auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTYyMDkwMDksImlhdCI6MTcxNjIwNzIwOSwianRpIjoiMWExYmRlMmQtM2E2ZS00MDJkLWEwY2MtYTA3MzdiYjQxNjQ1IiwiaXNzIjoiaW5kaWFjb2RlLm5pYy5pbiJ9.o5J9Wz6b6hU3-5B5oXqW5vGg_r6rD3jJqC1dC5r5_b4"
+        ],
+        "law_explanation": "Section 43A mandates reasonable security practices for sensitive personal data.  Coupled with principles in the (future) Digital Personal Data Protection Act, retaining data indefinitely without purpose would likely be deemed unreasonable and non-compliant, especially if the information contains personal data.",
+        "location": "10",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "India Code: Invalid URL or Argument(s). Invalid URL or Argument(s). The system has experienced an error. Please try to do what you were doing again, and if the problem persists, please contact us so we can fix the problem. Go to the DSpace home page",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The modified text directly contradicts the principle of data minimization, which is inferred from Section 43A of the IT Act. The original text allows for the return of confidential information, aligning with data minimization. The changed text mandates indefinite archiving, violating the principle that data should only be retained as long as necessary, as described in the perturbation explanation. The LLM's Law Explanation further reinforces this point by mentioning the potential non-compliance with the Digital Personal Data Protection Act if data is retained indefinitely without purpose. Though the scraped law snippets provided are not helpful in further supporting this contradiction (one is missing, one is an error message), the explanations are enough to determine a legal contradiction exists."
+      },
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "4. The Confidential Information shared under this Agreement may be disclosed by the Receiving Party to other employees on a n eed to know basis, with written consent from the Disclosing Party, in connection with the Purpose, and who shall protect the Confidential Information in accordance with the terms of this Agreement.",
+        "changed_text": "4. The Receiving Party may disclose the Confidential Information to all of its employees, regardless of their need to know, and without obtaining written consent from the Disclosing Party.  These employees are not obligated to protect the Confidential Information.",
+        "explanation": "Authorizing disclosure to all employees without a 'need to know' and removing the obligation to protect the information violates the duty of confidentiality and potentially breaches trust, contradicting fundamental principles of contract law and potentially violating Section 72A of IT Act, 2000.",
+        "contradicted_law": "Section 72A of the Information Technology Act, 2000",
+        "law_citation": "Section 72A of the Information Technology Act, 2000",
+        "law_url1": [
+          "https://www.meity.gov.in/writereaddata/files/itact2000/pdf/itact2000.pdf"
+        ],
+        "law_url2": [
+          "https://www.vakilno1.com/bare-acts/information-technology-act-2000/section-72a-information-technology-act/"
+        ],
+        "law_explanation": "Section 72A prescribes punishment for disclosure of information in breach of lawful contract. Broadening the permitted disclosures without the need for consent or confidentiality obligations increases the risk of unauthorized disclosure, potentially triggering liability under Section 72A if the disclosed information falls under the protection of that section and a breach of contract results.",
+        "location": "4",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "vakilno1.com",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The changed text significantly undermines the duty of confidentiality by allowing disclosure to all employees regardless of need and removes their obligation to protect the information. The Law Explanation states that Section 72A prescribes punishment for disclosure of information in breach of lawful contract. By broadening the permitted disclosures without the need for consent or confidentiality obligations, the changed text increases the risk of unauthorized disclosure. Although scraped law snippets are unhelpful, the original text limits disclosure to employees with 'need to know' and ensures they protect the information, whereas the changed text removes both restrictions, creating a clear contradiction."
+      }
+    ]
+  }
+]

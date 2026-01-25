@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "CHINARECYCLINGENERGYCORP_11_14_2013-EX-10.6-Cooperation Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The settlement date is the first day of the next month. Deducting the dues of Party A, Party B should pay Party A the energy saving service fee of the last month before the 15t h of each month.",
+        "changed_text": "The settlement date is the first day of the next month. Deducting the dues of Party A, Party B should pay Party A the energy saving service fee of the last month before the 5th of each month.",
+        "explanation": "This change introduces an in-text contradiction by altering the payment deadline. Originally, Party B had until the 15th of each month to pay the energy saving service fee. The modification changes this deadline to the 5th of each month, creating a contradiction with the original payment term found in Item 13.2.1, which indirectly refers to the stipulated time.",
+        "location": "Item Three, 4",
+        "contradicted_location": "Item Thirteen, 2.1",
+        "contradicted_text": "Party B shall pay Party A the energy saving service fee at the stipulated time, otherwise:\n2.1 If Party B fails to pay Party A the energy saving service fee by 15t h of the month and the delay is within 60 days, the daily penalty is 0.05% of the overdue payment.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the payment deadline from the 15th to the 5th of the month. The contradicted text states that penalties apply if Party B fails to pay by the 15th. Therefore, changing the deadline to the 5th creates a direct conflict as the penalty clause is predicated on the 15th as the deadline, thus creating an in-text contradiction. The changed text creates ambiguity as to which date the penalties apply to."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The construction period of the project is 12 months from the execution of technology agreement. If the project was delayed due to Party A, Party B has right to dispose the equipment on the construction site after two month past due date.",
+        "changed_text": "The construction period of the project is 12 months from the execution of this agreement. If the project was delayed due to Party A, Party B has right to dispose the equipment on the construction site immediately after the due date.",
+        "explanation": "This change introduces an in-text contradiction regarding when Party B can dispose of equipment if the project is delayed. The original text specifies 'after two months past due date,' while the change modifies this to 'immediately after the due date.' This creates a direct conflict about the grace period before Party B can take action, impacting Item 13 which reffers to both parties keeping equipment working properly.",
+        "location": "Item Five, 1",
+        "contradicted_location": "Item Thirteen, 1",
+        "contradicted_text": "Unless otherwise agreed, either party cannot change or terminate the agreement without written consent of the other party except for force majeure. Equipment of both parties must work properly.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the original agreement regarding when Party B can dispose of equipment. The original text allows for a two-month grace period ('after two months past due date'), while the modified text eliminates this grace period ('immediately after the due date'). This creates a clear conflict, specifically impacting the contradicted text's implicit assumption of a functioning project with equipment operating correctly, because Party B can now remove that equipment earlier, thereby not working properly. The perturbation definition that applies here is inconsistencies: different sections of a contract provide conflicting deadlines, obligations, or penalties. This creates in-text contradiction regarding which terms should be enforced, leading to disputes over contractual obligations."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "During the contact period, Party A has the ownership of the CDQ and CDQ waste heat power generation systems. After the termination of the contact, Party B has the disposition right to the project.",
+        "changed_text": "During the contract period, Party A has the ownership of the CDQ and CDQ waste heat power generation systems. After five years of the termination of the contact, Party B has the disposition right to the project.",
+        "explanation": "The change introduces an in-text contradiction by modifying when Party B gains disposition rights after contract termination. Originally, Party B gained these rights immediately after termination. The modification delays this to five years post-termination, conflicting with the original intent and creating uncertainty about asset control, and impacting term four which reffers to termination of the agreement",
+        "location": "Item Eight, 1",
+        "contradicted_location": "Item Four, 2",
+        "contradicted_text": "The term of the agreement is 20 years, during which if any main equipment of any Party stops operation due to technical problem or at the end of its life cycle, the agreement shall be automatically terminated. In case of that happens, the Party B will have the full rights to dispose the system of Party A.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states Party B gains disposition rights immediately after contract termination. The changed text delays this to five years post-termination. The contradicted text states that if the agreement terminates early due to equipment failure, Party B has full rights to dispose of the system of Party A. The change creates a contradiction because Party B's immediate rights in the contradicted text now conflict with the five-year delay introduced in the changed text. This inconsistency directly impacts the disposition rights granted to Party B upon early termination, creating a clear in-text contradiction."
+      }
+    ]
+  }
+]

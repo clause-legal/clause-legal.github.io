@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement2.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "4. Fees for Customizations: [SPECIFY TIME AND MATERIALS RATES ([Indicate any \"not to exceed\" limit on T&M Customization costs) OR FIXED PRICE] If the proposed price Is Increased by Supplier upon delivery to Bank of America of detailed specifications or at any other time hereafter, Bank of America may terminate this Schedule and shall receive a refund of all amounts previously paid hereunder.",
+        "changed_text": "4. Fees for Customizations: [SPECIFY TIME AND MATERIALS RATES ([Indicate any \"not to exceed\" limit on T&M Customization costs) OR FIXED PRICE] If the proposed price Is Increased by Supplier upon delivery to Bank of America of detailed specifications or at any other time hereafter, Bank of America may terminate this Schedule.",
+        "explanation": "By removing the phrase \"and shall receive a refund of all amounts previously paid hereunder,\" the contract no longer explicitly states that Bank of America is entitled to a refund if they terminate the schedule due to a price increase. This creates an in-text contradiction if other sections of the agreement assume that refunds are provided under such circumstances.",
+        "location": "4",
+        "contradicted_location": "1",
+        "contradicted_text": "The Customizations identified hereunder shall be subject to the terms and conditions of that Software License, Customization and Maintenance Agreement referenced above. Bank of America wishes to obtain the Customizations herein defined, and Supplier wishes to delivery those Customizations, on the terms and conditions of the Agreement and this Customization Schedule.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly states that Bank of America will receive a refund if they terminate the schedule due to a price increase. The changed text removes this explicit entitlement to a refund. While the contradicted text doesn't explicitly mention refunds, it establishes the agreement and customization schedule are subject to 'terms and conditions,' implying all original conditions, including the refund clause, should apply. Removing the refund clause introduces a contradiction by omitting a previously defined condition of the agreement. This omission creates an inconsistency regarding Bank of America's rights upon termination due to a price increase. Thus adheres to the definition of Omissions - In Text Contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The detailed specifications so delivered shall be incorporated herein when approved by Bank of America. System Solution Functional Specifications System Design Specifications Test Specifications Supplier acknowledges receipt of the following documents from Bank of America: Detailed Requirements",
+        "changed_text": "The detailed specifications so delivered shall be incorporated herein when approved by Bank of America.  Supplier acknowledges receipt of the following documents from Bank of America: Detailed Requirements",
+        "explanation": "By removing  \"System Solution Functional Specifications System Design Specifications Test Specifications\", the change leads to ambiguity as to the scope and nature of 'detailed specifications'. This is problematic because it creates an in-text contradiction later on. It makes it unclear whether the bank and client would know what specifications will be accounted for when developing the software.",
+        "location": "1",
+        "contradicted_location": "4",
+        "contradicted_text": "Fees for Customizations: [SPECIFY TIME AND MATERIALS RATES ([Indicate any \"not to exceed\" limit on T&M Customization costs) OR FIXED PRICE] If the proposed price Is Increased by Supplier upon delivery to Bank of America of detailed specifications or at any other time hereafter, Bank of America may terminate this Schedule. ",
+        "contradiction_exists": "YES",
+        "justification": "The removal of 'System Solution Functional Specifications System Design Specifications Test Specifications' from the original text creates ambiguity regarding the 'detailed specifications' mentioned in the 'Fees for Customizations' section. The changed text no longer provides a clear understanding of what constitutes 'detailed specifications,' potentially leading to disputes about price increases upon delivery of these unspecified specifications, as outlined in the contradicted section. Therefore, the omission creates a strong in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "8. Project Personnel: Bank of America Project Administrator: Supplier Project Administrator: Bank of America Project Manager: Supplier Project Manager:",
+        "changed_text": "8. Project Personnel: Bank of America Project Administrator: Supplier Project Administrator:",
+        "explanation": "By removing \"Bank of America Project Manager: Supplier Project Manager:\", the contract lacks specific roles that would make the project succed, and creates uncertainty about management. Other clauses relying on this project management structure now create an in-text contradiction by lacking key project roles, such as how the supplier will deliver customizations to the Bank of America.",
+        "location": "8",
+        "contradicted_location": "1",
+        "contradicted_text": "The Customizations identified hereunder shall be subject to the terms and conditions of that Software License, Customization and Maintenance Agreement referenced above. Bank of America wishes to obtain the Customizations herein defined, and Supplier wishes to delivery those Customizations, on the terms and conditions of the Agreement and this Customization Schedule.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly listed 'Bank of America Project Manager: Supplier Project Manager:', establishing clear roles. By removing these roles in the changed text, a critical element for project execution is omitted. The contradicted text refers to the 'Supplier's delivery of Customizations' under the agreement. The omission of the Supplier Project Manager in the changed text creates a contradiction. Without a designated project manager, the supplier's ability to 'delivery those Customizations' as stated in the contradicted text becomes uncertain and unenforceable, leading to an in-text contradiction as defined by the 'Omissions – In Text Contradiction' perturbation."
+      }
+    ]
+  }
+]

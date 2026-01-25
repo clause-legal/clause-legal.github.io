@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "245490.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "1. Stockholder agrees that the Confidential Material is being produced to them only for purposes reasonably related to Stockholder’ s interests as a stockholder of the Company and that Stockholder shall not utilize Conf idential Material, any other information produced by the Company or anything derive d from Confidential Material or derived from any other information produced by the Company for any other purpose.",
+        "changed_text": "1. Stockholder agrees that the Confidential Material is being produced to them only for purposes reasonably related to Stockholder’ s interests as a stockholder of the Company and that Stockholder shall utilize Confidential Material, any other information produced by the Company or anything derived from Confidential Material or derived from any other information produced by the Company for any other purpose.",
+        "explanation": "This change introduces an in-text contradiction by changing 'shall not utilize' to 'shall utilize'. This creates a conflict with the subsequent clauses (especially clause 2) that restricts the stockholder from disclosing or communicating the Confidential Material. The direct contradiction is that clause 1 now states they *must* use the information, while clause 2 restricts use through disclosure.",
+        "location": "1",
+        "contradicted_location": "2",
+        "contradicted_text": "2. The Stockholder will not disclose, publish, or communicate Confidential Material to any person or entity in any form (written, oral , electronic or through any other medium), either directly or indirectly, except as pr ovided in this Confidentiality Agreement to end; provided that in no event shall stockh older, directly or indirectly, publically disclose, publish or communicate names, addr esses, holdings of any other stockholder.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. The original text stated the Stockholder 'shall not utilize Confidential Material' for any other purpose than their interests as a stockholder. The changed text modifies this to 'shall utilize Confidential Material' for any purpose. This directly conflicts with clause 2, which restricts the stockholder from disclosing or communicating the Confidential Material. The modification creates a strong in-text contradiction as it now states they *must* use the information, while clause 2 restricts use through disclosure, leading to conflicting obligations."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "3. If the Stockholder is required (by interrogatory, subpoena, civil investigatory demand, or any similar process relating to any legal proceeding, investigation, hearing, or otherwise) to disclose in any manner any Co nfidential Material, the Stockholder will provide the Company with prompt notice (i.e., within 2 business days of receipt of such interrogatory, subpoena, dema nd, or any similar process), so that the Company may seek a protective order or other appropriat e remedy and/or waive compliance with this Agreement in the event that such protective order or other remedy is not obtained, or if the Company waives compliance with the provisions of this Agreement, the Stockholder may furnish only such Confidential Material as they are advised is legally required and must exercise their best effo rts to obtain assurance that confidential treatment will be accorded to any Confidential Material.",
+        "changed_text": "3. If the Stockholder is required (by interrogatory, subpoena, civil investigatory demand, or any similar process relating to any legal proceeding, investigation, hearing, or otherwise) to disclose in any manner any Confidential Material, the Stockholder is not obligated to provide the Company with prompt notice of such request. The Stockholder shall immediately disclose the confidential information as required by law.",
+        "explanation": "This perturbation creates an in-text contradiction regarding the stockholder's obligation to notify the Company about required disclosures. Initially, the stockholder *must* notify the Company, but the modified text states they *are not obligated* to notify them and must immediately disclose. This contradicts the original clause where the company has a chance to seek a protective order.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "3. If the Stockholder is required (by interrogatory, subpoena, civil investigatory demand, or any similar process relating to any legal proceeding, investigation, hearing, or otherwise) to disclose in any manner any Confidential Material, the Stockholder is not obligated to provide the Company with prompt notice of such request. The Stockholder shall immediately disclose the confidential information as required by law.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts itself and the original intention of the clause. It initially states that the Stockholder is 'not obligated' to provide notice, but then immediately states 'The Stockholder shall immediately disclose the confidential information as required by law.' This directly opposes the original clause, creating a clear and strong in-text contradiction as the stockholder goes from being required to notify the company before disclosure to being required to immediately disclose without notification which doesn't allow the company to seek protective order."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "6. This Agreement may not be amended, chan ged, waived, discharged, or terminated (except as explicitly provided herein), in wh ole or in part, except by an instrument in writing that refers specifically to this Agre ement and that is signed by the Party against whom enforcement of such amendment, chan ge, waiver, discharge, or termination is sought. The waiver by any Party of any breach of this Agreement will not be deemed or construed as a waiver of any other breach of this Agreement, whether prior, subsequent, or contemporaneous. No failure or delay in exercising any right, power, or privilege hereunder shall operate as a waiver thereof.",
+        "changed_text": "6. This Agreement may be amended, changed, waived, discharged, or terminated (except as explicitly provided herein), in whole or in part, verbally by either party. The waiver by any Party of any breach of this Agreement will be deemed or construed as a waiver of any other breach of this Agreement, whether prior, subsequent, or contemporaneous. No failure or delay in exercising any right, power, or privilege hereunder shall operate as a waiver thereof.",
+        "explanation": "This perturbation directly contradicts the original clause regarding how the agreement can be modified. The original text states that modifications must be in writing, whereas the modified text states they can be verbal. This creates an in-text contradiction regarding the method by which the agreement can be changed.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "6. This Agreement may be amended, changed, waived, discharged, or terminated (except as explicitly provided herein), in whole or in part, verbally by either party. The waiver by any Party of any breach of this Agreement will be deemed or construed as a waiver of any other breach of this Agreement, whether prior, subsequent, or contemporaneous. No failure or delay in exercising any right, power, or privilege hereunder shall operate as a waiver thereof.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that the agreement can be amended verbally, while the contradicted text, which is the same as the changed text, contradicts the original text, which stated that modifications must be in writing. This creates a direct and irreconcilable contradiction within the contract regarding the permissible methods of amending the agreement, as defined by the 'Inconsistencies - In Text Contradiction' definition."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "7. This Agreement shall be binding upon and inure to the benefit of the Parties and their respective agents, executors, heirs, be neficiaries, successors, and assigns.",
+        "changed_text": "7. This Agreement shall only be binding upon and inure to the benefit of the Parties.",
+        "explanation": "This change introduces an in-text contradiction by removing 'agents, executors, heirs, beneficiaries, successors, and assigns' from those who benefit from the agreement. The original text extends the benefits to those parties, but the revised text restricts the benefit solely to the Parties, contradicting the extended coverage.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "7. This Agreement shall only be binding upon and inure to the benefit of the Parties.",
+        "contradiction_exists": "YES",
+        "justification": "The Changed Text of Section 7 explicitly limits the beneficiaries to 'the Parties' only, whereas the Original Text included 'agents, executors, heirs, be neficiaries, successors, and assigns'. The Contradicted Text is identical to the Changed Text, solidifying the contradiction. The Perturbation Explanation clarifies that this limitation creates a contradiction, because it removes coverage from parties that were previously included. This creates an inconsistency within the contract about who the agreement benefits, satisfying the definition of 'Inconsistencies - In Text Contradiction.'"
+      }
+    ]
+  }
+]

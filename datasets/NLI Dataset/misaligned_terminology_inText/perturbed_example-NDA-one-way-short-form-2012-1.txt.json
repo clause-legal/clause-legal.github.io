@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "example-NDA-one-way-short-form-2012-1.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "1.3 The Recipient may disclose Confidential Informa tion to the extent required by law or by a court or other authority of competent jurisdictio n provided that, to the extent it is legally permitted to do so, it gives the Discloser as much notice of this disclosure as possible.",
+        "changed_text": "1.3 The Recipient may reveal Confidential Informa tion to the extent required by law or by a court or other authority of competent jurisdictio n provided that, to the extent it is legally permitted to do so, it gives the Discloser as much notice of this disclosure as possible.",
+        "explanation": "Here, 'disclose' is replaced with 'reveal'. While similar, they aren't synonymous in legal contexts. 'Disclose' has a formal connotation implying a legal or mandated release of information, while 'reveal' can imply unintentional or informal exposure. This is contradicting with the scope and legal implications originally stated in the section.",
+        "location": "1.3",
+        "contradicted_location": "1.2",
+        "contradicted_text": "1.2 The Recipient shall keep the Confidential Infor mation private and shall not use or exploit the Confidential Information in any way exc ept for the purpose of [STATE PURPOSE] (the “Purpose”) and shall not share the Confidential Information to any third party (except as expressly permitted by this agreement).",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'disclose' to 'reveal' introduces a subtle but potentially significant shift in meaning. 'Disclose' implies a formal, legally required release of information, while 'reveal' can suggest a more casual or unintentional exposure. This change contradicts the commitment in Section 1.2, which mandates keeping the Confidential Information private and not sharing it with third parties except as expressly permitted. 'Reveal' could be interpreted as a broader term encompassing unintentional sharing, which would conflict with the restrictions in 1.2, thus creating a potential in-text contradiction as described under 'Misaligned Terminology - In Text Contradiction'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "1.4 At the request of the Discloser, the Recipient shall destroy or return to the disclosing party all documents and materials containing Confid ential Information.",
+        "changed_text": "1.4 At the request of the Discloser, the Recipient shall discard or send back to the disclosing party all documents and materials containing Confid ential Information.",
+        "explanation": "The terms 'destroy' and 'return' were replaced by 'discard' and 'send back'. 'Destroy' has a legal connotation of complete obliteration, preventing any future access. 'Discard' is less forceful and could imply temporary disposal. Similarly, 'return' has a formal implication, while 'send back' is less defined. This undermines the clarity of the obligation.",
+        "location": "1.4",
+        "contradicted_location": "1.5",
+        "contradicted_text": "1.5 All Confidential Information shall remain the p roperty of the Discloser and no rights in the Confidential Information are granted to the Rec ipient other than those expressly stated in this agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'destroy' to 'discard' and 'return' to 'send back' weakens the recipient's obligation regarding confidential information. The original text implies a legally sound destruction or formal return, ensuring the discloser retains ownership as stated in 1.5. 'Discard' and 'send back' introduce ambiguity, potentially allowing the recipient to retain copies or not properly dispose of the information, contradicting 1.5's explicit statement that all Confidential Information shall remain the property of the Discloser."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "2. T ERMINATION If either party decides not to become involved in the Purpose with the other party, it shall notify the other party in writing of its inte ntion to terminate this agreement.",
+        "changed_text": "2. T ERMINATION If either party decides not to participate in the Goal with the other party, it shall notify the other party in writing of its inte ntion to terminate this agreement.",
+        "explanation": "Here the term 'Purpose' is being replaced with 'Goal'. Since there is not a formal definition of 'Goal' within the legal text, it is contradicting with the legal implications that the term 'Purpose' already has.",
+        "location": "2",
+        "contradicted_location": "3.1",
+        "contradicted_text": "3.1 This agreement constitutes the whole agreement between the parties and supersedes all previous agreements between the parties relatin g to the Purpose.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Purpose' to 'Goal' introduces a contradiction because 'Purpose' is a defined term within the contract, specifically in section 3.1 ('This agreement constitutes the whole agreement between the parties and supersedes all previous agreements between the parties relatin g to the Purpose.'). Replacing it with the undefined term 'Goal' creates ambiguity and contradicts the existing agreement that relies on the definition and legal implications of 'Purpose'. This aligns with the 'Misaligned Terminology' definition, which states that using multiple terms interchangeably without defining them can lead to conflicting obligations."
+      }
+    ]
+  }
+]

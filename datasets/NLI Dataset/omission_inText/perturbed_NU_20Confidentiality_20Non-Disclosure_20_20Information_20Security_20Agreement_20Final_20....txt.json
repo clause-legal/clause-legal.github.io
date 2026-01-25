@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "NU%20Confidentiality%20Non-Disclosure%20%20Information%20Security%20Agreement%20Final%20....txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "I will not leave confidential or sensitive data in view of others who do not have a legitimate business reason to view the data and I will only share confidential data with persons having authorized access .",
+        "changed_text": "I will not leave data in view of others who do not have a legitimate business reason to view the data and I will only share data with persons having authorized access .",
+        "explanation": "Removing 'confidential or sensitive' before 'data' in Section A.2 broadens the scope of protection ambiguously. While Section A.1 defines 'confidential or sensitive data,' this change implies *all* data, regardless of sensitivity, must be protected from view and only shared with authorized personnel. This contradicts the document's focus on specifically safeguarding confidential information and creates uncertainty about the handling of non-sensitive data.",
+        "location": "A.2",
+        "contradicted_location": "A.1",
+        "contradicted_text": "Every person who has been given access to a University of Nebraska information system or who has access to or knowledge of confidential or sensitive information or data, is obligated to keep such data confidential . Accordingly, every University of Nebraska employee, student, volunteer, contractor, business associate, or guest who either has or will be given access to printed or online confidential data is required to read and acknowledge his or her understanding of this agreement before being granted access . 1. I will only access confidential or sensitive data for legitimate business purposes as permitted by the University and will not use confidential or sensitive data for personal use . I understand that confidential or sensitive data includes but is not limited to databases and records containing Social Security numbers, checking and savings account numbers, non -published telephone numbers, educational records, medical history, and insurance coverage information .",
+        "contradiction_exists": "YES",
+        "justification": "The changed text broadens the scope of data protection by removing 'confidential or sensitive' before 'data'. The contradicted text specifies that access to data confidentiality obligations apply specifically to 'confidential or sensitive information or data'. The change introduces a contradiction because the contradicted section focuses only on confidential/sensitive data, while the changed section implies that *all* data, including non-sensitive data, is subject to the same access restrictions. This is a direct conflict and makes enforcement unclear, because under the changed text, all data should be secured, while the contradicted text implies only confidential or sensitive data is. Therefore, it is a strong in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "I will not discuss confidential or sensitive information or data in public pl aces and will not remove confidential or sensitive data from my work site without University authorization .",
+        "changed_text": "I will not discuss confidential information or data in public pl aces and will not remove confidential information or data from my work site without University authorization .",
+        "explanation": "Removing 'or sensitive' from section A.3 creates a contradiction because the introduction (section A) states that the agreement applies to both confidential *and* sensitive data. By limiting the restriction on discussion and removal to only 'confidential' information, the agreement now implies sensitive data can be freely discussed or removed, conflicting with the initial overarching statement.",
+        "location": "A.3",
+        "contradicted_location": "A",
+        "contradicted_text": "Every person who has been given access to a University of Nebraska information system or who has access to or knowledge of confidential or sensitive information or data, is obligated to keep such data confidential . Accordingly, every University of Nebraska employee, student, volunteer, contractor, business associate, or guest who either has or will be given access to printed or online confidential data is required to read and acknowledge his or her understanding of this agreement before being granted access .",
+        "contradiction_exists": "YES",
+        "justification": "The original text included both 'confidential' and 'sensitive' data, aligning with the contradicted text which states the agreement applies to both. The changed text removes 'or sensitive' when discussing restrictions on discussing or removing information. This creates a contradiction because while all data (confidential and sensitive) is required to be kept confidential as per the Contradicted Text, the Changed Text now only restricts discussion/removal of 'confidential' data, implying 'sensitive' data is treated differently, creating a contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "I accept responsibility for appropriate handling and management of information and data whether I come into contact with such information through my authorized access or in error.",
+        "changed_text": "I accept responsibility for appropriate handling and management of data whether I come into contact with such information through my authorized access or in error.",
+        "explanation": "By removing 'information and' from section B.1. The sentence now reads ambiguously as 'handling and management of data whether I come into contact with such information', creating an in-text contradiction where the referent of 'such information' is unclear. Before the change, 'information and data' clearly referred back to the types of confidential information previously mentioned. This leaves uncertainty if you are referring to ALL the information being handled or just the confidential ones.",
+        "location": "B.1",
+        "contradicted_location": "B",
+        "contradicted_text": "As an employee, contractor or consultant of the University of Nebraska, and related to my job responsibilities or assigned tasks, I may have access to, come in contact with, or reference confidential or sensitive information or data. Examples of this infor mation and data include, but are not limited to: passwords, student disciplinary and academic records, personal health information, medical and research data, Social Security numbers, legal ly protected information , financial reports, security parameters and configuration s, payroll information and personnel records, system logs and network traffic data, etc. This information or data is subject to University policies as well as regulatory and special handling requirements .",
+        "contradiction_exists": "YES",
+        "justification": "The original text states responsibility for 'information and data', while the changed text removes 'information and', making it only about 'data'. The contradicted text lists examples of 'information and data', and the changed text now ambiguously refers to 'such information' without clearly including all the items mentioned in the contradicted text. This creates a direct contradiction because the scope of responsibility is narrowed in the changed text, creating uncertainty about which items are covered by the responsibility clause, as explained in the Perturbation Explanation."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "I also understand that improper use of my computer user login ID or password is a breach of policy and grounds for corrective action which may include dismissal, the termination of access to University resources, or the termination of a contractual agreement and may subject me to possible civil and/or criminal legal action .",
+        "changed_text": "I also understand that improper use of my computer user login ID or password is a breach of policy and grounds for corrective action which may include the termination of access to University resources, or the termination of a contractual agreement and may subject me to possible civil and/or criminal legal action .",
+        "explanation": "By removing 'dismissal' from section D.7, and not making the coresponding changes throughout the rest of the documents, it leaves the parties that the punishment for breach of security policy does not include dismissal. However section C.3 specifically discusses possible causes that can lead to dismissal, creating an in-text contradiction.",
+        "location": "D.7",
+        "contradicted_location": "C.3",
+        "contradicted_text": "I understand that misuse of confidential or sensitive information or data, whether intentional or due to neglect on my part, is a breach of policy and grounds for corrective action which may include my dismissal , the termination of access to University resources, or the termination of a contractual agreement and may subject me to possible civil and/or criminal legal action .",
+        "contradiction_exists": "YES",
+        "justification": "The original text included 'dismissal' as a potential corrective action for improper use of computer login ID or password. The changed text removes 'dismissal' from this list. However, the contradicted text explicitly states that misuse of confidential information is grounds for corrective action, including 'dismissal'. Therefore, the removal of 'dismissal' in the changed text directly contradicts the contradicted text, creating an in-text contradiction by implying that dismissal is not a possible consequence for a specific breach while another section states it is."
+      }
+    ]
+  }
+]

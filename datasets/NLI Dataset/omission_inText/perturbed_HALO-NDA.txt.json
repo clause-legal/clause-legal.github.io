@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "HALO-NDA.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Confidential information is defined as information of any kind which is disclosed in oral, written, graphic, machine recognizable, and/or sample form, and which is not excluded from any obligation of confidentiality by section 3 below.",
+        "changed_text": "Confidential information is defined as information of any kind which is disclosed in oral, written, graphic, machine recognizable, and/or sample form.",
+        "explanation": "By removing 'and which is not excluded from any obligation of confidentiality by section 3 below' creates an in-text contradiction. Section 3 outlines Non-Confidential information that the recipient has no obligation to keep confidential. Removing this clause implies that all information disclosed, regardless of the exceptions listed in Section 3, is considered confidential, which contradicts the content of Section 3.",
+        "location": "Section 1",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "NON-CONFIDENTIAL INFORMATION. RECIPIENT shall have no obligation with respect to disclosure and use of information to the extent such information: A. is or becomes generally available to the public other than as a consequence of a br each of an obligation of confidentiality to HALO; or B. is made public by HALO; or C. is independently developed by RECIPIENT; or D. is received from a third party independent of HALO without breaching an obligation of confidentiality; or E. is required to be disclosed by the operation of law.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly states that confidential information is defined as information disclosed, except as outlined in Section 3. The changed text removes this exception, making all disclosed information confidential. This directly contradicts Section 3, which details specific types of information the recipient has no obligation to keep confidential. The removal of the exception creates a strong contradiction, making it unclear which information is truly considered confidential under the agreement."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "RECIPIENT agrees that for a period of five (5) years from the effective date of this Agreement, RECIPIENT will not disseminate the confidential information except to it’s employees who will be directly involved in the evaluation of the information, and furthermore RECIPIENT will use the same degree of care (but in no event less than reasonable care) to avoid disclosure or unauthorized use of such information as RECIPIENT employs with respect to confidential information of its own.",
+        "changed_text": "RECIPIENT agrees to not disseminate the confidential information. RECIPIENT will use reasonable care to avoid disclosure or unauthorized use of such information.",
+        "explanation": "By removing the five-year limitation and the exception for employees directly involved in the evaluation, this change creates an internal contradiction with Section 4 which mandates the return of confidential information, implying a process after evaluation, which conflicts with the absolute prohibition of dissemination introduced by this change.",
+        "location": "Section 2",
+        "contradicted_location": "Section 4",
+        "contradicted_text": "OWNERSHIP OF INFORMATION. All information furnished to RECIPIENT by HALO shall, unless otherwise specified in writing by HALO, remain the property of HALO; and the written information, and any copies thereof, shall be promptly returned to HALO upon its written or destroyed by RECIPIENT at HALO’s option.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the five-year limitation and the employee exception on disseminating confidential information. This contradicts the 'OWNERSHIP OF INFORMATION' section, which requires the return of confidential information to HALO, implying that the information can be used for evaluation. The absolute prohibition of dissemination introduced by the changed text is incompatible with a process of evaluation and return, creating a direct conflict and impacting enforceability. As such a strong in-text contradiction exists."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "All information furnished to RECIPIENT by HALO shall, unless otherwise specified in writing by HALO, remain the property of HALO; and the written information, and any copies thereof, shall be promptly returned to HALO upon its written or destroyed by RECIPIENT at HALO’s option.",
+        "changed_text": "All information furnished to RECIPIENT by HALO shall, unless otherwise specified in writing by HALO, remain the property of HALO.",
+        "explanation": "Removing the phrase 'and the written information, and any copies thereof, shall be promptly returned to HALO upon its written or destroyed by RECIPIENT at HALO’s option' creates a contradiction with Section 1. Section 1 states that confidential information is transmitted for evaluation purposes, implying an expected return. This omission makes it unclear what happens to the confidential information after the 'evaluation purposes', thus contradicting the implicit understanding established in Section 1 that the information will eventually be returned.",
+        "location": "Section 4",
+        "contradicted_location": "Section 1",
+        "contradicted_text": "CONFIDENTIAL INFORMATION. HALO Agrees to transmit to RECIPIENT confidential information for evaluation purposes only. Confidential information is defined as information of any kind which is disclosed in oral, written, graphic, machine recognizable, and/or sample form.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that information furnished by HALO remains the property of HALO and should be returned or destroyed. The changed text removes the phrase about returning or destroying the information. The contradicted text states that HALO will transmit confidential information to RECIPIENT for evaluation purposes only. By removing the requirement to return or destroy the information, the changed text contradicts the evaluation purpose implied in the contradicted text, as it introduces uncertainty about what happens to the information after evaluation, thus preventing the enforcement or understanding of the confidential information's end purpose."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Nothing contained in this Agreement shall be construed as granting any license or right to RECIPIENT by HALO under any patent of the United States or a foreign country or otherwise (except for the evaluation purposes indicated above).",
+        "changed_text": "Nothing contained in this Agreement shall be construed as granting any license or right to RECIPIENT by HALO under any patent of the United States or a foreign country or otherwise.",
+        "explanation": "By removing '(except for the evaluation purposes indicated above)' from Section 5, a contradiction arises with Section 1. Section 1 explicitly states that confidential information is disclosed for 'evaluation purposes only.' Without the exception clause in Section 5, it implies that RECIPIENT has no right to use the information at all, even for the explicitly permitted evaluation purposes mentioned in Section 1.",
+        "location": "Section 5",
+        "contradicted_location": "Section 1",
+        "contradicted_text": "CONFIDENTIAL INFORMATION. HALO Agrees to transmit to RECIPIENT confidential information for evaluation purposes only. Confidential information is defined as information of any kind which is disclosed in oral, written, graphic, machine recognizable, and/or sample form.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the exception allowing for evaluation purposes, directly contradicting the contradicted text, which states that HALO will transmit confidential information to RECIPIENT for evaluation purposes. This creates a strong in-text contradiction, as the changed text implies RECIPIENT has no right to use the information at all, even for evaluation, while the contradicted text explicitly permits evaluation. This adheres to the definition of Omissions - In Text Contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "RECIPIENT recognizes that the remedy at law for any breach of its obligation under this Agreement will be inadequate, and hence, RECIPIENT agrees that HALO shall be entitled to equitable remedies, including injunction, in the event of breach by RECIPIENT.",
+        "changed_text": "RECIPIENT recognizes that the remedy at law for any breach of its obligation under this Agreement will be inadequate.",
+        "explanation": "The removal of 'and hence, RECIPIENT agrees that HALO shall be entitled to equitable remedies, including injunction, in the event of breach by RECIPIENT' creates a contradiction with Section 7 (Governing Law). While Section 7 states that the agreement is governed by California law, the removed clause specifies the remedies available to HALO in case of a breach. The lack of specified remedies may lead to uncertainty as Californian law might not automatically provide the specific equitable remedies intended by the parties which contradicts their specific intentions.",
+        "location": "Section 6",
+        "contradicted_location": "Section 7",
+        "contradicted_text": "GOVERNING LAW. This Agreement shall be governed by and construed in accordance with the laws (excluding the laws of conflict of laws) of the State of Califor nia.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified that HALO is entitled to equitable remedies, including injunction, in the event of breach by RECIPIENT. The changed text omits this, creating a contradiction. Section 7 states that California law governs the agreement. By removing the specific mention of equitable remedies and injunctions, the changed text introduces uncertainty about the remedies available to HALO in case of a breach, which contradicts the intent and potentially the enforceability within the Californian law that Section 7 refers to."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This Agreement shall be governed by and construed in accordance with the laws (excluding the laws of conflict of laws) of the State of Califor nia.",
+        "changed_text": "This Agreement shall be governed by and construed in accordance with the laws of conflict of laws.",
+        "explanation": "By changing the governing law clause, specifying that the agreement should be construed in accordance with the laws *of conflict of laws* rather than excluding them, creates an internal contradiction with the intention in Section 6. By not including any form of remedies now, there is no jurisdiction or method on how to do so. This creates ambiguity about which jurisdiction's law will prevail in resolving disputes",
+        "location": "Section 7",
+        "contradicted_location": "Section 6",
+        "contradicted_text": "RECIPIENT recognizes that the remedy at law for any breach of its obligation under this Agreement will be inadequate.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that the agreement is governed by the laws of California, excluding conflict of laws. The changed text removes this exclusion and instead states the agreement should be construed in accordance with the laws *of conflict of laws*. This directly contradicts the intent implied in the contradicted text, which acknowledges the inadequacy of legal remedies for breaches. By specifying that the agreement should be construed using conflict of laws, which govern which jurisdiction's law should apply, and removing the existing jurisdiction (California), creates ambiguity about which jurisdiction's law will prevail in resolving disputes. This ambiguity would impact the recipient's acknowledgement that the remedy at law is inadequate, as the adequacy would vary based on the governing jurisdiction. Therefore, the changed text creates a strong in-text contradiction."
+      }
+    ]
+  }
+]

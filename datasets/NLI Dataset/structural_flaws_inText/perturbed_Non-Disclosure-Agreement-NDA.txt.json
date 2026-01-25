@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Non-Disclosure-Agreement-NDA.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Each party's Conﬁdential Information shall remain its own property. Upon the termination of the business relationship or upon request, whichever is sooner, each party shall return all of the other's Conﬁdential Information, certifying destruction of any copies or partial copies made.",
+        "changed_text": "Each party's Confidential Information shall remain its own property, except that upon termination of the business relationship, either party may retain copies of confidential information if they deem it necessary for archival purposes. The requirement to certify destruction of copies is waived in such cases.",
+        "explanation": "The original text requires the return and destruction of all confidential information upon termination. The modified text introduces an exception, allowing retention for archival purposes, thus contradicting the original requirement. This creates uncertainty about the extent to which confidentiality obligations continue after termination. Also, if a party retain copies, it is creating a contradiction with Section 1, because it can use it or disclose it later. ",
+        "location": "Section 6",
+        "contradicted_location": "Section 1",
+        "contradicted_text": "Each party shall use its reasonable best eﬀorts to keep the other's Conﬁdential Information secret. Each party shall use at least the same degree of care to avoid unauthorized disclosure or use of the other's Conﬁdential Information as it employs with respect to its own Conﬁdential Information of like importance.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates the return and destruction of all confidential information. The changed text allows retention of copies for archival purposes, explicitly waiving the destruction requirement. This directly contradicts the contradicted text, which requires each party to use its best efforts to keep the other's Confidential Information secret. Retaining copies, even for archival purposes, inherently increases the risk of unauthorized disclosure or use, conflicting with the obligation to maintain secrecy, thus establishing a strong in-text contradiction as described in the Perturbation Explanation."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The obligation of conﬁdentiality shall extend to three years from and including the date of return of the Conﬁdential Information and certiﬁcation of destruction of any copies made. At any time, either party may notify the other party in writing that future disclosures shall not be governed by this Agreement.",
+        "changed_text": "The obligation of confidentiality shall extend indefinitely. This agreement supersedes any prior or future communication or agreement between the parties regarding confidentiality, and no notification can alter this extended obligation.",
+        "explanation": "The original agreement sets a three-year limit on the confidentiality obligation and allows either party to opt out of future disclosures. The new agreement extends the obligation indefinitely and removes the opt-out clause, creating a contradiction concerning the duration of confidentiality and creating a contradiction with its own language which states 'Agreement on the following terms'.",
+        "location": "Section 7",
+        "contradicted_location": "Preamble",
+        "contradicted_text": "The parties agree to protect each other's Conﬁdential Information disclosed before or after the execution of this Agreement on the following terms.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allows for a three-year confidentiality period and an opt-out clause. The changed text makes the confidentiality obligation indefinite and removes the opt-out clause. This directly contradicts the contradicted text, which states that the parties agree to protect Confidential Information 'on the following terms,' implying that there are specific, defined terms, which the changed text undermines by making the obligation indefinite and unalterable. This contradiction is a structural flaw, as it creates conflicting implications about the duration and nature of the confidentiality agreement within the same document. The change means that the 'following terms' are no longer applicable, resulting in an inconsistency."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement is governed by the laws of Germany without regard to its rules on conﬂicts of law, and both parties consent to the venue and jurisdiction of its courts.",
+        "changed_text": "This Agreement is governed by the laws of a jurisdiction chosen at the sole discretion of the party initiating legal action, regardless of conflict of law principles.",
+        "explanation": "The original text specifies that the agreement is governed by German law. The modified text allows the initiating party to choose the governing law, contradicting the original agreement on governing law. This adds uncertainty about which legal framework applies and can affect the outcome of disputes. This will contradict all of the agreement.",
+        "location": "Section 10",
+        "contradicted_location": "Section 9",
+        "contradicted_text": "Each party agrees that in the event of a breach or threatened breach by either party, including its agents, directors, or employees, of the provisions of this Agreement, the non-breaching party may have no adequate remedy in money damages and, accordingly, shall be entitled to an injunction against such breach, in addition to any other legal or equitable remedies available to it.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies German law governs the agreement, while the changed text allows the initiating party to choose the governing law. This creates a direct contradiction regarding which legal framework applies to the entire agreement. The contradicted text refers to 'the provisions of this Agreement,' which now has conflicting interpretations due to the change in governing law, making enforcement uncertain and inconsistent, as explained in the Perturbation Explanation. This constitutes a structural flaw, causing in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "No modiﬁcation of this Agreement shall be eﬀective unless in writing and signed by both parties.",
+        "changed_text": "This Agreement can be modified verbally, and such modifications will be binding, irrespective of written documentation or signatures.",
+        "explanation": "The initial clause stipulates that modifications to the agreement must be in writing and signed by both parties to be effective. In contrast, the modified clause asserts that verbal modifications are valid and enforceable, irrespective of any written documentation or signatures. This contradiction introduces ambiguity and uncertainty as to how the agreement can be legitimately altered, thereby creating confusion and undermining the enforceability of either clause. This create a conflict with Section 10 again.",
+        "location": "Section 10",
+        "contradicted_location": "Section 10",
+        "contradicted_text": "This Agreement is governed by the laws of Germany without regard to its rules on conﬂicts of law, and both parties consent to the venue and jurisdiction of its courts. Neither party may assign its rights or obligations under this Agreement. No modiﬁcation of this Agreement shall be eﬀective unless in writing and signed by both parties. No waiver of any provision of this Agreement shall be eﬀective unless signed by the waiving party. This Agreement is the entire agreement between the parties on nondisclosure of conﬁdential information and supersedes all prior representations and agreements between the parties on that subject. Erlangen, DD/MM/YYYY _________________________ _________________________ ACCRUENCE GMBH",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that modifications must be in writing and signed. The changed text states that verbal modifications are valid. The contradicted text includes the original clause that modifications must be in writing and signed. The changed text directly contradicts this existing clause, creating a strong in-text contradiction as it allows for a completely different method of modifying the contract which conflicts directly with the original clause."
+      }
+    ]
+  }
+]

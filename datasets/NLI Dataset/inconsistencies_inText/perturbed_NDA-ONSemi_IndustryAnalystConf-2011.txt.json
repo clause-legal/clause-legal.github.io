@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "NDA-ONSemi_IndustryAnalystConf-2011.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement and the rights and obligations hereunder may not be transferred or assigned by one party without the prior written appr oval of the other party hereto.",
+        "changed_text": "This Agreement and the rights and obligations hereunder may be freely transferred or assigned by either party without any prior notification or approval.",
+        "explanation": "Removing the need for approval for transferring the agreement creates an in-text contradiction because other sections may implicitly rely on the controlled transfer of the agreement. This change could create uncertainty over who is bound by the agreement.",
+        "location": "10",
+        "contradicted_location": "13",
+        "contradicted_text": "Binding Effect. This Agreement shall be binding upon each party, its affiliates, respective employees, agents, representatives, successors, and assigns. No change, modification, alteration, or addition to any provision hereof shall be binding unless in writing and signed by au thorized representatives of both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text restricts the transfer or assignment of the agreement, requiring prior written approval. The changed text removes this restriction, allowing free transfer or assignment without any notification or approval. The contradicted text states that any modification to the agreement must be in writing and signed by authorized representatives of both parties to be binding. The changed text directly contradicts this by allowing assignment without written approval. Therefore, the change creates a strong in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The law of the state of New York, U.S.A. except for its choice of laws rules shall govern this Agreement.",
+        "changed_text": "The law of the state of California, U.S.A. including its choice of laws rules shall govern this Agreement.",
+        "explanation": "Switching the governing law from New York to California. This can create in-text contradictions because certain definitions or remedies available might be dependent on the specific laws of New York, and switching to California law changes those underlying legal assumptions.",
+        "location": "12",
+        "contradicted_location": "6",
+        "contradicted_text": "Rights and Remedies. Each party acknowledges that damages for improper disclosure of Confidential Information may be irreparable; therefore, the injured party is entitled to seek equitable relief, including injunction and preliminary inj unction, in addition to all other remedies.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies New York law governs the agreement, while the changed text specifies California law. The contradicted text allows for equitable relief for improper disclosure of Confidential Information. Because legal remedies and the interpretation of 'Confidential Information' can differ significantly between New York and California, switching the governing law introduces a direct conflict. The remedies available under New York law, which were presumed when the original contract was drafted, may not be available or may be interpreted differently under California law, thus impacting the enforceability and meaning of the 'Rights and Remedies' section. This falls under the 'Inconsistencies' definition, where different sections now imply conflicting legal standards."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Each party may retain one archival copy to be used only in resolving a dispute concerning this Agreement.",
+        "changed_text": "Each party may retain multiple archival copies to be used for any purpose deemed necessary by the party.",
+        "explanation": "Changing the use of the archival copies from dispute resolution to any purpose creates an in-text contradiction as it undermines the original intent of limiting access and use of the confidential information after the agreement terminates. This contradicts the agreement's core purpose of protecting confidentiality.",
+        "location": "5",
+        "contradicted_location": "3",
+        "contradicted_text": "Use and Protection of Confidential Information. Confidential Information may be exchanged between the parties under this Agreement to the extent necessary to fulfill the Authorized Purpose, and shall not be used for any other purpose. Recipient acknowledges that the Discloser’s Confidential Information is a special, valuable and a unique asset, and agrees that for a period of three (3) years following the receipt of the Confidential Information it shall: (a) not disclose the Confidential Information to any third party without written consent of Disclos er, (b) restrict dissemination of Confidential Information to only its employees, contractors, or agents who are directly participating in the Authorized Purpose, who have a need to know the Confidential Information, and who are bound by a duty of confid entiality under terms no less re strictive than contained herein concerning the use of Confidential Information, and (c) use the same degree of care as for its own information of like importance, but at least reasonable care, in preventing disclosu re of Confidential Information. Recipient further agrees not to reverse engineer, decompile, disassemble any prototypes, soft ware, hardware or other tangible objects or products provided hereunder which embody the Confidential Information of the Discloser.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text broadens the allowed use of archival copies from 'resolving a dispute' to 'any purpose deemed necessary'. This directly contradicts the contradicted text, which states that Confidential Information 'shall not be used for any other purpose' other than fulfilling the Authorized Purpose. The original intent was to limit the use of confidential information; the change undermines this, creating a clear in-text contradiction as per the definition of 'Inconsistencies - In Text Contradiction'."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The prevailing party in any action to enforce this Agreement shall be entitled to recover reasonable attorneys fees and costs.",
+        "changed_text": "Regardless of the outcome of any action to enforce this Agreement, each party shall bear its own attorneys' fees and costs.",
+        "explanation": "Modifying the clause about attorney fees creates an in-text contradiction because it directly clashes with the original intention of making the breaching party responsible for legal expenses. This contradiction introduces ambiguity and uncertainty about the allocation of financial responsibility in case of disputes.",
+        "location": "12",
+        "contradicted_location": "12",
+        "contradicted_text": "Applicable Law. The law of the state of New York, U.S.A. except for its choice of laws rules shall govern this Agreement. The prevailing party in any action to enforce this Agreement shall be entitled to recover reasonable attorneys fees and costs. The Recipient agrees that, in addition to all other remedies, the Discloser shall be entitled to specific performance and injunctive or other equitable relief as a remedy for any breach or threatened breach of the obligations herein.",
+        "contradiction_exists": "YES",
+        "justification": "The original text in the 'Applicable Law' section states that 'The prevailing party in any action to enforce this Agreement shall be entitled to recover reasonable attorneys fees and costs.' The changed text modifies a similar clause elsewhere in the agreement to state 'Regardless of the outcome of any action to enforce this Agreement, each party shall bear its own attorneys' fees and costs.' This directly contradicts the contradicted section, because now the contract both states that the prevailing party is entitled to recover fees and costs, and that no party is entitled to recover fees and costs. The change introduces a direct conflict regarding who is responsible for attorneys' fees, which falls under the definition of 'Inconsistencies - In Text Contradiction'."
+      }
+    ]
+  }
+]

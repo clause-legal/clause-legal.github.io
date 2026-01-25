@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "modelnondisclosureagreement1.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The RECIPIENT shall in consideration of the disclosure of the Information for the purpose specified above hold in confidence and prevent disclosure of such information to any third-party other than the Supplier detailed herein. The RECIPIENT shall not use the Information except for the permitted purpose.",
+        "changed_text": "The RECIPIENT shall in consideration of the disclosure of the Information for the purpose specified above hold in confidence and prevent disclosure of such information to any third-party. The RECIPIENT shall not use the Information except for the permitted purpose.",
+        "explanation": "By removing the phrase 'other than the Supplier detailed herein,' the revised text now broadly prohibits disclosure to *any* third party. This introduces a contradiction because the agreement originally contemplated that the Supplier itself would have access to the information, making it a permitted third party. This creates uncertainty about whether the Supplier can actually use the information as intended.",
+        "location": "1",
+        "contradicted_location": "1",
+        "contradicted_text": "The RECIPIENT shall in consideration of the disclosure of the Information for the purpose specified above hold in confidence and prevent disclosure of such information to any third-party. The RECIPIENT shall not use the Information except for the permitted purpose.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allows disclosure to the 'Supplier detailed herein,' while the changed text prohibits disclosure to *any* third party. The contradicted text is identical to the changed text. Therefore, the changed text, by omitting the exception for the Supplier, directly contradicts the original intent that the supplier is a permitted third party, which makes the contract unenforceable."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The RECIPIENT and Supplier will limit access to the Information to only those of its employees, agents, sub-contractors (and employees of same) who have an absolute need to know in order to fulfil the purposes for which the Information was disclosed and shall notify such employees, agents, sub- contractors (and employees of same) of the RECIPIENT'S obligations under this Agreement.",
+        "changed_text": "The RECIPIENT and Supplier will limit access to the Information to only those of its employees who have an absolute need to know in order to fulfil the purposes for which the Information was disclosed and shall notify such employees of the RECIPIENT'S obligations under this Agreement.",
+        "explanation": "By removing 'agents, sub-contractors (and employees of same)', the clause now restricts access *only* to direct employees of the Recipient and Supplier. This creates a contradiction if the Supplier reasonably needs to use subcontractors to fulfill the ONS requirement as originally intended, because subcontractors are no longer explicitly allowed access, but the overall agreement is for the supplier to fulfill a certain operation for the ONS.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "The RECIPIENT and Supplier will limit access to the Information to only those of its employees who have an absolute need to know in order to fulfil the purposes for which the Information was disclosed and shall notify such employees of the RECIPIENT'S obligations under this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes 'agents, sub-contractors (and employees of same)' from the original text which restricts access to information to only direct employees. The contradicted text also states that only employees have access to the information, which matches the changed text. However, according to the provided explanation, the removal creates a contradiction because the supplier might reasonably need to use subcontractors to fulfill the ONS requirement. While the changed text and contradicted text are identical, the changed text alters the meaning of the original agreement. The omission of subcontractors directly conflicts with the original intention and would create a strong contradiction, because subcontractors are now implicitly excluded from access."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "However, the RECIPIENT may make as many copies of the Information as are necessary for the permitted purpose.",
+        "changed_text": "The RECIPIENT may make copies of the Information.",
+        "explanation": "By removing the condition 'as are necessary for the permitted purpose,' the modification allows the Recipient to make an unlimited number of copies without specifying any restriction. This contradicts the overall intent of the non-disclosure agreement, which aims to protect the information. If the RECIPIENT can make unlimited copies, it increases the risk of unauthorized disclosure, which is not in line with the purpose of the document.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "The RECIPIENT acknowledges that all Intellectual Property Rights (IPR) in and to the Information shall at all times remain vested in ONS. However, the RECIPIENT may make copies of the Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the RECIPIENT can make copies of the Information 'as are necessary for the permitted purpose'. The changed text removes this condition, stating 'The RECIPIENT may make copies of the Information.' The contradicted text is 'the RECIPIENT may make copies of the Information,' which is identical to the changed text. While they are identical, the explanation specifies that removing the condition creates a contradiction with the overall NDA, since it allows for unlimited copies, which contradicts the NDA's purpose. The original text was okay, but the changed text now contradicts the implied purpose of the document. Therefore, it's a strong contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "In the event of dispute as to the date of actual disclosure the Information, this shall be deemed to have been disclosed on the date this agreement is signed.",
+        "changed_text": "In the event of dispute as to the date of actual disclosure the Information, this shall be deemed to have been disclosed.",
+        "explanation": "By removing the phrase 'on the date this agreement is signed', the section regarding dispute resolution becomes internally contradictory. Without specifying when the information is 'deemed' to be disclosed, it makes it impossible to determine the start date for any confidentiality obligations. This has a direct impact on enforcement.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "The obligation under this Agreement shall continue for an indefinite period from the date of disclosure of Information. In the event of dispute as to the date of actual disclosure the Information, this shall be deemed to have been disclosed.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes 'on the date this agreement is signed,' which was previously used to determine the date of disclosure in case of a dispute. The contradicted text states that the agreement continues for an indefinite period from the date of disclosure. By removing the specific date in the changed text, it becomes impossible to determine when the indefinite period begins, creating a direct contradiction and making enforcement unclear. This aligns with the definition of 'Omissions – In Text Contradiction' as essential language has been removed, contradicting the obligations in the other section."
+      }
+    ]
+  }
+]

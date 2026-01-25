@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "912643_0001045969-00-000244_document_3.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Unless otherwise expressly authorized by the disclosing party, the receiving party agrees to retain the confidential information in confidence for the \"Confidential Period\" defined in paragraph number 3 below, during which period the receiving party shall not disclose the confidential information to any third party, and shall not use the confidential information for any purpose other than the aforesaid purposes.",
+        "changed_text": "Unless otherwise expressly authorized by the disclosing party, the receiving party agrees to *try to* retain the confidential information in confidence for the \"Confidential Period\" defined in paragraph number 3 below, during which period the receiving party shall not disclose the confidential information to any third party, and shall not use the confidential information for any purpose other than the aforesaid purposes.",
+        "explanation": "By inserting 'try to', the obligation to retain confidentiality is weakened. While the receiving party is still prohibited from disclosing or using the information, the level of effort required to maintain confidentiality becomes ambiguous. This contradicts the intent of the NDA, creating an in-text contradiction by weakening the commitment to confidentiality expressed earlier in the agreement.",
+        "location": "Paragraph 2",
+        "contradicted_location": "Paragraph 2.1",
+        "contradicted_text": "Further, the receiving party agrees to use at least the same degree of care to avoid disclosure of such confidential information as the receiving party uses with respect to its own proprietary or confidential information of like importance.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'agrees to retain' to 'agrees to try to retain' significantly weakens the obligation to maintain confidentiality. This directly contradicts the 'Contradicted Text' which states the receiving party must use 'at least the same degree of care' as they do with their own confidential information. The added 'try to' introduces ambiguity and a lower standard of care, making it incompatible with the original commitment to a specific level of diligence. The original text created a firm obligation, while the changed text creates only an aspirational one, creating an in-text contradiction based on the omission perturbation definitions."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This document constitutes the entire agreement between the parties with respect to the subject matter hereof, and shall supersede all previous communications, representations, understandings and agreements, whether oral or written, between the parties or any official or representative thereof.",
+        "changed_text": "This document constitutes the entire agreement between the parties with respect to the subject matter hereof, *except for ongoing projects and agreements executed before this agreement*, and shall supersede all previous communications, representations, understandings and agreements, whether oral or written, between the parties or any official or representative thereof.",
+        "explanation": "By adding the exception 'except for ongoing projects and agreements executed before this agreement', we are directly contradicting the meaning and intention of the clause which should stand that it is an entire agreement and it shall supersede all other agreements, by breaking this we are creating ambiguity and contradicting the meaning of the clause itself.",
+        "location": "Paragraph 7.1",
+        "contradicted_location": "Paragraph 7.1",
+        "contradicted_text": "This document constitutes the entire agreement between the parties with respect to the subject matter hereof, *except for ongoing projects and agreements executed before this agreement*, and shall supersede all previous communications, representations, understandings and agreements, whether oral or written, between the parties or any official or representative thereof.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the document constitutes the entire agreement and supersedes all previous communications. The changed text introduces an exception for 'ongoing projects and agreements executed before this agreement'. This directly contradicts the 'entire agreement' clause because it acknowledges the existence and potential validity of other agreements, thus creating an in-text contradiction. The contradicted text is the same as the changed text, highlighting that the exception added in the changed text contradicts the original intention of an entire agreement clause."
+      }
+    ]
+  }
+]

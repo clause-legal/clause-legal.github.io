@@ -1,0 +1,95 @@
+[
+  {
+    "file_name": "NDA-standard.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - Ambiguous Legal Obligation",
+        "original_text": "Take proper and all reasonable measures to ensure the confidentiality of the Confidential Information.",
+        "changed_text": "Take measures deemed necessary to ensure the confidentiality of the Confidential Information.",
+        "explanation": "The phrase \"measures deemed necessary\" introduces ambiguity and subjectivity, potentially leading to inadequate security measures.",
+        "contradicted_law": "The UK GDPR Article 32",
+        "law_citation": "Article 32 of the UK GDPR",
+        "law_url1": [
+          "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/security/data-security-technical-and-organisational-measures/"
+        ],
+        "law_url2": [
+          "https://gdpr-info.eu/art-32-gdpr/"
+        ],
+        "law_explanation": "UK GDPR Article 32 requires organizations to implement appropriate technical and organizational measures to ensure a level of security appropriate to the risk, considering factors like the nature, scope, context, and purposes of processing. Using 'measures deemed necessary' fails to define or ensure that the appropriate security measures will align with the risk level and UK GDPR requirements, potentially resulting in insufficient data protection.",
+        "location": "2",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "Art. 32 GDPR \u2013 Security of processing - General Data Protection Regulation (GDPR) Search for: Skip to content Search for: Imprint | Privacy Policy | Liability Taking into account the state of the art, the costs of implementation and the nature, scope, context and purposes of processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons, the controller and the processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk, including inter alia as appropriate: the pseudonymisation and encryption of personal data; the ability to ensure the ongoing confidentiality, integrity, availability and resilience of processing systems and services; the ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident; a process for regularly testing, assessing and evaluating the effectiveness of technical and organisational measures for ensuring the security of the processing. In assessing the appropriate level of security account shall be taken in particular of the risks that are presented by processing, in particular from accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to personal data transmitted, stored or otherwise processed. Adherence to an approved code of conduct as referred to in Article 40 or an approved certification mechanism as referred to in Article 42 may be used as an element by which to demonstrate compliance with the requirements set out in paragraph 1 of this Article. The controller and processor shall take steps to ensure that any natural person acting under the authority of the controller or the processor who has access to personal data does not process them except on instructions from the controller, unless he or she is required to do so by Union or Member State law. Suitable Recitals ( 75 ) Risks to the Rights and Freedoms of Natural Person",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces \"proper and all reasonable measures\" with \"measures deemed necessary\", creating ambiguity regarding the required level of security. This contradicts Article 32 of the GDPR, which mandates \"appropriate technical and organisational measures to ensure a level of security appropriate to the risk\". The original text aligns better with the GDPR's requirement for reasonableness, while the modified text allows for potentially inadequate security measures based on subjective necessity, creating a legal contradiction as it fails to ensure alignment with the risk level as the GDPR requires."
+      },
+      {
+        "type": "Ambiguities - Ambiguous Legal Obligation",
+        "original_text": "The Receiving Party may disclose the Confidential Information to those of its officers, employees (together, \u2018Authorised Persons\u2019) who : reasonably need to receive the Confidential Information to enable the Receiving Party to achieve the Permitted Purpose; have been informed by the Receiving Party (a) of the confidential nature of the Confidential Information and (b) that the Disclosing Party provided the Confidential Information to the Receiving Party subject to the provisions of a written confidentiality agreement; in the case of the Receiving Party\u2019s officers and employees, have written confidentiality obligations to the Receiving P arty that (a) are no less onerous than the provisions of this Agreement and (b) apply to the Confidential Information, and who have been instructed to treat the Confidential Information as confidential; have been provided with a copy of this Agreement and have agreed with the Receiving Party in writing to comply with the obligations of the Receiving Party under this Agreement, and that agreement provides that the Disclosing Party will be entitled to enforce the agreement as a third -party beneficiary; a nd in the case of the Receiving Party\u2019s solicitors, have confirmed that they will treat the Confidential Information as if it were the Receiving Party\u2019s confidential information and therefore subject to the rules of the Law Society concerning client infor mation.",
+        "changed_text": "The Receiving Party may disclose the Confidential Information to those of its officers, employees (together, \u2018Authorised Persons\u2019) who the Receiving Party believes need access to achieve the Permitted Purpose, provided they are generally aware of confidentiality obligations. The Receiving Party's solicitors should treat the Confidential Information responsibly.",
+        "explanation": "Weakening the conditions for disclosing confidential information to employees by replacing 'reasonably need to receive' with a subjective belief and removing the requirements for written confidentiality agreements and instruction to treat information as confidential makes it more difficult to enforce the confidentiality provisions. Removing specific third party beneficiary rights is also problematic. The 'responsible' requirement for solicitors is too vague.",
+        "contradicted_law": "The UK GDPR Article 29",
+        "law_citation": "Article 29 of the UK GDPR",
+        "law_url1": [
+          "https://gdpr-info.eu/art-29-gdpr/"
+        ],
+        "law_url2": [
+          "https://www.simpsons.com/knowledge/gdpr-articles/gdpr-article-29-processing-under-the-authority-of-the-controller-or-processor"
+        ],
+        "law_explanation": "Article 29 of the UK GDPR mandates that processors (including employees of the Receiving Party handling confidential information) must process data only on documented instructions from the controller (the Receiving Party in this case). The change removes requirements for documented confidentiality agreements and specific instructions, which undermines the controller's ability to ensure that processing is carried out in accordance with GDPR principles, particularly data security and confidentiality. Also, using an undefined and unspecific 'responsible' requirement for Solicitors, does not satisfy this article.",
+        "location": "3",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "simpsons.com",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces ambiguity and weakens the conditions for disclosing confidential information. The original text had specific requirements for Authorized Persons, including written confidentiality obligations and instructions to treat the information as confidential. The modified text replaces these with a subjective belief ('the Receiving Party believes need access') and a general awareness of confidentiality obligations, making enforcement more difficult. The undefined 'responsible' requirement for solicitors also does not satisfy the standards of confidentiality. The LLM's Law Explanation correctly identifies that UK GDPR Article 29 mandates processors must process data only on documented instructions from the controller. The original text supports this by providing instructions on the Receiving Party needing to inform their officers and employees about the nature of the confidential information, which the modified text omits. The scraped law snippets provide limited direct support, but the weakness in the changed text falls under Ambiguity Legal Contradiction, as there's ambiguity that would make it difficult to enforce under state or national law."
+      },
+      {
+        "type": "Ambiguities - Ambiguous Legal Obligation",
+        "original_text": "Following the date of any termination of this Agreement, or any return of Confidential information to the Disclosing Party (\u2018Final Date\u2019), (a) the Receiving Party shall make no further use of the Confidential In formation, and (b) the Receiving Party\u2019s obligations under this Agreement shall otherwise continue in force without limit of time.",
+        "changed_text": "Following the date of any termination of this Agreement, or any return of Confidential information to the Disclosing Party (\u2018Final Date\u2019), (a) the Receiving Party should generally refrain from further use of the Confidential Information, and (b) the Receiving Party\u2019s obligations under this Agreement should continue in force.",
+        "explanation": "Changing \"shall\" to \"should\" weakens the obligation to refrain from using confidential information after termination, creating ambiguity about the extent to which the Receiving Party must avoid using the information. Removing 'without limit of time' introduces uncertainty about how long confidentiality obligations persist.",
+        "contradicted_law": "Limitation Act 1980",
+        "law_citation": "Limitation Act 1980, Section 5",
+        "law_url1": [
+          "https://www.legislation.gov.uk/ukpga/1980/58/section/5"
+        ],
+        "law_url2": [
+          "https://www.bailii.org/uk/legis/num_act/1980/58.html"
+        ],
+        "law_explanation": "The Limitation Act 1980 sets a time limit of six years for actions founded on simple contract. By removing 'without limit of time,' and using 'should' where 'shall' was used, the changed text implies the confidentiality obligation may not last indefinitely and is subject to the general limitation period. This contradicts the original intent of perpetual confidentiality and undermines the protections for the disclosing party.",
+        "location": "6.2",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "[ Home ] [ Databases ] [ World Law ] [ Multidatabase Search ] [ Help ] [ Feedback ] [ DONATE ] Not found You are here: BAILII >> Not found URL: [ Help ] You selected a file which is not on our system. BAILII: Copyright Policy | Disclaimers | Privacy Policy | Feedback | Donate to BAILII URL:",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The changed text weakens the confidentiality obligations by replacing \"shall\" with \"should\" and removing \"without limit of time.\" The Law Explanation states that the Limitation Act 1980 sets a time limit of six years for actions founded on simple contract. Removing 'without limit of time,' and using 'should' implies the confidentiality obligation may not last indefinitely. This contradicts the original intent of perpetual confidentiality and undermines the protections for the disclosing party, making the obligation ambiguous and potentially unenforceable beyond the statutory limitation period."
+      },
+      {
+        "type": "Ambiguities - Ambiguous Legal Obligation",
+        "original_text": "The validity, Construction and performance of this Agreement shall be governed by English law and shall be subject to the exc lusive jurisdiction of the courts of England and Wales, to which the parties to this Agreement submit.",
+        "changed_text": "The validity, Construction and performance of this Agreement will be interpreted in accordance with general principles of English law and be subject to the jurisdiction of courts as deemed appropriate.",
+        "explanation": "Replacing \"shall be governed by English law\" with \"will be interpreted in accordance with general principles of English law\" is ambiguous. It's unclear what 'general principles' means, as opposed to the specific body of English law. The change from \"exclusive jurisdiction of the courts of England and Wales\" to \"jurisdiction of courts as deemed appropriate\" introduces substantial uncertainty, allowing for arguments that courts outside England and Wales may also have jurisdiction.",
+        "contradicted_law": "Brussels I Regulation (Recast) - Regulation (EU) No 1215/2012",
+        "law_citation": "Brussels I Regulation (Recast) - Article 25",
+        "law_url1": [
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R1215"
+        ],
+        "law_url2": [
+          "https://www.eversheds-sutherland.com/global/en/what/articles/index.page?ArticleID=en/International_litigation/The_Brussels_I_Regulation_Recast"
+        ],
+        "law_explanation": "While technically this regulation does not apply to the UK anymore as of January 1, 2021, it does apply if the parties are in other EU countries and the case is filed in an EU country. Article 25 of the Brussels I Regulation addresses choice of court agreements. It stipulates that if parties agree that a court or the courts of a Member State are to have jurisdiction to settle any disputes, that court or those courts have jurisdiction. By weakening the agreement to \"jurisdiction of courts as deemed appropriate\", it creates uncertainty that could result in a court in another EU member state determining it has jurisdiction despite the original agreement, which would normally be upheld under Article 25.",
+        "location": "9",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "Insights You need to enable JavaScript to run this app. Skip to content Insights Trump Administration Executive Orders & Legal Developments Stay informed with comprehensive analysis and updates on executive orders, policy positions, legislation and other relevant developments during the first 100 days of the Trump Administration. Submit Sort / filter results Global Clear filters How can we help you today? Clear selection Legal notices Terms & conditions Privacy notice Cookies LinkedIn Facebook YouTube Connect Contact us Client login Staff login Subscribe About us About Eversheds Sutherland Purpose and values Responsible business Alumni Insights Client tools Events and training Business topics Careers Offices \u00a9 Eversheds Sutherland 2025. All rights reserved. Eversheds Sutherland is a provider of legal and other services operating through various separate and distinct legal entities. For further information about these entities and Eversheds Sutherlands' structure please see the Legal Notice page of this website. Eversheds Sutherland is the name and brand under which the members of Eversheds Sutherland Limited (Eversheds Sutherland (International) LLP and Eversheds Sutherland (US) LLP) and their respective controlled, managed or affiliated firms and the members of Eversheds Sutherland (Europe) Limited and Eversheds Sutherland (Africa) Limited (each an \"Eversheds Sutherland Entity\" and together the \"Eversheds Sutherland Entities\") provide legal or other services to clients around the world. Eversheds Sutherland Entities are constituted and regulated in accordance with relevant local regulatory and legal requirements. The use of the name Eversheds Sutherland, is for description purposes only and does not imply that the Eversheds Sutherland Entities are in a partnership or are part of a global entity. The responsibility for the provision of services to the client is defined in the terms of engagement between the instructed firm and the client. For further information about these Eversheds Sutherland Entities and Eversheds Sutherlands\u2019 structure please see the Legal Notices page of this website. For information on Konexo please also see the Legal Notices page of this website.",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The original contract specified English law and the exclusive jurisdiction of English courts. The modified contract introduces ambiguity by stating the agreement will be interpreted according to \"general principles of English law\" and subjects it to the jurisdiction of courts \"as deemed appropriate.\" This weakens the original provision, creating uncertainty about which court has jurisdiction. This uncertainty contradicts the legal standard of clear jurisdiction agreements."
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "TodosMedicalLtd_20190328_20-F_EX-4.10_11587157_EX-4.10_Marketing Agreement_ Reseller Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "5.7 Payment for Products. Todos shall invoice the Reseller for all sums due for Products ordered upon shipment of the ordered Products to the Reseller, and the Reseller shall pay such sums by no later than thirty (30) days from the date of shipment. All payments made to Todos shall be in New Israeli Shekels.",
+        "changed_text": "5.7 Payment for Products. Todos shall invoice the Reseller for all sums due for Products ordered upon shipment of the ordered Products to the Reseller. The Reseller shall pay 50% of such sums within fifteen (15) days from the date of shipment, and the remaining 50% within sixty (60) days from the date of shipment. All payments made to Todos shall be in New Israeli Shekels.",
+        "explanation": "This change introduces a contradiction in the payment terms. Originally, the Reseller had 30 days to pay the full invoice amount. The modified term splits the payment into two installments with differing deadlines (15 days for 50% and 60 days for the remaining 50%). This contradicts the original clause.",
+        "location": "5.7",
+        "contradicted_location": "5.7",
+        "contradicted_text": "5.7 Payment for Products. Todos shall invoice the Reseller for all sums due for Products ordered upon shipment of the ordered Products to the Reseller. The Reseller shall pay 50% of such sums within fifteen (15) days from the date of shipment, and the remaining 50% within sixty (60) days from the date of shipment. All payments made to Todos shall be in New Israeli Shekels.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the Reseller has 30 days to pay the full amount. The changed text modifies this to two installments: 50% within 15 days and the remaining 50% within 60 days. This directly contradicts the original payment term, leading to a clear inconsistency regarding payment deadlines and obligations, as defined in the 'Inconsistencies - In Text Contradiction' definition. The contradicted text is identical to the Changed text, as the change introduced a contradiction that now exists in that section."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "11.1 This Agreement shall be effective as of the Effective Date and shall continue in effect for a period of five (5) years from the Reseller's first purchase order for Product issued to Todos (the \"Initial Term\"), unless terminated earlier by one of the parties in accordance with the terms of this Section 11. Upon completion of the Initial Term, provided that the Reseller has achieved the Annual Milestones, the term of the Agreement shall be automatically renewed for an additional five (5) years. Thereafter, at the end of each renewal term, the Agreement shall renew for an additional two (2) years unless one party provides the other party with prior written notice of non-renewal at least sixty (60) days prior to the expiration of the then-current term.",
+        "changed_text": "11.1 This Agreement shall be effective as of the Effective Date and shall continue in effect for a period of five (5) years from the Effective Date (the \"Initial Term\"), unless terminated earlier by one of the parties in accordance with the terms of this Section 11. Upon completion of the Initial Term, the term of the Agreement shall be automatically renewed for an additional two (2) years regardless of the Annual Milestones. Thereafter, at the end of each renewal term, the Agreement shall renew for an additional five (5) years unless one party provides the other party with prior written notice of non-renewal at least ninety (90) days prior to the expiration of the then-current term.",
+        "explanation": "The perturbation creates contradictions regarding the term and renewal conditions of the agreement. First, the start date of the Initial Term is changed from the 'Reseller's first purchase order' to the 'Effective Date'. This can lead to disputes. Second, the removal of 'provided that the Reseller has achieved the Annual Milestones' for the first renewal means that the contract will renew for the first renewal term even if milestones aren't met, which conflicts with section 2.1. Finally, the notice period for subsequent non-renewal is changed from 60 to 90 days creating a conflict.",
+        "location": "11.1",
+        "contradicted_location": "2.1",
+        "contradicted_text": "2.1 The Reseller's exclusive right to market and sell the Products in the Territory is subject to the Reseller achieving the following milestones by the end of each year this Agreement is in effect (the \"Annual Milestones\"): Year Annual Milestone(s) Year 1 Not Applicable Each Year Thereafter The parties will agree at the beginning of the year on the Annual Milestone for such year",
+        "contradiction_exists": "YES",
+        "justification": "The changed text creates a contradiction with section 2.1. The original text states that renewal after the Initial Term is 'provided that the Reseller has achieved the Annual Milestones'. The changed text removes this condition, stating that the agreement will renew regardless of the Annual Milestones. Section 2.1 explicitly states that the reseller's right to market and sell products is 'subject to the Reseller achieving the following milestones'. Therefore, the change in section 11.1 directly contradicts the condition set in section 2.1, creating a strong in-text contradiction. This is an inconsistency as different sections of a contract provide conflicting obligations."
+      }
+    ]
+  }
+]

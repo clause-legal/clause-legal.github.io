@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "MJBIOTECH,INC_12_06_2018-EX-99.01-JOINT VENTURE AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Capital Contributions Each of the Participants will contribute to the capital of the Joint Venture, in cash or property in agreed upon value. All Participants will contribute their respective Contributions as agreed.",
+        "changed_text": "Capital Contributions Each of the Participants will contribute to the capital of the Joint Venture, in cash or property in agreed upon value. All Participants will contribute their respective Investment as agreed.",
+        "explanation": "The term 'Contributions' has been changed to 'Investment.' This introduces inconsistency because 'Capital Contribution' is a defined term in Section 61(b), whereas 'Investment' is not. This change causes in-text contradiction, particularly in section 11, where 'Capital Contributions' is used as a key factor in profit and loss distribution.",
+        "location": "Section 7",
+        "contradicted_location": "Section 11",
+        "contradicted_text": "Subject to any other provisions of this Agreement, the net profits and losses of the Joint Venture, for both accounting and tax purposes, will accrue to and be borne by the Participants in proportion to the Participants' Capital Contributions inclusive of any Additional Capital Contributions (the \"Profit and Loss Distribution\").",
+        "contradiction_exists": "YES",
+        "justification": "The original text uses 'Contributions', which aligns with the defined term 'Capital Contributions' used in the contradicted text regarding profit and loss distribution. The changed text replaces 'Contributions' with 'Investment', which is not a defined term. Since the contradicted text specifically relies on 'Capital Contributions' to determine profit and loss distribution, the change introduces a contradiction because the agreement now uses an undefined term ('Investment') in a context where a defined term ('Capital Contributions') is essential for calculating profit and loss. This aligns with the Misaligned Terminology definition, creating an in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement may not be amended in whole or in part without the unanimous written consent of all Participants.",
+        "changed_text": "This Agreement may not be amended in whole or in part without the majority written approval of all Stakeholders.",
+        "explanation": "The term 'Participants' is changed to 'Stakeholders.' 'Participants' is a defined term that refers to the original parties of the agreement. Changing it to the undefined 'Stakeholders' creates ambiguity as to who must consent to amendments. This contradicts section 19 which indicates that only admitted new participants that agree to be bound by all the covenants of the agreement.",
+        "location": "Section 59",
+        "contradicted_location": "Section 19",
+        "contradicted_text": "Any new Participant agrees to be bound by all the covenants, terms, and conditions of this Agreement, inclusive of all current and future amendments.",
+        "contradiction_exists": "YES",
+        "justification": "The original text required unanimous consent of 'Participants' to amend the agreement. The changed text alters this to 'majority written approval of all Stakeholders'. 'Participants' is a defined term referring to the original parties, while 'Stakeholders' is undefined, creating ambiguity. This directly contradicts the section stating that new Participants agree to be bound by future amendments, as it's unclear if 'Stakeholders' encompasses only Participants or a broader, undefined group. The change directly impacts who has amendment rights and creates uncertainty and a clear inconsistency."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Any vote required by the Joint Venture will be assessed where each Participant receives one vote carrying equal weight.",
+        "changed_text": "Any vote required by the Joint Venture will be assessed where each JVP receives one vote carrying equal weight.",
+        "explanation": "Changing 'Participant' to 'JVP' (Joint Venture Participants) creates ambiguity. The document defines 'JVP' as referring to MJ Syndicated, Inc. and SIMPLY HERBALS, Nervanah Herbal Medicine Company, but the clause on Admitting a New Participant (Section 24) allows for new participants to be added. This change makes it unclear whether these new participants also receive a vote, causing an in-text contradiction. A new participant may not be considered a JVP since they were not a participant at the execution date of the agreement, hence a contradiction",
+        "location": "Section 44",
+        "contradicted_location": "Section 24",
+        "contradicted_text": "A new Participant may only be admitted to the Joint Venture with a unanimous vote of the existing Participants.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies 'Participant' to 'JVP', which is explicitly defined as MJ Syndicated, Inc. and SIMPLY HERBALS, Nervanah Herbal Medicine Company. The 'Contradicted Text' states that 'A new Participant may only be admitted to the Joint Venture with a unanimous vote of the existing Participants'. Since the changed text limits voting rights to JVPs, while the contradicted text grants existing participants voting rights when new participants are admitted, it creates a direct conflict. A new participant may not be considered a JVP since they were not a participant at the execution date of the agreement, hence a contradiction. This is a clear in-text contradiction because the definition of JVP does not include new participants, and the original text granted voting rights to Participants, not just JVPs. This aligns with the 'Misaligned Terminology' - In Text Contradiction perturbation type as it creates conflicting obligations."
+      }
+    ]
+  }
+]

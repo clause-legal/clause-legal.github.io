@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement2.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Customizations identified hereunder shall be subject to the terms and conditions of that Software License, Customization and Maintenance Agreement referenced above. Bank of America wishes to obtain the Customizations herein defined, and Supplier wishes to delivery those Customizations, on the terms and conditions of the Agreement and this Customization Schedule.",
+        "changed_text": "The Customizations identified hereunder may be subject to the terms and conditions of that Software License, Customization and Maintenance Agreement referenced above. Bank of America wishes to obtain the Customizations herein defined, and Supplier wishes to delivery those Customizations, on the terms and conditions of the Agreement and this Customization Schedule.",
+        "explanation": "Changing 'shall' to 'may' introduces ambiguity. The original text mandates that the Customizations are subject to the terms of the agreement. The modified text makes it optional, potentially conflicting with other sections that assume mandatory compliance. This affects the enforceability of the agreement regarding customizations.",
+        "location": "SCHEDULE B",
+        "contradicted_location": "SCHEDULE B",
+        "contradicted_text": "This Customization Schedule is attached to the Software License, Customization and Maintenance Agreement (the \"Agreement\") executed by and between Bank of America, N.A. (\"Bank of America\") and <<enter Company Name>> (\"Supplier\"). The Customizations identified hereunder may be subject to the terms and conditions of that Software License, Customization and Maintenance Agreement referenced above. Bank of America wishes to obtain the Customizations herein defined, and Supplier wishes to delivery those Customizations, on the terms and conditions of the Agreement and this Customization Schedule.",
+        "contradiction_exists": "YES",
+        "justification": "The original text uses 'shall,' indicating a mandatory condition for the Customizations to be subject to the terms of the Software License, Customization, and Maintenance Agreement. The changed text replaces 'shall' with 'may,' introducing ambiguity as to whether the Customizations are actually subject to those terms. This contradicts the apparent intention of the agreement to bind the Customizations to the specified terms and creates an ambiguity, as the language does not use one term consistently, leading to a conflicting obligation and therefore an in-text contradiction per the definition given."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "If the proposed price Is Increased by Supplier upon delivery to Bank of America of detailed specifications or at any other time hereafter, Bank of America may terminate this Schedule and shall receive a refund of all amounts previously paid hereunder.",
+        "changed_text": "If the proposed price Is Increased by Supplier upon delivery to Bank of America of detailed specifications or at any other time hereafter, Bank of America may consider terminating this Schedule and may negotiate a partial refund of amounts previously paid hereunder.",
+        "explanation": "The original text stated that Bank of America 'may terminate this Schedule and shall receive a refund' if the price increases. The edited text changes this to 'may consider terminating' and 'may negotiate a partial refund'. This introduces uncertainty regarding Bank of America's recourse if the price increases, contradicting the original, more decisive terms. This weakening of the commitment is creating the in-text contradiction.",
+        "location": "SCHEDULE B, Section 4",
+        "contradicted_location": "SCHEDULE B, Section 4",
+        "contradicted_text": "Fees for Customizations: [SPECIFY TIME AND MATERIALS RATES ([Indicate any \"not to exceed\" limit on T&M Customization costs) OR FIXED PRICE] If the proposed price Is Increased by Supplier upon delivery to Bank of America of detailed specifications or at any other time hereafter, Bank of America may consider terminating this Schedule and may negotiate a partial refund of amounts previously paid hereunder.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text replaces the original requirement that Bank of America 'shall receive a refund' with 'may negotiate a partial refund,' creating an ambiguity about whether a full refund is guaranteed. Similarly, the original text stipulated that the Bank 'may terminate,' while the edited text changes this to 'may consider terminating,' which introduces further ambiguity about the Bank's rights. The changed text directly contradicts the implied certainty and definitive nature of the original clause, particularly regarding the refund, thus triggering an in-text contradiction as defined by the 'Ambiguities - In Text Contradiction' type."
+      }
+    ]
+  }
+]

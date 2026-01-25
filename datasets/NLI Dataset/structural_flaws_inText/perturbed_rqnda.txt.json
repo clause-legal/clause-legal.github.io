@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "rqnda.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement constitutes the entire agreement and understanding of the Parties with respect to the subject matter of this Agreement. Any amendment or modification of this Agreement shall be in writing and execut ed by a duly authorized representative of the parties.",
+        "changed_text": "This Agreement constitutes the entire agreement and understanding of the Parties with respect to the subject matter of this Agreement. Any amendment or modification of this Agreement can be done verbally and executed by any representative of the parties.",
+        "explanation": "The original text states that any amendment or modification must be in writing and executed by an authorized representative. The modified version allows verbal amendments and execution by *any* representative, directly contradicting the original requirement. This makes the process of legally changing the agreement uncertain and open to potential disputes. This creates an in-text contradiction in Section 16, where amendment terms are being created.",
+        "location": "16",
+        "contradicted_location": "16",
+        "contradicted_text": "Entire Agreement/No Amendment. This Agreement constitutes the entire agreement and understanding of the Parties with respect to the subject matter of this Agreement. Any amendment or modification of this Agreement can be done verbally and executed by any representative of the parties.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that amendments can be done verbally and executed by any representative, while the contradicted text, which is essentially a copy of the changed text, implies that the agreement can be altered without written documentation or authorized personnel, directly conflicting with the original requirement for written amendments executed by authorized representatives. The changed text therefore contradicts the core premise of the original contract terms, creating a clear in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "All obligations hereunder shall continue for five (5) years from the date of disclosure.",
+        "changed_text": "All obligations hereunder shall continue indefinitely.",
+        "explanation": "The original text explicitly limits the duration of obligations to five years from disclosure. The modification removes that limit, extending the obligations indefinitely. This creates a contradiction regarding the duration of the confidentiality obligations, making it uncertain how long the parties are bound by the agreement. This creates a in-text contradiction in Section 3, creating uncertainty about the term.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Term and Duration. This Agreement will terminate two (2) years from the Effective Date, but may be terminated by either party with no prior notice. All obligations hereunder shall continue indefinitely.",
+        "contradiction_exists": "YES",
+        "justification": "The original text limited the confidentiality obligations to five years, but the changed text extends them indefinitely. The contradicted text states that 'All obligations hereunder shall continue indefinitely.' This creates a direct contradiction, as the termination date is listed as two years from the Effective Date, but the obligation to maintain confidentiality continues indefinitely, causing a strong in-text contradiction in Section 3 because it's uncertain how long the parties are bound by the agreement, satisfying the conditions for 'Structural Flaws - In Text Contradiction'."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Receiving Party shall use the same degree of care as it uses to protect its own confidential information of a similar nature, but no less than reasonable care, to prevent the unauthorized use, dissemination or publication of the Confidential Information.",
+        "changed_text": "The Receiving Party shall use any degree of care as it deems necessary to protect the unauthorized use, dissemination or publication of the Confidential Information.",
+        "explanation": "The original text requires the Receiving Party to use at least reasonable care to protect the Confidential Information. The modified version removes the 'reasonable care' floor, allowing the Receiving Party to use any level of care it deems necessary, even if that care is negligent. This contradicts the intent of protecting confidential information with a reasonable standard. This creates an in-text contradiction in Section 2, where confidentiality is being described.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "Non-Disclosure and Use Restrictions. Any Confidential Information disclosed pursuant to this Agreement shall be retained in confidence by the Receiving Party and used only for the Purpose. Confidential Information may be disclosed only to employees or consultants of the Receiving Party who have a need to know. Notwithstanding the foregoing, if Receiving Party is a firm that provides outsourced or \"third party\" logistics services to companies for part, or sometimes all , of their function, Receiving Party may disclose its rates to clients expressly authorized and eligible to receive such information through a bona fide authentication or registration process maintained by Receiving P arty. Any consultant or client of Receiving Party who receives Confidential Information under this Agreement shall be similarly bound in writing to a nondisclosure agreement no less restrictive than the terms of this Agreement. The Receiving Party shall be responsible for any breach of this Agreement by an employee or consultant of such Receiving Party. The Receiving Party shall use any degree of care as it deems necessary to protect the unauthorized use, dissemination or publication of the Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandated 'no less than reasonable care' for confidential information. The changed text removes this minimum standard, stating the Receiving Party shall use 'any degree of care as it deems necessary.' This directly contradicts the Non-Disclosure and Use Restrictions section which implies a reasonable level of care to maintain confidentiality, especially considering the Receiving Party is responsible for breaches by employees or consultants who receive this Confidential Information. The change allows for potentially negligent or inadequate care, creating a strong in-text contradiction regarding the expected standard of confidentiality and use restrictions."
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "NDA_17.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "“Representative ” means any officer or employee of the Recipient, or any adviser engaged by the Recipient in connection with the Due Diligence and to whom the Recipient is permitted to disclose the Confidential Information under Clause 3.1.",
+        "changed_text": "“Representative ” means any officer or employee of the Recipient.",
+        "explanation": "By removing 'or any adviser engaged by the Recipient in connection with the Due Diligence and to whom the Recipient is permitted to disclose the Confidential Information under Clause 3.1' from the definition of 'Representative', it now contradicts Section 3, 'Disclosure to Representatives'. Section 3 allows disclosure of confidential information to Representatives under specific conditions. By limiting the definition, it's now unclear if advisers are still considered Representatives for the purpose of disclosing Confidential Information under Clause 3.1.",
+        "location": "1.2",
+        "contradicted_location": "3.1",
+        "contradicted_text": "The Recipient may disclose the Confidential Information to its Representatives if: (a) The disclosure is strictly necessary in the course of the Due Diligence; and (b) The Representatives are identified in writing to Room2Rent prior to any such disclosure and Room2Rent consents to the disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined 'Representative' to include advisers engaged by the Recipient, which aligns with the contradicted text that allows disclosure of confidential information to Representatives. The changed text removes advisers from the definition of 'Representative'. This creates a contradiction because the contradicted text allows disclosure to 'Representatives', and if advisers are no longer considered 'Representatives', it's unclear if they can still receive confidential information, thus causing an inconsistency."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "“Trade Secrets ” means any information held by Room2Rent that is or could be used industrially or commercially, is not generally available, has potential economic value, and is the subject of reasonable efforts by Room2Rent to preserve its secrecy .",
+        "changed_text": "“Trade Secrets ” means any information held by Room2Rent that is or could be used industrially or commercially, is not generally available, and has potential economic value.",
+        "explanation": "By removing 'and is the subject of reasonable efforts by Room2Rent to preserve its secrecy' from the definition of 'Trade Secrets', it introduces an in-text contradiction with section 6.2 where 'Trade Secrets' are mentioned. This creates ambiguity, potentially weakening Room2Rent's protection of its Trade Secrets.",
+        "location": "1.2",
+        "contradicted_location": "6.2",
+        "contradicted_text": "Room2Rent reserves all of its rights in law and equity, including in respect of the area s of Confidential Information and T rade Secrets. The Recipient acknowledges that the Confidential Information and Trade Secrets, and any intellectual property rights in the s ame (including copyright, design and patent rights) are the exclusive property of and will remain the exclusive property of Room2Rent .",
+        "contradiction_exists": "YES",
+        "justification": "The original definition of \"Trade Secrets\" included \"and is the subject of reasonable efforts by Room2Rent to preserve its secrecy.\" The changed text removes this clause. The contradicted text states, \"Room2Rent reserves all of its rights in law and equity, including in respect of the area s of Confidential Information and T rade Secrets...are the exclusive property of...Room2Rent.\" By removing the requirement that Room2Rent take \"reasonable efforts\" to preserve secrecy, the changed text weakens Room2Rent's ability to claim something as a trade secret, thus contradicting the contradicted text's assertion of Room2Rent's full rights and exclusive property related to Trade Secrets. This aligns with the 'Inconsistencies - In Text Contradiction' definition because different sections of the contract provide conflicting terms, leading to disputes over contractual obligations and potentially unenforceability of Room2Rent's claim to Trade Secrets."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "2.1 The Recipient will hold all Confidential Infor mation in strict confidence and will not disclose any Confidential Information to any person, ex cept in accordance with the explicit provisions of this Agreement or, in any other case, only on receiving the prior written consent of Room2Rent .",
+        "changed_text": "2.1 The Recipient will hold all Confidential Infor mation in strict confidence and will not disclose any Confidential Information to any person.",
+        "explanation": "By removing 'except in accordance with the explicit provisions of this Agreement or, in any other case, only on receiving the prior written consent of Room2Rent' the new sentence makes it contradictory to section 3.1, as now any disclosure to representatives is a breach of contract.",
+        "location": "2.1",
+        "contradicted_location": "3.1",
+        "contradicted_text": "The Recipient may disclose the Confidential Information to its Representatives if: (a) The disclosure is strictly necessary in the course of the Due Diligence; and (b) The Representatives are identified in writing to Room2Rent prior to any such disclosure and Room2Rent consents to the disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The original text of section 2.1 allowed for disclosure of confidential information under specific circumstances: either as explicitly provided in the agreement or with Room2Rent's prior written consent. The changed text removes these exceptions, creating an absolute prohibition on disclosing confidential information to any person. This directly contradicts the contradicted text, which explicitly allows disclosure of confidential information to representatives under specific conditions (Section 3.1). This creates a clear and direct conflict within the document."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "4.1 The Recipient will, immediately on demand by Room2Rent : (a) Return to Room2Rent all documents, reports, notes, memoranda, computer media and other material, which record, contain or relate in a ny way to Confidential Information (including all copies of the same). (b) Delete all Confidential Information from electronic storage facilities of any type owned or used by the Recipient or its Representatives. (c) Despite anything else in this Agreement , cease to make use of the Confidential Information, or any part of the same for any purpose. and will confirm in writing promptly when it has complied with these obligations.",
+        "changed_text": "4.1 The Recipient will, immediately on demand by Room2Rent : (a) Return to Room2Rent all documents, reports, notes, memoranda, computer media and other material, which record, contain or relate in a ny way to Confidential Information (including all copies of the same). (b) Delete all Confidential Information from electronic storage facilities of any type owned or used by the Recipient or its Representatives. and will confirm in writing promptly when it has complied with these obligations.",
+        "explanation": "By removing '(c) Despite anything else in this Agreement , cease to make use of the Confidential Information, or any part of the same for any purpose.', from Section 4.1 it is now contradictory to Section 2.2 The Recipient shall not make any use of any Confidential Information or any part of the same except as is strictly necessary for the Due Diligence.",
+        "location": "4.1",
+        "contradicted_location": "2.2",
+        "contradicted_text": "The Recipient shall not make any use of any Confidential Information or any part of the same except as is strictly necessary for the Due Diligence.",
+        "contradiction_exists": "YES",
+        "justification": "The original text of Section 4.1 explicitly stated that the recipient must 'cease to make use of the Confidential Information'. The changed text removes this obligation. Section 2.2 states that 'The Recipient shall not make any use of any Confidential Information or any part of the same except as is strictly necessary for the Due Diligence.' By removing the clause in 4.1 that reinforced the restriction on using confidential information, it now contradicts 2.2 because there is no longer a direct confirmation of this restriction within the 4.1, leading to potential ambiguity and conflicting interpretations of obligations."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "7.1 Room2Rent may notify third parties about the existence and contents of this Agreement .",
+        "changed_text": "7.1 Room2Rent must notify third parties about the existence and contents of this Agreement .",
+        "explanation": "The change of 'may' to 'must' in Section 7.1 now creates an in-text contradiction because it is now mandatory for Room2Rent to notify third parties of the NDA. The original text allowed discretion, but now conflicts with the confidentiality clauses in Section 2, which protects the contents of the NDA. Now Room2Rent is forced to breach confidentiality in order to comply with 7.1, also, there are other situations where not doing so would be in their best interest, which now results in a breach.",
+        "location": "7.1",
+        "contradicted_location": "2.1",
+        "contradicted_text": "The Recipient will hold all Confidential Infor mation in strict confidence and will not disclose any Confidential Information to any person, ex cept in accordance with the explicit provisions of this Agreement or, in any other case, only on receiving the prior written consent of Room2Rent .",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'may' to 'must' in Section 7.1 creates a strong in-text contradiction. Section 7.1 now mandates Room2Rent to notify third parties about the agreement, which directly conflicts with the confidentiality clause in the contradicted text. The contradicted text explicitly states that the recipient will hold all confidential information in strict confidence and will not disclose any confidential information to any person, except in accordance with the explicit provisions of the agreement or with prior written consent. This creates a clear inconsistency because Room2Rent is now obligated to potentially breach confidentiality to comply with the new mandatory requirement in Section 7.1, making the contract unenforceable."
+      }
+    ]
+  }
+]

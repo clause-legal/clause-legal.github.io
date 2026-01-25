@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "NDA-No-Reservations-Layer-8-Security.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Upon expiration or termination of this Agreement the Receiving Party's right to use the Disclosing Party’s Confidential Information ceases and the Receiving Party must, upon the Disclosing Party’s request and at the Receiving Party’s expense, promptly return to the Disclosing Party or permanently destroy all of the Disclosing Party’s Confidential Information in its power, possession or control.",
+        "changed_text": "Upon expiration or termination of this Agreement the Receiving Party's right to use the Disclosing Party’s Confidential Information ceases and the Receiving Party must, upon the Disclosing Party’s request and at the Disclosing Party's expense, promptly return to the Disclosing Party or permanently destroy all of the Disclosing Party’s Confidential Information in its power, possession or control.",
+        "explanation": "The modification shifts the cost of returning or destroying confidential information from the Receiving Party to the Disclosing Party. This creates an in-text contradiction, since there is no clear understanding on which party should be responsible for the expenses to be handled when doing the return or destruction of all confidential information.",
+        "location": "6.3",
+        "contradicted_location": "6.3",
+        "contradicted_text": "Upon expiration or termination of this Agreement the Receiving Party's right to use the Disclosing Party’s Confidential Information ceases and the Receiving Party must, upon the Disclosing Party’s request and at the Disclosing Party's expense, promptly return to the Disclosing Party or permanently destroy all of the Disclosing Party’s Confidential Information in its power, possession or control.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies who bears the expense of returning or destroying confidential information, shifting it from the Receiving Party to the Disclosing Party. The contradicted text states the Receiving Party is responsible for the expense. This directly contradicts the changed text, creating an inconsistency about who is responsible for the expenses, therefore this constitutes an in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Notwithstanding Section 6.3, the Receiving Party may retain a reasonable number of copies of the Confidential Information (and any materials embedding the same) (“Retained Copies”) for the sole purpose of (i) satisfying any legal or regulatory requirements regarding record and data retention that the Receiving Party is obligated to comply with; (ii) enforcing this Agreement; and/or (iii) archiving consistent with good business practices and the Receiving Party’s internal policies.",
+        "changed_text": "Notwithstanding Section 6.3, the Receiving Party may retain a reasonable number of copies of the Confidential Information (and any materials embedding the same) (“Retained Copies”) for the sole purpose of (i) satisfying any legal or regulatory requirements regarding record and data retention that the Receiving Party is obligated to comply with; (ii) using the confidential information to develop competing products; and/or (iii) archiving consistent with good business practices and the Receiving Party’s internal policies.",
+        "explanation": "This alteration directly contradicts the core principle of the NDA, which is to protect confidential information. Allowing the Receiving Party to use the information to develop competing products (ii) directly violates the restricted use clause in section 2.1, which limits the use of Confidential Information to the Disclosure Purpose. This creates a significant in-text contradiction and undermines the agreement's purpose.",
+        "location": "6.4",
+        "contradicted_location": "2.1",
+        "contradicted_text": "The Receiving Party must keep Confidential Information under its control, establish and maintain adequate security measures to safeguard Confidential Information and shall treat the Disclosing Party’s Confidential Information with at least the same degree of care as it protects its own confidential and proprietary information of a similar nature but, in any event, with no less than a reasonable degree of care. The Receiving Party shall only use the Confidential Information for the Disclosure Purpose.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a direct contradiction. The original text allowed retaining copies of confidential information for specific purposes like legal requirements, enforcement, and archiving. The changed text adds 'using the confidential information to develop competing products' as a permissible purpose. This directly conflicts with the contradicted text, which states, 'The Receiving Party shall only use the Confidential Information for the Disclosure Purpose.' Using the information to develop competing products is clearly not within the scope of the 'Disclosure Purpose,' creating a strong in-text contradiction and undermining the confidentiality agreement."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Notwithstanding anything else in this Agreement, the Receiving Party’s obligations of confidentiality and restricted use hereunder shall continue in force during the term of this Agreement and shall survive for three (3) years following the expiration or termination of this Agreement or, in the case of trade secrets, until such time as the Confidential Information does not qualify as a trade secret.",
+        "changed_text": "Notwithstanding anything else in this Agreement, the Receiving Party’s obligations of confidentiality and restricted use hereunder shall cease upon the expiration or termination of this Agreement, unless otherwise agreed in writing by both parties.",
+        "explanation": "The initial agreement stated that confidentiality obligations continue for three years after termination. The modification eliminates this survival clause, stating obligations cease upon termination unless otherwise agreed. This directly contradicts the original term, potentially exposing the Disclosing Party's confidential information after the agreement ends and conflicting with 6.3 and 6.4, which refer to retained copies and their continued confidentiality.",
+        "location": "6.5",
+        "contradicted_location": "6.3",
+        "contradicted_text": "Upon expiration or termination of this Agreement the Receiving Party's right to use the Disclosing Party’s Confidential Information ceases and the Receiving Party must, upon the Disclosing Party’s request and at the Disclosing Party's expense, promptly return to the Disclosing Party or permanently destroy all of the Disclosing Party’s Confidential Information in its power, possession or control.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that confidentiality obligations survive for three years, whereas the changed text states that these obligations cease upon termination. The contradicted text states that upon termination, the Receiving Party's right to use the Disclosing Party's Confidential Information ceases and they must return or destroy it. The changed text creates a contradiction with this contradicted text because it implies that the Receiving Party's confidentiality obligations end upon termination, potentially allowing them to disclose confidential information after termination, which is inconsistent with the requirement to return or destroy it and the implied continued confidentiality from 6.3 and 6.4. Therefore, the modified text creates a clear and direct conflict making it a strong in-text contradiction."
+      }
+    ]
+  }
+]

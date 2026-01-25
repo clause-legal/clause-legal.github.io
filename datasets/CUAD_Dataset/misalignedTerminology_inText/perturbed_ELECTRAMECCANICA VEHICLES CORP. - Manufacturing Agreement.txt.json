@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "ELECTRAMECCANICA VEHICLES CORP. - Manufacturing Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "\"Specifications\" means the functional, appearance, fit-and-finish and performance specifications (including\uff0cwithout limitation, bills of materials, schematic diagrams, and Product, component and assembly drawings) relating to the testing and manufacturing of each confirmed Product by both parties as provided in writing by EMV to the Manufacturer from time to time.",
+        "changed_text": "\"Specifications\" means the functional, appearance, fit-and-finish and performance specifications (including\uff0cwithout limitation, bills of materials, schematic diagrams, and Product, component and assembly drawings) relating to the aesthetic design of the Product as confirmed by EMV and provided in writing to the Manufacturer from time to time. Any modifications to these specifications can only be authorized by written consent of EMV's design team.",
+        "explanation": "By limiting the 'Specifications' to only the 'aesthetic design' and the 'EMV design team' while excluding functional or performance related aspects, this creates a contradiction with Section 2.2.1. Section 2.2.1 states the Manufacturer will implement development and manufacturing of the Product only in accordance with the Specifications, but the definition has been narrowed.",
+        "location": "1. DEFINITIONS",
+        "contradicted_location": "2.2.1 Specification",
+        "contradicted_text": "2.2 Specifications 2.2.1 Specification EMV shall provide the Manufacturer with the Specifications of the Product pursuant to the terms of this Agreement, including 2D drawing of the components (including material, surface treatment, quality standard and testing item etc.), 3D drawing (including detailed structure design), and the Manufacturer shall implement development and manufacturing of the Product only in accordance with the Specifications. In addition, EMV shall provide the Manufacturer with the performance testing criteria and items for the vehicle.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text narrows the definition of \"Specifications\" to only include \"aesthetic design\" and to be authorized only by \"EMV's design team.\" The original definition included functional and performance aspects. Section 2.2.1 requires the Manufacturer to develop and manufacture the Product according to the Specifications provided by EMV, including 2D/3D drawings and performance testing criteria. By limiting the Specifications to aesthetic design, the changed text creates a contradiction with Section 2.2.1 because the Manufacturer is now restricted to only following aesthetic specifications, while Section 2.2.1 requires them to follow broader functional and performance-related specifications."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "For the components which are not key components, by its sole discretion, the Manufacturer can determine the vendors list according to the capability of the vendors and warrant the vendors can meet the manufacturing standard of EMV.",
+        "changed_text": "For the components which are not critical components, the Manufacturer can determine the vendors list according to their own standards and at its own discretion. The Vendor assures that components meet their own quality standards and not the manufacturing standard of EMV.",
+        "explanation": "Changing 'key components' to 'critical components', and stating the vendor can determine the vendors list according to 'their own standards', creates a contradiction, because the text originally stated the vendors had to meet the manufacturing standard of EMV. This will contradict the specifications and quality standards of EMV, in Section 2.2.4, because the Manufacturer no longer has to meet standards for non-critical components.",
+        "location": "2.3 Preferred Vendors",
+        "contradicted_location": "2.2.4",
+        "contradicted_text": "2.2.4 Manufacturer warrants to EMV that the Products assembled or manufactured by Manufacturer will (i) conform in all respects to their Specifications; (ii) will be merchantable, of good material and workmanship, with respect to such assembly or manufacture under normal use and service for three (3) years from the manufacture and assembly of the Products, not including the easily worn parts, list to be confirmed by both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. The original text in the contract required the Manufacturer to ensure that the vendors met EMV manufacturing standards, but the change allows vendors to meet 'their own quality standards and not the manufacturing standard of EMV'. This directly contradicts section 2.2.4, which states the Manufacturer warrants that products will 'conform in all respects to their Specifications' and be 'of good material and workmanship'. By allowing vendors to use their own standards, the Manufacturer cannot guarantee adherence to EMV specifications, creating a direct and significant conflict within the contract."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "EMV has the right to examine the goods on arrival and has Fifteen (15) business days to notify Manufacturer of any claim for damages on account of the condition, grade or quality of the goods, or non-conformity to the Specifications. The notice must set forth the basis of the claim in reasonable detail. EMV acknowledges that failure to notify Manufacturer of a claim within specified period in reasonable detail shall constitute acceptance of the goods.",
+        "changed_text": "EMV has the right to examine the goods on arrival and has Fifteen (15) business days to notify Manufacturer of any claim for damages on account of the condition, grade or quality of the goods. EMV acknowledges that failure to notify Manufacturer of a claim within specified period in reasonable detail shall constitute acceptance of the goods.",
+        "explanation": "By omitting 'or non-conformity to the Specifications', from EMV's claim against the manufacturer. This contradicts the original agreement. EMV now only has the right to claim for damages on the condition, grade, or quality of the goods. This changes the ability of EMV to bring the goods to a required quality.",
+        "location": "5.6 Inspection and Claim",
+        "contradicted_location": "2.2.4",
+        "contradicted_text": "2.2.4 Manufacturer warrants to EMV that the Products assembled or manufactured by Manufacturer will (i) conform in all respects to their Specifications; (ii) will be merchantable, of good material and workmanship, with respect to such assembly or manufacture under normal use and service for three (3) years from the manufacture and assembly of the Products, not including the easily worn parts, list to be confirmed by both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes 'or non-conformity to the Specifications' from the types of claims EMV can make. This directly contradicts section 2.2.4, which states that the manufacturer warrants the products will 'conform in all respects to their Specifications.' By limiting EMV's ability to claim for non-conformity, the changed text effectively weakens the manufacturer's warranty as defined in section 2.2.4, creating a contradiction. The initial text allowed EMV to make a claim against the manufacturer for 'the condition, grade or quality of the goods, or non-conformity to the Specifications' while the changed version removes 'or non-conformity to the Specifications'. Because the contradicted text relies on the specifications, this change breaks that connection."
+      }
+    ]
+  }
+]

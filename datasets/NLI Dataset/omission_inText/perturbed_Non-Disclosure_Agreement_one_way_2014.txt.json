@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "Non-Disclosure_Agreement_one_way_2014.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "In the event Chemsultants is requested by applicable law or regulation or by legal process to disclose any Confidential Information or any other information concerning Client, Chemsultants agrees that it will provide Client with prompt notice of such request or requirement in order to enable Client to seek an appropriate protective order or other remedy, to consult with Client with respect to taking steps to resist or narrow the scope of such request or legal process, or to waive compliance, in whole or in part, with the terms of this Agreement. In any such event Chemsultants will use its reasonable best efforts to ensure that all Confidential Information and other information that is so disclosed will be accorded confidential treatment.",
+        "changed_text": "In the event Chemsultants is requested by applicable law or regulation or by legal process to disclose any Confidential Information or any other information concerning Client, Chemsultants agrees that it will provide Client with prompt notice of such request or requirement in order to enable Client to seek an appropriate protective order or other remedy, to consult with Client with respect to taking steps to resist or narrow the scope of such request or legal process, or to waive compliance, in whole or in part, with the terms of this Agreement.",
+        "explanation": "By removing the sentence 'In any such event Chemsultants will use its reasonable best efforts to ensure that all Confidential Information and other information that is so disclosed will be accorded confidential treatment.', there is an internal contradiction of what should happen if Chemsultants is obliged to disclose confidential information, not adding this best effort to ensure the confidential treatment.",
+        "location": "Section 3",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "In the event Chemsultants is requested by applicable law or regulation or by legal process to disclose any Confidential Information or any other information concerning Client, Chemsultants agrees that it will provide Client with prompt notice of such request or requirement in order to enable Client to seek an appropriate protective order or other remedy, to consult with Client with respect to taking steps to resist or narrow the scope of such request or legal process, or to waive compliance, in whole or in part, with the terms of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stipulated that in the event confidential information had to be disclosed due to legal reasons, Chemsultants would use its best efforts to ensure confidential treatment. The changed text omits this 'best efforts' clause. The contradicted text states what would happen in such a scenario, but due to the changed text, it creates an in-text contradiction, as it is no longer clear whether best efforts would be given if the need for disclosure arises. This omission creates a conflict and contradiction according to the definition of 'Omissions – In Text Contradiction'."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Waiver and Severability. It is understood that no failure or delay by either party in exercising any right, power or privilege hereunder shall constitute waiver thereof, nor shall any single or partial exercise of any right, power or privilege hereunder. In the event that any provision or portion of this Agreement is determined to be invalid or unenforceable for any reason, in whole or in part, the remaining provisions of this Agreement shall remain in full force and effect to the fullest extent permitted by applicable law.",
+        "changed_text": "Waiver and Severability. It is understood that no failure or delay by either party in exercising any right, power or privilege hereunder shall constitute waiver thereof, nor shall any single or partial exercise of any right, power or privilege hereunder.",
+        "explanation": "By omitting the severability clause ('In the event that any provision or portion of this Agreement is determined to be invalid or unenforceable for any reason, in whole or in part, the remaining provisions of this Agreement shall remain in full force and effect to the fullest extent permitted by applicable law.'), the agreement now lacks a clear statement regarding the consequences of a provision being deemed unenforceable. Without this, if a part of the agreement is found invalid, the whole agreement could be at risk, which creates ambiguity in the entire agreement enforcement.",
+        "location": "Section 7",
+        "contradicted_location": "Section 7",
+        "contradicted_text": "Waiver and Severability. It is understood that no failure or delay by either party in exercising any right, power or privilege hereunder shall constitute waiver thereof, nor shall any single or partial exercise of any right, power or privilege hereunder.",
+        "contradiction_exists": "YES",
+        "justification": "The original text contained a severability clause, which stated that even if part of the agreement is found invalid, the rest remains in effect. The changed text omits this clause. The contradicted text is the same as the changed text. The omission of the severability clause introduces ambiguity and potential conflict because, without it, the entire agreement could be at risk if a portion is deemed unenforceable. This directly contradicts the principle of the original severability clause, which aimed to preserve the agreement as much as possible, making the agreement potentially unenforceable, fitting the definition of 'Omissions – In Text Contradiction'."
+      }
+    ]
+  }
+]

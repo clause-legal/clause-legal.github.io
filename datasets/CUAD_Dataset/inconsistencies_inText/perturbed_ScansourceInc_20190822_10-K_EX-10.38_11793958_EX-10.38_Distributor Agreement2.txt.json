@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement2.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "YOUR RIGHT TO RETURN AND REFUND EXPIRES 30 DAYS AFTER PURCHASE FROM CISCO OR AN AUTHORIZED CISCO RESELLER, AND APPLIES ONLY IF CUSTOMER IS THE ORIGINAL END USER PURCHASER.",
+        "changed_text": "YOUR RIGHT TO RETURN AND REFUND EXPIRES 60 DAYS AFTER PURCHASE FROM CISCO OR AN AUTHORIZED CISCO RESELLER, AND APPLIES ONLY IF CUSTOMER IS THE ORIGINAL END USER PURCHASER.",
+        "explanation": "Changing the return period from 30 to 60 days introduces an in-text contradiction. The initial paragraph specifies a 60-day return period, but the 'Limited Warranty' section later implies a different timeframe when it references the shipment date and a 90-day warranty period, potentially confusing the customer about the actual return and warranty conditions.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Limited Warranty Section",
+        "contradicted_text": "Limited Warranty Cisco warrants that commencing from the date of shipment to Customer (but in case of resale by an authorized Cisco reseller, commencing not more than ninety (90) days after original shipment by Cisco), and continuing for a period of the longer of (a) ninety (90) days or (b) the software warranty period (if any) set forth in the warranty card accompanying the Product (if any): (a) the media on which the Software is furnished will be free of defects in materials and workmanship under normal use; and (b) the Software substantially conforms to its published specifications.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text extends the return period to 60 days, while the limited warranty section references a 90-day period commencing from the shipment date. This creates an inconsistency regarding the duration within which the customer can return the product versus when the warranty is valid, fitting the definition of 'Inconsistencies - In Text Contradiction' where 'different sections of a contract provide conflicting deadlines' regarding returns."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Customer agrees to comply strictly with all such regulations and acknowledges that it has the responsibility to obtain licenses to export, re-export, or import Software.",
+        "changed_text": "Cisco agrees to assist customer comply with all such regulations and Cisco will handle all licenses to export, re-export, or import Software.",
+        "explanation": "Changing the responsibility for export/import licenses from the customer to Cisco introduces a conflict. This creates an in-text contradiction with the General Terms section, specifically, Disclaimer of Liabilities, as it states, 'IN NO EVENT WILL CISCO OR ITS SUPPLIERS BE LIABLE FOR ANY LOST REVENUE, PROFIT, OR LOST OR DAMAGED DATA, OR FOR SPECIAL, INDIRECT, CONSEQUENTIAL, INCIDENTAL, OR PUNITIVE DAMAGES HOWEVER CAUSED' due to the import/export process.",
+        "location": "Export Section",
+        "contradicted_location": "Disclaimer of Liabilities",
+        "contradicted_text": "DISCLAIMER OF LIABILITIES. IN NO EVENT WILL CISCO OR ITS SUPPLIERS BE LIABLE FOR ANY LOST REVENUE, PROFIT, OR LOST OR DAMAGED DATA, OR FOR SPECIAL, INDIRECT, CONSEQUENTIAL, INCIDENTAL, OR PUNITIVE DAMAGES HOWEVER CAUSED AND REGARDLESS OF THE THEORY OF LIABILITY OR WHETHER ARISING OUT OF THE USE OF OR INABILITY TO USE SOFTWARE OR OTHERWISE AND EVEN IF CISCO OR ITS SUPPLIERS OR LICENSORS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. In no event shall Cisco's or its suppliers' or licensors' liability to Customer, whether in contract, tort (including negligence), or otherwise, exceed the price paid by Customer for the Software that gave rise to the claim or if the Software is part of another Product, the price paid for such other Product.",
+        "contradiction_exists": "YES",
+        "justification": "The original text placed the responsibility for obtaining export/import licenses on the customer. The changed text shifts this responsibility to Cisco. The contradicted text, the Disclaimer of Liabilities, explicitly states that Cisco is not liable for damages, including lost profit, arising from the use or inability to use the software, regardless of the theory of liability. If Cisco is responsible for handling export/import licenses, it assumes a level of responsibility that contradicts the disclaimer, as issues in the export/import process could lead to damages for which Cisco disclaims liability, creating a direct conflict and inconsistency."
+      }
+    ]
+  }
+]

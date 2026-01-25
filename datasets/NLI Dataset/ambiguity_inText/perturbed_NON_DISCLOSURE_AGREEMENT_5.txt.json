@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "NON_DISCLOSURE_AGREEMENT_5.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement shall be effective as of the Effective Date and shall terminate on the delivery of written notice of termination from either Party; provided, however, that the obligations of the Receiving Party under this Agreement shall remain in effect for a period of [__] years from the date of termination.",
+        "changed_text": "This Agreement shall be effective as of the Effective Date and shall terminate immediately upon the delivery of written notice of termination from either Party.",
+        "explanation": "This change eliminates the period during which the obligations of the Receiving Party continue after termination. This directly contradicts the original provision that stated obligations would remain in effect for a specified period after termination. This creates an in-text contradiction where one section allows for obligations to persist post-termination and another states they end immediately upon termination.",
+        "location": "11",
+        "contradicted_location": "11",
+        "contradicted_text": "This Agreement shall be effective as of the Effective Date and shall terminate immediately upon the delivery of written notice of termination from either Party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that the agreement terminates upon delivery of written notice, but obligations of the receiving party remain in effect for a specified period. The changed text removes this grace period, stating that the agreement terminates immediately upon written notice. The contradicted text states: \"This Agreement shall be effective as of the Effective Date and shall terminate immediately upon the delivery of written notice of termination from either Party.\" The Change causes a contradiction because, according to the explanation, it eliminates a period where obligations would persist post-termination. Since the changed text eliminates the obligation of the receiving party to remain in effect, it directly contradicts the original, which allowed for those obligations to persist. This creates a clear in-text contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Partner agrees not to enter into any written or oral agreement that conflicts with the provisions of this Agreement.",
+        "changed_text": "The Partner may enter into agreements that partially overlap with the provisions of this Agreement, so long as they do not directly contradict it.",
+        "explanation": "The original Section 13 prohibits any agreement that conflicts with the NDA's provisions, establishing a strict rule. The change allows for 'partially overlapping' agreements as long as they don't 'directly contradict' the NDA. This allows for agreements that could undermine the purpose of the NDA, creating a contradiction. The phrase, 'partially overlap' undermines the confidentiality aspect of the agreement and can lead to legal implications",
+        "location": "13",
+        "contradicted_location": "13",
+        "contradicted_text": "The Partner may enter into agreements that partially overlap with the provisions of this Agreement, so long as they do not directly contradict it.",
+        "contradiction_exists": "YES",
+        "justification": "The original text strictly prohibits any conflicting agreements. The changed text introduces an exception by allowing 'partially overlapping' agreements that don't 'directly contradict' the NDA. This creates a contradiction because the original text's strict prohibition is undermined by the changed text's allowance for potentially conflicting agreements, especially considering the contradicted text and changed text are exactly the same."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement contains the full and complete understanding of the parties with respect to the subject matter hereof, and supersedes all prior representations and understandings, whether oral or written.",
+        "changed_text": "This Agreement represents a general understanding of the parties, but certain aspects may be subject to further negotiation and written addendums.",
+        "explanation": "This change weakens the integration clause, which originally stated that the Agreement contains the 'full and complete understanding' and supersedes all prior agreements. The modified text suggests the agreement is only a 'general understanding' and that further negotiations and addendums are possible. This directly contradicts the intent of an integration clause, creating ambiguity about what terms are actually binding between the parties.",
+        "location": "17",
+        "contradicted_location": "17",
+        "contradicted_text": "This Agreement represents a general understanding of the parties, but certain aspects may be subject to further negotiation and written addendums.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that the agreement 'represents a general understanding' and that 'further negotiations and addendums are possible'. The contradicted text is identical. This change weakens the original intent of the clause, which was to establish a 'full and complete understanding' and supersede prior agreements. Because it is weakening the agreement, and it can be interpreted that the document can be re-negotiated in the future, there is a contradiction, and it fits the definition of Ambiguities – In Text Contradiction, where key terms or obligations are defined inconsistently."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Receiving Party shall, upon the req uest of the Disclosing Party or upon the termination of this Agreement, return to the Disclosing Party all Confidential Information, including drawings, documents, reports and other tangible manifestations of Confidential Information received by the Receiv ing Party pursuant to this Agreement, together with all copies and reproductions thereof.",
+        "changed_text": "The Receiving Party shall, upon the request of the Disclosing Party return to the Disclosing Party all Confidential Information, including drawings, documents, reports and other tangible manifestations of Confidential Information received by the Receiving Party pursuant to this Agreement, together with all copies and reproductions thereof. However, the Receiving party can destroy the documents if return is not possible.",
+        "explanation": "This change provides the Receiving Party with an additional option to destroy confidential information if its return is not possible. This contrasts with the original text that mandates a return, implying the destruction is not an acceptable alternative. The altered text allows for destruction under certain conditions while also creating ambiguity as to what constitutes impossibility of return, creating a conflict with Section 10 mandating the return upon termination of the agreement.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "The Receiving Party shall, upon the request of the Disclosing Party return to the Disclosing Party all Confidential Information, including drawings, documents, reports and other tangible manifestations of Confidential Information received by the Receiving Party pursuant to this Agreement, together with all copies and reproductions thereof. However, the Receiving party can destroy the documents if return is not possible.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an exception allowing the Receiving Party to destroy confidential information if return is 'not possible.' This directly contradicts the original and contradicted text's requirement for the Receiving Party to return all Confidential Information upon request or termination. The introduction of a destruction option where previously only return was mandated creates a clear conflict and is thus a strong contradiction, in line with the Ambiguities – In Text Contradiction definition."
+      }
+    ]
+  }
+]

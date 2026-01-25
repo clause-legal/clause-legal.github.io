@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "Non-Disclosure%20Agreement%202015.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "that the Recipient shall not disclose Confidential Information to any person other than the Directors, Officers, or Staff Members of the Association, unless he/she has clear instruction from the Executive Director or Board Chairperson to do so, and then shall disclose such information only for the limited purpose for which such instruction is given and no other purpose;",
+        "changed_text": "that the Recipient may disclose Confidential Information to any person, provided that the Recipient believes in good faith that such disclosure is in the best interest of the Association. The Recipient must keep a record of the disclosure, including the reason for it.",
+        "explanation": "The original clause strictly prohibits disclosure of Confidential Information except under specific instructions. The modified clause permits disclosure based on the Recipient's 'good faith' belief, creating a direct contradiction. This undermines the purpose of the NDA, creating an in-text contradiction to (6) and opens the association to potential data breaches, where there aren't any explicit consequences for that behaviour.",
+        "location": "(4)",
+        "contradicted_location": "(6)",
+        "contradicted_text": "(6) that in the event Recipient violates any part of this Confidentiality and Non-Disclosure Agreement, the Association may pursue legal and/or equitable remedies from Recipient;",
+        "contradiction_exists": "YES",
+        "justification": "The original text prohibited disclosure except with explicit instructions, while the changed text permits disclosure based on the Recipient's 'good faith' belief. This directly contradicts clause (6), which allows the Association to pursue legal remedies if the Recipient violates the agreement. The 'good faith' exception undermines the original intention of the NDA and introduces ambiguity, making it difficult to enforce clause (6) since a 'good faith' belief could be used as a defense, therefore creating a strong in-text contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "that continued adherence to this Confidentiality and Non-Disclosure Agreement is an essential term of employment as a Staff Member of the Association and/or an essential part of the Recipient’s roles and responsibilities as a Director or Officer, the violation of which will permit the Association to terminate such employment or terminate such person from his7her position in addition to seeking any other legal or equitable remedies.",
+        "changed_text": "that continued adherence to this Confidentiality and Non-Disclosure Agreement is not an essential term of employment as a Staff Member of the Association and/or an essential part of the Recipient’s roles and responsibilities as a Director or Officer, and the violation of this agreement won't result in the termination of employment or role.",
+        "explanation": "The original clause states that adherence to the NDA is an essential term, violation of which can lead to termination. The modified clause explicitly states the opposite, that adherence to the NDA is *not* an essential term and violations will not result in termination, which creates a clear in-text contradiction of essential terms and any consequences of not adhering to it.",
+        "location": "(8)",
+        "contradicted_location": "(8)",
+        "contradicted_text": "(8) that continued adherence to this Confidentiality and Non-Disclosure Agreement is an essential term of employment as a Staff Member of the Association and/or an essential part of the Recipient’s roles and responsibilities as a Director or Officer, the violation of which will permit the Association to terminate such employment or terminate such person from his7her position in addition to seeking any other legal or equitable remedies.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that adherence to the NDA is essential and violation leads to termination. The changed text explicitly states that adherence is *not* essential and violation will not result in termination. This directly contradicts the contradicted text, which asserts the original condition that adherence is essential and violations have consequences. This creates a clear in-text contradiction as per the definition of 'Ambiguities - In Text Contradiction'."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "that in the event Recipient violates any part of this Confidentiality and Non-Disclosure Agreement, the Association may pursue legal and/or equitable remedies from Recipient;",
+        "changed_text": "that in the event Recipient violates any part of this Confidentiality and Non-Disclosure Agreement, the Association will not pursue legal and/or equitable remedies from Recipient.",
+        "explanation": "The original agreement says in the event of a breach, the Association may pursue remedies. The changed text states that they will NOT pursue remedies, which is a direct in-text contradiction and undermines the entire enforceability of the agreement.",
+        "location": "(6)",
+        "contradicted_location": "(6)",
+        "contradicted_text": "(6) that in the event Recipient violates any part of this Confidentiality and Non-Disclosure Agreement, the Association will not pursue legal and/or equitable remedies from Recipient;",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. The original text allows the Association to pursue legal remedies, while the changed text explicitly states that the Association will not pursue such remedies. The contradicted text repeats the changed text so the result is the same, creating a clear and direct in-text contradiction."
+      }
+    ]
+  }
+]

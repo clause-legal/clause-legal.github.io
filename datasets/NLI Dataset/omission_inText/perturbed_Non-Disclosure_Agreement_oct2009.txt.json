@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "Non-Disclosure_Agreement_oct2009.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "For purposes of this Agreement, “Confidential Information” shall include all information contained in the membership database, such as mem bers’ names, addresses, birthdates, occupations, spouses’ names, email addresses, telephone numbers, etc.",
+        "changed_text": "For purposes of this Agreement, “Confidential Information” shall include some information contained in the membership database.",
+        "explanation": "By changing the definition of \"Confidential Information\" to include \"some information\", it introduces ambiguity. Section 2 states that *all* Confidential Information may be used for conducting the business of the Society. Now, the Receiving Party can argue they only thought some information was confidential, contradicting the intention of complete confidentiality.",
+        "location": "1",
+        "contradicted_location": "2",
+        "contradicted_text": "All Confidential Information contained in the membership database may be used by the Receiving Party exclusively for conducting the business of the Society. Any disclosure of Confidential Information to any person or corporation for any commercial or other purpose not necessary for the conduct of the Society’s business shall be dee med Improper Disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined 'Confidential Information' as *all* information in the membership database. The changed text modifies this to 'some information'. The contradicted text states that *all* Confidential Information may be used. By changing 'all' to 'some', the Receiving Party can argue that they only considered 'some' information as confidential, and thus, the clause stating that *all* Confidential Information may be used contradicts this, creating ambiguity and a strong contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Any disclosure of Confidential Information to any person or corporation for any commercial or other purpose not necessary for the conduct of the Society’s business shall be dee med Improper Disclosure.",
+        "changed_text": "Any disclosure of Confidential Information to any person or corporation shall be deemed Improper Disclosure.",
+        "explanation": "By removing the phrase \"for any commercial or other purpose not necessary for the conduct of the Society’s business\" from the definition of \"Improper Disclosure\", any disclosure becomes improper. However, Section 3 allows Receiving Party to use Confidential Information for the 'sole and exclusive purposes of the Society' contradicting if the business need of the society requires to disclose some information to other parties.",
+        "location": "2",
+        "contradicted_location": "3",
+        "contradicted_text": "Receiving Party shall hold and maintain the Confidential Information in st rictest confidence for the sole and exclusive purposes of the Society. Receiving Party shall not use any Confidential Information for their own benefit or permit the use of Confidential Information by others for their benefit or to the detriment of the Society or its good name. Upon termination of membership, Receiving Party will immediately return to the Society all records, notes and other written, printed or tangible materi al in its possession, including CDs and DVDs pertaining to Confidential In formation. Confidential Information stored electronically in computers or any other electronic devices will be deleted upon membership termination.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text broadens the definition of \"Improper Disclosure\" by removing the condition that the disclosure must be \"not necessary for the conduct of the Society’s business\". The contradicted text states that the \"Receiving Party shall hold and maintain the Confidential Information in strictest confidence for the sole and exclusive purposes of the Society.\" The modified definition of \"Improper Disclosure\" now directly contradicts this, as any disclosure, even if necessary for the Society's purposes, would now be considered improper, thus creating a direct conflict."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Receiving Party shall not use any Confidential Information for their own benefit or permit the use of Confidential Information by others for their benefit or to the detriment of the Society or its good name.",
+        "changed_text": "Receiving Party shall not use any Confidential Information for their own benefit.",
+        "explanation": "By omitting the phrase \"or permit the use of Confidential Information by others for their benefit or to the detriment of the Society or its good name\", the Receiving Party is now only prohibited from using the information for *their* benefit. It opens the door for them to argue that allowing others to use it, even if it harms the Society, is not a violation. This contradicts the fundamental purpose of the NDA.",
+        "location": "3",
+        "contradicted_location": "2",
+        "contradicted_text": "All Confidential Information contained in the membership database may be used by the Receiving Party exclusively for conducting the business of the Society. Any disclosure of Confidential Information to any person or corporation shall be deemed Improper Disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The original text prevented the Receiving Party from using confidential information for their own benefit or allowing others to use it for their benefit or to the detriment of the Society. The changed text removes the restriction on allowing others to use the information, even if it harms the Society. The contradicted text states that any disclosure to any person is considered Improper Disclosure and must be used exclusively for the business of the society, which directly contradicts the changed text, as it would allow the Receiving Party to allow others to use the information, creating a contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Upon termination of membership, Receiving Party will immediately return to the Society all records, notes and other written, printed or tangible materi al in its possession, including CDs and DVDs pertaining to Confidential In formation. Confidential Information stored electronically in computers or any other electronic devices will be deleted upon membership termination.",
+        "changed_text": "Upon termination of membership, Receiving Party will return to the Society all records in its possession. Confidential Information stored electronically in computers will be deleted upon membership termination.",
+        "explanation": "By removing \"notes and other written, printed or tangible materi al in its possession, including CDs and DVDs pertaining to Confidential Information\", the Receiving Party is not obligated to return media containing the confidential information, such as hard drives. This contradicts the overall goal of ensuring confidentiality even after membership termination.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Receiving Party shall hold and maintain the Confidential Information in st rictest confidence for the sole and exclusive purposes of the Society. Receiving Party shall not use any Confidential Information for their own benefit. Upon termination of membership, Receiving Party will return to the Society all records in its possession. Confidential Information stored electronically in computers will be deleted upon membership termination.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the requirement to return 'notes and other written, printed or tangible materi al in its possession, including CDs and DVDs pertaining to Confidential Information'. This creates a contradiction because the contradicted text states 'Receiving Party shall hold and maintain the Confidential Information in st rictest confidence' and 'Upon termination of membership, Receiving Party will return to the Society all records in its possession'. By removing the obligation to return tangible materials containing confidential information, the receiving party could retain confidential information after termination, which contradicts the intent of maintaining strict confidence and returning all records."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The nondisclosure provision of this Agreement shall survive the termination of this Agreement and Receiving Party’s duty to hold Confidential Information in confidence shall remain in effect indefinitely.",
+        "changed_text": "The nondisclosure provision of this Agreement shall survive the termination of this Agreement.",
+        "explanation": "By removing \"and Receiving Party’s duty to hold Confidential Information in confidence shall remain in effect indefinitely\", the period of nondisclosure is no longer clearly defined. This creates an in-text contradiction, with the contract lacking clarity on whether confidentiality extends beyond the agreement's duration, which is not stated.",
+        "location": "4",
+        "contradicted_location": "3",
+        "contradicted_text": "Receiving Party shall hold and maintain the Confidential Information in st rictest confidence for the sole and exclusive purposes of the Society. Receiving Party shall not use any Confidential Information for their own benefit. Upon termination of membership, Receiving Party will return to the Society all records in its possession. Confidential Information stored electronically in computers will be deleted upon membership termination.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly states the nondisclosure provision remains in effect 'indefinitely'. The changed text removes this indefinite duration, creating ambiguity. The contradicted text requires the Receiving Party to hold Confidential Information in strictest confidence and return or delete it upon termination of membership. The original text makes it clear that the nondisclosure and confidence requirements survive termination indefinitely. However, the changed text's omission creates a contradiction because it no longer clearly defines whether confidentiality extends beyond membership termination, potentially conflicting with the ongoing obligations outlined in the contradicted text."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "If proven Improper Disclosure sha ll take place, the Receiving Party’s membership in the Society shall be terminated immediately. Depending on circumstances, there may also be recourse to the courts and criminal or civil action, or both, may be initiated by the Society or by injured parties.",
+        "changed_text": "If Improper Disclosure sha ll take place, the Receiving Party’s membership in the Society shall be terminated. Depending on circumstances, there may also be recourse to the courts and criminal or civil action, or both, may be initiated by the Society or by injured parties.",
+        "explanation": "By removing \"proven\", the contract now dictates that termination occurs upon any instance of 'Improper Disclosure', irrespective of whether it is substantiated or accidental. Given the vague redefinition in Section 1 and the broadened scope of Improper Disclosure in Section 2, this creates a contradiction. Now, if an unsubstantiated accusation occurs, termination is triggered contradicting previous clauses.",
+        "location": "5",
+        "contradicted_location": "2",
+        "contradicted_text": "Any disclosure of Confidential Information to any person or corporation shall be deemed Improper Disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The removal of 'proven' from the original text introduces a contradiction with the 'Contradicted Text'. The original text required improper disclosure to be 'proven' before termination, implying a due process or validation step. The changed text eliminates this requirement, meaning that 'any disclosure' as stated in the 'Contradicted Text' now automatically triggers termination, even if unsubstantiated. This creates a direct conflict, as termination can now occur based solely on accusation, regardless of its validity or accidental nature, contravening the implicit safeguard in the original text. This aligns with the 'Omissions - In Text Contradiction' definition, as essential language was removed creating a contradiction with constraints stated in other sections."
+      }
+    ]
+  }
+]

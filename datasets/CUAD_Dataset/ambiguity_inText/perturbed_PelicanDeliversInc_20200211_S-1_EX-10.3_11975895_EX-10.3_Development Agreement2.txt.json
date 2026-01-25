@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Client shall conduct all Acceptance Tests in good faith and shall not delay any acceptance of any Service or Deliverable without reasonable justification. The evaluation of any Service or Deliverable for any Acceptance Test will be based on material compliance with applicable Specifications and Client shall not arbitrarily withhold acceptance of any Milestone Deliverable or Subject Program.",
+        "changed_text": "Client shall conduct all Acceptance Tests in good faith and may delay acceptance of any Service or Deliverable with what it deems to be reasonable justification. The evaluation of any Service or Deliverable for any Acceptance Test will be based on material compliance with applicable Specifications and Client shall not arbitrarily withhold acceptance of any Milestone Deliverable or Subject Program.",
+        "explanation": "Changing 'shall not delay' to 'may delay' introduces uncertainty in the acceptance process. The original sentence establishes a clear obligation on the Client to not delay acceptance without reasonable justification. The modified version grants the Client discretion to delay acceptance based on their own determination of reasonableness. This contradicts the subsequent sentence stating that acceptance shall not be 'arbitrarily withhold acceptance', given the new condition now the client can arbitrarily withold, leading to in-text contradiction.",
+        "location": "3.8",
+        "contradicted_location": "3.8",
+        "contradicted_text": "Client shall conduct all Acceptance Tests in good faith and may delay acceptance of any Service or Deliverable with what it deems to be reasonable justification. The evaluation of any Service or Deliverable for any Acceptance Test will be based on material compliance with applicable Specifications and Client shall not arbitrarily withhold acceptance of any Milestone Deliverable or Subject Program.",
+        "contradiction_exists": "YES",
+        "justification": "The original text established a clear obligation for the Client not to delay acceptance without reasonable justification. The changed text introduces ambiguity by allowing the Client to delay acceptance based on their own determination of reasonableness, contradicting the sentence stating that acceptance shall not be 'arbitrarily withheld'. This aligns with the definition of 'Ambiguities – In Text Contradiction' because the term 'reasonable justification' is now subject to interpretation, leading to conflicting obligations as the client now has the discretion to delay with what it deems reasonable, creating a conflict with not being able to arbitrarilly withhold acceptance."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement may be immediately terminated by notice of the terminating Party upon: (a) the other Party's material breach of this Agreement and fails to cure such default within ten (10) calendar days after receipt of a notice of default from the terminating Party",
+        "changed_text": "This Agreement may be immediately terminated by notice of the terminating Party upon: (a) the other Party's material breach of this Agreement and fails to cure such default within a commercially reasonable time after receipt of a notice of default from the terminating Party",
+        "explanation": "Changing 'ten (10) calendar days' to 'a commercially reasonable time' introduces ambiguity regarding the cure period for a material breach. This creates a conflict because the contract initially provides a clear timeframe, but the modified version makes it subjective and dependent on what is considered 'commercially reasonable.' Previously was specifically defined, which the in-text contradiction with the new perturbation is now failing to comply with the previous definition.",
+        "location": "11.2",
+        "contradicted_location": "11.2",
+        "contradicted_text": "This Agreement may be immediately terminated by notice of the terminating Party upon: (a) the other Party's material breach of this Agreement and fails to cure such default within a commercially reasonable time after receipt of a notice of default from the terminating Party; (b) if Client fails to pay to Developer any undisputed Fees when du and fails to cure any such breach within ten (10) calendar days after receiving notice from Developer of such failure; (c) misappropriation or unauthorized disclosure of Confidential Information by the Receiving Party; or (d) the other Party engages in any act or omission that is determined to be illegal or in violation of any applicable law or regulation.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified a 'ten (10) calendar days' cure period for a material breach. The modified text changes this to 'a commercially reasonable time'. This creates a direct contradiction because the original text provides a definite timeframe, while the altered text introduces a subjective and potentially conflicting standard. The contradicted text, repeats the 'commercially reasonable time' for a cure period, while previously in the contract 'ten (10) calendar days' was a fixed term. This creates a conflict because the contract initially provides a clear timeframe, but the modified version makes it subjective and dependent on what is considered 'commercially reasonable', hence creating a strong in-text contradiction. This aligns with the definition of Ambiguities - In Text Contradiction."
+      }
+    ]
+  }
+]

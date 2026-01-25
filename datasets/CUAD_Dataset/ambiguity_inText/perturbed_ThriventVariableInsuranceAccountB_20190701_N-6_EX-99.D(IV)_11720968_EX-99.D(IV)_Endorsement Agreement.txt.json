@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "ThriventVariableInsuranceAccountB_20190701_N-6_EX-99.D(IV)_11720968_EX-99.D(IV)_Endorsement Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Service Center. Where this contract is administered. Our Service Center address is 4321 North Ballard Road, Appleton, WI 54919-0001.",
+        "changed_text": "Service Center. *Generally* where this contract is administered. Our Service Center address *is currently* 4321 North Ballard Road, Appleton, WI 54919-0001. *However, this address may be subject to change.*",
+        "explanation": "The original definition implies a fixed location for the service center. The changed text introduces uncertainty by stating 'Generally' and 'is currently', adding 'However, this address may be subject to change.' This contradicts the idea of a fixed and reliable service center for administrative purposes. While the change to the Service Center definition was made in the definition section, it's implications will contradict 'You may direct inquiries to: Thrivent Financial for Lutherans 4321 N. Ballard Road Appleton, WI 54919-0001 (800) 847-4836'.",
+        "location": "DEFINITIONS section",
+        "contradicted_location": "Start of Document",
+        "contradicted_text": "You may direct inquiries to: Thrivent Financial for Lutherans 4321 N. Ballard Road Appleton, WI 54919-0001 (800) 847-4836",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces uncertainty about the service center's location by adding qualifiers like 'Generally' and 'is currently', and explicitly stating 'However, this address may be subject to change.' This directly contradicts the contradicted text, which provides a specific and seemingly permanent address for inquiries. The original text implied a fixed location, whereas the changed text makes the address unreliable. The contradiction is that you can't direct inquiries to a specific address if that address may change."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Entire Contract consists of: 1) This contract including any attached riders, amendments, or endorsements; 2) The Application attached to this contract; and 3) The Articles of Incorporation and Bylaws of the Society and all amendments to them.",
+        "changed_text": "The Entire Contract *primarily* consists of: 1) This contract including any attached riders, amendments, or endorsements; 2) The Application attached to this contract; and 3) The Articles of Incorporation and Bylaws of the Society and all amendments to them. *Other documents or communications may also be relevant to the interpretation of this contract.*",
+        "explanation": "The original text defines the 'Entire Contract' with a specific list of documents. The changed text uses 'primarily' and adds 'Other documents or communications may also be relevant to the interpretation of this contract.' This directly contradicts the initial definition, suggesting that documents outside the listed items can be considered part of the contract, creating ambiguity about what truly constitutes the entire agreement. The first point in the text 'This contract including any attached riders, amendments, or endorsements' is contradicted due to the new perturbation.",
+        "location": "ENTIRE CONTRACT section",
+        "contradicted_location": "ENTIRE CONTRACT section",
+        "contradicted_text": "The Entire Contract *primarily* consists of: 1) This contract including any attached riders, amendments, or endorsements; 2) The Application attached to this contract; and 3) The Articles of Incorporation and Bylaws of the Society and all amendments to them. *Other documents or communications may also be relevant to the interpretation of this contract.*",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the definition of 'Entire Contract' by adding 'primarily' and stating 'Other documents or communications may also be relevant to the interpretation of this contract'. This contradicts the original definition and introduces ambiguity about what constitutes the entire agreement, creating a conflict with the intention of defining all included documents. This aligns with the 'Ambiguities – In Text Contradiction' definition, since it makes key terms/scope defined inconsistently."
+      }
+    ]
+  }
+]

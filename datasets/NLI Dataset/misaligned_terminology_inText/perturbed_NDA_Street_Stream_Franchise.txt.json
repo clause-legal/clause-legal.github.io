@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "NDA_Street_Stream_Franchise.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Use means receive, store, transmit, access, read, analyse, disclose, share, print, copy, reproduce, extract, modify, adapt, incorporate, exploit or use Confidential Information in whole or in part in any manner whatsoever.",
+        "changed_text": "Use means receive, store, transmit, access, read, analyse, hide, share, print, copy, reproduce, extract, modify, adapt, incorporate, exploit or use Confidential Information in whole or in part in any manner whatsoever.",
+        "explanation": "By changing 'disclose' to 'hide', there's a contradiction in how the recipient should treat confidential information. Initially, the recipient could disclose, but now they must 'hide', creating ambiguity.",
+        "location": "1.1",
+        "contradicted_location": "3.1",
+        "contradicted_text": "The Recipient may disclose any of the Confidential Information to any of its Authorised Persons, provided that it informs them beforehand of the duties of confidence under this Agreement, ensures that they undertake to the Recipient to comply with the same duties of confidence, keeps a written account of each of the disclosures, advises the Disclosers immediately it becomes aware of any breach by an Authorised Person, and gives upon any request by the Disclosers evidence of compliance with this clause.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined 'Use' as including 'disclose', which is directly contradicted by the changed text defining 'Use' as including 'hide'. This creates a clear contradiction because the contradicted text explicitly allows the recipient to disclose Confidential Information to Authorised Persons. The change from 'disclose' to 'hide' makes it impossible for the recipient to comply with both sections of the contract, leading to a direct contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "2.1.2 not Use any Confidential Information in any way except to the extent reasonably necessary for the Purpose, and not Use or benefit from any Confidential Information to procure any commercial advantage over the Disclosers; and",
+        "changed_text": "2.1.2 not Use any Confidential Information in any way except to the extent reasonably necessary for the Purpose, and not Use or benefit from any Confidential Information to procure any commercial advantage over the Recipient; and",
+        "explanation": "Changing 'Disclosers' to 'Recipient' in this clause now restricts the Recipient from gaining a commercial advantage over itself, which is illogical. It also contradicts the purpose of the franchise agreement, where some level of commercial benefit to the Recipient is implied.",
+        "location": "2.1",
+        "contradicted_location": "BACKGROUND",
+        "contradicted_text": "BACKGROUND A The parties intend to execute this agreement as a deed. B The Disclosers wish to disclose Confidential Information to the Recipient in relation to the Purpose and to: (i) Franchise agreement",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Disclosers' to 'Recipient' in clause 2.1.2 creates an in-text contradiction because it prevents the Recipient from gaining a commercial advantage over itself. This is illogical and conflicts with the fundamental purpose of the franchise agreement, where the Recipient is expected to benefit commercially, as indicated by Background B (i) which specifies 'Franchise agreement'. The original text allowed the Recipient to gain an advantage over the Disclosers, but the changed text prevents any advantage, even over itself, creating a contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Recipient recognises that any breach or threatened breach of this Agreement may cause the Disclosers irreparable harm for which damages may not be an adequate remedy. Accordingly, in addition to any other remedies and damages available to the Disclosers, the Recipient acknowledges and agrees that the Disclosers is entitled to the remedies of specific performance, injunction and other equitable relief without proof of special damages.",
+        "changed_text": "The Recipient recognises that any breach or threatened breach of this Agreement may cause the Recipient irreparable harm for which damages may not be an adequate remedy. Accordingly, in addition to any other remedies and damages available to the Disclosers, the Recipient acknowledges and agrees that the Disclosers is entitled to the remedies of specific performance, injunction and other equitable relief without proof of special damages.",
+        "explanation": "The Recipient recognizing that a breach of agreement may cause the *Recipient* irreparable harm creates a contradiction, given the document is designed to protect the *Discloser*. This misplaces the potential harm and makes the subsequent granting of remedies to the Discloser less logical.",
+        "location": "7",
+        "contradicted_location": "6",
+        "contradicted_text": "The Recipient shall indemnify the Disclosers from and against all and any losses, damages (including any consequential, direct, indirect, special, incidental or punitive damages or loss or any other form of economic loss), liability, costs (including legal fees), expenses, claims (including any settlements of claims before or after issue of proceedings), actions, proceedings, judgment sums (including sums arising from consent orders or judgments) fines and penalties, however arising out of, or in connection with, the breach of this Agreement or the unauthorised disclosure or Use of any of the Confidential Information by the Recipient or by any of its Authorised Persons.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that a breach by the Recipient may cause the Discloser irreparable harm. The changed text incorrectly states that a breach may cause the *Recipient* irreparable harm. This directly contradicts the contradicted text, which states that the Recipient shall indemnify the Disclosers for losses, damages, etc., arising from a breach by the Recipient. By suggesting the Recipient is harmed by their own breach, it undermines the Discloser's right to indemnification, creating a strong in-text contradiction because it implies the Discloser isn't harmed."
+      }
+    ]
+  }
+]

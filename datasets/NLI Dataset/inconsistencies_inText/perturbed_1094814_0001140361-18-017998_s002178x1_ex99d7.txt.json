@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "1094814_0001140361-18-017998_s002178x1_ex99d7.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement will terminate on the first anniversary of the date hereof.",
+        "changed_text": "This Agreement will terminate on the second anniversary of the date hereof.",
+        "explanation": "The modification contradicts the termination date initially set, creating confusion about the actual duration of the confidentiality obligations. It leads to an uncertainty of when the agreement is actually suppose to end, the first or second anniversay.",
+        "location": "14",
+        "contradicted_location": "14",
+        "contradicted_text": "This Agreement will terminate on the second anniversary of the date hereof.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the termination date from the first anniversary to the second anniversary. The contradicted text states the agreement will terminate on the second anniversary. The original text stated the first anniversary. The perturbation explanation notes this creates a contradiction because it is not clear whether the agreement ends on the first or second anniversary. This creates a direct conflict as described in the definition of inconsistencies, which is when different sections of the contract provide conflicting deadlines."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement may not be assigned by either party without the prior written consent of the other party.",
+        "changed_text": "This Agreement may be assigned by either party with notification, but without prior written consent of the other party.",
+        "explanation": "By modifying the terms of assignment, we create an in-text contradiction about whether assignment requires consent. This change introduces uncertainty in enforceability, especially if one party assigns the agreement without the other's consent, claiming notification was sufficient.",
+        "location": "17",
+        "contradicted_location": "17",
+        "contradicted_text": "This Agreement may be assigned by either party with notification, but without prior written consent of the other party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the agreement may not be assigned without prior written consent, while the changed text states that it may be assigned with notification but without prior written consent. This is a direct contradiction regarding the requirement of prior written consent for assignment. The contradicted text is the same as the changed text, confirming the modification creates an in-text contradiction about the conditions for assignment, therefore it is a \"YES\"."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The Recipient will keep, and will cause its Representatives to keep, the Confidential Information of the Disclosing Party confidential.",
+        "changed_text": "The Recipient will keep, and will cause its Representatives to keep, the Confidential Information of the Disclosing Party non-confidential.",
+        "explanation": "This modification directly contradicts the fundamental purpose of the agreement, which is to maintain the confidentiality of information. The change means the Recipient is to keep the confidential information, non-confidential.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "The Recipient will keep, and will cause its Representatives to keep, the Confidential Information of the Disclosing Party non-confidential. The Recipient will not disclose the Confidential Information or use or permit the Confidential Information to be disclosed or used, to or by any person except Recipient’s Representatives, in each case, who agree to be bound by the terms of this Agreement. In any such case Confidential Information will be disclosed only to those Representatives with a need to know the Confidential Information for the purpose of the Proposed Transaction, and (iv) only so much of the Confidential Information as is necessary for a particular individual to perform his or her function will be disclosed to that individual. Under no circumstances shall the Recipient or its Representatives use the Disclosing Party’s Confidential Information in any manner or for any purpose other than evaluating and negotiating the Proposed Transaction. In any event, the Recipient will be responsible for any breach of this Agreement by its Representatives.",
+        "contradiction_exists": "YES",
+        "justification": "The Changed Text directly contradicts the core principle of confidentiality, stating that confidential information should be kept 'non-confidential'. The Contradicted Text emphasizes the Recipient's obligation to keep the Disclosing Party's Confidential Information confidential. Making the information explicitly 'non-confidential' undermines the entire agreement and conflicts with the Recipient's obligation not to disclose or misuse the Confidential Information."
+      }
+    ]
+  }
+]

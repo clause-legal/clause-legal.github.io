@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "MUTUAL-CONFIDENTIAL-NON-DISCLOSURE.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Recipient shall for a period of [NUMBER] (*) years from the date of this Agreement keep in str ict confidence and not disclose to any third party any Confidential Information received from Provider prior to and during the term of this Agreement.",
+        "changed_text": "Recipient shall keep in str ict confidence and not disclose to any third party any Confidential Information received from Provider prior to and during the term of this Agreement.",
+        "explanation": "By removing the time period for confidentiality, the text now lacks a specific duration for the obligation. This contradicts the implied expectation that the confidentiality has a defined end, creating uncertainty and unenforceability. Other sections reference this obligation, therefore there is an in-text contradiction.",
+        "location": "3",
+        "contradicted_location": "6",
+        "contradicted_text": "This Agreement is effective as of the date first above written and shall remain in full force and effect until [DATE] (*), unless terminated earlier by either Party. Either Party may terminate this Agreement for any reason upon sixty (60) days written notice to the other Party. The rights and obligations of the Parties under paragraphs 3 and 4 of this Agreement shal l continue beyond termination.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified a [NUMBER] year confidentiality period. The changed text removes this time period, resulting in an indefinite confidentiality obligation. This contradicts the contradicted text which states that the agreement remains in effect until a specific [DATE] unless terminated, implying a finite duration and creating uncertainty regarding the confidentiality obligation's end date. The contradiction arises because one clause implies a limited duration for the entire agreement while the altered confidentiality clause suggests potentially perpetual confidentiality, thereby creating an in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Confidential Information is disclo sed by the Parties without any express or implied representation or warranty as to the accuracy or the completeness thereof. The Parties explicitly disclaim any liability relating to the information, errors or omissions thereform.",
+        "changed_text": "The Confidential Information is disclosed by the Parties without any express or implied representation or warranty as to the accuracy or the completeness thereof.",
+        "explanation": "By omitting the disclaimer of liability for errors or omissions, there is now an implied warranty of accuracy and completeness. This creates an in-text contradiction because parties are providing confidential info, but are now liable for errors. This creates an implied warranty, opening the door to potential legal issues if the information contains inaccuracies or is incomplete. ",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "The Confidential Information is disclosed by the Parties without any express or implied representation or warranty as to the accuracy or the completeness thereof.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly disclaims liability for errors or omissions in the confidential information. The changed text omits this disclaimer, which implies an acceptance of liability for such errors or omissions. This directly contradicts the contradicted text (which is the original text itself, demonstrating that the change creates a conflict with the original intention of the clause), creating a strong in-text contradiction as per the 'Omissions - In Text Contradiction' definition, because an essential language was removed creating a contradiction with constraints stated in other sections."
+      }
+    ]
+  }
+]

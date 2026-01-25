@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "1043431_0000950133-00-000090_document_15.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Information shall be treated as confidential and safeguarded hereunder by the Receiving Party for a period of two (2) years.",
+        "changed_text": "The Information shall be treated as confidential and safeguarded hereunder by the Receiving Party for a period of one (1) year, unless otherwise agreed upon in writing by both parties.",
+        "explanation": "This change alters the duration for which 'Information' is considered confidential, introducing a potential contradiction. The original agreement stipulates a fixed two-year period. The modified text reduces this to one year, but adds a clause allowing for written agreement to extend the period, which creates uncertainity and relies on the agreement of both parties. This contradicts with section 12 where 'This Agreement shall terminate two (2) years from the date first written above.'",
+        "location": "5",
+        "contradicted_location": "12",
+        "contradicted_text": "This Agreement shall terminate two (2) years from the date first written above. Any amendment of this Agreement must be in writing and signed by authorized officials of each Party. No failure or delay in exercising any right under this Agreement shall operate as a waiver thereof.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the confidentiality period from a fixed two years to one year, while also introducing a clause that allows for written agreements to alter this period. This directly contradicts the 'Contradicted Text' which states that 'This Agreement shall terminate two (2) years from the date first written above.' The changed text introduces uncertainty and relies on the agreement of both parties to extend the period, creating a direct conflict with the original agreement's fixed two-year term and the termination clause."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Notwithstanding the above, nothing hereunder shall prevent the Receiving Party from disclosing Information which it is required to disclose by court order or pursuant to the rules and regulations of a governmental agency or body, in either case having jurisdiction over the Receiving Party, to the extent so required by such court order or the published rules and regulations of such governmental authority; provided, however, that prior to any such disclosure the Receiving Party shall (i) notify the Disclosing Party promptly in writing of any order or request to disclose and of the facts and circumstances surrounding such order or request so that the Disclosure Party may seek an appropriate protective order and (ii) cooperate with the Disclosing Party in any proceeding to obtain an appropriate protective order.",
+        "changed_text": "Notwithstanding the above, nothing hereunder shall prevent the Receiving Party from disclosing Information which it is required to disclose by court order or pursuant to the rules and regulations of a governmental agency or body, in either case having jurisdiction over the Receiving Party, to the extent so required by such court order or the published rules and regulations of such governmental authority; provided, however, that prior to any such disclosure the Receiving Party *may* notify the Disclosing Party promptly in writing of any order or request to disclose.",
+        "explanation": "The change from 'shall' to 'may' in the notification clause significantly weakens the obligation of the Receiving Party to inform the Disclosing Party about required disclosures. This creates an internal contradiction within the contract: while the contract aims to protect confidential information, this alteration permits the Receiving Party to disclose information without necessarily informing the Disclosing Party, hindering their ability to seek protective measures. This is an In-Text contradiction with section 3, 'Information of the Disclosing Party shall remain the property of the Disclosing Party.'",
+        "location": "6",
+        "contradicted_location": "3",
+        "contradicted_text": "Information of the Disclosing Party shall remain the property of the Disclosing Party. The Receiving Party agrees to protect the Information of the Disclosing Party against unauthorized disclosure and warrants that it applies reasonable safeguards against the unauthorized disclosure Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandated that the Receiving Party 'shall' notify the Disclosing Party of any required disclosures, allowing the Disclosing Party to seek a protective order. The changed text weakens this obligation to 'may' notify, which contradicts the section stating that 'Information of the Disclosing Party shall remain the property of the Disclosing Party' and the Receiving Party 'agrees to protect the Information of the Disclosing Party against unauthorized disclosure'. By changing 'shall' to 'may', the Receiving Party is no longer strictly obligated to inform the Disclosing Party, hindering the Disclosing Party's ability to protect its information as guaranteed in the contradicted text. This creates a direct conflict and constitutes a strong in-text contradiction as defined in the provided explanation."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "At the Disclosing Party's request, all Information of the Disclosing Party in tangible form, or any copies thereof, that is in the possession of the Receiving Party shall be returned to the Disclosing Party or destroyed.",
+        "changed_text": "At the Disclosing Party's request, all Information of the Disclosing Party in tangible form that is in the possession of the Receiving Party may be returned to the Disclosing Party or destroyed, at the Receiving Party's discretion.",
+        "explanation": "This change removes the mandatory requirement for the Receiving Party to return or destroy the Disclosing Party's 'Information'. The original clause states 'shall be returned or destroyed,' making it an obligation. The modified clause states 'may be returned or destroyed, at the Receiving Party's discretion,' giving the Receiving Party the option to retain the information. This weakening of the obligation is creating an In-Text contradiction with section 5 where 'The Information shall be treated as confidential and safeguarded hereunder by the Receiving Party for a period of two (2) years.'",
+        "location": "10",
+        "contradicted_location": "5",
+        "contradicted_text": "The Information shall be treated as confidential and safeguarded hereunder by the Receiving Party for a period of two (2) years.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates the return or destruction of the Disclosing Party's information ('shall be returned or destroyed'). The changed text makes this optional ('may be returned or destroyed, at the Receiving Party's discretion'). This directly contradicts the section stating 'The Information shall be treated as confidential and safeguarded hereunder by the Receiving Party for a period of two (2) years' because the Receiving Party now has the option to retain the information without safeguarding it, creating a clear conflict of obligation."
+      }
+    ]
+  }
+]

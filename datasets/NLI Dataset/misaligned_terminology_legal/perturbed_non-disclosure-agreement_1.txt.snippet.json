@@ -1,0 +1,95 @@
+[
+  {
+    "file_name": "non-disclosure-agreement_1.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - Legal Contradiction",
+        "original_text": "Confidential Information excludes: (i) Information that at the date of disclosure to you or your Representatives is publicly known or at any time after that date becomes publicly known or otherwise becomes available to you (otherwise than as a consequence of any breach of this agreement by you (or would constitute a breach by your Representatives , if they were a party) or which you know (or ought reasonably to have known having made reasonable enquiry) to have been disclosed in breach of any duty of confidentiality owed to us or any member of our Group);",
+        "changed_text": "Confidential Information excludes: (i) Information that at the date of disclosure to you or your Representatives is publicly known or at any time after that date becomes publicly known or otherwise becomes available to you, regardless of the reason or source of the information becoming publicly known;",
+        "explanation": "The original text excludes information that becomes publicly known *except* through a breach of the agreement. The modified text removes this exception, thus including information disclosed through a breach as non-confidential. This could contradict laws protecting trade secrets.",
+        "contradicted_law": "Defend Trade Secrets Act (DTSA)",
+        "law_citation": "18 U.S. Code \u00a7 1839",
+        "law_url1": [
+          "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title18-section1839&edition=prelim"
+        ],
+        "law_url2": [
+          "https://www.law.cornell.edu/topn/trade_secrets"
+        ],
+        "law_explanation": "The DTSA defines trade secrets and provides protection against misappropriation. By allowing information disclosed through a breach of confidentiality to be considered non-confidential, the modified text undermines the protection afforded to trade secrets under the DTSA.",
+        "location": "1.1",
+        "desired_official_urls": 2,
+        "scraped_snippet_1": "18 USC 1839: Definitions Result 1 of 1 Current 2024 Main Ed. (1/6/2025) [Titles 1 through 6] 2018 Ed. and Supplement V (1/3/2024) 2018 Ed. and Supplement IV (1/5/2023) 2018 Ed. and Supplement III (1/3/2022) 2018 Ed. and Supplement II (1/13/2021) 2018 Ed. and Supplement I (1/24/2020) 2018 Main Ed. (1/14/2019) 2012 Ed. and Supplement V (1/12/2018) 2012 Ed. and Supplement IV (1/6/2017) 2012 Ed. and Supplement III (1/3/2016) 2012 Ed. and Supplement II (1/5/2015) 2012 Ed. and Supplement I (1/16/2014) 2012 Main Ed. (1/15/2013) 2006 Ed. and Supplement V (1/3/2012) 2006 Ed. and Supplement IV (1/7/2011) 2006 Ed. and Supplement III (2/1/2010) 2006 Ed. and Supplement II (1/5/2009) 2006 Ed. and Supplement I (1/8/2008) 2006 Main Ed. (1/3/2007) 2000 Ed. and Supplement V (1/2/2006) 2000 Ed. and Supplement IV (1/3/2005) 2000 Ed. and Supplement III (1/19/2004) 2000 Ed. and Supplement II (1/6/2003) 2000 Ed. and Supplement I (1/22/2002) 2000 Main Ed. (1/2/2001) 1994 Ed. and Supplement V (1/23/2000) 1994 Ed. and Supplement IV (1/5/1999) 1994 Ed. and Supplement III (1/26/1998) 1994 Ed. and Supplement II (1/6/1997) 1994 Ed. and Supplement I (1/16/1996) 1994 Main Ed. (1/4/1995) Back to Original Document << Previous TITLE 18 / PART I / CHAPTER 90 / \u00a7 1839 Next >> [Print] [Print selection] [OLRC Home] Help 18 USC 1839 : Definitions Text contains those laws in effect on June 22, 2025 From Title 18-CRIMES AND CRIMINAL PROCEDURE PART I-CRIMES CHAPTER 90-PROTECTION OF TRADE SECRETS Jump To: Source Credit Miscellaneous References In Text Amendments Effective Date \u00a71839. Definitions As used in this chapter- (1) the term \"foreign instrumentality\" means any agency, bureau, ministry, component, institution, association, or any legal, commercial, or business organization, corporation, firm, or entity that is substantially owned, controlled, sponsored, commanded, managed, or dominated by a foreign government; (2) the term \"foreign agent\" means any officer, employee, proxy, servant, delegate, or representative of",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The modified text creates a legal contradiction. The original contract text excludes information that becomes publicly known through a breach of the agreement from being considered non-confidential. The modified text removes this exception. The Law Explanation states that this undermines the protection afforded to trade secrets under the DTSA. Scraped Law Snippet 1 defines terms related to trade secret protection, and while it doesn't explicitly state that information disclosed through a breach remains confidential, the fact that trade secrets are defined and protected implies that unauthorized disclosure is a violation, which the original contract acknowledged but the modified one does not, creating a contradiction by weakening trade secret protections."
+      },
+      {
+        "type": "Misaligned Terminology - Legal Contradiction",
+        "original_text": "Representatives \" means the directors, off icers, employees, agents and professional advisers of a party or any member of such party's Group from time to time and any Permitted Finance Providers",
+        "changed_text": "Representatives \" means any individual acting on behalf of a party, regardless of employment status or formal agreement.",
+        "explanation": "The original definition limits 'Representatives' to specific roles. The modified definition broadens it to include *any* individual acting on behalf of a party. This could create confusion regarding who is bound by the agreement, especially concerning vicarious liability under agency law.",
+        "contradicted_law": "Agency Law - Restatement (Third) of Agency \u00a7 1.01",
+        "law_citation": "Restatement (Third) of Agency \u00a7 1.01",
+        "law_url1": [
+          "https://www.law.cornell.edu/wex/agency"
+        ],
+        "law_url2": [
+          "https://www.americanbar.org/groups/business_law/resources/business_law_today/2020_june/agency_law_basics/"
+        ],
+        "law_explanation": "Agency law requires specific conditions (manifestation of consent, control by the principal) for an agency relationship. The modified definition of 'Representatives' disregards these requirements, potentially imposing obligations on individuals who are not legally agents.",
+        "location": "1.1",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": "agency | Wex | US Law | LII / Legal Information Institute Please help us improve our site! \u00d7 No thank you agency Agency law is a common law doctrine controlling relationships between agents and principals . A principal-agent relationship is created when the agent is given authority to act on behalf of the principal. An agreement made by an agent is binding on the principal so long as the agreement was within the authority actually granted to the agent or reasonably perceived by a third party . The two forms of actual authority include: Express authority : An agent has express authority to take any actions requested by the principal as well as authority to take any actions inherently necessary to accomplish those requests. Implied authority : An agent has implied authority to take any action the principal\u2019s conduct indicates the agent should do. Furthermore, failure by the principal to object to an agent\u2019s prior actions may create implied authority to repeat those actions in the future. An agent does not have implied authority to do anything expressly prohibited by the principal. In addition to actual authority, a principal may be bound by the actions of an agent if apparent authority existed. Apparent authority : An agent has apparent authority when, despite no existing authority, a third party reasonably infers that someone is authorized to act on the principal\u2019s behalf due to the conduct of the principal. Unlike actual authority, a principal can be bound by an agent\u2019s act made with apparent authority even if they explicitly stated that the agent could not do that act. Furthermore, a person possessing a widely recognized title like Hiring Director has apparent authority to accomplish anything a reasonable person would believe that title entails. An agent acting with apparent authority is known as an ostensible agent . Additionally, principals can be held liable for the torts of their agents under the doctrine of vicarious liability . A principal is always liable for torts committed while the agent completes their official responsibilities. For torts occurring outside of official duties , the liability of the principal depends on whether the agent\u2019s tort occurred during a frolic or a detour. A principal is liable for the \u201cdetours\u201d of their agent but not for the \u201cfrolics.\u201d The primary considerations many courts use to determine if an act was a frolic or a detour include how much control the principal exerts over the agent\u2019s actions and who economically benefits from the agent\u2019s actions. See: Pyne v. Witmer, 129 Ill. 2d 351 (1989) . [Last reviewed in October of 2024 by the Wex Definitions Team ] Wex ACADEMIC TOPICS trial process/advocacy COMMERCE LIFE EVENTS family & personal matters elder law juvenile law wills PROPERTY trusts inheritances & estates THE LEGAL PROCESS class actions courts criminal procedure legal practice/ethics wex articles business law agency wex definitions business sectors civil procedure family law individual rights legal education and practice property law Wex Toolbox",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The modified text broadens the definition of 'Representatives' beyond legally recognized agency relationships. The scraped snippet defines agency as 'a common law doctrine controlling relationships between agents and principals' and states that 'A principal-agent relationship is created when the agent is given authority to act on behalf of the principal.' The original text limits representatives to specific roles (directors, officers, etc.), aligning more closely with potential agency relationships where authority can be clearly established. The changed text, however, includes 'any individual acting on behalf of a party, regardless of employment status or formal agreement,' which undermines the requirement for authority and control inherent in agency law. This could lead to vicarious liability issues where a party is held responsible for the actions of someone who is not a legally recognized agent, thus contradicting the established principles of agency law."
+      },
+      {
+        "type": "Misaligned Terminology - Legal Contradiction",
+        "original_text": "You shall treat and keep all Confidential Information as confidential and shall not, without our prior written consent, dir ectly or indirectly disclose Confidential Information to any other person other than as permitted by paragraph 3.1. You shall ensure that the Confi dential Information is protected with the same security measures and degree of care that would apply to your own confidential information.",
+        "changed_text": "You shall endeavor to treat Confidential Information as confidential, but disclosure is permitted at your discretion.",
+        "explanation": "The original clause mandates confidentiality. The changed clause makes it discretionary, weakening the confidentiality obligation. This could conflict with trade secret laws requiring reasonable efforts to maintain secrecy.",
+        "contradicted_law": "Uniform Trade Secrets Act (UTSA)",
+        "law_citation": "UTSA \u00a7 1(4)",
+        "law_url1": [
+          "https://www.law.cornell.edu/wex/uniform_trade_secrets_act_(utsa)"
+        ],
+        "law_url2": [
+          "https://www.uniformlaws.org/committees/community-home?communitykey=22ac6e1a-29f1-4349-8483-e8a771a0158f"
+        ],
+        "law_explanation": "The UTSA requires reasonable efforts to maintain the secrecy of trade secrets. The 'discretionary' disclosure clause contradicts the requirement for reasonable efforts to maintain secrecy, thus jeopardizing trade secret protection.",
+        "location": "2.1",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "Community Home - Uniform Law Commission Skip to main content (Press Enter). Sign in Skip auxiliary navigation (Press Enter). Follow ULC Schedule of Events Better Laws. Stronger States. Skip main navigation (Press Enter). Community Home Library Contact Us (312) 450-6600 info@uniformlaws.org Uniform Law Commission 111 N. Wabash Avenue, Suite 1010 Chicago, Illinois 60602 Uniform Law Commission The Uniform Law Commission (ULC, also known as the National Conference of Commissioners on Uniform State Laws), established in 1892, provides states with non-partisan, well-conceived and well-drafted legislation that brings clarity and stability to critical areas of state statutory law. Acts Overview Current Acts Uniform Commercial Code Projects Overview Current Committees Meetings and Events Annual Meeting 2025 Committee Meetings Meeting Calendar Request to Schedule a Web Meeting Grant Application News and Publications News Publications Reprint Request Search Documents Videos Webinar Series Legislation Legislative Activity About ULC About Us Leadership Delegations Staff FAQs Standing Committees Editorial Boards Constitution Policies Spotlight ULC Careers Copyright 2024 Connect. All rights reserved. Privacy Policy | Terms of Use | Accessibility | Contact Us | \u00a9 2025 The National Conference of Commissioners on Uniform State Laws. All Rights Reserved. Powered by Higher Logic",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The original contract mandates confidentiality, while the changed text allows for discretionary disclosure. This undermines the requirement for reasonable efforts to maintain secrecy, as explained in the Perturbation Explanation and Law Explanation. While the scraped snippets don't directly define 'reasonable efforts', the Uniform Law Commission's purpose, as stated in Snippet 2, is to bring clarity and stability to state statutory law. The discretionary disclosure clause contradicts the intent of maintaining clarity and stability around trade secret protection, which requires a more stringent confidentiality obligation than what the changed text provides. This aligns with the 'Misaligned Terminology Legal Contradiction' definition because 'discretionary disclosure' deviates from legally recognized definitions of trade secret protection."
+      },
+      {
+        "type": "Misaligned Terminology - Legal Contradiction",
+        "original_text": "This agreement shall continue for 18 months after the date of this agreement.",
+        "changed_text": "This agreement shall continue until either party deems it no longer necessary.",
+        "explanation": "The original clause specifies a fixed duration. The changed clause makes the duration indefinite and dependent on the parties' subjective assessment. This introduces uncertainty and could be challenged if it unreasonably restricts someone's ability to engage in lawful activities, potentially conflicting with restraint of trade principles.",
+        "contradicted_law": "Restraint of Trade Doctrine",
+        "law_citation": "Restatement (Second) of Contracts \u00a7 186",
+        "law_url1": [
+          "https://www.law.cornell.edu/wex/restraint_of_trade"
+        ],
+        "law_url2": [
+          "https://corporatefinanceinstitute.com/resources/knowledge/other/restraint-of-trade/"
+        ],
+        "law_explanation": "Restraint of trade doctrines limit the enforceability of agreements that unduly restrict a person's ability to conduct business or exercise their profession. An indefinite NDA, terminable at will, could be considered an unreasonable restraint of trade, especially if it prevents someone from using general knowledge or skills acquired during the period covered by the NDA.",
+        "location": "12",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": "restraint of trade | Wex | US Law | LII / Legal Information Institute Please help us improve our site! \u00d7 No thank you restraint of trade A restraint of trade is any activity that tends to limit a party's ability to enter into transactions. The term is most commonly used in the context of government antitrust regulation. For example, federally, 15 U.S.C. \u00a7 1 prohibits \u201c[e]very contract, combination in the form of trust or otherwise, or conspiracy, in restraint of trade or commerce among the several States, or with foreign nations.\u201d For example, in American Needle, Inc. v. Nat\u2019l Football League , the U.S. Supreme Court held that licensing activities for individual teams\u2019 intellectual property conducted through a corporation separate from the teams with its own management [i.e. the NFL] fell within a possible restraint of trade covered under 15 U.S.C. \u00a7 1. Many states also have their own local restraints on anti-competitive business activity. For example, Massachusetts General Law Ch. 93 \u00a7 4 states \u201c[e]very contract, combination in the form of trust or otherwise, or conspiracy, in restraint of trade or commerce in the commonwealth shall be unlawful.\u201d [Last reviewed in April of 2025 by the Wex Definitions Team ] Wex COMMERCE commercial activities unfair competition wex definitions Wex Toolbox",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The original contract specifies a fixed duration of 18 months, providing certainty. The changed text allows the agreement to continue until either party 'deems it no longer necessary,' creating an indefinite duration terminable at will. This could potentially restrain trade, as the Law Explanation suggests. The scraped law snippet 1 defines 'restraint of trade' as 'any activity that tends to limit a party's ability to enter into transactions.' The changed text, by creating an indefinite and subjective termination clause, could limit a party's ability to engage in future transactions, especially if the agreement involves proprietary information or client relationships, thus contradicting principles against restraint of trade."
+      }
+    ]
+  }
+]

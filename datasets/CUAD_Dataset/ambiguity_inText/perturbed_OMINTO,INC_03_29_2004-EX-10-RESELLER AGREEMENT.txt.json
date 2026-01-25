@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "OMINTO,INC_03_29_2004-EX-10-RESELLER AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Reseller is hereunder licensed to market MediaNet Group Technologies' Brand-A-Port portals (\"PORTALS\") and to resell MediaNet Group Technologies products and services for compensation in accordance with the annexed \"RESELLING SCHEDULE.\" Under the terms and conditions as outlined in this Agreement.",
+        "changed_text": "Reseller is encouraged to market MediaNet Group Technologies' Brand-A-Port portals (“PORTALS”) and to resell MediaNet Group Technologies products and services for compensation in accordance with the annexed “RESELLING SCHEDULE.” Under the terms and conditions as outlined in this Agreement.",
+        "explanation": "By changing 'is hereunder licensed' to 'is encouraged to market', the agreement introduces ambiguity. Previously, the reseller had an obligation to market. The modified version suggests that marketing is optional. This contradicts the overall intention of the agreement where compensation is tied to marketing activity. This change contradicts with section 3 on COMPENSATION since, if the reseller is only encourage to sell, there is a potential breach on contract due to in-text contradiction, since the agreement states that Reseller is getting payed in accordance to 'RESELLING SCHEDULE'",
+        "location": "2",
+        "contradicted_location": "3",
+        "contradicted_text": "MediaNet Group Technologies shall pay Reseller a fee in accordance with the annexed Fee Schedule. MediaNet Group Technologies will remit payment as directed by Reseller in the time frames noted on the Compensation Schedule attached hereto.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'is hereunder licensed to market' to 'is encouraged to market' introduces a significant ambiguity regarding the Reseller's obligation. The original text implies a mandatory marketing activity, while the modified text suggests it is optional. This directly contradicts the section on COMPENSATION, which states that payment is made 'in accordance with the annexed Fee Schedule', tied to reselling activity. Making the Reseller's marketing activity optional creates a potential breach of contract since compensation is based on that activity. This falls under the definition of 'Ambiguities - In Text Contradiction'."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "MediaNet Group Technologies must approve any advertising prior to issuance and placement.",
+        "changed_text": "MediaNet Group Technologies may offer suggestions on advertising prior to issuance and placement, but the Reseller has final say.",
+        "explanation": "This change alters the approval process for advertising. Previously, MediaNet Group Technologies had approval authority. Now, they can only offer suggestions, and the Reseller has the final decision. This creates an in-text contradiction with section 13.9 CONTENT, where it states 'MediaNet Group Technologies shall have complete control of content on the Portals'. This suggests MediaNet has power over content, however, with this change being added it creates an in-text contradiction, since the advertising being display on those Portals could be determine by the Reseller.",
+        "location": "4",
+        "contradicted_location": "13.9",
+        "contradicted_text": "It is agreed that MediaNet Group Technologies shall have complete control of content on the Portals with the exception of the customized pages and links on contracted portals, and these pages and links are subject to MediaNet Group Technologies's approval.",
+        "contradiction_exists": "YES",
+        "justification": "The original text gave MediaNet Group Technologies approval authority over advertising. The changed text gives MediaNet Group Technologies only the ability to offer suggestions, with the Reseller having final say. This directly contradicts the 'Contradicted Text' stating 'MediaNet Group Technologies shall have complete control of content on the Portals'. This introduces a strong, obvious, and impactful conflict because control over portal content is directly undermined by the Reseller's final say on advertising content displayed on those portals, creating uncertainty and a likely legal issue. This contradiction aligns with the definition provided for 'Ambiguities – In Text Contradiction', because the definition of 'content control' becomes inconsistent."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Reseller Agreement can be terminated at any time at the discretion of either party.",
+        "changed_text": "The Reseller Agreement can be terminated with a 30-day written notice, except for cases of gross negligence or fraud, in which it can be terminated immediately at the discretion of either party.",
+        "explanation": "This change adds conditions to the termination clause. The original clause allowed termination at any time, without notice. The new clause requires 30 days' notice unless gross negligence or fraud is involved. This introduces a conflict with section 9.1 TERM, where 'Either party may terminate the Agreement on 60-days written notice during a renewed term', creating an in-text contradiction on how long the written notice is required and under what conditions.",
+        "location": "TERMINATION",
+        "contradicted_location": "9.1",
+        "contradicted_text": "TERM. The term of this Agreement shall commence on the Effective Date and continue for a period of 1 year after the Effective Date, unless earlier terminated as set forth herein (the \"TERM\"). This Agreement shall renew for successive 1-year periods, after the initial 1 Year Term, if agreed by both parties in writing within 30 days of license expiration. Either party may terminate the Agreement on 60-days written notice during a renewed term. However, in no event shall termination of this Agreement by MediaNet Group Technologies relieve it of the obligation to remit payment to Reseller for sales or Portals, Hosting Services or other products and services to or through Buyers contracted by Reseller prior to such termination. The obligation to remit payment cease 30 days after termination of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original clause allowed termination 'at any time,' but the changed clause introduces a 30-day written notice requirement, except for gross negligence or fraud. This directly contradicts the 'TERM' section, which states 'Either party may terminate the Agreement on 60-days written notice during a renewed term.' The conflict lies in the differing notice periods (30 days vs. 60 days) and the conditions under which immediate termination is allowed, creating a clear contradiction."
+      }
+    ]
+  }
+]

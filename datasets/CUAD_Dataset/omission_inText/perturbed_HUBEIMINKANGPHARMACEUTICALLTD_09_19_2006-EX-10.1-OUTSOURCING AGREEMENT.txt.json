@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "HUBEIMINKANGPHARMACEUTICALLTD_09_19_2006-EX-10.1-OUTSOURCING AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Dolphin shall charge DGT USD1.50 per delivered, completed photo. The price per unit shall be open to renegotiation - in response to competitive pricing pressures - upon receipt of written notice at any time by either party;",
+        "changed_text": "Dolphin shall charge DGT per delivered, completed photo. The price per unit shall be open to renegotiation - in response to competitive pricing pressures - upon receipt of written notice at any time by either party;",
+        "explanation": "By omitting 'USD1.50', the contract no longer specifies the initial price, but still allows for renegotiation. This creates an in-text contradiction because there is nothing to compare the renegotiated price, also it is not clear on what the contract is based on for payment without the initial price.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "Dolphin shall charge DGT per delivered, completed photo. The price per unit shall be open to renegotiation - in response to competitive pricing pressures - upon receipt of written notice at any time by either party;",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the specific price 'USD1.50' while still allowing for price renegotiation. This creates a contradiction because the basis for renegotiation is removed. Without an initial price, it's unclear what the renegotiated price should be compared to, contradicting the implication that there's an established price to renegotiate, as stated in the changed text. The absence of the price makes the agreement unenforceable."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "In the event of any dispute arising between the parties concerning this Agreement, its enforceability or the interpretation thereof, the same shall be settled by a single arbitrator appointed pursuant to the provisions of the Commercial Arbitration Act of the State of Nevada, or any successor legislation then in force. The language to be used in the arbitration proceedings shall be English.",
+        "changed_text": "In the event of any dispute arising between the parties concerning this Agreement, its enforceability or the interpretation thereof, the same shall be settled by arbitrator. The language to be used in the arbitration proceedings shall be English.",
+        "explanation": "By removing 'appointed pursuant to the provisions of the Commercial Arbitration Act of the State of Nevada, or any successor legislation then in force', the process for selecting an arbitrator is undefined. While it still mentions arbitration, the specific legal framework is absent, creating uncertainty and contradiction regarding the enforcement mechanism. The arbitration mention, without specifying how it will be done or by what institution, creates an internal conflict.",
+        "location": "Governing Law And Arbitration",
+        "contradicted_location": "Governing Law And Arbitration",
+        "contradicted_text": "This Agreement shall be governed by and construed in accordance with the laws of the State of Nevada, USA in force therein without regard to its conflict of law rules. All parties agree that by executing this Agreement they have attorned to the jurisdiction of the Supreme Court of the United States. The Supreme Court shall have exclusive jurisdiction over this Agreement. In the event of any dispute arising between the parties concerning this Agreement, its enforceability or the interpretation thereof, the same shall be settled by arbitrator. The language to be used in the arbitration proceedings shall be English.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified arbitration under the Nevada Commercial Arbitration Act, providing a clear legal framework. The changed text removes this framework, leaving the arbitration process undefined. The contradicted text then states that the Supreme Court shall have exclusive jurisdiction, followed by a statement that disputes will be settled by an arbitrator. This creates a direct contradiction because the Supreme Court has jurisdiction and the matter will be settled by an arbitrator (who will appoint them and how?). The deletion of the legal framework in the changed text introduces ambiguity about how the arbitrator will be selected and what rules will govern the arbitration, directly contradicting the Supreme Court's explicit jurisdiction."
+      }
+    ]
+  }
+]

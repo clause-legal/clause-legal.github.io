@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "nda_1.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Nothing contained herein shall grant a license under any patent or other intellectual property right, nor shall this Agreement or any transmi ssion of information constitute any representation or warranty to the Recipient with respect to infringement of any intellectual property right s of others. Sanmina has no obligation under this Agreement to purchase any item or service from the Recipient.",
+        "changed_text": "Nothing contained herein shall grant a license under any patent or other intellectual property right, nor shall this Agreement or any transmi ssion of information constitute any representation or warranty to the User with respect to infringement of any intellectual property right s of others. Sanmina has no obligation under this Agreement to purchase any item or service from the Recipient.",
+        "explanation": "The phrase 'the Recipient' is changed to 'the User.' but the previous and later text reffers to recipient, This creates confusion about to whom the intellectual property disclaimers apply.",
+        "location": "Section 7",
+        "contradicted_location": "Section 8",
+        "contradicted_text": "Return of Confidential Information. Within ten (10) days after any written request by Sanmina, the Recipient shall promptly return all copies of the Confidential Information except copies required for backup, disaster recovery, or business continuity and in such case the obligations hereunder shall survive until such copies are destroyed .",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'Recipient' in both the IP disclaimer and the clause regarding purchasing obligations. The changed text replaces 'Recipient' with 'User' in the IP disclaimer section, while the purchasing obligation still refers to 'Recipient'. This creates a misalignment, as it is no longer clear if the IP disclaimer applies to the same entity as the purchasing obligations. The contradicted text specifies the 'Recipient' must return confidential information, so changing the IP disclaimer to 'User' introduces a contradiction by creating ambiguity about whether the IP disclaimer applies to the party obligated to return confidential information, leading to an in-text contradiction because of misaligned terminology."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This document contains the complete and exclusive Agreement between the parties, and it is intended to be final expression of their agreement. No promise, representation, warranty or covenant not included in this document has been or is relied upon by any party. Each party has relied upon its own examination of the warranties, representations and covenants expressly contained in the Agreement itself. No modification or amendment of this Agreement shall be o f any force unless in writing executed by all parties hereto.",
+        "changed_text": "This document contains the complete and exclusive Understanding between the parties, and it is intended to be final expression of their agreement. No promise, representation, warranty or covenant not included in this document has been or is relied upon by any party. Each party has relied upon its own examination of the warranties, representations and covenants expressly contained in the Agreement itself. No modification or amendment of this Agreement shall be o f any force unless in writing executed by all parties hereto.",
+        "explanation": "The phrase 'Agreement' is changed to 'Understanding.' within the first sentence. The later text reffers to this document as an 'Agreement,' directly conflicting with its identification as an 'Understanding.' This creates uncertainty about the type of legal commitment created by the document, which undermines its enforceability.",
+        "location": "Section 12",
+        "contradicted_location": "Section 12",
+        "contradicted_text": "Entire Agreement. This document contains the complete and exclusive Understanding between the parties, and it is intended to be final expression of their agreement. No promise, representation, warranty or covenant not included in this document has been or is relied upon by any party. Each party has relied upon its own examination of the warranties, representations and covenants expressly contained in the Agreement itself. No modification or amendment of this Agreement shall be o f any force unless in writing executed by all parties hereto.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies 'Agreement' to 'Understanding'. The contradicted text refers to the document as an 'Agreement'. This is a misaligned terminology contradiction according to the definition because the contract uses the terms interchangeably without defining them, leading to conflicting obligations. The change causes a direct conflict, inconsistency, or contradiction within the document."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Wherever one party is required or permitted or required to give written notice to the other under this Agreement, such notice will be given by hand, by certified U.S. mail, return rec eipt requested, by overnight courier, or by fax and addressed to the appropriate officer of such party (with a copy to the Legal Department) at the address set forth in the preamble. All such notices shall be effective upon receipt. Either party may desi gnate a different notice address from time to time upon giving five (5) days’ prior written notice thereof to the other party.",
+        "changed_text": "Wherever one party is required or permitted or required to give written notice to the other under this Contract, such notice will be given by hand, by certified U.S. mail, return rec eipt requested, by overnight courier, or by fax and addressed to the appropriate officer of such party (with a copy to the Legal Department) at the address set forth in the preamble. All such notices shall be effective upon receipt. Either party may desi gnate a different notice address from time to time upon giving five (5) days’ prior written notice thereof to the other party.",
+        "explanation": "The phrase 'Agreement' is changed to 'Contract.' in the first line. This creates inconsistency, since there is no definition of contract, and creating ambiguity when the rest of the NDA continues to refer to 'Agreement' .",
+        "location": "Section 13",
+        "contradicted_location": "Section 13",
+        "contradicted_text": "Notices . Wherever one party is required or permitted or required to give written notice to the other under this Contract, such notice will be given by hand, by certified U.S. mail, return rec eipt requested, by overnight courier, or by fax and addressed to the appropriate officer of such party (with a copy to the Legal Department) at the address set forth in the preamble. All such notices shall be effective upon receipt. Either party may desi gnate a different notice address from time to time upon giving five (5) days’ prior written notice thereof to the other party.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Agreement' to 'Contract' in the Changed Text, as explained, introduces ambiguity because the document primarily refers to 'Agreement' elsewhere. The Contradicted Text uses the term 'Contract,' which, without a clear definition, creates a strong in-text contradiction with the rest of the document that refers to 'Agreement.' This aligns with the 'Misaligned Terminology - In Text Contradiction' definition. The original text did not create the ambiguity since it stated Agreement, like the contradicted text."
+      }
+    ]
+  }
+]

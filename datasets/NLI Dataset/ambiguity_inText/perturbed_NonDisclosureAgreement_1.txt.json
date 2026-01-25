@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "NonDisclosureAgreement_1.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The recipient stores the received INFO RMATION and business data systematically, e.g. in files, electronic media and material form. All needed precautions/measures are to be taken to protect the INFORMATION from copying, theft, destruction, damage or any other intrusion.",
+        "changed_text": "The recipient stores the received INFO RMATION and business data *as they deem necessary*, e.g. in files, electronic media and material form. Precautions/measures *may be* taken to protect the INFORMATION from copying, theft, destruction, damage or any other intrusion.",
+        "explanation": "This change significantly loosens the requirements for data storage and protection. The original text mandates systematic storage and necessary precautions, while the modified version gives the recipient discretion over storage methods and makes security measures optional. The change from “All needed precautions/measures are to be taken” to “Precautions/measures may be taken” introduces an In-Text contradiction by creating uncertainty around whether the recipient is actually required to safeguard confidential information, potentially undermining the purpose of the agreement.",
+        "location": "Paragraph 4",
+        "contradicted_location": "Paragraph 4",
+        "contradicted_text": "The recipient stores the received INFO RMATION and business data as they deem necessary, e.g. in files, electronic media and material form. Precautions/measures may be taken to protect the INFORMATION from copying, theft, destruction, damage or any other intrusion. Both parties are bound to take all needed measures to guarantee the protection of data confidentiality.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the original obligation to store and protect information. While the contradicted text states that 'both parties are bound to take all needed measures to guarantee the protection of data confidentiality', the changed text makes precautions optional, stating that precautions/measures 'may be taken.' This directly contradicts the obligation for both parties to take 'all needed measures', thus creating a strong in-text contradiction as it undermines the requirement for data confidentiality."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Both parties are bound to take all needed measures to guarantee the protection of data confidentiality.",
+        "changed_text": "Both parties *should attempt* to take all needed measures to guarantee the protection of data confidentiality.",
+        "explanation": "The phrase 'are bound to' creates a contractual obligation and by replacing it with 'should attempt to' weakens that obligation by creating a contradiction by suggesting a non-mandatory action, thus, the binding nature of confidentiality. This creates an In-Text contradiction if other sections of the contract rely on the assumption that data confidentiality is strictly enforced, making it difficult to prove a breach if only an attempt was made.",
+        "location": "Paragraph 4",
+        "contradicted_location": "Paragraph 7",
+        "contradicted_text": "For the term of 10 years, after receiving the INFORMATION and business data, the confidential information shall be kept safely, unless defined differently by a special agreement or it is proved to have been made publicly known.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that both parties 'are bound to' guarantee data confidentiality, which creates a clear obligation. The changed text weakens this obligation to 'should attempt to,' introducing a non-mandatory aspect. The contradicted text states that 'confidential information shall be kept safely,' implying a requirement, creating an in-text contradiction as the changed text's weakened obligation conflicts with the strict requirement for data safety in the contradicted text. Therefore, the change undermines the previously established obligation to protect data confidentiality, aligning with the 'Ambiguities - In Text Contradiction' definition. It introduces ambiguity where certainty was previously established."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The confidential information is allowed to be communicated to third parties only with the express written consent of the owner.",
+        "changed_text": "The confidential information *may* be communicated to third parties *unless* the owner provides a written objection within 30 days of notification.",
+        "explanation": "This change reverses the default position on information disclosure. Originally, explicit written consent was required; now, disclosure is permitted unless the owner actively objects. This creates an In-Text contradiction, making it ambiguous under what conditions confidential information can be shared and creates a contradiction within the data protection framework setup in previous sections of the contract.",
+        "location": "Paragraph 6",
+        "contradicted_location": "Paragraph 3",
+        "contradicted_text": "Both parties, the own er and the recipient, will endeavor to guarantee that highly confidential written or verbal INFORMATION or business data which are subjects of this contract shall not be disclosed to third parties. The list of highly confidential INFORMATION includes:  written or verbal information which the owner classifies as confidential,  business discussions during the contract validity term,  documents, letters, meeting minutes and e -mails,  technical documentation, measurement and other reports, calculations and studies, dra fts, photographs, and plans,  lists of suppliers, specifications of material and tools, tools technical,  know -how, inventions and ideas,  promotional and presentational material, price information,  other documentation.",
+        "contradiction_exists": "YES",
+        "justification": "The original text required explicit written consent for disclosing confidential information to third parties. The changed text allows disclosure unless the owner objects within 30 days. This directly contradicts the contradicted text, which states that both parties will guarantee that confidential information shall not be disclosed to third parties, regardless of objection within 30 days. The change reverses the default position on disclosure, causing a strong inconsistency and making it unclear under what conditions information can be shared. This fits the 'Ambiguities - In Text Contradiction' perturbation type because the conditions for sharing confidential information are defined inconsistently, which would make enforcement difficult."
+      }
+    ]
+  }
+]

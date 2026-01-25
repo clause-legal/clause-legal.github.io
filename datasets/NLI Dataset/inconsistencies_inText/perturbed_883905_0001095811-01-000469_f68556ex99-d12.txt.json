@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "883905_0001095811-01-000469_f68556ex99-d12.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "All information described in a CITR and marked with a \"confidential,\" \"proprietary,\" or similar legend shall be deemed Confidential Information.",
+        "changed_text": "All information described in a CITR and marked with a \"proprietary,\" or similar legend shall be deemed Confidential Information.",
+        "explanation": "Removing 'confidential' creates a contradiction because some CITRs might only mark information as 'confidential' and not 'proprietary'. According to the modified clause, such information would not be considered Confidential Information under the agreement, contradicting sections relying on the broader definition. This implies that only 'proprietary' information is protected under this contract but not 'confidential' which creates an in-text contradiction.",
+        "location": "CONFIDENTIAL INFORMATION TRANSMITTAL FORM",
+        "contradicted_location": "OBLIGATIONS OF RECEIVING PARTY",
+        "contradicted_text": "The receiving party shall not disclose Confidential Information to any third party without the prior written approval of the disclosing party. The receiving party shall maintain the Confidential Information with at least the same degree of care that the receiving party uses to protect its own similar categories of confidential and proprietary information, but no less than a reasonable degree of care under the circumstances. The receiving party shall not make any copies of Confidential Information received from the disclosing party except as necessary for its contractors with a need to know. Any copies which are made shall be identified as belonging to the disclosing party and marked \"confidential,\" \"proprietary,\" or with a similar legend.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes 'confidential' from the definition of Confidential Information, which contradicts the contradicted text. The contradicted text explicitly states that copies made 'shall be identified as belonging to the disclosing party and marked \"confidential,\" \"proprietary,\" or with a similar legend'. According to the changed text, information marked only as 'confidential' would no longer be considered Confidential Information under the contract, but the contradicted text assumes that anything marked 'confidential' is Confidential Information. This is a clear contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The receiving party shall maintain the Confidential Information with at least the same degree of care that the receiving party uses to protect its own similar categories of confidential and proprietary information, but no less than a reasonable degree of care under the circumstances.",
+        "changed_text": "The receiving party shall maintain the Confidential Information with at least a minimal degree of care, but no less than a reasonable degree of care under the circumstances.",
+        "explanation": "By removing 'same degree of care that the receiving party uses to protect its own similar categories of confidential and proprietary information', the receiving party is no longer obligated to protect the Confidential Information with the same level of protection as its own, creating an in-text contradiction regarding the expected level of security. This change contradicts the earlier part of the section. ",
+        "location": "OBLIGATIONS OF RECEIVING PARTY",
+        "contradicted_location": "TERMINATION AND DUTY TO RETURN",
+        "contradicted_text": "Either party may terminate this Agreement at any time with cause upon notice to the other party. However, all obligations of confidentiality shall survive the termination of this Agreement. In the event this Agreement is terminated, and the disclosing party so requests, the receiving party shall promptly return or destroy (and certify destruction of) all Confidential Information which it received from the disclosing party along with all copies which it made.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text lowers the standard of care for Confidential Information, removing the requirement to protect it with the 'same degree of care' as the receiving party's own information. This directly contradicts the contradicted text, which states that 'all obligations of confidentiality shall survive the termination of this Agreement'. If the standard of care is reduced, the obligations of confidentiality are weakened, creating an inconsistency in the level of protection required during and after the agreement, thus indicating a contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "In the event this Agreement is terminated, and the disclosing party so requests, the receiving party shall promptly return or destroy (and certify destruction of) all Confidential Information which it received from the disclosing party along with all copies which it made.",
+        "changed_text": "In the event this Agreement is terminated, the receiving party may retain all Confidential Information which it received from the disclosing party along with all copies which it made.",
+        "explanation": "This perturbation completely reverses the obligation to return or destroy confidential information upon termination. It directly contradicts the original intent of protecting the disclosing party's information after the agreement ends, introducing legal uncertainty. Since they 'may' retain it, but that means that also 'may' not retain it, creating in-text contradiction.",
+        "location": "TERMINATION AND DUTY TO RETURN",
+        "contradicted_location": "OBLIGATIONS OF RECEIVING PARTY",
+        "contradicted_text": "The receiving party shall not disclose Confidential Information to any third party without the prior written approval of the disclosing party. The receiving party shall maintain the Confidential Information with at least a minimal degree of care, but no less than a reasonable degree of care under the circumstances. The receiving party shall not make any copies of Confidential Information received from the disclosing party except as necessary for its contractors with a need to know. Any copies which are made shall be identified as belonging to the disclosing party and marked \"confidential,\" \"proprietary,\" or with a similar legend.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states the receiving party 'may retain' confidential information after termination, directly contradicting the contradicted text which outlines strict obligations to protect and not disclose confidential information. The contradicted text clearly states that the receiving party 'shall not disclose' and 'shall maintain' the confidential information, implying they should not have the option to retain it indefinitely, as this would conflict with their ongoing obligation to safeguard it. The original text required the receiving party to return or destroy the confidential information, which is in direct opposition to the changed text, which introduces a significant inconsistency regarding the handling of confidential information upon termination, leading to a clear and direct contradiction."
+      }
+    ]
+  }
+]

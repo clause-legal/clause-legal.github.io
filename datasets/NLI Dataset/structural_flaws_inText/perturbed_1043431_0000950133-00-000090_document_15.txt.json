@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "1043431_0000950133-00-000090_document_15.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Information shall be treated as confidential and safeguarded hereunder by the Receiving Party for a period of two (2) years.",
+        "changed_text": "The Information shall be treated as confidential and safeguarded hereunder by the Receiving Party indefinitely.",
+        "explanation": "Changing 'for a period of two (2) years' to 'indefinitely' creates a direct contradiction with Section 12, which states that the agreement terminates after two years. This creates confusion about how long the confidentiality obligations last, as Section 5 states indefinitely while Section 12 terminates the entire agreement after two years.",
+        "location": "Section 5",
+        "contradicted_location": "Section 12",
+        "contradicted_text": "12. This Agreement shall terminate two (2) years from the date first written above. Any amendment of this Agreement must be in writing and signed by authorized officials of each Party. No failure or delay in exercising any right under this Agreement shall operate as a waiver thereof.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the confidentiality period from 'two (2) years' to 'indefinitely'. Section 12 of the agreement states that 'This Agreement shall terminate two (2) years from the date first written above.' The changed text creates a direct contradiction with Section 12, as the confidentiality obligations, which are part of the agreement, are now stated to last indefinitely, while the agreement itself terminates after two years. This creates a strong in-text contradiction, which means it adheres to structural flaws definition, as the clause is placed in multiple locations with conflicting implications."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement shall terminate two (2) years from the date first written above.",
+        "changed_text": "This Agreement shall terminate two (2) years from the date first written above, unless both parties agree to extend the agreement in writing. Such extensions will be granted at the sole discretion of the receiving party.",
+        "explanation": "Modifying Section 12 to include 'unless both parties agree to extend the agreement in writing. Such extensions will be granted at the sole discretion of the receiving party,' introduces uncertainty. Section 5 specifies that the Information shall be treated as confidential for a period of two (2) years, and now it is creating an in-text contradiction in Section 12. One section specifies termination, while the other introduces the possibility of an indefinite extension, but the extension part will be granted at the discretion of the receiving party.",
+        "location": "Section 12",
+        "contradicted_location": "Section 5",
+        "contradicted_text": "5. The Information shall be treated as confidential and safeguarded hereunder by the Receiving Party for a period of two (2) years.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated a definitive termination date (two years). The changed text introduces an extension clause at the discretion of one party, contradicting the fixed termination date specified in the original text and also contradicting Section 5, which requires confidentiality for a specific two-year period. The possibility of extending the agreement indefinitely creates a direct conflict with the two-year confidentiality requirement."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "At the Disclosing Party's request, all Information of the Disclosing Party in tangible form, or any copies thereof, that is in the possession of the Receiving Party shall be returned to the Disclosing Party or destroyed.",
+        "changed_text": "At the Disclosing Party's request, all Information of the Disclosing Party in tangible form, or any copies thereof, that is in the possession of the Receiving Party may be returned to the Disclosing Party or destroyed, at the Receiving Party's sole discretion.",
+        "explanation": "By adding 'at the Receiving Party's sole discretion', we are contradicting the original obligation in Section 10 where the Receiving Party must return or destroy the information *At the Disclosing Party's request*. This change makes it optional for the Receiving Party to comply with the Disclosing Party's request, creating uncertainty on whether the Disclosing Party can fully control its information.",
+        "location": "Section 10",
+        "contradicted_location": "Section 10",
+        "contradicted_text": "10. At the Disclosing Party's request, all Information of the Disclosing Party in tangible form, or any copies thereof, that is in the possession of the Receiving Party shall be returned to the Disclosing Party or destroyed.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the Receiving Party 'shall' return or destroy information at the Disclosing Party's request. The changed text modifies this to state that the Receiving Party 'may' return or destroy information at their sole discretion. This directly contradicts Section 10, which mandates compliance with the Disclosing Party's request. The change introduces uncertainty and makes compliance optional, creating a strong in-text contradiction, as defined by structural flaws causing in-text contradictions."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Each Party agrees that it will not disclose the subject matter or terms of this Agreement or the discussion between the Parties without the written consent of the other Party.",
+        "changed_text": "Each Party agrees that it will not disclose the subject matter or terms of this Agreement or the discussion between the Parties without the written consent of the other Party, except as required by law or in legal proceedings.",
+        "explanation": "The addition of 'except as required by law or in legal proceedings' to Section 11 directly contradicts the previous statement requiring written consent from the other party for any disclosure. While Section 6 mentions disclosures required by court order, this addition broadens the exception significantly, potentially encompassing a wider range of disclosures without prior consent, thereby creating uncertainty about the scope of confidentiality.",
+        "location": "Section 11",
+        "contradicted_location": "Section 11",
+        "contradicted_text": "11. Each Party agrees that it will not disclose the subject matter or terms of this Agreement or the discussion between the Parties without the written consent of the other Party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an exception ('except as required by law or in legal proceedings') to the confidentiality clause in Section 11. This directly contradicts the original clause which states that disclosure is prohibited 'without the written consent of the other Party.' The addition creates a significant loophole, allowing for disclosures without consent, undermining the original intention of the confidentiality agreement. This constitutes a strong in-text contradiction under the definition of 'Structural Flaws - In Text Contradiction' as the clause is placed in multiple locations with conflicting implications."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "All Information related to the parties' business or technical discussions described in the Preamble to this Agreement that is disclosed by one Party (\"Disclosing Party\") to the other (\"Receiving Party\") shall be protected by the Receiving Party.",
+        "changed_text": "All Information related to the parties' business or technical discussions described in the Preamble to this Agreement that is disclosed by one Party (\"Disclosing Party\") to the other (\"Receiving Party\") shall be protected by the Receiving Party, unless such information relates to pre-existing intellectual property.",
+        "explanation": "Adding \"unless such information relates to pre-existing intellectual property\" to Section 2 creates an exception that was not present in the original agreement. This now contradicts the previously comprehensive statement that *all* information disclosed will be protected. This in-text contradiction generates uncertainty regarding whether pre-existing intellectual property is actually covered by the agreement and the obligations of the Receiving Party with respect to it. This could also contradict Section 9, which refers to the license or right is granted by the Disclosing Party to the Receiving Party under any patent, patent application, trademark, copyright, software or trade secret",
+        "location": "Section 2",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "2. All Information related to the parties' business or technical discussions described in the Preamble to this Agreement that is disclosed by one Party (\"Disclosing Party\") to the other (\"Receiving Party\") shall be protected by the Receiving Party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that \"All Information... shall be protected by the Receiving Party.\" The changed text adds \"unless such information relates to pre-existing intellectual property.\" This creates a direct contradiction, because the changed text now excludes pre-existing intellectual property from the protection, making the scope of protection narrower than originally stated. This directly contradicts the contradicted text, which states \"All Information... shall be protected by the Receiving Party\", regardless of the type of information."
+      }
+    ]
+  }
+]

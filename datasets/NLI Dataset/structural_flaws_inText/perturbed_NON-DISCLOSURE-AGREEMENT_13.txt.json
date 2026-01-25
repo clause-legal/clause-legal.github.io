@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "NON-DISCLOSURE-AGREEMENT_13.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "3.5. When this agreement comes to an end or written demand has been sent, confidential information must be returned to the other party , within 5 (five) business days of the expiry date or the date that the demand was received. Confidential information held in electronic format mus t be destroyed or deleted to protect its confidentiality .",
+        "changed_text": "3.5. When this agreement comes to an end or written demand has been sent, confidential information *may* be returned to the other party , within 5 (five) business days of the expiry date or the date that the demand was received. Confidential information held in electronic format *may* be destroyed or deleted to protect its confidentiality .",
+        "explanation": "This change replaces 'must' with 'may' in Section 3.5, regarding the return and destruction of confidential information. Originally, the text mandated the return/destruction of confidential information. The change introduces ambiguity, as it makes these actions optional, rather than obligatory, leading to uncertainty about the handling of sensitive information after the agreement's termination, that contradicts the need to protect the confidentiality.",
+        "location": "Section 3.5",
+        "contradicted_location": "Section 3.2",
+        "contradicted_text": "The Parties agree that: 3.1. they will disclose written or verbal information of a confidential nature about: 3.2. There will be no disclosure or use of confidential information, without permission, unless for internal business purposes. The confidential information is a valuable asset that belongs to the disclosing party . 3.3. Confidential information may be disclosed to any third party with prior written consent from both parties. Information may also be disclosed to employees and/or agents; or if required by law, and such employees and/or agents must bind themselves to this agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates the return and destruction of confidential information with 'must'. The changed text replaces 'must' with 'may', making these actions optional. This introduces a contradiction with the contradicted text (3.2) which specifies 'There will be no disclosure or use of confidential information, without permission'. By making the return/destruction of confidential information optional, the changed text contradicts the obligation to protect confidentiality, as there is no longer a guarantee that the confidential information will be handled securely after the agreement ends."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "3.6. No warranties, representations or undertakings will be valid or relied on, unless placed in writing and signed by both parties. No changes to this agreement will be valid or hav e force or effect unless placed in writing and signed by both parties.",
+        "changed_text": "3.6. No warranties, representations or undertakings will be valid or relied on, unless placed in writing and signed by both parties. Changes to this agreement can be made verbally and shall have force or effect if both parties agree.",
+        "explanation": "The change in section 3.6 introduces a contradiction, modifying the way the contract can be changed, from the original text that specified that changes to this agreement will not be valid or have force unless in writing and signed by both parties. It makes the verbal agreement possible, without requiring them to be written.",
+        "location": "Section 3.6",
+        "contradicted_location": "Section 3.6",
+        "contradicted_text": "3.6. No warranties, representations or undertakings will be valid or relied on, unless placed in writing and signed by both parties. Changes to this agreement can be made verbally and shall have force or effect if both parties agree.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that no changes to the agreement will be valid unless in writing and signed by both parties. The changed text modifies this, stating that changes can be made verbally if both parties agree. The contradicted text is the same as the changed text. This creates a direct contradiction because the original clause mandates written changes, while the modified clause allows for verbal changes, breaking compatibility and causing uncertainty."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "3.7. No party may directly or indirectly make an of fer employment to, or request an interest from an employee or agent of the other party , for a least 1 (one) year of signing this agreement and for at least 1 (one) year after its termination.",
+        "changed_text": "3.7. No party may directly or indirectly make an of fer employment to, or request an interest from an employee or agent of the other party , for a least 1 (one) year of signing this agreement. This restriction does not apply after the termination of this agreement.",
+        "explanation": "This perturbation directly contradicts the original stipulation in Section 3.7. Initially, the clause prohibited offering employment or soliciting interest from the other party's employees/agents for one year *after* the agreement's termination. The modified version removes this post-termination restriction, creating a contradiction about when the employment restriction is lifted.",
+        "location": "Section 3.7",
+        "contradicted_location": "Section 3.7",
+        "contradicted_text": "3.7. No party may directly or indirectly make an of fer employment to, or request an interest from an employee or agent of the other party , for a least 1 (one) year of signing this agreement. This restriction does not apply after the termination of this agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text prohibited offering employment or soliciting interest from the other party's employees/agents for one year *after* the agreement's termination. The modified version removes this post-termination restriction. The contradicted text is identical to the changed text, as the contradiction arises from the change itself. This change creates a direct contradiction regarding when the employment restriction is lifted, hence creating an in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "3.8. The Courts of the Republic of South Africa have jurisdiction over any dispute resulting from this agreement.",
+        "changed_text": "3.8. The Courts of the Republic of South Africa have jurisdiction over any dispute resulting from this agreement. However, both parties reserve the right to pursue arbitration as an alternative dispute resolution method.",
+        "explanation": "The added sentence in section 3.8 creates ambiguity by adding an option for arbitration, potentially conflicting with the original statement that the South African courts have jurisdiction. The original clause explicitly grants jurisdiction to the courts, and the new clause introduces uncertainty regarding the primary forum for dispute resolution, thus contradicting the idea of the court being a single point of resolution.",
+        "location": "Section 3.8",
+        "contradicted_location": "Section 3.8",
+        "contradicted_text": "3.8. The Courts of the Republic of South Africa have jurisdiction over any dispute resulting from this agreement. However, both parties reserve the right to pursue arbitration as an alternative dispute resolution method.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that the South African courts have jurisdiction over disputes. The changed text introduces arbitration as an alternative dispute resolution method. This creates a contradiction because it is now unclear whether disputes must be resolved in the South African courts, or whether the parties can choose arbitration. The contradiction lies in the introduction of uncertainty regarding the primary forum for dispute resolution, directly conflicting with the original explicit grant of jurisdiction to the South African courts. This aligns with the definition of Structural Flaws - In Text Contradiction, where a clause is placed in multiple locations with conflicting implications, creating uncertainty about the obligations and rights of each party."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "BT_NDA.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Notwithstanding whether or not the Proposed Transactions are concluded, the Receivi ng Party shall maintain the Confidential Information in confidence and in accordance with the terms of this Agreement for a period of five (5) years from the date of disclosure.",
+        "changed_text": "Regardless of whether or not the Proposed Transactions are concluded, the Receiving Party's obligation to maintain the Confidential Information in confidence and in accordance with the terms of this Agreement shall terminate immediately upon the public disclosure of similar information by a third party.",
+        "explanation": "By changing the termination condition of confidentiality, we create an in-text contradiction. Section 3.1 states that the receiving party shall maintain confidentiality for a period of five (5) years. However, the modified section states that the confidentiality agreement terminates immediately upon the public disclosure of similar information by a third party. This creates uncertainty about how long the receiving party needs to keep confidential information for.",
+        "location": "3.1",
+        "contradicted_location": "3.1",
+        "contradicted_text": "Term and Termination. Regardless of whether or not the Proposed Transactions are concluded, the Receiving Party's obligation to maintain the Confidential Information in confidence and in accordance with the terms of this Agreement shall terminate immediately upon the public disclosure of similar information by a third party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that confidentiality should be maintained for five years from the date of disclosure. The changed text states that the confidentiality agreement terminates immediately upon public disclosure by a third party. The contradicted text repeats this altered condition. This creates a direct conflict regarding the duration of the confidentiality obligation, making it a strong in-text contradiction as per the explanation provided and the definition of 'Structural Flaws - In Text Contradiction'."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Confidential Information must not be copied, reproduced, distribut ed, stored digitally or by other means, or passed to others at any time other than in accordance with this Confidentiality Agreement or with the prior written consent of Transnet.",
+        "changed_text": "The Confidential Information may be copied, reproduced, distributed, stored digitally or by other means, and passed to employees of the receiving party at any time to fulfill business objectives, without requiring prior written consent of Transnet, provided the receiving party employees are also bound by confidentiality obligations.",
+        "explanation": "By altering the restrictions on copying and distributing the confidential information, a contradiction is created. Section 3.9 says that the receiving party must not copy, reproduce, distribute, stored digitally or passed to others at any time other than in accordance with this confidentiality agreement or prior written consent. The modified section says that it MAY be copied, reproduced, distributed, stored digitally or passed to employees of the receiving party. This causes internal uncertainty about the usage of the information.",
+        "location": "3.9",
+        "contradicted_location": "3.9",
+        "contradicted_text": "Storage of Confidential Information. The Confidential Information may be copied, reproduced, distributed, stored digitally or by other means, and passed to employees of the receiving party at any time to fulfill business objectives, without requiring prior written consent of Transnet, provided the receiving party employees are also bound by confidentiality obligations.",
+        "contradiction_exists": "YES",
+        "justification": "The original text prohibits copying and distribution of confidential information without prior written consent. The changed text permits copying, reproduction, distribution, and storage of confidential information to employees of the receiving party without prior written consent. This directly contradicts the original restriction, causing internal uncertainty about the usage of the information. This is a strong contradiction and satisfies the criteria for structural flaws in text contradiction as the clause is present in multiple locations with conflicting implications."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Disclosing Party assumes no responsibility for any loss or damages suffered by the Receiving Party or any third party caused by or arising from the Confidential Information, and the Disclosing Party makes no warranties of any kind, whether express or implied, as to the accuracy or completeness of the Confidential Information.",
+        "changed_text": "The Disclosing Party guarantees the accuracy of the Confidential Information. The Disclosing Party assumes responsibility for any direct damages suffered by the Receiving Party directly caused by or arising from inaccuracies in the Confidential Information, up to a maximum amount of $10,000.",
+        "explanation": "By introducing a guarantee of accuracy and assuming responsibility for damages, the modified text directly contradicts the original clause that states the Disclosing Party assumes no responsibility and makes no warranties. The original text makes it clear that Transnet holds no liability, but the inserted text contradicts that by stating that they will assume responsibility for damages up to $10,000. This creates internal contradiction on who is responsible for losses or damages.",
+        "location": "1.5",
+        "contradicted_location": "1.5",
+        "contradicted_text": "No Warranties. The Disclosing Party guarantees the accuracy of the Confidential Information. The Disclosing Party assumes responsibility for any direct damages suffered by the Receiving Party directly caused by or arising from inaccuracies in the Confidential Information, up to a maximum amount of $10,000.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that the Disclosing Party guarantees accuracy and assumes responsibility for damages up to $10,000, which directly contradicts the contradicted text, which is identical to the changed text. The contradiction arises because the original text explicitly states that the Disclosing Party assumes no responsibility and makes no warranties. By introducing the guarantee and responsibility for damages, the modified text creates a clear and direct conflict, making the contract inconsistent."
+      }
+    ]
+  }
+]

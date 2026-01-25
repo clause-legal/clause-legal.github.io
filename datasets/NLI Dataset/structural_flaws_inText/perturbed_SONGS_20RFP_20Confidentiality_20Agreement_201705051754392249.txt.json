@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "SONGS%20RFP%20Confidentiality%20Agreement_201705051754392249.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "5. Exclusions . This Agreement imposes no obligation upon Recipient wi th respect to information that: (a) was rightfully in Recipient’s possession before receipt from the D isclosing Party; (b) is or becomes a matter of public knowledge through no fault of Recipient; (c) is rightfully received by Recipient from a third party without a duty of confidentiality; (d) is disclosed by Disclosing Party to a third party without duty of confidentiality on the third party; (e) is independently developed by Recipient; (f) is disclosed under operation of law; or (g) is disclosed by Recipient with Disclosing Party’s prior written approval.",
+        "changed_text": "5. Exclusions . This Agreement imposes no obligation upon Recipient wi th respect to information that: (a) was rightfully in Recipient’s possession before receipt from the D isclosing Party; (b) is or becomes a matter of public knowledge through no fault of Recipient; (c) is rightfully received by Recipient from a third party without a duty of confidentiality; (d) is disclosed by Disclosing Party to a third party without duty of confidentiality on the third party; (e) is independently developed by Recipient; (f) is disclosed under operation of law; or (g) is disclosed by Recipient with Disclosing Party’s prior written approval. This agreement imposes obligation upon Recipient with respect to information that includes a, b, c, d, e, f, and g.",
+        "explanation": "The original 'Exclusions' section lists conditions where the agreement does *not* apply. The added sentence completely contradicts this by stating the agreement *does* impose obligations on information falling under those same conditions. This creates a direct conflict within Section 5 and makes the exclusions meaningless.",
+        "location": "Section 5",
+        "contradicted_location": "Section 5",
+        "contradicted_text": "5. Exclusions . This Agreement imposes no obligation upon Recipient wi th respect to information that: (a) was rightfully in Recipient’s possession before receipt from the D isclosing Party; (b) is or becomes a matter of public knowledge through no fault of Recipient; (c) is rightfully received by Recipient from a third party without a duty of confidentiality; (d) is disclosed by Disclosing Party to a third party without duty of confidentiality on the third party; (e) is independently developed by Recipient; (f) is disclosed under operation of law; or (g) is disclosed by Recipient with Disclosing Party’s prior written approval. This agreement imposes obligation upon Recipient with respect to information that includes a, b, c, d, e, f, and g.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds a sentence stating the agreement *does* impose obligations on information previously excluded, directly contradicting the initial statement of Section 5 and making the exclusions meaningless. This is a clear in-text contradiction because it reverses the meaning of the 'Exclusions' section. The contradicted text is the same as the changed text, indicating the contradiction exists within the same section due to the added sentence."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "7. Return or Destruction. Recipient will return to the Disclosing Party , upon demand or in the event either Party ceases to be interested in pursuing the Purpose, all Confidential Information provided to Recipient, including all copies thereof which may have been made by or on behalf of Recipient, and Recipient shall destroy, or cause to be destroyed, all notes or memoranda or other stored information of any kind prepared by Recipient relating to the Confi dential Information or discussions generally.",
+        "changed_text": "7. Return or Destruction. Recipient will return to the Disclosing Party , upon demand or in the event either Party ceases to be interested in pursuing the Purpose, all Confidential Information provided to Recipient, including all copies thereof which may have been made by or on behalf of Recipient. Recipient is under no obligation to destroy, or cause to be destroyed, all notes or memoranda or other stored information of any kind prepared by Recipient relating to the Confi dential Information or discussions generally.",
+        "explanation": "The original clause mandates the return *and* destruction of confidential information. The modification states that the Recipient is under no obligation to destroy the information, therefore, contradicting the previous statement, by introducing doubt about whether destruction is mandatory.",
+        "location": "Section 7",
+        "contradicted_location": "Section 7",
+        "contradicted_text": "7. Return or Destruction. Recipient will return to the Disclosing Party , upon demand or in the event either Party ceases to be interested in pursuing the Purpose, all Confidential Information provided to Recipient, including all copies thereof which may have been made by or on behalf of Recipient. Recipient is under no obligation to destroy, or cause to be destroyed, all notes or memoranda or other stored information of any kind prepared by Recipient relating to the Confi dential Information or discussions generally.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates both the return and destruction of confidential information. The changed text removes the mandatory destruction obligation, explicitly stating the recipient is under no obligation to destroy the information. The contradicted text is the same as the changed text, but this doesn't remove the contradiction. The change from a mandatory requirement to no requirement creates a direct conflict regarding the recipient's obligations, leading to an in-text contradiction according to the definition of Structural Flaws - In Text Contradiction, where the same clause has conflicting implications based on its original form and modified state."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "11. Waiver . In no event shall either P arty be liable to the other for consequential, special, indirect, incidental, punitive or exemplary loss, damage , or expense relating to this Agreement.",
+        "changed_text": "11. Waiver . Either Party shall be liable to the other for consequential, special, indirect, incidental, punitive or exemplary loss, damage , or expense relating to this Agreement.",
+        "explanation": "The original clause states that in *no* event shall either party be liable for certain types of damages. This is completely reversed by deleting “In no event”. Now, both parties *are* liable for those same damages. This is an obvious and direct contradiction within the clause itself.",
+        "location": "Section 11",
+        "contradicted_location": "Section 11",
+        "contradicted_text": "11. Waiver . Either Party shall be liable to the other for consequential, special, indirect, incidental, punitive or exemplary loss, damage , or expense relating to this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated 'In no event shall either Party be liable...' while the changed text states 'Either Party shall be liable...'. This is a direct reversal of the liability clause. The changed text and contradicted text are the same, indicating a direct in-text contradiction within the clause. Since the original text explicitly prohibited liability and the changed text explicitly allows it, there's a clear contradiction. This adheres to the definition of Structural Flaws - In Text Contradiction, where a clause is placed in multiple locations (in this case, the clause itself before and after the change) with conflicting implications."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "12. Entire Agreement . This Agreement embodies the entire understanding between the P arties pertaining to the subject matter hereof. Any additions or modifications to this Agreement must be made in writing and must be signed by both P arties.",
+        "changed_text": "12. Entire Agreement . This Agreement embodies the entire understanding between the P arties pertaining to the subject matter hereof. Any additions or modifications to this Agreement can be made orally and do not require signatures from both Parties.",
+        "explanation": "The original clause explicitly requires any modifications to be in writing and signed. The modified clause states the exact opposite - that modifications can be oral and unsigned, which is a contradiction of the previous statement. This is a direct contradiction of the essential modification procedures.",
+        "location": "Section 12",
+        "contradicted_location": "Section 12",
+        "contradicted_text": "12. Entire Agreement . This Agreement embodies the entire understanding between the P arties pertaining to the subject matter hereof. Any additions or modifications to this Agreement can be made orally and do not require signatures from both Parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that modifications must be in writing and signed, whereas the changed text states that modifications can be oral and do not require signatures. The contradicted text is identical to the changed text. This creates a direct contradiction within the contract because both sections (the changed clause and contradicted clause) are located in the same place in the contract, highlighting a clear incompatibility regarding how modifications to the agreement can be made. This directly corresponds to the Structural Flaws - In Text Contradiction definition."
+      }
+    ]
+  }
+]

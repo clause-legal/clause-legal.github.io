@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "non-disclosure_confidentiality_agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "1.1 “ Confidential Information ” means any data, documents, specifications, and other information or materials in whatever form disc losed by the OSCE to the Recipient, whether documentary, orally, visually, or otherwise (includi ng computerised form) except information which was: (a) in the public domain at the time of disclos ure; (b) known to the Recipient prior to obtaining the same pursuant to this Confid entiality Agreement; or, (c) obtained by the Recipient from a third party who did not receive the same directly or indirectly from the OSCE under a confidentiality agreement with the OSCE, or (d) required by applicable law;",
+        "changed_text": "1.1 “ Confidential Information ” means any data, documents, specifications, and other information or materials in whatever form disc losed by the OSCE to the Recipient, whether documentary, orally, visually, or otherwise (includi ng computerised form) regardless of whether such information was: (a) in the public domain at the time of disclos ure; (b) known to the Recipient prior to obtaining the same pursuant to this Confid entiality Agreement; or, (c) obtained by the Recipient from a third party who did not receive the same directly or indirectly from the OSCE under a confidentiality agreement with the OSCE, or (d) required by applicable law;",
+        "explanation": "By removing the exception clause, the definition of 'Confidential Information' now includes information that was previously excluded (e.g., information in the public domain). This contradicts section 2.1, which outlines the recipient's obligations regarding 'Confidential Information.' Now, the recipient is obligated to protect information that was previously considered outside the scope of the agreement, creating uncertainty about the scope of their obligations.",
+        "location": "1.1",
+        "contradicted_location": "2.1",
+        "contradicted_text": "2.1 In respect to the Confidential Inform ation, the Recipient hereby undertakes; 2.1.1 to hold in trust and confidence and not to disclose the Confidential Information to any third party without the express, prior written consent of the OSCE. 2.1.2 not to use the Confidential Information fo r any purpose whatsoever other than for the Permitted Purpose. 2.1.3 only to disclose the Conf idential Information to employees of companies directly or indirectly owned or controlled by the Recipi ent, consultants and/or advisors to whom disclosure is necessary for the Permitted Pur pose and then only on the understanding that such employees, consultants and/or advisors ar e expressly subject to the provisions of this Confidentiality Agreement. 2.1.4 not at any time other than to the extent that is necessary for the Permitted Purpose to make copies of or reduce the Confidential Informa tion to any electronic form or to store it in a database or other electronic media. 2.1.5 to comply with all requirements of th e OSCE for the security of the Confidential Information. 2.1.6 to treat Confidential Information as being confidential and proprietary to the OSCE by using the same degree of care, but in any case no less than a reasonable degree of care, to prevent unauthorised use, dissemination or publication thereof, as it uses to protect its own Confidential Information of a similar nature. 2.1.7 upon demand of the OSCE, to promptly return all Confidential Information (in whatever medium), together with all copies th ereof or, where expressly authorised in writing by the OSCE, to destroy or delete all such C onfidential Information and shall confirm to the OSCE in writing that such destruction or deletion has taken place.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies exceptions to the definition of 'Confidential Information' (e.g., information in the public domain). The changed text removes these exceptions, broadening the definition. This directly contradicts section 2.1, which outlines the recipient's obligations concerning 'Confidential Information.' Now, section 2.1 applies to information that was previously excluded, creating a direct and impactful conflict because the recipient now has to protect information they previously did not."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "1.4 “ Permitted Purpose ” means the use of the Confidential In formation to facilitate the Recipient performing the Services;",
+        "changed_text": "1.4 “ Permitted Purpose ” means any use of the information, confidential or otherwise, as deemed appropriate by the Recipient.",
+        "explanation": "The original definition of 'Permitted Purpose' restricts the use of 'Confidential Information' to facilitating the Recipient's Services for the OSCE. By broadening the definition to 'any use...as deemed appropriate by the Recipient', it contradicts section 2.1.2, which explicitly states the Recipient shall 'not to use the Confidential Information fo r any purpose whatsoever other than for the Permitted Purpose.' This creates uncertainty about whether the Recipient is bound by the original restriction or has broader discretion.",
+        "location": "1.4",
+        "contradicted_location": "2.1.2",
+        "contradicted_text": "2.1.2 not to use the Confidential Information fo r any purpose whatsoever other than for the Permitted Purpose.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text broadens the definition of \"Permitted Purpose\" to include \"any use...as deemed appropriate by the Recipient.\" This directly contradicts section 2.1.2, which restricts the use of Confidential Information to only the original \"Permitted Purpose,\" which was for the Recipient performing the Services. The new definition allows for uses beyond the original scope, creating a clear conflict with the restriction in section 2.1.2."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "2.1.1 to hold in trust and confidence and not to disclose the Confidential Information to any third party without the express, prior written consent of the OSCE.",
+        "changed_text": "2.1.1 to hold in trust and confidence and not to disclose the Confidential Information to any third party, even with the express, prior written consent of the OSCE.",
+        "explanation": "By changing 'without the express, prior written consent of the OSCE' to 'even with the express, prior written consent of the OSCE.', the Recipient is now completely restricted from sharing information with third parties, irrespective of the OSCE's approval. This conflicts with Section 9.1, which allows for disclosure with prior written consent, creating uncertainty.",
+        "location": "2.1.1",
+        "contradicted_location": "9.1",
+        "contradicted_text": "9.1 Non-Disclosure. The Parties agree that each of them shall not, without the prior consent of the other in writing, disclose to any third party th e terms of this Confidentiality Agreement, or the content, nature or extent of the discu ssions proceeding in connection herewith.",
+        "contradiction_exists": "YES",
+        "justification": "The original text in Section 2.1.1 allowed disclosure of Confidential Information to third parties with the OSCE's express prior written consent. The changed text in Section 2.1.1 now prohibits disclosure to any third party, even with the OSCE's consent. This directly contradicts Section 9.1, which allows disclosure to third parties with prior written consent, creating a strong in-text contradiction. The change removes the possibility of disclosure under any circumstances, creating a direct conflict, which qualifies as a structural flaw in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "6 SETTLEMENT OF DISPUTES The Parties shall use their best efforts to settle am icably all disputes arising out of or in connection with the Contract or its interpretation. Any dispute, controversy or claim arising out of or in relation to the Contract shall be settled through negotiations be tween the Parties. If the Parties fail to settle the dispute amicably within sixty (60) Days of comme ncement of the negotiations, the dispute shall be settled through arbitration. Arb itration shall be performed in accordance with the UNCITRAL arbitration rules. One (1) sole arbitrator shall be appointed who shall have full powers to make final and binding decisions. The appointing authority shall be the Permanent Court of Arbitration at The Hague. The place of arbitration shall be Vienna and the language used in the arbitration proceedings shall be English.",
+        "changed_text": "6 SETTLEMENT OF DISPUTES The Parties agree that any and all disputes arising from this agreement will be decided solely at the discretion of the OSCE, with no requirement for negotiation or arbitration.",
+        "explanation": "The original clause mandates negotiation and arbitration for dispute resolution. The changed clause grants the OSCE sole discretion over dispute resolution, eliminating negotiation and arbitration. This directly contradicts the original requirement for arbitration after a 60-day negotiation period, thus creating an in-text contradiction.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "6 SETTLEMENT OF DISPUTES The Parties agree that any and all disputes arising from this agreement will be decided solely at the discretion of the OSCE, with no requirement for negotiation or arbitration.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates negotiation and arbitration, while the changed text gives the OSCE sole discretion, removing negotiation and arbitration. Since the Change Text and Contradicted Text are identical, the Change Text directly and irreconcilably clashes with the original text's outlined procedures, leading to a strong in-text contradiction as it eliminates previously agreed upon steps for dispute resolution."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "9.5 Governing Law. This Confidentiality Agre ement shall be governed by, and construed in accordance with, the substantive laws of the Republic of Austria.",
+        "changed_text": "9.5 Governing Law. This Confidentiality Agreement shall be governed by the laws of any jurisdiction chosen at the sole discretion of the OSCE.",
+        "explanation": "Originally, the governing law was explicitly the substantive laws of the Republic of Austria. The modified clause introduces uncertainty by allowing the OSCE to choose any jurisdiction's laws. This creates a direct conflict with the original clause, as the applicable legal framework is no longer fixed or certain. This directly contradicts the agreement being governed by the laws of Austria, instead it can be governed by any law chosen by the OSCE.",
+        "location": "9.5",
+        "contradicted_location": "9.5",
+        "contradicted_text": "9.5 Governing Law. This Confidentiality Agreement shall be governed by the laws of any jurisdiction chosen at the sole discretion of the OSCE.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that the Confidentiality Agreement is governed by the laws of the Republic of Austria. The changed text allows the OSCE to choose any jurisdiction's laws, which directly conflicts with the original specification. This introduces uncertainty and a clear contradiction, as the agreement can no longer be said to be definitively governed by Austrian law, thus triggering the 'Structural Flaws - In Text Contradiction' definition. The Contradicted Text is the Changed Text, which doesn't matter, as the Change causes a contradiction."
+      }
+    ]
+  }
+]

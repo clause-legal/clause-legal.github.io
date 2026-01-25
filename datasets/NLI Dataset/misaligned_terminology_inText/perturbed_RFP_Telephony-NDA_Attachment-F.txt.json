@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "RFP_Telephony-NDA_Attachment-F.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Confidential information (“Information”) means and includes, but is not limited to, the additional confidential and proprietary intell ectual property regard ing existing installations that is provided by the State Bar after submission of this agreemen t.",
+        "changed_text": "Protected data (“Information”) means and includes only personally identifiable information (PII).",
+        "explanation": "The original definition of 'Confidential information' is broad, encompassing intellectual property related to existing installations. The modified definition narrows it to 'personally identifiable information (PII)'. This creates a contradiction because subsequent references to 'Information' will be ambiguous. Is the restriction that the company should protect only the PII or any confidential information that it has access to? Which creates uncertainty in enforcement.",
+        "location": "Attachment F, Paragraph 1",
+        "contradicted_location": "Attachment F, Paragraph 1",
+        "contradicted_text": "All Information disclosed by the State Bar is and at all times will remain the sole and exclusiv e property of the State Ba r. Without the State Bar’s prior written consent, Company will not: (i) disclose to any person or entity the substance or import of the Information; (ii) use any Info rmation to access or obtain additional information outside the purpose contemplated by this NDA; (iii) duplicate, di stribute or otherwise reproduce any Information in any way.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines 'Confidential information' broadly. The changed text narrows the definition to 'personally identifiable information (PII)'. The contradicted text states 'All Information disclosed by the State Bar is and at all times will remain the sole and exclusive property of the State Bar', and imposes restrictions on its use and disclosure. Because the definition of Information is narrowed, the company might now only be required to protect PII, while the State Bar expects broader protections on all information it discloses, creating a contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Company agrees that it will reta in all Information provided in connection with the RFP in the strictest confidence, and will neither use nor di sclose such Information to anyone other than those who, in each case, need to know the Information for the purpose of responding to this RFP.",
+        "changed_text": "Company agrees that it will retain all Data provided in connection with the RFP with reasonable security measures, and will neither use nor disclose such Data to anyone other than those who, in each case, need to know the Information for the purpose of responding to this RFP.",
+        "explanation": "Here, 'Information' is changed to 'Data'. However, later in the same sentence, the text refers back to 'Information'. It is unclear whether 'Data' and 'Information' are the same concept, creating a contradiction. The company has to secure the 'Data', but need to know the 'Information'. It creates a potential problem with who or what the company has to protect. Also what is 'reasonable security measures'.",
+        "location": "Attachment F, Paragraph 1",
+        "contradicted_location": "Attachment F, Paragraph 1",
+        "contradicted_text": "Company agrees that it will retain all Data provided in connection with the RFP with reasonable security measures, and will neither use nor disclose such Data to anyone other than those who, in each case, need to know the Information for the purpose of responding to this RFP.",
+        "contradiction_exists": "YES",
+        "justification": "The change replaces 'Information' with 'Data' but then refers back to 'Information' later in the same sentence. This creates a contradiction because it's unclear if 'Data' and 'Information' are meant to be the same thing. The company is required to secure the 'Data', but the people who 'need to know' are accessing the 'Information'. Since the Contradicted text and Changed text are located in the same place in the document, and since the explanation points out that these terms are used differently from each other, and that they contradict each other, this is a strong in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Company acknowledges and agrees that the reme dy at law for any breach of this NDA is inadequate and that, in additi on to monetary damages, including but not limited to special, incidental, consequential or puniti ve damages, and any other avai lable relief at law, whether based in contract, tort or otherwise, the State Bar will be entitled to specific performance, injunctive relief or any other eq uitable remedy without the need to (i) prove actual damages and/or (ii) post any bond or other security deposit in connection with such remedy.",
+        "changed_text": "Company acknowledges and agrees that monetary damages shall be the sole remedy for any breach of this agreement, and the State Bar waives any right to seek injunctive relief or specific performance.",
+        "explanation": "The original text states that monetary damages are *inadequate* and the State Bar is entitled to equitable remedies like injunctions. The modified text states that monetary damages are the *sole* remedy and explicitly waives the right to equitable remedies. This creates a direct contradiction regarding available remedies, changing the original NDA agreement.",
+        "location": "Attachment F, Paragraph 2",
+        "contradicted_location": "Attachment F, Paragraph 2",
+        "contradicted_text": "Company acknowledges and agrees that monetary damages shall be the sole remedy for any breach of this agreement, and the State Bar waives any right to seek injunctive relief or specific performance.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that monetary damages are inadequate and the State Bar is entitled to equitable remedies. The changed text explicitly states that monetary damages are the sole remedy and waives the right to equitable remedies. The contradicted text is identical to the changed text, therefore, the changed text does in fact strongly contradict what the original text stipulated, leading to an in-text contradiction within the document."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Notwithstanding the foregoing, this NDA will no t prohibit Company from disclosing any Information if required by an appropriate legal or regulatory author ity, provided that, prior to any disclosure: (iii) Company provides the State Bar with prompt written notice of the required disclosure so that the State Bar may seek such protective order as it may deem appropriate; and (iv) disclosure of any Information is limited only to the extent legally required and Company uses its best efforts to obtain assurances that confidential treatment will be accorded such disclosed Information.",
+        "changed_text": "Notwithstanding the foregoing, the terms of this agreement shall not prevent Company from disclosing PII as may be compelled by law or regulatory requirements.",
+        "explanation": "The original text requires *prompt written notice* to the State Bar before disclosing *any* 'Information', allowing them to seek a protective order. It also requires limiting disclosure and seeking assurances of confidential treatment. The modified text removes the notice requirement and applies only to 'PII' (potentially narrower than 'Information'), stating the terms of the agreement doesn't prevent it from being disclosed as may be compelled by law. This introduces a direct contradiction by removing the notification requirement. Also it may be argued since PII definition was added to what was considered the 'Information', and there are other information the company might have access to, now the State Bar would not need to be notified for the potential leaks in other areas.",
+        "location": "Attachment F, Paragraph 2",
+        "contradicted_location": "Attachment F, Paragraph 2",
+        "contradicted_text": "Notwithstanding the foregoing, the terms of this agreement shall not prevent Company from disclosing PII as may be compelled by law or regulatory requirements.",
+        "contradiction_exists": "YES",
+        "justification": "The original text necessitates 'prompt written notice' to the State Bar before disclosing *any* 'Information'. The modified text, however, removes this notice requirement and restricts it solely to 'PII', and states that the terms of the agreement shall not prevent the disclosure. Since the contradicted text is the same as the changed text, there's a strong in-text contradiction because the original text's requirements and scope are significantly altered, causing a conflict by removing prior obligations."
+      }
+    ]
+  }
+]

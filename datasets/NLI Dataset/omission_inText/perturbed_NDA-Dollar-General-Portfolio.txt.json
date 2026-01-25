@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "NDA-Dollar-General-Portfolio.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Buyer shall at all times conduct its due diligence review, inspections and examinations in a manner so as to not cause damage, loss, cost or expense to Owner, the Property or the tenants of the Property and so as to not interfere with or disturb any tenant at the Property, and Buyer will indemnify, protect, defend, and hold Owner and the Property harmless from and against any such breach of this Agreement. Without limitation on the foregoing, in no event shall Buyer contact any tenant of the Property without Owner’s express written consent.",
+        "changed_text": "Buyer shall at all times conduct its due diligence review, inspections and examinations in a manner so as to not cause damage, loss, cost or expense to Owner, the Property or the tenants of the Property and so as to not interfere with or disturb any tenant at the Property, and Buyer will indemnify, protect, defend, and hold Owner and the Property harmless from and against any such breach of this Agreement.",
+        "explanation": "By removing the specific clause stating 'in no event shall Buyer contact any tenant of the Property without Owner’s express written consent,' the contract implies, even though it doesn't explicitly state, that contacting tenants might be permissible. This omission introduces uncertainty and contradicts the general intent to protect tenants. If the Due Diligence section fails to mention tenant contact restrictions, yet the 'Release and Waiver of Warranties and Claims' section refers to the 'Confidential Materials and Audit', the audit, which could include tenant interactions, lacks proper guidelines, thus creating ambiguity.",
+        "location": "6",
+        "contradicted_location": "5",
+        "contradicted_text": "As part of Buyer’s agreement to accept and use the Confidential Materials and Audit as such use is defined herein, and as consideration for the release of the Confidential Materials by Owner, BUYER HEREBY WAIVES ANY AND ALL ACTUAL OR POTENTIAL RIGHTS, CLAIMS, CAUSES OF ACTION OR DEMAND BUYER MIGHT HAVE REGARDING ANY FORM OF WARRANTY, EXPRESS OR IMPLIED, OF ANY KIND OR TYPE, RELATING TO THE CONFIDENTIAL MATERIALS.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly prohibited the Buyer from contacting tenants without the Owner's consent. The changed text removes this prohibition, implying that tenant contact may be permissible under certain circumstances. This contradicts the 'Release and Waiver of Warranties and Claims' section, which references 'Confidential Materials and Audit'. If the audit, which could include tenant interactions, lacks proper guidelines due to the removal of the explicit prohibition, it creates ambiguity and uncertainty regarding the Buyer's responsibilities and the scope of the waiver, fulfilling the definition of 'Omissions – In Text Contradiction'."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Buyer has been advised that The Kase Group (“TKG”) is acting on behalf of Owner as broker (“Broker”) in connection with the proposed sale of the Property, and Owner has agreed to pay a commission to TKG upon a sale of the Property in accordance with a separate agreement between Owner and TKG. In the event the sale of the Property is consummated and the Buyer represented by a Buyer’s Broker as disclosed herein, TKG shall pay to Buyer’s Broker per a separate agreement out of the commissions received by TKG from Owner. Buyer and Buyer’s Broker agree to indemnify and hold harmless TKG and Owner, their respective affiliates, partners, subsidiaries, reasonable attorney’s fees arising out of any claim or claims by any broker, finder or similar agent (including but not limited to Broker) for commissions, fees or other",
+        "changed_text": "Buyer has been advised that The Kase Group (“TKG”) is acting on behalf of Owner as broker (“Broker”) in connection with the proposed sale of the Property, and Owner has agreed to pay a commission to TKG upon a sale of the Property in accordance with a separate agreement between Owner and TKG. Buyer and Buyer’s Broker agree to indemnify and hold harmless TKG and Owner, their respective affiliates, partners, subsidiaries, reasonable attorney’s fees arising out of any claim or claims by any broker, finder or similar agent (including but not limited to Broker) for commissions, fees or other",
+        "explanation": "By removing the sentence 'In the event the sale of the Property is consummated and the Buyer represented by a Buyer’s Broker as disclosed herein, TKG shall pay to Buyer’s Broker per a separate agreement out of the commissions received by TKG from Owner', it creates ambiguity about how Buyer's Broker is compensated. This is now contradictive, since it is still mentioning the Buyer's Broker in the sentence right after the omission.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "Buyer and Buyer’s Broker agree to indemnify and hold harmless TKG and Owner, their respective affiliates, partners, subsidiaries, reasonable attorney’s fees arising out of any claim or claims by any broker, finder or similar agent (including but not limited to Broker) for commissions, fees or other 3288 Steiner Street, Suite 201, San Francisco, CA 94123 EMAIL: jgates@thekasegroup.com | TEL: 415.231.5231 | FAX: 925.406.0813 | www.thekasegroup.com compensation for bringing about any sale of the Property.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly stated that TKG would pay the Buyer's Broker out of commissions received. The changed text removes this statement. However, the contradicted text still mentions 'Buyer and Buyer's Broker' agreeing to indemnify, which implies the existence of a Buyer's Broker and potentially their compensation. Removing the explicit payment agreement creates ambiguity and a potential contradiction, as it is unclear how the Buyer's Broker is compensated, leading to a strong contradiction that would cause confusion about the arrangement."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Buyer shall be responsible for their broker’s confidentiality in regards to the Confidential Materials.",
+        "changed_text": "Buyer shall be responsible for confidentiality in regards to the Confidential Materials.",
+        "explanation": "By removing the word 'broker’s' the clause becomes vague. Previously it explicitly stated the buyer was responsible for ensuring their brokers respected the confidentialy of the documents, now that is removed, it can be intrepreted that buyer is only responsible for it's own confidentiality. However, going back to point 3. Non-Disclosure of Confidential Materials, it states the Buyer is responsible for all of its Representatives, thus contradicting with this point 9. Miscellaneous where its own broker is not explicitally named.",
+        "location": "9",
+        "contradicted_location": "3",
+        "contradicted_text": "Buyer shall be responsible for any breach of this Agreement by any of its Representatives.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly held the buyer responsible for their broker's confidentiality regarding confidential materials. The changed text removes 'broker’s', making the clause less specific. The contradicted text states that the buyer is responsible for any breach by its Representatives. Because the term 'Representatives' is broad enough to include brokers and the changed text is now less explicit about the buyer's responsibility for their broker's confidentiality, this creates a contradiction. The omission in the changed text weakens the buyer's explicit obligation regarding brokers, which conflicts with the broader responsibility for 'Representatives' as stated in the contradicted text. The explanation provided confirms this contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Except as otherwise provided in this Agreement, Owner and Buyer agree that the covenants, warranties and representations contained herein shall survive the completion of the services and the termination of this Agreement.",
+        "changed_text": "Owner and Buyer agree that the covenants, warranties and representations contained herein shall survive the completion of the services and the termination of this Agreement.",
+        "explanation": "By removing the caveat 'Except as otherwise provided in this Agreement', it creates an ambiguity with the Disclaimer of Warranty and Release and Waiver of Warranties clauses. The original agreement allowed exceptions to the covenants, now that this exception clause has been removed, all previous clauses are now being contradicted.",
+        "location": "9",
+        "contradicted_location": "4",
+        "contradicted_text": "Neither Owner nor its Representatives has made or makes any representation or warranty regarding the accuracy or completeness of the Confidential Materials. 3288 Steiner Street, Suite 201, San Francisco, CA 94123 EMAIL: jgates@thekasegroup.com | TEL: 415.231.5231 | FAX: 925.406.0813 | www.thekasegroup.com Buyer agrees that neither Owner nor its Representatives shall have any liability to Buyer or any of its Representatives resulting from Buyer’s use of the Confidential Materials, except as may be expressly set forth in a definitive written agreement, between the parties hereto with respect to a Transaction in accordance with the terms hereof.",
+        "contradiction_exists": "YES",
+        "justification": "The original text had an exception clause ('Except as otherwise provided in this Agreement') which allowed for certain warranties or representations to not survive the completion of services or termination of the agreement. The changed text removes this exception. The contradicted text explicitly disclaims any representation or warranty regarding the accuracy or completeness of confidential materials, and states that Owner has no liability to Buyer. By removing the exception in the Changed Text, this now directly contradicts the disclaimer in the Contradicted Text, because the covenants, warranties, and representations are stated to survive termination without exception."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "No change or modification of, or waiver under, this Agreement shall be valid unless it is in writing and signed by duly authorized representatives of Owner and Buyer.",
+        "changed_text": "No change or modification of, or waiver under, this Agreement shall be valid unless it is signed by duly authorized representatives of Owner and Buyer.",
+        "explanation": "By removing 'it is in writing and', it makes the clause contradictive. Since its not stating that changes must be in writing, it can be said that verbal agreements can be valid. This contradicts all previously defined clauses that state that any modification requires a written agreement.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "This Agreement constitutes the entire agreement of the parties concerning its subject matter. There are no promises or other agreements, oral or written, express or implied, between them other than as set forth in this Agreement concerning the subject matter of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that any changes to the agreement must be 'in writing and signed'. The changed text removes the requirement of changes to be 'in writing'. The contradicted text states that 'There are no promises or other agreements, oral or written... other than as set forth in this Agreement'. By removing the requirement for written changes, the changed text introduces the possibility of valid oral agreements, which directly contradicts the contradicted text's assertion that all agreements must be set forth in writing within the Agreement itself. This aligns with the 'Omissions - In Text Contradiction' definition because essential language was removed, creating a contradiction."
+      }
+    ]
+  }
+]

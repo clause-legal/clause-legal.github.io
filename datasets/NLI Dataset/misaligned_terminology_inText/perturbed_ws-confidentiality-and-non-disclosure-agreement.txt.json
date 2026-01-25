@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "ws-confidentiality-and-non-disclosure-agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "“Confidential information” means any information, electronic data and/or documents relating to the Protectable Interests which are not readily available to a competitor of the parties in the ordinary and regular c ourse of business;",
+        "changed_text": "“Confidential information” means any information, electronic data and/or documents which are not readily available to a competitor of the parties in the ordinary and regular c ourse of business;",
+        "explanation": "Removing “relating to the Protectable Interests” from the definition of 'Confidential Information' broadens the definition too much. This creates an in-text contradiction because the contract repeatedly refers to 'Confidential Information' in the context of protecting 'Protectable Interests'; the change implies other data could also now be included",
+        "location": "1.1.4",
+        "contradicted_location": "2.3",
+        "contradicted_text": "The parties further acknowledg e that each party’s Protectable Interests are legitimate proprietary and commercial interests which each party is entitled to protect.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined 'Confidential Information' as being 'relating to the Protectable Interests'. The changed text broadens this definition by removing that qualifier. This creates an in-text contradiction with the contradicted text, which states that 'Protectable Interests are legitimate proprietary and commercial interests which each party is entitled to protect.' The change implies that 'Confidential Information' now encompasses information beyond just those protectable interests, weakening the intended protection and creating a contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "In the intere st of the protection and maintenance of the Protectable Interests, each party undertakes that it shall not, at any time whatsoever and notwithstanding the termination of the business relationship and/or negotiations between the parties for whatsoever reaso n, without the prior written consent of the other party:",
+        "changed_text": "In the intere st of the protection and maintenance of the Proprietary Data, each party undertakes that it shall not, at any time whatsoever and notwithstanding the termination of the business relationship and/or negotiations between the parties for whatsoever reaso n, without the prior written consent of the other party:",
+        "explanation": "Changing 'Protectable Interests' to 'Proprietary Data' creates a contradiction because the contract specifically defines “Protectable Interests” in clause 1.1.6. Replacing it with an undefined term makes it unclear exactly what is being protected.",
+        "location": "3.1",
+        "contradicted_location": "1.1.6",
+        "contradicted_text": "“the Protectable Interests” means collectively each party’s goodwill, its trade secrets, its t rade connections, its confidential information and its knowledge and know -how including (without limiting the generality of the aforegoing) information, documents and/or data relating to:",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'Protectable Interests,' which is a defined term in the contract (clause 1.1.6), as stated in the explanation and demonstrated by the Contradicted Text. The changed text replaces this defined term with 'Proprietary Data,' which is not defined, creating a contradiction because the scope of what is protected becomes unclear and inconsistent with the defined meaning of 'Protectable Interests.' This directly conflicts with the contradicted text, which relies on the existence and definition of 'Protectable Interests'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The parties acknowledge that the unauthorized disclosure of the Confidential Information of the other party to a third party may cause irreparable loss, harm and damage to the party to whom the Confidential Information belongs and each party therefore indemnifies and holds the other party harmless against any loss, action, expense, claim, harm or damage, of whatever nature, sustained (whether directly or indirectly) by a party as a result of the party’s breach of its obligations in terms of this agreement.",
+        "changed_text": "The parties acknowledge that the unauthorized disclosure of the Sensitive Data of the other party to a third party may cause irreparable loss, harm and damage to the party to whom the Sensitive Data belongs and each party therefore indemnifies and holds the other party harmless against any loss, action, expense, claim, harm or damage, of whatever nature, sustained (whether directly or indirectly) by a party as a result of the party’s breach of its obligations in terms of this agreement.",
+        "explanation": "Changing 'Confidential Information' to 'Sensitive Data' introduces ambiguity. 'Confidential Information' is defined in the contract, while 'Sensitive Data' is not. This creates an in-text contradiction, making it uncertain which information the indemnity clause applies to, also it creates a shift in context due to the previous Perturbation.",
+        "location": "3.3",
+        "contradicted_location": "1.1.4",
+        "contradicted_text": "“Confidential information” means any information, electronic data and/or documents which are not readily available to a competitor of the parties in the ordinary and regular c ourse of business;",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Confidential Information' to 'Sensitive Data' introduces a contradiction because 'Confidential Information' is a defined term within the contract, while 'Sensitive Data' is not. This creates uncertainty regarding which data is covered by the indemnity clause, thus contradicting the section that explicitly defines 'Confidential Information'. The Misaligned Terminology leads to an in-text contradiction by using a new term interchangeably without defining it, conflicting with the already defined 'Confidential Information'."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "ELANDIAINTERNATIONALINC_04_25_2007-EX-10.21-Outsourcing Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "\"Material Breach\" includes (but is not necessarily limited to) the occurrence of any or more of the following: (i) a breach, or series of breaches, of this agreement which causes a substantial disruption to the Services; or (ii) an accumulation of breaches which places unreasonable burdens on the BSP Personnel, or (iii) Datec commits a breach which at common law would justify termination of this agreement, or (iv) Datec commits multiple breaches of this agreement occurring within a 6 month period; or (v) Datec fails to comply with the Transition Plan.",
+        "changed_text": "\"Material Breach\" may include the occurrence of any or more of the following: (i) a breach, or series of breaches, of this agreement which causes a substantial disruption to the Services; or (ii) an accumulation of breaches which places unreasonable burdens on the BSP Personnel, or (iii) Datec commits a breach which at common law would justify termination of this agreement, or (iv) Datec commits multiple breaches of this agreement occurring within a 6 month period; or (v) Datec fails to comply with the Transition Plan.",
+        "explanation": "Changing 'includes (but is not necessarily limited to)' to 'may include' makes the definition of 'Material Breach' less definitive. Originally, the listed items were examples within a broader, undefined set of possibilities. By using 'may include,' the listed items become potentially exhaustive, suggesting that only those breaches qualify as 'Material Breach.' This contradicts Section 14.1(a), which allows termination for 'Material Breach,' thus creating uncertainty about what constitutes grounds for termination.",
+        "location": "Definitions",
+        "contradicted_location": "14.1",
+        "contradicted_text": "If so advised the BSP may terminate this agreement by giving written notice to Datec if: (a) Datec materially breaches the agreement and the breach (\"Material Breach\") cannot be, or is not, rectified within 30 days after a notice from the BSP, (b) an Insolvency Event occurs in relation to Datec (c) any other event specified in this agreement as giving rise to a right for the BSP to terminate immediately occurs; or (d) Datec commits a series of breaches that together constitute a Material Breach.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined 'Material Breach' to 'include' several items, implying that these are examples but not the exhaustive list. By changing 'includes' to 'may include,' the definition becomes less definitive. The changed text suggests that the listed items *could* be examples of material breach, but does not necessarily guarantee it, and doesn't specify whether other actions also count. This contradicts Section 14.1(a), which allows termination for 'Material Breach'. The new definition introduces ambiguity that can cause disputes regarding grounds for termination, as it becomes unclear whether a breach not explicitly listed qualifies for termination under 14.1(a)."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The BSP then have the option to renew the agreement for another 5 years subject to any restructuring of the agreement as required by the parties.",
+        "changed_text": "The BSP may consider to renew the agreement for another 5 years subject to any restructuring of the agreement as required by the parties.",
+        "explanation": "Changing 'then have the option to renew' to 'may consider to renew' weakens the BSP's right to renew the contract. This removes a clearly defined right and introduces ambiguity as to whether renewal is guaranteed or simply a possibility at the discretion of the BSP. This change creates uncertainty when juxtaposed with section 14.4, which allows Datec to terminate for convenience with 6 months' notice. The ambiguity regarding renewal introduces a risk that Datec could strategically terminate to avoid an unfavorable extension.",
+        "location": "1.4",
+        "contradicted_location": "14.4",
+        "contradicted_text": "Datec may terminate the whole or any part of this agreement for convenience at any time by giving the BSP at least 6 months prior written notice.",
+        "contradiction_exists": "YES",
+        "justification": "The original text gave the BSP an 'option to renew', suggesting a right. The changed text weakens this to 'may consider to renew', introducing uncertainty about whether renewal is at the BSP's discretion or guaranteed. Datec has the right to terminate for convenience with 6 months notice. Datec could terminate to avoid an unfavorable extension. The weakening of the renewal clause creates ambiguity and potential contradiction with Datec's termination right, as Datec could exploit the uncertainty to terminate just before a potential renewal if they find it unfavorable, creating a contradiction as Datec is now incentivized to find a way to terminate the agreement with 6 months notice."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Detailed supporting information and reports relating to service levels and performance will be confidential between the two parties.",
+        "changed_text": "Detailed supporting information and reports relating to service levels and performance may be shared to other parties, such as shareholders.",
+        "explanation": "The change contradicts the confidentiality clause in section 11.1. By stating that service level reports 'may be shared to other parties', it directly conflicts with the original text stating that such information 'will be confidential between the two parties.' This weakens the protection of confidential information and creates uncertainty about the extent of confidentiality obligations, potentially impacting strategic business decisions based on proprietary data.",
+        "location": "3.3",
+        "contradicted_location": "11.1",
+        "contradicted_text": "All information exchanged between the parties under this agreement or during any negotiations undertaken at any time in respect of this agreement is confidential to those parties and must not be disclosed to any persons except: (a) as required by any law of the state of Papua New Guinea (b) to legal advisers, auditors, accountants and other consultants of either party requiring information for the purpose of this agreement (c) to directors and shareholders of the respective parties (d) with the consent of the party that supplied the information (e) if the information is generally and publicly available other than as a result of the breach of confidence by the person receiving the information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that service level reports 'will be confidential between the two parties'. The changed text states that these reports 'may be shared to other parties, such as shareholders.' This directly contradicts the contradicted text, which states that information exchanged between the parties is confidential and 'must not be disclosed to any persons' except under specific circumstances, none of which appear to be met by the permissive sharing allowed in the changed text. The changed text introduces a direct conflict with the confidentiality obligations outlined in the contradicted text, making it a strong in-text contradiction."
+      }
+    ]
+  }
+]

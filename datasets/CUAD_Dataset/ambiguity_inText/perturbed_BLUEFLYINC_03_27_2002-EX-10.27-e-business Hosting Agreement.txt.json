@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "a. \"Acceptable Use Policy\" means the Acceptable Use Policy for IBM e-business Services, located on the Internet at http://www.ibm.com/services/ e-business/aup.html, as of the Effective Date, and any subsequent modification in accordance with Section 13.2 below.",
+        "changed_text": "a. \"Acceptable Use Policy\" means the Acceptable Use Policy for IBM e-business Services, located on the Internet at http://www.ibm.com/services/ e-business/aup.html, as of January 1, 2002, and shall not be subject to any subsequent modification, regardless of Section 13.2 below.",
+        "explanation": "This perturbation introduces a contradiction regarding the Acceptable Use Policy. Section 1.0(a) now states that the Acceptable Use Policy is frozen as of January 1, 2002, and not subject to future modifications, directly contradicting Section 13.2 which allows IBM to modify the Acceptable Use Policy.",
+        "location": "1.0",
+        "contradicted_location": "13.2",
+        "contradicted_text": "13.2 Acceptable Use Policy IBM, in its reasonable discretion, may modify the Acceptable Use Policy upon thirty (30) days' notice to Customer.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 1.0(a) explicitly states that the Acceptable Use Policy is frozen as of January 1, 2002, and not subject to future modifications. This directly contradicts Section 13.2, which grants IBM the right to modify the Acceptable Use Policy with thirty days' notice. The modification therefore creates a clear and direct conflict, making the two sections incompatible."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "3.3 Termination for Cause Customer or IBM may terminate this Agreement for material breach of this Agreement by the other upon written notice containing the specific nature and dates of the material breach. The breaching party will have thirty (30) days from receipt of notice to cure such breach, except for nonpayment by Customer, which must be cured within seven (7) business days from receipt of notice. If such breach has not been timely cured, then the non-breaching party may immediately terminate this Agreement upon written notice; provided, however, it is understood that in the event IBM has so breached this Agreement IBM shall not be entitled to recover the early termination charges described in Section 3.4(b) below.",
+        "changed_text": "3.3 Termination for Cause Customer or IBM may terminate this Agreement for material breach of this Agreement by the other upon written notice containing the specific nature and dates of the material breach. The breaching party will have thirty (30) days from receipt of notice to cure such breach, except for nonpayment by Customer, which must be cured within seven (7) business days from receipt of notice. If such breach has not been timely cured, then the non-breaching party may immediately terminate this Agreement upon written notice; provided, however, it is understood that in the event IBM has so breached this Agreement IBM shall be entitled to recover the early termination charges described in Section 3.4(b) below regardless of the breaching party.",
+        "explanation": "The perturbation in Section 3.3 now states that IBM can recover early termination charges even if they are the breaching party. This contradicts the original clause which explicitly states IBM shall not be entitled to recover such charges if they breach the Agreement. This creates ambiguity and potential disputes regarding termination rights and financial liabilities.",
+        "location": "3.3",
+        "contradicted_location": "3.3",
+        "contradicted_text": "3.3 Termination for Cause Customer or IBM may terminate this Agreement for material breach of this Agreement by the other upon written notice containing the specific nature and dates of the material breach. The breaching party will have thirty (30) days from receipt of notice to cure such breach, except for nonpayment by Customer, which must be cured within seven (7) business days from receipt of notice. If such breach has not been timely cured, then the non-breaching party may immediately terminate this Agreement upon written notice; provided, however, it is understood that in the event IBM has so breached this Agreement IBM shall be entitled to recover the early termination charges described in Section 3.4(b) below regardless of the breaching party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 3.3 now allows IBM to recover early termination charges even if they breach the agreement. This directly contradicts the original intention, which disallowed IBM from recovering such charges if they were the breaching party. The contradicted text is the changed text itself, which creates an ambiguity and contradiction by modifying a prior condition."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "14.14 Actions Period Neither party will bring a legal action related to this Agreement more than two years after the cause of action accrued.",
+        "changed_text": "14.14 Actions Period Neither party will bring a legal action related to this Agreement more than five years after the cause of action accrued.",
+        "explanation": "This changes the limitations period for legal actions from two years to five years. This directly contradicts the original two-year limitation, creating uncertainty about the time frame within which legal claims can be made.",
+        "location": "14.14",
+        "contradicted_location": "14.14",
+        "contradicted_text": "14.14 Actions Period Neither party will bring a legal action related to this Agreement more than five years after the cause of action accrued.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the limitation period for legal actions from two years to five years. The contradicted text states a five-year limitation period. While seemingly consistent, the 'Perturbation Explanation' notes this change directly contradicts the *original* two-year limitation, creating uncertainty and therefore a strong in-text contradiction. The modification directly breaks compatibility with the original two-year limitation by replacing it with a five-year period, which can potentially cause legal issues about the original intention."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "Confidentiality_Agreement_1.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "9. At the end of the contract the receiving party s hall return the confidential information and any po ssibly extant copies after receipt of a written request, provided that this is technically feasible and does not vio late the retention obligations. As an alternative to that, the receivi ng party can also ensure in writing the destruction of the received documentation if that is technically feasible.",
+        "changed_text": "9. At the end of the contract the receiving party s hall return the confidential information and any po ssibly extant copies after receipt of a written request, provided that this is technically feasible and does not vio late the retention obligations. As an alternative to that, the receivi ng party is required to ensure in writing the destruction of the received documentation regardless of technical feasibility.",
+        "explanation": "The original text allows the receiving party to either return or destroy the confidential information if technically feasible. The changed text mandates destruction regardless of technical feasibility, contradicting the first part of the sentence. This affects enforcement because the obligations of the receiving party at the end of the contract are now unclear.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "9. At the end of the contract the receiving party s hall return the confidential information and any po ssibly extant copies after receipt of a written request, provided that this is technically feasible and does not vio late the retention obligations. As an alternative to that, the receivi ng party is required to ensure in writing the destruction of the received documentation regardless of technical feasibility.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies Section 9, requiring destruction regardless of technical feasibility, directly contradicting the original allowance to either return or destroy if technically feasible. The Contradicted Text is the changed text. Since it's the same location it means the original text now has a contradiction in it's own section due to the modification. The original text had the option to return, while the changed text requires to destroy. Therefore, the Change creates a contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "6. The confidentiality agreement does not apply to statements of the company Helukabel in its catalogu es, datasheets and on the homepage and also not to info rmation which a) the receiving party was already aware of or whic h was developed by the disclosing party itself inde pendent of the disclosure, b) is publicly known without this agreement having been broken, c) was received by a third party without infringeme nt of this or any other confidentiality agreement.",
+        "changed_text": "6. The confidentiality agreement does not apply to statements of the company Helukabel in its catalogu es, datasheets and on the homepage and also not to info rmation which a) the receiving party was already aware of or whic h was developed by the disclosing party itself inde pendent of the disclosure. This clause applies regardless of whether the other exceptions listed in b) and c) are met.",
+        "explanation": "The original clause lists three exceptions where the confidentiality agreement does not apply. The changed text adds a contradictory statement indicating that only sub-clause a) applies, and sub-clauses b) and c) do not. This undermines the exceptions originally provided in the clause, creating a conflict regarding which information is exempt from the confidentiality agreement, affecting enforceability.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "6. The confidentiality agreement does not apply to statements of the company Helukabel in its catalogu es, datasheets and on the homepage and also not to info rmation which a) the receiving party was already aware of or whic h was developed by the disclosing party itself inde pendent of the disclosure. This clause applies regardless of whether the other exceptions listed in b) and c) are met.",
+        "contradiction_exists": "YES",
+        "justification": "The original text lists three exceptions (a, b, c) to the confidentiality agreement. The changed text explicitly states that only exception 'a' applies, regardless of whether exceptions 'b' and 'c' are met. The contradicted text, which is the same as the changed text in this case, maintains this contradiction. Therefore, the modification creates a direct conflict by negating exceptions that were initially provided, fitting the definition of 'Inconsistencies - In Text Contradiction'."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "10. The confidential information will be provided a s is. The disclosing party does not assume any warr anty for the correctness, completeness or usability of the confi dential information.",
+        "changed_text": "10. The confidential information will be provided a s is. The disclosing party does not assume any warr anty for the correctness, completeness or usability of the confi dential information. However, the disclosing party warrants that the information is accurate to the best of their knowledge.",
+        "explanation": "The original text states that the disclosing party does not assume any warranty for the correctness of the confidential information. The changed text adds a contradictory statement warranting that the information is accurate to the best of their knowledge. This creates an in-text contradiction because it's unclear whether the disclosing party is providing a warranty or not, creating uncertainty in its enforceability.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "10. The confidential information will be provided a s is. The disclosing party does not assume any warr anty for the correctness, completeness or usability of the confi dential information. However, the disclosing party warrants that the information is accurate to the best of their knowledge.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly states that the disclosing party does not assume any warranty. The changed text introduces a warranty (accuracy to the best of their knowledge), directly contradicting the initial disclaimer. The contradicted text is the same as the changed text, emphasizing that the added clause directly conflicts with the initial disclaimer of warranty within the same section, creating a clear inconsistency as defined by the perturbation type Inconsistencies - In Text Contradiction."
+      }
+    ]
+  }
+]

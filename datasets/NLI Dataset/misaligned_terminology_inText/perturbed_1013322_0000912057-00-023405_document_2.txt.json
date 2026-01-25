@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "1013322_0000912057-00-023405_document_2.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The \"Confidential Information\" is that confidential, proprietary, and trade secret information being disclosed by the disclosing party described as (please be specific): (a) Yahoo Confidential Information (owned by Yahoo and any of its affiliates): Resume and Employment Related. (b) Participant Confidential Information: Resume and Employment Related.",
+        "changed_text": "The \"Confidential Information\" is that confidential, proprietary, and trade secret information being disclosed by the disclosing party described as (please be specific): (a) Yahoo Confidential Information (owned by Yahoo and any of its affiliates): Resume and Employment Related. (b) Restrac Confidential Information: Resume and Employment Related.",
+        "explanation": "Changing \"Participant Confidential Information\" to \"Restrac Confidential Information\" creates a contradiction. While seemingly minor, it introduces uncertainty: Does \"Participant\" refer only to Restrac within the introductory definition, or does the agreement apply to any participant, not just Restrac? This impacts section 3 regarding information disclosure to other 'participants'.",
+        "location": "1",
+        "contradicted_location": "3",
+        "contradicted_text": "Each of the parties agrees that it will not make use of, disseminate, or in any way disclose any Confidential Information of the other party to any person, firm or business, except to the extent necessary for negotiations, discussions and consultations with personnel or authorized representatives of the other party and any purpose the other party may hereafter authorize in writing. Each of the parties agrees that it shall disclose Confidential Information of the other party only to those of its employees who need to know such information and who have previously agreed, either as a condition to employment or in order to obtain the Confidential Information, to be bound by terms and conditions substantially similar to those of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The change from \"Participant Confidential Information\" to \"Restrac Confidential Information\" introduces a contradiction. The contradicted text refers to 'the other party' and specifies that parties will not disclose Confidential Information to any person, firm, or business, except for negotiations and consultations. The modification creates ambiguity about whether 'Participant' refers only to Restrac or to any participant. If the original text meant 'any participant' but is now limited to 'Restrac', the contradicted text now contradicts this limited definition. This aligns with the Misaligned Terminology definition, as using 'Participant' without defining its scope in relation to 'Restrac' leads to conflicting obligations, potentially hindering authorized negotiations and consultations with other participants beyond Restrac. Thus it creates a contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Each of the parties agrees that it shall treat all Confidential Information of the other party with the same degree of care as it accords to its own Confidential Information and each of the parties represents that it exercises reasonable care to protect its own Confidential Information.",
+        "changed_text": "Each of the parties agrees that it shall treat all Confidential Information of the other party with the same degree of care as it accords to its own Company Data and each of the parties represents that it exercises reasonable care to protect its own Confidential Information.",
+        "explanation": "Changing \"Confidential Information\" to \"Company Data\" creates a potential conflict. If a party considers information 'Company Data' but not necessarily 'Confidential Information' as strictly defined in Section 1 (marked tangible form), it might apply a lesser degree of care. This contradicts the intent to protect all information deemed confidential by the other party, leading to disputes over data handling.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "Each of the parties agrees that it shall treat all Confidential Information of the other party with the same degree of care as it accords to its own Company Data and each of the parties represents that it exercises reasonable care to protect its own Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Confidential Information' with 'Company Data'. The explanation states that this creates a potential conflict because a party might consider information 'Company Data' but not necessarily 'Confidential Information' as strictly defined in Section 1, potentially applying a lesser degree of care. This contradicts the original intent and creates an in-text contradiction because the contradicted text refers to Confidential Information, while the changed text might allow for different treatment of data based on its categorization, which aligns with the definition of Misaligned Terminology - In Text Contradiction."
+      }
+    ]
+  }
+]

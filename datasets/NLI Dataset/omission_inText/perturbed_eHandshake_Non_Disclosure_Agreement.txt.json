@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "eHandshake_Non_Disclosure_Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Upon receipt of such communication the Receiving Party shall destroy promptly all documents furnished and will not retain any copies, extracts or other reproductions in who le or in part of such Information. Notwithstanding the foregoing, the Receiving Party shall be entitled to retain that portion of the Information for legal, regulatory or internal compliance purposes, which will continue to be treated as confidential on t he terms hereof.",
+        "changed_text": "Upon receipt of such communication the Receiving Party shall destroy promptly all documents furnished and will not retain any copies, extracts or other reproductions in who le or in part of such Information.",
+        "explanation": "By removing the exception 'Notwithstanding the foregoing, the Receiving Party shall be entitled to retain that portion of the Information for legal, regulatory or internal compliance purposes, which will continue to be treated as confidential on t he terms hereof.', this creates an in-text contradiction with sections relating to legal obligations. The removal of this exception, now suggests the Receiving Party must destroy all documents and cannot retain for legal reasons, despite possible legal obligations mandating retention, creating an impossible situation.",
+        "location": "6",
+        "contradicted_location": "5",
+        "contradicted_text": "In th e event that the Receiving Party is required by applicable law or regulation or by legal process to disclose any of the Information, the Receiving Party agrees that it will provide the Providing Party with prompt written notice of such request(s) prior to the required disclosure and the Providing Party shall use reasonable efforts, at its own expense, to seek a protective o rder or other appropriate remedy. If a protective order or other remedy is not obtained and a waiver hereunder is not received, the Receiving Party shall disclose only that p ortion of the Information which is legally required and shall use its best effort s to obtain assurances that confidential treatment will be accorded to such Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed the Receiving Party to retain information for legal/regulatory compliance purposes. The changed text removes this exception, mandating the Receiving Party destroy all documents. The contradicted text outlines a process where the Receiving Party may be legally required to disclose information. By removing the exception, the changed text directly contradicts the scenario presented in the contradicted text, creating a strong in-text contradiction because the Receiving Party cannot comply with the disclosure requirements in the contradicted text if they are required to destroy all documents."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Any such right or remedy and any and all other rights or remedies provided for herein shall be cumulative and not exclusive and in addition to any and all other rights or remedies which the Providing Party may have under this Agreement or otherwise.",
+        "changed_text": "Any such right or remedy and any and all other rights or remedies provided for herein shall be cumulative and not exclusive.",
+        "explanation": "Removing the phrase 'and in addition to any and all other rights or remedies which the Providing Party may have under this Agreement or otherwise' limits the Providing Party's recourse only to those within this agreement, creating a contradiction if external laws provide additional remedies that would now be excluded based on this agreement.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "Any breach or threatened breach of this Agreement shall constitute a breach that may cause irreparable inj ury, not readily measurable in money, and for which the Providing Party , without waiving any other rights or remedies at law or in equity, shall be entitled to seek injunctive relief or other equitable relief. Any such right or remedy and any and all other rights or remedies provided for herein shall be cumulative and not exclusive.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the rights and remedies are cumulative and 'in addition to any and all other rights or remedies which the Providing Party may have under this Agreement or otherwise.' The changed text removes 'and in addition to any and all other rights or remedies which the Providing Party may have under this Agreement or otherwise'. The contradicted text states that the Providing Party is 'without waiving any other rights or remedies at law or in equity, shall be entitled to seek injunctive relief or other equitable relief'. Removing the phrase restricts the Providing Party's recourse only to those within the agreement, contradicting the provision that allows for remedies 'at law or in equity', thus creating a direct contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Parties agree that, in the event of loss or dama ge to the Providing Party as a result of breach of the provisions of this Agreement, the Receiving Party shall be liable only in respect of loss or damage resulting directly from the breach, and no liability will be accepted in respect of any special, indi rect, incidental or consequential losses or damages whatsoever (including, but not limited to, lost profits or revenue) suffered by the Providing Party or any person connected with the Providing Party, arising out of the performance or breach of this Agree ment, whether claims for said losses or damages are premised on contract, tort (including negligence), or otherwise.",
+        "changed_text": "The Parties agree that, in the event of loss or dama ge to the Providing Party as a result of breach of the provisions of this Agreement, the Receiving Party shall be liable only in respect of loss or damage resulting directly from the breach.",
+        "explanation": "Removing 'and no liability will be accepted in respect of any special, indi rect, incidental or consequential losses or damages whatsoever (including, but not limited to, lost profits or revenue) suffered by the Providing Party or any person connected with the Providing Party, arising out of the performance or breach of this Agree ment, whether claims for said losses or damages are premised on contract, tort (including negligence), or otherwise.' now opens the door for special, indirect, incidental or consequential damages, creating a contradiction where only direct damages were initially allowed, affecting the limitation of liability",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "The Parties agree that, in the event of loss or dama ge to the Providing Party as a result of breach of the provisions of this Agreement, the Receiving Party shall be liable only in respect of loss or damage resulting directly from the breach.",
+        "contradiction_exists": "YES",
+        "justification": "The original text limited liability to direct damages only, specifically excluding indirect, incidental, or consequential damages. The changed text removes this exclusion, making the Receiving Party potentially liable for a broader range of damages. The contradicted text states liability is limited to direct damages only which is now in direct conflict with the modified text. The omission of the explicit liability limitation creates a contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This Agreement shall be governed in acc ordance with the laws of England and Wales without giving effect to conflict of law principles, and the Parties agree to submit to the non -exclusive jurisdiction of the English courts.",
+        "changed_text": "This Agreement shall be governed in acc ordance with the laws of England and Wales, and the Parties agree to submit to the non -exclusive jurisdiction of the English courts.",
+        "explanation": "By removing the phrase 'without giving effect to conflict of law principles,' the agreement becomes subject to conflict of law principles. This means a court might apply the laws of a different jurisdiction if conflict of law rules dictate. This directly affects and contradicts the intention to have only the laws of England and Wales govern the agreement.",
+        "location": "11",
+        "contradicted_location": "11",
+        "contradicted_text": "This Agreement shall be governed in acc ordance with the laws of England and Wales, and the Parties agree to submit to the non -exclusive jurisdiction of the English courts.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that the agreement is governed by the laws of England and Wales 'without giving effect to conflict of law principles.' The changed text removes this phrase, thus making the agreement potentially subject to conflict of law principles, as explained by the 'Perturbation Explanation'. This could lead to the application of laws from a different jurisdiction, directly contradicting the intention implied in the original and contradicted text (which is identical to the original) to have only the laws of England and Wales govern the agreement. Therefore, a strong in-text contradiction is created."
+      }
+    ]
+  }
+]

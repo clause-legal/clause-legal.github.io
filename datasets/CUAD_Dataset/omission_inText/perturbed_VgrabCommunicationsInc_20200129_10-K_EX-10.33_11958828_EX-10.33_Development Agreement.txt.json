@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_Development Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "PAYMENT TERMS All Parties agreed the payment listed below are fair and just for the services being provided. Payment to the following individual below within 7 days upon completion and handover on the Project to VAL.",
+        "changed_text": "PAYMENT TERMS All Parties agreed the payment listed below are fair and just for the services being provided.",
+        "explanation": "By removing the clause 'Payment to the following individual below within 7 days upon completion and handover on the Project to VAL', this creates an in-text contradiction because the following table lists the individual amounts without specifying when these amounts are to be paid, which makes the listed payment amounts uncertain.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "PAYMENT TERMS All Parties agreed the payment listed below are fair and just for the services being provided. No. Name Function Amount 1. Ms. Chen Weijie Coordinator/Lead Developer USD100,000.00 2. Mr. Zheng Qing Developer USD50,000.00 3. Mr. Gu Xianwin Developer USD50,000.00",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified a payment timeframe of 'within 7 days upon completion and handover on the Project to VAL.' The changed text removes this timeframe, creating a contradiction with the contradicted text. The contradicted text lists payment amounts for individuals but lacks any stipulation as to when these payments should be made. The omission creates uncertainty about when the payments are due, making the contract ambiguous and potentially unenforceable."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "CHANGE ORDERS Definition of Change Order: Any change or modification in functionality or feature or UI of the App required by VAL which is beyond agreed functional requirements considered in this Agreement will be considered as a \"Change\" in the original specifications, and that shall be agree by Developer to VAL or vice versa as a \"Change Order\" in writing.",
+        "changed_text": "CHANGE ORDERS Definition of Change Order: Any change or modification in functionality or feature or UI of the App required by VAL which is beyond agreed functional requirements considered in this Agreement will be considered as a \"Change\" in the original specifications.",
+        "explanation": "By removing 'and that shall be agree by Developer to VAL or vice versa as a \"Change Order\" in writing.', the Change Orders section now lacks a clear procedure or formal agreement method for approving such changes. Section 7 then proceeds assuming that change orders are formalized.",
+        "location": "6.6",
+        "contradicted_location": "7",
+        "contradicted_text": "SCOPE OF DELIVERABLES No. Deliverable Name Scope 1. Duesey Coffee WeChatFunctionality Development WeChat Mobile App functionality to be developed across both platforms, API development. 2. Functional requirements & UI/Multimedia, backend access. VAL will supply products, logo, pricing and final design approval, multimedia, CMS access. 3. Application package App package to be shared with the VAL for testing andreview. 4. WeChat Official Account upload Apps to be uploaded in WeChat for public viewing anddownloading.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that change orders require agreement between the developer and VAL in writing. The changed text removes this requirement, creating an omission. Section 7 (represented by the Contradicted Text) assumes formalized change orders by outlining deliverables and functional requirements, which implies an underlying agreement process for scope changes. The absence of a defined agreement process in the modified 'Change Orders' section directly contradicts this implicit assumption, creating a clear contradiction that impacts the enforceability of scope adjustments. This aligns with the definition of 'Omissions – In Text Contradiction'."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "TERMINATION VAL shall, in the event of Developer committing any breach of any of the terms and conditions of this agreement or for any other reason considered as sufficient, be entitled to terminate this agreement by giving two (2) weeks' notice in writing and it is applicable only when the project is not completed. If the customer terminates the agreement, then VAL shall compensate the Developer up to the date of termination with a fee calculated on Pro-rata basis.",
+        "changed_text": "TERMINATION VAL shall, in the event of Developer committing any breach of any of the terms and conditions of this agreement or for any other reason considered as sufficient, be entitled to terminate this agreement by giving two (2) weeks' notice in writing and it is applicable only when the project is not completed.",
+        "explanation": "By removing 'If the customer terminates the agreement, then VAL shall compensate the Developer up to the date of termination with a fee calculated on Pro-rata basis.', the text no longer specifies how the developer will be compensated in the event of termination by the customer, while the section regarding developer-initiated termination specifies the procedure to be followed.",
+        "location": "12.1",
+        "contradicted_location": "12.1",
+        "contradicted_text": "TERMINATION VAL shall, in the event of Developer committing any breach of any of the terms and conditions of this agreement or for any other reason considered as sufficient, be entitled to terminate this agreement by giving two (2) weeks' notice in writing and it is applicable only when the project is not completed. Developer may also terminate this Agreement by giving two (2) weeks' notice in writing to VAL. It is applicable only when the project is not completed. In case Developer terminates the agreement, it shall handover the entire project related IPR, work done till date to VAL.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified how the developer would be compensated if the customer terminated the agreement. By removing this clause in the changed text, a contradiction is created because the contradicted text states 'Developer may also terminate this Agreement by giving two (2) weeks' notice in writing to VAL. It is applicable only when the project is not completed. In case Developer terminates the agreement, it shall handover the entire project related IPR, work done till date to VAL,' which covers developer-initiated termination, but the changed text no longer covers customer-initiated termination, thus creating an omission that contradicts the expectation that both termination scenarios are addressed."
+      }
+    ]
+  }
+]

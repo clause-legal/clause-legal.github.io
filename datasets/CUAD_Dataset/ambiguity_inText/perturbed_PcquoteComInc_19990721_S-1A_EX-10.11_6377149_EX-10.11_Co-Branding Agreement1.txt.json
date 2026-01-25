@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "PcquoteComInc_19990721_S-1A_EX-10.11_6377149_EX-10.11_Co-Branding Agreement1.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "ABW agrees to hold said information in the same manner as ABW deals with its own proprietary information and trade secrets. Furthermore, ABW agrees not to attempt any reverse engineering of the HYPERFEED to decode the signals used by PCQ in transmitting the information.",
+        "changed_text": "ABW agrees to hold said information with reasonable care, but acknowledges that it may be necessary to analyze aspects of the HYPERFEED for internal training purposes. ABW agrees not to attempt any reverse engineering of the HYPERFEED to decode the signals used by PCQ in transmitting the information for any commercial or competitive purposes.",
+        "explanation": "The original text strictly prohibits reverse engineering. The modified text allows for analysis for 'internal training purposes', creating ambiguity. While explicitly prohibiting reverse engineering for commercial/competitive purposes, the allowance for 'internal training' introduces a loophole for potential exploitation, conflicting with the strict prohibition in the original text, especially in Section 8.A, where ABW understands and acknowledges the proprietary nature of the HYPERFEED and SOFTWARE provided by PCQ and that said HYPERFEED and SOFTWARE have been developed as a trade secret of PCQ and at its expense.",
+        "location": "8.A",
+        "contradicted_location": "8.A",
+        "contradicted_text": "ABW understands and acknowledges the proprietary nature of the HYPERFEED and SOFTWARE provided by PCQ and that said HYPERFEED and SOFTWARE have been developed as a trade secret of PCQ and at its expense. ABW agrees to hold said information in the same manner as ABW deals with its own proprietary information and trade secrets. Furthermore, ABW agrees not to attempt any reverse engineering of the HYPERFEED to decode the signals used by PCQ in transmitting the information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text's strict prohibition of reverse engineering is contradicted by the modified text, which allows for analysis of the HYPERFEED for 'internal training purposes.' This creates a loophole that conflicts with the acknowledgment of the HYPERFEED and SOFTWARE as trade secrets and the agreement not to reverse engineer it, as stated in the contradicted text. This falls under 'Ambiguities – In Text Contradiction' as the term 'reverse engineering' is defined inconsistently."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Any invoice submitted by PCQ shall be deemed correct unless ABW advises PCQ in writing, within thirty (30) days of the receipt of the invoice, that it disagrees with the invoice and specifies the nature of the disagreement.",
+        "changed_text": "Any invoice submitted by PCQ shall be deemed correct unless ABW notifies PCQ of a discrepancy. While ABW is encouraged to report issues within thirty (30) days of receipt, failure to do so does not automatically waive ABW's rights to dispute charges if a demonstrable error exists. ",
+        "explanation": "The original text states invoices are 'deemed correct' after 30 days if no disagreement is issued. The changed text allows for later disputes if a 'demonstrable error exists' introducing ambiguity about the invoice dispute period. This contradicts the initial absolute statement and creates uncertainty about the finality of invoices. This change contradicts the original agreement in section 3.F regarding the specified timeframe for invoice disputes, potentially leading to conflicts over payment obligations and dispute resolution processes.",
+        "location": "3.F",
+        "contradicted_location": "3.F",
+        "contradicted_text": "Any invoice submitted by PCQ shall be deemed correct unless ABW advises PCQ in writing, within thirty (30) days of the receipt of the invoice, that it disagrees with the invoice and specifies the nature of the disagreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an ambiguity regarding the finality of invoices. The original text states invoices are 'deemed correct' after 30 days, while the changed text allows for later disputes if a 'demonstrable error exists.' This directly contradicts the original agreement, potentially leading to conflicts over payment obligations and dispute resolution processes as it weakens the initial clause and creates uncertainty."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "ABW agrees to field all initial customer support requests and assist its clients to the best of its knowledge and ability. If the support issue is of a complex nature that ABW is unable to solve, ABW may forward the call on to the PCQ technical support staff.",
+        "changed_text": "ABW will endeavor to address all initial customer support requests, recognizing PCQ's ultimate responsibility for HYPERFEED and SOFTWARE functionality. ABW may forward support requests to PCQ, understanding that PCQ reserves the right to prioritize support based on the nature and severity of the issue.",
+        "explanation": "The original text mandates ABW to field 'all initial customer support requests' before potentially forwarding complex issues. The modified text changes this to 'endeavor to address' which decreases the commitment, and adds PCQ has ultimate responsibility. This creates a conflict as it's now unclear if ABW is obligated to handle all initial support or if they can defer to PCQ. This undermines the clarity of responsibilities, as outlined in Section 4.A of the agreement, and leads to potential disputes regarding the level of support ABW is required to provide and the criteria for escalating issues to PCQ. Because now is unclear whether ABW must first act as a filter. In that case, if PCQ is the sole responsible, ABW will not work as a first filter",
+        "location": "4.A",
+        "contradicted_location": "4.A",
+        "contradicted_text": "ABW agrees to field all initial customer support requests and assist its clients to the best of its knowledge and ability. If the support issue is of a complex nature that ABW is unable to solve, ABW may forward the call on to the PCQ technical support staff.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text changes ABW's obligation from fielding 'all initial customer support requests' to merely 'endeavor[ing] to address' such requests, while also shifting 'ultimate responsibility' to PCQ. This contradicts the original text's unambiguous requirement that ABW handles all initial support requests, creating uncertainty about ABW's primary responsibility and whether they are still the first filter. Because now is unclear whether ABW must first act as a filter. In that case, if PCQ is the sole responsible, ABW will not work as a first filter. This constitutes an in-text contradiction. This aligns with the definition of Ambiguities - In Text Contradiction, where key obligations are inconsistently defined."
+      }
+    ]
+  }
+]

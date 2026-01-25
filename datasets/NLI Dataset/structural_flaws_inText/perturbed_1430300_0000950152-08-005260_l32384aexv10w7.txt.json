@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "1430300_0000950152-08-005260_l32384aexv10w7.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Investor shall obligate its employees and the employees of its affiliates who shall have access to any portion of the Information to protect the confidential and proprietary nature of the Information.",
+        "changed_text": "Investor is not obligated to ensure its employees or affiliates protect the confidential and proprietary nature of the Information.",
+        "explanation": "This perturbation directly contradicts the original clause that requires the Investor to obligate its employees and affiliates to protect the confidential information. Now, the Investor has no responsibility for its employees' actions with respect to the information, creating a clear in-text contradiction.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Investor is not obligated to ensure its employees or affiliates protect the confidential and proprietary nature of the Information. Investor Signature Name Title Date Address where information should be sent:",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that \"Investor is not obligated to ensure its employees or affiliates protect the confidential and proprietary nature of the Information.\" This directly contradicts the original text which stated that the Investor \"shall obligate its employees and the employees of its affiliates who shall have access to any portion of the Information to protect the confidential and proprietary nature of the Information.\" This contradiction is in-text as the changed text directly negates the obligation imposed in the original clause, creating a structural flaw as defined in the Perturbation Definitions and conflicting implications. The contradicted text is exactly the same as the changed text, which confirms that the modified text creates an in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Investor Signature Name Title Date Address where information should be sent:",
+        "changed_text": "Investor Signature Name Title Date Address where information should not be sent:",
+        "explanation": "This changes that the address where the information should be sent, to now the address where it shouldn't be sent. This completely defeats the purpose of it. This creates an in-text contradiction in terms of where the information should be delivered.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Investor is not obligated to ensure its employees or affiliates protect the confidential and proprietary nature of the Information. Investor Signature Name Title Date Address where information should not be sent:",
+        "contradiction_exists": "YES",
+        "justification": "The original text asked for an address where information should be sent. The changed text asks for an address where the information should not be sent. This directly contradicts the purpose of collecting the address and creates a conflict. The contradicted text shows the address where information should not be sent is being used, and it directly relates to the change in the Changed Text. Therefore, a strong contradiction exists."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "EX-10.7 Exhibit 10.7 NON-DISCLOSURE AGREEMENT The undersigned, (hereinafter called “investor”) in consideration for the use of certain information, data and/or know-how related to the so-called “Entec Engine” the rights to which are owned TecTransfer, Inc. a Nevada Corporation, hereby agrees as follows: 1.",
+        "changed_text": "EX-10.7 Exhibit 10.7 DISCLOSURE AGREEMENT The undersigned, (hereinafter called “investor”) in consideration for the use of certain information, data and/or know-how related to the so-called “Entec Engine” the rights to which are owned TecTransfer, Inc. a Nevada Corporation, hereby agrees as follows: 1.",
+        "explanation": "Changing the name of the agreement from 'NON-DISCLOSURE AGREEMENT' to 'DISCLOSURE AGREEMENT' creates a fundamental contradiction. The document is now titled as an agreement for disclosure, when its purpose is to prevent disclosure, as outlined in the agreement. This creates an in-text contradiction and changes the entire purpose of the document.",
+        "location": "EX-10.7",
+        "contradicted_location": "EX-10.7",
+        "contradicted_text": "EX-10.7 Exhibit 10.7 DISCLOSURE AGREEMENT The undersigned, (hereinafter called “investor”) in consideration for the use of certain information, data and/or know-how related to the so-called “Entec Engine” the rights to which are owned TecTransfer, Inc. a Nevada Corporation, hereby agrees as follows: 1.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the agreement's title from 'NON-DISCLOSURE AGREEMENT' to 'DISCLOSURE AGREEMENT'. This directly contradicts the agreement's fundamental purpose of preventing disclosure. The explanation states the altered title now implies an agreement for disclosure, conflicting with the agreement's intent to prevent it, which causes an in-text contradiction."
+      }
+    ]
+  }
+]

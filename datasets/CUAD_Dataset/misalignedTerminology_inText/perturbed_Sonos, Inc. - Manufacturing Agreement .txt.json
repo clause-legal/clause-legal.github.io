@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "Sonos, Inc. - Manufacturing Agreement .txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "1.7. \"Component(s)\" means Sonos Sourced Components and IAC Sourced Components. Components shall be identified by Sonos' part numbers as defined in Arena.",
+        "changed_text": "1.7. \"Component(s)\" means Sonos Sourced Components and IAC Sourced Components. Parts shall be identified by Sonos' part numbers as defined in Arena.",
+        "explanation": "The term 'Components' is replaced with 'Parts'. This introduces confusion because throughout the agreement, the term 'Component' is used extensively and specifically defined in relation to sourcing, quality, and inventory management. Using 'Parts' interchangeably without defining it creates uncertainty about whether all instances of 'Component' also include 'Parts' or vice-versa, especially affecting sections on 'Component Lead Time' and 'Excess Components'.",
+        "location": "1.7",
+        "contradicted_location": "1.9",
+        "contradicted_text": "1.9. \"Component Lead Time\" means the time between the date IAC places a purchase order with a Component supplier for a Component and the date that Component arrives to IAC's factory.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines 'Components' specifically, and the contradicted text ('Component Lead Time') relies on this definition. By changing 'Components' to 'Parts' in the definition, the agreement introduces ambiguity and contradiction. The contradicted text uses 'Component' which now may or may not include 'Parts,' potentially leading to confusion and disputes about lead times for 'Parts' that are not 'Components' or vice-versa. This creates an in-text contradiction as the term is misaligned, which is against the definition of Misaligned Terminology."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "4.1. Program Managers. Sonos and IAC will each appoint at least one Program Manager (\"Program Manager\"). The names, addresses, email IDs, and telephone numbers of the Program Managers are attached to this Agreement as Exhibit B. The Program Managers shall act as liaisons and principal points of contact between the parties with respect to their respective performances of this Agreement. All communications between the Parties with respect to development of Products shall be directed to the Program Managers.",
+        "changed_text": "4.1. Project Leads. Sonos and IAC will each appoint at least one Project Lead (\"Project Lead\"). The names, addresses, email IDs, and telephone numbers of the Project Leads are attached to this Agreement as Exhibit B. The Project Leads shall act as liaisons and principal points of contact between the parties with respect to their respective performances of this Agreement. All communications between the Parties with respect to development of Products shall be directed to the Program Managers.",
+        "explanation": "The term 'Program Managers' is replaced with 'Project Leads', in the first sentence. However, the remainder of the section, and subsequent sections, continue to refer to 'Program Managers'. This creates ambiguity as to who is responsible for specific communications and liaison duties, especially regarding product development. It's unclear if communications should be directed to 'Project Leads' or 'Program Managers'.",
+        "location": "4.1",
+        "contradicted_location": "4.1",
+        "contradicted_text": "All communications between the Parties with respect to development of Products shall be directed to the Program Managers.",
+        "contradiction_exists": "YES",
+        "justification": "The modification replaces 'Program Managers' with 'Project Leads' in the initial definition, while the contradicted text explicitly states that communications regarding product development should be directed to 'Program Managers'. This creates a direct conflict and ambiguity, as it is unclear which role is now responsible for these communications, resulting in a contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "10.2. Product Warranty by IAC. IAC hereby represents and warrants that for a period of [*] after the Manufacturing Date (the \"Warranty Period\"), a Product Unit will be free from defects in manufacturing process and defects in workmanship, will conform to general expectations of performance of wireless audio products and will conform to the Statement of Work for the applicable Product.",
+        "changed_text": "10.2. Product Warranty by IAC. IAC hereby represents and warrants that for a period of [*] after the Production Date (the \"Warranty Period\"), a Product Unit will be free from defects in manufacturing process and defects in workmanship, will conform to general expectations of performance of wireless audio products and will conform to the Statement of Work for the applicable Product.",
+        "explanation": "The term 'Manufacturing Date' is replaced with 'Production Date.' The Agreement defines 'Manufacturing Date' in section 1.28 as: 'the date a Product Unit is manufactured, packaged and ready for shipment.' The term 'Production Date' is not defined anywhere in the agreement, this creates an ambiguity in when the warranty period begins.",
+        "location": "10.2",
+        "contradicted_location": "1.28",
+        "contradicted_text": "1.28. \"Manufacturing Date\" means the date a Product Unit is manufactured, packaged and ready for shipment.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Manufacturing Date' to 'Production Date' creates a strong in-text contradiction because the agreement defines 'Manufacturing Date' (1.28) but does not define 'Production Date'. This introduces ambiguity about when the warranty period begins, directly contradicting the defined term and making the warranty period uncertain and potentially unenforceable. The changed text introduces a term without a definition, conflicting with the clear definition provided in section 1.28 for 'Manufacturing Date'."
+      }
+    ]
+  }
+]

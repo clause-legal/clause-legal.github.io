@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "VirtuosoSurgicalInc_20191227_1-A_EX1A-6 MAT CTRCT_11933379_EX1A-6 MAT CTRCT_License Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "2.5 \"NET SALES\" shall mean gross sales revenues and fees billed by Company from the sale of LICENSED PRODUCT(S) less trade discounts allowed, refunds, returns and recalls, and sales taxes. In the event that Company sells a LICENSED PRODUCT(S) in combination with other ingredients or substances or as part of a kit, the NET SALES for purposes of royalty payments shall be based on the sales revenues and fees received from the entire combination or kit.",
+        "changed_text": "2.5 \"NET SALES\" shall mean gross sales revenues and fees billed by Company from the sale of LICENSED PRODUCT(S). In the event that Company sells a LICENSED PRODUCT(S) in combination with other ingredients or substances or as part of a kit, the NET SALES for purposes of royalty payments shall be based on a fair value as determined by the company.",
+        "explanation": "By omitting \"less trade discounts allowed, refunds, returns and recalls, and sales taxes\", the definition of NET SALES is altered, potentially increasing the royalty base. By also changing the phrase in which NET SALES is determined, from 'the sales revenues and fees received from the entire combination or kit' to 'a fair value as determined by the company' this can lead to a potential in-text contradiction, as in section 4.3, the royalties will have to be calculated based on NET SALES, which the calculation is no longer as clear, as the company has final say on the NET SALES value of the LICENSED PRODUCT(S).",
+        "location": "2.5",
+        "contradicted_location": "4.3",
+        "contradicted_text": "4.3 Running Royalties: Company shall pay to JHU, a running royalty as set forth in Exhibit A, for each LICENSED PRODUCT(S) sold and each LICENSED SERVICE(S) provided, based upon NET SALES and NET SERVICE REVENUES respectively, for the term of this Agreement. Such payments shall be made within thirty (30) days of the end of each calendar quarter following first commercial sale of LICENSED PRODUCT or providing LICENSED SERVICES. All non-US taxes related to LICENSED PRODUCT(S) and LICENSED SERVICE(S) sold under this Agreement shall be paid by Company and shall not be deducted from royalty or other payments due to JHU.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text changes the definition of 'NET SALES' by removing specific deductions (trade discounts, refunds, returns, recalls, sales taxes) and altering how it's calculated for combined products. This directly contradicts section 4.3, which relies on 'NET SALES' to calculate royalties. The original definition provided a clear calculation method, while the changed text introduces 'fair value as determined by the company', creating ambiguity and potentially reducing JHU's royalties. This constitutes a strong in-text contradiction as it significantly alters the basis for royalty calculations and could lead to disputes over the interpretation of 'fair value'."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "5.1 Prosecution & Maintenance: JHU, at its sole option and discretion, shall file, prosecute and maintain all patents and patent applications specified under PATENT RIGHT(S). Title to all such patents and patent applications shall reside in JHU. JHU shall have full and complete control over all patent matters in connection therewith under the PATENT RIGHT(S).",
+        "changed_text": "5.1 Prosecution & Maintenance: JHU will consult with Company on the best way to prosecute and maintain all patents and patent applications specified under PATENT RIGHT(S). Title to all such patents and patent applications shall reside in JHU.",
+        "explanation": "The original text explicitly states that JHU has full and complete control over all patent matters, at its sole option and discretion. By changing the phrase to JHU will consult with Company, it removes the sole discretion of the JHU, in which creates a contradiction on who is the responsible person to proceed with the patent matters.",
+        "location": "5.1",
+        "contradicted_location": "5.1",
+        "contradicted_text": "5.1 Prosecution & Maintenance: JHU will consult with Company on the best way to prosecute and maintain all patents and patent applications specified under PATENT RIGHT(S). Title to all such patents and patent applications shall reside in JHU.",
+        "contradiction_exists": "YES",
+        "justification": "The original text granted JHU sole discretion over patent matters. The changed text mandates consultation with Company, which removes JHU's exclusive control. This directly contradicts the original intent of JHU having 'full and complete control' and creates a conflict regarding decision-making authority over patent prosecution, fitting the 'Omissions - In Text Contradiction' definition because essential language regarding sole discretion was removed."
+      }
+    ]
+  }
+]

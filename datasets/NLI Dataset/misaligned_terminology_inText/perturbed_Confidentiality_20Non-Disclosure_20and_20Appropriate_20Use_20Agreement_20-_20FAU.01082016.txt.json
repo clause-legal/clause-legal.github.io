@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Confidentiality%20Non-Disclosure%20and%20Appropriate%20Use%20Agreement%20-%20FAU.01082016.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "I will maintain patient privacy and protect and safeguard the c onfidentiality and security of PHI and FAU Confidential Information in accordance with Florida and federal laws and FAU policies and procedures.",
+        "changed_text": "I will maintain patient privacy and protect and safeguard the c onfidentiality and security of PHI and University Confidential Information in accordance with Florida and federal laws and FAU policies and procedures.",
+        "explanation": "Changing 'FAU Confidential Information' to 'University Confidential Information' creates a contradiction. The agreement is designed to protect data specific to FAU, not the entire university system. This creates ambiguity about which data the user is actually responsible for protecting and whether user has to follow other university policies instead of FAU policies.",
+        "location": "Bullet Point 1",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "FAU has a legal responsibility to safeguard the confidentiality and security of our patients’ protected health information (“PHI”) as well as operational, proprietary, and st udent and employee information (collectively “FAU Confidential Information”). Thi s information may include, but i s not limited to, patient health records, as well as information regarding human res ources, payroll, fiscal matters, research, and strategic pl anning, and may exist in any form, including electronic, video, spoken, or written.",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'FAU Confidential Information', aligning with the contradicted section which defines and describes 'FAU Confidential Information'. The changed text replaces 'FAU Confidential Information' with 'University Confidential Information'. This introduces a contradiction because the contradicted section specifically defines the scope of confidential information as pertaining to FAU, not the entire university system. By broadening the scope to 'University Confidential Information', the user's responsibility becomes ambiguous and potentially conflicts with the defined scope in the contradicted text."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "I understand that my User ID and password are confidential, may only be used by m e, that I am responsible for safekeeping my password, that I am also responsible for any act ivity initiated by my User ID and password, and that in certain circumstances my User ID and pass word may be equivalent to my legal signature.",
+        "changed_text": "I understand that my User ID and password are confidential, may only be used by m e, that I am responsible for safekeeping my password, that I am also responsible for any act ivity initiated by my User ID and password, and that in certain circumstances my User ID and pass word may be equivalent to my digital signature.",
+        "explanation": "Changing 'legal signature' to 'digital signature' can create a contradiction because 'legal signature' has established legal meaning, while 'digital signature' implies something more specific and technical. This creates confusion about the legal weight of actions performed under the User ID and password.",
+        "location": "Bullet Point 6",
+        "contradicted_location": "Bullet Point 6",
+        "contradicted_text": "I understand that I will be given a unique User ID and password to access electronic health, operational, proprietary, student or employee or other confiden tial information. I understand that my User ID and password are confidential, may only be used by m e, that I am responsible for safekeeping my password, that I am also responsible for any act ivity initiated by my User ID and password, and that in certain circumstances my User ID and pass word may be equivalent to my digital signature. If I suspect that my User ID or password has b een compromised, I should immediately contact FAU’s Office of Information Technology (“FA U OIT”).",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'legal signature' to 'digital signature' introduces a contradiction. The original text implies actions under the User ID have the full weight of a legal signature, whereas the changed text suggests they have the weight of a 'digital signature,' which has a more specific and potentially narrower legal meaning. This directly contradicts the contradicted text because the user's understanding of the legal implications of their actions under the User ID is now unclear and inconsistent, making it uncertain what legal weight is given to actions performed under the user ID and password."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "FAU shall have the right to record, audit, log, and/or monitor access to or use of its i nformation systems that is attributed to my User ID. I agree to practice good workstation security me asures on any computing device that uses or accesses a FAU information system.",
+        "changed_text": "FAU shall have the right to record, audit, log, and/or monitor access to or use of its i nformation systems that is attributed to my User ID. I agree to practice good computer security me asures on any computing device that uses or accesses a FAU information system.",
+        "explanation": "Changing 'workstation security' to 'computer security' introduces a contradiction. 'Workstation' implies a specific kind of computing device that is generally stationary, where 'computer' is much broader. This creates ambiguity as the policy should apply to mobile devices.",
+        "location": "Bullet Point 7",
+        "contradicted_location": "Bullet Point 7",
+        "contradicted_text": "I have no expectation of privacy when using FAU information sys tems. FAU shall have the right to record, audit, log, and/or monitor access to or use of its i nformation systems that is attributed to my User ID. I agree to practice good computer security me asures on any computing device that uses or accesses a FAU information system. Good security m easures include, but are not {00366300; 1 } 2 limited to, maintaining physical security of electronic devices , never leaving a device unattended while in use, and adequately shielding the screen from unauthor ized viewing by others.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'workstation security' to 'computer security' broadens the scope of security measures. While seemingly minor, the contradicted text lists specific security measures like 'maintaining physical security of electronic devices' and 'never leaving a device unattended'. The original 'workstation security' implied a stationary device where these measures are more easily enforceable. By broadening to 'computer security', the policy now ambiguously applies to mobile devices, making the listed measures less directly applicable and potentially creating enforcement issues with devices like phones, where leaving unattended is harder to define. This creates a clear contradiction as the specific security examples are workstation focused."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "I understand that only encrypted and password protected devices may be used to transport PHI or other Restricted Data (defined below).",
+        "changed_text": "I understand that only encrypted and password protected devices may be used to transport PHI or other Confidential Data (defined below).",
+        "explanation": "Changing 'Restricted Data' to 'Confidential Data' contradicts the defined categories of data later in the document. It creates confusion on which type of data requires encryption for transport - is it all confidential data, or just the specifically designated Restricted Data?",
+        "location": "Bullet Point 8",
+        "contradicted_location": "Section 1",
+        "contradicted_text": "1. Restricted Data : Data in any format collected, developed, maintained, or manag ed by or on behalf of FAU, or within the scope of FAU’s activities, that are subject to specific protections under federal or sta te law or regulations or under applicable contracts (e.g., medical records, Social Security numbers, credit card numbers, Florida driver licenses, and export controlled data).",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'Restricted Data' which is a defined term in the Contradicted Text. The changed text modifies this to 'Confidential Data', which is not explicitly defined in the provided 'Contradicted Text' section. This creates a contradiction because it's unclear whether the requirement to use encrypted devices now applies to a broader or different set of data than originally intended. The 'Perturbation Explanation' confirms that this creates confusion regarding which type of data requires encryption for transport, a change that breaks compatibility with the contradicted section where 'Restricted Data' is specifically defined, therefore it's a clear and direct conflict."
+      }
+    ]
+  }
+]

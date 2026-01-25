@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "NDA-Agreement-NPAF.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Receiving Pa rty agrees to use the Confidential Information solely in connection with the current or contemplated business relationship between the parties and not for any purpose other than as authorized by this Agreement without the prior written consent of an authorized representative of the Disclosing Party.",
+        "changed_text": "The Receiving Pa rty agrees to use the Confidential Information in connection with any business relationship, current or future, between the parties and for any purpose, even if not authorized by this Agreement, without the prior written consent of an authorized representative of the Disclosing Party.",
+        "explanation": "The original text restricts the Receiving Party's use of Confidential Information to the current or contemplated business relationship and only for purposes authorized by the agreement. The modified text allows the Receiving Party to use the information in connection with *any* business relationship, even future ones and for *any* purpose, regardless of whether it's authorized by the agreement. This contradicts section 3, as the new text allows use of Confidential Information without consent, going against the purpose for which it was disclosed under the contract.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "The Receiving Pa rty agrees to use the Confidential Information in connection with any business relationship, current or future, between the parties and for any purpose, even if not authorized by this Agreement, without the prior written consent of an authorized representative of the Disclosing Party. No other right or license, whether expressed or implied, in the Conf idential Information is granted to the Receiving Party hereunder. Title to the Confidential Information will remain solely in the Disclosing Party. All use of Confidential Information by the Receiving Party shall be for the benefit of the Disclosing Party and any modifications and improvements thereof by the Receiving Pa rty shall be the sole property of the Disclosing Pa rty. Nothing con tained herein is intended to modify the parties' existing agreement that their discussions in furtherance of a potential business relationship are governed by Fede ral Rule of Evidence 408.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text significantly broadens the scope of permissible use of confidential information, allowing it for 'any business relationship, current or future, between the parties and for any purpose, even if not authorized by this Agreement, without the prior written consent'. This directly contradicts the principle outlined in the contradicted text, which is that 'All use of Confidential Information by the Receiving Party shall be for the benefit of the Disclosing Party'. The change effectively removes the requirement for authorization and allows use outside the Disclosing Party's benefit, creating a clear contradiction as it allows unauthorized use, conflicting with the intention and restrictions outlined in the contradicted text."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement shall remain in effect for a two-year term (subject to a one year extension if the parties are still discussing and considering the Tran saction at the end of the second year). Notwithstanding the foregoing, the parties’ duty to hold in confidence Confidential Information that was disclosed during term shall remain in effect indefinitely.",
+        "changed_text": "This Agreement shall remain in effect for a two-year term (subject to a one year extension if the parties are still discussing and considering the Tran saction at the end of the second year). Notwithstanding the foregoing, the parties’ duty to hold in confidence Confidential Information that was disclosed during term shall remain in effect for the term of this agreement only.",
+        "explanation": "The original text states that the duty to hold Confidential Information in confidence remains in effect indefinitely, even after the agreement term ends. The modified text limits this duty to the term of the agreement, creating a contradiction within section 5.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "This Agreement shall remain in effect for a two-year term (subject to a one year extension if the parties are still discussing and considering the Tran saction at the end of the second year). Notwithstanding the foregoing, the parties’ duty to hold in confidence Confidential Information that was disclosed during term shall remain in effect for the term of this agreement only.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified that the duty to hold Confidential Information in confidence remained in effect indefinitely, even after the agreement's termination. The changed text, however, limits this duty to only the term of the agreement. Since the changed text and contradicted text are in the same location, the change directly contradicts the original intention to keep confidentiality indefinitely, thus creating an in-text contradiction as per the 'Ambiguities – In Text Contradiction' definition."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Receiving Pa rty shall notify the Disclosing Pa rty immediately upon discovery of any unau thorized use or disclosure of Confidential Information by Receiving Pa rty or its Representatives, or any o ther breach of this Agreement by Receiving Pa rty or its Representatives, and will coop erate with efforts by the Disclosing Pa rty to help the Disclosing Pa rty regain possession of Confidential Information and prevent its further unauthorized use.",
+        "changed_text": "Receiving Pa rty shall notify the Disclosing Pa rty only if they deem necessary upon discovery of any unau thorized use or disclosure of Confidential Information by Receiving Pa rty or its Representatives, or any o ther breach of this Agreement by Receiving Pa rty or its Representatives, and will coop erate with efforts by the Disclosing Pa rty only when possible to help the Disclosing Pa rty regain possession of Confidential Information and prevent its further unauthorized use.",
+        "explanation": "This modifies the obligation for the Receiving Party to report unauthorized use or breaches. Initially, it's an immediate and mandatory notification. The modified text makes it conditional ('only if they deem necessary') and 'only when possible', creating ambiguity on whether the Receiving Party needs to disclose unauthorized uses of Confidential Information and cooperate, hence contradicting the mandatory aspect of it.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "Receiving Pa rty shall notify the Disclosing Pa rty only if they deem necessary upon discovery of any unau thorized use or disclosure of Confidential Information by Receiving Pa rty or its Representatives, or any o ther breach of this Agreement by Receiving Pa rty or its Representatives, and will coop erate with efforts by the Disclosing Pa rty only when possible to help the Disclosing Pa rty regain possession of Confidential Information and prevent its further unauthorized use.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates immediate notification and full cooperation from the Receiving Party upon discovery of unauthorized use or breaches. The changed text introduces conditions ('only if they deem necessary' and 'only when possible'), making the notification and cooperation discretionary, hence contradicting the mandatory nature of the original agreement. The contradiction is direct because the original text requires something that the changed text makes optional. The contradicted text is the same as the Changed text."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Each party warrants that it has the right to make the disclosures under this Agreement. NO WARRANT IES ARE MADE BY EITHER PART Y UNDE R THIS AGREE MENT WHATSOE VER .",
+        "changed_text": "Each party warrants that it has the right to make the disclosures under this Agreement. EACH PARTY WARRANTS THE ACCURACY AND COMPLETENESS OF THE INFORMATION DISCLOSED UNDER THIS AGREEMENT.",
+        "explanation": "The original text explicitly states that no warranties are made under the agreement. The modified text introduces a warranty regarding the accuracy and completeness of disclosed information, creating a direct contradiction with the \"NO WARRANTIES ARE MADE\" statement in Section 10.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "Each party warrants that it has the right to make the disclosures under this Agreement. EACH PARTY WARRANTS THE ACCURACY AND COMPLETENESS OF THE INFORMATION DISCLOSED UNDER THIS AGREEMENT. The parties acknowledge that although they shall each endeavor to include in the Confidential Information all information that they each believe relevant for the purpose of the evaluation of a Tran saction, the parties understand that no representation or warranty as to the accuracy or co mpleteness of the Confidential Information is being made by either party as the Disclosing Party. Fur ther, neither party is under any ob ligation under this Agreement to disclose any Confidential Information it choo ses not to disclose. Neither Party hereto shall have any liability to the other party or to the other party’s Representatives resulting from any use of the Confidential Information except with respect to disclosure of such Confidential Information in violation of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly disclaims all warranties. The changed text introduces a warranty regarding the accuracy and completeness of information. The contradicted text acknowledges no warranty is made. The changed text creates a direct conflict by introducing a warranty where previously none existed and where another section states such warranties are not present."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Any failure by either party to enforce the other party’s strict performance of any provision of this Agreement will not constitute a waiver of its right to subsequently enforce such provision or any other provision of this Agreement.",
+        "changed_text": "Any failure by either party to enforce the other party’s strict performance of any provision of this Agreement will constitute a waiver of its right to subsequently enforce such provision or any other provision of this Agreement.",
+        "explanation": "The original text protects the party from waiving its rights if it doesn't enforce a provision immediately. The modified text reverses this, so any failure to enforce strict performance will now constitute a waiver of future enforcement, thus creating a contradiction and changing the terms of the contract, making it unclear if the contract may have provisions that have been waived due to failure of immediate enforcement.",
+        "location": "11(c)",
+        "contradicted_location": "11(c)",
+        "contradicted_text": "Any failure by either party to enforce the other party’s strict performance of any provision of this Agreement will constitute a waiver of its right to subsequently enforce such provision or any other provision of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that a failure to enforce a provision does not waive the right to enforce it later. The changed text reverses this, stating that a failure to enforce a provision *does* waive the right to enforce it later. The contradicted text repeats the changed text. Therefore, the changed text directly contradicts the original intent and creates a strong in-text contradiction, as the same clause now implies opposite legal consequences within the same agreement."
+      }
+    ]
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "MutualNonDisclosureAgreement0104.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "This Agreement will be governed by the laws of the State of California.",
+        "changed_text": "SOFTWARE: _____ ________ ___________ ___________ ___________ ___________ ___________ ___________ ____",
+        "explanation": "Moving the governing law clause to an irrelevant section (Software section) creates ambiguity about which jurisdiction's laws apply to the contract, making it harder to enforce. This is critical because governing law clauses determine which state or country's laws will be used to interpret the agreement.",
+        "contradicted_law": "General Contract Law Principles",
+        "law_citation": "Restatement (Second) of Conflict of Laws \u00a7 187",
+        "law_url1": [
+          "https://law.justia.com/codes/law/restatement/conflict-of-laws-2d/section-187/"
+        ],
+        "law_url2": [
+          "https://www.law.cornell.edu/wex/choice_of_law"
+        ],
+        "law_explanation": "Restatement (Second) of Conflict of Laws \u00a7 187 dictates that the law chosen by the parties to govern their contractual rights and duties will be applied if the chosen state has a substantial relationship to the parties or the transaction. By burying this clause, the intent becomes ambiguous, potentially leading to disputes about enforceability.",
+        "location": "End of paragraph 6",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The original contract specifies California law as the governing law. The changed text replaces this clear specification with irrelevant data under the 'SOFTWARE' section. The Perturbation Explanation notes that this creates ambiguity about which jurisdiction's laws apply, hindering enforceability. The Law Explanation highlights that Restatement (Second) of Conflict of Laws \u00a7 187 emphasizes the importance of a chosen state having a substantial relationship to the parties or transaction. By obscuring the governing law clause, the changed text directly undermines the clear intent required for enforceability, fitting the definition of a Structural Flaws Legal Contradiction where a required legal disclosure (governing law) is placed in an irrelevant section."
+      },
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "Each party agrees to main tain the confidentiality of such Pr oprietary Inform ation and to not use, disclose, publish or dissem inate it in an y manner not consiste nt with this Agreement. In additi on to any other remedies, which may be available, Owner shall be entitled to seek injunctive relief to enforce the ter ms of this Agreement.",
+        "changed_text": "On req uest or up on term ination of this Agreem ent, prom ptly return all Proprietary Inform ation in a tangible form or certify that such Proprietary Inform ation is destroy ed.",
+        "explanation": "The right to seek injunctive relief is crucial for enforcing confidentiality agreements. Moving this clause to a section detailing return of the Proprietary Information diminishes its significance. Injunctive relief is a powerful remedy, and its placement should reflect this importance.",
+        "contradicted_law": "California Uniform Trade Secrets Act (CUTSA)",
+        "law_citation": "Cal. Civ. Code \u00a7 3426.2",
+        "law_url1": [
+          "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=3426.2."
+        ],
+        "law_url2": [
+          "https://casetext.com/statute/california-codes/california-civil-code/part-4-miscellaneous-provisions/title-5-uniform-trade-secrets-act/section-34262-injunctions"
+        ],
+        "law_explanation": "Cal. Civ. Code \u00a7 3426.2 provides for injunctive relief to prevent misappropriation of trade secrets. By moving the injunctive relief clause, its direct link to the confidentiality obligation is obscured, making it potentially more difficult to obtain an injunction in case of a breach. The relocation undermines its immediate visibility and impact.",
+        "location": "Paragraph 1",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": "California Code, CIV 3426.2. skip to content home accessibility FAQ feedback sitemap login x Quick Search: Bill Number Bill Keyword Home Bill Information California Law Publications Other Resources My Subscriptions My Favorites California Law >> >> Code Section Code Section Code: Select Code CONS BPC CIV CCP COM CORP EDC ELEC EVID FAM FIN FGC FAC GOV HNC HSC INS LAB MVC PEN PROB PCC PRC PUC RTC SHC UIC VEH WAT WIC Article: Section: Code: Select Code All BPC CIV CCP COM CORP EDC ELEC EVID FAM FIN FGC FAC GOV HNC HSC INS LAB MVC PEN PROB PCC PRC PUC RTC SHC UIC VEH WAT WIC Section: Keyword(s): Code Search Text Search Up^ << Previous Next >> cross-reference chaptered bills PDF | Add To My Favorites Search Phrase: Code Text Civil Code - CIV DIVISION 4. GENERAL PROVISIONS [3274 - 9566] ( Heading of Division 4 amended by Stats. 1988, Ch. 160, Sec. 16. ) PART 1. RELIEF [3274 - 3428] ( Part 1 enacted 1872. ) TITLE 5. UNIFORM TRADE SECRETS ACT [3426 - 3426.11] ( Title 5 added by Stats. 1984, Ch. 1724, Sec. 1. ) 3426.2. (a) Actual or threatened misappropriation may be enjoined. Upon application to the court, an injunction shall be terminated when the trade secret has ceased to exist, but the injunction may be continued for an additional period of time in order to eliminate commercial advantage that otherwise would be derived from the misappropriation. (b) If the court determines that it would be unreasonable to prohibit future use, an injunction may condition future use upon payment of a reasonable royalty for no longer than the period of time the use could have been prohibited. (c) In appropriate circumstances, affirmative acts to protect a trade secret may be compelled by court order. (Added by Stats. 1984, Ch. 1724, Sec. 1.)",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The original contract ensures that the Owner can seek injunctive relief to enforce the terms of the agreement. The altered contract moves the injunctive relief clause to a section that discusses returning Proprietary Information. Cal. Civ. Code \u00a7 3426.2(a) states, \"Actual or threatened misappropriation may be enjoined.\" By relocating the injunctive relief clause, its direct connection to the confidentiality obligation is obscured, potentially making it more difficult to obtain an injunction. This shift undermines its visibility and impact, creating a structural flaw that contradicts the intent of Cal. Civ. Code \u00a7 3426.2(a)."
+      },
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "The Proprietary Information will be marked by the Owner as confidential at the tim e of disclosure. I f Proprietar y Inform ation is disclosed orally , electroni cally or wit hout an y marking, Owner will identif y it as confidential at the time of disclosure and will pr ovide a written confirmation to Recipien t within thirty days of disclosure that such inform ation is confidentia l. The parties\u2019 obli gations with respect to Pr oprietary Inform ation shall con tinue for a period of three (3) years after the term ination of this Agreement.",
+        "changed_text": "Any m odification s to this Agree ment must be made in writing and must be signed by both part ies.",
+        "explanation": "Moving the marking requirement to 'Modifications' obscures the obligation of the owner to mark confidential information, making it harder to prove that information was considered confidential at the time of disclosure. This is harmful since it is necessary for proving the information was confidential. It also removes time constraint obligations that were originally available.",
+        "contradicted_law": "California Evidence Code \u00a7 1523",
+        "law_citation": "Cal. Evid. Code \u00a7 1523",
+        "law_url1": [
+          "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EVID&sectionNum=1523"
+        ],
+        "law_url2": [
+          "https://casetext.com/statute/california-codes/california-evidence-code/division-11-writings/chapter-2-secondary-evidence-of-writings/section-1523-oral-testimony-concerning-the-content-of-a-writing"
+        ],
+        "law_explanation": "Cal. Evid. Code \u00a7 1523 concerns the admissibility of oral testimony regarding the contents of a writing. By relocating the section about marking proprietary information, proving the confidentiality of that information becomes harder, because there may be no proof that the information was marked confidential, and written confirmation may not be provided. This potentially undermines the enforceability of the confidentiality obligation.",
+        "location": "Paragraph 3",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": "California Code, EVID 1523 skip to content home accessibility FAQ feedback sitemap login x Quick Search: Bill Number Bill Keyword Home Bill Information California Law Publications Other Resources My Subscriptions My Favorites California Law >> Code Search >> Code Section Code Section Code: Select Code CONS BPC CIV CCP COM CORP EDC ELEC EVID FAM FIN FGC FAC GOV HNC HSC INS LAB MVC PEN PROB PCC PRC PUC RTC SHC UIC VEH WAT WIC Article: Section: Code: Select Code All BPC CIV CCP COM CORP EDC ELEC EVID FAM FIN FGC FAC GOV HNC HSC INS LAB MVC PEN PROB PCC PRC PUC RTC SHC UIC VEH WAT WIC Section: Keyword(s): Code Search Text Search Up^ << Previous Next >> cross-reference chaptered bills PDF | Add To My Favorites Search Phrase: Code Text Evidence Code - EVID DIVISION 11. WRITINGS [1400 - 1605] ( Division 11 enacted by Stats. 1965, Ch. 299. ) CHAPTER 2. Secondary Evidence of Writings [1520 - 1567] ( Chapter 2 enacted by Stats. 1965, Ch. 299. ) ARTICLE 1. Proof of the Content of a Writing [1520 - 1523] ( Article 1 repealed and added by Stats. 1998, Ch. 100, Sec. 2. ) 1523. (a) Except as otherwise provided by statute, oral testimony is not admissible to prove the content of a writing. (b) Oral testimony of the content of a writing is not made inadmissible by subdivision (a) if the proponent does not have possession or control of a copy of the writing and the original is lost or has been destroyed without fraudulent intent on the part of the proponent of the evidence. (c) Oral testimony of the content of a writing is not made inadmissible by subdivision (a) if the proponent does not have possession or control of the original or a copy of the writing and either of the following conditions is satisfied: (1) Neither the writing nor a copy of the writing was reasonably procurable by the proponent by use of the court\u2019s process or by other available means. (2) The writing is not closely related to the controlling issues and it would be inexpedient to require its production. (d) Oral testimony of the content o",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The changed text moves the requirement for marking proprietary information as confidential to the section on 'Modifications'. This obscures the owner's obligation to mark confidential information at the time of disclosure. The Law Explanation states that proving confidentiality becomes harder without proof that the information was marked confidential or written confirmation was provided. This undermines the enforceability of the confidentiality obligation, as it removes the time-sensitive marking obligation. Cal. Evid. Code \u00a7 1523, as shown in Scraped Law Snippet 1, addresses the admissibility of oral testimony in place of written evidence. While the snippet doesn't directly mandate marking, the change makes it more likely that oral testimony would be needed to prove confidentiality, potentially running afoul of the preference for written evidence. Because the change makes proving confidentiality more difficult by obscuring the initial marking obligation, a legal contradiction exists as the modification impacts the enforceability of confidentiality which is required for the proprietary information to be protected."
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "1473637_0001432093-12-000764_ex10-34.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Recipient agrees not to reverse-engineer or have a third party reverse-engineer the Proprietary Information without first obtaining the express, written consent of Discloser.",
+        "changed_text": "Recipient agrees not to reverse-engineer the Proprietary Information. The recipient may have a third party reverse-engineer the Proprietary Information. Written consent is not required.",
+        "explanation": "This modification creates an in-text contradiction within the clause. The first sentence states that the recipient agrees not to reverse-engineer the information. The following sentence grants permission to a third party to reverse-engineer the information without written consent of Discloser, which contradicts the first sentence of the paragraph. This will cause issues in enforcement, especially concerning breaches, directly contradicting paragraph 15.",
+        "location": "4",
+        "contradicted_location": "15",
+        "contradicted_text": "In the event of a breach or threatened breach by Recipient of any of the provisions of the Agreement, Discloser, in addition to any other remedies available to it under law, at equity or otherwise, shall be entitled to seek an injunction restraining Recipient from the performance of acts that constitute a breach or threatened breach of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text creates a direct contradiction. Initially, the recipient was prohibited from reverse-engineering and having a third party do so without written consent. The modified text explicitly allows a third party to reverse-engineer without consent. This directly contradicts the contradicted text, which allows the Discloser to seek an injunction if the Recipient breaches any provision of the agreement. Since the modified text permits an action that was initially prohibited, it creates an inconsistency regarding potential breaches and the Discloser's remedies, fitting the definition of 'Inconsistencies - In Text Contradiction'."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The obligations of confidentiality and restrictions on use set forth in Paragraph 2 above do not apply to information that Recipient can demonstrate by competent physical evidence: (a) Was already known by Recipient prior to receipt from Discloser or becomes known by Recipient independently of Discloser through no wrongful act of Recipient; (b) is now, or becomes, publicly known through no violation of this Agreement; (c) is disclosed pursuant to law, regulation or lawful order or process, provided that Recipient promptly notifies Discloser so as to permit Discloser to oppose or limit such disclosure; or (d) is approved in writing by Discloser for disclosure to a third party by Recipient.",
+        "changed_text": "The obligations of confidentiality and restrictions on use set forth in Paragraph 2 above do not apply to information that Recipient believes in good faith is: (a) Already known by Recipient; (b) is now publicly known; (c) is disclosed pursuant to law; or (d) approved for disclosure.",
+        "explanation": "The modified text creates an in-text contradiction by removing the requirement for 'competent physical evidence' and 'no violation of this agreement' to demonstrate exceptions to confidentiality. Changing 'can demonstrate by competent physical evidence' to 'believes in good faith' significantly weakens the standard of proof, making it easier for the Recipient to claim exceptions and undermines the enforcement of the original confidentiality obligations. Also, removing 'provided that Recipient promptly notifies Discloser so as to permit Discloser to oppose or limit such disclosure' makes this contradictory. This introduces substantial ambiguity in how the exceptions are applied. This directly contradicts the overall spirit and intent of the agreement, which is to protect Proprietary Information as stated in paragraph 7.",
+        "location": "5",
+        "contradicted_location": "7",
+        "contradicted_text": "Nothing in this Agreement shall be construed to impose any obligation on Discloser to disclose information to the Recipient, or to enter into any other agreement of any nature. This Agreement is for protecting Proprietary Information only. No rights or obligations other than those expressly recited herein are granted or to be implied from this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text significantly weakens the confidentiality obligations by removing the requirement for 'competent physical evidence' and replacing it with a 'good faith belief', as well as removing the notification requirement. This directly contradicts the overall purpose of the agreement, which, as stated in the contradicted text, 'is for protecting Proprietary Information only'. The original text provides a clear burden of proof, whereas the changed text makes it substantially easier to claim an exception, undermining the protective intent and creating an inconsistency related to enforcement of protections."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Neither the execution of this Agreement, nor the disclosure of any Proprietary Information hereunder, shall be construed as granting Recipient any immunity or license to use Proprietary Information in any way { whether expressly, by implication, estoppel or otherwise), or any right to ownership, with respect to Proprietary Information or other intellectual property right(s) now or hereafter owned or controlled by Discloser.",
+        "changed_text": "The execution of this Agreement, and the disclosure of any Proprietary Information hereunder, shall be construed as granting Recipient a limited license to use Proprietary Information in ways necessary for evaluation purposes only, unless explicitly stated otherwise in a subsequent agreement. Recipient gains limited ownership with respect to Proprietary Information.",
+        "explanation": "This change introduces an in-text contradiction by granting the Recipient a 'limited license' and 'limited ownership', which directly contradicts the original clause stating that the agreement does NOT grant any license or right to ownership. This creates uncertainty about the extent of the Recipient's rights and conflicts with the Discloser's intellectual property rights. Specifically, it will create a contradiction to the agreement's scope, described in paragraph 11.",
+        "location": "6",
+        "contradicted_location": "11",
+        "contradicted_text": "This Agreement constitutes the entire agreement and understanding of the Parties related to confidentiality and limited use of Proprietary Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. The changed text grants the Recipient a limited license and ownership of the Proprietary Information, whereas the contradicted text states the agreement is for 'limited use of Proprietary Information' which implies no license or ownership is transferred. This creates an inconsistency within the agreement and uncertainty regarding the terms of use, as described in the provided explanation."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement shall remain in force for a period two (2) years, unless terminated earlier on thirty (30) days written notice provided by either Party. However, the obligations of confidentiality and limited use of Proprietary Information shall survive the termination of the Agreement.",
+        "changed_text": "This Agreement shall remain in force for a period of two (2) years, but it may be terminated immediately and without notice by either party. The obligations of confidentiality and limited use of Proprietary Information shall not survive the termination of the Agreement.",
+        "explanation": "This change creates an in-text contradiction by stating the agreement can be terminated immediately without notice, while the original agreement required 30 days written notice. The obligations of confidentiality not surviving the termination of the agreement, contradicts the original term of confidentiality agreement. This creates ambiguity about the term of the agreement and the duration of confidentiality obligations. Specifically, this introduces ambiguity and contradicts the notice requirements as originally stated in paragraph 17.",
+        "location": "13",
+        "contradicted_location": "17",
+        "contradicted_text": "All notices under this Agreement shall be in writing and shall be sent to the Party being served by facsimile or certified mail return receipt requested at that Party's address specified above or at such address of which such Party shall give notice as aforesaid, and marked for the attention of that Party's signatory to this Agreement. The date of service shall be deemed to the day following the day on which the notice was transmitted or posted as the case may be.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. The original text and contradicted text require written notice, while the changed text states the agreement can be terminated immediately without notice. This conflicts with the notice requirements stipulated in the contradicted text, where all notices under the agreement must be in writing, creating a strong in-text contradiction."
+      }
+    ]
+  }
+]

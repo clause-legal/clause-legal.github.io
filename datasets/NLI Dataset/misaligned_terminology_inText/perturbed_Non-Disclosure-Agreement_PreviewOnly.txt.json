@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Non-Disclosure-Agreement_PreviewOnly.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "“Information ” means all information in whatever form including, without limitation, any information relating to systems, operations, pla ns, intentions, market opportunities, know-how, trade secrets and business af fairs whether in writing, conveyed orally or by machine-readable medium;",
+        "changed_text": "“Information ” means all material in whatever form including, without limitation, any information relating to systems, operations, pla ns, intentions, market opportunities, know-how, trade secrets and business af fairs whether in writing, conveyed orally or by machine-readable medium;",
+        "explanation": "Changing the word 'information' to 'material' within the definition of 'Information' creates an in-text contradiction. Since 'Information' is used throughout the document, substituting it with 'material' in its definition creates uncertainty about what 'Information' truly encompasses. The contradictory impact is that when assessing what should be return, as per clause 3, it is unclear if everything should be return or some sort of material.",
+        "location": "Page 2",
+        "contradicted_location": "Page 4",
+        "contradicted_text": "3. Records and return of Information 3.1 The Receiving Party agrees to ensure proper and s ecure storage of all Information and any copies thereof to at least the same standard as the Receiving Party keeps its own Confidential Information. The Receiving Part y shall not make any copies or reproduce in any form any Confidential Information exce pt for the purpose of disclosure as permitted in accordance with this Agreeme nt.",
+        "contradiction_exists": "YES",
+        "justification": "The change replaces 'information' with 'material' in the definition of 'Information'. This creates a contradiction because clause 3 refers to 'Information' but the definition now uses 'material' instead of information. This leads to uncertainty about whether clause 3 requires the return of all information or just all material and any copies thereof, as per clause 3.1. This aligns with the 'Misaligned Terminology - In Text Contradiction' definition because changing the word 'information' to 'material' within the definition of 'Information' creates an in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "2.1 The Receiving Party will treat and keep all Confid ential Information as secret and confidential and will not, without the Disclosing Par ty’s written consent, directly or indirectly communicate or disclose (whether in writing or orally or in any other manner) Confidential Information to any other person other than in accordance with the terms of this Agreement.",
+        "changed_text": "2.1 The Receiving Party will treat and keep all Sensitive Data as secret and confidential and will not, without the Disclosing Par ty’s written consent, directly or indirectly communicate or disclose (whether in writing or orally or in any other manner) Sensitive Data to any other person other than in accordance with the terms of this Agreement.",
+        "explanation": "Changing 'Confidential Information' to 'Sensitive Data' in Section 2.1 introduces a significant contradiction. 'Confidential Information' is a defined term, while 'Sensitive Data' is not. This creates uncertainty because the entire agreement relies on the defined term 'Confidential Information.' Changing this key term without any corresponding definition makes it challenging to know what the Receiving Party is actually obligated to protect. This change contradicts the clause because, although 'Confidential Information' is define, 'Sensitive Data' is not, so it creates a contradiction between a defined term and a term that does not have any linkage in the text.",
+        "location": "Page 2",
+        "contradicted_location": "Page 3",
+        "contradicted_text": "2.6 All Confidential Information shall remain the property of the Disclosing Party and its disclosure shall not confer on the Receiving Party any r ights, including intellectual property rights, over the Confidential Information w hatsoever beyond those contained in this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Confidential Information' to 'Sensitive Data' introduces a contradiction because 'Confidential Information' is a defined term used throughout the agreement, including in Section 2.6. Replacing it with 'Sensitive Data,' which is not defined, creates uncertainty about what information the Receiving Party is obligated to protect, and makes section 2.6 unclear because it refers to 'Confidential Information' which is no longer consistently used in the contract (section 2.1). The change causes misalignment of terminology leading to in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "“Agents ” means directors, officers, employees, agents, profes sional advisers, contractors or sub-contractors, or any Group member;",
+        "changed_text": "“Representatives ” means directors, officers, employees, agents, profes sional advisers, contractors or sub-contractors, or any Group member;",
+        "explanation": "The change from 'Agents' to 'Representatives' in the definition creates an in-text contradiction. Throughout the NDA, the term 'Agents' is used to define to whom the Receiving Party can disclose information. By changing this to 'Representatives' but not updating it throughout the entire document, we are creating a contradiction, because we are using 'Agents' within a text that defines 'Representatives'.",
+        "location": "Page 1",
+        "contradicted_location": "Page 3",
+        "contradicted_text": "2.3 Notwithstanding clause 2.1, the Receiving Party m ay disclose Confidential Information: (i) To those of its Agents who strictly need to know the Confidential Information for the sole purpose set out in clause 2.2 provided that the Receiving Party shall ensure that such Agents are made aware prior to the disclosure of any part of the Confidential Information that the same is confid ential and that they owe a duty of confidence to the Disclosing Party. The Receiving Party shall at all times remain liable for any actions of such Agents that woul d constitute a breach of this Agreement; or (ii) to the extent required by law or the rules of a ny applicable regulatory authority, subject to clause 2.4 below.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Agents' to 'Representatives' in the definition creates a contradiction because the contradicted text refers to 'Agents'. The modified definition redefines 'Agents' as 'Representatives', but the contradicted text still uses 'Agents', creating a direct conflict. The Receiving Party can only disclose Confidential Information to its 'Agents' but the term 'Agents' has been redefined. This is a strong contradiction due to misaligned terminology as specified in the perturbation explanation."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Proposal ” means the aggregation of Transnet’s Request for I nformation (RFI) and Request for Proposal (RFP).",
+        "changed_text": "Proposal ” means the aggregation of Transnet’s Request for I nformation (RFI) and Initial Submission (IS).",
+        "explanation": "Changing 'Request for Proposal (RFP)' to 'Initial Submission (IS)' in the definition of 'Proposal' creates a contradiction. The agreement references the 'Proposal' in many places, and understanding what it constitutes is crucial for interpreting the obligations of each party. By changing the definition to include 'Initial Submission (IS)' without defining 'IS' or clearly explaining how it replaces or relates to the original 'RFP', uncertainty arises. The use of RFP is contradicted by this change, because RFP is referenced in the text.",
+        "location": "Page 2",
+        "contradicted_location": "Page 2",
+        "contradicted_text": "2.2 The Receiving Party will only use the Confidentia l Information for the sole purpose of technical and commercial discussions between the partie s in relation to the Proposal or for the subsequent performance of any contract betwe en the parties in relation to the Proposal.",
+        "contradiction_exists": "YES",
+        "justification": "The change replaces 'Request for Proposal (RFP)' with 'Initial Submission (IS)' in the definition of 'Proposal'. The contradicted text, clause 2.2, explicitly refers to 'the Proposal' in the context of technical and commercial discussions. Because RFP is changed to IS and RFP is explicitly mentioned in the Contradicted Text, a strong in-text contradiction exists. This is because it alters the scope of what constitutes the 'Proposal', potentially excluding the original understanding related to RFP, leading to uncertainty about the purpose of discussions mentioned in clause 2.2, based on the definition provided for Misaligned Terminology."
+      }
+    ]
+  }
+]

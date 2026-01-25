@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "VAPOTHERM, INC. - Manufacturing and Supply Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "3.1 Price. The price paid by Vapotherm for any given shipment of Cartridges during the Initial Term is as stated in Exhibit A-1. No later than [* * *] days prior to the end of the Initial Term and each Renewal Term, Medica shall provide Vapotherm with reasonable documentation of its actual and direct costs in manufacturing the Cartridges (the \"Costs\"). The parties will then negotiate in good faith the Cartridge prices for the subsequent",
+        "changed_text": "3.1 Price. The price paid by Vapotherm for any given shipment of Cartridges during the Initial Term is to be mutually agreed upon. No later than [* * *] days prior to the end of the Initial Term and each Renewal Term, Medica shall provide Vapotherm with reasonable documentation of its actual and direct costs in manufacturing the Cartridges (the \"Costs\"). The parties will then negotiate in good faith the Cartridge prices for the subsequent",
+        "explanation": "The original text specifies that the price is stated in Exhibit A-1. Changing it to 'mutually agreed upon' omits a clear pricing mechanism. While it still refers to costs and negotiation, the explicit reference to Exhibit A-1 is removed, creating a contradiction if Exhibit A-1 is referenced elsewhere as defining the price. This creates uncertainty because there is no baseline price stated, and relies on mutual agreement only.",
+        "location": "Section 3.1",
+        "contradicted_location": "Exhibit A-1",
+        "contradicted_text": "Exhibit A-1 Price Schedule: in EURO (Euro) [* * *]",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 3.1 removes the explicit pricing mechanism (Exhibit A-1) and replaces it with 'mutually agreed upon'. This directly contradicts Exhibit A-1, which is a 'Price Schedule'. The original text defined the price in Exhibit A-1; the changed text does not, creating a contradiction because the price is no longer defined by Exhibit A-1, but requires mutual agreement. This creates a strong in-text contradiction according to the definition of 'Omissions – In Text Contradiction'."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "4.1 Conformity with Specifications. Any Cartridges that Medica manufactures under this Agreement must conform to the specifications in Exhibit D (the \"Specifications\") and (2) be manufactured, labeled, packaged, stored, and tested (while in the possession of, stored by, or under the control of Medica) in accordance with cGMP. Medica shall provide adequate packaging for protection during normal shipping and handling environments.",
+        "changed_text": "4.1 Conformity with Specifications. Any Cartridges that Medica manufactures under this Agreement must conform to specifications and (2) be manufactured, labeled, packaged, stored, and tested (while in the possession of, stored by, or under the control of Medica) in accordance with cGMP. Medica shall provide adequate packaging for protection during normal shipping and handling environments.",
+        "explanation": "By omitting 'in Exhibit D (the \"Specifications\")', we remove a crucial reference point for determining conformity. While the clause still mandates conformity with specifications, the removal of Exhibit D creates ambiguity regarding which specific document defines those specifications. If other sections refer to Exhibit D for specific quality criteria, this omission creates a contradiction. Section 4.2 refers to the Specification, which is supposed to be on Exhibit D.",
+        "location": "Section 4.1",
+        "contradicted_location": "Section 4.2",
+        "contradicted_text": "4.2 Conditions to Rejection. In order to be entitled to reject any Cartridge, Vapotherm must notify Medica of any failure of the Cartridge to meet the Specifications or otherwise comply with this Agreement. Misuse or improper storage will not be grounds for rejection.",
+        "contradiction_exists": "YES",
+        "justification": "The omission of 'in Exhibit D (the \"Specifications\")' from Section 4.1 directly contradicts Section 4.2. Section 4.2 states that rejection of cartridges is based on failure to meet 'the Specifications.' By removing the reference to Exhibit D in Section 4.1, it becomes unclear which specifications are being referred to. This ambiguity directly impacts the enforceability of Section 4.2, as there is no longer a clear standard against which to measure cartridge performance, creating a strong in-text contradiction. The original text had a clear reference point, while the changed text leaves that open to interpretation, and thus contradicts the clause that requires the original reference point."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "9.4 Definition of Recall. For purposes of this Article 8, \"recall\" means any action by Vapotherm or any of its Affiliates, or either Medica or any of its Affiliates, to recover title or possession or halt distribution or use of any Cartridges sold or shipped to any other Persons. The term \"recall\" also applies to Cartridge that would have been subject to recall if it had been sold or shipped.",
+        "changed_text": "9.4 Definition of Recall. For purposes of this Article, \"recall\" means any action to recover title or possession or halt distribution or use of any Cartridges sold or shipped to any other Persons. The term \"recall\" also applies to Cartridge that would have been subject to recall if it had been sold or shipped.",
+        "explanation": "By omitting 'this Article 8', we remove a crucial reference point for the recall definition. If the recall means any action according to the article, then it should be Article 9 and not Article 8, creating ambiguity regarding which specific document defines those specifications. The begining of the phrase 'For purposes of this Article' needs to be followed with 'Article 9'.",
+        "location": "Section 9.4",
+        "contradicted_location": "Section 9.4",
+        "contradicted_text": "9.4 Definition of Recall. For purposes of this Article, \"recall\" means any action to recover title or possession or halt distribution or use of any Cartridges sold or shipped to any other Persons. The term \"recall\" also applies to Cartridge that would have been subject to recall if it had been sold or shipped.",
+        "contradiction_exists": "YES",
+        "justification": "The change omits the reference to 'Article 8' in the definition of 'Recall'. The Contradicted Text specifically states that the definition is 'For purposes of this Article', clarifying which article's definition of 'recall' applies. By removing 'Article 8', the Changed Text creates ambiguity because the definition of recall is now not tied to a specific article, contradicting the Contradicted Text which explicitly defines it within the context of 'Article 8'. This creates a clear contradiction as to which article the definition of recall applies."
+      }
+    ]
+  }
+]

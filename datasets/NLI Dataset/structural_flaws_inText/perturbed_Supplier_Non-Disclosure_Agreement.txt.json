@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Supplier_Non-Disclosure_Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement shall not create an obligation on the part of Company to acquire or purchase the Supplies from Supplier.",
+        "changed_text": "This Agreement shall create an obligation on the part of Company to acquire or purchase the Supplies from Supplier.",
+        "explanation": "The original text explicitly states that the agreement doesn't obligate the Company to purchase supplies from the supplier. The modified version directly contradicts this by stating that the Company *is* obligated to purchase supplies. This creates uncertainty about whether there is a purchasing obligation.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Status of Supplier. Supplier’s status at all times shall be that of an independent contractor, and Supplier shall not be considered an agent, partner, representative, or employee of Company for any purposes whatsoever. This Agreement shall create an obligation on the part of Company to acquire or purchase the Supplies from Supplier. If Company accepts Supplier as an approved supplier for Supplies, any supply of such Supplies shall be unde r Company’s standard General Terms and Conditions of Purchase without the need for further adoption of such terms and conditions. Supplier shall not advertise nor disclose that it is a potential supplier or a supplier of Supplies to Company.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the company is not obligated to purchase supplies from the supplier, while the changed text explicitly states that the company *is* obligated to purchase supplies. The contradicted text includes the same clause that now contradicts itself. This is a direct and clear contradiction, creating uncertainty about the company's purchasing obligations and potentially leading to disputes."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement constitutes the entire agreement between the parties respecting the subject matter hereof and supersedes all prior agreements between the parties relating to the subject matter hereof, whether written or oral.",
+        "changed_text": "This Agreement does not constitute the entire agreement between the parties. This agreement will be supplemented by additional oral agreement.",
+        "explanation": "The original text states that the agreement is the entire agreement and supersedes prior agreements. The modified version directly contradicts this by saying the agreement is *not* the entire agreement and will be supplemented by other agreements. This creates uncertainty about what constitutes the complete agreement between the parties. Introducing ambiguity in the entire agreement.",
+        "location": "4.C",
+        "contradicted_location": "4.C",
+        "contradicted_text": "C. This Agreement does not constitute the entire agreement between the parties. This agreement will be supplemented by additional oral agreement. It is effective on execution by Supplier. No waiver or modification of the terms of this Agreement shall be valid unless in writing and duly executed by Supplier and Company. This Agreement shall be cumulative with all other rights of Company unde r any existing or future agreements between Company and Supplier unless specifically waived by Company.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that it constitutes the entire agreement, superseding all prior agreements. The changed text explicitly states that it does *not* constitute the entire agreement and will be supplemented by additional oral agreements. The contradicted text is the changed text in itself, which says that the agreement will be supplemented by additional oral agreement, and this is an explicit and direct contradiction of the original statement, creating uncertainty about what the 'entire agreement' is. Therefore, based on the definition of 'Structural Flaws - In Text Contradiction', this is a clear in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement is not assignable by Supplier.",
+        "changed_text": "This Agreement is freely assignable by Supplier.",
+        "explanation": "The original text explicitly states the agreement cannot be assigned by the Supplier. The modified version states the agreement can be freely assigned by the Supplier, creating a direct contradiction about assignability.",
+        "location": "4.F",
+        "contradicted_location": "4.F",
+        "contradicted_text": "F. This Agreement is freely assignable by Supplier. This Agreement binds Supplier and its affiliated companies upon execution by Supplier whether or not executed by Company.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that the agreement was not assignable by the Supplier. The changed text directly contradicts this by stating that the agreement is freely assignable by the Supplier. This creates a direct and strong contradiction with the contradicted text, which also states that 'This Agreement is freely assignable by Supplier.' Although the changed text and contradicted text are the same, the fact that the original text said something different, and then it was edited to say the exact opposite creates a contradiction within the document as a whole."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Confidential Information shall not include any information which: (a) was know n to Supplier at the time of disclosure as evidenced by Supplier’s written records; or (b) after disclosure by Company, is lawfully obtained by Supplier from a third party who has the right to disclose such information to Supplier; or (c) legally enters the public domain or is generally available to the public other than by an unauthorized act by Supplier or the party to which such information was originally disclosed; provided, however, Confidential Information which is composed of a combination, compilation or sequential arrangement of individual elements or features which individual elements are available to the general public or are or were know n or become know n to Supplier, shall be considered Confidential Information with respect to such combination, compilation or sequential arrangement.",
+        "changed_text": "All information disclosed by Company to Supplier, regardless of its nature or source, shall be considered Confidential Information, even if it was previously known to Supplier, obtained from a third party, or is in the public domain. Confidential Information which is composed of a combination, compilation or sequential arrangement of individual elements or features which individual elements are available to the general public or are or were know n or become know n to Supplier, shall NOT be considered Confidential Information with respect to such combination, compilation or sequential arrangement.",
+        "explanation": "The original text excludes certain categories of information from the definition of 'Confidential Information'. The modified version directly contradicts this by stating that *all* information is considered confidential, regardless of prior knowledge, source, or public availability. The change introduce a contradiction in the Confidential Information definition. This contradiction creates significant uncertainty about what information the supplier is actually obligated to keep confidential. The original text state that the combination of elements is confidential, but now with the perturbation, the combination is not confidential.",
+        "location": "1.B",
+        "contradicted_location": "1.B",
+        "contradicted_text": "B. All information disclosed by Company to Supplier, regardless of its nature or source, shall be considered Confidential Information, even if it was previously known to Supplier, obtained from a third party, or is in the public domain. Confidential Information which is composed of a combination, compilation or sequential arrangement of individual elements or features which individual elements are available to the general public or are or were know n or become know n to Supplier, shall NOT be considered Confidential Information with respect to such combination, compilation or sequential arrangement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines exceptions to what constitutes 'Confidential Information' (prior knowledge, third-party source, public domain). The changed text explicitly states that *all* information is Confidential Information, regardless of these factors, contradicting the original exceptions. Moreover, the original text stated the compilation is confidential, the changed text states that the compilation is NOT confidential. Given that the contradicted text also specifies that all information is confidential, and the compilation is NOT confidential, the change introduces a clear contradiction in the contract's definition and treatment of Confidential Information. This contradiction leads to uncertainty about the supplier's obligations and creates a strong in-text contradiction according to the definition of 'Structural Flaws - In Text Contradiction'."
+      }
+    ]
+  }
+]

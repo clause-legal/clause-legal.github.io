@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "BTS_NDA.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "3. Notwithstanding any other provisions of this Agreement, each party acknowledges that “Confidential Information” shall not include any information which: (a) Is, or becomes, publicly known through no wrongful act on the receiving party’s part; or (b) Is, at the time of disclosure under this Agreement, already known to the receiving party without restriction on disclosure; or (c) Is, or becomes, right fully possessed by the receiving party without any obligation restricting disclosure and without breach of this Agreement; or (d) Is independently developed by the receiving party without breach of this Agreement; or (e) Is furnished to a third party by th e disclosing party without a similar restriction on the third party’s rights; or (f) Is required to be disclosed by law or applicable legal process; or (g) Is embodied and ascertainable upon inspection of commercially available products, including manuals and the like, rightfully sold to the public by either party; or (h) Is explicitly authorized for release by written authorization of the disclosing party.",
+        "changed_text": "3. Notwithstanding any other provisions of this Agreement, each party acknowledges that “Confidential Information” shall include any information which: (a) Is, or becomes, publicly known through no wrongful act on the receiving party’s part; or (b) Is, at the time of disclosure under this Agreement, already known to the receiving party without restriction on disclosure; or (c) Is, or becomes, right fully possessed by the receiving party without any obligation restricting disclosure and without breach of this Agreement; or (d) Is independently developed by the receiving party without breach of this Agreement; or (e) Is furnished to a third party by th e disclosing party without a similar restriction on the third party’s rights; or (f) Is required to be disclosed by law or applicable legal process; or (g) Is embodied and ascertainable upon inspection of commercially available products, including manuals and the like, rightfully sold to the public by either party; or (h) Is explicitly authorized for release by written authorization of the disclosing party.",
+        "explanation": "The original text explicitly states that certain information is *not* considered 'Confidential Information.' Changing 'shall not include' to 'shall include' reverses the meaning, causing a direct contradiction. This makes all information including information already known to the receiving party now confidential, which directly contradicts the intent of the rest of the agreement.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "3. Notwithstanding any other provisions of this Agreement, each party acknowledges that “Confidential Information” shall include any information which: (a) Is, or becomes, publicly known through no wrongful act on the receiving party’s part; or (b) Is, at the time of disclosure under this Agreement, already known to the receiving party without restriction on disclosure; or (c) Is, or becomes, right fully possessed by the receiving party without any obligation restricting disclosure and without breach of this Agreement; or (d) Is independently developed by the receiving party without breach of this Agreement; or (e) Is furnished to a third party by th e disclosing party without a similar restriction on the third party’s rights; or (f) Is required to be disclosed by law or applicable legal process; or (g) Is embodied and ascertainable upon inspection of commercially available products, including manuals and the like, rightfully sold to the public by either party; or (h) Is explicitly authorized for release by written authorization of the disclosing party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states 'Confidential Information shall not include' certain categories of information. The changed text alters this to 'Confidential Information shall include' these same categories. This creates a direct and irreconcilable contradiction within the contract, as information previously defined as non-confidential is now defined as confidential. The 'Contradicted Text' given is the same as the 'Changed Text' therefore this reinforces the contradiction made within the section itself."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "4. Either party may terminate this agreement at any time by giving written notice to the other party. Notwithstanding termination or expiration, all obligations of confidentially shall survive and continue to bind the receiving parties for the period set forth in Section 2.",
+        "changed_text": "4. Either party may terminate this agreement at any time by giving written notice to the other party. Notwithstanding termination or expiration, all obligations of confidentially shall immediately cease.",
+        "explanation": "Section 4 originally stated that even after termination of the agreement, confidentiality obligations survive as described in Section 2. The modified Section 4 directly contradicts this by stating that all confidentiality obligations immediately cease upon termination. This is an in-text contradiction within Section 4 itself, as the first sentence allows termination, but the second originally preserved confidentiality, whereas in the changed version the second sentence directly opposes the original intent.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "4. Either party may terminate this agreement at any time by giving written notice to the other party. Notwithstanding termination or expiration, all obligations of confidentially shall immediately cease.",
+        "contradiction_exists": "YES",
+        "justification": "The original text in Section 4 allowed for the termination of the agreement while maintaining confidentiality obligations as defined in Section 2. The changed text in Section 4 states that all confidentiality obligations immediately cease upon termination or expiration of the agreement. This directly contradicts the original intent and creates an in-text contradiction within Section 4 itself. The explanation given confirms that this modification leads to a direct conflict, making the obligation unclear and creating an in-text contradiction. The contradicted text is identical to the changed text and confirms the contradiction. The change breaks compatibility, making enforcement unclear and creating a logical inconsistency."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "5. At the instruction of disclosing party, the receiving party agrees to either r eturn or dispose of all information received under this agreement, discontinue any use of the “Confidential Information”, and provide written confirmation thereof.",
+        "changed_text": "5. Regardless of the instruction of disclosing party, the receiving party agrees to retain all information received under this agreement, continue any use of the “Confidential Information”, and is not required to provide written confirmation thereof.",
+        "explanation": "The original Section 5 requires the receiving party to return or dispose of information at the disclosing party's instruction. The changed Section 5 mandates the opposite: the receiving party must retain all information regardless of the disclosing party's wishes. This causes a direct contradiction because the same section is imposing two opposing obligations. Furthermore, it conflicts with the overall intention of an NDA, where the disclosing party retains control over their confidential information.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "5. Regardless of the instruction of disclosing party, the receiving party agrees to retain all information received under this agreement, continue any use of the “Confidential Information”, and is not required to provide written confirmation thereof.",
+        "contradiction_exists": "YES",
+        "justification": "The original Section 5 required returning or disposing of information at the disclosing party's direction. The changed Section 5 mandates retaining all information regardless of the disclosing party's wishes. This is a direct contradiction within the same section, as it imposes opposing obligations. The contradicted text is the same as the changed text, showing that the modification itself creates the contradiction according to the provided explanation and the definition of structural flaws."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "8. The existence of this Agreement and/or the nature of the busin ess conducted between the parties shall not be disclosed at any time by any party(ies) without the prior written permission of the other party.",
+        "changed_text": "8. The existence of this Agreement and/or the nature of the business conducted between the parties shall be disclosed at any time by any party(ies).",
+        "explanation": "The original clause strictly prohibited any party from disclosing the agreement's existence or the business relationship without prior written permission. Changing this to stating it *shall* be disclosed at any time creates a complete contradiction. The receiving party is now required to breach confidentiality.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "8. The existence of this Agreement and/or the nature of the business conducted between the parties shall be disclosed at any time by any party(ies).",
+        "contradiction_exists": "YES",
+        "justification": "The original text prohibited disclosure of the agreement without permission. The changed text mandates disclosure at any time. This directly contradicts the original intent of confidentiality and clashes with the contradicted text (which is the same as the changed text). This aligns with the definition of 'Structural Flaws - In Text Contradiction' where the same clause has conflicting implications due to the change."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "9. This Agreement may not be modified or amended unless in writing and signed by duly authorized representatives of all parties.",
+        "changed_text": "9. This Agreement may be modified or amended orally by any party.",
+        "explanation": "The original text mandated that any modifications must be written and signed by all parties to be valid. The modified version completely contradicts this by allowing oral modifications by any single party. This introduces extreme uncertainty, as a verbal agreement could potentially override the entire written contract, making it unenforceable.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "9. This Agreement may be modified or amended orally by any party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in section 9 allows for oral modification by any party, which directly contradicts the original text's requirement for written and signed modifications by all parties. The contradicted text is the same as the changed text, meaning that this change creates a clause that is in direct conflict with the original terms of the agreement, thus introducing a strong in-text contradiction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "ICORECONNECTINC_10_13_2010-EX-7.1-Strategic Alliance Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement shall commence on the Effective Date of this Agreement and shall remain in effect for a period of 5 years (\"Initial Term\"). Thereafter, this Agreement shall be renewed automatically on a five (5) year basis, unless one party notifies the other of its desire to terminate this Agreement at least sixty 90 days prior to the expiration of the Initial Term or then current renewal term, as applicable, or unless a new Agreement is signed between the USA MCO and IMedicor which will then invalidate this Agreement. In such an instance, all compensation will continue for a extended period of five years from the date of termination for all subscriptions tagged as USA MCO.",
+        "changed_text": "This Agreement shall commence on the Effective Date of this Agreement and shall remain in effect for a period of 5 years (\"Initial Term\"). Thereafter, this Agreement shall be renewed automatically on a five (5) year basis, unless both parties consent to terminate this Agreement, or unless a new Agreement is signed between the USA MCO and IMedicor which will then invalidate this Agreement. In such an instance, all compensation will continue for a extended period of five years from the date of termination for all subscriptions tagged as USA MCO.",
+        "explanation": "The original text allowed termination with 90 days' notice, implying unilateral termination. The modified text requires both parties to consent to termination, creating an in-text contradiction, because it makes the termination dependent on mutual agreement of both parties, contrasting with the implicit unilateral termination described by the original contract.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "This Agreement shall commence on the Effective Date of this Agreement and shall remain in effect for a period of 5 years (\"Initial Term\"). Thereafter, this Agreement shall be renewed automatically on a five (5) year basis, unless both parties consent to terminate this Agreement, or unless a new Agreement is signed between the USA MCO and IMedicor which will then invalidate this Agreement. In such an instance, all compensation will continue for a extended period of five years from the date of termination for all subscriptions tagged as USA MCO.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the termination clause, requiring both parties' consent for termination. The contradicted text restates the changed text, therefore a contradiction still exists relative to the initial contract. The initial contract implied unilateral termination with 90 days notice, but now requires mutual agreement, which contradicts the initial implication."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "USA MCO will have the option to take all or part of its revenue share in equity up to a maximum of 4.9% ownership in iMedicor on a fully diluted basis. For the purposes of this proposal, fully diluted means all issued and outstanding stock warrants priced at 15 times the average 5 day closing price at the day previous to reconciliation of revenues, which will be the 20th of the month for the prior calendar month.",
+        "changed_text": "USA MCO will have the option to take all or part of its revenue share in equity up to a maximum of 4.9% ownership in iMedicor. For the purposes of this proposal, fully diluted means all issued and outstanding stock warrants priced at a value to be determined at the discretion of IMedicor at the time of reconciliation, which will be the 20th of the month for the prior calendar month.",
+        "explanation": "The original text specifies a clear formula for calculating the price of fully diluted shares (15 times the average 5 day closing price). The modified text replaces this with 'a value to be determined at the discretion of IMedicor,' making the valuation arbitrary and creating an in-text contradiction because now the price to calculate the fully diluted share, is at the dicretion of IMedicor, contrasting with the original specification of the prices in the original text.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "USA MCO will have the option to take all or part of its revenue share in equity up to a maximum of 4.9% ownership in iMedicor. For the purposes of this proposal, fully diluted means all issued and outstanding stock warrants priced at a value to be determined at the discretion of IMedicor at the time of reconciliation, which will be the 20th of the month for the prior calendar month.",
+        "contradiction_exists": "YES",
+        "justification": "The original text provides a specific formula for calculating the price of fully diluted shares (15 times the average 5 day closing price). The changed text replaces this with 'a value to be determined at the discretion of IMedicor,' making the valuation arbitrary. This contradicts the initial, well-defined valuation method, creating an in-text contradiction. The contradicted text is the changed text. Because the changed text provides contradictory information within itself, there is an in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Recipient agrees that it shall treat all Confidential Information of Recipient with the same degree of care as it accords to its own Confidential Information, and Recipient represents that it exercises reasonable care to protect its own Confidential Information.",
+        "changed_text": "Recipient agrees that it shall treat all Confidential Information of Recipient with the same degree of care as it deems necessary, and Recipient represents that it may exercise care to protect its own Confidential Information, based on internal policies.",
+        "explanation": "The original text mandates the Recipient to use the same degree of care to protect Confidential Information as they do for their own. The modified version introduces ambiguity. The phrase 'as it deems necessary' allows the Recipient to use a lower standard of care, and 'may exercise care' makes protecting the information discretionary. This in-text contradiction creates uncertainty because the original text makes it mandatory to protect the confidential information and now it makes it discretionary, contradicting each other.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "Recipient agrees that it shall treat all Confidential Information of Recipient with the same degree of care as it deems necessary, and Recipient represents that it may exercise care to protect its own Confidential Information, based on internal policies.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates a specific standard of care ('same degree of care as it accords to its own Confidential Information'), while the changed text introduces discretion ('as it deems necessary' and 'may exercise care'). The changed text's contradictory allowance for a lower standard of care directly clashes with the contradicted text's previously required standard, creating a clear in-text contradiction. This aligns with the definition of 'Structural Flaws - In Text Contradiction', as the clause is placed in multiple locations with conflicting implications, creating uncertainty about the obligations and rights of each party."
+      }
+    ]
+  }
+]

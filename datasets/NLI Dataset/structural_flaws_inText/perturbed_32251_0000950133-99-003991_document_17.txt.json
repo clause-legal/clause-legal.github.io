@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "32251_0000950133-99-003991_document_17.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Confidential Information shall also not include information that the parties agree in writing may be disclosed by Receiving Party.",
+        "changed_text": "Confidential Information shall also include information that the parties agree in writing may be disclosed by Receiving Party.",
+        "explanation": "The original text excludes information agreed to be disclosed from the definition of Confidential Information. This change includes it, directly contradicting the previous exclusion. This contradicts section 2, where it states that 'Confidential Information shall not include information that the parties agree in writing may be disclosed by Receiving Party.'.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "Confidential Information shall also include information that the parties agree in writing may be disclosed by Receiving Party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states 'Confidential Information shall also include information that the parties agree in writing may be disclosed by Receiving Party.' The contradicted text states the exact same thing. The original text, however, states that confidential information shall NOT include such information. By changing the text to say that confidential information WILL include such information, it creates a direct contradiction with the definition of Confidential Information as previously defined in the original text, which excluded this kind of information. This leads to ambiguity and uncertainty about what constitutes Confidential Information, thus creating a strong in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Although the Disclosing Party shall endeavor to provide the other party with information relevant for an evaluation of a Transaction, the Disclosing Party and its advisors have not made, and will not make, any representation or warranty, express or implied, as to the accuracy or completeness of the information being provided.",
+        "changed_text": "Although the Disclosing Party shall endeavor to provide the other party with information relevant for an evaluation of a Transaction, the Disclosing Party and its advisors have made, and will make, any representation or warranty, express or implied, as to the accuracy or completeness of the information being provided.",
+        "explanation": "The original text explicitly disclaims any warranty or representation regarding the information's accuracy. The changed text states the opposite, creating a fundamental contradiction regarding liability for information provided. This contradicts section 11 of the contract where is expressly waives all representations and warranties.",
+        "location": "11",
+        "contradicted_location": "11",
+        "contradicted_text": "Although the Disclosing Party shall endeavor to provide the other party with information relevant for an evaluation of a Transaction, the Disclosing Party and its advisors have made, and will make, any representation or warranty, express or implied, as to the accuracy or completeness of the information being provided. Any and all such representations and warranties shall be only as specifically set forth in a definitive agreement, if one is hereafter executed and delivered in connection with a Transaction.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the Disclosing Party makes no representations or warranties regarding the accuracy of information provided. The changed text directly contradicts this by stating that the Disclosing Party *does* make representations and warranties about the accuracy of the information. The contradicted text repeats the changed text, creating a clear and direct in-text contradiction, because the original text states that there are no such warranties being made."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Without the written consent of the other party, neither party nor its affiliates shall not solicit for employment, nor shall it employ or retain or enter into any contract for the provision of personal services during the two (2) year period commencing on the date hereof any person who is employed by the other party as of the date hereof.",
+        "changed_text": "Without the written consent of the other party, neither party nor its affiliates shall solicit for employment, and shall employ or retain or enter into any contract for the provision of personal services during the two (2) year period commencing on the date hereof any person who is employed by the other party as of the date hereof.",
+        "explanation": "The original text contains a double negative ('shall not not solicit'), implying that soliciting for employment is permitted without written consent. The edited text removes the first 'not', indicating that soliciting is prohibited even without a formal agreement. This change makes the language contradictory, due to the in-text contradiction of a double negative becoming an affirmative statement. This contradicts section 12, where the original double negative of the contract implies soliciting of employment is allowed.",
+        "location": "12",
+        "contradicted_location": "12",
+        "contradicted_text": "Without the written consent of the other party, neither party nor its affiliates shall solicit for employment, and shall employ or retain or enter into any contract for the provision of personal services during the two (2) year period commencing on the date hereof any person who is employed by the other party as of the date hereof.",
+        "contradiction_exists": "YES",
+        "justification": "The original text's double negative implies soliciting is permitted with no written consent. The changed text removes the first 'not', meaning soliciting is now prohibited. The contradicted text is the same as the changed text, indicating a contradiction with the original implied meaning, where solicitation was originally allowed with no consent. Therefore, the change from a double negative to an affirmative statement introduces a direct contradiction."
+      }
+    ]
+  }
+]

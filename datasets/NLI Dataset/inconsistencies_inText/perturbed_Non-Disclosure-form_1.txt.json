@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "Non-Disclosure-form_1.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement shall remain in effect for a period of five (5) years from the Effective Date hereof.",
+        "changed_text": "This Agreement shall remain in effect for a period of one (1) year from the Effective Date hereof.",
+        "explanation": "The modified text creates an in-text contradiction by changing the term of the agreement from five (5) years to one (1) year. It contradicts the intention of agreement to remain in effect for the longer period if a confidential disclosure happened in the start, and the information is still confidential for 5 years.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "Term . This Agreement shall remain in effect for a period of one (1) year from the Effective Date hereof.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the 'Term' of the agreement from five (5) years to one (1) year. This directly contradicts the 'Contradicted Text' which also states that the agreement remains in effect for one (1) year. This change creates an inconsistency, as the agreement now states the term is one year in both sections after the change, whereas before, they were different. Therefore, based on the definition of 'Inconsistencies - In Text Contradiction', this is an in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Any notice, approval, request, authorization, direction or other communication required or permitted under this Agreement shall be given in writing and shall be deemed to have been delivered: (i) one (1) business day after deposit with a commercial overnight courier with written verification of receipt; or (ii) five (5) business days after the mailing date if sent by U.S. mail, return receipt requested, postage and charges prepaid.",
+        "changed_text": "Any notice, approval, request, authorization, direction or other communication required or permitted under this Agreement shall be given in writing and shall be deemed to have been delivered: (i) ten (10) business days after deposit with a commercial overnight courier with written verification of receipt; or (ii) five (5) business days after the mailing date if sent by U.S. mail, return receipt requested, postage and charges prepaid.",
+        "explanation": "The change in time for delivery confirmation from one business day to ten business days creates a conflict. This affects the legal implications tied to the contract such as deadlines and other important considerations. It contradicts the implicit condition of speedy communications.",
+        "location": "9.3",
+        "contradicted_location": "9.3",
+        "contradicted_text": "Notice . Any notice, approval, request, authorization, direction or other communication required or permitted under this Agreement shall be given in writing and shall be deemed to have been delivered: (i) ten (10) business days after deposit with a commercial overnight courier with written verification of receipt; or (ii) five (5) business days after the mailing date if sent by U.S. mail, return receipt requested, postage and charges prepaid. Notice shall be given to each party at the addresses set forth above.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies one business day for courier delivery confirmation. The changed text alters this to ten business days. The contradicted text also specifies ten business days. However, the Perturbation Explanation indicates that changing the delivery confirmation time from one day to ten days creates a conflict with the implicit condition of speedy communication, thereby affecting legal implications and deadlines. This creates a strong contradiction since the change impacts the expected timeline and potentially alters the obligations under the agreement, and the contradicted text has the value of ten business days as well, causing the contradiction to occur within the document."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement shall not be assignable by either party, without the prior written consent of the other party. Any purported or attempted assignment hereof without such written consent shall be void and of no force or effect.",
+        "changed_text": "This Agreement shall be assignable by either party, without the prior written consent of the other party. Any purported or attempted assignment hereof without such written consent shall be void and of no force or effect.",
+        "explanation": "The modified text creates a direct contradiction by stating the agreement is assignable without consent, then reiterating that assignment without consent is void. This introduces uncertainty regarding the validity of assigning the agreement.",
+        "location": "9.4",
+        "contradicted_location": "9.4",
+        "contradicted_text": "Assignment and Delegation . This Agreement shall be assignable by either party, without the prior written consent of the other party. Any purported or attempted assignment hereof without such written consent shall be void and of no force or effect. This Agreement shall inure to the benefit of any successors.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text directly contradicts itself. It first states that the agreement is assignable without prior written consent, then immediately states that any attempt to assign the agreement without written consent is void. This internal contradiction creates a strong inconsistency within the agreement, as well as with the contradicted text which repeats the original clause."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "No waiver b y either party of any breach or default of any of the covenants or agreements herein contained shall be deemed a waiver as to any subsequent or similar breach or default.",
+        "changed_text": "Waiver by either party of any breach or default of any of the covenants or agreements herein contained shall be deemed a waiver as to any subsequent or similar breach or default.",
+        "explanation": "The modification creates a contradiction by stating that a single waiver extends to all future breaches, directly contradicting the original clause that limits the waiver to the specific instance. This adds ambiguity to the conditions under which a party can assert their rights and obligations.",
+        "location": "9.5",
+        "contradicted_location": "9.5",
+        "contradicted_text": "No Waiver . Waiver by either party of any breach or default of any of the covenants or agreements herein contained shall be deemed a waiver as to any subsequent or similar breach or default. No right or remedy herein conferred upon either party is exclusive of any other right or remedy herein or by law or in equity provided or permitted.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated 'No waiver' shall be deemed a waiver for subsequent breaches, protecting a party's rights in future similar situations. The changed text removes 'No', so now a single waiver DOES extend to all future similar breaches or defaults. This directly contradicts the 'No Waiver' clause within the contradicted text, which expects that a single waiver should NOT extend to subsequent breaches. This is a strong in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "All prior or contemporaneous agreements, representations, negotiations and understandings of the parties hereto, oral or written, express or implied, are hereby superseded and merged herein.",
+        "changed_text": "All prior or contemporaneous agreements, representations, negotiations and understandings of the parties hereto, oral or written, express or implied, are hereby kept in effect, and not superseded and merged herein.",
+        "explanation": "This change creates a contradiction by directly stating that prior agreements are not superseded, contradicting the original clause intended to create a single, complete agreement. This creates confusion about which agreements are binding.",
+        "location": "9.6",
+        "contradicted_location": "9.6",
+        "contradicted_text": "Entire Agreement. This Agreement constitutes the entire agreement between the parties hereto pertaining to the subject matter hereof, and is the final, complete and exclusive expression of t he terms and conditions thereof. All prior or contemporaneous agreements, representations, negotiations and understandings of the parties hereto, oral or written, express or implied, are hereby kept in effect, and not superseded and merged herein.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly states that prior agreements are 'kept in effect, and not superseded and merged herein,' which directly contradicts the contradicted text, which aims to establish the current agreement as the 'entire agreement' and the 'final, complete and exclusive expression' of the terms. The contradiction arises because the changed text suggests that previous agreements remain valid and binding, while the contradicted text asserts that the current agreement supersedes all prior agreements. This creates a significant inconsistency regarding which agreements govern the parties' relationship, fitting the definition of 'Inconsistencies - In Text Contradiction'."
+      }
+    ]
+  }
+]

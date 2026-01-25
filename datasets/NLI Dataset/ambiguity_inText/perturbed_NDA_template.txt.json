@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "NDA_template.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Contractor will not, during the Term, improperly use or disclose any proprietary information or trade secrets of any former or concurrent employer or associate, and not bring onto the premises of the Company any unpublished document or propri etary information belonging to any such employer or associate unless consented to in writing by such employer or associate.",
+        "changed_text": "The Contractor will only refrain from disclosing proprietary information or trade secrets of any former employer if such information is directly competitive with the Company's current products or services. Bringing unpublished documents or proprietary information from a former employer is permitted, as long as it's related to general industry knowledge and not specific, confidential projects of the former employer.",
+        "explanation": "The original clause strictly prohibits the use or disclosure of any proprietary information from former employers. The changed clause introduces a significant exception, allowing use and disclosure if the information is not directly competitive. This creates uncertainty because it opens the door for subjective interpretation of what constitutes 'directly competitive' information. This change contradicts the spirit of the original clause, which was to prevent any risk of using a former employer's confidential information.",
+        "location": "1d",
+        "contradicted_location": "1d",
+        "contradicted_text": "Former Employer or Associate Inf ormation . The Contractor will only refrain from disclosing proprietary information or trade secrets of any former employer if such information is directly competitive with the Company's current products or services. Bringing unpublished documents or proprietary information from a former employer is permitted, as long as it's related to general industry knowledge and not specific, confidential projects of the former employer.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text significantly alters the original clause regarding the use of proprietary information from former employers. The original text imposes a strict prohibition, while the changed text introduces exceptions, allowing use and disclosure under certain conditions (not directly competitive). The contradicted text is the same as the changed text, meaning the changed text contradicts the original intent of the section, thus it's a clear contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "All Confidential Information is provided “AS IS” and the Company makes no warrantyregarding the accuracy or reliability of such information. Neither the Company nor any of itsadvisors or representatives shall have any liability to the Contractor or any of its representatives resulting from the Contractor ’s use of the Confidential Information.",
+        "changed_text": "The Company warrants that all Confidential Information provided to the Contractor is accurate and reliable to the best of the Company's knowledge. The Company will be liable for damages resulting from the Contractor’s reliance on inaccurate or misleading Confidential Information, up to the amount paid to the contractor for services.",
+        "explanation": "This change directly contradicts the 'AS IS' disclaimer and liability waiver in the original text. By warranting the accuracy and reliability of the information and accepting liability for damages, the modified clause creates an in-text contradiction, altering the risk allocation between the parties. This creates uncertainty about the extent of the Company's liability.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "NO COMPANY LIABILITY The Company warrants that all Confidential Information provided to the Contractor is accurate and reliable to the best of the Company's knowledge. The Company will be liable for damages resulting from the Contractor’s reliance on inaccurate or misleading Confidential Information, up to the amount paid to the contractor for services.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the original text's 'AS IS' disclaimer and liability waiver by warranting the accuracy of the confidential information and accepting liability for damages. The contradicted text is identical to the changed text, which means that the company is creating a contradiction by claiming there is 'NO COMPANY LIABILITY' when it states that it 'will be liable for damages'. This aligns with the Ambiguities-In Text Contradiction definition, as it involves inconsistent obligations regarding liability, creating uncertainty and a strong contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Contractor recognizes that the Company may be irreparably damaged by anybreach of this Agreement and that the Company shall be entitled to seek an injunction, specificperformance, or other equitable remedy to prevent such co mpetition or disclosure, and mayentitle the Company to other legal remedies, including attorneys’ fees and costs.",
+        "changed_text": "In the event of a breach of this Agreement by the Contractor, the Company's sole remedy shall be limited to monetary damages, capped at the total amount paid to the Contractor under this Agreement. The Company waives any right to seek injunctive relief or specific performance.",
+        "explanation": "This change introduces an in-text contradiction by limiting the Company's remedies for a breach. The original clause allows for equitable remedies like injunctions and specific performance. The modified version explicitly waives these rights, restricting the Company to monetary damages only. This creates a clear conflict between the remedies available to the Company, thus an in-text contradiction.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "LEGAL AND EQUITABLE REMEDIES In the event of a breach of this Agreement by the Contractor, the Company's sole remedy shall be limited to monetary damages, capped at the total amount paid to the Contractor under this Agreement. The Company waives any right to seek injunctive relief or specific performance.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly limits the Company's remedies to monetary damages, waiving the right to seek injunctive relief or specific performance. The contradicted text repeats this exact limitation. The original text allowed the Company to seek equitable remedies like injunctions and specific performance, which is now explicitly waived. The change introduces a direct conflict by limiting the available remedies, therefore it creates a strong in-text contradiction."
+      }
+    ]
+  }
+]

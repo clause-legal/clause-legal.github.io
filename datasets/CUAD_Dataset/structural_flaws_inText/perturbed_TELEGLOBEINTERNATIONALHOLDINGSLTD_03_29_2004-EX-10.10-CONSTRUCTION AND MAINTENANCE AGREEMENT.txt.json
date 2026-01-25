@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "TELEGLOBEINTERNATIONALHOLDINGSLTD_03_29_2004-EX-10.10-CONSTRUCTION AND MAINTENANCE AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "12.1 Capacity of APCN 2 can only be used by a carrier.",
+        "changed_text": "12.1 Capacity of APCN 2 can be used by any entity, irrespective of whether they are a carrier or not.",
+        "explanation": "This change directly contradicts the original definition which restricts usage to carriers. By removing this restriction, any entity can now use the capacity, which undermines the definition of 'Carrier' and its role in the agreement. This change contradicts several subsequent clauses such as 12.6, 12.7, 12.8, 12.13, 12.14, and 12.22 that all presume the user of the capacity to be a carrier. The change is made in paragraph 12.1.",
+        "location": "12.1",
+        "contradicted_location": "12.6",
+        "contradicted_text": "12.6 A Party is allowed to use its WAC for the provision of international telecommunications services with itself, its Subsidiary, its Parent Company and/or the Subsidiary of the Party's Parent Company provided that the correspondent parties are also Carriers.",
+        "contradiction_exists": "YES",
+        "justification": "The original text of section 12.1 limited the use of APCN 2 capacity to carriers. The changed text expands this to any entity, regardless of carrier status. Section 12.6, however, specifies that the correspondent parties using WAC for international telecommunications services must also be carriers. This creates a direct contradiction, as the changed 12.1 allows non-carriers to potentially use the capacity, while 12.6 still requires correspondent parties to be carriers. This is a direct conflict."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "18.1 This Agreement shall become effective on the date and year first above written and shall continue in operation for at least an initial period of twenty-five (25) years following the RFS Date (hereinafter referred to as \"initial Period\") and shall be terminable thereafter by agreement of the Parties. However, any Party may terminate its participation in this Agreement at the end of the Initial Period or any time thereafter by giving not less than one (1) year's prior notice thereof, in writing, to the other Parties.",
+        "changed_text": "18.1 This Agreement shall become effective on the date and year first above written and shall continue in operation for an initial period of ten (10) years following the RFS Date (hereinafter referred to as \"initial Period\") and shall be terminable immediately by agreement of the Parties. However, any Party may terminate its participation in this Agreement at the end of the Initial Period or any time thereafter by giving not less than five (5) year's prior notice thereof, in writing, to the other Parties.",
+        "explanation": "The original paragraph 18.1 states the initial period as twenty-five (25) years following the RFS Date. The modified version changes it to ten (10) years, creating a contradiction. Additionally, the termination notice period is changed from one (1) year to five (5) year, creating further contradiction about the contractual duration and termination terms. By changing the initial period to 10 years and the termination notice to 5 years, it now contradict the original text where the initial period was 25 years and termination period after the initial period was 1 year.",
+        "location": "18.1",
+        "contradicted_location": "18.3",
+        "contradicted_text": "18.3 After the Initial Period of twenty-five (25) years, decommissioning can be implemented by agreement of a number of Parties representing at least two-thirds (66.67%) of the voting interests specified in Schedule B.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the initial period from twenty-five (25) years to ten (10) years, directly contradicting section 18.3, which refers to the initial period as twenty-five (25) years. This creates a significant inconsistency regarding the duration of the agreement, making it unclear how long the 'Initial Period' actually lasts and impacting the conditions for decommissioning outlined in 18.3. Furthermore, it is difficult to interpret the termination notice of 5 years in Changed Text, as the initial period is changed to 10 years, contradicting the initial period of 25 years specified in the Contradicted Text."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "1.1 The following definitions and interpretations shall apply to certain terms used in this Agreement: (a) Affiliate: A company is the Affiliate of another if either company owns directly or indirectly less than 50% but no less than 10% of its equity.",
+        "changed_text": "1.1 The following definitions and interpretations shall apply to certain terms used in this Agreement: (a) Affiliate: A company is the Affiliate of another if either company owns directly or indirectly greater than 75% of its equity.",
+        "explanation": "The original text states that an affiliate relationship exists if a company owns directly or indirectly less than 50% but no less than 10% of another's equity. The modification changes this to greater than 75% equity ownership. This in-text contradiction directly conflicts with the original, creating ambiguity about which ownership threshold defines an affiliate. The original text defines a specific ownership threshold for affiliate status, which is essential for clauses related to capacity transfer (12.14). By defining it with greater than 75%, it would cause confusion if the party has to make a cash contribution or not to a special fund dedicated solely to fund future upgrades to increase the Equipped Capacity",
+        "location": "1.1",
+        "contradicted_location": "12.14",
+        "contradicted_text": "12.14 Transfer of a Party's Allocated Capacity to its Affiliate and/or the Affiliate of the Party's Parent Company is also allowed provided that the capacity transferred is in multiples of the MIU and that the recipient of the transferred capacity is a Carrier. For the Transfer to an Affiliate, the transferring party shall make a cash contribution to a special fund dedicated solely to fund future upgrades to increase the Equipped Capacity. The amount of the contribution is described in Annex 7.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the definition of \"Affiliate.\" The original text defines an affiliate as a company owning less than 50% but no less than 10% equity. The changed text defines an affiliate as owning greater than 75% equity. This directly contradicts the condition specified in clause 12.14. Because it changes the definition to greater than 75% when the original definition was owning less than 50% but no less than 10%, this creates a direct in-text contradiction about when the cash contribution to a special fund dedicated solely to fund future upgrades to increase the Equipped Capacity must be made (as explained in the Perturbation Explanation)"
+      }
+    ]
+  }
+]

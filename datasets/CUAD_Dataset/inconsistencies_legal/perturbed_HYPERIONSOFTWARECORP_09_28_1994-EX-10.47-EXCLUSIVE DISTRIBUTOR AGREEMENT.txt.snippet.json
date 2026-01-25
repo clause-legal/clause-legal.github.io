@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "HYPERIONSOFTWARECORP_09_28_1994-EX-10.47-EXCLUSIVE DISTRIBUTOR AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "A late payment charge of the lesser of one and one-half percent (1.5%) per month or the highest interest rate allowed by applicable law shall be charged upon all unpaid amounts due hereunder for more than thirty (30) days.",
+        "changed_text": "A late payment charge of five percent (5.0%) per month shall be charged upon all unpaid amounts due hereunder for more than thirty (30) days.",
+        "explanation": "The contract originally stipulated a late payment charge, capped by the legal maximum. By changing the late payment charge to a flat 5% per month, we risk exceeding the legal usury limit in Connecticut, where the contract is governed.",
+        "contradicted_law": "Connecticut General Statutes § 37-4",
+        "law_citation": "Connecticut General Statutes § 37-4",
+        "law_url1": [
+          "https://law.justia.com/codes/connecticut/2005/title37/37-4.html"
+        ],
+        "law_url2": [
+          "https://casetext.com/statute/connecticut-general-statutes/title-37-money-interest/chapter-674-interest/section-37-4-loans-at-greater-than-twelve-percent-prohibited-recovery-of-principal-only-actions-not-to-be-brought-on-prohibited-loans-certain-loans-excepted"
+        ],
+        "law_explanation": "Connecticut General Statutes § 37-4 limits the interest rate that can be charged on loans and forbearance to 12% per annum. A 5% monthly interest rate equates to 60% per annum, violating this statute.",
+        "location": "2.2",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The changed text creates a legal contradiction. The original text limited late payment charges to the highest interest rate allowed by law. The changed text sets a fixed 5% monthly late payment charge, potentially exceeding the legal usury limit in Connecticut, as explained in the Perturbation and Law Explanations. This violates the legal obligation to comply with usury laws. The absence of scraped law snippets does not negate the explanations given."
+      },
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "Either party may cancel this Agreement effective on the last day of the Initial Term, or 10 11 any Renewal Term, by serving written notice of such termination on the other party at least ninety (90) days prior to the end of the Initial Term or any Renewal Term as the case may be.",
+        "changed_text": "Either party may cancel this Agreement effective on the last day of the Initial Term, or 10 11 any Renewal Term, by serving written notice of such termination on the other party at least thirty (30) days prior to the end of the Initial Term or any Renewal Term as the case may be.",
+        "explanation": "Changing the notice period for termination from 90 days to 30 days may be problematic if the distributor has invested significantly in building the market for the product.  Although Connecticut law generally allows for termination of contracts, a very short notice period might be deemed unconscionable or to violate the implied covenant of good faith and fair dealing, depending on the specific circumstances and the extent of the distributor's reliance on the continuation of the agreement.  While not a direct violation of a statute, it introduces potential legal challenges.",
+        "contradicted_law": "Implied Covenant of Good Faith and Fair Dealing under Connecticut Contract Law.",
+        "law_citation": "Restatement (Second) of Contracts § 205",
+        "law_url1": [
+          "https://law.cornell.edu/wex/good_faith"
+        ],
+        "law_url2": [
+          "https://www.justia.com/trials-litigation/docs/jury-instructions/contract-law/implied-covenant-of-good-faith-and-fair-dealing/"
+        ],
+        "law_explanation": "While not a statute, Connecticut law recognizes an implied covenant of good faith and fair dealing in every contract.  Shortening the termination notice period to 30 days gives the distributor less time to wind down operations or find alternative business and potentially undermines their investment.",
+        "location": "8.1",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": "good faith | Wex | US Law | LII / Legal Information Institute Please help us improve our site! × No thank you good faith Good faith is a broad term that’s used to encompass honest dealing. Depending on the exact setting, good faith may require an honest belief or purpose, faithful performance of duties , observance of fair dealing standards, or an absence of fraudulent intent . A fiduciary relationship creates a duty of good faith between the agent and the principal . The breach of this duty of good faith can lead to liability . Failure to act in good faith is known as bad faith and is generally considered to be a level of culpability greater than negligence . [Last reviewed in January of 2023 by the Wex Definitions Team ] Wex COMMERCE business law contracts wex definitions business sectors legal education and practice Wex Toolbox",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The changed text reduces the notice period for termination from 90 to 30 days, creating a potential issue related to the implied covenant of good faith and fair dealing. The Law Explanation supports this, stating that a shorter notice period \"gives the distributor less time to wind down operations or find alternative business and potentially undermines their investment.\" Scraped Law Snippet 1 defines 'good faith' as encompassing 'honest dealing' and 'observance of fair dealing standards.' The perturbation explanation suggests that a 30-day notice might be deemed unconscionable depending on the distributor's investment, which contradicts the 'good faith' requirement of fair dealing, therefore a legal contradiction exists."
+      },
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "For ninety (90) days after delivery of a Product to Distributor, Developer warrants that media upon which the Products are delivered shall be of good quality and workmanship. Upon written notice from Distributor of defective media for a Product, Developer shall use reasonable efforts to promptly provide replacement media.",
+        "changed_text": "For thirty (30) days after delivery of a Product to Distributor, Developer warrants that media upon which the Products are delivered shall be of good quality and workmanship. Upon written notice from Distributor of defective media for a Product, Developer's sole obligation shall be to, within sixty (60) business days, review the support tickets relating to the alleged defect.",
+        "explanation": "Reducing the warranty period to 30 days and significantly lengthening the response time for defective media could be viewed as unconscionable or failing of essential purpose under the Uniform Commercial Code (UCC) as adopted by Connecticut, especially if the products are complex or require a longer period to assess defects.",
+        "contradicted_law": "Connecticut General Statutes § 42a-2-719 (UCC § 2-719)",
+        "law_citation": "Connecticut General Statutes § 42a-2-719",
+        "law_url1": [
+          "https://law.cornell.edu/ucc/2/719"
+        ],
+        "law_url2": [
+          "https://www.cga.ct.gov/current/pub/chap_748.htm#sec_42a-2-719"
+        ],
+        "law_explanation": "Connecticut General Statutes § 42a-2-719 governs contractual modification or limitation of remedy.  If the limited remedy (reviewing support tickets after 60 business days) fails of its essential purpose (providing a functional product), then other remedies under the UCC become available, contradicting the intent of limiting liability.",
+        "location": "5.1",
+        "desired_official_urls": 2,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "Chapter 748 - Registered Public Obligations CHAPTER 748 REGISTERED PUBLIC OBLIGATIONS Table of Contents Sec. 42b-1. Definitions. Sec. 42b-2. Public entities empowered to establish system for issuance of registered obligations. Interest on certain unregistered public obligations not exempt from federal tax. Sec. 42b-3. Public entities authorized to establish system of registered obligations notwithstanding state or local laws. System may provide for certificated or uncertificated obligations or both. Sec. 42b-4. Execution of certificated registered public obligations and writings related to uncertificated registered public obligations. Sec. 42b-5. Signature of authorized officer on certificates. Continuing validity. Sec. 42b-6. When seal is required on certificate a facsimile seal allowed with same legal effect. Sec. 42b-7. Appointment by issuer of authenticity agents, transfer agents, registrars and other agents. Establishment of depository system for transfer of registered public obligations. Sec. 42b-8. Costs of maintaining system of registration. Issuer may provide for its liability through agreements with others. Sec. 42b-9. Obligations in registered form deemed to satisfy requirements as security for deposits required of public agencies. Sec. 42b-10. Records of ownership of or security interests in registered public obligations not subject to inspection under freedom of information laws. Sec. 42b-11. Effect of this chapter with respect to registered public obligations issued on or after July 7, 1983. Sec. 42b-12. This chapter to be construed in conjunction with the Uniform Commercial Code. Sec. 42b-13. State covenant not to amend this chapter in any manner impairing federal income tax exemption for interest on registered public obligations. Sec. 42b-14. Severability clause. Sec. 42b-15. Bonds or other obligations issued by public entity may be consolidated in single issue if all have the same security. Sec. 42b-1. Definitions. As used in this chapter or sections 7-260 , 7-273dd , 7-369 , 7-373 , 7-377a , 7-378 and 7-380 , the following terms have the following meanings: (a) “Authorized officer” me",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The modification reduces the warranty period from 90 to 30 days and drastically changes the remedy for defective media, potentially failing its essential purpose. The Law Explanation states that if a limited remedy fails its essential purpose, other UCC remedies become available, contradicting the intent of limiting liability. Although the provided snippets do not directly address warranty periods, the Law Explanation makes a clear link between the changed text and a failure of essential purpose under Connecticut law, leading to the conclusion that the change creates a legal contradiction."
+      }
+    ]
+  }
+]

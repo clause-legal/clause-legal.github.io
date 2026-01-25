@@ -1,0 +1,95 @@
+[
+  {
+    "file_name": "Data_Use_and_Non_Disclosure_Data_Disclosed_to_MDCH_Trauma_Registry_Final_465518_7.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "Report to the Reporting Entity within ten (10) business days of discovery any actual or suspected inappropriate use, disclosure , or breach of information from the Michigan Trauma Registry that involves data submitted under this Agreement ;",
+        "changed_text": "Report to the Reporting Entity within thirty (30) calendar days of discovery any actual or suspected inappropriate use, disclosure , or breach of information from the Michigan Trauma Registry that involves data submitted under this Agreement ;",
+        "explanation": "Changing the reporting timeframe to 30 calendar days from 10 business days for data breaches contradicts Michigan's Identity Theft Protection Act, which emphasizes prompt notification.",
+        "contradicted_law": "Michigan Identity Theft Protection Act, MCL 445.61 et seq.",
+        "law_citation": "MCL 445.72(1)",
+        "law_url1": [
+          "http://www.legislature.mi.gov/(S(b3z1ur2rxd4m2w4m03w1aj0u))/mileg.aspx?page=getObject&objectName=mcl-445-72"
+        ],
+        "law_url2": [
+          "https://www.michigan.gov/ag/consumer-protection/id-theft"
+        ],
+        "law_explanation": "MCL 445.72(1) requires notification 'without unreasonable delay' which a 30-day period could violate. While it doesn't give an exact amount of time, case law trends towards quicker actions",
+        "location": "5",
+        "desired_official_urls": 2,
+        "scraped_snippet_1": "MCL - Section 445.72 - Michigan Legislature MCL - Section 445.72 Download Section Chapter 445 Act 452 of 2004 Previous Section Next Section IDENTITY THEFT PROTECTION ACT (EXCERPT) Act 452 of 2004 445.72 Notice of security breach; requirements. Sec. 12. (1) Unless the person or agency determines that the security breach has not or is not likely to cause substantial loss or injury to, or result in identity theft with respect to, 1 or more residents of this state, a person or agency that owns or licenses data that are included in a database that discovers a security breach, or receives notice of a security breach under subsection (2), shall provide a notice of the security breach to each resident of this state who meets 1 or more of the following: (a) That resident's unencrypted and unredacted personal information was accessed and acquired by an unauthorized person. (b) That resident's personal information was accessed and acquired in encrypted form by a person with unauthorized access to the encryption key. (2) Unless the person or agency determines that the security breach has not or is not likely to cause substantial loss or injury to, or result in identity theft with respect to, 1 or more residents of this state, a person or agency that maintains a database that includes data that the person or agency does not own or license that discovers a breach of the security of the database shall provide a notice to the owner or licensor of the information of the security breach. (3) In determining whether a security breach is not likely to cause substantial loss or injury to, or result in identity theft with respect to, 1 or more residents of this state under subsection (1) or (2), a person or agency shall act with the care an ordinarily prudent person or agency in like position would exercise under similar circumstances. (4) A person or agency shall provide any notice required under this section without unreasonable delay. A person or agency may delay providing notice without violating this su",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The change from 'ten (10) business days' to 'thirty (30) calendar days' for reporting data breaches creates a legal contradiction. MCL 445.72(4) states that a person or agency shall provide any notice required under this section 'without unreasonable delay'. A 30-day timeframe could be interpreted as an unreasonable delay, especially in the context of data breaches where prompt action is crucial to mitigate potential harm. The original text, by specifying 'ten (10) business days', aligns more closely with the 'without unreasonable delay' standard, while the changed text introduces a significantly longer and potentially problematic timeframe."
+      },
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "This Agreeme nt may be terminated upon sixty days (60 ) written notice of the non - terminating party by the terminating party.",
+        "changed_text": "This Agreement may be terminated upon thirty days (30) written notice of the non-terminating party by the terminating party.",
+        "explanation": "Reducing the termination notice period to 30 days may conflict with the reasonable notice requirements implied in contracts, especially considering the sensitivity of health data and the time required to transition data sharing arrangements. It may lead to disruption of services.",
+        "contradicted_law": "Implied Covenant of Good Faith and Fair Dealing under Michigan Contract Law",
+        "law_citation": "Burkhardt v. City Nat'l Bank Corp., 576 N.W.2d 460 (Mich. Ct. App. 1998)",
+        "law_url1": [
+          "https://law.justia.com/cases/michigan/court-of-appeals/1998/200729-2.html"
+        ],
+        "law_url2": [
+          "https://casetext.com/case/burkhardt-v-city-natl-bank-corp"
+        ],
+        "law_explanation": "While not a specific statute, Michigan contract law implies a covenant of good faith and fair dealing. Reducing the notice period to 30 days could be seen as a violation of this covenant if it does not allow reasonable time to make new arrangements.",
+        "location": "Paragraph before last",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies a 60-day termination notice, while the changed text reduces it to 30 days. The perturbation explanation highlights that this reduction could conflict with reasonable notice requirements, especially considering the sensitivity of health data. Although the scraped law snippets are empty, the Law Explanation states that Michigan contract law implies a covenant of good faith and fair dealing, and the reduced notice period could violate this covenant if it doesn't allow reasonable time for new arrangements. Therefore, the change creates a legal contradiction by potentially violating the implied covenant of good faith and fair dealing, as the 30-day notice may be deemed unreasonable in the specific context."
+      },
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "Destroy all originals and copies of potentially identifiable information , in any format , in accordance with industry standards when no longer needed.",
+        "changed_text": "Destroy all originals and copies of potentially identifiable information , in any format, when no longer actively used.",
+        "explanation": "Removing the phrase 'in accordance with industry standards' significantly weakens the data protection requirements, potentially violating HIPAA regulations, which mandate specific disposal methods to safeguard patient information.",
+        "contradicted_law": "Health Insurance Portability and Accountability Act (HIPAA) Security Rule",
+        "law_citation": "45 CFR \u00a7 164.514(a)",
+        "law_url1": [
+          "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.514"
+        ],
+        "law_url2": [
+          "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html"
+        ],
+        "law_explanation": "HIPAA requires covered entities to implement policies and procedures to address the final disposition of electronic protected health information (ePHI) and the hardware or electronic media on which it is stored. Deleting \"in accordance with industry standards\" makes the contract non-compliant.",
+        "location": "7",
+        "desired_official_urls": 2,
+        "scraped_snippet_1": "eCFR :: 45 CFR 164.514 -- Other requirements relating to uses and disclosures of protected health information. Site Feedback You are using an unsupported browser \u00d7 You are using an unsupported browser. This web site is designed for the current versions of Microsoft Edge, Google Chrome, Mozilla Firefox, or Safari. \u00d7 Site Feedback The Office of the Federal Register publishes documents on behalf of Federal agencies but does not have any authority over their programs. We recommend you directly contact the agency associated with the content in question. If you have comments or suggestions on how to improve the www.ecfr.gov website or have questions about using www.ecfr.gov, please choose the 'Website Feedback' button below. Website Feedback If you would like to comment on the current content, please use the 'Content Feedback' button below for instructions on contacting the issuing agency Content Feedback If you have questions for the Agency that issued the current document please contact the agency directly. \u00d7 Website Feedback * Your Name * Email Attachment * How can we help you? * I am requesting technical help or providing website feedback This contact form is only for website help or website suggestions. If you have questions or comments regarding a published document please contact the publishing agency. Comments or questions about document content can not be answered by OFR staff. Please do not provide confidential information or personal data. Browse Titles Agencies Incorporation by Reference Recent Updates Search Recent Changes Corrections Reader Aids Reader Aids Home Using the eCFR Point-in-Time System Understanding the eCFR Government Policy and OFR Procedures Developer Resources My eCFR My Subscriptions Sign Out Sign In / Sign Up Sign In / Sign Up Hi, Sign Out eCFR The Electronic Code of Federal Regulations Enhanced Content :: FR Reference Enhanced content is provided to the user to provide additional context. Enhanced Content :: FR Reference Title 45 This content is from the eCFR a",
+        "scraped_snippet_2": "Privacy | HHS.gov Skip to main content Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock A locked padlock ) or https:// means you\u2019ve safely connected to the .gov website. Share sensitive information only on official, secure websites. Navigate to: The HIPAA Privacy Rule The HIPAA Privacy Rule establishes national standards to protect individuals' medical records and other individually identifiable health information (collectively defined as \u201cprotected health information\u201d) and applies to health plans, health care clearinghouses, and those health care providers that conduct certain health care transactions electronically. The Rule requires appropriate safeguards to protect the privacy of protected health information and sets limits and conditions on the uses and disclosures that may be made of such information without an individual\u2019s authorization. The Rule also gives individuals rights over their protected health information, including rights to examine and obtain a copy of their health records, to direct a covered entity to transmit to a third party an electronic copy of their protected health information in an electronic health record, and to request corrections. The Privacy Rule is located at 45 CFR Part 160 and Subparts A and E of Part 164 . Click here to view the combined regulation text of all HIPAA Administrative Simplification Regulations found at 45 CFR 160, 162, and 164. Privacy Rule History April 26, 2024 - HIPAA Privacy Rule to Support Reproductive Health Care Privacy - Final Rule April 17, 2023 - HIPAA Privacy Rule to Support Reproductive Health Care Privacy - Proposed Rule March 10, 2021 - Extension of Comment Period for Modifications to the HIPAA Privacy Rule to Support, and Remove Barriers to, Coordinated Care and Individual Engagement \u2013 Proposed Rule January 21, 2021 - Modifications to the HIPAA Privacy Rule to Empower Patients, Improve Coordinated Care, and Reduce Regulatory Burdens - Proposed Rule December 14, 2018 - Modifying the HIPAA Rules to Improve Coordinated Care - Request for Information January 6, 2016 - HIPAA Privacy Rule and the National Instant Criminal Background Check System (NICS) - Final Rule February 6, 2014 - Patients' Access to Test Reports Under the HIPAA Privacy Rule and the Clinical Laboratory Improvement Amendments of 1988 (CLIA) Program - Final Rule January 7, 2014 - HIPAA Privacy Rule and NICS - Proposed Rule April 23, 2013 - HIPAA Privacy Rule and NICS - Advance Notice of Proposed Rulemaking January 25, 2013 - Modifications to the HIPAA Privacy, Security, Enforcement, and Breach Notification Rules under the Health Information Technology for Economic and Clinical Health (HITECH) Act and the Genetic Information Nondiscrimination Act, and Other Modifications - Final Rule (The \"Omnibus HIPAA Final Rule\") September 14, 2011 - Patients' Access to Test Reports Under the HIPAA Privacy Rule and CLIA Program - Proposed Rule May 31, 2011 - HIPAA Privacy Rule Accounting of Disclosures Under the HITECH Act - Proposed Rule July 14, 2010 - Modifications to the HIPAA Privacy, Security, and Enforcement Rules under the HITECH Act - Proposed Rule May 3, 2010 - HIPAA Privacy Rule Accounting of Disclosures Under the HITECH Act - Reques",
+        "scrape_success": 2,
+        "contradiction_exists": "YES",
+        "justification": "The change removes 'in accordance with industry standards' which is a mandate of HIPAA. The 'Law Explanation' states, 'Deleting 'in accordance with industry standards' makes the contract non-compliant.' Also, per HHS.gov snippet 2, 'The HIPAA Privacy Rule requires appropriate safeguards to protect the privacy of protected health information and sets limits and conditions on the uses and disclosures that may be made of such information without an individual\u2019s authorization,' Removing the phrase weakens safeguards, resulting in a clear violation of HIPAA regulations which require specific disposal methods."
+      },
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "Make no attempt to identify or contact the individuals or entities within the data provided unless permitted in Part 209 of the Public Health Code or the Michigan Administrative Code R 325.125 through 325.138",
+        "changed_text": "MDHHS may attempt to identify or contact individuals or entities within the data without consent.",
+        "explanation": "This directly contradicts the Michigan Public Health Code regarding the confidentiality of health records and the need for patient consent for data use beyond specific registry purposes.",
+        "contradicted_law": "Michigan Public Health Code, MCL 333.2631",
+        "law_citation": "MCL 333.2631",
+        "law_url1": [
+          "http://www.legislature.mi.gov/(S(0nixp32j2yujw455jfdwgg45))/mileg.aspx?page=getObject&objectName=mcl-333-2631"
+        ],
+        "law_url2": [
+          "https://www.michigan.gov/mdhhs/inside-mdhhs/division-bureaus/phsa/policy-reporting-licensing/michigan-public-health-code"
+        ],
+        "law_explanation": "MCL 333.2631 outlines the confidentiality requirements for health records and generally requires patient consent before disclosing information. The modified text removes this protection.",
+        "location": "6",
+        "desired_official_urls": 2,
+        "scraped_snippet_1": "MCL - Section 333.2631 - Michigan Legislature MCL - Section 333.2631 Download Section Chapter 333 Act 368 of 1978 368-1978-2 368-1978-2-26 Previous Section Next Section PUBLIC HEALTH CODE (EXCERPT) Act 368 of 1978 333.2631 Data concerning medical research project; confidentiality; use. Sec. 2631. The information, records of interviews, written reports, statements, notes, memoranda, or other data or records furnished to, procured by, or voluntarily shared with the department in the conduct of a medical research project, or a person, agency, or organization which has been designated in advance by the department as a medical research project which regularly furnishes statistical or summary data with respect to that project to the department for the purpose of reducing the morbidity or mortality from any cause or condition of health are confidential and shall be used solely for statistical, scientific, and medical research purposes relating to the cause or condition of health. History: 1978, Act 368, Eff. Sept. 30, 1978 Popular Name: Act 368",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The original text prohibits identifying or contacting individuals in the data unless permitted by specific sections of the Public Health Code. The changed text permits MDHHS to attempt to identify or contact individuals without consent. This directly contradicts MCL 333.2631, which, as indicated in the Law Explanation, outlines confidentiality requirements and typically requires patient consent. Scraped Law Snippet 1, MCL 333.2631, states that data furnished to the department in a medical research project is confidential and shall be used solely for statistical, scientific, and medical research purposes. The change removes the requirement for consent and potentially allows identification/contact outside of research purposes, creating a clear contradiction with the confidentiality mandated by MCL 333.2631."
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "WECC_Confidentiality_Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "In the event Data Recipient shares Non -Public Information WECC Confidentiality Agreement 2 with a contractor pursuant to this provision, Data Recipient agrees to be responsible and jointl y and severally liable for any breach of confidentiality by that contractor ;",
+        "changed_text": "In the event Data User shares Non -Public Information WECC Confidentiality Agreement 2 with a contractor pursuant to this provision, Data User agrees to be responsible and jointl y and severally liable for any breach of confidentiality by that contractor ;",
+        "explanation": "Replaced 'Data Recipient' with 'Data User' in the same sentence. When applying the change above, it creates a contradiction in this same section that may create uncertainty, now there are mentions for 'Data Recipient' and 'Data User' with different obligations.",
+        "location": "Paragraph 2.b.ii",
+        "contradicted_location": "Paragraph 2.b.ii",
+        "contradicted_text": "Contractors of Data Recipient who (1) have signed a non-disclosure agreement that covers the Non -Public Information and is at least as restrictive as this Agreement, and (2) need the Non -Public Info rmation for the work being performed subject to the limitation on Market Sensitive Information below. In the event Data User shares Non -Public Information WECC Confidentiality Agreement 2 with a contractor pursuant to this provision, Data User agrees to be responsible and jointl y and severally liable for any breach of confidentiality by that contractor ;",
+        "contradiction_exists": "YES",
+        "justification": "The original text referred to 'Data Recipient' and the changed text replaces this with 'Data User'. The contradicted text contains both terms, 'Data Recipient' and 'Data User', in the same section, with potentially different obligations. The explanation also confirms that this change introduces conflicting obligations between 'Data Recipient' and 'Data User', thus creating a strong in-text contradiction as it uses multiple terms interchangeably without defining them, leading to conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement shall be fully enforceable by WECC and any entity whose Non -Public Information is not treated in accordance with this Agreement.",
+        "changed_text": "This Agreement shall be fully enforceable by WECC and any entity whose Non -Proprietary Information is not treated in accordance with this Agreement.",
+        "explanation": "Changing 'Non-Public Information' to 'Non-Proprietary Information' introduces a significant ambiguity. While the agreement primarily deals with 'Non-Public Information', the change suggests that 'Non-Proprietary Information' is the standard for enforceability. It creates doubt about the scope of information covered by the agreement, affecting enforcement.",
+        "location": "Paragraph 8.c",
+        "contradicted_location": "Paragraph 1.a",
+        "contradicted_text": "Non -Public Information shall include any and all information Data Recipient receives from WECC, including, but not limited to, information r eceived through a login to the WECC website, which: i. Is designated as “Confidential Information” or “Market Sensitive Information” or is otherwise considered non -public under the WECC Information Sharing Policy ; ii. Meets the definition of Confidential Informa tion as set forth in Section 1500 of the North American Electric Reliability Corporation Rules of Procedure ; or iii. Is identified by WECC as non -public or confidential at the time of disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The original text referred to 'Non-Public Information,' which is defined in the 'Contradicted Text' section. The changed text replaces 'Non-Public Information' with 'Non-Proprietary Information.' This creates a contradiction because the agreement and the contradicted text explicitly define 'Non-Public Information,' while 'Non-Proprietary Information' is not defined or mentioned, leading to ambiguity about what information is covered and enforceable under the agreement. This misalignment in terminology directly contradicts the specificity provided in the 'Contradicted Text' section, fitting the definition of 'Misaligned Terminology - In Text Contradiction'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement represents the entire understanding between WECC and Data Recipient related to the Non -Public Information and supersedes all previous communications between WECC and Data Recipient related to this subject. This Agreement can only be modified by written agreement executed by WECC and Data Recipient. Data Recipient may not delegate its duties or obligations under this Agreement without prior written consent from WECC. Any attempt to do so is void.",
+        "changed_text": "This Agreement represents the entire understanding between WECC and Data User related to the Non -Public Information and supersedes all previous communications between WECC and Data User related to this subject. This Agreement can only be modified by written agreement executed by WECC and Data Recipient. Data User may not delegate its duties or obligations under this Agreement without prior written consent from WECC. Any attempt to do so is void.",
+        "explanation": "In Section 8.b, the term 'Data Recipient' is kept in the clause about agreement modification, creating a contradiction. The section starts by defining the entire understanding to be between WECC and 'Data User,' but then specifies that modifications require agreement by 'Data Recipient.' This creates confusion because it is no longer clear if Data User has the power to modify the terms.",
+        "location": "Paragraph 8.b",
+        "contradicted_location": "Paragraph 8.b",
+        "contradicted_text": "This Agreement represents the entire understanding between WECC and Data User related to the Non -Public Information and supersedes all previous communications between WECC and Data User related to this subject. This Agreement can only be modified by written agreement executed by WECC and Data Recipient. Data User may not delegate its duties or obligations under this Agreement without prior written consent from WECC. Any attempt to do so is void.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies 'Data Recipient' to 'Data User' in the first sentence but keeps 'Data Recipient' in the second sentence regarding agreement modification. This creates a direct contradiction because the agreement is now stated to be between WECC and 'Data User,' but modifications require agreement by 'Data Recipient.' This inconsistency about which entity has the power to modify the terms causes a strong in-text contradiction as it introduces ambiguity about contractual obligations, directly aligning with the definition of Misaligned Terminology."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Printed: ___________________________________________ Company: _________________________________________ Title: _____________________________________________ Date: _____________________________________________ Email: _____________________________________________",
+        "changed_text": "Printed: ___________________________________________ Organization: _________________________________________ Title: _____________________________________________ Date: _____________________________________________ Email: _____________________________________________",
+        "explanation": "Changing the term 'Company' to 'Organization' introduces ambiguity. Depending on the context and the nature of the Data Recipient, the terms could have different legal implications. For instance, if the Data Recipient is operating as a sole proprietorship, using 'Company' might be appropriate, whereas if it's a non-profit or government entity, 'Organization' would be more fitting. By interchanging them, the document can be misinterpreted.",
+        "location": "Signature Block",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "This W ECC Confidentiality Agreement ( “Agreement” ) is entered into by __________________________ (“Data Recipient ”) and is effective as of the date agreed to by Data Recipient. Data Recipient agrees to the following terms and conditions pertaining to Non -Public Information .",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Company' to 'Organization' introduces ambiguity as per the perturbation explanation. The contradicted text identifies the other party as 'Data Recipient'. The changed text requests the signature of an 'Organization', but the document then proceeds to only refer to the counterparty as the 'Data Recipient'. This creates ambiguity regarding whether the signatory must be the 'Data Recipient' itself, or someone authorized to represent the 'Organization', creating an inconsistency. This aligns with the Misaligned Terminology definition, as the terms are used interchangeably without defining them, leading to conflicting obligations."
+      }
+    ]
+  }
+]

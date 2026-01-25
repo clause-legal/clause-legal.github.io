@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "Non-Disclosure-Agreement-FORS-Cert-Body.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "In consideration of the disclosing of Confidential Information to each other, each Party undertakes to the other Par ty:- 2.1.1 to keep the Confidential Information secret and acknowledges the proprietary nature of the Confidential Information; 2.1.2 to use it only for the Permitted Purpose; 2.1.3 not to disclose it to anyone or to make copies of it unless this Agreem ent expressly permits such disclosure or the prior written consent of the other Party is given.",
+        "changed_text": "In consideration of the disclosing of Confidential Information to each other, each Party undertakes to the other Par ty:- 2.1.1 to keep the Confidential Data secret and acknowledges the proprietary nature of the Confidential Information; 2.1.2 to use it only for the Permitted Purpose; 2.1.3 not to disclose it to anyone or to make copies of it unless this Agreem ent expressly permits such disclosure or the prior written consent of the other Party is given.",
+        "explanation": "Changing “Confidential Information” to “Confidential Data” in section 2.1.1, while still referencing “Confidential Information” elsewhere in the same section, introduces a contradiction. It's now unclear if the obligations apply equally to both terms, creating uncertainty about the scope of confidentiality obligations. Specifically, the obligation to keep Confidential Data secret, while still allowing disclosure based on express permission for Confidential Information creates a conflict.",
+        "location": "2.1.1",
+        "contradicted_location": "2.1.3",
+        "contradicted_text": "2.1.3 not to disclose it to anyone or to make copies of it unless this Agreem ent expressly permits such disclosure or the prior written consent of the other Party is given.",
+        "contradiction_exists": "YES",
+        "justification": "The change from \"Confidential Information\" to \"Confidential Data\" in section 2.1.1 creates a contradiction with section 2.1.3, which refers to \"it\", referencing \"Confidential Information\". The explanation specifies that this introduces uncertainty about whether the obligations apply equally to both terms. Specifically, the obligation to keep Confidential Data secret, while still allowing disclosure based on express permission for Confidential Information creates a conflict. Therefore, a strong in-text contradiction exists."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Prior to disclosure of any Confidential I nformation under Clause 3.1.2, the r eceiving Party shall (to the extent permitt ed by law) inform the disclosing Party of the complete circumstances and the details of the information to be disclosed.",
+        "changed_text": "Prior to disclosure of any Confidential Material under Clause 3.1.2, the r eceiving Party shall (to the extent permitt ed by law) inform the disclosing Party of the complete circumstances and the details of the information to be disclosed.",
+        "explanation": "Changing \"Confidential Information\" to \"Confidential Material\" in Clause 3.1.2 contradicts the definition in Section 1, and creates an in-text contradiction. Clause 3.1.2 is now referring to a term that isn't properly defined and therefore it is unclear if the obligations of disclosing the information to the receiving party are applicable.",
+        "location": "3.1.2",
+        "contradicted_location": "1",
+        "contradicted_text": "CONFIDENTIAL INFORMATION “Confidential Information” means collectively and individually all or any information of whatsoever nature, di sclosed in any form, whether oral, visual, written or in electronic form (including, without limitation, any documentation, reports, calculations, processes, methodologies, manuals and membership data ) relating to [Company name] and FORS operators, audit processes and commercial data together with all records or copies or e xtracts thereof in whatever media held.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces \"Confidential Information\" with \"Confidential Material\" in Clause 3.1.2. The contradicted text defines \"Confidential Information\" specifically, but \"Confidential Material\" is not defined anywhere in the contract. This creates an in-text contradiction because Clause 3.1.2 now uses an undefined term, making it unclear whether the obligations related to disclosing information apply, conflicting with the established definition and scope of 'Confidential Information' elsewhere in the document. This is a Misaligned Terminology - In Text Contradiction, as per the definitions provided."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The receiving Party shall notify anyone to whom it is authorised to disclose the Confidential Information that it is confidential and procure that they comply with this Agreement. On the request of the d isclosing Party, the r eceiving Party shall procure that they enter into a confidentiality agreement on terms and conditions no less onerous than those contained in this Agreement.",
+        "changed_text": "The receiving Party shall notify anyone to whom it is authorised to disclose the Protected Data that it is confidential and procure that they comply with this Agreement. On the request of the d isclosing Party, the r eceiving Party shall procure that they enter into a confidentiality agreement on terms and conditions no less onerous than those contained in this Agreement.",
+        "explanation": "Replacing “Confidential Information” with “Protected Data” in section 4.1, while the agreement continues to discuss “Confidential Information” creates ambiguity. It is now unclear which type of data third parties are required to keep confidential, leading to a contradiction in enforcement.",
+        "location": "4.1",
+        "contradicted_location": "4.1",
+        "contradicted_text": "On the request of the d isclosing Party, the r eceiving Party shall procure that they enter into a confidentiality agreement on terms and conditions no less onerous than those contained in this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text and contradicted text both refer to 'Confidential Information'. The changed text replaces 'Confidential Information' with 'Protected Data' but the contradicted text still uses 'Confidential Information'. This introduces ambiguity regarding which type of data third parties are required to keep confidential, leading to a contradiction in enforcement as explained in the Perturbation Explanation."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The r eceiving Party may only make such copies of Confidential Information as are expressly authorised by the disclosing Party for the Permitted Purpose and for disclosures that are not in breach of this Agreement. The receiving Party will clearly label all copies of Confidential Information as confidential.",
+        "changed_text": "The r eceiving Party may only make such copies of Confidential Details as are expressly authorised by the disclosing Party for the Permitted Purpose and for disclosures that are not in breach of this Agreement. The receiving Party will clearly label all copies of Confidential Information as confidential.",
+        "explanation": "Substituting “Confidential Information” with “Confidential Details” in the first sentence of section 5.1.1 but not the second creates an internal contradiction. This raises the question of whether the labeling requirement applies to 'Confidential Details', as well as 'Confidential Information' leading to confusion.",
+        "location": "5.1.1",
+        "contradicted_location": "5.1.1",
+        "contradicted_text": "The receiving Party will clearly label all copies of Confidential Information as confidential.",
+        "contradiction_exists": "YES",
+        "justification": "The change substitutes 'Confidential Information' with 'Confidential Details' in one part of section 5.1.1, while the contradicted text refers only to 'Confidential Information'. This creates an in-text contradiction because it is unclear whether the labeling requirement now applies to 'Confidential Details'. This aligns with the 'Misaligned Terminology - In Text Contradiction' definition which states that using multiple terms interchangeably without defining them leads to conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement comprises the full and complete agreement of the Parties her eto with respect to the Confidential Information and supersedes and cancels all prior communications, understandings and agreements between the P arties relating to the Confidential Information whether oral, express or implied.",
+        "changed_text": "This Agreement comprises the full and complete agreement of the Parties her eto with respect to the Protected Information and supersedes and cancels all prior communications, understandings and agreements between the P arties relating to the Confidential Information whether oral, express or implied.",
+        "explanation": "Changing \"Confidential Information\" to \"Protected Information\" creates ambiguity in Section 7.2, by having two conflicting terms for the scope of the agreement. It's now uncertain if the agreement covers only 'Confidential Information' or also 'Protected Information', contradicting the clause's intent to define the full scope of the agreement.",
+        "location": "7.2",
+        "contradicted_location": "7.2",
+        "contradicted_text": "and supersedes and cancels all prior communications, understandings and agreements between the P arties relating to the Confidential Information whether oral, express or implied.",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'Confidential Information'. The changed text replaces this with 'Protected Information' in the first part of the sentence, but retains 'Confidential Information' in the second part. This creates a contradiction because the agreement now refers to two different types of information, 'Protected Information' and 'Confidential Information', but the contradicted text refers only to 'Confidential Information'. This is a misalignment of terminology and the contract now uses two terms that could be used interchangeably or define different things. The explanation confirms that this creates ambiguity."
+      }
+    ]
+  }
+]

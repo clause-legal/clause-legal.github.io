@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "SOLUTIONSVENDINGINTERNATIONAL,INC_03_31_2020-EX1A-1 UNDR AGMT-SERVICES AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Amounts which remain unpaid for 30 days are subject to a finance charge of 1.5% per month on any outstanding balance, or the maximum permitted by law, whichever is lower, plus all expenses of collection and may result in immediate termination of Service.",
+        "changed_text": "Amounts which remain unpaid for 60 days are subject to a finance charge of 1.5% per month on any outstanding balance, or the maximum permitted by law, whichever is lower, plus all expenses of collection and may result in immediate termination of Service.",
+        "explanation": "This change creates an in-text contradiction by modifying the payment deadline before a finance charge is applied. Originally, amounts unpaid for 30 days incurred a finance charge. This has been changed to 60 days. This directly contradicts with the 'Termination' condition as per section 5, creating uncertainty.",
+        "location": "2.b",
+        "contradicted_location": "5.b.i",
+        "contradicted_text": "Additionally, either party may terminate this Service Agreement in the event: i) The other party's material breach that remains not cured and continues for a period of (A) in the case of a failure involving the payment of any undisputed amount due hereunder, 15 days and (B) in the case of any other failure, 30 days after the non performing party receives notice from the terminating party specifying such failure",
+        "contradiction_exists": "YES",
+        "justification": "The change from '30 days' to '60 days' for incurring a finance charge directly contradicts the 'Contradicted Text,' which states a 15-day cure period for payment failures before termination. The original text implicitly aligned with the 15-day cure period, but the changed text creates a discrepancy, making it unclear when termination can occur for non-payment. This falls under the 'Inconsistencies - In Text Contradiction' definition where different sections of a contract provide conflicting deadlines. Because one section says amounts unpaid for 60 days are charged, but another states that payment failures that continue for 15 days is grounds for service termination, the two create an inconsistency."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "AML fees are charged per User per initial transaction. AML: $2 AML UK: $5",
+        "changed_text": "AML fees are charged per User per initial transaction. AML: $5 AML UK: $2",
+        "explanation": "The cost for AML and AML UK have been switched. There is no indication which cost belongs to where, which could lead to a User being charged incorrectly.",
+        "location": "2.d",
+        "contradicted_location": "2.d",
+        "contradicted_text": "AML fees are charged per User per initial transaction. AML: $5 AML UK: $2",
+        "contradiction_exists": "YES",
+        "justification": "The changed text swaps the AML and AML UK fees, and the contradicted text contains the exact same language and swapped fees. This creates a direct conflict and inconsistency in the document. Without clarification, it's impossible to determine which fee applies to which country, leading to potential disputes over incorrect charges, per the definition of 'Inconsistencies - In Text Contradiction'."
+      }
+    ]
+  }
+]

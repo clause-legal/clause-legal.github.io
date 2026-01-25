@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Inaturals_NDA.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Each party agrees that it will not, without the previous written consent of the other party, use or disclose to any person, firm, company, partnership or corporation, the Confidential Information of the other party.",
+        "changed_text": "Each party agrees that it will not disclose to any person, firm, company, partnership or corporation, the Confidential Information of the other party.",
+        "explanation": "By removing 'without the previous written consent of the other party, use or', the modified text contradicts the implied allowance for using confidential information *with* written consent. This creates an internal contradiction, making it unclear whether using the information with prior consent is permitted or now completely prohibited. This contradicts with a later paragraph where they talk about Confidential Information and destroying the data.",
+        "location": "Section 2",
+        "contradicted_location": "Section 7",
+        "contradicted_text": "Upon written request from the other party, each party agrees to return or destroy all the other party’s Confidential Informatio n, together with all copies or reproductions thereof.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed for the use of confidential information with written consent. The changed text removes the phrase 'without the previous written consent of the other party, use or', effectively prohibiting the use of confidential information even with written consent. This directly contradicts the implied possibility of using the information with consent, creating a strong inconsistency. The contradicted text mentions returning or destroying confidential information, which becomes problematic if all use is now prohibited, as it doesn't account for the possibility of using the information with prior consent as previously allowed."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The parties agree that the unauthorized use or disclosure of Confidential Information would cause permanent, irreparable damage to the business and property of the party to which it belongs. In the event that either party is required to disclose Confidenti al Information pursuant to judicial or administrative process in connection with any action, suit or proceeding, that party will give prompt notice to the party to whom the Confidential Information belongs and will make a good faith effort to obtain confid ential treatment of the information in the action, suit or proceeding.",
+        "changed_text": "The parties agree that the unauthorized use or disclosure of Confidential Information would cause permanent, irreparable damage to the business and property of the party to which it belongs. In the event that either party is required to disclose Confidenti al Information pursuant to judicial or administrative process in connection with any action, suit or proceeding, that party will give prompt notice to the party to whom the Confidential Information belongs.",
+        "explanation": "By omitting 'and will make a good faith effort to obtain confid ential treatment of the information in the action, suit or proceeding.', the contract lacks a defined obligation to protect confidentiality during legal proceedings. This omission creates an internal contradiction because the agreement initially emphasizes strict confidentiality, but then fails to outline how that confidentiality should be maintained when disclosure is legally compelled. This is a contradiction, because it doesn't follow that 'good faith effort'.",
+        "location": "Section 3",
+        "contradicted_location": "Section 1",
+        "contradicted_text": "A party to this Agreement receiving Confidential Information “Recipient” agrees to retain such Confidential Information in stricte confidence and n ot to disclose it to any third party or use such Confidential Information for any purpose other than the purposes set forth in this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text includes an obligation to make a 'good faith effort' to obtain confidential treatment of information during legal proceedings, while the changed text omits this obligation. The contradicted text states a strict obligation to maintain Confidential Information in confidence and not disclose it. By removing the 'good faith effort' clause, the changed text creates a contradiction because it no longer provides a mechanism for maintaining confidentiality when disclosure is legally compelled, conflicting with the strict confidentiality requirements outlined in the contradicted text. This lack of guidance on maintaining confidentiality in legal settings directly undermines the 'stricte confidence' mandate, creating a clear contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The parties are the owners or exclusive licensees of protected intellectual property, including but not limited to trademarks, patents and copyrights.",
+        "changed_text": "The parties are the owners or exclusive licensees of protected intellectual property.",
+        "explanation": "By removing the phrase 'including but not limited to trademarks, patents and copyrights', the contract no longer gives concrete examples of 'protected intellectual property'. This omission creates an internal contradiction because the later section of 'intellectual property' is referenced, but there is now uncertainty about what the original definition implies or entails, affecting later enforcement. There is a now a possibility that intellectual property doesn't include trademarks, patents, and copyrights, as they were removed. This would contradict normal understanding and usage of intelectual property, which includes trademarks.",
+        "location": "Section 5",
+        "contradicted_location": "Section 6",
+        "contradicted_text": "The parties agre e no disclosure of information including or relating to such intellectual property sha ll be deemed a transfer or assignment of such intellectual property, nor shall any such disclosure of information be deemed a grant or waiver of any rights or privileges with respect to such intellectual property under applicable law, including but not limited to the right to prevent infringement by the unauthorized use, publication, or disclosure of such intellectual property.",
+        "contradiction_exists": "YES",
+        "justification": "The original text provides examples (trademarks, patents, copyrights) of 'protected intellectual property'. The changed text omits these examples, creating ambiguity about the scope of 'protected intellectual property'. The contradicted text references 'such intellectual property', implying a clear understanding of what constitutes 'intellectual property' as defined earlier in the document. Because the changed text removes the original examples of intellectual property, this creates a clear contradiction. The later clause relies on a previously established understanding that is now absent or at least uncertain, making enforcement of the disclosure clause problematic, leading to a strong contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This agreement shall be binding on the parties hereto and their respective subsidiaries, affiliates, divisions, officers, directors, agents, employees, successors and assigns.",
+        "changed_text": "This agreement shall be binding on the parties hereto and their respective officers, directors, agents, employees, successors and assigns.",
+        "explanation": "Removing 'subsidiaries, affiliates, divisions' creates an ambiguity and thus a contradiction. The original text implies the agreement extends to the full corporate structure of the parties. The modified text implies only the immediate individuals are bound. This is significant because if a subsidiary discloses confidential information, it's unclear if the original party is liable under this contract, thus contradicting the original intent.",
+        "location": "Section 8",
+        "contradicted_location": "Section 1",
+        "contradicted_text": "A party to this Agreement receiving Confidential Information “Recipient” agrees to retain such Confidential Information in stricte confidence and n ot to disclose it to any third party or use such Confidential Information for any purpose other than the purposes set forth in this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text's explicit inclusion of 'subsidiaries, affiliates, divisions' ensures the agreement's broad application to the parties' entire corporate structure. The modified text removes this, narrowing the scope to only the immediate 'officers, directors, agents, employees, successors and assigns'. This creates a direct contradiction with the 'Contradicted Text,' which states that the agreement applies to the 'Recipient' of confidential information. Since the modified text no longer explicitly includes subsidiaries/affiliates/divisions, if a subsidiary receives confidential information, it is unclear if they are bound by the confidentially clause. This is a clear and strong contradiction, because the explicit naming of groups protected by the agreement in the original text, and then the removal of those groups makes the 'Recipient' ambiguous, leading to a potential breach of contract."
+      }
+    ]
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "file_name": "MR_NON-DISCLOSURE-AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "This agreement is governed by Austrian law excluding its conflict of law rules. The competent court of jurisdiction for all disputes arising from this agreement shall be Graz.",
+        "changed_text": "This agreement is governed by Austrian law excluding its conflict of law rules.",
+        "explanation": "Removing the clause specifying Graz as the competent court of jurisdiction introduces ambiguity. While Austrian law is chosen, the venue for dispute resolution is left undefined, potentially conflicting with procedural fairness requirements under Austrian law.",
+        "contradicted_law": "Austrian Civil Procedure Code (Zivilprozessordnung, ZPO)",
+        "law_citation": "\u00a7 27 JN",
+        "law_url1": [
+          "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10006503"
+        ],
+        "law_url2": [
+          "https://www.jusline.at/gesetz/zpo/paragraf/27"
+        ],
+        "law_explanation": "Austrian Civil Procedure Code outlines rules for determining jurisdiction. Removing the specified court may lead to disputes over jurisdiction, increasing the cost and uncertainty of dispute resolution, which conflicts with the principles of legal certainty implied by ZPO. Especially \u00a7 27 JN defines the jurisdictions for certain cases.",
+        "location": "IX. Final Provisions",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "\u00a7 27 ZPO (Zivilprozessordnung) - JUSLINE \u00d6sterreich Login: \u00d7 Eingeloggt bleiben Login Registrieren - Passwort vergessen? Registrieren Login Men\u00fc \u00f6ffnen/schlie\u00dfen Men\u00fc Sie sind nicht angemeldet. Gesetze \u00dcbersicht Bundesgesetze Landesgesetze Burgenland K\u00e4rnten Nieder\u00f6sterreich Ober\u00f6sterreich Salzburg Steiermark Tirol Vorarlberg Wien Meine Gesetze Gesetzesaktualisierungen Volltextsuche Forum Forum Recht Gesetzeskommentare Gesetzessammlungen Abfrageservices \u00dcbersicht Grundbuch Grundbuchabfrage Urkundenabfrage Grundbuch Praxiswissen Grundbuchnummern suchen Firmenbuch Handelsregister GISA DSGVO Mustervorlagen Preise FAQ Tools Zinsrechner Existenzminimumrechner Grundbuchnummernsuche Legal.Tech \u00dcber Uns Verlinkungsm\u00f6glichkeiten Werben mit JUSLINE Hilfe Recht.Beobachten Recht.Merken Recht.Aktuell A-S-O Tool Release Notes Credits Alle Dropdown: Gew\u00e4hlter Wert ist Alle Bundesgesetze Burgenland K\u00e4rnten Nieder\u00f6sterreich Ober\u00f6sterreich Salzburg Steiermark Tirol Vorarlberg Wien Alle Gesetze \u00a7 27 ZPO (Zivilprozessordnung) - JUSLINE \u00d6sterreich \u00a7 27 ZPO ZPO - Zivilprozessordnung beobachten merken Ber\u00fccksichtigter Stand der Gesetzgebung: 23.06.2025 (1) Absatz eins Vor den Bezirksgerichten in Sachen, deren Streitwert an Geld oder Geldeswert 5 000 Euro \u00fcbersteigt, in Rechtsstreitigkeiten nach \u00a7 502 Abs. 5 Z 3 und vor allen h\u00f6heren Gerichten m\u00fcssen sich die Parteien durch Rechtsanw\u00e4lte vertreten lassen (absolute Anwaltspflicht). Vor den Bezirksgerichten in Sachen, deren Streitwert an Geld oder Geldeswert 5 000 Euro \u00fcbersteigt, in Rechtsstreitigkeiten nach Paragraph 502, Absatz 5, Ziffer 3 und vor allen h\u00f6heren Gerichten m\u00fcssen sich die Parteien durch Rechtsanw\u00e4lte vertreten lassen (absolute Anwaltspflicht). (2) Absatz 2 Der Abs. 1 findet \u2013 vorbehaltlich des \u00a7 29 Abs. 1 \u2013 keine Anwendung auf die Angelegenheiten, die von Gesetzes wegen ohne R\u00fccksicht auf den Wert des Streitgegenstandes vor die Bezirksgerichte geh\u00f6ren, und, soweit dieses Gesetz nicht etwas anderes bestimmt, auch nicht auf dieje",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies Graz as the court of jurisdiction, whereas the changed text removes this specification. The Perturbation Explanation states that this removal introduces ambiguity. The Law Explanation points to the Austrian Civil Procedure Code (ZPO), particularly \u00a7 27 JN, suggesting that removing the specified court can lead to jurisdictional disputes. The scraped snippet of \u00a7 27 ZPO, though primarily focused on representation by lawyers in cases exceeding 5,000 Euros, indirectly supports the idea that jurisdiction is a structured element within Austrian civil procedure. Therefore, removing the court of jurisdiction creates a contradiction because it introduces uncertainty about where disputes will be resolved, potentially conflicting with procedural fairness and legal certainty implied by Austrian procedural law."
+      },
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "Upon termination of this agreement, all the confidential information made available by M&R shall be returned to M&R on request of M&R, all copies that were made shall be destroyed or handed over to M&R and all stored information shall be deleted. Confident ial information that has to be kept in order to comply with legal obligations, in particular archiving obligations, shall be excepted from that.",
+        "changed_text": "Upon termination of this agreement, all the confidential information made available by M&R shall be returned to M&R on request of M&R, all copies that were made shall be destroyed or handed over to M&R and all stored information shall be deleted.",
+        "explanation": "By removing the exception for legally mandated archiving, the clause now demands the deletion of information that might need to be retained to comply with legal obligations as prescribed by Austrian accounting laws.",
+        "contradicted_law": "Austrian Federal Fiscal Code (Bundesabgabenordnung, BAO)",
+        "law_citation": "\u00a7 132 BAO",
+        "law_url1": [
+          "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10000565"
+        ],
+        "law_url2": [
+          "https://www.jusline.at/gesetz/bao/paragraf/132"
+        ],
+        "law_explanation": "The Austrian Federal Fiscal Code, particularly \u00a7 132 BAO, mandates specific retention periods for accounting records. Requiring deletion of all data upon termination directly contradicts these legal archiving requirements.",
+        "location": "VII. Term and Consequences of Termination",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "\u00a7 132 BAO (Bundesabgabenordnung) - JUSLINE \u00d6sterreich Login: \u00d7 Eingeloggt bleiben Login Registrieren - Passwort vergessen? Registrieren Login Men\u00fc \u00f6ffnen/schlie\u00dfen Men\u00fc Sie sind nicht angemeldet. Gesetze \u00dcbersicht Bundesgesetze Landesgesetze Burgenland K\u00e4rnten Nieder\u00f6sterreich Ober\u00f6sterreich Salzburg Steiermark Tirol Vorarlberg Wien Meine Gesetze Gesetzesaktualisierungen Volltextsuche Forum Forum Recht Gesetzeskommentare Gesetzessammlungen Abfrageservices \u00dcbersicht Grundbuch Grundbuchabfrage Urkundenabfrage Grundbuch Praxiswissen Grundbuchnummern suchen Firmenbuch Handelsregister GISA DSGVO Mustervorlagen Preise FAQ Tools Zinsrechner Existenzminimumrechner Grundbuchnummernsuche Legal.Tech \u00dcber Uns Verlinkungsm\u00f6glichkeiten Werben mit JUSLINE Hilfe Recht.Beobachten Recht.Merken Recht.Aktuell A-S-O Tool Release Notes Credits Alle Dropdown: Gew\u00e4hlter Wert ist Alle Bundesgesetze Burgenland K\u00e4rnten Nieder\u00f6sterreich Ober\u00f6sterreich Salzburg Steiermark Tirol Vorarlberg Wien Alle Gesetze \u00a7 132 BAO (Bundesabgabenordnung) - JUSLINE \u00d6sterreich \u00a7 132 BAO BAO - Bundesabgabenordnung beobachten merken Ber\u00fccksichtigter Stand der Gesetzgebung: 23.06.2025 (1) Absatz eins B\u00fccher und Aufzeichnungen sowie die zu den B\u00fcchern und Aufzeichnungen geh\u00f6rigen Belege sind sieben Jahre aufzubewahren; dar\u00fcber hinaus sind sie noch so lange aufzubewahren, als sie f\u00fcr die Abgabenerhebung betreffende anh\u00e4ngige Verfahren von Bedeutung sind, in denen diejenigen Parteistellung haben, f\u00fcr die auf Grund von Abgabenvorschriften die B\u00fccher und Aufzeichnungen zu f\u00fchren waren oder f\u00fcr die ohne gesetzliche Verpflichtung B\u00fccher gef\u00fchrt wurden. Soweit Gesch\u00e4ftspapiere und sonstige Unterlagen f\u00fcr die Abgabenerhebung von Bedeutung sind, sollen sie sieben Jahre aufbewahrt werden. Diese Fristen laufen f\u00fcr die B\u00fccher und die Aufzeichnungen vom Schlu\u00df des Kalenderjahres, f\u00fcr das die Eintragungen in die B\u00fccher oder Aufzeichnungen vorgenommen worden sind, und f\u00fcr die Belege, Gesch\u00e4ftspapiere und sonstigen Unterlagen vom Schlu\u00df",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the exception for legally mandated archiving, requiring the deletion of all confidential information upon termination. This directly contradicts \u00a7 132 BAO (Bundesabgabenordnung) which, as indicated in Scraped Law Snippet 2, mandates that \"B\u00fccher und Aufzeichnungen sowie die zu den B\u00fcchern und Aufzeichnungen geh\u00f6rigen Belege sind sieben Jahre aufzubewahren.\" Therefore, the modification results in a clear non-compliance with Austrian law regarding the retention of accounting records, thus creating a legal contradiction."
+      },
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "In the event of a culpable breach, the Partner shall be liable to M&R for compensation for the damage caused and shall keep M&R indemnified from all resulting claims and costs. If it is certain that confidential information found its way to third parties from the sphere of the Partner, a culpable (at least negligent) breach of non- disclosure obligations shall be assumed - except when there is evidence to t he contrary.",
+        "changed_text": "In the event of a culpable breach, the Partner shall be liable to M&R for compensation for the damage caused and shall keep M&R indemnified from all resulting claims and costs.",
+        "explanation": "Removing the presumption of a culpable breach when confidential information leaks to third parties from the partner's sphere significantly weakens M&R's ability to enforce the agreement. This shifts the burden of proof entirely to M&R, making it more difficult to claim damages. This affects the principles of good faith in contractual agreements under Austrian law.",
+        "contradicted_law": "Austrian General Civil Code (Allgemeines b\u00fcrgerliches Gesetzbuch, ABGB)",
+        "law_citation": "\u00a7 1295 ABGB",
+        "law_url1": [
+          "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10000159"
+        ],
+        "law_url2": [
+          "https://www.jusline.at/gesetz/abgb/paragraf/1295"
+        ],
+        "law_explanation": "Austrian General Civil Code, particularly \u00a7 1295 ABGB, governs damages and liability. By removing the presumption of fault, the modified text makes it substantially harder for M&R to prove damages and claim compensation, weakening the protection afforded by \u00a7 1295 ABGB.",
+        "location": "VI. Consequences of a Breach of the Obligation to Confidentiality",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "\u00a7 1295 ABGB (Allgemeines b\u00fcrgerliches Gesetzbuch), 1) von dem Schaden aus Verschulden; - JUSLINE \u00d6sterreich Login: \u00d7 Eingeloggt bleiben Login Registrieren - Passwort vergessen? Registrieren Login Men\u00fc \u00f6ffnen/schlie\u00dfen Men\u00fc Sie sind nicht angemeldet. Gesetze \u00dcbersicht Bundesgesetze Landesgesetze Burgenland K\u00e4rnten Nieder\u00f6sterreich Ober\u00f6sterreich Salzburg Steiermark Tirol Vorarlberg Wien Meine Gesetze Gesetzesaktualisierungen Volltextsuche Forum Forum Recht Gesetzeskommentare Gesetzessammlungen Abfrageservices \u00dcbersicht Grundbuch Grundbuchabfrage Urkundenabfrage Grundbuch Praxiswissen Grundbuchnummern suchen Firmenbuch Handelsregister GISA DSGVO Mustervorlagen Preise FAQ Tools Zinsrechner Existenzminimumrechner Grundbuchnummernsuche Legal.Tech \u00dcber Uns Verlinkungsm\u00f6glichkeiten Werben mit JUSLINE Hilfe Recht.Beobachten Recht.Merken Recht.Aktuell A-S-O Tool Release Notes Credits Alle Dropdown: Gew\u00e4hlter Wert ist Alle Bundesgesetze Burgenland K\u00e4rnten Nieder\u00f6sterreich Ober\u00f6sterreich Salzburg Steiermark Tirol Vorarlberg Wien Alle Gesetze \u00a7 1295 ABGB (Allgemeines b\u00fcrgerliches Gesetzbuch), 1) von dem Schaden aus Verschulden; - JUSLINE \u00d6sterreich \u00a7 1295 ABGB 1) von dem Schaden aus Verschulden; ABGB - Allgemeines b\u00fcrgerliches Gesetzbuch beobachten merken Ber\u00fccksichtigter Stand der Gesetzgebung: 23.06.2025 (1) Absatz eins Jedermann ist berechtigt, von dem Besch\u00e4diger den Ersatz des Schadens, welchen dieser ihm aus Verschulden zugef\u00fcgt hat, zu fordern; der Schaden mag durch \u00dcbertretung einer Vertragspflicht oder ohne Beziehung auf einen Vertrag verursacht worden sein. (2) Absatz 2 Auch wer in einer gegen die guten Sitten versto\u00dfenden Weise absichtlich Schaden zuf\u00fcgt, ist daf\u00fcr verantwortlich, jedoch falls dies in Aus\u00fcbung eines Rechtes geschah, nur dann, wenn die Aus\u00fcbung des Rechtes offenbar den Zweck hatte, den anderen zu sch\u00e4digen. In Kraft seit 01.01.1917 bis 31.12.9999 merken 1 Kommentar zu \u00a7 1295 ABGB Kommentar zum \u00a7 1295 ABGB von Dr. Reinhard Pitschmann 0,0 bei 0 Bewertungen Di",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The modified text removes a presumption of culpability when confidential information is leaked, making it harder for M&R to prove damages. \u00a7 1295 ABGB states that \"Jedermann ist berechtigt, von dem Besch\u00e4diger den Ersatz des Schadens, welchen dieser ihm aus Verschulden zugef\u00fcgt hat, zu fordern;\" which translates to \"Everyone is entitled to demand from the damager compensation for the damage which he culpably caused him.\" By removing the presumption of fault, the modified text weakens M&R's ability to claim compensation, thereby contradicting the principle of seeking damages for harm caused by negligence as supported by \u00a7 1295 ABGB."
+      },
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "Insofar as the Partner employs subcontractors for the fulfillment of his duties from the scope of the project, the Partner shall be obliged to bind them to secrecy as well in wri ting in a scope according to this non -disclosure agreement. Proof of this obligation has to be shown to M&R upon request.",
+        "changed_text": "Insofar as the Partner employs subcontractors for the fulfillment of his duties from the scope of the project, the Partner shall be obliged to bind them to secrecy as well in writing in a scope according to this non -disclosure agreement.",
+        "explanation": "Removing the requirement to provide proof of the confidentiality agreement with subcontractors to M&R significantly reduces M&R's oversight and ability to ensure compliance throughout the entire project. This weakens the enforceability of the non-disclosure agreement and makes it harder to verify that subcontractors are adhering to its terms.",
+        "contradicted_law": "Austrian Contract Law Principles (Vertragsrechtliche Grunds\u00e4tze)",
+        "law_citation": "Good Faith (Treu und Glauben) - Implicit requirement",
+        "law_url1": [
+          "https://www.law.cornell.edu/wex/good_faith"
+        ],
+        "law_url2": [
+          "https://www.investopedia.com/terms/g/good_faith.asp"
+        ],
+        "law_explanation": "While not explicitly stated in a single article, Austrian contract law operates on the principle of good faith (Treu und Glauben) and requires that parties act in a way that allows the other party to benefit from the contract. By removing the requirement to provide proof of subcontractor confidentiality agreements, the modified text impedes M&R's ability to verify compliance and receive the intended benefit of the non-disclosure agreement, thus acting against good faith and impairing legal security.",
+        "location": "IV. Subcontractors",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": "good faith | Wex | US Law | LII / Legal Information Institute Please help us improve our site! \u00d7 No thank you good faith Good faith is a broad term that\u2019s used to encompass honest dealing. Depending on the exact setting, good faith may require an honest belief or purpose, faithful performance of duties , observance of fair dealing standards, or an absence of fraudulent intent . A fiduciary relationship creates a duty of good faith between the agent and the principal . The breach of this duty of good faith can lead to liability . Failure to act in good faith is known as bad faith and is generally considered to be a level of culpability greater than negligence . [Last reviewed in January of 2023 by the Wex Definitions Team ] Wex COMMERCE business law contracts wex definitions business sectors legal education and practice Wex Toolbox",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The modified text removes a key element of oversight, contradicting the principle of good faith. By eliminating the requirement for the Partner to provide proof of the confidentiality agreement, M&R's ability to ensure compliance is weakened, undermining the intended benefit of the non-disclosure agreement. The Law Explanation correctly states that this impedes M&R's ability to verify compliance, acting against good faith. Scraped Law Snippet 1 defines good faith as requiring 'faithful performance of duties' and 'observance of fair dealing standards.' Removing the proof requirement impairs M&R's ability to assess if the Partner is faithfully performing their duty to ensure subcontractor confidentiality, thus contradicting the principle of good faith."
+      }
+    ]
+  }
+]

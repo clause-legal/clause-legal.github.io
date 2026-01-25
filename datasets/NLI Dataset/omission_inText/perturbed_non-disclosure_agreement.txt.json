@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "non-disclosure_agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "WHEREAS, [Company Name] is producing a film entitled __________ ______________ (hereinafter referred to as the Project), this agreement is made this _________________________, by and between [Company Name] and ________________________. 1. All information disclosed by [Company Name] and/or those individuals or organizations working in collaboration with Back Burner Films, written, electronic or oral, that relates or refers directly or indi- rectly, to the Project including the script itself, sh all hereafter and forever be deemed confidential and shall constitute Confidential Information.",
+        "changed_text": "WHEREAS, [Company Name] is producing a film entitled __________ ______________ (hereinafter referred to as the Project), this agreement is made this _________________________, by and between [Company Name] and ________________________. 1. All information disclosed by [Company Name] and/or those individuals or organizations working in collaboration with Back Burner Films, written, electronic or oral, that relates or refers directly or indi- rectly, to the Project including the script itself, shall hereafter and forever be deemed confidential.",
+        "explanation": "By removing 'and shall constitute Confidential Information' from the definition in section 1, the contract lacks a clear declaration that disclosed information *is* Confidential Information. This omission contradicts the overall purpose of the NDA, as the agreement later relies on the assumption that information is explicitly categorized as 'Confidential Information' for enforcement.",
+        "location": "Section 1",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "2. The Confidential Information shall remain the proper ty of the [Company Name] and shall not be dis- closed or revealed to anyone except to [Compa ny Name], its agents, licensees, successors and as- signs. The undersigned shall be responsible for an y improper disclosure of Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly states that disclosed information 'shall constitute Confidential Information.' The changed text omits this phrase, weakening the definition of Confidential Information. The contradicted text (section 2) relies on a clear definition of 'Confidential Information' to enforce restrictions on its disclosure. By removing the explicit statement that disclosed information *is* Confidential Information, the changed text creates a contradiction, making it unclear whether the information described in section 1 qualifies as 'Confidential Information' under section 2. The change introduces ambiguity and undermines the enforceability of the NDA, satisfying the Omissions - In Text Contradiction definition."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "2. The Confidential Information shall remain the proper ty of the [Company Name] and shall not be dis- closed or revealed to anyone except to [Compa ny Name], its agents, licensees, successors and as- signs. The undersigned shall be responsible for an y improper disclosure of Confidential Information.",
+        "changed_text": "2. The Information shall remain the proper ty of the [Company Name] and shall not be dis- closed or revealed to anyone except to [Compa ny Name], its agents, licensees, successors and as- signs. The undersigned shall be responsible for an y improper disclosure of Information.",
+        "explanation": "By removing the word 'Confidential' before Information, this modifies the type of information being referenced throughout section 2 of the text. This omission leads to a contradiction because it broadens the scope of what is protected without defining it specifically, thus contradicting the intent of the agreement.",
+        "location": "Section 2",
+        "contradicted_location": "Section 1",
+        "contradicted_text": "1. All information disclosed by [Company Name] and/or those individuals or organizations working in collaboration with Back Burner Films, written, electronic or oral, that relates or refers directly or indi- rectly, to the Project including the script itself, shall hereafter and forever be deemed confidential.",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers specifically to 'Confidential Information'. The changed text omits 'Confidential', broadening the scope to simply 'Information'. This creates a contradiction with the 'Contradicted Text', which defines specific types of information as confidential. By removing 'Confidential', the modified text creates ambiguity and potentially covers information not intended to be confidential, thus contradicting the defined scope in the contradicted text. This fits the definition of 'Omissions - In Text Contradiction'."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "__________________________________ __________________________________ N a m e D a t e",
+        "changed_text": "__________________________________ __________________________________ N a m e",
+        "explanation": "Removing the 'Date' line creates ambiguity about when the agreement was actually signed. This introduces a contradiction because without a date, determining when the NDA became effective is impossible, which undermines the agreement's validity. The original NDA would assume to have a date, which would determine the start date of the agreement.",
+        "location": "Signature Section",
+        "contradicted_location": "Section 1",
+        "contradicted_text": "WHEREAS, [Company Name] is producing a film entitled __________ ______________ (hereinafter referred to as the Project), this agreement is made this _________________________, by and between [Company Name] and ________________________.",
+        "contradiction_exists": "YES",
+        "justification": "The 'Omissions - In Text Contradiction' perturbation involves removing the 'Date' line from the signature area. The explanation states that this creates ambiguity regarding when the NDA became effective. The contradicted text begins with \"this agreement is made this _________________________\". Removing the date from the signature area directly contradicts the clause that explicitly states the agreement is made on a specific date. Therefore, the change introduces a strong in-text contradiction."
+      }
+    ]
+  }
+]

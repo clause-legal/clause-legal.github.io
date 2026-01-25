@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "FuseMedicalInc_20190321_10-K_EX-10.43_11575454_EX-10.43_Distributor Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "5.3 The Distributor must pay the full amount invoiced to it by the Supplier in USD$'s within thirty (45) days of the date of invoice.",
+        "changed_text": "5.3 The Distributor must pay the full amount invoiced to it by the Supplier in USD$'s within forty-five (30) days of the date of invoice.",
+        "explanation": "This change introduces an in-text contradiction by reversing the intended meaning of the parenthetical statement in section 5.3. The clause now states that payment is due within 45 (30) days, creating uncertainty about the actual payment deadline. The intention of the original parenthetical was to clarify/extend the 30 day term to 45, by reversing it, this creates in-text contradiction.",
+        "location": "5.3",
+        "contradicted_location": "5.3",
+        "contradicted_text": "5.3 The Distributor must pay the full amount invoiced to it by the Supplier in USD$'s within forty-five (30) days of the date of invoice.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in section 5.3 states \"forty-five (30) days\", while the contradicted text in the same section also states \"forty-five (30) days\". The perturbation explanation states that this reversal creates an in-text contradiction because it causes uncertainty about the actual payment deadline, meaning it is unclear whether the payment is due within 45 or 30 days. This constitutes a direct inconsistency in payment terms, thus falling under the definition of inconsistencies, leading to an in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "11. Duration and termination 11.1 This agreement begins on the Commencement Date and, subject to clause 11.2, shall continue for an initial term of one (1) years (Initial Term) and indefinitely after that until terminated by either party giving at least twelve (12) months' prior written notice to expire on or after the expiry date of the initial term.",
+        "changed_text": "11. Duration and termination 11.1 This agreement begins on the Commencement Date and, subject to clause 11.2, shall continue for an initial term of one (1) years (Initial Term) and indefinitely after that until terminated by either party giving at least six (24) months' prior written notice to expire on or after the expiry date of the initial term.",
+        "explanation": "This change creates an in-text contradiction in section 11.1 by altering the notice period required for termination. The clause now states that termination requires six (24) months' notice, creating ambiguity regarding the actual notice period. The inconsistency introduces legal uncertainty and potential disputes over the correct procedure for terminating the agreement.",
+        "location": "11.1",
+        "contradicted_location": "11.1",
+        "contradicted_text": "11. Duration and termination 11.1 This agreement begins on the Commencement Date and, subject to clause 11.2, shall continue for an initial term of one (1) years (Initial Term) and indefinitely after that until terminated by either party giving at least six (24) months' prior written notice to expire on or after the expiry date of the initial term.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the notice period for termination within the same clause (11.1), creating a contradiction. The clause now states 'six (24) months' notice', introducing ambiguity and conflicting instructions regarding the required notice period for terminating the agreement. This directly contradicts itself, rendering it unclear and unenforceable. The Perturbation Explanation provided confirms that the change introduces legal uncertainty and potential disputes."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "12.2 At the Supplier's option, on termination of this agreement: (a) the Supplier may buy from the Distributor all or any stocks of Products for the current market value for those Products. The Distributor must deliver such Products to the Supplier within 14 days of receiving the Supplier's notice, and the Supplier must pay for the Products in full within 30 days of their delivery. The Supplier shall be responsible for the costs of packaging, insurance and carriage of the Products; or",
+        "changed_text": "12.2 At the Supplier's option, on termination of this agreement: (a) the Supplier may buy from the Distributor all or any stocks of Products for the current market value for those Products. The Distributor must deliver such Products to the Supplier within 30 days of receiving the Supplier's notice, and the Supplier must pay for the Products in full within 14 days of their delivery. The Supplier shall be responsible for the costs of packaging, insurance and carriage of the Products; or",
+        "explanation": "This change introduces an in-text contradiction in section 12.2(a) by swapping the delivery and payment deadlines. The Distributor is now required to provide stocks within 30 days instead of 14 days, while payment from the Supplier is due within 14 days instead of 30 days. This inconsistency creates a conflict between delivery and payment terms and creates ambiguity, which can result in disputes regarding each party's obligations upon termination.",
+        "location": "12.2",
+        "contradicted_location": "12.2",
+        "contradicted_text": "12.2 At the Supplier's option, on termination of this agreement: (a) the Supplier may buy from the Distributor all or any stocks of Products for the current market value for those Products. The Distributor must deliver such Products to the Supplier within 30 days of receiving the Supplier's notice, and the Supplier must pay for the Products in full within 14 days of their delivery. The Supplier shall be responsible for the costs of packaging, insurance and carriage of the Products; or",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in section 12.2(a) swaps the deadlines for delivery and payment, directly contradicting the contradicted text, which also resides in section 12.2(a). The original text states that the Distributor must deliver Products within 14 days and the Supplier must pay within 30 days, whereas the Changed Text states that the Distributor must deliver within 30 days and the Supplier must pay within 14 days. This swap creates an inconsistency in deadlines within the same section, leading to ambiguity and a strong contradiction."
+      }
+    ]
+  }
+]

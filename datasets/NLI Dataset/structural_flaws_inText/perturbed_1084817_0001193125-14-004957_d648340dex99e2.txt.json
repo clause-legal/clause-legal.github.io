@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "1084817_0001193125-14-004957_d648340dex99e2.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The receiving party agrees to notify the disclosing party of any request received by the receiving party for access, correction, amendment or redaction of any PII. The disclosing party shall be responsible for compliance with all such requests.",
+        "changed_text": "The receiving party agrees to notify the disclosing party of any request received by the receiving party for access, correction, amendment or redaction of any PII. The receiving party shall be responsible for compliance with all such requests.",
+        "explanation": "By changing 'The disclosing party shall be responsible' to 'The receiving party shall be responsible', a direct contradiction is created. The same sentence now indicates that the receiving party must both notify about any such requests and also be responsible for compliance, directly contradicting who holds the responsibility. This is contradictory as both parties cannot be the party responsible for compliance. There is in-text contradiction.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "The receiving party agrees to notify the disclosing party of any request received by the receiving party for access, correction, amendment or redaction of any PII. The receiving party shall be responsible for compliance with all such requests.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the responsible party for PII compliance from the 'disclosing party' to the 'receiving party'. This directly contradicts the contradicted text, where the receiving party is responsible for compliance. Since both parties cannot be simultaneously responsible for the same action, this introduces a structural flaw, causing a strong in-text contradiction as per the definition of Structural Flaws - In Text Contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Promptly upon written request from the other party, each party shall return or destroy (at the receiving party’s option) all copies of the Evaluation Material (including all documents based thereon) in its or its Representatives’ possession, provided, that the receiving party shall only be required to use commercially reasonable efforts to return or destroy any Evaluation Material created pursuant to its or its Representatives’ standard electronic backup and archival procedures.",
+        "changed_text": "Promptly upon written request from the other party, each party shall return or destroy (at the receiving party’s option) all copies of the Evaluation Material (including all documents based thereon) in its or its Representatives’ possession, provided, that the receiving party shall be required to return or destroy any Evaluation Material created pursuant to its or its Representatives’ standard electronic backup and archival procedures.",
+        "explanation": "Changing 'shall only be required to use commercially reasonable efforts' to 'shall be required' creates a contradiction. The original text implies a lower standard of effort, while the modified text suggests a mandatory obligation to return or destroy all material. This contradiction makes the requirement regarding electronic backups and archival procedures unclear and thus creates an in-text contradiction.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "Promptly upon written request from the other party, each party shall return or destroy (at the receiving party’s option) all copies of the Evaluation Material (including all documents based thereon) in its or its Representatives’ possession, provided, that the receiving party shall be required to return or destroy any Evaluation Material created pursuant to its or its Representatives’ standard electronic backup and archival procedures.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the receiving party only needs to use 'commercially reasonable efforts' to return or destroy evaluation material created through standard electronic backup and archival procedures. The changed text removes the 'commercially reasonable efforts' qualifier, mandating a full return or destruction of this material. The contradicted text has the same change as the changed text, thus the change from a 'commercially reasonable efforts' standard to a mandatory obligation creates a direct contradiction with the initial allowance for commercially reasonable efforts, creating an inconsistency regarding the level of effort required, fulfilling the definition of structural flaws causing in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "2. Non-Disclosure; Use . Each party agrees that, without the prior written consent of the other party, neither it nor its Representatives will disclose to any other person (other than to such party’s Representatives who agree, or are otherwise bound, not to disclose the following except as contemplated by this Agreement) any of the other party’s Evaluation Material, the fact that discussions between the parties are taking place concerning the Transaction, or any terms or other facts relating to the Transaction.",
+        "changed_text": "2. Non-Disclosure; Use . Each party agrees that, without the prior written consent of the other party, it or its Representatives will disclose to any other person (other than to such party’s Representatives who agree, or are otherwise bound, not to disclose the following except as contemplated by this Agreement) any of the other party’s Evaluation Material, the fact that discussions between the parties are taking place concerning the Transaction, or any terms or other facts relating to the Transaction.",
+        "explanation": "By removing 'neither' from 'neither it nor its Representatives will disclose', the clause now states that each party agrees *that* it *will* disclose the other party’s Evaluation Material, directly contradicting the intention of non-disclosure in that same paragraph. This in-text contradiction creates uncertainty and fundamentally alters the core purpose of the agreement.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "2. Non-Disclosure; Use . Each party agrees that, without the prior written consent of the other party, it or its Representatives will disclose to any other person (other than to such party’s Representatives who agree, or are otherwise bound, not to disclose the following except as contemplated by this Agreement) any of the other party’s Evaluation Material, the fact that discussions between the parties are taking place concerning the Transaction, or any terms or other facts relating to the Transaction.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes 'neither' from 'neither it nor its Representatives will disclose', resulting in the clause stating that each party agrees that it *will* disclose the other party's Evaluation Material. This directly contradicts the original intention of non-disclosure as stated in the original text and the purpose of the section, creating a strong in-text contradiction as defined by the explanation. The contradicted text is the same as the changed text in this example, but the meaning has changed and now creates a contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "8. Definitive Agreements . Unless and until a final definitive agreement regarding the Transaction has been executed by the parties, no agreement with respect to the Transaction shall be deemed to exist between the parties and neither party will be under any obligation whatsoever with respect to the Transaction by virtue of this Agreement or any oral expression except for the matters specifically agreed to herein.",
+        "changed_text": "8. Definitive Agreements . Unless and until a final definitive agreement regarding the Transaction has been executed by the parties, an agreement with respect to the Transaction shall be deemed to exist between the parties and each party will be under full obligation with respect to the Transaction by virtue of this Agreement or any oral expression except for the matters specifically agreed to herein.",
+        "explanation": "Changing 'no agreement...neither party will be under any obligation' to 'an agreement...each party will be under full obligation' directly contradicts the original text's intent. The edited clause now states that an agreement exists and obligations are in place *before* a definitive agreement is signed. This in-text contradiction creates fundamental uncertainty regarding the parties' obligations prior to the final agreement.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "8. Definitive Agreements . Unless and until a final definitive agreement regarding the Transaction has been executed by the parties, an agreement with respect to the Transaction shall be deemed to exist between the parties and each party will be under full obligation with respect to the Transaction by virtue of this Agreement or any oral expression except for the matters specifically agreed to herein.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 8 directly contradicts itself. Originally, it stated that no agreement exists and neither party has obligations until a final agreement is executed. The modified version states the opposite: an agreement exists and both parties have full obligations before the final agreement. This fundamental shift creates an in-text contradiction by asserting two opposing states within the same section, based on the provided Perturbation Explanation and Structural Flaws definition."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Notwithstanding the return or destruction of the Evaluation Material, each party and its Representatives will continue to be bound by its obligations of confidentiality.",
+        "changed_text": "Notwithstanding the return or destruction of the Evaluation Material, each party and its Representatives will cease to be bound by its obligations of confidentiality.",
+        "explanation": "Changing 'will continue to be bound' to 'will cease to be bound' creates a direct in-text contradiction. The original text specifies that confidentiality obligations survive the return or destruction of the material; the changed text says they do not. This fundamental conflict causes uncertainty about confidentiality terms.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "Notwithstanding the return or destruction of the Evaluation Material, each party and its Representatives will cease to be bound by its obligations of confidentiality.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that confidentiality obligations 'will continue to be bound', while the changed text states that these obligations 'will cease to be bound'. The contradicted text repeats the changed text 'will cease to be bound'. This is a direct, clear, and impactful contradiction, making the confidentiality terms uncertain and potentially unenforceable. Therefore, it is a strong in-text contradiction."
+      }
+    ]
+  }
+]

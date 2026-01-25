@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "WORLDWIDESTRATEGIESINC_11_02_2005-EX-10-RESELLER AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "\"Customer\" means a third party end-user with headquarter offices in the Territory to whom or to which Reseller resells or causes the resale of the TouchStar Software and Support Services.",
+        "changed_text": "\"Customer\" means any entity, including but not limited to individuals, businesses, and organizations, regardless of their location or purpose, that utilizes the TouchStar Software or Support Services.",
+        "explanation": "The original definition limits 'Customer' to end-users with headquarters in the Territory. The modified definition broadens it to any entity using the software, irrespective of location or purpose. This creates a contradiction because the original definition is used in sections like 2.1(a) which limits the Reseller to promoting, marketing, and distributing to 'Customers' in the Territory, while the new definition allows to any type of entity outside the Territory. The contradiction creates uncertainty in enforcement.",
+        "location": "1. DEFINITIONS",
+        "contradicted_location": "2.1",
+        "contradicted_text": "2.1 NONEXCLUSIVE RESELLER. Subject to applicable Legal Requirements: (a) TouchStar hereby appoints Reseller as its nonexclusive value- added reseller for the limited purposes of promoting, marketing, distributing, licensing and selling the TouchStar Software and Support Services in the Territory, and Reseller accepts the appointment as such. Reseller shall have the right under this Agreement to promote, market, distribute, license and sell the TouchStar Software and Support Services to Customers in the Territory. TouchStar reserves the right to provide the TouchStar Software and Support Services to other customers in the Territory and/or to appoint additional distributors or representatives in all or any part of the Territory.",
+        "contradiction_exists": "YES",
+        "justification": "The modified definition of \"Customer\" broadens the term to any entity utilizing the software, regardless of location. This directly contradicts Section 2.1, which limits the Reseller's activities to \"Customers in the Territory.\" The change expands the scope of potential customers beyond the territorial restriction imposed in 2.1, creating a conflict in the permissible scope of the Reseller's activities, and thus an in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "TouchStar shall charge to Reseller the cost incurred by TouchStar to obtain such Licenses.",
+        "changed_text": "TouchStar may, at its discretion, invoice the Reseller for licensing costs, but is not obligated to do so.",
+        "explanation": "The original text states that TouchStar *shall* charge the reseller for license costs. The modified version introduces uncertainty by stating TouchStar *may* invoice but is not obligated to. This creates a contradiction. Section 3.3 implies an obligation for the Reseller to pay for licenses. The contradicted location is section 6.1 (a) where the Fees are defined.",
+        "location": "3.3 LICENSES.",
+        "contradicted_location": "6.1",
+        "contradicted_text": "6.1 PRICE AND PAYMENT. (a) TouchStar shall sell the TouchStar Software and Support Services, and provide for the installation of call center systems, for the Fees. The Fees shall be valid only for TouchStar Software and Support Services sold by Reseller or Other Resellers to Customers, and the installation of call center systems on behalf of Reseller and any Other Resellers at Customer locations, in the Territory during the Term. TouchStar shall have the right at any time and from time to time to change the Fees by providing to Reseller written notice at least thirty (30) days prior to the date the change becomes effective. TouchStar may change the Fees from time to time in its sole discretion; PROVIDED, HOWEVER, that new Fees shall not apply to any agreement to provide Support Services accepted by TouchStar before Reseller receives notice of the change.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states TouchStar \"shall\" charge, creating an obligation for the reseller to pay license costs. The changed text makes this discretionary, stating TouchStar \"may\" invoice but is not obligated. This directly contradicts section 6.1 (a), which implies that fees are charged for software and support services sold by the reseller. The change introduces uncertainty as to whether licensing costs are included in the Fees and whether the Reseller is obligated to pay them, creating a contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The arbitration shall be conducted in Denver, Colorado, United States.",
+        "changed_text": "The arbitration may be conducted in a location mutually agreed upon by both parties; absent such agreement, it will take place in a location determined by the arbitrators.",
+        "explanation": "The original text specifies Denver, Colorado, as the arbitration location. The modified text introduces flexibility, stating that the location may be mutually agreed upon, or determined by the arbitrators, contradicting the original fixed location. This introduces ambiguity in enforcement of the arbitration clause. The contradicted location is section 10.12(b)(i), which refers to the AAA rules.",
+        "location": "10.12(b)(iii)",
+        "contradicted_location": "10.12(b)",
+        "contradicted_text": "(b) ARBITRATION. Any dispute arising out of or relating to this Agreement, including, without limitation, the interpretation of any provision of this Agreement or the breach, termination or invalidity of this Agreement that cannot reasonably be resolved by the Parties shall be settled exclusively and finally by binding arbitration under the International Arbitration Rules of the American Arbitration Association in effect on and as of the date of this Agreement (the \"AAA Rules\"), except as such AAA Rules are modified pursuant to this Section 10.12(b). (i) The arbitration shall be conducted before a panel of three (3) arbitrators, each of whom shall be fluent in English and shall have knowledge in the call center industry. TouchStar shall appoint one (1) arbitrator, Customer shall appoint one (1) arbitrator, and the third arbitrator shall be selected by the two (2) arbitrators so appointed; PROVIDED, HOWEVER, that if the two (2) arbitrators appointed by the parties fail to select the third arbitrator within thirty (30) days after the date on which the last of such two (2) arbitrators are appointed, then the third arbitrator shall be appointed by the administrator in accordance with the AAA Rules. The third arbitrator, regardless of how selected, shall chair the arbitration panel.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies a fixed arbitration location (Denver, Colorado). The changed text introduces a flexible arbitration location, dependent on mutual agreement or arbitrator decision. This directly contradicts the original fixed location, creating an in-text contradiction regarding the arbitration location. While the AAA rules are referenced in the contradicted text, the specific location is a crucial term, and the change introduces ambiguity, potentially leading to disputes about where arbitration should occur."
+      }
+    ]
+  }
+]

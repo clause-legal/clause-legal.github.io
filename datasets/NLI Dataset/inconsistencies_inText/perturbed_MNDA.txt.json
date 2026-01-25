@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "MNDA.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Both parties will indemnify each other and keep the other harmless against all costs, losses or expenses resulting from any breach or non-performance of any of their obligations under this agreement.",
+        "changed_text": "Both parties will indemnify each other and keep the other harmless against all costs, losses or expenses resulting from any breach or non-performance of any of their obligations under this agreement, except for breaches related to confidentiality.",
+        "explanation": "By adding 'except for breaches related to confidentiality', this creates a contradiction with section 2, which states that all information remains the sole property of the disclosing party and the receiving party has no right to it. Now, the indemnification clause excludes confidentiality breaches, making it unclear if breaches of confidentiality are still actionable. This creates uncertainty about liability for confidentiality breaches, creating a contradiction between this changed section 9 and the intention set in section 2.",
+        "location": "9",
+        "contradicted_location": "2",
+        "contradicted_text": "All Information identified as confidential and disclosed there under shall remain the sole property of the disclosing party, and the receiving party shall have no interest in or rights thereto except as set forth herein.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the indemnification clause (Section 9) to exclude breaches related to confidentiality. However, Section 2 states that all confidential information remains the sole property of the disclosing party, implying a right to protection and potentially remedies for breaches. By excluding confidentiality breaches from the indemnification clause, the changed text contradicts the intention and protection seemingly afforded by Section 2, creating uncertainty about liability and enforceability regarding confidential information, directly causing an inconsistency."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Neither party shall make or permit others to make any reference to the subject matter of the Agreement, or the Information or use the name of the other party in any public announcements, promotional, marketing or sales materials or efforts without the prior written consent of the other party and such consent shall not be unreasonably withheld or delayed.",
+        "changed_text": "Neither party shall make or permit others to make any reference to the subject matter of the Agreement, or the Information or use the name of the other party in any public announcements, promotional, marketing or sales materials or efforts without the prior written consent of the other party and such consent can be unreasonably withheld or delayed.",
+        "explanation": "The modified text changes the condition regarding the consent of using each other's information. Originally, consent could not be unreasonably withheld or delayed. Now, consent can be unreasonably withheld or delayed. This creates a contradiction regarding whether consent can be arbitrarily denied, affecting marketing efforts, and potentially violating the spirit of collaboration implied in the background of the agreement. This contradicts section 1, regarding the purpose of the agreement: furthering possible business relations.",
+        "location": "10",
+        "contradicted_location": "1",
+        "contradicted_text": "Each party may disclose to the other party confidential and/or proprietary information (hereinafter “the Information”) including but not limited to trade secrets, business practices and customer information. It is understood and agreed that these disclosures are made for the exclusive purpose of furthering the receiving party’s information about a possible business relationship concerning the AddiFlex® project (hereinafter “the Project”)",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the condition regarding consent for using the other party's information. The original text stated that consent could not be unreasonably withheld or delayed. The changed text now states that consent can be unreasonably withheld or delayed. This directly contradicts the purpose of the agreement as stated in the contradicted text, which is to further the receiving party's information about a possible business relationship. Allowing consent to be unreasonably withheld undermines the spirit of collaboration and information sharing necessary for exploring a business relationship, creating a direct conflict between the modified clause and the contradicted section. This aligns with the definition of inconsistencies leading to in-text contradiction, where different sections of a contract provide conflicting obligations."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This document states the entire Agreement between the parties with respect to its subject matter and supersedes all prior agreements and representations of the parties, oral or written, and may only be amended in writing when signed by duly authorised representatives of both parties.",
+        "changed_text": "This document states the entire Agreement between the parties with respect to its subject matter and supersedes all prior agreements and representations of the parties, oral or written, and may only be amended verbally if both parties agree.",
+        "explanation": "The change contradicts the formal amendment process. Originally, amendments required written form signed by authorized representatives. Now, verbal agreements are allowed. This creates in-text contradiction regarding how the agreement can be modified, leading to enforceability issues and disputes about what terms are actually in effect. It directly goes against the written requirement for amendment. Also, the change contradicts section 12, which states that the obligations of the agreement will remain in force for a period of ten years.",
+        "location": "11",
+        "contradicted_location": "12",
+        "contradicted_text": "This agreement cover all Information exchanged between the parties relating to the Project, including any Information that may have been disclosed prior to signing of the agreement. The agreement and the obligation of confidentiality shall remain in force for a period of ten (10) years after the date of the last disclosure of Information,",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the amendment process, allowing verbal agreements, while the original text required written amendments signed by authorized representatives. This directly contradicts the contradicted text, which states that the agreement and obligations remain in force for ten years, implying that changes to the agreement (which now can be verbal) would impact the original ten-year duration. The change introduces inconsistency in how the agreement can be modified, creating uncertainty and enforceability issues. This aligns with the 'Inconsistencies - In Text Contradiction' definition."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Any dispute in relation to this Agreement shall be resolved by the common court of the country of the first defendant, i.e. if suit is first brought by Add-X Biotech the dispute including all counterclaims shall be resolved by ………………. courts applying ……………. law and if suit is first brought by ………………………. the dispute including all counterclaims shall be resolved by Canadian courts applying Canadian law.",
+        "changed_text": "Any dispute in relation to this Agreement shall be resolved through binding arbitration in Toronto, Canada, applying Canadian law, regardless of where the suit is first brought.",
+        "explanation": "The modified text fundamentally changes the dispute resolution mechanism. The original clause specifies court jurisdiction based on the location of the first suit filed (either Swedish or Canadian courts). The modified clause mandates binding arbitration in Canada, regardless of where the suit is initially filed. This creates an in-text contradiction about where and how disputes will be resolved, invalidating the original choice of law and jurisdiction based on the location of the first suit filed. This impacts the entirety of the section 13 because the location of the first suit filed will be irreverent due to the insertion.",
+        "location": "13",
+        "contradicted_location": "13",
+        "contradicted_text": "Any dispute in relation to this Agreement shall be resolved through binding arbitration in Toronto, Canada, applying Canadian law, regardless of where the suit is first brought.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies dispute resolution based on the location where the suit is first brought, directing parties to either Swedish or Canadian courts. The changed text mandates binding arbitration in Toronto, Canada, regardless of where the suit is filed. This directly contradicts the original clause about choice of law and jurisdiction, which is based on the location of the initial lawsuit. The contradicted text highlights the impact of this change, nullifying the significance of where the suit is initially filed, thus creating an in-text contradiction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Non-Disclosure-Agreement_6.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "All materials transmitted from one party to the other and containing proprietary information shall remain the property of the transferor and shall be returned upon request, and receipt of such materials agrees not to reproduce sa id materials without written consent of the transferor of the materials.",
+        "changed_text": "All materials transmitted from one party to the other and containing proprietary information shall remain the property of the transferor. However, the recipient is granted a perpetual, irrevocable license to use and modify such materials for internal research and development purposes. These materials shall be returned upon request, and receipt of such materials agrees not to reproduce sa id materials without written consent of the transferor of the materials.",
+        "explanation": "The perturbation in Section 3 introduces a contradiction regarding the ownership and permitted use of proprietary materials. While the original clause clearly states that all transmitted materials remain the property of the transferor and must be returned upon request, the added sentence grants the recipient a perpetual, irrevocable license to use and modify these materials for internal R&D. This contradicts the ownership claim and the return obligation, especially since the use/modification may make return impossible. It also contradicts the second portion of the original clause stating the receipient can't reproduce said materials without written consent. This clause is granting them the right to modify the material. The introduction of the license undermines the transferor's rights and creates ambiguity about the scope of restrictions on the recipient's use of the materials.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "All materials transmitted from one party to the other and containing proprietary information shall remain the property of the transferor. However, the recipient is granted a perpetual, irrevocable license to use and modify such materials for internal research and development purposes. These materials shall be returned upon request, and receipt of such materials agrees not to reproduce sa id materials without written consent of the transferor of the materials.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a perpetual, irrevocable license to use and modify proprietary materials, directly contradicting the original provision that such materials remain the property of the transferor, must be returned upon request, and cannot be reproduced without written consent. The contradicted text is the changed text itself, which means the change created a contradiction in the clause. The explanation specifies that this license undermines the transferor's rights and creates ambiguity about restrictions on the recipient's use of the materials."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Nothing herein shall be construed as granting one party a license under any patents, copyrights, or trademarks owned or controlled by the other party.",
+        "changed_text": "Nothing herein shall be construed as granting one party a license under any patents, copyrights, or trademarks owned or controlled by the other party, unless explicit written consent is provided by legal counsel for the owning party. Verbal agreements for usage of such licenses will be considered valid.",
+        "explanation": "This creates an in-text contradiction. The original clause in Section 4 states nothing grants a license. The new clause states verbal agreements for usage licenses will be considered valid. This is an in-text contradiction because the contract went from no licenses, to possibly providing licenses via verbal agreements.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "Nothing herein shall be construed as granting one party a license under any patents, copyrights, or trademarks owned or controlled by the other party, unless explicit written consent is provided by legal counsel for the owning party. Verbal agreements for usage of such licenses will be considered valid.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that nothing in the contract grants a license under patents, copyrights, or trademarks. The changed text then adds an exception where verbal agreements *will* be considered valid for such licenses. This directly contradicts the original statement of 'nothing herein' granting a license, creating an in-text contradiction. The contradicted text is identical to the changed text, meaning the contradiction exists within the changed text itself as the clauses are mutually exclusive."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The parties agree to inform all personnel receiving the proprietary information of the terms of this agreement.",
+        "changed_text": "The parties agree to inform all personnel receiving the proprietary information of the terms of this agreement. However, this requirement extends only to managerial staff directly responsible for handling the information.",
+        "explanation": "The added sentence in Section 5 limits the scope of personnel who need to be informed of the agreement's terms, contradicting the original clause that requires informing *all* personnel. By restricting the information requirement to managerial staff, it creates an in-text contradiction within the section. This could lead to disputes regarding the handling of confidential information by non-managerial staff who are unaware of the agreement's restrictions.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "The parties agree to inform all personnel receiving the proprietary information of the terms of this agreement. However, this requirement extends only to managerial staff directly responsible for handling the information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds a condition that 'this requirement extends only to managerial staff directly responsible for handling the information,' which directly contradicts the original text's statement and the Contradicted Text that 'the parties agree to inform all personnel receiving the proprietary information of the terms of this agreement.' The change limits the scope, creating an inconsistency regarding who needs to be informed. This aligns with the definition of 'Inconsistencies - In Text Contradiction' where different sections provide conflicting obligations."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Mutual Non -Disclosure Agreement THIS AGREEMENT, made and entered into as of the last date written below, by and between ____________________________________________ and Carter Logistics, LLC. WHEREAS, it may be necessary for the transmission of information proprietary to one of the parties to the other party during cooperation between parties; and WHEREAS, the parties desire to protect said transmitted proprietary inform ation while ensuring the free flow of information between the parties necessary for said cooperative effort: NOW, THEREFORE, it is mutually agreed as follows:",
+        "changed_text": "Mutual Non -Disclosure Agreement THIS AGREEMENT, made and entered into as of the last date written below, by and between ____________________________________________ and Carter Logistics, LLC. WHEREAS, it may be necessary for the transmission of information proprietary to one of the parties to the other party during cooperation between parties; and WHEREAS, the parties desire to protect said transmitted proprietary inform ation; and WHEREAS, it is understood that the free flow of information between the parties is secondary to the protection of said proprietary information. NOW, THEREFORE, it is mutually agreed as follows:",
+        "explanation": "The modified text in the introductory paragraph creates a direct contradiction. The original agreement emphasizes both the protection of proprietary information AND the free flow of information necessary for cooperative effort. The modified text explicitly states that the free flow of information is *secondary* to the protection of proprietary information. This creates an in-text contradiction regarding the balance between these two goals. All following sections will then be interpreted by this contradiction.",
+        "location": "Introductory Paragraph",
+        "contradicted_location": "Introductory Paragraph",
+        "contradicted_text": "Mutual Non -Disclosure Agreement THIS AGREEMENT, made and entered into as of the last date written below, by and between ____________________________________________ and Carter Logistics, LLC. WHEREAS, it may be necessary for the transmission of information proprietary to one of the parties to the other party during cooperation between parties; and WHEREAS, the parties desire to protect said transmitted proprietary inform ation; and WHEREAS, it is understood that the free flow of information between the parties is secondary to the protection of said proprietary information. NOW, THEREFORE, it is mutually agreed as follows:",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the original emphasis on both the protection of proprietary information AND the free flow of information to prioritize solely the protection of proprietary information. The contradicted text is identical to the changed text, and therefore a contradiction exists because the original contract's balance has been altered to favor one aspect (protection of information) over the other (free flow), creating an in-text contradiction according to the explanation provided."
+      }
+    ]
+  }
+]

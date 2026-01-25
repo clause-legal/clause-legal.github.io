@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "IbioInc_20200313_8-K_EX-10.1_12052678_EX-10.1_Development Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "1.5 Any milestones or completion dates set forth in a Statement of Work will be estimates only, and are not binding on the Parties.",
+        "changed_text": "1.5 Any milestones or completion dates set forth in a Statement of Work will be considered firm deadlines, and the parties are obligated to meet them.",
+        "explanation": "This change introduces a contradiction regarding the binding nature of milestones in the Statement of Work (SOW). Originally, they were non-binding estimates. Now, they are defined as firm deadlines. This is a contradiction because it changes the legal enforceability of these milestones within the contract. This introduces an in-text contradiction with section 8.2, where failure to achieve desired results under a Statement of Work DOES NOT constitute breach of contract.",
+        "location": "1.5",
+        "contradicted_location": "8.2",
+        "contradicted_text": "EACH PARTY ALSO SPECIFICALLY DISCLAIMS ANY GUARANTEE THAT IT WILL BE ABLE TO SUCCESSFULLY ACHIEVE THE DESIRED RESULTS REGARDING THE WORK UNDER ANY STATEMENT OF WORK, OR THAT ANY PROTOTYPE(S) WHICH MAY BE DEVELOPED PURSUANT TO THIS AGREEMENT WILL MEET ANY DEVELOPMENT OBJECTIVES, OR ANY REQUIREMENTS OF EITHER PARTY. THE FOREGOING NOTWITHSTANDING, EACH PARTY WILL MAKE REASONABLE GOOD FAITH EFFORTS TO COMPLETE THE ACTIVITIES DESCRIBED IN THE STATEMENTS OF WORK. FAILURE TO ACHIEVE THE DESIRED RESULTS UNDER A STATEMENT OF WORK DOES NOT CONSTITUTE BREACH OF CONTRACT.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text transforms milestones from non-binding estimates to firm deadlines, directly contradicting the original text. This introduces a clear conflict with the 'Contradicted Text,' which explicitly states that 'FAILURE TO ACHIEVE THE DESIRED RESULTS UNDER A STATEMENT OF WORK DOES NOT CONSTITUTE BREACH OF CONTRACT.' If milestones are now firm deadlines, failure to meet them could potentially be interpreted as a breach, thereby creating an in-text contradiction. This aligns with the 'Ambiguities – In Text Contradiction' definition, as key obligations are defined inconsistently, making enforcement unclear."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "9.8 Assignment. Neither Party may assign its rights or delegate any of its duties under this Agreement without the prior written consent of the other Party. Any unauthorized assignment of this Agreement is void.",
+        "changed_text": "9.8 Assignment. Either Party may assign its rights or delegate any of its duties under this Agreement to an affiliate without the prior written consent of the other Party. Any unauthorized assignment of this Agreement is void.",
+        "explanation": "This change introduces an ambiguity regarding assignment rights. It now allows assignment to an affiliate, which is not defined in the contract, without consent, contradicting the earlier statement requiring consent for any assignment. This creates an in-text contradiction with 9.8 itself, it introduces an exception that undermines the entire clause.",
+        "location": "9.8",
+        "contradicted_location": "9.8",
+        "contradicted_text": "Assignment. Either Party may assign its rights or delegate any of its duties under this Agreement to an affiliate without the prior written consent of the other Party. Any unauthorized assignment of this Agreement is void.",
+        "contradiction_exists": "YES",
+        "justification": "The original clause 9.8 requires consent for any assignment. The changed text introduces an exception by allowing assignment to an affiliate without prior consent. This directly contradicts the initial statement in 9.8 itself that any assignment requires consent, creating an in-text contradiction. The 'Perturbation Explanation' correctly identifies that the exception 'undermines the entire clause' and the provided definition of Ambiguities - In Text Contradiction applies here, and creates an in-text contradiction."
+      }
+    ]
+  }
+]

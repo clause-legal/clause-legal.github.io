@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "Example-One-Way-Non-Disclosure-Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Discloser intends to disclose information (the Confidential Information) to the Recipient for the purpose of [insert details e.g. discussing the possibility of the Recipient and the Discloser entering into a joint venture] (the Purpose).",
+        "changed_text": "The Discloser intends to disclose information (the Secret Information) to the Recipient for the purpose of [insert details e.g. discussing the possibility of the Recipient and the Discloser entering into a joint venture] (the Objective).",
+        "explanation": "Changing 'Confidential Information' to 'Secret Information' and 'Purpose' to 'Objective' introduces ambiguity. The contract later refers to 'Confidential Information' and 'Purpose' without clarifying if they are interchangeable with 'Secret Information' and 'Objective,' creating potential disputes regarding which information and intent the agreement covers. It directly contradicts with the clauses that refers to 'Confidential Information' and 'Purpose'",
+        "location": "1",
+        "contradicted_location": "2",
+        "contradicted_text": "The Recipient undertakes not to use the Confidential Information for any purpose except the Purpose, without first obtaining the written agreement of the Discloser.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Confidential Information' to 'Secret Information' and 'Purpose' to 'Objective' introduces misaligned terminology. The contradicted text explicitly refers to 'Confidential Information' and 'Purpose'. Because the changed text uses different terminology, without clarifying that 'Secret Information' is interchangeable with 'Confidential Information', or that 'Objective' is interchangable with 'Purpose' creates a direct contradiction and ambiguity, which falls under the definition of 'Misaligned Terminology - In Text Contradiction' provided. Therefore, a reasonable reader would immediately recognize the sections as incompatible."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Recipient undertakes not to use the Confidential Information for any purpose except the Purpose, without first obtaining the written agreement of the Discloser.",
+        "changed_text": "The Receiver undertakes not to use the Secret Information for any aim other than the Objective, without first obtaining consent from the Discloser.",
+        "explanation": "Changing 'Recipient' to 'Receiver,' 'Confidential Information' to 'Secret Information,' 'purpose' to 'aim,' 'Purpose' to 'Objective,' and 'written agreement' to 'consent' introduces inconsistency. It is unclear if 'Recipient' and 'Receiver' refer to the same party, if 'Confidential Information' and 'Secret Information' are the same data, and if 'Purpose' and 'Objective' are the same intent. Also it contradicts clause 6, where the text refers to 'Recipient'.",
+        "location": "2",
+        "contradicted_location": "6",
+        "contradicted_text": "The Recipient will, on request from the Discloser, return all copies and records of the Confidential Information to the Discloser and will not retain any copies or records of the Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The change introduces misaligned terminology. The original text and the contradicted text both use the terms 'Recipient' and 'Confidential Information.' The changed text replaces these terms with 'Receiver' and 'Secret Information' respectively. This misalignment creates a contradiction because it is unclear whether 'Recipient' and 'Receiver' refer to the same party or if 'Confidential Information' and 'Secret Information' are the same data. This directly contradicts the contradicted text, which assumes a consistent definition of 'Recipient' and 'Confidential Information'. This aligns with the definition of 'Misaligned Terminology - In Text Contradiction'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Recipient undertakes to keep the Confidential Information secure and not to disclose it to any third party [except to its employees [and professional advi sers] who need to know the same for the Purpose, who know they owe a duty of confidence to the Discloser and who are bound by obligations equivalent to those in clause 2 above and this clause 3.",
+        "changed_text": "The Receiver agrees to maintain the Proprietary Data protected and shall not share it with outside entities, with the exception of workers and consultants with clearance who require access for the Project, are aware of their duty of confidentiality to the Discloser, and are subject to commitments comparable to those in section 2 and this section 3.",
+        "explanation": "Changing 'Recipient' to 'Receiver,' 'Confidential Information' to 'Proprietary Data,' 'third party' to 'outside entities,' 'employees' to 'workers,' 'professional advisers' to 'consultants with clearance,' and 'Purpose' to 'Project' creates confusion. It's uncertain if 'Receiver' is the same as 'Recipient,' if 'Proprietary Data' includes all 'Confidential Information,' or if 'Project' aligns with the 'Purpose,' potentially leading to breaches due to differing interpretations. Also clause 6 reffers to 'Recipient' creating a contradiction.",
+        "location": "3",
+        "contradicted_location": "6",
+        "contradicted_text": "The Recipient will, on request from the Discloser, return all copies and records of the Confidential Information to the Discloser and will not retain any copies or records of the Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Recipient' to 'Receiver' and 'Confidential Information' to 'Proprietary Data' creates a contradiction with the 'Contradicted Text' because the latter explicitly refers to 'Recipient' and 'Confidential Information'. The original text and contradicted text share the same terms, but the changed text and contradicted text do not, causing a strong contradiction. It's unclear if obligations regarding 'Confidential Information' apply to 'Proprietary Data' since the terms are used interchangeably without definition."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The undertakings in clauses 2 and 3 above apply to all of the information disclosed by the Discloser to the Recipient, regardless of the way or form in which it is disclosed or recorded but they do not apply to: a) any information which is or in future comes into the public domain (unless as a result of the breach of this Agreement); or b) any information which is already known to the Recipient and which was not subject to any obligation of confidence before it was disclosed to the Recipient by the Discloser.",
+        "changed_text": "The obligations in sections 2 and 3 above pertain to all data revealed by the Discloser to the Receiver, irrespective of its disclosure method or recording format, except for: a) data that is or becomes publicly available (unless due to a violation of this understanding); or b) data already known to the Receiver and not under any confidentiality requirement before its disclosure by the Discloser to the Receiver.",
+        "explanation": "Changing 'undertakings' to 'obligations,' 'clauses' to 'sections,' 'information' to 'data,' 'Recipient' to 'Receiver,' 'Agreement' to 'understanding,' and 'obligation of confidence' to 'confidentiality requirement' introduces inconsistencies. This raises questions about whether 'obligations' are as legally binding as 'undertakings,' if 'sections' and 'clauses' refer to the same parts of the document, if all 'information' is 'data', if 'Receiver' and 'Recipient' are the same party and what happens with the definition of 'Agreement'. This also contradicts with Clause 7 where the text reffers to 'Agreement'.",
+        "location": "4",
+        "contradicted_location": "7",
+        "contradicted_text": "Neither this Agreement nor the supply of any information grants the Recipient any licence, interest or right in respect of any intellectual property rights of the Discloser except the ri ght to copy the Confidential Information solely for the Purpose.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces multiple changes in terminology ('undertakings' to 'obligations', 'clauses' to 'sections', 'information' to 'data', 'Recipient' to 'Receiver', 'Agreement' to 'understanding', and 'obligation of confidence' to 'confidentiality requirement'). While some of these changes might seem minor on their own, their cumulative effect creates ambiguity about the scope and enforceability of the agreement. Specifically, the contradicted text refers to 'this Agreement'. If 'Agreement' has been changed to 'understanding', it creates doubt as to whether Clause 7 still applies to the changed agreement. If 'Agreement' and 'understanding' are not precisely equivalent in legal meaning, this creates a direct contradiction with the contradicted text. This aligns with the 'Misaligned Terminology - In Text Contradiction' definition, as these changes introduce conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Nothing in this Agreement will prevent the Reci pient from making any disclosure of the Confidential Information required by law or by any competent authority.",
+        "changed_text": "This Understanding shall not preclude the Receiver from disclosing the Secret Information if mandated by statute or regulatory bodies.",
+        "explanation": "Switching 'Agreement' to 'Understanding,' 'Recipient' to 'Receiver,' and 'Confidential Information' to 'Secret Information' creates uncertainty about the scope and enforceability of the NDA. 'Understanding' is less formal than 'Agreement,' and it's unclear if the new terms still align with the document's intent. This contradicts with Clause 9 where the text reffers to 'Agreement'.",
+        "location": "5",
+        "contradicted_location": "9",
+        "contradicted_text": "This Agreement is governed by, and is to be c onstrued in accordance with, English law. The English Courts will have non- exclusive jurisdiction to deal with any dispute which has arisen or may arise out of, or in connection with, this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The change replaces 'Agreement' with 'Understanding,' 'Recipient' with 'Receiver,' and 'Confidential Information' with 'Secret Information.' The contradicted text refers specifically to 'This Agreement.' Because of the changed text the Agreement is now called an Understanding in at least one place, which makes it unclear as to whether Clause 9 (referring to 'This Agreement') is in reference to the 'Understanding'. The replaced terms also introduce new, undefined terms (Receiver and Secret Information) that may or may not correspond to the original terms in the contradicted text, creating a Misaligned Terminology - In Text Contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Neither this Agreement nor the supply of any information grants the Recipient any licence, interest or right in respect of any intellectual property rights of the Discloser except the ri ght to copy the Confidential Information solely for the Purpose.",
+        "changed_text": "Neither this Understanding nor providing data gives the Receiver any license, stake, or entitlement regarding the Discloser's intellectual assets, save for replicating Private Data strictly for the Aim.",
+        "explanation": "Changing 'Agreement' to 'Understanding,' 'information' to 'data,' 'Recipient' to 'Receiver,' 'interest or right' to 'stake or entitlement,' 'intellectual property rights' to 'intellectual assets,' 'Confidential Information' to 'Private Data,' and 'Purpose' to 'Aim' introduces ambiguity and possible contradiction. It's uncertain if the rights apply to all 'data' as 'information', if 'stake or entitlement' has the same legal standing as 'interest or right', and if 'Aim' is the same as the intended 'Purpose.' This contradicts with Clause 5, which reffers to 'Agreement'.",
+        "location": "7",
+        "contradicted_location": "5",
+        "contradicted_text": "Nothing in this Agreement will prevent the Reci pient from making any disclosure of the Confidential Information required by law or by any competent authority.",
+        "contradiction_exists": "YES",
+        "justification": "The change introduces ambiguity by altering key terms ('Agreement' to 'Understanding', 'Recipient' to 'Receiver', etc.). Clause 5 specifically refers to 'this Agreement'. If the modified text redefines 'Agreement' to 'Understanding' in the section that grants certain rights, it creates a contradiction. It's unclear whether Clause 5, which refers specifically to 'Agreement,' still applies to the 'Understanding' now defined in the modified text. This misalignment directly contradicts the referenced clause, making it uncertain if the original terms are enforceable and causing potential issues of alignment. This fits the definition of Misaligned Terminology that leads to in-text contradictions."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "FuseMedicalInc_20190321_10-K_EX-10.43_11575454_EX-10.43_Distributor Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Term: the term of this agreement, as determined in accordance with clause 11.",
+        "changed_text": "Term: the term of this agreement shall be perpetual, and shall only be terminated upon the mutual written agreement of both parties.",
+        "explanation": "This change introduces a contradiction regarding the Term of the agreement. Originally, the 'Term' is 'determined in accordance with clause 11', which allows for termination under specific conditions and notice periods. The new definition, however, states that the 'Term' is perpetual and only terminable by mutual agreement. This is a contradiction because clause 11 outlines specific, unilateral termination rights which are now in conflict with the 'perpetual' nature of the contract. This creates an in-text contradiction.",
+        "location": "1.1",
+        "contradicted_location": "11.1",
+        "contradicted_text": "This agreement begins on the Commencement Date and, subject to clause 11.2, shall continue for an initial term of one (1) years (Initial Term) and indefinitely after that until terminated by either party giving at least twelve (12) months' prior written notice to expire on or after the expiry date of the initial term.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text defines the agreement's term as 'perpetual' and terminable only by mutual written agreement. This directly contradicts the 'Contradicted Text', which states the agreement continues for an initial term of one year and indefinitely after that until terminated by either party with twelve months' notice. The original text was following Clause 11, as stated in the first clause 'Term: the term of this agreement, as determined in accordance with clause 11' and now the Changed Text creates an In-Text Contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Territory: means the territory specified in Schedule 2.",
+        "changed_text": "Territory: means the territory specified in Schedule 2, unless otherwise agreed to in writing by the Distributor.",
+        "explanation": "The original text defines 'Territory' definitively as that specified in Schedule 2. The modified definition introduces an exception, allowing the Territory to be altered if the Distributor agrees in writing. This contradicts the certainty of Schedule 2, creating an in-text contradiction. Specifically, this creates uncertainty in section 2.1.",
+        "location": "1.1",
+        "contradicted_location": "2.1",
+        "contradicted_text": "The Supplier appoints the Distributor as its non-exclusive distributor to distribute the Products in the Territory on the terms of this agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines 'Territory' definitively by Schedule 2, while the changed text allows the 'Territory' to be altered with the Distributor's agreement. This directly contradicts the provision in the contradicted text which appoints the Distributor as a distributor 'in the Territory' as initially defined. The change introduces ambiguity as to what 'Territory' actually means at any given time, which creates a strong contradiction that would cause confusion, unenforceability, or a legal issue within the document, and adheres to the 'Ambiguities - In Text Contradiction' definition. If the territory can be changed, the Distributor's rights and responsibilities become unclear. The original text creates the expectation of a fixed territory, whereas the changed text permits the territory to be changeable."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Prices and payment 5.1 The prices to be paid by the Distributor to the Supplier for the Products are to be the Price, as set out in Schedule 4.",
+        "changed_text": "Prices and payment 5.1 The prices to be paid by the Distributor to the Supplier for the Products may be adjusted by the supplier at any time, notwithstanding the prices set out in Schedule 4.",
+        "explanation": "This changes the price definition. Originally, the prices are 'as set out in Schedule 4'. Now, the prices 'may be adjusted by the supplier at any time, notwithstanding the prices set out in Schedule 4'. This introduces a contradiction, because it nullifies the previously fixed pricing of 'Schedule 4', thus, creating uncertainty for the agreement, as schedule 4 is part of the agreement, reffered in 1.4 'The Schedules form part of this agreement and shall have effect as if set out in full in the body of this agreement.'.",
+        "location": "5.1",
+        "contradicted_location": "1.4",
+        "contradicted_text": "The Schedules form part of this agreement and shall have effect as if set out in full in the body of this agreement. Any reference to this agreement includes the Schedules.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a clear contradiction. The original text states that prices are 'as set out in Schedule 4'. The changed text allows the supplier to adjust prices at any time, 'notwithstanding the prices set out in Schedule 4'. This directly contradicts the contradicted text, which states that 'The Schedules form part of this agreement and shall have effect as if set out in full in the body of this agreement'. The ability to adjust prices irrespective of Schedule 4 nullifies the schedule's fixed pricing, creating an inconsistency that makes the agreement unclear and unenforceable because schedule 4 is part of the agreement, which creates an in-text contradiction as defined by the provided definition."
+      }
+    ]
+  }
+]

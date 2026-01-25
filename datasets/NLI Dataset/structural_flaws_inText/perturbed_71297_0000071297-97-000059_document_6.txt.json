@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "71297_0000071297-97-000059_document_6.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "GSEnergy agrees to maintain all Information in secrecy and confidence for a period of seven (7) years from the date of disclosure thereof, using the same degree of care as is used to protect its own Information. In no event will this degree of care be less than a reasonable degree of care.",
+        "changed_text": "GSEnergy agrees to maintain all Information in secrecy and confidence for a period of one (1) year from the date of disclosure thereof, using the same degree of care as is used to protect its own Information. In the event this degree of care falls below a reasonable degree of care, no legal action can be taken.",
+        "explanation": "The original agreement specified a seven-year confidentiality period and mandated a reasonable standard of care. By reducing the confidentiality period to one year, and adding the phrase \"In the event this degree of care falls below a reasonable degree of care, no legal action can be taken\", the modified version weakens the protection of confidential information, undermining the original intention and introducing an in-text contradiction. This is because the agreement initially states that information must be protected and the newly introduced text nullifies that clause.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "GSEnergy agrees to maintain all Information in secrecy and confidence for a period of one (1) year from the date of disclosure thereof, using the same degree of care as is used to protect its own Information. In the event this degree of care falls below a reasonable degree of care, no legal action can be taken.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text reduces the confidentiality period from seven years to one year and adds a clause stating that no legal action can be taken if the degree of care falls below a reasonable standard. The contradicted text (which is identical to the changed text in this case, but this doesn't negate the presence of a contradiction introduced by the change itself) now includes this limitation on legal action. This creates a direct contradiction because the agreement initially mandates a certain level of protection for confidential information, but the new clause effectively nullifies that obligation by preventing legal recourse if that standard isn't met. This qualifies as a strong in-text contradiction under the 'Structural Flaws - In Text Contradiction' definition because a clause is placed such that it conflicts with its original intent and implication."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "If GSEnergy desires to use individuals not employed by GSEnergy, GSEnergy shall not disclose Information to these individuals without obtaining prior written approval from the Company and having appropriate non-disclosure agreements signed in form and substance satisfactory to the Company.",
+        "changed_text": "If GSEnergy desires to use individuals not employed by GSEnergy, GSEnergy may disclose Information to these individuals without obtaining prior written approval from the Company but must still ensure that non-disclosure agreements are signed in form and substance satisfactory to GSEnergy.",
+        "explanation": "Originally, GSEnergy could only disclose information to non-employees with the Company's prior written approval. The changed text allows GSEnergy to disclose information without the Company's approval but requires the non-disclosure agreement to be satisfactory to GSEnergy itself, instead of the company. This contradicts the intention of protecting the Company's information. The contradiction is within the section, since it allows for disclosure that would have been prohibited before, which contradicts the purpose of requiring an NDA, since the company no longer has to agree with the NDA, the NDA could be invalid and the party could not protect the information.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "If GSEnergy desires to use individuals not employed by GSEnergy, GSEnergy may disclose Information to these individuals without obtaining prior written approval from the Company but must still ensure that non-disclosure agreements are signed in form and substance satisfactory to GSEnergy.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires GSEnergy to obtain prior written approval from the Company before disclosing information to non-employees, ensuring the Company has control over who receives the information. The changed text removes this requirement, allowing GSEnergy to disclose information without the Company's approval and requiring the non-disclosure agreement to be satisfactory to GSEnergy itself. The explanation states that this contradicts the intention of protecting the Company's information because the company no longer has to agree with the NDA and the NDA could be invalid. Since the change allows GSEnergy to disclose information without the company's approval and GSEnergy is now in charge of the NDA, which could be weak, it introduces a clear conflict and contradiction by changing who is in control of the disclosure of information which protects the company."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "It will not constitute a violation of this Agreement for GSEnergy to disclose Information as required by a governmental body or a court of competent jurisdiction or as otherwise required by law, provided that the Company has been given notice of such requirement and been afforded a reasonable opportunity to contest it, if applicable.",
+        "changed_text": "It will not constitute a violation of this Agreement for GSEnergy to disclose Information as required by a governmental body or a court of competent jurisdiction or as otherwise required by law, regardless of whether the Company has been given notice of such requirement or been afforded a reasonable opportunity to contest it.",
+        "explanation": "The original clause provided a safeguard for the Company by requiring notification and an opportunity to contest disclosure required by law. The changed text removes this safeguard, allowing GSEnergy to disclose information without notifying the Company, which contradicts the initial intent of protecting the Company's confidential information and creates an in-text contradiction. The phrase \"regardless of whether the Company has been given notice of such requirement or been afforded a reasonable opportunity to contest it\", is the one that is making the in-text contradiction.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "It will not constitute a violation of this Agreement for GSEnergy to disclose Information as required by a governmental body or a court of competent jurisdiction or as otherwise required by law, regardless of whether the Company has been given notice of such requirement or been afforded a reasonable opportunity to contest it, if applicable.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the requirement for GSEnergy to notify the Company and provide an opportunity to contest information disclosure, regardless of legal requirements. This directly contradicts the original clause's intent to protect the Company's information. Because the Contradicted Text is identical to the Changed Text, they contradict the original text. Therefore, there is an in-text contradiction, which aligns with the Structural Flaws definition provided where the change is made in a location that is made in 'multiple locations with conflicting implications'."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "If any provision of this Agreement is or becomes or is deemed invalid, illegal or unenforceable in any jurisdiction, such provision shall be deemed amended to conform to applicable laws so as to be valid and enforceable or, if it cannot be so amended without materially altering the intention of the parties, it shall be stricken, and the remainder of this Agreement shall remain in full force and effect.",
+        "changed_text": "If any provision of this Agreement is or becomes or is deemed invalid, illegal or unenforceable in any jurisdiction, such provision shall automatically terminate the entire agreement, regardless of the intention of the parties.",
+        "explanation": "The original clause provided a severability provision, allowing the rest of the agreement to remain in effect even if one provision was deemed invalid. The modified text states that if any provision is invalid, the entire agreement is terminated. This creates an in-text contradiction with the original intent of preserving the agreement as much as possible. With the insertion, the contract has to be voided if there's an issue, which contradicts the objective.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "If any provision of this Agreement is or becomes or is deemed invalid, illegal or unenforceable in any jurisdiction, such provision shall automatically terminate the entire agreement, regardless of the intention of the parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text had a severability clause, which meant that if one part of the agreement was invalid, the rest of the agreement would still be in effect. The changed text eliminates this clause, stating that if any provision is invalid, the entire agreement is terminated. This creates a direct contradiction because the contradicted text is the same as the Changed Text, stating that the agreement will automatically terminate if any provision is invalid."
+      }
+    ]
+  }
+]

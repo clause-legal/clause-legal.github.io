@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "Proctor_Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Neither this Agreement nor any right granted hereunder shall be assignable or otherwise transferable by You and that this Agreement may be modified or amended only in writing, signed by both parties;",
+        "changed_text": "This Agreement may be modified at The Open Group's discretion. Rights granted hereunder are subject to change.",
+        "explanation": "By removing the requirement for mutual agreement in writing to modify the contract and stating that changes are at 'The Open Group's discretion' gives The Open Group unilateral power to alter the agreement. This contradicts the original clause that required both parties' signatures for any amendments. 'Rights granted hereunder are subject to change' contradicts the earlier implied stability of the agreement and potentially undermines the recipient's rights.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "This Agreement may be modified at The Open Group's discretion. Rights granted hereunder are subject to change.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that the agreement may be modified at 'The Open Group's discretion', removing the original requirement for mutual agreement in writing signed by both parties. 'Rights granted hereunder are subject to change' introduces uncertainty and contradicts the original implied stability of the agreement. This directly contradicts the contradicted text by giving one party unilateral power to change the agreement."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This Agreement shall be construed in accordance with the laws of England and Wales, without giving effect to any choice of law rule, and",
+        "changed_text": "This Agreement shall be governed by the principles of fairness and good faith.",
+        "explanation": "By removing the reference to 'the laws of England and Wales' and replacing it with 'principles of fairness and good faith', the contract lacks a specific legal jurisdiction. This creates ambiguity about which laws apply and how disputes will be resolved. 'Principles of fairness and good faith' are subjective and may be interpreted differently by each party, contradicting the need for a clear legal framework. Since there is no jurisdiction, the sentence 'without giving effect to any choice of law rule' is being directly contradicted since the jurisdiction is missing. ",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "This Agreement shall be governed by the principles of fairness and good faith.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified that the contract would be construed under the laws of England and Wales. The changed text replaces this with 'principles of fairness and good faith,' removing the specific legal jurisdiction. This omission directly contradicts the need for a clear legal framework, as the contradicted text is the same as the changed text, and thus causes a contradiction. The explanation states this clearly."
+      }
+    ]
+  }
+]

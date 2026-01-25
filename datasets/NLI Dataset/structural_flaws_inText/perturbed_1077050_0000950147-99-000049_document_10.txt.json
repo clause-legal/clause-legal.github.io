@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "1077050_0000950147-99-000049_document_10.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "For a period of 5 years from the date of this Agreement, the receiving party shall not publish, disseminate nor disclose any Proprietary/Confidential Information received from any of the other parties to any third party accept to those of its own employment having valid need to know the information in the course of employment and such disclosure shall be on terms not less restrictive than those herein contained.",
+        "changed_text": "The receiving party shall not publish, disseminate nor disclose any Proprietary/Confidential Information received from any of the other parties to any third party accept to those of its own employment having valid need to know the information in the course of employment and such disclosure shall be on terms not less restrictive than those herein contained.",
+        "explanation": "The change removes the 5-year limitation on non-disclosure in Section 2(i). This directly contradicts Section 11, which states that obligations continue for five years even after termination, creating uncertainty about the actual duration of confidentiality obligations.",
+        "location": "2(i)",
+        "contradicted_location": "11",
+        "contradicted_text": "This Agreement shall govern all matters referred to herein until terminated by either party upon thirty days written notice to the other or in accordance with this Agreement. Upon termination, all information and materials shall be returned to the respective parties. Notwithstanding the termination, each party shall continue to fulfill its obligations hereunder for a period of five (5) years thereafter.",
+        "contradiction_exists": "YES",
+        "justification": "The original text limited the non-disclosure agreement to 5 years. The changed text removes this 5-year limitation. Section 11 states that obligations continue for 5 years after termination of the agreement. Therefore, the changed text creates a contradiction because it removes the time limit on non-disclosure in the confidentiality section, which contradicts section 11, which states obligations continue for five years even after termination, creating uncertainty about the actual duration of confidentiality obligations. This is an omission leading to an in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "All Proprietary/Confidential Information disclosed pursuant to this Agreement shall be and remain the property of the disclosing party. Nothing in this Agreement shall be construed as granting or confirming any rights by license or otherwise expressly impliedly or otherwise, for any of the Proprietary/Confidential Information disclosed by the disclosing party hereunder.",
+        "changed_text": "All Proprietary/Confidential Information disclosed pursuant to this Agreement may, at the disclosing party's sole discretion, become the property of the receiving party. Nothing in this Agreement shall be construed as granting or confirming any rights by license or otherwise expressly impliedly or otherwise, for any of the Proprietary/Confidential Information disclosed by the disclosing party hereunder.",
+        "explanation": "The change in Section 4 now states that Proprietary/Confidential Information 'may' become the property of the receiving party. This contradicts the rest of Section 4, which discusses return of Proprietary/Confidential Information and assumes it always remains the property of the disclosing party. The contradiction creates ambiguity about ownership rights.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "OWNERSHIP All Proprietary/Confidential Information disclosed pursuant to this Agreement may, at the disclosing party's sole discretion, become the property of the receiving party. Nothing in this Agreement shall be construed as granting or confirming any rights by license or otherwise expressly impliedly or otherwise, for any of the Proprietary/Confidential Information disclosed by the disclosing party hereunder. All Proprietary/Confidential Information, existing in written form or recorded in any other tangible medium, shall be returned to the disclosing party upon its request, together with any reproductions or copies thereof. Further, upon the disclosing party's request, notes, memoranda and reports which incorporate the Proprietary/Confidential Information shall, without exception, be destroyed.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that Proprietary/Confidential Information 'may' become the property of the receiving party, while the contradicted text in 'OWNERSHIP' section also states the same thing: \"All Proprietary/Confidential Information disclosed pursuant to this Agreement may, at the disclosing party's sole discretion, become the property of the receiving party\". But the contradicted text continues to require that the information be returned to the disclosing party, which implies that the information always belongs to the disclosing party. This creates a strong contradiction because one part suggests the receiving party may own the information, while another part mandates its return to the disclosing party, implying the disclosing party always owns it. This contradiction fits the definition of 'Structural Flaws - In Text Contradiction' where a clause is placed in multiple locations with conflicting implications."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Each party agrees that necessary authorizations, permits or licenses including expert licenses as may be required will be obtained prior to the exportation/disclosure of any Proprietary/Confidential Information relating to the technology of the other party. The disclosing party shall notify the receiving party of the need to obtain any required authorizations, permits and licenses and/or the need to comply with any relevant laws or regulations relating to the disclosure. The disclosing party shall obtain the required authorizations, permits and licenses.",
+        "changed_text": "Each party agrees that necessary authorizations, permits or licenses including expert licenses as may be required will be obtained prior to the exportation/disclosure of any Proprietary/Confidential Information relating to the technology of the other party. The receiving party shall notify the disclosing party of the need to obtain any required authorizations, permits and licenses and/or the need to comply with any relevant laws or regulations relating to the disclosure. The receiving party shall obtain the required authorizations, permits and licenses.",
+        "explanation": "The change in Section 6 shifts the responsibility of obtaining required authorizations, permits, and licenses from the disclosing party to the receiving party, contradicting the third sentence of the original Section 6. This creates confusion about who is responsible for these actions, creating uncertainty.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "AUTHORIZATION Each party agrees that necessary authorizations, permits or licenses including expert licenses as may be required will be obtained prior to the exportation/disclosure of any Proprietary/Confidential Information relating to the technology of the other party. The receiving party shall notify the disclosing party of the need to obtain any required authorizations, permits and licenses and/or the need to comply with any relevant laws or regulations relating to the disclosure. The receiving party shall obtain the required authorizations, permits and licenses.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text shifts the responsibility of obtaining authorizations, permits, and licenses from the disclosing party to the receiving party. The original text stated that \"The disclosing party shall obtain the required authorizations, permits and licenses,\" while the changed text states that \"The receiving party shall obtain the required authorizations, permits and licenses.\" This direct conflict in assigning responsibility creates a strong in-text contradiction as to who is obligated to fulfill this requirement, making enforcement unclear. The Contradicted text matches the Changed Text, so they both contradict the Original Text, making it a Structural Flaw - In Text Contradiction, as defined."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The aforesaid obligations of the receiving party shall survive the termination of this Agreement.",
+        "changed_text": "The aforesaid obligations of the receiving party may or may not survive the termination of this Agreement, as decided by the disclosing party.",
+        "explanation": "The change in Section 7 makes the survival of obligations after termination discretionary, directly contradicting Section 11, which states obligations continue for five years after termination. This introduces uncertainty about the post-termination duties of the receiving party.",
+        "location": "7",
+        "contradicted_location": "11",
+        "contradicted_text": "This Agreement shall govern all matters referred to herein until terminated by either party upon thirty days written notice to the other or in accordance with this Agreement. Upon termination, all information and materials shall be returned to the respective parties. Notwithstanding the termination, each party shall continue to fulfill its obligations hereunder for a period of five (5) years thereafter.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the obligations of the receiving party survive termination. The changed text makes the survival of these obligations discretionary ('may or may not survive'). This directly contradicts the contradicted text, which states that each party 'shall continue to fulfill its obligations hereunder for a period of five (5) years thereafter.' The change introduces uncertainty and a direct conflict, satisfying the definition of a structural flaw causing an in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement shall be governed by, construed and enforced in accordance with California Law.",
+        "changed_text": "This Agreement shall be governed by, construed and enforced in accordance with California Law, except in cases where the parties mutually agree to be governed by the laws of Delaware.",
+        "explanation": "The added exception in Section 13 allows the parties to choose Delaware law, contradicting the primary statement that California law governs. This creates uncertainty about which state's laws will apply, potentially impacting the interpretation and enforcement of the agreement, and allowing another source of Law to govern the agreement, introducing contradiction. Therefore, in-text cotnradiction is happening.",
+        "location": "13",
+        "contradicted_location": "13",
+        "contradicted_text": "GOVERNING LAW This Agreement shall be governed by, construed and enforced in accordance with California Law, except in cases where the parties mutually agree to be governed by the laws of Delaware. IN WITNESS WHEREOF, the parties have hereunto set their hands the day and year first written above. CREATIVE LABS, INC PACIFIC MAGTRON, INC.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an exception to the governing law (California law), allowing for Delaware law to apply if both parties agree. The contradicted text (which is the same text as the changed text) now contains this contradiction. This directly contradicts the initial statement that the agreement is governed solely by California law, creating uncertainty and a strong in-text contradiction according to the provided explanation and the Structural Flaws - In Text Contradiction definition. The change impacts enforceability and interpretation of the contract."
+      }
+    ]
+  }
+]

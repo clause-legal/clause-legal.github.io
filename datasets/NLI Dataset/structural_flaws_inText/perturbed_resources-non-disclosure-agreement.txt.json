@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "resources-non-disclosure-agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Recipient shall honor any request from the disclosing Party to promptly return or destroy all copies of Confidential Information disclosed under this Agreement and all notes related to such Confidential Information.",
+        "changed_text": "The Recipient is not obligated to return or destroy any copies of Confidential Information, and may retain such information indefinitely, even after the termination of this agreement.",
+        "explanation": "The original requires the recipient to return or destroy confidential information upon request. The changed text removes this obligation, allowing the recipient to keep the information forever. This contradicts the intended protection of confidential data and creates doubt about the recipient's duties. By the information being kept indefinitely it is contracting section 9, which states the agreement will remain in effect for a certain period.",
+        "location": "3",
+        "contradicted_location": "9",
+        "contradicted_text": "This Agreement shall remain in effect for a period of three (3) years from the Effective Date unless otherwise terminated by either Party giving notice to the other of its desire to terminate this Agreement. The requirement to protect Confidential Information disclosed under this Agreement shall survive termination of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the recipient's obligation to return or destroy confidential information, explicitly allowing them to retain it indefinitely. This directly contradicts the contradicted text, which states that the requirement to protect Confidential Information survives the termination of the agreement (which implies that it is not kept indefinitely, otherwise there would be no need for it to 'survive'). Keeping it indefinitely means it is not protected to the standards intended. This introduces a clear and impactful conflict concerning the handling of confidential information after the agreement's active period, and creates uncertainty about the recipient's duties, as highlighted in the perturbation explanation."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Parties agree that the disclosing Party will suffer irreparable injury if its Confidential Information is made public, released to a third party, or otherwise disclosed in breach of this Agreement and that the disclosing Party shall be entitled to obtain injunctive relief against a threatened breach or continuation of any such breach and, in the event of such breach, an award of actual and exemplary damages from any court of competent jurisdiction.",
+        "changed_text": "The Parties agree that in the event of a breach of this Agreement, the disclosing party's sole remedy shall be limited to monetary damages not exceeding $100. Injunctive relief is expressly waived.",
+        "explanation": "The original text allows for injunctive relief and actual/exemplary damages. The change restricts the remedy to a maximum of $100 and waives injunctive relief. This dramatically weakens the protection of confidential information. Contradicting the disclosing partys confidential information should be protected.",
+        "location": "3",
+        "contradicted_location": "WHEREAS",
+        "contradicted_text": "WHEREAS ADS and the Second Party (the “Parties”) have an interest in participating in discussions wherein either Party might share information with the other that the disclosing Party considers to be proprietary and confidential to itself (“Confidential Information”); and WHEREAS the Parties agree that Confidential Information of a Party might include, but not be limited to that Party’s: (1) business plans, methods, and practices; (2) personnel, customers, and suppliers; (3) inventions, processes, methods, products, patent applications, and other proprietary rights; or (4) specifications, drawings, sketches, models, samples, tools, computer programs, technical information, or other related information;",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. The original text allowed for injunctive relief and actual damages for breaches of confidentiality. The changed text limits the remedy to $100 and waives injunctive relief. The contradicted text establishes that the parties have an interest in protecting confidential information. Limiting the remedy to $100 and waiving injunctive relief directly contradicts the intention to protect confidential information, creating a clear in-text contradiction. The modification significantly weakens the protection of confidential information previously agreed upon. This constitutes a structural flaw in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "When informed of the proprietary and confidential nature of Confidential Information that has been disclosed by the other Party, the receiving Party (“Recipient”) shall, for a period of three (3) years from the date of disclosure, refrain from disclosing such Confidential Information to any contractor or other third party without prior, written approval from the disclosing Party and shall protect such Confidential Information from inadvertent disclosure to a third party using the same care and diligence that the Recipient uses to protect its own proprietary and confidential information, but in no case less than reasonable care.",
+        "changed_text": "The Recipient has no obligation to refrain from disclosing Confidential Information to any contractor or other third party, regardless of prior approval from the disclosing Party. The Recipient is only required to use 'good faith' effort to prevent intentional disclosure.",
+        "explanation": "The original mandates a three-year restriction on disclosure to third parties without approval and requires reasonable care. The change removes the restriction and lowers the standard of care to 'good faith effort.' This directly weakens the confidentiality protection. Contradicting the the disclosing party had agreed on.",
+        "location": "2",
+        "contradicted_location": "WHEREAS",
+        "contradicted_text": "WHEREAS ADS and the Second Party (the “Parties”) have an interest in participating in discussions wherein either Party might share information with the other that the disclosing Party considers to be proprietary and confidential to itself (“Confidential Information”); and WHEREAS the Parties agree that Confidential Information of a Party might include, but not be limited to that Party’s: (1) business plans, methods, and practices; (2) personnel, customers, and suppliers; (3) inventions, processes, methods, products, patent applications, and other proprietary rights; or (4) specifications, drawings, sketches, models, samples, tools, computer programs, technical information, or other related information;",
+        "contradiction_exists": "YES",
+        "justification": "The changed text significantly weakens confidentiality protection compared to the original text. Specifically, it eliminates the three-year restriction on disclosing Confidential Information to third parties without prior approval and lowers the standard of care from 'reasonable care' to 'good faith effort.' This directly contradicts the 'WHEREAS' clause in the contradicted text, which states that the Parties agree that Confidential Information of a Party is proprietary and confidential. The changed text undermines this agreement, creating a clear contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Neither Party will, without prior approval of the other Party, make any public announcement of or otherwise disclose the existence or the terms of this Agreement.",
+        "changed_text": "Either Party may disclose the existence and the terms of this Agreement to any third party without prior approval from the other Party. All information regarding this agreement is considered public.",
+        "explanation": "The original text prohibits public disclosure of the agreement without approval. The changed text permits disclosure freely. This undermines the confidentiality of the agreement's terms. By this agreement terms being public it contracts what both parties had agreed initially in the agreement and also the WHEREAS Section.",
+        "location": "7",
+        "contradicted_location": "WHEREAS",
+        "contradicted_text": "WHEREAS ADS and the Second Party (the “Parties”) have an interest in participating in discussions wherein either Party might share information with the other that the disclosing Party considers to be proprietary and confidential to itself (“Confidential Information”); and WHEREAS the Parties agree that Confidential Information of a Party might include, but not be limited to that Party’s: (1) business plans, methods, and practices; (2) personnel, customers, and suppliers; (3) inventions, processes, methods, products, patent applications, and other proprietary rights; or (4) specifications, drawings, sketches, models, samples, tools, computer programs, technical information, or other related information;",
+        "contradiction_exists": "YES",
+        "justification": "The original text prohibits disclosing the agreement without approval, while the changed text permits disclosure freely. This directly contradicts the 'WHEREAS' section, which states that both parties have an interest in participating in discussions where either party might share information with the other that the disclosing Party considers to be proprietary and confidential."
+      }
+    ]
+  }
+]

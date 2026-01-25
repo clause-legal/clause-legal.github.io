@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "confidentiality_agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This non-disclosure agreement (the “Agreement”) is entered into by and between ______________ _____ ____, with company registration number _______ ____________, address at ___________________________ _______ and fax number _____________ ___ hereinafter referred to as “Haldex”, and ____________ __________, with company registration numbe r ___________________ , address at _______ ___________________________ and fax number_______ ______________ hereinafter referred to as the Supplier.",
+        "changed_text": "This non-disclosure agreement (the “Agreement”) is entered into by and between ______________ _____ ____, with company registration number _______ ____________, address at ___________________________ _______ and fax number _____________ ___ hereinafter referred to as “Haldex”, and ____________ __________, with company registration numbe r ___________________ , address at _______ ___________________________ and fax number_______ ______________ hereinafter referred to as the Partner.",
+        "explanation": "Changing 'Supplier' to 'Partner' in the introduction creates ambiguity. Later sections might refer to obligations of the 'Supplier,' and it's now unclear if those apply to the 'Partner.' This could affect enforcement if Haldex tries to hold the 'Partner' accountable under provisions meant for the 'Supplier.'",
+        "location": "Paragraph 1",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "Haldex and Supplier are hereinafter jointly referred to as Parties and individually as Party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines one party as 'Supplier,' while the changed text redefines it as 'Partner.' The contradicted text refers to 'Haldex and Supplier'. By changing 'Supplier' to 'Partner' in the introduction, the contradicted text now has a conflict. It is no longer clear that 'Haldex and Partner' are being referred to jointly as Parties because the document no longer explicitly defines Partner as a potential party."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Haldex and Supplier are hereinafter jointly referred to as Parties and individually as Party.",
+        "changed_text": "Haldex and Partner are hereinafter jointly referred to as Parties and individually as Party.",
+        "explanation": "This change complements the previous perturbation. Since 'Supplier' was changed to 'Partner' in the first paragraph, this change ensures that the new term is used consistently in the joint reference. However, this perpetuates and exacerbates the initial ambiguity, because the rest of the document still contains the term 'Supplier' which can be enforced as a totally seperate entity from 'Partner'.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "The Parties undertake: i) to treat all Confidential Information as absolutely secret, private and confidential; ii) to take all steps necessary to preserve such confidentiality and secrecy; iii) to prevent disclosure of any such Confidential Information to any third party; iv) to use the Confidential Information solely for the purpose set out in Section 1; v) to disclose the Confidential Information only to those of its directors, employees and consultants who need the Confidential Information to conduct tasks in relation to the pur pose set out in Section 1; vi) to ascertain that each person who receives Confidential Information is made aware of and comply with this Agreement; and vii) to immediately upon request deliver to the other Party all Confidential Information that belong to that P arty in any form without retaining any copies thereof, or, at the other Party’s option, certify in writing that all copies of such information have been destroyed.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Supplier' to 'Partner' while the document continues to reference 'Supplier' in the Contradicted Text creates a direct contradiction. The Contradicted Text defines obligations for 'Parties' based on the definition in the Original Text, which includes 'Supplier'. By changing this definition and not updating all instances of 'Supplier' in the document, the Contradicted Text could be interpreted as not applying to the 'Partner', leading to ambiguity about who is bound by the confidentiality obligations, making enforcement unclear and creating a strong in-text contradiction as explained in the perturbation explanation. This aligns with the definition of 'Misaligned Terminology - In Text Contradiction' because the contract uses multiple terms interchangeably without defining them, leading to conflicting obligations, as well."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "For this purpose, the Parties need to exchange Confidential Information.",
+        "changed_text": "For this purpose, the Parties need to exchange Classified Data.",
+        "explanation": "Changing 'Confidential Information' to 'Classified Data' introduces a new term without defining it. This creates confusion about whether 'Classified Data' is the same as or different from 'Confidential Information' as defined later in the agreement. This creates an obligation that is hard to define and enforce, because it is not clearly defined, due to the ambiguous use of the new term.",
+        "location": "Section 1",
+        "contradicted_location": "Section 2.1",
+        "contradicted_text": "2.1 Confidential Information shall mean: i) all technical, financial and business information disclosed by one Party to the other Party or by another Haldex Group entity to the Supplier including, but not limited to, documents, data, information, prototypes or components relating to devices, methods, materials, apparatus, d esigns, research, yields and specifications; and ii) information relating to the existence of this Agreement;",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Confidential Information' with 'Classified Data'. The 'Contradicted Text' provides a definition for 'Confidential Information'. Because 'Classified Data' is a new term that isn't already included, changing it in one section without clarifying its relationship to the defined 'Confidential Information' in another creates ambiguity and therefore a contradiction. This aligns with the 'Misaligned Terminology - In Text Contradiction' definition, because it uses a new term that has not been defined, which causes conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Parties undertake: i) to treat all Confidential Information as absolutely secret, private and confidential; ii) to take all steps necessary to preserve such confidentiality and secrecy; iii) to prevent disclosure of any such Confidential Information to any third party; iv) to use the Confidential Information solely for the purpose set out in Section 1",
+        "changed_text": "The Parties undertake: i) to treat all Confidential Information as absolutely secret, private and confidential; ii) to take all steps necessary to preserve such confidentiality and secrecy; iii) to prevent disclosure of any such Confidential Information to any third party; iv) to use the Proprietary Information solely for the purpose set out in Section 1",
+        "explanation": "Changing 'Confidential Information' to 'Proprietary Information' in Section 3(iv), where the undertaking is defined, adds a new undefined term. This creates conflicting interpretations about which type of information is covered under the usage clause, because the rest of the undertaking, reffers to 'Confidential Information'.",
+        "location": "Section 3",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "The Parties undertake: i) to treat all Confidential Information as absolutely secret, private and confidential; ii) to take all steps necessary to preserve such confidentiality and secrecy; iii) to prevent disclosure of any such Confidential Information to any third party; iv) to use the Proprietary Information solely for the purpose set out in Section 1; v) to disclose the Confidential Information only to those of its directors, employees and consultants who need the Confidential Information to conduct tasks in relation to the pur pose set out in Section 1; vi) to ascertain that each person who receives Confidential Information is made aware of and comply with this Agreement; and vii) to immediately upon request deliver to the other Party all Confidential Information that belong to that P arty in any form without retaining any copies thereof, or, at the other Party’s option, certify in writing that all copies of such information have been destroyed.",
+        "contradiction_exists": "YES",
+        "justification": "The change replaces 'Confidential Information' with 'Proprietary Information' in Section 3(iv), while the rest of the text refers to 'Confidential Information', and defines undertakings related to it. The contradicted text is the whole clause again, so if one place of the undertaking refers to 'Proprietary Information' and the rest refers to 'Confidential Information', there is a contradiction about which type of information the parties are obligated to not disclose, which aligns with the definition of 'Misaligned Terminology - In Text Contradiction'. The original text was consistent with 'Confidential Information' throughout, meaning the change has introduced the contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Should the Parties enter into an agreement of the type referred in Section 1 the confidentiality provisions in s uch agreement will prevail over this Agreement.",
+        "changed_text": "Should the Parties enter into an agreement of the type referred in Section 1 the secrecy provisions in s uch agreement will prevail over this Agreement.",
+        "explanation": "Changing 'confidentiality provisions' to 'secrecy provisions' in Section 8.3 implies that not all confidentiality is secrecy. This creates a conflict of interpretation, as it can be argued that there are 'confidentiality provisions' in the future agreement that do not equate to 'secrecy' and are therefore not superseded, weakening the clause's intended effect and the protection of 'Confidential Information'.",
+        "location": "Section 8.3",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "The Parties undertake: i) to treat all Confidential Information as absolutely secret, private and confidential; ii) to take all steps necessary to preserve such confidentiality and secrecy; iii) to prevent disclosure of any such Confidential Information to any third party; iv) to use the Proprietary Information solely for the purpose set out in Section 1; v) to disclose the Confidential Information only to those of its directors, employees and consultants who need the Confidential Information to conduct tasks in relation to the pur pose set out in Section 1; vi) to ascertain that each person who receives Confidential Information is made aware of and comply with this Agreement; and vii) to immediately upon request deliver to the other Party all Confidential Information that belong to that P arty in any form without retaining any copies thereof, or, at the other Party’s option, certify in writing that all copies of such information have been destroyed.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'confidentiality provisions' to 'secrecy provisions' introduces ambiguity. The Contradicted Text mandates treating all 'Confidential Information' as 'absolutely secret, private and confidential.' By using 'secrecy provisions' instead of 'confidentiality provisions,' the Changed Text implies that 'confidentiality' and 'secrecy' are not equivalent. This contradicts the Contradicted Text, because there might be 'confidential information' that is not regarded as 'secret', weakening the protection of Confidential Information."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The obligations under this Agreement shall apply retroactively to any information exchanged prior to the effectiveness of this Agreement.",
+        "changed_text": "The obligations under this Agreement shall apply retroactively to any data exchanged prior to the effectiveness of this Agreement.",
+        "explanation": "Changing 'information' to 'data' narrows the scope retroactively. It creates ambiguity about whether non-data 'information,' exchanged before the agreement, is subject to the agreement's obligations. This could lead to disputes over the type of information protected, because 'information' has a much broader meaning, than the term 'data'.",
+        "location": "Section 8.2",
+        "contradicted_location": "Section 2.1",
+        "contradicted_text": "2.1 Confidential Information shall mean: i) all technical, financial and business information disclosed by one Party to the other Party or by another Haldex Group entity to the Supplier including, but not limited to, documents, data, information, prototypes or components relating to devices, methods, materials, apparatus, d esigns, research, yields and specifications; and ii) information relating to the existence of this Agreement;",
+        "contradiction_exists": "YES",
+        "justification": "The original text used the term 'information', which is broader than 'data'. The changed text replaces 'information' with 'data'. The contradicted text defines 'Confidential Information' as including both 'data' and 'information'. By narrowing the retroactive application to only 'data', the changed text creates a contradiction because any 'information' exchanged prior to the agreement that is not 'data' would arguably not be subject to the agreement's obligations, conflicting with the definition of 'Confidential Information' which includes all 'information'."
+      }
+    ]
+  }
+]

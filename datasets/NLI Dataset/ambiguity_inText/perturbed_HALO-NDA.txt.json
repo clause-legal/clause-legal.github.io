@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "HALO-NDA.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "RECIPIENT shall have no obligation with respect to disclosure and use of information to the extent such information: A. is or becomes generally available to the public other than as a consequence of a br each of an obligation of confidentiality to HALO; or B. is made public by HALO; or C. is independently developed by RECIPIENT; or D. is received from a third party independent of HALO without breaching an obligation of confidentiality; or E. is required to be disclosed by the operation of law.",
+        "changed_text": "RECIPIENT shall have no obligation with respect to disclosure and use of information to the extent such information: A. is or becomes generally available to the public other than as a consequence of a breach of an obligation of confidentiality to HALO; or B. is made public by HALO; or C. is independently developed by RECIPIENT; or D. is received from a third party independent of HALO without breaching an obligation of confidentiality; or E. is required to be disclosed by the operation of law. However, even if information falls under sections A through E, if HALO provides written notice that such information remains confidential, RECIPIENT's obligations under this agreement still apply.",
+        "explanation": "This change adds a contradictory clause. While sections A-E outline scenarios where RECIPIENT has no confidentiality obligations, the added sentence states that HALO can override these exceptions with written notice. This introduces an in-text contradiction because the RECIPIENT is initially free from confidentiality in scenarios A-E but then becomes bound by confidentiality if HALO issues written notice, regardless of the circumstances in A-E. The addition of this sentance creates a conflict of obligation.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "NON-CONFIDENTIAL INFORMATION. RECIPIENT shall have no obligation with respect to disclosure and use of information to the extent such information: A. is or becomes generally available to the public other than as a consequence of a breach of an obligation of confidentiality to HALO; or B. is made public by HALO; or C. is independently developed by RECIPIENT; or D. is received from a third party independent of HALO without breaching an obligation of confidentiality; or E. is required to be disclosed by the operation of law. However, even if information falls under sections A through E, if HALO provides written notice that such information remains confidential, RECIPIENT's obligations under this agreement still apply.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a contradiction. The original text states conditions (A-E) under which RECIPIENT has no obligation regarding disclosure. The changed text adds a clause that allows HALO to override these conditions with written notice. This creates a direct conflict because the RECIPIENT is initially free from confidentiality obligations under A-E, but then becomes bound by confidentiality at HALO's discretion, regardless of whether A-E apply. This makes the terms inconsistent and contradicts the explicitly defined exceptions."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "All information furnished to RECIPIENT by HALO shall, unless otherwise specified in writing by HALO, remain the property of HALO; and the written information, and any copies thereof, shall be promptly returned to HALO upon its written or destroyed by RECIPIENT at HALO’s option.",
+        "changed_text": "All information furnished to RECIPIENT by HALO shall, unless otherwise specified in writing by HALO, remain the property of HALO; and the written information, and any copies thereof, shall be promptly returned to HALO upon its written request or destroyed by RECIPIENT at HALO’s option. However, RECIPIENT may retain one copy of all information for archival purposes.",
+        "explanation": "The original text states that all written information must be returned or destroyed. The added clause allows RECIPIENT to retain one copy for archival purposes. This creates an internal contradiction, because RECIPIENT is obligated to return *all* copies, but is simultaneously allowed to retain one copy. The contradiction arises because there is no provision about the archival copy and whether it falls under this NDA or not.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "OWNERSHIP OF INFORMATION. All information furnished to RECIPIENT by HALO shall, unless otherwise specified in writing by HALO, remain the property of HALO; and the written information, and any copies thereof, shall be promptly returned to HALO upon its written request or destroyed by RECIPIENT at HALO’s option. However, RECIPIENT may retain one copy of all information for archival purposes.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the original text by adding a clause that allows the RECIPIENT to retain one copy of the information for archival purposes, despite the initial instruction to return or destroy *all* copies. The contradicted text is the same as the changed text. This directly contradicts the obligation to return all copies, thus creating an in-text contradiction according to the definition of 'Ambiguities – In Text Contradiction'."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Nothing contained in this Agreement shall be construed as granting any license or right to RECIPIENT by HALO under any patent of the United States or a foreign country or otherwise (except for the evaluation purposes indicated above).",
+        "changed_text": "Nothing contained in this Agreement shall be construed as granting any license or right to RECIPIENT by HALO under any patent of the United States or a foreign country or otherwise (except for the evaluation purposes indicated above). However, RECIPIENT shall have a limited, non-exclusive license to use the confidential information solely for internal research and development.",
+        "explanation": "The original text explicitly denies any license or right to RECIPIENT under HALO's patents. The added clause grants a 'limited, non-exclusive license' for internal R&D. This is a direct contradiction because the agreement now both denies and grants a license, leading to confusion about RECIPIENT's permitted use of the information.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "NO LICENSE OR PATENT RIGHTS. Nothing contained in this Agreement shall be construed as granting any license or right to RECIPIENT by HALO under any patent of the United States or a foreign country or otherwise (except for the evaluation purposes indicated above). However, RECIPIENT shall have a limited, non-exclusive license to use the confidential information solely for internal research and development.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly denies any license or right, while the changed text introduces a 'limited, non-exclusive license' for internal R&D. This direct contradiction, as highlighted in the Perturbation Explanation, causes confusion about RECIPIENT's permitted use and creates a clear inconsistency between denying and granting a license, as defined in 'Ambiguities – In Text Contradiction'."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "RECIPIENT recognizes that the remedy at law for any breach of its obligation under this Agreement will be inadequate, and hence, RECIPIENT agrees that HALO shall be entitled to equitable remedies, including injunction, in the event of breach by RECIPIENT.",
+        "changed_text": "RECIPIENT recognizes that the remedy at law for any breach of its obligation under this Agreement will be inadequate, and hence, RECIPIENT agrees that HALO shall be entitled to equitable remedies, including injunction, in the event of breach by RECIPIENT. However, HALO agrees to first pursue mediation before seeking equitable remedies.",
+        "explanation": "The original text states that HALO is entitled to equitable remedies, including injunction, immediately upon breach. The added clause states that HALO must first pursue mediation before seeking equitable remedies. This creates a contradiction. The original language allows HALO to seek an injunction immediately, while the addition requires mediation first, delaying or potentially preventing immediate injunctive relief. Therefore creating uncertainty on how the remediation process should be pursued.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "REMEDIES. RECIPIENT recognizes that the remedy at law for any breach of its obligation under this Agreement will be inadequate, and hence, RECIPIENT agrees that HALO shall be entitled to equitable remedies, including injunction, in the event of breach by RECIPIENT. However, HALO agrees to first pursue mediation before seeking equitable remedies.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds a requirement for mediation before seeking equitable remedies, which directly contradicts the original text (and the contradicted text, which is the same as the changed text in this case) stating that HALO is entitled to equitable remedies, including injunction, in the event of breach by RECIPIENT. The addition of mandatory mediation delays or potentially prevents immediate injunctive relief, creating a clear contradiction regarding the process for obtaining remedies. The original text and contradicted text allow for immediate equitable remedies, while the changed text mandates mediation first, leading to uncertainty and inconsistency in the contract's enforcement."
+      }
+    ]
+  }
+]

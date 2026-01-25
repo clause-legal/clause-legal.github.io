@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "NDA_eng.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "3.1. The Investor is authorized to grant access to the proprietary information only to those parties who require access to the proprietary information in realizing the investors’ rights under the Offer in order to achieve the provision of the Proprietary Information, are obliged not to disclose the Proprietary Information and informed about the fact of the conclusion of the Agreement. The Investor is obliged to provide the list of Investor’s Agents who have received access to the Proprietary Information.",
+        "changed_text": "3.1. The Investor is authorized to grant access to the proprietary information to those parties who require access, are obliged not to disclose the Proprietary Information. The Investor is not obliged to provide the list of Investor’s Agents who have received access to the Proprietary Information.",
+        "explanation": "By removing the explicit requirement for the Investor to provide a list of agents with access to Proprietary Information, this creates an in-text contradiction with section 5.2, which refers to analyzing the conﬁdential information protection measures taken by the Investor. Without a list of agents, it is impossible to effectively analyze and conduct the analysis of the conﬁdential information protection measures taken by the Investor.",
+        "location": "3.1",
+        "contradicted_location": "5.2",
+        "contradicted_text": "5.2. The Company reserves the right to conduct the analysis of the conﬁdential information protection measures taken by the Investor. Should the denial to provide the information about measures taken for the conﬁdential information protection, received by the Investor, or detection of insufﬁcient measures taken to protect the conﬁdential information, the company is authorized to deny entrusting the conﬁdential information or refuse to fulﬁll the obligations of any agreements concluded between the parties unilaterally, according to which the Investor shall procure or procured accesses to the conﬁdential information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the Investor's obligation to provide a list of agents with access to Proprietary Information. Section 5.2 reserves the Company's right to analyze the confidential information protection measures taken by the Investor. The explanation states that without a list of agents, the analysis in 5.2 is impossible. Therefore, the change creates a direct contradiction because the company cannot conduct its analysis without the information the investor is no longer obligated to provide, making the enforcement of section 5.2 regarding analysis impossible."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "3.4. The Investor is obliged to keep, withhold, and hold any conﬁdential information, take measures, which are greater than or equal to measures which the Investor takes to protect his or her own conﬁdential information, to secure the Proprietary Information.",
+        "changed_text": "3.4. The Investor is expected to keep and hold any conﬁdential information.",
+        "explanation": "The original clause mandates the Investor to take measures 'greater than or equal' to their own confidentiality measures. The modified version weakens this to simply expecting them to keep the information, removing the benchmark for the level of protection required. This contradicts section 5.2, which allows the Company to deny entrusting confidential information if 'insufficient measures' are taken by the Investor. Without the standard previously established in section 3.4, there's no clear measure for 'insufficient', creating ambiguity.",
+        "location": "3.4",
+        "contradicted_location": "5.2",
+        "contradicted_text": "5.2. The Company reserves the right to conduct the analysis of the conﬁdential information protection measures taken by the Investor. Should the denial to provide the information about measures taken for the conﬁdential information protection, received by the Investor, or detection of insufﬁcient measures taken to protect the conﬁdential information, the company is authorized to deny entrusting the conﬁdential information or refuse to fulﬁll the obligations of any agreements concluded between the parties unilaterally, according to which the Investor shall procure or procured accesses to the conﬁdential information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text in 3.4 mandated a specific standard for the Investor's confidentiality measures ('greater than or equal' to their own). The changed text removes this standard, only expecting the Investor to keep the information confidential. This creates a direct contradiction with section 5.2, which allows the Company to deny confidential information if 'insufficient measures' are taken by the Investor. The removal of the standard makes the 'insufficient measures' in 5.2 ambiguous and unenforceable, directly conflicting with the original intent and creating uncertainty, which fits the definition of Omissions - In Text Contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "3.6. The Investor shall be entitled to make copies, abstracts, memoranda, or other documents (including documents made by mechanical or electronic means) related to the conﬁdential information, which shall also be marked as «Commercial Secret» and/or «Conﬁdential» only to the extents that are necessary for the conﬁdential information achievement. The Investor shall provide the true recording of all copies and places where the duplicates copies of the conﬁdential information are kept, and access limitation to the speciﬁed copies, abstracts, memoranda, and other documents to third-parties except for his or her authorized Agents, according to the section 3.1. of the Agreement.",
+        "changed_text": "3.6. The Investor shall be entitled to make copies related to the conﬁdential information. The Investor shall provide the recording of copies where the duplicates copies of the conﬁdential information are kept.",
+        "explanation": "The original text mandates that copies of confidential information be marked as «Commercial Secret» and/or «Conﬁdential». The modified version removes this requirement, but section 5.1 still states that all information disclosed shall remain the property of the Company. If copies are not marked as confidential, it becomes difficult to enforce ownership and control, creating a contradiction in practice.",
+        "location": "3.6",
+        "contradicted_location": "5.1",
+        "contradicted_text": "5.1. All information disclosed to the Investor by the Company in any form shall be and remain the property of the Company. Documents and any copies of them, abstracts, memoranda, or other documentation shall be immediately returned to the Company or destroyed at the written request of the Company.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires copies of confidential information to be marked as \"Commercial Secret\" and/or \"Confidential.\" The changed text removes this requirement. Section 5.1 states all information remains the property of the company, but without the copies being marked as confidential as originally specified, enforcing this ownership becomes difficult. This creates a contradiction because the original text provides a mechanism to enforce confidentiality (marking copies), while the changed text removes that mechanism, thus making it harder to enforce section 5.1."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "3.7. The Investor shall provide constant and secure information storage not allowing to obtain the data access by any persons except for Investor’s authorized Agents.",
+        "changed_text": "3.7. The Investor shall provide information storage.",
+        "explanation": "By removing 'constant and secure' from the requirement for information storage, the clause is significantly weakened. This contradicts section 6.1, which states that the party failing to encompass its obligations under the Agreement is obliged to recoup the other party for damages caused by disclosure or misuse of the conﬁdential information. Without secure storage, the risk of disclosure increases, and it becomes difficult to prove a failure to meet obligations when secure storage wasn't explicitly mandated.",
+        "location": "3.7",
+        "contradicted_location": "6.1",
+        "contradicted_text": "6.1. The party who fails to encompass its obligations under the Agreement is obliged to recoup the other party for damages caused by disclosure or misuse of the conﬁdential information. The damages shall be recouped according to Singapore legislation.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies 'constant and secure' information storage. The changed text removes 'constant and secure', weakening the obligation. This directly contradicts section 6.1, which holds parties liable for damages caused by disclosure or misuse of confidential information if they fail to encompass their obligations. Without the 'secure' requirement, it becomes unclear if the Investor has failed to encompass their obligations if information is disclosed, thus creating a contradiction."
+      }
+    ]
+  }
+]

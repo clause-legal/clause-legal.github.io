@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "NDA-for-Gar-Kenyon-Suppliers.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "SUPPLIER shall maintain all Confidential Information received from GK in the same manner that the SUPPLIER maintains its own Confidential Information, provided that the standard of care required shall be at least a reasonable standard.",
+        "changed_text": "SUPPLIER shall maintain all Confidential Information received from GK using any means it deems necessary, without any specific standard of care required.",
+        "explanation": "The change removes the requirement for 'a reasonable standard' of care in maintaining Confidential Information, creating an in-text contradiction. This contradicts Section 2, which demands that the Supplier holds all Confidential Information in strict confidence. By allowing the Supplier to use any means without a defined standard, the 'strict confidence' mandated by Section 2 is undermined, creating ambiguity about the level of protection the Supplier must provide.",
+        "location": "4",
+        "contradicted_location": "2",
+        "contradicted_text": "SUPPLIER agrees to hold all Confidential Information in strict confidence and will not disclose or use the Confidential Information for its benefit or the benefit of any other company or entity anywhere in the world or any other purpose other than for the Purpose set forth in the recitals herein.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the requirement for a 'reasonable standard' of care in maintaining Confidential Information, directly contradicting the original requirement for strict confidence in the contradicted text. By allowing the supplier to use any means without a defined standard, the 'strict confidence' mandated by the contradicted text is undermined, creating ambiguity and a direct conflict."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Any disclosure of Confidential Inform ation shall be limited SUPPLIER’s employees and who have a need to use or study such Confidential Information for the Purpose. SUPPLIER shall advise its employees and agen ts of its obligations pursuant to this Agreement, but SUPPLIER shall remain responsible to ensure their compliance.",
+        "changed_text": "Any disclosure of Confidential Information may extend beyond SUPPLIER’s employees, potentially including contractors and consultants who have a general business interest. SUPPLIER is expected to advise its employees and agents of their obligations pursuant to this Agreement, but the responsibility for ensuring compliance is transferred to those individuals directly.",
+        "explanation": "This change introduces ambiguity by expanding the scope of disclosure beyond employees and removing the Supplier's responsibility for ensuring compliance, creating an in-text contradiction with Section 6, which specifies that all Confidential Information remains the property of GK. The shift of compliance responsibility undermines GK's control over its information, as the Supplier is no longer fully accountable for breaches by contractors or consultants.",
+        "location": "5",
+        "contradicted_location": "6",
+        "contradicted_text": "All Confidential Information is and shall remain the property of GK. At any time that GKT may request, SUPPLIER shall return the Confidential Information to GK and shall certify in writing that all copies thereof in its possession have been destroyed.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. The original text states that the supplier is responsible for ensuring compliance with confidentiality obligations. The changed text removes this responsibility and transfers it to individuals, while the contradicted text clearly states that all Confidential Information remains the property of GK, and the supplier is responsible for returning it and certifying its destruction. By removing the supplier's responsibility, the changed text weakens GK's control over its confidential information, creating a direct conflict with the provision that it remains GK's property and that the supplier is responsible for it."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "At any time that GKT may request, SUPPLIER shall return the Confidential Information to GK and shall certify in writing that all copies thereof in its possession have been destroyed.",
+        "changed_text": "At any time that GKT may request, SUPPLIER shall make a reasonable effort to return the Confidential Information to GK and shall, to the best of its knowledge, certify in writing that all copies thereof in its possession have been destroyed.",
+        "explanation": "This change introduces ambiguity by replacing 'shall return' with 'shall make a reasonable effort' and adding 'to the best of its knowledge' to the certification requirement. This weakens the Supplier's obligation, creating an in-text contradiction with Section 2, which requires the Supplier to hold all Confidential Information in strict confidence. The lack of a strict return obligation potentially allows the Supplier to retain or misplace information, undermining the 'strict confidence' mandate.",
+        "location": "6",
+        "contradicted_location": "2",
+        "contradicted_text": "SUPPLIER agrees to hold all Confidential Information in strict confidence and will not disclose or use the Confidential Information for its benefit or the benefit of any other company or entity anywhere in the world or any other purpose other than for the Purpose set forth in the recitals herein.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated the supplier 'shall return' confidential information, creating a strict obligation. The changed text weakens this obligation to 'shall make a reasonable effort,' introducing ambiguity and potentially allowing the supplier to retain information. Furthermore, the original certification requirement was absolute. The modified version weakens it to 'to the best of its knowledge.' This directly contradicts the contradicted text, which requires the supplier to hold all Confidential Information in strict confidence and not disclose or use it. The weakening of the return obligation and certification undermines the 'strict confidence' mandate, as the supplier could unintentionally or negligently retain or disclose information without a clear breach of contract."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "SUPPLIER shall not assign or otherwise tran sfer any of its rights or obligations under this Agreement to any third party without the prior written consent of GK, and any attempted assignment or transfer without su ch prior written consent shall be null and void.",
+        "changed_text": "SUPPLIER may assign or otherwise transfer its rights or obligations under this Agreement to a subsidiary company without the prior written consent of GK. Any attempted assignment or transfer to a non-subsidiary without such prior written consent shall be null and void.",
+        "explanation": "This change introduces an exception to the non-assignment clause, allowing the Supplier to transfer rights/obligations to a subsidiary without GK's consent. This creates ambiguity and potentially contradicts the overall intent of the NDA, creating an in-text contradiction with Section 6. This is because control of the confidential information is implicitly extended to entities not directly bound by the agreement, weakening GK's rights over its Confidential Information.",
+        "location": "8",
+        "contradicted_location": "6",
+        "contradicted_text": "All Confidential Information is and shall remain the property of GK. At any time that GKT may request, SUPPLIER shall return the Confidential Information to GK and shall certify in writing that all copies thereof in its possession have been destroyed.",
+        "contradiction_exists": "YES",
+        "justification": "The original text strictly prohibited assignment or transfer without GK's written consent. The changed text introduces an exception, allowing the supplier to assign rights/obligations to a subsidiary without GK's consent. This directly contradicts the contradicted text, which states that all confidential information remains the property of GK, and the supplier must return it upon request. By allowing transfer to a subsidiary without GK's consent, control of the confidential information is extended to an entity not directly bound by the agreement, undermining GK's ownership and control. This is an ambiguity that also acts as an in-text contradiction according to the provided definition."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement sets out and constitutes the entire agreement between the parties with respect to the disclosure, protection and use of Confidential Information and supersedes all prior agreements, whether oral or written, relating to such matters and all other prior communications between the pa rties relating to the subject matter of this Agreement.",
+        "changed_text": "This Agreement sets out and constitutes the general understanding between the parties with respect to the disclosure, protection and use of Confidential Information and supersedes all prior written agreements, relating to such matters, but excludes any prior oral agreements or implied understandings between the parties relating to the subject matter of this Agreement, which shall remain in effect.",
+        "explanation": "This change introduces ambiguity by stating this agreement is a 'general understanding' rather than the 'entire agreement,' and carves out prior oral agreements from being superseded. This creates an in-text contradiction with Section 2, which states the Supplier agrees to hold all Confidential Information in strict confidence and use it only for the specified purpose. The presence of unwritten oral agreements introduces conflicting expectations and potential challenges to the defined purpose.",
+        "location": "9",
+        "contradicted_location": "2",
+        "contradicted_text": "SUPPLIER agrees to hold all Confidential Information in strict confidence and will not disclose or use the Confidential Information for its benefit or the benefit of any other company or entity anywhere in the world or any other purpose other than for the Purpose set forth in the recitals herein.",
+        "contradiction_exists": "YES",
+        "justification": "The original text establishes the agreement as the 'entire agreement,' superseding all prior agreements. The changed text weakens this by making it a 'general understanding' and specifically excludes prior oral agreements. This directly contradicts the 'Contradicted Text' which requires the Supplier to hold Confidential Information in 'strict confidence' and only use it for the defined purpose. Allowing unwritten oral agreements introduces conflicting expectations and potential challenges to the defined purpose, creating a strong in-text contradiction as outlined in the 'Ambiguities - In Text Contradiction' definition."
+      }
+    ]
+  }
+]

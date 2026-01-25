@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "SMT-R-100-01-NON-DISCLOSURE-AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Personnel, including any committee members, contractors, personnel of external bodies, or individuals acting on the laboratory's behalf, sh all keep confidential all information obtained or created during the performance of laboratory activities, except as required by law.",
+        "changed_text": "Employees, directly employed by the laboratory, may disclose information if deemed necessary for operational efficiency.",
+        "explanation": "Changing 'Personnel' to 'Employees' and adding 'may disclose information if deemed necessary for operational efficiency' creates a significant contradiction. The original document establishes a broad duty of confidentiality for all personnel, whereas the modified version introduces an exception for employees based on 'operational efficiency.' This gives the legal right to disclose information if they believe that it is necessary.",
+        "location": "Section 4",
+        "contradicted_location": "Section 4",
+        "contradicted_text": "Employees, directly employed by the laboratory, may disclose information if deemed necessary for operational efficiency.",
+        "contradiction_exists": "YES",
+        "justification": "The original text imposes a broad confidentiality obligation on all personnel. The changed text narrows this obligation by granting 'employees' the right to disclose information for 'operational efficiency.' This directly contradicts the original confidentiality obligation, creating an exception for employees. Since the contradicted text is the changed text, and the change introduces a clear exception to the broad confidentiality, a contradiction exists."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "All service providers (including SANAS) have signed a Non -disclosure Agreement/ Confidentiality Agreement as part of our contractual agreement.",
+        "changed_text": "Some service providers may or may not have signed a Non-disclosure agreement.",
+        "explanation": "Replacing 'All service providers have signed' with 'Some service providers may or may not have signed' creates a direct contradiction. The original text asserts a contractual obligation, while the modified version introduces uncertainty. This is contradicting because the services providers now can choose when to sign a Non Disclosure agreement or not.",
+        "location": "Section 5",
+        "contradicted_location": "Section 5",
+        "contradicted_text": "Some service providers may or may not have signed a Non-disclosure agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text, \"Some service providers may or may not have signed a Non-disclosure agreement,\" directly contradicts the original assertion that 'All service providers have signed' a Non-disclosure Agreement. This introduces uncertainty and potential non-compliance with confidentiality obligations, which is a clear conflict. The contradiction is further highlighted by the contradicted text, which repeats the changed text, reinforcing the uncertainty about NDA signing obligations."
+      }
+    ]
+  }
+]

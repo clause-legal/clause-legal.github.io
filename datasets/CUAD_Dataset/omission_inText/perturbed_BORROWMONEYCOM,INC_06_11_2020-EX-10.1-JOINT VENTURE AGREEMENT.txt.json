@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "BORROWMONEYCOM,INC_06_11_2020-EX-10.1-JOINT VENTURE AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Each of the Members has contributed to the capital of the Venture, in cash or property in agreed upon value, as follows (the \"Capital Contribution\"): Member Contribution Description Agreed Value BorrowMoney.com, inc 1, 500 square feet of Leased/rent office Space Includingspecified Description of duty* $3,500,000.00 USD JVLS, LLC dba Vaccines 2Go $60,000.00 USD From Monthly Government , City And State, And Or Private Awarded Contracts. Plus (10%) Of Any Generated Gross Revenue, In Add i t i on to The To ta l Contributions. $3,500,000.00 USD",
+        "changed_text": "Each of the Members has contributed to the capital of the Venture, in cash or property in agreed upon value, as follows (the \"Capital Contribution\"): Member Contribution Description Agreed Value BorrowMoney.com, inc Specified Description of duty* JVLS, LLC dba Vaccines 2Go $60,000.00 USD From Monthly Government , City And State, And Or Private Awarded Contracts. Plus (10%) Of Any Generated Gross Revenue, In Add i t i on to The To ta l Contributions. $3,500,000.00 USD",
+        "explanation": "By removing the agreed value of BorrowMoney.com, inc capital contribution, the contract creates an in-text contradiction. Section 38 refers to distribution of amounts to Members in proportion to their respective capital accounts, but the specific amount for BorrowMoney.com, inc is now undefined, making it unclear how distribution should be calculated. This omission affects the enforceability of section 38.",
+        "location": "15",
+        "contradicted_location": "38",
+        "contradicted_text": "On the liquidation of the Venture assets, distribution of any amounts to Members will be made in proportion to their respective capital accounts or as otherwise may be agreed in writing.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text omits the agreed value for BorrowMoney.com, inc's capital contribution. The contradicted text states that distribution of assets upon liquidation will be made in proportion to the members' respective capital accounts. Because the agreed value for BorrowMoney.com, inc is now missing, it's impossible to determine the correct proportion for distribution to that member, creating a direct contradiction and making the distribution clause unenforceable as it relates to BorrowMoney.com, inc. This aligns with the definition of Omissions - In Text Contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Managers will jointly decide major issues concerning the Venture. Where Managers are unable to reach agreement in deciding major issues, approval by a majority vote of the Members at a regular or special meeting will be required.",
+        "changed_text": "The Managers will jointly decide major issues concerning the Venture. Where Managers are unable to reach agreement in deciding major issues, approval by the Members at a regular or special meeting will be required.",
+        "explanation": "By removing the phrase 'a majority vote of the Members', the contract becomes internally contradictory with Section 28, which states 'Any vote required by the Members will be determined such that each Member receives one vote carrying equal weight.'. Now it is unclear whether the approval needs a majority vote or any kind of special approval. This ambiguity affects decision-making authority as defined in Section 10, which gives Managers authority to bind the Members.",
+        "location": "11",
+        "contradicted_location": "28",
+        "contradicted_text": "Any vote required by the Members will be determined such that each Member receives one vote carrying equal weight.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified 'a majority vote of the Members' is required when managers disagree on major issues. The changed text removes 'a majority vote of the Members', only stating 'approval by the Members'. Section 28 states that 'Any vote required by the Members will be determined such that each Member receives one vote carrying equal weight.' Without the 'majority vote' requirement, it is now unclear whether a simple majority is needed, or some other form of approval. This directly contradicts Section 28, because Section 28 presumes that any vote requires each member to have an equal vote, but the changed text doesn't state what type of vote is needed, and therefore there is a conflict with Section 28."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Member Duties Description BorrowMoney.com, inc *HTML code, build, deploy and maintain all technical aspect requirements including a database for medical dispatch personal & product service as needed, including activity information, data storage and backup. provided by three qualified assigned Borrowmoney.com, inc. employees/personal JVLS, LLC dba Vaccines 2Go $60,000.00 USD From Monthly Government , City And State, And Or Private Awarded Contracts. Plus (10%) Of Any Generated Gross Revenue From Awarded Contract, In Addition to The Total Contributions.",
+        "changed_text": "Member Duties Description BorrowMoney.com, inc *HTML code, build, deploy and maintain all technical aspect requirements including a database for medical dispatch personal & product service as needed, including activity information, data storage and backup. JVLS, LLC dba Vaccines 2Go $60,000.00 USD From Monthly Government , City And State, And Or Private Awarded Contracts. Plus (10%) Of Any Generated Gross Revenue From Awarded Contract, In Addition to The Total Contributions.",
+        "explanation": "By removing the phrase 'provided by three qualified assigned Borrowmoney.com, inc. employees/personal' the contract becomes internally contradictory. Duties are still assigned to Borrowmoney.com, inc, but are no longer explicitly assigned to any amount of qualified employees. Thus, this would result in a contradiction within the Member Duties section(13).",
+        "location": "13",
+        "contradicted_location": "13",
+        "contradicted_text": "Each Member will be responsible for its respective duties as follows: Page 3 of 13 Member Duties Description BorrowMoney.com, inc *HTML code, build, deploy and maintain all technical aspect requirements including a database for medical dispatch personal & product service as needed, including activity information, data storage and backup. JVLS, LLC dba Vaccines 2Go $60,000.00 USD From Monthly Government , City And State, And Or Private Awarded Contracts. Plus (10%) Of Any Generated Gross Revenue From Awarded Contract, In Addition to The Total Contributions.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that Borrowmoney.com, inc's duties are 'provided by three qualified assigned Borrowmoney.com, inc. employees/personal'. The changed text removes this phrase, meaning the duties are assigned to Borrowmoney.com, inc but without specifying who is responsible for carrying them out. This contradicts the expectation established in the contradicted text, which assigns specific duties to each member, implying a clear allocation of responsibilities, rendering the contract unclear and internally contradictory."
+      }
+    ]
+  }
+]

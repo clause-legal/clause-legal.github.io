@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "Basic-Non-Disclosure-Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Receiving Party shall carefully restrict access to Confidential Information to employees, contractors and third parties as is reasonably required and shall require those persons to sign nondisclosure restrictions at least as protective as those in this Agreement.",
+        "changed_text": "Receiving Party shall restrict access to Confidential Information to its employees.",
+        "explanation": "The original text mandates that the Receiving Party restrict access to Confidential Information not only to employees but also to contractors and third parties where reasonably required and have them sign non-disclosure agreements. By omitting the requirement for contractors and third parties, the Receiving Party can now claim compliance by only restricting access to employees, creating a loophole and making the scope of protection unclear. This contradicts the overall intent of protecting the Disclosing Party's Confidential Information as broadly as possible.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Receiving Party shall hold and maintain the Confidential Information in strictest confidence for the sole and exclusive benefit of the Disclosing Party. Receiving Party shall restrict access to Confidential Information to its employees. Receiving Party shall not, without the prior written approval of Disclosing Party, use for Receiving Party's benefit, publish, copy, or otherwise disclose to others, or permit the use by others for their benefit or to the detriment of Disclosing Party, any Confidential Information. Receiving Party shall return to Disclosing Party any and all records, notes, and other written, printed, or tangible materials in its possession pertaining to Confidential Information immediately if Disclosing Party requests it in writing.",
+        "contradiction_exists": "YES",
+        "justification": "The original text required the Receiving Party to restrict access to confidential information to employees, contractors, and third parties. The changed text narrows this restriction to only employees. The contradicted text states the Receiving Party shall restrict access to Confidential Information to its employees. While this statement in itself is not problematic, in the context of the change, it implies that contractors and third parties are no longer subject to the same access restrictions, directly conflicting with the broader confidentiality obligations originally intended, as specified in the perturbation explanation. This creates a loophole and reduces the overall protection of the Disclosing Party's Confidential Information."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Receiving Party shall return to Disclosing Party any and all records, notes, and other written, printed, or tangible materials in its possession pertaining to Confidential Information immediately if Disclosing Party requests it in writing.",
+        "changed_text": "Receiving Party shall return to Disclosing Party any records in its possession pertaining to Confidential Information if Disclosing Party requests it.",
+        "explanation": "The original clause specifies that all records, notes, and other written, printed, or tangible materials pertaining to Confidential Information must be returned. By changing it to 'any records', the Receiving Party can argue that notes and other tangible materials are excluded from the return obligation, creating an inconsistency in the required actions related to protecting the confidential information.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Receiving Party shall hold and maintain the Confidential Information in strictest confidence for the sole and exclusive benefit of the Disclosing Party. Receiving Party shall restrict access to Confidential Information to its employees. Receiving Party shall not, without the prior written approval of Disclosing Party, use for Receiving Party's benefit, publish, copy, or otherwise disclose to others, or permit the use by others for their benefit or to the detriment of Disclosing Party, any Confidential Information. Receiving Party shall return to Disclosing Party any records in its possession pertaining to Confidential Information if Disclosing Party requests it.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires the return of 'all records, notes, and other written, printed, or tangible materials'. The changed text reduces this to 'any records'. The contradicted text relies on the assumption that 'Confidential Information' includes all forms of documentation. By removing 'notes, and other written, printed, or tangible materials', the changed text creates an inconsistency, potentially allowing the Receiving Party to withhold certain confidential information (notes and tangible materials), thus contradicting the obligation to maintain and return all Confidential Information. The omission directly contradicts the intent and scope of the obligation to protect confidential information outlined in the contradicted text, fitting the definition of an Omissions - In Text Contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The nondisclosure provisions of this Agreement shall survive the termination of this Agreement and Receiving Party's duty to hold Confidential Information in confidence shall remain in effect until the Confidential Information no longer qualifies as a trade secret or until Disclosing Party sends Receiving Party written notice releasing Receiving Party from this Agreement, whichever occurs first.",
+        "changed_text": "The nondisclosure provisions of this Agreement shall survive the termination of this Agreement and Receiving Party's duty to hold Confidential Information in confidence shall remain in effect for one year.",
+        "explanation": "The original text allows the confidentiality obligations to persist until the information is no longer a trade secret or the Disclosing Party provides written release. The changed text imposes a fixed one-year limit. This creates an in-text contradiction because if the Confidential Information still qualifies as a trade secret after one year, the Receiving Party is no longer obligated to protect it, which undermines the intention of protecting trade secrets indefinitely.",
+        "location": "4",
+        "contradicted_location": "1",
+        "contradicted_text": "For purposes of this Agreement, \"Confidential Information\" shall include information the Disclosing Party deems confidential. If Confidential Information is in written form, the Disclosing Party *may* label or stamp the materials. If Confidential Information is transmitted orally, the Disclosing Party *may* provide writing indicating that such oral communication constituted Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allows for indefinite protection of confidential information until it's no longer a trade secret or a written release is provided. The changed text limits this protection to one year. The contradicted text defines Confidential Information broadly as what the Disclosing Party deems confidential. If the Disclosing Party still deems information confidential after one year and it still qualifies as a trade secret, the changed text creates a contradiction because the Receiving Party is no longer obligated to protect it, undermining the Disclosing Party's ability to protect its Confidential Information, as initially intended and contradicts the purpose of confidential information."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This Agreement expresses the complete understanding of the parties with respect to the subject matter and supersedes all prior proposals, agreements, representations, and understandings.",
+        "changed_text": "This Agreement outlines the parties' initial understanding with respect to the subject matter.",
+        "explanation": "The original clause is an integration clause stating that the agreement represents the complete understanding and supersedes all prior agreements. The changed text weakens this significantly by stating it's only an 'initial understanding.' This introduces uncertainty about whether other agreements or understandings exist and are still valid, which makes the contract less enforceable. This creates a contradiction with the expectation of a fully integrated agreement that is self-contained and clearly defined.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "This Agreement outlines the parties' initial understanding with respect to the subject matter. This Agreement may not be amended except in writing signed by both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the original agreement from being a complete understanding that supersedes prior agreements, to an 'initial understanding'. The contradicted text uses the phrase 'initial understanding' as well. Even though they are in the same location, it causes a contradiction. The original text implied an integration clause. The changed text now only expresses an 'initial understanding', causing uncertainty and indicating that other agreements may exist. This directly contradicts the nature of a well-defined and self-contained agreement, leading to a strong contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This Agreement may not be amended except in writing signed by both parties.",
+        "changed_text": "This Agreement may be amended.",
+        "explanation": "The original text requires any amendments to be in writing and signed by both parties, providing a clear process for modifications. The changed text eliminates this requirement, allowing for verbal or implied amendments. This contradicts the integrity of the contract, as it opens the door for disputes about changes, and makes the contract less reliable. This undermines the reliability and predictability of the agreement, and makes it more difficult to enforce, due to the fact the changes may not be recorded.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "This Agreement outlines the parties' initial understanding with respect to the subject matter. This Agreement may be amended.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that the agreement could only be amended in writing and signed by both parties. The changed text removes this restriction, stating the agreement may be amended, opening the door to verbal or implied amendments. The contradicted text includes the exact same statement. By opening the door to any kind of amendment, that creates a contradiction, meaning that there may be disputes about changes, and the contract becomes less reliable. The changed text contradicts the initial intent of the parties, creating a strong contradiction."
+      }
+    ]
+  }
+]

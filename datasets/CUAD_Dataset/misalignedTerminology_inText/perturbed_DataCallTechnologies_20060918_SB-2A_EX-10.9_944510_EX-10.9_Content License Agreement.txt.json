@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "DataCallTechnologies_20060918_SB-2A_EX-10.9_944510_EX-10.9_Content License Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "LICENSOR is the owner of all intellectual property rights, including without limitation, any and all patents, utility models, trade marks, rights in designs, trade, business or domain names, know-how, rights in databases and copyrights, rights in inventions, ideas, concepts, trade secrets and confidential information which have to be given to fulfill this contract.",
+        "changed_text": "Data Call Technologies is the owner of some intellectual property rights, including without limitation, any and all patents, utility models, trade marks, rights in designs, trade, business or domain names, know-how, rights in databases and copyrights, rights in inventions, ideas, concepts, trade secrets and confidential information which have to be given to fulfill this contract.",
+        "explanation": "The term 'LICENSOR' is explicitly defined as 'Data Call Technologies, Inc.' earlier in the agreement. Here, I've replaced 'LICENSOR' with 'Data Call Technologies' while also changing 'all intellectual property rights' to 'some intellectual property rights'. This creates a contradiction because the agreement previously stated 'LICENSOR', referred to as 'Data Call Technologies, Inc', owned *all* intellectual property rights. Now it is implying Data Call Technologies owns some of the intellectual property rights, which creates uncertainty about the extent of ownership, which causes contradiction.",
+        "location": "5.1",
+        "contradicted_location": "5.1",
+        "contradicted_text": "LICENSOR is the owner of all intellectual property rights, including without limitation, any and all patents, utility models, trade marks, rights in designs, trade, business or domain names, know-how, rights in databases and copyrights, rights in inventions, ideas, concepts, trade secrets and confidential information which have to be given to fulfill this contract.",
+        "contradiction_exists": "YES",
+        "justification": "The original text and the contradicted text both state that the LICENSOR owns *all* intellectual property rights. The changed text states that 'Data Call Technologies' owns *some* intellectual property rights. Since LICENSOR is defined as 'Data Call Technologies, Inc.', this change directly contradicts the statement that LICENSOR (or Data Call Technologies, Inc.) owns *all* intellectual property rights. This creates a strong contradiction regarding the extent of ownership, causing uncertainty and potential unenforceability, which aligns with the definition of 'Misaligned Terminology - In Text Contradiction'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Either Party shall be entitled to cancel this Agreement if the other Party is materially in breach of the terms of this Agreement. If the breach of contract is capable of being remedied, this Agreement can be cancelled only provided that the Party in breach has not rectified its breach within thirty (30) days of the written notice by the other Party.",
+        "changed_text": "Either entity shall be entitled to cancel this Agreement if the other Party is materially in breach of the terms of this Agreement. If the breach of contract is capable of being remedied, this Agreement can be cancelled only provided that the Party in breach has not rectified its breach within sixty (60) days of the written notice by the other Party.",
+        "explanation": "The original text refers to 'Either Party' and the changed text refers to 'Either entity', by changing 'Party' to 'entity' creates a contradiction. Also, the text stated 'thirty (30) days', by changing it to 'sixty (60) days' contradict the amount of days for remediation, causing a contradiction about the resolution period. This contradiction creates confusion about the allowable timeframe for resolving a breach, potentially leading to disputes over termination rights.",
+        "location": "7.2",
+        "contradicted_location": "7.2",
+        "contradicted_text": "Either Party shall be entitled to cancel this Agreement if the other Party is materially in breach of the terms of this Agreement. If the breach of contract is capable of being remedied, this Agreement can be cancelled only provided that the Party in breach has not rectified its breach within thirty (30) days of the written notice by the other Party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the original agreement by substituting 'Party' with 'entity' and changing the remediation period from 'thirty (30) days' to 'sixty (60) days'. This directly contradicts the contradicted text, which uses 'Party' and maintains the original 'thirty (30) day' remediation period. This creates a clear inconsistency and ambiguity regarding the correct terminology and timeframe for breach resolution, making the contract unenforceable. This falls under Misaligned Terminology - In Text Contradiction because the change introduces conflicting deadlines, which is a definition for Inconsistencies - In Text Contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The courts of competent jurisdiction at New York City, New York, shall have the exclusive jurisdiction over any dispute arising out of or in connection with this Agreement.",
+        "changed_text": "The arbitration courts of competent jurisdiction at New York City, New York, shall have the non-exclusive jurisdiction over any dispute arising out of or in connection with this Agreement.",
+        "explanation": "The original text says disputes will be handled in the court system. However, the modified text changes 'courts' to 'arbitration courts' and changes 'exclusive jurisdiction' to 'non-exclusive jurisdiction'. This creates a contradiction because 'Arbitration Courts' are not the same as 'courts', Arbitration is a form of Alternative Dispute Resolution (ADR). Also, it changed from exclusive to non-exclusive, meaning that there may be other jurisdictions with authority over disputes, this causes uncertainty about where disputes will be resolved, creating a contradiction.",
+        "location": "10.1",
+        "contradicted_location": "10.1",
+        "contradicted_text": "This Agreement shall be governed and construed in accordance with the laws of the United States of America. The courts of competent jurisdiction at New York City, New York, shall have the exclusive jurisdiction over any dispute arising out of or in connection with this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text and contradicted text both state that disputes arising from the agreement will have 'exclusive jurisdiction' in the courts of New York City. The changed text introduces 'arbitration courts' which are a form of ADR (Alternative Dispute Resolution) and also changes 'exclusive' to 'non-exclusive' jurisdiction. This directly contradicts the original and contradicted text, which specified court jurisdiction and exclusive jurisdiction, creating a strong inconsistency in how disputes will be resolved, leading to potential legal issues regarding enforcement and venue."
+      }
+    ]
+  }
+]

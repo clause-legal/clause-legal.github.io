@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "NonDisclosureAgreement_1.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "In this agreement, the expression “the recipient” is used for suppliers, subcontractors, manufacturers of production and inspection equipment, tools and machines as well as everyone involved in the planning process, according to the owner’s discretion.",
+        "changed_text": "In this agreement, the expression “the recipient” is used for suppliers only.",
+        "explanation": "The original text defines 'the recipient' broadly to include various entities involved in the project, offering the owner discretion to include 'everyone involved in the planning process'. The modified text restricts the definition of “the recipient” to 'suppliers only,' which contradicts the original intention of the agreement where subcontractors or manufacturers, part of the planning process, could be bound by the confidentiality terms. This introduced in-text contradiction could lead to legal disputes over which parties are actually bound by the NDA. This directly contradicts the section which mentions subcontractors.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Paragraph 5",
+        "contradicted_text": "In case the recipient, with the prior written consent of the owner, engages sub -suppliers to carry out the subject of this agreement, a written confidentiality agreement is to be presented to the owner, which has been signed between the re cipient and a sub -supplier. The contents of the agreement shall be identical to this agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text broadly defines \"the recipient\" to include various entities, offering the owner discretion. The changed text narrows this definition to 'suppliers only.' The contradicted text references 'sub-suppliers' engaged by 'the recipient.' Because the definition of 'the recipient' has been restricted to 'suppliers only' in the changed text, it creates a direct contradiction, as subcontractors (and their sub-suppliers) are no longer included in the definition of \"the recipient\", making the confidentiality agreement requirement for sub-suppliers nonsensical and unenforceable."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Both parties, the own er and the recipient, are bound to guarantee that highly confidential written or verbal INFORMATION or business data which are subjects of this contract shall not be disclosed to third parties.",
+        "changed_text": "The owner is bound to guarantee that highly confidential written or verbal INFORMATION or business data which are subjects of this contract shall not be disclosed to third parties.",
+        "explanation": "By removing 'the recipient' from this sentence, the obligation of confidentiality is solely placed on the owner. This contradicts the overall intent of a Non-Disclosure Agreement, which is to protect the owner's confidential information from being disclosed by the recipient. Now the recipient has no contractual obligation to protect confidential information. This introduces a in-text contradiction, given later sections assume the recipient is also bound by confidentiality.",
+        "location": "Paragraph 2",
+        "contradicted_location": "Paragraph 6",
+        "contradicted_text": "If the owner’s confidential inf ormation is disclosed by the recipient, it shall remain the exclusive property of the owner, but the recipient is liable to any damage caused.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that both the owner and the recipient are bound to guarantee confidentiality. The changed text removes the recipient's obligation, stating only the owner is bound. The contradicted text states 'If the owner’s confidential inf ormation is disclosed by the recipient, it shall remain the exclusive property of the owner, but the recipient is liable to any damage caused.' This explicitly assumes the recipient is bound by confidentiality and can be held liable for its breach. By removing the recipient's obligation in the changed text, it directly contradicts the section that makes the recipient liable for disclosing confidential information, creating a strong in-text contradiction. Therefore, the change creates a direct conflict, inconsistency, or contradiction within the document."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The recipient stores the received INFO RMATION and business data systematically, e.g. in files, electronic media and material form. All needed precautions/measures are to be taken to protect the INFORMATION from copying, theft, destruction, damage or any other intrusion.",
+        "changed_text": "The recipient may store the received INFO RMATION and business data non-systematically, e.g. any way they like. No precautions/measures are to be taken to protect the INFORMATION from copying, theft, destruction, damage or any other intrusion.",
+        "explanation": "The original text mandates systematic storage and security measures for confidential information by the recipient. The modified text eliminates both the systematic storage requirement and the need for any security precautions. This severely weakens the NDA, making it virtually unenforceable. This is contradictory in the text, because, the Recipient is the sole responsible to protect the information, but they don't need to.",
+        "location": "Paragraph 3",
+        "contradicted_location": "Paragraph 4",
+        "contradicted_text": "Both parties are bound to take all needed measures to guarantee the protection of data confidentiality.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. The original text required systematic storage and security measures, while the changed text explicitly removes these requirements, stating that the recipient can store data non-systematically and does not need to take any security precautions. The contradicted text states that both parties are bound to take all needed measures to guarantee the protection of data confidentiality. By eliminating the need for security measures, the changed text makes it impossible for the recipient to fulfill their obligation to protect data confidentiality, thus creating a direct and clear contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The owner and the recipient are bound to disclose confidential information and business data only to those employees who have a need to know this information and business data in order to properly carry out work which is the subject of this agreement and are explicitly warned to be obliged to safe keep the information and business data as confidential and that in case of the violation of confidentiality they are liable for any damage caused.",
+        "changed_text": "The owner is bound to disclose confidential information and business data to any employees and those employees do not need to keep the information safe.",
+        "explanation": "Originally, both the owner and the recipient were restricted in disclosing information only to employees with a 'need to know' and those employees were required to maintain confidentiality. The altered text removes restrictions for the owner, allowing disclosure to any employees without any confidentiality obligations. The recipient is not even mentioned. This change contradicts the purpose of the agreement and would allow widespread dissemination of confidential data. The original text ensures the recipient also takes responsibility to guarantee protection of the data, as well the recipient takes needed actions to protect the information from copying, theft and destruction.",
+        "location": "Paragraph 4",
+        "contradicted_location": "Paragraph 3",
+        "contradicted_text": "The recipient stores the received INFO RMATION and business data systematically, e.g. in files, electronic media and material form. All needed precautions/measures are to be taken to protect the INFORMATION from copying, theft, destruction, damage or any other intrusion.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that the owner can disclose confidential information to any employee and that those employees do not need to keep the information safe. This directly contradicts the 'Contradicted Text,' which requires the recipient (who could be an employee of the owner) to take precautions to protect the information from copying, theft, destruction, damage, or any other intrusion. The change fundamentally alters the confidentiality obligations and security measures outlined in the original agreement and contradicted text."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "For the term of 10 years, after receiving the INFORMATION and business data, the confidential information shall be kept safely, unless defined differently by a special agreement or it is proved to have been made publicly known.",
+        "changed_text": "For the term of 1 year, after receiving the INFORMATION and business data, the confidential information shall be kept safely, unless defined differently by a special agreement or it is proved to have been made publicly known.",
+        "explanation": "The original text states that confidential information must be kept safe for 10 years. The modified text reduced to 1 year. This is an in-text contradiction due to 'for the term of 10 years' that indicates the validity term of the agreement.",
+        "location": "Paragraph 7",
+        "contradicted_location": "Paragraph 2",
+        "contradicted_text": "Both parties, the own er and the recipient, are bound to guarantee that highly confidential written or verbal INFORMATION or business data which are subjects of this contract shall not be disclosed to third parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies a 10-year term for keeping confidential information safe, whereas the changed text reduces this term to 1 year. This directly contradicts the 'Contradicted Text', which states that both parties guarantee that confidential information will not be disclosed to third parties, implying a longer, undefined term, but certainly not just one year. The altered term creates a strong in-text contradiction by significantly shortening the duration of confidentiality, directly conflicting with the overall intention of indefinite confidentiality expressed in the contradicted section."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The agreement is valid when signed by both parties of this agreement.",
+        "changed_text": "The agreement is valid when signed by the owner of this agreement.",
+        "explanation": "The original text states the agreement is valid when signed by both parties, but now it's valid if only signed by the owner. This creates uncertainty if the agreement can be enforced. This introduces in-text contradiction, as the agreement assumes the recipient also agreed to the confidentiality.",
+        "location": "Paragraph 10",
+        "contradicted_location": "Paragraph 2",
+        "contradicted_text": "Both parties, the own er and the recipient, are bound to guarantee that highly confidential written or verbal INFORMATION or business data which are subjects of this contract shall not be disclosed to third parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text required both parties to sign for the agreement to be valid, ensuring mutual consent and obligation. The changed text makes the agreement valid with only the owner's signature. This directly contradicts the contradicted text, which states that 'both parties, the owner and the recipient, are bound' by confidentiality obligations. If only the owner signs, the recipient is not necessarily bound, creating a clear and direct conflict and uncertainty about the recipient's obligations. This falls under Structural Flaws - In Text Contradiction, as the signature requirement now creates conflicting implications regarding who is bound by the agreement."
+      }
+    ]
+  }
+]

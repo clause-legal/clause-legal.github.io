@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "non-disclosure-agreement-en.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - Omission Legal Contradiction",
+        "original_text": "Any third party owner of Information disclosed by a party he reto shall be an intended third party beneficiary of this Agreement and shall be entitled to rely upon and directly enforce the terms and conditions hereof.",
+        "changed_text": "Any third party owner of Information disclosed by a party hereto shall be an intended third party beneficiary of this Agreement.",
+        "explanation": "Removing the right for a third-party beneficiary to enforce the agreement's terms undermines the protection afforded to those whose confidential information is shared.  Under New York law, third-party beneficiaries have specific rights to enforce contracts made for their benefit. Removing this enforcement clause increases legal risk.",
+        "contradicted_law": "New York Law of Contracts, Third-Party Beneficiaries",
+        "law_citation": "NY Law of Contracts \u00a7 3rd Party Beneficiaries",
+        "law_url1": [
+          "https://www.law.cornell.edu/wex/third_party_beneficiary"
+        ],
+        "law_url2": [
+          "https://www.justia.com/trials-litigation/docs/jury-instructions/contract-law/third-party-beneficiary/"
+        ],
+        "law_explanation": "This section explains the rights of third-party beneficiaries under contract law. By omitting the provision that allows third-party owners of information to directly enforce the NDA, the contract contradicts the principle that a contract made for the benefit of a third party can be enforced by that third party, especially if intent to benefit is clear from the contract itself. This introduces legal risk because a third party whose confidential information is mishandled may lack a direct legal recourse under the NDA.",
+        "location": "9.2",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": "third party beneficiary | Wex | US Law | LII / Legal Information Institute Please help us improve our site! \u00d7 No thank you third party beneficiary A third party beneficiary is a person benefiting from a contract made between two other parties, where the two contracting parties intended to benefit the third party beneficiary. The third party beneficiary is not a party to the contract, but has rights under the contract since it was made with an intent to benefit them. [Last reviewed in June of 2024 by the Wex Definitions Team ] Keywords contract law Wex COMMERCE business law contracts wex definitions business sectors commercial transactions Wex Toolbox",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly allowed a third-party beneficiary to \"directly enforce\" the agreement's terms, a right that is removed in the changed text. The Law Explanation states that omitting this provision contradicts the principle that a contract made for the benefit of a third party can be enforced by that third party, especially if the intent to benefit is clear. Scraped Law Snippet 1 supports this by defining a third-party beneficiary as someone who \"has rights under the contract since it was made with an intent to benefit them.\" The omission of the enforcement clause significantly weakens the protection afforded to third-party beneficiaries, creating a clear contradiction of law."
+      },
+      {
+        "type": "Omissions - Omission Legal Contradiction",
+        "original_text": "The Parties elect the courts sitting in the Forum of the city of S\u00e3o Paulo, SP, Brazil, as the exclusive ju risdiction and venue over any dispute arising out of or relating to this Agreement .",
+        "changed_text": "The Parties agree that any dispute arising out of or relating to this Agreement shall be resolved through arbitration.",
+        "explanation": "If the company is located in Latin America, this clause originally specified the jurisdiction and venue as S\u00e3o Paulo, Brazil.  Arbitration clauses in Brazil must adhere to the Brazilian Arbitration Act (Law No. 9.307/96, as amended by Law No. 13.129/2015). By simply stating 'arbitration' without detailing the rules, location, or procedures for arbitration, the contract creates ambiguity and potential unenforceability, which contradicts the requirements for valid arbitration agreements under Brazilian law.",
+        "contradicted_law": "Brazilian Arbitration Act (Law No. 9.307/96, as amended by Law No. 13.129/2015)",
+        "law_citation": "Law No. 9.307/96",
+        "law_url1": [
+          "https://www.planalto.gov.br/ccivil_03/leis/l9307.htm"
+        ],
+        "law_url2": [
+          "https://globalarbitrationreview.com/guide/the-arbitration-review/1212182/brazil"
+        ],
+        "law_explanation": "The Brazilian Arbitration Act sets forth the requirements for a valid arbitration agreement. The modified clause lacks specifics required by the law regarding arbitrator selection, rules, and procedures, potentially rendering the arbitration agreement unenforceable. The URL provided goes to the official government website for the law and a secondary resource, in English, giving context to the Brazilian Arbitration Review.",
+        "location": "15(i)",
+        "desired_official_urls": 0,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The original contract specified jurisdiction in S\u00e3o Paulo, Brazil. The changed text replaces this with arbitration, without specifying rules or procedures. The Perturbation Explanation states that Brazilian Arbitration Act (Law No. 9.307/96, as amended by Law No. 13.129/2015) requires detailing the rules, location, or procedures for arbitration. The Law Explanation further supports that the Brazilian Arbitration Act sets forth the requirements for a valid arbitration agreement and this clause lacks specifics regarding arbitrator selection, rules, and procedures, potentially rendering the arbitration agreement unenforceable. Since the modified contract omits necessary details to ensure enforceability of the arbitration clause under Brazilian law, a legal contradiction exists as it potentially undermines the validity of the arbitration agreement."
+      },
+      {
+        "type": "Omissions - Omission Legal Contradiction",
+        "original_text": "This Agreement shall be governed by and construed in accordance with the laws of the State of Ne w York, without reference to its conflicts of law provisions. Any dispute regarding this Agreement will be subject to the exclusive jurisdiction of the state courts in and for New York, U.S.A. an d the parties hereby irrevocably agree to submit to the personal an d exclusive jurisdiction and venue of such courts.",
+        "changed_text": "This Agreement shall be governed by the laws of [Party A's Principal Place of Business]. Any dispute regarding this Agreement will be subject to the jurisdiction of the courts where the [Party A's Principal Place of Business] is located.",
+        "explanation": "This clause originally specified New York law and jurisdiction if the company is not in Latin America. Changing it to defer to 'Party A's Principal Place of Business' without further clarification introduces ambiguity. If Party A's principal place of business is outside the U.S. or in a jurisdiction with significantly different contract law, this could violate fundamental principles of contract law applicable to transactions with a substantial nexus to New York, such as protections for consumers or small businesses.",
+        "contradicted_law": "New York Choice of Law Principles / Uniform Commercial Code (UCC)",
+        "law_citation": "NY UCC \u00a7 1-301",
+        "law_url1": [
+          "https://www.nysenate.gov/legislation/laws/UCC/1-301"
+        ],
+        "law_url2": [
+          "https://www.law.cornell.edu/ucc/1/1-301"
+        ],
+        "law_explanation": "NY UCC \u00a7 1-301 addresses the enforceability of choice-of-law provisions. While parties can generally choose the governing law, this freedom is limited, especially when the chosen jurisdiction has no substantial relationship to the parties or the transaction, or if the chosen law would violate a fundamental policy of a state with a materially greater interest. By deferring to 'Party A's Principal Place of Business,' this clause could attempt to apply the law of a jurisdiction with weaker consumer protections than New York, undermining the state's interest in protecting parties to contracts formed or performed within its borders.",
+        "location": "15(ii)",
+        "desired_official_urls": 2,
+        "scraped_snippet_1": "NYS Open Legislation | NYSenate.gov Sorry, you need to enable JavaScript to visit this website. Skip to main content Legislation Search OpenLegislation Statutes Search Term Search icon Search The Laws of New York Consolidated Laws of New York CHAPTER 38 Uniform Commercial Code ARTICLE 1 No title PART 3 Territorial Applicability and General Rules up PART 3 Territorial Applicability and General Rules next SECTION 1-302 Variation by Agreement This entry was published on 2014-12-26 The selection dates indicate all change milestones for the entire volume, not just the location being viewed. Specifying a milestone date will retrieve the most recent version of the location before that date. See most recent version before or on: 2014-09-22 2014-12-26 2015-01-02 2015-02-20 2015-02-27 2016-05-20 2016-08-26 2016-09-16 2018-08-31 2018-10-05 2021-12-03 2022-01-28 2022-06-03 Share Facebook Email SECTION 1-301 Territorial Applicability; Parties' Power to Choose Applicable Law Uniform Commercial Code (UCC) CHAPTER 38, ARTICLE 1, PART 3 Section 1--301. Territorial Applicability; Parties' Power to Choose Applicable Law. (a) Except as otherwise provided in this section, when a transaction bears a reasonable relation to this state and also to another state or nation, the parties may agree that the law either of this state or of such other state or nation shall govern their rights and duties so long as none of the parties to the transaction is a consumer and a resident of New York. Where a consumer is a resident of the state of New York, New York state law shall apply. (b) In the absence of an agreement effective under subsection (a), and except as provided in subsection (c), this act applies to transactions bearing an appropriate relation to this state. (c) If one of the following provisions of this act specifies the applicable law, that provision governs and a contrary agreement is effective only to the extent permitted by the law so specified: (1) Section 2--402; (2) Sections 2-A--105 and 2-A--106; (3) Section 4--102; (4) Section 4-A--507; (5) Section 5--116; (6) Section 8--110; and (7) Sections 9--301 through 9--307.",
+        "scraped_snippet_2": "\u00a7 1-301. Territorial Applicability; Parties' Power to Choose Applicable Law. | Uniform Commercial Code | US Law | LII / Legal Information Institute Please help us improve our site! \u00d7 No thank you \u00a7 1-301. Territorial Applicability; Parties' Power to Choose Applicable Law. a) Except as otherwise provided in this section, when a transaction bears a reasonable relation to this state and also to another state or nation the parties may agree that the law either of this state or of such other state or nation shall govern their rights and duties. (b) In the absence of an agreement effective under subsection (a), and except as provided in subsection (c), [the Uniform Commercial Code] applies to transactions bearing an appropriate relation to this state. (c) If one of the following provisions of [the Uniform Commercial Code] specifies the applicable law, that provision governs and a contrary agreement is effective only to the extent permitted by the law so specified: (1) Section 2-402 ; (2) Sections 2A-105 and 2A-106 ; (3) Section 4-102 ; (4) Section 4A-507 ; (5) Section 5-116 ; [(6) Section 6-103 ; (7) Section 8-110 ; (8) Sections 9-301 through 9 - 307 . Uniform Commercial Code Toolbox About Uniform Laws State Uniform Commercial Codes",
+        "scrape_success": 2,
+        "contradiction_exists": "YES",
+        "justification": "The modified text contradicts NY UCC \u00a7 1-301, which governs choice-of-law provisions. The original text specified New York law, while the changed text defers to the law of '[Party A's Principal Place of Business]'. This creates a potential issue because, as NY UCC \u00a7 1-301(a) states, parties can choose the governing law only when the transaction bears a reasonable relation to that state or nation, and even then, it cannot violate fundamental policies of a state with a materially greater interest. If Party A's principal place of business is in a jurisdiction with significantly different contract law or weaker consumer protections, applying that law could undermine New York's interest in protecting parties to contracts formed or performed within its borders, thus contradicting the law."
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "XLITECHNOLOGIES,INC_12_02_2015-EX-10.02-STRATEGIC ALLIANCE AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "BOSCH reserves the right in keeping product generation and delivery confidential in which is not available for any type of audit.",
+        "changed_text": "BOSCH reserves the right to share product generation and delivery details; however, the specifics are not available for audit.",
+        "explanation": "By changing \"BOSCH reserves the right in keeping product generation and delivery confidential in which is not available for any type of audit.\" to \"BOSCH reserves the right to share product generation and delivery details; however, the specifics are not available for audit.\", this creates a contradiction. Previously, product details were strictly confidential and unauditable. Now, there's an indication that product details might be shared, but are not available for audit. This affects how other clauses, such as indemnity and potential future disputes, are interpreted, since there will be some information being shared but not everything.",
+        "location": "2",
+        "contradicted_location": "9",
+        "contradicted_text": "Without limiting any other agreement contained in this Agreement, CLIENT agrees to defend, indemnify and hold harmless BOSCH and its parents, subsidiary and affiliated entities, successors, assigns and licensees, and their respective officers, agents, directors, owners, shareholders and employees, harmless from any and all claims, actions or proceedings of any kind and from any and all damages, liabilities, costs and expenses (including reasonable legal fees) relating to or arising out of any claim by a third Party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the confidentiality of product generation and delivery details from strictly confidential to potentially shared but unauditable. This directly impacts the contradicted text, which outlines Bosch's indemnification by the client for claims by third parties. The original text ensured confidentiality, limiting potential third-party claims related to product details. The changed text, by allowing the sharing of product details, increases the risk of third-party claims but simultaneously prevents auditing of those details, creating a contradiction and potentially undermining the indemnification clause. Therefore, the change creates a direct and impactful contradiction, since the client is agreeing to indemnify Bosch for something they are now allowed to share, but not audit. The lack of audit impacts how the indemnification can even be enforced."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "BOSCH hereby grants CLIENT the \"Exclusive Distribution License Rights\" sell and distribute the Products within the \"Territory\". BOSCH hereby grants CLIENT un-exclusive \"Reserved Rights\" to sell and distribute the \"Product\" within the \"Territory\".",
+        "changed_text": "BOSCH hereby grants CLIENT rights to sell and distribute the Products within the \"Territory\".",
+        "explanation": "By removing 'Exclusive Distribution License Rights' and 'un-exclusive \"Reserved Rights\"', this creates a contradiction with Section 6 and 8. Section 6 explicitly states \"Bosch hereby grants to Client the exclusive rights to sell and distribute the Product.\" which no longer aligns with the modified version in Section 5. Additionally, Section 8 refers to \"Exclusive Rights, Reserved rights, and Rights Granted herein granted\", so by removing any of the rights, it creates ambiguity to what is being refered in Section 8, as to which rights is being granted to the CLIENT.",
+        "location": "5",
+        "contradicted_location": "6",
+        "contradicted_text": "Bosch hereby grants to Client the exclusive rights to sell and distribute the Product, subject to the Territory as set forth below, to certain select companies in the Automotive Industry, each of which shall be approved by Bosch in writing as requested by the Client on a case by case basis.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified 'Exclusive Distribution License Rights' and 'un-exclusive Reserved Rights'. The changed text removes these distinctions, creating a conflict with the contradicted text, which explicitly grants 'exclusive rights'. This removal directly contradicts the earlier grant of exclusive rights, making the agreement ambiguous and potentially unenforceable as it is unclear whether the rights are exclusive or not."
+      }
+    ]
+  }
+]

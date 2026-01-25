@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "SFGFINANCIALCORP_05_12_2009-EX-10.1-SOFTWARE LICENSE AND MAINTENANCE AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "1.5 \"FIELD OF USE\" means, and is limited to, the utilization of the Licensed Technology by the Licensee for the exclusive purpose of fulfilling Spot FX transactions by transmitting market data and orders. The \"Field of Use\" shall not include any functions or applications not expressly described in the preceding sentence, but shall include functions or applications developed by Licensor to enhance the performance within the \"Field of Use\".",
+        "changed_text": "1.5 \"FIELD OF USE\" means the utilization of the Licensed Technology by the Licensee for the purpose of fulfilling Spot FX transactions. The \"Field of Use\" shall include functions or applications developed by Licensor to enhance the performance and other financial instruments including but not limited to bonds, equities and derivatives.",
+        "explanation": "This change broadens the definition of \"Field of Use\" to include other financial instruments, directly contradicting the original definition which limited it exclusively to Spot FX transactions. The contradiction arises because the definition previously restricted its scope, creating an in-text contradiction if other sections assume the original limited definition.",
+        "location": "ARTICLE I, 1.5",
+        "contradicted_location": "ARTICLE II, iii",
+        "contradicted_text": "Licensor hereby, subject to the terms and conditions of this Agreement and provided that Licensee makes payments to Licensor as required under this Agreement, grants to Licensee a non-exclusive license to utilize Licensed Technology solely in the Field of Use and subject to the additional restrictions set forth below and otherwise in this License Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text limited the Field of Use to Spot FX transactions exclusively. The changed text expands the Field of Use to include other financial instruments like bonds, equities, and derivatives. This directly contradicts the contradicted text, which grants the Licensee a license to utilize the Licensed Technology \"solely in the Field of Use\". The expanded definition of Field of Use means the license now applies to instruments beyond Spot FX, creating a strong contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "ARTICLE VII TECHNICAL SUPPORT SERVICES (a) The Licensor shall provide Technical Support Services relating to the maintenance and support of the Software and the Licensee shall pay the Licensor $2,500 per month for such Technical Support Services.",
+        "changed_text": "ARTICLE VII TECHNICAL SUPPORT SERVICES (a) The Licensor shall provide Technical Support Services relating to the maintenance and support of the Software for the first three months, after which such services are provided on a best-effort basis without any guaranteed response time and the Licensee shall pay the Licensor $2,500 per month for such Technical Support Services.",
+        "explanation": "This perturbation changes the obligations regarding Technical Support Services. The new text indicates that the level of support changes after three months to a 'best-effort basis', creating a contradiction with later clauses that imply consistent and guaranteed support throughout the agreement's term. Specifically, Article VII (f) implies a consistent level of support for error corrections, which contradicts the earlier modification regarding a reduced best effort support after the first three months.",
+        "location": "ARTICLE VII, (a)",
+        "contradicted_location": "ARTICLE VII, (f)",
+        "contradicted_text": "(f) Error Corrections. During the term of this Agreement, the Licensor shall use commercially reasonable efforts to provide Error Corrections for Errors in the Software reported by Licensee to the Licensor.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text introduces a significant contradiction. Initially, Article VII (a) implies consistent Technical Support Services in exchange for a fixed monthly fee. However, the change limits the guaranteed support to the first three months, after which it becomes 'best-effort'. This directly conflicts with Article VII (f), which states that 'During the term of this Agreement, the Licensor shall use commercially reasonable efforts to provide Error Corrections', thus implying consistent efforts throughout the term and a different standard than 'best-effort' after three months. This creates an ambiguity and an in-text contradiction, making the obligations unclear, as according to the perturbed text, there is no obligation after three months."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "ARTICLE V LICENSEE FEE, TAXES, AND TERM I As consideration for the Licensee to use the licensed programs and software system as set forth in this agreement, Licensee shall pay to Licensor the Non Exclusive license fee as set forth below. (a) Form of Payment: Licensee shall remit to Licensor, contemporaneous with the execution of this Agreement, a n Initial Payment of $35,000.00 which has previously been advanced by Licensee to the Licensor. All payments provided for in this Agreement are exclusive of, (and Licensee shall pay) all taxes, customs, duties, insurance, shipping, and other charges. Payments made to Licensor shall be in United States Dollars.",
+        "changed_text": "ARTICLE V LICENSEE FEE, TAXES, AND TERM I As consideration for the Licensee to use the licensed programs and software system as set forth in this agreement, Licensee may pay to Licensor the Non Exclusive license fee as set forth below. (a) Form of Payment: Licensee shall remit to Licensor, contemporaneous with the execution of this Agreement, a n Initial Payment of $35,000.00 which has previously been advanced by Licensee to the Licensor. All payments provided for in this Agreement are inclusive of, (and Licensor shall pay) all taxes, customs, duties, insurance, shipping, and other charges. Payments made to Licensor shall be in United States Dollars.",
+        "explanation": "The original language made the initial payment mandatory ('shall pay') and exclusive of other charges, meaning the Licensee had to pay taxes etc.  The revised language makes the license fee payment optional ('may pay') and inclusive of other charges ('Licensor shall pay'). This introduces a significant contradiction to later sections of the agreement, like Article II, iii, which state Licensee must make payments. The core of the conflict is whether payments are mandatory and who is responsible for additional fees/charges.",
+        "location": "ARTICLE V, I",
+        "contradicted_location": "ARTICLE II, iii",
+        "contradicted_text": "Licensor hereby, subject to the terms and conditions of this Agreement and provided that Licensee makes payments to Licensor as required under this Agreement, grants to Licensee a non-exclusive license to utilize Licensed Technology solely in the Field of Use and subject to the additional restrictions set forth below and otherwise in this License Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text makes the license fee payment optional ('may pay') and inclusive of other charges ('Licensor shall pay'). This directly contradicts the contradicted text, which states that the license is granted 'provided that Licensee makes payments to Licensor as required under this Agreement.' The 'may pay' in the changed text conflicts with the requirement in the contradicted text that the Licensee 'makes payments...as required'. Also, the licensor paying for other charges is opposite to the intent of the contradicted section."
+      }
+    ]
+  }
+]

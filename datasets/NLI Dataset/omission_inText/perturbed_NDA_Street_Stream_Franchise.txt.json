@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "NDA_Street_Stream_Franchise.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Authorised Person means, in relation to the Recipient, any of the following only to the extent that they are engaged in respect of the Purpose: its officers, directors, employees, and any other person who has been previously approved in writing by the Disclosers;",
+        "changed_text": "Authorised Person means, in relation to the Recipient, its employees.",
+        "explanation": "By removing 'officers, directors, and any other person who has been previously approved in writing by the Disclosers', the definition of 'Authorised Person' becomes very limited. This creates an in-text contradiction in clause 3.2, which refers to 'all Authorised Persons', now implying that only employees are bound by the agreement.",
+        "location": "1.1",
+        "contradicted_location": "3.2",
+        "contradicted_text": "The Recipient further undertakes to procure that all Authorised Persons to whom it discloses the Confidential Information shall comply with the confidentiality obligations under this Agreement and, if required by the Disclosers, to procure that they enter into a confidentiality agreement directly with the Disclosers in reasonably similar terms as those set out under this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines 'Authorised Person' to include officers, directors, employees, and persons approved by the Disclosers. The changed text limits the definition to only employees. The contradicted text states that the Recipient must ensure 'all Authorised Persons' comply with confidentiality obligations. By narrowing the definition of 'Authorised Person' to only employees, the changed text contradicts the contradicted text, as the Recipient is no longer explicitly obligated to procure compliance from officers, directors, or other previously approved individuals."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "and not disclose any of the Confidential Information to any person other than in accordance with clause 3;",
+        "changed_text": "and not disclose any of the Confidential Information to any person",
+        "explanation": "The removal of 'other than in accordance with clause 3' from section 2.1.1 eliminates the allowance for authorized disclosures. This creates an in-text contradiction, because Clause 3 focuses on authorized disclosures. If no disclosures are allowed per 2.1.1 (as perturbed) and clause 3 talks about 'Authorised Disclosures', then clause 3 is no longer applicable. ",
+        "location": "2.1.1",
+        "contradicted_location": "3",
+        "contradicted_text": "3 Authorised disclosures 3.1 The Recipient may disclose any of the Confidential Information to any of its Authorised Persons, provided that it informs them beforehand of the duties of confidence under this Agreement, ensures that they undertake to the Recipient to comply with the same duties of confidence, keeps a written account of each of the disclosures, advises the Disclosers immediately it becomes aware of any breach by an Authorised Person, and gives upon any request by the Disclosers evidence of compliance with this clause. 3.2 The Recipient further undertakes to procure that all Authorised Persons to whom it discloses the Confidential Information shall comply with the confidentiality obligations under this Agreement and, if required by the Disclosers, to procure that they enter into a confidentiality agreement directly with the Disclosers in reasonably similar terms as those set out under this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in section 2.1.1, by removing 'other than in accordance with clause 3,' now prohibits all disclosures of confidential information. This directly contradicts Clause 3, which explicitly outlines the conditions under which 'Authorised disclosures' can be made. The altered 2.1.1 makes clause 3 inapplicable, thus introducing a clear in-text contradiction as it removes the allowance for authorized disclosures, a concept central to the contradicted clause."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Purpose Franchise agreement",
+        "changed_text": "Purpose Consulting Services",
+        "explanation": "Changing the 'Purpose' from 'Franchise agreement' to 'Consulting Services' creates an in-text contradiction with the background section, where it mentions 'Franchise agreement'. This raises questions about the true intent and scope of the NDA.",
+        "location": "1.1",
+        "contradicted_location": "BACKGROUND",
+        "contradicted_text": "BACKGROUND A The parties intend to execute this agreement as a deed. B The Disclosers wish to disclose Confidential Information to the Recipient in relation to the Purpose and to: (i) Franchise agreement THE PARTIES AGREE:",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined the agreement as a 'Franchise agreement.' The changed text redefines the agreement's purpose as 'Consulting Services.' The 'Contradicted Text' refers to 'Franchise agreement.' This creates a direct conflict because the agreement can't simultaneously be a Franchise and Consulting Services Agreement. The change introduces a clear contradiction, as the background section references the original definition of the agreement, making the contract inconsistent and potentially unenforceable."
+      }
+    ]
+  }
+]

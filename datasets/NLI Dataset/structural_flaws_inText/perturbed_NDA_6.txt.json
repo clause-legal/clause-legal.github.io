@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "NDA_6.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "For purposes of this Agreement, “Confidential Information” shall include all information or material that has or could have commercial value or other utility in the business in which Disclosing Party is engaged. Such information shall include, but not be limited to contracts, documents, files, printouts, websites, and other printed and digital information provided by the Disclosing party and also the names, telephone numbers, addresses, fax numbers, email addresses, etc. of the contact, parties, and/or source(s) provided by the Disclosing Party.",
+        "changed_text": "For purposes of this Agreement, “Confidential Information” shall include all information or material that has or could have commercial value or other utility in the business in which Disclosing Party is engaged. Such information shall include, but not be limited to contracts, documents, files, printouts, websites, and other printed and digital information provided by the Disclosing party. The names, telephone numbers, addresses, fax numbers, email addresses, etc. of the contact, parties, and/or source(s) provided by the Disclosing Party, will not be treated as confidential information.",
+        "explanation": "This change contradicts the definition of 'Confidential Information' by explicitly excluding contact information which was originally included. This creates ambiguity as to whether the Receiving Party is obligated to protect this specific data.",
+        "location": "1",
+        "contradicted_location": "6",
+        "contradicted_text": "The Receiving Party expressly agrees not to circumvent, avoid, bypass or obviate the Disclosing Party in any manner, directly or indirectly, to avoid payment of fees, royalties, or any other obligation in any way involving any of the parties introduced and Confidential Information disclosed pursuant to this Agreement, or any transaction contemplated hereunder or other business arrangement arising out of or connected in any way to the Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly excludes contact information from being treated as confidential information, which directly contradicts the contradicted text. The contradicted text states that the Receiving Party agrees not to circumvent the Disclosing Party to avoid payment of fees involving any of the parties introduced and Confidential Information disclosed, which previously included contact information. Therefore, the change creates a direct conflict and in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Receiving Party shall not, without prior written approval of Disclosing Party, use for Receiving Party's own benefit, publish, copy, transmit, use, or otherwise disclose to others, or permit the use by others for their benefit or to the detriment of Disclosing Party, any Confidential Information.",
+        "changed_text": "Receiving Party shall not, without prior written approval of Disclosing Party, use for Receiving Party's own benefit, publish, copy, transmit, use, or otherwise disclose to others, or permit the use by others for their benefit or to the detriment of Disclosing Party, any Confidential Information, except they are allowed to use the confidential information to contact the parties introduced by the disclosing party.",
+        "explanation": "By adding 'except they are allowed to use the confidential information to contact the parties introduced by the disclosing party' after 'any Confidential Information', this modifies the obligations of the Receiving Party, giving them permission to use confidential information for contacting parties, while previously they needed written approval for any use.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "Receiving Party shall hold and maintain the Confidential Information in strictest confidence for the sole and exclusive benefit of the Disclosing Party. Receiving Party shall carefully restrict access to Confidential Information to any employees, contractors, agents, and any other third parties as is reasonably required and shall require those persons to sign non-disclosure restrictions at least as protective as those in this Agreement. Receiving Party shall not, without prior written approval of Disclosing Party, use for Receiving Party's own benefit, publish, copy, transmit, use, or otherwise disclose to others, or permit the use by others for their benefit or to the detriment of Disclosing Party, any Confidential Information, except they are allowed to use the confidential information to contact the parties introduced by the disclosing party. Receiving Party shall return to Disclosing Party any and all records, documents, graphics, electronic files, notes, and other written, printed, or electronic copies, or other tangible materials or digital files in its possession pertaining to Confidential Information immediately if Disclosing Party requests it in writing.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the Receiving Party shall not use Confidential Information without prior written approval. The changed text adds an exception, allowing the Receiving Party to use confidential information to contact parties introduced by the disclosing party. The contradicted text includes the original clause and repeats it, which creates a contradiction because the original clause requires prior written approval for any use of confidential information, while the new clause permits use without written approval for contacting introduced parties. This directly conflicts and falls under Structural Flaws - In Text Contradiction"
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Receiving Party expressly agrees not to circumvent, avoid, bypass or obviate the Disclosing Party in any manner, directly or indirectly, to avoid payment of fees, royalties, or any other obligation in any way involving any of the parties introduced and Confidential Information disclosed pursuant to this Agreement, or any transaction contemplated hereunder or other business arrangement arising out of or connected in any way to the Confidential Information.",
+        "changed_text": "The Receiving Party expressly agrees not to circumvent, avoid, bypass or obviate the Disclosing Party in any manner, directly or indirectly, to avoid payment of fees, royalties, or any other obligation in any way involving any of the parties introduced and Confidential Information disclosed pursuant to this Agreement, or any transaction contemplated hereunder or other business arrangement arising out of or connected in any way to the Confidential Information, unless otherwise agreed in a separate oral agreement.",
+        "explanation": "The addition of 'unless otherwise agreed in a separate oral agreement' introduces an exception to the non-circumvention clause, which was previously absolute. Now, the Receiving Party can circumvent the Disclosing Party if an oral agreement allows it, which contradicts the purpose of the clause and overall agreement.",
+        "location": "6",
+        "contradicted_location": "9",
+        "contradicted_text": "The Parties agree that this Agreement constitutes the entire Agreement and the understanding of the Parties concerning subject matter hereof and this Agreement supersedes all previous communications, proposals, representations and agreements, whether oral or written, relating thereto, among these parties. This Agreement may not be amended except in a writing signed by both Parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text established a firm non-circumvention agreement. The changed text introduces an oral exception, which directly contradicts the 'Contradicted Text' stating that 'This Agreement may not be amended except in a writing signed by both Parties.' The allowance of oral agreements directly conflicts with the requirement of written amendments, creating a clear in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement may not be amended except in a writing signed by both Parties.",
+        "changed_text": "This Agreement may not be amended except in a writing signed by both Parties. However, certain clauses, specifically clauses 1 and 4 can be modified by email correspondence between the parties.",
+        "explanation": "The added sentence introduces an exception to the rule that amendments must be in writing. Now, certain clauses can be amended via email, directly contradicting the previous statement and creating uncertainty about how the agreement can be legitimately changed.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "The Parties agree that this Agreement constitutes the entire Agreement and the understanding of the Parties concerning subject matter hereof and this Agreement supersedes all previous communications, proposals, representations and agreements, whether oral or written, relating thereto, among these parties. This Agreement may not be amended except in a writing signed by both Parties. However, certain clauses, specifically clauses 1 and 4 can be modified by email correspondence between the parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the agreement can only be amended in writing signed by both parties. The changed text adds a sentence that introduces an exception, allowing certain clauses (1 and 4) to be modified via email, which directly contradicts the previous statement. The contradicted text explicitly states that the agreement can only be amended in writing signed by both parties, so the added sentence creates a direct contradiction. This aligns with the 'Structural Flaws - In Text Contradiction' definition, where conflicting implications are introduced."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "All matters affecting the interpretation of this Agreement and the rights of the parties hereto shall be governed by the laws of the United States and the State of California, without reference to rules governing choice of laws.",
+        "changed_text": "All matters affecting the interpretation of this Agreement and the rights of the parties hereto shall be governed by the laws of the United States and the State of California, without reference to rules governing choice of laws, except for disputes relating to intellectual property, which shall be governed by the laws of Delaware.",
+        "explanation": "This changes the governing law for specific types of disputes (intellectual property) to the laws of Delaware. This contradicts the previous statement that all matters are governed by California law, introducing confusion and potential legal challenges in determining the applicable law.",
+        "location": "12",
+        "contradicted_location": "12",
+        "contradicted_text": "All matters affecting the interpretation of this Agreement and the rights of the parties hereto shall be governed by the laws of the United States and the State of California, without reference to rules governing choice of laws, except for disputes relating to intellectual property, which shall be governed by the laws of Delaware.This Agreement and each party's obligations shall be binding on the representatives, assigns, and successors of such party. Each party has signed this Agreement through its authorized representative.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the governing law for intellectual property disputes, specifying Delaware law instead of California law, which was previously stated to govern 'all matters.' This creates a direct conflict with the initial statement and thus a strong in-text contradiction. Since the Contradicted text contains the same contradiction it means the changed text still creates a contradiction."
+      }
+    ]
+  }
+]

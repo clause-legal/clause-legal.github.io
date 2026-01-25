@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "QuantumGroupIncFl_20090120_8-K_EX-99.2_3672910_EX-99.2_Hosting Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "\"Base Components\" means the hardware and software that IBM makes available, if any, as specified in Attachment B.",
+        "changed_text": "\"Base Components\" means only the hardware that IBM makes available, if any, as specified in Attachment B. Software is considered part of customer managed infrastructure.",
+        "explanation": "This change introduces a contradiction because the definition of 'Base Components' is narrowed to exclude software, but later sections of the document (such as 2.0 Base Component Software in attachment A) continue to refer to 'Base Component software,' creating confusion about what is covered under the base service agreement. Base components in the original are defined as hardware and software. The change excludes the software from the definition.",
+        "location": "2.0 Definitions",
+        "contradicted_location": "Attachment A - Services",
+        "contradicted_text": "2.0 Base Component Software\nIBM will provide the following Base Component software: Base Component software selected by IBM for server monitoring and management; Base Component software selected by IBM for antivirus scanning of Windows 2003 servers; Base Component software selected by IBM to enable backup and restoration Services; and Base Component software specified in Attachment B. Upon expiration or termination of this Attachment, Customer will certify in writing to IBM that all use of software Base Components by Customer has ceased and that Customer has retained no copy of such software.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text narrows the definition of \"Base Components\" to exclude software, while the contradicted text explicitly refers to \"Base Component software,\" creating a direct conflict. The change alters the original definition in a way that makes the contradicted text nonsensical because software is no longer a Base Component according to the changed definition. This directly breaks the compatibility between the clauses, because section 2.0 in the contradicted text discusses requirements for Base Component software."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Customer will pay to IBM all applicable charges specified in Attachment C. Charges may be specified as one-time, recurring, or usage.",
+        "changed_text": "Customer will pay to IBM all applicable charges specified in Attachment C. All charges are fixed and specified, no usage based charges will apply.",
+        "explanation": "The original text specifies charges can be one-time, recurring or usage based. The modified definition of charges says that all charges are fixed and specified. In Attachment C, the contract proceeds to list usage charges, directly contradicting the modified definition. This contradiction could lead to disputes over billing, because the original definition includes usage-based charges.",
+        "location": "5.0 Charges and Payment",
+        "contradicted_location": "Attachment C - Charges",
+        "contradicted_text": "Usage Charges\nAdditional hourly support Operational Assistance Per Hour $89.10\nSmartHands (systems administrative and technical assistance) Per Hour $188.02\nOperational DBA Per Hour; MS SQL $204.37\nCharges for additional hourly support requested by Customer, if any, (support that is outside the scope of services included in the monthly recurring charges specified above) will be due as incurred. IBM will charge for additional hourly support in fifteen (15) minute increments. b. Peak Bandwidth Usage Peak Bandwidth Usage charges for data traffic in excess of Committed Bandwidth are due as incurred. IBM will determine Peak Bandwidth Usage charges each month by subtracting the Committed Bandwidth from the Peak Bandwidth Usage for that month and multiplying the difference by the Peak Bandwidth Usage rate of $147.14.00 per Mbps. c. SmartHands hourly support Charges for SmartHands hourly support requested by Customer, if any, will be due as incurred. IBM will charge for SmartHands hourly support in fifteen (15) minute increments. d. Additional Hourly Database Support Charges for additional hourly database support (\"Additional Hourly Database Support\") requested by Customer, if any, (database support that is outside the scope of database support hours included in the monthly recurring charges) will be due as incurred. IBM will charge for Additional Hourly Database Support in fifteen (15) minute increments.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states \"All charges are fixed and specified, no usage based charges will apply.\" This directly contradicts the Contradicted Text which explicitly outlines \"Usage Charges\" for various services such as \"Additional hourly support\", \"SmartHands\", and \"Operational DBA\" with rates specified per hour or per Mbps. This conflict creates an in-text contradiction because the contract now contains mutually exclusive statements about the nature of charges, meeting the Ambiguities – In Text Contradiction definition."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement will be governed by the substantive laws of the State of New York, without regard for its conflict of laws provisions.",
+        "changed_text": "This Agreement will be governed by the substantive laws of the State of Delaware, without regard for its conflict of laws provisions. All legal proceedings related to this agreement must be conducted in Delaware, regardless of where services are rendered.",
+        "explanation": "The original text states that the agreement is governed by New York law, while the modified text says Delaware law governs. This direct contradiction creates confusion about which state's legal framework applies. The choice of law provision directly affects how disputes are resolved. This is further exacerbated by the clause forcing all proceeding in Delaware, no matter were the service are rendered. Also it contradicts what is in section 14.10 Geographic Scope. IBM obligations arising out of this Agreement are valid only in the United States of America",
+        "location": "14.0 General",
+        "contradicted_location": "14.0 General",
+        "contradicted_text": "Geographic Scope\nThe parties agree that while Services Recipients outside of the United States of America may access the Services, Customer's rights and IBM's obligations arising out of the Agreement are valid only in the United States of America.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text specifies that Delaware law governs the agreement and that legal proceedings must be conducted in Delaware, regardless of where services are rendered. This directly contradicts the contradicted text, which states that IBM's obligations arising out of the agreement are valid only in the United States of America. If the agreement is governed by Delaware law, and legal proceedings must occur in Delaware, it contradicts the geographic scope limitation. The choice of law and venue provisions are fundamental aspects of the contract, and their conflict creates a clear and impactful inconsistency."
+      }
+    ]
+  }
+]

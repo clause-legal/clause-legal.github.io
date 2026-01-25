@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "LSP-data-protection-form.drc_.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Data Protection Act 1998 reiterates this point and makes it a legal requirement that effective agreements exist where a third party processes data.",
+        "changed_text": "The Data Protection Act 1998 does not explicitly mandate that effective agreements are always necessary when a third party processes data; the need for such agreements is dependent on the specific circumstances and data sensitivity.",
+        "explanation": "By stating that the Data Protection Act 1998 'does not explicitly mandate' agreements and that the need is 'dependent on the specific circumstances', it contradicts the original implication that such agreements are a 'legal requirement'. This creates uncertainty about the legal obligations regarding data protection agreements.",
+        "location": "Background Information",
+        "contradicted_location": "1",
+        "contradicted_text": "1. The following terms apply where an organisation or its staff may gain access to, or have provided to it, personal identifiable information (defined within the terms of the Data Protection Act 1998) when working for, or with the ‘d ata controller’. It also applies where the contracted third party is privilege to commercially sensitive information, security related information and any intellectual property of the contracting organisation.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a contradiction. Originally, the text stated that the Data Protection Act 1998 made effective agreements a 'legal requirement'. The changed text states that the Act 'does not explicitly mandate' such agreements and that the need is 'dependent on the specific circumstances'. This directly contradicts the contradicted text, which states that certain terms 'apply where an organisation or its staff may gain access to...personal identifiable information (defined within the terms of the Data Protection Act 1998)'. The changed text weakens the legal obligation outlined in the original text and, as a result, creates uncertainty about the applicability of the terms described in the contradicted text."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Any information (personal or organisational) will only be used for purposes agreed between the organisations.",
+        "changed_text": "Any information (personal or organisational) may be used for any purpose deemed necessary by the LSP, regardless of prior agreements.",
+        "explanation": "This change directly contradicts the original statement. Originally, information use was restricted to 'purposes agreed between the organisations'. Now, the LSP can use the data for 'any purpose deemed necessary', creating a conflict regarding data usage rights and expectations.",
+        "location": "3",
+        "contradicted_location": "5",
+        "contradicted_text": "5. All personal identifiable information will be treated as confidential and will not be disclosed to any other persons outside the requi rements of the above agreed purpose(s), without agreement of the ‘data controller’. Any organisational information marked as ‘commercial’ or ‘sensitive’ or by implication of the subject could prejudice the commercial interests of either party will be treat ed as confidential.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text allows the LSP to use information for any purpose, regardless of prior agreements, which directly contradicts the contradicted text. The contradicted text states that personal identifiable information will not be disclosed outside of the 'above agreed purpose(s)' without agreement of the ‘data controller’. The original text limits usage to agreed purposes, while the changed text removes this restriction, creating a direct conflict and in-text contradiction regarding data usage. Therefore, 'YES' is assigned as the changed text alters an obligation in a way that breaks consistency."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Agreed destruction method: Shredding of paper based information and deletion of electronic information",
+        "changed_text": "Agreed destruction method: No specific method is required; the LSP may retain or dispose of information at their discretion.",
+        "explanation": "The original text specifies a method of destruction. The modification stating 'no specific method is required' allows the LSP to ignore the agreed-upon destruction method, contradicting the prior agreement on data handling and security.",
+        "location": "3",
+        "contradicted_location": "8",
+        "contradicted_text": "8. Any breach of the terms of this agreement may result in termination of arrangements ( including formal contracts) and legal action may be taken.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies shredding/deletion. The changed text allows any method of disposal or retention at the LSP's discretion. This directly contradicts clause 8, which states that any breach of the agreement terms may result in termination and legal action. Since the changed text allows for disposal methods that are not shredding/deletion, this represents a potential breach of the original agreement, thus creating a strong contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "All personal identifiable information will be treated as confidential and will not be disclosed to any other persons outside the requi rements of the above agreed purpose(s), without agreement of the ‘data controller’.",
+        "changed_text": "All personal identifiable information may be disclosed to third parties for unspecified purposes, even without the agreement of the ‘data controller’.",
+        "explanation": "This negates the confidentiality clause. The original text strictly prohibits disclosure without agreement. The modified text permits disclosure to third parties without agreement, which directly violates the intended confidentiality.",
+        "location": "5",
+        "contradicted_location": "7",
+        "contradicted_text": "7. Where the activities performed by the contractor (in this case LSP) do not require them to process information but they may become party to it by overse eing or overhearing, they will be required to keep such information confidential.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. The original text mandates confidentiality of personal identifiable information, and the contradicted text requires contractors to keep information confidential. However, the changed text permits disclosure to third parties without agreement, which violates both the original intent of confidentiality and the requirement for contractors to maintain confidentiality. The explanation states that the changed text negates the confidentiality clause, which creates an in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "A DRC email account to be used to send and receive personally identifiable data.",
+        "changed_text": "LSPs are permitted to use their own email accounts, without encryption or special security, for sending and receiving personally identifiable data.",
+        "explanation": "This change introduces a contradiction by undermining the security measures for data transmission. Initially, the use of a DRC email account implied a secure and controlled environment. By allowing LSPs to use their own accounts 'without encryption or special security,' the provision introduces risk and goes against the intention of protecting sensitive information as previously agreed.",
+        "location": "6",
+        "contradicted_location": "5",
+        "contradicted_text": "5. All personal identifiable information will be treated as confidential and will not be disclosed to any other persons outside the requi rements of the above agreed purpose(s), without agreement of the ‘data controller’. Any organisational information marked as ‘commercial’ or ‘sensitive’ or by implication of the subject could prejudice the commercial interests of either party will be treat ed as confidential.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text allows LSPs to use their own email accounts without encryption, directly contradicting the contradicted text which states that all personal identifiable information will be treated as confidential and not disclosed outside the agreed purposes. Allowing unencrypted email communication introduces a significant risk of disclosure and compromises confidentiality, thus creating a strong in-text contradiction. This aligns with the 'Structural Flaws' definition, as the initial implied security of using a DRC email is now undermined by allowing potentially insecure alternatives."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The organisation (in this c ase LSP) is responsible for ensuring their staff/ sub-contractors adhere to the terms of this agreement.",
+        "changed_text": "The LSP is not responsible for the actions of their staff or sub-contractors regarding adherence to this agreement; individual accountability applies.",
+        "explanation": "This eliminates the LSP's responsibility for their staff and subcontractors, contradicting the initial clause that holds the LSP accountable. The addition of 'individual accountability applies' creates further confusion, as it's unclear how individual accountability will be enforced and whether it absolves the LSP of any oversight duties.",
+        "location": "9",
+        "contradicted_location": "8",
+        "contradicted_text": "8. Any breach of the terms of this agreement may result in termination of arrangements ( including formal contracts) and legal action may be taken.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that the LSP is responsible for ensuring staff/sub-contractors adhere to the terms. The changed text states the opposite: the LSP is NOT responsible for the actions of their staff, contradicting the original clause. Section 8 states that any breach of the terms of this agreement may result in termination. Since the LSP was originally responsible for ensuring their staff adhere to the terms, the LSP could be held liable for their staff's breaches. The change absolves the LSP from this responsibility, thus making section 8 potentially unenforceable against the LSP for their staff's breaches. This creates a direct conflict and thus qualifies as a Structural Flaw, as the LSP's responsibility is stated in conflicting terms in the document."
+      }
+    ]
+  }
+]

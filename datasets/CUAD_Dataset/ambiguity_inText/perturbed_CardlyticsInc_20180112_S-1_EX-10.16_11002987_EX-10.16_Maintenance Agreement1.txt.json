@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement1.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "A. During the Warranty Period, Supplier shall provide Bank of America Maintenance Services at no additional charge, provided that if a Customization is not Operative at the end of the applicable Warranty Period, Maintenance Services shall continue to be provided without additional charge until the Customization is Operative.",
+        "changed_text": "A. During the Warranty Period, Supplier *may* provide Bank of America Maintenance Services at no additional charge, provided that if a Customization is not Operative at the end of the applicable Warranty Period, Maintenance Services shall continue to be provided without additional charge until the Customization is Operative.",
+        "explanation": "Changing 'shall' to 'may' in Schedule D, Section A introduces ambiguity about the supplier's obligation to provide maintenance services during the warranty period. This contradicts Section 11.1 which says 'Supplier shall provide the Maintenance Services attached hereto as SCHEDULE D'. Now it is uncertain whether Supplier is mandatorily obligated to provide those maintenance services.",
+        "location": "SCHEDULE D",
+        "contradicted_location": "11.0",
+        "contradicted_text": "11.0 MAINTENANCE SERVICES\n11.1 Supplier shall provide the Maintenance Services attached hereto as SCHEDULE D.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'shall' to 'may' in Schedule D, Section A introduces ambiguity about the supplier's obligation to provide maintenance services during the warranty period. The original text stated: 'During the Warranty Period, Supplier shall provide Bank of America Maintenance Services at no additional charge...', indicating a mandatory obligation. However, the changed text says: 'During the Warranty Period, Supplier *may* provide Bank of America Maintenance Services at no additional charge...', indicating a discretionary action. This directly contradicts Section 11.1 which states: 'Supplier shall provide the Maintenance Services attached hereto as SCHEDULE D.', thereby creating a strong in-text contradiction regarding the supplier's obligation to provide maintenance services."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "1.4 Affiliate - a business entity now or hereafter controlled by, controlling or under common control with a Party. Control exists when an entity owns or controls directly or indirectly 50% or more of the outstanding equity representing the right to vote for the election of directors or other managing authority of another entity.",
+        "changed_text": "1.4 Affiliate - a business entity now or hereafter controlled by, controlling or under common control with a Party. Control exists when an entity owns or controls directly or indirectly 25% or more of the outstanding equity representing the right to vote for the election of directors or other managing authority of another entity.",
+        "explanation": "The definition of 'Affiliate' in Section 1.4 is modified to state that control exists with 25% or more equity, contradicting Section 2.8 which states that rights inure to all Bank of America Affiliates without explicitly mentioning the need for an 'Order' or other mechanism to specifically include them. This creates a contradiction, as the definition of which entities can execute orders and purchase Licensed Programs could be interpreted differently based on whether the 25% or the original 50% ownership threshold is used. Thus, this creates an ambiguity about which entities qualify as affiliates and can exercise the rights granted in Section 2.8.",
+        "location": "1.0",
+        "contradicted_location": "2.8",
+        "contradicted_text": "2.8 Supplier expressly acknowledges and agrees that the rights of Bank of America set forth in this Agreement shall inure to all Bank of America Affiliates, provided that Bank of America shall be responsible for the obligations of its Affiliates under this Agreement. Such Affiliates may execute Orders and purchase Licensed Programs hereunder.",
+        "contradiction_exists": "YES",
+        "justification": "The modification to the definition of 'Affiliate' from 50% to 25% ownership directly contradicts Section 2.8. Section 2.8 grants rights to 'all Bank of America Affiliates'. By lowering the ownership threshold in the definition, the scope of 'Affiliates' is broadened. This directly impacts which entities can 'execute Orders and purchase Licensed Programs hereunder' as stated in Section 2.8, creating an inconsistency and potential dispute over who qualifies as an Affiliate and thus, who can exercise the rights granted in Section 2.8. This falls under the definition of 'Ambiguities – In Text Contradiction' where key terms are defined inconsistently."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "33.1 Supplier shall maintain at no additional cost to Bank of America, in a reasonably accessible location, all Records pertaining to its Products and services provided to Bank of America under this Agreement for a period of seven (7) years or as required by law, if longer. Such Supplier Records referenced above may be inspected, audited and copied by Bank of America, its Representatives or by federal or state agencies having jurisdiction over Bank of America, during normal business hours and at such reasonable times as Bank of America and Supplier may determine.",
+        "changed_text": "33.1 Supplier shall maintain at no additional cost to Bank of America, in a reasonably accessible location, all Records pertaining to its Products and services provided to Bank of America under this Agreement for a period of three (3) years or as required by law, if longer. Such Supplier Records referenced above may be inspected, audited and copied by Bank of America, its Representatives or by federal or state agencies having jurisdiction over Bank of America, during normal business hours and at such reasonable times as Bank of America and Supplier may determine.",
+        "explanation": "Changing the records retention period from seven to three years in Section 33.1 creates a contradiction with Section 5.9, which states that provisions of the 'AUDIT' Section shall survive in perpetuity any termination of this Agreement. If 'Audit' provisions survive termination, yet the record retention requirement is only three years, it implies that post-termination audits may be impossible to conduct effectively after three years. Thus, creates an internal contradiction on how long the Audit process can be performed after the termination.",
+        "location": "33.0",
+        "contradicted_location": "5.9",
+        "contradicted_text": "5.9 The rights and obligations of the Parties which by their nature must survive termination or expiration of this Agreement in order to achieve its fundamental purposes including, without limitation, the provisions of the following Sections, \"AUDIT, \"CONFIDENTIALITY AND INFORMATION PROTECTION,\" \"INDEMNITY,\" \"LICENSE,'' \"LIMITATION OF LIABILITY. \"MEDIATION/ARBITRATION,\" \"OWNERSHIP OF WORK PRODUCT\" and \"MISCELLANEOUS\" shall survive in perpetuity any termination of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The change in Section 33.1, reducing the record retention period from seven years to three years, directly contradicts Section 5.9. Section 5.9 stipulates that audit provisions survive in perpetuity. If records are only retained for three years, it becomes impossible to conduct meaningful audits after that period, rendering the survival clause in Section 5.9 ineffective and creating an in-text contradiction. This falls under the 'Ambiguities - In Text Contradiction' perturbation type."
+      }
+    ]
+  }
+]

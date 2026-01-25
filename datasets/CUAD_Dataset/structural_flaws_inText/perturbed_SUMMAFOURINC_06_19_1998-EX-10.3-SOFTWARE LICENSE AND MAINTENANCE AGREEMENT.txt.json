@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "SUMMAFOURINC_06_19_1998-EX-10.3-SOFTWARE LICENSE AND MAINTENANCE AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "1.6 \"New Version\" in this Agreement shall mean a new release of Licensed Technology that provides significant performance enhancements, including new releases of software product optimized for different members of the same DSP processor family which is based on the same core architecture and instruction set.",
+        "changed_text": "1.6 \"New Version\" in this Agreement shall mean a new release of Licensed Technology that may or may not provide significant performance enhancements, including new releases of software product optimized for different members of the same DSP processor family which is based on the same core architecture and instruction set.",
+        "explanation": "The original definition of 'New Version' implies that it *always* provides significant performance enhancements. By inserting 'may or may not', we introduce uncertainty and a direct contradiction. It is now unclear if a 'New Version' necessarily offers improved performance. This contradiction can creates uncertainty in article 6.2 (i) where it assumes D2 will update and maintain Licensed Technology throughout the term of this Agreement, and states that D2 shall release at least 1 Update or New Version release during each 12 month calendar year, this makes it uncertain whether D2 is obligated to provide versions with significant performance enhancements as part of their maintenance obligations.",
+        "location": "1.6",
+        "contradicted_location": "6.2",
+        "contradicted_text": "6.2 Maintenance. Maintenance to be provided by D2 to LICENSEE shall include without limitation the following services; (i) D2 shall update and maintain the Licensed Technology throughout the term of this Agreement. It is intended that D2 shall release at least 1 Update or New Version release during each 12 month calendar year. Upon the releases of any Update or New Version of the Licensed Technology (including manuals), D2 shall promptly notify and deliver to LICENSEE such Update or New Version. (ii) D2 will initially deliver to LICENSEE one (1) copy of any Updates or New Versions to the Licensed Technology and one (1) set of corresponding manuals for each copy of the Licensed Technology for which LICENSEE has paid the appropriate development license fees and maintenance fees pursuant to Exhibit C as soon as such Updates or New Versions and corresponding manuals become available and shall maintain such Updates or New Versions throughout this agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original definition of 'New Version' mandated significant performance enhancements. The change introduces 'may or may not', creating a direct contradiction. Section 6.2(i) assumes D2 will update and maintain the Licensed Technology and release at least 1 New Version per year. With the change, it is unclear if D2 is obligated to provide versions with *significant* performance enhancements, creating a contradiction. The phrase 'may or may not' directly conflicts with the assumption implied in 6.2 (i) that New Versions will include significant performance enhancements."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "2.2 License to LICENSEE. (i) Subject to the terms and conditions of this Agreement, D2 hereby grants LICENSEE a perpetual non-exclusive, worldwide license, to use Licensed Technology in Object Code format only as an incorporated part of the Licensee Product. For this purpose, LICENSEE may also modify, create derivative works, of and reproduce and have reproduced the Licensed Technology, and to develop, use, market and distribute (directly or through third parties) Licensed Technology, or modifications or derivative works of the Licensed Technology created by or for LICENSEE.",
+        "changed_text": "2.2 License to LICENSEE. (i) Subject to the terms and conditions of this Agreement, D2 hereby grants LICENSEE a temporary non-exclusive, worldwide license, to use Licensed Technology in Object Code format only as an incorporated part of the Licensee Product. For this purpose, LICENSEE may also modify, create derivative works, of and reproduce and have reproduced the Licensed Technology, and to develop, use, market and distribute (directly or through third parties) Licensed Technology, or modifications or derivative works of the Licensed Technology created by or for LICENSEE.",
+        "explanation": "The original text explicitly grants LICENSEE a *perpetual* license. By changing it to *temporary*, we directly contradict this initial statement. This introduces uncertainty about the duration of the license, this contradicts article 9.1 'Term. This Agreement shall become effective on the Effective Date and shall continue in effect until terminated in accordance with the provisions of this Article 9.', as now the license in article 2.2 is temporary and not perpetual",
+        "location": "2.2",
+        "contradicted_location": "9.1",
+        "contradicted_text": "9.1 Term. This Agreement shall become effective on the Effective Date and shall continue in effect until terminated in accordance with the provisions of this Article 9.",
+        "contradiction_exists": "YES",
+        "justification": "The original text grants a 'perpetual' license in section 2.2, meaning it lasts forever. The changed text modifies this to a 'temporary' license. Section 9.1 states that the agreement continues until terminated according to Article 9. By changing 'perpetual' to 'temporary,' section 2.2 now contradicts section 9.1. The license duration is no longer clearly aligned with the overall agreement term, thus creating a strong in-text contradiction."
+      }
+    ]
+  }
+]

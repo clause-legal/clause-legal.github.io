@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "SalesforcecomInc_20171122_10-Q_EX-10.1_10961535_EX-10.1_Reseller Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "SFDC hereby appoints SUB-RESELLER (\"Sub-Reseller\") as a sub-reseller to whom Reseller may resell Services in accordance with Section 2(ii) of the Agreement, provided that Sub-Reseller may only resell such Services to Customer.",
+        "changed_text": "SFDC hereby appoints SUB-RESELLER (\"Sub-Reseller\") as a sub-reseller to whom Reseller may resell Services in accordance with Section 2(ii) of the Agreement, provided that Sub-Reseller may resell such Services to any entity, including but not limited to, Customers and other Resellers.",
+        "explanation": "This change broadens the scope of Sub-Reseller's resale rights, contradicting the original restriction to 'Customer' only. This creates uncertainty about who Sub-Resellers can legally sell to under the agreement. This directly contradicts the part 'Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub- Reseller were an original party to the Agreement', since there would be different applications of the agreement, thus contradicting that segment of the paragraph.",
+        "location": "1",
+        "contradicted_location": "1",
+        "contradicted_text": "Resale Rights. SFDC hereby appoints SUB-RESELLER (\"Sub-Reseller\") as a sub-reseller to whom Reseller may resell Services in accordance with Section 2(ii) of the Agreement, provided that Sub-Reseller may resell such Services to any entity, including but not limited to, Customers and other Resellers. Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub- Reseller were an original party to the Agreement and any breach by Sub-Reseller of the Agreement will be deemed a breach by Reseller. Sub-Reseller is not be a third-party beneficiary of the Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text restricts Sub-Resellers to selling only to 'Customers,' while the changed text allows them to sell to 'any entity, including but not limited to, Customers and other Resellers.' The contradicted text states 'Reseller must ensure that Sub-Reseller complies with the terms of the Agreement applicable to Reseller as if Sub-Reseller were an original party to the Agreement.' The change introduces different applications of the agreement for Sub-Resellers depending on whom they sell to, thus violating the initial agreement."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Sub-Reseller Agreement may be executed in one or more counterparts, including facsimiles or scanned copies sent via email or otherwise, each of which will be deemed to be a duplicate original, but all of which, taken together, will be deemed to constitute a single instrument.",
+        "changed_text": "This Sub-Reseller Agreement must be executed in a single original hard copy, delivered physically by courier. Facsimiles or scanned copies, sent via email or otherwise, will not be considered valid counterparts. Until a physical original is received by SFDC, this agreement is provisional.",
+        "explanation": "This change directly contradicts the allowance of counterpart execution, specifying that only a single, physically delivered original is valid. This creates ambiguity and potential legal challenges concerning the validity of agreements executed using previously acceptable methods, directly opposing the initial allowance that 'each of which will be deemed to be a duplicate original'.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "Counterparts. This Sub-Reseller Agreement must be executed in a single original hard copy, delivered physically by courier. Facsimiles or scanned copies, sent via email or otherwise, will not be considered valid counterparts. Until a physical original is received by SFDC, this agreement is provisional.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly states that the Sub-Reseller Agreement 'must be executed in a single original hard copy' and that 'facsimiles or scanned copies...will not be considered valid counterparts'. This directly contradicts the original text's allowance for 'one or more counterparts, including facsimiles or scanned copies sent via email', establishing a clear and impactful conflict concerning the validity of agreement execution methods. The explanation provided correctly identifies that the new version is creates an 'in-text contradiction' by 'creating ambiguity and potential legal challenges concerning the validity of agreements executed using previously acceptable methods'."
+      }
+    ]
+  }
+]

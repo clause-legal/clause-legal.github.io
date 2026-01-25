@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Confidentiality%20and%20Non-Disclosure%20Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Information is to be used by the undersigned, its affiliates, and their respective directors, officers, employees, accountants, attorneys, solicitors, financing sources, consultants, agents, repres entatives and advisors and their respective representatives, to the extent the foregoing ar e actually provided access to t he Information by the undersigned (collectively the “ Representatives ”), only in connection with the consideration of a possible acquisition of the Assets;",
+        "changed_text": "The Information *may* be used by the undersigned, its affiliates, and their respective directors, officers, employees, accountants, attorneys, solicitors, financing sources, consultants, agents, repres entatives and advisors and their respective representatives, to the extent the foregoing ar e actually provided access to t he Information by the undersigned (collectively the “ Representatives ”), only in connection with the consideration of a possible acquisition of the Assets;",
+        "explanation": "Changing 'is to be used' to 'may be used' introduces optionality, making the use of Information discretionary. This creates uncertainty if the recipient uses the information for purposes other than the potential acquisition, especially when Section 6 prohibits certain contact regarding the acquisition. This contradicts the implicit necessity to use the data for the potential acquisition as stated in that section. What is meant by the wording 'ordinary course of business' now could be interpreted in a conflicting manner.",
+        "location": "3",
+        "contradicted_location": "6",
+        "contradicted_text": "The undersigned and its Representatives shall under no circumstances contact directly or indirectly any of the residents, partners or former partners or directors of Baldwin: (i) to ask any questions regarding the possible acquisition of all or part of the Assets, (ii) to request additional information or regarding the contents of any of the Information previously obtained, (iii) to request a facility tour or meeting, or (iv) for any other reason , except in the ordinary course of business;",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated 'The Information is to be used...' implying a mandatory action. The changed text modifies this to 'The Information may be used...', making the use of the information optional. This contradicts the section stating that the undersigned and its Representatives shall under no circumstances contact any of the residents, partners or former partners or directors of Baldwin to ask questions regarding the possible acquisition of all or part of the Assets, except in the ordinary course of business. The change introduces ambiguity, especially if the recipient chooses not to use the information for the intended acquisition, impacting the ordinary course of business exception. The lack of mandatory use creates a loophole that undermines the restrictions in the contradicted text, leading to uncertainty and a direct conflict. This fits the Ambiguities - In Text Contradiction definition."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The undersigned shall be responsible for any breach of the provisions of this NDA by any of the Representatives to whom the undersigned discloses Information;",
+        "changed_text": "The undersigned shall be responsible for any *material* breach of the provisions of this NDA by any of the Representatives to whom the undersigned discloses Information;",
+        "explanation": "Adding 'material' before 'breach' introduces subjectivity. The term 'material' is undefined, making it unclear what level of breach triggers responsibility. This conflicts with Section 9 which enforces strict indemnification against 'any' losses. The change limits the indemnification to a subjective assessment of material breach.",
+        "location": "5",
+        "contradicted_location": "9",
+        "contradicted_text": "The undersigned shall indemnify BDO , Baldwin and their representatives against any losses, cost s, damage s, expense s or liabilities suffered or incurred by any of them as a result of or in connection with any breach by the undersigned or any of its Representatives to whom the undersigned discloses Information of any term or provision of this NDA; prov ided, however, that the undersigned shall not be liable for any consequential, special, incidental, indirect or penal damages;",
+        "contradiction_exists": "YES",
+        "justification": "The original text holds the undersigned responsible for 'any' breach. The changed text limits this responsibility to 'material' breaches, introducing a subjective and undefined standard. This directly contradicts the contradicted text, which requires indemnification against 'any' losses resulting from 'any' breach. The addition of 'material' narrows the scope of responsibility and creates a conflict in the types of breaches that trigger indemnification, making enforcement unclear and therefore creating a strong in-text contradiction based on the definition of 'Ambiguities – In Text Contradiction'."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The term “Information” does not include and this NDA will not apply to any information that : (a) at the time of disclosure or thereafter is generally available to or known by the public (other than as a result of a disclosure by the undersigned or any of its Representativ es in violation of any obligation under this NDA);",
+        "changed_text": "The term “Information” does not include and this NDA will not apply to any information that : (a) at the time of disclosure or thereafter is generally available to or known by the public (other than as a result of a disclosure by the undersigned or any of its Representativ es *without direct knowledge of the disclosure being a violation* of any obligation under this NDA);",
+        "explanation": "The added wording creates a loophole. If the Representatives disclose information without knowing it's a violation, it's not included as part of the definition of information and the NDA doesn't apply. However, Section 5 states the undersigned is responsible for ANY breach, irrespective of knowledge. The introduction of the limitation on 'knowledge' introduces a loophole, creating ambiguity in enforcement.",
+        "location": "8",
+        "contradicted_location": "5",
+        "contradicted_text": "The undersigned shall be responsible for any breach of the provisions of this NDA by any of the Representatives to whom the undersigned discloses Information;",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds a condition ('without direct knowledge of the disclosure being a violation') to the definition of 'Information' which narrows the scope of the NDA. This directly contradicts the contradicted text, which states the undersigned is responsible for ANY breach by representatives, irrespective of knowledge. The change introduces a loophole where a breach due to a representative's unknowing violation would not be covered, creating a clear in-text contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Upon receipt of a written request to the undersigned, the undersigned and its Representatives shall promptly return to BDO any and all Information received, printed, downloaded or otherwise copied together with personal notes including written materials an d any notes of verbal conversations with representatives from Baldwin or BDO obtained in the course of any investigation and/or inspection of the business and the Assets being offered for sale;",
+        "changed_text": "Upon receipt of a written request to the undersigned, the undersigned and its Representatives shall *endeavor to* promptly return to BDO any and all Information received, printed, downloaded or otherwise copied together with personal notes including written materials an d any notes of verbal conversations with representatives from Baldwin or BDO obtained in the course of any investigation and/or inspection of the business and the Assets being offered for sale;",
+        "explanation": "Changing 'shall promptly return' to 'shall endeavor to promptly return' transforms a firm obligation into a weaker, best-effort commitment. This contradicts the NDA's core principle of protecting confidentiality and the assumption within Appendix A, point 9, which says the the person agrees to promptly return all materials. This introduces ambiguity and creates uncertainty regarding the expected behavior. This introduces uncertainty about the data's security post termination.",
+        "location": "11",
+        "contradicted_location": "Appendix “A”",
+        "contradicted_text": "Upon receipt of a written request, you agree to promptly return to BDO all materials including those printed from the Website, written material and any notes of your verbal conversations with representatives of BDO obtained in the c ourse of any investigation and/or inspection of the Assets.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the undersigned 'shall promptly return' all materials, creating a firm obligation. The changed text weakens this obligation to 'shall endeavor to promptly return,' which introduces ambiguity and makes the return of materials less certain. This directly contradicts the contradicted text, which states 'you agree to promptly return to BDO all materials,' creating an inconsistency in the required actions regarding the return of materials. The original text imposes a clear and certain duty to return. The change transforms this into a 'best efforts' commitment, which contradicts the original intention and the echoed obligation in the contradicted text."
+      }
+    ]
+  }
+]

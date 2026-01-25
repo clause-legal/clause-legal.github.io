@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "1112999_0001193125-08-214471_dex105.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "“Business Day” means any day except Saturday, Sunday and statutory holidays observed in the Country of Korea.",
+        "changed_text": "“Business Day” means any day except Saturday and Sunday.",
+        "explanation": "By removing 'statutory holidays observed in the Country of Korea' from the definition of 'Business Day,' the contract now lacks clarity regarding which holidays are excluded. This creates an internal contradiction because other sections, such as 3.02 Termination (which specifies a 30-business day notice) rely on this definition. The lack of clarity about 'statutory holidays' creates ambiguity about the notice period and enforcement.",
+        "location": "1.01",
+        "contradicted_location": "3.02",
+        "contradicted_text": "Either party may terminate this Agreement without cause, by giving the other party five (30) Business Days advance written notice.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes 'statutory holidays observed in the Country of Korea' from the definition of 'Business Day'. The contradicted text states 'Either party may terminate this Agreement without cause, by giving the other party five (30) Business Days advance written notice.' Because the definition of 'Business Day' is now unclear, the 30-business day notice period is now ambiguous, directly creating an in-text contradiction. This falls under 'Omissions – In Text Contradiction' as essential language was removed creating a conflict with other sections relying on this definition."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "“Confidential Information” shall mean any information belonging to a party or a related company (as hereinafter defined) which is not generally available to or used by others, or the utility or value of which is not generally known or recognized as a standard practice and may include without limitation any and all financial information; any and all employment information; any and all technical and non-technical information, including patent, copyright, trade secret and similar proprietary information; any information related to current, future and proposed business information, plans, activities, products and services, computer software, and other technology, including without limitation, forecasts, market research, development, design details, specifications, financial information, procurement requirements, purchasing, manufacturing, contractor and subcontractor lists, and sales and merchandising plans (including such information of each and any affiliate, subsidiary, or the like) in any medium whatsoever, whether oral, written, machine readable data, through facsimile, electronic mail, postal service or otherwise, provided by or disclosed either directly or indirectly by the Disclosing Party to the Receiving Party whether such information is designated as confidential at the time of delivery or not.",
+        "changed_text": "“Confidential Information” shall mean only written documents explicitly marked as 'Confidential'.",
+        "explanation": "Changing the definition of 'Confidential Information' to include only written documents explicitly marked as 'Confidential' directly contradicts Section 4.03, 'Freedom to Disclose'. Section 4.03 acknowledges that the Disclosing Party has the discretion to determine what information is disclosed. By strictly limiting the scope of 'Confidential Information', the contract creates a contradiction because the party could still disclose sensitive information verbally and it will not be covered under the non-disclosure terms.",
+        "location": "1.01",
+        "contradicted_location": "4.03",
+        "contradicted_text": "Each party acknowledges that, notwithstanding the execution of the Agreement, each Disclosing Party maintains the sole and absolute discretion to determine what, if any, of its Confidential Information shall be disclosed to the Receiving Party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text significantly narrows the definition of 'Confidential Information' to only written documents explicitly marked as 'Confidential'. This directly contradicts the 'Freedom to Disclose' clause, which acknowledges the Disclosing Party's discretion to determine what information is disclosed. The original definition included a broad range of information, regardless of whether it was designated as confidential. The change creates a situation where the party could disclose sensitive information verbally, and it would not be covered under the non-disclosure terms, undermining the purpose of the confidentiality clause."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Each party’s right to use the Confidential Information is limited to use for the benefit of the party disclosing the Confidential Information as necessary to carry out the stated purpose of this Agreement.",
+        "changed_text": "Each party’s right to use the Confidential Information is unlimited.",
+        "explanation": "By modifying the definition to grant unlimited usage rights of the confidential information, it is in direct contradiction with Article II, specifically 2.04, Non-Disclosure, which mandates reasonable care to prevent unauthorized use and disclosure. The perturbation allows for unlimited use, undermining the core principle of non-disclosure established elsewhere in the agreement and therefore creating a conflict.",
+        "location": "2.01",
+        "contradicted_location": "2.04",
+        "contradicted_text": "The Receiving Party agrees to use reasonable care, but in no event less than the same degree of care that it uses to protect its own Confidential Information of a similar nature, to prevent the unauthorized use, disclosure, publication or dissemination of the Confidential Information. Each party shall only have the right to disclose the Confidential Information to its employees, agents and consultants on a “need to know” basis; provided, however, that disclosure in any event shall only be made to such persons who have agreed in writing to protect the confidentiality of the Disclosing Party’s information. Each party shall, prior to disclosing any Confidential Information to any such person, issue appropriate instructions to them and obtain all necessary undertakings to ensure that such Persons comply with the confidentiality and use obligations and restrictions contained In this Agreement with respect to the Confidential Information. These obligations shall survive termination or expiry of this Agreement. The Receiving Party may Disclose Confidential Information if required by law, provided that the Receiving Party will take reasonable steps to give the Disclosing Party sufficient prior written notice of the requirement and provide reasonable assistance to enable the Disclosing Party to seek protection of its Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text limited the use of confidential information, whereas the changed text grants unlimited usage rights. This directly contradicts the contradicted text, which mandates reasonable care to prevent unauthorized use and disclosure of confidential information. Unlimited use inherently conflicts with the obligation to prevent unauthorized use, thus creating a strong in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Receiving Party agrees to use reasonable care, but in no event less than the same degree of care that it uses to protect its own Confidential Information of a similar nature, to prevent the unauthorized use, disclosure, publication or dissemination of the Confidential Information.",
+        "changed_text": "The Receiving Party agrees to use reasonable care to prevent the unauthorized use, disclosure, publication or dissemination of the Confidential Information.",
+        "explanation": "By removing the phrase 'but in no event less than the same degree of care that it uses to protect its own Confidential Information of a similar nature', the contract now lacks a minimum standard of care. This omission creates an in-text contradiction in relation to Section 3.04, Breach, since the vagueness in standard of care now, will make it difficult to prove in court any breach if it is not clearly defined what is considered a breach.",
+        "location": "2.04",
+        "contradicted_location": "3.04",
+        "contradicted_text": "Each party agrees that any breach of this Agreement may give rise to irreparable damage to the other party, the injury to the other party from any such breach would be difficult to calculate, and that money damages would therefore be an inadequate remedy for that breach. Each party agrees that the other party will be entitled, in addition to all other remedies that the other party may have and without showing or proving any actual damage sustained by it, to seek an injunction or other order to restrain any breach, threatened breach or the continuation of any breach of this section.",
+        "contradiction_exists": "YES",
+        "justification": "The original text established a minimum standard of care ('but in no event less than the same degree of care that it uses to protect its own Confidential Information of a similar nature'). The changed text removes this minimum standard, leaving only 'reasonable care'. This creates a contradiction because Section 3.04, Breach, states that any breach may cause irreparable damage, but without a clearly defined minimum standard of care, it becomes more difficult to prove a breach occurred, and thus to enforce the agreement or claim damages as stated in the contradicted text. This aligns with the 'Omissions – In Text Contradiction' definition."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Either party may terminate this Agreement without cause, by giving the other party five (30) Business Days advance written notice.",
+        "changed_text": "Either party may terminate this Agreement with immediate effect, without any prior notice.",
+        "explanation": "Changing the termination clause to allow immediate termination without notice directly contradicts the survival clause in Section 3.01, which states that 'The Receiving Party’s obligation to protect the Disclosing Party’s Confidential Information received prior to Termination shall survive termination or expiration as stated in Section 2.04.' If termination is immediate, the Receiving Party may argue that their obligations under Section 2.04 are also immediately extinguished, thus undermining the survival clause.",
+        "location": "3.02",
+        "contradicted_location": "3.01",
+        "contradicted_text": "This agreement shall be effective from the Effective Date until terminated by either party in writing as provided for hereinbelow. And it shall hold good for two years (730 days) starting when both sides sign. The Receiving Party’s obligation to protect the Disclosing Party’s Confidential Information received prior to Termination shall survive termination or expiration as stated in Section 2.04. Confidential Information remains Confidential Information as defined.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text allows for immediate termination without any prior notice, which directly contradicts the contradicted text. The contradicted text states that the Receiving Party's obligation to protect the Disclosing Party's Confidential Information survives termination. If termination is immediate, as per the changed text, the Receiving Party may argue that their obligations are also immediately extinguished, undermining the survival clause. This aligns with the 'Omissions – In Text Contradiction' definition because the change removes the notice period, creating a conflict with the survival obligations."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Each party agrees to act in the utmost good faith of a level required by a trustee in the implementation of the obligations required hereunder.",
+        "changed_text": "Each party agrees to act in good faith in the implementation of the obligations required hereunder.",
+        "explanation": "By removing the phrase 'utmost good faith of a level required by a trustee', the contract weakens the standard of good faith required of the parties. This creates an internal contradiction because Section 3.04, Breach, states that 'Each party agrees that any breach of this Agreement may give rise to irreparable damage to the other party'. If the good faith requirement is lowered, it becomes more difficult to prove a breach substantial enough to cause 'irreparable damage', thereby weakening the enforceability of the breach clause.",
+        "location": "4.02",
+        "contradicted_location": "3.04",
+        "contradicted_text": "Each party agrees that any breach of this Agreement may give rise to irreparable damage to the other party, the injury to the other party from any such breach would be difficult to calculate, and that money damages would therefore be an inadequate remedy for that breach. Each party agrees that the other party will be entitled, in addition to all other remedies that the other party may have and without showing or proving any actual damage sustained by it, to seek an injunction or other order to restrain any breach, threatened breach or the continuation of any breach of this section.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text weakens the 'good faith' standard from 'utmost good faith of a level required by a trustee' to simply 'good faith'. The original text established a high standard of care. By reducing this standard, the changed text contradicts the contradicted text, which states that 'any breach of this Agreement may give rise to irreparable damage'. Lowering the standard of care makes it harder to prove a breach substantial enough to cause 'irreparable damage', therefore weakening the enforceability of the breach clause."
+      }
+    ]
+  }
+]

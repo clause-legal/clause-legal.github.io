@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "EUNCL_NDA_2016.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Any dispute arising in connection with this Agreement, including any dispute related to the validity, interpretation, implementation and/or termination of the Agreement, which cannot be amicably settled within the sixty (60) days following its occurrence shall be finally settled under the Rules of Arbitration of the International Chamber of Commerce by one arbitrator appointed in accordance with those Rules.",
+        "changed_text": "Any dispute arising in connection with this Agreement, including any dispute related to the validity, interpretation, implementation and/or termination of the Agreement, shall be resolved through mediation. If mediation fails, disputes will be settled in a court of law within the jurisdiction of the Disclosing Party.",
+        "explanation": "The original clause specifies arbitration as the dispute resolution method. The modified clause mandates mediation first, then litigation. This contradicts the agreement on arbitration and creates uncertainty about the dispute resolution process.",
+        "location": "Section 9",
+        "contradicted_location": "Section 9",
+        "contradicted_text": "Any dispute arising in connection with this Agreement, including any dispute related to the validity, interpretation, implementation and/or termination of the Agreement, shall be resolved through mediation. If mediation fails, disputes will be settled in a court of law within the jurisdiction of the Disclosing Party. The arbitration proceedings shall take place in Paris (France). The language to be used in the arbitral proceedings shall be English. The applicable law shall be Belgian Law, under which the dispute, controversy or claim referred to arbitration shall be decided without regard to its conflict of laws principles.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies arbitration, while the changed text specifies mediation followed by litigation. This directly contradicts the contradicted text which also specifies mediation followed by litigation but contains an entire segment about arbitration proceedings (\"\". The arbitration proceedings shall take place in Paris (France). The language to be used in the arbitral proceedings shall be English. The applicable law shall be Belgian Law, under which the dispute, controversy or claim referred to arbitration shall be decided without regard to its conflict of laws principles.\"\"). This difference creates a direct conflict because it is implied that if the dispute were to go to court, then the segment about arbitration would not come to pass. This fulfills the 'Structural Flaws' definition, which states 'when a clause is placed in multiple locations with conflicting implications', thus it is an in-text contradiction. Therefore, the changed text introduces a strong contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Agreement cancels and supersedes all previous written or oral agreements and understandings between the Parties with regard to the Purpose, and constitutes the Parties’ entire agreement as to such Purpose.",
+        "changed_text": "This Agreement supplements and is to be read in conjunction with any pre-existing oral agreements between the Parties with regard to the Purpose.",
+        "explanation": "The original clause is an integration clause that states this agreement is the entire agreement. By stating it 'supplements' oral agreements, it allows for external agreements that contradict the written terms of the NDA, causing direct contradiction.",
+        "location": "Section 11",
+        "contradicted_location": "Section 11",
+        "contradicted_text": "This Agreement supplements and is to be read in conjunction with any pre-existing oral agreements between the Parties with regard to the Purpose. No addition or modification of the terms of the Agreement shall be valid between the Parties unless made in writing and signed by their duly authorised representatives. Executed in two (2) original counterparts, one (1) for each Party: For The Sponsor: Date: NAME/Function For CEA acting for and on behalf of EUNCL Partners: Date: Catherine de Mazancourt, LETI Intellectual Property Contracts Manager",
+        "contradiction_exists": "YES",
+        "justification": "The original text contained an integration clause, stating that the agreement contains the entire understanding between parties. The changed text states that the agreement 'supplements' pre-existing oral agreements. The contradicted text is the same as the Changed Text and directly contradicts the intention of the Original Text, in that it now allows for pre-existing oral agreements to impact the agreement. The explanation given states that 'by stating it 'supplements' oral agreements, it allows for external agreements that contradict the written terms of the NDA, causing direct contradiction.' Therefore, the changed text creates an in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Confidential Information, all copies thereof and all rights thereto, shall remain the exclusive property of the Disclosing Party.",
+        "changed_text": "The Confidential Information, all copies thereof and all rights thereto, shall become the shared property of both the Disclosing Party and the Receiving Party upon disclosure.",
+        "explanation": "The original text clearly states that all confidential information remains the *exclusive* property of the Disclosing Party. Changing this to 'shared property' directly contradicts the initial statement, creating uncertainty as to who controls and owns the information and their rights regarding it.",
+        "location": "Section 3",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "The Confidential Information, all copies thereof and all rights thereto, shall become the shared property of both the Disclosing Party and the Receiving Party upon disclosure. All Confidential Information, whether original or copies thereof, including any document, note, meeting report containing such information, shall be promptly returned by the Receiving Party to the Disclosing Party on receipt of the Disclosing Party's written request therefor. The Receiving Party will not retain any copies, extracts or reproductions in whole or in part of the Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the ownership of confidential information from the exclusive property of the disclosing party to the shared property of both parties. The contradicted text states that the receiving party must return all confidential information to the disclosing party and not retain any copies. If the information is 'shared property', then the receiving party would arguably have rights to retain copies, contradicting the requirement to return all information and not retain copies."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Nothing contained in this Agreement shall be construed as granting or conferring upon the Receiving Party, whether expressly or impliedly, any right by license or otherwise under any proprietary or statutory right of the Disclosing Party existing prior to or coming into existence after the Effective Date of the Agreement.",
+        "changed_text": "The Disclosing Party grants the Receiving Party a non-exclusive, royalty-free license to use the Confidential Information for research purposes, as long as such use does not lead to direct commercial exploitation.",
+        "explanation": "The original clause states that the Receiving Party gains *no* rights by license or otherwise. The modified clause *grants* a license. This is a direct contradiction on the granting of rights.",
+        "location": "Section 5",
+        "contradicted_location": "Section 5",
+        "contradicted_text": "The Disclosing Party grants the Receiving Party a non-exclusive, royalty-free license to use the Confidential Information for research purposes, as long as such use does not lead to direct commercial exploitation. 6 - Disclosure period: this Agreement governs communication of Confidential Information from ________________________ (the “Effective Date”) for twelve (12) month duration and shall then terminate. The Receiving Party’s duty to protect Confidential Information as foreseen in article 4 above shall continue for a period of five (5) years after expiry or termination.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly denies the granting of any rights or licenses. The changed text directly contradicts this by granting a non-exclusive, royalty-free license. The contradicted text is the same as the changed text, emphasizing that a license *is* granted, while the original text prohibits this. This creates a strong in-text contradiction as the agreement both denies and grants a license to the same confidential information."
+      }
+    ]
+  }
+]

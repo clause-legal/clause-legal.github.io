@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "Sample NonDisclosure Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "6. This Agreement shall enter into effect upon its exe cution and shall remain effective for three (3) years, except for the obligations of the Receiving Party as to preservation and nondisclosure of the Confidential Information set forth in Section 5 hereof above which remain in force after termination (or expiration) of this Agreement.",
+        "changed_text": "6. This Agreement shall enter into effect upon its exe cution and shall remain effective indefinitely. The obligations of the Receiving Party as to preservation and nondisclosure of the Confidential Information set forth in Section 5 hereof above shall be terminated upon the agreement expiration.",
+        "explanation": "Changing the term of the agreement from 'three (3) years' to 'indefinitely' creates a contradiction with section 5 that states 'the obligations of the Receiving Party with respect to the preservation and nondisclosure of the Confidential Information under this Agreement shall remain in full force and effect without being limited in time'. Also, by adding 'shall be terminated upon the agreement expiration', creates a direct conflict with the provision that obligations under section 5 remain in force after termination of agreement.",
+        "location": "6",
+        "contradicted_location": "5",
+        "contradicted_text": "5. The obligations of the Receiving Party with respect to the preservation and nondisclosure of the Confidential Information under this Agreement shall remain in full force and effect without being limited in time, except for cases when the Disclosi ng Party provides its written consent as to any reduction of said term.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies section 6 to state the agreement is 'effective indefinitely' and the obligations 'shall be terminated upon the agreement expiration'. This directly contradicts the contradicted text (section 5) which states the obligations regarding confidential information 'shall remain in full force and effect without being limited in time'. The change introduces a definitive end to the obligations, which directly clashes with the original, unlimited duration specified in section 5, creating a clear in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "11. Upon the written request of the Disclosing Party, t he Receiving Party undertakes to promptly return to the Disclosing Party, or, at the Disclosi ng Party’s discretion, destroy all the Confidential Information (together with all copies and extracts) stored by the Receiving Party and/or its representatives (including without limitation, on c omputer disks and/or other digital media). Within five (5) calendar days from the date of term ination (expiration) of this Agreement, unless there was a written request from the Disclosing Par ty, the Receiving Party shall destroy all Confidential Information (together with all copies and extracts) stored by the Receiving Party and/or its representatives (including without limit ation, on computer disks and/or other digital media). In case of destruction of Confidential Info rmation under the terms of this Section, the Receiving Party shall send to the Disclosing Party a written confirmation of such destruction, which should contain a list of the destroyed Confid ential Information.",
+        "changed_text": "11. Upon the written request of the Disclosing Party, t he Receiving Party may, at its own discretion, decide whether to return to the Disclosing Party, or destroy all the Confidential Information (together with all copies and extracts) stored by the Receiving Party and/or its representatives (including without limitation, on c omputer disks and/or other digital media). Within five (5) calendar days from the date of term ination (expiration) of this Agreement, unless there was a written request from the Disclosing Par ty, the Receiving Party may retain or destroy all Confidential Information (together with all copies and extracts) stored by the Receiving Party and/or its representatives (including without limit ation, on computer disks and/or other digital media). In case of destruction of Confidential Info rmation under the terms of this Section, the Receiving Party is not obligated to send to the Disclosing Party a written confirmation of such destruction.",
+        "explanation": "Changing 'undertakes to promptly return to the Disclosing Party, or, at the Disclosi ng Party’s discretion, destroy' to 'may, at its own discretion, decide whether to return to the Disclosing Party, or destroy' replaces an obligation with a discretionary action. Also, changing 'shall destroy' to 'may retain or destroy'. Furthermore, removing the obligation to provide 'a written confirmation of such destruction' introduces a conflict. This undermines the Disclosing Party's control over its confidential information and goes against the fundamental intention of the agreement. This contradicts the purpose outlined in Section 1.",
+        "location": "11",
+        "contradicted_location": "1",
+        "contradicted_text": "1. The subject of this Agreement is to secure the conf identiality of information determined hereunder as Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a strong contradiction. The original text mandates the return or destruction of confidential information at the Disclosing Party's discretion and requires confirmation of destruction. The changed text gives the Receiving Party the discretion to decide whether to return or destroy the information, allows them to retain the information, and removes the obligation to provide confirmation of destruction. This directly contradicts Section 1, which states the agreement's purpose is to 'secure the confidentiality of information,' as the Disclosing Party loses control over its confidential information, making the agreement's purpose unenforceable. The shift from mandatory actions to discretionary ones creates a clear and direct conflict."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "2. The Receiving Party undertakes to use Confidential Information only in direct connection with the Transaction.",
+        "changed_text": "2. The Receiving Party may use Confidential Information in any way it deems appropriate.",
+        "explanation": "The original text strictly limits the use of Confidential Information 'only in direct connection with the Transaction.' Changing this to 'may use Confidential Information in any way it deems appropriate' directly contradicts the original intent and allows for unlimited use, undermining the confidentiality aspect of the agreement. This contradicts Section 1, which defines the NDA’s objective as securing the confidentiality of the disclosed information.",
+        "location": "2",
+        "contradicted_location": "1",
+        "contradicted_text": "1. The subject of this Agreement is to secure the conf identiality of information determined hereunder as Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 2, 'The Receiving Party may use Confidential Information in any way it deems appropriate,' directly contradicts Section 1, 'The subject of this Agreement is to secure the confidentiality of information determined hereunder as Confidential Information.' The original text limited the use of information to direct connection with the transaction, whereas the change allows unlimited use, undermining the confidentiality objective stated in Section 1."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "3. The Receiving Party undertakes not to disclose Conf idential Information to other persons, except the employees of the Receiving Party listed in Anne x 1 to this Agreement that need to possess such information in order to achieve the purposes s pecified in Section 2 of this Agreement and who have signed confidentiality agreements or are o therwise obliged to maintain confidentiality in relation to the Confidential Information to the extent specified in this Agreement.",
+        "changed_text": "3. The Receiving Party may disclose Confidential Information to any person without restriction.",
+        "explanation": "The original text strictly limits disclosure to specific employees who need the information and are bound by confidentiality. Modifying this to 'The Receiving Party may disclose Confidential Information to any person without restriction' completely nullifies the non-disclosure aspect of the agreement, creating a blatant contradiction. This alteration directly contradicts the overall purpose stated in section 1, which is to secure confidentiality.",
+        "location": "3",
+        "contradicted_location": "1",
+        "contradicted_text": "1. The subject of this Agreement is to secure the conf identiality of information determined hereunder as Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text limits disclosure of Confidential Information, while the changed text allows disclosure to any person without restriction. This directly contradicts section 1, which aims to secure the confidentiality of information. The change fundamentally alters the nature of the agreement and renders the confidentiality clause meaningless, therefore creating a strong in-text contradiction according to Structural Flaws - In Text Contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "13. In case the Receiving Party breaches this Agreement , the Disclosing Party, the Target or any of their Affiliates are entitled to receive from the R eceiving Party compensation of financial and moral damages, suffered by the Disclosing Party, th e Target or any of their Affiliates respectively, as a result of such breach by the Rec eiving Party.",
+        "changed_text": "13. In case the Receiving Party breaches this Agreement, the Disclosing Party, the Target, or any of their Affiliates are not entitled to receive any compensation from the Receiving Party for any damages, financial or otherwise.",
+        "explanation": "The original text grants the Disclosing Party the right to receive compensation for damages resulting from a breach of the agreement. The changed text explicitly denies any entitlement to compensation, directly contradicting the original provision. This creates a conflict regarding remedies available for breach, significantly undermining the enforceability of the agreement. This contradicts the purpose outlined in Section 1, as no agreement breaches will be addressed.",
+        "location": "13",
+        "contradicted_location": "1",
+        "contradicted_text": "1. The subject of this Agreement is to secure the conf identiality of information determined hereunder as Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text in Clause 13 allows the Disclosing Party to receive compensation for damages if the Receiving Party breaches the agreement. The changed text in Clause 13 explicitly states that the Disclosing Party is *not* entitled to any compensation, creating a direct conflict within the same section (Clause 13). This directly contradicts the implication that breaches have consequences or that agreements are made in good faith, undermining the purpose of the agreement as outlined in Section 1. This contradiction is considered strong because it changes the fundamental understanding of the agreement regarding breaches and remedies. While section 1 mentions 'confidentiality', the change eliminates the ability for the 'Disclosing Party' to be compensated for any damages, rendering the agreement's protective purpose unenforceable."
+      }
+    ]
+  }
+]

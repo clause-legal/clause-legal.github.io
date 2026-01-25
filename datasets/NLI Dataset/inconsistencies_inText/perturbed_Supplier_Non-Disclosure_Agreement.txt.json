@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "Supplier_Non-Disclosure_Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "C. The Confidential Information, and all copies, summaries, notes, and computations related thereto, shall be delivered by Supplier to Company within 48 hours of demand.",
+        "changed_text": "C. The Confidential Information, and all copies, summaries, notes, and computations related thereto, shall be delivered by Supplier to Company within 48 hours of demand, except for those copies required for ongoing project-related activities, which may be retained by Supplier until the completion of the project.",
+        "explanation": "The added exception ('except for those copies required for ongoing project-related activities, which may be retained by Supplier until the completion of the project.') contradicts the original unconditional requirement for delivery within 48 hours, creating a conflict and in-text contradiction about when Confidential Information must be returned.",
+        "location": "2.C",
+        "contradicted_location": "2.C",
+        "contradicted_text": "C. The Confidential Information, and all copies, summaries, notes, and computations related thereto, shall be delivered by Supplier to Company within 48 hours of demand, except for those copies required for ongoing project-related activities, which may be retained by Supplier until the completion of the project.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds an exception to the original requirement of delivering Confidential Information within 48 hours. The addition of 'except for those copies required for ongoing project-related activities, which may be retained by Supplier until the completion of the project' directly contradicts the initial, unconditional obligation. This inconsistency regarding the timing of delivery creates an in-text contradiction, as described in the explanation."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "E. During and after the period Supplier is providing Supplier services to Company, Supplier shall not produc e, provide, or sell to anyone , other than Company, any Supplies which include or are produc ed with Confidential Information.",
+        "changed_text": "E. During and after the period Supplier is providing Supplier services to Company, Supplier shall not produce, provide, or sell to anyone , other than Company, any Supplies which include or are produced with Confidential Information, unless Company does not exercise its right of first refusal to purchase such Supplies at a commercially reasonable price.",
+        "explanation": "The addition of the phrase 'unless Company does not exercise its right of first refusal to purchase such Supplies at a commercially reasonable price' creates a direct in-text contradiction. The original text states that the Supplier 'shall not produce, provide, or sell to anyone , other than Company, any Supplies which include or are produced with Confidential Information.' By adding the exception, the agreement now implies it *can* be sold to others under certain circumstances, directly contradicting the original absolute restriction.",
+        "location": "2.E",
+        "contradicted_location": "2.E",
+        "contradicted_text": "E. During and after the period Supplier is providing Supplier services to Company, Supplier shall not produce, provide, or sell to anyone , other than Company, any Supplies which include or are produced with Confidential Information, unless Company does not exercise its right of first refusal to purchase such Supplies at a commercially reasonable price.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies section E. The original text states that the Supplier 'shall not produce, provide, or sell to anyone , other than Company, any Supplies which include or are produced with Confidential Information.' The changed text adds an exception stating the Supplier can sell if the Company does not exercise its right of first refusal. This creates a direct contradiction with the original absolute restriction. The Contradicted text is section E which is same as the changed text. The contradiction definition followed is 'Inconsistencies - In Text Contradiction: Inconsistencies also lead to **in-text contradictions** when **different sections of a contract provide conflicting deadlines, obligations, or penalties**. This creates in-text contradiction regarding which terms should be enforced, leading to disputes over contractual obligations.'"
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "G. All improvements to Company Produc ts, their compone nts, or their unde rlying technology developed during the performance of any purchase order issued by Company to Supplier shall belong to Company.",
+        "changed_text": "G. All improvements to Company Products, their components, or their underlying technology developed during the performance of any purchase order issued by Company to Supplier shall belong to Company, except where such improvements are based on Supplier's pre-existing proprietary technology, in which case ownership shall be jointly determined.",
+        "explanation": "This change introduces a contradiction by stating that improvements belong to the Company, 'except where such improvements are based on Supplier's pre-existing proprietary technology, in which case ownership shall be jointly determined'. This contradicts the earlier part of the same sentence stating that *all* improvements belong to the Company, creating an in-text conflict about ownership.",
+        "location": "2.G",
+        "contradicted_location": "2.G",
+        "contradicted_text": "G. All improvements to Company Products, their components, or their underlying technology developed during the performance of any purchase order issued by Company to Supplier shall belong to Company, except where such improvements are based on Supplier's pre-existing proprietary technology, in which case ownership shall be jointly determined.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the original statement that 'All improvements...shall belong to Company' by adding an exception: 'except where such improvements are based on Supplier's pre-existing proprietary technology, in which case ownership shall be jointly determined.' This directly contradicts the initial 'All' inclusive statement, creating a clear in-text contradiction regarding ownership of improvements based on the supplier's technology, which aligns with the definition of Inconsistencies - In Text Contradiction provided."
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "1094007_0001193125-10-258977_dex101.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "4. Length of confidential information obligations. a. Termination. This agreement continues in effect until one of us terminates it. Either of us may terminate this agreement for any reason by providing the other with 30 days’ advance written notice. Termination of this agreement will not change any of the rights and duties made while this agreement is in effect.",
+        "changed_text": "4. Length of confidential information obligations. a. Termination. This agreement continues in effect until one of us terminates it. Termination requires mutual written consent from both parties, and cannot be unilaterally initiated. Termination of this agreement will not change any of the rights and duties made while this agreement is in effect.",
+        "explanation": "The original text states that either party can terminate with 30 days' notice. The change requires mutual written consent, contradicting the allowance for unilateral termination. This introduces uncertainty on whether either party can end the agreement without the other's approval, which makes this change in section 4.a cause and In-Text Contradiction for the same 4.a section.",
+        "location": "4.a",
+        "contradicted_location": "4.a",
+        "contradicted_text": "4. Length of confidential information obligations. a. Termination. This agreement continues in effect until one of us terminates it. Termination requires mutual written consent from both parties, and cannot be unilaterally initiated. Termination of this agreement will not change any of the rights and duties made while this agreement is in effect.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allows either party to terminate the agreement with 30 days' notice. The changed text requires mutual written consent for termination, which directly contradicts the original provision for unilateral termination. The contradicted text is the same location as the changed text, so the change itself introduces a direct conflict within the same clause (4.a), creating an in-text contradiction as described in the Perturbation Explanation."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "b. No other use or disclosure of confidential information. Except as permitted above, neither of us will use or disclose the other’s confidential information for five years after we receive it. The five-year time period does not apply if applicable law requires a longer period.",
+        "changed_text": "b. No other use or disclosure of confidential information. Except as permitted above, neither of us will use or disclose the other’s confidential information indefinitely after we receive it. The five-year time period does not apply if applicable law requires a longer period.",
+        "explanation": "The original text limits the non-disclosure obligation to five years. The change removes this limit, requiring indefinite non-disclosure. This creates uncertainty about the duration of confidentiality obligations, contradicting the initially agreed upon five-year limit. Therefore, the contradiction happens in section 4.b",
+        "location": "4.b",
+        "contradicted_location": "4.b",
+        "contradicted_text": "b. No other use or disclosure of confidential information. Except as permitted above, neither of us will use or disclose the other’s confidential information indefinitely after we receive it. The five-year time period does not apply if applicable law requires a longer period.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified a 5-year limit on non-disclosure. The changed text replaces this with an indefinite period. The contradicted text reflects the changed text. The change creates a direct contradiction because the original five-year limit is removed, leading to an irreconcilable difference in the duration of the non-disclosure obligation. The edited text directly conflicts with the original intention of having a defined time limit, making it an in-text contradiction as defined by the structural flaws definition."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "e. Attorneys’ fees. In any dispute relating to this agreement the prevailing party will be entitled to recover reasonable attorneys’ fees and costs.",
+        "changed_text": "e. Attorneys’ fees. In any dispute relating to this agreement each party will bear their own attorneys’ fees and costs, regardless of the outcome.",
+        "explanation": "The original text entitles the prevailing party to recover attorneys' fees and costs. The change states that each party bears their own costs, regardless of who wins. This directly contradicts the previous provision, creating uncertainty about whether attorneys' fees can be recovered. This is in section 5.e",
+        "location": "5.e",
+        "contradicted_location": "5.e",
+        "contradicted_text": "e. Attorneys’ fees. In any dispute relating to this agreement each party will bear their own attorneys’ fees and costs, regardless of the outcome.",
+        "contradiction_exists": "YES",
+        "justification": "The original text in section 5.e stated that the prevailing party would be entitled to recover reasonable attorneys' fees and costs. The changed text in the same section states that each party will bear their own attorneys' fees and costs, regardless of the outcome. This is a direct and irreconcilable conflict. The change explicitly negates the possibility of recovering attorneys' fees, which was previously allowed. Since the contradicted text and changed text are located in the same location, and since the Changed Text negates the ability to recover attorney's fees that the original text allowed for, the change introduces a strong in-text contradiction that would cause confusion and uncertainty about the allocation of legal fees, creating an in-text contradiction"
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "g. Enforceability. If any provision of this agreement is unenforceable, the parties (or, if we cannot agree, a court) will revise it so that it can be enforced. Even if no revision is possible, the rest of this agreement will remain in place.",
+        "changed_text": "g. Enforceability. If any provision of this agreement is unenforceable, the entire agreement will be considered null and void.",
+        "explanation": "The original text has a severability clause, where unenforceable parts are revised if possible and the rest remains in effect. The change states that the entire agreement is void if any part is unenforceable. This directly contradicts the severability, creating uncertainty about the agreement's validity if parts are challenged. The contradiction is in section 5.g",
+        "location": "5.g",
+        "contradicted_location": "5.g",
+        "contradicted_text": "g. Enforceability. If any provision of this agreement is unenforceable, the entire agreement will be considered null and void.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that if a provision is unenforceable, it would be revised or the rest of the agreement would remain in place. The changed text states that if any provision is unenforceable, the entire agreement is null and void. The contradicted text repeats the changed text, showing the direct contradiction. The change introduces a structural flaw by placing conflicting implications for enforceability within the contract, creating a strong in-text contradiction as defined by Structural Flaws."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "h. Entire agreement. This agreement does not grant any implied intellectual property licenses to confidential information, except as stated above. We may have contracts with each other covering other specific aspects of our relationship (“other contracts”). The other contract may include commitments about confidential information, either within it or by referencing another non-disclosure agreement. If so, those obligations remain in place for purposes of that other contract. With this exception, this is the entire agreement between us regarding confidential information. It replaces all other agreements and understanding regarding confidential information. We can only change this agreement with a signed document that states that is changing this agreement.",
+        "changed_text": "h. Entire agreement. This agreement does not grant any implied intellectual property licenses to confidential information, except as stated above. This agreement is subject to prior oral agreements between the parties. It replaces all other written agreements and understanding regarding confidential information. We can only change this agreement through verbal communication.",
+        "explanation": "The original text emphasizes that it's the entire agreement, superseding prior agreements, and requires written modifications. The change introduces the possibility of prior oral agreements impacting the NDA and allows for verbal modifications. This directly contradicts the written agreement clause and creates uncertainty about the actual terms of the NDA. These change and contradiction is taking place in section 5.h",
+        "location": "5.h",
+        "contradicted_location": "5.h",
+        "contradicted_text": "h. Entire agreement. This agreement does not grant any implied intellectual property licenses to confidential information, except as stated above. This agreement is subject to prior oral agreements between the parties. It replaces all other written agreements and understanding regarding confidential information. We can only change this agreement through verbal communication.",
+        "contradiction_exists": "YES",
+        "justification": "The original text's entire agreement clause explicitly states that it replaces all other agreements and understandings regarding confidential information and can only be changed with a signed document. The changed text directly contradicts this by making the agreement subject to prior oral agreements and allowing changes through verbal communication. This creates a direct conflict with the original entire agreement clause, leading to uncertainty about the actual terms and enforceability of the agreement."
+      }
+    ]
+  }
+]

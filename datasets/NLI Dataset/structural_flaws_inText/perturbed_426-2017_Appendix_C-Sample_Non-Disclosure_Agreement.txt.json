@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "426-2017_Appendix_C-Sample_Non-Disclosure_Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Confidential Information shall be kept in the strictest confidence without limitation of time, and shall not be disclosed to any Third Party",
+        "changed_text": "Confidential Information shall be kept in the strictest confidence for a period of one year from the Effective Date, and shall not be disclosed to any Third Party unless required by law or court order.",
+        "explanation": "The original text states that Confidential Information shall be kept in the strictest confidence *without limitation of time*. The modified version contradicts this by limiting the confidentiality period to *one year from the Effective Date*. This introduces uncertainty about the duration of confidentiality obligations, specifically contradicting section 5, regarding the duration of continuing obligations.",
+        "location": "3a",
+        "contradicted_location": "5",
+        "contradicted_text": "The obligations of Confidant under this Agreement shall not terminate but shall continue without limitation of time. Confidant acknowledges and agrees that a breach of any term or condition of this Agreement shall cause irreparable harm to City which cannot be adequately compensated for in damages, and acco rdingly Confidant agrees that City shall be entitled, in addition to any other remedies available to it, to interlocutory and permanent injunction relief to restrain any anticipated, present or continuing breach of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly states 'without limitation of time' for confidentiality, which is directly contradicted by the changed text limiting it to 'one year from the Effective Date.' This directly conflicts with the contradicted text, which states 'obligations...shall continue without limitation of time,' creating a strong in-text contradiction regarding the duration of confidentiality obligations as described in the Perturbation Explanation and adheres to the Structural Flaws - In Text Contradiction definition."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Confidant shall immediately on notice at any time from City return to City, or destroy, any and all Confidential In formation in accordance with City’s direction.",
+        "changed_text": "The Confidant shall return to City any and all Confidential Information if deemed necessary by the Confidant itself and in accordance with City’s direction.",
+        "explanation": "The original text states that *The Confidant shall immediately on notice at any time from City return to City*. The modified version contradicts this by stating *The Confidant shall return to City any and all Confidential Information if deemed necessary by the Confidant itself*. This introduces uncertainty and giving power to the confidant instead of the City. This contradicts the essence of the non-disclosure agreement, which is to protect the City's confidential information.",
+        "location": "4",
+        "contradicted_location": "2",
+        "contradicted_text": "Access/Use of Confidential Information : Subject to the terms and conditions of this Agreement, Confidant may use the Confidential Information onl y for the Permitted Use and for no other purpose whatsoever. Confidant acknowledges and agrees that Ci ty reserves the full independent right to modify the scope and content of Confidential Information ava ilable for access and/or use hereunder at any time and without prior notice.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates that the 'Confidant shall immediately on notice at any time from City return to City'. The changed text states that 'The Confidant shall return to City any and all Confidential Information if deemed necessary by the Confidant itself'. This change directly contradicts the original clause, as it gives the Confidant the discretion to decide when to return the information, which conflicts with the City's right to control the confidential information, as stated in the contradicted text: 'Ci ty reserves the full independent right to modify the scope and content of Confidential Information ava ilable for access and/or use hereunder at any time and without prior notice'."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Confidant acknowledges and agrees that all rights in and to Confidential Information are and shall remain the sole property of City, and Confidant agrees that it shall not contest or challenge any of City’s rights in or to any Confidential Information.",
+        "changed_text": "Confidant acknowledges and agrees that all rights in and to Confidential Information are and shall remain the sole property of City, unless the Confidant independently develops similar information. In such a case, the Confidant reserves the right to challenge the City’s rights.",
+        "explanation": "The original text states that the *Confidant agrees that it shall not contest or challenge any of City’s rights in or to any Confidential Information*. The modified version introduces an exception, stating that *the Confidant reserves the right to challenge the City’s rights* if it independently develops similar information. This directly contradicts the initial agreement not to challenge the City's rights, making the protection of Confidential Information uncertain. The contradiction arises because what is considered similar is open to interpretation, so the Confidant may challenge the City’s rights.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "No License Granted : Confidant acknowledges and agrees that all rights in and to Confidential Information are and shall remain the sole property of City, and Confidant agrees that it shall not contest or challenge any of City’s rights in or to any Confidential Information. Nothing in this Agreement obligates, or shall be deemed to obligat e, City to provide, disclose, or deliver any Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the Confidant *shall not contest or challenge* City's rights to Confidential Information. The changed text introduces an exception where the Confidant *reserves the right to challenge* City's rights under certain conditions (independently developed similar information). The contradicted text in 'No License Granted' also states that the Confidant agrees that it shall not contest or challenge any of City’s rights. The introduction of an exception directly contradicts the absolute agreement not to challenge City's rights, creating a strong in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Confidant shall not assign this Agreement without first having obtained the prior written consent of City. No assignment of this Agreement shall operate so as to relieve Confidant from any obligation of this Agreement.",
+        "changed_text": "Confidant may assign this Agreement to a subsidiary company without prior written consent of City. No assignment of this Agreement shall operate so as to relieve Confidant from any obligation of this Agreement, unless otherwise agreed to in writing by all parties involved.",
+        "explanation": "The original text explicitly states that the *Confidant shall not assign this Agreement without first having obtained the prior written consent of City*. The modified version allows assignment to a subsidiary *without* this consent, directly contradicting the original condition. It also introduces a loophole allowing the Confidant to be relieved of its obligations under the agreement, if agreed upon, which creates uncertainty about the Confidant’s enduring responsibility under the agreement.",
+        "location": "12",
+        "contradicted_location": "12",
+        "contradicted_text": "Assignment : Confidant shall not assign this Agreement without first having obtained the prior written consent of City. No assignment of this Agreement shall operate so as to relieve Confidant from any obligation of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the original condition regarding assignment. The original text and contradicted text state that *Confidant shall not assign this Agreement without first having obtained the prior written consent of City.* The modified version allows assignment to a subsidiary *without* this consent, directly contradicting the original condition. This constitutes a structural flaw in-text contradiction because a clause is placed in multiple locations with conflicting implications. It also introduces a loophole allowing the Confidant to be relieved of its obligations under the agreement, if agreed upon, which creates uncertainty about the Confidant’s enduring responsibility under the agreement, further exacerbating the in-text contradiction and uncertainty regarding obligations."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Confidant has no authorit y whatsoever to make any representation in respect of, enter any commitment on behalf of, or incur any liability for or on behalf of, City, or to bind or purport to bind City to any Third Party in any way whatsoever.",
+        "changed_text": "Confidant has no authorit y whatsoever to make any representation in respect of, enter any commitment on behalf of, or incur any liability for or on behalf of, City, except as explicitly authorized in writing by a City representative. Confidant may bind or purport to bind City to any Third Party for the purpose of fulfilling the Permitted Use.",
+        "explanation": "The original clause firmly states that the *Confidant has no authority whatsoever* to bind the City to any Third Party. The modification directly contradicts this by stating *Confidant may bind or purport to bind City to any Third Party for the purpose of fulfilling the Permitted Use*. This creates uncertainty, as the original prohibition is now conditional and undermines the City's control over its liabilities.",
+        "location": "13",
+        "contradicted_location": "13",
+        "contradicted_text": "No Authority : This Agreement shall not create, nor shall it be deemed to create, the relationship of employer and employee, principal and agent, part nership, or joint venture, between City and Confidant. Confidant has no authorit y whatsoever to make any representation in respect of, enter any commitment on behalf of, or incur any liability for or on behalf of, City, or to bind or purport to bind City to any Third Party in any way whatsoever.",
+        "contradiction_exists": "YES",
+        "justification": "The original text and the contradicted text both state that the Confidant has no authority to bind the City to any third party. However, the changed text explicitly states that the Confidant *may* bind the City to a Third Party for the purpose of fulfilling the Permitted Use. This creates a direct contradiction within the document, since now the Confidant both has no authority to bind and has the authority to bind, depending on the purpose. This aligns with the definition of Structural Flaws - In Text Contradiction, where a clause is placed in multiple locations with conflicting implications, creating uncertainty."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The obligations of Confidant under this Agreement shall not terminate but shall continue without limitation of time.",
+        "changed_text": "The obligations of Confidant under this Agreement shall not terminate except upon mutual written agreement of both parties or 5 years, whichever comes first.",
+        "explanation": "The original text ensures continuing, *unlimited obligations* for the Confidant. The modified version allows for obligations to terminate after 5 years or by written agreement. This creates conflict because previously the contract said the confidant would not have its obligation terminated. This now creates uncertainty about the duration of these obligations. By adding that the confidant can be released of the obligation, that is a big contradiction.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "Continuing Obligations and Remedies : The obligations of Confidant under this Agreement shall not terminate but shall continue without limitation of time. Confidant acknowledges and agrees that a breach of any term or condition of this Agreement shall cause irreparable harm to City which cannot be adequately compensated for in damages, and acco rdingly Confidant agrees that City shall be entitled, in addition to any other remedies available to it, to interlocutory and permanent injunction relief to restrain any anticipated, present or continuing breach of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the obligations of Confidant continue without limitation of time. The changed text introduces a termination condition (mutual agreement or 5 years), directly contradicting the original's unlimited duration. The contradicted text repeats the unlimited obligation. The change makes the contract inconsistent and unenforceable regarding the obligation's duration, fitting the definition of 'Structural Flaws - In Text Contradiction'."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "ETELOS,INC_03_09_2004-EX-10.8-DISTRIBUTOR AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "1. Products 1.1 \"Products\" means the Tripath semiconductor products identified by Tripath in writing from time to time.",
+        "changed_text": "1. Products 1.1 \"Products\" means only the Tripath audio amplifier semiconductor products specifically identified by Tripath in writing in Exhibit A from time to time. Any other semiconductor products sold by Tripath are explicitly excluded.",
+        "explanation": "The original definition of 'Products' is broad, encompassing all Tripath semiconductor products identified in writing. The modified definition narrows it to only 'audio amplifier' products listed in 'Exhibit A', creating ambiguity. Later sections referring to 'Products' are now unclear as to whether they include all semiconductors or only audio amplifiers. For example, Section 11.1 which refers to Distributor reporting 'sales relating to the Products' now creates an ambiguity as to whether this includes only amplifier products or all Tripath Semiconductors.",
+        "location": "Section 1.1",
+        "contradicted_location": "Section 11.1",
+        "contradicted_text": "Distributor will submit reports as may be reasonably requested by Tripath, including, without limitation, monthly reports of inventory on hand and sales relating to the Products. Sales data will include, without limitation, Product part number, quantity, resale price, special pricing, distributor invoice number, and customer name. Distributor will submit these reports electronically on a timely basis each month and in no case later than two weeks after the beginning of the month.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text narrows the definition of 'Products' to only 'audio amplifier' semiconductor products listed in Exhibit A, whereas the original definition encompassed all Tripath semiconductor products identified in writing. This contradicts the section requiring the Distributor to report sales relating to 'the Products' because it is now unclear whether this includes all Tripath semiconductors or only audio amplifiers. This ambiguity makes the sales reporting obligation uncertain and creates a direct conflict, as per the Ambiguities definition."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "4. Other Product Lines 4.1 In appointing Distributor, Tripath is relying to a significant extent on Distributor's undertaking in Subsection 2.2. 4.2 Distributor will not carry any competitive products without Tripath's consent, which shall not be unreasonable.",
+        "changed_text": "4. Other Product Lines 4.1 In appointing Distributor, Tripath is relying to a significant extent on Distributor's undertaking in Subsection 2.2. 4.2 Distributor may carry competitive products without Tripath's consent, provided that distributor notifies Tripath in writing.",
+        "explanation": "The original text explicitly states that the Distributor 'will not carry any competitive products without Tripath's consent', implying that not doing so will be a breach of contract. The modified text now permits the carrying of competitive products as long as Tripath is notified. This directly contradicts the original restriction, making it difficult to determine the actual contractual requirements. This affects Section 2.2. as the distributor has more flexibility",
+        "location": "Section 4.2",
+        "contradicted_location": "Section 2.2",
+        "contradicted_text": "Distributor will use best efforts to develop the local market and promote the sales of Products within the Territory. Distributor will not sell outside the Territory without Tripath's prior written permission, which will not be unreasonably withheld.",
+        "contradiction_exists": "YES",
+        "justification": "The original text in Section 4.2 prohibited the Distributor from carrying competitive products without Tripath's consent. The changed text allows the Distributor to carry competitive products as long as Tripath is notified. This introduces a contradiction because the original restriction is removed, creating uncertainty about the Distributor's obligations. The contradicted text states, 'Distributor will use best efforts to develop the local market and promote the sales of Products within the Territory.' While this doesn't explicitly prohibit competitive products, the allowance in the changed Section 4.2 weakens the obligation to use 'best efforts' for Tripath's products, as the distributor can now allocate resources to competitive products with notification, creating a contradiction in spirit and potentially in practice, making it a strong in-text contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "18. Term and Termination 18.1 The terms of this Agreement shall be one year from the effective date and will be automatically renewed on each anniversary of the effective date, for a renewal term of one year unless either party provides written notification of its intention not to renew this Agreement at least one month prior to the expiration of the initial or any renewal terms. Tripath will honor all orders acknowledged prior to the effective date of any such termination by nonrenewable.",
+        "changed_text": "18. Term and Termination 18.1 The terms of this Agreement shall be one year from the effective date and will be automatically renewed on each anniversary of the effective date, for a renewal term of one year unless either party provides written notification of its intention not to renew this Agreement at least one month prior to the expiration of the initial or any renewal terms. Tripath may or may not honor all orders acknowledged prior to the effective date of any such termination by nonrenewable, depending on market conditions.",
+        "explanation": "The original language of Section 18.1 uses the word 'will' to indicate an obligation to honor pre-termination orders. The perturbation changes 'will' to 'may or may not', making the honoring of pre-termination orders dependent on market conditions, introducing uncertainty. This directly contradicts the previous certainty. The conflict is especially apparent in the context of Sections 7.3 and 7.8",
+        "location": "Section 18.1",
+        "contradicted_location": "Section 7.3",
+        "contradicted_text": "No purchase order from Distributor is binding on Tripath until Tripath issues a Sales Order Acknowledgment to Distributor for such order, or makes a shipment against such order. Tripath will use commercially reasonable efforts to acknowledge Distributor purchase orders promptly.",
+        "contradiction_exists": "YES",
+        "justification": "The original text in Section 18.1 stated that Tripath 'will' honor pre-termination orders. The changed text replaces 'will' with 'may or may not', making the honoring of these orders conditional on market conditions. This directly contradicts the assurance implied in the original Section 18.1 and creates a direct inconsistency with the statement in the Contradicted Text, where it says that 'Tripath will use commercially reasonable efforts to acknowledge Distributor purchase orders promptly.'. By making Tripath's obligation uncertain, the Changed Text creates a strong in-text contradiction."
+      }
+    ]
+  }
+]

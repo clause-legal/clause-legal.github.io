@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "925544_0000950144-00-010739_ex99-d4.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "At the request of the Disclosing Party, the Recipient shall promptly return to the Disclosing Party all Confidential Information of the Disclosing Party in whatever medium, including any and all copies thereof. Such return (or, if authorized, destruction of Confidential Information) shall be confirmed in writing by the Recipient to the Disclosing Party.",
+        "changed_text": "At the request of the Disclosing Party, the Recipient may return to the Disclosing Party all Confidential Information of the Disclosing Party in whatever medium, including any and all copies thereof.",
+        "explanation": "Changing 'shall promptly return' to 'may return' makes the return of confidential information optional. This contradicts the fundamental purpose of a non-disclosure agreement and makes enforcement of confidentiality extremely difficult. In addition, it directly contradicts the first point 'The Recipient shall take responsible steps to ensure that all Confidential Information of the Disclosing Party is kept confidential', if they don't return the content after asked, this is a failure to ensure the confidential information is kept safe.",
+        "location": "6",
+        "contradicted_location": "1",
+        "contradicted_text": "The Recipient shall take responsible steps to ensure that all Confidential Information of the Disclosing Party is kept confidential; provided, however, that such information may be disclosed to those employees or agents of the Recipient who have a need to know such information, or to such other party as may be agreed to by the Disclosing Party in writing, only if each such employee or party is informed by the Recipient of the confidential and proprietary nature of such information and of the confidentiality undertakings of the Recipient contained herein. The Recipient shall be responsible for any breach of this Agreement by its employees or agents.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'shall promptly return' to 'may return' introduces a significant contradiction. The original text made the return of confidential information an obligation. The changed text makes it optional. This directly conflicts with the contradicted text, which states, 'The Recipient shall take responsible steps to ensure that all Confidential Information of the Disclosing Party is kept confidential.' If the recipient is not obligated to return confidential information upon request, it becomes significantly harder to ensure its confidentiality, creating a strong in-text contradiction as defined by the 'Omissions – In Text Contradiction' perturbation type."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Each party agrees that it would be impossible or inadequate to measure and calculate the other party's damages from any breach of the covenants set forth in this Agreement. Accordingly, the parties agree that if either party breaches or threatens to breach any of such covenants, the non-breaching party will have available, in addition to any other right or remedy available, the right to obtain an injunction from a court of competent jurisdiction restraining such breach or threatened breach and to specific performance of any such provision of this Agreement.",
+        "changed_text": "Each party agrees that monetary damages shall be the sole remedy for any breach of the covenants set forth in this Agreement.",
+        "explanation": "By stating that 'monetary damages shall be the sole remedy', the ability to obtain an injunction is removed. This directly contradicts the original provision for injunctive relief and specific performance, weakening the agreement's enforceability. The removed text had a portion of 'in addition to any other right or remedy available, the right to obtain an injunction from a court of competent jurisdiction restraining such breach', that portion is now a non-sense due to the new text that claims 'monetary damages shall be the sole remedy'.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "Each party agrees that monetary damages shall be the sole remedy for any breach of the covenants set forth in this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that 'monetary damages shall be the sole remedy', which directly contradicts the contradicted text, which used to state 'in addition to any other right or remedy available, the right to obtain an injunction from a court of competent jurisdiction restraining such breach'. The original text allowed for injunctive relief and specific performance, while the changed text limits the remedy to monetary damages only. This is a clear and direct conflict, creating an in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Each party understands and acknowledges that the Disclosing Party is not making any representation or warranty as to the accuracy or completeness of any Confidential Information furnished by or on behalf of the Disclosing Party (except to the extent and only to such effect as shall be expressly set forth in an executed and delivered definitive agreement between the parties to effect the Stated Purpose (the \"Definitive Agreement\")). Neither the Disclosing Party, its affiliates nor any of their respective officers, directors, employees or agents shall have any liability to the Recipient or any of its Representatives relating to or arising from the use of the Confidential Agreement.",
+        "changed_text": "Each party understands and acknowledges that the Disclosing Party warrants the accuracy of all Confidential Information furnished.",
+        "explanation": "Changing 'is not making any representation or warranty as to the accuracy or completeness' to 'warrants the accuracy of all Confidential Information furnished' creates a direct contradiction. The original text explicitly disclaims any warranty, while the modified text provides a guarantee of accuracy. This change exposes the disclosing party to liability for inaccurate information, this contradicts the portion of the original text 'Neither the Disclosing Party, its affiliates nor any of their respective officers, directors, employees or agents shall have any liability to the Recipient or any of its Representatives relating to or arising from the use of the Confidential Agreement.'.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "Each party understands and acknowledges that the Disclosing Party warrants the accuracy of all Confidential Information furnished.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the original intent of the clause. The original text explicitly disclaims any warranty regarding the accuracy of confidential information. The changed text, however, states that the Disclosing Party 'warrants the accuracy of all Confidential Information furnished'. This change creates a clear and direct contradiction because it imposes a guarantee where none previously existed. As described in the Perturbation Explanation, this contradiction directly undermines the original liability disclaimer, creating a strong in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Except as set forth in this Agreement, neither PPI nor Company shall have any liability or obligation of any nature whatsoever to the other party, nor any obligation to enter into a Definitive Agreement, negotiate to enter into a Definitive Agreement, or refrain from negotiating similar agreements with other parties.",
+        "changed_text": "PPI shall be obligated to negotiate in good faith to enter into a Definitive Agreement.",
+        "explanation": "Changing 'nor any obligation to enter into a Definitive Agreement, negotiate to enter into a Definitive Agreement' to 'PPI shall be obligated to negotiate in good faith to enter into a Definitive Agreement' creates a contradictory obligation. The original text specifically disclaims any obligation to negotiate a final agreement. Now, the clause is stating that the company PPI is OBLIGATED, this is contradicting the first part of the sentence 'Except as set forth in this Agreement, neither PPI nor Company shall have any liability or obligation of any nature whatsoever to the other party'.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "PPI shall be obligated to negotiate in good faith to enter into a Definitive Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly states 'neither PPI nor Company shall have any liability or obligation of any nature whatsoever to the other party, nor any obligation to enter into a Definitive Agreement, negotiate to enter into a Definitive Agreement'. The changed text 'PPI shall be obligated to negotiate in good faith to enter into a Definitive Agreement' directly contradicts this by creating an obligation to negotiate, which was previously disclaimed. The contradicted text is the same as the Changed Text which also demonstrates the contradiction."
+      }
+    ]
+  }
+]

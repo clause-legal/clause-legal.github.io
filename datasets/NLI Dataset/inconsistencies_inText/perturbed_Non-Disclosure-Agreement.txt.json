@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "Non-Disclosure-Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "All Confidential Information shall remain the property of Tompkins Cortland Community College . No rights or license therein is granted except a limited right to use the Confidential Information solely for the Purpose.",
+        "changed_text": "All Confidential Information shall remain the property of Tompkins Cortland Community College, except for any modifications or improvements made to that information by the Company, which shall be jointly owned. No rights or license therein is granted except a limited right to use the Confidential Information solely for the Purpose.",
+        "explanation": "This modification introduces an in-text contradiction by stating that modifications or improvements made to the Confidential Information by the Company will be jointly owned. The original clause clearly states that 'All Confidential Information shall remain the property of Tompkins Cortland Community College,' indicating exclusive ownership. The addition of joint ownership for modifications creates ambiguity and contradicts the initial statement of sole ownership. This introduces potential disputes over intellectual property rights and the use of modified Confidential Information.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "All Confidential Information shall remain the property of Tompkins Cortland Community College, except for any modifications or improvements made to that information by the Company, which shall be jointly owned. No rights or license therein is granted except a limited right to use the Confidential Information solely for the Purpose.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an in-text contradiction. The original text states that 'All Confidential Information shall remain the property of Tompkins Cortland Community College.' The changed text modifies this to say that any modifications or improvements made to the Confidential Information by the Company will be jointly owned. Since the changed text is the same as the contradicted text, and the perturbation explanation states that this modification creates ambiguity and contradicts the initial statement of sole ownership, it introduces a direct contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Upon request of Tompkins Cortland Community College , the Company shall promptly return all copies of the Confidential Information, in whatever form or media, to Tompkins Cortland Community College , or certify the destruction of all such Confidential Information.",
+        "changed_text": "Upon request of Tompkins Cortland Community College, the Company shall return all *tangible* copies of the Confidential Information. Electronic copies may be retained for archival purposes, subject to the Company's internal data retention policies.",
+        "explanation": "This change introduces an in-text contradiction by allowing the Company to retain electronic copies of Confidential Information for archival purposes, even after Tompkins Cortland Community College requests the return of all copies. The original clause required the Company to return 'all copies of the Confidential Information, in whatever form or media, or certify the destruction of all such Confidential Information.' This creates uncertainty and potential disputes over whether the Company has truly relinquished all access to the information, as the retained electronic copies could potentially be accessed or used in the future.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "This Agreement shall be effective on the date of its full execution by the Parties. Upon request of Tompkins Cortland Community College, the Company shall return all *tangible* copies of the Confidential Information. Electronic copies may be retained for archival purposes, subject to the Company's internal data retention policies. 7. All notices shall be in writing and delivered by hand or sent by certified or registered mail, return receipt requested, or reputable overnight courier service to the abov e address of the other party, to the attention of the Recipient’s Legal Department unless otherwise directed in writing by Recipient, and shall be deemed received on the earlier of actual receipt or five days after deposit in the mail. Page 2 of 2",
+        "contradiction_exists": "YES",
+        "justification": "The changed text allows the Company to retain electronic copies of Confidential Information for archival purposes, even after Tompkins Cortland Community College requests the return of all copies. This directly contradicts the original requirement to return 'all copies of the Confidential Information, in whatever form or media, or certify the destruction of all such Confidential Information.' This creates an inconsistency as defined in the Perturbation Definitions: 'Inconsistencies also lead to in-text contradictions when different sections of a contract provide conflicting deadlines, obligations, or penalties.' The contradicted text, which is also the Changed text, demonstrates this conflict. The original text mandated the return or destruction of all copies, while the changed text permits retention of electronic copies, creating a clear in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement constitutes the entire agreement of the Parties with respect to the subject matter and supersedes all prior agreements or understandings, written or oral, between the Parties with respect thereto.",
+        "changed_text": "This Agreement constitutes the entire agreement of the Parties with respect to the subject matter; however, any pre-existing agreements concerning data sharing protocols shall remain in effect, unless explicitly superseded in writing.",
+        "explanation": "The change introduces an in-text contradiction by stating that pre-existing agreements concerning data sharing protocols shall remain in effect, contradicting the original clause, which clearly states this Agreement supersedes all prior agreements or understandings, written or oral, between the Parties with respect thereto. This creates uncertainty and ambiguity about which agreement's terms and conditions are applicable, thus increasing the probability of disputes.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "This Agreement shall be governed by and construed in accordance with the laws of the state of New York, without regard to its conflict of law provisions. Neither Party may assign its rights or delegate its duties or obligations under this Agreement without the other Party’s prior written consent. This Agreement constitutes the entire agreement of the Parties with respect to the subject matter; however, any pre-existing agreements concerning data sharing protocols shall remain in effect, unless explicitly superseded in writing. 11. All laws governing the \"Confidential Information\" of the College, including FERPA - Family Educational Rights and Privacy Act, HIPPA - Health Insurance Portability Act, Gramm -Leach -Bliley Act, New York State Information Security Breach and Notification Act, Sarbanes -Oxley Act and others that may apply will be strictly followed.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that the agreement supersedes all prior agreements. The changed text introduces an exception, stating that pre-existing agreements concerning data sharing protocols remain in effect, unless explicitly superseded in writing. This creates a direct contradiction with the original intent of the agreement superseding all prior agreements, which is also stated in the contradicted text. Therefore, the change introduces an in-text contradiction."
+      }
+    ]
+  }
+]

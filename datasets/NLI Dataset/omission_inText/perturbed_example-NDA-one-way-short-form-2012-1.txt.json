@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "example-NDA-one-way-short-form-2012-1.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "1.  O BLIGATIONS OF CONFIDENTIALITY 1.1 In this agreement, Confidential Information mea ns confidential information disclosed by the Discloser to the Recipient, including informati on relating to its business, operations, products, customers or plans, but excluding any inf ormation that is or becomes generally available to the public, was already lawf ully in the possession of the Recipient, or is developed by the Recipient indepen dently of any disclosure by the Discloser.",
+        "changed_text": "1.  O BLIGATIONS OF CONFIDENTIALITY 1.1 In this agreement, Confidential Information refers to information shared between parties.",
+        "explanation": "By removing the specific definition of 'Confidential Information' and replacing it with a vague statement, the contract becomes ambiguous. Later clauses rely on a detailed understanding of what constitutes 'Confidential Information' as originally defined, and now they lack context. This change creates an internal contradiction because the specific exclusion criteria mentioned in the original definition (information already public, lawfully possessed, or independently developed) are no longer explicitly addressed, even though other sections imply that such exclusions should exist.",
+        "location": "Section 1.1",
+        "contradicted_location": "Section 1.2",
+        "contradicted_text": "1.2 The Recipient shall keep the Confidential Infor mation confidential and shall not use or exploit the Confidential Information in any way exc ept for the purpose of [STATE PURPOSE] (the “Purpose”) and shall not disclose the Confidential Information to any third party (except as expressly permitted by this agreement).",
+        "contradiction_exists": "YES",
+        "justification": "The original text provided a specific definition for 'Confidential Information', including explicit exclusions. The changed text replaces this with a vague statement: 'Confidential Information refers to information shared between parties.' The contradicted text, section 1.2, relies on the original definition to determine what constitutes Confidential Information and how it should be handled. Because the change removes the specific definition, it contradicts the requirement of 1.2, as the scope of 'Confidential Information' is no longer well defined, causing uncertainty about the Recipient's obligations and how they should protect the Confidential Information."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "1.3 The Recipient may disclose Confidential Informa tion to the extent required by law or by a court or other authority of competent jurisdictio n provided that, to the extent it is legally permitted to do so, it gives the Discloser as much notice of this disclosure as possible.",
+        "changed_text": "1.3 The Recipient may disclose Confidential Information as deemed necessary.",
+        "explanation": "The original text specifies conditions under which disclosure is permitted (required by law/court order). Removing these conditions and stating disclosure is permitted 'as deemed necessary' introduces ambiguity and contradiction. It conflicts with the general obligation of confidentiality outlined in Section 1.2, because the Recipient could now potentially disclose information even if not legally compelled, creating uncertainty about the scope of confidentiality.",
+        "location": "Section 1.3",
+        "contradicted_location": "Section 1.2",
+        "contradicted_text": "1.2 The Recipient shall keep the Confidential Infor mation confidential and shall not use or exploit the Confidential Information in any way exc ept for the purpose of [STATE PURPOSE] (the “Purpose”) and shall not disclose the Confidential Information to any third party (except as expressly permitted by this agreement).",
+        "contradiction_exists": "YES",
+        "justification": "The original text limited disclosure to situations required by law/court order. The changed text broadens this to 'as deemed necessary,' which directly contradicts the obligation in Section 1.2 to keep information confidential and not disclose it except as expressly permitted. The 'as deemed necessary' clause creates a loophole allowing disclosure beyond what was initially agreed, thus creating a strong in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "1.4 At the request of the Discloser, the Recipient shall destroy or return to the disclosing party all documents and materials containing Confid ential Information.",
+        "changed_text": "1.4 The Recipient may retain or dispose of documents as they see fit.",
+        "explanation": "Changing the clause about returning confidential information to 'retain or dispose of documents as they see fit' directly contradicts the expectation that the Discloser retains control over their confidential information. The original agreement implies a process for handling confidential information after termination or at the Discloser's request, while the changed text gives the Recipient unilateral control. This contradicts Section 1.5 which states that 'all Confidential Information shall remain the property of the Discloser'.",
+        "location": "Section 1.4",
+        "contradicted_location": "Section 1.5",
+        "contradicted_text": "1.5 All Confidential Information shall remain the p roperty of the Discloser and no rights in the Confidential Information are granted to the Rec ipient other than those expressly stated in this agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires the Recipient to either destroy or return confidential information to the Discloser. The changed text gives the Recipient the option to retain or dispose of the documents as they see fit. This directly contradicts Section 1.5, which states that 'all Confidential Information shall remain the property of the Discloser', because the changed text allows the Recipient to keep or discard the Discloser's property. This constitutes a strong contradiction according to the 'Omissions - In Text Contradiction' definition because essential language related to the Discloser's control over their confidential information was removed, creating a conflict with the requirement that the information remains the Discloser's property."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "2. T ERMINATION If either party decides not to become involved in the Purpose with the other party, it shall notify the other party in writing of its inte ntion to terminate this agreement. The obligations of each party shall continue for a peri od of [STATE NUMBER OF YEARS] year(s) from the termination of this agreement.",
+        "changed_text": "2. T ERMINATION This agreement may be terminated at any time by either party.",
+        "explanation": "By removing the clause specifying the duration of confidentiality obligations after termination, the agreement creates an internal contradiction. While it allows termination at any time, it provides no guidance on whether or not the confidentiality obligations continue after termination. This creates conflict in interpretation because Section 1.2 is still in place and states 'The Recipient shall keep the Confidential Information confidential'. If this is not held after the contract expires, this becomes contradictory.",
+        "location": "Section 2",
+        "contradicted_location": "Section 1.2",
+        "contradicted_text": "1.2 The Recipient shall keep the Confidential Infor mation confidential and shall not use or exploit the Confidential Information in any way exc ept for the purpose of [STATE PURPOSE] (the “Purpose”) and shall not disclose the Confidential Information to any third party (except as expressly permitted by this agreement).",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the clause specifying the duration of confidentiality obligations after termination. The original text specified that obligations continue for a period of [STATE NUMBER OF YEARS] year(s) from the termination of this agreement. By removing that, it directly conflicts with Section 1.2 which states 'The Recipient shall keep the Confidential Information confidential'. The changed text allows termination at any time without addressing whether the confidentiality obligations continue, thus creating a contradiction with Section 1.2, because it isn't clear if Section 1.2 is still enforced after termination."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "3.1 This agreement constitutes the whole agreement between the parties and supersedes all previous agreements between the parties relatin g to the Purpose.",
+        "changed_text": "3.1 This agreement represents a general understanding between the parties.",
+        "explanation": "Changing the 'whole agreement' clause to a 'general understanding' undermines the legal enforceability of the contract. It implies that other agreements or understandings may exist that are not covered by this document. This creates a contradiction because other clauses in the contract are written as legally binding obligations. The enforceability of those obligations is now uncertain, if the agreement is simply a general understanding.",
+        "location": "Section 3.1",
+        "contradicted_location": "Section 1.2",
+        "contradicted_text": "1.2 The Recipient shall keep the Confidential Infor mation confidential and shall not use or exploit the Confidential Information in any way exc ept for the purpose of [STATE PURPOSE] (the “Purpose”) and shall not disclose the Confidential Information to any third party (except as expressly permitted by this agreement).",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the agreement constitutes the 'whole agreement,' while the changed text modifies this to a 'general understanding.' This undermines the legally binding nature of the contract, which is essential for the clause in Section 1.2, which imposes a strict obligation on the Recipient to protect confidential information. By changing the agreement to a 'general understanding,' the enforceability of the confidentiality obligations in Section 1.2 is significantly weakened, creating a strong in-text contradiction. The explanation provides further clarification of this contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "4.2 The parties irrevocably agree that the courts o f England and Wales shall have exclusive jurisdiction to settle any dispute or cla im that arises out of or in connection with this agreement or its subject matter or format ion.",
+        "changed_text": "4.2 Disputes will be resolved through amicable discussion.",
+        "explanation": "By replacing the clause specifying exclusive jurisdiction with a vague 'amicable discussion' requirement, the contract creates an internal contradiction regarding dispute resolution. Without a defined legal process for resolving disputes, the agreement becomes unenforceable in court. This directly contradicts the implicit assumption that the other clauses in the agreement (like confidentiality obligations) can be legally enforced if violated. While Section 4.1 states that the law will be English, there is nothing that states where it will be handled, creating an in-text contradiction.",
+        "location": "Section 4.2",
+        "contradicted_location": "Section 4.1",
+        "contradicted_text": "4.1 This agreement and any dispute or claim arising out of or in connection with it or its subject matter or formation shall be governed by an d construed in accordance with English law.",
+        "contradiction_exists": "YES",
+        "justification": "The original text in Section 4.2 specifies exclusive jurisdiction in the courts of England and Wales for dispute resolution. The changed text replaces this with a requirement for 'amicable discussion'. This creates a direct contradiction because 'amicable discussion' is not a defined legal process and contradicts the expectation of legal enforcement outlined in Section 4.1, which states that the agreement is governed by English law. The change removes the mechanism for enforcing English law, creating a strong in-text contradiction as per the Omissions – In Text Contradiction definition."
+      }
+    ]
+  }
+]

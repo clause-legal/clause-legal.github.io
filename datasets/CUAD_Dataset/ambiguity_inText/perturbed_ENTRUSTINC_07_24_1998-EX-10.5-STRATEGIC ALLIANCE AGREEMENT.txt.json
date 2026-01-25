@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "ENTRUSTINC_07_24_1998-EX-10.5-STRATEGIC ALLIANCE AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "\"Entrust\" shall mean ETI and all Subsidiaries thereof.",
+        "changed_text": "\"Entrust\" shall mean ETI only.",
+        "explanation": "This change introduces a contradiction. In Article I, 'Entrust' is defined as ETI only. However, in sections like 6.02, 'Entrust Patents' are licensed. If Entrust means only 'ETI', then ETI would be granting licenses for patents held by its subsidiaries, which seems to be at odds with a narrower reading of 'Entrust'.",
+        "location": "Article I",
+        "contradicted_location": "Section 6.02",
+        "contradicted_text": "Section 6.02. Nortel Benefit from Cross Licenses. Subject to the terms and ----------------------------------- conditions of this Agreement, Entrust, to the extent of its legal right to do so, hereby grants to Nortel, under the Entrust Patents, an irrevocable, non- transferable, non-assignable, indivisible, non-exclusive, royalty-free, worldwide license for Licensed Products and Licensed Services.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text narrows the definition of \"Entrust\" from including ETI and all its Subsidiaries to ETI only. Section 6.02 then grants Nortel a license under \"Entrust Patents.\" If Entrust only means ETI, it creates a contradiction because ETI cannot grant licenses under patents held by its subsidiaries, creating a direct and impactful conflict."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Subject to early termination for material default, such Reseller Agreement shall expire either in three years or when ETI ceases to be a Subsidiary of NTL, whichever event occurs later.",
+        "changed_text": "Subject to early termination for material default, such Reseller Agreement shall expire in three years regardless of whether ETI ceases to be a Subsidiary of NTL.",
+        "explanation": "This change introduces a contradiction regarding the duration of the Reseller Agreement. Originally, the agreement's term was tied to both a fixed three-year period and ETI's status as a subsidiary of NTL, expiring on the later date. The modified version removes the dependency on ETI's subsidiary status, making the agreement's expiration solely dependent on the three-year term. This contradicts Article X, which generally links agreement terms to ETI's subsidiary status.",
+        "location": "Section 4.01",
+        "contradicted_location": "Section 10.01",
+        "contradicted_text": "Section 10.01. Term. Except as otherwise provided in this Agreement, this ---- Agreement shall terminate on the later of (i) the third anniversary of the Effective Date or (ii) the date on which ETI ceases to be a Subsidiary of NTL.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text creates a direct contradiction. The original text and the contradicted text (Section 10.01) both state that the Reseller Agreement terminates on the *later* of (i) the third anniversary or (ii) the date ETI ceases to be a Subsidiary of NTL. The changed text removes the second condition, stating the agreement expires *regardless* of ETI's subsidiary status, thus creating an in-text contradiction. This aligns with the definition of 'Omissions – In Text Contradiction' as essential language has been removed creating a direct conflict."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "NTL shall make commercially reasonable efforts to acquire for the benefit of Entrust any renewal or extension of NTL a license for Nortel Technology at Entrust's request provided Entrust agrees to pay all costs associated with obtaining such benefit for Entrust.",
+        "changed_text": "NTL shall not be obligated to acquire for the benefit of Entrust any renewal or extension of NTL a license for Nortel Technology, regardless of Entrust's request or willingness to pay associated costs.",
+        "explanation": "This change creates a direct contradiction concerning NTL's obligation to acquire license renewals/extensions for Nortel Technology for Entrust's benefit. The original text mandates 'commercially reasonable efforts' subject to Entrust's request and cost coverage. The modified text removes this obligation entirely. This contradicts section 8.01, which states that each party provide other party with all information regarding itself and transactions under this agreement that the other Party reasonably believes are required for the other Party to obtain the benefits provided for herein.",
+        "location": "Section 2.02",
+        "contradicted_location": "Section 8.01",
+        "contradicted_text": "Section 8.01. Information. Subject to applicable law and privileges, each Party ----------- shall, to the extent legally permitted, provide the other Party with all information regarding itself and transactions under this Agreement that the other Party reasonably believes are required: (a) for the other Party to obtain the benefits provided for herein, and (b) to comply with the provisions of Section 7.01 and all applicable federal, state, county and local laws, ordinances, regulations and codes, including, but not limited to, securities laws and regulations.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that NTL 'shall make commercially reasonable efforts' to acquire license renewals/extensions, contingent on Entrust's request and cost coverage. The changed text explicitly states that NTL 'shall not be obligated' to acquire such renewals/extensions, regardless of Entrust's request or willingness to pay. This directly contradicts Section 8.01, which mandates each party provide the other with information to obtain benefits provided in the agreement. The change eliminates a potential benefit for Entrust, thus conflicting with NTL's obligation under Section 8.01 to facilitate Entrust receiving benefits."
+      }
+    ]
+  }
+]

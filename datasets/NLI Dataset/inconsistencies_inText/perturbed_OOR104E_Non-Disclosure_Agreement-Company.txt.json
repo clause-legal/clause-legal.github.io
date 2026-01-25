@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "OOR104E_Non-Disclosure_Agreement-Company.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "8.2 A Party may terminate this Agreement, without cause, upon twenty (20) Business Days’ prior written notice to the other Party.",
+        "changed_text": "8.2 A Party may terminate this Agreement, without cause, upon one (1) Business Days’ prior written notice to the other Party.",
+        "explanation": "The original agreement states that there has to be 20 days prior written notice, but this is being changed to 1 business day, which contradicts the section 8.1 since it might still be in force (considering the amount of year/months) and this early termination creates an in-text contradiction: 8.1 This Agreement shall commence on the Effective Date, and unless earlier terminated in accordance herewith, shall continue in force for a period of 6 months from the Effective Date.",
+        "location": "8.2",
+        "contradicted_location": "8.1",
+        "contradicted_text": "8.1 This Agreement shall commence on the Effective Date, and unless earlier terminated in accordance herewith, shall continue in force for a period of 6 months from the Effective Date. Notwithstanding the expiration or earlier termination of this Agreement, the obligations of confidentiality with respect to any Confidential Information exchanged between the Parties prior to the expiration or earlier termination of this Agreement, shall remain in full force and effect until such Confidential Information falls within the scope of the exceptions set out in Article 3.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies section 8.2 to allow termination with 1 business day's notice, while the contradicted text, section 8.1, states the agreement continues for 6 months unless earlier terminated in accordance herewith. The change to 1 day notice directly contradicts the 6-month term established in 8.1, creating a strong inconsistency because termination can occur much earlier, breaking the initial agreement of 6 months."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Unless otherwise requested in writing by the Disclosing Party within fifteen (15) days of the expiration or earlier termination of this Agreement, or upon written notice given at any time during the Term of this Agreement requesting the return of the Disclosing P arty’s Confidential Information , following the expiration of the fifteen (15) day delay provided for above the Receiving Party shall destroy all tangible forms and destroy/delete all intangible forms of Disclosing Party’s Confidential Information (includin g any originals and all copies thereof) in its possession.",
+        "changed_text": "Unless otherwise requested in writing by the Disclosing Party within thirty (30) days of the expiration or earlier termination of this Agreement, or upon written notice given at any time during the Term of this Agreement requesting the return of the Disclosing P arty’s Confidential Information , following the expiration of the thirty (30) day delay provided for above the Receiving Party shall destroy all tangible forms and destroy/delete all intangible forms of Disclosing Party’s Confidential Information (includin g any originals and all copies thereof) in its possession.",
+        "explanation": "Changing the number of days from fifteen (15) to thirty (30) creates an inconsistency. It implies that the Receiving Party has a different timeframe to act on the request or destroy the information after the agreement's termination. Considering the agreement from 8.1 can be terminated sooner, it can be considered an in-text contradiction on the time window to act and respond regarding the confidential data. 8.1 This Agreement shall commence on the Effective Date, and unless earlier terminated in accordance herewith, shall continue in force for a period of 6 months from the Effective Date.",
+        "location": "8.3",
+        "contradicted_location": "8.1",
+        "contradicted_text": "8.1 This Agreement shall commence on the Effective Date, and unless earlier terminated in accordance herewith, shall continue in force for a period of 6 months from the Effective Date. Notwithstanding the expiration or earlier termination of this Agreement, the obligations of confidentiality with respect to any Confidential Information exchanged between the Parties prior to the expiration or earlier termination of this Agreement, shall remain in full force and effect until such Confidential Information falls within the scope of the exceptions set out in Article 3.",
+        "contradiction_exists": "YES",
+        "justification": "The change from fifteen (15) days to thirty (30) days in the Changed Text directly contradicts the provision in section 8.1 (Contradicted Text), which allows for earlier termination of the agreement. This creates a contradiction because the time window to act and respond regarding confidential data is dependent on the term expiring vs. being terminated early, which is an Inconsistency - In Text Contradiction. The modified text introduces conflicting deadlines, creating uncertainty about which timeframe applies."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "10.1 Assignment: This Agreement may not be assigned by either Party, in whole or in part, without th e prior written consent of a duly authorized representative of the other Party. Any such assignment shall not relieve a Party of its obligations hereunder.",
+        "changed_text": "10.1 Assignment: This Agreement may be assigned by either Party, in whole or in part, without th e prior written consent of a duly authorized representative of the other Party. Any such assignment shall relieve a Party of its obligations hereunder.",
+        "explanation": "The original text says that even if the aggrement is assigned, it doesn't relieve any party's obligations. The changed text directly contradicts this by saying that it releases the obligations, which creates a high level of incosistency regarding the obligations and responsabilities in this agreement, causing disputes and uncertainty.",
+        "location": "10.1",
+        "contradicted_location": "10.1",
+        "contradicted_text": "10.1 Assignment: This Agreement may be assigned by either Party, in whole or in part, without th e prior written consent of a duly authorized representative of the other Party. Any such assignment shall relieve a Party of its obligations hereunder.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in section 10.1 directly contradicts itself. The original text stated that assignment does not relieve a party of its obligations, while the changed text states that it does. The contradicted text is the same as the changed text, indicating an in-text contradiction was introduced by the edit. This falls under the definition of Inconsistencies - In Text Contradiction, since the same section contains conflicting statements about obligations after assignment."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "10.8 Notices : All notices under the terms of this Agreement shall be given in writing and sent by registered mail, electronic mail, or delivered by hand to the following addresses. CONCORDIA UNIVERSITY (COMPANY) 1455 de Maisonneuve Blvd. West GM -910 Montréal, Québec H3G 1M8 Attention: Address: Attention: Email : Email : All notices shall be presumed to have been received when they are hand delivered or transmitted via email, or five (5) Business days after their mailing by registered mail or courier.",
+        "changed_text": "10.8 Notices : All notices under the terms of this Agreement shall be given in writing and sent by registered mail, electronic mail, or delivered by hand to the following addresses. CONCORDIA UNIVERSITY (COMPANY) 1455 de Maisonneuve Blvd. West GM -910 Montréal, Québec H3G 1M8 Attention: Address: Attention: Email : Email : All notices shall be presumed to have been received when they are hand delivered or transmitted via email, or ten (10) Business days after their mailing by registered mail or courier.",
+        "explanation": "The original text says that all notices shall be presumed to have been received when they are hand delivered or transmitted via email, or five (5) Business days after their mailing by registered mail or courier. The changed text modifies the presumed days after by 10 business days. This changes, affects any obligation in this agreement that is time-sensetive from both parties, considering that is in-text contradiction.  8.2 A Party may terminate this Agreement, without cause, upon one (1) Business Days’ prior written notice to the other Party.",
+        "location": "10.8",
+        "contradicted_location": "8.2",
+        "contradicted_text": "8.2 A Party may terminate this Agreement, without cause, upon one (1) Business Days’ prior written notice to the other Party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the notice period from five (5) business days to ten (10) business days for registered mail or courier. The contradicted text specifies a one (1) business day notice period for termination of the agreement. Since the changed notice period is now longer, it creates a contradiction with the one-day notice period for termination, as a party attempting to terminate via mail may not be considered to have provided sufficient notice according to section 8.2, creating an inconsistency, as per the provided Perturbation Definitions, 5. Inconsistencies - In Text Contradiction."
+      }
+    ]
+  }
+]

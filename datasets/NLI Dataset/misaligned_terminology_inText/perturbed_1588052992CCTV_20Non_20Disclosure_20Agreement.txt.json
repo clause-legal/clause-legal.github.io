@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "1588052992CCTV%20Non%20Disclosure%20Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Recipient agrees not to disclose and the Discloser agrees to let the Recipient have the access to the Confidential Information as identified and reduced in writing or provided verbally or in any other way not reduced in writing at the time of such disclosure of the information.",
+        "changed_text": "Recipient agrees not to disclose and the Discloser agrees to let the Recipient have the access to the Confidential Information that may or may not be recorded.",
+        "explanation": "By replacing the detailed description of how Confidential Information is disclosed with the vague statement 'that may or may not be recorded,' the agreement becomes ambiguous. The original clause specifies that information, whether written or verbal, is covered, creating an in-text contradiction later on when it is harder to enforce, if there's no record of the information being disclosed. This impacts the burden of proof in case of a breach.",
+        "location": "1. Disclosure:",
+        "contradicted_location": "5. Breach.",
+        "contradicted_text": "5.  Breach. The Recipient acknowledges that disclosure or use of Confidential Information in violation of this Agreement could cause irreparable harm to Discloser including loss of lives and limbs of the persons and damage to the property, for which monetary damages may be difficult to ascertain or turn to be meaningless. The Recipient therefore agrees that Discloser will have the right, in addition to its other rights and remedies, to seek injunctive relief for violations of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces ambiguity by stating that Confidential Information 'may or may not be recorded.' This contradicts the contradicted text, which assumes that disclosure or use of Confidential Information can be proven in order to seek injunctive relief for violations. If the information is not recorded, as the changed text allows, it would be difficult, if not impossible, to prove the 'disclosure or use of Confidential Information in violation of this Agreement,' thereby undermining the ability to seek injunctive relief. The original text specifies that information, whether written or verbal, is covered, creating an in-text contradiction later on when it is harder to enforce."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Recipient agrees to use its best efforts to prevent and protect the Confidential Information, or any part thereof, from disclosure to any person(s) or entity (ies), even if authorized or directed under any law, without the express permission of the Discloser.",
+        "changed_text": "Recipient agrees to use reasonable efforts to prevent and protect the Confidential Information, or any part thereof, from disclosure to any person(s) or entity (ies), unless required by law.",
+        "explanation": "Replacing 'best efforts' with 'reasonable efforts' and adding 'unless required by law' weakens the confidentiality obligation. This creates a contradiction because 'best efforts' implies a high standard of care, while 'reasonable efforts' suggests a lower one. The 'unless required by law' clause introduces a significant exception. This affects the enforceability of the confidentiality clause, giving Recipient an easier escape. Contradicting the premise of a strong confidentiality agreement.",
+        "location": "2.2 No Unauthorized Disclosure:",
+        "contradicted_location": "2.1 No Use:",
+        "contradicted_text": "2.1 No Use: Recipient agrees not to use the Confidential Information in any way or under any circumstances share the same, in writing or through any other means, with any Third Party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text weakens the confidentiality obligation by changing 'best efforts' to 'reasonable efforts' and adding 'unless required by law.' This directly contradicts the contradicted text, which states, 'Recipient agrees not to use the Confidential Information in any way or under any circumstances share the same, in writing or through any other means, with any Third Party.' The change introduces an exception ('unless required by law') to the strict prohibition on sharing confidential information, creating a clear conflict and making enforcement uncertain. This aligns with the Misaligned Terminology - In Text Contradiction definition, where changing key terms (best efforts to reasonable efforts) and adding exceptions create conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Recipient agrees to take all steps necessary to protect the secrecy of the Confidential Information, and to prevent the Confidential Information from failing into the public domain or into the possession of unauthorized person(s) and/or entity(ies).",
+        "changed_text": "Recipient agrees to take commercially reasonable steps to protect the Confidential Information from improper disclosure, but is not liable for inadvertent disclosures.",
+        "explanation": "By changing 'all steps necessary' to 'commercially reasonable steps' and adding 'but is not liable for inadvertent disclosures,' the protection standard is significantly lowered. The original clause demands maximal protection, whereas the modified version only requires reasonable measures and excuses inadvertent disclosures. This alters the obligation of data protection. Contradiction is being made when the clause before imposes a higher standard of data protection, that is now lowered.",
+        "location": "2.3 Protection of Secrecy:",
+        "contradicted_location": "5. Breach.",
+        "contradicted_text": "5. Breach. The Recipient acknowledges that disclosure or use of Confidential Information in violation of this Agreement could cause irreparable harm to Discloser including loss of lives and limbs of the persons and damage to the property, for which monetary damages may be difficult to ascertain or turn to be meaningless. The Recipient therefore agrees that Discloser will have the right, in addition to its other rights and remedies, to seek injunctive relief for violations of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text imposed a high standard of care ('all steps necessary') for protecting confidential information. The changed text lowers this standard to 'commercially reasonable steps' and excuses 'inadvertent disclosures.' This directly contradicts the 'Contradicted Text' which emphasizes the potential for 'irreparable harm' including 'loss of lives and limbs and damage to property' from any disclosure. The change makes the initial clause requiring the Recipient to be liable for disclosure not as enforceable as before, because the changed text is now much more lenient in that regard."
+      }
+    ]
+  }
+]

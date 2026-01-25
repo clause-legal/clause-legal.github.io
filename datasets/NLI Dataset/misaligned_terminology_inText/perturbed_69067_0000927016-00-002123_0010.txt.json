@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "69067_0000927016-00-002123_0010.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The receiving party will protect Confidential Information by using at least the same degree of care, but no less than a reasonable degree of care, to prevent the unauthorized disclosure of such Confidential Information as the receiving party uses to protect its own confidential or proprietary information.",
+        "changed_text": "The receiving party will protect Sensitive Data by using at least the same degree of care, but no less than a reasonable degree of care, to prevent the unauthorized disclosure of such Sensitive Data as the receiving party uses to protect its own confidential or proprietary information.",
+        "explanation": "Changing 'Confidential Information' to 'Sensitive Data' introduces a new undefined term, while the contract continues to refer to the defined term 'Confidential Information' elsewhere. This raises questions about whether the protective obligations extend to information considered only as 'Sensitive Data'.",
+        "location": "PAGE 1, SECTION 2",
+        "contradicted_location": "PAGE 2, SECTION 3",
+        "contradicted_text": "Ownership of Confidential Information. All Confidential Information shall remain the property of the disclosing party. By disclosing information to the receiving party, the disclosing party does not grant any express or implied right to the receiving party to or under any of the disclosing party's patents, copyrights, trademarks or trade secret information.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Confidential Information' to 'Sensitive Data' in the Changed Text introduces a new, undefined term. The Contradicted Text refers specifically to 'Confidential Information'. The Perturbation Explanation highlights that this creates uncertainty about whether protective obligations extend to information considered only 'Sensitive Data'. This creates a contradiction because the contract now uses two terms that might or might not refer to the same thing, leading to potential disputes over which information is subject to the confidentiality clause. This aligns with the definition of 'Misaligned Terminology - In Text Contradiction'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "All Confidential Information shall remain the property of the disclosing party.",
+        "changed_text": "All Proprietary Information shall remain the property of the disclosing party.",
+        "explanation": "Replacing 'Confidential Information' with 'Proprietary Information' only in this sentence creates confusion about the scope of ownership. It is unclear whether the obligation to return/destroy mentioned in the remainder of the paragraph applies also to 'Proprietary Information'.",
+        "location": "PAGE 2, SECTION 3",
+        "contradicted_location": "PAGE 2, SECTION 3",
+        "contradicted_text": "All Proprietary Information shall remain the property of the disclosing party. By disclosing information to the receiving party, the disclosing party does not grant any express or implied right to the receiving party to or under any of the disclosing party's patents, copyrights, trademarks or trade secret information. The receiving party will return all originals, copies, reproductions and summaries of Confidential Information immediately upon the disclosing party's request or, at the disclosing party's option, destroy the same, and will deliver to the disclosing party, upon its request, a certificate of a duly authorized officer certifying as to the foregoing.",
+        "contradiction_exists": "YES",
+        "justification": "The original text referred to 'Confidential Information' while the changed text uses 'Proprietary Information.' The contradicted text also uses 'Proprietary Information' but then specifies obligations regarding return/destruction only for 'Confidential Information'. This creates a contradiction because it is unclear if the return/destruction obligations also apply to 'Proprietary Information'. This aligns with the definition of 'Misaligned Terminology - In Text Contradiction', where the use of two terms without clear definitions leads to conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The obligations of each receiving party hereunder with respect to the non-disclosure and use of the disclosing party's Confidential Information shall survive until such time as all such Confidential Information disclosed hereunder becomes publicly known and made generally available through no action or inaction of the receiving party.",
+        "changed_text": "The obligations of each receiving party hereunder with respect to the non-disclosure and use of the disclosing party's Trade Secrets shall survive until such time as all such Trade Secrets disclosed hereunder becomes publicly known and made generally available through no action or inaction of the receiving party.",
+        "explanation": "Changing 'Confidential Information' to 'Trade Secrets' significantly narrows the scope of the survival clause. The contract protects a broader range of information under 'Confidential Information' which is defined in detail, but the survival clause now applies only to Trade Secrets which is not defined. This creates an in-text contradiction, as the original term is defined, and this new term is used in the clause.",
+        "location": "PAGE 2, SECTION 8",
+        "contradicted_location": "PAGE 1, SECTION 1",
+        "contradicted_text": "\"Confidential Information\" means non-public information relating to the disclosing party's business that the disclosing party designates as being confidential or proprietary or which, under the circumstances surrounding disclosure, ought to be treated as confidential. \"Confidential Information\" includes, without limitation, ideas, concepts, designs, specifications, drawings, blueprints, tracings, models, samples, data, computer programs, marketing plans and strategies, business strategies, customer names, mailing lists, prices, rates, costs, information received from others that the disclosing party is obligated to treat as confidential, and other technical, financial or business information. Confidential Information may be furnished in any tangible or intangible form, including written or printed documents, visual demonstrations or inspections, computer disks or tapes, other electronic media and oral communications.",
+        "contradiction_exists": "YES",
+        "justification": "The original text referred to 'Confidential Information,' which is clearly defined in the 'Contradicted Text'. The changed text replaces 'Confidential Information' with 'Trade Secrets,' which is undefined in the provided contract excerpts. This creates a contradiction because the survival clause, which previously applied to a broad, defined category of information, now applies only to 'Trade Secrets,' an undefined term, potentially narrowing the scope of protection and leading to ambiguity in enforcement. The definition of 'Confidential Information' includes many items that might not qualify as 'Trade Secrets,' creating a discrepancy."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement constitutes the entire agreement between the parties with respect to the subject matter hereof and supersedes any prior or contemporaneous agreements or understandings, written or oral, concerning the subject matter hereof.",
+        "changed_text": "This Contract constitutes the entire agreement between the parties with respect to the subject matter hereof and supersedes any prior or contemporaneous agreements or understandings, written or oral, concerning the subject matter hereof.",
+        "explanation": "Changing 'Agreement' to 'Contract' is subtle but creates confusion. While seemingly interchangeable, legal contexts may require more precise definitions of each. By using both terms, it is unclear whether prior 'agreements' are fully superseded if they are not also considered 'contracts' under a stricter definition.",
+        "location": "PAGE 2, SECTION 9",
+        "contradicted_location": "PAGE 1, PARAGRAPH 1",
+        "contradicted_text": "This Agreement provides for the protection from unauthorized disclosure or use of Confidential Information (as defined below) that may be furnished by one of the parties hereto to the other party and that may be used by the receiving party solely for the purpose of evaluating or engaging in a business relationship between the disclosing party and the receiving party.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Agreement' to 'Contract' introduces potentially misaligned terminology, as highlighted in the explanation. The Contradicted Text refers specifically to 'Agreement,' implying that the confidential information furnished is tied to a defined 'Agreement.' If 'Contract' is not explicitly defined as being synonymous with 'Agreement' throughout the document, it creates uncertainty as to whether the protections in the Contradicted Text also apply to prior 'agreements' that are not considered 'contracts' under the changed text. This fits the 'Misaligned Terminology - In Text Contradiction' definition, causing uncertainty and possible contradiction. Therefore, the change creates a strong enough contradiction to warrant a 'YES'."
+      }
+    ]
+  }
+]

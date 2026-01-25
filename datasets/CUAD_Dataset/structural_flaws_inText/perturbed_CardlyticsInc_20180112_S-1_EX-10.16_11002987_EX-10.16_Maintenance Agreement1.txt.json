@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement1.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Supplier hereby grants Bank of America a nonexclusive, worldwide, irrevocable, perpetual license to install, use, execute and copy the Software described in each Product License Schedule as necessary to conduct Bank of America business in accordance with the terms and restrictions of this Section and any special terms and restrictions stated on the applicable Product License Schedule.",
+        "changed_text": "Supplier hereby grants Bank of America a nonexclusive, worldwide, revocable, temporary license to install, use, execute and copy the Software described in each Product License Schedule as necessary to conduct Bank of America business in accordance with the terms and restrictions of this Section and any special terms and restrictions stated on the applicable Product License Schedule. This license is effective for a period of one year, renewable at Supplier's sole discretion.",
+        "explanation": "By changing the license from 'irrevocable, perpetual' to 'revocable, temporary' and limiting its duration to one year, a direct contradiction is created with Section 2.1, which originally granted a perpetual license. This change introduces uncertainty about the long-term rights of Bank of America to use the software, as the license can now be revoked and requires annual renewal at the supplier's discretion.",
+        "location": "2.1",
+        "contradicted_location": "2.1",
+        "contradicted_text": "Supplier hereby grants Bank of America a nonexclusive, worldwide, irrevocable, perpetual license to install, use, execute and copy the Software described in each Product License Schedule as necessary to conduct Bank of America business in accordance with the terms and restrictions of this Section and any special terms and restrictions stated on the applicable Product License Schedule.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the license from 'irrevocable, perpetual' to 'revocable, temporary', limiting its duration to one year and renewable at the Supplier's discretion. This creates a direct conflict with the contradicted text, which grants Bank of America an 'irrevocable, perpetual license'. The terms 'irrevocable' and 'perpetual' are directly contradicted by 'revocable' and 'temporary,' introducing uncertainty and inconsistency regarding the license's duration and enforceability."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement shall apply and remain in effect from the Effective Date and perpetually thereafter unless terminated pursuant to the Section entitled \"Termination.\"",
+        "changed_text": "This Agreement shall apply and remain in effect from the Effective Date and for a term of five (5) years, automatically renewing for subsequent one (1) year terms, unless terminated pursuant to the Section entitled \"Termination.\"",
+        "explanation": "By changing the term from 'perpetually thereafter' to a fixed five-year term with one-year renewals, a contradiction is introduced. Section 4.1 originally suggested that the agreement continues indefinitely, subject only to termination clauses. The revised text creates uncertainty about the agreement's duration, as it now expires after five years unless renewed, and by making this change it contradicts with Section 5.5. which stipulates that licenses shall not terminate unless specific conditions are met related to payment failure.",
+        "location": "4.1",
+        "contradicted_location": "5.5",
+        "contradicted_text": "The licenses granted in this Agreement with respect to any Licensed Program shall not terminate for any reason unless Supplier terminates the applicable Product License Schedule pursuant to Section 5.2 after Bank of America fails to pay in full the undisputed portion of license fees payable with respect to such Licensed Program under such Product License Schedule.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated the agreement would remain in effect 'perpetually'. The changed text limits the agreement to a five-year term with one-year renewals, unless terminated. This directly contradicts the section stating that licenses 'shall not terminate' unless payment conditions are unmet. The change introduces a new condition for termination (end of the five-year term/renewal period) that clashes with the original, more limited conditions for termination related to payment failure, creating a direct in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Parties are independent contractors. Nothing in this Agreement or in the activities contemplated by the Parties hereunder shall be deemed to create an agency, partnership, employment or joint venture relationship between the Parties or any of their Subcontractors or Representatives.",
+        "changed_text": "The Parties are independent contractors; however, Supplier will act as Bank of America's exclusive agent for all marketing and sales activities related to the Software. Nothing in this Agreement or in the activities contemplated by the Parties hereunder shall be deemed to create an agency, partnership, employment or joint venture relationship between the Parties or any of their Subcontractors or Representatives, except for the marketing and sales activities described herein.",
+        "explanation": "The added text designating the Supplier as Bank of America's 'exclusive agent for all marketing and sales activities related to the Software' directly contradicts the initial statement that 'Nothing in this Agreement... shall be deemed to create an agency...' This change inserts a legal inconsistency, potentially blurring the lines of liability and control and thus, it contraditcs Section 38.1 'NON-EXCLUSIVE NATURE OF AGREEMENT'.",
+        "location": "24.1",
+        "contradicted_location": "38.1",
+        "contradicted_text": "Supplier agrees that it shall not be considered Bank of America's exclusive provider of any goods or services provided hereunder. Bank of America retains the unconditional right to utilize other vendors in the provision of services and products whether or not similar to the services and Products described in this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds a clause that designates the Supplier as Bank of America's 'exclusive agent,' which directly contradicts the original clause stating that the agreement does not create an agency relationship. This directly conflicts with the contradicted text, which states that Supplier shall not be considered Bank of America's exclusive provider, creating a clear in-text contradiction."
+      }
+    ]
+  }
+]

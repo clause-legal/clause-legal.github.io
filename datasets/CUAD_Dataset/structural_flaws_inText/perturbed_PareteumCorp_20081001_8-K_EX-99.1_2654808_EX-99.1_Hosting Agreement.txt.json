@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "17.1 This Agreement shall come into force on the Date of the Agreement, and shall, subject to article 18, remain in full force and effect for an initial period of *** from the Commercial Launch Date.",
+        "changed_text": "17.1 This Agreement shall come into force on the Date of the Agreement, and shall, subject to article 18, remain in full force and effect for an initial period of ten (10) years from the Date of the Agreement.",
+        "explanation": "The original text defines the Initial Term as being from the Commercial Launch Date, with a period of time determined by the ***, but the modified text sets the initial term as 'ten (10) years from the Date of the Agreement'. This creates uncertainty about the length of the contract as this directly contradicts with the Commercial Launch Date condition in 1.7, potentially causing in-text contradictions with clauses depending on it.",
+        "location": "17.1",
+        "contradicted_location": "1.7",
+        "contradicted_text": "1.7 \"Commercial Launch Date\" shall mean the date on which ELEPHANT TALK commercially launches the Hosting Services and starts providing the ELEPHANT TALK Services commercially to ELEPHANT TALK Customers in the Dutch market (not being the Soft Launch). The Commercial Launch Date shall not be later than six (6) weeks after the Ready for Service Date.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in 17.1 alters the start date of the agreement's initial term from the 'Commercial Launch Date' to the 'Date of the Agreement'. This directly contradicts the definition of 'Commercial Launch Date' in 1.7, which specifies a different event and timeframe for the launch. The initial term now depends on two different dates, which creates a direct and impactful contradiction regarding the contract's duration."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "1.17 \"IMSI\" means the International Mobile Subscriber Identity, ***",
+        "changed_text": "1.17 \"IMSI\" means the International Mobile Subscriber Identity, and is exclusively used for tracking ELEPHANT TALK Customer data for marketing purposes.",
+        "explanation": "The original text states the definition of IMSI. The modified text adds 'and is exclusively used for tracking ELEPHANT TALK Customer data for marketing purposes.' which can be interpreted as a conflict with data privacy clauses in 7.1, 7.2 and 7.3, if it's not declared in the terms of the agreement.",
+        "location": "1.17",
+        "contradicted_location": "7.3",
+        "contradicted_text": "7.3 ***. T-Mobile will refrain from using any ELEPHANT TALK Customer related data for any other purpose than providing the Hosting Services to ELEPHANT TALK, with the exception of: · legal tapping requirements in accordance with a request from the relevant public body; and · necessary use for the purposes of preventing, tracing and fighting fraud or irregularities; and · other activities required by law.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text adds that the IMSI is 'exclusively used for tracking ELEPHANT TALK Customer data for marketing purposes.' This directly contradicts section 7.3, which states that T-Mobile will refrain from using ELEPHANT TALK Customer related data for any other purpose than providing the Hosting Services to ELEPHANT TALK, with specific exceptions listed. The added marketing use is not among the exceptions, thus creating a strong and clear in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "2.3 ELEPHANT TALK will not enter into any discussions or agreement on the provisioning of (similar) Hosting Services as defined in Appendix 1 with any *** in the Netherlands for the duration of the Initial Term of the Agreement. In case ELEPHANT TALK has provided to T-Mobile the twelve month termination notice in accordance with article 17.2, ELEPHANT TALK ***.",
+        "changed_text": "2.3 ELEPHANT TALK will not enter into any discussions or agreement on the provisioning of (similar) Hosting Services as defined in Appendix 1 with any company in the Netherlands. ELEPHANT TALK ***.",
+        "explanation": "The original text restricts ELEPHANT TALK from discussing or agreeing on similar Hosting Services with specific entities (***). The changed text broadens this restriction to 'any company in the Netherlands', which directly contradicts the original intent and potentially conflicts with T-Mobile's right to engage with other parties as described in 2.2. This expanded restriction could hinder ELEPHANT TALK's ability to operate and collaborate with other non-competing businesses, creating a contradiction.",
+        "location": "2.3",
+        "contradicted_location": "2.2",
+        "contradicted_text": "2.2 T-Mobile is entitled without limitations, to *** related services to any other party.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text in 2.3 broadens the restriction on ELEPHANT TALK from discussing hosting services with specific entities to 'any company in the Netherlands.' This directly contradicts the original intent and conflicts with T-Mobile's right to engage with other parties as stated in 2.2: 'T-Mobile is entitled without limitations, to related services to any other party.' By restricting ELEPHANT TALK's ability to discuss services with any company, it indirectly limits T-Mobile's entitlement to engage with other parties."
+      }
+    ]
+  }
+]

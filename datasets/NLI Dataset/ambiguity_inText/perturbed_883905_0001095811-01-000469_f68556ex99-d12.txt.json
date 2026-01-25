@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "883905_0001095811-01-000469_f68556ex99-d12.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "All Confidential Information received from the disclosing party shall be in tangible form.",
+        "changed_text": "All Confidential Information received from the disclosing party may be in tangible or intangible form.",
+        "explanation": "This change introduces ambiguity regarding the form of Confidential Information. Originally, it had to be tangible. Now, the use of 'may' introduces uncertainty. This contradicts the later section on 'TERMINATION AND DUTY TO RETURN,' which implies a return of physical items.",
+        "location": "PAGE 1 - Paragraph under 'CONFIDENTIAL INFORMATION TRANSMITTAL FORM.'",
+        "contradicted_location": "PAGE 1 - Paragraph under 'TERMINATION AND DUTY TO RETURN.'",
+        "contradicted_text": "In the event this Agreement is terminated, and the disclosing party so requests, the receiving party shall promptly return or destroy (and certify destruction of) all Confidential Information which it received from the disclosing party along with all copies which it made.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandated that Confidential Information be in tangible form. The changed text allows it to be in tangible or intangible form. The contradicted text speaks of returning or destroying physical copies of Confidential Information. If the information is intangible, it cannot be returned or destroyed in the same way as a tangible item, creating a contradiction and potentially making the obligation to return or destroy impossible to fulfill for intangible information. Therefore, the change creates a direct conflict."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The receiving party shall not disclose Confidential Information to any third party without the prior written approval of the disclosing party.",
+        "changed_text": "The receiving party shall not disclose Confidential Information to any third party, except to its legal and financial advisors, without the prior written approval of the disclosing party.",
+        "explanation": "This change adds an exception to the non-disclosure clause, allowing disclosure to legal and financial advisors without prior approval. However, it does not explicitly define the scope of what these advisors can do with the information, creating an inconsistency with the original intent of strict confidentiality. The contradiction arises if the advisors then disclose the information further.",
+        "location": "PAGE 1 - Paragraph under 'OBLIGATIONS OF RECEIVING PARTY.'",
+        "contradicted_location": "PAGE 1 - Paragraph under 'OBLIGATIONS OF RECEIVING PARTY.'",
+        "contradicted_text": "The receiving party shall maintain the Confidential Information with at least the same degree of care that the receiving party uses to protect its own similar categories of confidential and proprietary information, but no less than a reasonable degree of care under the circumstances.",
+        "contradiction_exists": "YES",
+        "justification": "The original text prohibited disclosure of Confidential Information to any third party without written approval. The changed text allows disclosure to legal and financial advisors without such approval. The contradicted text states that the receiving party must maintain the Confidential Information with at least the same degree of care that the receiving party uses to protect its own similar information. If the legal and financial advisors, now privy to the Confidential Information, do not maintain the same degree of care or further disclose the information, it would contradict the receiving party's obligation to protect the information, creating a direct conflict."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The receiving party shall maintain the Confidential Information with at least the same degree of care that the receiving party uses to protect its own similar categories of confidential and proprietary information, but no less than a reasonable degree of care under the circumstances.",
+        "changed_text": "The receiving party shall maintain the Confidential Information with at least a reasonable degree of care under the circumstances.",
+        "explanation": "By removing the clause referencing 'the same degree of care that the receiving party uses to protect its own similar categories of confidential and proprietary information', this change lowers the standard of care required, potentially conflicting with the implied higher standard if the receiving party is known to be highly protective of their own information. The contradiction occurs because if the receiving party generally uses a very high degree of care for its own data, the altered text allows them to use a lower 'reasonable' standard for the disclosing party's data.",
+        "location": "PAGE 1 - Paragraph under 'OBLIGATIONS OF RECEIVING PARTY.'",
+        "contradicted_location": "PAGE 1 - Paragraph under 'OBLIGATIONS OF RECEIVING PARTY.'",
+        "contradicted_text": "The receiving party shall not make any copies of Confidential Information received from the disclosing party except as necessary for its employees with a need to know. Any copies which are made shall be identified as belonging to the disclosing party and marked \"confidential,\" \"proprietary,\" or with a similar legend.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates maintaining confidential information with at least the same level of care used for the receiving party's own similar information, but no less than a reasonable degree of care. The changed text removes the 'same level of care' clause, only requiring a 'reasonable degree of care'. This creates a contradiction because, as the explanation states, it potentially conflicts with a higher standard if the receiving party typically uses a very high degree of care for its own data. The contradicted text refers to how copies of the confidential information should be marked and handled, implying a certain level of protection. The changed text weakens the standard of care, making it possible to treat the disclosing party's information with less care than the receiving party's own, even when making copies, thus contradicting the implied higher standard for handling and protection of confidential information."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Unless a shorter period is stated in the applicable CITR, the disclosing party will not assert any claims against the receiving party for disclosures of Confidential Information made more than five (5) years from the date of the CITR.",
+        "changed_text": "The disclosing party reserves the right to assert claims against the receiving party for disclosures of Confidential Information made at any time from the date of the CITR, regardless of any period stated in the applicable CITR.",
+        "explanation": "This change completely removes the time limitation on asserting claims, contradicting the original intent of a five-year limit (or shorter if specified in the CITR). This creates uncertainty, as it contradicts the original clause, implying that even after many years, a claim could be made.",
+        "location": "PAGE 1 - Paragraph under 'PERIOD OF CONFIDENTIALITY.'",
+        "contradicted_location": "PAGE 1 - Paragraph under 'PERIOD OF CONFIDENTIALITY.'",
+        "contradicted_text": "Unless a shorter period is stated in the applicable CITR, the disclosing party will not assert any claims against the receiving party for disclosures of Confidential Information made more than five (5) years from the date of the CITR.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states the disclosing party can assert claims \"at any time\", while the contradicted text states the disclosing party \"will not assert any claims\" after five years. This is a direct contradiction regarding the time limit for asserting claims, fitting the definition of 'Ambiguities - In Text Contradiction'. The original text clearly sets a time limit, which is completely removed by the changed text."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Either party may terminate this Agreement at any time without cause upon notice to the other party. However, all obligations of confidentiality shall survive the termination of this Agreement.",
+        "changed_text": "Either party may terminate this Agreement at any time without cause upon 30 days written notice to the other party. All obligations of confidentiality may or may not survive the termination of this Agreement, at the discretion of the disclosing party.",
+        "explanation": "This change introduces uncertainty regarding the survival of confidentiality obligations after termination. The phrase 'may or may not' directly contradicts the original 'shall survive' clause, introducing ambiguity on critical protections that were originally clearly set to survive termination.",
+        "location": "PAGE 1 - Paragraph under 'TERMINATION AND DUTY TO RETURN.'",
+        "contradicted_location": "PAGE 1 - Paragraph under 'TERMINATION AND DUTY TO RETURN.'",
+        "contradicted_text": "In the event this Agreement is terminated, and the disclosing party so requests, the receiving party shall promptly return or destroy (and certify destruction of) all Confidential Information which it received from the disclosing party along with all copies which it made.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a contradiction. The original text states 'all obligations of confidentiality shall survive the termination', while the changed text says confidentiality 'may or may not survive...at the discretion of the disclosing party'. This creates uncertainty where there was once certainty. The contradicted text requires the 'receiving party shall promptly return or destroy all Confidential Information' upon termination and request. The discretion introduced contradicts this obligation, because now confidentiality and the obligation to destroy information may or may not apply, directly conflicting with the original text and creating a strong in-text contradiction as per the explanation provided."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement, any accompanying CITR and CITRs executed from time to time hereafter which incorporate the terms of this Agreement constitute the entire agreement, written or verbal, between the parties with respect to the disclosure(s) of Confidential Information described in each CITR.",
+        "changed_text": "This Agreement, along with any separate side agreements (written or verbal) regarding specific aspects of the confidential information, and any accompanying CITR and CITRs executed from time to time hereafter which incorporate the terms of this Agreement, constitute the agreement between the parties with respect to the disclosure(s) of Confidential Information described in each CITR.",
+        "explanation": "The original clause states this agreement and CITRs constitute the entire agreement. By adding \"any separate side agreements (written or verbal),\" the modified text contradicts this by suggesting that other agreements may exist and be valid. This creates ambiguity about which terms govern. The contradiction appears if the side agreements contradict the main agreement. The use of 'along with' instead of 'constitute' further adds to the confusion.",
+        "location": "PAGE 1 - Paragraph under 'GENERAL (d).'",
+        "contradicted_location": "PAGE 1 - Paragraph under 'GENERAL (d).'",
+        "contradicted_text": "This Agreement, any accompanying CITR and CITRs executed from time to time hereafter which incorporate the terms of this Agreement constitute the entire agreement, written or verbal, between the parties with respect to the disclosure(s) of Confidential Information described in each CITR.",
+        "contradiction_exists": "YES",
+        "justification": "The original text and the contradicted text state that the agreement and CITRs constitute the entire agreement. The changed text introduces the possibility of 'separate side agreements (written or verbal)', which directly contradicts the 'entire agreement' clause. If these side agreements exist and contain terms that conflict with the main agreement or CITRs, it creates a direct conflict within the document, making it unclear which terms govern. Therefore, a strong in-text contradiction exists."
+      }
+    ]
+  }
+]

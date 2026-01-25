@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "900091_0001047469-97-003029_document_4.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Receiving Party agrees that the Confidential Information shall be disclosed to only those people within its respective organizations or its agents, consultants, representatives or advisors who have a need to know the information 2 <PAGE> and who are obligated under terms no less restrictive than those imposed by this Agreement on the Receiving Party.",
+        "changed_text": "The Receiving Party agrees that the Confidential Information shall be disclosed to its employees. 2 <PAGE>",
+        "explanation": "By changing the list of who can access Confidential Information (agents, consultants, etc.) to only employees, this now contradicts Paragraph 4(i)(c), which allows information received from a third party to be exempt if that third party is free to disclose it. Under the new restriction, agents or consultants getting information from a free third party would violate paragraph 6 because they're not employees.",
+        "location": "6",
+        "contradicted_location": "4(i)",
+        "contradicted_text": "The obligations of the above paragraph \"2\" shall not apply to any information which: (a) is available to the public through no breach of this Agreement by the Receiving Party; or (b) was in the possession of the Receiving Party prior to receipt from the Disclosing Party; or (c) is received independently from a third party who is free to disclose such information to the Receiving Party; or (d) is subsequently independently developed by the Receiving Party; or (e) has been or is made public by the Disclosing Party, such as by commercial use or sale or by publications or patents, or otherwise; or (f) is approved for release by written consent of the Disclosing Party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allows the Receiving Party to disclose Confidential Information to a broad range of individuals (agents, consultants, etc.) under obligations of confidentiality. The changed text narrows this to only 'employees.' This creates a direct conflict with the contradicted text, which exempts information received from a third party who is free to disclose it. The change now implies that agents or consultants receiving information from a free third party would violate paragraph 6 because they're not employees, creating a contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "All Confidential Information delivered to and/or in the possession of the Receiving Party shall be returned or delivered to the Disclosing Party, with all copies made thereof, in whatever form, if the Disclosing Party so requests.",
+        "changed_text": "All Confidential Information in the possession of the Receiving Party shall be returned or delivered to the Disclosing Party if the Disclosing Party so requests.",
+        "explanation": "By removing 'all copies made thereof, in whatever form', section 5 now contradicts the intention of complete confidentiality. Section 2(a) says the Receiving Party shall hold the Confidential Information in confidence, so by only requiring the original documents, the Receiving Party can disclose copies, thereby defeating the confidential intent.",
+        "location": "5",
+        "contradicted_location": "2(a)",
+        "contradicted_text": "The Receiving Party shall: (a) hold the Confidential Information in confidence and not disclose it to third parties, except in the limited cases referred to in paragraph \"6\"; and (b) not use the Confidential Information for any purpose other than exploring or examining the possibility of a business relationship between the parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text required the return of all confidential information *and* all copies made thereof. The changed text omits 'all copies made thereof'. This creates a direct conflict with the contradicted text, which states the Receiving Party shall hold the Confidential Information in confidence and not disclose it to third parties. By removing the obligation to return all copies, the Receiving Party could retain and potentially disclose copies without violating the modified clause, thus contradicting the confidential intent and creating a direct conflict with the contradicted section."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Subject to Paragraph \"4\" hereof, the obligation of the Receiving Party provided in Paragraph \"2\" hereof shall continue for three (3) years from the date of each receipt of the Confidential Information, even after termination of this Agreement according to paragraph \"3\" hereof.",
+        "changed_text": "The obligation of the Receiving Party provided in Paragraph \"2\" hereof shall continue for three (3) years from the date of each receipt of the Confidential Information.",
+        "explanation": "The original text explicitly states that the confidentiality obligations continue even after the termination of the agreement as per paragraph 3. By removing \"even after termination of this Agreement according to paragraph 3 hereof.\", it creates an in-text contradiction. Without that phrase, it's now unclear if confidentiality obligations persist after termination. This weakens the intent of protecting the Disclosing Party's information beyond the exploration phase. This affects section 3, which mentions termination but no longer has a continuation clause.",
+        "location": "13",
+        "contradicted_location": "3",
+        "contradicted_text": "Either party hereto shall have the right, at any time, to terminate in writing and discussions and exchange of information in connection with the exploration of the possibilities of a business relationship between the parties without any further obligations or liabilities to the other party, other than the obligations of confidentiality hereunder, or any right or obligation relating to the Confidential Information hereunder.",
+        "contradiction_exists": "YES",
+        "justification": "The original text ensured confidentiality continued even after termination per paragraph 3. The changed text omits this continuation, directly contradicting the contradicted text which states termination occurs 'without any further obligations or liabilities to the other party, other than the obligations of confidentiality hereunder'. The omission removes the exception for confidentiality, creating a direct conflict and impacting enforceability, per the Perturbation Explanation. The contradicted text no longer aligns with the changed text."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This Agreement shall be governed, construed and interpreted in accordance with the laws of Japan.",
+        "changed_text": "This Agreement shall be governed, construed and interpreted in accordance with the laws of California.",
+        "explanation": "By changing the governing law from Japan to California in Section 14, there's a potential contradiction with Section 8. Section 8 states that both parties shall comply with laws and regulations on export control in both parties' countries. Export control regulations are heavily jurisdiction-dependent. The altered clause makes the governing law for the agreement California, while Section 8 implies adherence to Japanese export control laws for Sharp, creating a conflict.",
+        "location": "14",
+        "contradicted_location": "8",
+        "contradicted_text": "If any official approval is required by a government authority or disclose the Confidential Information hereunder, such disclosure is subject to that approval. Both parties shall comply in all respects with applicable laws, regulations and court orders, including but not limited to laws and regulations on export control, in both parties' countries and other applicable countries.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the governing law from Japan to California. The contradicted text requires compliance with export control laws in both parties' countries. Since the governing law is now California but the agreement still requires compliance with Japanese export control laws, a contradiction is created. This is because export control regulations are jurisdiction-dependent, leading to a direct conflict and potential unenforceability, matching the 'Omissions – In Text Contradiction' definition where essential language is altered creating a contradiction with constraints in other sections."
+      }
+    ]
+  }
+]

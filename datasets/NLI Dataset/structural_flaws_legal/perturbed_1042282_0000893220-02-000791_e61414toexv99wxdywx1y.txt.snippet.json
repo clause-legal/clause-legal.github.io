@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "1042282_0000893220-02-000791_e61414toexv99wxdywx1y.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "a. This Agreement shall be governed and construed in accordance with the laws of Utah (without regard to conflicts of laws provisions). In any legal proceeding arising out of this Agreement, the prevailing party shall be entitled to an award of its costs and reasonable attorneys' fees. The parties agree that Utah state and federal courts shall have jurisdiction and venue in any such proceeding.",
+        "changed_text": "a. This Agreement shall be governed and construed in accordance with the laws of Utah (without regard to conflicts of laws provisions). The parties agree that Utah state and federal courts shall have jurisdiction and venue in any such proceeding. In any legal proceeding arising out of this Agreement regarding Confidential Information, each party will bear their own legal costs, regardless of who prevails.",
+        "explanation": "Moving the clause about attorneys' fees to apply *only* to cases not involving confidential information implies that standard attorney fee recovery doesn't apply to confidentiality disputes, which might contradict standard contract law.",
+        "contradicted_law": "Utah Code \u00a7 78B-5-826",
+        "law_citation": "Utah Code \u00a7 78B-5-826",
+        "law_url1": [
+          "https://le.utah.gov/xcode/Title78B/Chapter5/78B-5-S826.html?v=C78B-5-S826_2023050320230503"
+        ],
+        "law_url2": [
+          "https://law.justia.com/codes/utah/2023/title-78b/chapter-5/part-8/section-78b-5-826/"
+        ],
+        "law_explanation": "Utah Code \u00a7 78B-5-826 generally allows for attorney fee recovery to the prevailing party in civil actions, but this modification attempts to restrict this right specifically for disputes involving confidential information, potentially conflicting with the statute's broad allowance.",
+        "location": "10. General, paragraph a.",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": "",
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The original contract allows the prevailing party to recover costs and attorney's fees. The modified contract stipulates that in any legal proceeding regarding confidential information, each party will bear their own legal costs, regardless of who prevails. This directly contradicts the general principle that the prevailing party is entitled to attorney's fees, as the changed text carves out an exception for confidentiality disputes. While the provided law snippet is empty, the Law Explanation states that Utah Code \u00a7 78B-5-826 generally allows for attorney fee recovery to the prevailing party in civil actions, which strengthens the contradiction. The Perturbation Explanation also supports the contradiction, noting that this modification attempts to restrict this right specifically for disputes involving confidential information."
+      },
+      {
+        "type": "Structural Flaws - Legal Contradiction",
+        "original_text": "c. Neither party may assign its rights or delegate its duties or obligations under this Agreement without prior written consent, which shall not be unreasonably withheld.",
+        "changed_text": "8. Disclaimer. All Confidential Information is provided \"AS IS\", WITHOUT WARRANTY OF ANY KIND, WHETHER EXPRESS OR IMPLIED. Discloser does not represent or warrant the accuracy or completeness of the Confidential Information, that it will release any product related to the Confidential Information, or that target dates will be met. The entire risk arising out of the use of the Confidential Information remains with Recipient. Discloser may change or cancel its plans at any time. c. Neither party may assign its rights or delegate its duties or obligations under this Agreement without prior written consent.",
+        "explanation": "The original text limits the withholding of consent, implying a reasonableness standard. By removing the phrase, we create ambiguity regarding the standard for withholding consent. This might not be directly illegal, but introduces a potential contradiction.",
+        "contradicted_law": "Utah Code \u00a7 70A-1-304",
+        "law_citation": "Utah Code \u00a7 70A-1-304",
+        "law_url1": [
+          "https://le.utah.gov/xcode/Title70A/Chapter1A/70A-1a-S304.html?v=C70A-1a-S304_2023050320230503"
+        ],
+        "law_url2": [
+          "https://law.justia.com/codes/utah/2023/title-70a/chapter-1a/part-3/section-70a-1-304/"
+        ],
+        "law_explanation": "Utah Code \u00a7 70A-1-304 implies a duty of good faith in the performance and enforcement of contracts. Removing the phrase \"which shall not be unreasonably withheld\" from the assignment clause allows a party to arbitrarily deny consent, potentially violating this implied duty of good faith.",
+        "location": "10. General, paragraph c.",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": "",
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The modification removes the condition that consent to assignment \"shall not be unreasonably withheld.\" The Law Explanation states that Utah Code \u00a7 70A-1-304 implies a duty of good faith in the performance and enforcement of contracts. Removing the phrase allows a party to arbitrarily deny consent, which has the potential to violate this duty of good faith. This creates a contradiction, as the original text implies a reasonable standard, while the changed text does not, potentially violating the implied duty of good faith."
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "1077050_0000950147-99-000049_document_10.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The receiving party shall use the same degree of care to avoid disclosure or use of the Proprietary/Confidential Information as it uses in respect of its own information of like importance but in no case less than a reasonable degree of care.",
+        "changed_text": "The receiving party shall use the same degree of care to avoid disclosure or use of the Proprietary/Confidential Information as it uses in respect of its own information of like importance and in no case less than a reasonable degree of care.",
+        "explanation": "This change removes 'but' from 'but in no case', thereby indicating that the receiving party has to be very careful. However, section 8 states, 'Each party hereto warrants that it has the right to disclose the Proprietary/Confidential Information which it discloses to the other parties and that the Proprietary/Confidential Information disclosed is to the best of its knowledge, correct.' This implies that parties are not held responsible for the accurancy and correctness of the info which can lead to low degree of care.",
+        "location": "2",
+        "contradicted_location": "8",
+        "contradicted_text": "Each party hereto warrants that it has the right to disclose the Proprietary/Confidential Information which it discloses to the other parties and that the Proprietary/Confidential Information disclosed is to the best of its knowledge, correct. Nothing contained in this agreement shall be construed to obligate any party to disclose any information to the other parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the receiving party should exercise a degree of care that is no less than reasonable. The changed text removes 'but', thereby indicating that the receiving party has to be very careful. The contradicted text states that each party warrants the correctness of the Proprietary/Confidential Information to the best of its knowledge, suggesting a lower standard of care regarding accuracy. This creates an in-text contradiction because the changed text implies a high degree of care is required while the contradicted text limits responsibility for the accuracy of the information, leading to an ambiguity about the expected level of diligence. This falls under Ambiguities – In Text Contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Is independently developed by the receiving party;",
+        "changed_text": "Is independently developed by the receiving party with documented proof;",
+        "explanation": "By adding 'with documented proof' to Section 3(iii), we create an additional burden of proof for the receiving party to claim the exception, This contradicts the overall intention of section 3, which is to provide exception to the restrictions. Also, this creates an in-text contradiction because no definition of 'documented proof' has been mentioned, it contradicts Section 1",
+        "location": "3",
+        "contradicted_location": "1",
+        "contradicted_text": "For the purposes of this Agreement, \"Proprietary/Confidential Information\" shall mean any and all proprietary, secret information, technical data or know-how related to any aspect of other party's business or technology including, without limitation, data, know- how, formulas, designs, photographs, drawings, specification, software programs and samples and any other material bearing or incorporating any such information which is disclosed by one party to the other, which information, data or know-how is explicitly marked or stipulated as being \"Proprietary\", \"Confidential\", \"Strictly Private\" or otherwise, using words of similar significance. Such disclosure may be made either directly or indirectly, in writing, orally or by drawings, plans or inspection of products, materials, parts or equipment.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states an exception condition based on independent development. The changed text adds 'with documented proof,' creating a new requirement. The contradicted text defines 'Proprietary/Confidential Information' and how it's disclosed/marked. Because no definition of 'documented proof' exists, the change introduces ambiguity regarding what constitutes acceptable proof, directly contradicting the spirit of the definition in the contradicted section, which relies on explicit markings, and further, places an obligation on the receiving party to 'prove' independent development, which is not balanced by a similar obligation on the disclosing party."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "All Proprietary/Confidential Information disclosed pursuant to this Agreement shall be and remain the property of the disclosing party.",
+        "changed_text": "All Proprietary/Confidential Information disclosed pursuant to this Agreement shall be and remain the property of the disclosing party, except to the extent required by a court or regulatory agency of competent jurisdiction.",
+        "explanation": "This modification to Section 4 introduces ambiguity regarding the ownership of Proprietary/Confidential Information by adding 'except to the extent required by a court'. This exception weakens the property claim of the disclosing party which contradicts Section 9 where the disclosing party can get injunctive relief if there is breach of the obligation. The 'ownership' being lessened leads to the contract becoming non-enforcable due to the change.",
+        "location": "4",
+        "contradicted_location": "9",
+        "contradicted_text": "It is understood and agreed between the parties that any breach of the obligations of confidentiality contained in this Agreement may cause the disclosing party irreparable loss. Accordingly, and in addition to any other remedies a party may have in law or equity, the disclosing party shall be entitled to obtain injunctive relief against the receiving party to prevent any further or continuing breach of the receiving party's obligations or additional damage to the disclosing party in the event such loss is in fact incurred by the disclosing party as a result of the breach or is imminent.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 4 introduces an exception ('except to the extent required by a court') to the disclosing party's ownership of Proprietary/Confidential Information. This weakens the disclosing party's property claim. Section 9 states that the disclosing party is entitled to injunctive relief against the receiving party to prevent any breach of confidentiality. By adding the exception, the changed text creates ambiguity and weakens the disclosing party's ability to seek injunctive relief, creating a direct conflict with Section 9. The contradiction lies in the fact that the disclosing party's right to protect its confidential information through injunctive relief is undermined by the exception allowing disclosure under court order."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The disclosing party shall obtain the required authorizations, permits and licenses.",
+        "changed_text": "The disclosing party shall attempt to obtain the required authorizations, permits and licenses.",
+        "explanation": "This change replaces 'shall obtain' with 'shall attempt to obtain' in Section 6, creating uncertainty about whether the disclosing party is obligated to secure authorizations. This introduces ambiguity with the first sentence which states 'Each party agrees that necessary authorizations, permits or licenses including expert licenses as may be required will be obtained prior to the exportation/disclosure of any Proprietary/Confidential Information relating to the technology of the other party.', which contradicts each other",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "Each party agrees that necessary authorizations, permits or licenses including expert licenses as may be required will be obtained prior to the exportation/disclosure of any Proprietary/Confidential Information relating to the technology of the other party. The disclosing party shall notify the receiving party of the need to obtain any required authorizations, permits and licenses and/or the need to comply with any relevant laws or regulations relating to the disclosure. The disclosing party shall attempt to obtain the required authorizations, permits and licenses.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated 'shall obtain,' indicating a mandatory obligation. The changed text modifies this to 'shall attempt to obtain,' which creates uncertainty about whether the disclosing party is truly obligated to secure the authorizations. This directly contradicts the first sentence of the contradicted text, 'Each party agrees that necessary authorizations, permits or licenses including expert licenses as may be required will be obtained,' which mandates that authorizations 'will be obtained.' The changed text makes the obligation less definitive, directly conflicting with the firm requirement stated in the contradicted section. This falls under the 'Ambiguities – In Text Contradiction' definition because the obligation becomes unclear."
+      }
+    ]
+  }
+]

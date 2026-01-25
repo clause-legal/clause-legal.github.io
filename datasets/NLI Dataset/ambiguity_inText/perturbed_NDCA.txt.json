@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "NDCA.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "That information provided on businesses by the Blockbuster Franchisee is sensi tive and confidential and that its disclosure to others would be damaging to the businesses and to the Broker’s fiduciary relationship with the Seller.",
+        "changed_text": "That information provided on businesses by the Blockbuster Franchisee is considered generally accessible and is not particularly confidential. Its disclosure to others will not be considered damaging to the businesses or to the Broker’s fiduciary relationship with the Seller.",
+        "explanation": "This change directly contradicts the original premise that the information is 'sensitive and confidential.' By stating the information is 'generally accessible and not particularly confidential,' the agreement now introduces ambiguity as to the actual confidentiality of the data. This in-text contradiction affects the purpose of the entire agreement, specifically when the text further mentions 'Information” shall include the fact that the business is for sale plus other data. The term Information does not include any information, which is, or becomes, generally available to the public or is already in your possession', where it is unclear whether the information being mentioned should be considered confidential or not.",
+        "location": "Paragraph 2",
+        "contradicted_location": "Paragraph 4",
+        "contradicted_text": "“Information” shall include the f act that the business is for sale plus other data. The term Information does not include any information, which is, or becomes, generally available to the public or is already in your possession.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that the information provided by the Blockbuster Franchisee is 'generally accessible and not particularly confidential.' This directly contradicts the original text, which considered this information 'sensitive and confidential.' Furthermore, this change directly creates a contradiction with the contradicted text, which states 'Information does not include any information, which is, or becomes, generally available to the public.' By explicitly stating the information is generally accessible, the changed text implies that it would be excluded from the definition of 'Information' in the contradicted text. Therefore, a strong in-text contradiction exists."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "All Informa tion provided to review the business will be returned to the Franchisee without retaining companies, summaries, analyses or extracts there of in the event the review is terminated.",
+        "changed_text": "All Information provided to review the business may be retained by the potential investor indefinitely, including copies, summaries, analyses, or extracts, even if the review is terminated.",
+        "explanation": "This change contradicts the requirement that all information must be returned if the review is terminated, creating a conflict about data retention. This affects the clause requiring all Information to be returned to the Franchisee without retaining companies, summaries, analyses or extracts there of in the event the review is terminated, since the original version implies that all data needs to be returned but the modified version states that data may be retained creating an in-text contradiction.",
+        "location": "Paragraph 4",
+        "contradicted_location": "Paragraph 4",
+        "contradicted_text": "All Informa tion provided to review the business will be returned to the Franchisee without retaining companies, summaries, analyses or extracts there of in the event the review is terminated.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. The original text and contradicted text state that all information must be returned to the Franchisee without retaining copies if the review is terminated. The changed text states that the potential investor may retain the information indefinitely even if the review is terminated, creating a direct conflict and in-text contradiction, making it difficult to enforce the original clause."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "That I will not contact the Seller, his employees, supplies or custom ers except through Tameracq Partners, Inc.",
+        "changed_text": "I reserve the right to contact the Seller, his employees, suppliers, or customers directly without the involvement of Tameracq Partners, Inc., at my discretion.",
+        "explanation": "This change contradicts the exclusivity clause that requires all contact to be through Tameracq Partners, creating ambiguity as to whether direct contact is permissible. This directly contradicts the sentence that states 'That I will not contact the Seller, his employees, supplies or custom ers except through Tameracq Partners, Inc.', thus creating an in-text contradiction.",
+        "location": "Paragraph 5",
+        "contradicted_location": "Paragraph 5",
+        "contradicted_text": "That I will not contact the Seller, his employees, supplies or custom ers except through Tameracq Partners, Inc.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly prohibits contact with the Seller, his employees, suppliers, or customers except through Tameracq Partners, Inc. The changed text directly contradicts this by stating 'I reserve the right to contact the Seller, his employees, suppliers, or customers directly without the involvement of Tameracq Partners, Inc., at my discretion.' The contradicted text is the same as the original text, which is 'That I will not contact the Seller, his employees, supplies or custom ers except through Tameracq Partners, Inc.' This creates a clear and direct conflict, making it an in-text contradiction because the modified text permits something the original text forbids, as stated in the explanation."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Tameracq Partners, Inc is relying on Seller for the accuracy and completeness of said Information, has no knowle dge of the accuracy of said Information and makes no warranty, expressed or implied, as to such Information.",
+        "changed_text": "Tameracq Partners, Inc. guarantees the accuracy and completeness of all Information provided and offers a full warranty, expressed and implied, as to such Information.",
+        "explanation": "This change directly contradicts the disclaimer of warranty, imposing liability on Tameracq Partners where none existed before, creating uncertainty regarding their responsibility. This affects the sentence that states 'Tameracq Partners, Inc is relying on Seller for the accuracy and completeness of said Information, has no knowle dge of the accuracy of said Information and makes no warranty, expressed or implied, as to such Information.', thus creating an in-text contradiction, since they can't ensure something they don't even acknowledge to know",
+        "location": "Paragraph 6",
+        "contradicted_location": "Paragraph 6",
+        "contradicted_text": "Tameracq Partners, Inc is relying on Seller for the accuracy and completeness of said Information, has no knowle dge of the accuracy of said Information and makes no warranty, expressed or implied, as to such Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the original text and the contradicted text. The original and contradicted text state that Tameracq Partners, Inc. makes no warranty and has no knowledge of the accuracy of the information, relying on the seller. The changed text states that Tameracq Partners, Inc. guarantees the accuracy and completeness of the information and offers a full warranty. This creates a clear and direct conflict, making the contract unenforceable regarding warranty and liability, as Tameracq Partners, Inc. can't ensure something they don't even acknowledge to know, as defined by the ambiguities - in text contradiction perturbation."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "I agree that Tameracq Partners, Inc is not responsible for the accuracy of any Informati on I received and I agree to indemnify and hold Tameracq Partners, Inc harmless from any claims or damages resulting from its use.",
+        "changed_text": "Tameracq Partners, Inc. shall be held fully responsible for the accuracy of all Information I receive, and I am not required to indemnify or hold Tameracq Partners, Inc. harmless from any claims or damages resulting from its use.",
+        "explanation": "By switching the responsibility for accuracy and indemnification, this edit generates in-text contradictions because the previous statement explicitly disclaims any responsibility and protects Tameracq Partners, Inc., this change reverses that arrangement completely. This affects the sentence that states 'I agree that Tameracq Partners, Inc is not responsible for the accuracy of any Informati on I received and I agree to indemnify and hold Tameracq Partners, Inc harmless from any claims or damages resulting from its use.', thus creating an in-text contradiction.",
+        "location": "Paragraph 7",
+        "contradicted_location": "Paragraph 7",
+        "contradicted_text": "I agree that Tameracq Partners, Inc is not responsible for the accuracy of any Informati on I received and I agree to indemnify and hold Tameracq Partners, Inc harmless from any claims or damages resulting from its use.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. The original text states that Tameracq Partners, Inc. is not responsible for the accuracy of the information and is indemnified by the user. The changed text states that Tameracq Partners, Inc. is fully responsible for the accuracy of the information and is not indemnified by the user. The contradicted text is the exact same as the original text, and the change makes these statements directly incompatible, creating a clear and strong in-text contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "That, should I enter into an agreement to pur chase a business the Franchisee offers for sale, I grant to the Seller the right to obtain, through standard reporting agencies, financial and credit information concerning my self or the companies or other parties I represent and understand that this informa tion will be held conf idential by Seller and Tameracq Partners, Inc and will only be used for the purpose of Seller extending credit to me.",
+        "changed_text": "That, should I enter into an agreement to purchase a business the Franchisee offers for sale, the Seller is explicitly denied the right to obtain financial and credit information about me or the companies I represent. Furthermore, any information already obtained will be made publicly available.",
+        "explanation": "This reversal of the Seller's right to obtain financial information and the guarantee of confidentiality now means that the Seller is denied that right, and previously private information will become public, creating a clear contradiction. This creates an in-text contradiction with the sentence that states 'That, should I enter into an agreement to pur chase a business the Franchisee offers for sale, I grant to the Seller the right to obtain, through standard reporting agencies, financial and credit information concerning my self or the companies or other parties I represent and understand that this informa tion will be held conf idential by Seller and Tameracq Partners, Inc and will only be used for the purpose of Seller extending credit to me.', as now there is a flat denial, as in the prior, financial and credit information was granted but the modified version explicitly states it is denied.",
+        "location": "Paragraph 8",
+        "contradicted_location": "Paragraph 8",
+        "contradicted_text": "That, should I enter into an agreement to pur chase a business the Franchisee offers for sale, I grant to the Seller the right to obtain, through standard reporting agencies, financial and credit information concerning my self or the companies or other parties I represent and understand that this informa tion will be held conf idential by Seller and Tameracq Partners, Inc and will only be used for the purpose of Seller extending credit to me.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly denies the Seller the right to obtain financial and credit information, while the contradicted text grants the Seller that exact right. This creates a direct and undeniable contradiction, as it is now unclear whether the Seller has permission to obtain this information or not. Furthermore, the changed text states that previously obtained private information will be made public, which directly contradicts the contradicted text that states the information 'will be held confidential by Seller and Tameracq Partners, Inc'. This falls under the 'Ambiguities - In Text Contradiction' perturbation type."
+      }
+    ]
+  }
+]

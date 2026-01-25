@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "NDATC.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Each party shall maintain in confidence Confidential Information obtained from the other and use such Confidential Information only for the P urpose. Such Confidential Information shall be identified in writing and marked ''Confidential '' by the disclosing party or, if first presented orally or visually, shall be reduced to writing, the writing marked ''Confidential'' by the disclosing party and delivered to the receiving party within twenty (20) days of the oral or visual disclosure.",
+        "changed_text": "Each party may, at its discretion, maintain in confidence Confidential Information obtained from the other and use such Confidential Information only for the P urpose. Such Confidential Information shall be identified in writing and marked ''Confidential '' by the disclosing party or, if first presented orally or visually, need not be reduced to writing.",
+        "explanation": "The original text states 'Each party *shall* maintain in confidence,' creating a mandatory obligation. The changed text modifies this to 'Each party *may*, at its discretion, maintain in confidence,' making the confidentiality obligation optional, which directly contradicts the initial intent. The removal of the requirement to reduce orally or visually presented information to writing also creates a contradiction because without this written confirmation the information is not considered confidential per the old text, undermining the purpose of this entire agreement. The original text also state that 'Such Confidential Information shall be identified in writing and marked ''Confidential '' by the disclosing party', meanwhile the modified text removes the condition.",
+        "location": "1",
+        "contradicted_location": "1",
+        "contradicted_text": "Confidentiality Obligations . Each party may, at its discretion, maintain in confidence Confidential Information obtained from the other and use such Confidential Information only for the P urpose. Such Confidential Information shall be identified in writing and marked ''Confidential '' by the disclosing party or, if first presented orally or visually, need not be reduced to writing. Each party agrees to treat Confidential Information disclosed to it by the other with the same degree of care as it does in protecting its own confidential and proprietary information, and the Confidential Information shall be disclosed within the recipient party only on a need- to-know basis.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies 'shall maintain in confidence' to 'may, at its discretion, maintain in confidence,' which creates a direct contradiction to the Confidentiality Obligations clause and also removes the written requirement for orally presented information. This change makes the confidentiality obligation optional, contradicting the original mandatory intent of the contract and the requirements in the Contradicted Text."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Each party agrees to treat Confidential Information disclosed to it by the other with the same degree of care as it does in protecting its own confidential and proprietary information, and the Confidential Information shall be disclosed within the recipient party only on a need- to-know basis.",
+        "changed_text": "Each party agrees to treat Confidential Information disclosed to it by the other with a degree of care it deems appropriate, and the Confidential Information may be disclosed within the recipient party without restriction.",
+        "explanation": "The original text mandates the same degree of care as one's own confidential information and limits disclosure to a 'need-to-know basis.' The modified text contradicts this by allowing each party to decide the level of care and permits unrestricted disclosure, this undermines the very foundation of confidentiality. This also contradicts section 2, 'Exceptions to Confidentiality Obligations,' as this change would mean that the receiving party may just disclose confidential information without recourse.",
+        "location": "1",
+        "contradicted_location": "1",
+        "contradicted_text": "Confidentiality Obligations . Each party shall maintain in confidence Confidential Information obtained from the other and use such Confidential Information only for the P urpose. Such Confidential Information shall be identified in writing and marked ''Confidential '' by the disclosing party or, if first presented orally or visually, shall be reduced to writing, the writing marked ''Confidential'' by the disclosing party and delivered to the receiving party within twenty (20) days of the oral or visual disclosure. Each party agrees to treat Confidential Information disclosed to it by the other with a degree of care it deems appropriate, and the Confidential Information may be disclosed within the recipient party without restriction.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text allows each party to decide the level of care for Confidential Information and permits unrestricted disclosure, which directly contradicts the original intent and typical understanding of 'Confidentiality Obligations' outlined in the contradicted text. The contradiction is strong because the changed text completely undermines the protections afforded to confidential information, rendering the confidentiality obligations outlined elsewhere unenforceable."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The obligations of confidentiality and non- use shall not apply to Confidential Information which the receiving party can document: (a) at the time of disclosure was generally known to the public or, after such disclosure, became generally known to the public other than by a breach of this Agreement by the receiving party; (b) was already in the possession of the receiving party at the time of such disclosure without an obligation of confidentiality; (c) was later received on a non- confidential basis by the receiving party from a third party having t he right to impart such Confidential Information; or (d) is developed by an employee of the receiving party who did not have access to the Confidential Information.",
+        "changed_text": "The obligations of confidentiality and non- use shall not apply to Confidential Information, regardless of its source or prior knowledge.",
+        "explanation": "The original section provides specific exceptions to confidentiality. The modified text broadens this to eliminate all obligations of confidentiality regardless of how the information was obtained, contradicting the entire premise of the agreement. This means that even information marked and treated as Confidential, would no longer be considered as such, given this change.",
+        "location": "2",
+        "contradicted_location": "1",
+        "contradicted_text": "Confidentiality Obligations . Each party shall maintain in confidence Confidential Information obtained from the other and use such Confidential Information only for the P urpose. Such Confidential Information shall be identified in writing and marked ''Confidential '' by the disclosing party or, if first presented orally or visually, shall be reduced to writing, the writing marked ''Confidential'' by the disclosing party and delivered to the receiving party within twenty (20) days of the oral or visual disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text eliminates all obligations of confidentiality regardless of source or prior knowledge. This directly contradicts the 'Confidentiality Obligations' section, which mandates that certain information be kept confidential and marked as such. The changed text would make the confidentiality obligations unenforceable, creating a clear in-text contradiction as described in the Perturbation Explanation and the Perturbation Definition for Structural Flaws."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "All written, printed, electronically stored or other tangible documents, samples and materials submitted by one party to the other hereunder, and all copies thereof remaining in the receiving party’s possession, shall promptly be returned to the disclosing party and electronic media erased upon request or upon termination of this Agreement, except that a copy of each may be retained by the receiving party under appropriate security.",
+        "changed_text": "All written, printed, electronically stored or other tangible documents, samples and materials submitted by one party to the other hereunder, and all copies thereof remaining in the receiving party’s possession, may be retained indefinitely by the receiving party.",
+        "explanation": "The original text mandates the return of confidential information upon request or termination, with a limited exception for copies retained under security. The modified text allows the receiving party to retain all information indefinitely, contradicting the return obligation and weakening the confidentiality safeguards. This undermines sections relating to termination and the duty to protect confidential information.",
+        "location": "5",
+        "contradicted_location": "1",
+        "contradicted_text": "Confidentiality Obligations . Each party shall maintain in confidence Confidential Information obtained from the other and use such Confidential Information only for the P urpose. Such Confidential Information shall be identified in writing and marked ''Confidential '' by the disclosing party or, if first presented orally or visually, shall be reduced to writing, the writing marked ''Confidential'' by the disclosing party and delivered to the receiving party within twenty (20) days of the oral or visual disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates the return of confidential information upon request or termination, while the changed text allows the receiving party to retain all information indefinitely. This directly contradicts the 'Confidentiality Obligations' section, which requires each party to maintain confidentiality and use the information only for the stated purpose, as it removes the obligation to return the information, thereby weakening the confidentiality safeguards and creating an in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Either party may at any time upon written notice terminate this Agreement; otherwise participation by the parties in the review or evaluation shall end, and this Agreement shall terminate ten (10) years from the Effective D ate.",
+        "changed_text": "This Agreement shall be perpetual and cannot be terminated by either party.",
+        "explanation": "The original text provides a clear mechanism for termination. The modified text states the agreement is perpetual and cannot be terminated, directly contradicting the previous termination clause and creating uncertainty about the duration of obligations. It also undermines the 'Survival' clause, since that clause assumes the agreement can be terminated.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "Term; Termination. This Agreement shall be perpetual and cannot be terminated by either party. 8. Survival . Termination of this Agreement for any reason shall not relieve either party of the obligations of confidentiality and non- use respecting Confidential Information disclosed to such party , which shall survive the termination of this Agreement for a period of ten (10) years, or i n the case of a trade secret, such Confidential Information shall survive until the Confidential Information no longer qualifies as a trade secret .",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed for termination, while the changed text explicitly states the agreement is perpetual and cannot be terminated. This directly contradicts the 'Survival' clause in the contradicted text, which assumes the agreement can be terminated and sets terms for obligations after termination. The change makes the survival clause nonsensical, as there is no termination for it to survive. This creates a strong in-text contradiction regarding the duration of the agreement and the applicability of post-termination obligations."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement may not be amended or modified except in writing signed by both parties.",
+        "changed_text": "This Agreement may be amended or modified unilaterally by either party with electronic notification.",
+        "explanation": "The original text requires written agreement from both parties to amend the contract. The changed text allows unilateral modification with only electronic notification, which contradicts the original clause and introduces uncertainty on how amendments are handled. This means that the agreement could drastically changed without mutual approval, undermining the purpose of the mutual agreement.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "Entire Agreement . This Agreement constitutes the entire agreement and understanding between the parties hereto relating to the subject matter hereof. This Agreement may be amended or modified unilaterally by either party with electronic notification. 11. Assignment . This Agreement shall be binding upon the parties hereto and their successors in business, but shall not other wise be assignable.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the agreement can only be amended in writing with both parties' signatures. The changed text allows for unilateral modification with electronic notification. This directly contradicts the original requirement of mutual agreement and introduces uncertainty. The contradicted text also reflects that the agreement may be modified unilaterally, with electronic notification, showing that the changed text causes an in-text contradiction by creating conflicting terms regarding how the agreement can be modified within the same document."
+      }
+    ]
+  }
+]

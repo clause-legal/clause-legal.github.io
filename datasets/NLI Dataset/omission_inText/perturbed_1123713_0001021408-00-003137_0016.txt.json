@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "1123713_0001021408-00-003137_0016.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Each party agrees that it will not, for a period of three (3) years from the date of this Agreement, initiate contact with the other party's employees in order to solicit, entice or induce any such employee to terminate their employment effective during the term of this Agreement for the purpose of accepting employment with the other party.",
+        "changed_text": "Each party agrees to limit contact with the other party's employees.",
+        "explanation": "The original clause explicitly prohibits solicitation of employees for three years. The modified text replaces this with a vague agreement to 'limit contact.' This creates a contradiction with Section VIII (Indemnity). If the 'limited contact' results in an employee leaving, it's unclear whether this constitutes a breach of the modified agreement, and therefore whether indemnity applies. This introduces uncertainty in enforcement related to employee solicitation, because the breach is now unclear.",
+        "location": "VI",
+        "contradicted_location": "VIII",
+        "contradicted_text": "Each party agrees to indemnify and save harmless the other party against any and all losses, damages, claims, or expenses incurred or suffered as a result of the other party's breach of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly prohibited solicitation of employees for three years. The modified text replaces this with a vague agreement to 'limit contact.' This creates a contradiction with Section VIII (Indemnity) which states that each party will indemnify the other party against any breach of the agreement. Because the definition of breach is now unclear with respect to employee solicitation, it is now unclear whether indemnity applies, as stated in the explanation."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Immediately after termination of this Agreement, each party shall return to the other party all of the other party's Confidential Information and Intellectual Property which was disclosed in, or is then represented in, tangible form.",
+        "changed_text": "Upon termination of this Agreement, each party shall make a reasonable effort to return the other party's Confidential Information and Intellectual Property.",
+        "explanation": "The original text mandates the return of all Confidential Information and Intellectual Property in tangible form immediately after termination. The modified text weakens this obligation by only requiring a 'reasonable effort.' This omission contradicts the 'entire agreement' clause (Section XIII). The change provides wiggle room and opens the door to subjective interpretations of 'reasonable effort' that undermine the contract's intent to protect confidential information.",
+        "location": "IX",
+        "contradicted_location": "XIII",
+        "contradicted_text": "The terms and conditions herein constitute the entire agreement and understanding of the parties and shall supersede all communications, negotiations, arrangements and agreements, either oral or written, with respect to the subject matter hereof. No amendments to or modifications of this Agreement shall be effective unless reduced to writing and executed by the Parties hereto. The failure of either party to enforce any term hereof shall not be deemed a waiver of any rights contained herein.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandated the return of all Confidential Information and Intellectual Property in tangible form immediately after termination. The changed text weakens this obligation by only requiring a 'reasonable effort.' This omission contradicts the 'entire agreement' clause (Section XIII) which states that the terms and conditions constitute the entire agreement and understanding of the parties. This creates an in-text contradiction, as the change undermines the contract's intent to protect confidential information, as well as modifies the entire agreement, since it does not explicitly state that the agreement will be updated and executed by the parties."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Each clause in this Agreement is severable from the others and should any of the clauses be unenforceable, then the remainder of the Agreement shall continue in full force and effect notwithstanding the unenforceability of any clause.",
+        "changed_text": "If a key clause is unenforceable, the parties will negotiate an amendment.",
+        "explanation": "The original severability clause ensures the rest of the agreement remains valid even if one clause is unenforceable. The modified text introduces uncertainty by stating that the parties 'will negotiate an amendment' if a 'key clause' is unenforceable. This contradicts the original severability clause in Section X. It also contradicts Section XIII which requires any amendments to be in writing. This creates an in-text contradiction due to removing the clear-cut procedure of the clause being severed. This implies a new negotiation process is required.",
+        "location": "X",
+        "contradicted_location": "X",
+        "contradicted_text": "Each clause in this Agreement is severable from the others and should any of the clauses be unenforceable, then the remainder of the Agreement shall continue in full force and effect notwithstanding the unenforceability of any clause. If any part of this Agreement shall be declared invalid or 34 <PAGE> unenforceable by a court of competent jurisdiction, it shall not affect the validity of the balance of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a process of negotiation for amendments if a 'key clause' is unenforceable. This directly contradicts the original and contradicted severability clause, which states that the remainder of the agreement remains in full force regardless of a clause's unenforceability, thereby requiring no negotiation. The original text states 'each clause is severable' from each other, and by having the changed text negotiate an amendment, it removes the severability from the agreement for certain clauses, creating a direct conflict."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The failure of either party to enforce any term hereof shall not be deemed a waiver of any rights contained herein.",
+        "changed_text": "Consistent failure to enforce a term may imply a waiver.",
+        "explanation": "The original clause explicitly states that failure to enforce a term does not constitute a waiver of rights. The modified text introduces ambiguity by suggesting that 'consistent failure to enforce a term may imply a waiver.' This creates a direct contradiction to Section XIII which states the original clause, causing uncertainty about the enforceability of the agreement over time and creating an in-text contradiction within Section XIII itself. This weakens the entire section.",
+        "location": "XIII",
+        "contradicted_location": "XIII",
+        "contradicted_text": "The terms and conditions herein constitute the entire agreement and understanding of the parties and shall supersede all communications, negotiations, arrangements and agreements, either oral or written, with respect to the subject matter hereof. No amendments to or modifications of this Agreement shall be effective unless reduced to writing and executed by the Parties hereto. The failure of either party to enforce any term hereof shall not be deemed a waiver of any rights contained herein.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly states that failure to enforce a term does not constitute a waiver of rights. The changed text introduces ambiguity by suggesting that 'consistent failure to enforce a term may imply a waiver.' This directly contradicts the third sentence of the 'Contradicted Text' ('The failure of either party to enforce any term hereof shall not be deemed a waiver of any rights contained herein.') creating a clear in-text contradiction within the document."
+      }
+    ]
+  }
+]

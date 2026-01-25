@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "Non-Discl_Reciprocal_2.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "If either of the Parties determines that it does not wish to be involved in a Transaction, it willpromptly advise the other Party of that fact, and if requested, each Party will promptly return to the otherParty all documents furnished hereunder to it or its respective Representatives.",
+        "changed_text": "If either of the Parties determines that it does not wish to be involved in a Transaction, it *may* advise the other Party of that fact, and if requested, each Party *should* return to the otherParty all documents furnished hereunder to it or its respective Representatives.",
+        "explanation": "By changing 'will promptly advise' to 'may advise' and 'will promptly return' to 'should return,' the obligations upon deciding not to pursue a transaction are weakened from mandatory to discretionary. This is now in contradiction with the governance terms that make the governance and the enforcement of the obligations in the contract with the laws of the Province of Ontario, Canada.",
+        "location": "4",
+        "contradicted_location": "GOVERNANCE",
+        "contradicted_text": "This agreement shall be governed and construed in accordance with the laws of the Province of Ontario,Canada.",
+        "contradiction_exists": "YES",
+        "justification": "The original text used 'will,' making the actions mandatory. The changed text replaces 'will' with 'may' and 'should,' weakening the obligations to discretionary actions. This contradicts the contradicted text stating that the agreement is governed by the laws of Ontario, Canada, implying that the contract's obligations should be enforceable. By making the return of documents discretionary, the enforceability is weakened, creating a contradiction as it undermines the governance by Ontario law, since those laws would expect a contract that is more definitive in its obligations."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This agreement shall be governed and construed in accordance with the laws of the Province of Ontario,Canada.",
+        "changed_text": "This agreement *should* be governed and construed in accordance with the laws of the Province of Ontario,Canada.",
+        "explanation": "Replacing 'shall' with 'should' in the governance clause weakens the legal jurisdiction over the agreement. This weakens the application of the law in Ontario Canada in the agreement. This creates uncertainty about which jurisdiction's laws apply, introducing ambiguity.",
+        "location": "GOVERNANCE",
+        "contradicted_location": "GOVERNANCE",
+        "contradicted_text": "This agreement should be governed and construed in accordance with the laws of the Province of Ontario,Canada.",
+        "contradiction_exists": "YES",
+        "justification": "The original text uses 'shall,' indicating a mandatory requirement for the agreement to be governed by Ontario, Canada laws. The changed text replaces 'shall' with 'should,' weakening the legal requirement and introducing ambiguity. The contradicted text also contains 'should' weakening the legal jurisdiction over the agreement as described in the Perturbation Explanation. This is a contradiction because both terms conflict in their implications and enforcement, fitting the definition of Ambiguities - In Text Contradiction. The contradicted text and the changed text are the same in this instance, but it is considered a contradiction because they are both using 'should' which is creating an ambiguity. 'Shall' and 'Should' have completely different meanings in the context of legal obligations."
+      }
+    ]
+  }
+]

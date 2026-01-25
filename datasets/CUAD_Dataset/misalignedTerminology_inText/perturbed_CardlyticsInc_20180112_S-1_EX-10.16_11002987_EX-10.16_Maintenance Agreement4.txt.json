@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement4.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "TERM FOR ORDERING A. Software This Schedule constitutes an Order in accordance with the terms of the Agreement.",
+        "changed_text": "TERM FOR ORDERING A. Software This Schedule constitutes a Request in accordance with the terms of the Agreement.",
+        "explanation": "The term 'Order' is changed to 'Request'. Later in the document, the term 'Order' is used in the context of fulfillment and obligations. By changing it to 'Request', there's now an uncertainty whether the initial schedule creates a binding obligation or just an intention to order.",
+        "location": "SCHEDULE A",
+        "contradicted_location": "SCHEDULE A",
+        "contradicted_text": "The latest commercially available version, or earlier versions at Bank of America's option, of the Supplier Software: \u2022 Beginning 3 years after the General Services Agreement Effective Date or one (1) year following the Service reaching 10,000,000 Users, whichever is later, if Supplier has failed to meet either of the Performance Adjustments as outlined in Schedule B of the General Services Agreement for six (6) consecutive months. $[***] \u2022 Beginning 3 years after the General Services Agreement Effective Date and one (1) year following the National Launch date and Supplier has met both of the Performance Adjustments as outlined in Schedule B of the General Services Agreement. Bank of America Total Revenue Share minus Supplier Total Revenue share for the preceding twelve (12) months",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined the schedule as an 'Order', implying a binding obligation. The changed text replaces 'Order' with 'Request'. The contradicted text refers to 'Supplier Software' and obligations contingent upon 'Performance Adjustments'. Since the original document considered the schedule as an order and thus bound the supplier to provide the software, changing 'Order' to 'Request' creates a contradiction by introducing uncertainty whether the supplier is actually obligated to fulfill anything outlined in the schedule as they now may only be requesting it, hence creating an inconsistency."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Maintenance Services No-charge Maintenance Services shall be provided from the Delivery Date through the Warranty Period. The first paid (Initial) Maintenance Term shall commence upon expiration of the Warranty Period and shall continue for twelve (12) months thereafter. Thereafter, the Maintenance Term shall automatically renew for successive period, 12 months, on the terms and conditions of this Agreement unless Bank of America terminates Maintenance Services pursuant to this Agreement.",
+        "changed_text": "Maintenance Services No-charge Support Services shall be provided from the Delivery Date through the Warranty Period. The first paid (Initial) Maintenance Term shall commence upon expiration of the Warranty Period and shall continue for twelve (12) months thereafter. Thereafter, the Maintenance Term shall automatically renew for successive period, 12 months, on the terms and conditions of this Agreement unless Bank of America terminates Maintenance Services pursuant to this Agreement.",
+        "explanation": "The term 'Maintenance Services' is changed to 'Support Services' in the first sentence, but the rest of the paragraph refers to 'Maintenance Term' and 'Maintenance Services', creating a contradiction. It is unclear whether the 'Support Services' offered at no-charge equates to the 'Maintenance Services' Bank of America can terminate later.",
+        "location": "SCHEDULE A",
+        "contradicted_location": "SCHEDULE A",
+        "contradicted_text": "Thereafter, the Maintenance Term shall automatically renew for successive period, 12 months, on the terms and conditions of this Agreement unless Bank of America terminates Maintenance Services pursuant to this Agreement. Bank of America may terminate Maintenance Services for convenience at any time in accordance with the Section entitled \"Termination\" of the Agreement. If Bank of America terminates the Maintenance Services, Bank of America shall have the right to reinstate the Maintenance Services without paying any reinstatement fee. During the initial Maintenance Term and any renewal term, Maintenance Fees shall be paid in the increments described below under \"Payment Terms.\"",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Maintenance Services' to 'Support Services' in the initial sentence creates a direct contradiction with the subsequent references to 'Maintenance Term' and 'Maintenance Services' within the same paragraph and especially within the contradicted text. The contradicted text explicitly discusses the termination and renewal of 'Maintenance Services,' and if the initial service is now 'Support Services,' it's unclear whether Bank of America has the same rights and obligations regarding termination and reinstatement as outlined in the contradicted text. This creates ambiguity and inconsistency regarding the terms and conditions related to maintenance, as the changed text introduces a new, potentially undefined service ('Support Services') while the rest of the document refers to 'Maintenance Services'. This misalignment of terminology directly leads to an in-text contradiction, making it difficult to determine which service is being referred to and what the associated terms are."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "WARRANTY PERIOD DURATION Delivery Date: TBD Installation Date: TBD The period commencing on the Installation Date and continuing for the number of days specified: 120 days",
+        "changed_text": "WARRANTY PERIOD DURATION Delivery Date: TBD Installation Date: TBD The period commencing on the Delivery Date and continuing for the number of days specified: 120 days",
+        "explanation": "Changing `Installation Date` to `Delivery Date` introduces a contradiction because the contract has specific deliverables associated with the Installation Date. This changes the term when the waranty period effectively starts, it's a direct contradiction.",
+        "location": "SCHEDULE A",
+        "contradicted_location": "SCHEDULE A",
+        "contradicted_text": "TRAINING Supplier shall provide the following training classes pursuant to this Agreement in connection with installation of the first copy of the Software. Date: INSTALLATION SUPPORT In addition to the installation support provided pursuant to the Section entitled \"Ordering, Delivery and Installation,\" Supplier shall provide Bank of America the following installation services: Installation Support will be handled in a separate agreement",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined the warranty period as commencing on the Installation Date. The changed text alters this to the Delivery Date. The contradicted text refers to 'INSTALLATION SUPPORT' and training 'in connection with installation of the first copy of the Software'. By changing the warranty period to begin at the Delivery Date, the warranty period no longer aligns with the period when installation support and training are provided, creating a contradiction. The warranty now potentially expires before or during the period when installation support and training are crucial, making those services less valuable under the warranty. This creates a strong inconsistency regarding when the warranty is effective."
+      }
+    ]
+  }
+]

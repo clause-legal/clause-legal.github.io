@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "1367408_0001367408-06-000002_risb2ex106.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "1. After execution of this agreement and upon receipt of List, Raphael Industries Ltd. (\"Raphael\") will grand ListFusion limited rights (as stated below) to use the furnished names, addresses, telephone numbers and associated information (collectively known as the \"List\"). List Fusion understands and agrees that the List is a very valuable asset of Raphael and at all times the exclusive property of Raphael.",
+        "changed_text": "1. After execution of this agreement and upon receipt of data, Raphael Industries Ltd. (\"Raphael\") will grant ListFusion limited rights to use the furnished data. List Fusion understands and agrees that the data is a valuable asset of Raphael and at all times the exclusive property of Raphael.",
+        "explanation": "The term \"List\" has been replaced with \"data\". Subsequent clauses still refer to \"List\", creating an in-text contradiction and ambiguity about what specific data the agreement covers. This change removes the clarity on what data is being protected and creates an enforcement issue because \"data\" is broader than \"List\".",
+        "location": "Section 1",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "2. ListFusion agrees that this Agreement grants only limited rights to use the List for the sole purpose of loading the List into ListFusion's proprietary database system. The List will not be reproduced, transferred, or conveyed to any 3rd party without prior written authorization by Raphael.",
+        "contradiction_exists": "YES",
+        "justification": "The original text and contradicted text both refer to the term \"List\". The changed text replaces \"List\" with \"data\", but the contradicted text still refers to \"List\". This creates a contradiction because it is unclear whether the obligations in the contradicted text apply to the \"data\" mentioned in the changed text, creating ambiguity and a potential enforcement issue. This aligns with the 'Omissions - In Text Contradiction' perturbation type, where essential language is removed, creating a contradiction with other sections."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "4. The List will be stored exclusively on ListFusion's secure servers. ListFusion will not use any 3rd party agents, vendors, or other providers to process the List without the written authorization by Raphael.",
+        "changed_text": "4. Data will be stored. ListFusion will not use any 3rd party agents, vendors, or other providers to process the data without the authorization by Raphael.",
+        "explanation": "The phrase \"exclusively on ListFusion's secure servers\" has been removed. The agreement refers to Raphael being able to access the List, and the change in this section affects that. ListFusion could store the data, but the removal of the location of the servers creates ambiguity regarding Raphaels access. This affects the integrity of section 5.",
+        "location": "Section 4",
+        "contradicted_location": "Section 5",
+        "contradicted_text": "5. ListFusion will provide Raphael with an Administrative username and password. Access to the List by Raphael will be controlled by this username and password. Raphael may at their discretion create additional usernames and passwords. ListFusion will not create, generate, distribute, or convey to any 3rd party a username or password without prior written authorization by Raphael.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that the data is stored 'exclusively on ListFusion's secure servers,' which implicitly guarantees Raphael's access to the list. The changed text removes the location specificity, stating only that 'Data will be stored.' This omission contradicts section 5, as it creates ambiguity about where the data is stored and whether Raphael can access it with the provided username and password, potentially hindering their control over the list. The change directly breaks compatibility between the sections."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "5. ListFusion will provide Raphael with an Administrative username and password. Access to the List by Raphael will be controlled by this username and password. Raphael may at their discretion create additional usernames and passwords. ListFusion will not create, generate, distribute, or convey to any 3rd party a username or password without prior written authorization by Raphael.",
+        "changed_text": "5. ListFusion will provide Raphael with an Administrative username and password. Access will be controlled by this username and password. Raphael may at their discretion create additional usernames and passwords. ListFusion will not create, generate, distribute, or convey to any 3rd party a username or password without prior written authorization by Raphael.",
+        "explanation": "The phrase \"Access to the List by Raphael\" was changed to \"Access\" The removal of specifically who has access, especially since section 1, replaced \"List\" with \"data\" creates an in-text contradiction. This affects the meaning and clarity of the agreement.",
+        "location": "Section 5",
+        "contradicted_location": "Section 8",
+        "contradicted_text": "8. ListFusion reserves the right to discontinue services immediately if payment for services is not received when due or with 30 days prior written notice. In the event ListFusion discontinues services, the List will be returned to Raphael and then completely destroyed, scratched, and purged from all media, including electronic storage, disk, tape, and printed documents in possession of ListFusion.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies 'Access to the List by Raphael', ensuring Raphael's control. The changed text removes 'by Raphael', broadening access control which now becomes ambiguious. Section 8 guarantees 'the List' will be returned to Raphael if ListFusion discontinues services. The changed text, by removing 'by Raphael' from the access control clause and changing 'List' to 'data' in another section of the contract creates ambiguity about who has access to the data, including whether Raphael retains exclusive access, thereby contradicting section 8's guarantee of returning 'the List' exclusively to Raphael."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "6. Other than the information set out in the data card and agreed to by the parties, ListFusion, its employees, officers and trustees agree not to divulge or disseminate to any person or entity any confidential information about Raphael, including but not limited to personal and financial information, that may arise out of the discharge of their responsibilities as set out herein. Additionally, ListFusion. agrees not to copy, reprint or disseminate the publications, or any information concerning the publication including the articles, graphics or contents without express written authorization from Raphael. Any and all such information shall be kept confidential and shall not in any manner be revealed to anyone except as expressly provided herein.",
+        "changed_text": "6. ListFusion, its employees, officers and trustees agree not to divulge or disseminate to any person or entity any confidential information about Raphael that may arise out of the discharge of their responsibilities as set out herein. ListFusion agrees not to copy, reprint or disseminate the publications, or any information concerning the publication including the articles, graphics or contents without express written authorization from Raphael. Any and all such information shall be kept confidential and shall not in any manner be revealed to anyone except as expressly provided herein.",
+        "explanation": "The phrase \"Other than the information set out in the data card and agreed to by the parties, including but not limited to personal and financial information,\" has been removed. This creates an in-text contradiction by removing the explicit list of what is considered confidential, creating potential disagreements about what information falls under this category. This change affects the enforceability of Section 6.",
+        "location": "Section 6",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "2. ListFusion agrees that this Agreement grants only limited rights to use the List for the sole purpose of loading the List into ListFusion's proprietary database system. The List will not be reproduced, transferred, or conveyed to any 3rd party without prior written authorization by Raphael.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly excludes 'information set out in the data card and agreed to by the parties, including but not limited to personal and financial information' from confidential information. The changed text removes this exclusion, broadening the scope of confidential information. This creates a potential contradiction with Section 2, which details specific limitations on the use and reproduction of 'the List.' If 'the List' or data within the data card is now considered confidential, it conflicts with ListFusion's rights to use the list as outlined in Section 2, specifically regarding reproducing, transferring, or conveying it without authorization. The explanation states this removes an explicit list creating potential disagreements about what information falls under the category, impacting the enforceability of section 6, this creates a strong in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "7. Raphael my at any time request the List be completely destroyed, scratched, and purged from all media, including electronic storage, disk, tape, and printed documents.",
+        "changed_text": "7. Raphael my at any time request the data be completely destroyed.",
+        "explanation": "The phrase \", scratched, and purged from all media, including electronic storage, disk, tape, and printed documents.\" has been removed. Section 7 now doesn't specify how the list must be destroyed, scratching, purging from all media, including electronic storage, disk, tape, and printed documents. This removal contradicts Section 8, which restates it. ",
+        "location": "Section 7",
+        "contradicted_location": "Section 8",
+        "contradicted_text": "8. ListFusion reserves the right to discontinue services immediately if payment for services is not received when due or with 30 days prior written notice. In the event ListFusion discontinues services, the List will be returned to Raphael and then completely destroyed, scratched, and purged from all media, including electronic storage, disk, tape, and printed documents in possession of ListFusion.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified the exact method of data destruction: 'completely destroyed, scratched, and purged from all media, including electronic storage, disk, tape, and printed documents.' The changed text removes this specific instruction, only stating that the data must be 'completely destroyed.' This omission creates a contradiction because Section 8 explicitly requires the data to be 'completely destroyed, scratched, and purged from all media, including electronic storage, disk, tape, and printed documents.' The changed text in Section 7 no longer guarantees that the data will be destroyed in the manner required by Section 8."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "8. ListFusion reserves the right to discontinue services immediately if payment for services is not received when due or with 30 days prior written notice. In the event ListFusion discontinues services, the List will be returned to Raphael and then completely destroyed, scratched, and purged from all media, including electronic storage, disk, tape, and printed documents in possession of ListFusion.",
+        "changed_text": "8. ListFusion reserves the right to discontinue services if payment for services is not received or with 30 days prior written notice. In the event ListFusion discontinues services, the data will be returned to Raphael.",
+        "explanation": "The phrase \"immediately\", and \"and then completely destroyed, scratched, and purged from all media, including electronic storage, disk, tape, and printed documents in possession of ListFusion.\" has been removed. There isn't a requirement that the destruction process is immediate. By only requesting the return of the data, this affects the enforceability of section 7.",
+        "location": "Section 8",
+        "contradicted_location": "Section 7",
+        "contradicted_text": "7. Raphael my at any time request the data be completely destroyed.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that upon discontinuation of services, ListFusion must return the list to Raphael and then completely destroy it. The changed text removes the requirement for immediate destruction, only requiring the return of the data. Section 7 states that Raphael can request the data be completely destroyed at any time. The removal of the immediate destruction requirement in section 8 contradicts the enforceability and potentially the intent of section 7, creating a contradiction because Raphael would expect it to be destroyed, and ListFusion may not do so."
+      }
+    ]
+  }
+]

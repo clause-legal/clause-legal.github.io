@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "TALLGRASSENERGY,LP_02_20_2020-EX-99.26-JOINT FILING AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Each of them is responsible for the timely filing of such filings and any amendments thereto, and for the completeness and accuracy of the information concerning such person contained therein; but none of them is responsible for the completeness or accuracy of the information concerning the other persons making the filing, unless such person knows or has reason to believe that such information is inaccurate.",
+        "changed_text": "Each of them is responsible for the timely filing of such filings and any amendments thereto. None of them is responsible for the completeness or accuracy of the information concerning the other persons making the filing, unless such person knows or has reason to believe that such information is inaccurate.",
+        "explanation": "By omitting 'and for the completeness and accuracy of the information concerning such person contained therein', we introduce an ambiguity. While each party is responsible for timely filings, their responsibility for the accuracy of their own information is removed. However, the following clause states they are not responsible for others' information unless they know it is inaccurate, which implies they *are* responsible for the accuracy of their own information. This creates an in-text contradiction, making enforcement uncertain. The initial sentence removes the direct responsibility, but the following sentence implies a responsibility, creating the conflict.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "Each of them is responsible for the timely filing of such filings and any amendments thereto. None of them is responsible for the completeness or accuracy of the information concerning the other persons making the filing, unless such person knows or has reason to believe that such information is inaccurate.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the explicit responsibility of each party for the accuracy of *their own* information in the filings. The subsequent clause states that they are *not* responsible for the accuracy of *other parties'* information unless they have reason to believe it is inaccurate. This creates an implicit contradiction: the removal of the explicit responsibility for one's own information implies a lack of accountability, while the statement about not being responsible for others' information *unless* aware of inaccuracies suggests a baseline responsibility for the accuracy of the information they *do* provide, including their own. This ambiguity concerning the extent of each party's responsibility for the accuracy of information creates a strong contradiction within the document, fitting the definition of 'Omissions – In Text Contradiction'."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This Agreement shall remain in full force and effect until revoked by any party hereto in a signed writing provided to each other party hereto, and then only with respect to such revoking party.",
+        "changed_text": "This Agreement shall remain in full force and effect until revoked by any party hereto in a signed writing.",
+        "explanation": "By removing 'provided to each other party hereto, and then only with respect to such revoking party', we create an in-text contradiction. The original clause makes it clear that revocation only affects the revoking party and requires notification. The modified clause suggests that revocation by one party immediately terminates the agreement entirely for all parties, without the need to inform other parties. This undermines the purpose of a joint filing agreement and creates uncertainty about its continuity, impacting all signatories, also creates the risk that the agreement may remain in effect but the revocation is not communicated.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "This Agreement shall remain in full force and effect until revoked by any party hereto in a signed writing.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the requirement for notification to other parties and the limitation of revocation to the revoking party. The contradicted text implies that each party has to notify the others and that it only concerns that party. The removal of this condition creates a scenario where one party can unilaterally terminate the agreement for all, which directly contradicts the understanding that revocation is party-specific, leading to uncertainty and potential legal disputes. This fits the definition of \"Omissions – In Text Contradiction\" because essential language related to the revocation process was removed, leading to a contradiction with the original intent and operation of the agreement as described in the contradicted text."
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "MR_NON-DISCLOSURE-AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "NON-DISCLOSURE AGREEMENT concluded between M&R Automation GmbH Teslastraße 8 A-8074 Grambach near Graz - hereinafter referred to as \"M&R\" - and xxxx GmbH Street xx, POSTAL CODE, CITY - hereinafter referred to as \"Partner\" - Preamble M&R will communicate, disclose or make accessible confidential information to the partner in the scope of a draft, an offer phase and/or project handling (hereinafter briefly referred to as \"Project\"), among others. Against this background, the contracting parties enter into this non- disclosure agreement and agree as follows:",
+        "changed_text": "NON-DISCLOSURE AGREEMENT concluded between M&R Automation GmbH Teslastraße 8 A-8074 Grambach near Graz - hereinafter referred to as \"M&R\" - and xxxx GmbH Street xx, POSTAL CODE, CITY - hereinafter referred to as \"Partner\" - Preamble M&R will communicate, disclose or make accessible confidential information to the recipient in the scope of a draft, an offer phase and/or project handling (hereinafter briefly referred to as \"Project\"), among others. Against this background, the contracting parties enter into this non- disclosure agreement and agree as follows:",
+        "explanation": "Changing \"partner\" to \"recipient\" creates a contradiction because the contract is explicitly between M&R and the \"Partner\" as defined, but then uses \"recipient\" which is undefined. This creates uncertainty about who is bound by the agreement and when the 'recipient' and the 'Partner' are meant to be the same, causing issues related to enforcement of the contract, considering that the document specifies 'Partner'.",
+        "location": "Preamble",
+        "contradicted_location": "Preamble",
+        "contradicted_text": "NON-DISCLOSURE AGREEMENT concluded between M&R Automation GmbH Teslastraße 8 A-8074 Grambach near Graz - hereinafter referred to as \"M&R\" - and xxxx GmbH Street xx, POSTAL CODE, CITY - hereinafter referred to as \"Partner\" - Preamble M&R will communicate, disclose or make accessible confidential information to the recipient in the scope of a draft, an offer phase and/or project handling (hereinafter briefly referred to as \"Project\"), among others. Against this background, the contracting parties enter into this non- disclosure agreement and agree as follows:",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines the agreement as being between M&R and the 'Partner'. The changed text replaces 'partner' with 'recipient'. The contradicted text also includes the text that uses the word 'recipient'. This creates a contradiction because the contract is explicitly between M&R and the 'Partner' as defined, but then uses 'recipient' which is undefined. This creates uncertainty about who is bound by the agreement. This aligns with the 'Misaligned Terminology - In Text Contradiction' definition because the contract uses multiple terms interchangeably without defining them, leading to conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Partner shall protect the confidential information disclosed to him in connection with the project or to which he is given access in connection with the project from being disclosed to third parties, being used by third parties or being published at least with the same diligence he applies in order to protect his own confidential information of identical importance.",
+        "changed_text": "The Associate shall protect the confidential information disclosed to him in connection with the project or to which he is given access in connection with the project from being disclosed to third parties, being used by third parties or being published at least with the same diligence he applies in order to protect his own confidential information of identical importance.",
+        "explanation": "Changing \"Partner\" to \"Associate\" in Section II creates a contradiction because the document defines Partner as the other signing party. Using \"Associate\" makes it unclear if this refers to the Partner, a subset of the Partner (e.g., employees), or another undefined entity. This affects the enforceability of the non-disclosure obligations.",
+        "location": "Section II",
+        "contradicted_location": "Section II",
+        "contradicted_text": "The Associate shall protect the confidential information disclosed to him in connection with the project or to which he is given access in connection with the project from being disclosed to third parties, being used by third parties or being published at least with the same diligence he applies in order to protect his own confidential information of identical importance.",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'Partner,' a defined term in the contract, while the changed text uses 'Associate,' which is undefined. The contradicted text repeats this new undefined term. This creates a contradiction because the document is unclear about who is bound by the non-disclosure obligations since 'Associate' could refer to multiple entities or none at all."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Partner shall use confidential information from M&R for no other purposes than the project unless M&R has approved of such a different use in writing beforehand.",
+        "changed_text": "The Affiliate shall use confidential information from M&R for no other purposes than the project unless M&R has approved of such a different use in writing beforehand.",
+        "explanation": "Substituting \"Partner\" with \"Affiliate\" introduces uncertainty about who is bound by the usage restrictions. \"Affiliate\" is not defined, leading to potential disputes about whether it refers to the Partner, a related entity, or something else entirely. Since 'Partner' is explicitly stated in the Preamble, using 'Affiliate' without any definitions creates an internal contradiction.",
+        "location": "Section II",
+        "contradicted_location": "Section II",
+        "contradicted_text": "The Affiliate shall use confidential information from M&R for no other purposes than the project unless M&R has approved of such a different use in writing beforehand.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies 'Partner' as the entity bound by the confidentiality clause. The changed text replaces 'Partner' with 'Affiliate', which is undefined in the contract. The contradicted text also uses 'Affiliate'. Since 'Partner' is defined elsewhere (Preamble), and 'Affiliate' is not, the change introduces ambiguity and uncertainty about who is bound by the clause, creating a direct contradiction. This aligns with the 'Misaligned Terminology' definition, where the contract uses multiple terms interchangeably without defining them, leading to conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "If further third parties are involved in the project, the Partner shall not disclose or make available confidential information to the third party before M&R has approved of that and the third party has also committed himself to strict confidentiality.",
+        "changed_text": "If further third parties are involved in the project, the Contractor shall not disclose or make available confidential information to the third party before M&R has approved of that and the third party has also committed himself to strict confidentiality.",
+        "explanation": "Changing \"Partner\" to \"Contractor\" creates a contradiction. The \"Partner\" is specifically defined in the preamble, but now the contract refers to a \"Contractor\" without defining it. This raises questions about who is responsible for ensuring third-party confidentiality, leading to uncertainty in enforcement.",
+        "location": "Section II",
+        "contradicted_location": "Section II",
+        "contradicted_text": "If further third parties are involved in the project, the Contractor shall not disclose or make available confidential information to the third party before M&R has approved of that and the third party has also committed himself to strict confidentiality.",
+        "contradiction_exists": "YES",
+        "justification": "The change from \"Partner\" to \"Contractor\" introduces an in-text contradiction. The original text refers to a defined \"Partner\" in the preamble, while the changed text introduces \"Contractor\" without definition, leading to ambiguity as described in the perturbation explanation and the 'Misaligned Terminology' definition. This contradiction leads to uncertainty about who is responsible for ensuring third-party confidentiality. The contradicted text repeats this confusion by also referring to \"Contractor\" without definition."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The burden of proof for the presence of an exception in the above- mentioned sense lies with the Partner.",
+        "changed_text": "The burden of proof for the presence of an exception in the above- mentioned sense lies with the Client.",
+        "explanation": "Changing \"Partner\" to \"Client\" creates a direct contradiction. The contract explicitly states that the 'Partner' bears the burden of proof, but then it switches to \"Client\", which is an undefined term. This could invalidate the burden of proof clause, as it's unclear who it applies to. Since the Partner is clearly defined, this introduces uncertainty.",
+        "location": "Section III",
+        "contradicted_location": "Section III",
+        "contradicted_text": "The burden of proof for the presence of an exception in the above- mentioned sense lies with the Client.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the 'Partner' bears the burden of proof, while the changed text assigns it to the 'Client'. The contradicted text also states that the 'Client' bears the burden of proof. Since the change introduces a different party ('Client' instead of 'Partner') to bear the burden of proof, it directly contradicts the contradicted text, creating a strong in-text contradiction. This falls under the 'Misaligned Terminology' type."
+      }
+    ]
+  }
+]

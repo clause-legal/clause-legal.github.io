@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "InmodeLtd_20190729_F-1A_EX-10.9_11743243_EX-10.9_Manufacturing Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Contractor will, pursuant to the written specifications given by Customer and pre approved by Contractor (\"Specifications\"), perform manufacturing services on behalf of Customer. These manufacturing services shall include, but not be limited to, labor, materials, testing, packaging and delivery to Customer, all subject to the terms and conditions contained in this Agreement.",
+        "changed_text": "Flextronics will, pursuant to the written specifications given by Customer and pre approved by Contractor (\"Specifications\"), perform manufacturing services on behalf of Customer. These manufacturing services shall include, but not be limited to, labor, materials, testing, packaging and delivery to Customer, all subject to the terms and conditions contained in this Agreement.",
+        "explanation": "The term 'Contractor' is replaced with 'Flextronics' in Section 3. This creates a contradiction because the contract defines 'Contractor' as 'FLEXTRONICS ISRAEL LTD.' in the introductory paragraph. Using 'Flextronics' ambiguously could imply any Flextronics entity, not just the Israeli subsidiary, causing confusion about which entity is bound by the obligations in this section.",
+        "location": "3",
+        "contradicted_location": "4.1",
+        "contradicted_text": "Contractor shall provide Customer with the following services: - Material planning - Material procurement - Incoming Inspection - Assembly of printed circuit boards & cables - Final assembly & integration of the Product - In Circuit test - Functional test - Packaging and delivery",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'Contractor' which is specifically defined elsewhere in the document as 'FLEXTRONICS ISRAEL LTD.'. The changed text replaces 'Contractor' with 'Flextronics'. The term 'Flextronics' is ambiguous as it could refer to any Flextronics entity, not just the Israeli subsidiary. The contradicted text requires specific services from the 'Contractor'. This ambiguity creates a contradiction because it's unclear which 'Flextronics' entity is obligated to provide the services listed, potentially leading to disputes about who is responsible for fulfilling the contract's obligations. This directly reflects the definition of 'Misaligned Terminology - In Text Contradiction'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Contractor shall use its commercially reasonable efforts to cancel all applicable materials purchase orders and reduce materials inventory through return for credit programs or allocate materials for alternate programs, if applicable. Without derogating from the aforesaid, Customer shall pay in advance the same amount it is obligated to pay under this Section 6, on account of such inventory. Such advance shall be non refundable except to the extent such inventory was consumed by Contractor in order to manufacturing Customer's Products under this Agreement.",
+        "changed_text": "Contractor shall use its commercially reasonable efforts to cancel all applicable materials purchase orders and reduce materials inventory through return for credit programs or allocate materials for alternate programs, if applicable. Without derogating from the aforesaid, Customer shall pay in advance the same amount it is obligated to pay under this Section 6, on account of such inventory. Such advance shall be non refundable without any exceptions.",
+        "explanation": "Modifying Section 6.6 to state that the Customer advance for unused material inventory is 'non refundable without any exceptions' directly contradicts the original text's clause 'except to the extent such inventory was consumed by Contractor in order to manufacturing Customer's Products under this Agreement.'. This introduces a clear inconsistency, creating uncertainty regarding refund conditions. This places the customer in a very disadvantageous position. ",
+        "location": "6.6",
+        "contradicted_location": "6.6",
+        "contradicted_text": "Contractor shall use its commercially reasonable efforts to cancel all applicable materials purchase orders and reduce materials inventory through return for credit programs or allocate materials for alternate programs, if applicable. Without derogating from the aforesaid, Customer shall pay in advance the same amount it is obligated to pay under this Section 6, on account of such inventory. Such advance shall be non refundable without any exceptions.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 6.6, which states that the Customer advance for unused material inventory is 'non refundable without any exceptions,' directly contradicts the original text's clause 'except to the extent such inventory was consumed by Contractor in order to manufacturing Customer's Products under this Agreement'. The contradicted text is simply the changed text. This contradiction arises because the original text allows for a refund in a specific circumstance (inventory consumption), while the changed text removes this exception, creating a direct conflict in the terms of refundability. This creates uncertainty regarding refund conditions and places the customer in a disadvantageous position."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Contractor represents and warrants that, for the Warranty Period, the Products (i) will be free from defects in workmanship, material (only to the same extent as the original manufacturer of the material warrants the Contractor), and manufacture; (ii) will comply the Specifications IPC610.B standard (in all material respects and unless otherwise was instructed by Customer).",
+        "changed_text": "Contractor represents and warrants that, for the Warranty Period, the Products (i) will be free from defects in workmanship, material, and manufacture; (ii) will comply the Specifications IPC610.B standard (in all material respects and unless otherwise was instructed by Customer).",
+        "explanation": "By removing the qualification 'only to the same extent as the original manufacturer of the material warrants the Contractor' from Section 10, the Contractor now provides an unlimited warranty on the materials of the product. This is because the original text had limited the warranty on materials to that which the original manufacturer warranted the contractor, whereas in the updated change, there is no limitation.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "Contractor represents and warrants that, for the Warranty Period, the Products (i) will be free from defects in workmanship, material, and manufacture; (ii) will comply the Specifications IPC610.B standard (in all material respects and unless otherwise was instructed by Customer).",
+        "contradiction_exists": "NO",
+        "justification": "The changed text removes a limitation on the warranty provided by the contractor regarding the materials used in the products. The contradicted text is identical to the changed text. Therefore, there is no contradiction because the warranty provisions are identical in both sections."
+      }
+    ]
+  }
+]

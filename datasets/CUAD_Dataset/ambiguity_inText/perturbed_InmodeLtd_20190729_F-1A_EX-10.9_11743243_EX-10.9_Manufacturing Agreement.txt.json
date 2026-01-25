@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "InmodeLtd_20190729_F-1A_EX-10.9_11743243_EX-10.9_Manufacturing Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Contractor shall apply for and receive the ISO13488 standard for the production facility, by no later than . During the term of this Agreement, the manufacturing services provided by the Contractor hereto shall confirm in all material respects with the ISOl3488 standard.",
+        "changed_text": "Contractor shall apply for and receive the ISO13488 standard for the production facility, by no later than . During the term of this Agreement, the manufacturing services provided by the Contractor hereto may or may not confirm with the ISOl3488 standard.",
+        "explanation": "This change introduces uncertainty regarding adherence to the ISO13488 standard. The original text mandates that manufacturing services 'shall confirm' with the standard, providing a clear obligation. The modified text, using 'may or may not confirm,' makes compliance discretionary, contradicting the implied requirement for ISO 13488 adherence in Section 9.2, where 'Contractor shall maintain quality assurance standards in accordance with ISO 13488'. The ISO standard is being made ambiguous in section 4.2, creating uncertainty and opening the door to potential breaches without clear recourse. ",
+        "location": "4.2",
+        "contradicted_location": "9.2",
+        "contradicted_text": "Contractor shall maintain quality assurance standards in accordance with ISO 13488, Seller's Quality Assurance, Control and Inspection shall be in compliance with all material ISO 13488 standards during the Terms of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that the manufacturing services 'may or may not confirm' with the ISOl3488 standard, which directly contradicts the 'Contractor shall maintain quality assurance standards in accordance with ISO 13488' requirement in the contradicted text. The original text mandated compliance, whereas the changed text creates uncertainty, making the original requirement unenforceable and causing a direct conflict."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Contractor will supply all orders that do not exceed the forecast at the delivery times set forth in each Purchase Order. In the event Contractor anticipates at any time that it will not deliver Products within the prescribed timetable as set forth in the applicable Purchase Order, Contractor shall promptly so inform Customer by written notice of such delay. Contractor shall submit proposed revisions to the timetable that reflect Contractor's best estimates of what can realistically be achieved and shall use its best commercial efforts to achieve such timeline, unless otherwise directed by Customer and confirmed by Contractor.",
+        "changed_text": "Contractor will supply some orders that do not exceed the forecast at the delivery times set forth in each Purchase Order. In the event Contractor anticipates at any time that it will not deliver Products within the prescribed timetable as set forth in the applicable Purchase Order, Contractor might inform Customer by written notice of such delay. Contractor shall submit proposed revisions to the timetable that reflect Contractor's best estimates of what can realistically be achieved and shall not use its best commercial efforts to achieve such timeline, unless otherwise directed by Customer and confirmed by Contractor.",
+        "explanation": "This perturbation weakens the Contractor's obligation to supply orders on time. Changing 'Contractor will supply all orders' to 'Contractor will supply some orders' creates ambiguity about which orders are guaranteed. Replacing 'Contractor shall promptly so inform Customer' with 'Contractor might inform Customer' makes the notification of delays optional. Additionally, changing 'shall use its best commercial efforts' to 'shall not use its best commercial efforts' further diminishes the Contractor's responsibility. This contradicts the reasonable commercial efforts that contractor is obligated to, in the first senteces from section 7.1 'Contractor shall use all reasonable commercial efforts', that is required from the contractor.",
+        "location": "7.2",
+        "contradicted_location": "7.1",
+        "contradicted_text": "Customer shall issue to Contractor, on a monthly basis, a six (6) month rolling forecast setting forth projected demand for the Products (the \"Forecast\"). Contractor shall use all reasonable commercial efforts, including expediting materials and allocating capacity, in order to support Customer's request for increased production.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces multiple contradictions. Firstly, changing 'Contractor will supply all orders' to 'Contractor will supply some orders' weakens the obligation to supply orders, creating ambiguity about which orders are guaranteed, contradicting the requirement to 'use all reasonable commercial efforts' to support customer's request for increased production as stated in the contradicted text. Secondly, changing 'Contractor shall promptly so inform Customer' to 'Contractor might inform Customer' makes the notification of delays optional. Thirdly, 'shall use its best commercial efforts' is changed to 'shall not use its best commercial efforts', which directly contradicts the requirement to 'use all reasonable commercial efforts' described in the contradicted text. This directly breaks compatibility as the contractor is no longer obligated to use commercial efforts but rather avoid using them, making it impossible to support Customer's request for increased production."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The invoice shall include all purchase order details.",
+        "changed_text": "The invoice may include some or none purchase order details.",
+        "explanation": "The modification in Section 14.1 makes the inclusion of purchase order details in invoices optional ('may include some or none'), directly contradicting the original requirement ('shall include all'). This introduces ambiguity and potential disputes over invoice accuracy and payment terms because without the purchase order details, the customer may not know what exactly he is paying for, while earlier in the text (7.3) Purchase Order is mandatory and it must specify all Products to be delivered. This undermines the traceability of orders and creates an internal contradiction regarding the essential information required on an invoice and whether the details being reffered to are optional or not. ",
+        "location": "14.1",
+        "contradicted_location": "7.3",
+        "contradicted_text": "Purchase Orders. Customer will issue written purchase orders, which specify all Products to be delivered within a minimum three (3) months period commencing on the date of acceptance of the purchase order by Contractor (\"Purchase Order\"). Contractor shall accept or reject (in writing summarizing the rejection causes) each Purchase Order according to its terms (including the delivery date) within five (5) working days of receipt of such order, if an order has not been confirmed within such period it shall be deemed rejected.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies a mandatory requirement ('shall include all purchase order details') to an optional one ('may include some or none purchase order details'). This directly contradicts the section stating that 'Customer will issue written purchase orders, which specify all Products to be delivered'. If the invoice does not contain purchase order details, it's impossible to verify what the customer is paying for, leading to a strong in-text contradiction, because the purchase order is mandatory, yet the changed text states that the details may or may not be included."
+      }
+    ]
+  }
+]

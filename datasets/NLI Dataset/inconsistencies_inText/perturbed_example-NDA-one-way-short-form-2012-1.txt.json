@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "example-NDA-one-way-short-form-2012-1.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "1.4 At the request of the Discloser, the Recipient shall destroy or return to the disclosing party all documents and materials containing Confid ential Information.",
+        "changed_text": "1.4 At the request of the Discloser, the Recipient may, at their sole discretion, destroy or return to the disclosing party all documents and materials containing Confidential Information.",
+        "explanation": "This modification changes the Recipient's obligation to destroy or return Confidential Information 'at the request of the Discloser' to a discretionary action. This creates a contradiction with the Discloser's right to reclaim their confidential information, potentially hindering their ability to control its dissemination. This undermines the obligations outlined in section 1.5.",
+        "location": "Section 1.4",
+        "contradicted_location": "Section 1.5",
+        "contradicted_text": "1.5 All Confidential Information shall remain the p roperty of the Discloser and no rights in the Confidential Information are granted to the Rec ipient other than those expressly stated in this agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the Recipient's obligation regarding confidential information. Originally, at the Discloser's request, the Recipient 'shall' destroy or return the information. The changed text makes this action discretionary ('may, at their sole discretion'). This contradicts section 1.5, which states that all Confidential Information remains the Discloser's property and no rights in the Confidential Information are granted to the Recipient other than those expressly stated in this agreement. The change weakens the Discloser's control over their information, creating a conflict with their ownership rights and the implicit obligation to protect said ownership, thereby creating an in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "2. T ERMINATION If either party decides not to become involved in the Purpose with the other party, it shall notify the other party in writing of its inte ntion to terminate this agreement. The obligations of each party shall continue for a peri od of [STATE NUMBER OF YEARS] year(s) from the termination of this agreement.",
+        "changed_text": "2. T ERMINATION If either party decides not to become involved in the Purpose with the other party, it may notify the other party in writing of its intention to terminate this agreement. The obligations of each party shall cease immediately upon termination of this agreement.",
+        "explanation": "The original text mandates written notification for termination and specifies a survival period for the obligations. The modified text makes notification optional and eliminates the survival period, creating a clear contradiction. It causes uncertainty about when the obligations end, contradicting the original intent and undermining Section 1. Obligations of Confidentiality.",
+        "location": "Section 2",
+        "contradicted_location": "Section 1",
+        "contradicted_text": "1. O BLIGATIONS OF CONFIDENTIALITY 1.1 In this agreement, Confidential Information mea ns confidential information disclosed by the Discloser to the Recipient, including informati on relating to its business, operations, products, customers or plans, but excluding any inf ormation that is or becomes generally available to the public, was already lawf ully in the possession of the Recipient, or is developed by the Recipient indepen dently of any disclosure by the Discloser. 1.2 The Recipient shall keep the Confidential Infor mation confidential and shall not use or exploit the Confidential Information in any way exc ept for the purpose of [STATE PURPOSE] (the “Purpose”) and shall not disclose the Confidential Information to any third party (except as expressly permitted by this agreement). 1.3 The Recipient may disclose Confidential Informa tion to the extent required by law or by a court or other authority of competent jurisdictio n provided that, to the extent it is legally permitted to do so, it gives the Discloser as much notice of this disclosure as possible. 1.4 At the request of the Discloser, the Recipient shall destroy or return to the disclosing party all documents and materials containing Confid ential Information. 1.5 All Confidential Information shall remain the p roperty of the Discloser and no rights in the Confidential Information are granted to the Rec ipient other than those expressly stated in this agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 2 modifies the termination clause, stating that obligations cease immediately upon termination. This directly contradicts Section 1, which outlines ongoing confidentiality obligations. The original text specified a survival period for obligations, including confidentiality, which is now eliminated. Therefore, the change creates a strong in-text contradiction regarding when confidentiality obligations end."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "3.1 This agreement constitutes the whole agreement between the parties and supersedes all previous agreements between the parties relatin g to the Purpose.",
+        "changed_text": "3.1 This agreement constitutes the whole agreement between the parties with the exception of verbal agreements done prior to the signature of this contract and supersedes all previous written agreements between the parties relating to the Purpose.",
+        "explanation": "The original clause states that the written agreement constitutes the *entire* agreement. This modification states that verbal agreements before the signature of the contract are also part of the agreement. This introduces an in-text contradiction since the clause states it is the whole agreement which includes the new inserted modification for verbal agreements, thus is not longer the whole agreement. This leads to uncertainty over which terms are binding.",
+        "location": "Section 3.1",
+        "contradicted_location": "Section 3.1",
+        "contradicted_text": "3.1 This agreement constitutes the whole agreement between the parties with the exception of verbal agreements done prior to the signature of this contract and supersedes all previous written agreements between the parties relating to the Purpose.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the original clause by stating that verbal agreements prior to signing are also part of the agreement, which directly contradicts the initial statement that the written agreement constitutes the *entire* agreement. This creates an inconsistency, as the clause now claims to be the whole agreement while simultaneously acknowledging the existence of other binding agreements (verbal agreements). Since the changed and contradicted text are identical, the modification creates a strong in-text contradiction regarding the scope of the agreement, leading to potential confusion and disputes over which terms are binding. This aligns with the definition of 'Inconsistencies - In Text Contradiction' because the document provides conflicting information."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "4.1 This agreement and any dispute or claim arising out of or in connection with it or its subject matter or formation shall be governed by an d construed in accordance with English law.",
+        "changed_text": "4.1 This agreement and any dispute or claim arising out of or in connection with it or its subject matter or formation shall be governed by an d construed in accordance with English law, unless the Recipient is based in another jurisdiction, in which case the laws of that jurisdiction will apply.",
+        "explanation": "The original text specifies English law as the governing law. The modified text introduces an exception based on the Recipient's jurisdiction, creating a contradiction. This introduces ambiguity about which laws govern the agreement and disputes, and undermines the initial agreement on governing law. It directly contradicts section 4.2.",
+        "location": "Section 4.1",
+        "contradicted_location": "Section 4.2",
+        "contradicted_text": "4.2 The parties irrevocably agree that the courts o f England and Wales shall have exclusive jurisdiction to settle any dispute or cla im that arises out of or in connection with this agreement or its subject matter or format ion.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified English law for all disputes. The changed text introduces an exception based on the Recipient's jurisdiction. This creates a direct contradiction with clause 4.2, which grants exclusive jurisdiction to the courts of England and Wales. This change makes it unclear which jurisdiction applies and undermines the exclusivity stated in section 4.2, fitting the definition of 'Inconsistencies - In Text Contradiction'."
+      }
+    ]
+  }
+]

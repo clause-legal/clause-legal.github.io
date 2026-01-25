@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "US_Non-Disclosure_Agreement_v2_2015.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Each Party agrees not to use the Confidential In formation in any fashion, form, or manner for any purpose other than the purpose of this Agreement or as any subsequent agreements between the Parties may allow.",
+        "changed_text": "Each Party agrees not to use the Sensitive Data in any fashion, form, or manner for any purpose other than the purpose of this Agreement or as any subsequent agreements between the Parties may allow.",
+        "explanation": "Changing 'Confidential Information' to 'Sensitive Data' creates ambiguity because the contract defines 'Confidential Information' but not 'Sensitive Data'. It is contradicting the section 1,2,3,4,5,6,7,8,10, which refers to 'Confidential Information', rather than 'Sensitive Data', leading to uncertainty regarding which information is protected.",
+        "location": "Section 1",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "Each Party may reveal the Confidential Inform ation only to its employees, agents and consultants who have a need to know such information for th e purpose of this Agreement and who have been duly informed of the confidential nature of the C onfidential Information. Each Party agrees to take reasonable steps to prevent disclosure of the Confid ential Information to any other person or entity.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Confidential Information' to 'Sensitive Data' creates a strong in-text contradiction. The contract defines 'Confidential Information', and the contradicted text refers exclusively to 'Confidential Information' regarding who can access it and how it should be protected. By replacing 'Confidential Information' with 'Sensitive Data' in the modified text, it creates ambiguity and uncertainty as to whether the provisions in the contradicted text still apply. This is based on the definition of Misaligned Terminology which defines that the contract uses multiple terms interchangeably without defining them, leading to conflicting obligations. The change impacts understanding and enforceability."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Each Party will protect the confidentiality of the Confidential Information by using the same degree of care (but not less than a reasonable degree of care) it uses to protect the confidentiality of its own proprietary and co nfidential information.",
+        "changed_text": "Each Party will safeguard the confidentiality of the Confidential Information by using the same degree of care (but not less than a suitable degree of care) it uses to protect the confidentiality of its own proprietary and co nfidential information.",
+        "explanation": "Changing 'protect' to 'safeguard' and 'reasonable' to 'suitable' introduces uncertainty about the standard of care required. 'Reasonable' is a legal standard, while 'suitable' is more subjective. It is contradicting the section 10, which dictates the irreparable harm, which requires immediate protection",
+        "location": "Section 3",
+        "contradicted_location": "Section 10",
+        "contradicted_text": "The Parties acknowledge and agree that irrepara ble harm may occur if any of the Confidential Information were to be disclosed to third parties or if any use were to be made of the Confidential Information other than that specified in this Agre ement, and the Parties further agree that each shall have the right to seek and obtain injunctive relief upon any violation or threatened violation of the terms of this Agreement, in add ition to all other rights and remedies available at law or in equity.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'protect' with 'safeguard' and 'reasonable' with 'suitable', shifting the standard of care from a legally defined term to a more subjective one. The original text implies a reasonable degree of care is sufficient for protection. The contradicted text emphasizes that 'irreparable harm may occur' if confidential information is disclosed, which necessitates a high degree of protection. By weakening the 'reasonable' standard to 'suitable', the changed text introduces ambiguity about whether the level of care is sufficient to prevent the irreparable harm. It creates a contradiction as the altered language potentially provides less protection compared to what's needed to prevent 'irreparable harm' as described in the contradicted text. The explanation given also states that it contradicts section 10 (the contradicted text), which requires immediate protection."
+      }
+    ]
+  }
+]

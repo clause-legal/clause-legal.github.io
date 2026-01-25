@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "nda_9.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Neither party shall be liable to the other or to any other person hereunder for amounts representing loss of profits or loss of business or indirect, consequential or punitive damages of the other or of such other person in connection with the provision or use of the Information hereunder.",
+        "changed_text": "Neither party shall be liable to the other or to any other person hereunder for amounts representing loss of profits or loss of business exceeding $10,000 or indirect, consequential or punitive damages of the other or of such other person in connection with the provision or use of the Information hereunder.",
+        "explanation": "The modification adds a liability cap of $10,000 for loss of profits or business, contradicting the original clause that excludes any liability for such losses. This creates an in-text contradiction as it implies liability exists up to the specified amount, creating ambiguity regarding the extent of liability in the event of a breach.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "No Warranty/Liability Neither party makes any warranty, express or implied, with respect to the Information. Neither party shall be liable to the other or to any other person hereunder for amounts representing loss of profits or loss of business exceeding $10,000 or indirect, consequential or punitive damages of the other or of such other person in connection with the provision or use of the Information hereunder.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states there is no liability for loss of profits or loss of business, but the changed text introduces a $10,000 liability cap for loss of profits or business. This directly contradicts the 'No Warranty/Liability' section, which now also includes the changed text about the $10,000 cap, thus creating an in-text contradiction because it implies liability exists up to the specified amount, where originally there was none."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Nothing contained in this Agreement shall be construed as granting or conferring any rights by licence or otherwise in the Information except as provided herein.",
+        "changed_text": "Nothing contained in this Agreement shall be construed as granting or conferring any rights by licence or otherwise in the Information, but the receiving party may use the information to improve internal processes.",
+        "explanation": "This change introduces an in-text contradiction. The original clause states that no rights are granted, except as explicitly provided. The modified text then states that the receiving party can use the information to improve internal processes, which implies a right to use the information that was not previously granted, and creates uncertainty about the limits to usage rights and potentially breaching the confidentiality.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "No Further Rights Nothing contained in this Agreement shall be construed as granting or conferring any rights by licence or otherwise in the Information, but the receiving party may use the information to improve internal processes except as provided herein.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that no rights are granted except as explicitly provided. The changed text states that the receiving party can use the information to improve internal processes. This implies a right to use the information that was not previously granted and thus creates a contradiction. The contradicted text is the same as the Changed text, which means the contradictory text is present in the same location as the Change. According to the Perturbation Explanation, this creates uncertainty about the limits to usage rights and potentially breaches confidentiality."
+      }
+    ]
+  }
+]

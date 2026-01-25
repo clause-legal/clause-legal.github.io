@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "NON-DISCLOSURE-AGREEMENT_13.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "3.3. Confidential information may not be disclosed to any third party . Information may only be disclosed to employees and/or agents; or if required by law , and such employees and/or agents must bind themselves to this agreement.",
+        "changed_text": "3.3. Confidential information may not be disclosed to any third party, except for consultants. Information may only be disclosed to employees and/or agents and consultants; or if required by law, and such employees and/or agents must bind themselves to this agreement. Consultants are exempt from binding themselves to this agreement.",
+        "explanation": "The modified text creates an in-text contradiction by allowing disclosure to consultants but then exempting them from binding themselves to the agreement. This contradicts the requirement that anyone receiving confidential information must be bound by the agreement's terms, creating a loophole for consultants.",
+        "location": "3.3",
+        "contradicted_location": "3.3",
+        "contradicted_text": "3.3. Confidential information may not be disclosed to any third party, except for consultants. Information may only be disclosed to employees and/or agents and consultants; or if required by law, and such employees and/or agents must bind themselves to this agreement. Consultants are exempt from binding themselves to this agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a contradiction because it explicitly exempts consultants from binding themselves to the agreement, while simultaneously allowing them access to confidential information. This directly conflicts with the implicit requirement that anyone receiving confidential information must adhere to the agreement's terms, as outlined in the original text, leading to an inconsistency regarding the handling of confidential data by consultants. The contradicted text is the same as the Changed Text and therefore the contradiction is happening within the same location."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "3.6. No warranties, representations or undertakings will be valid or relied on, unless placed in writing and signed by both parties. No changes to this agreement will be valid or hav e force or effect unless placed in writing and signed by both parties.",
+        "changed_text": "3.6. No warranties, representations or undertakings will be valid or relied on, unless placed in writing and signed by both parties. Changes to this agreement can be made verbally and are considered valid if both parties acknowledge the change via email.",
+        "explanation": "The modified text creates an in-text contradiction by stating that changes to the agreement can be made verbally and acknowledged via email, while the original text requires changes to be in writing and signed by both parties. This leads to uncertainty about the proper procedure for amending the agreement.",
+        "location": "3.6",
+        "contradicted_location": "3.6",
+        "contradicted_text": "3.6. No warranties, representations or undertakings will be valid or relied on, unless placed in writing and signed by both parties. Changes to this agreement can be made verbally and are considered valid if both parties acknowledge the change via email.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly allows for verbal changes to the agreement acknowledged via email, while both the original and contradicted text requires changes to be in writing and signed by both parties. This creates a direct and irreconcilable conflict within the document regarding the procedure for amending the agreement, fitting the definition of 'Inconsistencies - In Text Contradiction'."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "3.11. The Parties must deliver all legal documents, notices or other communications to the addresses provided and indicated as domicilium citandi et executandi:",
+        "changed_text": "3.11. The Parties may deliver all legal documents, notices or other communications to the addresses provided and indicated as domicilium citandi et executandi:",
+        "explanation": "The modified text creates an in-text contradiction by changing 'must' to 'may'. This creates uncertainty about whether delivery of legal documents to the specified address is mandatory or optional. This undermines the purpose of domicilium citandi et executandi, which is to ensure a reliable address for legal notices.",
+        "location": "3.11",
+        "contradicted_location": "3.11",
+        "contradicted_text": "3.11. The Parties may deliver all legal documents, notices or other communications to the addresses provided and indicated as domicilium citandi et executandi:",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'must' to 'may' in section 3.11 regarding the delivery of legal documents to the address indicated as domicilium citandi et executandi creates a direct contradiction. The original 'must' implies a mandatory obligation, while the changed 'may' suggests it's optional. This undermines the purpose of a domicilium citandi et executandi, which is to ensure a reliable and designated address for legal notices. The explanation states that the change introduces uncertainty, contradicting the purpose of having a domicilium. The contradicted text is identical to the changed text, indicating that the change itself is creating the contradiction."
+      }
+    ]
+  }
+]

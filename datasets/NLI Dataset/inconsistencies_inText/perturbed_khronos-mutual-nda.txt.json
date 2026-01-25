@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "khronos-mutual-nda.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "5.9 Termination Either party may terminate this Agreement at any time upon written notice to the other party. Promptly after such termination, all obligations of Participant and Khronos under this Agreement will terminate, and both parties will return or destroy all materials provided by the other party pursuant to th is Agreement. Notwithstanding the foregoing, the rights and obligations set forth in Sections 4 (Confidential Information), 5.7 (No Warranty) and 5.8 (Limitation of Liability) will survive termination of this Agreement.",
+        "changed_text": "5.9 Termination Either party may terminate this Agreement at any time upon written notice to the other party. Promptly after such termination, all obligations of Participant and Khronos under this Agreement will terminate, and both parties will return or destroy all materials provided by the other party pursuant to th is Agreement. Notwithstanding the foregoing, only the rights and obligations set forth in Sections 5.7 (No Warranty) and 5.8 (Limitation of Liability) will survive termination of this Agreement.",
+        "explanation": "The change removes the survival clause for Section 4 (Confidential Information) after termination. This contradicts the original statement in Section 5.9, creating an in-text contradiction within the same section. This means the confidentiality obligations no longer apply after termination, conflicting with the purpose of an NDA.",
+        "location": "5.9",
+        "contradicted_location": "5.9",
+        "contradicted_text": "Termination Either party may terminate this Agreement at any time upon written notice to the other party. Promptly after such termination, all obligations of Participant and Khronos under this Agreement will terminate, and both parties will return or destroy all materials provided by the other party pursuant to th is Agreement. Notwithstanding the foregoing, only the rights and obligations set forth in Sections 5.7 (No Warranty) and 5.8 (Limitation of Liability) will survive termination of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 5.9 removes the survival clause for Section 4 (Confidential Information) after termination. The original text included Section 4, but the changed text only includes Sections 5.7 and 5.8. This creates a direct conflict within Section 5.9 itself, as highlighted in the perturbation explanation, because it is removing a previous obligation without any additional clarification of how the Confidential Information clause will be dealt with after the change. The contradicted text is the same section (5.9), but this section now contradicts itself."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "5.4 Notices Any notices under this Agreement shall be sent by a) registered mail; b) tracked overnight carrier or c) email transmission where the recipient specifically replies to acknowledge receipt.",
+        "changed_text": "5.4 Notices Any notices under this Agreement shall be sent by a) registered mail; b) tracked overnight carrier or c) email transmission.",
+        "explanation": "The change removes the requirement for the recipient to specifically reply to acknowledge receipt of email notices. This creates uncertainty and potential disputes. The original clause ensured confirmation of receipt, while the modified clause does not. This affects the enforceability of termination notices under Section 5.9 since there is no proof of notice if sent by email.",
+        "location": "5.4",
+        "contradicted_location": "5.9",
+        "contradicted_text": "Termination Either party may terminate this Agreement at any time upon written notice to the other party. Promptly after such termination, all obligations of Participant and Khronos under this Agreement will terminate, and both parties will return or destroy all materials provided by the other party pursuant to th is Agreement. Notwithstanding the foregoing, only the rights and obligations set forth in Sections 5.7 (No Warranty) and 5.8 (Limitation of Liability) will survive termination of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the requirement for acknowledgment of receipt for email notices, while the contradicted text (Section 5.9) allows for termination upon written notice. Because the changed text creates ambiguity around whether email notice was actually received since no reply is required, it directly contradicts the contradicted text because there is no longer guaranteed proof of notice, which creates a conflict. This aligns with the provided definition of 'Inconsistencies - In Text Contradiction' where different sections of a contract provide conflicting obligations, leading to disputes over contractual obligations."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "5.5 Governing Law This Agreement shall be governed by and inte rpreted in accordance with the laws of the State of California, excluding its choice of laws rules. The parties hereby agree that any dispute regarding the interpretation or valid ity of, or otherwise arising out of, this Agreement shall be subject to the exclusive ju risdiction of the California state courts of Santa Clara County, California (or, if there is fe deral jurisdiction, the Un ited States District Court for the Northern District of California, San Jose), and the parties agree to submit to the personal and exclus ive jurisdiction and ve nue of these courts.",
+        "changed_text": "5.5 Governing Law This Agreement shall be governed by and inte rpreted in accordance with the laws of the State of Delaware, excluding its choice of laws rules. The parties hereby agree that any dispute regarding the interpretation or valid ity of, or otherwise arising out of, this Agreement shall be subject to the exclusive ju risdiction of the California state courts of Santa Clara County, California (or, if there is fe deral jurisdiction, the Un ited States District Court for the Northern District of California, San Jose), and the parties agree to submit to the personal and exclus ive jurisdiction and ve nue of these courts.",
+        "explanation": "The change alters the governing law from California to Delaware, while still maintaining California jurisdiction. This introduces an in-text contradiction, as Delaware law and California courts now govern the agreement, leading to disputes over which state's laws should prevail, it contradicting with 5.6 and creates confusion on what laws should be considered. The ambiguity causes legal uncertainty.",
+        "location": "5.5",
+        "contradicted_location": "5.6",
+        "contradicted_text": "Complete Agreement This Agreement constitute the complete and exclusive statement of the agreement between the parties, and supersedes all previous agr eements, proposals, oral or written, and all other communications or understandings between the parties relating to the subject matter of this Agreement. Each party acknowledges that it has not relied up on any representation or statement not contained herein. This Agr eement shall not be modified, amended or in any way altered except by an instrument in writing signed by the Participant and Khronos hereto.",
+        "contradiction_exists": "YES",
+        "justification": "The change in Section 5.5, modifying the governing law from California to Delaware while retaining California jurisdiction, directly contradicts the 'Complete Agreement' clause. The 'Complete Agreement' clause specifies that the agreement constitutes the entire understanding between the parties and supersedes all prior agreements. By introducing Delaware law while maintaining California jurisdiction, there's an immediate contradiction regarding which state's laws prevail, thus rendering the 'Complete Agreement' clause inconsistent and confusing. This ambiguity creates a strong in-text contradiction because it directly impacts which body of law governs the contract, leading to potential disputes over interpretation and enforcement. This adheres to the Inconsistencies - In Text Contradiction definition, where conflicting obligations lead to disputes over contractual obligations."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Khronos Group 9450 SW Gemini Drive #45043, Beaverton, OR 97008, USA KHRONOS MUTUAL NON-DISCLOSURE SIGNATURE PAGE",
+        "changed_text": "Khronos Group 123 Main Street, Anytown, CA 91234, USA KHRONOS MUTUAL NON-DISCLOSURE SIGNATURE PAGE",
+        "explanation": "The change updates Khronos' address on the signature page. This creates a contradiction if another part of the agreement references the original address for official notices, creating an in-text contradiction. Specifically, if Section 5.4 refers to the address listed on the signature page, sending a notice to the original address might be deemed insufficient, while sending it to the new address conflicts with the old one. This would affect terminations.",
+        "location": "SIGNATURE PAGE",
+        "contradicted_location": "5.4",
+        "contradicted_text": "Notices Any notices under this Agreement shall be sent by a) registered mail; b) tracked overnight carrier or c) email transmission where the recipient specifically replies to acknowledge receipt.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies Khronos Group's address. The contradicted text requires 'any notices under this Agreement shall be sent by registered mail'. If the address for Khronos Group is changed in one place but not consistently throughout the document, then sending a notice via registered mail to the original address might be deemed insufficient, while sending it to the new address conflicts with the original address stated, creating an inconsistency. Therefore, a strong in-text contradiction exists."
+      }
+    ]
+  }
+]

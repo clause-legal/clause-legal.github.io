@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "BORROWMONEYCOM,INC_06_11_2020-EX-10.1-JOINT VENTURE AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The principal office of the business of the Venture will be located at 512 Bayshore Drive Suite 201 Fort Lauderdale, FL 33304 or such other place as the Members may from time to time designate.",
+        "changed_text": "The principal office of the business of the Venture will be permanently located at 512 Bayshore Drive Suite 201 Fort Lauderdale, FL 33304. No other location shall be considered as the principal office.",
+        "explanation": "This change makes the location of the principal office fixed, contradicting the flexibility implied in the original text that allowed the Members to designate other locations. This creates an in-text contradiction, as Section 6 now states that the office is permanently fixed, but Section 27 implies flexibility in meeting locations: 'All meetings will be held at a time and in a location that is reasonable, convenient and practical considering the situation of all Members.' If a 'reasonable, convenient, and practical' location for a meeting, according to the Members' circumstances, is not the principal office, a conflict arises, since the Members might need to conduct business activities related to that meeting that can only be done at the principal office, but can't be done anywhere else.",
+        "location": "6",
+        "contradicted_location": "27",
+        "contradicted_text": "All meetings will be held at a time and in a location that is reasonable, convenient and practical considering the situation of all Members.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text makes the principal office location permanently fixed, eliminating the flexibility for the Members to designate other locations as allowed in the original text. This directly contradicts the contradicted text, which states that 'All meetings will be held at a time and in a location that is reasonable, convenient and practical considering the situation of all Members.' If a reasonable meeting location is not the principal office, a conflict arises because the changed text restricts business activities related to that meeting to only the principal office, making the original clause unenforceable. This falls under Ambiguities - In Text Contradiction as the location term is defined inconsistently."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Duties of Members may be amended, from time to time, by decision of the Members, provided that the Members' interests are not affected except with the unanimous consent of the Members.",
+        "changed_text": "Duties of Members may be amended, from time to time, by decision of the Managers, provided that the Members' interests are not affected except with the majority consent of the Managers.",
+        "explanation": "This change allows the managers to amend the member's duties with a majority consent of the managers, creating contradiction with section 29 'This Agreement may be amended only with the unanimous consent of all Members.', creating an in-text contradiction since changes in the member's duties could be seen as an amendment to the whole document.",
+        "location": "14",
+        "contradicted_location": "29",
+        "contradicted_text": "This Agreement may be amended only with the unanimous consent of all Members.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters who can amend the duties of members from the 'Members' to the 'Managers' and also changes the consent needed from 'unanimous consent of the Members' to 'majority consent of the Managers'. This directly contradicts the section stating 'This Agreement may be amended only with the unanimous consent of all Members.' because changing the duties of members constitutes an amendment to the agreement and now only requires majority consent of the managers."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Each Member represents and warrants that this Agreement is not in violation of any and all agreements and constitutional documents of the individual Member.",
+        "changed_text": "Each Member represents and warrants that this Agreement is likely not in violation of any agreements and constitutional documents of the individual Member.",
+        "explanation": "This change introduces uncertainty into the warranties provided by each Member. By replacing 'is not' with 'is likely not', the warranty becomes less definitive and creates an in-text contradiction. Section 57 states: 'All Members represent and warrant that they have all authority, licenses and permits to execute and perform this Agreement and their obligations under this Agreement and that the representative of each Member has been fully authorized to execute this Agreement.' Changing the warranty to a 'likely not' creates doubt about whether they will fully perform the agreement and its obligations which is already addressed in section 57.",
+        "location": "58",
+        "contradicted_location": "57",
+        "contradicted_text": "All Members represent and warrant that they have all authority, licenses and permits to execute and perform this Agreement and their obligations under this Agreement and that the representative of each Member has been fully authorized to execute this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text weakens the warranty provided by each Member, stating that the Agreement 'is likely not' in violation of other agreements, whereas the contradicted text requires all members to represent and warrant that they have full authority and permits to perform the agreement and their obligations. The change introduces uncertainty about the Member's ability to fully perform their obligations, directly conflicting with the certainty required by the original warranty in the contradicted text. Because the original text warrants 'all authority... to execute and perform this Agreement', a weakened warranty introduces a contradiction. This aligns with the definition of ambiguities in text contradiction."
+      }
+    ]
+  }
+]

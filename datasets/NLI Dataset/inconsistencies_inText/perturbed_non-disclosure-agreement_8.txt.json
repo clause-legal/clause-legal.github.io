@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "non-disclosure-agreement_8.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Receiving Party shall carefully restrict access to Confidential Information to employees, contractors and third parties as is reasonably required and shall require those persons to sign non-disclosure restrictions at least as protective as those in this Agreement.",
+        "changed_text": "Receiving Party shall carefully restrict access to Confidential Information to employees, contractors and third parties as is reasonably required. Receiving Party is not required to have those persons to sign non-disclosure restrictions.",
+        "explanation": "This creates a contradiction because initially the Receiving Party was required to have those people who had access to sign nondisclosure restriction, but now is not required. This contradiction creates uncertainty on how the Confidential Information should be handled, and who's responsibility is on keeping the information safe, therefore uncertainty on enforcement.",
+        "location": "3.2",
+        "contradicted_location": "3.2",
+        "contradicted_text": "3.2 Receiving Party shall carefully restrict access to Confidential Information to employees, contractors and third parties as is reasonably required. Receiving Party is not required to have those persons to sign non-disclosure restrictions.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the Receiving Party *shall* require people to sign non-disclosure restrictions. The changed text states that the Receiving Party is *not required* to have those persons sign non-disclosure restrictions. The contradicted text repeats the language of the changed text, confirming the direct contradiction. This aligns with the definition of 'Inconsistencies - In Text Contradiction' where different sections of a contract provide conflicting obligations."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Both parties to this Agreement acknowledge and agree that the Confidential Information hereunder this Agreement is of a unique and valuable nature, and that the unauthorized distribution and broadcasting of the Confidential Information could have the potential to destroy and, at the very least, diminish the value of such information.The damages that the Disclosing Party could sustain as a direct result of the unauthorized dissemination of the Confidential Information would be impossible to calculate.",
+        "changed_text": "Both parties to this Agreement acknowledge and agree that the Confidential Information hereunder this Agreement may or may not be of a unique and valuable nature, and that the unauthorized distribution and broadcasting of the Confidential Information could have the potential to diminish the value of such information. The damages that the Disclosing Party could sustain as a direct result of the unauthorized dissemination of the Confidential Information would be possible to calculate.",
+        "explanation": "The modified text contradicts the original by casting doubt on the unique and valuable nature of the Confidential Information, and stating damages are possible to calculate whereas it was impossible. The term 'may or may not' introduces uncertainty and contradicts the original agreement. Also the statement about damages being able to be calculated introduces uncertainty on the type of relief the injured party can claim, such as injunctive relief.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "6. Remedies Both parties to this Agreement acknowledge and agree that the Confidential Information hereunder this Agreement may or may not be of a unique and valuable nature, and that the unauthorized distribution and broadcasting of the Confidential Information could have the potential to diminish the value of such information. The damages that the Disclosing Party could sustain as a direct result of the unauthorized dissemination of the Confidential Information would be possible to calculate.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a contradiction. The original text asserts the Confidential Information is of 'a unique and valuable nature' and damages are 'impossible to calculate.' The changed text casts doubt on the information's uniqueness ('may or may not') and suggests damages are 'possible to calculate.' The contradicted text repeats the language of the changed text, indicating that the parties acknowledge the confidential information may or may not be valuable and that damages are possible to calculate, which directly opposes the premise of the original text that emphasizes the unique value and incalculable damages, creating a clear contradiction. The perturbation explanation provides justification for this classification."
+      }
+    ]
+  }
+]

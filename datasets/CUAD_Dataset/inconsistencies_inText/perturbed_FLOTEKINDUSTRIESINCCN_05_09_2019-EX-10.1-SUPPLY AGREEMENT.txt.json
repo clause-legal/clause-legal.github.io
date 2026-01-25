@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "FLOTEKINDUSTRIESINCCN_05_09_2019-EX-10.1-SUPPLY AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "(c) FCC shall invoice Flotek for Terpene Product at the time of shipment. Payment of FCC invoices shall be due within sixty (60) days of the respective invoice date.",
+        "changed_text": "(c) FCC shall invoice Flotek for Terpene Product at the time of shipment. Payment of FCC invoices shall be due within thirty (30) days of the respective invoice date.",
+        "explanation": "This change introduces an in-text contradiction by modifying the payment deadline from 60 days to 30 days. This directly conflicts with section 6(c) where the original payment term is referenced and creates uncertainty about which payment deadline should be enforced.",
+        "location": "Section 6",
+        "contradicted_location": "Section 6",
+        "contradicted_text": "FCC shall invoice Flotek for Terpene Product at the time of shipment. Payment of FCC invoices shall be due within thirty (30) days of the respective invoice date.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the payment deadline from 60 days to 30 days, which directly conflicts with the contradicted text, which also states that the payment deadline is 30 days. Even though both texts now align to 30 days, the original text used to say 60 days. Since, according to the explanation, section 6(c) of the original text references the 60 days, this creates an in-text contradiction because the changed text (30 days) now conflicts with this section 6(c), which originally referred to 60 days."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "FCC warrants to Flotek that: (a) all of the Terpene Product supplied by FCC to Flotek shall: (i) conform to the specifications set forth in Section 1; 3 (ii) comply with all relevant laws and regulations including, without limitation, laws and regulations of each of the jurisdictions in which the Terpene Product are either manufactured or to be sold or used concerning purity, sanitation, safety, security, and packaging and labeling of food and beverage; (iii) be in good condition at the time of delivery in all respects; and (iv) be free from any defect in design, workmanship, materials and packaging; and",
+        "changed_text": "FCC warrants to Flotek that: (a) all of the Terpene Product supplied by FCC to Flotek shall: (i) conform to the specifications set forth in Section 1; 3 (ii) comply with all relevant laws and regulations including, without limitation, laws and regulations of each of the jurisdictions in which the Terpene Product are either manufactured or to be sold or used concerning purity, sanitation, safety, security, and packaging and labeling of food and beverage; (iii) be in good condition at the time of delivery in all respects; and (iv) be free from any significant defect in design, workmanship, materials and packaging; and",
+        "explanation": "The in-text contradiction arises from changing the warranty clause related to product defects. Initially, the product should be free from ANY defect, while the perturbation allows for 'significant' defects. This contradiction creates uncertainty, especially with section 14 which addresses rework and liability for 'any defect'. Is FCC liable for all defects or just significant ones?",
+        "location": "Section 19",
+        "contradicted_location": "Section 14",
+        "contradicted_text": "In the event of any defect in the Terpene Product delivered to Flotek hereunder, FCC will (without limiting any other remedy of Flotek), upon Flotek's request, replace any defective Terpene Product at the expense of FCC. In addition, FCC shall be responsible for claims by third parties against Flotek for loss or damage based on personal injury or destruction of property due solely to defects in Terpene Product. FCC shall be responsible for the defense, settlement or other final disposition of such claims and agrees to hold Flotek harmless from any expenses or liability arising out of such claims. Flotek may, at its option and expense, retain counsel to participate in the investigation and handling of such claims, although FCC shall have control of all such claims, and the Flotek shall not settle or otherwise dispose of any such claims without the written consent of the FCC.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the warranty clause to allow for 'significant' defects, while the original text warranted against 'any' defect. This directly contradicts the contradicted text, which states that FCC will replace any defective Terpene Product in the event of 'any defect'. The change introduces ambiguity regarding FCC's liability: Is FCC liable for all defects, as stated in the contradicted text, or only for 'significant' ones, as stated in the changed text? This creates a direct conflict that affects the enforceability of the warranty."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "FCC may not assign or delegate its rights or obligations pursuant to this Agreement. Subject to the foregoing, this Agreement shall be binding upon each of the parties upon their execution, and inure to the benefit of the parties hereto and their successors and assigns. Any assignee whatsoever will be bound by the obligations of the assigning party under this Agreement, and any assignment shall not diminish the liability or obligation of the assignor under the terms of this Agreement unless otherwise agreed.",
+        "changed_text": "FCC may assign or delegate its rights or obligations pursuant to this Agreement with written consent from Flotek. Subject to the foregoing, this Agreement shall be binding upon each of the parties upon their execution, and inure to the benefit of the parties hereto and their successors and assigns. Any assignee whatsoever will be bound by the obligations of the assigning party under this Agreement, and any assignment shall diminish the liability or obligation of the assignor under the terms of this Agreement unless otherwise agreed.",
+        "explanation": "This change introduces an in-text contradiction by modifying the conditions under which FCC can assign its rights and obligations. Initially, assignment is prohibited; however, the modified text allows for assignment with Flotek's written consent and also reduces the liability of the assignor. This change directly contradicts the clause in the original text where 'FCC may not assign' and 'any assignment shall not diminish the liability'. This causes in-text contradiction on if the assignee is fully reliable or not.",
+        "location": "Section 23",
+        "contradicted_location": "Section 23",
+        "contradicted_text": "FCC may assign or delegate its rights or obligations pursuant to this Agreement with written consent from Flotek. Subject to the foregoing, this Agreement shall be binding upon each of the parties upon their execution, and inure to the benefit of the parties hereto and their successors and assigns. Any assignee whatsoever will be bound by the obligations of the assigning party under this Agreement, and any assignment shall diminish the liability or obligation of the assignor under the terms of this Agreement unless otherwise agreed.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text allows FCC to assign its rights/obligations with Flotek's consent and diminishes the assignor's liability. This directly contradicts the original restriction on assignment and the stipulation that the assignor remains liable, creating a strong in-text contradiction regarding FCC's ability to assign rights and the extent of the assignor's liability. The contradicted text and changed text are in the same location, but the Change caused a contradiction to the contradicted text."
+      }
+    ]
+  }
+]

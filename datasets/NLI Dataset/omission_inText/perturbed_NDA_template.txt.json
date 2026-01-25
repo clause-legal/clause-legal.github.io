@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "NDA_template.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "At the end of the Term, the Contractor will return to the Company, retaining nocopies or notes, all documents relating to the Company’s business including, but not limit ed to,reports, abstracts, lists, correspondence, information, computer files, computer disks, and allother materials and all copies of such material, obtained by the Contractor during itscontractual relationship with the company.",
+        "changed_text": "At the end of the Term, the Contractor will return to the Company, retaining no copies or notes, all documents relating to the Company’s business. The company can request specific documents if necessary.",
+        "explanation": "By omitting the comprehensive list of documents and materials to be returned and adding 'The company can request specific documents if necessary', it contradicts the initial requirement for a complete return of all documents. The contradiction arises between the absolute return of 'all documents' and the new clause suggesting a selective return based on the Company's specific requests. Uncertainty is created about whether the contractor is obliged to return everything or only what is requested.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "RETURN OF PROPERTY At the end of the Term, the Contractor will return to the Company, retaining no copies or notes, all documents relating to the Company’s business. The company can request specific documents if necessary.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text omits the comprehensive list of documents to be returned, which was present in the original text. By adding 'The company can request specific documents if necessary', it creates a contradiction because now the contractor is not obligated to return all documents, as previously required by the contradicted text, but only those specifically requested by the company. This directly conflicts with the original requirement for complete return, thus creating a strong contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "All Confidential Information is provided “AS IS” and the Company makes no warrantyregarding the accuracy or reliability of such information. Neither the Company nor any of itsadvisors or representatives shall have any liability to the Contractor or any of its representatives resulting from the Contractor ’s use of the Confidential Information.",
+        "changed_text": "All Confidential Information is provided “AS IS”. Neither the Company nor any of itsadvisors or representatives shall have any liability to the Contractor or any of its representatives resulting from the Contractor ’s use of the Confidential Information.",
+        "explanation": "The original clause states 'All Confidential Information is provided “AS IS” and the Company makes no warranty regarding the accuracy or reliability of such information.' By omitting the phrase 'and the Company makes no warranty regarding the accuracy or reliability of such information', the clause now just mentions that the information is provided 'AS IS', which implicitly suggests there may be some expectation or implied warranty about the information's accuracy or reliability. By removing the explicit disclaimer, the agreement now implicitly implies liability on part of the company, when the original text did not imply it.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "NO COMPANY LIABILITY All Confidential Information is provided “AS IS”. Neither the Company nor any of itsadvisors or representatives shall have any liability to the Contractor or any of its representatives resulting from the Contractor ’s use of the Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly states that the company makes no warranty regarding the accuracy or reliability of confidential information. The changed text removes this explicit disclaimer, only stating that the information is provided \"AS IS\". This omission implicitly introduces a potential expectation or implied warranty. The contradicted text reaffirms 'NO COMPANY LIABILITY' and reiterates the 'AS IS' provision alongside the explicit disclaimer of liability, which is consistent with the original text, but in direct conflict with the changed text. By removing the disclaimer, the changed text contradicts the 'NO COMPANY LIABILITY' clause, making it a strong in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Contractor shall inform each such individual of theproprietary nature of the Confidential Information and of the terms and obligations of this Agreem ent. Each permitted employee, subcontractor, member, or associate to whom Confidential Information is disclosed shall sign a non - disclosure agreement substantially the same as this Agreement at the request of the Company.",
+        "changed_text": "The Contractor shall inform each such individual of the proprietary nature of the Confidential Information and of the terms and obligations of this Agreem ent. The Company may request that each permitted employee, subcontractor, member, or associate to whom Confidential Information is disclosed shall sign a non - disclosure agreement .",
+        "explanation": "The original clause mandated that subcontractors sign a non-disclosure agreement (NDA) substantially the same as this one ('Each permitted employee, subcontractor...shall sign a non-disclosure agreement...'). By changing this to 'The Company may request that each permitted employee, subcontractor...shall sign a non-disclosure agreement,' the clause now makes the NDA optional at the Company's discretion. The in-text contradiction occurs between the initial requirement to inform individuals of the obligations and the altered clause making the NDA discretionary, creating uncertainty regarding the enforceable obligations on subcontractors. By not making it mandatory it is implied that if it is not requested, the person who gets the confidential information might be not bound to an NDA, which previously that wasn't the case. ",
+        "location": "1c",
+        "contradicted_location": "1c",
+        "contradicted_text": "Applicability to Employees and Subcontractors . The Contractor shall not disclose any Confidential Information to any of its associates, members, employees, or subcontractors, except those employees or subcontractors who are required to have the Confidential Information in order to perform their duties in connection with the evaluation and continuation of a business relationship between the Contractor and the Company.The Contractor shall inform each such individual of theproprietary nature of the Confidential Information and of the terms and obligations of this Agreem ent. The Company may request that each permitted employee, subcontractor, member, or associate to whom Confidential Information is disclosed shall sign a non - disclosure agreement .",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandated that subcontractors sign a non-disclosure agreement, while the changed text makes it optional ('The Company may request...shall sign a non - disclosure agreement'). The contradicted text states the Contractor shall inform each individual of the terms and obligations of this Agreement. The change creates a contradiction because the obligation to have subcontractors sign an NDA is now discretionary. This means that there's no guarantee that subcontractors are bound by the NDA, creating a contradiction with the clause stating they'll be informed of the obligations. The original text implied subcontractors were always bound by the NDA, while the change creates a situation where they might not be, thus creating a strong in-text contradiction."
+      }
+    ]
+  }
+]

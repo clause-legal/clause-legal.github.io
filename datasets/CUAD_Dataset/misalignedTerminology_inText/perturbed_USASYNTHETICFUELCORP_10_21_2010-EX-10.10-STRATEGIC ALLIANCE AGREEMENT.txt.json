@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "USASYNTHETICFUELCORP_10_21_2010-EX-10.10-STRATEGIC ALLIANCE AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Oxbow and Global each may be referred to from time to time herein as a \"Party\" and collectively as the \"Parties\".",
+        "changed_text": "Oxbow may be referred to from time to time herein as a \"Party\" and Global Energy may be referred to as the \"Counterparty\". Collectively they may be referred to as the \"Entities\"",
+        "explanation": "Changing the defined terms introduces confusion as to whether 'Party' and 'Counterparty'/'Entities' have the same meaning throughout the agreement, particularly regarding obligations and rights assigned to 'Party' or 'Parties'. This will contradict the usage of those terms later, since if they don't mean the same thing then sections refering to them can have a whole different interpretation. In the pertubation here a new term is added, called 'Entities'.",
+        "location": "Preamble",
+        "contradicted_location": "Section 7(a)",
+        "contradicted_text": "(a) Access to Information. Global Energy and Oxbow shall, in good faith, and subject to the terms and conditions hereof, disclose to one another such information relative to the strategic alliance contemplated by this Agreement as may be necessary or appropriate to effectuate the purposes thereof.",
+        "contradiction_exists": "YES",
+        "justification": "The change from defining both Oxbow and Global as 'Parties' to defining Oxbow as 'Party' and Global Energy as 'Counterparty' and collectively as 'Entities' introduces a contradiction. The contradicted text refers to 'Global Energy and Oxbow' and their obligations to 'one another'. If 'Party' and 'Counterparty' now have different meanings, it's unclear whether the obligations in the contradicted text apply equally to both, or if 'Entities' has a separate set of obligations. This directly impacts the interpretation and enforceability of the 'Access to Information' clause, creating a strong in-text contradiction as the change misaligns terminology and creates ambiguity where the original text was clear, thereby adhering to the definition of 'Misaligned Terminology - In Text Contradiction'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Global Energy shall issue and sell to Oxbow, and Oxbow shall purchase from Global Energy, on the Closing Date, Twenty-Five Thousand (25,000) common shares of Global Energy (the \"Shares\"), on the following terms and conditions, and subject to satisfaction of the conditions set forth in Section 6 hereof:",
+        "changed_text": "Global Energy shall issue and sell to Oxbow, and Oxbow shall purchase from Global Energy, on the Closing Date, Twenty-Five Thousand (25,000) common shares of Global Energy (the \"Securities\"), on the following terms and conditions, and subject to satisfaction of the conditions set forth in Section 6 hereof:",
+        "explanation": "Changing 'Shares' to 'Securities' could lead to uncertainty because 'Shares' is a very specific financial instrument while 'Securities' is broader, this creates confusion regarding the specific rights associated with the purchased instrument. This contradiction will be more aparent in section 8(d), where the Shares are being reffered, if they are the same meaning as Securities, then everything should be alright, otherwise, it will be an in-text contradiction.",
+        "location": "Section 1",
+        "contradicted_location": "Section 8(d)",
+        "contradicted_text": "(d) Survival. The expiration or earlier termination of this Agreement shall not terminate or otherwise affect Oxbow's ownership of the Shares or the validity of any other definitive agreements executed prior to such expiration or termination in connection with the Lima Project, the Texas City Project or any other business arrangement arising out of the strategic alliance contemplated by this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Shares' to 'Securities' introduces ambiguity. While 'Shares' refers specifically to common shares of Global Energy, 'Securities' is a broader term encompassing various financial instruments. Section 8(d) explicitly refers to 'Oxbow's ownership of the Shares'. If 'Securities' in the modified text does not exclusively mean 'Shares', then Section 8(d)'s guarantee of ownership specifically for 'Shares' is contradicted, creating uncertainty about Oxbow's ownership rights. This aligns with the 'Misaligned Terminology' definition because the contract now uses these terms interchangeably without defining them."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement shall be for an initial term of five (5) years, and unless earlier terminated in accordance with this Agreement, shall automatically renew for an additional term of five (5) years thereafter.",
+        "changed_text": "This Agreement shall be for an initial term of five (5) years, and unless earlier terminated in accordance with this strategic alliance contract, shall automatically extend for an additional term of five (5) years thereafter.",
+        "explanation": "Changing 'Agreement' to 'strategic alliance contract' creates a ambiguity since 'Agreement' refers to the entire document, altering it to 'strategic alliance contract' may narrow down the meaning to just the alliance terms, potentially excluding other crucial clauses like dispute resolution. This affects the entire document, because whereever the Agreement is mention, the strategic alliance contract will be used. This affects the termination section because it is creating an internal contradiction with the text, since the agreement has a bunch of sections that are not neccesarily strategic alliance sections.",
+        "location": "Section 8(a)",
+        "contradicted_location": "Section 8(b)",
+        "contradicted_text": "(b) Termination for Default or Bankruptcy. Either Party may terminate this Agreement by written notice to the other Party in the event of the following: (i) Default. Material nonperformance by the other Party of any provisions set forth in this Agreement which is not cured within thirty (30) days after receipt of notice thereof from the Party not in default; or (ii) Bankruptcy. The filing by or against the other Party of a petition or application in any proceeding relating to such other Party as debtor under any bankruptcy or insolvency law of any jurisdiction; provided that in the event of an involuntary bankruptcy or insolvency proceeding, such other Party shall have a sixty (60) day period in which to obtain dismissal or withdrawal of such petition or application.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Agreement' to 'strategic alliance contract' narrows the scope of the contract. The contradicted section (b) discusses termination for any material nonperformance of 'any provisions set forth in this Agreement.' If 'Agreement' is now limited to 'strategic alliance contract' due to the changed text, then termination for non-performance of provisions outside of the strategic alliance part of the contract becomes unclear and potentially unenforceable, creating a direct contradiction. The original text intended a comprehensive agreement, but the changed text suggests a limited scope, thus contradicting the comprehensive termination clause."
+      }
+    ]
+  }
+]

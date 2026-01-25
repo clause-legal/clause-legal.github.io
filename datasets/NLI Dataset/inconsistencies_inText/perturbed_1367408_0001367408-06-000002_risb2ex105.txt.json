@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "1367408_0001367408-06-000002_risb2ex105.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement imposes no obligation upon MSC with respect to the Information which (a) was in MSC's possession before receipt from the Company; (b) is or becomes a matter of public knowledge through no fault of MSC; (c) is rightfully received by MSC from a third party without a duty of confidentiality; (d) is disclosed by the Company to a third party without a duty of confidentiality on the third party; (e) is independently developed by MSC; (f) is disclosed under operation of law; or (g) is disclosed by MSC with the Company's prior approval.",
+        "changed_text": "This Agreement imposes obligation upon MSC with respect to the Information which (a) was in MSC's possession before receipt from the Company; (b) is or becomes a matter of public knowledge through no fault of MSC; (c) is rightfully received by MSC from a third party without a duty of confidentiality; (d) is disclosed by the Company to a third party without a duty of confidentiality on the third party; (e) is independently developed by MSC; (f) is disclosed under operation of law; or (g) is disclosed by MSC with the Company's prior approval.",
+        "explanation": "By changing \"This Agreement imposes no obligation upon MSC with respect to the Information which\" to \"This Agreement imposes obligation upon MSC with respect to the Information which\", a contradiction is being introduced. In the original text, the mentioned scenarios do not obligate the MSC to anything, but in the modified text, the MSC is obligated in all scenarios.",
+        "location": "Section 3",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "This Agreement imposes obligation upon MSC with respect to the Information which (a) was in MSC's possession before receipt from the Company; (b) is or becomes a matter of public knowledge through no fault of MSC; (c) is rightfully received by MSC from a third party without a duty of confidentiality; (d) is disclosed by the Company to a third party without a duty of confidentiality on the third party; (e) is independently developed by MSC; (f) is disclosed under operation of law; or (g) is disclosed by MSC with the Company's prior approval.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'imposes no obligation' with 'imposes obligation', directly contradicting the contradicted text, which also states that the agreement 'imposes obligation'. The original text sets out exceptions where MSC has no obligations. The change removes these exceptions creating a direct contradiction as now the MSC is obligated in all scenarios"
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The confidential information disclosed by Company to MSC under this Agreement is described as: customer and prospective customer contact data (\"Information\").",
+        "changed_text": "The confidential information disclosed by Company to MSC under this Agreement is described as: customer and prospective customer contact data, as well as marketing strategies and pricing information(\"Information\").",
+        "explanation": "The change adds 'marketing strategies and pricing information' to the definition of 'Information.' This creates an in-text contradiction because throughout the rest of the document, the obligations of MSC are defined only with respect to the original definition of 'Information' (customer contact data). By expanding the definition here without adjusting other clauses, it becomes unclear whether MSC's obligations (e.g., protection, non-disclosure) apply to marketing strategies and pricing information, leading to uncertainty and potential disputes.",
+        "location": "Section 1",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "MSC shall protect the Information by using the same degree of care, but no less than a reasonable degree of care, to prevent the unauthorized use, dissemination or publication of the Information as MSC uses to protect its own confidential information of a like nature.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text expands the definition of 'Information' to include 'marketing strategies and pricing information,' while the contradicted text only specifies protection obligations for the original definition of 'Information' (customer contact data). This creates an inconsistency because it is unclear whether MSC's obligation to protect 'Information' extends to the newly added categories. Thus, there is a contradiction because the degree of protection required for marketing strategies and pricing information is not explicitly defined, potentially conflicting with the protection of just customer contact data."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "All additions or modifications to the Agreement must be made in writing and must be signed by both parties.",
+        "changed_text": "All additions or modifications to the Agreement must be made verbally and acknowledged by at least one party.",
+        "explanation": "The change from 'All additions or modifications to the Agreement must be made in writing and must be signed by both parties' to 'All additions or modifications to the Agreement must be made verbally and acknowledged by at least one party' creates a contradiction. The original version requires formal, written modifications with signatures from both parties, ensuring mutual agreement and legal certainty. The modified version allows for verbal modifications acknowledged by only one party. This directly contradicts the original intent of requiring written consent for any changes to the agreement and introduces significant legal uncertainty.",
+        "location": "Section 6",
+        "contradicted_location": "Section 6",
+        "contradicted_text": "All additions or modifications to the Agreement must be made verbally and acknowledged by at least one party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text mandates verbal modifications acknowledged by at least one party, which directly contradicts the contradicted text's requirement for written modifications signed by both parties. This inconsistency creates a clear and impactful contradiction regarding how modifications to the agreement should be made, aligning with the 'Inconsistencies - In Text Contradiction' definition."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement is made under and shall be construed according to the laws of the State of California.",
+        "changed_text": "This Agreement is made under and shall be construed according to the laws of the State of Delaware.",
+        "explanation": "The agreement states that the laws of the State of California shall govern the contract. Changing this to 'the laws of the State of Delaware' makes the text self-contradictory. One section of the contract declares California law will govern, while another says Delaware law will govern. This could be problematic if the laws of California and Delaware differ on any pertinent issues to contract enforcement, potentially invalidating parts of the contract or leading to court disputes on jurisdiction.",
+        "location": "Section 7",
+        "contradicted_location": "Section 7",
+        "contradicted_text": "This Agreement is made under and shall be construed according to the laws of the State of Delaware.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that California law governs the agreement, while the changed text states that Delaware law governs the agreement. The contradicted text also states Delaware law governs the agreement. The change creates a direct conflict because the agreement cannot be governed by both California and Delaware law simultaneously, which aligns with the definition of 'Inconsistencies - In Text Contradiction' where different sections of a contract provide conflicting obligations."
+      }
+    ]
+  }
+]

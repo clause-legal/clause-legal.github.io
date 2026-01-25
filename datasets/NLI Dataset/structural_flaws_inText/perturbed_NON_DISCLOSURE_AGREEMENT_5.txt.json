@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "NON_DISCLOSURE_AGREEMENT_5.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "3. All such Confidential Information shared under this Agreement shall be used by the Parties exclusively for the Purpose and neither Party shall disclose or otherwise use th e Confidential Information for any other purpose or in any other manner without the prior written approval of the Disclosing Party.",
+        "changed_text": "3. All such Confidential Information shared under this Agreement may be used by the Parties for the Purpose and either Party may disclose or otherwise use the Confidential Information for any other purpose or in any other manner without the prior written approval of the Disclosing Party.",
+        "explanation": "The original text mandates that Confidential Information is exclusively for the Purpose, while the modified text allows for other uses, directly contradicting the initial restriction. This contradiction directly impacts the entire understanding of what is permissible under the NDA, therefore the introduction of the word 'may' and 'either' is causing the in-text contradiction.",
+        "location": "3",
+        "contradicted_location": "5",
+        "contradicted_text": "5. The Receiving Party shall protect the Confidential Inform ation in the same manner as it would protect its own confidential information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that Confidential Information \"shall be used by the Parties exclusively for the Purpose\", while the changed text says Confidential Information \"may be used by the Parties for the Purpose and either Party may disclose or otherwise use the Confidential Information for any other purpose\". This directly contradicts the exclusivity requirement. The contradicted text (5. The Receiving Party shall protect the Confidential Inform ation in the same manner as it would protect its own confidential information.) is related to the protection of confidential information. By allowing the parties to use confidential information for any other purpose, the change undermines the need to protect the information in the same manner as their own, as the information is no longer exclusively for the stated purpose. The changed clause significantly alters the protection obligations set out in clause 5, therefore creating a contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "4. The Confidential Information shared under this Agreement may be disclosed by the Receiving Party to other employees on a n eed to know basis, with written consent from the Disclosing Party, in connection with the Purpose, and who shall protect the Confidential Information in accordance with the terms of this Agreement.",
+        "changed_text": "4. The Confidential Information shared under this Agreement may be disclosed by the Receiving Party to other employees, without written consent from the Disclosing Party, and who are not required to protect the Confidential Information in accordance with the terms of this Agreement.",
+        "explanation": "Originally, disclosure to employees required written consent and adherence to the agreement's terms. The modified version removes the consent requirement and the obligation to protect the information, contradicting the overall intent of confidentiality. The removal of the restriction from the original text, creates the in-text contradiction.",
+        "location": "4",
+        "contradicted_location": "5",
+        "contradicted_text": "5. The Receiving Party shall protect the Confidential Inform ation in the same manner as it would protect its own confidential information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the requirement for written consent and the obligation to protect confidential information when disclosing it to employees. This directly contradicts Section 5, which states that the receiving party shall protect the confidential information in the same manner as it would protect its own. The removal of these restrictions in the changed text creates a direct conflict and inconsistency, therefore creating an in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "10. The Receiving Party shall, upon the req uest of the Disclosing Party or upon the termination of this Agreement, return to the Disclosing Party all Confidential Information, including drawings, documents, reports and other tangible manifestations of Confidential Information received by the Receiv ing Party pursuant to this Agreement, together with all copies and reproductions thereof.",
+        "changed_text": "10. The Receiving Party may, upon the req uest of the Disclosing Party or upon the termination of this Agreement, keep Confidential Information, including drawings, documents, reports and other tangible manifestations of Confidential Information received by the Receiv ing Party pursuant to this Agreement, without having all copies and reproductions thereof.",
+        "explanation": "The original clause mandates the return of all Confidential Information upon request or termination. The modified clause allows the Receiving Party to keep the information and not return all copies, directly contradicting the obligation to return everything and protect the confidentality of the information, there the use of the words 'may keep' and 'without having' is what is causing the in-text contradiction.",
+        "location": "10",
+        "contradicted_location": "5",
+        "contradicted_text": "5. The Receiving Party shall protect the Confidential Inform ation in the same manner as it would protect its own confidential information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates the return of all confidential information, while the changed text allows the receiving party to keep it, contradicting the requirement to protect confidential information as outlined in the contradicted text (Section 5), which stipulates the Receiving Party must safeguard the information like their own. This creates a direct conflict and is a clear contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "11. This Agreement shall be effective as of the Effective Date and shall terminate on the delivery of written notice of termination from either Party; provided, however, that the obligations of the Receiving Party under this Agreement shall remain in effect for a period of [__] years from the date of termination.",
+        "changed_text": "11. This Agreement shall be effective as of the Effective Date and shall terminate on the delivery of written notice of termination from either Party; provided, however, that the obligations of the Receiving Party under this Agreement shall immediately cease from the date of termination.",
+        "explanation": "The original agreement dictates that confidentiality obligations survive termination for a specific period. The modified version states that obligations cease immediately upon termination, creating a direct conflict on the duration of confidentiality, the addition of the phrase 'immediately cease' is what is causing the in-text contradiction.",
+        "location": "11",
+        "contradicted_location": "5",
+        "contradicted_text": "5. The Receiving Party shall protect the Confidential Inform ation in the same manner as it would protect its own confidential information.",
+        "contradiction_exists": "YES",
+        "justification": "The original agreement states that confidentiality obligations survive termination for a specific period of time. The changed version specifies that these obligations 'immediately cease' upon termination. This creates a direct and unambiguous contradiction because section 5 states how the Receiving Party should handle confidential information, but the changed text states that this obligation immediately ceases at termination, rendering the contradicted text unenforceable and contradictory."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "13. The Partner represents and covenants that its performance of this Agreement does not and will not breach any agreement it has entered i nto or will enter into with any third party . The Partner agrees not to enter into any written or oral agreement that conflicts with the provisions of this Agreement.",
+        "changed_text": "13. The Partner represents and covenants that its performance of this Agreement does and will breach any agreement it has entered i nto or will enter into with any third party . The Partner agrees to enter into any written or oral agreement that conflicts with the provisions of this Agreement.",
+        "explanation": "The original clause ensures no conflicts with existing agreements and prevents entering conflicting agreements. The modified version promotes breaching existing agreements and actively encourages entering into conflicting agreements, directly contradicting the purpose of the NDA and the original clause, the introduction of the words 'does' and 'to enter into' is causing the in-text contradiction.",
+        "location": "13",
+        "contradicted_location": "3",
+        "contradicted_text": "3. All such Confidential Information shared under this Agreement shall be used by the Parties exclusively for the Purpose and neither Party shall disclose or otherwise use th e Confidential Information for any other purpose or in any other manner without the prior written approval of the Disclosing Party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 13 now states that the Partner's performance 'does and will breach any agreement' and that the Partner agrees 'to enter into any written or oral agreement that conflicts with the provisions of this Agreement.' This directly contradicts Section 3, which requires that Confidential Information be used 'exclusively for the Purpose' and prohibits using it 'for any other purpose or in any other manner' without approval. By actively encouraging breaches of other agreements, the changed text introduces a strong and direct conflict in the contract making it an in-text contradiction."
+      }
+    ]
+  }
+]

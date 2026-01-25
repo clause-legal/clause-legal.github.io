@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "VERSOTECHNOLOGIESINC_12_28_2007-EX-99.3-INTELLECTUAL PROPERTY AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "ASSIGNMENT: NOW, THEREFORE, for good and valuable consideration, the receipt and adequacy of which are hereby acknowledged, Seller does hereby transfer, sell, assign, convey and deliver to Backhaul all right, title and interest in, to and under the Assigned Intellectual Property, including, without limitation, the Trademarks and Patents set forth on Schedules A and B hereof, respectively, and all goodwill of the Purchased Business associated therewith.",
+        "changed_text": "ASSIGNMENT: NOW, THEREFORE, for good and valuable consideration, the receipt and adequacy of which are hereby acknowledged, Seller does hereby transfer, sell, assign, convey and deliver to Backhaul all right, title and interest in, to and under the Assigned Intellectual Property, including, without limitation, the Trademarks and Patents set forth on Schedules A hereof, respectively, and all goodwill of the Purchased Business associated therewith.",
+        "explanation": "By removing 'and B' from the reference to Schedules A and B, the agreement implies that only Schedule A lists the assigned trademarks and patents. However, the rest of the document refers to the assignment of intellectual property as if Schedules A and B both exist and are relevant. This creates an internal contradiction because the contract now suggests that Schedule B may not exist or may not be relevant to the intellectual property assignment, even though other parts of the contract assume its existence. Schedule A refers to Trademarks, but Patents are not mentioned anywhere else. Therefore, there is an in-text contradiction with Patents being assigned.",
+        "location": "ASSIGNMENT SECTION",
+        "contradicted_location": "ASSIGNMENT SECTION",
+        "contradicted_text": "ASSIGNMENT: NOW, THEREFORE, for good and valuable consideration, the receipt and adequacy of which are hereby acknowledged, Seller does hereby transfer, sell, assign, convey and deliver to Backhaul all right, title and interest in, to and under the Assigned Intellectual Property, including, without limitation, the Trademarks and Patents set forth on Schedules A hereof, respectively, and all goodwill of the Purchased Business associated therewith.",
+        "contradiction_exists": "YES",
+        "justification": "The original text assigns intellectual property listed on both Schedules A and B. The changed text omits 'and B', implying that only Schedule A lists the assigned trademarks and patents. The explanation states that the changed text now contradicts the document because it refers to Schedules A and B both existing, even though the change suggests Schedule B may not be relevant to the intellectual property assignment, or even exist. Therefore, this constitutes an omission that creates a direct conflict with other sections of the document because, the other sections assume Schedule B exists. The Contradicted Text is in the same location as the Changed Text, however, the Contradicted Text maintains that only Schedule A is relevant. The explanation provides that Schedule A only refers to Trademarks, where as Patents are mentioned anywhere else. Therefore, there is an in-text contradiction with Patents being assigned."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "This Intellectual Property Agreement is subject in all respects to the terms and conditions of the Asset Purchase Agreement and is intended only to document the assignment of the Assigned Intellectual Property.",
+        "changed_text": "This Intellectual Property Agreement is subject in all respects to the terms and conditions of the Asset Purchase Agreement.",
+        "explanation": "By removing 'and is intended only to document the assignment of the Assigned Intellectual Property,' the purpose of the agreement becomes ambiguous. Without this clause, it's unclear if the agreement is simply a record of assignment or if it establishes any additional rights or obligations beyond what's already in the Asset Purchase Agreement. This contradicts the initial recitals which state the purpose of this intellectual property agreement.",
+        "location": "PARAGRAPH AFTER ASSIGNMENT SECTION",
+        "contradicted_location": "RECITALS SECTION",
+        "contradicted_text": "RECITALS: WHEREAS, Seller and Verso Technologies, Inc., a Minnesota corporation (\"Buyer\"), have entered into that certain Asset Purchase Agreement, dated as of the date hereof (the \"Asset Purchase Agreement\"), pursuant to which Buyer has the right to acquire the Purchased Assets of Seller and its Subsidiaries, as more particularly described in the Asset Purchase Agreement (all capitalized words and terms used herein and not otherwise defined herein shall have the meanings ascribed to them in the Asset Purchase Agreement); and WHEREAS, Buyer has designated Backhaul as a Buyer Designee for purposes of the Asset Purchase Agreement, and Buyer has assigned to Backhaul the right to receive the Purchased Assets pursuant to that certain Assignment of Asset Purchase Agreement between Buyer and Backhaul dated as of the date hereof.",
+        "contradiction_exists": "YES",
+        "justification": "The original text clearly states that the Intellectual Property Agreement is 'intended only to document the assignment of the Assigned Intellectual Property'. The changed text omits this clause, making the purpose of the agreement ambiguous. This contradicts the RECITALS, which establish the Asset Purchase Agreement and the assignment of rights to Backhaul, implying the Intellectual Property Agreement has a broader purpose or establishes new rights, thereby creating an in-text contradiction due to the omission as defined in the 'Omissions - In Text Contradiction' perturbation type."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "SCHEDULE A [INTENTIONALLY OMITTED] SCHEDULE B [INTENTIONALLY OMITTED]",
+        "changed_text": "SCHEDULE A [INTENTIONALLY OMITTED]",
+        "explanation": "By removing 'SCHEDULE B [INTENTIONALLY OMITTED]', the agreement now lacks any explicit mention of Schedule B. The contract implies the existence of schedule A, although intentionally ommited. However, the 'Assignment Section', it refers to schedule A in the changed text. It lacks a reference to Schedule B, although the contract refers to it, even if it is not present. This introduces an internal contradiction, as the agreement seems to acknowledge Schedule B's existence, but then completely omits it without explanation.",
+        "location": "SCHEDULES SECTION",
+        "contradicted_location": "ASSIGNMENT SECTION",
+        "contradicted_text": "ASSIGNMENT: NOW, THEREFORE, for good and valuable consideration, the receipt and adequacy of which are hereby acknowledged, Seller does hereby transfer, sell, assign, convey and deliver to Backhaul all right, title and interest in, to and under the Assigned Intellectual Property, including, without limitation, the Trademarks and Patents set forth on Schedules A hereof, respectively, and all goodwill of the Purchased Business associated therewith.",
+        "contradiction_exists": "YES",
+        "justification": "The original text included both 'SCHEDULE A' and 'SCHEDULE B' (though intentionally omitted). The changed text removes 'SCHEDULE B'. The 'ASSIGNMENT' section references 'Schedules A hereof', implying that Schedule A exists. Because the original text references Schedule B, and the assignment section references Schedule A, removing all references to Schedule B implies it is no longer relevant; the implication of schedule B's existence is therefore contradicted by the later removal of its existence."
+      }
+    ]
+  }
+]

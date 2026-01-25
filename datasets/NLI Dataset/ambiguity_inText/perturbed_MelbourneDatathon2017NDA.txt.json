@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "MelbourneDatathon2017NDA.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Confidant may only use Confidential Information disclosed to it under this deed for the sole purpose of the Datathon and must use Confidential Information strictly in accordance with NostraData ’s directions and otherwise in accordance with this deed .",
+        "changed_text": "The Confidant may use Confidential Information disclosed to it under this deed for the purpose of the Datathon and should make reasonable efforts to use Confidential Information in accordance with NostraData’s general guidelines and otherwise in accordance with this deed .",
+        "explanation": "The original text mandates 'only use' and 'strictly in accordance'. The modified text changes this to 'may use' and 'reasonable efforts', significantly weakening the obligation and creating an in-text contradiction. The change from 'must use' to 'should make reasonable efforts' creates ambiguity and weakens the binding nature of the clause.",
+        "location": "2",
+        "contradicted_location": "6",
+        "contradicted_text": "Indemnity As the disclosure of the Confidential Information may cause irreparable harm to the business of NostraData , the Confidant hereby undertakes to indemnify, and to keep indemnified, NostraData against all claims, losses or liabilities (including in particular damages, reasonable legal and professional costs, penalties and expenses) which may be suffered or incurred by NostraData arising out of or in connection with a breach of this deed by the Confidant .",
+        "contradiction_exists": "YES",
+        "justification": "The original text uses 'must' and 'strictly' to define the Confidant's obligations regarding Confidential Information. The changed text weakens these obligations by using 'may' and 'reasonable efforts'. This introduces a contradiction with the Indemnity clause, as the weaker obligation makes it less clear when a 'breach of this deed' occurs. If the Confidant only makes 'reasonable efforts' and is not 'strictly' adhering to NostraData's directions, it is less clear whether NostraData can then claim indemnity for 'all claims, losses or liabilities ... arising out of or in connection with a breach of this deed'."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Confidant must not disclose any Confidential Information to any third party without the express and prior written consent of NostraData .",
+        "changed_text": "The Confidant should endeavor not to disclose any Confidential Information to any third party without the express and prior written consent of NostraData, unless such disclosure is required for the Confidant's participation in other data science competitions.",
+        "explanation": "The original clause created a strict prohibition on disclosing information, 'must not'. The modified clause changes this to 'should endeavor not to', and allows disclosure for participating in other data science competitions. The introduction of 'should endeavor' softens the mandatory language. The added exception directly contradicts the original strict prohibition on disclosure without prior consent.",
+        "location": "3",
+        "contradicted_location": "1",
+        "contradicted_text": "Confidential information In this deed , the term Confidential Information means any and all information disclosed by Nostra Data to the Confidant in any form (including verbally, electronically, visually, in writing or in any other tangible form , and all copies of any such information ), which is identified as, notified as being, or which would be reasonably expected to be, confidential or proprietary to NostraData . Confidential Information includes any data, software, software documentation, source code , documentation for functional specific ations, development guidelines , inventions, training materials, third party confidential information , and any information about NostraData which is disclosed to the Confidant in connection with the Datathon .",
+        "contradiction_exists": "YES",
+        "justification": "The original text imposed a strict 'must not disclose' obligation, while the changed text weakens this to 'should endeavor not to disclose' and introduces an exception for participation in data science competitions. This directly contradicts the contradicted text, which defines 'Confidential Information' broadly and without exceptions, creating a clear conflict regarding the permissible disclosure of confidential data."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Confidant must take all reasonable precautions to avoid unauthorised disclosure and protect against unauthorised use o f the Confidential Information , such precautions to be at least as stringent as those used by the Confidant for the protection of the Confidant ’s own confidential information and always in accordance with the Privacy Act 1988 . The Confidant must not store the Confidential Information on a public web server.",
+        "changed_text": "The Confidant shall take reasonable precautions to avoid unauthorised disclosure and protect against unauthorised use o f the Confidential Information , such precautions to be as stringent as is commercially reasonable. The Confidant shall not store the Confidential Information on a publicly accessible web server unless protected by industry-standard encryption.",
+        "explanation": "The original text requires precautions 'at least as stringent as those used by the Confidant for the protection of the Confidant’s own confidential information'. The modified text changes this to 'as stringent as is commercially reasonable', potentially allowing weaker protections. The original text strictly forbids storing on a public web server, whereas the modified text allows it with encryption. This creates a loophole and the language becomes less binding.",
+        "location": "3",
+        "contradicted_location": "6",
+        "contradicted_text": "Indemnity As the disclosure of the Confidential Information may cause irreparable harm to the business of NostraData , the Confidant hereby undertakes to indemnify, and to keep indemnified, NostraData against all claims, losses or liabilities (including in particular damages, reasonable legal and professional costs, penalties and expenses) which may be suffered or incurred by NostraData arising out of or in connection with a breach of this deed by the Confidant .",
+        "contradiction_exists": "YES",
+        "justification": "The changed text weakens the security requirements for Confidential Information. Originally, the Confidant had to use precautions 'at least as stringent as those used by the Confidant for the protection of the Confidant’s own confidential information' and was prohibited from storing information on a public web server. The change allows for 'commercially reasonable' precautions and permits storage on a publicly accessible web server with encryption. This directly contradicts the 'Indemnity' clause, as the weakened security measures increase the risk of a breach, potentially causing 'irreparable harm' to NostraData. This creates a loophole. Therefore, the changed text introduces a contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Following any request by NostraData , the Confidant must immediately provide to NostraData all Confidential Information and certify that no Confidential Information is retained by the Confidant .",
+        "changed_text": "Following any reasonable request by NostraData , the Confidant shall provide to NostraData all reasonably accessible Confidential Information and use good faith efforts to certify that no Confidential Information is retained by the Confidant .",
+        "explanation": "The original text requires 'immediately provide' and 'certify that no Confidential Information is retained'. The modified text weakens this to 'shall provide' 'reasonably accessible Confidential Information' and 'use good faith efforts to certify'. The addition of 'reasonably accessible' and 'good faith efforts' creates uncertainty and potential disputes, especially related to the clause where any breach of contract may result to damage to NostraData.",
+        "location": "9",
+        "contradicted_location": "7",
+        "contradicted_text": "Acknowledgement Notwithstanding clause 6, the Confidant acknowledges that it is aware that any breach of this deed may result in damage to NostraData and that NostraData is entitled to enforce its rights by seeking specific performance or injunction proceedings , as monetary damages may not be sufficient relief .",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the Confidant 'must immediately provide' and 'certify that no Confidential Information is retained'. The changed text weakens this to 'shall provide', 'reasonably accessible Confidential Information' and 'use good faith efforts to certify'. This change introduces ambiguity by qualifying the accessibility of Confidential Information and the certainty of its retention. This directly contradicts the Contradicted Text, which states 'any breach of this deed may result in damage to NostraData' and that 'NostraData is entitled to enforce its rights'. Because the original clause required immediate action and complete compliance, any breach would be clear. However, the changes introduce ambiguity ('reasonably accessible', 'good faith efforts') and make breaches harder to prove and enforce, thus creating a strong contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "At the conclusion of the Datathon the Confi dant must permanently delete all data provided by NostraData . The data may be retained if NostraData makes specific requests for further demonstrations.",
+        "changed_text": "At the conclusion of the Datathon the Confidant should make reasonable efforts to delete the core data provided by NostraData, unless retention is required for academic publication purposes or NostraData consents to continued use.",
+        "explanation": "The original version states 'must permanently delete', creating an obligation. The modified version changes this to 'should make reasonable efforts to delete', and 'core data', thus making the deletion less definite and permitting retention for publication purposes without specific request from NostraData, creating ambiguity. This creates direct conflict with the definition of confidentiality.",
+        "location": "10",
+        "contradicted_location": "1",
+        "contradicted_text": "Confidential information In this deed , the term Confidential Information means any and all information disclosed by Nostra Data to the Confidant in any form (including verbally, electronically, visually, in writing or in any other tangible form , and all copies of any such information ), which is identified as, notified as being, or which would be reasonably expected to be, confidential or proprietary to NostraData . Confidential Information includes any data, software, software documentation, source code , documentation for functional specific ations, development guidelines , inventions, training materials, third party confidential information , and any information about NostraData which is disclosed to the Confidant in connection with the Datathon .",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandated permanent deletion of NostraData's data, establishing a clear obligation. The changed text weakens this obligation by stating that the Confidant 'should make reasonable efforts' to delete only the 'core data,' introducing ambiguity and allowing retention for academic publication or with NostraData's consent. This directly contradicts the definition of 'Confidential Information,' which encompasses 'any and all information' disclosed by NostraData, regardless of form, and does not allow for exceptions based on publication or reasonable effort. The modified clause significantly weakens the confidentiality requirement, creating a strong in-text contradiction."
+      }
+    ]
+  }
+]

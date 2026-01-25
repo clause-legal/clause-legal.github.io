@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "thoughtbot-mutual-nda.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Receiving Party shall not reverse engineer, disassemble or decompile any prototypes, software or other tangible objects which embody the Disclosing Party’s Confidential Information and which are provided to the Receiving Party hereunder.",
+        "changed_text": "The Receiving Party shall reverse engineer, disassemble or decompile any prototypes, software or other tangible objects which embody the Disclosing Party’s Confidential Information and which are provided to the Receiving Party hereunder.",
+        "explanation": "This change introduces a direct in-text contradiction. The original clause restricted reverse engineering, disassembling or decompiling any prototypes, software or other tangible objects. The modified text removes this restriction and broadly allows for this action. This contradicts the overall spirit of a non-disclosure agreement, undermining the protective measures intended by the original document. The initial and altered versions are directly contradictory.",
+        "location": "3",
+        "contradicted_location": "10",
+        "contradicted_text": "The Receiving Party agrees that any violation or threatened violation of this Agreement will cause irreparable injury to the Dis- closing Party, entitling the Disclosing Party to obtain injunctive relief in addition to all legal remedies.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. The original text prohibits reverse engineering, which is fundamental to protecting confidential information. The changed text allows reverse engineering. The contradicted text states that a violation of the agreement will cause irreparable injury. Allowing reverse engineering is a direct violation, thus creating a strong in-text contradiction because the initial restriction is now lifted, and the consequences of violating the original agreement remain the same, despite the change."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Without limiting the foregoing, Receiving Party shall take at least those measures that Receiving Party takes to protect its own most highly confidential information and shall have its employees, if any, who have access to Confidential Information sign a nonuse and non-disclosure agreement in content substantially similar to the provi-sions hereof, prior to any disclosure of Confidential Information to such employees.",
+        "changed_text": "Without limiting the foregoing, Receiving Party shall take measures that Receiving Party deems necessary.",
+        "explanation": "The original clause mandates the Receiving Party to protect the confidential information to the same level as their own, and ensures that employee sign agreements. By replacing it with 'Receiving Party shall take measures that Receiving Party deems necessary,' it introduces ambiguity and in-text contradiction. If the Receiving Party deems no measures necessary, it contradicts the fundamental principle of the NDA. This undermines the Disclosing Party’s expectation that its Confidential Information will be carefully protected.",
+        "location": "3",
+        "contradicted_location": "10",
+        "contradicted_text": "The Receiving Party agrees that any violation or threatened violation of this Agreement will cause irreparable injury to the Dis- closing Party, entitling the Disclosing Party to obtain injunctive relief in addition to all legal remedies.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandated specific protective measures for confidential information and employee agreements. The changed text replaces this with a subjective standard ('Receiving Party deems necessary'). This creates a contradiction because the contradicted text imposes liability for any violation of the agreement. If the Receiving Party deems no measures necessary, resulting in a violation, the contradicted section becomes unenforceable or ambiguous, as it's unclear what constitutes a 'violation' under the new, less stringent standard. This aligns with the definition of 'Omissions - In Text Contradiction' as essential language is removed, creating a contradiction with the obligations stated in other sections."
+      }
+    ]
+  }
+]

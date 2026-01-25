@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "HALO-NDA.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "RECIPIENT agrees that for a period of five (5) years from the effective date of this Agreement, RECIPIENT will not disseminate the confidential information except to it’s employees who will be directly involved in the evaluation of the information, and furthermore RECIPIENT will use the same degree of care (but in no event less than reasonable care) to avoid disclosure or unauthorized use of such information as RECIPIENT employs with respect to confidential information of its own.",
+        "changed_text": "RECIPIENT acknowledges that for a period of five (5) years from the effective date of this Agreement, RECIPIENT will not disseminate the confidential material except to it’s employees who will be directly involved in the evaluation of the information, and furthermore RECIPIENT will use the same degree of care (but in no event less than reasonable care) to avoid disclosure or unauthorized use of such information as RECIPIENT employs with respect to confidential information of its own.",
+        "explanation": "Replacing 'confidential information' with 'confidential material' introduces inconsistent terminology. The agreement uses 'confidential information' consistently elsewhere, including in the definition section. Changing it to 'confidential material' in this particular section creates doubt as to whether 'confidential material' is the same as 'confidential information' and whether the dissemination conditions still apply. This is directly relevant to the exceptions in Section 3. It is never define `confidential material`, so the definition of what this means is ambiguous",
+        "location": "Section 2",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "3. NON-CONFIDENTIAL INFORMATION. RECIPIENT shall have no obligation with respect to disclosure and use of information to the extent such information: A. is or becomes generally available to the public other than as a consequence of a br each of an obligation of confidentiality to HALO; or B. is made public by HALO; or C. is independently developed by RECIPIENT; or D. is received from a third party independent of HALO without breaching an obligation of confidentiality; or E. is required to be disclosed by the operation of law.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'confidential information' to 'confidential material' introduces misaligned terminology. This creates ambiguity as to whether 'confidential material' is the same as 'confidential information' and whether the dissemination conditions still apply. This directly impacts Section 3, which discusses exceptions to the obligation of confidentiality, specifically relating to 'confidential information'. Since 'confidential material' is never defined, it is unclear if the exceptions in Section 3 apply to it, creating a direct contradiction and uncertainty in enforcement."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "RECIPIENT shall have no obligation with respect to disclosure and use of information to the extent such information: A. is or becomes generally available to the public other than as a consequence of a br each of an obligation of confidentiality to HALO; or B. is made public by HALO; or C. is independently developed by RECIPIENT; or D. is received from a third party independent of HALO without breaching an obligation of confidentiality; or E. is required to be disclosed by the operation of law.",
+        "changed_text": "RECIPIENT shall have no obligation with respect to disclosure and use of confidential information to the extent such data: A. is or becomes generally available to the public other than as a consequence of a br each of an obligation of confidentiality to HALO; or B. is made public by HALO; or C. is independently developed by RECIPIENT; or D. is received from a third party independent of HALO without breaching an obligation of confidentiality; or E. is required to be disclosed by the operation of law.",
+        "explanation": "Changing 'information' to 'data' introduces inconsistent terminology. The entire agreement discusses 'information', and now this section introduces 'data' without defining if they are the same. It creates uncertainty regarding whether the exceptions to confidentiality apply to all types of information, or only specific types of data. It makes the scope of what can be disclosed without obligation ambigious",
+        "location": "Section 3",
+        "contradicted_location": "Section 4",
+        "contradicted_text": "4. OWNERSHIP OF INFORMATION. All information furnished to RECIPIENT by HALO shall, unless otherwise specified in writing by HALO, remain the property of HALO; and the written information, and any copies thereof, shall be promptly returned to HALO upon its written or destroyed by RECIPIENT at HALO’s option.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'information' to 'data' in the changed text introduces misaligned terminology, which directly contradicts the contradicted text's reference to 'information'. This creates uncertainty as to whether the obligations regarding ownership and return of information also apply to 'data', potentially leading to disputes and uncertainty in enforcement. The 'Misaligned Terminology' definition states that it leads to in-text contradictions when a contract uses multiple terms interchangeably without defining them, leading to conflicting obligations, and this situation fits that definition."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "All information furnished to RECIPIENT by HALO shall, unless otherwise specified in writing by HALO, remain the property of HALO; and the written information, and any copies thereof, shall be promptly returned to HALO upon its written or destroyed by RECIPIENT at HALO’s option.",
+        "changed_text": "All information provided to RECIPIENT by HALO shall, unless otherwise specified in writing by HALO, remain the entitlement of HALO; and the written information, and any copies thereof, shall be promptly returned to HALO upon its written or destroyed by RECIPIENT at HALO’s option.",
+        "explanation": "Changing 'furnished' to 'provided' and 'property' to 'entitlement' in the Ownership section introduces confusion. While 'furnished' and 'provided' could be seen as similar, 'property' has a clear legal meaning, while 'entitlement' is much vaguer. This creates uncertainty about HALO's actual ownership rights, particularly in the context of remedies in Section 6, and if HALO is in fact entitled to return it. A entitlement is not as strong as a ownership",
+        "location": "Section 4",
+        "contradicted_location": "Section 6",
+        "contradicted_text": "6. REMEDIES. RECIPIENT recognizes that the remedy at law for any breach of its obligation under this Agreement will be inadequate, and hence, RECIPIENT agrees that HALO shall be entitled to equitable remedies, including injunction, in the event of breach by RECIPIENT.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'property' with 'entitlement.' 'Property' has a well-defined legal meaning, whereas 'entitlement' is vaguer. The original text established HALO's ownership, which directly supports their ability to seek remedies for breach under Section 6. By weakening the ownership claim to a mere 'entitlement,' the change undermines HALO's legal standing, creating a contradiction because the basis for 'equitable remedies' is weakened, resulting in a direct conflict in how ownership/entitlement impacts remedies."
+      }
+    ]
+  }
+]

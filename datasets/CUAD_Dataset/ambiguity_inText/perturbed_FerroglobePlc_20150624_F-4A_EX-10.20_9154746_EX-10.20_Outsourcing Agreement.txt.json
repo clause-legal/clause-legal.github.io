@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "FerroglobePlc_20150624_F-4A_EX-10.20_9154746_EX-10.20_Outsourcing Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "EIT is responsible for the choice of the equipment considered the most appropriate in order to reach the service level convened in this Agreement. This equipment, and its further updates, should it arise, will be shown to the Customer and agreed upon prior to purchase and installation and refusal by the customer will only be valid upon presentation of a justification to EIT. EIT is responsible for the maintenance of its own IT environment, as well as of its maintenance and modernization expenses.",
+        "changed_text": "EIT is generally responsible for suggesting appropriate equipment to reach the service level convened in this Agreement, although the Customer has final say on equipment selection. The Customer’s decision on the equipment to purchase is final and not subject to justification to EIT. EIT is responsible for the maintenance of its own IT environment, as well as of its maintenance and modernization expenses.",
+        "explanation": "This change introduces ambiguity by giving the customer the final say on equiment purchase, contradicting the part of the sentence that establishes EIT responsibilities and the need for justification, which suggest EIT recommendation, even though its recommendation is for reaching a level of service agreed in the agreement, is being challenged by the client final say. This contradiction becomes relevant when the service levels are not met because of the client final decision not justifying. Also this paragraph is in contradiction with 9.1.1 where it guarantees that the solution suggested to the Customer in each moment is the best possible one for the needs of the Customer, which suggest that the customer doesn't have a say, since its the best possible one.",
+        "location": "5.5",
+        "contradicted_location": "9.1.1",
+        "contradicted_text": "EIT guarantees that the solution suggested to the Customer in each moment is the best possible one for the needs of theCustomer.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text gives the Customer final say on equipment selection, directly contradicting the original text and 9.1.1. which guarantees that EIT suggests the best possible solution. This contradiction creates a scenario where EIT's responsibility for service levels is undermined by the Customer's equipment choices, leading to potential disputes and uncertainty about enforcement, since the Customer has the power to reject EIT suggestion, making EIT not liable for failures, as established in 'Ambiguities – In Text Contradiction' definition."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "EIT commits itself to alert the IT Department of the Customer when any malfunction (power cut, saturation, etc.) is identified, and to carry out the necessary actions with the Network Supplier in order to solve this malfunction as quickly as possible.",
+        "changed_text": "EIT commits itself to alert the IT Department of the Customer when any malfunction (power cut, saturation, etc.) is identified, but the Customer is solely responsible for directing the Network Supplier in order to solve this malfunction as quickly as possible.",
+        "explanation": "The original definition states that EIT takes necessary actions with the Network Supplier. The changed definition assigns the responsibility of directing the Network Supplier to the customer, creating a conflict of responsibilities regarding network malfunction resolution. The contradiction manifests because, in this text is EIT taking action, but in the modified paragraph, its the Customer. This will create an in-text contradiction and confusion.",
+        "location": "3.1.3",
+        "contradicted_location": "3.1.3",
+        "contradicted_text": "EIT commits itself to alert the IT Department of the Customer when any malfunction (power cut, saturation, etc.) is identified, but the Customer is solely responsible for directing the Network Supplier in order to solve this malfunction as quickly as possible.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the original text. Initially, EIT was responsible for taking necessary actions with the Network Supplier. The modification shifts this responsibility to the Customer, creating a conflict in responsibility. The original states that EIT commits to actions, but the modified text states the Customer has sole responsibility. This is a direct conflict as it introduces contradictory obligations for resolving network malfunctions, leading to a strong in-text contradiction as per the definition of Ambiguities - In Text Contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Customer is responsible for the purchase and maintenance of the workstations and printers.",
+        "changed_text": "The Customer is responsible for the purchase of the workstations and printers, and EIT provides essential maintenance support on workstations and printers.",
+        "explanation": "The original text states that the customer is responsible for the maintenance of printers and workstations. The modified definition, makes EIT provides essential maintenance support on workstation and printers. This will create an In-Text contradiction because, even though the Customer is responsable, the EIT is making maintenance, which is ambiguous. If maintenance falls under responsability of EIT, then the cost needs to be assesed",
+        "location": "3.4.1",
+        "contradicted_location": "3.4.1",
+        "contradicted_text": "The Customer is responsible for the purchase of the workstations and printers, and EIT provides essential maintenance support on workstations and printers.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a direct contradiction. The original text assigns responsibility for workstation and printer maintenance to the Customer. The changed text assigns essential maintenance support for the same items to EIT. This creates ambiguity and a direct conflict of responsibility. The Customer can not be 100% responsible for maintenance when EIT is also providing the same maintenance support, therefore the contradictory text triggers definition #1: Ambiguities – In Text Contradiction."
+      }
+    ]
+  }
+]

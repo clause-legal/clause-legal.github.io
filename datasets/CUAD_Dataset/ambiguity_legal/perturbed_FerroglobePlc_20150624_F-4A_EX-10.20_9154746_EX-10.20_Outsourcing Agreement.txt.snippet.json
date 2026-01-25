@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "FerroglobePlc_20150624_F-4A_EX-10.20_9154746_EX-10.20_Outsourcing Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - Ambiguous Legal Obligation",
+        "original_text": "EIT commits itself to monitor the Network during working hours in South Africa, up to where the service rendered by theNetwork Supplier allows.",
+        "changed_text": "EIT will endeavor to monitor the Network during what are normally considered working hours in South Africa, according to the service provided by the Network Supplier.",
+        "explanation": "Changing 'commits itself to monitor' to 'will endeavor to monitor' weakens the obligation to monitor, making it less enforceable. Defining working hours as 'what are normally considered' introduces ambiguity, and qualifying the monitoring based on 'the service provided' without clear definitions allows EIT to potentially avoid responsibility.",
+        "contradicted_law": "Electronic Communications and Transactions Act 25 of 2002 (South Africa)",
+        "law_citation": "Section 43(5)",
+        "law_url1": [
+          "https://www.govinfo.gov/app/details/STATUTE-79/STATUTE-79-Pg235"
+        ],
+        "law_url2": [
+          "https://law.cornell.edu/topn/duty_of_care"
+        ],
+        "law_explanation": "Section 43(5) of the Electronic Communications and Transactions Act places obligations on suppliers of goods and services to provide sufficient security measures to protect consumer data. By weakening the obligation to monitor the network, this clause could be interpreted as not ensuring sufficient security measures, potentially contradicting this section of the act.",
+        "location": "3.1.2",
+        "desired_official_urls": 2,
+        "scraped_snippet_1": "GovInfo",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The change from 'commits itself to monitor' to 'will endeavor to monitor' weakens the obligation to monitor, potentially contradicting Section 43(5) of the Electronic Communications and Transactions Act, which requires suppliers to provide sufficient security measures to protect consumer data. The perturbation explanation highlights that the modified text allows EIT to potentially avoid responsibility, and the law explanation suggests the clause could be interpreted as not ensuring sufficient security measures. Although the scraped law snippet is limited, the original contract's commitment to monitoring is stronger than the revised 'will endeavor,' creating a weaker obligation that could be deemed insufficient under the law, causing a contradiction."
+      },
+      {
+        "type": "Ambiguities - Ambiguous Legal Obligation",
+        "original_text": "EIT must alert the IT Department of the Customer if any problem should occur in any of the Servers, within the timeestablished in Annex 2.",
+        "changed_text": "EIT should generally alert the IT Department of the Customer if a significant problem seemingly occurs in any of the Servers, within a reasonable time frame, as may be outlined in Annex 2.",
+        "explanation": "Changing 'must alert' to 'should generally alert' and 'problem' to 'significant problem seemingly occurs' makes the notification requirement discretionary and subjective. Replacing 'time established in Annex 2' with 'a reasonable time frame, as may be outlined in Annex 2' introduces vagueness about the notification timeline.",
+        "contradicted_law": "Protection of Personal Information Act 4 of 2013 (South Africa)",
+        "law_citation": "Section 22",
+        "law_url1": [
+          "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title22-section22&edition=prelim"
+        ],
+        "law_url2": [
+          "https://www.law.cornell.edu/topn/foreign_relations"
+        ],
+        "law_explanation": "Section 22 of the Protection of Personal Information Act (POPIA) requires responsible parties (like EIT) to notify the Information Regulator and the data subject of a security compromise (like a server problem) as soon as reasonably possible. The modified clause, with its vague and discretionary language, could be interpreted as a failure to comply with this prompt notification requirement, particularly if the 'significant problem' threshold is set high and the 'reasonable time frame' is extended.",
+        "location": "3.2.5",
+        "desired_official_urls": 2,
+        "scraped_snippet_1": "This page is better viewed with a JavaScript enabled browser. Document not Found Document not found The document you were looking for does not exist. Click here to close this window, or click here to go back.",
+        "scraped_snippet_2": null,
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces ambiguity regarding the notification timeline and the severity of the problem that triggers the notification, contradicting the POPIA's requirement for prompt notification of security compromises. The original text's 'must alert' and 'time established in Annex 2' are replaced with 'should generally alert' and 'a reasonable time frame, as may be outlined in Annex 2', respectively, weakening the obligation. Although snippet 1 is not available, the Law Explanation highlights that this vague and discretionary language could be interpreted as a failure to comply with prompt notification requirements under Section 22 of POPIA, supporting the existence of a contradiction."
+      },
+      {
+        "type": "Ambiguities - Ambiguous Legal Obligation",
+        "original_text": "EIT guarantees the control of access (through an access code and password) to information pursuant to the accessrights defined by the Customer.",
+        "changed_text": "EIT intends to provide some level of access control (perhaps through an access code or password) to information, supposedly according to access rights defined by the Customer.",
+        "explanation": "Replacing 'guarantees' with 'intends to provide some level of', 'access code and password' to 'perhaps through an access code or password', and 'pursuant to' with 'supposedly according to' weakens the guarantee to access control and makes the method and adherence to customer-defined access rights uncertain.",
+        "contradicted_law": "Protection of Personal Information Act 4 of 2013 (South Africa)",
+        "law_citation": "Section 19(1)",
+        "law_url1": [
+          "https://www.law.cornell.edu/topn/duty_of_care"
+        ],
+        "law_url2": [
+          "https://www.gov.uk/uk-legislation-uk-tax-act-1988-section-19"
+        ],
+        "law_explanation": "Section 19(1) of the Protection of Personal Information Act (POPIA) requires responsible parties to secure the integrity and confidentiality of personal information in their possession or under their control by taking appropriate, reasonable technical and organisational measures. The modified clause, with its weakened guarantee and vague language, potentially contradicts this requirement by suggesting that EIT might not implement adequate access control measures, thus failing to properly secure personal information.",
+        "location": "11.2.2",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The change from 'guarantees' to 'intends to provide some level of' significantly weakens the assurance of access control. The shift from a defined access control mechanism ('access code and password') to a vague 'perhaps through an access code or password' creates ambiguity. Further, altering 'pursuant to' to 'supposedly according to' casts doubt on the adherence to customer-defined access rights. According to the law explanation, this vague language potentially contradicts Section 19(1) of POPIA, which requires responsible parties to take appropriate, reasonable technical and organizational measures to secure personal information. Because the modified language casts doubt on the level of security and compliance to access rights, the modified text contradicts the legal requirement."
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "87888_0000912057-97-029111_document_6.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement is personal services to Shareholder and may not be assigned or transferred by Shareholder to, or the obligations of Shareholder fulfilled by, any other person or entity.",
+        "changed_text": "This Agreement is personal services to Shareholder and may be assigned or transferred by Shareholder to, or the obligations of Shareholder fulfilled by, any other person or entity.",
+        "explanation": "The original text explicitly prohibits the Shareholder from assigning or transferring the agreement. The modified text contradicts this by stating the Shareholder *may* assign or transfer the agreement. This creates a direct contradiction, especially in the context of SECTION 5 b) which continues to limit the Company's ability to assign the agreement. This contradiction will affect enforcement, since it is unclear now if it is assignable or not.",
+        "location": "SECTION 5. - MISCELLANEOUS b) ASSIGNMENT.",
+        "contradicted_location": "SECTION 5. - MISCELLANEOUS b) ASSIGNMENT.",
+        "contradicted_text": "This Agreement is personal services to Shareholder and may be assigned or transferred by Shareholder to, or the obligations of Shareholder fulfilled by, any other person or entity. Similarly, this Agreement and the rights and obligations thereunder may not be assigned by the Company to any other person or entity, except to any and all successors in interest to the Company or the Company's Affiliates (whether by way of sale, exchange, disposition, merger, consolidation, reorganization or otherwise).",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated the agreement *may not* be assigned or transferred by the Shareholder. The changed text alters this to state the agreement *may* be assigned or transferred. This creates a direct contradiction with the contradicted text, which says the same thing as the changed text. The change introduces the in-text contradiction because it makes the agreement assignable by the shareholder, whereas it was not before."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Shareholder agrees that each of the covenants set forth in this Section 1 and in Section 2 is a separate and distinct covenant, independent of others and any other provision of this Agreement, and that the illegality or invalidity of any one, or more of the covenants or any part of one or more of them, will not render the others illegal or invalid.",
+        "changed_text": "Shareholder agrees that each of the covenants set forth in this Section 1 and in Section 2 is a single and jointly covenant, dependent of others and any other provision of this Agreement, and that the illegality or invalidity of any one, or more of the covenants or any part of one or more of them, will render the others illegal or invalid.",
+        "explanation": "The original clause ensures that the covenants in Section 1 and 2 are treated separately for enforcement and validity. If one is invalid, the others remain valid. The modified version contradicts this directly, stating that the covenants are jointly dependent, and that if one fails, they all fail. This contradiction creates significant legal uncertainty regarding the enforceability of the non-compete and confidentiality clauses, as the failure of one clause could invalidate the entire non-compete agreement, it also affect the REASONABLENESS OF RESTRICTIONS in subsection c) in SECTION 1. ",
+        "location": "SECTION 1. - COVENANT NOT TO COMPETE e) SEVERABILITY.",
+        "contradicted_location": "SECTION 1. - COVENANT NOT TO COMPETE c) REASONABLENESS OF RESTRICTIONS.",
+        "contradicted_text": "Shareholder acknowledges that: (i) Shareholder's experience and capabilities are such that the provisions of this Section 1 will not prevent Shareholder from earning a livelihood; (ii) the services to be rendered by Shareholder to the Company and the Company's Affiliates are of a special nature and it would be very difficult or impossible to replace those services; (iii) the terms and conditions contained in this Section 1 and Section 2 are reasonable and necessary for the protection of the Company and the Company's Affiliates; and (iv) the Company and the Company's Affiliates cannot be adequately compensated with monetary damages for any violation by Shareholder of any of the provisions of this Section 1 and/or Section 2. Accordingly, Shareholder agrees and consents that if Shareholder violates any of the provisions contained in this Section 1 or Section 2, the Company and the Company's Affiliates will be entitled to seek injunctive from any court of competent jurisdiction, without bond, restraining Shareholder from committing or continuing any violation of this Section 1 or Section 2. The Company and the Company's Affiliates will also be entitled to any other remedies they may have at law, in equity, under this Agreement, or otherwise.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the contradicted text. The original text ensures that if one covenant in Section 1 or 2 is invalid, the others remain valid. The changed text states the opposite: if one covenant fails, all covenants in sections 1 and 2 fail. This creates a strong contradiction with the contradicted text, which assumes each covenant in Section 1 and 2 are independent for the purposes of shareholder obligation. If each covenant is not independent, the conditions in the contradicted text can't be met."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Company and the Company's Affiliates will also be entitled to any other remedies they may have at law, in equity, under this Agreement, or otherwise.",
+        "changed_text": "The Company and the Company's Affiliates will not be entitled to any other remedies they may have at law, in equity, under this Agreement, or otherwise.",
+        "explanation": "The original text ensures that the Company and its affiliates retain all available legal remedies for breach of the agreement. The modified text directly contradicts this by stating that they will *not* be entitled to any other remedies. This creates an in-text contradiction in SECTION 1, in subsection d) where it mentions remedies in case of breach of the obligations, and SECTION 5 where the document mentions Governing Law, because this clause now limit the applicable law.",
+        "location": "SECTION 1. - COVENANT NOT TO COMPETE c) REASONABLENESS OF RESTRICTIONS.",
+        "contradicted_location": "SECTION 5. - MISCELLANEOUS d) GOVERNING LAW.",
+        "contradicted_text": "This Agreement will be governed by, and construed in accordance with, the laws of the State of Ohio. Non-exclusive venue and jurisdiction for any action arising hereunder will be in the Courts of Common Pleas of Cuyahoga County, Ohio or in federal courts situated in the Northern District of Ohio (Eastern Division), in addition to any other courts having venue and jurisdiction. Each party irrevocably consents to the personal and subject matter jurisdiction of said courts.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly negates the availability of legal remedies for the Company and its affiliates, while the contradicted text affirms the application of Ohio law and jurisdiction for actions arising from the agreement. By eliminating the possibility of other remedies, the changed text contradicts the assumption that remedies under Ohio law and in specific courts are accessible, as the remedies are completely denied. This introduces a strong and direct conflict."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement contains the entire agreement between the parties hereto regarding the subject matter hereof and supersedes all prior and contemporaneous agreements, understandings, negotiations, and discussions, whether oral or written, respecting the within subject matter.",
+        "changed_text": "This Agreement doesn't contains the entire agreement between the parties hereto regarding the subject matter hereof and doesn't supersedes all prior and contemporaneous agreements, understandings, negotiations, and discussions, whether oral or written, respecting the within subject matter.",
+        "explanation": "The original text establishes the agreement as the complete and final understanding, superseding any prior agreements. The modified text contradicts this, stating that the agreement does *not* contain the entire agreement and does *not* supersede prior agreements. This creates significant ambiguity about what constitutes the actual agreement between the parties. This creates a conflict with RECITALS, since the recitals are an integral part of the agreement, they now could be affected by the modified text. This change open a pandora box in the contract.",
+        "location": "SECTION 5. - MISCELLANEOUS c) ENTIRE AGREEMENT.",
+        "contradicted_location": "SECTION 5. - MISCELLANEOUS f) RECITALS.",
+        "contradicted_text": "The recitals hereto are an integral part of this Agreement and are incorporated herein by reference.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states the agreement does *not* contain the entire agreement and does *not* supersede prior agreements. This directly contradicts the statement in 'The recitals hereto are an integral part of this Agreement and are incorporated herein by reference.' because it creates ambiguity about whether the recitals, being 'an integral part', are actually superseded by prior agreements, thus causing a strong in-text contradiction. The change aligns with the 'Misaligned Terminology - In Text Contradiction' definition since the integral nature of the 'recitals' could be disregarded."
+      }
+    ]
+  }
+]

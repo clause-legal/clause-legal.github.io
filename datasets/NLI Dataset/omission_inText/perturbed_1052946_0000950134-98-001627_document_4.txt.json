@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "1052946_0000950134-98-001627_document_4.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "1.2 Consideration for compliance with this Agreement is the opportunity to work under the aforementioned Cooperative Production Agreement and any remuneration in any form agreed to by the parties. This Agreement is intended to extend beyond the Period of Affiliation.",
+        "changed_text": "1.2 Consideration for compliance with this Agreement is the opportunity to work and any remuneration in any form agreed to by the parties. This Agreement is intended to extend beyond the business relationship.",
+        "explanation": "The removal of 'aforementioned Cooperative Production Agreement' creates an in-text contradiction. While the agreement is stated to extend beyond the 'business relationship', this is vague as this period wasn't defined in section 1.1 and section 1.2 as the exact definition was removed, the agreement mentions 'period of affiliation' later on, which makes the agreement contradictory since that's still being reffered to, even though it has been removed.",
+        "location": "1.2",
+        "contradicted_location": "2.0",
+        "contradicted_text": "2.0 Both parties agree that its representatives and employees will not at any time, either during or subsequent to the Period of Affiliation, either directly or indirectly, disclose to others or use any secret, confidential or proprietary information and know-how of the other party (whether or not developed by the other party) without that party's written consent. The term \"secret, confidential or proprietary information and know-how\" shall include, but shall not be limited to, company plans, customers, costs, programs, prices, computer programs and methods used, developed, investigated, made or sold, at any time, either before or during the parties' Period of Affiliation.",
+        "contradiction_exists": "YES",
+        "justification": "The removal of 'aforementioned Cooperative Production Agreement' in section 1.2, as explained, causes a contradiction. While the agreement is stated to extend beyond the 'business relationship', this is vague as this period wasn't defined in section 1.1 and section 1.2 as the exact definition was removed. Because of this the contradicted text in section 2.0, which references the 'Period of Affiliation', becomes contradictory since it refers to a removed term, thereby creating a clear contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "2.1 Salary and compensation information is considered confidential and proprietary information, and is fully subject to the disclosure restrictions of this Agreement.",
+        "changed_text": "2.1 Salary and compensation information is considered confidential, and may be subject to the disclosure restrictions of this Agreement.",
+        "explanation": "By changing 'is fully subject' to 'may be subject', the obligation to keep salary information confidential becomes discretionary. This contradicts the overall intent of the non-disclosure agreement and creates uncertainty. It creates an in-text contradiction because now, it's not a strict confidential agreement.",
+        "location": "2.1",
+        "contradicted_location": "2.0",
+        "contradicted_text": "2.0 Both parties agree that its representatives and employees will not at any time, either during or subsequent to the Period of Affiliation, either directly or indirectly, disclose to others or use any secret, confidential or proprietary information and know-how of the other party (whether or not developed by the other party) without that party's written consent. The term \"secret, confidential or proprietary information and know-how\" shall include, but shall not be limited to, company plans, customers, costs, programs, prices, computer programs and methods used, developed, investigated, made or sold, at any time, either before or during the parties' Period of Affiliation.",
+        "contradiction_exists": "YES",
+        "justification": "The original text in Section 2.1 stated that salary and compensation information 'is fully subject' to disclosure restrictions, creating a mandatory obligation. The changed text modifies this to 'may be subject', making the confidentiality of salary information discretionary. This directly contradicts Section 2.0, which mandates that both parties 'will not at any time...disclose' confidential information. The change from mandatory to discretionary creates a strong contradiction, as Section 2.0 expects complete confidentiality, while the altered Section 2.1 allows for potential disclosure."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The term \"secret, confidential or proprietary information and know-how\" shall include, but shall not be limited to, company plans, customers, costs, programs, prices, computer programs and methods used, developed, investigated, made or sold, at any time, either before or during the parties' Period of Affiliation.",
+        "changed_text": "The term \"secret, confidential or proprietary information and know-how\" shall include company plans, customers, costs, programs, prices, computer programs and methods used, developed, investigated, made or sold.",
+        "explanation": "By removing 'but shall not be limited to' we are restricting the definition of confidential information. It is no longer an inclusive definition. The restriction now contradicts any implication that other types of information might be considered confidential. This introduces a contradiction since other information could be disclosed.",
+        "location": "2.0",
+        "contradicted_location": "2.1",
+        "contradicted_text": "2.1 Salary and compensation information is considered confidential, and may be subject to the disclosure restrictions of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined confidential information inclusively ('shall include, but shall not be limited to'). The changed text restricts this definition by removing 'but shall not be limited to', making it a closed definition. This directly contradicts section 2.1, which states 'Salary and compensation information is considered confidential'. Under the changed definition, if 'salary and compensation information' doesn't fall within the listed examples, it may not be considered confidential, creating a contradiction. The omission creates a clear inconsistency regarding the confidentiality of information not explicitly listed in the revised definition."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "3.0 The rights and obligations of the parties hereto shall be construed under the laws of the State of Texas and shall be binding upon the heirs, legal representatives and assigns with respect to the subject matter thereof.",
+        "changed_text": "3.0 The rights and obligations of the parties shall be binding upon the parties with respect to the subject matter thereof.",
+        "explanation": "By removing 'shall be construed under the laws of the State of Texas', we eliminate the governing law for interpreting the agreement. This contradicts the implied understanding that contracts are interpreted under a specific legal framework, as any claim of governing law has been removed. A dispute may now arise as the governing law is no longer stated. Since it doesn't state the laws it'll follow, it can be contradictive in any case.",
+        "location": "3.0",
+        "contradicted_location": "1.0",
+        "contradicted_text": "1.0 Both parties understand the nature and character of this Agreement, and intend for this to be a fully binding agreement. The parties may use all legal means at their disposal to enforce this Agreement. Reference to Delta and FWT includes any subsidiary, affiliated or parent companies, and the directors, officers, employees, agents, representatives and contractors of the respective companies.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that the contract is to be construed under the laws of the State of Texas. The changed text removes this specification, leading to ambiguity about which laws govern the contract. The contradicted text states the parties intend this to be a fully binding agreement enforceable by all legal means. By removing the governing law, the modified text creates a contradiction because the agreement's enforceability is now uncertain, directly conflicting with the parties' intent to have a fully binding and enforceable agreement. This falls under the Omissions – In Text Contradiction definition."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "No changes to this Agreement shall be effective unless made in writing and executed by both parties.",
+        "changed_text": "Changes to this Agreement may be discussed, but are not guaranteed to be effective.",
+        "explanation": "By changing the original section, it is now implied that the changes do not need to be in writing, and there is no guarantee that the changes will be effective. This contradicts section 1.0, which implies the agreement is fully binding, but with those changes, the agreement is now less binding. Thus, making it contradictive.",
+        "location": "3.0",
+        "contradicted_location": "1.0",
+        "contradicted_text": "1.0 Both parties understand the nature and character of this Agreement, and intend for this to be a fully binding agreement. The parties may use all legal means at their disposal to enforce this Agreement. Reference to Delta and FWT includes any subsidiary, affiliated or parent companies, and the directors, officers, employees, agents, representatives and contractors of the respective companies.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that changes must be in writing and executed by both parties to be effective, establishing a clear and binding modification process. The changed text introduces uncertainty by suggesting that changes may be discussed but are not guaranteed to be effective, implying that written agreements and mutual execution are not necessarily required for modifications. This directly contradicts section 1.0, which asserts that the agreement is fully binding and enforceable by legal means. The change weakens the binding nature of the agreement, thus creating a strong in-text contradiction as it violates the definition of 'Omissions - In Text Contradiction' by altering language in a section that contradicts obligations in other sections."
+      }
+    ]
+  }
+]

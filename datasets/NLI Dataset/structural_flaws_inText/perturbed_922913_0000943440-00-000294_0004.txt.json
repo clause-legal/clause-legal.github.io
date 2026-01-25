@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "922913_0000943440-00-000294_0004.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Neither party shall disclose the Proprietary Information of the other party to any third party whatsoever by without the prior written approval of the other party and all such information shall be protected with at least the same diligence, care, and precaution that each party uses to protect its own Proprietary Information.",
+        "changed_text": "Neither party shall disclose the Proprietary Information of the other party to any third party whatsoever by without the prior written approval of the other party unless such disclosure is legally mandated by a court order and all such information shall be protected with at least the same diligence, care, and precaution that each party uses to protect its own Proprietary Information only if they desire to protect it.",
+        "explanation": "The original clause prohibits disclosure without prior approval. The modified version introduces an exception for court-ordered disclosures but also diminishes the standard of care by adding 'only if they desire to protect it'. This creates a contradiction because while the first part still implies an obligation to protect, the second part makes it optional, creating an in-text contradiction.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "Neither party shall disclose the Proprietary Information of the other party to any third party whatsoever by without the prior written approval of the other party unless such disclosure is legally mandated by a court order and all such information shall be protected with at least the same diligence, care, and precaution that each party uses to protect its own Proprietary Information only if they desire to protect it.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the original clause regarding the protection of Proprietary Information. While the original clause mandates protection with a specific standard of care, the changed text introduces an exception, stating that protection is only required 'only if they desire to protect it.' This directly contradicts the initial implication of a mandatory obligation to protect proprietary information, creating a strong in-text contradiction with the contradicted text, as it essentially makes the protection optional."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The undertakings and obligations of the parties under this Agreement shall not apply to any information which: (a) is disclosed in a printed publication available to the general public, is described by or in a patent anywhere in the world, or is otherwise in the public domain at the time of disclosure other than through the wrongful act or omission of the receiving party; (b) is generally disclosed to third parties by the disclosing party without restriction on such third parties; (c) is approved for release by prior, express, written authorization from the disclosing party.",
+        "changed_text": "The undertakings and obligations of the parties under this Agreement shall not apply to any information which: (a) is disclosed in a printed publication available to the general public, is described by or in a patent anywhere in the world, or is otherwise in the public domain at the time of disclosure other than through the wrongful act or omission of the receiving party, but only if the other party notifies them of it; (b) is generally disclosed to third parties by the disclosing party without restriction on such third parties; (c) is approved for release by prior, express, written authorization from the disclosing party.",
+        "explanation": "Adding 'but only if the other party notifies them of it' after the clause that the obligations of the agreement don't apply to information already publicly available creates an in-text contradiction. Logically, if the information is already public, a notification requirement shouldn't matter. This introduces ambiguity about when publicly available information is truly exempt from the agreement's restrictions.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "The undertakings and obligations of the parties under this Agreement shall not apply to any information which: (a) is disclosed in a printed publication available to the general public, is described by or in a patent anywhere in the world, or is otherwise in the public domain at the time of disclosure other than through the wrongful act or omission of the receiving party, but only if the other party notifies them of it; (b) is generally disclosed to third parties by the disclosing party without restriction on such third parties; (c) is approved for release by prior, express, written authorization from the disclosing party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds a condition ('but only if the other party notifies them of it') to the clause stating that information already in the public domain is exempt from the agreement's obligations. This contradicts the fundamental idea that publicly available information should be automatically exempt. The addition of the notification requirement introduces ambiguity and creates a conflict because publicly available information would now only be exempt if the other party is notified, making it an in-text contradiction. The contradicted text is located in the same section of the contract as the changed text, further highlighting the direct contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "With respect to each item of Proprietary Information disclosed, this obligation of the parties under this Agreement shall expire three (3) years from the date of each such disclosure or the maximum period permitted by law if such period is less than three (3) years.",
+        "changed_text": "With respect to each item of Proprietary Information disclosed, this obligation of the parties under this Agreement shall expire three (3) years from the date of each such disclosure or the maximum period permitted by law if such period is less than three (3) years, unless otherwise extended in writing by mutual agreement which will not exceed an addition 3 years.",
+        "explanation": "The original text specifies a fixed expiration of three years or the maximum period permitted by law. The added clause that the expiration can be 'extended in writing by mutual agreement which will not exceed an addition 3 years', creates an in-text contradiction. While it maintains a limit for extension it contradicts by permitting an extension at all when it established an obligation for three years initially, this leads to uncertainty about the actual duration of confidentiality.",
+        "location": "8",
+        "contradicted_location": "8",
+        "contradicted_text": "With respect to each item of Proprietary Information disclosed, this obligation of the parties under this Agreement shall expire three (3) years from the date of each such disclosure or the maximum period permitted by law if such period is less than three (3) years, unless otherwise extended in writing by mutual agreement which will not exceed an addition 3 years.",
+        "contradiction_exists": "YES",
+        "justification": "The original text set a fixed expiration of three years, whereas the changed text introduces the possibility of extending this period by mutual agreement, creating an inconsistency. The contradicted text which is the same as the changed text, now permits extension in writing, contradicting the notion of a fixed three-year term. This aligns with the 'Structural Flaws - In Text Contradiction' definition, as the modified clause introduces conflicting implications regarding the expiration period, leading to uncertainty about the actual duration of confidentiality. The change directly alters the fundamental agreement on the expiration of proprietary information obligations, making it a strong contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "No modification, alteration, or addition to this Agreement shall be binding unless mutually agreed to in writing by both parties.",
+        "changed_text": "No modification, alteration, or addition to this Agreement shall be binding unless mutually agreed to in writing by both parties, except any updates made to company policies which will automatically be added to the contract.",
+        "explanation": "The original clause states that any changes to the agreement must be in writing and mutually agreed upon. The added 'except' clause allowing unilateral changes through company policy updates directly contradicts this requirement of mutual agreement, leading to uncertainty about how the contract can be modified.",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "No modification, alteration, or addition to this Agreement shall be binding unless mutually agreed to in writing by both parties, except any updates made to company policies which will automatically be added to the contract.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires all modifications to be mutually agreed upon in writing. The changed text introduces an exception for company policy updates, which can be unilaterally implemented, directly contradicting the original requirement of mutual agreement. This aligns with the definition of structural flaws, as the changed clause creates conflicting implications about how the contract can be modified, creating uncertainty and a potential contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement shall be construed, interpreted, and enforced according to the laws of the Commonwealth of Virginia and the parties hereto consent to jurisdiction therein.",
+        "changed_text": "This Agreement shall be construed, interpreted, and enforced according to the laws of the Commonwealth of Virginia unless the parties agree otherwise in arbitration and the parties hereto consent to jurisdiction therein, unless they appeal the decision.",
+        "explanation": "The original text clearly states that the agreement is governed by the laws of Virginia. Adding \"unless the parties agree otherwise in arbitration\" and \"unless they appeal the decision\" introduces a contradiction. Arbitration agreements must also abide by certain laws, so it is still contradictory to the first portion of this clause. This creates an in-text contradiction because it's unclear whether Virginia law always applies, making it ambiguous.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "This Agreement shall be construed, interpreted, and enforced according to the laws of the Commonwealth of Virginia unless the parties agree otherwise in arbitration and the parties hereto consent to jurisdiction therein, unless they appeal the decision.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces conditions ('unless the parties agree otherwise in arbitration' and 'unless they appeal the decision') that create exceptions to the original statement that the agreement is governed by Virginia law. This directly contradicts the original clause, because the exceptions are unclear. This ambiguity creates a clear and direct conflict within the document regarding which laws govern the agreement, leading to an in-text contradiction, as both clauses are essentially in the same location."
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "form_NondisclosureBlanket.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "At the end of the Evaluation Period, COMPANY shall upon request of ROCHESTER, return to ROCHESTER all Confidential Information in its files to monitor its obligations under this Agreement.",
+        "changed_text": "At the end of the Evaluation Period, COMPANY may or may not return to ROCHESTER all Confidential Information in its files, at the discretion of COMPANY Legal counsel. This condition does not affect COMPANY's obligations under this Agreement.",
+        "explanation": "The original text *obligates* the COMPANY to return the confidential information. The modified version makes it *optional*, creating a contradiction. This creates a contradiction since it mentions that 'this condition does not affect COMPANY's obligations under this Agreement', but in reality it does.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "At the end of the Evaluation Period, COMPANY may or may not return to ROCHESTER all Confidential Information in its files, at the discretion of COMPANY Legal counsel. This condition does not affect COMPANY's obligations under this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states COMPANY *shall* return confidential information, creating an obligation. The changed text makes the return of information *optional*, contradicting the original obligation. The contradicted text restates the changed text, emphasizing the optional nature. Even though the changed text states 'This condition does not affect COMPANY's obligations under this Agreement', it directly contradicts the obligation originally imposed, making the 'obligations' unclear and unenforceable, thus creating a strong in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "ROCHESTER authorizes COMPANY to disclose the Confidential Information to those of its employees and consultants who require the Confidential Information for the evaluation hereunder, and to potential licensees, prov ided each such employee, consultant an d potential licensee has first entered into a written agreement in which it agrees to be bound by similar obligations of nonuse and nondisclosure as those imposed on COMPANY hereunder.",
+        "changed_text": "ROCHESTER authorizes COMPANY to disclose the Confidential Information to those of its employees and consultants who require the Confidential Information for the evaluation hereunder, and to potential licensees, provided they are informed of the confidential nature of the information. No written agreement is required.",
+        "explanation": "The original text *requires a written agreement* for employees, consultants, and potential licensees before disclosing confidential information. The modified text *removes this requirement*, creating a direct contradiction. This contradicts section 4 because if a written agreement is no longer needed it creates an uncertainty about the Confidential information.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "ROCHESTER authorizes COMPANY to disclose the Confidential Information to those of its employees and consultants who require the Confidential Information for the evaluation hereunder, and to potential licensees, provided they are informed of the confidential nature of the information. No written agreement is required.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates a written agreement for employees, consultants, and potential licensees to protect confidential information. The changed text removes this requirement, stating that no written agreement is needed, which creates a direct conflict with the original intention of protecting the confidential information through a written agreement. Because the Changed text is the same as the Contradicted text, this means that the Changed text contradicts the Contradicted text since it is the same as the Contradicted Text, and there is a conflicting change. This directly breaks compatibility as it makes the written agreement optional where it was previously mandatory."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Confidential Information means: (i) technologies in written or tangible form disclosed to COMPANY from time to time after the Effective Date of this Agreement by ROCHESTER and identified with particularity at time of disclosure and marked co nfidential; and (ii) technolo gies communicated orally or visually to COMPANY by ROCH ESTER, if it is reduced to writing or other tangible form by ROCHESTER on or before the date thirty days after the date of such communication, marked confidential, and promptly delivered to COMPANY.",
+        "changed_text": "Confidential Information means: (i) all information disclosed to COMPANY by ROCHESTER, regardless of form or whether it is marked confidential; and (ii) technologies communicated orally or visually to COMPANY by ROCH ESTER, regardless of whether it is reduced to writing.",
+        "explanation": "The original text *limits Confidential Information* to what is marked confidential and, for oral disclosures, reduced to writing. The modified text *broadens the definition* to include all information, regardless of marking or form. This creates a contradiction because section 1 indicates that to be considered Confidential Information it must be marked confidential, and with the modified changed it doesn't require to be marked confidential anymore. This creates an uncertainty about the obligations and rights of each party.",
+        "location": "1",
+        "contradicted_location": "1",
+        "contradicted_text": "Confidential Information means: (i) all information disclosed to COMPANY by ROCHESTER, regardless of form or whether it is marked confidential; and (ii) technologies communicated orally or visually to COMPANY by ROCH ESTER, regardless of whether it is reduced to writing.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text broadens the definition of Confidential Information, removing the requirements that information be marked confidential or, in the case of oral disclosures, reduced to writing. The contradicted text requires that Confidential Information be marked confidential regardless of form. Therefore, the changed text directly contradicts the contradicted text regarding the requirements for information to be considered confidential."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "COMPANY shall complete its evaluation within the period expiring on the date six (6) months after the date COMPANY receives the Confidential Information from ROCHESTER.",
+        "changed_text": "COMPANY shall complete its evaluation within the period expiring on the date twelve (12) months after the Effective Date of this Agreement.",
+        "explanation": "The original text specifies that the evaluation period ends *six months after receiving Confidential Information*. The modified text changes this to *twelve months after the Effective Date*. This is a contradiction since the Effective Date might precede the receipt of any confidential information, effectively extending the evaluation period beyond what was originally agreed and can impact the commercial prospection since the time for evalutation can be altered.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "COMPANY shall complete its evaluation within the period expiring on the date twelve (12) months after the Effective Date of this Agreement. If COMPANY believes the Confidential Information has scientific and commer cial promise, COMPANY and ROCHESTER may elect to commence negotiations l eading to an agreemen t governing COMPANY’s commercialization of the Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the evaluation period's start point from 'receipt of confidential information' to 'Effective Date.' The contradicted text repeats the modified text, but the underlying contradiction remains because the Effective Date could precede the receipt of confidential information. This creates a contradiction regarding the evaluation period's duration, as the original text's duration depends on when confidential information is received, while the modified text's duration is fixed by the Effective Date. This is a structural flaw, as the placement of this altered clause creates a conflicting implication regarding the evaluation period's timeline within the contract, creating an in-text contradiction."
+      }
+    ]
+  }
+]

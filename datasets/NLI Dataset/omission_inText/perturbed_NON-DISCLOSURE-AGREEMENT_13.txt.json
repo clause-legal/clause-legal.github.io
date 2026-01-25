@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "NON-DISCLOSURE-AGREEMENT_13.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "3.11. The Parties must deliver all legal documents, notices or other communications to the addresses provided and indicated as domicilium citandi et executandi:",
+        "changed_text": "3.11. The Parties must deliver all legal documents, notices or other communications to the addresses provided.",
+        "explanation": "The removal of 'and indicated as domicilium citandi et executandi' removes the legal designation of the address for service of legal notices. This creates uncertainty on where legal documents can be officially served, thus creating an in-text contradiction.",
+        "location": "3.11",
+        "contradicted_location": "3.11",
+        "contradicted_text": "3.11. The Parties must deliver all legal documents, notices or other communications to the addresses provided.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified that the provided addresses were also the 'domicilium citandi et executandi', legally designated addresses for service. The changed text removes this designation, causing a contradiction because it creates uncertainty about where legal documents can be officially served. This contradicts any other section of the document that relies on the address being the designated address for legal service, as explained in the Perturbation Explanation. The Contradicted Text further proves that the addresses provided are indeed where legal documentation should be sent, which is the exact location the changed text removes."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The confidential information is a valuable asset that belongs to the disclosing party .",
+        "changed_text": "The information is an asset that belongs to the disclosing party .",
+        "explanation": "By removing the adjective 'confidential', it creates ambiguity. If the information is no longer explicitly defined as confidential, it could be argued that the non-disclosure obligations do not apply, thereby contradicting the agreement's core purpose, and thus creating an in-text contradiction.",
+        "location": "3.2",
+        "contradicted_location": "3.2",
+        "contradicted_text": "The information is an asset that belongs to the disclosing party .",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly refers to 'confidential information'. The changed text removes the 'confidential' qualifier, making the term broader and potentially encompassing non-confidential information. The contradicted text refers to 'the information' as an asset belonging to the disclosing party, but because the changed text no longer defines what kind of information the statement refers to (it might or might not be confidential), it creates ambiguity and weakens the non-disclosure obligations that are part of the agreement's core purpose, thus creating an in-text contradiction according to the explanation provided."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "3.4. If it is legally required for either party to disclose confident ial information, the other party must be informed of this in writing. The Party required to make the disclosure will only do so to the extent that it is compulsory.",
+        "changed_text": "3.4. If it is legally required for either party to disclose confident ial information, the other party must be informed of this in writing.",
+        "explanation": "By removing the phrase 'The Party required to make the disclosure will only do so to the extent that it is compulsory.', it opens the door to full disclosure of all confidential information rather than just the specific information legally required. This contradicts the core purpose of the NDA, creating an in-text contradiction.",
+        "location": "3.4",
+        "contradicted_location": "3.4",
+        "contradicted_text": "3.4. If it is legally required for either party to disclose confident ial information, the other party must be informed of this in writing.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in section 3.4 removes the limitation that disclosure of confidential information should only be 'to the extent that it is compulsory'. This directly contradicts the implied obligation to protect confidential information and only disclose what is legally required, making the contract ambiguous and creating a strong in-text contradiction as it implies full disclosure could be permissible now. The contradicted text is located at the same place, and is the previous version of the text. This follows the definition of 'Omissions – In Text Contradiction'."
+      }
+    ]
+  }
+]

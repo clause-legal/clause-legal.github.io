@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Data_Use_and_Non_Disclosure_Data_Disclosed_to_MDCH_Trauma_Registry_Final_465518_7.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Destroy all originals and copies of potentially identifiable information , in any format , in accordance with industry standards when no longer needed.",
+        "changed_text": "Destroy all originals and copies of potentially identifiable information , in any format, in accordance with MDHHS's internal data retention policies.",
+        "explanation": "This change removes the requirement to destroy data according to \"industry standards\" and replaces it with \"MDHHS's internal data retention policies.\" This creates a potential contradiction because MDHHS's internal policies might not align with industry best practices for data destruction, potentially leading to data breaches. This contradicts the section that stipulates the MDHHS is to 'Use appropriate safeguards to prevent the use or disclosure of the information other than as provided by this A greement'. Using internal data retention policies might not have those appropriate safeguards that an industry standard would follow.",
+        "location": "Paragraph 1, point 7",
+        "contradicted_location": "Paragraph 1, point 4",
+        "contradicted_text": "Use appropriate safeguards to prevent the use or disclosure of the information other than as provided by this A greement;",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'industry standards' with 'MDHHS's internal data retention policies' for data destruction. This directly contradicts the requirement in the contradicted text to 'Use appropriate safeguards to prevent the use or disclosure of the information' because MDHHS's policies might not meet industry-standard safeguards. This creates a strong potential for a breach of data protection standards, leading to a direct conflict and potential unenforceability."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreeme nt may be terminated upon sixty days (60 ) written notice of the non - terminating party by the terminating party.",
+        "changed_text": "This Agreement may be terminated immediately by MDHHS for any breach of its internal data handling policies, or upon sixty days (60) written notice by the Reporting Entity.",
+        "explanation": "This change creates an imbalance in the termination clause. MDHHS can terminate the agreement immediately for any breach of its *own* internal policies, while the Reporting Entity still needs to provide 60 days' notice. This contradicts the implicit understanding of equal rights in the agreement and introduces uncertainty. The prior sentence states 'This Agreeme nt may be terminated upon sixty days (60 ) written notice of the non - terminating party by the terminating party.' This statement implies equal right, but the edited statement does not.",
+        "location": "Paragraph 2",
+        "contradicted_location": "Paragraph 2",
+        "contradicted_text": "This Agreement may be terminated immediately by MDHHS for any breach of its internal data handling policies, or upon sixty days (60) written notice by the Reporting Entity.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that 'This Agreement may be terminated upon sixty days (60 ) written notice of the non - terminating party by the terminating party,' implying equal termination rights. The changed text allows MDHHS to terminate immediately for breaches of its own internal policies, while the Reporting Entity must still provide 60 days' notice. This creates an imbalance and thus an in-text contradiction with the implicit equal rights suggested in the original text, as explained in the Perturbation Explanation. The Changed text and Contradicted Text are the same, which indicates the modification is the cause of the contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The parties acknowledge and agree that the unauthorized use or disclosure of confidential information is punishable by imprisonment or fine or both under applicable state and federal laws specific to the data rel eased .",
+        "changed_text": "The parties acknowledge and agree that the unauthorized use or disclosure of confidential information *by the Reporting Entity* is punishable by imprisonment or fine or both under applicable state and federal laws specific to the data released.",
+        "explanation": "This change creates an ambiguity about whether MDHHS is also subject to the same penalties for unauthorized use or disclosure. This creates an in-text contradiction. The original paragraph implies that both parties are subject to the same penalties, while the edited version only explicitly mentions the Reporting Entity, creating uncertainty about the consequences for MDHHS's actions. This potentially contradicts point 1 in the first paragraph as this sentence originally refers to both entities, but the new condition suggests that only the reporting entity is punishable by imprisonment or fines.",
+        "location": "Paragraph 2",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "With regard to the data disclosed to MDHHS under this Agreement, the MDHHS agrees to: 1. Use and disclose the data only in accordance with this A greement, or as otherwise authorized by law;",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that both parties are subject to penalties for unauthorized use or disclosure of confidential information. The changed text narrows the scope of this penalty, specifically mentioning 'by the Reporting Entity'. This introduces an ambiguity about whether the MDHHS is also subject to the same penalties, contradicting the initial implication that both entities are equally accountable. The contradicted text, clause 1, states that MDHHS agrees to use and disclose data only in accordance with the agreement. The changed text raises uncertainty about the repercussions if MDHHS violates this agreement, creating a strong in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Each party acknowledges that its authorized represen tative has the authority to execute this agreement its behalf.",
+        "changed_text": "Each party acknowledges that its authorized representative has the authority to execute this agreement its behalf; however, MDHHS retains the right to unilaterally amend the agreement with 30 days written notice to the Reporting Entity.",
+        "explanation": "This change allows MDHHS to unilaterally amend the agreement after it's been executed. This directly contradicts the idea that both parties are entering into a mutually agreed-upon contract through their authorized representatives. This creates an imbalance of power and uncertainty. The paragraph where the parties signed the agreement states: 'The parties have read and understand the above conditions and acknowledge that by their authorized representative’s signature below they agree to the terms and conditions above.' However, the edited version means the terms are subject to change at any time by the MDHHS.",
+        "location": "Paragraph 3",
+        "contradicted_location": "Paragraph 2",
+        "contradicted_text": "The parties have read and understand the above conditions and acknowledge that by their authorized representative’s signature below they agree to the terms and conditions above.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a clause that allows MDHHS to unilaterally amend the agreement with 30 days' notice. This directly contradicts the contradicted text, which states that 'The parties have read and understand the above conditions and acknowledge that by their authorized representative’s signature below they agree to the terms and conditions above.' The change makes the agreement subject to change by one party, negating the initial agreement by both parties, creating a strong in-text contradiction."
+      }
+    ]
+  }
+]

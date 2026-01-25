@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "NDA_VPI.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "At the request of the Property Owner (s) an NDA must be signed by Client before certain Confidential Information (defined as all business, financial, operational or other information regarding the Transaction and supplied to the Client by Vladi Private Islands ) is made available .",
+        "changed_text": "At the request of the Property Owner (s) an NDA must be signed by Client before Confidential Information (defined as key financial data only) is made available.",
+        "explanation": "The original definition of Confidential Information is broad, encompassing all business, financial, operational, and other information. By narrowing the definition to 'key financial data only', we introduce a contradiction. This contradicts the sections about non-disclosure of “Confidential Information” in its original broader sense.",
+        "location": "Section 1",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "2. Neither the Client nor the Authorised Recipients will, without the prior consent of Vladi Private Islands: a. reveal to any person other than an Authorised Recipient that negotiations are taking place in relation to the Transaction or reveal any other details concerning the status of negotiations b. use the Confidential Information for any purpose other t han to evaluate the Transaction",
+        "contradiction_exists": "YES",
+        "justification": "The changed text narrows the definition of 'Confidential Information' from 'all business, financial, operational or other information' to 'key financial data only'. This directly contradicts the contradicted text, which refers to the broader, original definition of 'Confidential Information' and restricts its use and disclosure beyond 'key financial data'. The original text and changed text make a clear contradiction because the changed text now limits what is considered Confidential Information in contrast to the Contradicted Text, which uses the original broader definition."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Client will hold the Confidential Information in strict confidence and will not disclose, copy, reproduce or distribute it to any person other than its Authorised Recipients (defined as the Client ’s directors, officers, employees, associates, affiliates and advisers who are directly concerned with the Transaction and whose knowledge o f such Confidential Information is necessary for the Transaction ).",
+        "changed_text": "The Client will hold the Confidential Information in reasonable confidence and will not disclose it to external parties without explicit written approval from Vladi Private Islands.",
+        "explanation": "The original text mandates 'strict confidence' and defines 'Authorised Recipients' specifically. Changing to 'reasonable confidence' and eliminating the defined group creates ambiguity. This contradicts section 6, which holds the client liable for breaches by 'Authorised Recipients', who are no longer defined. Now the question is, who are the authorized recipients of the confidential information, since it makes a huge difference when determining responsabilities.",
+        "location": "Section 1",
+        "contradicted_location": "Section 6",
+        "contradicted_text": "6. The Client agrees to ensure that each of the Authorised Recipients adheres to the terms set forth in this NDA and acknowledges that it shall be liable for any damages incurred in connection with the breach of its obligations. This NDA shall be governed by, and construed in accordance of German law, and each party irrevocably submits to the exclusive jurisdiction of the German courts. Both parties agree that a signed , facsimile copy shall have the same force and effect and as the original NDA 2 All signatories hereto acknowledge that they have read and each party fully understands the terms and conditions contained in this agreement and by their initials and signature hereby unconditionally agree to its terms as of the date noted herein.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined 'Authorised Recipients' explicitly, holding the Client liable for their breaches in section 6. The changed text replaces 'strict confidence' with 'reasonable confidence' and eliminates the definition of 'Authorised Recipients'. This directly contradicts section 6, which holds the client liable for breaches by 'Authorised Recipients' who are no longer clearly defined, creating ambiguity and uncertainty about who the client is responsible for."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Neither the Client nor the Authorised Recipients will, without the prior consent of Vladi Private Islands: a. reveal to any person other than an Authorised Recipient that negotiations are taking place in relation to the Transaction or reveal any other details concerning the status of negotiations b. use the Confidential Information for any purpose other t han to evaluate the Transaction",
+        "changed_text": "Neither the Client nor the Authorised Recipients will, without notifying Vladi Private Islands: a. reveal to any person other than an Authorised Recipient that negotiations are taking place in relation to the Transaction or reveal any other details concerning the status of negotiations b. use the Confidential Information for any purpose other than to evaluate the Transaction",
+        "explanation": "Changing 'prior consent' to 'notifying' weakens the protection of confidential information. This introduces an In-text contradiction within Section 4, because this section grants exclusive control over the negotiation to Vladi Private Islands, while the perturbation weakens that control.",
+        "location": "Section 2",
+        "contradicted_location": "Section 4",
+        "contradicted_text": "4. All correspondence, inquiries, offers to purchase and negotiations relating to the Transaction will be conducted exclusively through Vladi Private Islands. The Client and Authorised Recipients agree only to contact the property owner and/or the affiliates of the property owner through Vladi Private Islands .",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires 'prior consent' from Vladi Private Islands, giving them strong control. The changed text only requires 'notifying' them, significantly weakening their control. Section 4 states that all negotiations will be conducted exclusively through Vladi Private Islands. The change contradicts this by allowing the Client and Authorised Recipients to act independently after merely notifying Vladi Private Islands, undermining Vladi Private Island's exclusive control over negotiations."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The undertakings in paragraphs 1 and 2 will not apply to information which: a. was already in the public domain at the ti me of disclosure to the Company b. has subsequently come into the public domain, except through a breach of this NDA c. is required to be disclosed by any regulatory organisation or if otherwise r equired by law",
+        "changed_text": "The undertakings in paragraphs 1 and 2 will not apply to information which: a. was already known to the Client prior to disclosure b. has subsequently become publicly available, regardless of the cause c. is required to be disclosed by any regulatory organization or if otherwise required by law",
+        "explanation": "Changing 'was already in the public domain at the time of disclosure' to 'was already known to the Client prior to disclosure' and 'except through a breach of this NDA' to 'regardless of the cause' significantly reduces the protection of Confidential Information. The text becomes an in-text contradiction within section 1 (The Client will hold the Confidential Information in strict confidence), due to the weakness in this one.",
+        "location": "Section 3",
+        "contradicted_location": "Section 1",
+        "contradicted_text": "1. The Client will hold the Confidential Information in strict confidence and will not disclose, copy, reproduce or distribute it to any person other than its Authorised Recipients (defined as the Client ’s directors, officers, employees, associates, affiliates and advisers who are directly concerned with the Transaction and whose knowledge o f such Confidential Information is necessary for the Transaction ).",
+        "contradiction_exists": "YES",
+        "justification": "The changed text significantly weakens the confidentiality obligations of the Client. Originally, information already in the public domain was excluded from the NDA's restrictions. Now, information 'already known to the Client prior to disclosure' is excluded, which is a much broader exception. Additionally, the original text excluded information entering the public domain 'through a breach of this NDA,' but the changed text excludes information that becomes publicly available 'regardless of the cause.' This means even if the Client breaches the NDA and makes the information public, it's no longer considered confidential under this clause. This directly contradicts section 1, which requires the Client to hold the Confidential Information in 'strict confidence' and not disclose it, because under the new exceptions, the client can disclose the information if it was already known, or let it become public without repercussions, and the NDA would not protect it. This introduces ambiguity and inconsistency, making the original confidentiality obligation unenforceable and thus an in-text contradiction as per the 'Ambiguities - In Text Contradiction' definition."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The obligation of the client set forth in this NDA shall terminate 2 years afte r its creation and shall remain effective in the event that the Client terminates its co -operation with Vla di Private Islands.",
+        "changed_text": "The obligation of the client set forth in this NDA shall terminate upon the termination of co-operation with Vladi Private Islands.",
+        "explanation": "This change removes the 2-year term limit and makes the NDA's duration contingent on the relationship with Vladi Private Islands. This change directly contradicts the first section where the period for NDA is explicitly stated (This Non -Disclosure Agreement (“NDA ”) is enter ed into an d effective as of ………………..)",
+        "location": "Section 5",
+        "contradicted_location": "Section 1",
+        "contradicted_text": "1 Non-Disclosure Agreement This Non -Disclosure Agreement (“NDA ”) is enter ed into an d effective as of ……………….. by and between …………. (the “ Client ”) and Vladi Private Islands GmbH, a company registered under the laws of the Federal Republic of Germany and with its registered seat at Ballindamm 26, 20095 Hamburg, Germany ( “Vladi Private Islands ”). You, the Client, have expressed an interest in …….…………………………………………. (the “ Transaction ”), a property listed by Vladi Private Islands.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the original 2-year term limit for the NDA and makes its duration contingent on the termination of cooperation with Vladi Private Islands. The contradicted text establishes the effective date of the NDA. The original text established the NDA termination date as 2 years after its creation regardless of Vladi cooperation. The changed text removes that term date, creating a direct contradiction in the term of the NDA and therefore creating a strong contradiction."
+      }
+    ]
+  }
+]

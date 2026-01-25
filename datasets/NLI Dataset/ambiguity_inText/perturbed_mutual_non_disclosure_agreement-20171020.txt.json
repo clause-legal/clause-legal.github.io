@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "mutual_non_disclosure_agreement-20171020.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Parties shall limit disclosure of Confidential Information within its own organization to its directors, officers, partners, members and/or employees having a need to know Confidential Information and shall not disclose Confidential Information to any third party (whether an individual, corporation, or other entity) without the prior written consent of the other party, which consent shall not be unreasonably withheld.",
+        "changed_text": "The Parties should endeavor to limit disclosure of Confidential Information within its own organization to its directors, officers, partners, members and/or employees having a need to know Confidential Information and may disclose Confidential Information to any third party (whether an individual, corporation, or other entity) with the prior written consent of the other party, which consent may be withheld for any reason.",
+        "explanation": "The change from 'shall limit' to 'should endeavor to limit' weakens the obligation to restrict internal disclosure, while changing 'shall not disclose' to 'may disclose' paired with 'consent may be withheld for any reason' loosens control over external disclosure. This contradicts the core principle of the NDA which is to protect the confidentiality of the shared information. This changes creates ambiguity around disclosure responsibilities and directly contradicts the intentions of a non-disclosure agreement in-text",
+        "location": "3.0",
+        "contradicted_location": "3.0",
+        "contradicted_text": "The Parties should endeavor to limit disclosure of Confidential Information within its own organization to its directors, officers, partners, members and/or employees having a need to know Confidential Information and may disclose Confidential Information to any third party (whether an individual, corporation, or other entity) with the prior written consent of the other party, which consent may be withheld for any reason.",
+        "contradiction_exists": "YES",
+        "justification": "The original text imposed strict limitations on disclosure, using 'shall' to create mandatory obligations. The changed text weakens these obligations significantly, replacing 'shall limit' with 'should endeavor to limit' and 'shall not disclose' with 'may disclose'. This introduces ambiguity and directly contradicts the confidentiality principles that the contradicted section also reflects, thereby creating a strong in-text contradiction as the NDA core tenet is being undermined."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The Parties warrant that they have the right to make the disclosures under this Agreement.",
+        "changed_text": "The Parties make no warranties regarding their right to make the disclosures under this Agreement.",
+        "explanation": "Changing the warranty statement to a disclaimer directly contradicts the implied assurance that both parties have the authority to share the confidential information. This introduces a contradiction if one party discloses information they don't have the right to disclose, the other party has no recourse. This creates uncertainty and undermines the reliability of the entire agreement, thus, being an in-text contradiction.",
+        "location": "5.0",
+        "contradicted_location": "5.0",
+        "contradicted_text": "The Parties make no warranties regarding their right to make the disclosures under this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text contains a warranty that the parties have the right to disclose information under the agreement. The changed text explicitly states that the parties make no such warranties. This creates a direct contradiction with the contradicted text, which also states the parties make no warranties. The change from a warranty to a disclaimer directly conflicts with the notion of assured right to disclosure and thus is an in-text contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Furthermore and specifically, no license or conveyance of any intellectual property rights is granted or implied by this Agreement.",
+        "changed_text": "Furthermore and specifically, a limited license to use intellectual property rights related to the Confidential Information is granted by this Agreement.",
+        "explanation": "This direct contradiction introduces confusion about the intellectual property rights. The original text explicitly denies any implied license, while the modification grants a limited license. This creates an in-text contradiction that undermines the IP protection, central to the purpose of an NDA, since there's now uncertainty about the scope of permitted use of any disclosed intellectual property.",
+        "location": "6.0",
+        "contradicted_location": "6.0",
+        "contradicted_text": "This Agreement shall not be construed as creating, conveying, transferring, granting or conferring upon either party any rights, license or authority in or to the information exchanged, except the limited right to use Confidential Information specified in Section 2 above. Furthermore and specifically, a limited license to use intellectual property rights related to the Confidential Information is granted by this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that 'no license or conveyance of any intellectual property rights is granted or implied'. The changed text introduces 'a limited license to use intellectual property rights', which directly contradicts the original denial of any such license. This contradiction is further amplified by the fact that the 'Contradicted Text' has the changed text at the end of it, thus both contradicting statements appear at the same place. Therefore, the change creates a clear and impactful contradiction within the document."
+      }
+    ]
+  }
+]

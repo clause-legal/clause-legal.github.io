@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "IBC-PMS-NDA-agreement.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "(e) Vendor shall, at IBC’s request, return all originals, copies, reproductions a nd summaries of Confidential Information and all other tangible materials and devices provided to Vendor as Confidential Information, or at IBC's option, certify - 3 - PRACTICE MANAGEMENT SYSTEM INTEGRATION TOOLKIT NON-DISCLOSURE AND PERMITTED USE AGREEMENT destruction of the same.",
+        "changed_text": "(e) Vendor shall, at IBC’s request, retain all originals, copies, reproductions a nd summaries of Confidential Information and all other tangible materials and devices provided to Vendor as Confidential Information, or at IBC's option, certify - 3 - PRACTICE MANAGEMENT SYSTEM INTEGRATION TOOLKIT NON-DISCLOSURE AND PERMITTED USE AGREEMENT destruction of the same.",
+        "explanation": "By changing 'return' to 'retain', this in-text contradiction introduces uncertainty about what should happen to the Confidential Information at the end of the agreement. The vendor is now instructed to both retain and destroy the same information, leading to a conflict and impacting Section 2(e) of the contract.",
+        "location": "2(e)",
+        "contradicted_location": "2(e)",
+        "contradicted_text": "(e) Vendor shall, at IBC’s request, retain all originals, copies, reproductions a nd summaries of Confidential Information and all other tangible materials and devices provided to Vendor as Confidential Information, or at IBC's option, certify - 3 - PRACTICE MANAGEMENT SYSTEM INTEGRATION TOOLKIT NON-DISCLOSURE AND PERMITTED USE AGREEMENT destruction of the same.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'return' with 'retain'. This directly contradicts the contradicted text, which also states 'retain'. While the original text and contradicted text are identical, the introduction of 'retain' in the changed text when it was originally 'return' creates a direct contradiction within the document regarding the vendor's obligation to either return or retain the confidential information. The vendor is now being instructed to both retain and destroy the same information, leading to a conflict. As such, the changed text now contradicts the rest of the agreement."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "(h) Any enhancement developed by Vendor for the PMS Softwa re in reliance upon the Confidential Information shall (A) be provided in object code form only and (B) shall include commercially reasonable security protections in respect of any HCAI System authentication credentials that are stored by the PMS System between sessions. As between IBC and Vendor, any such HCAI System authentication credentials shall constitute Co nfidential Information of IBC an d may not be used in any way by Vendor or its personnel or contractors.",
+        "changed_text": "(h) Any enhancement developed by Vendor for the PMS Softwa re in reliance upon the Confidential Information shall (A) be provided in source code form and (B) shall include commercially reasonable security protections in respect of any HCAI System authentication credentials that are stored by the PMS System between sessions. As between IBC and Vendor, any such HCAI System authentication credentials shall constitute Co nfidential Information of IBC an d may not be used in any way by Vendor or its personnel or contractors.",
+        "explanation": "Changing 'object code form only' to 'source code form' creates a contradiction. Providing enhancements in source code contradicts the intent of protecting the Confidential Information, especially software code. Original Section (h) dictates object code for protection, while the change mandates more open source code with no protection, leading to uncertainty regarding the security measures affecting vendor's use in Section 2(h).",
+        "location": "2(h)",
+        "contradicted_location": "2(h)",
+        "contradicted_text": "(h) Any enhancement developed by Vendor for the PMS Softwa re in reliance upon the Confidential Information shall (A) be provided in source code form and (B) shall include commercially reasonable security protections in respect of any HCAI System authentication credentials that are stored by the PMS System between sessions. As between IBC and Vendor, any such HCAI System authentication credentials shall constitute Co nfidential Information of IBC an d may not be used in any way by Vendor or its personnel or contractors.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that enhancements should be provided in 'object code form only,' implying a desire to protect confidential information. The changed text mandates that enhancements be provided in 'source code form,' which directly contradicts the original intent of protecting confidential information by making the code readily accessible. This creates a strong contradiction because the change directly undermines the security measures implied by the original phrasing, as well as creating a contradiction with the provided 'Contradicted Text' which repeats the same phrasing as the changed text, causing in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "a. It includes protections that protec t IBC and its licensors and subcontractors from any liability to Vendor’s licensees in respect of such licensee’s use of any porti on of the PMS Software that is developed in reliance upon the Confidential Information;",
+        "changed_text": "a. It excludes protections that protec t IBC and its licensors and subcontractors from any liability to Vendor’s licensees in respect of such licensee’s use of any porti on of the PMS Software that is developed in reliance upon the Confidential Information;",
+        "explanation": "By changing 'includes protections' to 'excludes protections,' there is now no protection for IBC and its licensors from liabilities arising from the use of PMS software that depends on confidential information. Original Section 2(j)(a) creates clear security for IBC but the in-text contradiction negates this protection, therefore affecting vendors use in Section 2(j)(a).",
+        "location": "2(j)(a)",
+        "contradicted_location": "2(j)(a)",
+        "contradicted_text": "a. It excludes protections that protec t IBC and its licensors and subcontractors from any liability to Vendor’s licensees in respect of such licensee’s use of any porti on of the PMS Software that is developed in reliance upon the Confidential Information;",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'includes protections' to 'excludes protections' directly contradicts the original intent of Section 2(j)(a), as explained in the Perturbation Explanation. The original text ensured IBC and its licensors were protected from liabilities, while the changed text removes this protection. This directly contradicts the contradicted text, which repeats the changed text, meaning the text now provides no protection, creating an inconsistency regarding IBC's liability coverage. The change therefore leads to a clear and direct contradiction within the document, making the two statements incompatible, and aligns with the definition of inconsistencies leading to in-text contradictions."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "(h) IBC may terminate this Agreement with or without cause upon thirty (30) days prior written notice to the Vendor. IBC will not exercise such discretion to terminate the Agre ement with a specific vendor except for commercially reasonable grounds.",
+        "changed_text": "(h) IBC may terminate this Agreement with or without cause immediately with no written notice to the Vendor. IBC will not exercise such discretion to terminate the Agre ement with a specific vendor except for commercially reasonable grounds.",
+        "explanation": "By changing 'thirty (30) days prior written notice' to 'immediately with no written notice', this creates a conflict. The original text mandated a 30-day notice for termination, the modified version removes this notice period entirely. This in-text contradiction significantly alters the termination terms and vendor use described in Section 4(h).",
+        "location": "4(h)",
+        "contradicted_location": "4(h)",
+        "contradicted_text": "(h) IBC may terminate this Agreement with or without cause immediately with no written notice to the Vendor. IBC will not exercise such discretion to terminate the Agre ement with a specific vendor except for commercially reasonable grounds.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires a thirty-day notice for termination, while the changed text allows for immediate termination without notice. The contradicted text (which is the same as the changed text in this case) also states immediate termination without notice. This directly conflicts with the initial requirement of a 30-day notice, thus creating a strong in-text contradiction as defined by the Inconsistencies perturbation type."
+      }
+    ]
+  }
+]

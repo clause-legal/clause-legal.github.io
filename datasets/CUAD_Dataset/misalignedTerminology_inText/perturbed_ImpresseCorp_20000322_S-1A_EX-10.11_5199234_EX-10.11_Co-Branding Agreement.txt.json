@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "ImpresseCorp_20000322_S-1A_EX-10.11_5199234_EX-10.11_Co-Branding Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "1.22. USER shall mean a single person who accesses and views a Site whether directly from a web browser or through a Link.",
+        "changed_text": "1.22. USER shall mean an entity or individual who accesses and views a Site whether directly from a web browser or through a Link.",
+        "explanation": "The definition of 'USER' is expanded to include 'entity or individual.' This creates an in-text contradiction because other sections of the agreement may assume a 'USER' is a single person, particularly in sections dealing with data privacy and personalized experiences. For example, Section 7.6 discusses providing VerticalNet with User Data on each User, implying individualized data, which is contradicted by the new inclusive definition.",
+        "location": "1.22",
+        "contradicted_location": "7.6",
+        "contradicted_text": "7.6. USER DATA. Impresse shall provide VerticalNet with User Data on each User that submits information through the Co-Branded Site by sending an email with such information to an email address designated by VerticalNet at the time the request occurs. User Data shall be maintained by each Party as Confidential Information of the other Party during the Term and 5 years thereafter, provided such User Data may be disclosed only as part of an aggregation or analysis of all User Data but not as independent data. Upon termination of the Agreement, VerticalNet and Impresse shall jointly own all User Data. Neither Party shall use the User Data other than in accordance with the VerticalNet privacy policy and all applicable laws during the Term and thereafter.",
+        "contradiction_exists": "YES",
+        "justification": "The change expands the definition of 'USER' from a 'single person' to 'entity or individual'. The contradicted text, Section 7.6, discusses providing VerticalNet with User Data on 'each User,' implying individualized data. Expanding the definition of 'USER' to include entities introduces ambiguity and potential conflict. The contradicted text assumes user data is specific to a single person, which is now contradicted by the changed text including entities whose data might be aggregated or non-individualized. This leads to a strong in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "1.29. VERTICALNET SITE shall mean a Site owned and operated by VerticalNet in the United States or a portion of such Site designated by VerticalNet.",
+        "changed_text": "1.29. VERTICALNET SITE shall mean a Site owned and operated by VerticalNet or its partners in the United States or a portion of such Site designated by VerticalNet.",
+        "explanation": "The definition of 'VERTICALNET SITE' is changed to include sites owned by VerticalNet's 'partners.' This introduces an internal contradiction in sections where VerticalNet assumes full control and responsibility for its site. Specifically, Section 9.1, which disclaims certain warranties concerning the VERTICALNET SITES, creates ambiguity. It is unclear whether the warranty disclaimer applies to sites owned by partners, creating uncertainty in the scope of VerticalNet's liability.",
+        "location": "1.29",
+        "contradicted_location": "9.1",
+        "contradicted_text": "9.1. DISCLAIMER OF WARRANTIES BY VERTICALNET. EXCEPT AS EXPRESSELY SET FORTH IN THIS AGREEMENT, VERTICALNET HEREBY DISCLAIMS ALL WARRANTIES, EXPRESS, IMPLIED OR STATUTORY, WITH RESPECT TO THE VERTICALNET SITES, THE V-SOLUTIONS AREA, THE V-SOLUTIONS LINK AND THE VERTICALNET AREA OF THE CO-BRANDED SITE, INCLUDING BUT NOT LIMITED TO ANY IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. VERTICALNET EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES AS TO THE USER INTERFACE OR USER EXPERIENCE ASSOCIATED WITH THE VERTICALNET SITES AND RESERVES THE RIGHT, IN ITS SOLE DISCRETION, TO MODIFY THE PLACEMENT OF ALL LINKS, URLS AND PROPRIETARY FEATURES; PROVIDED, HOWEVER, THAT IN THE EVENT VERTICALNET REDESIGNS THE USER INTERFACE, SUCH LINKS, URLS AND PROPRIETARY FEATURES SHALL RECEIVE MUTUALLY AGREEABLE PLACEMENT SUBSTANTIALLY SIMILAR TO THE ORIGINAL DESIGN.",
+        "contradiction_exists": "YES",
+        "justification": "The modification to the definition of 'VERTICALNET SITE' to include sites owned by VerticalNet's 'partners' creates a direct contradiction with Section 9.1. Section 9.1, which disclaims warranties for 'VERTICALNET SITES', now becomes ambiguous because it's unclear whether this disclaimer applies to sites owned by VerticalNet's partners. This change introduces uncertainty regarding the scope of VerticalNet's liability, therefore directly conflicting with the original intention of Section 9.1."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "1.16. NEWSLETTER shall mean a text message containing information supplied by Impresse and approved by VerticalNet (which approval shall not be unreasonably withheld) that is transmitted via e-mail to Users of the VerticalNet Sites who have provided their e-mail addresses to VerticalNet along with permission to transmit such messages to the e-mail address.",
+        "changed_text": "1.16. NEWSLETTER shall mean any marketing material containing information supplied by Impresse, subject to VerticalNet's review, that is transmitted via any medium to individuals or entities associated with the VerticalNet Sites.",
+        "explanation": "The definition of 'NEWSLETTER' is broadened. The original specifies a 'text message' sent via 'e-mail' to 'Users' who provided permission. The revised definition includes 'any marketing material' via 'any medium' to 'individuals or entities associated with' the VerticalNet Sites, without explicitly requiring prior permission. This conflicts with the intent of the original definition, especially regarding user consent. It contradicts Section 4.3, which discusses Impresse's purchase commitment for 'Banners and Newsletters,' because the financial agreement may have been based on the original definition of newsletters being email-based and permission-driven, directly effecting the commerical terms.",
+        "location": "1.16",
+        "contradicted_location": "4.3",
+        "contradicted_text": "4.3. BANNER/NEWSLETTER PURCHASE COMMITMENT. During the Term of this Agreement, Impresse agrees to purchase from VerticalNet Banners and Newsletters for a total price of at least $[*] as set forth below in this Section 4.3 [BANNER/NEWSLETTER PURCHASE COMMITMENT]. All prices for such Banners and Newsletters shall be offered to Impresse at a [*]% discount off of VerticalNet's then current prices for similar Banners or Newsletters. All purchases shall be subject to VerticalNet's standard terms and conditions governing advertising on VerticalNet Sites. Impresse agrees to purchase at least $[*] of such Banners and Newsletters in each calendar quarter after the Effective Date until a total of $[*] have been purchased, provided, the total dollar amount purchased by Impresse in any calendar quarter shall not consist of greater than 70% of either Banners or Newsletters. Payment of the fees set forth in this Section shall be made pursuant to the terms of Section 4.5 [PAYMENT TERMS].",
+        "contradiction_exists": "YES",
+        "justification": "The revised definition of 'NEWSLETTER' broadens its scope to include 'any marketing material' via 'any medium' without requiring prior user permission. This directly conflicts with the assumption in Section 4.3 that 'Newsletters' are permission-based emails. This impacts the financial commitment because Impresse's agreement to purchase newsletters at a set price was based on the original, narrower definition, making the commercial terms contradictory due to the alteration of the definition."
+      }
+    ]
+  }
+]

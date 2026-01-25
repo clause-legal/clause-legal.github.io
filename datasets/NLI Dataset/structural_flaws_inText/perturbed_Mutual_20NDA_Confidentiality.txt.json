@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "Mutual%20NDA_Confidentiality.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The existence of the Purpose of this Agreement, this Agreement and the terms contained herein shall be de emed to be Confidential Information under this Agreement.",
+        "changed_text": "The existence of the Purpose of this Agreement shall NOT be deemed to be Confidential Information under this Agreement.",
+        "explanation": "By stating that the existence of the Purpose is not Confidential Information, it contradicts the original text and subsequent sections that treat all information regarding the agreement and its purpose as confidential. This could allow parties to publicly disclose the nature of their discussions, undermining the confidentiality of the relationship.",
+        "location": "1",
+        "contradicted_location": "2",
+        "contradicted_text": "Each party hereto agrees not to use the Confidential Information received by such party as a Receiving Party other than for the Purpose of this Agreement. Each party hereto shall: (a) not disclose the Confidential Information of the other party hereto to any other party and will use best efforts to protect the confidentiality of such information, (b) not use the Confidential Information except for the Purpose of this Agreement, and (c) not {J1872881.2} 2 reproduce, copy or photograph any document or other medium which contains Confidential Information, without the prior written approval of the Disclosing Party; provided, however, that each party hereto may furnish the other’s Confidential Information to those employees or representatives of such party who need to have access to such Confidential Information to assist such party in achieving the Purpose of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the Purpose of the Agreement is Confidential Information. The changed text explicitly states that the Purpose of the Agreement is NOT Confidential Information. The contradicted text then states that each party agrees not to disclose the Confidential Information of the other party. If the Purpose is no longer considered Confidential Information, as stated in the changed text, then the contradicted text is rendered inconsistent, because the parties are no longer obligated to keep the purpose confidential, contradicting the original agreement to treat the purpose as confidential."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Each party hereto agrees not to use the Confidential Information received by such party as a Receiving Party other than for the Purpose of this Agreement.",
+        "changed_text": "Each party hereto agrees to use the Confidential Information received by such party as a Receiving Party for any other business purpose.",
+        "explanation": "This change directly contradicts the initial statement by allowing the Receiving Party to use Confidential Information for purposes beyond the scope of the agreement. This removes the restriction on use, severely weakening the protection offered to the Disclosing Party and is also contradicting the use for only the agreement purpose.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "Each party hereto shall: (a) not disclose the Confidential Information of the other party hereto to any other party and will use best efforts to protect the confidentiality of such information, (b) not use the Confidential Information except for the Purpose of this Agreement, and (c) not {J1872881.2} 2 reproduce, copy or photograph any document or other medium which contains Confidential Information, without the prior written approval of the Disclosing Party; provided, however, that each party hereto may furnish the other’s Confidential Information to those employees or representatives of such party who need to have access to such Confidential Information to assist such party in achieving the Purpose of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that each party agrees to use confidential information for \"any other business purpose.\" This directly contradicts the contradicted text, which states that each party shall \"not use the Confidential Information except for the Purpose of this Agreement.\" The original text also agrees not to use confidential information received by such party as a Receiving Party other than for the Purpose of this Agreement. This clearly demonstrates a strong in-text contradiction as the changed text explicitly allows uses prohibited by the contradicted text."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "All Confidential Information is and will remain the exclusive property of Disclosing Party, and no right or license is granted to Receiving Party with respect to any Confidential Information.",
+        "changed_text": "All Confidential Information is and will become the shared property of both Disclosing Party and Receiving Party, and a perpetual, irrevocable license is granted to Receiving Party with respect to all Confidential Information.",
+        "explanation": "This change directly contradicts the provision establishing exclusive ownership by stating that all Confidential Information becomes shared property. It further complicates matters by granting a perpetual, irrevocable license to the Receiving Party. This fundamentally alters the ownership and usage rights defined in the agreement, generating an in-text contradiction.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Upon the termination by ei ther party of discussions concerning the Purpose of this Agreement, or sooner if so requested by the Disclosing Party, the Receiving Party will return to the Disclosing Party or destroy all Confidential Information, including all copies of the same. Upon request, the fact of any such destruction must be certified in writing to the Disclosing Party by an officer of the Receiving Party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that Confidential Information becomes the shared property of both parties and grants a perpetual, irrevocable license to the Receiving Party. This directly contradicts the contradicted text, which requires the Receiving Party to return or destroy all Confidential Information upon termination of discussions or at the Disclosing Party's request. The change creates a clear conflict because the Receiving Party cannot be expected to return or destroy something they now jointly own and have a perpetual license to use."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Upon the termination by ei ther party of discussions concerning the Purpose of this Agreement, or sooner if so requested by the Disclosing Party, the Receiving Party will return to the Disclosing Party or destroy all Confidential Information, including all copies of the same.",
+        "changed_text": "Upon the termination by ei ther party of discussions concerning the Purpose of this Agreement, the Receiving Party is not obligated to return or destroy any Confidential Information. However, the Disclosing party is still obligated to the same",
+        "explanation": "By removing the obligation to return or destroy Confidential Information upon termination, the Receiving Party can retain and potentially misuse sensitive data, completely negating the intended protective measures of the agreement. At the same time contradicting the obligation of the disclosing party to follow the terms of the original agreement, but only forcing it on one party and not the other",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Upon request, the fact of any such destruction must be certified in writing to the Disclosing Party by an officer of the Receiving Party. Nothing in this Agreement obligates either party hereto to disclose any information to the other or creates any agency or partnership relation between them.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the Receiving Party's obligation to return or destroy Confidential Information upon termination, while the contradicted text states that 'the fact of any such destruction must be certified in writing to the Disclosing Party by an officer of the Receiving Party.' The removal of the obligation to destroy the information directly contradicts the clause that assumes and relies on that destruction to occur, creating a structural flaw. This is because the changed text removes the expectation that information is destroyed, thus contradicting the later statement that verifies this destruction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "In the event of litigation commenced by a party to enforce this Agreement, the primarily prevailing party will be entitled to recover its costs and expenses in such litigation, including attorneys’ fees and expenses.",
+        "changed_text": "In the event of litigation commenced by a party to enforce this Agreement, neither party will be entitled to recover its costs and expenses in such litigation, including attorneys’ fees and expenses, regardless of who prevails.",
+        "explanation": "This alteration directly contradicts the original provision, removing the right of the prevailing party to recover costs and attorney fees. This creates a disincentive to enforce the agreement and makes it difficult to obtain redress for breaches. Since the agreement states it in one place and removes it, it creates an in text contradiction.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "Each party hereto acknowledges that remedies at law may be inadequate to protect the other party against any actual or threatened breach of this Agreement, and, without prejudice to any other rights and remedies otherwise available to t he parties hereto, agrees to the granting of injunctive relief in favor of the other without proof of irreparable harm or the posting of any bond.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the right of the prevailing party to recover costs and attorney fees, directly contradicting the contradicted text, which acknowledges that remedies at law may be inadequate. The original text allows for the recovery of costs, which facilitates enforcement. The removal creates a disincentive to enforce the agreement, making it difficult to obtain redress for breaches. The structural flaw of conflicting implications regarding remedies creates uncertainty about the rights of each party, thus creating an in-text contradiction."
+      }
+    ]
+  }
+]

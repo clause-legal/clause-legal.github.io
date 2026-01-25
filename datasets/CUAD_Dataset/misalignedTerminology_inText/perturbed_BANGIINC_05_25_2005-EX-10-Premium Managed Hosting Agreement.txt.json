@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "BANGIINC_05_25_2005-EX-10-Premium Managed Hosting Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This is a managed hosting agreement between AstroNutrition.com and deep systems. The effective term is 12 months beginning March 1, 2005 and ending February 28, 2006.",
+        "changed_text": "This is a managed hosting contract between AstroNutrition.com and deep systems. The initial contract term is 12 months beginning March 1, 2005 and automatically renews every February 28, 2006, unless terminated with 60 days' notice.",
+        "explanation": "Changing 'agreement' to 'contract' and adding an automatic renewal clause introduces a contradiction. The original text implies a fixed term, while the modified text adds an automatic renewal, creating ambiguity regarding the contract's duration and conditions for termination. This contradicts the initial defined term and conditions.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "This is a managed hosting contract between AstroNutrition.com and deep systems. The initial contract term is 12 months beginning March 1, 2005 and automatically renews every February 28, 2006, unless terminated with 60 days' notice.",
+        "contradiction_exists": "NO",
+        "justification": "The changed text and the contradicted text are identical, because the perturbed text already includes the contradiction. The change from 'agreement' to 'contract' is minor. The addition of an automatic renewal clause does create a potential contradiction in the event of early termination, but it doesn't introduce a *strong* contradiction with the initial term definition, as it primarily concerns renewal conditions. Therefore it is a 'NO'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Included Monthly Services System Administration Management of SMTP, IMAP, DNS, SQL database and HTTP server software and systems for the AstroNutrition.com domain and web site. This includes regular off-site backups of the website itself and the database.",
+        "changed_text": "Included Monthly Services Infrastructure Management Management of SMTP, IMAP, DNS, SQL database and HTTP server software and systems for the AstroNutrition.com domain and web site. Regular off-site backups of the website and the database is an optional service, and can be acquired with extra payment.",
+        "explanation": "Changing 'System Administration' to 'Infrastructure Management' implies a change in scope without defining it, and changing the 'included backups' to an 'optional service' contradicts the initial agreement of included services. The original implied that off-site backups were included, while the modified version states that they are optional.",
+        "location": "Paragraph 2",
+        "contradicted_location": "Paragraph 2",
+        "contradicted_text": "Included Monthly Services Infrastructure Management Management of SMTP, IMAP, DNS, SQL database and HTTP server software and systems for the AstroNutrition.com domain and web site. Regular off-site backups of the website and the database is an optional service, and can be acquired with extra payment.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly states that regular off-site backups are an optional service with extra payment, directly contradicting the implied inclusion of these backups in the original agreement. The contradicted text is the same as the changed text, which means that the contradiction exists within that section itself and against the original text, because originally backups were included in System Administration, but after changed to Infrastructure Management, backups are now optional, which is a contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Personal Technical Support 24 x 7 emergency phone support and 1-business-day email response on non-critical issues. Includes a 99 percent server uptime guarantee.",
+        "changed_text": "Technical Assistance 24 x 7 emergency phone support and 3-business-day email response on non-critical issues. Server uptime guarantee is provided on a best-effort basis.",
+        "explanation": "Changing 'Personal Technical Support' to 'Technical Assistance' and modifying the email response time from '1-business-day' to '3-business-day' introduces contradiction, which is further emphasized by changing the '99 percent server uptime guarantee' to 'provided on a best-effort basis'. The original text specified an explicit uptime guarantee, whereas the modified text makes it uncertain and dependent on unspecified factors, potentially leaving AstroNutrition.com with little recourse if the uptime falls below 99 percent. This undermines the original guarantee.",
+        "location": "Paragraph 4",
+        "contradicted_location": "Paragraph 4",
+        "contradicted_text": "Technical Assistance 24 x 7 emergency phone support and 3-business-day email response on non-critical issues. Server uptime guarantee is provided on a best-effort basis.",
+        "contradiction_exists": "NO",
+        "justification": "Although the explanation states that the modification introduces a contradiction, the Changed Text and Contradicted Text are identical. Therefore, there is no in-text contradiction. The changed text replaces the original text. It doesn't contradict it."
+      }
+    ]
+  }
+]

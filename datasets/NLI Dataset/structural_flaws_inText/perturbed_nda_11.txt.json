@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "nda_11.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "forthwith upon receipt of a written request from the Disclosing Party or upon termination: (i) return all information supplied by the Disclosing Party as well as items and materials relating to or derived from the Information; (ii) deliver to the Disclosing Party or at its request destroy immediately all items and materials made by the Receiving Party containing Information, that are not returned pursuant to paragraph (i) above; (iii) not keep copies or duplicates of any items or materials referred to in paragraphs (i) or (ii) above",
+        "changed_text": "forthwith upon receipt of a written request from the Disclosing Party or upon termination, the Receiving Party may retain all information supplied by the Disclosing Party as well as items and materials relating to or derived from the Information, and may keep copies or duplicates of any items or materials.",
+        "explanation": "The original text mandates the return or destruction of all confidential information upon request or termination, but the modified text allows the Receiving Party to retain all information and make copies, directly contradicting the obligation to return or destroy the information. This contradicts section 4, which speaks to the exceptions for information to which the agreement shall not apply.",
+        "location": "3",
+        "contradicted_location": "4",
+        "contradicted_text": "This Agreement shall not apply to any Information which the Receiving Party: (a) can show is or becomes publicly available through no fault of the Receiving Party; (b) can show was in its possession prior to the date of disclosure; (c) may subsequently receive from any third party legally in possession of the Information and who was not restricted from disclosing it; (d) can show is independently acquired by the Receiving Party as a result of work carried out by an employee, consultant or contractor of the Receiving Party to whom no disclosure of Information has been made; or (e) is required to disclose pursuant to a court order or relevant stock exchange provided that the Receiving Party shall have given prior written notice to the Disclosing Party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly allows the Receiving Party to retain and copy confidential information, which directly contradicts the original text's requirement to return or destroy such information upon request or termination. This also contradicts the contradicted text, which outlines exceptions to the agreement's confidentiality, because the changed text now gives the Receiving Party rights to retain information far beyond those exceptions. The change fundamentally alters the obligations regarding confidential information, creating a clear in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "All additions or modifications to this Agreement must be made in writing and must be signed by both parties.",
+        "changed_text": "The Disclosing Party may unilaterally modify this Agreement at any time by providing written notice to the Receiving Party.",
+        "explanation": "The original text requires mutual agreement in writing for any modifications, but the modified text allows the Disclosing Party to unilaterally modify the agreement with only written notice. This directly contradicts the requirement for mutual consent for changes. This contradicts section 7, where it says 'Notices shall be delivered personally, or by prepaid first class mail, or transmitted by email to the parties at such address or number as the parties shall specify from time to time.'",
+        "location": "6",
+        "contradicted_location": "7",
+        "contradicted_text": "Notices shall be delivered personally, or by prepaid first class mail, or transmitted by email to the parties at such address or number as the parties shall specify from time to time.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires mutual agreement for modifications, while the changed text permits unilateral modification by the Disclosing Party. This directly contradicts the fundamental requirement for mutual consent previously established. The contradicted text (Notices...) is relevant because it defines how notices should be delivered, but the change circumvents the original agreement process. This is a structural flaw, as defined in the instructions, creating a direct and strong contradiction within the document."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Agreement is governed by and shall be construed in accordance with the laws of England and the parties submit to the nonexclusive jurisdiction of the English Courts.",
+        "changed_text": "This Agreement is governed by and shall be construed in accordance with the laws of Delaware, USA, and the parties submit to the exclusive jurisdiction of the Delaware courts.",
+        "explanation": "The original text specifies English law and non-exclusive jurisdiction, but the modified text changes the governing law to Delaware and establishes exclusive jurisdiction in Delaware courts. This directly contradicts the original jurisdiction clause, creating uncertainty about which legal system applies. This contradicts the page footer 'Secure Transportation Ltd NDA Page 2For and on behalf of SECURE TRANSPORTATION LIMITED'.",
+        "location": "8",
+        "contradicted_location": "Secure Transportation Ltd NDA Page 2",
+        "contradicted_text": "Secure Transportation Ltd NDA Page 2For and on behalf of SECURE TRANSPORTATION LIMITED Signed __________________________ Name __________________________ Title __________________________ Date __________________________For and on behalf of _________________________________ Signed __________________________ Name __________________________ Title __________________________ Date __________________________",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies English law, which implies that Secure Transportation Ltd. is operating under English law. The changed text alters the governing law to Delaware, USA, while the contradicted text explicitly states 'Secure Transportation Ltd NDA Page 2For and on behalf of SECURE TRANSPORTATION LIMITED'. This creates a strong contradiction because the document now simultaneously implies it's governed by Delaware law and that Secure Transportation Ltd. is bound by it, while also being 'on behalf' of an entity seemingly related to English law in the contradicted text. This creates a contradiction of which party is responsible for the NDA."
+      }
+    ]
+  }
+]

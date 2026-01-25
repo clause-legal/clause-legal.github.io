@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "annex-2-sample-non-disclosure-agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The obligations of each of the Parties with respect to Confidential Information shall extend for a period of three (3) years following the date of disclosure of that Confidential Information; provided, however, that confidentiality obligations herein shall survive for a period of three (3) years from the date of termination of this Agreement",
+        "changed_text": "The obligations of each of the Parties with respect to Confidential Information shall extend for a period of three (3) years following the date of disclosure of that Confidential Information;",
+        "explanation": "By removing the condition that 'confidentiality obligations herein shall survive for a period of three (3) years from the date of termination of this Agreement', the agreement creates a contradiction. Now the obligations expire after three years of disclosure even if the agreement is terminated much later, therefore creating an uncertainty of when exactly it is supposed to remain in force.",
+        "location": "3.g",
+        "contradicted_location": "3.g",
+        "contradicted_text": "The obligations of each of the Parties with respect to Confidential Information shall extend for a period of three (3) years following the date of disclosure of that Confidential Information;",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified that confidentiality obligations survive for three years from the termination of the agreement. The changed text removes this provision, stating that confidentiality obligations only extend for three years following the date of disclosure. This creates a contradiction because the agreement now lacks clarity on whether confidentiality continues after termination if that termination occurs more than three years after disclosure, thereby directly contradicting the contradicted text where the agreement extends for a period of three years following the date of disclosure of that Confidential Information."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "As shown by reasonably documented proof, was in the other’s lawful possession without restriction on use or disclosure prior to receipt thereof from the disclosing Party; or b. As shown by reasonably documented proof, was received by one Party in good faith from a third party not subject to a confidential obligation to the other Party and without breach of this Agreement",
+        "changed_text": "As shown by reasonably documented proof, was in the other’s lawful possession without restriction on use or disclosure prior to receipt thereof from the disclosing Party; or b. Was received by one Party in good faith from a third party not subject to a confidential obligation to the other Party and without breach of this Agreement",
+        "explanation": "By removing 'As shown by reasonably documented proof', from section 4.b, it creates a contradiction. Section 4.a still requires 'reasonably documented proof', to show that information already in possession, but 4.b can make the same argument but now without any need to be documented. This introduces inconsistencies in the evidentiary standard needed to assert the exception.",
+        "location": "4.b",
+        "contradicted_location": "4.b",
+        "contradicted_text": "Was received by one Party in good faith from a third party not subject to a confidential obligation to the other Party and without breach of this Agreement",
+        "contradiction_exists": "YES",
+        "justification": "The removal of 'As shown by reasonably documented proof' from section 4.b, as explained in the 'Perturbation Explanation', creates a contradiction with section 4.a which still requires 'reasonably documented proof'. This introduces an inconsistency in the evidentiary standard needed, which is a strong contradiction. This aligns with the 'Omissions - In Text Contradiction' definition."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Parties hereby consent to the exclusive jurisdiction of the courts of England and consent that all personal service of process be made by certified mail or registered mail directed to the address stated herein and service so made shall be deemed to be completed upon actual receipt thereof. The Parties waive any objection to jurisdiction and venue of any action instituted against it in England, and agree not to assert any defense based on lack of jurisdiction or venue.",
+        "changed_text": "The Parties hereby consent to the exclusive jurisdiction of the courts of England and consent that all personal service of process be made by certified mail or registered mail directed to the address stated herein. The Parties waive any objection to jurisdiction and venue of any action instituted against it in England, and agree not to assert any defense based on lack of jurisdiction or venue.",
+        "explanation": "By removing 'and service so made shall be deemed to be completed upon actual receipt thereof', it creates a contradiction. Although both parties agree to the process of delivery, it becomes unclear when the service is deemed 'completed', potentially complicating court proceedings.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "The Parties hereby consent to the exclusive jurisdiction of the courts of England and consent that all personal service of process be made by certified mail or registered mail directed to the address stated herein. The Parties waive any objection to jurisdiction and venue of any action instituted against it in England, and agree not to assert any defense based on lack of jurisdiction or venue.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly states that service is deemed complete upon actual receipt. By removing 'and service so made shall be deemed to be completed upon actual receipt thereof' in the changed text, the contract now lacks a defined point at which service is considered complete. This creates a direct contradiction with the contradicted text because the contradicted text relies on personal service of process to be made, which implies that the service of process has a completion point. Without defining when service is completed, it creates uncertainty and potential disputes, creating a strong in-text contradiction as per the Omissions - In Text Contradiction definition."
+      }
+    ]
+  }
+]

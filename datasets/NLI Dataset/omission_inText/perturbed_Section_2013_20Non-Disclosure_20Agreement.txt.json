@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "Section%2013%20Non-Disclosure%20Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "1.4 “Information ” means all information in whatever form including, wi thout limitation, any information relating to systems, operations, plans, in tentions, market opportunities, know-how, trade secrets and business affairs whether in writing, conveyed orally or by machine-readable medium; and",
+        "changed_text": "1.4 “Information ” means all information in whatever form including, wi thout limitation, any information relating to systems, operations, plans, intentions. Information conveyed orally is excluded from this definition; and",
+        "explanation": "By changing the definition of information and excluding 'information conveyed orally' creates a contradiction as several clauses reference disclosure without specifying the medium, implying it covers verbal information as well. For example 2.1 refers to 'communicate or disclose (whether in writing or orally)'",
+        "location": "1.4",
+        "contradicted_location": "2.1",
+        "contradicted_text": "All Confidential Information given by one party to th is Agreement (the “Disclosing Party”) to the other party (the “Receiving Party”) will be treated by the Receiving Party as secret and confidential and will not, without the Disclosing Pa rty’s written consent, directly or indirectly communicate or disclose (whether in writing or orally o r in any other manner) Confidential Information to any other person other than in accord ance with the terms of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text included orally conveyed information in the definition of 'Information'. The changed text explicitly excludes 'information conveyed orally' from the definition. The contradicted text refers to 'communicate or disclose (whether in writing or orally)' which is directly contradicted by the change in definition of information, thus creating an in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "2.2 The Receiving Party will only use the Confidential Infor mation for the sole purpose of technical and commercial discussions between the parties in relati on to the Proposal or for the subsequent performance of any contract between the parties in relat ion to the Proposal.",
+        "changed_text": "2.2 The Receiving Party will only use the Confidential Infor mation for the sole purpose of technical discussions between the parties in relati on to the Proposal.",
+        "explanation": "By removing 'commercial discussions' and 'subsequent performance of any contract between the parties in relation to the Proposal', the clause now restricts the use of information to a much narrower scope. This creates a contradiction when later clauses assume broader use of the information.",
+        "location": "2.2",
+        "contradicted_location": "4.2",
+        "contradicted_text": "Neither party shall make use of the other party’s name or any information acquired through its dealings with the other party for publicity or market ing purposes without the prior written consent of the other party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed the Receiving Party to use Confidential Information for 'technical and commercial discussions' and 'subsequent performance of any contract'. The changed text narrows this scope to only 'technical discussions'. The contradicted text states that 'Neither party shall make use of the other party’s name or any information acquired through its dealings with the other party for publicity or market ing purposes'. The original text allows for information acquired through commercial discussions or contract performance, thus the changed text now restricts the use of information to only technical discusions, but the contradicted text assumes more information than just that is being used, which creates a strong contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "3.3 The Company shall, within 7 (seven) days of receipt of a written demand from Transnet: a) return all written Confidential Information (including all copies); and b) expunge or destroy any Confidential Information from an y computer, word processor or other device whatsoever into which it was copied, read o r programmed by the Company or on its behalf.",
+        "changed_text": "3.3 The Company shall, within 7 (seven) days of receipt of a written demand from Transnet: a) return all written Confidential Information (including all copies).",
+        "explanation": "By removing the part b from this section. The company doesn't need to destroy any Confidential information, from any computer, word processor or other device. But still needing to return all written confidetial information. If the company keeps an electronic version and the written version, they still are complying with section 3.3 but not really. This is creating a contradiction in the spirit of the non disclosure.",
+        "location": "3.3",
+        "contradicted_location": "3.1",
+        "contradicted_text": "The Receiving Party agrees to ensure proper and secure sto rage of all Information and any copies thereof.",
+        "contradiction_exists": "YES",
+        "justification": "The original text required the company to return *and* destroy confidential information. The changed text only requires the return of written confidential information. This directly contradicts the 'Contradicted Text' which states the Receiving Party agrees to ensure proper and secure storage of *all* Information and any copies thereof. Now that the company only needs to return the physical copies, and not destroy the electronic ones, they can keep them and not securely store them. Thus there's a contradiction between the two sections."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "5 DURATION The obligations of each party and its Agents under thi s Agreement shall survive the termination of any discussions or negotiations between the parties regardi ng the Proposal and continue thereafter for a period of 5 (five) years.",
+        "changed_text": "5 DURATION The obligations of each party and its Agents under thi s Agreement shall survive the termination of any discussions or negotiations between the parties regardi ng the Proposal and continue thereafter for a period of 1 (one) year.",
+        "explanation": "Changing the duration of the obligations from 5 years to 1 year creates a contradiction when considering the potential long-term impact of disclosed confidential information and any legal pursuits. This timeframe may be insufficient to protect intellectual property or trade secrets, as 1 year could be not enough time to detect violations that may appear after the year has passed.",
+        "location": "5",
+        "contradicted_location": "7",
+        "contradicted_text": "Nothing contained in this Agreement shall be construed as prohibiting the Disclosing Party from pursuing any other remedies available to it, either at law or in equity, for any such threatened or actual breach of this Agreement, including specific performance, recovery of damages or otherwise.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text reduces the duration of obligations from 5 years to 1 year. This contradicts the 'Contradicted Text' which allows the Disclosing Party to pursue remedies for breaches of the agreement. A 1-year period may be insufficient to discover and pursue legal remedies for breaches, thereby contradicting the Disclosing Party's right to pursue such remedies in the contradicted text. Therefore, the change creates a strong in-text contradiction as per the Omissions - In Text Contradiction definition."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "8.1 The Receiving Party undertakes to comply with South A frica’s general privacy protection in terms of the Bill of Rights (Section 14) in connection wit h this Proposal and shall procure that its personnel shall observe the provisions of such Act (as applicable) or any amendments and re- enactments thereof and any regulations made pursuant the reto.",
+        "changed_text": "8.1 The Receiving Party will try to comply with South A frica’s general privacy protection in terms of the Bill of Rights (Section 14) in connection wit h this Proposal.",
+        "explanation": "By changing from an 'undertaking to comply' to 'will try to comply', the obligation becomes significantly weaker. This introduces a contradiction because other sections assume a strict adherence to privacy laws, and shifting to 'will try' implies non-compliance is acceptable, thus contradicting the expected level of protection.",
+        "location": "8.1",
+        "contradicted_location": "8.2",
+        "contradicted_text": "The Receiving Party warrants that it and its Agents ha ve the appropriate technical and organisational measures in place against unauthorised o r unlawful processing of data relating to the Proposal and against accidental loss or destructi on of, or damage to such data held or processed by them.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states 'The Receiving Party undertakes to comply' which implies a strict obligation. The changed text weakens this obligation to 'will try to comply'. The contradicted text states 'The Receiving Party warrants that it... ha ve the appropriate technical and organisational measures in place'. By weakening the obligation to comply with privacy laws, the change introduces a contradiction with the warranted measures, because 'trying' to comply doesn't guarantee the 'appropriate measures' are in place. Therefore, the modified text creates a strong in-text contradiction."
+      }
+    ]
+  }
+]

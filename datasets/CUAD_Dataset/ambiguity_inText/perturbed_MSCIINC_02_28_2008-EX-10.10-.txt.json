@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "MSCIINC_02_28_2008-EX-10.10-.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "1.1 Certain Definitions. As used in this Agreement: (a) \"Including\" and its derivatives, each whether or not capitalized in this Agreement, means \"including but not limited to\".",
+        "changed_text": "1.1 Certain Definitions. As used in this Agreement: (a) \"Including\" and its derivatives, each whether or not capitalized in this Agreement, means \"limited to the items listed and nothing else\".",
+        "explanation": "This change alters the interpretation of 'including'. Originally, it was illustrative, meaning the list was not exhaustive. Now, it's restrictive, limiting the scope to only the items listed. This creates a contradiction if other sections assume a broader interpretation of terms introduced with 'including'. The term 'Including' is being redefined in a restrictive manner which will contradict in later locations where an including statements suggests is more inclusive.",
+        "location": "Section 1.1",
+        "contradicted_location": "Section 1.1 (c)",
+        "contradicted_text": "(c) \"MS Licensed Materials\" means collectively, to the extent owned by a member of the MS Provider Group, any hardware settings and configurations, generic software libraries and routines, and generic document templates not separately commercialized by the MS Provider Group (as defined below) and used by MSCI prior to the Trigger Date. For the avoidance of doubt, the MS Licensed Materials does not include (i) any patent, trademark or service mark of the MS Provider Group, or (ii) any infrastructure hardware or software (e.g., monitoring software and systems, customized operating systems (and components such as AFS, DNS, AD, etc.), and middleware). For the avoidance of doubt, the document templates do not include any references to members of the MS Provider Group or its personnel.",
+        "contradiction_exists": "YES",
+        "justification": "The changed definition of 'Including' restricts its meaning to 'limited to the items listed and nothing else'. This directly contradicts the contradicted text where 'MS Licensed Materials' are defined using 'including' in a way that implies an open-ended, illustrative list ('any hardware settings and configurations, generic software libraries and routines, and generic document templates...'). The restrictive definition introduced by the change now conflicts with the illustrative usage in the contradicted section, creating an in-text contradiction as per the 'Ambiguities – In Text Contradiction' definition. This difference in how 'including' is meant to be understood creates ambiguity and potential for disputes over the scope of 'MS Licensed Materials'."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "2.  GRANT OF LICENSE 2.1 MS Grant. MS hereby grants (subject to any existing third party contractual obligations) to MSCI a non-exclusive, perpetual, irrevocable, world- wide, royalty-free license for MSCI to use, modify, copy, create derivative works of and sublicense, for any business purpose, the MS Licensed Materials.",
+        "changed_text": "2.  GRANT OF LICENSE 2.1 MS Grant. MS hereby grants (subject to any existing third party contractual obligations) to MSCI a non-exclusive, perpetual, but revocable with a 30 day notice, world- wide, royalty-free license for MSCI to use, modify, copy, create derivative works of and sublicense, for any business purpose, the MS Licensed Materials.",
+        "explanation": "The word 'irrevocable' has been changed to 'revocable with a 30 day notice'. In this context, the license grant was initially designed to be permanent and unchangeable. By making it revocable, it introduces uncertainty regarding the long-term rights of MSCI. This undermines the intended security and permanence of the license. This creates an in-text contradiction because in the same paragraph it says the license is 'perpetual' and contradicts the meaning of perpertual",
+        "location": "Section 2.1",
+        "contradicted_location": "Section 2.1",
+        "contradicted_text": "2.  GRANT OF LICENSE 2.1 MS Grant. MS hereby grants (subject to any existing third party contractual obligations) to MSCI a non-exclusive, perpetual, but revocable with a 30 day notice, world- wide, royalty-free license for MSCI to use, modify, copy, create derivative works of and sublicense, for any business purpose, the MS Licensed Materials.",
+        "contradiction_exists": "YES",
+        "justification": "The modification changes 'irrevocable' to 'revocable with a 30 day notice' while the license is stated to be 'perpetual'. A perpetual license cannot be revocable, as 'perpetual' implies permanence. This creates a direct in-text contradiction regarding the nature and duration of the license granted, causing uncertainty and potential unenforceability. This creates ambiguity and is a direct contradiction"
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "6.4 Entire Agreement. This Agreement constitutes the entire agreement between the parties with respect to the subject matter hereof and supersede all prior agreements, understandings and negotiations, both written and oral, between the parties with respect to the subject matter hereof.",
+        "changed_text": "6.4 Entire Agreement. This Agreement constitutes the entire agreement between the parties with respect to the subject matter hereof and supersede all prior agreements, understandings and negotiations, both written and oral, between the parties with respect to the subject matter hereof. However, any previously agreed upon amendments to separate sub-agreements related to the subject matter hereof are still considered binding.",
+        "explanation": "This edit inserts an exception to the entire agreement clause. Typically, an entire agreement clause means only the written contract matters. But the inserted text states that prior agreed to amendments to separate sub-agreements are still binding, creating a contradiction of what constitutes the 'entire agreement.'",
+        "location": "Section 6.4",
+        "contradicted_location": "Section 6.4",
+        "contradicted_text": "6.4 Entire Agreement. This Agreement constitutes the entire agreement between the parties with respect to the subject matter hereof and supersede all prior agreements, understandings and negotiations, both written and oral, between the parties with respect to the subject matter hereof. However, any previously agreed upon amendments to separate sub-agreements related to the subject matter hereof are still considered binding.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that the agreement constitutes the entire agreement, superseding all prior agreements. The changed text introduces an exception, stating that previously agreed-upon amendments to separate sub-agreements are still binding. This creates a direct contradiction, as the original 'entire agreement' clause is now explicitly not the entire agreement, due to the exception for prior amendments. The 'Contradicted Text' and 'Changed Text' are in the same location."
+      }
+    ]
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "annex-iii---nda-agreement..txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "In this agreement the fo llowing words have the meanings given to them below: “confidential information” means any information disclosed by one party to the other party in connection with the purpose, which is of a confidential nature irrespective of whether it is marked as such .",
+        "changed_text": "In this agreement the fo llowing words have the meanings given to them below: “confidential information” means any information disclosed by one party to the other party in connection with the purpose, which is of a confidential nature only if it is explicitly marked as such.",
+        "explanation": "This change adds an explicit condition ('only if it is explicitly marked as such') to the definition of 'confidential information' which contradicts the original definition in Section 1 which states 'irrespective of whether it is marked as such'.",
+        "location": "1",
+        "contradicted_location": "1",
+        "contradicted_text": "In this agreement the fo llowing words have the meanings given to them below: “confidential information” means any information disclosed by one party to the other party in connection with the purpose, which is of a confidential nature irrespective of whether it is marked as such . “disclosing party” means the party to this agreement disclosing the confidential information. “PwC firm” means any entity or partnership within the worldwide network of PricewaterhouseCoopers firms and entities. “receiving party” means the party to this agreement to whom the confidential information is disclosed.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the definition of 'confidential information' by adding the condition that it is confidential 'only if it is explicitly marked as such'. This directly contradicts the contradicted text which states that 'confidential information' is confidential 'irrespective of whether it is marked as such'. This is a clear and direct conflict in the definition of a key term, causing a strong in-text contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "2.1 The receiving party agrees: (a) to keep the disclosing party’s confidential information, confidential; (b) not to use the disclosing party’s confidential information except in connection with the purpose; and (c) not to disclose the disclosing party’s confidential information to anyone else.",
+        "changed_text": "2.1 The receiving party agrees: (a) to keep the disclosing party’s confidential information, confidential, except when the receiving party deems disclosure necessary for its own business interests; (b) not to use the disclosing party’s confidential information except in connection with the purpose; and (c) not to disclose the disclosing party’s confidential information to anyone else.",
+        "explanation": "Clause 2.1(a) is changed to allow the receiving party to disclose confidential information when it deems it necessary for its own business interests. This directly conflicts with the original intent of Section 2.1, which demands strict confidentiality.",
+        "location": "2.1",
+        "contradicted_location": "2.1",
+        "contradicted_text": "2 Confidentiality 2.1 The receiving party agrees: (a) to keep the disclosing party’s confidential information, confidential; (b) not to use the disclosing party’s confidential information except in connection with the purpose; and (c) not to disclose the disclosing party’s confidential information to anyone else. 2.2 Each party agrees that it will keep the purpose and the existence of this agreement confidential.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an exception to the confidentiality obligation in Section 2.1(a), allowing disclosure when the receiving party deems it necessary for its own business interests. This directly contradicts the original clause in both the original and contradicted text, which strictly mandates keeping the disclosing party's confidential information confidential without exceptions. This creates a clear and direct conflict, making the confidentiality obligation ambiguous and potentially unenforceable."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "2.3 This agreement will not apply to information which: (a) is publicly available; or (b) has been received from someone else who owes no duty of confidence in relation to it; or (c) was already known by the receiving party.",
+        "changed_text": "2.3 This agreement will not apply to information which: (a) is publicly available; or (b) has been received from someone else who owes no duty of confidence in relation to it, provided the receiving party can prove such lack of duty of confidence to the disclosing party's satisfaction; or (c) was already known by the receiving party.",
+        "explanation": "This change introduces a requirement for the receiving party to *prove* the lack of a duty of confidence to the disclosing party's satisfaction, creating ambiguity. The original clause simply stated that information received from someone without a duty of confidence was not covered; adding the proof requirement shifts the burden and creates a potential conflict.",
+        "location": "2.3",
+        "contradicted_location": "2.3",
+        "contradicted_text": "2.3 This agreement will not apply to information which: (a) is publicly available; or (b) has been received from someone else who owes no duty of confidence in relation to it; or (c) was already known by the receiving party. 2.4 Nothing i n this agreement will prevent the receiving party from disclosing confidential information: (a) if the disclosing party has given its prior written consent; or (b) to its lawyers; or (c) if the disclosure is required by law, regulation or professional requirements; or (d) in the case of PwC, to other PwC firms or relevant subcontractors.",
+        "contradiction_exists": "YES",
+        "justification": "The change to section 2.3 introduces a requirement for the receiving party to prove the lack of a duty of confidence, which directly contradicts the original unqualified statement in the contradicted text that information received from someone without a duty of confidence is simply not covered. This shifts the burden of proof and creates a conflict regarding the obligations of the receiving party, fitting the 'Ambiguities - In Text Contradiction' definition because it makes the interpretation of obligations unclear."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "3.1 This agreement will come into effect on the date of signature by both parties and will continue indefinitely, subject to any subsequent agreement entered into between the parties in relation to the purpose which includes obligations relating to the protecti on of confidential information. The subsequent agreement will then replace this agreement with effect from the commencement of our services.",
+        "changed_text": "3.1 This agreement will come into effect on the date of signature by both parties and will continue for a period of two years, unless otherwise agreed in writing by both parties. Any subsequent agreement entered into between the parties in relation to the purpose will not automatically replace this agreement, unless explicitly stated in the subsequent agreement.",
+        "explanation": "The term is now limited to two years, contradicting the original indefinite duration. The change also states the subsequent agreement will not automatically replace the original unless explicitly stated, contradicting the initial clause which implies automatic replacement.",
+        "location": "3.1",
+        "contradicted_location": "3.1",
+        "contradicted_text": "3 Term 3.1 This agreement will come into effect on the date of signature by both parties and will continue indefinitely, subject to any subsequent agreement entered into between the parties in relation to the purpose which includes obligations relating to the protecti on of confidential information. The subsequent agreement will then replace this agreement with effect from the commencement of our services. 3.2 Following a written request from the disclosing party, the receiving party will, as soon as practicable, either de stroy or return all confidential information to the disclosing party or, in the case of electronic copies of confidential information, delete them or make them reasonably inaccessible. However, PwC may retain a copy of the confidential information for our internal purposes.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a contradiction. The original text and the contradicted text state that the agreement continues indefinitely, but the changed text limits it to two years. Also, the original agreement states that any subsequent agreement will replace the original one, but the changed text states that a subsequent agreement will not automatically replace the original unless explicitly stated. Therefore, this creates a direct conflict within the document and adheres to the definition of 'Ambiguities - In Text Contradiction'."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "3.2 Following a written request from the disclosing party, the receiving party will, as soon as practicable, either de stroy or return all confidential information to the disclosing party or, in the case of electronic copies of confidential information, delete them or make them reasonably inaccessible. However, PwC may retain a copy of the confidential information for our internal purposes.",
+        "changed_text": "3.2 Following a written request from the disclosing party, the receiving party will make reasonable efforts to either destroy or return all confidential information to the disclosing party or, in the case of electronic copies of confidential information, delete them or make them reasonably inaccessible. PwC is not required to destroy or return confidential information under any circumstances.",
+        "explanation": "The original text required the receiving party to destroy or return information 'as soon as practicable,' whereas the modified text only requires 'reasonable efforts.' Additionally, the clause regarding PwC's retention of information is changed from 'may retain' to 'is not required', which directly contradicts the obligation for the receiving party to destroy/return and the allowance for PwC.",
+        "location": "3.2",
+        "contradicted_location": "3.2",
+        "contradicted_text": "3.2 Following a written request from the disclosing party, the receiving party will, as soon as practicable, either de stroy or return all confidential information to the disclosing party or, in the case of electronic copies of confidential information, delete them or make them reasonably inaccessible. However, PwC may retain a copy of the confidential information for our internal purposes.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies section 3.2, altering the requirement for the receiving party from destroying or returning information 'as soon as practicable' to making 'reasonable efforts.' It also changes the condition regarding PwC's retention of information from 'may retain' to 'is not required', which contradicts the original obligation. Because the changed text is also the contradicted text, this creates a clear contradiction, as it modifies the original requirements of the contract. This fits the definition of 'Ambiguities - In Text Contradiction'."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This agreement forms the entire agreement between the parties relating to confidential information disclosed in connection with the purpose. It replaces any earlier agreements, representations or discussions.",
+        "changed_text": "This agreement represents a general understanding between the parties relating to confidential information disclosed in connection with the purpose. It does not necessarily replace any earlier agreements, representations or discussions, which may remain valid.",
+        "explanation": "The original text states that the agreement forms the 'entire agreement' and 'replaces any earlier agreements'. The changed text states it is merely a 'general understanding' and 'does not necessarily replace' earlier agreements, creating a direct contradiction about the binding nature and completeness of the document.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "4 General This agreement forms the entire agreement between the parties relating to confidential information disclosed in connection with the purpose. It replaces any earlier agreements, representations or discussions. Neither party excludes liability for any fraud.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the agreement is the 'entire agreement', while the changed text says it's a 'general understanding' and doesn't necessarily replace earlier agreements. This directly contradicts the contradicted text (which is the same as the original text), which states the agreement 'forms the entire agreement' and 'replaces any earlier agreements'. This creates a clear and strong in-text contradiction regarding the completeness and binding nature of the agreement, fitting the Ambiguities - In Text Contradiction definition."
+      }
+    ]
+  }
+]

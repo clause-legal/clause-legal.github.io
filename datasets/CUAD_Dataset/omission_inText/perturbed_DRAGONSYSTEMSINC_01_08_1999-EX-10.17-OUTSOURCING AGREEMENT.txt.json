@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "DRAGONSYSTEMSINC_01_08_1999-EX-10.17-OUTSOURCING AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Payments will be due in US dollars within 30 days after delivery, or when agreed after delivery of installments or the receipt of invoice by Dragon Systems, which ever is later.",
+        "changed_text": "Payments will be due in US dollars after delivery, or when agreed after delivery of installments or the receipt of invoice by Dragon Systems, which ever is later.",
+        "explanation": "By removing the phrase \"within 30 days\" the payment terms become ambiguous. Section 5 initially specifies a 30-day payment window after delivery, but now it lacks this timeframe. Because we removed \"within 30 days\", there is an in-text contradiction in enforcement of the payments.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "PAYMENT AND PRICING Dragon Systems will compensate MMI for all Services rendered in accordance with the rates specified in the Annex \"Prices.\" Unless otherwise agreed, prices shall exclude transport, insurance, VAT and Import duties (outside EC countries) to Dragon Systems' designated delivery address. For all materials in stock, older than 90 days, MMI will charge Dragon Systems with an Inventory Carriage Charge of [**] of its value per month. MMI will invoice Dragon Systems based on actual shipments that have been performed. Payments will be due in US dollars after delivery, or when agreed after delivery of installments or the receipt of invoice by Dragon Systems, which ever is later. MMI shall invoice Dragon Systems indicating the performed services in US$ with reference to this Agreement. Dragon Systems shall be entitled to deduct from or set off against any sums which Dragon Systems may be liable to pay to MMI any amounts owed by MMI, its affiliated entities, subsidiaries or successors in interest.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies 'Payments will be due in US dollars within 30 days after delivery'. The changed text removes 'within 30 days', creating ambiguity. The 'Contradicted Text' section relies on the understanding of a payment timeframe, but now the timeframe is undefined. The removal of 'within 30 days' directly contradicts the expectation of a 30 day window, because that window no longer exists within the contract, leading to an omission and in-text contradiction as per Perturbation Definitions 2 and 5."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Quality and Services Level Agreements will be based on mutual agreement.",
+        "changed_text": "Quality and Services Level Agreements will be determined.",
+        "explanation": "The original agreement indicates mutual agreement as the base for the quality and services level agreements. After the change, there is no defined base for it. It is stated that it \"will be determined\", but not specifying if both parties will determine. Making it a one sided decision. This creates an in-text contradiction on how these agreements will be made.",
+        "location": "2",
+        "contradicted_location": "3",
+        "contradicted_text": "DELIVERY MMI shall deliver the Services in line with the agreed service levels to Dragon Systems. 2 Confidential Materials omitted and filed separately with the Securities and Exchange Commission. Asterisks denote omissions.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that \"Quality and Services Level Agreements will be based on mutual agreement.\" The changed text, \"Quality and Services Level Agreements will be determined,\" removes the requirement of mutual agreement. This contradicts the contradicted text, \"DELIVERY MMI shall deliver the Services in line with the agreed service levels to Dragon Systems,\" because if the service levels are not mutually agreed upon, it's unclear whether the 'agreed' service levels mentioned in the contradicted text still hold, creating a strong contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "MMI warrants that the Services supplied to Dragon Systems will not infringe any third parties' intellectual property rights. MMI will defend and indemnity Dragon Systems against a claim that the Services supplied hereunder infringe a patent or copyright and will pay resulting costs and damages provided that Dragon Systems (i) promptly informs MMI in writing of the claim and (ii) gives MMI sole control of the defense and all related settlement negotiations.",
+        "changed_text": "MMI warrants that the Services supplied to Dragon Systems will not infringe any third parties' intellectual property rights. MMI will defend and indemnity Dragon Systems against a claim that the Services supplied hereunder infringe a patent or copyright provided that Dragon Systems (i) promptly informs MMI in writing of the claim and (ii) gives MMI sole control of the defense and all related settlement negotiations.",
+        "explanation": "By omitting \"and will pay resulting costs and damages\", Section 10, removes the responsibility from MMI to pay for resulting costs and damages in case of copyright infringement. This creates an in-text contradiction because MMI warrants that the Services supplied will not infringe on any third-party copyright, but if the services happen to infringe, MMI will defend and indemnity the Dragon Systems, but no longer pay for it.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "PATENTS AND COPYRIGHT MMI warrants that the Services supplied to Dragon Systems will not infringe any third parties' intellectual property rights. MMI will defend and indemnity Dragon Systems against a claim that the Services supplied hereunder infringe a patent or copyright provided that Dragon Systems (i) promptly informs MMI in writing of the claim and (ii) gives MMI sole control of the defense and all related settlement negotiations. MMI will either procure the right for Dragon Systems to continue using the Services or replace or modify them so that they become non-infringing or accept return of the Services for a credit equal to the price paid by Dragon Systems.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that MMI will defend and indemnify Dragon Systems against claims of infringement and *will pay resulting costs and damages*. The changed text omits the phrase \"and will pay resulting costs and damages\", thus removing MMI's obligation to pay for infringement costs. The contradicted text still states that MMI warrants that the services will not infringe and implies MMI would be responsible for costs if the services did infringe. Because the changed text removes the payment obligation that is implied in the contradicted text and included in the orignal text, there is now a strong in-text contradiction as MMI now has a right to not pay. This aligns with the definition of \"Omissions – In Text Contradiction: Omissions occur when essential language is removed or altered in one section, creating a contradiction with obligations or constraints stated in other sections.\""
+      }
+    ]
+  }
+]

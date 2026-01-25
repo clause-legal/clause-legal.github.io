@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "DRAGONSYSTEMSINC_01_08_1999-EX-10.17-OUTSOURCING AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "MMI will produce products for Dragon Systems on a Turnkey basis.",
+        "changed_text": "MMI will manufacture deliverables for Dragon Systems on a Turnkey basis.",
+        "explanation": "Changing 'products' to 'deliverables' introduces ambiguity. While 'products' typically implies physical goods, 'deliverables' is broader and could include services. This creates a contradiction in the context of the agreement, as the later sections refer to both services and materials, making it unclear if MMI is responsible for manufacturing only physical goods or a broader range of items including services.",
+        "location": "2",
+        "contradicted_location": "5",
+        "contradicted_text": "Dragon Systems will compensate MMI for all Services rendered in accordance with the rates specified in the Annex \"Prices.\" Unless otherwise agreed, prices shall exclude transport, insurance, VAT and Import duties (outside EC countries) to Dragon Systems' designated delivery address. For all materials in stock, older than 90 days, MMI will charge Dragon Systems with an Inventory Carriage Charge of [**] of its value per month. MMI will invoice Dragon Systems based on actual shipments that have been performed. Payments will be due in US dollars within 30 days after delivery, or when agreed after delivery of installments or the receipt of invoice by Dragon Systems, which ever is later. MMI shall invoice Dragon Systems indicating the performed services in US$ with reference to this Agreement. Dragon Systems shall be entitled to deduct from or set off against any sums which Dragon Systems may be liable to pay to MMI any amounts owed by MMI, its affiliated entities, subsidiaries or successors in interest.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies MMI producing 'products,' implying physical goods. The changed text broadens this to 'deliverables,' which can include services. The contradicted text explicitly mentions and prices 'Services rendered.' This creates a contradiction because it is unclear if MMI's obligation to manufacture 'deliverables' on a Turnkey basis now includes services, which are separately detailed and compensated in the contradicted text. The change creates ambiguity where the original text implies a narrower obligation. This aligns with the definition of Misaligned Terminology - In Text Contradiction, where the contract 'uses multiple terms interchangeably without defining them, leading to conflicting obligations.'"
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Quality and Services Level Agreements will be based on mutual agreement.",
+        "changed_text": "Quality and Performance Metrics will be based on mutual agreement.",
+        "explanation": "Replacing 'Services Level Agreements' with 'Performance Metrics' alters the scope. 'Service Level Agreements' (SLAs) are specific to services, while 'Performance Metrics' can apply to both services and products. This creates an in-text contradiction because other clauses refer specifically to 'Services,' creating uncertainty as to whether the performance metrics also encompass the 'deliverables' that MMI is suppose to manufacture in location 2, or only the services.",
+        "location": "2",
+        "contradicted_location": "6",
+        "contradicted_text": "WARRANTY MMI warrants providing the Services with due diligence and care in accordance with the specifications set by Dragon Systems. Should MMI not supply the Services as agreed or should the Services become defective within 6 months from their delivery to Dragon Systems, Dragon Systems may at its option require MMI to complete or re-perform the Services within a reasonable period of time, rescind the contract or refuse payment of the compensation in part or in total, notwithstanding any damage claims.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Services Level Agreements' to 'Performance Metrics' expands the scope to include both services and products/deliverables. However, the 'Contradicted Text' specifically warrants 'providing the Services'. This creates a contradiction because it's unclear whether the warranty also applies to the 'deliverables' MMI is suppose to manufacture, or only to the services. The warranty clause refers only to 'Services' and not 'deliverables', creating uncertainty and a potential in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "MMI warrants that the Services supplied to Dragon Systems will not infringe any third parties' intellectual property rights.",
+        "changed_text": "MMI represents that the Solutions provided to Dragon Systems will not infringe any third parties' intellectual property rights.",
+        "explanation": "Changing 'Services' to 'Solutions' broadens the scope of the warranty. 'Services' typically refers to the specific actions performed by MMI, whereas 'Solutions' could encompass the end result of those actions, including the manufactured products and services in location 2. This creates uncertainty as the indemnity clause is based on 'Services supplied hereunder,' but a claim might arise from the use of the manufactured product itself, which is now potentially covered under the broader term 'Solutions.' This creates an in-text contradiction.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "MMI will defend and indemnity Dragon Systems against a claim that the Services supplied hereunder infringe a patent or copyright and will pay resulting costs and damages provided that Dragon Systems (i) promptly informs MMI in writing of the claim and (ii) gives MMI sole control of the defense and all related settlement negotiations. MMI will either procure the right for Dragon Systems to continue using the Services or replace or modify them so that they become non-infringing or accept return of the Services for a credit equal to the price paid by Dragon Systems.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Services' to 'Solutions' broadens the warranty scope, potentially covering the end product and creating uncertainty. The contradicted text specifies indemnity against claims related to 'Services supplied hereunder,' while the changed text's 'Solutions' may include the manufactured product itself. This creates an in-text contradiction, as a claim arising from the product's use could fall under 'Solutions' but not the original 'Services,' thus conflicting with the indemnity clause's scope."
+      }
+    ]
+  }
+]

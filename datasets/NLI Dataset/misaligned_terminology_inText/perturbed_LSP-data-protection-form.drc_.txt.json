@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "LSP-data-protection-form.drc_.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Data Protection Act 1998 reiterates this point and makes it a legal requirement that effective agreements exist where a third party processes data. In addition for support functions that do not directly process d ata but may become party to it, it is a requirement to keep information confidential.",
+        "changed_text": "The Data Protection Act 1998 reiterates this point and makes it a legal requirement that effective agreements exist where a third party processes data. Furthermore, for support roles that do not handle data directly but might access it, maintaining information secrecy is necessary.",
+        "explanation": "Changing 'support functions' to 'support roles' and 'confidential' to 'secrecy' introduces ambiguity. Later sections might refer specifically to 'support functions', potentially excluding 'support roles' from those obligations. Using 'secrecy' implies a more stringent level of protection compared to the general 'confidential'.",
+        "location": "Background Information",
+        "contradicted_location": "7",
+        "contradicted_text": "7. Where the activities performed by the contractor (in this case LSP) do not require them to process information but they may become party to it by overse eing or overhearing, they will be required to keep such information confidential.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'support functions' to 'support roles' introduces ambiguity because the contradicted text specifies 'activities performed by the contractor (in this case LSP)' and refers to information that they 'may become party to it by overseeing or overhearing'. If 'support roles' are not considered part of the 'contractor', it creates a contradiction because they may not be required to keep the information confidential, whereas 'support functions' would have been explicitly included. Also, the change from 'confidential' to 'secrecy' implies a higher standard of protection in the changed text than the contradicted text requires. This misalignment in terminology, as defined in the perturbation type, creates a contradiction, potentially leading to conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "In addition the organisation requires any contracted individual or organisation (in this case LSPs) to respect any commercial confidentiality and intellectual property claimed by the organisation in the provision and handling of documentation and information.",
+        "changed_text": "Additionally, the Deafness Resource Centre requires any contracted individual or organisation (in this case LSPs) to respect any trade secrecy and intellectual property claimed by the Deafness Resource Centre in the provision and handling of documentation and information.",
+        "explanation": "Replacing 'commercial confidentiality' with 'trade secrecy' and 'organisation' with 'Deafness Resource Centre' creates ambiguity. While 'trade secrecy' might be interpreted as a subset of 'commercial confidentiality', it narrows the scope, potentially excluding other forms of confidential business information. Also replacing the term 'organisation' with 'Deafness Resource Centre' creates ambiguity as to whether the whole context and legal obligations applies to only the Deafness Resource Centre instead of a generic 'organisation'.",
+        "location": "Background Information",
+        "contradicted_location": "5",
+        "contradicted_text": "5. All personal identifiable information will be treated as confidential and will not be disclosed to any other persons outside the requi rements of the above agreed purpose(s), without agreement of the ‘data controller’. Any organisational information marked as ‘commercial’ or ‘sensitive’ or by implication of the subject could prejudice the commercial interests of either party will be treat ed as confidential.",
+        "contradiction_exists": "YES",
+        "justification": "The original text references 'organisation', implying a general requirement for any contracted entity. The changed text replaces 'organisation' with 'Deafness Resource Centre', narrowing the scope of confidentiality obligations. The contradicted text refers to 'organisational information' in a broader sense, including information from 'either party'. By specifically naming 'Deafness Resource Centre' in the changed text, it creates ambiguity and potential contradiction, as the 'either party' referenced in the contradicted text might no longer be consistently interpreted to include entities beyond the Deafness Resource Centre, thus creating ambiguity and misaligned terminology that causes a strong in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Any patient information, particularly their health or treatment details, is highly sensitive. If such information was leaked to the wrong people, it could cause s evere embarrassment to the patients concerned, their families and to the organisation.",
+        "changed_text": "Any client data, particularly their health or treatment details, is considered private. If such data was disclosed to unauthorized individuals, it could cause significant distress to the clients involved, their relatives, and the Deafness Resource Centre.",
+        "explanation": "Changing 'patient information' to 'client data', 'highly sensitive' to 'considered private', 'leaked' to 'disclosed', 'wrong people' to 'unauthorized individuals', 'severe embarrassment' to 'significant distress', and 'patients concerned, their families and to the organisation' to 'clients involved, their relatives, and the Deafness Resource Centre' introduces inconsistencies. The original text emphasizes the sensitivity and potential legal ramifications using strong language ('highly sensitive', 'leaked', 'severe embarrassment'). The revised language softens these aspects, potentially undermining the severity of a data breach and changing the entity affected.",
+        "location": "Background Information",
+        "contradicted_location": "8",
+        "contradicted_text": "8. Any breach of the terms of this agreement may result in termination of arrangements ( including formal contracts) and legal action may be taken.",
+        "contradiction_exists": "YES",
+        "justification": "The change softens the language and alters the scope of affected parties ('patient information' becomes 'client data', 'severe embarrassment' becomes 'significant distress', and the affected organization is changed to 'Deafness Resource Centre'). This contradicts the contradicted text, which states that 'any breach of the terms of this agreement may result in termination of arrangements ( including formal contracts) and legal action may be taken.' The original text's strong language ('highly sensitive', 'leaked', 'severe embarrassment') suggests a higher level of sensitivity and potential for legal action. By softening the language and changing the affected entity, the modified text undermines the severity of a potential data breach, potentially impacting the willingness to take legal action, creating a contradiction. This fits the definition of 'Misaligned Terminology - In Text Contradiction' because it uses multiple terms interchangeably without defining them, leading to conflicting obligations regarding the severity of a data breach and the response required."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Agreement: This agreement relates to requirements of the Data Protection Act 1998, the Human Rights Act 1998, the ‘common law duty of confidentiality’ and the Freedom of Information Act (2000).",
+        "changed_text": "The Contract: This contract pertains to mandates of the Data Protection Act 1998, the Human Rights Act 1998, the ‘common law duty of confidentiality’ and the Freedom of Information Act (2000).",
+        "explanation": "Switching the term 'Agreement' to 'Contract' introduces a subtle but potentially significant change in how the document is interpreted. Throughout the rest of the document, it refers to 'Agreement' introducing a level of inconsistently within the legal text. ",
+        "location": "The Agreement",
+        "contradicted_location": "8",
+        "contradicted_text": "8. Any breach of the terms of this agreement may result in termination of arrangements ( including formal contracts) and legal action may be taken.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Agreement' to 'Contract' creates a contradiction because the contradicted text refers to 'agreement'. The explanation states that the rest of the document refers to 'Agreement', so by changing it in the modified text, it creates a misalignment. Because the definition for Misaligned Terminology states that this leads to in-text contradictions when the contract uses multiple terms interchangeably without defining them, it causes conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The organisation (in this c ase LSP) is responsible for ensuring their staff/ sub-contractors adhere to the terms of this agreement.",
+        "changed_text": "The Deafness Resource Centre (in this case LSP) is accountable for guaranteeing its personnel/ sub-contractors comply with the stipulations of this agreement.",
+        "explanation": "Changing 'organisation' to 'Deafness Resource Centre', 'staff' to 'personnel', and 'adhere' to 'comply' creates inconsistencies. The document originally assigns responsibilities to the generic 'organisation'. By specifying 'Deafness Resource Centre,' it may imply that these responsibilities only apply to this specific entity, not other organizations mentioned elsewhere in the text. The change from 'staff' to 'personnel' could also cause confusion if 'staff' is used in other sections with a different meaning.",
+        "location": "9",
+        "contradicted_location": "1",
+        "contradicted_text": "1. The following terms apply where an organisation or its staff may gain access to, or have provided to it, personal identifiable information (defined within the terms of the Data Protection Act 1998) when working for, or with the ‘d ata controller’. It also applies where the contracted third party is privilege to commercially sensitive information, security related information and any intellectual property of the contracting organisation.",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'organisation,' a general term. The changed text specifies 'Deafness Resource Centre.' The contradicted text refers to 'an organisation' in the context of data protection and access to sensitive information. By changing 'organisation' to 'Deafness Resource Centre', the changed text implies that the responsibilities outlined in the contradicted text only apply to Deafness Resource Centre, and not to other 'organisations' potentially mentioned in the document, creating a contradiction. This is a strong contradiction because it narrows the scope of responsibility and potentially creates ambiguity about who is responsible for data protection in other contexts within the contract."
+      }
+    ]
+  }
+]

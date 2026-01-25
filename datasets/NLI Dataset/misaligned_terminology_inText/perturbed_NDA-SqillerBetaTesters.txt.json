@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "NDA-SqillerBetaTesters.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Mutual Non-Disclosu re Agreement (“Agreement ”) is entered into by and between Teqball Holding S.à r.l. 44 Avenue J. F. Kennedy, L -1855 Luxembourg, Grand Duchy of Luxembourg Luxembourg Trade and Companies Regi ster N° B 191.050 , acting on its own behalf and/or on behalf of its Group Companies , and You (the person accessing this document and/or any of Teqball Holding’s Confidential Information), hereinafter referred to jointly as the “ Parties ”, and individually as a “Party ”.",
+        "changed_text": "This Mutual Non-Disclosu re Agreement (“Agreement ”) is entered into by and between Teqball Holding S.à r.l. 44 Avenue J. F. Kennedy, L -1855 Luxembourg, Grand Duchy of Luxembourg Luxembourg Trade and Companies Regi ster N° B 191.050 , acting on its own behalf and/or on behalf of its Group Companies , and You (the person accessing this document and/or any of Teqball Holding’s Confidential Information), hereinafter referred to jointly as the “Parties”, and individually as a “Signatory”.",
+        "explanation": "The modification replaces \"Party\" with \"Signatory\" when referring to individuals, even though throughout the rest of the document \"Party\" is the defined term. This introduces an in-text contradiction, because now it is ambigious if the individual part of the Parties are Signatories or Parties.",
+        "location": "Preamble",
+        "contradicted_location": "1. Purpose",
+        "contradicted_text": "The Parties are contemplating, negotiating, executing or have already entered into one or more agreements relating to testing computer software between the Parties, which may lead to the exchange of information that they wish to protect and whose use they wish to limit through this Agreement (the “ Purpose ”).",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines 'Party' as the individual component of 'Parties'. The changed text redefines this individual component as 'Signatory'. The contradicted text uses 'Parties' to refer to the entities involved in the agreement. Because the 'individual part of the Parties' is now ambigious, the changed text creates a contradiction as the 'Parties' described in the contradicted text might not include 'Signatory'. This is a Misaligned Terminology - In Text Contradiction because the changed text makes it ambiguous if 'Signatory' is actually part of the agreement in the contradicted text, creating a strong in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "“Authorized Persons ” means a person or entity that a Party or a Party’s Group Company authorizes to access the Confidential Information for the Purpose, and who is bound by confidentiality terms at least as protective of the Confidential Information as this Agreement.",
+        "changed_text": "“Authorized Persons ” means a person or entity that a Party or a Party’s Group Company authorizes to access the Confidential Information for the Purpose, and who is bound by confidentiality terms at least as protective of the Confidential Information as this contract.",
+        "explanation": "The modification changes 'this Agreement' to 'this contract' in the definition of \"Authorized Persons\". The agreement is the subject matter for any and all terms referenced, so using 'contract' makes it unclear as to what contract is referenced, since it is not the defined term that is being reffered, creating an in-text contradiction. ",
+        "location": "2. Definitions - 1.1.",
+        "contradicted_location": "2.3. Entire Agreement",
+        "contradicted_text": "This Agreement constitutes the entire ag reement between the Parties with respect to the Purpose and supersedes any prior understanding or agreements thereon .",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the definition of 'Authorized Persons' by replacing 'this Agreement' with 'this contract'. The contradicted text specifies that 'This Agreement constitutes the entire agreement'. By changing the reference to 'this contract', it introduces ambiguity as to which contract the confidentiality terms should be at least as protective as, contradicting the clear definition of 'Agreement' as the governing document, creating an in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "“Disclosing Party ” means the Party to which Confidential Information accessed or disclosed relates .",
+        "changed_text": "“Disclosing Party ” means the Entity to which Confidential Information accessed or disclosed relates .",
+        "explanation": "Changing \"Party\" to \"Entity\" in the definition of \"Disclosing Party\" creates confusion. The agreement consistently uses 'Party', so the sudden introduction of 'Entity' makes it uncertain if they're interchangeable. This will lead to contradiction down the line when Disclosing Party should mean the same as Party.",
+        "location": "2. Definitions - 1.3.",
+        "contradicted_location": "3.1. Ownership of Confidential Information",
+        "contradicted_text": "All Confid ential Information of a Party is and shall remain the property of that Party . Nothing contain ed in this Agreement shall be constru ed as granting or conferring any rights to any Confidential Information of a Disclosing Party , or to any intellectual property contained therein .",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Party' with 'Entity' in the definition of 'Disclosing Party'. The contradicted text consistently refers to 'Party', creating a contradiction. The Contradiction arises because the original definition creates an in-text contradiction when the rest of the contract refers to 'Party' instead of 'Entity'. As the explanation says, it's now unclear whether 'Party' and 'Entity' are interchangeable, directly conflicting with the expectation in the contradicted text that 'Disclosing Party' (now defined using 'Entity') clearly refers to one of the 'Parties' in the agreement."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "All Confidential Information furnished under this Agreement is provided AS IS. Neither Party makes any warranties, express or implied, for example, regarding the accuracy, completeness, merchantability, fitness for use, or non-infring ing nature of its Confidential Information.",
+        "changed_text": "All Confidential Information furnished under this Agreement is provided AS IS. Neither Side makes any warranties, express or implied, for example, regarding the accuracy, completeness, merchantability, fitness for use, or non-infring ing nature of its Confidential Information.",
+        "explanation": "The modification replaces \"Party\" with \"Side\" in the 'No Warranties' section. 'Party' is a defined term while 'Side' is not, leading to uncertainty and potential disputes over warranty obligations because they don't know if Side is an internal reference that should have the same meaning as Party. Thus creating an in-text contradiction.",
+        "location": "2. Contracting Principles - 2.1.",
+        "contradicted_location": "3.4. Non-disclosure",
+        "contradicted_text": "Each Party shall hold the other Party ’s Confidential Information in strictest confidence and shall not disclose the other Party ’s Confidential Information to any third party , except to the Receiving Party’s own Authorized Persons on a need -to-know basis .",
+        "contradiction_exists": "YES",
+        "justification": "The original text uses the defined term 'Party', while the changed text replaces it with 'Side', which is not a defined term. This creates ambiguity as to who is bound by the warranty obligations outlined in the changed text. The contradicted text refers to 'Each Party', thus the introduction of the undefined term 'Side' creates a contradiction as it is no longer clear if 'Side' refers to 'Party', creating uncertainty and potential disputes over warranty obligations. This aligns with the 'Misaligned Terminology - In Text Contradiction' definition."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Confidential Information may be exchanged by the Parties from the Effective Date until the Expiration Date, or, if the agreement(s) underpinning the Purpose have been entered into before the Expiration Date, then Confidential Info rmation may be exchanged until the obligations in such agreement(s) are still in effect.",
+        "changed_text": "Confidential Information may be exchanged by the Participants from the Effective Date until the Expiration Date, or, if the agreement(s) underpinning the Purpose have been entered into before the Expiration Date, then Confidential Info rmation may be exchanged until the obligations in such agreement(s) are still in effect.",
+        "explanation": "Changing 'Parties' to 'Participants' without defining 'Participants' introduces ambiguity. The document defines 'Parties,' so using an alternative term suggests it might have a different meaning or scope. This creates an in-text contradiction regarding who is bound to exchange confidential information, since Participants and Parties are not clearly equal.",
+        "location": "3. Non-disclos ure and Non-use O bligations - 3.2.",
+        "contradicted_location": "Preamble",
+        "contradicted_text": "This Mutual Non-Disclosu re Agreement (“Agreement ”) is entered into by and between Teqball Holding S.à r.l. 44 Avenue J. F. Kennedy, L -1855 Luxembourg, Grand Duchy of Luxembourg Luxembourg Trade and Companies Regi ster N° B 191.050 , acting on its own behalf and/or on behalf of its Group Companies , and You (the person accessing this document and/or any of Teqball Holding’s Confidential Information), hereinafter referred to jointly as the “ Parties ”, and individually as a “Party ”.",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'Parties,' which is explicitly defined in the 'Contradicted Text' section as 'Teqball Holding S.à r.l. and You'. The changed text replaces 'Parties' with 'Participants,' which is not defined anywhere in the document. This creates a contradiction because it's unclear whether 'Participants' refers to the same entities as 'Parties.' This ambiguity introduces uncertainty about who is bound to exchange confidential information, thus creating an in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Parties agree that proof of execution of this Agreement shall be constituted by the digital record of Your (click) acceptance of its terms.",
+        "changed_text": "The entities agree that proof of execution of this Agreement shall be constituted by the digital record of Your (click) acceptance of its terms.",
+        "explanation": "The modification changes 'The Parties agree' to 'The entities agree'. The use of 'entities' makes it unclear if the term includes the individual persons referenced in the text, creating an in-text contradiction as to who needs to agree in order for the contract to be valid.",
+        "location": "4. Proof of Execution",
+        "contradicted_location": "1. Purpose",
+        "contradicted_text": "The Parties are contemplating, negotiating, executing or have already entered into one or more agreements relating to testing computer software between the Parties, which may lead to the exchange of information that they wish to protect and whose use they wish to limit through this Agreement (the “ Purpose ”).",
+        "contradiction_exists": "YES",
+        "justification": "The original text used 'The Parties agree', which is consistent with the 'The Parties' referenced in the contradicted text regarding the agreement's purpose. However, the changed text uses 'The entities agree', which introduces ambiguity. The explanation provided confirms this: it's unclear if 'entities' includes the individual persons referenced elsewhere, thus creating a contradiction as to who needs to agree for the contract to be valid. This uncertainty contradicts the section that defines the 'Parties' and their intent to enter into the agreement, causing a strong in-text contradiction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "US-Non-Disclosure-Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Each Party will protect the confidentiality of the Confidential Information by using the same degree of care (but not less than a reasonable degree of care) that it uses to protect the confidentiality of its own proprietary and confidential information.",
+        "changed_text": "Each Party will protect the confidentiality of the Confidential Information by using a degree of care they deem necessary, but are not obligated to use more than minimal effort.",
+        "explanation": "The original clause states that each party should use at least a 'reasonable degree of care' to protect confidential information, comparable to how they protect their own confidential data. By changing this to 'a degree of care they deem necessary, but are not obligated to use more than minimal effort,' this creates a contradiction. 'Minimal effort' is subjective and implies a potentially lower standard of protection than 'reasonable degree of care,' creating uncertainty. The term 'reasonable degree of care' in the original text is a well-established legal standard, while the modified version provides little to no protection against unauthorized use of information.",
+        "location": "Section 3",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "Each Party will protect the confidentiality of the Confidential Information by using a degree of care they deem necessary, but are not obligated to use more than minimal effort.",
+        "contradiction_exists": "YES",
+        "justification": "The original clause required a 'reasonable degree of care,' a standard legal term. The changed text lowers the standard to 'minimal effort,' which directly contradicts the expectation of 'reasonable care.' Although the Changed Text and Contradicted Text are the same, a contradiction was introduced through the modification that substantially decreased the level of care required."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Confidential Information of either Party may not be copied or reproduced by the other Party without the Disclosing Party’s prior written consent.",
+        "changed_text": "Confidential Information of either Party may be copied or reproduced by the other Party without any consent. This overrules any previous written statements about not copying or reproducing.",
+        "explanation": "The original clause explicitly forbids copying or reproducing confidential information without prior written consent. The added statement \"Confidential Information of either Party may be copied or reproduced by the other Party without any consent. This overrules any previous written statements about not copying or reproducing\" directly contradicts this, allowing unrestricted copying and reproduction. This makes the original clause meaningless.",
+        "location": "Section 5",
+        "contradicted_location": "Section 5",
+        "contradicted_text": "Confidential Information of either Party may be copied or reproduced by the other Party without any consent. This overrules any previous written statements about not copying or reproducing.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly allows copying and reproducing confidential information without any consent, directly contradicting both the original text, which forbade such actions without prior written consent, and the contradicted text, which now is repeated verbatim. This constitutes a strong in-text contradiction as it makes the confidentiality clause unenforceable."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Upon receipt of written notice requesting return of the Confidential Information, the Receiving Party will promptly deliver to the Disclosing Party (or, at the Disclosing Party’s option, destroy) all Confident ial Information furnished by the Disclosing Party to the Receiving Party, together with copies thereof. At the request of the Disclosing Party, any such destruction shall be confirmed in writing by Receiving Party.",
+        "changed_text": "Upon receipt of written notice requesting return of the Confidential Information, the Receiving Party may or may not return or destroy the data at their discretion. No need to notify the disclosing party.",
+        "explanation": "The original section mandates that the receiving party must return or destroy confidential information upon written notice and confirms its destruction. By changing this to \"Upon receipt of written notice requesting return of the Confidential Information, the Receiving Party may or may not return or destroy the data at their discretion. No need to notify the disclosing party,\" it creates a direct contradiction. The receiving party is no longer obligated to return or destroy the data, undermining the confidentiality protections.",
+        "location": "Section 6",
+        "contradicted_location": "Section 6",
+        "contradicted_text": "Upon receipt of written notice requesting return of the Confidential Information, the Receiving Party may or may not return or destroy the data at their discretion. No need to notify the disclosing party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the original agreement regarding the return or destruction of confidential information upon written notice. The original text mandates action, whereas the changed text grants discretion and eliminates the notification requirement. The contradicted text (which is also the changed text in this case) reflects this new discretionary stance, creating an in-text contradiction with the original obligation for mandatory return or destruction. The perturbation explanation confirms that this introduces inconsistency and undermines confidentiality protections and this matches the Structural Flaws - In Text Contradiction definition given. Therefore, there is a strong contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement shall continue for a period of one year from the date of this Agreement, or until the Parties enter into a formal agreem ent for the provision of software and/or services by Snap Surveys NH, Inc., whichever occurs sooner. Notwithstanding the foregoing, this Agreement shall survive with respect to all Confidential Information that is disclosed before the termination.",
+        "changed_text": "This Agreement shall terminate immediately. All information exchanged previously will not be considered under any confidential regulation from this moment forward. This overrules section 8.",
+        "explanation": "The original text specifies that the agreement lasts for one year or until a formal agreement is signed, with confidentiality obligations surviving termination for previously disclosed information. The introduced text, \"This Agreement shall terminate immediately. All information exchanged previously will not be considered under any confidential regulation from this moment forward. This overrules section 8,\" directly contradicts this. It immediately terminates the agreement and nullifies all confidentiality obligations retroactively, creating a significant conflict.",
+        "location": "Section 8",
+        "contradicted_location": "Section 8",
+        "contradicted_text": "This Agreement shall terminate immediately. All information exchanged previously will not be considered under any confidential regulation from this moment forward. This overrules section 8.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text, which states \"This Agreement shall terminate immediately. All information exchanged previously will not be considered under any confidential regulation from this moment forward. This overrules section 8,\" directly contradicts the original text, which specified that the agreement would last for one year or until a formal agreement, with confidentiality obligations surviving termination for previously disclosed information. The contradicted text is the same as the changed text, reinforcing that the agreement is immediately terminated and confidentiality is nullified. This creates a strong contradiction because the initial agreement includes a survival clause for confidentiality, while the modified clause immediately negates that, causing an in-text contradiction of Structural Flaws type."
+      }
+    ]
+  }
+]

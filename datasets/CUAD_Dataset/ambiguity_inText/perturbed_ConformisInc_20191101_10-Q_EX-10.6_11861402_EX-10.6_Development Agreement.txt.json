@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "ConformisInc_20191101_10-Q_EX-10.6_11861402_EX-10.6_Development Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "For purposes of this Agreement, the following terms shall have the following meanings, and to the extent not defined in this section or otherwise in this Agreement, a term shall have the meaning ascribed to it in any of the Other Agreements:",
+        "changed_text": "For purposes of this Agreement, the following terms shall have the following meanings, which meanings will supersede any definitions in the Other Agreements. To the extent a term is not defined in this section, it shall have the meaning ascribed to it in any of the Other Agreements:",
+        "explanation": "The original text defers to definitions in 'Other Agreements' if a term isn't defined in the Development Agreement. The modified text states that the Development Agreement's definitions supersede those in the 'Other Agreements,' creating a contradiction if 'Other Agreements' define a term differently. This introduces an in-text contradiction because later sections rely on the original understanding that 'Other Agreements' definitions might apply.",
+        "location": "ARTICLE I DEFINITIONS 1.1",
+        "contradicted_location": "ARTICLE I DEFINITIONS 1.1",
+        "contradicted_text": "1.  1 Definitions. For purposes of this Agreement, the following terms shall have the following meanings, which meanings will supersede any definitions in the Other Agreements. To the extent a term is not defined in this section, it shall have the meaning ascribed to it in any of the Other Agreements: Source: CONFORMIS INC, 10-Q, 11/1/2019 \"Acceptance\" and \"Accept\" have the meaning set forth in Article 3.4 of this Agreement. \"Acceptance Criteria\" has the meaning set forth in the R&D Work Plan. \"Acceptance Notification Period\" has the meaning set forth in Article 3.3 of this Agreement. \"Affiliate\" has the meaning set forth in the Asset Purchase Agreement. \"Agents\" means Third Parties who are acting under the direction or control of a Party. \"Applicable Laws\" means all applicable federal, state, local and foreign laws, ordinances, rules, regulations, orders, writs, injunctions and decrees of any kind. \"Asset Purchase Agreement\" has the meaning set forth in the recitals. \"Change of Control\" has the meaning set forth in the Asset Purchase Agreement. \"Claims\" has the meaning set forth in Article 7.3(a) of this Agreement. \"Confidential Information\" has the meaning set forth in the Asset Purchase Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text creates a contradiction because it prioritizes definitions within 'this Agreement' over those in 'Other Agreements,' while the contradicted text ('Definitions') includes specific terms explicitly defined within 'Other Agreements' (e.g., Affiliate, Change of Control, Confidential Information all defined in the Asset Purchase Agreement). The modification directly conflicts with the continued validity and applicability of those external definitions as used in the original text's definition section. The contradicted text relies on definitions from other agreements, directly contradicting the new text."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Acceptance of a Deliverable shall not constitute a waiver of any rights Stryker may have based on Conformis' warranties set forth in this Agreement.",
+        "changed_text": "Acceptance of a Deliverable shall constitute a full and final waiver of any and all rights Stryker may have based on Conformis' warranties set forth in this Agreement, except in cases of gross negligence or willful misconduct.",
+        "explanation": "The original text explicitly states that acceptance doesn't waive Stryker's warranty rights. The modified text states that acceptance *does* waive those rights, creating a direct contradiction. This affects any future warranty claims, introducing ambiguity. If a deliverable is accepted with minor defects, the altered clause waives rights, conflicting the original agreement.",
+        "location": "Article III 3.4",
+        "contradicted_location": "Article VI 6.2",
+        "contradicted_text": "EXCEPT AS EXPRESSLY PROVIDED ELSEWHERE IN THIS AGREEMENT, INCLUDING THE REQUIREMENTS IN THE R&D WORK PLAN, CONFORMIS MAKES NO WARRANTY WITH RESPECT TO THE SERVICES OR DELIVERABLES FURNISHED HEREUNDER, AND NO WARRANTIES OF ANY KIND, WHETHER WRITTEN, ORAL, IMPLIED OR STATUTORY, INCLUDING WARRANTIES OF MERCHANTABILITY, NON- INFRINGEMENT OR FITNESS FOR A PARTICULAR PURPOSE, SHALL APPLY.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the original agreement by stating that acceptance of a deliverable now constitutes a full and final waiver of rights based on warranties, while the original text stated the opposite. This contradicts the contradicted text that sets out the warranty terms, creating a direct conflict. The original states that Conformis makes no warranty, except as expressly provided elsewhere. The modified text creates a situation where warranties are waived upon acceptance, creating an in-text contradiction regarding warranty terms, affecting the rights of Stryker and the obligations of Conformis."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Each Party may in its sole discretion enforce the Patents or other intellectual property rights it solely owns pursuant to this Agreement, as well as to defend against any assertions of invalidity, unenforceability or ownership of such Patents.",
+        "changed_text": "Each Party shall be required to obtain written consent from the other Party prior to enforcing any Patents or other intellectual property rights it solely owns pursuant to this Agreement, or defending against any assertions of invalidity, unenforceability or ownership of such Patents.",
+        "explanation": "The original agreement grants each party sole discretion in enforcing their IP rights. The modified version requires written consent from the other party, creating a direct contradiction. This change impacts the autonomy of each party regarding their own IP enforcement, introducing potential disputes over the validity of unilateral actions. The in-text contradiction creates an ambiguity regarding who has control.",
+        "location": "ARTICLE V 5.9(a)",
+        "contradicted_location": "ARTICLE V 5.9(a)",
+        "contradicted_text": "Each Party shall be required to obtain written consent from the other Party prior to enforcing any Patents or other intellectual property rights it solely owns pursuant to this Agreement, or defending against any assertions of invalidity, unenforceability or ownership of such Patents.",
+        "contradiction_exists": "YES",
+        "justification": "The original text grants each party sole discretion in enforcing their IP rights. The changed text mandates obtaining written consent from the other party before enforcement. This directly contradicts the concept of 'sole discretion' as it introduces a requirement for external approval. The contradicted text is identical to the changed text which shows that the previous version had 'sole discretion'. This is in direct contradiction to the changed version, which is a strong in-text contradiction per the definition of 'Ambiguities – In Text Contradiction'."
+      }
+    ]
+  }
+]

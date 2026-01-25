@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "NDA_13.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Confidential Information means any tangible or intangible information or materials possessed by a Party in whatever for m or format relating to the Disclosing Party or its actual or proposed information systems, other business, financial or accounting systems, business procedures or methods, business plans, financial products, marketing plans, results of operations, custome rs, markets, prospective customers, contracts (actual and proposed) with third parties or personnel directly or indirectly disclosed by the Disclosing Party to the Receiving Party during or in the course of discussions or correspondence arising out of or r elated to the Transaction whether received before or after the Effective Date. Confidential Information includes all information owned by a third party and disclosed by a Disclosing Party hereunder .",
+        "changed_text": "Confidential Information means only printed documents, clearly marked as 'Confidential'. It is limited to paper documents only. Information shared orally, electronically, or through any other means is explicitly excluded from this definition. Confidential Information includes all information owned by a third party and disclosed by a Disclosing Party hereunder.",
+        "explanation": "The original definition of 'Confidential Information' is broad, covering tangible and intangible information in any format. The modified version restricts it to printed, marked documents, creating a contradiction. This contradicts the phrase that the confidential information includes all information owned by a third party. This creates uncertainty about what constitutes confidential information.",
+        "location": "1",
+        "contradicted_location": "1",
+        "contradicted_text": "Confidential Information means only printed documents, clearly marked as 'Confidential'. It is limited to paper documents only. Information shared orally, electronically, or through any other means is explicitly excluded from this definition. Confidential Information includes all information owned by a third party and disclosed by a Disclosing Party hereunder .",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines 'Confidential Information' broadly. The changed text narrows this definition to only printed documents clearly marked as 'Confidential', explicitly excluding other forms of information. The contradicted text contains the changed definition of Confidential Information, but also includes the phrase 'Confidential Information includes all information owned by a third party and disclosed by a Disclosing Party hereunder .' This creates a direct contradiction as not all third-party information will be printed or marked 'Confidential'. Therefore, the change causes a strong in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The provisions of this Agreement shall remain in full force and effect beginning as of the Effective Date and shall continue with respect to a Receiving Party for as long as it retains the Confidential Information in its possession and for three (3) years thereafter.",
+        "changed_text": "The provisions of this Agreement shall terminate automatically one (1) year from the Effective Date, regardless of whether the Receiving Party retains the Confidential Information.",
+        "explanation": "The original text specifies a duration of 'as long as it retains the Confidential Information in its possession and for three years thereafter'. The modified version sets a fixed term of one year, regardless of possession. This directly contradicts the original duration clause, creating uncertainty about the agreement's lifespan.",
+        "location": "7",
+        "contradicted_location": "7",
+        "contradicted_text": "The provisions of this Agreement shall terminate automatically one (1) year from the Effective Date, regardless of whether the Receiving Party retains the Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text specifies that the agreement terminates automatically one year from the effective date, regardless of whether the receiving party retains confidential information. The contradicted text is the same as the changed text. Because the original text states that the agreement remains in effect 'as long as it retains the Confidential Information in its possession and for three years thereafter,' the change to a fixed one-year term directly contradicts the original duration clause. The explanation states this is a contradiction and since the contradicted text is the same as the changed text, there is a contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement may only be modified, changed or amended by a n agreement in writing exec uted by the Parties.",
+        "changed_text": "This Agreement may be modified, changed, or amended orally by any authorized representative of either Party. A written agreement is not required for modifications.",
+        "explanation": "The original text requires any modification to be in writing and executed by both parties. The changed text states the agreement can be modified orally. This makes the clause on 'This Agreement may only be modified, changed or amended by a n agreement in writing exec uted by the Parties', making the contractual obligations nebulous",
+        "location": "9",
+        "contradicted_location": "9",
+        "contradicted_text": "This Agreement may be modified, changed, or amended orally by any authorized representative of either Party. A written agreement is not required for modifications.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stipulates that modifications must be in writing and executed by both parties. The changed text explicitly allows for oral modifications, contradicting the written requirement. The contradicted text, which is identical to the changed text, reinforces this contradiction by stating that written agreements are not required for modifications. This creates a direct and irreconcilable conflict within the contract regarding the permissible methods for amending the agreement, aligning with the definition of 'Structural Flaws - In Text Contradiction'."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement shall be governed by the laws of the Commonwealth of Australia and the State of New South Wales for the time being in force and the Parties submit to the exclusive jurisdiction of the courts of New South Wales, the Federal Court and the High Court of Australia, Sydney Registries.",
+        "changed_text": "This Agreement shall be governed by the laws of the State of Delaware, USA, and the parties submit to the exclusive jurisdiction of the courts of the State of Delaware.",
+        "explanation": "The original text specifies the governing law and jurisdiction as the Commonwealth of Australia and the State of New South Wales. The modified version changes this to the State of Delaware, USA, creating a direct conflict about which legal system governs the agreement and which courts have jurisdiction, the first one. This in-text contradiction makes it unclear where disputes are to be resolved and according to which laws.",
+        "location": "11",
+        "contradicted_location": "11",
+        "contradicted_text": "This Agreement shall be governed by the laws of the State of Delaware, USA, and the parties submit to the exclusive jurisdiction of the courts of the State of Delaware.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified that the agreement was governed by the laws of Australia and New South Wales. The changed text alters the governing law to the State of Delaware, USA. The contradicted text states that the agreement is governed by the laws of Delaware. Since the changed text specifies Delaware law which is different from the original law, a direct contradiction is created by the modified text concerning the governing law of the agreement and which jurisdiction governs disputes, as defined by 'Structural Flaws - In Text Contradiction'."
+      }
+    ]
+  }
+]

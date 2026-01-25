@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "912592_0000929624-98-000842_document_20.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement shall be construed under and governed ------------- by the laws of the State of Utah without regard to any conflict of law provisions.",
+        "changed_text": "This Agreement shall be construed under and governed ------------- by the laws of the State of Delaware without regard to any conflict of law provisions.",
+        "explanation": "This change introduces an in-text contradiction by changing the governing law from Utah to Delaware. This would contradict any clause that expects Utah law to apply to any provision of the agreement. This could cause confusion on what states laws are being applied within the agreement.",
+        "location": "5.1",
+        "contradicted_location": "5.9",
+        "contradicted_text": "Any controversy, claim, or dispute among the parties hereto arising out of or related to this Agreement or the breach hereto, which cannot be settled amicably by the parties, shall be submitted for mediation in Salt Lake City, Utah. In the event mediation is unsuccessful, the parties consent to the exclusive jurisdiction of an appropriate court within Salt Lake County, State of Utah, to hear and decide any controversy, claim, or dispute hereunder. The prevailing party in any legal action shall be entitled to recover its reasonable attorneys' fees and costs, as determined by the trial court.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that Utah law governs the agreement, and the contradicted text specifies that mediation and court proceedings will take place in Utah, under Utah jurisdiction. The changed text replaces Utah with Delaware as the governing law. This creates a direct contradiction because the agreement now states that Delaware law governs the agreement, while the contradicted text relies on Utah law and jurisdiction. This inconsistency regarding the governing law creates a strong in-text contradiction, as the clauses are no longer aligned, making it unclear which state's laws apply and which jurisdiction has authority."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement may be amended, modified, or supplemented --------- only by an instrument in writing signed by the parties to this Agreement.",
+        "changed_text": "This Agreement may be amended, modified, or supplemented --------- only by an instrument in writing signed by one of the parties to this Agreement.",
+        "explanation": "The original clause states that amendments require signatures from both parties. The changed text claims that only one party needs to sign. This in-text contradiction creates uncertainty regarding the requirements for an amendment to be valid.",
+        "location": "5.4",
+        "contradicted_location": "5.4",
+        "contradicted_text": "This Agreement may be amended, modified, or supplemented --------- only by an instrument in writing signed by one of the parties to this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires signatures from 'the parties' (plural), implying all parties must sign for an amendment. The changed text allows an amendment with the signature of 'one of the parties' (singular). This directly contradicts the contradicted text, which also allows only one party to sign. The change from requiring all parties to sign to allowing only one party to sign creates a direct conflict and uncertainty about the validity of amendments if the other party does not agree."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The failure of any of the parties to this -------------------- Agreement to require the performance of term or obligation under this Agreement or the waiver by any of the parties to this Agreement of any breach hereunder shall not prevent subsequent enforcement of such term or obligation or be deemed a waiver of any subsequent breach hereunder.",
+        "changed_text": "The failure of any of the parties to this -------------------- Agreement to require the performance of term or obligation under this Agreement or the waiver by any of the parties to this Agreement of any breach hereunder shall prevent subsequent enforcement of such term or obligation or be deemed a waiver of any subsequent breach hereunder.",
+        "explanation": "The original clause says that failure to enforce a term doesn't prevent later enforcement. The changed text says that it *does* prevent later enforcement. This creates a direct in-text contradiction regarding the effect of waiving or not enforcing a term, which makes it uncertain if the term can be enforced.",
+        "location": "5.8",
+        "contradicted_location": "5.8",
+        "contradicted_text": "Waiver; Severability. The failure of any of the parties to this -------------------- Agreement to require the performance of term or obligation under this Agreement or the waiver by any of the parties to this Agreement of any breach hereunder shall prevent subsequent enforcement of such term or obligation or be deemed a waiver of any subsequent breach hereunder. In case any one or more of the provisions of this Agreement shall for any reason be held to be invalid, illegal, or unenforceable in any respect, such invalidity, illegality, or unenforceability shall not affect any other provision of this Agreement, but this Agreement shall be construed as if such invalid or illegal or unenforceable provision or part of a provision had never been contained herein.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the original text and the contradicted text, which is in the same location. The original clause states that failure to enforce a term does not prevent subsequent enforcement, while the changed text states that it does prevent subsequent enforcement. The contradicted text repeats the changed text, creating a direct in-text contradiction regarding the effect of waiving or not enforcing a term, making it uncertain if the term can be enforced, which is an Inconsistency - In Text Contradiction."
+      }
+    ]
+  }
+]

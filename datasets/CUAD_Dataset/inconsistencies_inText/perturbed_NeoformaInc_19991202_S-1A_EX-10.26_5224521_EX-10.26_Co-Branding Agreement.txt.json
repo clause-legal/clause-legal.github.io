@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "NeoformaInc_19991202_S-1A_EX-10.26_5224521_EX-10.26_Co-Branding Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "1.2 AFFILIATE shall mean, when used with reference to a Party, any individual or entity directly or indirectly controlling, controlled by or under common control with such Party. For purposes of this definition, \"control\" means the direct or indirect ownership of at least 50% of the outstanding voting securities of a Party, or the right to control the policy decisions of such Party.",
+        "changed_text": "1.2 AFFILIATE shall mean, when used with reference to a Party, any individual or entity associated with, or having a commercial relationship with such Party. For purposes of this definition, \"control\" means any level of influence, whether direct or indirect, that one party has over the operational decisions of another party.",
+        "explanation": "The modified text creates an in-text contradiction by changing the definition of 'Affiliate' to include any entity 'associated with, or having a commercial relationship with such Party' rather than just entities under majority control (50% ownership). This contradicts other contract sections that rely on the original, stricter definition to determine rights and obligations, leading to uncertainty in enforcement.",
+        "location": "Section 1.2",
+        "contradicted_location": "Section 3.8",
+        "contradicted_text": "3.8 Neoforma shall not enter into, and shall cause its Affiliates to not enter into, any agreement with a third party for the on-line listing of Laboratory Products on a VerticalNet Competitor or place any Link to a VerticalNet Competitor on the Neoforma Sites.",
+        "contradiction_exists": "YES",
+        "justification": "The original definition of 'Affiliate' was based on a 50% ownership threshold. The modified definition broadens the scope to include any entity 'associated with, or having a commercial relationship,' and redefines 'control' to include any level of influence. This directly contradicts section 3.8, which restricts Neoforma's (and its Affiliates') ability to enter into agreements with third parties. Under the original definition, the restriction only applied to entities under Neoforma's majority control. Now, any entity with a commercial relationship with Neoforma falls under this restriction, potentially impacting a wider range of business dealings, thereby creating an in-text contradiction as the breadth of restrictions has drastically changed, based on who is now considered an affiliate."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "10.7 PAYMENT TERMS. Except as otherwise provided in this Agreement, each Party shall provide the other Party with all amounts due under this Agreement for the prior calendar quarter within 30 days after the end of each calendar quarter during the Term.",
+        "changed_text": "10.7 PAYMENT TERMS. Except as otherwise provided in this Agreement, each Party shall provide the other Party with all amounts due under this Agreement for the prior calendar quarter within 45 days after the end of each calendar quarter during the Term.",
+        "explanation": "The payment deadline has been changed from 30 days to 45 days, introducing a conflict with Section 11.2, which specifies a 30-day cure period for breaches of payment obligations. This inconsistency creates ambiguity and uncertainty in enforcement regarding payment deadlines.",
+        "location": "Section 10.7",
+        "contradicted_location": "Section 11.2",
+        "contradicted_text": "11.2 TERMINATION FOR CAUSE. Either Party may terminate this Agreement immediately upon written notice to the other Party in the event any material breach of a material term of this Agreement by such other Party that remains uncured 30 days in the case of a breach of a payment obligation, or 45 days for all other breaches, after notice of such breach was received by such other Party; provided, however that if such breach is not reasonably capable of cure within the applicable cure period, the breaching Party shall have an additional 180 days to cure such breach so long as the cure is commenced within the applicable cure period and thereafter is diligently prosecuted to completion as soon as possible.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the payment deadline from 30 days to 45 days. The contradicted text states that a breach of payment obligation can lead to termination if uncured within 30 days. Since the changed text allows for a 45-day payment window, it directly contradicts the 30-day cure period outlined in the contradicted text, as a party could now argue they have 45 days to pay, conflicting with the grounds for termination after 30 days."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "16.5 NOTICES. All notices, reports, payments and other communications required or permitted to be given under this Agreement (each, a \"Notice\") shall be in writing and shall be given either by personal delivery against a signed receipt, by express delivery using a nationally recognized overnight courier, or by facsimile.",
+        "changed_text": "16.5 NOTICES. All notices, reports, payments and other communications required or permitted to be given under this Agreement (each, a \"Notice\") shall be in writing and shall be given either by personal delivery against a signed receipt, or by email.",
+        "explanation": "The allowed methods for delivering notices have been modified, removing the option for 'express delivery using a nationally recognized overnight courier' and 'facsimile', and replacing it with 'email'. This creates an in-text contradiction with other clauses that may assume or require notices to be delivered via courier (for example, time-sensitive material breaches requiring prompt physical acknowledgement of receipt). This causes uncertainty in enforcement regarding proper notice delivery.",
+        "location": "Section 16.5",
+        "contradicted_location": "Section 11.2",
+        "contradicted_text": "11.2 TERMINATION FOR CAUSE. Either Party may terminate this Agreement immediately upon written notice to the other Party in the event any material breach of a material term of this Agreement by such other Party that remains uncured 30 days in the case of a breach of a payment obligation, or 45 days for all other breaches, after notice of such breach was received by such other Party; provided, however that if such breach is not reasonably capable of cure within the applicable cure period, the breaching Party shall have an additional 180 days to cure such breach so long as the cure is commenced within the applicable cure period and thereafter is diligently prosecuted to completion as soon as possible.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the acceptable methods of delivering notices, removing 'express delivery using a nationally recognized overnight courier' and 'facsimile' and replacing it with 'email'. The contradicted text (11.2) specifies that termination for cause requires 'written notice'. By removing courier options, there is now a contradiction, as 11.2 implies a method of notice that ensures receipt and potentially proof of delivery, whereas email may not provide the same level of certainty or legal defensibility in establishing when notice was officially received, leading to potential disputes regarding the cure period. This falls under the definition of 'Inconsistencies - In Text Contradiction', where different sections of the contract provide conflicting obligations regarding acceptable notice methods."
+      }
+    ]
+  }
+]

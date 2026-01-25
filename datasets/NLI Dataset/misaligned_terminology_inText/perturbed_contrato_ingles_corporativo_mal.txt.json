@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "contrato_ingles_corporativo_mal.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Under the Agreement, it is agreed that the Party disclosing the Confidential Information is herein referred to the “TINTERMEDIARY”, and the Party receiving the Confidential Information is herein referred to the “Recipient”.",
+        "changed_text": "Under the Agreement, it is agreed that the Party disclosing the Confidential Information is herein referred to the “Discloser”, and the Party receiving the Confidential Information is herein referred to the “Recipient”.",
+        "explanation": "Changing 'TINTERMEDIARY' to 'Discloser' creates conflict, because 'TINTERMEDIARY' refers the same as the INTERMEDIARY party. This contradicts the definition that “INTERMEDIARY” is in the preamble of the agreement, since that party is now the 'Discloser'.",
+        "location": "Section 3",
+        "contradicted_location": "Preamble",
+        "contradicted_text": "Documento: Non Circumvention and Non -Disclosure Agreement 1 This Non Circumvention and Non -Disclosure Agreement, hereinafter the “Agreement”, is made and entered between ………………………. a freelance regulated under the laws of Spain, having its head office ………………………………. , hereinafter referred to as \"INTERMEDIARY\" AND ……………………….. a company organized under the laws of ……………………….., having Office at ……………………………. represented by …………………………….. , hereinafter referred to as “PROVIDER”. INTERMEDIARY and PROVIDER shall hereinafter individually or collectively be referred to as the “Party” or the \"Parties\".",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined the disclosing party as 'TINTERMEDIARY'. The changed text modifies this to 'Discloser'. The contradicted text defines 'INTERMEDIARY' as a specific entity. Because 'TINTERMEDIARY' was likely meant to refer to 'INTERMEDIARY', changing it to 'Discloser' creates a contradiction. 'INTERMEDIARY' is now being referred to as 'Discloser' rather than 'INTERMEDIARY', which conflicts with the original designation as stated in the Perturbation Explanation. This represents a misaligned terminology resulting in in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Each Party hereby agrees that he or she will not make any c ontract with or otherwise be involved in any transaction(s) relating to the Project with any Purchaser, Lender, and Developer, Technology or other party, introduced by INTERMEDIARY or PRODUCER without specific and agreed permission of the latter.",
+        "changed_text": "Each Party hereby agrees that he or she will not make any c ontract with or otherwise be involved in any transaction(s) relating to the Project with any Purchaser, Lender, and Developer, Technology or other party, introduced by INTERMEDIARY or VENDOR without specific and agreed permission of the latter.",
+        "explanation": "Changing 'PRODUCER' to 'VENDOR' without definition, makes it unclear if the vendor is the same as the provider, defined in the preamble. This contradicts the defined roles in the Preamble",
+        "location": "Section 4",
+        "contradicted_location": "Preamble",
+        "contradicted_text": "Documento: Non Circumvention and Non -Disclosure Agreement 1 This Non Circumvention and Non -Disclosure Agreement, hereinafter the “Agreement”, is made and entered between ………………………. a freelance regulated under the laws of Spain, having its head office ………………………………. , hereinafter referred to as \"INTERMEDIARY\" AND ……………………….. a company organized under the laws of ……………………….., having Office at ……………………………. represented by …………………………….. , hereinafter referred to as “PROVIDER”. INTERMEDIARY and PROVIDER shall hereinafter individually or collectively be referred to as the “Party” or the \"Parties\".",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'PRODUCER', an entity involved in the Project. The changed text replaces 'PRODUCER' with 'VENDOR'. The contradicted text defines 'INTERMEDIARY' and 'PROVIDER' as the parties to the agreement. Since 'VENDOR' is not defined, and it's unclear if 'VENDOR' is the same as the defined 'PROVIDER', there is a strong contradiction. The change introduces a new undefined term, 'VENDOR', that may or may not align with the existing defined term 'PROVIDER'. This introduces ambiguity and contradicts the defined roles in the preamble, as explained in the Perturbation Explanation, leading to a strong in-text contradiction, as per the definition of Misaligned Terminology - In Text Contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The receiving Party shall not copy, reproduce, duplicate, publish, disclose, or otherwise make available any Confidential Information disclosed by the Transmitter, or any parts, or abstracts thereof to any third person, firm, corpo ration, partnership or entity in any form or manner whatsoever without the prior written approval of the Transmitter.",
+        "changed_text": "The receiving Party shall not copy, reproduce, duplicate, publish, disclose, or otherwise make available any Private Details disclosed by the Originator, or any parts, or abstracts thereof to any third person, firm, corpo ration, partnership or entity in any form or manner whatsoever without the prior written approval of the Originator.",
+        "explanation": "Changing 'Confidential Information' to 'Private Details' and 'Transmitter' to 'Originator' creates conflict because the definitions of those terms are lost, since the 'Confidential Information' is defined and the terms 'Transmitter' and 'Recipient' are defined too. This change creates a direct contradiction with the definitions given.",
+        "location": "Section 8",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "Under the Agreement, it is agreed that the Party disclosing the Confidential Information is herein referred to the “TINTERMEDIARY”, and the Party receiving the Confidential Information is herein referred to the “Recipient”.",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'Confidential Information' disclosed by the 'Transmitter'. The changed text replaces these terms with 'Private Details' disclosed by the 'Originator'. The contradicted text defines 'Confidential Information' as being disclosed by the 'TINTERMEDIARY' and received by the 'Recipient'. Because the modified text replaces explicitly defined terms with different terms that are not defined within the document, and those definitions are no longer applicable to the clause, it directly creates a contradiction because it voids the given definition, per the explanation and perturbation definition."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "All Parties duly endorsed on this Agreement agree and acknowledge that a financial penalty may be imposed on any one Party up to Fiv e Million USD Dollars for any or all violations of this NON CIRCUMVENTION & NON DISCLOSURE AGREEMENT.",
+        "changed_text": "All Parties duly endorsed on this Agreement agree and acknowledge that a financial penalty may be imposed on any one Individual up to Fiv e Million USD Dollars for any or all violations of this NON CIRCUMVENTION & NON DISCLOSURE AGREEMENT.",
+        "explanation": "Changing 'Party' to 'Individual' introduces ambiguity. 'Party' is defined in the preamble, and it is not clear whether 'Individual' encompasses both INTERMEDIARY and PROVIDER, or only natural persons. This creates conflict with the agreement's defined parties.",
+        "location": "Final Paragraph",
+        "contradicted_location": "Preamble",
+        "contradicted_text": "Documento: Non Circumvention and Non -Disclosure Agreement 1 This Non Circumvention and Non -Disclosure Agreement, hereinafter the “Agreement”, is made and entered between ………………………. a freelance regulated under the laws of Spain, having its head office ………………………………. , hereinafter referred to as \"INTERMEDIARY\" AND ……………………….. a company organized under the laws of ……………………….., having Office at ……………………………. represented by …………………………….. , hereinafter referred to as “PROVIDER”. INTERMEDIARY and PROVIDER shall hereinafter individually or collectively be referred to as the “Party” or the \"Parties\".",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Party' to 'Individual' introduces ambiguity regarding who is subject to the financial penalty. The contradicted text defines 'Party' as either 'INTERMEDIARY' or 'PROVIDER'. By using 'Individual', it's unclear if the penalty applies only to natural persons within those entities or to the entities themselves, creating a strong contradiction and making the enforcement of the penalty ambiguous. This aligns with the definition of 'Misaligned Terminology - In Text Contradiction'."
+      }
+    ]
+  }
+]

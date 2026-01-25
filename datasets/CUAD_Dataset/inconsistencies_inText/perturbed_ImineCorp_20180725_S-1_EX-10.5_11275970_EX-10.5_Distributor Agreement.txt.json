@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "ImineCorp_20180725_S-1_EX-10.5_11275970_EX-10.5_Distributor Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Terms of payment shall be net thirty (30) days. All payments shall be in U.S. Dollars.",
+        "changed_text": "Terms of payment shall be net sixty (60) days. All payments shall be in U.S. Dollars.",
+        "explanation": "The change introduces an in-text contradiction by altering the payment terms from net thirty (30) days to net sixty (60) days. This contradicts Section 6.2, which outlines penalties for late payments based on the original thirty (30) day term. Now it's unclear if late fees apply after 30 or 60 days.",
+        "location": "6.1",
+        "contradicted_location": "6.2",
+        "contradicted_text": "All amounts which are not timely paid by the Distributor as required by this Agreement shall be subject to a late charge equal to one and one-half percent (1.5%) per month (or, if less, the maximum allowed by applicable law). In the event that any payment due hereunder is overdue, JRVS reserves the right to suspend performance until such delinquency is corrected.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the payment terms from net thirty (30) days to net sixty (60) days. This directly contradicts the contradicted text, which specifies late charges based on the original thirty (30) day term. This creates a clear inconsistency in the payment deadline, directly impacting when late fees apply, making it unclear whether they apply after 30 or 60 days, causing unenforceability and therefore, a strong contradiction. This adheres to the definition of Inconsistencies - In Text Contradiction because different sections of a contract provide conflicting deadlines (30 days vs 60 days)."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The Distributor shall maintain an inventory of Products in reasonably sufficient quantities to provide adequate and timely delivery to the Customers. At a minimum, such inventory shall include not less than the quantity of Products necessary to meet Distributor's reasonably anticipated demands for a thirty (30) day period.",
+        "changed_text": "The Distributor shall maintain an inventory of Products in reasonably sufficient quantities to provide adequate and timely delivery to the Customers. The Distributor is NOT REQUIRED to maintain a specific minimum inventory level and it is within their discretion.",
+        "explanation": "This change creates an in-text contradiction by removing the requirement for the distributor to maintain a minimum inventory level. This contradicts the original expectation in Section 3.8 that the distributor would have enough products for at least a thirty-day period. It's now unclear whether the distributor has to maintain any inventory at all, affecting its ability to meet customer demands.",
+        "location": "3.8",
+        "contradicted_location": "3.1",
+        "contradicted_text": "The Distributor shall use its best efforts, consistent with prudent business practice, and shall devote such time as may be commercially reasonably necessary, to conduct an aggressive marketing and selling program and to promote the sale of the Products.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text eliminates the requirement for the distributor to maintain a minimum inventory level, directly contradicting the original intent that the distributor maintain inventory sufficient for a 30-day period. While the contradicted text ('The Distributor shall use its best efforts...') doesn't explicitly mention inventory, the elimination of a required minimum impacts the distributor's ability to fulfill its 'best efforts' obligation in marketing and selling, as adequate product availability is crucial for successful sales efforts. The change introduces ambiguity regarding the distributor's inventory obligations, making it unclear if any inventory is required at all, thereby affecting their ability to meet customer demands and potentially hindering their 'aggressive marketing and selling program,' leading to an in-text contradiction as defined under 'Inconsistencies'."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "JRVS shall NOT provide a warranty of any kind for each of the Products against defects in material and workmanship under normal use and service from the date of delivery to the Distributor.",
+        "changed_text": "JRVS shall provide a warranty of ninety (90) days for each of the Products against defects in material and workmanship under normal use and service from the date of delivery to the Distributor.",
+        "explanation": "This change introduces a contradiction by stating that JRVS WILL provide a warranty. This is directly opposing to the original text, stating JRVS SHALL NOT provide a warranty. This creates uncertainty regarding JRVS's warranty obligations and its impact to the customer.",
+        "location": "10.2",
+        "contradicted_location": "10.1",
+        "contradicted_text": "THE SOLE WARRANTY, IF ANY, PROVIDED IN CONNECTION WITH THE PRODUCT SHALL BE PROVIDED BY THE COMPONENT MANUFACTURER. JRVS MAKES NO WARRANTIES TO THE DISTRIBUTOR OR CUSTOMERS.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that JRVS shall NOT provide a warranty. The changed text states that JRVS shall provide a warranty of ninety (90) days. This directly contradicts the section stating 'JRVS MAKES NO WARRANTIES TO THE DISTRIBUTOR OR CUSTOMERS,' creating a clear in-text contradiction as per the 'Inconsistencies - In Text Contradiction' definition. The changed text creates uncertainty and renders the 'JRVS MAKES NO WARRANTIES' clause unenforceable."
+      }
+    ]
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "Confidentiality.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Investor shall keep the Confidential Information permanently and strictly confidential, and not to discl ose or divulge any Confidential Information to, or reproduc e any Confidential Information for the benefit of any person or entity other than the Investor’s employees, representatives, consultants, and agents who are actively and directly participating in the analysis of the Development, and in such cases only to the extent reasonably required for such analysis.",
+        "changed_text": "Investor shall keep the Confidential Information strictly confidential, and not to discl ose or divulge any Confidential Information to, or reproduc e any Confidential Information for the benefit of any person or entity other than the Investor’s employees, representatives, consultants, and agents who are actively and directly participating in the analysis of the Development, and in such cases only to the extent reasonably required for such analysis. However, this confidentiality obligation shall expire after a period of two years from the date of this Agreement.",
+        "explanation": "By removing 'permanently' and adding a clause stating the obligation expires after two years creates a contradiction. This directly conflicts with section 5, which requires unwritten Confidential Information to be kept confidential 'in perpetuity'. The changed text now stipulates a finite period, while section 5 demands indefinite confidentiality for unwritten information, creating uncertainty.",
+        "location": "1",
+        "contradicted_location": "5",
+        "contradicted_text": "All written Confidential Information and any copies thereof in the Investor's possession or the possession of the Investor's employees or agents, including, without limitation, that portion of the Confidential Information that may be found in analyses, compilations, studies or other documents prepared by or for the Investor , shall be returned to Owne r promptly upon its request. All unwritten Confidential Information shall be held by the Investor and kept strictly confidential by the Investor and its employees, representatives, and agents pursuant to the terms of this Agreement in perpetuity.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the Investor shall keep the Confidential Information 'permanently' confidential, whereas the changed text removes 'permanently' and adds 'this confidentiality obligation shall expire after a period of two years'. This directly contradicts the 'Contradicted Text' which states 'All unwritten Confidential Information shall be held by the Investor and kept strictly confidential by the Investor and its employees, representatives, and agents pursuant to the terms of this Agreement in perpetuity.' The changed text introduces a time limit that directly clashes with the requirement to keep unwritten information confidential in perpetuity, creating an in-text contradiction according to the definition of Ambiguities - In Text Contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Investor’s use of the Confidential Information shall solely be for the purpose of evaluating the Prop erty and the Development.",
+        "changed_text": "Investor’s use of the Confidential Information shall be for the purpose of evaluating the Prop erty and the Development and any other purposes.",
+        "explanation": "Changing 'solely' to allow 'any other purposes' contradicts the explicit limitation on use initially stated. This creates conflict with the intention to limit its use to only development and evaluation as detailed later on in section 3 regarding indemnification against claims.",
+        "location": "2",
+        "contradicted_location": "3",
+        "contradicted_text": "Investor shall indemnify and hold harmless the Owner and its affiliates (and their respective directors , officers, partners, agents and employees) from and against all claims, actions, causes of action, damages, losses and liabilities (including without limitation, reasonable attorney's fees and expenses) arising out of or based upon any breach of this Agreement. The Investor further agrees to indemnify, defend and hold Owne r harmless against any and all claims, damages, liabilities, costs or expenses arising in any way related to claims(s) by another broker, finder or similar agent for commissions, fees or other compensation for bringing about a sale of the Property to the Investor if such claims(s) is ba sed from dealings with the Investor.",
+        "contradiction_exists": "YES",
+        "justification": "The original text limited the investor's use of confidential information 'solely' for evaluating the property and development. The changed text removes this limitation, allowing use for 'any other purposes'. This directly contradicts the indemnity clause which holds the Investor liable for breaches of the agreement, as it broadens the scope of permissible use of confidential information, making it unclear for what uses the Investor would be liable, and thus creating a contradiction and making the contract unclear."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Owner has endeavored to include in the Confidential Information those materials which Owner believes to be reliable and releva nt for the purpose of the Investor's evaluation of the Property and the Development, but the Investor acknowl edges that neither Owne r nor any of its agents, representatives, or employees makes any representation or warranty, either express or implied, as to the accuracy or completeness of the Confident ial Information.",
+        "changed_text": "Owner guarantees to include in the Confidential Information those materials which Owner believes to be reliable and releva nt for the purpose of the Investor's evaluation of the Property and the Development and warrant the accuracy and completeness of the Confidential Information.",
+        "explanation": "The original text explicitly disclaims any warranty regarding accuracy and completeness. The changed text provides a guarantee of accuracy and completeness, directly contradicting the intention of no representations from original text in this section.",
+        "location": "2",
+        "contradicted_location": "2",
+        "contradicted_text": "Owner has endeavored to include in the Confidential Information those materials which Owner believes to be reliable and releva nt for the purpose of the Investor's evaluation of the Property and the Development, but the Investor acknowl edges that neither Owne r nor any of its agents, representatives, or employees makes any representation or warranty, either express or implied, as to the accuracy or completeness of the Confident ial Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that the Owner guarantees the accuracy and completeness of the Confidential Information and warrants it. This directly contradicts the contradicted text (which is the same as the original text) which explicitly states that the Owner makes no representation or warranty as to the accuracy or completeness of the Confidential Information. This contradiction creates uncertainty and potential legal issues."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The extent and irrepa rable nature of the damages that may result from a breach of this Agreement may make Owner’s legal remedies for such a breach inadequate. Therefore, in the event of such breach or threatened breach of this Agreement, Owne r shall be entitled to appropriate injunctive relief without proof of actual damages, in addition, and not in substitution for, any other remedy Owner may have.",
+        "changed_text": "The extent and irrepa rable nature of the damages that may result from a breach of this Agreement may make Owner’s legal remedies for such a breach inadequate. Therefore, in the event of such breach or threatened breach of this Agreement, Owne r must provide proof of actual damages to be entitled to injunctive relief, in addition, and not in substitution for, any other remedy Owner may have.",
+        "explanation": "Changing 'without proof of actual damages' to 'must provide proof of actual damages' makes the availability of injunctive relief conditional. This creates a direct contradiction within the same section (4) regarding the prerequisites for obtaining injunctive relief. This contradicts the 'without proof of actual damages' clause because proof is now required.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "The extent and irrepa rable nature of the damages that may result from a breach of this Agreement may make Owner’s legal remedies for such a breach inadequate. Therefore, in the event of such breach or threatened breach of this Agreement, Owne r shall be entitled to appropriate injunctive relief without proof of actual damages, in addition, and not in substitution for, any other remedy Owner may have.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the condition for injunctive relief. Originally, injunctive relief was available 'without proof of actual damages'. The changed text now requires the owner to 'provide proof of actual damages to be entitled to injunctive relief'. This is a direct contradiction with the original clause stating that proof is not needed for injunctive relief. The contradicted text is in the same location as the changed text and they now have contradictory requirements."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "All unwritten Confidential Information shall be held by the Investor and kept strictly confidential by the Investor and its employees, representatives, and agents pursuant to the terms of this Agreement in perpetuity.",
+        "changed_text": "All unwritten Confidential Information shall be held by the Investor and kept strictly confidential by the Investor and its employees, representatives, and agents pursuant to the terms of this Agreement, unless explicitly authorized in writing by the Owner.",
+        "explanation": "Adding 'unless explicitly authorized in writing by the Owner' creates a contradiction to the 'in perpetuity' clause. The Investor can now disclose the information with written authorization, negating the indefinite confidentiality requirement.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "All written Confidential Information and any copies thereof in the Investor's possession or the possession of the Investor's employees or agents, including, without limitation, that portion of the Confidential Information that may be found in analyses, compilations, studies or other documents prepared by or for the Investor , shall be returned to Owne r promptly upon its request. All unwritten Confidential Information shall be held by the Investor and kept strictly confidential by the Investor and its employees, representatives, and agents pursuant to the terms of this Agreement in perpetuity.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that unwritten Confidential Information is kept strictly confidential 'in perpetuity'. The changed text adds 'unless explicitly authorized in writing by the Owner', which directly contradicts the 'in perpetuity' clause. The Contradicted Text also mentions 'in perpetuity'. This introduces a strong in-text contradiction as the confidentiality is no longer indefinite, making the two sections incompatible."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement will be gove rned by the laws of the State of Michigan; and in the event of any suit or action or appeal therefr om to enforce this Agreement, the prevailing party shall be entitled to an award of its costs and attorney 's fees.",
+        "changed_text": "This Agreement will be gove rned by the laws of the State of Arizona; and in the event of any suit or action or appeal therefr om to enforce this Agreement, the prevailing party shall not be entitled to an award of its costs and attorney 's fees.",
+        "explanation": "Changing the governing law from Michigan to Arizona and removing the entitlement to attorney's fees introduces conflicting terms in section 6. This directly impacts the rights and obligations concerning legal disputes, which introduces ambiguity as parties might now consider cases differently.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "This Agreement will be gove rned by the laws of the State of Michigan; and in the event of any suit or action or appeal therefr om to enforce this Agreement, the prevailing party shall be entitled to an award of its costs and attorney 's fees.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the governing law from Michigan to Arizona and, crucially, removes the prevailing party's entitlement to attorney's fees. The contradicted text states that the agreement is governed by Michigan law and that the prevailing party *is* entitled to attorney's fees. This is a direct contradiction because the changed text explicitly negates a right granted in the contradicted text, creating uncertainty and conflicting terms concerning legal disputes."
+      }
+    ]
+  }
+]

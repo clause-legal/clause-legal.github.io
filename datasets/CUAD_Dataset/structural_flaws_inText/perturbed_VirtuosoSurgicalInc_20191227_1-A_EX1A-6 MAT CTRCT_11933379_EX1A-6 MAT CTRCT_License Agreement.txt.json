@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "VirtuosoSurgicalInc_20191227_1-A_EX1A-6 MAT CTRCT_11933379_EX1A-6 MAT CTRCT_License Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "2.2 \"LICENSED FIELD\" shall mean Cannulated Surgical Intervention.",
+        "changed_text": "2.2 \"LICENSED FIELD\" shall mean any field the Company chooses to operate within, regardless of whether it relates to Cannulated Surgical Intervention. The definition of Cannulated Surgical Intervention is at the sole discretion of the Company.",
+        "explanation": "The original definition of \"LICENSED FIELD\" is specific to Cannulated Surgical Intervention. The modified definition gives the Company complete discretion to define the field, regardless of whether it relates to Cannulated Surgical Intervention. This creates uncertainty about the scope of the license granted, as it effectively allows the Company to operate outside the original intended scope, contradicting the rest of the contract that relies on the original definition. It creates an in-text contradiction by allowing the company to sell services or products that were not initially part of the agreement but are now legally part of it.",
+        "location": "2.2",
+        "contradicted_location": "3.1",
+        "contradicted_text": "3.1 License Granted: Subject to the terms and conditions of this Agreement and to non-exclusive license agreements executed prior to the EFFECTIVE DATE, JHU hereby grants to the Company a non-exclusive, non-transferable license to make, have made, import, offer for sale and sell the LICENSED PRODUCT(S) and the LICENSED SERVICE(S) in the United States and worldwide under the PATENT RIGHT(S) in the LICENSED FIELD.",
+        "contradiction_exists": "YES",
+        "justification": "The original definition of \"LICENSED FIELD\" was limited to \"Cannulated Surgical Intervention.\" The changed text grants the Company the sole discretion to define \"LICENSED FIELD\" as any field it chooses, regardless of its relation to the original definition. This directly contradicts section 3.1, which grants a license to sell LICENSED PRODUCTS and SERVICES specifically in the LICENSED FIELD. The expanded definition allows the company to operate outside the initially agreed scope, creating an in-text contradiction as it undermines the original limitations of the license granted in section 3.1 by allowing the Company to operate outside of the 'Cannulated Surgical Intervention' and triggers structural flaw."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "6.2 Termination by Company: Company may terminate this Agreement and the license granted herein, for any reason, upon giving JHU sixty (60) days written notice under Paragraph 8.1.",
+        "changed_text": "6.2 Termination by Company: Company may terminate this Agreement and the license granted herein, only if JHU breaches the contract and fails to remedy the breach within a reasonable time, as determined solely by the Company. The notice period shall be subject to the Company's discretion, but in no event shall it exceed thirty (30) days.",
+        "explanation": "The original text allows the Company to terminate for *any* reason with 60 days' notice. The modified text restricts termination to situations where JHU breaches the contract and the notice period is shortened and at Company discretion. This contradicts the original intent by imposing significant restrictions on the Company's termination rights, making it harder for the Company to exit the agreement. Also making a reasonable time to fix the issue subjective and by Company discretion.",
+        "location": "6.2",
+        "contradicted_location": "7.1",
+        "contradicted_text": "7.1 Default & Termination: Upon breach or default of any term or condition of this Agreement by either party, the defaulting party shall be given written notice of such default in writing by the party not in default. The defaulting party shall have a period of sixty (60) days after receipt of such notice to correct the default or breach. If the default or breach is not corrected within said sixty (60) day period, the party not in default shall have the right to terminate this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text in 6.2 allowed the Company to terminate the agreement for *any* reason with 60 days' notice. The changed text in 6.2 now restricts the Company to terminate *only* if JHU breaches the contract, making it harder to exit the agreement. Furthermore, the 'reasonable time' is determined by Company discretion. This directly conflicts with section 7.1, which provides a standard 60-day cure period for any breach by either party. The modified 6.2 creates a contradiction because the Company could now potentially terminate for a JHU breach before the standard 60-day cure period outlined in 7.1, or claim an unreasonable amount of time has been taken to fix the problem, which is at the sole discretion of the company. This creates uncertainty and inconsistency in the contract, and is a Structural Flaw - In Text Contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "4.1 License Fee: As consideration for JHU's grant of a License to Company under this Agreement, Company shall pay to JHU a license fee, cash and equity, as set forth in Exhibit A within thirty (30) days of the EFFECTIVE DATE. The license fee is nonrefundable and shall not be credited against royalties or other fees.",
+        "changed_text": "4.1 License Fee: As consideration for JHU's grant of a License to Company under this Agreement, Company *may*, at its sole discretion, pay to JHU a license fee, in form decided by Company, as set forth in Exhibit A. The timing and amount of this optional license fee is to be decided exclusively by Company. The license fee, if paid, is refundable at any time, at Company's discretion, and may be credited against royalties or other fees. Furthermore, Company *may* decide to retroactively credit payments for prior services rendered to JHU, up to the full license fee amount, effectively negating the obligation to pay.",
+        "explanation": "The original clause mandates a license fee payment within 30 days of the effective date, which is nonrefundable. The modified clause makes the fee payment optional ('may'), grants Company discretion over the timing, form, and amount, and introduces the possibility of refunding the fee and retroactively crediting it for prior services. This directly contradicts the original intent of a mandatory, nonrefundable fee, and creates uncertainty about whether JHU will receive any license fee at all. Also, company having the power to retroactively credit is creating an in-text contradiction.",
+        "location": "4.1",
+        "contradicted_location": "6.4",
+        "contradicted_text": "6.4 Unpaid Royalty/Reversion of Rights: Termination or expiration of this Agreement shall not affect JHU's right to recover unpaid royalties accrued prior to termination or expiration. Upon termination or expiration of this Agreement, all rights in and to the licensed technology shall revert to JHU at no cost to JHU.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates a license fee, while the changed text makes it optional and refundable at the company's discretion. This directly contradicts section 6.4, which states JHU's right to recover unpaid royalties accrued prior to termination or expiration. If the license fee is optional and refundable, JHU's right to recover unpaid royalties becomes uncertain, creating a significant in-text contradiction. The changed text undermines the original agreement's intent to guarantee payment to JHU and conflicts with the provisions for recovering unpaid royalties."
+      }
+    ]
+  }
+]

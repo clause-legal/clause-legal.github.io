@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "IPTK-CO-MutualNon-DisclosureAgreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Upon the written request of the Discloser, the Recipient shall either destroy or return to the Discloser any and all Confidential Information in the Recipient’s possession, except for one copy, which copy may be retained for archival purposes in a secure file.",
+        "changed_text": "Upon the written request of the Discloser, the Recipient shall return to the Discloser any and all Confidential Information in the Recipient’s possession, and may not retain a copy for archival purposes.",
+        "explanation": "Removing the exception for retaining an archival copy in Section 10 contradicts the original intent of allowing for a copy to be maintained. This creates an obligation to return *all* information, conflicting with the earlier allowance to keep a copy which is an in-text contradiction.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "Upon the written request of the Discloser, the Recipient shall return to the Discloser any and all Confidential Information in the Recipient’s possession, and may not retain a copy for archival purposes. All copies of Confidential Information forwarded in error by any Discloser shall be destroyed in their entirety without the Recipient retaining an archival copy.",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed for retaining one copy of confidential information for archival purposes. The changed text explicitly prohibits retaining any copy for archival purposes. The contradicted text restates this prohibition, aligning with the changed text. Therefore, the change creates a direct contradiction with the initial permission to retain a copy, resulting in a structural flaw and an in-text contradiction as described in the perturbation explanation."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Each Party warrants that it has the right to disclose all of the Confidential Information it discloses, but does not otherwise make any representation as to the ac-curacy, suitability, or completeness of such Confidential Information.",
+        "changed_text": "Each Party warrants that it has the right to disclose all of the Confidential Information it discloses, and also makes a representation as to the accuracy, suitability, and completeness of such Confidential Information.",
+        "explanation": "Changing 'does not' to 'does' in Section 11 makes the clause contradictory. Initially, there's no warranty on accuracy, suitability, or completeness. The change introduces such a warranty, causing uncertainty about the scope of the warranty being provided and creates an in-text contradiction.",
+        "location": "11",
+        "contradicted_location": "11",
+        "contradicted_text": "Warranty. Each Party warrants that it has the right to disclose all of the Confidential Information it discloses, and also makes a representation as to the accuracy, suitability, and completeness of such Confidential Information. The Discloser will not be liable to the Recipient for any damage resulting from any use of the Confidential Information by the Recipient. All Confidential Information of the Discloser shall remain the exclusive and sole property of such Party. This Agreement grants no rights of ownership, licenses, and/or any other intellectual property rights, nor does it create any agency, partnership, joint venture or any other relationship not expressly stated herein.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the party 'does not' make any representation as to the accuracy, suitability, or completeness of Confidential Information. The changed text replaces 'does not' with 'does', thereby making a representation as to the accuracy, suitability, and completeness of Confidential Information. Since both clauses are included in the Contradicted Text, the Change in Section 11 directly contradicts the original text, causing an in-text contradiction. The explanation clearly states that the change introduces a warranty that was previously disclaimed, creating uncertainty about the scope of the warranty, and thus a contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Neither Party shall transfer or assign any rights or delegate any ob- ligations herein, in whole or in part, whether voluntarily or by operation of law, without the prior written consent of the other Party, which shall not be unreasonably withheld.",
+        "changed_text": "Neither Party shall transfer or assign any rights or delegate any ob- ligations herein, in whole or in part, whether voluntarily or by operation of law, without the prior written consent of the other Party, which shall be unreasonably withheld.",
+        "explanation": "Changing 'not be unreasonably withheld' to 'be unreasonably withheld' contradicts the clause in Section 12. Originaly says consent shouldn't be unreasonably withheld, implies consent should be hard to be given. Which creates an in-text contradiction.",
+        "location": "12",
+        "contradicted_location": "12",
+        "contradicted_text": "No Assignment. Neither Party shall transfer or assign any rights or delegate any ob- ligations herein, in whole or in part, whether voluntarily or by operation of law, without the prior written consent of the other Party, which shall be unreasonably withheld. Notwithstanding the above, either Party shall have the right to assign this Agreement and the obligations hereunder to any successor-in-interest by way of a merger, acquisi- tion, or sale of all or substantially all of that Party’s assets on condition that the assign-ee of this Agreement will assume all obligations and liability of the assignor under or in connection with this Agreement and agrees to be bound by the terms and conditions of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that consent should not be unreasonably withheld, implying it should be relatively easy to obtain. The changed text states that consent shall be unreasonably withheld, implying it should be difficult to obtain. The contradicted text initially states the same as the original text - that consent shall not be unreasonably withheld - but then provides an exception allowing assignment in certain circumstances. The changed text, stating that consent *shall* be unreasonably withheld, directly contradicts the exception in the contradicted text and changes the entire meaning of the assignment clause to severely restrict any assignment, hence creating a strong contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement contains the entire understanding between the Parties with respect to this subject matter, is valid if signed within forty-five (45) days after the Effective Date, and supersedes all prior understandings whether written or oral.",
+        "changed_text": "This Agreement contains only a partial understanding between the Parties with respect to this subject matter, is valid if signed within forty-five (45) days after the Effective Date, and does not supersede all prior understandings whether written or oral.",
+        "explanation": "Changing from “entire” to “partial” understanding and “supersedes” to “does not supersede” directly contradicts the entire agreement clause in Section 14. This creates ambiguity about what constitutes the full agreement between the parties, leading to an in-text contradiction about the scope of the agreement.",
+        "location": "14",
+        "contradicted_location": "14",
+        "contradicted_text": "Entire Agreement. This Agreement contains only a partial understanding between the Parties with respect to this subject matter, is valid if signed within forty-five (45) days after the Effective Date, and does not supersede all prior understandings whether written or oral. Further modifications may be made if in writing and signed by authorized repre- sentatives of both Parties.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters \"entire understanding\" to \"partial understanding\" and \"supersedes\" to \"does not supersede.\" This directly contradicts the contradicted text, which is attempting to state that the agreement is a whole agreement. By changing the text to say that it only provides a partial understanding, the changed text and contradicted texts conflict and create an in-text contradiction, per the explanation provided."
+      }
+    ]
+  }
+]

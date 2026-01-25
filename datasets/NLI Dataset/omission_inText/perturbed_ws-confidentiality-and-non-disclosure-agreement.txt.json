@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "ws-confidentiality-and-non-disclosure-agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "2.2. In the course of the above interactions, the parties may disclose their Confidential Information to any unauthorised third party will cause considerable financial loss to the other party.",
+        "changed_text": "2.2. In the course of the above interactions, the parties may disclose information.",
+        "explanation": "Removing the phrase 'their Confidential Information to any unauthorised third party will cause considerable financial loss to the other party' creates a contradiction. The original text emphasized the potential harm of disclosure. The modified text omits this consequence, leading to an inconsistency with Section 2.4, which still acknowledges that 'disclosure of the Confidential Information to any unauthorised third party will cause considerable financial loss to the other party.'",
+        "location": "2.2",
+        "contradicted_location": "2.4",
+        "contradicted_text": "2.4. The parties further acknowledge that the disclosure of the Confidential Information to any unauthorised third party will cause considerable financial loss to the other party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text in Section 2.2 emphasized the potential financial loss resulting from unauthorized disclosure of confidential information. The changed text omits this consequence. Section 2.4 still acknowledges that 'disclosure of the Confidential Information to any unauthorised third party will cause considerable financial loss to the other party.' Thus, the removal of this consequence in Section 2.2 directly contradicts Section 2.4, creating an in-text contradiction as defined by the 'Omissions' perturbation type."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "3.3. The parties acknowledge that the unauthorized disclosure of the Confidential Information of the other party to a third party may cause irreparable loss, harm and damage to the party to whom the Confidential Information belongs and each party therefore indemnifies and holds the other party harmless against any loss, action, expense, claim, harm or damage, of whatever nature, sustained (whether directly or indirectly) by a party as a result of the party’s breach of its obligations in terms of this agreement.",
+        "changed_text": "3.3. The parties acknowledge that disclosure of information may cause loss, harm and damage. ",
+        "explanation": "By removing the specificity of 'unauthorized disclosure of the Confidential Information of the other party to a third party may cause irreparable loss, harm and damage' and the indemnification clause, we create a contradiction. Section 3.3 becomes a general statement about potential harm, while Section 3.2 still refers to 'unauthorized disclosure of the Confidential Information' and the need to prevent it. The lack of an indemnification clause contradicts the original intention to provide strong protection, creating an in-text contradiction.",
+        "location": "3.3",
+        "contradicted_location": "3.2",
+        "contradicted_text": "3.2. The parties shall take all possible steps to prevent the Confidential Information Falling into the hands of unauthorised third parties. In order to give effect to their obligations in terms of the above clause, the parties, p rior to making any disclosure, inform every person to whom disclosure of any of the Confidential Information is made in the manner permitted by the above clause of the confidential nature of the information and of the terms imposed by this agreement and sh all require them to abide by same. The parties accept full responsibility and vicarious liability for any actions or omissions of any such person insofar as same may result in any disclosure of any of the Confidential Information contrary to the terms of this agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text (3.3) included an indemnification clause specifically for unauthorized disclosure of confidential information, providing a strong deterrent. The changed text (3.3) removes this specific indemnification, leaving only a general statement about potential harm. This creates a contradiction with section 3.2, which emphasizes preventing unauthorized disclosure and holding parties responsible. The removal of the indemnification in 3.3 weakens the protection outlined in 3.2, creating an in-text contradiction because 3.2 presumes there are ramifications and consequences for unauthorized disclosures, which are no longer clearly outlined. Therefore, section 3.2 expects an enforcement mechanism (indemnification) that is no longer present in the modified section 3.3."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "4. CESSION IN THE EVENT OF SALE Should either party (“the selling party”) sell their b usiness or any part thereof, then the other party hereby agrees that the selling party shall be entitled to cede the transfer to the purchaser of the business all of the selling party’s right , title and interest in and to this agreement and that the purcha ser shall be entitled to enforce the terms of the agreement against the other party as if the purchaser were a signatory to this agreement.",
+        "changed_text": "4. CESSION IN THE EVENT OF SALE Should either party (“the selling party”) sell their business, the applicability of this agreement to the sale will be determined in a separate agreement.",
+        "explanation": "The original clause 4 clearly outlines the cession process in case of a sale. The modified version omits this process and states that it will be determined in a separate agreement. This creates a direct contradiction because Section 7.1 states: 'This agreement constitutes the whole agreement between the parties in relation to the subject matter hereof and no party shall be bound by any representations, warranties, undertakings or the like not recorded herein.' The reference to a 'separate agreement' contradicts the 'whole agreement' clause.",
+        "location": "4",
+        "contradicted_location": "7.1",
+        "contradicted_text": "7. GENERAL 7.1. This agreement constitutes the whole agreement between the parties in relation to the subject matter hereof and no party shall be bound by any representations, warranties, undertakings or the like not recorded herein.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 4 omits the previously defined cession process upon the sale of a business, stating that the process will be determined in a 'separate agreement'. This directly contradicts Section 7.1, which states that the agreement constitutes the whole agreement between the parties and that no party shall be bound by anything not recorded within it. The reference to a 'separate agreement' in the changed Section 4 violates the 'whole agreement' clause in Section 7.1, creating a direct contradiction and rendering the contract inconsistent."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "5.  NOTICES AND DOMICILIA 5.1.1. The parties hereby nominate the physical address set out under their names as their domic ilium citandi et excecutandi for the giving of notices, the serving of legal processes and any other purposes arising from this agreement. Each party may change its chosen address in South Africa provided that such change shall only take effect ten da ys after such party has given written notice of the change to the other party.",
+        "changed_text": "5. NOTICES AND DOMICILIA All legal notices will be served according to prevailing legal standards.",
+        "explanation": "By removing the clause specifying the physical address as the *domicilium citandi et executandi*, and replacing it with a general statement about 'prevailing legal standards', the amendment introduces uncertainty. While Section 7.2 states that modifications must be in writing and signed by all parties, this amended section now implies that notice procedures might be subject to external legal standards, potentially conflicting with the written form requirement in Section 7.2, creating an in-text contradiction.",
+        "location": "5",
+        "contradicted_location": "7.2",
+        "contradicted_text": "7.2. No addition to or variation, consensual termination or novation of this agreement, and no waiver of any right arising from this agreement or its breach or termination shall be valid or enforceable unless it is in writing a nd signed by all the parties or their duly authorised representatives.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified a physical address for legal notices, ensuring a clear method of service. The changed text replaces this with a general reference to 'prevailing legal standards'. This creates a contradiction with section 7.2, which requires all modifications or waivers to be in writing and signed by all parties. Relying on external 'prevailing legal standards' introduces a non-written element that could contradict the requirement for written and signed modifications, thus creating a strong in-text contradiction and uncertainty."
+      }
+    ]
+  }
+]

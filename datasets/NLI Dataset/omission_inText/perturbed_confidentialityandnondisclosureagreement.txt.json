@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "confidentialityandnondisclosureagreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Before the Information can be handed over , wholly or partly, to third parties not mentioned in the above provision, the Receiving Party shall obtain Inventor’s/Disclosing Party’s written consent.",
+        "changed_text": "The Receiving Party should endeavor to notify the Inventor/Disclosing Party before handing over the Information to third parties not mentioned in the above provision.",
+        "explanation": "The original clause requires written consent before disclosing information to third parties not already covered. The changed text replaces 'shall obtain written consent' with 'should endeavor to notify'. This weakens the protection by removing the requirement for explicit written consent, changing it to a mere notification. This creates a contradiction as there is no longer a requirement for consent but still assumes there would be a valid consent, contradicting the original intent of the agreement.",
+        "location": "3",
+        "contradicted_location": "10",
+        "contradicted_text": "The Receiving Party is held liable to the Inventor/Disclosing Party for damages in the event of breach of this Agreement. The Receiving Party is also held liable in case of breach of the Agreement by third parties to whom the Receiving Party has handed over the Information wholly or partly.",
+        "contradiction_exists": "YES",
+        "justification": "The original text required written consent before disclosing information to third parties. The changed text weakens this requirement by changing 'shall obtain written consent' to 'should endeavor to notify'. This creates a contradiction with the 'Contradicted Text' which states the Receiving Party is held liable for breaches by third parties 'to whom the Receiving Party has handed over the Information wholly or partly'. The original text implies consent would be a preventative measure to avoid such breaches and potential liability, and now this mechanism is undermined, weakening the original intent, thus creating a strong contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Receiving Party shall register all employees or others having gained insight into the Information. The register must be accessible to the Inventor/Disclosing Party.",
+        "changed_text": "The Receiving Party may maintain a list of employees or others who have access to the Information.",
+        "explanation": "The original text mandates the creation of a register of all individuals with access to the confidential information and requires that register to be accessible to the Disclosing Party. The altered version weakens this requirement. It removes the 'shall' and changes it to 'may', turning the register into something that is no longer mandatory but voluntary. This is contradictory with the liability clause as the Disclosing Party won't have the ability to track who had the information if the Receiving party decided not to keep the list.",
+        "location": "5",
+        "contradicted_location": "10",
+        "contradicted_text": "The Receiving Party is held liable to the Inventor/Disclosing Party for damages in the event of breach of this Agreement. The Receiving Party is also held liable in case of breach of the Agreement by third parties to whom the Receiving Party has handed over the Information wholly or partly.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires the Receiving Party to maintain a register of individuals with access to the information, ensuring accountability. The changed text weakens this requirement, making the creation of a register optional. This directly contradicts the liability clause, as the Disclosing Party may not be able to track who had access to the information if the Receiving Party chooses not to maintain the list. This introduces a strong in-text contradiction because the liability clause depends on the ability to identify and hold accountable those who breach the agreement, and this ability is undermined by the optional nature of the register."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "At any time, the Inventor/Disclosing Party is entitled to be informed about how the Receiving Party keeps the Information conﬁdential in relation to third parties.",
+        "changed_text": "The Inventor/Disclosing Party may request a general overview of the Receiving Party’s confidentiality measures.",
+        "explanation": "The original clause gives the Disclosing Party the right to be informed about how confidentiality is maintained with third parties 'at any time'. The revised version states that they 'may request a general overview' of confidentiality measures. This weakens the Disclosing Party's right to information. The 'at any time' is removed which puts a restriction on when the disclosing party can ask for that information, also a general overview is not enough for the disclosing party to know how their information is being protected, thus weakening the contract.",
+        "location": "8",
+        "contradicted_location": "10",
+        "contradicted_text": "The Receiving Party is held liable to the Inventor/Disclosing Party for damages in the event of breach of this Agreement. The Receiving Party is also held liable in case of breach of the Agreement by third parties to whom the Receiving Party has handed over the Information wholly or partly.",
+        "contradiction_exists": "YES",
+        "justification": "The original text grants the Inventor/Disclosing Party the right to be informed about confidentiality measures 'at any time'. The changed text limits this right to a request for a 'general overview'. This contradicts the contradicted text because the Receiving Party's liability for breaches of the agreement or by third parties is harder to enforce if the Disclosing Party's right to information is restricted. The Disclosing party now has a weakened right, and thus it contradicts the Receiving Party's liability clause because now the Receiving Party can hide behind the vague 'general overview'. This creates a direct conflict, because the original text had liability for breach of agreement, but it is hard to determine whether there was a breach if information cannot be asked for at any time."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Any disputes, arising out or relating to this Agreement, shall be settled by the ordinary courts in the Inventor's/Disclosing Party's home country and according to the legislation of the Inventor 's/Disclosing Party's home country.",
+        "changed_text": "Any disputes arising out of or relating to this Agreement shall be subject to mediation before resorting to legal action.",
+        "explanation": "By changing the dispute resolution mechanism from 'ordinary courts' in the Disclosing Party's home country to 'mediation', the enforcing power of the agreement is reduced. Mediation is non-binding unless an agreement is reached. This change is a contradiction because the original text states that it will be settled by ordinary courts, now the dispute will be settled by mediation which has no legal enforcing power. This could lead to a contradiction when a breach happens, the party could claim mediation is just a step and doesn't assure the enforcement.",
+        "location": "10",
+        "contradicted_location": "10",
+        "contradicted_text": "The Receiving Party is held liable to the Inventor/Disclosing Party for damages in the event of breach of this Agreement. The Receiving Party is also held liable in case of breach of the Agreement by third parties to whom the Receiving Party has handed over the Information wholly or partly.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandates disputes be settled in the Inventor's/Disclosing Party's home country ordinary courts. The changed text now specifies that disputes will be subject to mediation before legal action. Mediation does not guarantee enforcement, while the contradicted text states that the Receiving Party 'is held liable' for damages in the event of a breach. Therefore, the change introduces a contradiction because mediation doesn't necessarily ensure the liability established in the contradicted text, potentially nullifying the damages clause. The omitted 'settled by the ordinary courts' is a critical factor. This is an example of Omissions - In Text Contradiction."
+      }
+    ]
+  }
+]

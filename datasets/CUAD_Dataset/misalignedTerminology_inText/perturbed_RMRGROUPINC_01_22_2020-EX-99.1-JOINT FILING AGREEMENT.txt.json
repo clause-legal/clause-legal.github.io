@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "RMRGROUPINC_01_22_2020-EX-99.1-JOINT FILING AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The undersigned hereby agree that the Schedule 13G/A with respect to the shares of Class A Common Stock, $0.001 par value per share, of The RMR Group Inc., dated as of December 31, 2019, is, and any amendments thereto (including amendments on Schedule 13D) signed by each of the undersigned shall be, filed on behalf of each of us pursuant to and in accordance with the provisions of Rule 13d-1(k) under the Securities Exchange Act of 1934, as amended.",
+        "changed_text": "The undersigned hereby agree that the Schedule 13G/A with respect to the holdings of Class A Common Stock, $0.001 par value per share, of The RMR Group Inc., dated as of December 31, 2019, is, and any amendments thereto (including amendments on Schedule 13D) signed by each of the undersigned shall be, filed on behalf of each of us pursuant to and in accordance with the provisions of Rule 13d-1(k) under the Securities Exchange Act of 1934, as amended.",
+        "explanation": "Changing 'shares' to 'holdings' introduces ambiguity. While seemingly synonymous, 'holdings' could be interpreted more broadly to include options or other derivatives, potentially leading to uncertainty regarding which instruments are covered by the filing agreement. The contradiction arises because 'shares' is a well-defined term within securities law, while 'holdings' is not. This change might create uncertainty as to whether the agreement covers only actual shares or other related financial instruments.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "The undersigned hereby agree that the Schedule 13G/A with respect to the holdings of Class A Common Stock, $0.001 par value per share, of The RMR Group Inc., dated as of December 31, 2019, is, and any amendments thereto (including amendments on Schedule 13D) signed by each of the undersigned shall be, filed on behalf of each of us pursuant to and in accordance with the provisions of Rule 13d-1(k) under the Securities Exchange Act of 1934, as amended.",
+        "contradiction_exists": "NO",
+        "justification": "The changed text modifies 'shares' to 'holdings', and the contradicted text also uses 'holdings'. Although the explanation suggests this could lead to ambiguity, both the changed and contradicted text now use the same potentially ambiguous term. Therefore, there is no direct contradiction between the two sections based solely on the provided excerpts. The potential contradiction arises from the term 'holdings' itself and its interpretation under securities law, but since both sections now use the same term, no in-text contradiction is created by the modification."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "signed by each of the undersigned shall be, filed on behalf of each of us pursuant to and in accordance with the provisions of Rule 13d-1(k) under the Securities Exchange Act of 1934, as amended.",
+        "changed_text": "signed by each of the participants shall be, filed on behalf of each of us pursuant to and in accordance with the provisions of Rule 13d-1(k) under the Securities Exchange Act of 1934, as amended.",
+        "explanation": "The change from 'undersigned' to 'participants' creates ambiguity because 'undersigned' specifically refers to those who have signed the document, thus binding them to the agreement. 'Participants' is more general and might include individuals who are involved in the filing but haven't formally signed, leading to confusion about who is legally obligated to comply with the agreement. The contradiction happens because the prior text mentions that the amendment will be 'signed by each of the undersigned', however, the perturbation makes it so, that the filings will be done in behalf of the 'participants' which don't necessarily have signed the document, creating a contradiction in the text.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Paragraph 1",
+        "contradicted_text": "The undersigned hereby agree that the Schedule 13G/A with respect to the holdings of Class A Common Stock, $0.001 par value per share, of The RMR Group Inc., dated as of December 31, 2019, is, and any amendments thereto (including amendments on Schedule 13D) signed by each of the participants shall be, filed on behalf of each of us pursuant to and in accordance with the provisions of Rule 13d-1(k) under the Securities Exchange Act of 1934, as amended.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'undersigned' with 'participants'. The original text and contradicted text explicitly state that the agreement and amendments should be signed by the 'undersigned'. By changing 'undersigned' to 'participants,' the modified text introduces ambiguity about who is legally bound to the agreement, as participants might include individuals who haven't signed. This directly contradicts the requirement that the agreement be 'signed by each of the undersigned,' creating a strong in-text contradiction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "BORROWMONEYCOM,INC_06_11_2020-EX-10.1-JOINT VENTURE AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The exclusive purpose of the Venture (the \"Purpose\") will be IT Development. internet Back office Maintenance And Deployment of medical Service.",
+        "changed_text": "The exclusive purpose of the Venture (the \"Purpose\") will be IT Development. internet Back office Maintenance And Deployment of medical Service. For the avoidance of doubt, this exclusive purpose does not extend to direct patient care.",
+        "explanation": "The addition of 'For the avoidance of doubt, this exclusive purpose does not extend to direct patient care' introduces a contradiction. The original text includes 'Deployment of medical Service' as part of the venture's purpose, which could be interpreted as including activities that involve direct patient care. The added clause explicitly excludes direct patient care, creating an in-text contradiction.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "The exclusive purpose of the Venture (the \"Purpose\") will be IT Development. internet Back office Maintenance And Deployment of medical Service. For the avoidance of doubt, this exclusive purpose does not extend to direct patient care.",
+        "contradiction_exists": "YES",
+        "justification": "The original text includes 'Deployment of medical Service' as part of the venture's purpose. The changed text adds 'For the avoidance of doubt, this exclusive purpose does not extend to direct patient care'. This creates an in-text contradiction because 'Deployment of medical Service' could reasonably be interpreted to include direct patient care, which the added clause explicitly excludes. The contradicted text is the same as the changed text, meaning the change directly contradicts itself, fulfilling the requirement for a strong in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Duties of Members may be amended, from time to time, by decision of the Members, provided that the Members' interests are not affected except with the unanimous consent of the Members.",
+        "changed_text": "Duties of Members may be amended, from time to time, by decision of the Managers, provided that the Members' interests are not affected except with the unanimous consent of the Members.",
+        "explanation": "The original text states the Duties of Members may be amended by the decision of the Members. By changing 'Members' to 'Managers', the right to amend Duties is switched from the 'Members' themselves to the 'Managers', but the additional caveat exists 'provided that the Members' interests are not affected except with the unanimous consent of the Members' meaning the members now need to provide consent on something that managers have the authority to amend.",
+        "location": "14",
+        "contradicted_location": "14",
+        "contradicted_text": "Duties of Members may be amended, from time to time, by decision of the Managers, provided that the Members' interests are not affected except with the unanimous consent of the Members.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Members' with 'Managers' in determining who can amend the Duties of Members. The contradictory nature stems from the caveat that 'Members' interests are not affected except with the unanimous consent of the Members'. This creates a contradiction because it suggests that while Managers have the authority to amend the Duties, they still require unanimous consent from the Members, effectively undermining the Managers' authority. Since both the Changed Text and Contradicted Text are the same in this scenario, and a contradiction exists due to the Misaligned Terminology as indicated in the Perturbation Explanation, the final answer is 'YES'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Venture is termed a contractual joint venture and will not constitute a partnership. Members will provide services to one another on an arms' length basis while remaining independent business entities. There will be no pooling of profits and losses. Each Member is responsible only for its own actions and no Member is an agent for any other Member. Members will not be jointly or severally liable for the actions of the other Members.",
+        "changed_text": "This Venture is termed a contractual joint venture and will not constitute a partnership. Members will provide services to one another on an arms' length basis while remaining independent business entities. There will be a general pooling of profits and losses. Each Member is responsible only for its own actions and no Member is an agent for any other Member. Members will not be jointly or severally liable for the actions of the other Members.",
+        "explanation": "The original agreement specifies that there will be 'no pooling of profits and losses.' By changing this to 'there will be a general pooling of profits and losses,' an explicit contradiction is introduced, undermining the nature of the joint venture.",
+        "location": "60",
+        "contradicted_location": "60",
+        "contradicted_text": "This Venture is termed a contractual joint venture and will not constitute a partnership. Members will provide services to one another on an arms' length basis while remaining independent business entities. There will be a general pooling of profits and losses. Each Member is responsible only for its own actions and no Member is an agent for any other Member. Members will not be jointly or severally liable for the actions of the other Members.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated 'There will be no pooling of profits and losses,' while the changed text states 'There will be a general pooling of profits and losses.' This creates a direct and explicit contradiction concerning a fundamental aspect of the joint venture, making it unclear whether profits and losses are to be pooled or not. The contradicted text is the changed text itself, creating a strong in-text contradiction."
+      }
+    ]
+  }
+]

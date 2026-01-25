@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "Confidentiality_and_Non-Disclosure_Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Confidentiality and Non- Disclosure Agreement (\"Agreement\") is made and entered into this __ day of __________, 2016 (\"Effective Date\") by CiF Lab Solutions LP (\"CIF\"), having its principal place of business at 53 Courtland Ave., Vaughan, ON, L4K 3T2.",
+        "changed_text": "This Confidentiality and Non- Disclosure Agreement (\"Document\") is made and entered into this __ day of __________, 2016 (\"Effective Date\") by CiF Lab Solutions LP (\"Provider\"), having its principal place of business at 53 Courtland Ave., Vaughan, ON, L4K 3T2.",
+        "explanation": "The change from \"Agreement\" to \"Document\" and \"CIF\" to \"Provider\" introduces uncertainty. While in the beginning it defines the type of document as \"Document\", later in section 1 the original defined term \"Agreement\" is used creating contradiction. Furthermore, CIF is referred to as Provider now and in future sections, it is used as CIF creating confusion.",
+        "location": "Preamble",
+        "contradicted_location": "Section 1",
+        "contradicted_text": "1. Confidential Information. The term \"Confidential Inform ation\" shall mean and include that technical and non- technical information disclosed by CIF to Dealer relating to: (a) CIF's website, information system, and related software and discs, and any data and information contained therein, (b) information and specifications on CIF's products, and their design, cost, manufacture, marketing, and sale, and (c) the existence, terms and subject matter of this Agreement. Confidential Information shall not include information that: (i) is in or enters the public domain through no improper action or inaction by Dealer, or (ii) was in Dealers possession or known by Dealer prior to receipt from CIF, or (iii) is rightfully disclosed by Dealer by a third party, or (iv) is approved for disclosure in writing by CIF for release by Dealer or (v) is developed by Dealer without reference to the Confidential Information, or (vi) is required to be disclosed by Dealer in compliance with applicable laws or court order.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Agreement' with 'Document' and 'CIF' with 'Provider' in the initial definition. However, the contradicted text in Section 1 still uses the original terms 'Agreement' and 'CIF'. This creates a direct conflict because Section 1 refers to 'CIF' which is no longer the defined term for CiF Lab Solutions LP, leading to confusion about which entity the clause refers to and if the 'Agreement' even exists. This aligns with the 'Misaligned Terminology' perturbation type, as the contract uses multiple terms interchangeably without defining them, leading to conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "WHEREAS, CIF desires to allow Dealer access to CIF's website to enable Dealer to easily and efficiently obtain information and specifications regarding CIF's products, and Dealer desires to obtain such access and information to enable it to more effectiv ely market and sell CIF products; and",
+        "changed_text": "WHEREAS, Provider desires to allow Dealer access to CIF's website to enable Reseller to easily and efficiently obtain information and specifications regarding Provider's products, and Reseller desires to obtain such access and information to enable it to more effectively market and sell Provider products; and",
+        "explanation": "Here, CIF is changed to Provider and Dealer to Reseller. Now CIF refers to CiF Lab Solutions LP, but in the original text Dealer is defined as the entity having relationship with CIF and is in contrast to Reseller. Since, Reseller is used to replace Dealer, this creates uncertainty.",
+        "location": "Preamble",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "2. Nondisclosure. Dealer shall not distribute, disseminate, publish or disclose the Confidential Information to any person, or entity not employed or retained by Dealer or the use of the Confidential Information for any purpose other than to further the marketing and sale of CIF products. Dealer will disclose the Confidential Information only to those individuals employed by Dealer who need to know such Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines 'Dealer' as having a relationship with 'CIF'. The changed text replaces 'Dealer' with 'Reseller' and 'CIF' with 'Provider'. The contradicted text states that 'Dealer' shall not disclose information except to those employed by 'Dealer' for the marketing and sale of 'CIF' products. By changing 'Dealer' to 'Reseller' and 'CIF' to 'Provider' in the changed text, it creates uncertainty about who has the obligation of nondisclosure (is it the Reseller or the Dealer?) and what products the obligation applies to (Provider's or CIF's?). This introduces a strong contradiction because the 'Dealer' mentioned in the contradicted text is no longer clearly defined within the contract, leading to ambiguity about who is bound by the nondisclosure agreement and for which products. Therefore, it's a strong in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Dealer agrees and acknowledges that the Confidential Information is the property of CIF, and upon termination of this Agreement all rights to the use and ownership of the Confidential Inform ation shall be retained exclusively by CIF.",
+        "changed_text": "Reseller agrees and acknowledges that the Confidential Data is the property of Provider, and upon termination of this Document all rights to the use and ownership of the Confidential Data shall be retained exclusively by Provider.",
+        "explanation": "\"Confidential Information\" is changed to \"Confidential Data\" and \"Agreement\" is changed to \"Document\". It will be contradictory, since throughout the document, it is not clear if confidential data and confidential information are the same.",
+        "location": "Section 4",
+        "contradicted_location": "Section 1",
+        "contradicted_text": "1. Confidential Information. The term \"Confidential Inform ation\" shall mean and include that technical and non- technical information disclosed by CIF to Dealer relating to: (a) CIF's website, information system, and related software and discs, and any data and information contained therein, (b) information and specifications on CIF's products, and their design, cost, manufacture, marketing, and sale, and (c) the existence, terms and subject matter of this Agreement. Confidential Information shall not include information that: (i) is in or enters the public domain through no improper action or inaction by Dealer, or (ii) was in Dealers possession or known by Dealer prior to receipt from CIF, or (iii) is rightfully disclosed by Dealer by a third party, or (iv) is approved for disclosure in writing by CIF for release by Dealer or (v) is developed by Dealer without reference to the Confidential Information, or (vi) is required to be disclosed by Dealer in compliance with applicable laws or court order.",
+        "contradiction_exists": "YES",
+        "justification": "The original text uses 'Confidential Information', 'CIF', 'Dealer', and 'Agreement'. The changed text replaces these with 'Confidential Data', 'Provider', 'Reseller', and 'Document' respectively. The contradicted text defines 'Confidential Information' specifically in relation to 'CIF', 'Dealer', and 'Agreement'. Since the changed text uses different terms without clarification or cross-reference, it creates a contradiction. The contradicted text refers only to the original terms, leading to ambiguity about whether 'Confidential Data' is covered by the same definition and obligations as 'Confidential Information', as well as whether the 'Reseller' and 'Provider' are subject to the same terms as 'Dealer' and 'CIF' respectively. As such, this introduces ambiguity as to what definitions apply as the document is not clear if the terms can be used interchangeably, in accordance to the given definition."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Expect as otherwise provided herein, nothing in this Agreement, express or implied, is intended to confer on any person other than the parties hereto or their respective successors and permitted assigns any rights, remedies, obligations, or liabilities under or by reason of this Agreement.",
+        "changed_text": "Except as otherwise provided herein, nothing in this Contract, express or implied, is intended to confer on any person other than the parties hereto or their respective successors and permitted assigns any rights, remedies, obligations, or liabilities under or by reason of this Agreement.",
+        "explanation": "The term \"Agreement\" is now referred to as \"Contract\" in the changed text. This creates confusion because the agreement that was initially referred is now undefined. Making it unclear if these two are different.",
+        "location": "Section 5(e)",
+        "contradicted_location": "Section 5(a)",
+        "contradicted_text": "5. Miscellaneous. (a) Entire Agreement . This Agreement supersedes all prior and contemporaneous negotiations, agreements, discussions and writings and constitutes the entire Agreement between the parties with respect to subject matter hereof.",
+        "contradiction_exists": "YES",
+        "justification": "The change replaces \"Agreement\" with \"Contract\" within a clause that disclaims conferring rights to third parties under the \"Agreement\". The contradicted text defines \"Agreement\" as the entire agreement between the parties. By renaming the term, the changed text creates uncertainty as to what document the clause is referring to, thus contradicting the original text, which clearly defines the 'Agreement'. This falls under the Misaligned Terminology definition where the change uses multiple terms interchangeably without defining them, leading to conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement shall be binding upon and shal l inure to the benefit of the parties hereto and their respective successors and permitted assigns. Dealer shall not assign this Agreement without the express written permission of CIF.",
+        "changed_text": "This Document shall be binding upon and shall inure to the benefit of the parties hereto and their respective successors and permitted assigns. Reseller shall not assign this Document without the express written permission of Provider.",
+        "explanation": "Here, CIF is changed to Provider, Dealer to Reseller and Agreement to Document. However, in future sections it is referenced as \"Agreement\" and \"CIF\". Creating uncertainty.",
+        "location": "Section 5(e)",
+        "contradicted_location": "Section 5(g)",
+        "contradicted_text": "(g) Governing Law . This Agreement, and all questions relating to its validity, interpretation, performance, and enforcement (including, without limitation, provisions concerning limitations of action) shall be go verned by and construed in accordance with the laws of the Province of Ontario, Canada.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'Agreement' with 'Document', 'CIF' with 'Provider', and 'Dealer' with 'Reseller'. The contradicted text still references 'Agreement'. This creates an in-text contradiction as per the explanation provided because the contract now uses multiple terms interchangeably without defining them and leads to conflicting obligations, creating uncertainty."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "IN WITNESS WHEREOF, the parties hereto have caused this Agreement to be executed as of the date set forth above. CIF LAB SOLUTIONS (“CIF”), _____________________________ Dealer By: By: Title: Title:",
+        "changed_text": "IN WITNESS WHEREOF, the parties hereto have caused this Contract to be executed as of the date set forth above. CIF LAB SOLUTIONS (“Provider”), _____________________________ Reseller By: By: Title: Title:",
+        "explanation": "The document title and contract is changed to the name “Contract” however, some locations throughout the document, the original name is used “Agreement”. Furthermore, CIF is referred to as Provider now and in future sections, it is used as CIF creating confusion.",
+        "location": "Execution Block",
+        "contradicted_location": "Section 5(a)",
+        "contradicted_text": "5. Miscellaneous. (a) Entire Agreement . This Agreement supersedes all prior and contemporaneous negotiations, agreements, discussions and writings and constitutes the entire Agreement between the parties with respect to subject matter hereof.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies 'Agreement' to 'Contract' and 'CIF' to 'Provider'. The contradicted text refers to 'Agreement' as the entire agreement. Using 'Contract' in one part and 'Agreement' in another creates an in-text contradiction. As well as referring to CIF as CIF and then as provider breaks consistency."
+      }
+    ]
+  }
+]

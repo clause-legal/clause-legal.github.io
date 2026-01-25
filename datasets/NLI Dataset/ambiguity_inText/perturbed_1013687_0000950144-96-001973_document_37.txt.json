@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "1013687_0000950144-96-001973_document_37.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Confidential Information which at the time of disclosure is in the public domain;",
+        "changed_text": "Confidential Information which at the time of disclosure is or becomes in the public domain;",
+        "explanation": "This change adds 'or becomes' to the definition of what constitutes non-confidential information. Previously, information had to be public *at the time* of disclosure to be excluded. Now, even information that *becomes* public later is excluded. This creates uncertainty and contradicts the intent of maintaining confidentiality during the initial stages of the agreement. The added words creates an in-text contradiction with Section 7, which states 'Phoenix and Company agree to maintain as Confidential Information, the existence of these discussions regarding a possible business relationship, until an agreement is completed.'",
+        "location": "1",
+        "contradicted_location": "7",
+        "contradicted_text": "Phoenix and Company agree to maintain as Confidential Information, the existence of these discussions regarding a possible business relationship, until an agreement is completed.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defined confidential information as that which is in the public domain 'at the time of disclosure'. The changed text expands this definition to include information that 'becomes' public. This directly contradicts the intent of Section 7, which requires Phoenix and Company to maintain the confidentiality of discussions 'until an agreement is completed'. The change allows for the possibility that information initially confidential could later become public, negating the confidentiality obligation outlined in Section 7. This creates a strong in-text contradiction and falls under the definition of Ambiguities - In Text Contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Confidential Information which either party can show was in its possession at the time of generation or disclosure and was not acquired, directly or indirectly, from the other party or from a third party under obligation of confidence;",
+        "changed_text": "Confidential Information which either party can show was likely in its possession at the time of generation or disclosure and was not acquired, directly or indirectly, from the other party or from a third party under obligation of confidence;",
+        "explanation": "Changing 'was' to 'was likely' weakens the evidentiary standard for proving prior possession of confidential information. This introduces ambiguity and allows for less conclusive proof, potentially undermining the protection of confidential information. This contradicts the need to exercise such care in the protection of the confidential information of the other as they exercise in the protection of confidential information of their own. This is also contradictory to Section 6, where it states 'Phoenix and Company warrant that they have the unqualified right to disclose fully the Confidential Information disclosed hereunder.'",
+        "location": "1",
+        "contradicted_location": "6",
+        "contradicted_text": "Phoenix and Company warrant that they have the unqualified right to disclose fully the Confidential Information disclosed hereunder.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text weakens the standard for proving prior possession of confidential information by changing 'was' to 'was likely'. This introduces ambiguity about the certainty of prior possession. This contradicts the statement in the Contradicted Text: 'Phoenix and Company warrant that they have the unqualified right to disclose fully the Confidential Information disclosed hereunder.', because if the information was 'likely' in their possesion, they cannot warrant that they have the 'unqualified right' to disclose the Confidential Information. Therefore, it creates a direct contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Each party shall exercise such care in the protection of the confidential information of the other as they exercise in the protection of confidential information of their own.",
+        "changed_text": "Each party shall exercise reasonable care in the protection of the confidential information of the other as they exercise in the protection of confidential information of their own.",
+        "explanation": "Replacing 'such care' with 'reasonable care' lowers the standard of care required to protect confidential information. 'Such care' implies a level equivalent to how the party protects its *own* most sensitive information. 'Reasonable care' is a more subjective and potentially lower standard, creating ambiguity and weakening protection.This contradicts Section 2, which defines 'Confidential Information' as including highly sensitive materials like source code and strategic plans, implying a higher level of protection is needed, not just 'reasonable care'.",
+        "location": "3",
+        "contradicted_location": "2",
+        "contradicted_text": "\"Confidential Information\" shall be deemed to include the source and object code computer programs and associated documentation, manuals and other printed or visually acceptable materials describing the use or design of software and strategic plans as well as any other information, oral or written, which shall be so noted on its face as being confidential or proprietary to the disclosing party.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'such care' with 'reasonable care,' effectively lowering the standard of protection for confidential information. 'Such care' implies a high level of protection equivalent to how a party protects its own confidential information, while 'reasonable care' is a more subjective and potentially lower standard. This contradicts the contradicted text, which defines 'Confidential Information' as including highly sensitive materials like source code and strategic plans, implying a need for a higher level of protection, not just 'reasonable care'. This creates a strong in-text contradiction because the level of care required to protect confidential information is now ambiguous and potentially insufficient, given the nature of the information as defined."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Phoenix and Company warrant that they have the unqualified right to disclose fully the Confidential Information disclosed hereunder.",
+        "changed_text": "Phoenix and Company warrant that they believe they have the unqualified right to disclose fully the Confidential Information disclosed hereunder.",
+        "explanation": "Changing 'have' to 'believe they have' significantly weakens the warranty regarding the right to disclose confidential information. A warranty that they *have* the right is a stronger assurance than a warranty that they merely *believe* they have the right. This introduces ambiguity and shifts the risk to the other party, as a belief can be mistaken. This weakens the confidentiality obligations outlined in paragraph 1, as it creates doubt about whether parties can truly ensure the information's confidentiality. This makes it contradictory to Section 1, where it states 'Phoenix and Company agree that they shall hold in confidence and shall not disclose any Confidential Information (as defined in Paragraph 2 below) without the prior written authorization from a corporate officer of the party to whom the information belongs nor use such Confidential Information for any purpose other than that contemplated by this Agreement.'",
+        "location": "6",
+        "contradicted_location": "1",
+        "contradicted_text": "Phoenix and Company agree that they shall hold in confidence and shall not disclose any Confidential Information (as defined in Paragraph 2 below) without the prior written authorization from a corporate officer of the party to whom the information belongs nor use such Confidential Information for any purpose other than that contemplated by this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'have' to 'believe they have' weakens the warranty regarding the right to disclose confidential information. The original text guarantees the right, whereas the changed text only expresses a belief, creating ambiguity and potential risk. This directly contradicts the contradicted text, which states that Phoenix and Company 'shall hold in confidence and shall not disclose any Confidential Information.' If they only *believe* they have the right to disclose, this undermines their obligation to maintain confidentiality, as their belief may be incorrect, leading to unauthorized disclosure. This fits the definition of Ambiguities - In Text Contradiction because it introduces ambiguity which impacts the clarity of obligations within the contract."
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "Non%20Disclosure%20Agreement_1.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "2. C onfidential Information does not include information which a party can demonstrate and document that: (a ) was in his or her knowledge or possession prior to receiving the information from the other party; or, (b) was public knowledge or has become public knowledge through no fault of the party claiming that the information is not Confidential Information; or, (c) was independently developed without reference to the Confidential Information; or, (d) came into his or her possession through a third party who was not obligated to keep the information confidential.",
+        "changed_text": "2. Confidential Information does not include information which a party alleges was in their possession prior to the agreement. No other exceptions to the definition of Confidential Information apply.",
+        "explanation": "This change creates a contradiction. The original clause lists several exceptions to what is considered Confidential Information. The modified clause removes all but one exception (prior possession), directly contradicting the initial, broader definition in Section 1 and the non-disclosure obligations in Section 3 by omitting all the other scenarios where information is considered non-confidential. This creates an in-text contradiction because the contract now both defines Confidential Information broadly and then narrowly, creating uncertainty regarding enforcement.",
+        "location": "Section 2",
+        "contradicted_location": "Section 1",
+        "contradicted_text": "1. C onfidential Information means any information not generally known to the public, whether recorded or conveyed in written, graphic, oral or physical form, including but not limited to scientific knowledge, know-how, processes, inventions, techniques, formulae,products, business operations, customer requirements, data, original copyrighted orcopyrightable works, plans or other records, biological materials, and/or software.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Section 2 significantly narrows the definition of 'Confidential Information' by limiting the exceptions. Originally, several scenarios were listed where information would *not* be considered confidential (prior knowledge, public knowledge, independent development, third-party disclosure). The modified text removes all but one exception (prior possession). This directly contradicts the broad definition of 'Confidential Information' provided in Section 1, which includes 'any information not generally known to the public' and lists numerous examples. This creates an in-text contradiction because the contract now both defines Confidential Information broadly and then narrowly, creating uncertainty and inconsistency regarding enforcement."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "3. The parties shall: (a ) not disclose any Confidential Information obtained from the other party to any person or entity without the prior written permission of the other party; and, (b) not take, copy, or retain any Confidential Information in any written, electronic, or physical form whatsoever without the written permission of theother party; and, (c) return any Confidential Information in any written, electronic, or physical form whatsoever in his or her possession, or to delete forever any ConfidentialInformation that he or she may have stored on a computer or other device, atthe request of the other party, except that each party may keep one copy in its confidential legal files for the purpose of assuring compliance with this agreement.",
+        "changed_text": "3. The parties shall: (a) use Confidential Information solely for internal research purposes, notwithstanding any prior clause; and, (b) not be required to return or delete any Confidential Information.",
+        "explanation": "This change directly contradicts the original intent of the agreement. The original Section 3 outlined strict non-disclosure obligations. The modified Section 3(a) now permits the use of Confidential Information for internal research, and section 3(b) removes the obligation to return or delete it. This in-text contradiction undermines the purpose of the NDA and creates uncertainty about whether the information should be kept secret, or if it can be used internally and retained indefinitely. This conflicts with the original clause in the preamble stating any disclosure of any confidential information will cause irreparable harm to the parties.",
+        "location": "Section 3",
+        "contradicted_location": "Preamble",
+        "contradicted_text": "WHEREAS , unauthorized disclosure of any confidential information to any person or entity will cause irreparable harm to the parties; NOW, THEREFORE , the parties agree as follows:",
+        "contradiction_exists": "YES",
+        "justification": "The original text established strict non-disclosure obligations regarding confidential information. The changed text now allows the use of confidential information for internal research and removes the obligation to return or delete it. This directly contradicts the 'WHEREAS' clause, which states that unauthorized disclosure of any confidential information will cause irreparable harm. By allowing internal use and retention, the changed text permits a form of disclosure and undermines the original intent to prevent any disclosure, creating a strong in-text contradiction."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "4. Notwiths tanding the duty of non-disclosure in paragraph 3, the parties may disclose Confidential Information to their directors, officers, employees, advisors and representatives, provided that these persons are bound by the duty of non-disclosure in this agreement and are informed of this duty.",
+        "changed_text": "4. The duty of non-disclosure in paragraph 3 is absolute. No disclosure of Confidential Information to any party is permitted under any circumstance.",
+        "explanation": "The original Section 4 allowed for disclosure to certain individuals (directors, officers, etc.) under the condition that they were bound by the NDA. The modified Section 4 now prohibits any disclosure whatsoever, creating a direct in-text contradiction with the original allowance. This contradicts the use of 'Confidential Information' that is permitted for internal research purposes under Clause 3. This makes the contract terms very inconsistent. The conflict significantly alters the scope of confidentiality.",
+        "location": "Section 4",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "3. The parties shall: (a) use Confidential Information solely for internal research purposes, notwithstanding any prior clause; and, (b) not be required to return or delete any Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed Section 4 explicitly prohibits any disclosure of Confidential Information under any circumstance, while the contradicted text, Section 3, allows for the use of Confidential Information for internal research purposes. This creates a direct and irreconcilable conflict within the document, as internal research implies some level of disclosure to individuals involved in that research. The changed text therefore makes the contract inconsistent and contradictory and a strong contradiction is present."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "5. This ag reement shall be governed by the laws of the State of Georgia.",
+        "changed_text": "5. This agreement shall be governed by the laws of the State of Delaware.",
+        "explanation": "This creates a conflict by specifying two different jurisdictions. The contract now contains contradictory statements about which state's laws govern the agreement, resulting in an in-text contradiction about which jurisdiction's laws should be applied if disputes arise. This is a critical contradiction because the laws of Georgia and Delaware might differ on matters pertinent to the contract.",
+        "location": "Section 5",
+        "contradicted_location": "Section 5",
+        "contradicted_text": "5. This agreement shall be governed by the laws of the State of Delaware.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified Georgia law, while the changed text specifies Delaware law. The contradicted text, which is identical to the changed text, now stands in direct conflict with the original text. The explanation confirms that this creates an in-text contradiction because two different jurisdictions are specified within the contract to be the governing law, resulting in uncertainty. This falls under the definition of 'Inconsistencies - In Text Contradiction' where different sections of a contract provide conflicting obligations. Even though the changed text and contradicted text are in the same location and therefore are identical, the explanation confirms that by changing the original text, it causes an in-text contradiction with another part of the document, according to the prompt."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "6. This agreement shall terminate upon the mutual agreement of the parties, or at such time that the parties and their assigns no longer have any legal or equitable claim to anyConfidential Information.",
+        "changed_text": "6. This agreement shall terminate 1 year from the date of signature, regardless of any claims to Confidential Information. The obligations regarding confidentiality shall survive termination indefinitely.",
+        "explanation": "This change creates a direct in-text contradiction concerning the termination conditions. The original clause specifies termination upon mutual agreement or when no further claims exist. The modified clause sets a fixed termination date (1 year) irrespective of claims, directly contradicting the original termination conditions. It also specifies that confidentiality obligations survive termination indefinitely, creating further uncertainty regarding what actions are permitted after the one-year termination date, as well as conflicts with Section 3b.",
+        "location": "Section 6",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "3. The parties shall: (a) use Confidential Information solely for internal research purposes, notwithstanding any prior clause; and, (b) not be required to return or delete any Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies Section 6 to state that the agreement terminates after 1 year regardless of claims to Confidential Information. This directly contradicts Section 3b, which states that the parties are not required to return or delete any Confidential Information. If the agreement terminates after 1 year, but the parties are not required to return or delete Confidential Information, there is a contradiction regarding the handling and use of such information after the termination date. Also the perturbation explanation specifies that there is a conflict with Section 3b, so 'YES'."
+      }
+    ]
+  }
+]

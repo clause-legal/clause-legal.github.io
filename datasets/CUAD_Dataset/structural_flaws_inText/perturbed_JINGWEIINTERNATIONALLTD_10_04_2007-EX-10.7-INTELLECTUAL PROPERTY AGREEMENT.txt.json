@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "JINGWEIINTERNATIONALLTD_10_04_2007-EX-10.7-INTELLECTUAL PROPERTY AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The license under this Agreement is a non-exclusive, non-assignable and non-transferable license.",
+        "changed_text": "The license under this Agreement is a non-exclusive license. With Party A's prior written consent, Party B may assign or transfer this license to a subsidiary.",
+        "explanation": "This change introduces a contradiction regarding the assignability and transferability of the license. Initially, the license is explicitly stated as 'non-assignable and non-transferable' in Section 1.1.1. The added sentence now allows for assignment or transfer to a subsidiary with Party A's consent, directly contradicting the original restriction. This is intended to create uncertainty about Party B's ability to transfer rights, as Section 11 prohibits assignment without consent, which seemingly contradicts this change, creating an in-text contradiction.",
+        "location": "1.1.1",
+        "contradicted_location": "11",
+        "contradicted_text": "This Agreement and all the rights and obligations of Party B hereunder shall not be assigned, pledged, sublicensed without the prior written consent of Party A.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly states that the license is 'non-assignable and non-transferable'. The changed text introduces an exception allowing assignment or transfer to a subsidiary with Party A's consent. This directly contradicts the original restriction. The contradicted text reinforces the non-assignability without prior written consent, which is now contradicted by the newly added exception, creating a clear in-text contradiction regarding the assignability of the license, therefore `YES`."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Party B agrees to pay Party A the Intellectual Property License fees (the \"License Fees\") and the specified amount of the license fees and the form of payment are set forth in Appendix 2. Party A has the right to exempt the obligation of payment or adjust the amount of the License Fees set forth in Appendix 2 according to the actual circumstances from time to time.",
+        "changed_text": "Party B agrees to pay Party A the Intellectual Property License fees (the \"License Fees\") and the specified amount of the license fees and the form of payment are set forth in Appendix 2. Even in instances of financial difficulties, Party B will still have to pay Party A the Intellectual Property License fees. Party A has the right to exempt the obligation of payment or adjust the amount of the License Fees set forth in Appendix 2 according to the actual circumstances from time to time.",
+        "explanation": "This change creates a contradiction in Section 2 regarding Party A's right to exempt fees. The original clause stated that Party A could 'exempt the obligation of payment'. By adding 'Even in instances of financial difficulties, Party B will still have to pay Party A the Intellectual Property License fees', introduces a scenario where Party A is still entitled to payment in instances of financial difficulties; while still being able to 'exempt the obligation of payment or adjust the amount', which creates an in-text contradiction on the obligations of payment, as one sentence implies that it will happen, and the prior sentence implies that it is something which Party A will still be receiving regardless of the other conditions",
+        "location": "2",
+        "contradicted_location": "Appendix 2",
+        "contradicted_text": "Party B should pay for All Intellectual Property RMB 1,000,000 per year to Party A as license fee. Party B shall pay the license fee to the account designated by Party A before December 31 each year. Party A has the right to determine whether or not to exempt the Party B's obligation to pay license fee at its discretion.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds the clause 'Even in instances of financial difficulties, Party B will still have to pay Party A the Intellectual Property License fees.' This directly contradicts the original clause and the contradicted text, both of which state that 'Party A has the right to exempt the obligation of payment or adjust the amount of the License Fees' or 'Party A has the right to determine whether or not to exempt the Party B's obligation to pay license fee at its discretion.' The added clause creates a situation where Party A's right to exempt fees is undermined in instances of financial difficulty for Party B. This introduces a clear and direct conflict, meeting the criteria for a strong in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The term of this Agreement is five (5) years unless the early termination in accordance with this Agreement. However, Party A and Party B shall review this Agreement every six (6) months to determine whether any amendment or supplement to the Agreement is necessary by considering the circumstances after the executing of this Agreement.",
+        "changed_text": "The term of this Agreement is five (5) years. However, Party A and Party B shall review this Agreement every six (6) months to determine whether any amendment or supplement to the Agreement is necessary by considering the circumstances after the executing of this Agreement. This Agreement is automatically renewed for another five (5) years unless either Party A or Party B expresses it in writting to each other.",
+        "explanation": "This change introduces a contradiction related to the termination of the agreement in Section 6.1. The original text stated that 'The term of this Agreement is five (5) years unless the early termination in accordance with this Agreement.' By adding 'This Agreement is automatically renewed for another five (5) years unless either Party A or Party B expresses it in writting to each other', it creates uncertainty. Originally it states the 5 year term with early termination clause (Section 7.1) but also that, it can automatically renew unless either party sends a letter to each other, creating an in-text contradiction of the true nature of the renewal.",
+        "location": "6.1",
+        "contradicted_location": "7.1",
+        "contradicted_text": "Early Termination Without prejudice to any legal or other rights or remedies of the party who asks for termination of this Agreement, any Party has the right to terminate this Agreement immediately with written notice to the other party in the event the other party materially breaches this Agreement including but not limited to the obligation under Article 3 of this Agreement and fails to cure its breach within thirty (30) days from the date it receives written notice of its breach from the non-breaching party. During the term of this Agreement, Party A may terminate this Agreement at any time with a written notice to Party B 30 days before such termination.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces an automatic renewal clause that directly contradicts the early termination clause specified in the contradicted text. The original agreement allowed for early termination, but the added renewal clause creates uncertainty about the termination process and the actual term of the agreement. This contradiction makes it unclear whether the agreement can be terminated early if it's automatically renewed, creating a strong in-text contradiction."
+      }
+    ]
+  }
+]

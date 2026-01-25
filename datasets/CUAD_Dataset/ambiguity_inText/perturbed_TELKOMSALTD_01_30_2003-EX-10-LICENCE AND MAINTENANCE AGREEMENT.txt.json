@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "TELKOMSALTD_01_30_2003-EX-10-LICENCE AND MAINTENANCE AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "2. 3. 11. 7. \"USE\" means to load, execute, employ, utilise, access, store process information that results in TRANSACTION USE or display of the SOFTWARE within the TERRITORY. USE is deemed to occur where any such USE occurs by TELKOM, its AFFILIATES or their respective employees or BUSINESS THIRD PARTIES authorised by TELKOM in terms of formal arrangements, to USE the SOFTWARE and, for the purposes of this AGREEMENT, TELKOM shall permit the SOFTWARE to be USED only within the TERRITORY;",
+        "changed_text": "2. 3. 11. 7. \"USE\" means to load, execute, employ, utilise, access, store or process information, that results in TRANSACTION USE or display of the SOFTWARE within the TERRITORY. USE is deemed to occur where any such USE occurs by TELKOM; its AFFILIATES or their respective employees or BUSINESS THIRD PARTIES are strictly prohibited from using the SOFTWARE. For the purposes of this AGREEMENT, TELKOM shall permit the SOFTWARE to be USED only within the TERRITORY;",
+        "explanation": "This change introduces a contradiction regarding who is authorized to USE the software. Originally, TELKOM, its AFFILIATES, and BUSINESS THIRD PARTIES were authorized. The modified text explicitly prohibits AFFILIATES and BUSINESS THIRD PARTIES from using the SOFTWARE, directly contradicting the original permission and also introducing a contradiction if other parts of the contract still assume their authorized usage.",
+        "location": "2. 3. 11. 7",
+        "contradicted_location": "3. 10",
+        "contradicted_text": "3. 10. TELKOM and its AFFILIATES shall only allow USE of the SOFTWARE and SAP PROPRIETARY INFORMATION by their respective employees, authorised representatives and persons and entities authorised by TELKOM in terms of formal arrangements and who are required as part of such arrangements to assist TELKOM or an AFFILIATE, to USE or enhance the USE of TELKOM'S or an AFFILIATE'S USE of the SOFTWARE.",
+        "contradiction_exists": "YES",
+        "justification": "The original text of section 2.3.11.7 allows TELKOM, its AFFILIATES, and BUSINESS THIRD PARTIES to USE the SOFTWARE. The changed text of the same section prohibits AFFILIATES and BUSINESS THIRD PARTIES from using the SOFTWARE, directly contradicting the original text. This contradiction conflicts with section 3.10, which allows TELKOM and its AFFILIATES to allow USE of the SOFTWARE, creating a clear in-text contradiction."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "3. 1. Subject to the provisions of this AGREEMENT, and with effect from the date when the party signing last in time appends its signature to this agreement (\"the effective date\"), and enduring in perpetuity unless terminated as provided for elsewhere in this AGREEMENT, SAP AFRICA grants, and TELKOM accepts a non-exclusive, non-transferable licence to USE the SOFTWARE, DOCUMENTATION and other SAP AFRICA PROPRIETARY INFORMATION at the specified DESIGNATED SITE within the TERRITORY.",
+        "changed_text": "3. 1. Subject to the provisions of this AGREEMENT, and with effect from the date when the party signing last in time appends its signature to this agreement (\"the effective date\"), and enduring for a period of five years, unless terminated as provided for elsewhere in this AGREEMENT, SAP AFRICA grants, and TELKOM accepts a non-exclusive, non-transferable licence to USE the SOFTWARE, DOCUMENTATION and other SAP AFRICA PROPRIETARY INFORMATION at the specified DESIGNATED SITE within the TERRITORY.",
+        "explanation": "The duration of the license is changed from 'in perpetuity' to 'a period of five years'. This creates a contradiction with section 6.1, which states the license endures indefinitely. This change creates a contradiction if other parts of the agreement still operate under the assumption that the license is perpetual.",
+        "location": "3. 1",
+        "contradicted_location": "6. 1",
+        "contradicted_text": "6. 1. Duration: The licence granted hereunder shall become effective upon execution of this AGREEMENT by both parties and shall endure indefinitely unless terminated under clause 6. 2.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the license endures 'in perpetuity', but the changed text limits the duration to 'a period of five years'. This directly contradicts section 6.1, which states the license 'shall endure indefinitely'. The modification introduces a temporal limitation where the original agreement stipulated no such limit, creating a clear and direct conflict in the document regarding the duration of the license."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "10. 1 SAP AFRICA warrants that the SOFTWARE will conform to the functional specifications contained in the DOCUMENTATION on the date of installation of the SOFTWARE and will perform, when in use without material alteration on the DESIGNATED UNIT in accordance with the functional specifications set forth in the DOCUMENTATION.",
+        "changed_text": "10. 1 SAP AFRICA warrants that the SOFTWARE will conform, to some extent, to the functional specifications contained in the DOCUMENTATION on the date of installation of the SOFTWARE and will make an effort to perform, when in use without material alteration on the DESIGNATED UNIT in accordance with the functional specifications set forth in the DOCUMENTATION.",
+        "explanation": "This change weakens the warranty by changing 'will conform' to 'will conform, to some extent,'. It also changes 'will perform' to 'will make an effort to perform', making the performance guarantee less definitive. This creates a contradiction with the rest of clause 10, which operates under the initial stronger warranty statement. This weakens the warranty provided and creates a contradiction if other sections rely on a strict warranty for conformance and performance.",
+        "location": "10. 1",
+        "contradicted_location": "10. 4",
+        "contradicted_text": "10. 4 Should any module or aspect of the SOFTWARE fail to conform to its' functional specifications, then SAP AFRICA shall, in terms of its warranty set out in this AGREEMENT, either correct the defect, or, at SAP AFRICA's option, replace the defective SOFTWARE or any module thereof.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text weakens the original warranty by stating the software 'will conform, to some extent' and 'will make an effort to perform'. This directly contradicts clause 10.4, which states that if the software 'fail[s] to conform to its' functional specifications', SAP AFRICA is obligated to correct the defect or replace the software 'in terms of its warranty set out in this AGREEMENT'. The weakened warranty in the changed text creates an ambiguity regarding the extent of SAP AFRICA's obligation, making clause 10.4 unenforceable as written."
+      }
+    ]
+  }
+]

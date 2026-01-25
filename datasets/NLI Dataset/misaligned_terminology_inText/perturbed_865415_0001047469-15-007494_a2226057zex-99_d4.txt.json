@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "865415_0001047469-15-007494_a2226057zex-99_d4.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement shall continue in full force and effect for so long as the parties continue to exchange Confidential Information.",
+        "changed_text": "This Agreement shall continue in full force and effect for only thirty (30) days, regardless of whether the parties continue to exchange Confidential Information.",
+        "explanation": "The agreement's duration is changed from being dependent on the exchange of confidential information to a fixed period of 30 days. This contradicts the later provision that outlines the agreement's survival period after termination. This creates an in-text contradiction, because although this section states the agreement is for 30 days, later sections imply this agreement can be terminated with conditions after 30 days.",
+        "location": "Section 7",
+        "contradicted_location": "Section 7",
+        "contradicted_text": "This Agreement may be terminated by either party at any time upon thirty (30) days written notice to the other party, however its terms shall survive the termination of this Agreement for a period of five (5) years from the date of such termination.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the agreement duration from being dependent on the exchange of confidential information to a fixed period of 30 days. The contradicted text states the agreement may be terminated with 30 days written notice and its terms shall survive for 5 years after termination. The changed text sets a fixed duration of 30 days regardless of termination, creating a contradiction with the survival clause, which implies a duration longer than 30 days is possible."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Each party recognizes that the disclosure of the other party’s Confidential Information may give rise to irreparable injury and acknowledges that remedies other than injunctive relief will not be adequate.",
+        "changed_text": "Each party acknowledges that monetary damages are the sole and adequate remedy for any disclosure of the other party’s Confidential Information, precluding any claim for irreparable injury.",
+        "explanation": "The acknowledgment of 'irreparable injury' and the adequacy of remedies other than injunctive relief is negated. This directly contradicts the clause granting the right to seek injunctive relief. This in-text contradiction leads to uncertainty in enforcement because Section 8 grants injunctive relief, while at the same time declaring that it shouldn't be adequate.",
+        "location": "Section 8",
+        "contradicted_location": "Section 8",
+        "contradicted_text": "Accordingly, each party shall have the right to seek equitable and injunctive relief (without the need to post a bond or other security) to prevent the unauthorized disclosure of its Confidential Information, as well as such damages or other relief as may be available in law or equity for any unauthorized use or disclosure of such information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly states that monetary damages are the 'sole and adequate remedy' for disclosure of confidential information, precluding any claim for irreparable injury. This directly contradicts the 'Contradicted Text', which grants each party the right to seek injunctive relief to prevent unauthorized disclosure. The original text acknowledges that remedies other than injunctive relief will not be adequate, while the changed text says monetary damages are adequate, thus strongly conflicting with the right to seek equitable and injunctive relief as granted in the 'Contradicted Text'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Any disputes under this Agreement may be brought in the state courts or the Federal courts located in Alameda County, and the parties hereby consent to the exclusive subject matter personal jurisdiction and venue of these courts.",
+        "changed_text": "Any disputes under this Agreement must be resolved through binding arbitration in New York City, and the parties expressly waive any right to litigate in court.",
+        "explanation": "The dispute resolution method is changed from litigation in Alameda County courts to binding arbitration in New York City. This contradicts the clause about consenting to the jurisdiction and venue of Alameda County courts. This creates an in-text contradiction, because now, this agreement states one clause consents to a location, and another denies it.",
+        "location": "Section 13",
+        "contradicted_location": "Section 13",
+        "contradicted_text": "This Agreement shall be governed by and construed in accordance with the internal laws of the State of California, U.S.A. without reference to conflict of law principles. Any disputes under this Agreement may be brought in the state courts or the Federal courts located in Alameda County, and the parties hereby consent to the exclusive subject matter personal jurisdiction and venue of these courts. This Agreement may not be amended except in writing signed by both parties hereto.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces litigation in Alameda County courts with binding arbitration in New York City. The contradicted text explicitly consents to the exclusive jurisdiction and venue of Alameda County courts for dispute resolution. This creates a direct contradiction because the agreement now simultaneously consents to and denies the jurisdiction of Alameda County courts, leading to an unenforceable clause."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "This Agreement represents the entire agreement between the parties with respect to its subject matter and there are no other representations, understandings or agreements between the parties relative to such subject matter, 2 except for any confidentiality or non-disclosure obligations that may be set forth in other written agreements signed by all parties thereto (“other NDAs”).",
+        "changed_text": "This Agreement is superseded by any prior oral agreements between the parties concerning the subject matter herein. This Agreement does not include any prior or current NDAs.",
+        "explanation": "The 'entire agreement' clause is contradicted by stating that prior oral agreements supersede the written agreement and that NDAs are not part of this agreement. This in-text contradiction undermines the 'entire agreement' provision, creating ambiguity about which agreements are legally binding. This now contradicts the original phrase and there are now previous representations.",
+        "location": "Section 17",
+        "contradicted_location": "Section 17",
+        "contradicted_text": "No amendment to, or change, waiver or discharge of, any provision of this Agreement shall be valid unless in writing and signed by an authorized representative of each party. This Agreement represents the entire agreement between the parties with respect to its subject matter and there are no other representations, understandings or agreements between the parties relative to such subject matter, 2 except for any confidentiality or non-disclosure obligations that may be set forth in other written agreements signed by all parties thereto (“other NDAs”). In the event of an apparent conflict between or among provisions of this Agreement and provisions of other NDAs between the parties, such provisions shall be read in a mutually consistent way, or if no such reading is reasonably possible, the provisions most protective of Confidential Information shall take precedence over conflicting or less protective provisions. This Agreement may be executed in any number of counterparts, each of which shall be deemed an original, but all of which taken together shall constitute one single agreement between the parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text includes an 'entire agreement' clause, stating that the agreement constitutes the entire understanding between the parties, except for other written NDAs. The changed text contradicts this by stating that prior oral agreements supersede the written agreement and excludes NDAs. This creates a direct conflict with the 'entire agreement' clause in the contradicted text, as prior agreements (oral or NDAs) are now given precedence, undermining the original intention of the 'entire agreement' clause, and creating ambiguity."
+      }
+    ]
+  }
+]

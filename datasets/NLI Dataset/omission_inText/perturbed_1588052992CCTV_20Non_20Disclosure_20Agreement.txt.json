@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "1588052992CCTV%20Non%20Disclosure%20Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "2.2 No Unauthorized Disclosure: Recipient agrees to use its best efforts to prevent and protect the Confidential Information, or any part thereof, from disclosure to any person(s) or entity (ies), even if authorized or directed under any law, without the express permission of the Discloser. Discloser, notwithstanding, shall have the right to deny such disclosure of the Confidential Information being detrimental to the security interests of the Discloser and/or its",
+        "changed_text": "2.2 No Unauthorized Disclosure: Recipient agrees to use its best efforts to prevent and protect the Confidential Information, or any part thereof, from disclosure to any person(s) or entity (ies), even if authorized or directed under any law, without the express permission of the Discloser.",
+        "explanation": "By omitting the second sentence of this section, the clause becomes incomplete and ambiguous. The Discloser's right to deny disclosure based on security interests is removed. This contradicts the overall intent of a Non-Disclosure Agreement, where the Discloser is expected to have strong control over the Confidential Information.",
+        "location": "Section 2.2",
+        "contradicted_location": "Preamble",
+        "contradicted_text": "WHEREAS the Discloser possesses certain information relating to the security set-up, security architecture, lay-out, security processes and procedures, designs, drawings, software and hardware configuration, computer programs, algorithms, services, customers etc that is considered sensitive (hereinafter called as \"Sensitive Information\");",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed the Discloser to deny disclosure of Confidential Information if it was detrimental to their security interests. The changed text omits this right, which directly contradicts the 'WHEREAS' clause that explicitly states the Discloser possesses 'Sensitive Information' relating to 'security set-up, security architecture...' etc. The removal of the right to deny disclosure undermines the protection of this sensitive information, creating a strong in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "2.3 Protection of Secrecy: Recipient agrees to take all steps necessary to protect the secrecy of the Confidential Information, and to prevent the Confidential Information from failing into the public domain or into the possession of unauthorized person(s) and/or entity(ies).",
+        "changed_text": "2.3 Protection of Secrecy: Recipient agrees to take reasonable steps to protect the Confidential Information, and to prevent the Confidential Information from falling into the possession of unauthorized person(s) and/or entity(ies).",
+        "explanation": "Changing 'all steps necessary' to 'reasonable steps' introduces a subjective standard. This creates an in-text contradiction with the strong confidentiality requirements implied elsewhere in the agreement, such as the penalties for breach. 'Reasonable' is less stringent than 'all necessary steps,' making the level of protection unclear and potentially weakening the agreement's enforceability.",
+        "location": "Section 2.3",
+        "contradicted_location": "Section 5",
+        "contradicted_text": "5. Breach. The Recipient acknowledges that disclosure or use of Confidential Information in violation of this Agreement could cause irreparable harm to Discloser including loss of lives and limbs of the persons and damage to the property, for which monetary damages may be difficult to ascertain or turn to be meaningless. The Recipient therefore agrees that Discloser will have the right, in addition to its other rights and remedies, to seek injunctive relief for violations of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text requires 'all steps necessary' to protect Confidential Information, while the changed text requires only 'reasonable steps'. The contradicted text emphasizes 'irreparable harm' and the right to seek injunctive relief for violations. By weakening the required level of protection from 'all steps necessary' to 'reasonable steps,' the changed text introduces a contradiction. 'Reasonable steps' is a subjective standard, making it potentially more difficult for the Discloser to prove a breach and obtain injunctive relief for 'irreparable harm'. The change weakens the agreement's enforceability and contradicts the severity of the potential consequences outlined in the contradicted text, as highlighted in the Perturbation Explanation."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "7. Any dispute or difference arising out of or in connection with this Non- Discloser Agreement shall be setteled amicably by the Parties through mutual negotiations. Any unsettled dispute or difference shall be referred to Arbitration by a Sole Arbitrator. The Arbitration shall be conducted in accordance with the rules and procedure of UNCITRAL in force on the date of Agreement. Arbitration proceedings shall be held in India and will be conducted in English. The decision of Arbitral Tribunal shall be final and binding on all Parties. Cost of Arbitrtaion shall be borne by Parties themselves unless and otherwise ordered by the Tribunal.",
+        "changed_text": "7. Any dispute or difference arising out of or in connection with this Non- Discloser Agreement shall be settled amicably by the Parties through mutual negotiations.",
+        "explanation": "By removing the entire arbitration clause, there is no longer a mechanism for resolving disputes that cannot be settled amicably. This creates a contradiction because the contract implies a legally binding agreement, but then removes the agreed-upon process for formal dispute resolution.",
+        "location": "Section 7",
+        "contradicted_location": "Section 8",
+        "contradicted_text": "8. This Agreement shall be governed by and construed in accordance with the laws in force in India.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified a method for dispute resolution (arbitration). The changed text removes this arbitration clause, leaving only amicable negotiation. The contradicted text states that the agreement is governed by the laws of India. Without a dispute resolution mechanism, it becomes unclear how these laws would be applied or enforced if amicable negotiations fail, thus creating a contradiction. The Omissions - In Text Contradiction definition clearly applies as essential language (arbitration clause) is removed creating contradiction with the enforceability of the contract stated in contradicted text."
+      }
+    ]
+  }
+]

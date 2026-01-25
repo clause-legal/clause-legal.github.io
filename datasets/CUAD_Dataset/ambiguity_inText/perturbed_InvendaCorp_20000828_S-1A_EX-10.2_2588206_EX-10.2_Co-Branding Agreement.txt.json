@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "InvendaCorp_20000828_S-1A_EX-10.2_2588206_EX-10.2_Co-Branding Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "f) \"Program Member(s)\" shall mean an Excite@Home Member who has: Source: INVENDA CORP, S-1/A, 8/28/2000 i) Been provided access to the Co-Branded Application, and ii) Has opted-in to allow all his or her registration information to be shared with Application Provider and/or unspecified third parties.",
+        "changed_text": "f) \"Program Member(s)\" shall mean an Excite@Home Member who has: Source: INVENDA CORP, S-1/A, 8/28/2000 i) Been provided access to the Co-Branded Application, and ii) Has *not* opted-in to allow all his or her registration information to be shared with Application Provider and/or unspecified third parties.",
+        "explanation": "This change contradicts the fundamental definition of a \"Program Member.\" Initially, it indicated that to qualify as a Program Member, a user had to opt-in to share their data. By changing 'has opted-in' to 'has *not* opted-in', the revised definition suggests a Program Member is someone who *withholds* their data. This perturbation creates an in-text contradiction with Section 2.h, where the Co-Branded Application is described as being presented to Program Members, implying they have agreed to data sharing. This also generates an in-text contradiction, because in several other places in the original document, it states, that users can view offers, only if they become Program Members. With the new perturbation that's been introduced, it suggests, that Program Members have to withhold their data to qualify as Program Members, and therefore creating and in-text contradiction.",
+        "location": "1",
+        "contradicted_location": "2",
+        "contradicted_text": "h) Excite@Home will have editorial control over all email or other similar communication with Excite@Home Members. Correspondence solely regarding the Co-Branded Application will only be presented to Program Members; communication with all other Excite@Home Members will be tied to regular Excite@Home email schedules, which may or may not be integrated with other email content at Excite@Home's sole option.",
+        "contradiction_exists": "YES",
+        "justification": "The modification introduces a direct in-text contradiction. The original definition of 'Program Member' requires opting-in to data sharing. The changed definition requires *not* opting-in. This directly contradicts Section 2.h, which states that correspondence about the Co-Branded Application will only be presented to Program Members, implying that Program Members *have* agreed to data sharing. The conflicting definitions regarding the fundamental requirement of opting-in to data sharing creates a strong and obvious contradiction, and ambiguity regarding who qualifies as a program member, thus impacting the section outlining which type of 'Excite@Home' member receives correspondence. This qualifies as an 'Ambiguities – In Text Contradiction' based on the given definitions."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Application Provider will retain all right, title and interest in and to its trademarks, service marks and trade names worldwide, subject to the limited license granted to Excite@Home in Section 11(c) [TRADEMARK OWNERSHIP AND LICENSE] below.",
+        "changed_text": "Application Provider will *not* retain all right, title and interest in and to its trademarks, service marks and trade names worldwide, subject to the limited license granted to Excite@Home in Section 11(c) [TRADEMARK OWNERSHIP AND LICENSE] below.",
+        "explanation": "This change introduces a contradiction regarding trademark ownership. The original text clearly stated that Application Provider retains all rights. The changed text reverses this, stating they do *not* retain these rights. This creates a direct conflict with Section 11(c), which discusses the *license* granted to each party to use the other's trademarks. If Application Provider doesn't own the trademarks as stated in Section 11(a) because of the new change made, the license grant in 11(c) becomes nonsensical and creating a clear in-text contradiction. Meaning that there's no point in granting a license, when one doesn't own the mentioned trademarks, which generates an in-text contradiction.",
+        "location": "11",
+        "contradicted_location": "11",
+        "contradicted_text": "c) Each party hereby grants to the other a non-exclusive, limited license to use its trademarks, service marks or trade names only as specifically described in this Agreement. All such use shall be in accordance with each party's reasonable policies regarding advertising and trademark usage as established from time to time.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text in Section 11(a) now states that the Application Provider does *not* retain rights to its trademarks, directly contradicting Section 11(c). Section 11(c) grants a license to each party to use the other's trademarks. If the Application Provider does not own its trademarks per the changed text of Section 11(a), then Section 11(c)'s granting of a license to use these trademarks becomes nonsensical because there is no ownership to grant a license from, creating a clear and impactful in-text contradiction. This aligns with the definition of 'Ambiguities – In Text Contradiction,' as the trademark ownership is defined inconsistently, making the license grant unclear and unenforceable."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Application Provider will not serve advertising on the Co-Branded Application for any \"Excite@Home Named Competitor,\" as specified in EXHIBIT E.",
+        "changed_text": "Application Provider *will* serve advertising on the Co-Branded Application for any \"Excite@Home Named Competitor,\" as specified in EXHIBIT E.",
+        "explanation": "The original text established a clear restriction on Application Provider serving ads for Excite@Home's competitors. Changing 'will not' to 'will' directly contradicts this, permitting such advertising. This alteration conflicts with the intent of Section 4(d), which seeks to protect Excite@Home from competition. Now this in-text contradiction is conflicting with Section 4(d), because the purpose of limiting competitior adversting is nullified. Since now, Application Provider can advertise for the competitor.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "d) Excite@Home will not serve advertising on the Co-Branded Application for any \"Application Provider Named Competitor,\" as specified in EXHIBIT E. Application Provider may designate no more than 10 companies as Named Competitors. Not more than once per quarter, Application Provider may update the list of Application Provider Named Competitors, but may not add to the list any company with which Excite@Home has a material existing relationship as of the Effective Date of this Agreement. Within three business days of receiving Application Provider's written update, Excite@Home will remove any advertising from Application Provider's listed competitors displayed on the Co-Branded Pages.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the original intent and Section 4(d) by allowing advertising for Excite@Home competitors where it was previously prohibited. This is a clear and impactful conflict, making the agreement internally inconsistent and potentially unenforceable. The change follows the definitions, as it introduces ambiguities into what adversting is allowed."
+      }
+    ]
+  }
+]

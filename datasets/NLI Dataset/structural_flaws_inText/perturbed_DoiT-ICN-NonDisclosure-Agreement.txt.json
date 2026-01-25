@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "DoiT-ICN-NonDisclosure-Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Vendor shall restrict disclosure of such CONFIDENTIAL INFORMATION to its employees with a need to know (and advise such employees of the obligations assumed herein), and shall not disclose such CONFIDENTIAL INFORMATION to any third party without prior written approval of the State.",
+        "changed_text": "Vendor may disclose such CONFIDENTIAL INFORMATION to its employees, contractors, and consultants, whether or not they have a need to know, provided they are informed of the confidential nature of the information. Disclosure to third parties requires only notification to the State.",
+        "explanation": "The original text strictly limits disclosure to employees with a 'need to know' and prohibits disclosure to third parties without prior written approval. The change allows disclosure to employees, contractors, and consultants regardless of 'need to know' and only requires notification for third-party disclosures. This is a direct contradiction and creates an in-text contradiction in Section 1 by contradicting the part where it says that Vendor shall restrict disclosure.",
+        "location": "1",
+        "contradicted_location": "1",
+        "contradicted_text": "Vendor may disclose such CONFIDENTIAL INFORMATION to its employees, contractors, and consultants, whether or not they have a need to know, provided they are informed of the confidential nature of the information. Disclosure to third parties requires only notification to the State. These restrictions on the use or disclosure of CONFIDENTIAL INFORMATION shall not apply to any CONFIDENTIAL INFORMATION: i. which is independently developed by Vendor or is lawfully received free of restriction from another source having the right to so furnish such CONFIDENTIAL INFORMATION; ii. after it has become generally available to the public without breach of this Agreement by Vendor; iii. which, at the time of disclosure to Vendor, was known to Vendor to be free of restriction; or iv. which the State agrees in writing is free of such restrictions.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the original text to allow broader disclosure of confidential information to employees, contractors, and consultants, regardless of their 'need to know,' and only requires notification for third-party disclosures, contradicting the contradicted text and original text, which states that disclosure should be restricted to employees with a need to know and prohibits disclosure to third parties without prior written approval."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "These restrictions on the use or disclosure of CONFIDENTIAL INFORMATION shall not apply to any CONFIDENTIAL INFORMATION: i. which is independently developed by Vendor or is lawfully received free of restriction from another source having the right to so furnish such CONFIDENTIAL INFORMATION; ii. after it has become generally available to the public without breach of this Agreement by Vendor; iii. which, at the time of disclosure to Vendor, was known to Vendor to be free of restriction; or iv. which the State agrees in writing is free of such restrictions.",
+        "changed_text": "These restrictions on the use or disclosure of CONFIDENTIAL INFORMATION shall not apply to any CONFIDENTIAL INFORMATION: i. which is independently developed by Vendor; ii. after it has become generally available to the public; iii. which, at the time of disclosure to Vendor, was known to Vendor; or iv. which the State agrees in writing is free of such restrictions. All other information disclosed is confidential regardless of prior knowledge or source.",
+        "explanation": "The original clause had specific conditions for exceptions. The modified clause omits 'or is lawfully received free of restriction from another source having the right to so furnish such CONFIDENTIAL INFORMATION'. It also adds 'All other information disclosed is confidential regardless of prior knowledge or source'. This creates an in-text contradiction because the original text doesn't include 'prior knowledge or source' as confidential, therefore the new added text contradicts that by doing it. ",
+        "location": "1",
+        "contradicted_location": "1",
+        "contradicted_text": "These restrictions on the use or disclosure of CONFIDENTIAL INFORMATION shall not apply to any CONFIDENTIAL INFORMATION: i. which is independently developed by Vendor; ii. after it has become generally available to the public; iii. which, at the time of disclosure to Vendor, was known to Vendor; or iv. which the State agrees in writing is free of such restrictions. All other information disclosed is confidential regardless of prior knowledge or source. 2. No license under any trademark, patent, copyright, mask work protection right or any other intellectual property right is either granted or implied by conveying CONFIDENTIAL INFORMATION to Vendor. None of the CONFIDENTIAL INFORMATION which may be disclosed by the State shall constitute any representation, warranty, assurance, guarantee or inducement by the State of any kind, and, in particular, with respect to the non‐ infringement of trademarks, patents, copyrights, mask work protection rights or any other intellectual property rights, or other rights of third persons or of the State.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the original clause concerning exceptions to confidential information. It removes the provision that information 'lawfully received free of restriction from another source having the right to so furnish such CONFIDENTIAL INFORMATION' is not considered confidential. Additionally, it adds a statement that 'All other information disclosed is confidential regardless of prior knowledge or source.' This directly contradicts the original implication that prior knowledge or source could affect confidentiality, creating a strong in-text contradiction within the contract as the Contradicted Text is identical to the Changed Text."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "All CONFIDENTIAL INFORMATION furnished hereunder shall be returned at the conclusion of each meeting between Vendor and the State.",
+        "changed_text": "Vendor is not required to return any CONFIDENTIAL INFORMATION furnished hereunder. Vendor must destroy the CONFIDENTIAL INFORMATION at the conclusion of each meeting between Vendor and the State.",
+        "explanation": "The original text mandates the return of all CONFIDENTIAL INFORMATION. The change states that information should be destroyed rather than returned, directly contradicting the original requirement. This creates an in-text contradiction in Section 3 on whether the information is supposed to be destroyed, or returned. Also, this brings contradiction for future instances of the contract, where it may imply the information should be returned not destroyed.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Vendor is not required to return any CONFIDENTIAL INFORMATION furnished hereunder. Vendor must destroy the CONFIDENTIAL INFORMATION at the conclusion of each meeting between Vendor and the State. 4. This Agreement shall be governed by the laws of the State of Illinois.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated all CONFIDENTIAL INFORMATION furnished hereunder shall be returned. The changed text states Vendor is not required to return any CONFIDENTIAL INFORMATION furnished hereunder. Vendor must destroy the CONFIDENTIAL INFORMATION. Therefore, the changed text directly contradicts the original text, as well as the contradicted text."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "This Agreement shall be governed by the laws of the State of Illinois.",
+        "changed_text": "This Agreement shall be governed by the laws of the State of Delaware.",
+        "explanation": "The original text specifies that the agreement is governed by Illinois law. The change substitutes Delaware law, creating a direct contradiction about which state's laws apply. This creates an in-text contradiction in Section 4 on which state law should be governing the agreement, in case of a dispute.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "This Agreement shall be governed by the laws of the State of Delaware. 5. The obligations of this Agreement with respect to the disclosure and use of CONFIDENTIAL INFORMATION shall survive for a period of three (3) years from the date of last disclosure.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated Illinois law governs the agreement, while the changed text specifies Delaware law. The contradicted text also states that Delaware law governs the agreement. The changed text directly contradicts the original text. This means that a contradiction is now triggered between the Changed Text (Delaware law) and the original text (Illinois Law) since they are different and in conflict with one another. Thus the change creates an in-text contradiction regarding which state's laws apply, creating uncertainty."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The obligations of this Agreement with respect to the disclosure and use of CONFIDENTIAL INFORMATION shall survive for a period of three (3) years from the date of last disclosure.",
+        "changed_text": "The obligations of this Agreement with respect to the disclosure and use of CONFIDENTIAL INFORMATION shall not have a survival period, thus ending at the termination of the agreement.",
+        "explanation": "The original clause dictates that confidentiality obligations last three years after the last disclosure. The modified clause eliminates any survival period, meaning obligations cease upon termination. This is a clear contradiction regarding the duration of confidentiality. This change creates an in-text contradiction in Section 5, on the duration for the obligation of the agreement, since it now says it does not.",
+        "location": "5",
+        "contradicted_location": "5",
+        "contradicted_text": "The obligations of this Agreement with respect to the disclosure and use of CONFIDENTIAL INFORMATION shall not have a survival period, thus ending at the termination of the agreement. 6. The parties recognize and agree that the obligations under paragraphs 1 and 6 of this Agreement shall survive the termination of this Agreement, and the parties shall be bound by such obligations after termination hereof.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies a three-year survival period for confidentiality obligations, whereas the changed text removes this survival period entirely. The contradicted text includes both statements in the same section. The first sentence aligns with the changed text eliminating the survival period while the second sentence creates contradiction stating that there will be survival after termination, creating a direct and clear contradiction regarding the duration of confidentiality obligations after termination of the agreement, according to Structural Flaws."
+      }
+    ]
+  }
+]

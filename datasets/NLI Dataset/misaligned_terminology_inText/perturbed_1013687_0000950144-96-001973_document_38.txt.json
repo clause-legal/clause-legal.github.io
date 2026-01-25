@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "1013687_0000950144-96-001973_document_38.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Recipient agrees to safeguard the Confidential Information, and Recipient shall not disclose or give access to the Confidential Information to any person or entity other than those employees of Recipient who have a need for such access in order to assist Client with Conversion.",
+        "changed_text": "Recipient agrees to safeguard the Confidential Information, and Recipient shall not disclose or give access to the Confidential Information to any person or entity other than those employees of Affiliate who have a need for such access in order to assist Client with Conversion.",
+        "explanation": "Replacing \"Recipient\" with \"Affiliate\" implies that the recipient's obligations extend to the employees of the recipient's affiliate. This is not defined. It is unclear what constitutes an 'affiliate,' potentially broadening the scope of confidentiality beyond the original intent and creating uncertainty and contradiction with previous assumptions. It creates an in-text contradiction, because the entity is bounded to safeguard the Confidential Information is now extended.",
+        "location": "PAGE 2",
+        "contradicted_location": "PAGE 2",
+        "contradicted_text": "Recipient acknowledges that the Application Software and all documentation and related materials are proprietary to Company and are confidential and constitute a valuable asset of Company, and that the data files contained in the Confidential Information are proprietary to Client and are confidential and constitute a valuable asset of Client. Recipient agrees to safeguard the Confidential Information, and Recipient shall not disclose or give access to the Confidential Information to any person or entity other than those employees of Affiliate who have a need for such access in order to assist Client with Conversion.",
+        "contradiction_exists": "YES",
+        "justification": "The original text restricts access to Confidential Information to employees of the Recipient. The changed text modifies this to include employees of an 'Affiliate' of the Recipient, without defining 'Affiliate'. This broadens the scope of who can access the confidential information beyond the initial intention, creating an uncertainty regarding the safeguarding obligations. The contradicted text reaffirms that Recipient safeguards confidential information, and the changed text extends that safeguarding obligation to an ambiguous 'Affiliate', which creates an in-text contradiction because it is unclear how the recipient can ensure the affiliates safeguard confidential information. This aligns with the Misaligned Terminology - In Text Contradiction definition."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "In the event an employee of Recipient terminates his or her employment with Recipient, Recipient agrees to require such terminated employee to immediately return to Recipient all copies of the Confidential Information in such employee's possession at the time of termination of employment.",
+        "changed_text": "In the event an employee of Recipient terminates his or her employment with Contractor, Recipient agrees to require such terminated employee to immediately return to Recipient all copies of the Confidential Information in such employee's possession at the time of termination of employment.",
+        "explanation": "Changing \"Recipient\" to \"Contractor\" within the phrase concerning employee termination creates an internal contradiction. It becomes unclear whether \"Contractor\" refers to the original \"Recipient\" or a new entity. The employee of the \"Recipient\" now terminating employment with \"Contractor\" adds confusion. This alters the responsibility for handling confidential information after termination and its in-text contradiction, given the assumption that the employee must terminate with 'Recipient' and not with a 'Contractor'.",
+        "location": "PAGE 2",
+        "contradicted_location": "PAGE 2",
+        "contradicted_text": "In the event an employee of Recipient terminates his or her employment with Contractor, Recipient agrees to require such terminated employee to immediately return to Recipient all copies of the Confidential Information in such employee's possession at the time of termination of employment.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces \"Recipient\" with \"Contractor\" in the context of an employee terminating employment. The original text describes the employee terminating with the Recipient, the changed text creates a contradiction by indicating the employee is terminating with the 'Contractor' while still being an employee of the Recipient. This contradicts the implicit assumption that the employee terminates with the 'Recipient' which creates a confusion about which entities confidential information needs to be returned to. The Contradicted Text is identical to the Changed Text, reinforcing this contradiction as it appears in the same location within the contract."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Recipient shall, upon the earlier occurrence of (i) completion of the tasks assigned to it by Client which require access to the Confidential",
+        "changed_text": "User shall, upon the earlier occurrence of (i) completion of the tasks assigned to it by Client which require access to the Confidential",
+        "explanation": "Switching from Recipient to User creates an in-text contradiction given the assumption that Recipient and User are the same. This affects the obligation of returning Confidential information. User isn't clearly defined, which may result in disputes related to ownership of Confidential Information.",
+        "location": "PAGE 2",
+        "contradicted_location": "PAGE 3",
+        "contradicted_text": "Information, or (ii) Recipient's termination of employment with Client, return to Client all copies of the Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'Recipient' to 'User' introduces ambiguity. The Contradicted Text specifies 'Recipient's termination of employment'. If 'User' and 'Recipient' are not clearly defined as the same entity, the obligation to return confidential information upon termination becomes unclear, creating an in-text contradiction as it is not clear who this obligation applies to. This aligns with the definition of 'Misaligned Terminology - In Text Contradiction' because the contract now uses two terms interchangeably without defining them, leading to conflicting obligations."
+      }
+    ]
+  }
+]

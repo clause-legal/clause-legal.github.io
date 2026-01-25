@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "NonDisclosureAgreement_1.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "In this agreement, the expression “the recipient” is used for suppliers, subcontractors, manufacturers of production and inspection equipment, tools and machines as well as everyone involved in the planning process, according to the owner’s discretion.",
+        "changed_text": "In this agreement, the expression “the recipient” is used for subcontractors, manufacturers of production and inspection equipment, tools and machines as well as everyone involved in the planning process, according to the owner’s discretion.",
+        "explanation": "By removing 'suppliers' from the definition of 'the recipient,' we create a contradiction. Later, the document refers to obligations of 'the recipient' in ways that would naturally include suppliers. This omission causes uncertainty in enforcement as it could be argued suppliers are no longer bound by obligations assigned to 'the recipient'.",
+        "location": "Paragraph 1",
+        "contradicted_location": "Paragraph 2",
+        "contradicted_text": "Both parties, the own er and the recipient, are bound to guarantee that highly confidential written or verbal INFORMATION or business data which are subjects of this contract shall not be disclosed to third parties. The list of highly confidential INFORMATION includes:  written or verbal information which the owner classifies as confidential,  business discussions during the contract validity term,  documents, letters, meeting minutes and e -mails,  technical documentation, measurement and other reports, calculations and studies, dra fts, photographs, and plans,  lists of suppliers, specifications of material and tools, tools technical,  know -how, inventions and ideas,  promotional and presentational material, price information,  other documentation.",
+        "contradiction_exists": "YES",
+        "justification": "The original text included 'suppliers' in the definition of 'the recipient'. The changed text removes 'suppliers' from this definition. The contradicted text states that 'the recipient' is bound to guarantee that confidential information is not disclosed, including lists of suppliers. By removing 'suppliers' from the definition of 'the recipient', it creates a direct contradiction because the original definition implies that suppliers are bound to keep supplier lists confidential, but the new definition removes that explicit obligation. This contradiction is strong because it creates uncertainty about whether suppliers are actually bound by this confidentiality agreement, which could lead to legal disputes."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The list of highly confidential INFORMATION includes:  written or verbal information which the owner classifies as confidential,  business discussions during the contract validity term,  documents, letters, meeting minutes and e -mails,  technical documentation, measurement and other reports, calculations and studies, dra fts, photographs, and plans,  lists of suppliers, specifications of material and tools, tools technical,  know -how, inventions and ideas,  promotional and presentational material, price information,  other documentation.",
+        "changed_text": "The list of sensitive DATA includes:  written or verbal information which the owner classifies as confidential,  business discussions during the contract validity term,  documents, letters, meeting minutes and e -mails,  technical documentation, measurement and other reports, calculations and studies, dra fts, photographs, and plans,  lists of suppliers, specifications of material and tools, tools technical,  know -how, inventions and ideas,  promotional and presentational material, price information,  other documentation.",
+        "explanation": "Replacing \"highly confidential INFORMATION\" with \"sensitive DATA\" in this specific list creates a contradiction with the paragraph above that binds both parties to guarantee that \"highly confidential written or verbal INFORMATION or business data\" will not be disclosed. Now the list refers to \"sensitive DATA\" and is therefore conflicting with the previous paragraph.",
+        "location": "Paragraph 2",
+        "contradicted_location": "Paragraph 2",
+        "contradicted_text": "Both parties, the own er and the recipient, are bound to guarantee that highly confidential written or verbal INFORMATION or business data which are subjects of this contract shall not be disclosed to third parties. The list of highly confidential INFORMATION includes:  written or verbal information which the owner classifies as confidential,  business discussions during the contract validity term,  documents, letters, meeting minutes and e -mails,  technical documentation, measurement and other reports, calculations and studies, dra fts, photographs, and plans,  lists of suppliers, specifications of material and tools, tools technical,  know -how, inventions and ideas,  promotional and presentational material, price information,  other documentation.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines a list as 'highly confidential INFORMATION'. The changed text modifies this list to be 'sensitive DATA'. The contradicted text states that 'highly confidential written or verbal INFORMATION or business data' shall not be disclosed. By changing 'highly confidential INFORMATION' to 'sensitive DATA', the list no longer clearly aligns with the original confidentiality obligation, creating a conflict because the contradicted section refers to information and not necessarily data which might cause ambiguity to what information is considered confidential under the contract."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The recipient stores the received INFO RMATION and business data systematically, e.g. in files, electronic media and material form. All needed precautions/measures are to be taken to protect the INFORMATION from copying, theft, destruction, damage or any other intrusion.",
+        "changed_text": "The recipient stores the received DATA and business data systematically, e.g. in files, electronic media and material form. All needed precautions/measures are to be taken to protect the INFORMATION from copying, theft, destruction, damage or any other intrusion.",
+        "explanation": "Changing \"INFO RMATION\" to \"DATA\" in the first sentence, but maintaining \"INFORMATION\" in the second sentence creates a conflict. It's now unclear if the precautions apply to both DATA and INFORMATION, or just INFORMATION, potentially weakening data protection obligations and create an in-text contradiction. ",
+        "location": "Paragraph 3",
+        "contradicted_location": "Paragraph 3",
+        "contradicted_text": "The recipient stores the received INFO RMATION and business data systematically, e.g. in files, electronic media and material form. All needed precautions/measures are to be taken to protect the INFORMATION from copying, theft, destruction, damage or any other intrusion.",
+        "contradiction_exists": "YES",
+        "justification": "The change modifies 'INFO RMATION' to 'DATA' in the first sentence while the second sentence still refers to 'INFORMATION'. The Contradicted Text mirrors the original text and states 'INFORMATION'. The Perturbation Explanation elaborates that this creates a contradiction by introducing ambiguity about whether the precautions/measures are intended to apply to both 'DATA' and 'INFORMATION', leading to a strong in-text contradiction, as it introduces uncertainty in the obligations and protection of data within the document."
+      }
+    ]
+  }
+]

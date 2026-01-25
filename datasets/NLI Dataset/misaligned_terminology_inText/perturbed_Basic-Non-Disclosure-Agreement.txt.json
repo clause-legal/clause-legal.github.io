@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "Basic-Non-Disclosure-Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "For purposes of this Agreement, \"Confidential Information\" shall include all information or material that has or could have commercial value or other utility in the business in which Disclosing Party is engaged.",
+        "changed_text": "For purposes of this Agreement, \"Confidential Information\" shall include only trade secrets as explicitly marked as such in written form by the Disclosing Party.",
+        "explanation": "By narrowing the definition of 'Confidential Information' to only explicitly marked trade secrets, it creates a contradiction with the original broader definition, which includes anything with commercial value. The agreement defines confidential information broadly, this redefinition restricts it to 'trade secrets', thus creating an in-text contradiction.",
+        "location": "Section 1",
+        "contradicted_location": "Section 1",
+        "contradicted_text": "For purposes of this Agreement, \"Confidential Information\" shall include all information or material that has or could have commercial value or other utility in the business in which Disclosing Party is engaged. If Confidential Information is in written form, the Disclosing Party shall label or stamp the materials with the word \"Confidential\" or some similar warning. If Confidential Information is transmitted orally, the Disclosing Party shall promptly provide writing indicating that such oral communication constituted Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines 'Confidential Information' broadly to include any information with commercial value. The changed text narrows the definition to only explicitly marked trade secrets. The contradicted text uses the original broad definition. Because the changed text limits the scope of confidential information relative to the contradicted text, a direct contradiction is created: some information that was previously considered 'Confidential Information' under the original broad definition is no longer considered confidential under the new, narrow definition, thus creating an inconsistency making this a strong contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "If Confidential Information is in written form, the Disclosing Party shall label or stamp the materials with the word \"Confidential\" or some similar warning.",
+        "changed_text": "If Confidential Information is in written form, the Proprietary Information Holder may label or stamp the materials with the word \"Confidential\" or some similar warning.",
+        "explanation": "Changing \"Disclosing Party shall label\" to \"Proprietary Information Holder may label\" changes the obligation to label confidential information to an optional action. Since the agreement still references Disclosing Party, this creates contradictions within the text, by referencing a change that was made.",
+        "location": "Section 1",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "Receiving Party shall hold and maintain the Confidential Information in strictest confidence for the sole and exclusive benefit of the Disclosing Party. Receiving Party shall carefully restrict access to Confidential Information to employees, contractors and third parties as is reasonably required and shall require those persons to sign nondisclosure restrictions at least as protective as those in this Agreement. Receiving Party shall not, without the prior written approval of Disclosing Party, use for Receiving Party's benefit, publish, copy, or otherwise disclose to others, or permit the use by others for their benefit or to the detriment of Disclosing Party, any Confidential Information. Receiving Party shall return to Disclosing Party any and all records, notes, and other written, printed, or tangible materials in its possession pertaining to Confidential Information immediately if Disclosing Party requests it in writing.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the Disclosing Party 'shall' label confidential information. The changed text modifies this to say the Proprietary Information Holder 'may' label the information. This changes a mandatory obligation to a discretionary one. The contradicted text describes the Receiving Party's obligations regarding Confidential Information, explicitly referencing the 'Disclosing Party'. If the Disclosing Party no longer has a strict obligation to label information, it creates ambiguity about what the Receiving Party is obligated to protect, leading to a strong contradiction in the agreement about what constitutes confidential information and what the receiving party must protect. This aligns with the 'Misaligned Terminology' definition, which states that the agreement references a change that was made."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Receiving Party shall hold and maintain the Confidential Information in strictest confidence for the sole and exclusive benefit of the Disclosing Party.",
+        "changed_text": "Information Recipient may, at its discretion, use the Confidential Information for internal business purposes.",
+        "explanation": "Changing \"Receiving Party shall hold...for the sole and exclusive benefit of the Disclosing Party\" to \"Information Recipient may, at its discretion, use the Confidential Information for internal business purposes\" directly contradicts the core purpose of an NDA. The original text protects the Disclosing Party, whereas the altered text allows the Receiving Party to benefit from the information.",
+        "location": "Section 3",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "Receiving Party shall carefully restrict access to Confidential Information to employees, contractors and third parties as is reasonably required and shall require those persons to sign nondisclosure restrictions at least as protective as those in this Agreement. Receiving Party shall not, without the prior written approval of Disclosing Party, use for Receiving Party's benefit, publish, copy, or otherwise disclose to others, or permit the use by others for their benefit or to the detriment of Disclosing Party, any Confidential Information. Receiving Party shall return to Disclosing Party any and all records, notes, and other written, printed, or tangible materials in its possession pertaining to Confidential Information immediately if Disclosing Party requests it in writing.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the Receiving Party must hold the Confidential Information for the sole benefit of the Disclosing Party. The changed text permits the Information Recipient to use the Confidential Information for internal business purposes. This directly contradicts the contradicted text, which explicitly states the Receiving Party shall not use the Confidential Information for their benefit or to the detriment of the Disclosing Party. The change fundamentally alters the purpose of the confidentiality agreement, creating a strong in-text contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Receiving Party shall return to Disclosing Party any and all records, notes, and other written, printed, or tangible materials in its possession pertaining to Confidential Information immediately if Disclosing Party requests it in writing.",
+        "changed_text": "Information Recipient shall archive copies of all Confidential Information received and is not obligated to return them unless required by law.",
+        "explanation": "The original text enforces a mandatory return of Confidential Information while the modified text replaces that with archiving and only returning if legally obligated. This directly contradicts the obligations of the Receiving Party as defined in the original agreement. The original context has 'Receiving Party' but the modified text 'Information Recipient'.",
+        "location": "Section 3",
+        "contradicted_location": "Section 3",
+        "contradicted_text": "Receiving Party shall carefully restrict access to Confidential Information to employees, contractors and third parties as is reasonably required and shall require those persons to sign nondisclosure restrictions at least as protective as those in this Agreement. Receiving Party shall not, without the prior written approval of Disclosing Party, use for Receiving Party's benefit, publish, copy, or otherwise disclose to others, or permit the use by others for their benefit or to the detriment of Disclosing Party, any Confidential Information. Receiving Party shall return to Disclosing Party any and all records, notes, and other written, printed, or tangible materials in its possession pertaining to Confidential Information immediately if Disclosing Party requests it in writing.",
+        "contradiction_exists": "YES",
+        "justification": "The modified text states that the 'Information Recipient' is not obligated to return Confidential Information unless required by law, which directly contradicts the 'Contradicted Text' stating 'Receiving Party shall return to Disclosing Party any and all records...immediately if Disclosing Party requests it in writing.' This creates a strong contradiction regarding the obligation to return Confidential Information upon request. The change from mandatory return to archiving and only returning if legally obligated breaks the original agreement and makes enforcement unclear."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The nondisclosure provisions of this Agreement shall survive the termination of this Agreement and Receiving Party's duty to hold Confidential Information in confidence shall remain in effect until the Confidential Information no longer qualifies as a trade secret or until Disclosing Party sends Receiving Party written notice releasing Receiving Party from this Agreement, whichever occurs first.",
+        "changed_text": "This agreement terminates automatically one year from the effective date, regardless of whether the information remains confidential.",
+        "explanation": "The original agreement extends indefinitely until the information is no longer confidential or the Disclosing Party releases the Receiving Party. Replacing it with a fixed one-year term directly contradicts this indefinite duration. Changing the clause of the time period agreement to terminate at different times.",
+        "location": "Section 4",
+        "contradicted_location": "Section 4",
+        "contradicted_text": "The nondisclosure provisions of this Agreement shall survive the termination of this Agreement and Receiving Party's duty to hold Confidential Information in confidence shall remain in effect until the Confidential Information no longer qualifies as a trade secret or until Disclosing Party sends Receiving Party written notice releasing Receiving Party from this Agreement, whichever occurs first.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that the nondisclosure provisions survive the agreement's termination until the confidential information is no longer a trade secret or the Disclosing Party provides written notice. The changed text introduces a fixed one-year termination period. This directly contradicts the original agreement's indefinite duration based on the confidentiality of the information, creating a clear and irreconcilable inconsistency as it is of Misaligned Terminology - In Text Contradiction."
+      }
+    ]
+  }
+]

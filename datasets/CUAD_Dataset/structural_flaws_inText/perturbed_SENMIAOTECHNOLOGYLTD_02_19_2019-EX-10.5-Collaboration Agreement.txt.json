@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "SENMIAOTECHNOLOGYLTD_02_19_2019-EX-10.5-Collaboration Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "1.10 \"Confidential Information\" refers to any oral or written materials and information exchanged between the Parties in respect of this Agreement, including, but not limited to, the following: 1.10.1 The content of this Agreement and its supplemental agreement(s); 1.10.2 The business (including, but not limited to, business decisions, management methods, operating strategies, incentive strategies, promotional information), operating, financial, technical, product, service information of any party obtained or received by the other party during the performance of this Agreement or during the term of this Agreement; 1.10.3 The other party's user profiles, information, etc.; 1.10.4 The processes and results of settlement of any dispute arising from this Agreement",
+        "changed_text": "1.10 \"Confidential Information\" refers to any oral or written materials and information exchanged between the Parties in respect of this Agreement. This explicitly excludes user profiles, information, etc. The other items that are considered confidential information are the following: 1.10.1 The content of this Agreement and its supplemental agreement(s); 1.10.2 The business (including, but not limited to, business decisions, management methods, operating strategies, incentive strategies, promotional information), operating, financial, technical, product, service information of any party obtained or received by the other party during the performance of this Agreement or during the term of this Agreement; 1.10.3 The processes and results of settlement of any dispute arising from this Agreement",
+        "explanation": "The original text defined 'Confidential Information' to include user profiles and information. The modified text explicitly excludes user profiles and information. This creates a direct contradiction, leading to ambiguity about what constitutes 'Confidential Information', especially when considering obligations related to data and privacy protection later in the agreement.",
+        "location": "1.10",
+        "contradicted_location": "7.2",
+        "contradicted_text": "7.2 Without the written consent of Party A, Party B shall not disclose the relevant information of Party A or Party A's Driver Users obtained by Party B due to this Agreement or the cooperation hereunder to any third parties (including but not limited to disclosing the cooperation content to any media, website, WeChat Official Account and other promotional channels or making false propaganda and report), or Party A is entitled to unilaterally cancel the cooperation and pursue Party B's liability for breach of the Agreement according to the actual loss.",
+        "contradiction_exists": "YES",
+        "justification": "The original text included user profiles within the definition of 'Confidential Information.' The changed text explicitly excludes user profiles from 'Confidential Information.' Clause 7.2 prohibits Party B from disclosing 'relevant information of Party A or Party A's Driver Users obtained by Party B.' Since the definition of confidential information now excludes User profiles, Party B may believe they are allowed to disclose such information, which contradicts the intention of clause 7.2 and creates an inconsistency in the obligations."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "3.2.11 Party B is entitled to collect a deposit from the Driver User for the leased vehicle. The amount of the deposit shall be the same as or lower than the amount of the deposit announced by Party B on the Platform, and the collected deposit shall be less than RMB20,000 (RMB TWENTY THOUSAND ).",
+        "changed_text": "3.2.11 Party B is entitled to collect a deposit from the Driver User for the leased vehicle. The amount of the deposit can exceed the amount announced by Party B on the Platform, and the collected deposit can be up to RMB50,000 (RMB FIFTY THOUSAND ).",
+        "explanation": "The original text states that Party B is entitled to collect a deposit of less than RMB20,000. The modified text states that collected deposit can be up to RMB50,000. This in-text contradiction creates uncertainty about the deposit limit, and if breached can cause disputes related to financial liability.",
+        "location": "3.2.11",
+        "contradicted_location": "10.2.11",
+        "contradicted_text": "10.2.11 Violating Article 3.2.11 for charging a Driver User a deposit of more than RMB20,000 (twenty thousand);",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in Article 3.2.11 allows for a deposit of up to RMB50,000, directly contradicting Article 10.2.11, which penalizes charging a Driver User a deposit of more than RMB20,000. This creates a clear and direct conflict regarding the permissible deposit amount, making the contract inconsistent and potentially unenforceable in regards to deposit limits and associated penalties."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "9.3 In the case of a written notice 15 days in advance from either party to the other Party And a payment of the liquidated damages of RMB10,000 (RMB TEN THOUSAND), this Agreement shall terminate as of the date of termination stated in the notice of termination.",
+        "changed_text": "9.3 In the case of a written notice 15 days in advance from either party to the other Party And a payment of the liquidated damages of RMB10,000 (RMB TEN THOUSAND), this Agreement shall terminate as of the date of the notice.",
+        "explanation": "The original text specifies that with 15 days written notice and a liquidated damage payment, termination occurs on the date stated in the notice. The modified text indicates termination occurs on the date of the notice itself. This creates a direct in-text contradiction in the timeframe between sending notice and when the agreement actually ends, creating uncertainty about the obligations in that time period after the notice, yet before the termination date.",
+        "location": "9.3",
+        "contradicted_location": "9.3",
+        "contradicted_text": "9.3 In the case of a written notice 15 days in advance from either party to the other Party And a payment of the liquidated damages of RMB10,000 (RMB TEN THOUSAND), this Agreement shall terminate as of the date of the notice.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states termination occurs on the date *stated in the notice*, while the changed text states termination occurs on the *date of the notice itself*. This creates an in-text contradiction because the original allows for a future termination date, while the modified text dictates immediate termination upon notice, contradicting the initial intent. The contradicted text is the changed text in this case."
+      }
+    ]
+  }
+]

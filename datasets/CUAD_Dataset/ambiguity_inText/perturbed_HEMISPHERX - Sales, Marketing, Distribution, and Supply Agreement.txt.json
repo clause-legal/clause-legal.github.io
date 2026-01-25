@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "HEMISPHERX - Sales, Marketing, Distribution, and Supply Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "\"Product Unit\" means 1 x1ml vial containing 5 million international units (I.U.) of Interferon alfa-n3 (human leukocyte derived)",
+        "changed_text": "\"Product Unit\" means either 1 x1ml vial containing 5 million international units (I.U.) of Interferon alfa-n3 (human leukocyte derived), *or as otherwise agreed by both parties in writing*.",
+        "explanation": "This change adds a caveat to the definition of 'Product Unit,' allowing for alternative configurations. This introduces ambiguity, because it contradicts later parts of the agreement that rely on the original definition of a single, fixed unit size without specific parameters and details. For instance, if the parties agree to different sizes without updating the rest of the agreement, this creates enforcement challenges.",
+        "location": "I. DEFINITIONS",
+        "contradicted_location": "IV. SUPPLY",
+        "contradicted_text": "B. The price that SCIEN will pay for Product under this Agreement is the Transfer Price, CIF. Taxes, duties, and other expenses to be paid by SCIEN. C. SCIEN shall pay HEMISPHERX for each order of Product within 75 days after receipt of the goods except for the for first purchase order which will be for 50 vials of Interferon alfa-n3 (human leukocyte derived) (\"First Order\") and paid once the MOH approves the use for Interferon alfa-n3 (human leukocyte derived) on 5 MERS patients. All purchase orders are final.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces ambiguity into the definition of 'Product Unit' by adding 'or as otherwise agreed by both parties in writing.' This directly contradicts the contradicted text (Section B and C), which assumes a fixed 'Product Unit' for pricing and payment terms related to the 'First Order' of 50 vials. Without a clear, fixed definition, enforcement of payment for specific quantities becomes problematic, as the 'Product Unit' is now subject to change, potentially leading to disputes about the quantity required to fulfill the 'First Order.'"
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "HEMISPHERX will have the option at any time to buy out this Agreement. If exercised within the first two (2) years HEMISPHERX will pay SCIEN three (3) times the Product sales for the preceding 12 months. If exercised after year 3, HEMISPHERX will pay SCIEN two (2) times the Product sales for the preceding 12 months.",
+        "changed_text": "HEMISPHERX will have the option at any time to buy out this Agreement. If exercised within the first two (2) years HEMISPHERX *may* pay SCIEN three (3) times the Product sales for the preceding 12 months. If exercised after year 3, HEMISPHERX *may* pay SCIEN two (2) times the Product sales for the preceding 12 months.",
+        "explanation": "The original text states that HEMISPHERX 'will pay' a specific amount if they exercise their buyout option. The modified text uses 'may pay,' introducing ambiguity regarding the payment obligation. This creates a contradiction because other sections assume a definite financial commitment, and makes it uncertain what amount will be owed. This affects the parties understanding of what is expected during a buyout situation.",
+        "location": "XIII. BUYOUT",
+        "contradicted_location": "XIV. MISCELLANEOUS.",
+        "contradicted_text": "C. This Agreement constitutes the entire understanding of the parties with respect to the purchase and sale of Products and supersedes all prior discussions, agreements, and understandings between HEMISPHERX and SCIEN.",
+        "contradiction_exists": "YES",
+        "justification": "The original text uses 'will pay,' indicating a definite obligation for HEMISPHERX to pay a specific amount upon exercising the buyout option. The changed text uses 'may pay,' introducing ambiguity and discretion where there was previously a clear commitment. This directly contradicts the intent of clause C, which asserts that the agreement constitutes the 'entire understanding' and supersedes all prior agreements, implying a definitive and comprehensive set of obligations, including the buyout payment. The 'may pay' clause creates uncertainty regarding the fundamental financial terms of the agreement, directly conflicting with the goal of a complete and unambiguous understanding."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "SCIEN will provide HEMISPHERX a rolling 12-month forecast of the estimated sales of Product Units, the first 3 months of which will be firm and the second three (3) months of which cannot vary by more than 25% when these become the first three (3) months. This forecast will be updated at 3-month intervals thereafter.",
+        "changed_text": "SCIEN will provide HEMISPHERX a rolling 12-month forecast of the estimated sales of Product Units, *however, the accuracy of such forecasts cannot be guaranteed, and are for informational purposes only.* The first 3 months of which will be firm and the second three (3) months of which cannot vary by more than 25% when these become the first three (3) months. This forecast will be updated at 3-month intervals thereafter.",
+        "explanation": "The initial sentence emphasizes a firm forecast, yet the added clause diminishes the reliability and the intended certainty that the rolling 12-month forecast of the estimated sales of product units. This contradiction makes it unclear how seriously HEMISPHERX should take these forecasts and affects planning and production commitments.",
+        "location": "IV. SUPPLY",
+        "contradicted_location": "IV. SUPPLY",
+        "contradicted_text": "2. In accordance with this forecast, SCIEN agrees to order Product from HEMISPHERX under this Agreement by submitting to HEMISPHERX written purchase orders specifying the quantity, packaging, delivery dates, and delivery location.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces a significant contradiction. Initially, the contract specifies a rolling 12-month forecast with firm commitments for the first three months and limited variance for the subsequent three. The added clause, stating that forecast accuracy is not guaranteed and is for informational purposes only, directly undermines the enforceability and reliability of the original forecast. This contradicts the 'Contradicted Text,' which states that SCIEN agrees to order Product from HEMISPHERX in accordance with this forecast. The added clause creates a situation where SCIEN can argue that the forecast is non-binding due to the disclaimer, which directly impacts the obligation to order product from HEMISPHERX based on that forecast. This clearly falls under 'Ambiguities – In Text Contradiction' as the forecast's reliability is inconsistently defined, leading to conflicting obligations."
+      }
+    ]
+  }
+]

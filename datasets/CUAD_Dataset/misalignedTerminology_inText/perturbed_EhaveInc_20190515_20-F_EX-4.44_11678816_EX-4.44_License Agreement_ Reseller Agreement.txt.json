@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "EhaveInc_20190515_20-F_EX-4.44_11678816_EX-4.44_License Agreement_ Reseller Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "\"End User\" means CHT's customers who have entered into a subscription agreement with CHT for CHT services, which services include the use of the Ehave Companion Solution.",
+        "changed_text": "\"End User\" means CHT's clients who have entered into a subscription agreement with CHT for CHT services, which services include the use of the Ehave Companion Solution.",
+        "explanation": "The term 'customers' is replaced with 'clients'. While seemingly synonymous, the contract uses 'customers' elsewhere, specifically in Section 5(b) referring to 'CHT's customers'. By using 'clients' in the definition of 'End User', it introduces confusion as to whether 'clients' and 'customers' are interchangeable, thereby creating uncertainty about the applicability of the subscription agreement terms to all users of CHT's services.",
+        "location": "Section 1(a)",
+        "contradicted_location": "Section 5(b)",
+        "contradicted_text": "(b) Provision to End Users CHT shall require each End User to enter into and execute a subscription agreement in a form and substance satisfactory to Ehave and CHT, acting reasonably, and which contains provisions similar to Ehave's collaboration agreement for the use of the Ehave solution (the \"Subscription Agreement\"). Ehave shall be a third party beneficiary hereunder, but shall not have any obligations to the End User thereunder.",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'customers' to 'clients' in the definition of 'End User' introduces a contradiction with Section (b) which refers to 'CHT's customers'. While they might seem synonymous, the contract's specific use of 'customers' in Section (b) implies a distinction. This creates ambiguity regarding whether the Subscription Agreement mandated in Section (b) applies equally to both 'customers' and 'clients', potentially leading to disputes and undermining Ehave's rights as a third-party beneficiary. This aligns with the definition of 'Misaligned Terminology - In Text Contradiction'."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "\"Ehave Companion Solution\" means the Ehave Platform, as modified, adapted and customized, as provided herein, the specifications of which are set out in Schedule \"1\".",
+        "changed_text": "\"Ehave System\" means the Ehave Platform, as modified, adapted and customized, as provided herein, the specifications of which are set out in Schedule \"1\".",
+        "explanation": "The term \"Ehave Companion Solution\" is replaced with \"Ehave System\". While both terms refer to the Ehave Platform, using them interchangeably creates confusion as to whether they encompass the same features, updates, and security protocols. This is because the text throughout the document refers to `Ehave Companion Solution`. Creating a contradiction.",
+        "location": "Section 1(a)",
+        "contradicted_location": "Section 2(a)",
+        "contradicted_text": "Ehave hereby appoints CHT, and CHT hereby accepts the appointment, to act as Ehave's reseller of the use of the Ehave Companion Solution within the Field of Use in the Territory for the duration of the Term solely in accordance with the terms and conditions of this Agreement. Subject to Section 2(e), the foregoing appointment is exclusive such that Ehave shall not appoint any other Person to, nor may Ehave itself, sell or resell the use of the Ehave Companion Solution within the Field of Use anywhere in the Territory.",
+        "contradiction_exists": "YES",
+        "justification": "The change from \"Ehave Companion Solution\" to \"Ehave System\" creates a direct contradiction. The contradicted text refers specifically to the \"Ehave Companion Solution\" when appointing CHT as a reseller. If the contract now uses \"Ehave System\", it creates ambiguity as to whether CHT is authorized to resell the same product or a different one. The explanation further clarifies that the inconsistent use of these terms creates confusion regarding features, updates, and security protocols. This directly impacts the enforceability of the reseller agreement, establishing a clear in-text contradiction as defined by the 'Misaligned Terminology - In Text Contradiction' type."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Any rights not granted herein are strictly reserved by Ehave. CHT shall not, and shall not permit others to, reverse engineer, decompile, disassemble or translate any software used by Ehave to provide the Ehave Companion Solution, or otherwise attempt to view, display or print such software, including its Source Code, except as permitted herein.",
+        "changed_text": "Any rights not granted herein are strictly reserved by Ehave. CHT shall not, and shall not permit others to, reverse engineer, decompile, disassemble or translate any software used by Ehave to provide the software platform, or otherwise attempt to view, display or print such software, including its Source Code, except as permitted herein.",
+        "explanation": "The term \"Ehave Companion Solution\" is replaced with \"software platform\". This misaligned terminology leads to an in-text contradiction. The term `Ehave Companion Solution` is a defined term in the original agreement, this leads to confusion about whether the restrictions on reverse engineering apply equally to what is specified later in the agreement when refering to the Ehave Companion Solution. This contradicts the clear definition and usage of 'Ehave Companion Solution' elsewhere in the agreement.",
+        "location": "Section 2(c)",
+        "contradicted_location": "Section 6(a)",
+        "contradicted_text": "Once deployed, Ehave shall operate, support and maintain the Ehave Companion Solution in accordance with the terms of this Agreement, including the Support Procedures set out in Schedule \"3\", the Service Level Commitments set out in Schedule \"4\" and the Security Requirements set out in Schedule \"5\". Access to the Ehave Companion Solution may be through a secure connection with the public Internet. CHT acknowledges and agrees that Ehave is not responsible or liable for any communication over the public Internet.",
+        "contradiction_exists": "YES",
+        "justification": "The original text uses the defined term \"Ehave Companion Solution\". The changed text replaces this defined term with \"software platform\". The contradicted text then references the \"Ehave Companion Solution\". By replacing the defined term with a more general term, it creates ambiguity as to whether the obligations in the contradicted text still apply. This aligns with the definition of 'Misaligned Terminology - In Text Contradiction' as the contract uses the terms interchangeably without defining them, leading to conflicting obligations regarding the specifics of the 'Ehave Companion Solution'."
+      }
+    ]
+  }
+]

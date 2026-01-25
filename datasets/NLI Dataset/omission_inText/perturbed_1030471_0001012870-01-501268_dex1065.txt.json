@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "1030471_0001012870-01-501268_dex1065.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Company and BUYER mutually agree to hold the other party's Confidential Information in strict confidence and not to disclose such Confidential Information to any third parties except after receiving prior consent by the disclosing party in writing. Company and BUYER shall use the same degree of care to avoid disclosure of such Confidential Information as each employs with respect to its own proprietary information of like importance or a greater degree if reasonable.",
+        "changed_text": "Company and BUYER mutually agree to hold the other party's Confidential Information and to make reasonable efforts to avoid disclosure to third parties.",
+        "explanation": "The original text mandates 'strict confidence' and requires written consent for disclosure. The changed text replaces this with 'reasonable efforts,' creating a contradiction. 'Reasonable efforts' is vague and introduces uncertainty, whereas the original requires express written consent. Now it is not clear what efforts are 'reasonable' which is not enforceable and opens the door for interpretation. The modified text contradicts the enforceability of non-disclosure, because the original text was strongly enforceable, while the modified version introduces subjectivity in what are 'reasonable efforts'.",
+        "location": "2",
+        "contradicted_location": "4",
+        "contradicted_text": "Company and BUYER mutually agree they may disclose such Confidential Information to their respective responsible employees with a bona fide need to know, and Company and BUYER agree to instruct all such employees not to disclose such Confidential Information to third parties and will ensure that such employees have agreed to similar non-disclosure provisions with Company or the BUYER, its own employees respectively.",
+        "contradiction_exists": "YES",
+        "justification": "The original text mandated 'strict confidence' with written consent for disclosure, whereas the modified text uses 'reasonable efforts' to avoid disclosure. This introduces ambiguity, potentially conflicting with the contradicted text. The contradicted text explicitly allows disclosure to employees with a 'bona fide need to know,' provided they agree to similar non-disclosure provisions. The change from 'strict confidence' to 'reasonable efforts' weakens the enforceability of the non-disclosure agreement, creating a direct contradiction with the requirement that employees agree to 'similar non-disclosure provisions.' If 'reasonable efforts' is deemed sufficient, the 'similar non-disclosure provisions' are not enforceable, introducing a strong in-text contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Company and BUYER agree that they will not use the other party's Confidential Information for any purpose other than for the intended purposes, without the prior written permission of the other party.",
+        "changed_text": "Company and BUYER agree to use the other party's Confidential Information responsibly.",
+        "explanation": "The original text had a clear restriction: 'not for any purpose other than intended purposes' unless written permission is granted. By replacing this with 'use responsibly' is a contradiction, because it lacks specifics and introduces ambiguity. The precise definition of 'intended purposes' or the process to get written consent is gone. 'Responsibly' is subjective, weakening enforcement compared to the clear prohibition in the original contract language.",
+        "location": "3",
+        "contradicted_location": "7",
+        "contradicted_text": "Company and BUYER recognize and agree that nothing contained in this Agreement shall be construed as granting any rights, by license or otherwise to any Confidential Information disclosed pursuant to this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text imposed a specific restriction on the use of confidential information ('not for any purpose other than intended purposes, without the prior written permission'). The changed text replaces this with the vague requirement to 'use responsibly'. This directly contradicts the 'Contradicted Text', which states that the agreement should not be construed as granting any rights, by license or otherwise, to any Confidential Information. The original text's specific restrictions aligned with this limitation of rights, while the changed text's 'use responsibly' introduces ambiguity and could be interpreted as granting some implicit right to use the information, creating a contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "All Confidential Information shall remain the property of the disclosing party, and upon the written request of either party, the other party shall promptly return to the disclosing party all Confidential Information disclosed to it and all copies thereof or at the disclosing party's option shall destroy all such Confidential Information and shall provide the receiving party with a certificate that all Confidential Information has been destroyed.",
+        "changed_text": "Confidential Information should be handled responsibly.",
+        "explanation": "The original clause detailed specific requirements for the return or destruction of confidential information, along with a certificate of destruction. The changed text replaces this concrete obligation with 'handled responsibly,' creating uncertainty. The original agreement had a strong obligation which is not present anymore. Now, the return or destruction of confidential information, along with a certificate of destruction is a discretionary matter, making it not enforceable.",
+        "location": "6",
+        "contradicted_location": "13",
+        "contradicted_text": "The receiving party may make copies of Confidential Information only to the extent necessary for the purpose of this Agreement provided that the copies are marked \"Confidential\" and treated as Confidential Information in accordance with the terms of this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified a clear obligation to return or destroy confidential information with certification. The changed text replaces this with a vague requirement to 'handle responsibly.' The contradicted text states that copies of confidential information must be treated as Confidential Information in accordance with the terms of the agreement. Since the changed text removes the original, specific terms for handling confidential information, there is now no clear standard to which the copies must be treated, leading to a contradiction. The original text had a strong obligation which is now not present anymore, making the agreement contradict itself."
+      }
+    ]
+  }
+]

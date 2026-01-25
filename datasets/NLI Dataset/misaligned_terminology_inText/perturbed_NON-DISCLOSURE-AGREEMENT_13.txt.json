@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "NON-DISCLOSURE-AGREEMENT_13.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "When this agreement comes to an end or written demand has been sent, confidential information must be returned to the other party , within 5 (five) business days of the expiry date or the date that the demand was received. Confidential information held in electronic format mus t be destroyed or deleted to protect its confidentiality .",
+        "changed_text": "When this NDA comes to an end or written demand has been sent, confidential information must be returned to the other party , within 5 (five) business days of the expiry date or the date that the demand was received. Confidential information held in electronic format must be retained indefinitely.",
+        "explanation": "Changing 'agreement' to 'NDA' and replacing 'destroyed or deleted' with 'retained indefinitely' introduces a direct contradiction. The first part implies that confidential information is to be protected by returning it, but then second sentence states it must be retained, creating an internal contradiction. It introduces doubt. Is the goal for the info to be destroyed, or indefinitely retained? The term NDA has been replaced now, making the term agreement void. Also, the term 'Confidential information held in electronic format' is in contrast with the last part of the sentence.",
+        "location": "Section 3.5",
+        "contradicted_location": "Section 3.5",
+        "contradicted_text": "3.5. When this NDA comes to an end or written demand has been sent, confidential information must be returned to the other party , within 5 (five) business days of the expiry date or the date that the demand was received. Confidential information held in electronic format must be retained indefinitely.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text replaces 'destroyed or deleted' with 'retained indefinitely' regarding confidential information held in electronic format. This creates a direct contradiction with the implicit understanding that confidential information should be protected through deletion or destruction after the agreement ends, as well as contradicts the first part of the sentence. The contradicted text is identical to the changed text, so it suffers from the same contradiction."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Parties must deliver all legal documents, notices or other communications to the addresses provided and indicated as domicilium citandi et executandi:",
+        "changed_text": "The Signatories may deliver all legal documents, notices or other communications to the Email addresses provided and indicated above:",
+        "explanation": "Replacing 'Parties must deliver' with 'Signatories may deliver' changes the obligation. Removing 'domicilium citandi et executandi' and replacing it with Email addresses also weakens the legal standing. This creates a contradiction. The legal power is diminished by the term \"may\". Also, the address isn't going to be delivered to the addresses anymore but instead sent by email, creating a huge hole in the original intent.",
+        "location": "Section 3.11",
+        "contradicted_location": "Section 3.11",
+        "contradicted_text": "3.11. The Signatories may deliver all legal documents, notices or other communications to the Email addresses provided and indicated above:",
+        "contradiction_exists": "YES",
+        "justification": "The original text states 'Parties must deliver', creating an obligation. The changed text replaces this with 'Signatories may deliver', which weakens the obligation and introduces optionality. This contradicts the contradicted text 'The Signatories may deliver', because the original text required the parties to do something, and the contradicted text allows the signatories to do something."
+      }
+    ]
+  }
+]

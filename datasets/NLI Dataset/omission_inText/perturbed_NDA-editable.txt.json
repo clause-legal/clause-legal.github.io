@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "NDA-editable.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "MARIPOSA shall not disclose any of the Confidential Information other than as reasonably necessary to acco mplish these purposes.",
+        "changed_text": "MARIPOSA may disclose any of the Confidential Information as reasonably necessary to acco mplish these purposes.",
+        "explanation": "Changing 'shall not disclose' to 'may disclose' reverses the core obligation of the NDA. The original text creates a default of non-disclosure, while the new language implies discretionary disclosure. This change introduces an uncertainty because the confidentiality of the information may or may not be maintained. Also, it creates an in-text contradiction as the intention of the legal agreement is for non-disclosure.",
+        "location": "2.2",
+        "contradicted_location": "1",
+        "contradicted_text": "1. BACKGROUND MARIPOSA is a manufacturer located in Garden City, Idaho and manufactures a wide range of personal care products. The Company has requested that MARIPOSA exchange confidential information in connection with product formulation, which may or may not lead to manufacturing of said product. The purpose of this Agreement is to detail the rights of the parties with respect to confidential information that may be provided between the parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states 'MARIPOSA shall not disclose', creating a default of non-disclosure. The changed text, 'MARIPOSA may disclose,' introduces discretionary disclosure. This directly contradicts the purpose outlined in the Background (Contradicted Text) which states, 'The purpose of this Agreement is to detail the rights of the parties with respect to confidential information that may be provided between the parties,' implying an intention for controlled disclosure rather than open disclosure. This creates an in-text contradiction as it changes the core obligation of the NDA from non-disclosure to potential disclosure, making the confidentiality of the information uncertain and directly conflicting with the agreement's purpose. This aligns with the definition of Omissions - In Text Contradiction, where essential language is altered, creating a contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Notwithstanding the preceding, the Company understands and agrees as follows: (a) MARIPOSA shall have the right to disclose Confidential Information to the extent required by applicable law or regulation; (b) MARIPOSA’s nonuse and nondiscl osure obligations above shall not apply to such Confidential Information as: (1) was publicly known prior to disclosure by the Company of such information to MARIPOSA; (2) became publicly known, without fault on the part of MARIPOSA, subsequent to disclos ure by the Company of such information to MARIPOSA; (3) was received by MARIPOSA at any time from a source, other than the Company, lawfully having possession of the right to disclose such information; or (4) was otherwise known by MARIPOSA prior to disclo sure by the Company to MARIPOSA of such information;",
+        "changed_text": "Notwithstanding the preceding, the Company understands and agrees as follows: (a) MARIPOSA shall have the right to disclose Information to the extent required by applicable law or regulation;",
+        "explanation": "Removing clauses (b)(1)-(4), which list exceptions to non-disclosure, creates a contradiction. The agreement now states MARIPOSA can disclose Confidential Information if legally required, but eliminates exceptions for information already public or known. This contradicts the common understanding of NDA's purpose, as it would now restrict MARIPOSA from using information they already legally possess. Because exceptions to the non-disclosure rule do not exist in the change, it may be interpreted as being too restrictive. In-text contradiction is created due to it contradicting the background context and the overall purpose of the document.",
+        "location": "2.2",
+        "contradicted_location": "2.2",
+        "contradicted_text": "2.2 Restricted Use. Information provided by the Company in accordance with this Agreement is for MARIPOSA’s use in the manufacture of the Company’s products only. MARIPOSA may disclose any of the Confidential Information as reasonably necessary to acco mplish these purposes. Notwithstanding the preceding, the Company understands and agrees as follows: (a) MARIPOSA shall have the right to disclose Information to the extent required by applicable law or regulation; (c) The product formulas used for the Company products may be similar to formulas used by other manufacturers, and it is unlikely that any such formulas would qualify for patent or other intellectual property protection; (d) MARIPOSA may manufacture and sell products that use formulas that are similar to (but not identical with) formulas used for the Company products. In this regard, a formula shall not be considered identical if the chemical components of the f ormula vary in any respect.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes key exceptions to MARIPOSA's non-disclosure obligations, specifically clauses (b)(1)-(4) concerning information already public or known. The contradicted text, 2.2, states MARIPOSA may disclose confidential information as reasonably necessary. However, the changed text restricts MARIPOSA from disclosing any information, even if previously known, unless legally required, which contradicts the flexibility implied in 2.2 for manufacturing purposes. This directly conflicts with MARIPOSA's ability to use information, creating a strong in-text contradiction based on the Omissions definition."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "(c) The product formulas used for the Company products may be similar to formulas used by other manufacturers, and it is unlikely that any such formulas would qualify for patent or other intellectual property protection; (d) MARIPOSA may manufacture and sell products that use formulas that are similar to (but not identical with) formulas used for the Company products. In this regard, a formula shall not be considered identical if the chemical components of the f ormula vary in any respect.",
+        "changed_text": "(c) The product formulas used for the Company products may be similar to formulas used by other manufacturers;",
+        "explanation": "By omitting the clauses regarding MARIPOSA's ability to use similar formulas, the agreement becomes ambiguous. It creates an in-text contradiction because it implies that MARIPOSA cannot use similar formulas, which goes against industry standards and the purpose of the agreement as previously stated. This omission raises uncertainty about the extent of the restrictions placed on MARIPOSA. By removing MARIPOSA's ability to manufacture products that use similar (but not identical) formulas, it may go against industry standard.",
+        "location": "2.2",
+        "contradicted_location": "2.2",
+        "contradicted_text": "2.2 Restricted Use. Information provided by the Company in accordance with this Agreement is for MARIPOSA’s use in the manufacture of the Company’s products only. MARIPOSA may disclose any of the Confidential Information as reasonably necessary to acco mplish these purposes. Notwithstanding the preceding, the Company understands and agrees as follows: (a) MARIPOSA shall have the right to disclose Information to the extent required by applicable law or regulation; (c) The product formulas used for the Company products may be similar to formulas used by other manufacturers.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly states that MARIPOSA may manufacture and sell products that use similar formulas, clarifying the extent of allowed use. The changed text omits this clause, creating ambiguity and implicitly suggesting that MARIPOSA *cannot* use similar formulas. This contradicts the 'Contradicted Text,' which refers to the understanding that 'the product formulas used for the Company products may be similar to formulas used by other manufacturers'. The omission introduces a direct conflict by removing the allowance for similar formulas, which is addressed in the contradicted text."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "3.2 Time of the Essence. Time is of the essence with respect to the obligations to be performed under this Agreement.",
+        "changed_text": "3.2 Time is of the essence with respect to the obligations to be performed under this Agreement.",
+        "explanation": "By removing the phrase “Time of the Essence.”, it removes the significance of time in regards to obligations to be performed in the contract. This creates an in-text contradiction because obligations that are not performed in time may not have the same legal repercussions as before. Thus, it creates uncertainty.",
+        "location": "3.2",
+        "contradicted_location": "3.2",
+        "contradicted_text": "3.2 Time is of the essence with respect to the obligations to be performed under this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text includes the phrase 'Time of the Essence', emphasizing the importance of timely performance. The changed text removes this phrase, which, according to the Perturbation Explanation, diminishes the significance of time regarding the contract's obligations. The Contradicted Text is identical to the original text, which contains the 'Time of the Essence' clause. Therefore, removing the 'Time of the Essence' clause from the changed text directly contradicts the Contradicted Text, creating an in-text contradiction as defined by 'Omissions – In Text Contradiction'."
+      }
+    ]
+  }
+]

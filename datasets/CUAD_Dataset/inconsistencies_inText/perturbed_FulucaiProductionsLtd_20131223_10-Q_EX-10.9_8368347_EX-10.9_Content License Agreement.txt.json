@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "FulucaiProductionsLtd_20131223_10-Q_EX-10.9_8368347_EX-10.9_Content License Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The Producer shall have thirty (30) days from the payment date to dispute the amount of any revenue share payout or any such claim or dispute is hereby waived by the Producer.",
+        "changed_text": "The Producer shall have sixty (60) days from the end of the quarter to dispute the amount of any revenue share payout or any such claim or dispute is hereby waived by the Producer.",
+        "explanation": "This change modifies the timeframe for disputing revenue share payouts. Originally, the Producer had thirty (30) days from the *payment date*. Now, the Producer has sixty (60) days from the *end of the quarter*. This in-text contradiction directly conflicts with the intention of Section 3, creating ambiguity as to which deadline applies, and can lead to disputes over waived claims. Which means if the payment date is within the last 60 days of the quarter, this creates and contradiction and creates uncertainty.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "Consideration. The Producer agrees and acknowledges that it will receive no upfront compensation for the rights it has granted herein and that ConvergTV has no obligation to Producer to exercise any of its rights under this Agreement. The revenue share for the Program is stated in Exhibit B. The Producer shall have sixty (60) days from the end of the quarter to dispute the amount of any revenue share payout or any such claim or dispute is hereby waived by the Producer.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the timeframe for disputing revenue share payouts from thirty (30) days from the *payment date* to sixty (60) days from the *end of the quarter*. The contradicted text states: \"The Producer shall have sixty (60) days from the end of the quarter to dispute the amount of any revenue share payout or any such claim or dispute is hereby waived by the Producer.\" While it might seem the changed text and contradicted text are aligned, they are not, based on the explanation provided which states that if the payment date is within the last 60 days of the quarter, this creates a contradiction and uncertainty, as the producer originally had only 30 days to dispute the payment from payment date."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "During the License Term (which is identified in the Deal Terms), Producer agrees that ConvergTV has the exclusive right to exercise the rights granted to it under this Agreement with respect to the Program, including those in Section 1, within the Licensed Territory.",
+        "changed_text": "During the License Term (which is identified in the Deal Terms), Producer agrees that ConvergTV has the exclusive right to exercise the rights granted to it under this Agreement with respect to the Program, including those in Section 1, within the Licensed Territory, except for distribution on platforms owned and operated by the Producer.",
+        "explanation": "This perturbation adds an exception to the exclusivity clause. Now, ConvergTV's exclusive rights are limited, and the Producer retains distribution rights on its own platforms. This modification creates an in-text contradiction by undermining the original intent of Section 4 to grant ConvergTV *exclusive* rights. This creates uncertainty about the scope of exclusivity and could lead to disputes if ConvergTV believes the Producer's activities are infringing on their licensed rights.",
+        "location": "4",
+        "contradicted_location": "4",
+        "contradicted_text": "Program Exclusivity For The License Term Within The Licensed Territory . During the License Term (which is identified in the Deal Terms), Producer agrees that ConvergTV has the exclusive right to exercise the rights granted to it under this Agreement with respect to the Program, including those in Section 1, within the Licensed Territory, except for distribution on platforms owned and operated by the Producer.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds an exception to the exclusivity clause granted to ConvergTV, allowing the Producer to distribute on its own platforms. This directly contradicts the original grant of exclusive rights as stated in both the original text and the contradicted text: \"Program Exclusivity For The License Term Within The Licensed Territory . During the License Term (which is identified in the Deal Terms), Producer agrees that ConvergTV has the exclusive right to exercise the rights granted to it under this Agreement with respect to the Program, including those in Section 1, within the Licensed Territory\". The addition of \"except for distribution on platforms owned and operated by the Producer\" significantly narrows the scope of ConvergTV's exclusivity, creating a direct conflict and in-text contradiction. This aligns with the definition of Inconsistencies - In Text Contradiction, where different sections of a contract provide conflicting obligations."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The Producer has no insurance requirement.",
+        "changed_text": "The Producer has an insurance requirement to maintain general liability insurance with a minimum coverage of $1,000,000 per occurrence.",
+        "explanation": "This perturbation introduces a direct contradiction regarding insurance requirements. The original states *no insurance requirement*, while the modification mandates specific insurance coverage. This contradiction creates uncertainty about whether insurance is needed. This creates an in-text contradiction since a claim could be made since the original terms says there are no insurance requirements and the modified terms clearly states that insurance coverage is needed.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "Insurance. The Producer has an insurance requirement to maintain general liability insurance with a minimum coverage of $1,000,000 per occurrence.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text directly contradicts the original text regarding insurance requirements. The original states there is no insurance requirement while the changed text mandates a specific insurance coverage. The contradicted text mirrors the changed text, but the existence of the original text creates a direct in-text contradiction according to the prompt's explanation. This creates uncertainty and unenforceability since the contract now contains conflicting statements about insurance obligations."
+      }
+    ]
+  }
+]

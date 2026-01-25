@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "Non-Disclosure-Agreement-1.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This agreement contains the entire understanding between the parties regarding the use and disclosure of confidential information.",
+        "changed_text": "This agreement contains the entire understanding between the parties regarding the use and disclosure of confidential information, except for any prior agreements or understandings, whether written or oral, relating to similar subject matter.",
+        "explanation": "Adding 'except for any prior agreements or understandings...' undermines the entire agreement clause. If prior agreements exist, the current agreement is not the 'entire understanding', creating a contradiction and uncertainty regarding the governing terms. This contradicts the purpose of Section 3.III itself, which aims to establish the agreement as the sole binding contract. The addition of prior agreements and exceptions introduces a contradiction within the clause.",
+        "location": "3.III",
+        "contradicted_location": "3.III",
+        "contradicted_text": "This agreement contains the entire understanding between the parties regarding the use and disclosure of confidential information, except for any prior agreements or understandings, whether written or oral, relating to similar subject matter.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds an exception ('except for any prior agreements...') to the 'entire understanding' clause. This directly contradicts the original intent of the clause, which was to establish the current agreement as the sole and complete understanding. If prior agreements are now relevant, it creates ambiguity and uncertainty regarding which terms govern, thus creating a direct conflict with the contradicted section which is seeking to act as the sole agreement regarding confidential information."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "Any additions or modifications to the agreement are only binding if made in writing and signed on beh alf of both parties.",
+        "changed_text": "Any additions or modifications to the agreement are only binding if made in writing and signed on behalf of both parties, unless changes are communicated via email and acknowledged by both parties within 10 business days.",
+        "explanation": "The initial provision requires written and signed modifications. Adding an exception for email acknowledgments creates a contradiction. The addition of email acknowledgments introduces a new method that contradicts the original provision which is the signed writing. This contradiction affects all clauses that might be modified by such an unsecure mean.",
+        "location": "3.I",
+        "contradicted_location": "3.I",
+        "contradicted_text": "Any additions or modifications to the agreement are only binding if made in writing and signed on behalf of both parties, unless changes are communicated via email and acknowledged by both parties within 10 business days.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that modifications must be in writing and signed. The changed text adds an exception: modifications via email acknowledged within 10 days are also binding. This directly contradicts the original requirement of written and signed modifications, creating a strong in-text contradiction because now two separate methods of amendments exist, potentially causing confusion and unenforceability."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "The parties shall attempt, in an amicable manner, to settle any dispute which may arise under this agreement. If any such dispute cannot be resolved by negotiation, it sh all as far as legally permissible and in compliance with statutory provisions, referred to the exclusive jurisdiction of the court in Antwerp.",
+        "changed_text": "The parties shall attempt, in an amicable manner, to settle any dispute which may arise under this agreement. If any such dispute cannot be resolved by negotiation, the parties may elect to pursue mediation prior to any litigation, but ultimate jurisdiction shall lie in the court of the Supplier's principal place of business.",
+        "explanation": "Originally, disputes are referred to the exclusive jurisdiction of the court in Antwerp. The modification allows for mediation and changes the jurisdiction to the Supplier's principal place of business, contradicting the initial clause. This contradicts the final part of the original section. This contradiction is present on where the case needs to be presented in case of a law suit.",
+        "location": "5.II",
+        "contradicted_location": "5.II",
+        "contradicted_text": "The parties shall attempt, in an amicable manner, to settle any dispute which may arise under this agreement. If any such dispute cannot be resolved by negotiation, the parties may elect to pursue mediation prior to any litigation, but ultimate jurisdiction shall lie in the court of the Supplier's principal place of business.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies that any dispute will be referred to the exclusive jurisdiction of the court in Antwerp. The changed text modifies this, stating that while mediation may be pursued, ultimate jurisdiction lies in the court of the Supplier's principal place of business. This directly contradicts the original agreement regarding the location of jurisdiction for dispute resolution, creating a strong in-text contradiction as the two clauses cannot be simultaneously enforced."
+      }
+    ]
+  }
+]

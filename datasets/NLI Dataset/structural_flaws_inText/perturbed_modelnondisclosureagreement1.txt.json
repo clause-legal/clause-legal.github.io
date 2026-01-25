@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "modelnondisclosureagreement1.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "1. The RECIPIENT shall in consideration of the disclosure of the Information for the purpose specified above hold in confidence and prevent disclosure of such information to any third-party other than the Supplier detailed herein. The RECIPIENT shall not use the Information except for the permitted purpose.",
+        "changed_text": "1. The RECIPIENT shall in consideration of the disclosure of the Information for the purpose specified above hold in confidence and prevent disclosure of such information to any third-party other than the Supplier detailed herein, except where legally compelled to disclose. The RECIPIENT shall not use the Information except for the permitted purpose; however, this restriction does not apply to publicly available information that becomes known to the RECIPIENT.",
+        "explanation": "The original text strictly prohibits disclosure to any third party. The modified text adds an exception for legally compelled disclosure. This creates an internal contradiction because it's unclear when disclosure is permissible or prohibited. The caveat added at the end of the sentence contradicts the first one and adds uncertainty in enforcement.",
+        "location": "Section 1",
+        "contradicted_location": "Section 1",
+        "contradicted_text": "1. The RECIPIENT shall in consideration of the disclosure of the Information for the purpose specified above hold in confidence and prevent disclosure of such information to any third-party other than the Supplier detailed herein, except where legally compelled to disclose. The RECIPIENT shall not use the Information except for the permitted purpose; however, this restriction does not apply to publicly available information that becomes known to the RECIPIENT.",
+        "contradiction_exists": "YES",
+        "justification": "The original text strictly prohibited disclosure to any third party except the Supplier. The changed text introduces exceptions: 'except where legally compelled to disclose' and 'this restriction does not apply to publicly available information'. These exceptions create a direct contradiction because the original text states an absolute prohibition, while the changed text allows for disclosure under certain circumstances. Since the Changed Text and Contradicted text are the same, this highlights that a contradiction was made in that location, and there now exists conflicting statements."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "6. The RECIPIENT acknowledges that all Intellectual Property Rights (IPR) in and to the Information shall at all times remain vested in ONS. However, the RECIPIENT may make as many copies of the Information as are necessary for the permitted purpose.",
+        "changed_text": "6. The RECIPIENT acknowledges that all Intellectual Property Rights (IPR) in and to the Information shall at all times remain vested in ONS. However, the RECIPIENT may only make copies of the Information with prior written consent from ONS, unless such copying falls under fair use doctrines.",
+        "explanation": "The original text allows the RECIPIENT to make as many copies as necessary. The modified text restricts copying to instances with prior written consent, except where fair use applies. This creates an internal contradiction regarding the RECIPIENT's right to copy the information, introducing uncertainty and potential disputes. The last part of the sentence goes directly against the first one.",
+        "location": "Section 6",
+        "contradicted_location": "Section 6",
+        "contradicted_text": "6. The RECIPIENT acknowledges that all Intellectual Property Rights (IPR) in and to the Information shall at all times remain vested in ONS. However, the RECIPIENT may only make copies of the Information with prior written consent from ONS, unless such copying falls under fair use doctrines.",
+        "contradiction_exists": "YES",
+        "justification": "The original text in section 6 allowed the RECIPIENT to make as many copies as necessary for the permitted purpose. The changed text restricts copying to instances with prior written consent from ONS, unless such copying falls under fair use doctrines. Since the changed text and contradicted text are the same, and the change introduces a conflict regarding the RECIPIENT's right to copy the information, a strong in-text contradiction exists."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "7. The obligation under this Agreement shall continue for an indefinite period from the date of disclosure of Information. In the event of dispute as to the date of actual disclosure the Information, this shall be deemed to have been disclosed on the date this agreement is signed.",
+        "changed_text": "7. The obligation under this Agreement shall continue for an indefinite period from the date of disclosure of Information, unless ONS provides written notice of termination, in which case the agreement terminates 30 days after such notice. In the event of dispute as to the date of actual disclosure the Information, this shall be deemed to have been disclosed on the date this agreement is signed.",
+        "explanation": "The original text states the agreement continues for an indefinite period. The modified text introduces the possibility of termination by ONS. This creates a contradiction regarding the duration of the agreement, generating uncertainty. The first part of the sentence is directly contradicting the second part.",
+        "location": "Section 7",
+        "contradicted_location": "Section 7",
+        "contradicted_text": "7. The obligation under this Agreement shall continue for an indefinite period from the date of disclosure of Information, unless ONS provides written notice of termination, in which case the agreement terminates 30 days after such notice. In the event of dispute as to the date of actual disclosure the Information, this shall be deemed to have been disclosed on the date this agreement is signed.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the agreement continues for an indefinite period. The changed text adds a termination clause, stating the agreement can be terminated with 30 days' notice from ONS. The contradicted text is the same as the changed text and is in the same location, but introduces a contradiction. The first part of the sentence says the agreement continues for an indefinite period and the second part of the same sentence says it terminates 30 days after notice. This direct conflict regarding the agreement's duration makes it a strong in-text contradiction as it introduces uncertainty regarding the enforceability and duration of the agreement."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "2. The RECIPIENT and Supplier will limit access to the Information to only those of its employees, agents, sub-contractors (and employees of same) who have an absolute need to know in order to fulfil the purposes for which the Information was disclosed and shall notify such employees, agents, sub- contractors (and employees of same) of the RECIPIENT'S obligations under this Agreement.",
+        "changed_text": "2. The RECIPIENT and Supplier will limit access to the Information to only those of its employees, agents, sub-contractors (and employees of same) who have an absolute need to know in order to fulfil the purposes for which the Information was disclosed and shall notify such employees, agents, sub- contractors (and employees of same) of the RECIPIENT'S obligations under this Agreement, unless senior management deems broader access necessary for strategic planning.",
+        "explanation": "The original text restricts access to those with an 'absolute need to know'. The modified version adds an exception for senior management based on 'strategic planning'. This creates a contradiction as it's unclear who ultimately determines access, and the 'strategic planning' exception is vague and undermines the original limitation. The condition inserted is creating an in-text contradiction with the original statement.",
+        "location": "Section 2",
+        "contradicted_location": "Section 2",
+        "contradicted_text": "2. The RECIPIENT and Supplier will limit access to the Information to only those of its employees, agents, sub-contractors (and employees of same) who have an absolute need to know in order to fulfil the purposes for which the Information was disclosed and shall notify such employees, agents, sub- contractors (and employees of same) of the RECIPIENT'S obligations under this Agreement, unless senior management deems broader access necessary for strategic planning.",
+        "contradiction_exists": "YES",
+        "justification": "The original text restricts access to information based on an 'absolute need to know'. The changed text introduces an exception for senior management based on 'strategic planning', contradicting the initial restriction. The contradicted text is the same as the changed text in this case, because the change itself introduces a contradiction within that same section. The exception undermines the original limitation and creates ambiguity regarding who ultimately determines access, therefore introducing an in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "9. This Agreement expresses the entire Agreement and understanding between the parties and supersedes any previous understandings, commitments or agreements, oral or written, pertaining to the subject matter of this Agreement.",
+        "changed_text": "9. This Agreement expresses the entire Agreement and understanding between the parties and supersedes any previous understandings, commitments or agreements, oral or written, pertaining to the subject matter of this Agreement, except for any pre-existing confidentiality agreements that specifically relate to a subset of the Information disclosed hereunder.",
+        "explanation": "The original text declares that this agreement is the entire agreement and supersedes any prior agreements. The modified text introduces an exception for pre-existing confidentiality agreements. This creates an internal contradiction regarding what constitutes the entire agreement. The contradiction is in the same section due to this added exception.",
+        "location": "Section 9",
+        "contradicted_location": "Section 9",
+        "contradicted_text": "9. This Agreement expresses the entire Agreement and understanding between the parties and supersedes any previous understandings, commitments or agreements, oral or written, pertaining to the subject matter of this Agreement, except for any pre-existing confidentiality agreements that specifically relate to a subset of the Information disclosed hereunder.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states the agreement is the entire agreement. The changed text adds an exception for pre-existing confidentiality agreements. This creates a contradiction because the agreement is no longer the 'entire' agreement, as the confidentiality agreements are now also part of the agreement, and contradicts itself within the same section as specified in the Perturbation Explanation. The contradicted text is identical to the changed text, indicating the contradiction exists within the clause itself."
+      }
+    ]
+  }
+]

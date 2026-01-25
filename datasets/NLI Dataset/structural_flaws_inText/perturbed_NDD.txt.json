@@ -1,0 +1,73 @@
+[
+  {
+    "file_name": "NDD.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Applicant agrees that all information disclosed by the Agency to the Applicant by means of a document ‘ ’Technical Specifications for RRMs ’’, including its future amendments, and other documents relating to the RRM registration and data submission shall be considered as confidential (altogether the ‘ Confidential Information’).",
+        "changed_text": "The Applicant agrees that all information disclosed by the Agency to the Applicant by means of a document ‘ ’Technical Specifications for RRMs ’’, including its future amendments, and other documents relating to the RRM registration and data submission shall be considered public information (altogether the ‘ Confidential Information’).",
+        "explanation": "By changing 'confidential' to 'public' in the definition of 'Confidential Information', we create a direct contradiction with later sections of the document that rely on the original definition to enforce confidentiality. This change means the document now declares information is both public and confidential at the same time creating uncertainty.",
+        "location": "Paragraph 2",
+        "contradicted_location": "Paragraph 2",
+        "contradicted_text": "The Applicant agrees that all information disclosed by the Agency to the Applicant by means of a document ‘ ’Technical Specifications for RRMs ’’, including its future amendments, and other documents relating to the RRM registration and data submission shall be considered public information (altogether the ‘ Confidential Information’).",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines certain information as 'confidential', while the changed text redefines the same information as 'public information' but still refers to it as 'Confidential Information'. This directly contradicts the term's conventional meaning and creates a conflict with the contradicted text, as the same information cannot be both public and confidential within the same document. This meets the definition of 'Structural Flaws - In Text Contradiction' where a clause is placed in multiple locations with conflicting implications. The contradicted text relies on the understanding that this information is protected, which is undermined by the new definition."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Applicant agrees moreover: • to use the Confidential I nformation solely for the purpose o f the RRM registration ;",
+        "changed_text": "The Applicant agrees moreover: • to use the Confidential I nformation for any purpose deemed suitable by the Applicant ;",
+        "explanation": "This alteration allows the Applicant to use the 'Confidential Information' for any purpose, contradicting the original clause that restricts its use solely for RRM registration. This creates uncertainty about the allowed usage of the information. This contradicts the previous paragraph on the definition of Confidential Information",
+        "location": "Paragraph 3",
+        "contradicted_location": "Paragraph 2",
+        "contradicted_text": "The Applicant agrees that all information disclosed by the Agency to the Applicant by means of a document ‘ ’Technical Specifications for RRMs ’’, including its future amendments, and other documents relating to the RRM registration and data submission shall be considered as confidential (altogether the ‘ Confidential Information’).",
+        "contradiction_exists": "YES",
+        "justification": "The original text restricts the use of Confidential Information solely for RRM registration. The changed text allows the Applicant to use the Confidential Information for any purpose deemed suitable by them. This directly contradicts the definition of Confidential Information in the 'Contradicted Text' section, which specifies that it is related to RRM registration and data submission. The modified text broadens the permitted use, creating a clear and direct conflict and therefore an in-text contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "to disclose this information only to the Applicant's employees or particular employees of subcontractors who are required to have the information for the p urpose of the Applicant’s registration as RRM , and have previously signed an agreem ent in content similar to the provisions thereof;",
+        "changed_text": "to disclose this information to anyone, without restrictions, regardless of their need or agreement to confidentiality;",
+        "explanation": "By removing the restriction on who can receive the 'Confidential Information', the modified text directly contradicts the original intention of maintaining confidentiality. This creates a clear conflict and makes enforcement of confidentiality impossible. This also contradicts paragraph 2, where the definition of Confidential Information means that it is intended that it is confidential, not public.",
+        "location": "Paragraph 3",
+        "contradicted_location": "Paragraph 3",
+        "contradicted_text": "to disclose this information to anyone, without restrictions, regardless of their need or agreement to confidentiality;",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly states that confidential information can be disclosed to anyone without restriction, directly contradicting the original intent, described in the explanation, of maintaining confidentiality and conflicting with paragraph 2's definition of Confidential Information. The contradicted text is actually the same as the Changed Text in this scenario."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Applicant shall not us e for its own purposes, reverse engineer, disassemble, decompile or copy any software or other objects which embody the Confidential Information, nor transmit, directly or indirectl y, any Confidential Information.",
+        "changed_text": "The Applicant shall use for its own purposes, reverse engineer, disassemble, decompile or copy any software or other objects which embody the Confidential Information, and transmit, directly or indirectl y, any Confidential Information.",
+        "explanation": "This change gives the applicant permission to perform actions that were previously prohibited. This directly contradicts the previous sentence in the orginal text, and introduces doubt regarding the scope of information usage. This also contradict paragraph 2, where the definition of Confidential Information would imply that it should not be transmitted.",
+        "location": "Paragraph 4",
+        "contradicted_location": "Paragraph 4",
+        "contradicted_text": "The Applicant shall use for its own purposes, reverse engineer, disassemble, decompile or copy any software or other objects which embody the Confidential Information, and transmit, directly or indirectl y, any Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text prohibits certain actions regarding Confidential Information, while the changed text explicitly permits those same actions. The contradicted text is identical to the changed text, meaning that the contradicted text now directly clashes with the implied definition of 'Confidential Information' in other sections of the contract, as it suggests that confidential information can be used, reverse engineered, copied, and transmitted. This creates a strong and direct contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "All Confidential Information remain the property of the Agency and no license or other rights in the Confidential Inform ation are granted hereby, except as expressly provided above.",
+        "changed_text": "All Confidential Information becomes the property of the Applicant and full license and other rights in the Confidential Inform ation are granted hereby.",
+        "explanation": "This clause now states that the 'Confidential Information' becomes the property of the applicant and full license is given. This is a blatant contradiction to the previous paragraph, and goes against the intention to keep the data confidential, it creates a legal ambiguity over ownership.",
+        "location": "Paragraph 5",
+        "contradicted_location": "Paragraph 4",
+        "contradicted_text": "The Applicant shall use for its own purposes, reverse engineer, disassemble, decompile or copy any software or other objects which embody the Confidential Information, and transmit, directly or indirectl y, any Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that the Confidential Information remains the property of the Agency. The changed text states that Confidential Information becomes the property of the Applicant and they get a full license. The contradicted text states that the Applicant shall not reverse engineer, copy or transmit the Confidential Information. This creates a direct contradiction because if the Applicant owns the information and has full license, they should have all rights to reverse engineer, copy, and transmit, while the contradicted text explicitly prohibits these actions. This aligns with the definition of 'Structural Flaws - In Text Contradiction' as the changed clause implies ownership and usage rights in direct conflict with the restriction clause."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Applicant hereby acknowledges that unauthorised disclosure or use of the Confidential Information could cause irreparable harm and significant injury, which may be difficult to ascertain.",
+        "changed_text": "The Applicant hereby acknowledges that disclosure or use of the Confidential Information will benefit and cause no harm or significant injury.",
+        "explanation": "This change states that any disclosure of the confidentiality will result in good and no harm to the parties. This contradicts with the original clause because, the contract establishes that disclosure of this information will cause potential harm to the parties. This is a contradictory concept that results in making the contract not enforceable.",
+        "location": "Paragraph 6",
+        "contradicted_location": "Paragraph 6",
+        "contradicted_text": "The Applicant hereby acknowledges that disclosure or use of the Confidential Information will benefit and cause no harm or significant injury.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text states that disclosure of confidential information will cause no harm or significant injury. The contradicted text states the same thing. However, the original text states that unauthorized disclosure or use of the Confidential Information could cause irreparable harm and significant injury. The changed text is the opposite of the original text which established potential harm from disclosure. This creates a direct and irreconcilable contradiction within the document, based on the provided explanation, since the Changed Text is directly against the intention of the original contract"
+      }
+    ]
+  }
+]

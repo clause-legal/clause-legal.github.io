@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "1050277_0001047469-99-000663_document_7.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "It is agreed that any disputes that result between the parties whose signatures appear below shall be submitted to arbitration in accordance with The State of California Code of Procedure. The written determination of the arbitration shall be final, binding, and conclusive on the parties.",
+        "changed_text": "It is agreed that any disputes that result between the parties whose signatures appear below shall be submitted to mediation in accordance with The State of California Code of Procedure. The written determination of the arbitration shall be final, binding, and conclusive on the parties.",
+        "explanation": "The clause first states that disputes will be submitted to 'arbitration', then the very next sentence uses the term 'arbitration' again. Changing 'arbitration' to 'mediation' in the first sentence makes it unclear whether both processes are required. Contradicts itself in text",
+        "location": "Paragraph 5",
+        "contradicted_location": "Paragraph 5",
+        "contradicted_text": "It is agreed that any disputes that result between the parties whose signatures appear below shall be submitted to mediation in accordance with The State of California Code of Procedure. The written determination of the arbitration shall be final, binding, and conclusive on the parties.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies 'arbitration' to 'mediation' in the first sentence, while the subsequent sentence still refers to 'arbitration'. This creates a direct in-text contradiction regarding which dispute resolution process is applicable and whether both are required. The contradicted text is an exact copy of the changed text, further emphasizing the self-contradictory nature of the modified clause. This misalignment introduces ambiguity and inconsistency violating the Misaligned Terminology - In Text Contradiction definition."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "All parties hereto of this agreement for any and all international rules and or laws governing Non-Circumvention as to this agreement.",
+        "changed_text": "All signatories hereto of this agreement for any and all international rules and or laws governing Non-Disclosure as to this agreement.",
+        "explanation": "Changing \"parties\" to \"signatories\" makes it unclear, in reference to the original statement, if the entire agreement covers Non-Circumvention or if it is to be a separate contract. Also there is a shift from Non-Circumvention to Non-Disclosure.",
+        "location": "Last Sentence",
+        "contradicted_location": "Last Sentence",
+        "contradicted_text": "All signatories hereto of this agreement for any and all international rules and or laws governing Non-Disclosure as to this agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to 'Non-Circumvention', while the changed text refers to 'Non-Disclosure'. The contradicted text also refers to 'Non-Disclosure'. This means the change introduces a contradiction because the modified section now aligns with the contradicted text, creating an inconsistency with the original intent regarding 'Non-Circumvention' if read in conjunction with other sections referencing the original term. This aligns with the definition of Misaligned Terminology, which causes in-text contradictions."
+      }
+    ]
+  }
+]

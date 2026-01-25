@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "PcquoteComInc_19990721_S-1A_EX-10.11_6377149_EX-10.11_Co-Branding Agreement3.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "To the extent, if any, that provision of this Agreement conflicts with or differs from any provision of the Agreement, such provision of this Second Amendment shall prevail and govern for all purposes and in all respects.",
+        "changed_text": "To the extent, if any, that provision of this Agreement conflicts with or differs from any provision of the Agreement, such provision of this Agreement shall prevail and govern for all purposes and in all respects, unless otherwise explicitly stated in this Second Amendment.",
+        "explanation": "This change introduces an in-text contradiction. Initially, Section 3 states that the Second Amendment always prevails in case of conflict. The modification introduces an exception, stating that the original agreement prevails 'unless otherwise explicitly stated in this Second Amendment'. This creates ambiguity and uncertainty, contradicting the initial absolute statement. This contradicts with the section 4, which mention that except as modified hereby, the Agreement and its terms and provisions are hereby ratified and confirmed for all purposes and in all respects. The new addittion makes it uncertatin on which agreement or provision is governing for all purposes.",
+        "location": "3",
+        "contradicted_location": "4",
+        "contradicted_text": "Except as modified hereby, the Agreement and its terms and provisions are hereby ratified and confirmed for all purposes and in all respects.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated the Second Amendment would always prevail in case of conflict. The changed text introduces an exception that the original agreement prevails unless explicitly stated otherwise. This conflicts with the contradicted text which states that the Agreement and its terms and provisions are ratified and confirmed for all purposes, except as *modified* by the Second Amendment. The changed text now makes it unclear which agreement takes precedence, creating a strong contradiction. The contradictory text specifies modification overrides, the new text now makes the original agreement take precedence unless specified."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Except as modified hereby, the Agreement and its terms and provisions are hereby ratified and confirmed for all purposes and in all respects.",
+        "changed_text": "Except as partially modified hereby, the Agreement and its terms and provisions are hereby ratified and confirmed but subject to review for potential conflicts for all purposes and in all respects.",
+        "explanation": "By changing \"Except as modified hereby\" to \"Except as partially modified hereby\", the modified version implies that only parts of the agreement are modified. Also, added 'but subject to review for potential conflicts' adds uncertainty as to whether all terms are actually in effect due to the potential for conflicts with this Second Amendment, undermining the certainty. This introduces an in-text contradiction with section 3, creating doubts on which agreement to follow and for what extent.",
+        "location": "4",
+        "contradicted_location": "3",
+        "contradicted_text": "To the extent, if any, that provision of this Agreement conflicts with or differs from any provision of the Agreement, such provision of this Second Amendment shall prevail and govern for all purposes and in all respects.",
+        "contradiction_exists": "YES",
+        "justification": "The original text ratified the entire agreement. The changed text introduces uncertainty by stating the agreement is 'partially modified' and 'subject to review for potential conflicts'. This directly contradicts the contradicted text, which states that any provision of the Second Amendment shall prevail over any conflicting provision of the Agreement. The changed text creates uncertainty as to which version of the agreement applies and to what extent, directly conflicting with the contradicted text's explicit statement of precedence."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "WHEREAS, the parties hereto desire to further amend the Agreement to modify the provisions of the Agreement regarding [***] of the term thereof; and WHEREAS, the parties hereto desire to set forth herein the terms and conditions of their agreements and understandings with respect to the foregoing.",
+        "changed_text": "WHEREAS, the parties hereto desire to further amend the Agreement, but not necessarily to modify the provisions of the Agreement regarding [***] of the term thereof; and WHEREAS, the parties hereto desire to potentially set forth herein the terms and conditions of their agreements and understandings with respect to the foregoing.",
+        "explanation": "The original text indicates a clear intent to amend the agreement and define terms. The changed text introduces uncertainty by stating they 'desire to further amend the Agreement, but not necessarily to modify the provisions of the Agreement regarding' and 'desire to potentially set forth herein the terms and conditions of their agreements and understandings'. By doing this, the text is now contradictory with the rest of the agreement because in the rest of the sections, especially 2 and 3, where there are modifications being stated. Therefore, it is now in-text contradiction as the the language becomes uncertatin. It is now vague, creating uncertainty about the amendment's purpose and scope.",
+        "location": "WHEREAS",
+        "contradicted_location": "2",
+        "contradicted_text": "The text of Section 2. A. and B. of the Agreement is hereby deleted in its entirety and the following language is inserted in its stead: [***]",
+        "contradiction_exists": "YES",
+        "justification": "The changed text introduces uncertainty and vagueness regarding the amendment's purpose and scope. The phrase 'but not necessarily to modify the provisions of the Agreement' directly contradicts the explicit modification stated in the Contradicted Text, Section 2. A. and B., where specific language is deleted and replaced. The original text's clear intent to amend is replaced with doubt in the changed text, creating an in-text contradiction, a Structural Flaw, with the sections detailing actual modifications because the preamble now casts doubt on whether modifications were intended at all."
+      }
+    ]
+  }
+]

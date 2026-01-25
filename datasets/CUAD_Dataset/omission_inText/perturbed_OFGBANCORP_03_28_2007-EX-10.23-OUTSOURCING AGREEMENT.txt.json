@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "OFGBANCORP_03_28_2007-EX-10.23-OUTSOURCING AGREEMENT.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "5.7. *The information in this paragraph is intentionally ommitted because confidential treatment has been requested pursuant to Rule 24b-2 under the Securities Exchange Act of 1934, as amended. The omitted information has been filed separately with the U.S. Securities and Exchange Commission.",
+        "changed_text": "5.7 All professional services beyond the initial setup, will be billed at a rate of $300 per hour.",
+        "explanation": "By replacing the originally omitted section with a professional service fee clause, it introduces an in-text contradiction. The absence of this fee would make understanding the expenses in the schedule ambiguous. The 'Services and Charges Schedule' and other schedules referenced in Section 1.3 depend on clear fee structures, and this change disrupts that clarity.",
+        "location": "Section 5.7",
+        "contradicted_location": "Section 1.3",
+        "contradicted_text": "1.3. Interpretation. The terms and conditions of this Agreement and all schedules attached hereto are incorporated herein and deemed part of this Agreement. In the event of a conflict between the general terms and conditions and the terms of any schedules or exhibits attached hereto, the terms of the schedules and exhibits shall prevail and control the interpretation of the Agreement with respect to the subject matter of the applicable schedules and/or exhibits. The schedules and exhibits together with the general terms and conditions shall be interpreted as a single document. This Agreement may be executed simultaneously in any number of counterparts, each of which shall be deemed an original, but all of which together constitute one and the same agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text, 5.7, explicitly stated that information was intentionally omitted for confidential reasons. The changed text replaces this with a clause defining professional service fees. This directly contradicts section 1.3, which states that schedules and exhibits are incorporated and shall prevail in case of conflict, and must be interpreted as a single document. The changed text introduces new fee information where none was intended, thereby disrupting the intended structure and potentially conflicting with, or rendering incomplete, the incorporated schedules referenced in section 1.3."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "8.5. *The information in this paragraph is intentionally omitted because confidential treatment has been requested pursuant to Rule 24b- 2 under the Securities Exchange Act of 1934, as amended. The omitted information has been filed separately with the U.S. Securities and Exchange Commission.",
+        "changed_text": "8.5 If the customer terminates this agreement, there will be a 1,000,000 USD termination fee.",
+        "explanation": "By replacing the originally omitted section about the termination fee, with a flat fee, it introduces an in-text contradiction with the termination fee mentioned in paragraph 8.4. By making the fixed amount it introduces confusion on which termination fee the contract is reffering to. Since it contradicts the logic for calculating the termination fee, it becomes an in-text contradiction.",
+        "location": "Section 8.5",
+        "contradicted_location": "Section 8.4",
+        "contradicted_text": "8.4. Termination for Convenience. Customer may elect to terminate this Agreement for any reason upon six months written notice to Metavante, provided Customer shall pay Metavante the \"Termination Fee\" defined and computed in accordance with the table below. The \"Termination Fee\" shall be paid prior to the Effective Date of Termination of the Agreement, as applicable. In addition to the foregoing, Customer shall pay to Metavante any amortized but unpaid one-time set-up fees, enhancement fees or implementation fees and all reasonable costs in connection with the disposition of equipment, facilities and contracts exclusively related to Metavante's performance of the Services under this Agreement. The Termination Fee shall be an amount equal to a percentage of the Estimated Remaining Value as set forth below. The \"Estimated Remaining Value\" means the mathematical product of (a) the average monthly fee paid by Customer with respect to the Initial Services during the twelve (12) months immediately preceding the Effective Date of Termination, multiplied by (b) the number of unexpired whole months remaining between the Effective Date of Termination and the expiration of the Initial Term. The Termination Fee shall be equal to the Estimated Remaining Value",
+        "contradiction_exists": "YES",
+        "justification": "The original text, paragraph 8.5, intentionally omitted information about the termination fee. The changed text replaces this omission with a fixed termination fee of 1,000,000 USD. Paragraph 8.4 specifies that the termination fee is calculated based on a percentage of the estimated remaining value, which is derived from the average monthly fee and the number of unexpired months. The introduction of a fixed termination fee in the changed text directly contradicts the calculation method outlined in paragraph 8.4, creating a clear in-text contradiction as defined by Omissions - In Text Contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "9.3. *The information in this paragraph is intentionally omitted because confidential treatment has been requested pursuant to Rule 24b- 2 under the Securities Exchange Act of 1934, as amended.",
+        "changed_text": "9.3 Metavante’s liability for any damages under this agreement shall not exceed $5000.",
+        "explanation": "By stating the maximum liability of Metavante is $5000, creates an internal contradiction with section 9.2, which states, 'NEITHER PARTY WILL BE LIABLE TO THE OTHER PARTY (NOR TO ANY PERSON CLAIMING RIGHTS DERIVED FROM THE OTHER PARTY'S RIGHTS) IN CONTRACT, TORT (INCLUDING NEGLIGENCE), OR OTHERWISE, FOR INCIDENTAL, CONSEQUENTIAL, SPECIAL, PUNITIVE, OR EXEMPLARY DAMAGES OF ANY KIND' by specifying the maximum liability, it contratsicts the section that states the negation of all liabilities. By creating this contradiction, the change will affect the enforcement of this section.",
+        "location": "Section 9.3",
+        "contradicted_location": "Section 9.2",
+        "contradicted_text": "9.2. Exclusion of Incidental and Consequential Damages. Independent of, severable from, and to be enforced independently of any other provision of this Agreement, NEITHER PARTY WILL BE LIABLE TO THE OTHER PARTY (NOR TO ANY PERSON CLAIMING RIGHTS DERIVED FROM THE OTHER PARTY'S RIGHTS) IN CONTRACT, TORT (INCLUDING NEGLIGENCE), OR OTHERWISE, FOR INCIDENTAL, CONSEQUENTIAL, SPECIAL, PUNITIVE, OR EXEMPLARY DAMAGES OF ANY KIND—including lost profits, loss of business, or other economic damage, and further including injury to property, AS A RESULT OF BREACH OF ANY WARRANTY OR OTHER TERM OF THIS AGREEMENT, INCLUDING ANY FAILURE OF PERFORMANCE, REGARDLESS OF WHETHER THE PARTY LIABLE OR ALLEGEDLY LIABLE WAS ADVISED, HAD OTHER REASON TO KNOW, OR IN FACT KNEW OF THE POSSIBILITY THEREOF.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text in section 9.3 introduces a liability limit of $5000 for Metavante, which directly contradicts the existing clause in section 9.2 that explicitly excludes all liability for incidental, consequential, special, punitive, or exemplary damages. The original text in 9.3 was intentionally omitted. By stating a maximum liability when section 9.2 negates all liabilities, a clear and direct conflict is created making the terms incompatible."
+      }
+    ]
+  }
+]

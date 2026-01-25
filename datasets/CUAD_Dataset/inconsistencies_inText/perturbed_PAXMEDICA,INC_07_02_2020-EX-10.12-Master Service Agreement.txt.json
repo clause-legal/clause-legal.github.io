@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "PAXMEDICA,INC_07_02_2020-EX-10.12-Master Service Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "2.4 CRO will provide a detailed account of all time and tasks, as against project specific task and time addenda, and will be payable within 30 days of receipt of invoice by Client.",
+        "changed_text": "2.4 CRO will provide a detailed account of all time and tasks, as against project specific task and time addenda, and will be payable within 60 days of receipt of invoice by Client.",
+        "explanation": "This change introduces an in-text contradiction by modifying the payment deadline from '30 days' to '60 days'. This contradicts the payment schedule outlined in ADDENDA 1, creating uncertainty regarding the payment terms.",
+        "location": "2.4",
+        "contradicted_location": "ADDENDA 1",
+        "contradicted_text": "ADDENDA 1 Clinical Protocol Synopsis of Phase 2B Study using [***]to Treat Children with Autism Spectrum Disorder PAYMENT SCHEDULE (USD) With reference to OnQ proposal v3 13/04/2018 [***] Signature of Contract: 20% of Professional Fees OnQ costs Monitoring [***] [***] Office overhead [***] [***] Data Management [***] [***] [***] [***] Milestone Percentage USD ( amount) Signature of contract SAHPRA approval 15% [***] FPI 5% [***] 50% recruitment 20% [***] 100% recruitment 20% [***] DB lock 10% [***] CSR Draft 10% [***] Acceptance of Final CSR Final Payment [***]",
+        "contradiction_exists": "YES",
+        "justification": "The original text specified payment within 30 days, while the changed text extends this to 60 days. This directly contradicts the 'PAYMENT SCHEDULE' in ADDENDA 1, creating an inconsistency regarding the agreed-upon payment timeline for the project. ADDENDA 1 outlines milestone-based payments without referencing a 60-day delay, creating a direct conflict."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Client may terminate this Agreement on thirty (30) days written notice without cause.",
+        "changed_text": "Client may terminate this Agreement on sixty (60) days written notice without cause.",
+        "explanation": "Changing the termination notice period from 30 to 60 days creates an in-text contradiction with section 4.1, which states 'Either party may terminate this Agreement on thirty (30) days written notice if the other materially breaches this Agreement'. It causes ambiguity about the applicable notice period in the event of termination due to a breach.",
+        "location": "4.2",
+        "contradicted_location": "4.1",
+        "contradicted_text": "4.1. Either party may terminate this Agreement on thirty (30) days written notice if the other materially breaches this Agreement; provided, however that the party in breach shall have the right to cure such breach within thirty (30) days after receipt of written notice of the other party's intention to terminate.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the termination notice period for the client from 30 to 60 days, while section 4.1 stipulates a 30-day notice period for termination due to a material breach. This creates a contradiction regarding the applicable notice period, particularly when the client is terminating the agreement due to the other party's breach. A reasonable reader would be confused about which notice period to apply."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "In the event of a conflict between the terms of this Agreement and the Project-specific Addenda the terms of this Agreement shall prevail unless specifically stated in the Project-specific Addenda.",
+        "changed_text": "In the event of a conflict between the terms of this Agreement and the Project-specific Addenda the terms of the Project-specific Addenda shall prevail unless specifically stated in this Agreement.",
+        "explanation": "By reversing the order of precedence between the Agreement and the Project-specific Addenda, this change creates significant in-text contradiction. Now the project-specific addenda overrules the agreement, unless something is stated in the main agreement. The original section prioritized the agreement itself and it is now completely inversed, therefore, generating uncertainty in enforcing the contract.",
+        "location": "2.6",
+        "contradicted_location": "2.6",
+        "contradicted_text": "2.6. In the event of a conflict between the terms of this Agreement and the Project-specific Addenda the terms of the Project-specific Addenda shall prevail unless specifically stated in this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text inverts the precedence between the Agreement and the Project-specific Addenda, directly contradicting the contradicted text, which is now in the same location and exhibits the opposite precedence. This inconsistency regarding which document prevails creates a clear conflict, leading to uncertainty and potential unenforceability, because it is placed in two locations with conflicting implications. The changes create an in-text contradiction, as defined by 'Inconsistencies - In Text Contradiction'."
+      }
+    ]
+  }
+]

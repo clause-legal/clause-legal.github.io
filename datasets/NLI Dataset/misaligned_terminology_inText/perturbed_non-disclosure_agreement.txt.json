@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "non-disclosure_agreement.txt",
+    "perturbation": [
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "Non-Disclosure Agreement WHEREAS, [Company Name] is producing a film entitled __________ ______________ (hereinafter referred to as the Project), this agreement is made this _________________________, by and between [Company Name] and ________________________.",
+        "changed_text": "Non-Disclosure Agreement WHEREAS, [Company Name] is producing a film entitled __________ ______________ (hereinafter referred to as the Venture), this agreement is made this _________________________, by and between [Company Name] and ________________________.",
+        "explanation": "Changing 'Project' to 'Venture' creates confusion because the term 'Project' is specifically defined in the original agreement. Throughout the document, it will now be unclear whether 'Project' or 'Venture' is intended, creating an in-text contradiction.",
+        "location": "Agreement Preamble",
+        "contradicted_location": "Section 1",
+        "contradicted_text": "1. All information disclosed by [Company Name] and/or those individuals or organizations working in collaboration with Back Burner Films, written, electronic or oral, that relates or refers directly or indi- rectly, to the Project including the script itself, sh all hereafter and forever be deemed confidential and shall constitute Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text defines the film as 'Project'. The changed text redefines it as 'Venture'. The contradicted text refers to 'Project'. Now, the contradicted text is unclear because it refers to the 'Project', but the definition of 'Project' no longer exists in the changed text. The contract now has two terms for the film, 'Project' and 'Venture', where originally it had just one. The Misaligned Terminology - In Text Contradiction definition clearly states that in-text contradictions occur when a contract 'uses multiple terms interchangeably without defining them, leading to conflicting obligations'. This change creates a strong in-text contradiction because it renders the 'Project' term ambiguous within the contract."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "All information disclosed by [Company Name] and/or those individuals or organizations working in collaboration with Back Burner Films, written, electronic or oral, that relates or refers directly or indi- rectly, to the Project including the script itself, sh all hereafter and forever be deemed confidential and shall constitute Confidential Information.",
+        "changed_text": "All information disclosed by [Company Name] and/or those individuals or organizations working in collaboration with Back Burner Films, written, electronic or oral, that relates or refers directly or indi- rectly, to the Film including the script itself, sh all hereafter and forever be deemed confidential and shall constitute Confidential Information.",
+        "explanation": "Changing 'Project' to 'Film' creates ambiguity. 'Project' is initially defined as the specific film being produced, using the title. Switching to the general term 'Film' in Section 1 now makes it unclear if the NDA covers only the specific film named or all film-related information of the company.",
+        "location": "Section 1",
+        "contradicted_location": "Agreement Preamble",
+        "contradicted_text": "Non-Disclosure Agreement WHEREAS, [Company Name] is producing a film entitled __________ ______________ (hereinafter referred to as the Project), this agreement is made this _________________________, by and between [Company Name] and ________________________.",
+        "contradiction_exists": "YES",
+        "justification": "The original text refers to information related to the 'Project' which, as defined in the contradicted text, is a specific film with a specific title. The changed text replaces 'Project' with 'Film', making the confidentiality agreement potentially applicable to *any* film-related information of the company, not just the specific film named in the 'WHEREAS' clause. This misaligned terminology creates ambiguity and a contradiction because the contradicted section clearly defines the scope as a particular 'Project' and the changed text broadens the scope to any 'Film' which is inconsistent."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The Confidential Information shall remain the proper ty of the [Company Name] and shall not be dis- closed or revealed to anyone except to [Compa ny Name], its agents, licensees, successors and as- signs.",
+        "changed_text": "The Protected Data shall remain the proper ty of the [Company Name] and shall not be dis- closed or revealed to anyone except to [Compa ny Name], its agents, licensees, successors and as- signs.",
+        "explanation": "Changing 'Confidential Information' to 'Protected Data' without defining 'Protected Data' introduces a contradiction. The contract defines 'Confidential Information' in Section 1, but now uses a different, undefined term. This now creates an in-text contradiction. The original contract speaks of Confidential Information",
+        "location": "Section 2",
+        "contradicted_location": "Section 1",
+        "contradicted_text": "1. All information disclosed by [Company Name] and/or those individuals or organizations working in collaboration with Back Burner Films, written, electronic or oral, that relates or refers directly or indi- rectly, to the Project including the script itself, sh all hereafter and forever be deemed confidential and shall constitute Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text uses 'Confidential Information', which is defined in Section 1. The changed text replaces this with 'Protected Data', which is not defined. This creates a contradiction because the contract now refers to an undefined term, leading to uncertainty about what information is actually protected. The contradicted text explicitly defines 'Confidential Information', so using 'Protected Data' breaks this connection and creates an in-text contradiction as the contract now uses a different, undefined term for the same concept, potentially conflicting obligations."
+      },
+      {
+        "type": "Misaligned Terminology - In Text Contradiction",
+        "original_text": "The undersigned shall be responsible for an y improper disclosure of Confidential Information.",
+        "changed_text": "The recipient shall be responsible for an y improper disclosure of Confidential Information.",
+        "explanation": "Changing 'undersigned' to 'recipient' creates a contradiction. The agreement is between [Company Name] and a second party represented by a signature. This person is known as the 'undersigned'. Using the term 'recipient' in its place introduces an ambiguity, since the recipient could be someone else other than the undersigned.",
+        "location": "Section 2",
+        "contradicted_location": "Signatures section",
+        "contradicted_text": "__________________________________ __________________________________ N a m e D a t e",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'undersigned' to 'recipient' introduces ambiguity because 'recipient' is not explicitly defined in relation to the signatory party, while the original text clearly defines the responsible party as the 'undersigned', which is the person whose name and date appear in the signature block. The contradicted text is a signature line where 'undersigned' would sign. By changing 'undersigned' to 'recipient', the contract now places liability on potentially any recipient of confidential information, even if that person is not the signatory. This creates a contradiction and violates the definition of Misaligned Terminology."
+      }
+    ]
+  }
+]

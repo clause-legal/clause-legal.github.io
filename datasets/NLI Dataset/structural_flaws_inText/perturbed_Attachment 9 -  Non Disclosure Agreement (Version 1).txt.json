@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "Attachment 9 -  Non Disclosure Agreement (Version 1).txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "“Permitted Purpose” has the meaning given to that expression in the recital to this Agreement;",
+        "changed_text": "“Permitted Purpose” has the meaning given to that expression in the recital to this Agreement, *except when the Receiving party deems otherwise*;",
+        "explanation": "By adding \"except when the Receiving party deems otherwise\", we introduce a contradiction. The original definition links the Permitted Purpose directly to the recital. The change introduces ambiguity, allowing the Receiving Party to unilaterally redefine or deviate from the agreed-upon purpose. This directly contradicts clause 2.1.5, which restricts the use of Confidential Information to the Permitted Purpose as originally defined.",
+        "location": "1.1",
+        "contradicted_location": "2.1",
+        "contradicted_text": "2.1 In consideration of the Disclosing Party providing Confidential Information, at its discretion, to the Receiving Party, the Receiving Party shall: 2.1.1 treat all Confidential Information as secret and confidential; 2.1.2 have in place and maintain proper security measures and procedures to protect the confidentiality of the Confidential Information (having regard to its form and nature); 2.1.3 not disclose or permit the disclosure of any of the Confidential Information to any other person without obtaining the prior written consent of the Disclosing Party or, if relevant, other owner or except as expressly set out in this Agreement; 2.1.4 not transfer any of the Confidential Information outside the [United Kingdom]; 2.1.5 not use or exploit any of the Confidential Information for any purpose whatsoever other than the Permitted Purpose; and 2.1.6 immediately notify the Disclosing Party in writing if it suspects or becomes aware of any unauthorised access, copying, use or disclosure in any form of any of the Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text adds \"except when the Receiving party deems otherwise\" to the definition of \"Permitted Purpose.\" This creates a direct contradiction with clause 2.1.5, which states the Receiving Party shall \"not use or exploit any of the Confidential Information for any purpose whatsoever other than the Permitted Purpose.\" The change allows the Receiving Party to unilaterally redefine the Permitted Purpose, which conflicts with the restriction in 2.1.5."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "1.1.1.4 was independently developed without access to the Confidential Information;",
+        "changed_text": "1.1.1.4 was independently developed *with* access to the Confidential Information;",
+        "explanation": "Changing 'without' to 'with' directly contradicts the exception clause. Initially, information independently developed with*out* access to the Confidential Information is excluded from the NDA's confidentiality obligations. This perturbation means that even if information was developed with access to confidential information, it is *still* not treated as confidential. This directly contradicts the core confidentiality obligations detailed in Clause 2.1.",
+        "location": "1.1",
+        "contradicted_location": "2.1",
+        "contradicted_text": "2.1 In consideration of the Disclosing Party providing Confidential Information, at its discretion, to the Receiving Party, the Receiving Party shall: 2.1.1 treat all Confidential Information as secret and confidential; 2.1.2 have in place and maintain proper security measures and procedures to protect the confidentiality of the Confidential Information (having regard to its form and nature); 2.1.3 not disclose or permit the disclosure of any of the Confidential Information to any other person without obtaining the prior written consent of the Disclosing Party or, if relevant, other owner or except as expressly set out in this Agreement; 2.1.4 not transfer any of the Confidential Information outside the [United Kingdom]; 2.1.5 not use or exploit any of the Confidential Information for any purpose whatsoever other than the Permitted Purpose; and 2.1.6 immediately notify the Disclosing Party in writing if it suspects or becomes aware of any unauthorised access, copying, use or disclosure in any form of any of the Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that information independently developed *without* access to confidential information would not be treated as confidential. The changed text now states that information developed *with* access to confidential information is not treated as confidential. This directly contradicts clause 2.1 which states the Receiving Party shall treat all Confidential Information as secret and confidential. The change fundamentally alters the scope of what is considered confidential information and creates a direct conflict."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "2.1.4 not transfer any of the Confidential Information outside the [United Kingdom];",
+        "changed_text": "2.1.4 *may* transfer any of the Confidential Information outside the [United Kingdom];",
+        "explanation": "Changing \"not transfer\" to \"may transfer\" in clause 2.1.4 introduces a direct contradiction. Initially, there's a strict prohibition on transferring confidential information outside the UK. This modification allows for such transfers, undermining the original restriction. This creates a direct in-text contradiction of that section, because a clause cannot allow and prohibit something at the same time.",
+        "location": "2.1",
+        "contradicted_location": "2.1",
+        "contradicted_text": "2.1 In consideration of the Disclosing Party providing Confidential Information, at its discretion, to the Receiving Party, the Receiving Party shall: 2.1.1 treat all Confidential Information as secret and confidential; 2.1.2 have in place and maintain proper security measures and procedures to protect the confidentiality of the Confidential Information (having regard to its form and nature); 2.1.3 not disclose or permit the disclosure of any of the Confidential Information to any other person without obtaining the prior written consent of the Disclosing Party or, if relevant, other owner or except as expressly set out in this Agreement; 2.1.4 may transfer any of the Confidential Information outside the [United Kingdom]; 2.1.5 not use or exploit any of the Confidential Information for any purpose whatsoever other than the Permitted Purpose; and 2.1.6 immediately notify the Disclosing Party in writing if it suspects or becomes aware of any unauthorised access, copying, use or disclosure in any form of any of the Confidential Information.",
+        "contradiction_exists": "YES",
+        "justification": "The original text strictly prohibits the transfer of confidential information outside the UK. The changed text allows for such transfers ('may transfer'). This directly contradicts the initial prohibition, creating a strong in-text contradiction within section 2.1. The explanation clearly states that a clause cannot both prohibit and allow an action, and this change introduces exactly that scenario."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "5.3 Following any destruction or return of Confidential Information to the Disclosing Party pursuant to Clause 5.1, the Receiving Party’s obligations under this Agreement shall otherwise continue in force without limit of time.",
+        "changed_text": "5.3 Following any destruction or return of Confidential Information to the Disclosing Party pursuant to Clause 5.1, the Receiving Party’s obligations under this Agreement shall *immediately cease*.",
+        "explanation": "By stating 'immediately cease', this directly contradicts the phrase 'otherwise continue in force without limit of time'. The original clause establishes that the NDA obligations continue even after the information is returned or destroyed. The change negates this, saying the obligations end at that point. This in-text contradiction makes the duration and extent of the confidentiality obligations unclear, which is an intended perturbation.",
+        "location": "5.3",
+        "contradicted_location": "5.3",
+        "contradicted_text": "5.3 Following any destruction or return of Confidential Information to the Disclosing Party pursuant to Clause 5.1, the Receiving Party’s obligations under this Agreement shall immediately cease.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text of Clause 5.3 states that the Receiving Party’s obligations under the Agreement shall immediately cease, which directly contradicts the original intent of the clause and also the Contradicted Text which repeats the same Clause 5.3 where the Receiving Party's obligations immediately cease. The Perturbation Explanation confirms the changed text negates the original text, creating an in-text contradiction that impacts the duration of the confidentiality obligations. The Changed text causes a contradiction."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "6.1 The Receiving Party acknowledges and agrees that all property, including intellectual property rights, in Confidential Information disclosed to it by the Disclosing Party shall remain with and be vested in the Disclosing Party or relevant member of the Disclosing Party Group.",
+        "changed_text": "6.1 The Receiving Party acknowledges and agrees that all property, including intellectual property rights, in Confidential Information disclosed to it by the Disclosing Party shall *transfer* to and be vested in the Receiving Party.",
+        "explanation": "Changing 'remain with' to 'transfer to' directly contradicts the ownership of the confidential information. The original clause clearly states the property remains with the Disclosing Party. This modification asserts that the property rights are transferred to the Receiving Party, creating an immediate and fundamental contradiction regarding intellectual property ownership. If intellectual property rights transfer to the receiving party, it creates a direct contradiction as the intellectual property can no longer be considered confidential under Confidential Information",
+        "location": "6.1",
+        "contradicted_location": "6.1",
+        "contradicted_text": "6.1 The Receiving Party acknowledges and agrees that all property, including intellectual property rights, in Confidential Information disclosed to it by the Disclosing Party shall transfer to and be vested in the Receiving Party.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that intellectual property rights in confidential information remain with the Disclosing Party. The changed text asserts that these rights 'transfer to' the Receiving Party, which directly contradicts the original ownership clause. This creates an immediate contradiction, as the Disclosing party can no longer claim full ownership as per the contradicted text. Also, if the receiving party now owns the 'Confidential Information' it may no longer be confidential information."
+      }
+    ]
+  }
+]

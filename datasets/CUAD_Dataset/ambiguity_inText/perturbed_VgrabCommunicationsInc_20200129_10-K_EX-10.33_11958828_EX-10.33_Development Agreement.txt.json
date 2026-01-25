@@ -1,0 +1,40 @@
+[
+  {
+    "file_name": "VgrabCommunicationsInc_20200129_10-K_EX-10.33_11958828_EX-10.33_Development Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "PAYMENT TERMS All Parties agreed the payment listed below are fair and just for the services being provided. Payment to the following individual below within 7 days upon completion and handover on the Project to VAL.",
+        "changed_text": "PAYMENT TERMS All Parties agreed the payment listed below are fair and just for the services being provided. Payment to the following individual below within 60 days upon completion and handover on the Project to VAL.",
+        "explanation": "The change in payment terms from 'within 7 days' to 'within 60 days' after completion creates a contradiction with the later clause regarding bug fixing warranty which could imply earlier completion milestones being paid within 7 days. This affects the section on bug fixing warranty timeframe and when it starts.",
+        "location": "5",
+        "contradicted_location": "7",
+        "contradicted_text": "CHANGE ORDERS do not however cover any bug or glitch fixing produced out of the code written by Developer as any \"bug\" will be fixed by Developer for free up to 3 months after final delivery (Bug Fixing Warranty).",
+        "contradiction_exists": "YES",
+        "justification": "The change from 'within 7 days' to 'within 60 days' for payment after project completion directly impacts the 'Bug Fixing Warranty' period which begins 'after final delivery'. If 'final delivery' triggers payment within 60 days instead of 7, it delays the start of the 3-month bug fixing warranty, creating a contradiction about when this warranty period commences. The original text implied a quicker payment timeline tied to final delivery, while the changed text significantly extends this timeline, affecting the warranty's starting point and therefore violating the definition of Ambiguities."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "INTELLECTUAL PROPERTY RIGHTS AND OWNERSHIP All Intellectual Property during the project is owned by VAL, and will be turned over to VAL at the conclusion of the project by Developer and after the fulfillment of all commercial obligations by the VAL. All rights and title to Duesey Coffee Intellectual Property created pursuant to the Project shall belong to VAL and shall be subject to the terms and conditions of this Agreement.",
+        "changed_text": "INTELLECTUAL PROPERTY RIGHTS AND OWNERSHIP All Intellectual Property during the project is jointly owned by VAL and the Developer, and each party retains the rights to use and license it independently. All rights and title to Duesey Coffee Intellectual Property created pursuant to the Project shall be jointly belong to VAL and the Developer and shall be subject to the terms and conditions of this Agreement.",
+        "explanation": "Changing Intellectual Property ownership from solely VAL to joint ownership between VAL and the Developer creates a contradiction with the later section on termination. This creates uncertainty regarding what happens to the jointly owned IP upon termination of the agreement, leading to potential disputes. Because it is a contradiction in the definition of ownership and later affects the termination clause.",
+        "location": "11.1",
+        "contradicted_location": "12.1",
+        "contradicted_text": "TERMINATION VAL shall, in the event of Developer committing any breach of any of the terms and conditions of this agreement or for any other reason considered as sufficient, be entitled to terminate this agreement by giving two (2) weeks' notice in writing and it is applicable only when the project is not completed.",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that VAL owns all Intellectual Property, while the changed text indicates joint ownership between VAL and the Developer. The contradicted text gives VAL the right to terminate the agreement if the Developer breaches the agreement or for any other sufficient reason. With the changed text, the termination clause now creates a contradiction. If the agreement is terminated by VAL, it's unclear what happens to the jointly owned Intellectual Property, causing an ambiguity and creating potential disputes, and this relates directly to the termination clause which VAL may trigger based on their discretion."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "TERM OF AGREEMENT This Agreement commences on the date it is executed and shall continue until full performance by both parties, or until earlier terminated by one party under the terms of this Agreement.",
+        "changed_text": "TERM OF AGREEMENT This Agreement commences on the date it is executed and shall continue for a period of one year, regardless of performance by both parties, unless earlier terminated by one party under the terms of this Agreement.",
+        "explanation": "Changing the term of agreement from 'until full performance' to 'for a period of one year' creates a contradiction. Full performance could occur before or after one year. This contradicts the clause where it says termination can occur if the project is not completed which aligns with full performance of the agreement not a specific time constraint. This affects the interpretation of what constitutes a valid termination and whether VAL is obliged to continue the agreement even after the project is completed within 6 months.",
+        "location": "13",
+        "contradicted_location": "12.1",
+        "contradicted_text": "TERMINATION VAL shall, in the event of Developer committing any breach of any of the terms and conditions of this agreement or for any other reason considered as sufficient, be entitled to terminate this agreement by giving two (2) weeks' notice in writing and it is applicable only when the project is not completed. If the customer terminates the agreement, then VAL shall compensate the Developer up to the date of termination with a fee calculated on Pro-rata basis. Developer may also terminate this Agreement by giving two (2) weeks' notice in writing to VAL. It is applicable only when the project is not completed. In case Developer terminates the agreement, it shall handover the entire project related IPR, work done till date to VAL.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the term of the agreement from 'until full performance' to a fixed period of 'one year'. This directly contradicts the 'TERMINATION' clause, which explicitly states that termination is applicable 'only when the project is not completed.' The original text linked termination to project completion, aligning with full performance. The changed text introduces a time constraint, making the termination clause ambiguous: Can the agreement be terminated if the project *is* completed within a year? The fixed one-year term now conflicts with the termination clause contingent on project non-completion, thus creating a clear in-text contradiction as defined in the provided \"Ambiguities – In Text Contradiction\""
+      }
+    ]
+  }
+]

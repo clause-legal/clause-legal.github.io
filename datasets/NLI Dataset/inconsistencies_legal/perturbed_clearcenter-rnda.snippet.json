@@ -1,0 +1,117 @@
+[
+  {
+    "file_name": "clearcenter-rnda.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "The receiving party will maintain the confidentiality of the Confidential Information of the disclosing party with at least the same degree of care that it uses to protect its own confidential and proprietary information, but no less than a reasonable degree of care under the circumstances.",
+        "changed_text": "The receiving party will maintain the confidentiality of the Confidential Information of the disclosing party with at least a minimal degree of care.",
+        "explanation": "The modified text reduces the standard of care required, potentially violating trade secret laws that require reasonable efforts to maintain confidentiality.",
+        "contradicted_law": "Utah Uniform Trade Secrets Act",
+        "law_citation": "Utah Code Ann. \u00a7 13-24-2",
+        "law_url1": [
+          "https://le.utah.gov/xcode/Title13/Chapter24/13-24-S2.html?v=C13-24-S2_2023050320230503"
+        ],
+        "law_url2": [
+          "https://law.justia.com/codes/utah/2023/title-13/chapter-24/section-13-24-2/"
+        ],
+        "law_explanation": "The Utah Uniform Trade Secrets Act requires reasonable efforts to maintain the secrecy of trade secrets. Reducing the standard of care to 'minimal' is a violation of the requirement to take 'reasonable' measures.",
+        "location": "2",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": "",
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The modified text directly contradicts the legal requirement for reasonable efforts to maintain trade secret confidentiality, as explained in the Law Explanation, by reducing the standard of care to 'minimal.' The Perturbation Explanation also highlights this violation. While the absence of explicit law snippets limits direct references, the change from 'reasonable degree of care' to 'minimal degree of care' clearly undermines the intent to protect trade secrets adequately, thus creating a contradiction based on the provided explanations and perturbation type description, which is Inconsistencies - Legal Contradiction."
+      },
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "The confidentiality obligations set forth in this Agreement shall bind the Parties for a period of five (5) years from the date of disclosure of Confidential Information, unless any of the exceptions set forth in Section 4 below occurs.",
+        "changed_text": "The confidentiality obligations set forth in this Agreement shall bind the Parties for a period of one (1) year from the date of disclosure of Confidential Information, unless any of the exceptions set forth in Section 4 below occurs.",
+        "explanation": "Changing the confidentiality period to one year may be insufficient to protect certain types of trade secrets, potentially violating state trade secret laws if the information retains economic value from not being generally known.",
+        "contradicted_law": "Utah Uniform Trade Secrets Act",
+        "law_citation": "Utah Code Ann. \u00a7 13-24-2",
+        "law_url1": [
+          "https://le.utah.gov/xcode/Title13/Chapter24/13-24-S2.html?v=C13-24-S2_2023050320230503"
+        ],
+        "law_url2": [
+          "https://law.justia.com/codes/utah/2023/title-13/chapter-24/section-13-24-2/"
+        ],
+        "law_explanation": "If the trade secret maintains its value beyond one year, then setting a one year limit could be construed as a failure to protect the trade secret owner's rights.",
+        "location": "3",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": "",
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the confidentiality period from five years to one year. The Perturbation Explanation suggests that this change may be insufficient to protect trade secrets, violating state laws if the information retains economic value beyond one year. The Law Explanation supports this, stating that limiting the confidentiality period to one year could be a failure to protect the trade secret owner's rights if the trade secret maintains its value beyond that timeframe. This aligns with the 'Inconsistencies Legal Contradiction' definition, as the altered time-sensitive obligation conflicts with the need to adequately protect trade secrets as mandated by law. While there are no law snippets provided to explicitly prove this, the LLM explanation provides a valid legal ground."
+      },
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "provided that the receiving party shall give the disclosing party reasonable notice prior to such disclosure and shall comply with any applicable protective order.",
+        "changed_text": "provided that the receiving party shall notify the disclosing party after such disclosure.",
+        "explanation": "Changing 'prior notice' to 'after notice' violates the duty to protect confidential information as required under Utah law. Prior notice allows the disclosing party to seek legal remedies to prevent disclosure. Notification after the fact is insufficient.",
+        "contradicted_law": "Utah Rules of Civil Procedure, Rule 26(c)",
+        "law_citation": "Utah R. Civ. P. 26(c)",
+        "law_url1": [
+          "https://rules.utcourts.gov/files/urcp/UCJA_Rule_26_010101.pdf"
+        ],
+        "law_url2": [
+          "https://casetext.com/rule/utah-court-rules/utah-rules-of-civil-procedure/rule-26-general-provisions-governing-discovery-duty-of-disclosure"
+        ],
+        "law_explanation": "Rule 26(c) allows parties to seek a protective order to prevent disclosure of confidential information. Eliminating prior notice impedes this right, conflicting with procedures designed to safeguard sensitive information.",
+        "location": "4(e)",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The original text requires 'reasonable notice prior to such disclosure,' allowing the disclosing party to take preventative legal action. The changed text mandates notification 'after such disclosure,' which eliminates the opportunity for preventative measures and thus weakens the protection of confidential information. While no law snippets were provided, the perturbation explanation and law explanation both indicate that this change undermines the disclosing party's ability to seek a protective order, thus creating a legal contradiction within the scope of Inconsistencies."
+      },
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "Either party may terminate this Agreement at any time without cause upon written notice to the other party; provided that each party\u2019s obligations with respect to Confidential Information disclosed during the term of this Agreement will survive any such termination.",
+        "changed_text": "Either party may terminate this Agreement at any time without cause or notice to the other party; provided that each party\u2019s obligations with respect to Confidential Information disclosed during the term of this Agreement will terminate immediately with the agreement.",
+        "explanation": "Removing the requirement for written notice and removing the survival clause after termination could violate trade secret law by failing to adequately protect trade secrets after the agreement ends.",
+        "contradicted_law": "Utah Uniform Trade Secrets Act",
+        "law_citation": "Utah Code Ann. \u00a7 13-24-3",
+        "law_url1": [
+          "https://le.utah.gov/xcode/Title13/Chapter24/13-24-S3.html?v=C13-24-S3_2023050320230503"
+        ],
+        "law_url2": [
+          "https://law.justia.com/codes/utah/2023/title-13/chapter-24/section-13-24-3/"
+        ],
+        "law_explanation": "Terminating the confidentiality obligations immediately upon termination of the agreement could make it easier for a party to misappropriate a trade secret, violating Utah Code Ann. \u00a7 13-24-3, which provides remedies for misappropriation.",
+        "location": "6",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": "",
+        "scraped_snippet_2": null,
+        "scrape_success": 0,
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the requirement for written notice and terminates confidentiality obligations immediately upon termination of the agreement. The Perturbation Explanation suggests this could violate trade secret law. The Law Explanation says that terminating confidentiality obligations immediately upon termination could make it easier to misappropriate a trade secret, potentially violating Utah Code Ann. \u00a7 13-24-3. Since the changed text directly contradicts the need to protect trade secrets by immediately terminating confidentiality, this creates a direct conflict with the underlying legal principle aimed at preventing misappropriation, thus creating a legal contradiction under the definition provided."
+      },
+      {
+        "type": "Inconsistencies - Legal Contradiction",
+        "original_text": "This Agreement will be governed by the laws of the State of Utah without reference to conflict of laws principles, if any.",
+        "changed_text": "This Agreement will be governed by the laws of the Republic of Freedonia.",
+        "explanation": "Choosing the laws of a fictional country invalidates the choice of law provision and potentially renders the entire agreement unenforceable in a US court, thus failing to provide the protections intended by the agreement under the Utah Uniform Trade Secret Act.",
+        "contradicted_law": "Utah Uniform Trade Secrets Act",
+        "law_citation": "Utah Code Ann. \u00a7 13-24-1 et seq.",
+        "law_url1": [
+          "https://le.utah.gov/xcode/Title13/Chapter24/C13-24.html"
+        ],
+        "law_url2": [
+          "https://law.justia.com/codes/utah/2023/title-13/chapter-24/"
+        ],
+        "law_explanation": "By choosing a fictional jurisdiction, the agreement fails to specify which state's trade secret laws govern the agreement, making it impossible to enforce the trade secret protections intended by the Utah Uniform Trade Secret Act. Choice of law is typically governed by state law, and requires a reasonable relationship to the parties or transaction.",
+        "location": "7(d)",
+        "desired_official_urls": 1,
+        "scraped_snippet_1": null,
+        "scraped_snippet_2": "Utah Code Title 13, Chapter 24 (2023) - Uniform Trade Secrets Act :: 2023 Utah Code :: U.S. Codes and Statutes :: U.S. Law :: Justia There Is a Newer Version of this Chapter 2024 Utah Code 2023 Utah Code (here) 2022 Utah Code View All Versions View Our Newest Version Here 2023 Utah Code Title 13 - Commerce and Trade Chapter 24 - Uniform Trade Secrets Act Previous Next Section 1 - Short title. Section 2 - Definitions. Section 3 - Injunctive relief. Section 4 - Damages. Section 5 - Attorneys' fees. Section 6 - Preservation of secrecy. Section 7 - Statute of limitations. Section 8 - Effect on other law. Section 9 - Uniformity of application and construction. Previous Next Disclaimer: These codes may not be the most recent version. Utah may have more current or accurate information. We make no warranties or guarantees about the accuracy, completeness, or adequacy of the information contained on this site or the information linked to on the state site. Please check official sources. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. Free Daily Summaries in Your Inbox You're all set! You already receive all suggested Justia Opinion Summary Newsletters. You can explore additional available newsletters here . Sign up for our free summaries and get the latest delivered directly to you. Our Suggestions: Enter Your Email Webinars for All Ask a Lawyer Get Free Answers Have a legal question? Get free answers from experienced lawyers! Ask Question Find a Lawyer Lawyers - Get Listed Now! Get a free directory profile listing Toggle button Get free summaries of new opinions delivered to your inbox! Enter Your Email Sign Up Justia Legal Resources Find a Lawyer Bankruptcy Lawyers Business Lawyers Criminal Lawyers Employment Lawyers Estate Planning Lawyers Family Lawyers Personal Injury Lawyers More... Individuals Bankruptcy Criminal Divorce DUI Estate Planning Family Law Personal Injury More... Business Business Formation Business Operations Employment Intelle",
+        "scrape_success": 1,
+        "contradiction_exists": "YES",
+        "justification": "The modified text replaces the laws of the State of Utah with the laws of a fictional jurisdiction (Republic of Freedonia). The Law Explanation states that the choice of law requires a reasonable relationship to the parties or transaction, which is absent when choosing a fictional location. This directly undermines the enforceability of the agreement, including any protections intended by the Utah Uniform Trade Secrets Act as choosing a fictional jurisdiction renders it impossible to enforce any trade secret protections. Scraped Law Snippet 2 references the Utah Uniform Trade Secrets Act (Utah Code Title 13, Chapter 24), indicating its relevance. By choosing a fictional jurisdiction, the agreement fails to specify which state's trade secret laws govern the agreement, which contradicts the purpose of a choice of law provision."
+      }
+    ]
+  }
+]

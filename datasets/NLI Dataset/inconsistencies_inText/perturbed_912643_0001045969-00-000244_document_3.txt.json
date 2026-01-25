@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "912643_0001045969-00-000244_document_3.txt",
+    "perturbation": [
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The \"Confidential Period\" shall mean two (2) years from the date of receipt of the confidential information or until such time as the information no longer qualifies as confidential information pursuant to paragraph number 5 below.",
+        "changed_text": "The \"Confidential Period\" shall mean one (1) year from the date of receipt of the confidential information or until such time as the information no longer qualifies as confidential information pursuant to paragraph number 5 below.",
+        "explanation": "The change in the Confidential Period from two years to one year creates an in-text contradiction. Paragraph 3 now states a one-year confidential period, which contradicts paragraph 2, which implicitly refers to the original two-year period when stating that the receiving party agrees to retain the confidential information in confidence for the \"Confidential Period\", without specifying a period in paragraph 2. This introduces ambiguity about how long the confidential information must be protected.",
+        "location": "3",
+        "contradicted_location": "2",
+        "contradicted_text": "Unless otherwise expressly authorized by the disclosing party, the receiving party agrees to retain the confidential information in confidence for the \"Confidential Period\" defined in paragraph number 3 below, during which period the receiving party shall not disclose the confidential information to any third party, and shall not use the confidential information for any purpose other than the aforesaid purposes.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text modifies the 'Confidential Period' from two years to one year. The contradicted text states that the receiving party agrees to retain confidential information for the 'Confidential Period' defined in paragraph number 3 (the changed text). By reducing the period from two years to one year, the changed text directly contradicts the implicit understanding in paragraph 2 (contradicted text) that confidential information would be retained for the originally agreed-upon two years. This creates a strong in-text inconsistency as it pertains to conflicting obligations within the contract, aligning with the 'Inconsistencies - In Text Contradiction' definition. It also introduces ambiguity as the duration of confidentiality is now uncertain, creating an ambiguity. This means the changed text directly alters an existing obligation, breaking compatibility with the contradicted section."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Confidential information that is disclosed orally will be confirmed in writing by the disclosing party within thirty (30) days after such disclosure. The parties agree that such written confirmation when mailed by the disclosing party, will form a part of this Agreement.",
+        "changed_text": "Confidential information that is disclosed orally will be confirmed in writing by the disclosing party within fifteen (15) days after such disclosure. The parties agree that such written confirmation when mailed by the disclosing party, will form a part of this Agreement.",
+        "explanation": "By shortening the confirmation period for orally disclosed confidential information from 30 to 15 days, this introduces an in-text contradiction with Section 5, which does not take into account the change. If a piece of information is disclosed orally, and the disclosing party confirms it in writing on day 20, this technically fulfills section 1 requirement as forming part of the agreement, and is not a breach. However it is now a potential loophole since it fails to qualify as confidential information, if the disclosing party fails to meets this requirement in Section 1, within 15 days, therefore not obligating the other party to treat is as such based on the contract, per section 2.",
+        "location": "1",
+        "contradicted_location": "2",
+        "contradicted_text": "Unless otherwise expressly authorized by the disclosing party, the receiving party agrees to retain the confidential information in confidence for the \"Confidential Period\" defined in paragraph number 3 below, during which period the receiving party shall not disclose the confidential information to any third party, and shall not use the confidential information for any purpose other than the aforesaid purposes.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the confirmation period for orally disclosed confidential information from 30 to 15 days. This creates an inconsistency with the contradicted text, which obligates the receiving party to retain the confidential information during the 'Confidential Period' without accounting for the change in confirmation timeframe. As the explanation states, information disclosed orally and confirmed in writing between day 16 and day 30 technically fulfills Section 1's requirement of becoming part of the agreement, but might not be treated as confidential, if the disclosing party fails to meet the revised 15-day requirement."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "The receiving party shall limit dissemination of the confidential information to such of its employees or agents who have a need to know for the aforesaid purposes.",
+        "changed_text": "The receiving party may disseminate the confidential information to any of its employees or agents, regardless of whether they have a need to know for the aforesaid purposes.",
+        "explanation": "Changing 'shall limit dissemination' to 'may disseminate' creates an in-text contradiction. Originally Section 4 mandates limiting access to a 'need to know' basis, but this new permissive language creates conflicts within section 4.1, which still contains that instruction and is still in force.",
+        "location": "4",
+        "contradicted_location": "4.1",
+        "contradicted_text": "Further, the receiving party agrees to instruct all such employees and agents not to disclose such confidential information to third parties. Each such employee and agent shall be individually bound by this Agreement.",
+        "contradiction_exists": "YES",
+        "justification": "The original text limited dissemination of confidential information to employees/agents with a 'need to know'. The changed text allows dissemination to *any* employee/agent, regardless of 'need to know'. This directly contradicts the contradicted text, which requires instructing 'all such employees and agents not to disclose such confidential information to third parties' and makes them individually bound by the agreement. Allowing dissemination to anyone, irrespective of need, undermines the confidentiality obligations and creates a direct in-text inconsistency within section 4.1, aligning with the 'Inconsistencies - In Text Contradiction' perturbation type."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "Further, the receiving party agrees to instruct all such employees and agents not to disclose such confidential information to third parties. Each such employee and agent shall be individually bound by this Agreement.",
+        "changed_text": "Further, the receiving party agrees to instruct all such employees and agents not to disclose such confidential information to third parties; however, employees and agents are not individually bound by this Agreement.",
+        "explanation": "By stating that 'employees and agents are not individually bound by this Agreement', a contradiction emerges. The previous sentence says they should be instructed not to disclose, implying accountability. Section 7.1 contradicts this, stating the agreement is binding upon successors and assigns of the parties, which could be interpreted to include employees and agents acting on behalf of the company, making their status ambiguous.",
+        "location": "4.1",
+        "contradicted_location": "7.1",
+        "contradicted_text": "This Agreement shall be binding upon and inure to the benefit of the parties and their respective successors and assigns. This Agreement shall not be assignable by either party without the written consent of the other party, and any purported assignment not permitted hereunder shall be void. This document constitutes the entire agreement between the parties with respect to the subject matter hereof, and shall supersede all previous communications, representations, understandings and agreements, whether oral or written, between the parties or any official or representative thereof.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text explicitly states that employees and agents are 'not individually bound by this Agreement', directly contradicting the implied accountability in the original text (instructing them not to disclose implies they are bound) and introducing ambiguity with Section 7.1 regarding successors and assigns. The contradicted text states the agreement is binding, which could include employees and agents, creating a clear inconsistency about their obligations and whether they are bound by the agreement or not. This is a strong contradiction as it creates uncertainty regarding enforceability and accountability."
+      },
+      {
+        "type": "Inconsistencies - In Text Contradiction",
+        "original_text": "This Agreement shall not be assignable by either party without the written consent of the other party, and any purported assignment not permitted hereunder shall be void.",
+        "changed_text": "This Agreement shall be freely assignable by either party without the written consent of the other party, and any assignment shall be valid.",
+        "explanation": "Changing the assignment clause creates an in-text contradiction. Originally, the agreement required written consent for assignment. By making it freely assignable, it contradicts the original intent of requiring mutual agreement for any transfer of rights or obligations, and it now creates a conflict, especially since Section 7.1 still references successors, and whether or not those successors can now fully assume the obligations of the assignor.",
+        "location": "7.1",
+        "contradicted_location": "7.1",
+        "contradicted_text": "This Agreement shall be freely assignable by either party without the written consent of the other party, and any assignment shall be valid. This document constitutes the entire agreement between the parties with respect to the subject matter hereof, and shall supersede all previous communications, representations, understandings and agreements, whether oral or written, between the parties or any official or representative thereof.",
+        "contradiction_exists": "YES",
+        "justification": "The original text stated that the agreement was not assignable without written consent, but the changed text makes the agreement freely assignable. The contradicted text repeats the changed text. The change directly contradicts the initial requirement of written consent for assignment, creating a conflict within the document regarding the assignability of the agreement, as defined by the 'Inconsistencies - In Text Contradiction' perturbation type."
+      }
+    ]
+  }
+]

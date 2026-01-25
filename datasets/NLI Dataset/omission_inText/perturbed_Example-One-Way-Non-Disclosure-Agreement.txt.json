@@ -1,0 +1,51 @@
+[
+  {
+    "file_name": "Example-One-Way-Non-Disclosure-Agreement.txt",
+    "perturbation": [
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Discloser intends to disclose information (the Confidential Information) to the Recipient for the purpose of [insert details e.g. discussing the possibility of the Recipient and the Discloser entering into a joint venture] (the Purpose).",
+        "changed_text": "The Discloser intends to disclose information (the Confidential Information) to the Recipient (the Purpose).",
+        "explanation": "By removing the specific details regarding the purpose of the disclosure, it introduces ambiguity and uncertainty. While the term 'Purpose' is still defined, the lack of specifics contradicts other sections relying on a clear, defined purpose. If the purpose of the disclosure is not well defined, it creates an in-text contradiction.",
+        "location": "1",
+        "contradicted_location": "2",
+        "contradicted_text": "The Recipient undertakes not to use the Confidential Information for any purpose except the Purpose, without first obtaining the written agreement of the Discloser.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies the purpose of disclosing confidential information. The changed text omits the specific details, replacing them with '(the Purpose)'. The contradicted text states that the recipient can only use the information for 'the Purpose'. Since the changed text fails to define 'the Purpose' with sufficient detail, it creates an ambiguity and hence an in-text contradiction, rendering the contradicted clause unenforceable. The Recipient undertakes not to use the Confidential Information for any purpose except the Purpose, without first obtaining the written agreement of the Discloser. is therefore contradicted."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Recipient undertakes to keep the Confidential Information secure and not to disclose it to any third party [except to its employees [and professional advi sers] who need to know the same for the Purpose, who know they owe a duty of confidence to the Discloser and who are bound by obligations equivalent to those in clause 2 above and this clause 3.",
+        "changed_text": "The Recipient undertakes to keep the Confidential Information secure and not to disclose it to any third party.",
+        "explanation": "By omitting the exception for employees and professional advisors who need to know the information for the Purpose, the clause becomes overly broad and potentially unenforceable. This creates a contradiction because other clauses might assume a reasonable level of internal disclosure for the 'Purpose', especially if the 'Purpose' is collaborative. Removing this allowance renders the agreement contradictory with the implicit assumptions.",
+        "location": "3",
+        "contradicted_location": "1",
+        "contradicted_text": "The Discloser intends to disclose information (the Confidential Information) to the Recipient (the Purpose).",
+        "contradiction_exists": "YES",
+        "justification": "The original text allowed disclosure of confidential information to employees and advisors for the purpose, subject to confidentiality obligations. The changed text removes this exception, creating a blanket prohibition on disclosure to any third party. This contradicts the 'Purpose' clause, which implies some disclosure is necessary to achieve the intended exchange of information, as the Recipient now has a blanket prohibition and cannot disclose it to even its employees, so the two clauses are incompatible. This creates a direct contradiction."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "The Recipient will, on request from the Discloser, return all copies and records of the Confidential Information to the Discloser and will not retain any copies or records of the Confidential Information.",
+        "changed_text": "The Recipient will, on request from the Discloser, return all copies and records of the Confidential Information to the Discloser.",
+        "explanation": "By removing the phrase 'and will not retain any copies or records of the Confidential Information', the clause now implies that the Recipient can return the originals but keep copies. This contradicts the spirit of confidentiality. If there is no stated rule of not retaining the copies, it creates an in-text contradiction with what the confidentiality of the document entails.",
+        "location": "6",
+        "contradicted_location": "7",
+        "contradicted_text": "Neither this Agreement nor the supply of any information grants the Recipient any licence, interest or right in respect of any intellectual property rights of the Discloser except the ri ght to copy the Confidential Information solely for the Purpose.",
+        "contradiction_exists": "YES",
+        "justification": "The original text explicitly prohibits retaining copies of confidential information. The changed text removes this prohibition, implying that retaining copies is permissible after returning the originals. The contradicted text grants the recipient the right to copy the confidential information solely for the Purpose. Removing the explicit ban on retaining copies creates a contradiction because it opens the possibility of retaining copies for uses other than the specified Purpose, creating a conflict with the limited copying rights granted in the contradicted text."
+      },
+      {
+        "type": "Omissions - In Text Contradiction",
+        "original_text": "Neither this Agreement nor the supply of any information grants the Recipient any licence, interest or right in respect of any intellectual property rights of the Discloser except the ri ght to copy the Confidential Information solely for the Purpose.",
+        "changed_text": "Neither this Agreement nor the supply of any information grants the Recipient any licence, interest or right in respect of any intellectual property rights of the Discloser.",
+        "explanation": "By removing the phrase 'except the right to copy the Confidential Information solely for the Purpose', the clause now denies the Recipient the right to copy the Confidential Information, but section 6 indicates the Recipient will have copy to return on request. It creates an in-text contradiction of how the document is supposed to be returned on the request of the discloser.",
+        "location": "7",
+        "contradicted_location": "6",
+        "contradicted_text": "The Recipient will, on request from the Discloser, return all copies and records of the Confidential Information to the Discloser.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text removes the clause that allows the Recipient to copy the Confidential Information. This contradicts the contradicted text, which states that 'The Recipient will, on request from the Discloser, return all copies and records of the Confidential Information to the Discloser.' If the Recipient is not allowed to copy the information, it cannot return copies as requested, thus creating a direct contradiction."
+      }
+    ]
+  }
+]

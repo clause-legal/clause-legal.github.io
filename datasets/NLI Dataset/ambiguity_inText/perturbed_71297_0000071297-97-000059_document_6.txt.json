@@ -1,0 +1,29 @@
+[
+  {
+    "file_name": "71297_0000071297-97-000059_document_6.txt",
+    "perturbation": [
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "If GSEnergy desires to use individuals not employed by GSEnergy, GSEnergy shall not disclose Information to these individuals without obtaining prior written approval from the Company and having appropriate non-disclosure agreements signed in form and substance satisfactory to the Company.",
+        "changed_text": "If GSEnergy desires to use individuals not employed by GSEnergy, GSEnergy may disclose Information to these individuals after notifying the Company, without the need for non-disclosure agreements.",
+        "explanation": "This modification allows GSEnergy to disclose Information to third parties without prior approval or non-disclosure agreements, directly contradicting the original requirement for written approval and signed agreements. This creates an in-text contradiction as to whether third-party disclosure is controlled or not.",
+        "location": "3",
+        "contradicted_location": "3",
+        "contradicted_text": "If GSEnergy desires to use individuals not employed by GSEnergy, GSEnergy may disclose Information to these individuals after notifying the Company, without the need for non-disclosure agreements.",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the original requirement for GSEnergy to obtain prior written approval and non-disclosure agreements before disclosing information to third parties. The changed text allows GSEnergy to disclose information to third parties after simply notifying the Company, without needing non-disclosure agreements. This directly contradicts the original requirements, creating a strong in-text contradiction. The explanation provided confirms that the change allows for third-party disclosure without control, which is a direct conflict."
+      },
+      {
+        "type": "Ambiguities - In Text Contradiction",
+        "original_text": "This Agreement shall be governed by and construed and enforced in accordance with the laws of the Commonwealth of Massachusetts.",
+        "changed_text": "This Agreement shall be governed by and construed and enforced in accordance with the laws of the State of Delaware.",
+        "explanation": "Changing the governing law from Massachusetts to Delaware creates an internal contradiction, since the contract was specifically between Granite State Energy, Inc. and New England Power Company, and both are located in the state of Massachusetts. This creates conflict in legal interpretation and enforcement.",
+        "location": "6",
+        "contradicted_location": "6",
+        "contradicted_text": "This Agreement shall be governed by and construed and enforced in accordance with the laws of the State of Delaware.",
+        "contradiction_exists": "YES",
+        "justification": "The original text specifies Massachusetts law, but the changed text specifies Delaware law. The contradicted text also specifies Delaware law. The perturbation explanation states that the change creates an internal contradiction since the contract involves entities in Massachusetts. Thus, the changed text specifying Delaware law, especially considering the original text and explanation, contradicts the implicit understanding within the contract that Massachusetts law should apply, since the parties involved are located in Massachusetts, triggering an in-text contradiction because the governing law is defined inconsistently within the document."
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "NDA_ResConnect.txt",
+    "perturbation": [
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Agreement: means the agreement that is made between Mandarin and the Business Partner for the provision of products or services.",
+        "changed_text": "Agreement: means a preliminary understanding between Mandarin and the Business Partner, not necessarily binding, and subject to further negotiation before any provision of products or services.",
+        "explanation": "This change introduces uncertainty about the enforceability of the 'Agreement'. The original definition clearly states it's an agreement 'for the provision of products or services'. The modified definition casts doubt by calling it a 'preliminary understanding' and 'not necessarily binding'. This contradicts the rest of the document where the 'Agreement' is referenced as if it's a legally binding contract. Specifically, it contradicts sections referring to 'duration of the agreement', 'terms of the agreement', and 'legal dispute arising from this agreement' and directly contradicts section 2.",
+        "location": "1",
+        "contradicted_location": "2.1",
+        "contradicted_text": "Either party agrees that it shall ensure that it and its associated companies and their respective officers and employees shall keep confidential, both during and after the duration of the agreement, all information which:",
+        "contradiction_exists": "YES",
+        "justification": "The changed text alters the definition of 'Agreement' from a binding contract to a 'preliminary understanding, not necessarily binding'. This directly contradicts the contradicted text which refers to the 'duration of the agreement' implying a binding contract with a defined term. The change introduces ambiguity about whether the agreement is actually binding, which directly impacts the confidentiality obligations outlined in the contradicted text."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Business partner: means an individual or organisation with whom Mandarin is conducting business in terms of the agreement.",
+        "changed_text": "Business partner: means an individual or organisation with whom Mandarin *may potentially* conduct business *if* an agreement is reached.",
+        "explanation": "This change introduces uncertainty regarding the status of the 'Business Partner'. The original definition implies an existing business relationship. The modified definition suggests a *potential* relationship contingent on an agreement being reached. This contradicts section 4.1, which assumes an existing relationship for access to ResRequest information, this creating an in-text contradiction.",
+        "location": "1",
+        "contradicted_location": "4.1",
+        "contradicted_text": "The Business Partner agrees that access to ResRequest information will be used for the sole use of the Business Partner and no auxiliary distribution is permitted, unless agreed upon by both parties.",
+        "contradiction_exists": "YES",
+        "justification": "The original definition of 'Business partner' implies a current relationship. The changed text modifies this definition to describe a *potential* partner, only *if* an agreement is reached. This contradicts the 'Contradicted Text,' which states 'The Business Partner agrees that access to ResRequest information will be used for the sole use of the Business Partner...' because the Business Partner in the Changed Text may not have an agreement in place and therefore, contradicts the assumption in the 'Contradicted Text' that the 'Business Partner' has access to the ResRequest information. Therefore, based on the explanation given, a strong in-text contradiction exists."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Either party agrees that it shall ensure that it and its associated companies and their respective officers and employees shall keep confidential, both during and after the duration of the agreement, all information which:",
+        "changed_text": "Either party agrees that it *may* ensure that it and its associated companies and their respective officers and employees shall keep confidential, both during and after the duration of the agreement, all information which:",
+        "explanation": "This change weakens the obligation to maintain confidentiality. Replacing 'shall' with 'may' turns a mandatory requirement into a discretionary one. This contradicts the core purpose of a Non-Disclosure Agreement, creating ambiguity about the parties' responsibilities regarding confidential information. This directly impacts the enforceability of the confidentiality clauses and creates an in-text contradiction.",
+        "location": "2.1",
+        "contradicted_location": "2.3",
+        "contradicted_text": "Consists of any other information of a confidential nature belonging to, or connected with, the other party and its activities and clients, and designated by such party as confidential;",
+        "contradiction_exists": "YES",
+        "justification": "The original text uses 'shall' which is a mandatory requirement to maintain confidentiality. The changed text replaces 'shall' with 'may', weakening the obligation and making it discretionary. This contradicts the contradicted text, which refers to information 'of a confidential nature', implying an expectation of consistent confidentiality, creating an in-text contradiction as the level of confidentiality is no longer guaranteed."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "Any Business Partner shall maintain the material as confidential and shall not publish, disclose or distribute all or any portion of it (or any copies of it) to any other person or permit any other person access to it, save for employees, consultants or agents of the Business Partner for purposes specifically related to Mandarin’s use of the material.",
+        "changed_text": "Any Business Partner *may* maintain the material as confidential and shall not publish, disclose or distribute all or any portion of it (or any copies of it) to any other person or permit any other person access to it, save for employees, consultants or agents of the Business Partner for purposes specifically related to Mandarin’s use of the material.",
+        "explanation": "By changing 'shall maintain' to 'may maintain', the obligation on the Business Partner to keep the material confidential is weakened. This creates a direct contradiction within the agreement, as other sections assume the confidentiality of the materials. It creates an in-text contradiction by directly going against the core purpose of the document.",
+        "location": "3.2",
+        "contradicted_location": "2.3",
+        "contradicted_text": "Consists of any other information of a confidential nature belonging to, or connected with, the other party and its activities and clients, and designated by such party as confidential;",
+        "contradiction_exists": "YES",
+        "justification": "The original text imposed a strict requirement ('shall maintain') for Business Partners to keep materials confidential. The changed text weakens this obligation to a permission ('may maintain'). This creates a contradiction with the 'Contradicted Text,' which defines confidential information and assumes its protected status. The weakened obligation in the changed text means the Business Partner is not always required to keep the information confidential, therefore not aligned with the Confidential nature described in the Contradicted Text."
+      },
+      {
+        "type": "Structural Flaws - In Text Contradiction",
+        "original_text": "The Business Partner agrees that access to ResRequest information will be used for the sole use of the Business Partner and no auxiliary distribution is permitted, unless agreed upon by both parties.",
+        "changed_text": "The Business Partner agrees that access to ResRequest information *may* be used for the sole use of the Business Partner and no auxiliary distribution is permitted, unless agreed upon by both parties.",
+        "explanation": "Changing 'will be used' to 'may be used' weakens the restriction on the Business Partner's use of ResRequest information. This introduces ambiguity about whether the Business Partner is obligated to use the information solely for their own use, contradicting the original intention of limiting distribution. It creates an in-text contradiction related to the purpose of this agreement.",
+        "location": "4.1",
+        "contradicted_location": "2.3",
+        "contradicted_text": "Consists of any other information of a confidential nature belonging to, or connected with, the other party and its activities and clients, and designated by such party as confidential;",
+        "contradiction_exists": "YES",
+        "justification": "The original text states that access to ResRequest information 'will be used' for the sole use of the Business Partner, implying a mandatory obligation. The changed text weakens this obligation by stating that access to ResRequest information 'may' be used for the sole use of the Business Partner, introducing ambiguity. This contradicts the 'Contradicted Text' which states that the other party's confidential information is to be protected, as the 'may' weakens the guarantee that the information will only be used by the Business Partner and no auxiliary distribution is permitted, making the protection of confidential information ambiguous. The 'may' introduces a contradiction because it allows the business partner to potentially not use the information solely, which can then imply it will then not be kept confidential."
+      }
+    ]
+  }
+]
