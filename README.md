@@ -141,4 +141,4 @@ For questions about CLAUSE, please contact any of the authors:
 - Manan Roy Choudhury: mroycho1@asu.edu
 - Adithya Chandramouli: achand57@asu.edu
 - Mannan Anand: mannan.anand@asu.edu
-- Vivek Gupta: vgupta85@asu.edu
+- Vivek Gupta: vgupt140@asu.edu
