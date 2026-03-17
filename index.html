@@ -464,6 +464,50 @@
             word-break: break-word;
         }
 
+        /* Video Section */
+        .video-section {
+            background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+            padding: 3rem 2rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .video-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .video-title {
+            font-size: 1.8rem;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .video-title i {
+            color: var(--accent);
+            margin-right: 0.5rem;
+        }
+
+        .video-subtitle {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .video-wrapper {
+            position: relative;
+            background: var(--primary);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .video-wrapper video {
+            width: 100%;
+            display: block;
+            border-radius: 12px;
+        }
+
         /* Footer */
         .footer {
             background: var(--primary);
@@ -656,6 +700,9 @@
                 <a href="https://arxiv.org/abs/2511.00340" class="header-link" target="_blank">
                     <i class="fas fa-external-link-alt"></i> arXiv
                 </a>
+                <a href="assets/media/poster.pdf" class="header-link" target="_blank">
+                    <i class="fas fa-image"></i> Poster
+                </a>
             </div>
             <p class="co-first-note">* Equal contribution</p>
         </div>
@@ -672,6 +719,20 @@
             <a href="#citation">Citation</a>
         </div>
     </nav>
+
+    <!-- Video Presentation Section -->
+    <section class="video-section">
+        <div class="video-container">
+            <h2 class="video-title"><i class="fas fa-play-circle"></i> Video Presentation</h2>
+            <p class="video-subtitle">A 3-minute overview of our CLAUSE benchmark and key findings</p>
+            <div class="video-wrapper">
+                <video controls poster="assets/images/poster-thumbnail.png">
+                    <source src="assets/media/presentation.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
 
     <main class="main">
         <section id="abstract">
